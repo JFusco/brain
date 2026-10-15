@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "pages": {
+    "knowledge/nextjs/version-matched-docs.md": {
+      "sha256": "1efa8445dc0908271ec653ee5e881cd8238a84bdd2c390fbb186eb312c182212",
+      "proposal": "dc62ef183356b322579be711",
+      "digest": "dc62ef183356b322579be711b48b9cf470af379bb1cb8391b72322963fb38510",
+      "approvedAt": "2026-10-15T18:39:27.177Z"
+    }
+  }
+}

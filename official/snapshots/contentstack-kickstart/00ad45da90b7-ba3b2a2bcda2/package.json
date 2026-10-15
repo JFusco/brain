@@ -1,0 +1,48 @@
+{
+  "name": "kickstart-next-ssr",
+  "version": "1.2.2",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contentstack/kickstart-next-ssr"
+  },
+  "description": "Contentstack Kickstarts are the minimum amount of code needed to connect to Contentstack.",
+  "author": "Tim Benniks <tim.benniks@contentstack.com>",
+  "homepage": "https://contentstack.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@contentstack/delivery-sdk": "^5.6.0",
+    "@contentstack/live-preview-utils": "^4.5.0",
+    "@contentstack/utils": "^1.9.1",
+    "isomorphic-dompurify": "^3.23.0",
+    "next": "^16.2.12",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "postcss": "8.5.25",
+    "qs": "6.15.3",
+    "sharp": "0.35.3",
+    "nanoid": "3.3.18"
+  },
+  "optionalDependencies": {
+    "lightningcss-linux-x64-gnu": "^1.33.0"
+  }
+}

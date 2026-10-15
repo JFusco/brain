@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "domains": [
+    "frontend",
+    "react",
+    "nextjs",
+    "vercel",
+    "tailwind",
+    "cms/optimizely-saas",
+    "cms/contentstack",
+    "cms/sitecore-ai",
+    "cms/sitecore-xp",
+    "cms/contentful",
+    "_unsorted"
+  ],
+  "harvest": {
+    "projectPatterns": [
+      "*",
+      "@verndale/*",
+      "clients/*"
+    ],
+    "candidateBytes": 16384,
+    "sourceBytes": 8388608,
+    "excludeDirectories": [
+      "node_modules",
+      ".git",
+      "dist",
+      "build",
+      ".next",
+      "out",
+      "coverage",
+      "graphify-out",
+      "output",
+      "sessions",
+      "transcripts",
+      "rollouts",
+      "plans",
+      ".state",
+      "inbox",
+      ".pnpm-store",
+      ".venv",
+      "venv",
+      ".yarn",
+      ".cache",
+      ".turbo",
+      ".tox",
+      "__pycache__",
+      ".pytest_cache",
+      ".mypy_cache",
+      ".ruff_cache",
+      "worktrees",
+      ".worktrees",
+      ".qa",
+      ".qa-operations",
+      ".agent-browser",
+      ".playwright",
+      "playwright-report",
+      "test-results",
+      ".vercel"
+    ],
+    "excludeFiles": [
+      "mcp.json",
+      ".mcp.json",
+      "config.toml",
+      "auth.json",
+      "raw_memories.md",
+      "history.jsonl"
+    ],
+    "classifierVersion": 2
+  },
+  "keywords": {
+    "nextjs": [
+      "next.js",
+      "nextjs",
+      "app router",
+      "server component",
+      "next/navigation",
+      "app-router",
+      "caching"
+    ],
+    "react": [
+      "react",
+      "useeffect",
+      "usestate",
+      "jsx",
+      "hooks"
+    ],
+    "tailwind": [
+      "tailwind",
+      "@theme"
+    ],
+    "vercel": [
+      "vercel",
+      "deployment protection",
+      "fluid compute"
+    ],
+    "cms/optimizely-saas": [
+      "optimizely",
+      "episerver",
+      "cms-sdk"
+    ],
+    "cms/contentstack": [
+      "contentstack"
+    ],
+    "cms/sitecore-ai": [
+      "sitecoreai",
+      "sitecore ai",
+      "content-sdk",
+      "xm cloud"
+    ],
+    "cms/sitecore-xp": [
+      "sitecore xp",
+      "sitecore experience platform",
+      "jss",
+      "sitecore 10"
+    ],
+    "cms/contentful": [
+      "contentful"
+    ],
+    "frontend": [
+      "accessibility",
+      "a11y",
+      "css",
+      "html",
+      "frontend"
+    ]
+  },
+  "network": {
+    "dnsFallback": "https://1.1.1.1/dns-query",
+    "maxDownloadBytes": 67108864,
+    "maxExpandedBytes": 268435456
+  },
+  "toolchain": {
+    "node": "/usr/local/bin/node",
+    "gh": "/opt/homebrew/bin/gh",
+    "tar": "/usr/bin/tar"
+  },
+  "authorities": [
+    {
+      "id": "cms-field-vocabulary",
+      "domain": "cms",
+      "path": "../cms-field-vocabulary"
+    },
+    {
+      "id": "accessibility-standards",
+      "domain": "frontend",
+      "path": "../@verndale/accessibility-standards"
+    },
+    {
+      "id": "ui-design-brain",
+      "domain": "frontend",
+      "path": "../@verndale/ui-design-brain"
+    }
+  ]
+}

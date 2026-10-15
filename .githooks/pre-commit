@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+root=$(git rev-parse --show-toplevel)
+exec /usr/local/bin/node "$root/scripts/brain.mjs" check --staged

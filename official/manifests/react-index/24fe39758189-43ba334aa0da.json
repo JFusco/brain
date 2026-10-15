@@ -1,0 +1,38 @@
+{
+  "id": "react-index",
+  "revision": "24fe39758189fed4633c335fe42f903dba79dbbf35871caed295b7cc41a7c42d",
+  "snapshot": "24fe39758189-43ba334aa0da",
+  "repository": null,
+  "url": "https://react.dev/llms.txt",
+  "track": "rolling-url",
+  "license": "CC-BY-4.0",
+  "licenses": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "61b098d905d9799fc4f4625b476dac117630a1740a02e032594ff2fccbbb6206"
+    }
+  ],
+  "policySha256": "b069afc01526e9d0effbd8643380e2b62007b4d6db9761a254420e608098d2ce",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "61b098d905d9799fc4f4625b476dac117630a1740a02e032594ff2fccbbb6206",
+      "bytes": 18525,
+      "cached": false
+    },
+    {
+      "path": "llms.txt",
+      "sha256": "24fe39758189fed4633c335fe42f903dba79dbbf35871caed295b7cc41a7c42d",
+      "bytes": 14476,
+      "cached": false
+    }
+  ],
+  "skills": [],
+  "referenceIssues": [],
+  "domains": [
+    "react"
+  ],
+  "seedParity": null,
+  "fetchedAt": "2026-10-15T18:08:31.321Z",
+  "catalogVersion": 2
+}

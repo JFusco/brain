@@ -1,0 +1,38 @@
+{
+  "id": "nextjs-index",
+  "revision": "7042244d22b56c78439c67e051a322db82720c09706bc77b44dc6f619df8300d",
+  "snapshot": "7042244d22b5-76f4b96aef1d",
+  "repository": null,
+  "url": "https://nextjs.org/docs/llms.txt",
+  "track": "rolling-url",
+  "license": "MIT",
+  "licenses": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
+    }
+  ],
+  "policySha256": "c2770b579665c9a6d2629b74353cd5589858fdf87f2f59c743616f1beee9915f",
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224",
+      "bytes": 1079,
+      "cached": false
+    },
+    {
+      "path": "llms.txt",
+      "sha256": "7042244d22b56c78439c67e051a322db82720c09706bc77b44dc6f619df8300d",
+      "bytes": 51263,
+      "cached": false
+    }
+  ],
+  "skills": [],
+  "referenceIssues": [],
+  "domains": [
+    "nextjs"
+  ],
+  "seedParity": null,
+  "fetchedAt": "2026-10-15T18:08:29.219Z",
+  "catalogVersion": 2
+}

@@ -1,0 +1,65 @@
+---
+title: "Nextjs"
+aliases: ["nextjs", "next.js", "app router", "app router caching"]
+---
+
+# Nextjs
+
+## Curated learnings
+
+<!-- brain:curated:start -->
+- [Read installed Next.js docs before framework changes](version-matched-docs.md)
+<!-- brain:curated:end -->
+
+<!-- brain:official:start -->
+## Official sources
+
+- **vercel-plugin** — default-branch; revision `d874dac94438ac4b8c788e8c2b90a6abbce197a6`; fetched 2026-10-15.
+  - [access-protected-vercel-deployment](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/access-protected-vercel-deployment/SKILL.md) — reference only.
+  - [ai-gateway](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/ai-gateway/SKILL.md) — reference only.
+  - [ai-sdk](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/ai-sdk/SKILL.md) — reference only.
+  - [auth](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/auth/SKILL.md) — reference only.
+  - [bootstrap](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/bootstrap/SKILL.md) — reference only.
+  - [build-agents](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/build-agents/SKILL.md) — reference only.
+  - [cdn-caching](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/cdn-caching/SKILL.md) — reference only.
+  - [chat-sdk](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/chat-sdk/SKILL.md) — reference only.
+  - [create-a-backend](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/create-a-backend/SKILL.md) — reference only.
+  - [custom-metrics](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/custom-metrics/SKILL.md) — reference only.
+  - [deployments-cicd](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/deployments-cicd/SKILL.md) — reference only.
+  - [domains](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/domains/SKILL.md) — reference only.
+  - [env-vars](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/env-vars/SKILL.md) — reference only.
+  - [eve](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/eve/SKILL.md) — reference only.
+  - [flags-sdk](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/flags-sdk/SKILL.md) — reference only.
+  - [is-agentic](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/is-agentic/SKILL.md) — reference only.
+  - [knowledge-update](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/knowledge-update/SKILL.md) — reference only.
+  - [marketplace](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/marketplace/SKILL.md) — reference only.
+  - [microfrontends](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/microfrontends/SKILL.md) — reference only.
+  - [queues](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/queues/SKILL.md) — reference only.
+  - [react-best-practices](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/react-best-practices/SKILL.md).
+  - [routing-middleware](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/routing-middleware/SKILL.md) — reference only.
+  - [runtime-cache](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/runtime-cache/SKILL.md) — reference only.
+  - [upstream](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/ai-sdk/upstream/SKILL.md) — reference only.
+  - [upstream](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/chat-sdk/upstream/SKILL.md) — reference only.
+  - [upstream](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/eve/upstream/SKILL.md) — reference only.
+  - [upstream](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/flags-sdk/upstream/SKILL.md) — reference only.
+  - [upstream](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/is-agentic/upstream/SKILL.md) — reference only.
+  - [upstream](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/react-best-practices/upstream/SKILL.md) — reference only.
+  - [upstream](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/vercel-cli/upstream/SKILL.md) — reference only.
+  - [upstream](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/vercel-sandbox/upstream/SKILL.md) — reference only.
+  - [upstream](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/workflow/upstream/SKILL.md) — reference only.
+  - [vercel-agent](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/vercel-agent/SKILL.md) — reference only.
+  - [vercel-cli](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/vercel-cli/SKILL.md) — reference only.
+  - [vercel-connect](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/vercel-connect/SKILL.md) — reference only.
+  - [vercel-firewall](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/vercel-firewall/SKILL.md) — reference only.
+  - [vercel-functions](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/vercel-functions/SKILL.md) — reference only.
+  - [vercel-sandbox](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/vercel-sandbox/SKILL.md) — reference only.
+  - [vercel-services](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/vercel-services/SKILL.md) — reference only.
+  - [vercel-storage](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/vercel-storage/SKILL.md) — reference only.
+  - [verification](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/verification/SKILL.md) — reference only.
+  - [workflow](../../official/snapshots/vercel-plugin/d874dac94438-8db6a16f9bc5/skills/workflow/SKILL.md) — reference only.
+- **nextjs-index** — rolling-url; revision `7042244d22b56c78439c67e051a322db82720c09706bc77b44dc6f619df8300d`; fetched 2026-10-15.
+  - [llms.txt](../../official/snapshots/nextjs-index/7042244d22b5-76f4b96aef1d/llms.txt).
+- **nextjs-docs** — rolling-url; revision `4bab6be071ad4f5f749b8f8446b7f33e26ed8bb33d61f8d881678f748d5fbe9c`; fetched 2026-10-15.
+  - [llms-full.txt](../../official/snapshots/nextjs-docs/4bab6be071ad-6ea8a79265c8/llms-full.txt).
+- [Official website](https://nextjs.org/docs) — pointer only: Version-matched local documentation takes precedence over rolling website docs.
+<!-- brain:official:end -->

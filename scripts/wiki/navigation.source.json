@@ -1,0 +1,39 @@
+{
+  "repository": "local:context-wiki",
+  "revision": "3a3c9b8deb320a04eea4a41339734c10713de9d4",
+  "mode": "headless-navigation",
+  "files": [
+    {
+      "path": "scripts/wiki/routing.cjs",
+      "sha256": "931439d9c9232b38770c78bff844aa0a38ab3b0688277dae5a628eeadb9def73"
+    },
+    {
+      "path": "scripts/wiki/routing-policy.json",
+      "sha256": "ec0a3b3f8338f31032a731edadbc3e29d534976ebe3d0ac52b0618b40155c4dc"
+    },
+    {
+      "path": "scripts/wiki/.navigation-kit.json",
+      "sha256": "4b30c1214abece2935f0f5ce0634bd033df2734ae7c734353a7d6354ee0349c4"
+    },
+    {
+      "path": "scripts/wiki/navigate.cjs",
+      "sha256": "fb1f28f72a2fc1c71ece2abed25e116539f8177aef19c9b4068e5be59bda3188"
+    },
+    {
+      "path": "scripts/wiki/lib/github-refs.cjs",
+      "sha256": "3bb831bae3c2a34d83a2b89e8b38c54816ea7bf5cf2d0f63dcd4edcebaabd6da"
+    },
+    {
+      "path": "scripts/wiki/lib/common.cjs",
+      "sha256": "e33e1b9763239bef1f0e845c2f85a39caaa1289f09e0efae8a8e2b83bedef9a8"
+    },
+    {
+      "path": "scripts/wiki/lib/wiki-graph.cjs",
+      "sha256": "52e77f3eb41ba3e052f1ee8ac3f2967b4f74933d036aab8cff2f7e5fc7f45feb"
+    },
+    {
+      "path": "scripts/wiki/lib/frontmatter.cjs",
+      "sha256": "980c00eb94f84035b328fffa0626290600f545b653cf72c6783d47270849d52f"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "files": {
+    "scripts/wiki/lib/common.cjs": "e33e1b9763239bef1f0e845c2f85a39caaa1289f09e0efae8a8e2b83bedef9a8",
+    "scripts/wiki/lib/frontmatter.cjs": "980c00eb94f84035b328fffa0626290600f545b653cf72c6783d47270849d52f",
+    "scripts/wiki/lib/github-refs.cjs": "3bb831bae3c2a34d83a2b89e8b38c54816ea7bf5cf2d0f63dcd4edcebaabd6da",
+    "scripts/wiki/lib/wiki-graph.cjs": "52e77f3eb41ba3e052f1ee8ac3f2967b4f74933d036aab8cff2f7e5fc7f45feb",
+    "scripts/wiki/navigate.cjs": "fb1f28f72a2fc1c71ece2abed25e116539f8177aef19c9b4068e5be59bda3188",
+    "scripts/wiki/routing-policy.json": "ec0a3b3f8338f31032a731edadbc3e29d534976ebe3d0ac52b0618b40155c4dc",
+    "scripts/wiki/routing.cjs": "931439d9c9232b38770c78bff844aa0a38ab3b0688277dae5a628eeadb9def73"
+  }
+}

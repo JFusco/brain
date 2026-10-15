@@ -1,0 +1,11 @@
+brain.config.local.json
+inbox/
+.state/
+official/snapshots/**/.large-files
+.DS_Store
+*.tmp
+
+# brain:large:start
+/official/snapshots/nextjs-docs/4bab6be071ad-6ea8a79265c8/llms-full.txt
+/official/snapshots/optimizely-sdk/01fb2b56ee24-25eb2e22ea3f/docs/images/form-create-container.png
+# brain:large:end
