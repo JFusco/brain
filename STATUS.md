@@ -2,7 +2,7 @@
 
 ## Current maintenance delivery
 
-The current change is tracked in [JFusco/brain issue 1](https://github.com/JFusco/brain/issues/1). Implementation is in progress; no delivery PR has been merged yet.
+The maintenance change is tracked in [JFusco/brain issue 1](https://github.com/JFusco/brain/issues/1) and [delivery PR 2](https://github.com/JFusco/brain/pull/2). Their saved records provide the current publication state and hosted execution evidence.
 
 - Automatic curation prepares small useful notes and documented issue-linked PRs. Exact merged-file verification precedes candidate acceptance. Partial use of evidence leaves the candidate pending.
 - Fifteen sources have active local references. Six new documentation sources contain 4,790 distinct catalog links: Vercel (1,656), React (225), Tailwind (197), Contentstack (2,241), Optimizely CMS SaaS (278), and Optimizely Graph (193). Catalog entries are links and metadata, not downloaded page bodies. Existing snapshots are retained; superseded React page bodies and oversized metadata use the private object cache. The old Next.js full export no longer refreshes automatically.

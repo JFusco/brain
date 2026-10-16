@@ -35,9 +35,15 @@
           "kind": "issue",
           "number": 1,
           "url": "https://github.com/jfusco/brain/issues/1"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "pull-request",
+          "number": 2,
+          "url": "https://github.com/jfusco/brain/pull/2"
         }
       ],
-      "bytes": 3938,
+      "bytes": 4687,
       "degree": 3,
       "x": -0.5,
       "y": 0.866025,
