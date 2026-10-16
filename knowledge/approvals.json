@@ -35,6 +35,13 @@
       "digest": "56aaab8209df00b68004c54d5c7607f56760f6a28fc0fb9511cb975e47ba654b",
       "method": "automatic-curation-pr",
       "preparedAt": "2026-10-16T00:52:30.252Z"
+    },
+    "knowledge/react/effect-request-cleanup.md": {
+      "sha256": "7d3de249bbdb56c70bce89f0ad9c5046edd942ccba05bbfc6c11f52f255c13df",
+      "proposal": "961116fca785bdd721d28887",
+      "digest": "961116fca785bdd721d28887c8f48fd7c3e6b023914eb02fd492ddb35c6f02c3",
+      "method": "automatic-curation-pr",
+      "preparedAt": "2026-10-16T07:22:36.381Z"
     }
   }
 }
