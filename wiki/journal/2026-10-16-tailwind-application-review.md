@@ -3,6 +3,8 @@ title: "Tailwind application review follow-up"
 date: "2026-10-16"
 topics: ["automatic-knowledge-maintenance"]
 plans: ["2026-10-16-brain-follow-ups-curation-and-delivery-reconciliation-eb8a80597f.md"]
+issue: 'https://github.com/jfusco/brain/issues/19'
+issues: ['https://github.com/jfusco/brain/issues/19']
 ---
 
 # Tailwind application review follow-up
