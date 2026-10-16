@@ -21,7 +21,8 @@ Run from this repository, or invoke the script by its absolute path:
 
 ```sh
 node scripts/brain.mjs harvest
-node scripts/brain.mjs lookup --domain nextjs --query "caching revalidation"
+node scripts/brain.mjs lookup --domain nextjs --query "caching revalidation" --versions next@16.2
+node scripts/brain.mjs lookup --project /absolute/project --workspace apps/web --domain nextjs --query "caching"
 node scripts/brain.mjs lookup --domain cms/contentstack --query "Sitecore migration" --limit 3
 node scripts/brain.mjs lookup --domain react --query "useEffect" --limit 2 --fetch
 node scripts/brain.mjs inbox list --domain nextjs
@@ -83,6 +84,8 @@ node scripts/brain.mjs curation record-merge <proposal-id> --pr <number>
 
 This verifies the GitHub merge, repository, base branch, proposal digest in the PR body, ancestry in fetched `origin/main`, and immutable merged file hashes before accepting the selected candidates. Edited or failed publications remain pending. Uncertain publication must be reconciled before retrying. Rejections use `inbox resolve <id...> --as rejected`; use `superseded` for replaced evidence. The old exact-digest `inbox apply` route remains available for explicitly scoped local operations.
 
+Run `curation stale --limit 12` before selecting new material. A changed source revision or a 30-day review date queues the note for claim verification; neither proves that its advice changed. Re-read the relevant official pages, keep the evidence and limits, and publish the revised note through the same exact-content proposal. Optional `review_after` selects an earlier review date. Set `status: retired` when advice should no longer be recommended, or `status: superseded` with a published `superseded_by` path when a replacement exists. These pages remain in history but leave lookup and curated hub recommendations.
+
 Only knowledge Markdown and `official/sources.json` are proposal destinations. PR export currently supports knowledge Markdown; registry maintenance uses a separate documented PR and updates its local integrity receipt after validation. Generated official sections are maintained by sync. The CLI never calls an LLM; the scheduled agent performs semantic curation.
 
 Exact page hashes are recorded in `knowledge/approvals.json`; domain indexes generate curated links from those records. On a branch these are proposed publication records; merging publishes them. A handwritten or modified page is excluded from that navigation until its exact content has a matching record.
@@ -91,7 +94,11 @@ Exact page hashes are recorded in `knowledge/approvals.json`; domain indexes gen
 
 The default is a searchable catalog of official page links with titles, domains, source revisions, and freshness metadata, plus small curated notes. `lookup` ranks matching links and notes without downloading page bodies. An index's revision describes the observed catalog; it is not a framework package version or proof of the page's present content.
 
-`lookup --fetch` retrieves only the selected pages and returns focused excerpts with the fetch time and full-response content hash. For repository documentation it verifies the pinned Git blob when available. Private caching retains only the excerpt and retrieval receipt for 24 hours, not the full response. Fetch failures are returned explicitly alongside the usable link. Agents can also open the returned official URLs with their own browsing tools.
+`lookup --fetch` retrieves only the selected pages and returns focused excerpts with the fetch time and full-response content hash. For repository documentation it verifies the pinned Git blob when available. Private caching retains only the excerpt and retrieval receipt for 24 hours, not the full response. Managed excerpts are capped at 1,000 files / 8 MiB. Cleanup deletes only unchanged files owned by the cache ledger; legacy, unowned, or modified files and all source objects remain intact. Fetch failures are returned explicitly alongside the usable link. Agents can also open the returned official URLs with their own browsing tools.
+
+Add `--project /absolute/project --workspace apps/web` to resolve the selected application’s installed dependencies, or use explicit literals such as `--versions next@16.2,react@19`. Brain reads bounded manifests without executing project code. It does not combine sibling workspaces. A monorepo root requires an explicit application workspace for skill operations; lookup reports that selection is still needed. When present, the selected Next.js package’s bundled docs are searched first. No instructions are injected into consuming projects.
+
+Curated `versions` support only `package@major[.minor.patch]` and `package@>=version`. Incompatible notes are excluded; missing, partial, complex, or prerelease versions remain unconfirmed where they cannot establish the constraint. Rolling official catalogs are not labeled version-compatible merely because a package was detected.
 
 Existing snapshots remain available for historical evidence and selected SDK/skill contracts. The old Next.js full-documentation snapshot is retained but excluded from automatic refresh; its page index is the normal discovery source. Source coverage distinguishes catalogued links, selected snapshots, and website pointers. Cataloguing links does not mean their bodies have been downloaded or technically verified.
 
@@ -138,7 +145,7 @@ node scripts/brain.mjs skills remove <source-id/skill> --project /absolute/proje
 node scripts/brain.mjs skills recover --project /absolute/project/path --dry-run
 ```
 
-Suggestions inspect declared/installed dependencies, workspace packages, required scripts, and project layout without executing project code. Unknown compatibility is reported rather than guessed. Vercel plugin skills are preferred when providers overlap. Template-bound Contentstack skills remain references; Sitecore skills require their specific supporting docs and layout.
+Suggestions inspect only the selected application’s declared/installed dependencies, required scripts, and project layout without executing project code. In a monorepo add `--workspace apps/web` to each command. Installed versions and declared-only ranges have distinct confidence labels. Unknown compatibility is reported rather than guessed. Vercel plugin skills are preferred when providers overlap. Template-bound Contentstack skills remain references; Sitecore skills require their specific supporting docs and layout.
 
 Canonical copies go in `.agents/skills`; Claude gets relative `.claude/skills` links. Both Codex and Cursor discover the canonical directory. `--copy` supplies real Claude directories and necessary docs instead of symlinks for Windows-compatible repositories. Updates preserve the previously chosen copy mode.
 
@@ -154,6 +161,34 @@ Client redaction and secret scanning cover content and public metadata. A secret
 
 The scanner is pinned and checksum-verified in the brain's private tools directory. Missing or changed scanner binaries block harvest and promotion. The pre-commit hook reads staged blobs and blocks private paths, including force-added ignored content. Hooks are a local safeguard, not an access-control boundary.
 
+## Maintenance and private recovery
+
+```sh
+node scripts/brain.mjs curation stale --limit 12
+node scripts/brain.mjs links check --limit 24
+node scripts/brain.mjs links status
+node scripts/brain.mjs maintenance status
+node scripts/brain.mjs maintenance run --dry-run
+node scripts/brain.mjs maintenance run
+node scripts/brain.mjs maintenance cleanup
+node scripts/brain.mjs maintenance cleanup --yes
+node scripts/brain.mjs backup status
+node scripts/brain.mjs backup create --dry-run
+node scripts/brain.mjs backup create
+node scripts/brain.mjs backup verify --file /private/path/archive.brainbackup
+node scripts/brain.mjs backup restore --file /private/path/archive.brainbackup --to /private/empty/recovery --yes
+```
+
+Link checks rotate through a bounded sample (24 by default, maximum 100), favoring published-note and recently fetched references while spreading work across sources. They request headers, with a one-byte-range fallback when HEAD is unsupported; response bodies are discarded. A first 404 is suspected dead, two daily observations establish dead, and 410 is immediately dead. Access restrictions, rate limits, redirects, and network failures remain separate. Checks never rewrite a registration. Coverage counts distinguish sampled links from the full catalog; this is not an exhaustive link audit. Approved-host boundaries also apply to redirects.
+
+`maintenance run` refreshes the stale-note queue, cleans owned excerpt receipts, samples links when due, and creates a verified encrypted backup when due (20 hours). Status shows collection/publication attempts and success separately, source failures, unfinished publication, link coverage, stale notes, and backup availability. A completed unchanged publication run is valid; an attempt alone is not success. Publication bookkeeping uses `maintenance publication --phase started --trigger manual|scheduled-agent`, then the returned `--run-id` with `--phase completed --outcome unchanged`, or `--outcome published --pr <merged-number>`. Record failures with `--phase failed`. These are agent reports, not independent scheduler attestations. The 36-hour missed-run signal appears when status is next evaluated; a sleeping or offline Mac cannot send an immediate alert.
+
+Backups contain eligible private configuration, inbox records, proposals, provenance, publication receipts, failure records, and cached source objects. They exclude worktrees, tools, excerpt caches, recovery copies, auth/environment/session/transcript/raw-memory files, and the recovery key. Bounds are 40,000 files, 64 MiB per file, and 512 MiB total input. Archives use gzip and authenticated AES-256-GCM encryption. Creation decrypts and verifies the archive before recording success; failures preserve earlier verified archives. Local retention keeps seven owned archives and preserves modified or unknown files. Source snapshots in Git remain separate from this private-state backup.
+
+The local key is `.state/backup.key` (private permissions). Keep a separate secure copy off this Mac, such as in a password manager; losing the key makes encrypted archives unusable. Never print it, commit it, or upload it beside the archive. `--key-file /private/path/key` supports recovery with that separate key. Recovery authenticates every file and stages into an empty directory before activation; it never overwrites active state or executes restored code. Inspect recovered state before manually restoring it to a new checkout.
+
+Google Drive can hold encrypted archives in an explicitly approved private folder. `backup configure-cloud --folder-id <id> --folder-url <url>` records only the destination; it performs no upload. The authorized agent uses `backup pending --limit 1`, uploads only the verified encrypted archive through the connected Drive tool, reads its saved name, size, and parent folder back, and records that observed metadata using `backup record-cloud --file <archive> --receipt <private-json>`. The recovery key is excluded. Cloud status distinguishes upload/metadata readback from downloaded-byte verification. The CLI never deletes Drive files or changes sharing. Until upload and readback succeed, backup status continues to report local-only protection. Folder IDs and receipts stay private.
+
 ## Schedule and setup
 
 ```sh
@@ -162,7 +197,7 @@ node scripts/setup.mjs --launch-agent
 node scripts/brain.mjs scheduled-run
 ```
 
-One user LaunchAgent runs at 02:30 and on load. Due-time checks provide startup catch-up: harvest and official reference refresh are due after 20 hours, and failures retry with bounded backoff. A separate local Codex heartbeat prepares and publishes useful curation and reference-update PRs. It preserves unrelated changes and skips unchanged or non-actionable work quietly. Local scheduled agent work requires the desktop app and machine to be available. Logs and notifications contain no raw candidate text. All CLI mutations share a lock; other project repositories are not enrolled for background writes.
+One user LaunchAgent runs at 02:30 and on load. Due-time checks provide startup catch-up: harvest, official reference refresh, link sampling, and encrypted backup maintenance run when due, and source failures retry with bounded backoff. A separate local Codex heartbeat prepares and publishes useful curation and reference-update PRs. It preserves unrelated changes and skips unchanged or non-actionable work quietly. Local scheduled agent work requires the desktop app and machine to be available. Logs and notifications contain no raw candidate text. All CLI mutations share a lock; other project repositories are not enrolled for background writes.
 
 On a new machine, validate the official source registry and use `node scripts/setup.mjs --approve-registry` to establish its local integrity receipt. Later registry changes use documented maintenance PRs and a matching updated receipt. Back up private state to preserve the inbox, dispositions, local paths, registry receipt, curation receipts, and cached oversized files.
 

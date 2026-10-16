@@ -2,17 +2,18 @@
   "schemaVersion": 1,
   "pages": {
     "knowledge/nextjs/version-matched-docs.md": {
-      "sha256": "1efa8445dc0908271ec653ee5e881cd8238a84bdd2c390fbb186eb312c182212",
-      "proposal": "dc62ef183356b322579be711",
-      "digest": "dc62ef183356b322579be711b48b9cf470af379bb1cb8391b72322963fb38510",
-      "approvedAt": "2026-10-15T18:39:27.177Z"
+      "sha256": "5872f5bb8d403359e81a87205bc67c8bba4a7e4eb083e9ff3b98400a9053d85d",
+      "proposal": "de8ea5bb9a4b68ee0ca57896",
+      "digest": "de8ea5bb9a4b68ee0ca57896a33f8b9627552021fb4f1c572c3486b7163a514d",
+      "method": "automatic-curation-pr",
+      "preparedAt": "2026-10-16T02:31:26.465Z"
     },
     "knowledge/_unsorted/find-guidance-and-skills.md": {
-      "sha256": "02835483c7243dd46f0db11e0b1d187c2249aefe837911118e0dcf2d26e0cf81",
-      "proposal": "56aaab8209df00b68004c54d",
-      "digest": "56aaab8209df00b68004c54d5c7607f56760f6a28fc0fb9511cb975e47ba654b",
+      "sha256": "5b816aaeed94fbc4aa0c192315e6b884cf0fdc5661e2972dbc65d577fbd6e9e5",
+      "proposal": "de8ea5bb9a4b68ee0ca57896",
+      "digest": "de8ea5bb9a4b68ee0ca57896a33f8b9627552021fb4f1c572c3486b7163a514d",
       "method": "automatic-curation-pr",
-      "preparedAt": "2026-10-16T00:52:30.252Z"
+      "preparedAt": "2026-10-16T02:31:26.465Z"
     },
     "knowledge/_unsorted/cms-guidance.md": {
       "sha256": "834669819813c2bf0597ec624b3959b7bb61b627c076ca81057dac5b79a7107a",

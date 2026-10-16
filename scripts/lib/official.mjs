@@ -6,6 +6,7 @@ import {api,download,markdownResponse} from './network.mjs';
 import {archive} from './archive.mjs';
 import {assertClean} from './privacy.mjs';
 import {fetchDocumentationCatalog} from './documentation.mjs';
+import {staleGuidance} from './guidance.mjs';
 const require=createRequire(import.meta.url);
 const {splitFrontmatter,scalar}=require('../wiki/lib/frontmatter.cjs');
 
@@ -213,15 +214,12 @@ export function generateHubs() {
     let result=text.replace(/<!-- brain:official:start -->[\s\S]*?<!-- brain:official:end -->/,`<!-- brain:official:start -->\n${section}<!-- brain:official:end -->`);
     if(result.includes('<!-- brain:curated:start -->')){
       const approvals=readJSON(at('knowledge/approvals.json'),{pages:{}}),pages=[];
-      for(const [relative,approval]of Object.entries(approvals.pages)){if(!relative.startsWith(`knowledge/${domain}/`)||relative.endsWith('/INDEX.md'))continue;const page=at(relative);if(!fs.existsSync(page)||sha(fs.readFileSync(page))!==approval.sha256)continue;const title=scalar(splitFrontmatter(fs.readFileSync(page,'utf8')).raw,'title');const href=path.relative(path.dirname(file),page).split(path.sep).join('/');pages.push(`- [${title.replace(/[\[\]]/g,'')}](${href})`);}
+      for(const [relative,approval]of Object.entries(approvals.pages)){if(!relative.startsWith(`knowledge/${domain}/`)||relative.endsWith('/INDEX.md'))continue;const page=at(relative);if(!fs.existsSync(page)||sha(fs.readFileSync(page))!==approval.sha256)continue;const parsed=splitFrontmatter(fs.readFileSync(page,'utf8'));if(['superseded','retired'].includes(scalar(parsed.raw,'status')))continue;const title=scalar(parsed.raw,'title');const href=path.relative(path.dirname(file),page).split(path.sep).join('/');pages.push(`- [${title.replace(/[\[\]]/g,'')}](${href})`);}
       result=result.replace(/<!-- brain:curated:start -->[\s\S]*?<!-- brain:curated:end -->/,`<!-- brain:curated:start -->\n${pages.length?pages.sort().join('\n'):'No approved learnings yet.'}\n<!-- brain:curated:end -->`);
     }
     if(result!==text)atomic(file,result);
   }
-  const notes=walk(at('knowledge'),{file:file=>file.endsWith('.md')&&!file.endsWith('INDEX.md')});
-  const stale=[];
-  for(const file of notes){const text=fs.readFileSync(file,'utf8');for(const [id,entry]of Object.entries(lock().sources))if(text.includes(id+'@')&&!text.includes(id+'@'+entry.revision))stale.push({page:path.relative(at(''),file),source:id,activeRevision:entry.revision});}
-  writeJSON(at('.state/notes-needing-review.json'),stale,0o600);
+  staleGuidance({limit:100,write:true});
 }
 export function updateIgnores() {
   const file=at('.gitignore'),text=fs.readFileSync(file,'utf8'),base=text.replace(/\n# brain:large:start[\s\S]*?# brain:large:end\n?/,'\n').trimEnd();

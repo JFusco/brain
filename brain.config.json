@@ -5,7 +5,18 @@
     "referenceMode": "catalog-first"
   },
   "lookup": {
-    "cacheHours": 24
+    "cacheHours": 24,
+    "maxCacheFiles": 1000,
+    "maxCacheBytes": 8388608
+  },
+  "curation": {
+    "reviewDays": 30
+  },
+  "maintenance": {
+    "linkLimit": 24,
+    "overdueHours": 36,
+    "backupHours": 20,
+    "keepBackups": 7
   },
   "domains": [
     "frontend",

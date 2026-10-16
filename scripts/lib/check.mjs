@@ -5,8 +5,9 @@ import {spawnSync} from 'node:child_process';
 import {at,ROOT,config,walk,inside,safePath,json,sha} from './core.mjs';
 import {assertClean,clientHits} from './privacy.mjs';
 import {checkOfficial,lock,snapshotRoot,registry,requireRegistryApproval} from './official.mjs';
+import {versionConstraint} from './project-context.mjs';
 const require=createRequire(import.meta.url);
-const {splitFrontmatter,scalar,frontmatterProblems}=require('../wiki/lib/frontmatter.cjs');
+const {splitFrontmatter,scalar,list:frontmatterList,frontmatterProblems}=require('../wiki/lib/frontmatter.cjs');
 const {collect}=require('../wiki/lib/wiki-graph.cjs');
 
 export function validateKnowledge(entries) {
@@ -17,6 +18,10 @@ export function validateKnowledge(entries) {
     if(!scalar(parsed.raw,'title'))problems.push(`${id}: missing title`);
     problems.push(...frontmatterProblems(parsed.raw).map(p=>`${id}: ${p}`));
     if(!id.endsWith('/INDEX.md')&&!id.includes('/_templates/'))for(const key of ['domain','evidence_date','applicability','provenance'])if(!scalar(parsed.raw,key))problems.push(`${id}: missing ${key}`);
+    const status=scalar(parsed.raw,'status');if(status&&!['current','superseded','retired'].includes(status))problems.push(`${id}: invalid guidance status`);
+    for(const field of ['reviewed_at','review_after']){const value=scalar(parsed.raw,field);if(value&&(!/^\d{4}-\d\d-\d\d$/.test(value)||!Number.isFinite(Date.parse(value))||new Date(value).toISOString().slice(0,10)!==value))problems.push(`${id}: invalid ${field}`);}
+    for(const value of frontmatterList(parsed.raw,'versions'))try{versionConstraint(value);}catch{problems.push(`${id}: invalid package-version constraint`);}
+    const replacement=scalar(parsed.raw,'superseded_by');if(status==='superseded'&&(!/^knowledge\/.+\.md$/.test(replacement)||replacement===id||replacement.split('/').includes('..')))problems.push(`${id}: superseded guidance requires a different knowledge page`);
   }
   return problems;
 }
@@ -57,6 +62,7 @@ export function check({staged=false}={}) {
   const approvalBytes=staged?entries.find(e=>e.id==='knowledge/approvals.json')?.bytes:fs.existsSync(at('knowledge/approvals.json'))?fs.readFileSync(at('knowledge/approvals.json')):null;
   const approvedPages=approvalBytes?JSON.parse(approvalBytes).pages:{};
   for(const entry of entries.filter(e=>e.id.startsWith('knowledge/')&&e.id.endsWith('.md')&&!e.id.endsWith('/INDEX.md')&&!e.id.includes('/_templates/')))if(approvedPages[entry.id]?.sha256!==sha(entry.bytes))issues.push(`${entry.id}: exact content has no matching approval record`);
+  for(const entry of entries.filter(e=>e.id.startsWith('knowledge/')&&e.id.endsWith('.md')&&!e.id.includes('/_templates/'))){const parsed=splitFrontmatter(entry.bytes.toString());if(scalar(parsed.raw,'status')==='superseded'){const target=scalar(parsed.raw,'superseded_by');if(!approvedPages[target]||!entries.some(candidate=>candidate.id===target))issues.push(`${entry.id}: superseded replacement has no published content`);}}
   if(!staged) {
     for(const issue of checkOfficial())(issue.endsWith('no active snapshot')?warnings:issues).push(issue);
     try{collect(ROOT,{wikiRoot:'knowledge'});}catch(error){issues.push(error.message);}

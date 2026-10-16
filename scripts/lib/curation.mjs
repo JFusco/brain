@@ -42,7 +42,20 @@ export function exportProposal(id,directory) {
   const approvals=readJSON(approvalsPath,{schemaVersion:1,pages:{}});
   for(const change of value.changes)if(!change.path.endsWith('/INDEX.md'))approvals.pages[change.path]={sha256:sha(change.text),proposal:id,digest:value.digest,method:'automatic-curation-pr',preparedAt:now()};
   const config=json(path.join(target,'brain.config.json'));
-  for(const domain of config.domains){const relative=`knowledge/${domain}/INDEX.md`,file=path.join(target,relative);noSymlinks(target,file);let text=writes.get(relative)??fs.readFileSync(file,'utf8');const pages=[];for(const [name,approval]of Object.entries(approvals.pages)){if(!name.startsWith(`knowledge/${domain}/`)||name.endsWith('/INDEX.md'))continue;safePath(name);const destination=path.join(target,name);noSymlinks(target,destination);const content=writes.get(name)??(fs.existsSync(destination)?fs.readFileSync(destination,'utf8'):null);if(content===null||sha(content)!==approval.sha256)continue;const title=scalar(splitFrontmatter(content).raw,'title');pages.push(`- [${title.replace(/[\[\]]/g,'')}](${path.relative(path.dirname(file),destination).split(path.sep).join('/')})`);}text=text.replace(/<!-- brain:curated:start -->[\s\S]*?<!-- brain:curated:end -->/,`<!-- brain:curated:start -->\n${pages.length?pages.sort().join('\n'):'No approved learnings yet.'}\n<!-- brain:curated:end -->`);if(text!==fs.readFileSync(file,'utf8'))writes.set(relative,text);}
+  for(const domain of config.domains){
+    const relative=`knowledge/${domain}/INDEX.md`,file=path.join(target,relative);noSymlinks(target,file);
+    let text=writes.get(relative)??fs.readFileSync(file,'utf8');const pages=[];
+    for(const [name,approval]of Object.entries(approvals.pages)){
+      if(!name.startsWith(`knowledge/${domain}/`)||name.endsWith('/INDEX.md'))continue;
+      safePath(name);const destination=path.join(target,name);noSymlinks(target,destination);
+      const content=writes.get(name)??(fs.existsSync(destination)?fs.readFileSync(destination,'utf8'):null);
+      if(content===null||sha(content)!==approval.sha256)continue;
+      const parsed=splitFrontmatter(content);if(['superseded','retired'].includes(scalar(parsed.raw,'status')))continue;
+      const title=scalar(parsed.raw,'title');pages.push(`- [${title.replace(/[\[\]]/g,'')}](${path.relative(path.dirname(file),destination).split(path.sep).join('/')})`);
+    }
+    text=text.replace(/<!-- brain:curated:start -->[\s\S]*?<!-- brain:curated:end -->/,`<!-- brain:curated:start -->\n${pages.length?pages.sort().join('\n'):'No approved learnings yet.'}\n<!-- brain:curated:end -->`);
+    if(text!==fs.readFileSync(file,'utf8'))writes.set(relative,text);
+  }
   writes.set('knowledge/approvals.json',JSON.stringify(approvals,null,2)+'\n');
   assertClean([...writes].map(([name,text])=>({id:name,bytes:Buffer.from(text)})));
   // All destinations and content are checked before writing. A failed export stays
