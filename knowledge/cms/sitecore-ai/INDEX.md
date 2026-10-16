@@ -35,5 +35,5 @@ No approved learnings yet.
   - [docs/AGENTS-router-specifics.md](../../../official/snapshots/sitecore-content-sdk/e51294172719-955b269af9fc/docs/AGENTS-router-specifics.md).
   - [docs/AGENTS-workflows-and-boundaries.md](../../../official/snapshots/sitecore-content-sdk/e51294172719-955b269af9fc/docs/AGENTS-workflows-and-boundaries.md).
   - [docs/README.md](../../../official/snapshots/sitecore-content-sdk/e51294172719-955b269af9fc/docs/README.md).
-- [Official website](https://doc.sitecore.com/sai/en/developers/sitecoreai/) — pointer only: Website index returned HTTP 403; use this official product documentation link.
+- [Official website](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecoreai.html) — pointer only: Official SitecoreAI developer documentation; focused lookup supports HTML pages.
 <!-- brain:official:end -->

@@ -14,5 +14,5 @@ No approved learnings yet.
 <!-- brain:official:start -->
 ## Official sources
 
-- [Official website](https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/) — pointer only: Website index returned HTTP 403; use this official product documentation link.
+- [Official website](https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/index-en.html) — pointer only: Official Sitecore Experience Manager 10.4 developer documentation; retain the product/version context when applying guidance.
 <!-- brain:official:end -->

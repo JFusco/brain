@@ -1538,13 +1538,13 @@
     },
     {
       "domain": "cms/sitecore-ai",
-      "url": "https://doc.sitecore.com/sai/en/developers/sitecoreai/",
-      "reason": "Website index returned HTTP 403; use this official product documentation link."
+      "url": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecoreai.html",
+      "reason": "Official SitecoreAI developer documentation; focused lookup supports HTML pages."
     },
     {
       "domain": "cms/sitecore-xp",
-      "url": "https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/",
-      "reason": "Website index returned HTTP 403; use this official product documentation link."
+      "url": "https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/index-en.html",
+      "reason": "Official Sitecore Experience Manager 10.4 developer documentation; retain the product/version context when applying guidance."
     }
   ]
 }
