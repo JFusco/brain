@@ -14,7 +14,7 @@ export function linkSummary() {
 
 export async function checkLinks({limit=config().maintenance?.linkLimit??24,source,retryFailures=false}={}) {
   limit=Number(limit);if(!Number.isInteger(limit)||limit<1||limit>100)throw new Error('Link limit must be between 1 and 100');
-  const specs=registry().sources;if(source&&!specs.some(spec=>spec.id===source))throw new Error('Unknown registered link source');
+  const registered=registry(),specs=registered.sources;if(source&&!specs.some(spec=>spec.id===source)&&!(source==='website-pointers'&&registered.pointers.length))throw new Error('Unknown registered link source');
   const all=new Map(),aliases=new Map();
   for(const item of lookupEntries())if(item.url){
     const spec=specs.find(spec=>spec.id===item.source),url=new URL(item.url);
@@ -55,7 +55,7 @@ export async function checkLinks({limit=config().maintenance?.linkLimit??24,sour
       const streak=observed.status===404?(previous.status===404?(previous.notFoundStreak||1)+1:1):0;
       const classification=observed.state||(observed.status===410||streak>=2?'dead':observed.status===404?'suspected-dead':[401,403,451].includes(observed.status)?'restricted':observed.status===429?'rate-limited':observed.status>=500?'transient-error':observed.status>=200&&observed.status<300?(observed.redirects.length?'redirected':'healthy'):'unavailable');
       const delay=Number(observed.retryAfter),retryMs=observed.retryAfter?(Number.isFinite(delay)?delay*1000:Date.parse(observed.retryAfter)-Date.now()):0;
-      const record={url:item.url,source:item.source,active:true,checkedAt:now(),status:observed.status,state:classification,finalUrl:observed.finalUrl,redirects:observed.redirects,notFoundStreak:streak,...(classification==='healthy'||classification==='redirected'?{lastHealthyAt:now()}:{lastHealthyAt:previous.lastHealthyAt||null}),retryAt:new Date(Date.now()+Math.min(24*3600000,Math.max(3600000,retryMs||0))).toISOString()};
+      const record={url:item.url,source:item.source,active:true,checkedAt:now(),status:observed.status,...(observed.method?{method:observed.method}:{}),...(observed.headStatus?{headStatus:observed.headStatus}:{}),state:classification,finalUrl:observed.finalUrl,redirects:observed.redirects,notFoundStreak:streak,...(classification==='healthy'||classification==='redirected'?{lastHealthyAt:now()}:{lastHealthyAt:previous.lastHealthyAt||null}),retryAt:new Date(Date.now()+Math.min(24*3600000,Math.max(3600000,retryMs||0))).toISOString()};
       state.links[key]=record;results.push(record);
     }
   }));

@@ -1,5 +1,13 @@
 # Implementation status
 
+## Sitecore retrieval repair
+
+[Issue 14](https://github.com/JFusco/brain/issues/14) resolves the remaining Sitecore warning. A six-request comparison showed that Sitecore rejects HEAD, while an ordinary GET with a documentation-compatible Accept header returns HTTP 200. Probes now use that header and one bounded GET fallback for HEAD 403/405/501, retaining method/status evidence and discarding response bodies. Genuine GET restrictions remain failures.
+
+Both SitecoreAI and Sitecore Experience Manager 10.4 now use verified canonical pages and return HTTP 200 through the actual checker. The old 10.4 directory returned 404 on a valid GET and was replaced by its working `index-en.html` page. Current registry/hub text no longer describes these pages as inaccessible. Focused lookup reads the publisher's explicit main-content landmark rather than embedded assistant UI; only excerpts and retrieval receipts are cached. Existing failed observations and wiki history remain intact.
+
+A targeted five-pointer check returned four healthy destinations, including both Sitecore pages, and the previously known Contentful HTTP 429. Sitecore is healthy; Contentful rate limiting remains separate. This does not establish whole-catalog availability or technical compatibility.
+
 ## Link warning repair and Tailwind curation
 
 [Issue 12](https://github.com/JFusco/brain/issues/12) tracks a bounded recheck of all 25 outstanding warnings. Twenty-four now succeed (23 direct HTTP 200 responses and one redirect ending in HTTP 200); Sitecore still returns HTTP 403 to automated requests. No 404/410 was observed. Current coverage is 72 observed destinations out of 5,753 eligible links: 70 healthy, one redirected and one restricted. Earlier failed observations remain private history; this is not an exhaustive audit.
