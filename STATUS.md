@@ -1,5 +1,15 @@
 # Implementation status
 
+## Link warning repair and Tailwind curation
+
+[Issue 12](https://github.com/JFusco/brain/issues/12) tracks a bounded recheck of all 25 outstanding warnings. Twenty-four now succeed (23 direct HTTP 200 responses and one redirect ending in HTTP 200); Sitecore still returns HTTP 403 to automated requests. No 404/410 was observed. Current coverage is 72 observed destinations out of 5,753 eligible links: 70 healthy, one redirected and one restricted. Earlier failed observations remain private history; this is not an exhaustive audit.
+
+Failed links now become eligible after their recorded backoff rather than being held by the healthy daily sampling window. Due failures precede new samples within each source; `links check --retry-failures` restricts a bounded run to due warnings. Healthy links and 404/410 observations retain the daily window.
+
+Tailwind has 197 official catalog links and 34 pending tagged candidates. A six-candidate review yielded the first curated Tailwind 4 note, [responsibility-based tokens](knowledge/tailwind/responsibility-based-tokens.md). Its official theme mechanics were checked against a pinned reference; folder organization remains an optional project convention. Partial evidence use leaves the source candidate pending. Lookup uses explicit Tailwind versions; no consuming project is changed.
+
+The completed one-time 4 a.m. verification automation is paused at Joe's request. Daily collection and publication remain active. Automatic backups and Drive uploads remain disabled.
+
 ## Automatic backups disabled
 
 Joe withdrew the backup requirement after the reliability delivery. [Issue 8](https://github.com/JFusco/brain/issues/8) tracks disabling automatic archive creation, inventory previews, retention pruning and Drive uploads. Maintenance reports backups disabled without backup-requirement alerts. Existing archives, the local key, Drive files and historical receipts remain intact. Daily learning maintenance and the one-time 4 a.m. verification remain enabled; the check now expects backup work to be skipped.

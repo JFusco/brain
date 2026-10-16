@@ -12,7 +12,7 @@ export function linkSummary() {
   return {lastRun:state.lastRun||null,lastSuccess:state.lastSuccess||null,poolSize:state.poolSize||0,observed:Object.keys(state.links).length,counts,lastBatch:state.lastBatch||null};
 }
 
-export async function checkLinks({limit=config().maintenance?.linkLimit??24,source}={}) {
+export async function checkLinks({limit=config().maintenance?.linkLimit??24,source,retryFailures=false}={}) {
   limit=Number(limit);if(!Number.isInteger(limit)||limit<1||limit>100)throw new Error('Link limit must be between 1 and 100');
   const specs=registry().sources;if(source&&!specs.some(spec=>spec.id===source))throw new Error('Unknown registered link source');
   const all=new Map(),aliases=new Map();
@@ -29,15 +29,25 @@ export async function checkLinks({limit=config().maintenance?.linkLimit??24,sour
   for(const record of Object.values(state.links))record.active=all.has(record.url);
   for(const item of all.values()){
     if(source&&item.source!==source)continue;
-    const previous=state.links[sha(item.url)];if(previous&&(Date.parse(previous.retryAt)>Date.now()||Date.parse(previous.checkedAt)>cutoff))continue;
+    const previous=state.links[sha(item.url)],failed=!!previous&&!['healthy','redirected'].includes(previous.state);
+    if(retryFailures&&!failed)continue;
+    if(previous){
+      if(Date.parse(previous.retryAt)>Date.now())continue;
+      // Healthy samples and 404/410 observations stay daily. Other failures
+      // may recover after their own backoff rather than waiting a full day.
+      if((!failed||[404,410].includes(previous.status))&&Date.parse(previous.checkedAt)>cutoff)continue;
+    }
+    item.retryDue=failed;
     if(!buckets.has(item.source))buckets.set(item.source,[]);buckets.get(item.source).push(item);
   }
-  for(const bucket of buckets.values())bucket.sort((a,b)=>b.priority-a.priority||(state.links[sha(a.url)]?.checkedAt||'').localeCompare(state.links[sha(b.url)]?.checkedAt||'')||sha(a.url).localeCompare(sha(b.url)));
+  for(const bucket of buckets.values())bucket.sort((a,b)=>Number(b.retryDue)-Number(a.retryDue)||b.priority-a.priority||(state.links[sha(a.url)]?.checkedAt||'').localeCompare(state.links[sha(b.url)]?.checkedAt||'')||sha(a.url).localeCompare(sha(b.url)));
   const names=[...buckets.keys()].sort(),selected=[];let cursor=state.cursor||0;
   while(names.length&&selected.length<limit){let found=false;for(let index=0;index<names.length;index++){
     const position=(cursor+index)%names.length,bucket=buckets.get(names[position]);if(!bucket.length)continue;
     selected.push(bucket.shift());cursor=(position+1)%names.length;found=true;break;
   }if(!found)break;}
+  const prior=selected.map(item=>state.links[sha(item.url)]).filter(Boolean);
+  if(prior.length){const archivedAt=now();writeJSON(at(`.state/link-health-history/${archivedAt.replace(/[:.]/g,'-')}-${sha(JSON.stringify(prior)).slice(0,12)}.json`),{archivedAt,observations:prior},0o600);}
   const results=[];let next=0;
   await Promise.all(Array.from({length:Math.min(3,selected.length)},async()=>{
     while(next<selected.length){const item=selected[next++],key=sha(item.url),previous=state.links[key]||{};let observed;
@@ -54,5 +64,5 @@ export async function checkLinks({limit=config().maintenance?.linkLimit??24,sour
   state.lastBatch={checked:results.length,problems:problems.length};
   if(results.length&&!problems.length)state.lastSuccess=now();
   writeJSON(at('.state/link-health.json'),state,0o600);
-  return {checked:results.length,poolSize:all.size,observed:Object.keys(state.links).length,completeCoverage:[...all.keys()].every(url=>state.links[sha(url)]),problems:problems.map(({source,state,status,url,finalUrl})=>({source,state,status,url,finalUrl})),results,notice:'A bounded rotating sample; 404 requires two observations, 410 is dead, access/rate limits remain separate. Redirects do not rewrite the registry. No page bodies are stored.'};
+  return {checked:results.length,retryFailures,archivedPrevious:prior.length,poolSize:all.size,observed:Object.keys(state.links).length,completeCoverage:[...all.keys()].every(url=>state.links[sha(url)]),problems:problems.map(({source,state,status,url,finalUrl})=>({source,state,status,url,finalUrl})),results,notice:'Bounded sampling or due failure retries; healthy and 404/410 observations remain daily. Previous observations are preserved before rechecking. Access/rate limits remain separate; redirects never rewrite the registry. No page bodies are stored.'};
 }

@@ -42,6 +42,13 @@
       "digest": "961116fca785bdd721d28887c8f48fd7c3e6b023914eb02fd492ddb35c6f02c3",
       "method": "automatic-curation-pr",
       "preparedAt": "2026-10-16T07:22:36.381Z"
+    },
+    "knowledge/tailwind/responsibility-based-tokens.md": {
+      "sha256": "e38d6b7143ccfd43a232564bea8c937093748b6cef1b77d7ea0e17af4522cd97",
+      "proposal": "e45d21a348d37d86ff966b98",
+      "digest": "e45d21a348d37d86ff966b9814f8e6ba02b0af42ecc2e2f01fc063994b62ce9c",
+      "method": "automatic-curation-pr",
+      "preparedAt": "2026-10-16T10:10:40.066Z"
     }
   }
 }
