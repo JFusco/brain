@@ -1,34 +1,20 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {createRequire} from 'node:module';
 import {spawnSync} from 'node:child_process';
 import {at,ROOT,config,readJSON,json,writeJSON,atomic,mkdir,sha,safePath,noSymlinks,walk,inside,now} from './core.mjs';
 import {lock,registry,snapshotFiles} from './official.mjs';
 import {assertClean} from './privacy.mjs';
+import {projectContext,projectDirectory} from './project-context.mjs';
 
-function project(input) {
+function project(input,{workspace}={}) {
   if(!input)throw new Error('--project <path> is required');
-  const root=fs.realpathSync(path.resolve(input));
+  const context=projectContext(input,{workspace}),root=context.selectedRoot;
+  if(context.workspaceSelectionRequired)throw new Error('Select an application with --workspace or supply its directory as --project; workspace dependencies are never merged');
   if(root===ROOT||inside(ROOT,root))throw new Error('Do not install skills inside the brain');
   if(!fs.existsSync(path.join(root,'package.json')))throw new Error('Project must contain package.json');
   noSymlinks(root,path.join(root,'.agents'));noSymlinks(root,path.join(root,'.claude'));
-  const require=createRequire(path.join(root,'package.json'));
   const manifests=[{directory:root,manifest:json(path.join(root,'package.json'))}];
-  const workspace=manifests[0].manifest.workspaces;
-  const patterns=Array.isArray(workspace)?workspace:workspace?.packages||[];
-  const pnpm=path.join(root,'pnpm-workspace.yaml');
-  if(fs.existsSync(pnpm))for(const match of fs.readFileSync(pnpm,'utf8').matchAll(/^\s*-\s*['"]?([^'"\s#]+)['"]?\s*$/gm))patterns.push(match[1]);
-  for(const pattern of new Set(patterns)) {
-    if(!/^[\w@./*-]+$/.test(pattern)||pattern.includes('..')||pattern.startsWith('!'))continue;
-    const pieces=pattern.split('/');
-    function visit(dir,i){if(i===pieces.length){const file=path.join(dir,'package.json');if(fs.existsSync(file))manifests.push({directory:dir,manifest:json(file)});return;}if(pieces[i]==='*'){if(fs.existsSync(dir))for(const item of fs.readdirSync(dir,{withFileTypes:true}))if(item.isDirectory()&&!item.isSymbolicLink()&&!item.name.startsWith('.'))visit(path.join(dir,item.name),i+1);}else if(pieces[i]!=='**'){const next=path.join(dir,pieces[i]);if(fs.existsSync(next)&&!fs.lstatSync(next).isSymbolicLink())visit(next,i+1);}}
-    visit(root,0);
-  }
-  const dependencies={};
-  for(const entry of manifests)for(const [name,declared] of Object.entries({...entry.manifest.dependencies,...entry.manifest.devDependencies,...entry.manifest.peerDependencies})){
-    let version=null;try{const localRequire=createRequire(path.join(entry.directory,'package.json'));version=JSON.parse(fs.readFileSync(localRequire.resolve(name+'/package.json'),'utf8')).version;}catch{}
-    dependencies[name]={declared,version,directory:entry.directory};
-  }
+  const dependencies=context.dependencies;
   const manifestPath=path.join(root,'.agents/skills/brain.source.json');noSymlinks(root,manifestPath);
   const managed=readJSON(manifestPath,{schemaVersion:1,manager:'brain',skills:{},files:{},links:{}});
   if(managed.manager!=='brain'||managed.schemaVersion!==1)throw new Error('Existing skills manifest is not brain-managed');
@@ -66,10 +52,10 @@ function compatibility(p,skill) {
   if(skill.name==='nextjs' && (p.dependencies.next?.version||p.dependencies.next?.declared)?.match(/^[~^]?(\d+)/)?.[1]>=16)return {matches:false,reason:'Prefer installed Next.js bundled documentation; historical skill is not recommended'};
   for(const required of rules.requiredScripts||[])if(!p.manifests.some(m=>m.manifest.scripts?.[required]))return {matches:false,reason:`Required project script is absent: ${required}`};
   for(const required of rules.requiredPaths||[]){safePath(required);if(!fs.existsSync(path.join(p.root,required)))return {matches:false,reason:`Required project layout is absent: ${required}`};}
-  return {matches:true,reason:matches.map(name=>`${name} ${p.dependencies[name].version||p.dependencies[name].declared}`).join(', ')};
+  return {matches:true,reason:matches.map(name=>`${name} ${p.dependencies[name].version||p.dependencies[name].declared} (${p.dependencies[name].confidence})`).join(', ')};
 }
-export function suggest(input) {
-  const p=project(input),active=lock(),all=[];
+export function suggest(input,{workspace}={}) {
+  const p=project(input,{workspace}),active=lock(),all=[];
   for(const entry of Object.values(active.sources))for(const skill of entry.skills) {
     const relevant=Object.keys(p.dependencies).some(name=>(skill.appliesTo?.dependencies||[]).some(pattern=>pattern.endsWith('/*')?name.startsWith(pattern.slice(0,-1)):name===pattern));
     if(!p.managed.skills[skill.id]&&(!relevant||skill.policy==='curated'&&!skill.installable))continue;
@@ -91,8 +77,8 @@ function desiredFiles(skill,entry) {
   out.set(`.agents/skills/${skill.name}/brain.attribution.json`,Buffer.from(JSON.stringify({source:entry.id,repository:entry.repository,revision:entry.revision,license:entry.license,skill:skill.id},null,2)+'\n'));
   return out;
 }
-export function mutate(action,input,ids,{recommended=false,yes=false,dryRun=false,copy=null}={}) {
-  const p=project(input),active=lock(),suggestions=suggest(input);
+export function mutate(action,input,ids,{recommended=false,yes=false,dryRun=false,copy=null,workspace}={}) {
+  const p=project(input,{workspace}),active=lock(),suggestions=suggest(input,{workspace});
   if(recommended){if(ids.length)throw new Error('Choose IDs or --recommended');ids=suggestions.filter(s=>s.compatible&&(action==='update'?['outdated']:['recommended']).includes(s.status)).map(s=>s.id);}
   if(!ids.length){if(recommended)return {operations:[],noOp:true,dryRun:dryRun||!yes};throw new Error('No matching skills selected');}
   if(new Set(ids).size!==ids.length)throw new Error('Duplicate skill IDs');
@@ -177,8 +163,8 @@ export function mutate(action,input,ids,{recommended=false,yes=false,dryRun=fals
 function removeEmptyCreated(root,dirs) {
   for(const name of [...dirs].sort((a,b)=>b.length-a.length)){safePath(name);if(!/^\.(?:agents|claude)(?:\/|$)/.test(name))throw new Error('Invalid created-directory record');const dir=path.join(root,name);noSymlinks(root,dir);if(fs.existsSync(dir)&&fs.lstatSync(dir).isDirectory()&&!fs.readdirSync(dir).length)fs.rmdirSync(dir);}
 }
-export function recover(input,{yes=false,dryRun=false}={}) {
-  if(!input)throw new Error('--project is required');const root=fs.realpathSync(path.resolve(input)),file=at(`.state/project-transactions/${sha(root).slice(0,24)}.json`),journal=readJSON(file,null);
+export function recover(input,{yes=false,dryRun=false,workspace}={}) {
+  const root=projectDirectory(input,workspace),file=at(`.state/project-transactions/${sha(root).slice(0,24)}.json`),journal=readJSON(file,null);
   if(!journal)return {recoveryNeeded:false};if(journal.root!==root||!Array.isArray(journal.after))throw new Error('Invalid recovery journal');
   for(const backup of journal.backups){managedPath(backup.path);const target=path.join(root,backup.path);noSymlinks(root,path.dirname(target));let stat;try{stat=fs.lstatSync(target);}catch(e){if(e.code!=='ENOENT')throw e;}
     const actual=!stat?{kind:'missing'}:stat.isSymbolicLink()?{kind:'link',data:fs.readlinkSync(target)}:stat.isFile()?{kind:'file',sha256:sha(fs.readFileSync(target))}:{kind:'directory'};

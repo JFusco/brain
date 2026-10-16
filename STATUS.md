@@ -1,6 +1,18 @@
 # Implementation status
 
-## Current maintenance delivery
+## On-demand reliability follow-up
+
+[JFusco/brain issue 5](https://github.com/JFusco/brain/issues/5) tracks this follow-up; its linked PR records publication and hosted checks. No consuming project instructions or global skills are added.
+
+- Lookup accepts explicit package versions or one selected application workspace. It prefers installed Next.js docs when present, excludes incompatible notes, and labels rolling or unestablished compatibility honestly. Skill matching no longer combines sibling workspace dependencies.
+- Stale guidance is queued after a cited source revision changes or review becomes due. Retired/superseded notes remain historical and leave recommendations. The Next.js note was revalidated against the actual official agent guide and narrowed to bundled documentation from 16.2 onward.
+- Header-only link sampling rotates across 5,753 eligible destinations with a default batch of 24. The latest network-enabled batch returned 23 healthy destinations and one Sitecore HTTP 403. An earlier sandbox-restricted batch recorded 24 transient failures; those records are retained. This is partial coverage, not a claim that every link works.
+- Maintenance status distinguishes attempts, success, source failure, unfinished publication, sampled coverage, stale notes, and backup availability. The existing 03:15 America/New_York automation now prioritizes stale guidance and records its actual publication outcome. First unattended execution of these additions remains unproven.
+- An encrypted local backup of 6,625 private files was authenticated and restored successfully into a separate empty recovery directory. Google Drive upload awaits explicit authorization of the exact folder/payload; no off-device backup is claimed. The separate recovery key is never uploaded. Managed excerpt cleanup is capped and preserves unowned or modified files.
+
+Actual runtime checks passed: content/privacy (1,226 files), official integrity, syntax (20 maintained CLI/modules), Next.js 16.1 exclusion and 16.2 match, focused pinned React fetch and cache hit, and maintenance execution with no operation failures. Status still exposes access/network warnings and the pending off-device copy. Installed application/workspace package resolution was not exercised against another project. Tests, fixtures, fresh-session checks, dedicated QA, and review-agent audits remain deferred.
+
+## Previous maintenance delivery
 
 The maintenance change is tracked in [JFusco/brain issue 1](https://github.com/JFusco/brain/issues/1) and [delivery PR 2](https://github.com/JFusco/brain/pull/2). Their saved records provide the current publication state and hosted execution evidence.
 
@@ -10,7 +22,7 @@ The maintenance change is tracked in [JFusco/brain issue 1](https://github.com/J
 - Full context-wiki scripts, native hooks, and the three requested GitHub workflows are installed. The hosted PR integrity check, merge-time writer, and manually dispatched issue-state writer all succeeded. `BOT_TOKEN` authenticated the writers; its value was never read or transferred locally.
 - A daily 03:15 America/New_York local automation is active for Brain documentation only: at most 12 candidates and one issue-linked PR per run. It may merge only after runtime/wiki checks and exact-head verification. It cannot change code, hooks, workflows, registrations, policies, other repositories, or memories.
 
-The source audit covered maintained runtime modules, CLI/setup, configuration, source/catalog logic, scheduling, hook integration, and wiki navigation. It found and addressed repeated nested skill identities, whole-candidate acceptance after partial use, unreachable repository links, and a hook that prevented wiki work from running. The skill matcher's combined workspace dependencies and incidental keyword tagging remain documented limitations. Inbox review was a bounded cross-domain sample, not a semantic audit of every candidate or upstream page.
+The source audit covered maintained runtime modules, CLI/setup, configuration, source/catalog logic, scheduling, hook integration, and wiki navigation. It found and addressed repeated nested skill identities, whole-candidate acceptance after partial use, unreachable repository links, and a hook that prevented wiki work from running. Combined workspace matching was a limitation of that delivery and is addressed by the follow-up above. Incidental keyword tagging remains a documented limitation. Inbox review was a bounded cross-domain sample, not a semantic audit of every candidate or upstream page.
 
 Runtime content and official integrity checks have passed locally. The requested wiki graph/integrity checks have passed locally. Selective fetch succeeded for React `useEffect`, Contentstack's Sitecore migration guide, and Vercel deployment protection; React's excerpt cache also returned a hit. These do not establish the correctness of every technical claim. Tests, fixtures, fresh-session checks, dedicated QA, and review-agent audits remain deferred. See [the maintenance topic](wiki/topics/automatic-knowledge-maintenance.md) for current behavior and evidence limits.
 

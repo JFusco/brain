@@ -2,12 +2,12 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 7,
-    "edges": 11,
+    "nodes": 9,
+    "edges": 17,
     "byType": {
       "index": 3,
-      "journal": 1,
-      "plan": 2,
+      "journal": 2,
+      "plan": 3,
       "topic": 1
     }
   },
@@ -51,8 +51,27 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": -0.222521,
-      "y": 0.974928,
+      "x": 0.173648,
+      "y": 0.984808,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-15-on-demand-reliability.md",
+      "label": "Keep Brain guidance useful on demand",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 5,
+          "url": "https://github.com/jfusco/brain/issues/5"
+        }
+      ],
+      "bytes": 3763,
+      "degree": 4,
+      "x": -0.5,
+      "y": 0.866025,
       "size": 8
     },
     {
@@ -63,8 +82,8 @@
       "githubRefs": [],
       "bytes": 3069,
       "degree": 2,
-      "x": 0.62349,
-      "y": 0.781831,
+      "x": 0.766044,
+      "y": 0.642788,
       "size": 12
     },
     {
@@ -75,8 +94,8 @@
       "githubRefs": [],
       "bytes": 2105,
       "degree": 2,
-      "x": -0.900969,
-      "y": 0.433884,
+      "x": -0.939693,
+      "y": 0.34202,
       "size": 8
     },
     {
@@ -100,8 +119,20 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.900969,
-      "y": -0.433884,
+      "x": -0.939693,
+      "y": -0.34202,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-16-on-demand-knowledge-maintenance-reliability-a09b1f9f08.md",
+      "label": "On-demand knowledge maintenance reliability",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [],
+      "bytes": 2686,
+      "degree": 3,
+      "x": -0.5,
+      "y": -0.866025,
       "size": 8
     },
     {
@@ -123,10 +154,10 @@
           "url": "https://github.com/jfusco/brain/pull/3"
         }
       ],
-      "bytes": 1109,
-      "degree": 4,
-      "x": -0.222521,
-      "y": -0.974928,
+      "bytes": 1483,
+      "degree": 5,
+      "x": 0.173648,
+      "y": -0.984808,
       "size": 12
     },
     {
@@ -144,12 +175,18 @@
           "kind": "issue",
           "number": 1,
           "url": "https://github.com/jfusco/brain/issues/1"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 5,
+          "url": "https://github.com/jfusco/brain/issues/5"
         }
       ],
-      "bytes": 5527,
-      "degree": 6,
-      "x": 0.62349,
-      "y": -0.781831,
+      "bytes": 8706,
+      "degree": 10,
+      "x": 0.766044,
+      "y": -0.642788,
       "size": 8
     }
   ],
@@ -183,6 +220,13 @@
       "relation": "link"
     },
     {
+      "id": "4e60f6a895507e65",
+      "source": "wiki/journal/2026-10-15-on-demand-reliability.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "6054eb89bc06ebe2",
       "source": "wiki/INDEX.md",
       "target": "wiki/plans/INDEX.md",
@@ -190,9 +234,23 @@
       "relation": "link"
     },
     {
+      "id": "664af8dd0b83a60b",
+      "source": "wiki/plans/2026-10-16-on-demand-knowledge-maintenance-reliability-a09b1f9f08.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "8933e57020592c39",
       "source": "wiki/journal/2026-10-15-automatic-knowledge-maintenance.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "9618c3d85ef4c4d7",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/journal/2026-10-15-on-demand-reliability.md",
       "type": "link",
       "relation": "link"
     },
@@ -206,6 +264,27 @@
     {
       "id": "ac7e76cb5b3e08bc",
       "source": "wiki/INDEX.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "b094cd25b516e04b",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-16-on-demand-knowledge-maintenance-reliability-a09b1f9f08.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "b91bdb1bbf2e6f79",
+      "source": "wiki/journal/2026-10-15-on-demand-reliability.md",
+      "target": "wiki/plans/2026-10-16-on-demand-knowledge-maintenance-reliability-a09b1f9f08.md",
+      "type": "plan",
+      "relation": "plan"
+    },
+    {
+      "id": "bfc07ac9e1527f92",
+      "source": "wiki/journal/2026-10-15-on-demand-reliability.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "link",
       "relation": "link"

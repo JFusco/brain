@@ -1,18 +1,27 @@
 ---
-title: "Read installed Next.js docs before framework changes"
+title: "Read bundled Next.js docs for the installed release"
 domain: "nextjs"
 aliases: ["installed nextjs docs", "framework documentation"]
 evidence_date: "2026-10-15"
-applicability: "Next.js projects; bundled documentation is available in Next.js 16.2 and later"
-provenance: "Candidates 69e67b6c9fcf7409631e2488 and ab5ee1b1919ac148038acd67; nextjs-index@7042244d22b56c78439c67e051a322db82720c09706bc77b44dc6f619df8300d"
+reviewed_at: "2026-10-16"
+status: "current"
+versions: ["next@>=16.2"]
+applicability: "Next.js 16.2 and later; resolve documentation from the application workspace"
+provenance: "Previously accepted candidates 69e67b6c9fcf7409631e2488 and ab5ee1b1919ac148038acd67; nextjs-index@4ba86c99073ca6b65f04f5a283dcebb76deffd8a3e2fefe031ba5dd1ad8e6556; official agent guide fetched 2026-10-16, response SHA256 b0586577009083e7ad24bdbb9e6c7570c6a05b9af92be43dd220ac315bda7b22"
 ---
 
-# Read installed Next.js docs before framework changes
+# Read bundled Next.js docs for the installed release
 
-Before changing App Router caching, routing, or server APIs, identify the Next.js version used by the target application and read documentation matching that version.
+## When to use this
 
-Next.js 16.2 and later include documentation under `node_modules/next/dist/docs/`. In a monorepo, resolve the Next.js package from the application workspace; the repository root may use a different dependency or contain no installed Next.js package.
+For applications on Next.js 16.2 or later, read the documentation included with the installed package before changing caching, routing, or server APIs. It lives under `node_modules/next/dist/docs/`.
 
-Use the repository's managed Next.js instructions to locate the relevant docs. Preserve that managed block while editing surrounding guidance. If bundled docs are absent, consult official documentation for the installed release. Confirm applicability before using advice from the rolling website or an older vendor skill.
+## What to do
 
-This practice was observed in repository instructions and checked against the [official agent guide](https://nextjs.org/docs/app/guides/ai-agents) and the [captured documentation index](../../official/snapshots/nextjs-index/7042244d22b5-76f4b96aef1d/llms.txt) on the evidence date.
+Resolve Next.js from the application workspace, which can differ from the repository root. Use Brain on demand with `lookup --project <root> --workspace <app> --domain nextjs --query <terms>`. Installed documentation is preferred when present; rolling website results remain explicitly unconfirmed for the target version.
+
+Preserve existing framework-managed instruction blocks. This guidance does not install Brain instructions, run a development server, or upgrade dependencies. If the package or its documentation is absent, establish the intended release before using official website guidance.
+
+## Evidence and limits
+
+The [official agent guide](https://nextjs.org/docs/app/guides/ai-agents) was rechecked on 2026-10-16; the [captured index](../../official/snapshots/nextjs-index/4ba86c99073c-4ee48a797e36/llms.txt) supplies discovery metadata. The guide confirms bundled docs from 16.2; automatic framework-managed instructions are a separate feature available from 16.3. This note's constraint covers bundled documentation, not compatibility of every framework API. A changed catalog hash alone was not treated as revalidation.
