@@ -54,3 +54,7 @@ The audit covered maintained core runtime modules, CLI/setup, public configurati
 See [the delivery journal](../journal/2026-10-15-automatic-knowledge-maintenance.md) and [JFusco/brain issue 1](https://github.com/JFusco/brain/issues/1).
 
 See [the on-demand reliability journal](../journal/2026-10-15-on-demand-reliability.md) for this follow-up.
+
+## Backup requirement withdrawn
+
+After the initial upload, Joe explicitly said no backup was needed. [Issue 8](https://github.com/JFusco/brain/issues/8) disables automatic backup creation, inventory previews, pruning and Drive uploads. Status exposes `automaticEnabled: false` and does not raise backup-requirement alerts while disabled. Existing archives, keys, Drive files and receipts are preserved; explicit manual recovery remains available. Daily learning/reference maintenance and the one-time 4 a.m. verification stay enabled, with disabled backups treated as the expected outcome. Re-enabling backup work requires Joe’s instruction.

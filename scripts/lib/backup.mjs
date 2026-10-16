@@ -51,7 +51,7 @@ const metadata=record=>JSON.stringify({path:record.path,bytes:record.bytes,sha25
 
 export function backupSummary() {
   const state=readJSON(at('.state/backup-runs.json'),{}),cloud=readJSON(at('.state/backup-cloud.json'),{}),latest=[...(state.archives||[])].sort((a,b)=>b.verifiedAt.localeCompare(a.verifiedAt))[0];
-  return {lastAttempt:state.lastAttempt||null,lastSuccess:state.lastSuccess||null,lastFailure:state.lastFailure||null,verifiedArchives:(state.archives||[]).length,keyPresent:fs.existsSync(at('.state/backup.key')),localOnly:!latest?.cloud,cloudConfigured:cloud.provider==='google-drive',cloudVerifiedAt:latest?.cloud?.observedAt||null,cloudVerification:latest?.cloud?.method||null,recoveryKeyIncluded:false};
+  return {automaticEnabled:config().maintenance?.backupEnabled===true,lastAttempt:state.lastAttempt||null,lastSuccess:state.lastSuccess||null,lastFailure:state.lastFailure||null,verifiedArchives:(state.archives||[]).length,keyPresent:fs.existsSync(at('.state/backup.key')),localOnly:!latest?.cloud,cloudConfigured:cloud.provider==='google-drive',cloudVerifiedAt:latest?.cloud?.observedAt||null,cloudVerification:latest?.cloud?.method||null,recoveryKeyIncluded:false};
 }
 
 export function configureCloudBackup(folderId,folderUrl) {

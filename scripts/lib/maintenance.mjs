@@ -25,8 +25,8 @@ export function maintenanceStatus() {
   if(publication.lastSuccess&&overdue(publication.lastSuccess,grace))errors.push('Publication has no recent successful run');
   if(!publication.lastSuccess)warnings.push('Awaiting the first recorded publication run; configuration is not unattended execution proof');
   const backup=backupSummary();
-  if(!backup.lastSuccess||overdue(backup.lastSuccess,grace)||backup.lastFailure)errors.push('A current verified private-state backup is missing or failing');
-  if(backup.localOnly)warnings.push(backup.cloudConfigured?'The latest encrypted backup awaits Google Drive upload/readback':'Backups are local; an off-device copy has not been verified');
+  if(backup.automaticEnabled&&(!backup.lastSuccess||overdue(backup.lastSuccess,grace)||backup.lastFailure))errors.push('A current verified private-state backup is missing or failing');
+  if(backup.automaticEnabled&&backup.localOnly)warnings.push(backup.cloudConfigured?'The latest encrypted backup awaits Google Drive upload/readback':'Backups are local; an off-device copy has not been verified');
   const links=linkSummary();
   if(!links.lastRun||overdue(links.lastRun,grace))warnings.push('Link sampling has no recent run');
   if(links.counts.dead||links.counts['suspected-dead'])warnings.push('Link sampling found dead or potentially dead destinations');
@@ -64,17 +64,19 @@ export async function recordPublication({phase,runId,outcome,pr,trigger='manual'
 }
 
 export async function runMaintenance({dryRun=false,dueOnly=true}={}) {
-  if(dryRun)return {dryRun:true,guidance:staleGuidance({limit:12}),cache:cleanExcerptCache(),backup:await createBackup({dryRun:true}),status:maintenanceStatus()};
+  const automaticBackups=config().maintenance?.backupEnabled===true,disabledBackup={skipped:true,reason:'Automatic backups are disabled'};
+  if(dryRun)return {dryRun:true,guidance:staleGuidance({limit:12}),cache:cleanExcerptCache(),backup:automaticBackups?await createBackup({dryRun:true}):disabledBackup,status:maintenanceStatus()};
   const state=readJSON(at('.state/maintenance.json'),{}),result={failures:[]};state.lastAttempt=now();writeJSON(at('.state/maintenance.json'),state,0o600);
   result.guidance=staleGuidance({limit:100,write:true});
   try{result.cache=cleanExcerptCache({yes:true});}catch{result.failures.push({operation:'cache',reason:'Managed excerpt cleanup failed; unverified files preserved'});}
   if(!dueOnly||overdue(state.lastLinkAttempt,20)){
     try{result.links=await checkLinks();state.lastLinkAttempt=now();}catch{result.failures.push({operation:'links',reason:'Bounded link sampling failed; previous evidence retained'});}
   }
-  try{
+  if(automaticBackups)try{
     const backup=await createBackup({dueOnly});result.backup={skipped:!!backup.skipped,verified:!!backup.verified,files:backup.files||null};
     result.backupRetention=await pruneBackups();
   }catch{result.failures.push({operation:'backup',reason:'Encrypted backup failed; previous verified archives retained'});}
+  else result.backup=disabledBackup;
   state.lastRun=now();state.failures=result.failures;if(!result.failures.length)state.lastSuccess=now();
   writeJSON(at('.state/maintenance.json'),state,0o600);
   const current=maintenanceStatus();

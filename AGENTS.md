@@ -37,6 +37,8 @@ Skill installations are project-scoped and explicit. Suggest first, then use the
 
 Run bounded due-time `maintenance run` and inspect `maintenance status`. Record publication start/completion/failure with the actual trigger and active run ID; a configured schedule is not proof of execution. Preserve restricted, transient, failed, and partial evidence. Link sampling is bounded coverage, never a claim that every catalog link was checked.
 
+Automatic backups and Drive uploads are disabled at Joe’s request. Keep `maintenance.backupEnabled` false and skip backup requirements in routine status/verification; preserve existing artifacts and keys. Manual backup/recovery tools require an explicitly scoped request.
+
 Backups encrypt eligible private state and verify authentication and file checksums before success. Keep the recovery key separate; never print, commit, or upload it. Upload only verified ciphertext to the explicitly authorized Drive folder and record observed metadata; never change sharing or delete cloud files. Do not retry an approval-rejected upload without the required explicit user authorization. Recovery uses an empty private destination and never overwrites active state. Cleanup removes only unchanged owned cache/backup files; preserve modified, unowned, historical, and failed evidence.
 
 ## Commit message standard
