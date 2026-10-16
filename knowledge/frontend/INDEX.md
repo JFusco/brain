@@ -8,7 +8,7 @@ aliases: ["frontend"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No approved learnings yet.
+- [Match UI evidence to the acceptance claim](match-evidence-to-claim.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

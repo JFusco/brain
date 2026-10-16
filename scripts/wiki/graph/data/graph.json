@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "wikiRoot": "wiki",
+  "counts": {
+    "nodes": 6,
+    "edges": 9,
+    "byType": {
+      "index": 3,
+      "journal": 1,
+      "plan": 1,
+      "topic": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "wiki/INDEX.md",
+      "label": "Context wiki",
+      "type": "index",
+      "aliases": [],
+      "githubRefs": [],
+      "bytes": 1521,
+      "degree": 3,
+      "x": 1,
+      "y": 0,
+      "size": 12
+    },
+    {
+      "id": "wiki/journal/2026-10-15-automatic-knowledge-maintenance.md",
+      "label": "Automatic curation, official references, and wiki setup",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 1,
+          "url": "https://github.com/jfusco/brain/issues/1"
+        }
+      ],
+      "bytes": 3938,
+      "degree": 3,
+      "x": -0.5,
+      "y": 0.866025,
+      "size": 8
+    },
+    {
+      "id": "wiki/MECHANICS.md",
+      "label": "Wiki mechanics",
+      "type": "index",
+      "aliases": [],
+      "githubRefs": [],
+      "bytes": 2918,
+      "degree": 2,
+      "x": 0.5,
+      "y": 0.866025,
+      "size": 12
+    },
+    {
+      "id": "wiki/plans/2026-10-16-automatic-knowledge-maintenance-and-documentation-coverage-683e6d04bb.md",
+      "label": "Automatic knowledge maintenance and documentation coverage",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [],
+      "bytes": 2105,
+      "degree": 2,
+      "x": -1,
+      "y": 0,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/INDEX.md",
+      "label": "Plan ledger",
+      "type": "index",
+      "aliases": [],
+      "githubRefs": [],
+      "bytes": 722,
+      "degree": 3,
+      "x": -0.5,
+      "y": -0.866025,
+      "size": 12
+    },
+    {
+      "id": "wiki/topics/automatic-knowledge-maintenance.md",
+      "label": "Automatic knowledge maintenance",
+      "type": "topic",
+      "aliases": [
+        "curation",
+        "reference refresh",
+        "Brain audit"
+      ],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 1,
+          "url": "https://github.com/jfusco/brain/issues/1"
+        }
+      ],
+      "bytes": 5527,
+      "degree": 5,
+      "x": 0.5,
+      "y": -0.866025,
+      "size": 8
+    }
+  ],
+  "edges": [
+    {
+      "id": "2afaa89c8213f9ef",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-16-automatic-knowledge-maintenance-and-documentation-coverage-683e6d04bb.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "355b085344694472",
+      "source": "wiki/INDEX.md",
+      "target": "wiki/MECHANICS.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "6054eb89bc06ebe2",
+      "source": "wiki/INDEX.md",
+      "target": "wiki/plans/INDEX.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "8933e57020592c39",
+      "source": "wiki/journal/2026-10-15-automatic-knowledge-maintenance.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "9f38fb80b3324e9f",
+      "source": "wiki/journal/2026-10-15-automatic-knowledge-maintenance.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
+      "id": "ac7e76cb5b3e08bc",
+      "source": "wiki/INDEX.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "e56d58329e2a8982",
+      "source": "wiki/MECHANICS.md",
+      "target": "wiki/plans/INDEX.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "fbb29c5c6c99174c",
+      "source": "wiki/plans/2026-10-16-automatic-knowledge-maintenance-and-documentation-coverage-683e6d04bb.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
+      "id": "fce97f5f6a0479d1",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/journal/2026-10-15-automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    }
+  ]
+}

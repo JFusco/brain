@@ -251,10 +251,6 @@
       ],
       "referenceIssues": [
         {
-          "from": "skills/README.md",
-          "target": "AGENTS.md"
-        },
-        {
           "from": "skills/dev-workflow/SKILL.md",
           "target": ".github/workflows/policy-scan.yml"
         },
@@ -265,6 +261,10 @@
         {
           "from": "skills/dev-workflow/SKILL.md",
           "target": ".github/workflows/issues-jira.yml"
+        },
+        {
+          "from": "skills/README.md",
+          "target": "AGENTS.md"
         }
       ],
       "domains": [
@@ -278,7 +278,7 @@
           "revision": "00ad45da90b7986c3b9094d86abd90a5082097cc"
         }
       ],
-      "catalogVersion": 2
+      "catalogVersion": 3
     },
     "sitecore-content-sdk": {
       "id": "sitecore-content-sdk",
@@ -788,7 +788,7 @@
           "revision": "890ce57efbda2526eb3e1be6bcee9746681b5d99"
         }
       ],
-      "catalogVersion": 2
+      "catalogVersion": 3
     },
     "vercel-agent-skills": {
       "id": "vercel-agent-skills",
@@ -1431,14 +1431,14 @@
         "archiveMatchesExpected": false
       },
       "fetchedAt": "2026-10-15T17:53:28.302Z",
-      "catalogVersion": 2
+      "catalogVersion": 3
     },
     "vercel-plugin": {
       "id": "vercel-plugin",
-      "revision": "d874dac94438ac4b8c788e8c2b90a6abbce197a6",
-      "snapshot": "d874dac94438-8db6a16f9bc5",
+      "revision": "045b17eea6dfe6f9ec4b8c1a49f453d11491684f",
+      "snapshot": "045b17eea6df-51348587fb1d",
       "repository": "vercel/vercel-plugin",
-      "url": "https://codeload.github.com/vercel/vercel-plugin/tar.gz/d874dac94438ac4b8c788e8c2b90a6abbce197a6",
+      "url": "https://codeload.github.com/vercel/vercel-plugin/tar.gz/045b17eea6dfe6f9ec4b8c1a49f453d11491684f",
       "track": "default-branch",
       "license": "Apache-2.0",
       "licenses": [
@@ -1456,6 +1456,7 @@
         }
       ],
       "policySha256": "05cbd24b40a8e8b7cc83938ffc2d869ba1baff62695640941a328fdfdafe4160",
+      "catalogVersion": 3,
       "files": [
         {
           "path": "LICENSE",
@@ -1603,14 +1604,14 @@
         },
         {
           "path": "skills/chat-sdk/SKILL.md",
-          "sha256": "65b932858227ff89784636bbdf42e3573397175405397644c37310700ee169b1",
-          "bytes": 11613,
+          "sha256": "9f32a023462894fa1d0c00ec449420044fdc53a8263205520c587c0bda1754b2",
+          "bytes": 11902,
           "cached": false
         },
         {
           "path": "skills/chat-sdk/upstream/SKILL.md",
-          "sha256": "6e896ea626060baf607f2f87191c3967a20deae16155b9571a345f7fed91e50f",
-          "bytes": 7302,
+          "sha256": "0713e1e2654f2001c0136acc0ffff68a7bdc952530d67723aa8312f62511d337",
+          "bytes": 7591,
           "cached": false
         },
         {
@@ -3660,143 +3661,6 @@
           "preferred": true
         },
         {
-          "id": "vercel-plugin/upstream",
-          "name": "upstream",
-          "declaredName": "ai-sdk",
-          "description": "Answer questions about the AI SDK and help build AI-powered features. Use when developers: (1) Ask about AI SDK functions like generateText, streamText, ToolLoopAgent, embed, or tools, (2) Want to build AI agents, chatbots, RAG systems, or text generation features, (3) Have questions about AI providers (OpenAI, Anthropic, Google, etc.), streaming, tool calling, structured output, or embeddings, (4) Use React hooks like useChat or useCompletion. Triggers on: \"AI SDK\", \"Vercel AI SDK\", \"generateText\", \"streamText\", \"add AI to my app\", \"build an agent\", \"tool calling\", \"structured output\", \"useChat\".",
-          "directory": "skills/ai-sdk/upstream",
-          "installable": false,
-          "policy": "curated",
-          "appliesTo": {
-            "dependencies": [
-              "react"
-            ]
-          },
-          "preferred": true
-        },
-        {
-          "id": "vercel-plugin/upstream",
-          "name": "upstream",
-          "declaredName": "chat-sdk",
-          "description": "Build multi-platform chat bots with Chat SDK (`chat` npm package). Use when developers want to scaffold a bot with create-chat-sdk, build a Slack, Teams, Google Chat, Discord, Telegram, GitHub, Linear, or WhatsApp bot, handle mentions, direct messages, subscribed threads, reactions, slash commands, cards, modals, files, or AI streaming, set up webhook routes or multi-adapter bots, send rich cards or streamed AI responses to chat platforms, or build a custom adapter or state adapter.",
-          "directory": "skills/chat-sdk/upstream",
-          "installable": false,
-          "policy": "curated",
-          "appliesTo": {
-            "dependencies": [
-              "react"
-            ]
-          },
-          "preferred": true
-        },
-        {
-          "id": "vercel-plugin/upstream",
-          "name": "upstream",
-          "declaredName": "eve",
-          "description": "Build durable backend AI agents with the eve framework. Use when creating, editing, or debugging an eve project — agent instructions, skills, tools, connections, channels, sandboxes, subagents, schedules, or evals.",
-          "directory": "skills/eve/upstream",
-          "installable": false,
-          "policy": "curated",
-          "appliesTo": {
-            "dependencies": [
-              "react"
-            ]
-          },
-          "preferred": true
-        },
-        {
-          "id": "vercel-plugin/upstream",
-          "name": "upstream",
-          "declaredName": "flags-sdk",
-          "description": ">",
-          "directory": "skills/flags-sdk/upstream",
-          "installable": false,
-          "policy": "curated",
-          "appliesTo": {
-            "dependencies": [
-              "react"
-            ]
-          },
-          "preferred": true
-        },
-        {
-          "id": "vercel-plugin/upstream",
-          "name": "upstream",
-          "declaredName": "is-agentic",
-          "description": "Score how ready a website, domain, or public MCP endpoint is for AI agents using Is Agentic, and read or act on the resulting report. Use when asked to check a site's agent readiness, get its Is Agentic score, fetch a scored report as JSON, or fix the issues that lower a site's score.",
-          "directory": "skills/is-agentic/upstream",
-          "installable": false,
-          "policy": "curated",
-          "appliesTo": {
-            "dependencies": [
-              "react"
-            ]
-          },
-          "preferred": true
-        },
-        {
-          "id": "vercel-plugin/upstream",
-          "name": "upstream",
-          "declaredName": "vercel-react-best-practices",
-          "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
-          "directory": "skills/react-best-practices/upstream",
-          "installable": false,
-          "policy": "curated",
-          "appliesTo": {
-            "dependencies": [
-              "react"
-            ]
-          },
-          "preferred": true,
-          "referenceWarnings": 3
-        },
-        {
-          "id": "vercel-plugin/upstream",
-          "name": "upstream",
-          "declaredName": "vercel-cli",
-          "description": "Deploy, manage, inspect, and troubleshoot Vercel projects from the command line. Use for Vercel deployments, Vercel Toolbar comments, build failures, projects and teams, environment variables, domains and DNS, logs, metrics, Speed Insights, Core Web Vitals, request traces, usage, activity, alerts, firewall rules, cache, cron jobs, deploy hooks, Edge Config, feature flags (`vercel flags`), integrations, connectors, Blob storage, Container Registry (VCR), microfrontends, rolling releases, custom environments, Sandbox, agent/MCP setup, preview access, local development, or `vercel api` fallback.",
-          "directory": "skills/vercel-cli/upstream",
-          "installable": false,
-          "policy": "curated",
-          "appliesTo": {
-            "dependencies": [
-              "react"
-            ]
-          },
-          "preferred": true
-        },
-        {
-          "id": "vercel-plugin/upstream",
-          "name": "upstream",
-          "declaredName": "vercel-sandbox",
-          "description": "Run untrusted or AI-generated code in ephemeral Firecracker microVMs with @vercel/sandbox. Create a VM, run commands, read/write files, expose ports, snapshot and resume. Use for AI agents, code execution, builds, and isolated experimentation.",
-          "directory": "skills/vercel-sandbox/upstream",
-          "installable": false,
-          "policy": "curated",
-          "appliesTo": {
-            "dependencies": [
-              "react"
-            ]
-          },
-          "preferred": true
-        },
-        {
-          "id": "vercel-plugin/upstream",
-          "name": "upstream",
-          "declaredName": "workflow",
-          "description": "Creates durable, resumable workflows using Vercel's Workflow SDK. Use when building workflows that need to survive restarts, pause for external events, retry on failure, or coordinate multi-step operations over time. Triggers on mentions of \"workflow\", \"durable functions\", \"resumable\", \"workflow sdk\", \"queue\", \"event\", \"push\", \"subscribe\", or step-based orchestration.",
-          "directory": "skills/workflow/upstream",
-          "installable": false,
-          "policy": "curated",
-          "appliesTo": {
-            "dependencies": [
-              "react"
-            ]
-          },
-          "preferred": true,
-          "blockedReason": "1 unresolved entry-point references"
-        },
-        {
           "id": "vercel-plugin/vercel-agent",
           "name": "vercel-agent",
           "declaredName": "vercel-agent",
@@ -3989,13 +3853,18 @@
         "vercel"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-15T18:08:23.271Z",
-      "catalogVersion": 2
+      "fetchedAt": "2026-10-16T00:50:12.273Z",
+      "history": [
+        {
+          "snapshot": "d874dac94438-8db6a16f9bc5",
+          "revision": "d874dac94438ac4b8c788e8c2b90a6abbce197a6"
+        }
+      ]
     },
     "nextjs-index": {
       "id": "nextjs-index",
-      "revision": "7042244d22b56c78439c67e051a322db82720c09706bc77b44dc6f619df8300d",
-      "snapshot": "7042244d22b5-76f4b96aef1d",
+      "revision": "4ba86c99073ca6b65f04f5a283dcebb76deffd8a3e2fefe031ba5dd1ad8e6556",
+      "snapshot": "4ba86c99073c-4ee48a797e36",
       "repository": null,
       "url": "https://nextjs.org/docs/llms.txt",
       "track": "rolling-url",
@@ -4007,6 +3876,7 @@
         }
       ],
       "policySha256": "c2770b579665c9a6d2629b74353cd5589858fdf87f2f59c743616f1beee9915f",
+      "catalogVersion": 3,
       "files": [
         {
           "path": "LICENSE.txt",
@@ -4016,8 +3886,8 @@
         },
         {
           "path": "llms.txt",
-          "sha256": "7042244d22b56c78439c67e051a322db82720c09706bc77b44dc6f619df8300d",
-          "bytes": 51263,
+          "sha256": "4ba86c99073ca6b65f04f5a283dcebb76deffd8a3e2fefe031ba5dd1ad8e6556",
+          "bytes": 51259,
           "cached": false
         }
       ],
@@ -4027,8 +3897,13 @@
         "nextjs"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-15T18:08:29.219Z",
-      "catalogVersion": 2
+      "fetchedAt": "2026-10-16T00:50:42.885Z",
+      "history": [
+        {
+          "snapshot": "7042244d22b5-76f4b96aef1d",
+          "revision": "7042244d22b56c78439c67e051a322db82720c09706bc77b44dc6f619df8300d"
+        }
+      ]
     },
     "react-index": {
       "id": "react-index",
@@ -4066,7 +3941,7 @@
       ],
       "seedParity": null,
       "fetchedAt": "2026-10-15T18:08:31.321Z",
-      "catalogVersion": 2
+      "catalogVersion": 3
     },
     "contentful-skills": {
       "id": "contentful-skills",
@@ -4099,7 +3974,7 @@
         }
       ],
       "policySha256": "9b6ac1d49d601f8519410e217aaf9ef83927bec453547ecccf7839962e0d380a",
-      "catalogVersion": 2,
+      "catalogVersion": 3,
       "files": [
         {
           "path": "LICENSE",
@@ -4546,38 +4421,6 @@
           "preferred": false
         },
         {
-          "id": "contentful-skills/contentful-custom-app-enhancement",
-          "name": "contentful-custom-app-enhancement",
-          "declaredName": "contentful-custom-app-enhancement",
-          "description": ">-",
-          "directory": "skills/contentful-apps/contentful-custom-app-enhancement",
-          "installable": false,
-          "policy": "reference-only",
-          "appliesTo": {
-            "dependencies": [
-              "contentful",
-              "contentful-management"
-            ]
-          },
-          "preferred": false
-        },
-        {
-          "id": "contentful-skills/contentful-custom-app-from-scratch",
-          "name": "contentful-custom-app-from-scratch",
-          "declaredName": "contentful-custom-app-from-scratch",
-          "description": ">-",
-          "directory": "skills/contentful-apps/contentful-custom-app-from-scratch",
-          "installable": false,
-          "policy": "reference-only",
-          "appliesTo": {
-            "dependencies": [
-              "contentful",
-              "contentful-management"
-            ]
-          },
-          "preferred": false
-        },
-        {
           "id": "contentful-skills/contentful-guide",
           "name": "contentful-guide",
           "declaredName": "contentful-guide",
@@ -4664,7 +4507,7 @@
         }
       ],
       "policySha256": "caa28febc0cc3b797bc83e664a0a68d7ad0fba8e68047b2269592420de6fbe76",
-      "catalogVersion": 2,
+      "catalogVersion": 3,
       "files": [
         {
           "path": "docs/guides/agent-skills.md",
@@ -5024,8 +4867,8 @@
     },
     "nextjs-docs": {
       "id": "nextjs-docs",
-      "revision": "4bab6be071ad4f5f749b8f8446b7f33e26ed8bb33d61f8d881678f748d5fbe9c",
-      "snapshot": "4bab6be071ad-6ea8a79265c8",
+      "revision": "02d68aa4eef9196f9a65a07b5bcd8bef8a48a5e291b33eece47cdb249589265b",
+      "snapshot": "02d68aa4eef9-656eebf2ff91",
       "repository": null,
       "url": "https://nextjs.org/docs/llms-full.txt",
       "track": "rolling-url",
@@ -5036,8 +4879,8 @@
           "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
         }
       ],
-      "policySha256": "f86e9873df77ad543a32a35cb1adea63d099412ef8a0d3ac849d75e53be9e7a9",
-      "catalogVersion": 2,
+      "policySha256": "3d71e58a5dd6dd01d945916cb08665bd0791f200b8408b89ce2b789d47513a43",
+      "catalogVersion": 3,
       "files": [
         {
           "path": "LICENSE.txt",
@@ -5047,8 +4890,8 @@
         },
         {
           "path": "llms-full.txt",
-          "sha256": "4bab6be071ad4f5f749b8f8446b7f33e26ed8bb33d61f8d881678f748d5fbe9c",
-          "bytes": 4376078,
+          "sha256": "02d68aa4eef9196f9a65a07b5bcd8bef8a48a5e291b33eece47cdb249589265b",
+          "bytes": 4419039,
           "cached": true
         }
       ],
@@ -5058,7 +4901,303 @@
         "nextjs"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-15T18:39:38.267Z"
+      "fetchedAt": "2026-10-16T00:50:47.728Z",
+      "history": [
+        {
+          "snapshot": "4bab6be071ad-6ea8a79265c8",
+          "revision": "4bab6be071ad4f5f749b8f8446b7f33e26ed8bb33d61f8d881678f748d5fbe9c"
+        }
+      ]
+    },
+    "react-docs": {
+      "id": "react-docs",
+      "revision": "046f17d04295ba047bb5739026b4ac3110f17028",
+      "snapshot": "046f17d04295-f38e1a7cc1b2",
+      "repository": "reactjs/react.dev",
+      "url": "https://github.com/reactjs/react.dev/tree/046f17d04295ba047bb5739026b4ac3110f17028/src/content/",
+      "track": "default-branch",
+      "mode": "link-catalog",
+      "license": "CC-BY-4.0",
+      "licenses": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "61b098d905d9799fc4f4625b476dac117630a1740a02e032594ff2fccbbb6206"
+        }
+      ],
+      "policySha256": "d4cdb25d17085796a224fab23288ead26ba11d2b66c0b52940c358e673bcc0cf",
+      "catalogVersion": 3,
+      "files": [
+        {
+          "path": "ATTRIBUTION.md",
+          "sha256": "6ce0f8cb2c0d4232b0887f7fdf49e8bd442441d413bbe9472f0a16038793f8c7",
+          "bytes": 183,
+          "cached": false
+        },
+        {
+          "path": "INDEX.md",
+          "sha256": "e04d605d20b96e3e9df2a2ea63b1f82d25586456fa313896d25140ddf32b1985",
+          "bytes": 21686,
+          "cached": false
+        },
+        {
+          "path": "LICENSE.txt",
+          "sha256": "61b098d905d9799fc4f4625b476dac117630a1740a02e032594ff2fccbbb6206",
+          "bytes": 18525,
+          "cached": false
+        },
+        {
+          "path": "PAGES.json",
+          "sha256": "a3761bb112e81a44c15c15ce081832e1dc9cfa7bdde09159575c60d78cbcf7a2",
+          "bytes": 82149,
+          "cached": false
+        }
+      ],
+      "skills": [],
+      "referenceIssues": [],
+      "domains": [
+        "react"
+      ],
+      "seedParity": null,
+      "fetchedAt": "2026-10-16T01:29:37.529Z",
+      "history": [
+        {
+          "snapshot": "046f17d04295-69ad4b0ef87f",
+          "revision": "046f17d04295ba047bb5739026b4ac3110f17028"
+        },
+        {
+          "snapshot": "046f17d04295-c3dfb7a069ed",
+          "revision": "046f17d04295ba047bb5739026b4ac3110f17028"
+        }
+      ]
+    },
+    "vercel-docs": {
+      "id": "vercel-docs",
+      "revision": "97f63dace14bc561e49ad6a27e325190c2121576966a6c398eef8d94d0e6bdfb",
+      "snapshot": "97f63dace14b-6d06e9d01ac3",
+      "repository": null,
+      "url": "https://vercel.com/docs/sitemap.md",
+      "track": "rolling-url",
+      "mode": "link-catalog",
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "licenses": [],
+      "policySha256": "b3f3bd4b4d1e06577c1ed17adc900f754379e5e8c822c07bf37fa72a9d64dffa",
+      "catalogVersion": 3,
+      "files": [
+        {
+          "path": "ATTRIBUTION.md",
+          "sha256": "29cccdccaa085422253836e31c21e85c35cef85fdcdb154cfb84bee301fb1e52",
+          "bytes": 182,
+          "cached": false
+        },
+        {
+          "path": "INDEX.md",
+          "sha256": "127705c489517b3180df50deb2d3e69c68b7946165d001f8b4c8f8be79901f17",
+          "bytes": 157684,
+          "cached": false
+        },
+        {
+          "path": "PAGES.json",
+          "sha256": "97f63dace14bc561e49ad6a27e325190c2121576966a6c398eef8d94d0e6bdfb",
+          "bytes": 372171,
+          "cached": false
+        }
+      ],
+      "skills": [],
+      "referenceIssues": [],
+      "domains": [
+        "vercel"
+      ],
+      "seedParity": null,
+      "fetchedAt": "2026-10-16T01:29:33.359Z",
+      "history": [
+        {
+          "snapshot": "68570b370995-58c3f1a8d205",
+          "revision": "68570b370995c7925787690e76ef83871e2642f23e15969f5fc1f4f125c90b19"
+        }
+      ]
+    },
+    "contentstack-docs": {
+      "id": "contentstack-docs",
+      "revision": "1c380c3b5dd201ae8b6ff7ac72a9365307757dac8d876fcfb0e84cf3b20a596f",
+      "snapshot": "1c380c3b5dd2-e863a028b99c",
+      "repository": null,
+      "url": "https://www.contentstack.com/sitemap.xml",
+      "track": "rolling-url",
+      "mode": "link-catalog",
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "licenses": [],
+      "policySha256": "a1e68af9db9111290b9606bb554f8c4bf94fbeacbf9bedcf20cc0283fb66b1e6",
+      "catalogVersion": 3,
+      "files": [
+        {
+          "path": "ATTRIBUTION.md",
+          "sha256": "3335b17f0086d4e7b0407431e3ba21efbdefe21a243782d2a656052e6c79dca6",
+          "bytes": 188,
+          "cached": false
+        },
+        {
+          "path": "INDEX.md",
+          "sha256": "814a2ce984608266e953ea69161a1dda3674ec9de787f88b9ba432983495846c",
+          "bytes": 269899,
+          "cached": false
+        },
+        {
+          "path": "PAGES.json",
+          "sha256": "1c380c3b5dd201ae8b6ff7ac72a9365307757dac8d876fcfb0e84cf3b20a596f",
+          "bytes": 593387,
+          "cached": false
+        }
+      ],
+      "skills": [],
+      "referenceIssues": [],
+      "domains": [
+        "cms/contentstack"
+      ],
+      "seedParity": null,
+      "fetchedAt": "2026-10-16T01:29:35.190Z",
+      "history": [
+        {
+          "snapshot": "e7518b89c9b6-8bc13c628478",
+          "revision": "e7518b89c9b6ed798a8b5a898258a51b90bb6bda3e5feb00d1f1a79a60213a03"
+        }
+      ]
+    },
+    "tailwind-docs": {
+      "id": "tailwind-docs",
+      "revision": "7f92c2213315c195dae583d68752da4042da3ade",
+      "snapshot": "7f92c2213315-cb400141e1f1",
+      "repository": "tailwindlabs/tailwindcss.com",
+      "url": "https://github.com/tailwindlabs/tailwindcss.com/tree/7f92c2213315c195dae583d68752da4042da3ade/src/docs/",
+      "track": "default-branch",
+      "mode": "link-catalog",
+      "license": "Tailwind Labs educational reference; not open-source licensed",
+      "licenses": [
+        {
+          "path": "LICENSE.txt",
+          "sha256": "1c4bf4bac2a628175d5bbfb014794218577a8b947b8d44961cf7140837b08ea0"
+        }
+      ],
+      "policySha256": "b4b642f0f2260bf60d08509c373e7a002ce09be941d74e3054595cfb13905704",
+      "catalogVersion": 3,
+      "files": [
+        {
+          "path": "ATTRIBUTION.md",
+          "sha256": "2323e94773c7c664be36aacda0d69dd043435b89ad1bf9f3aec8f41dee777b57",
+          "bytes": 243,
+          "cached": false
+        },
+        {
+          "path": "INDEX.md",
+          "sha256": "74d40e8d47c4ac0cbde680616f5f7e8181c288dd32b82a69be020000c22c9b2f",
+          "bytes": 12505,
+          "cached": false
+        },
+        {
+          "path": "LICENSE.txt",
+          "sha256": "1c4bf4bac2a628175d5bbfb014794218577a8b947b8d44961cf7140837b08ea0",
+          "bytes": 472,
+          "cached": false
+        },
+        {
+          "path": "PAGES.json",
+          "sha256": "a2642211a0f8374dd9493e43697860bc5ee87773d06b610653c989dfc2994505",
+          "bytes": 63212,
+          "cached": false
+        }
+      ],
+      "skills": [],
+      "referenceIssues": [],
+      "domains": [
+        "tailwind"
+      ],
+      "seedParity": null,
+      "fetchedAt": "2026-10-16T01:29:39.340Z",
+      "history": [
+        {
+          "snapshot": "7f92c2213315-72309e56949a",
+          "revision": "7f92c2213315c195dae583d68752da4042da3ade"
+        }
+      ]
+    },
+    "optimizely-cms-saas-docs": {
+      "id": "optimizely-cms-saas-docs",
+      "revision": "a3b1d31d6bce9822bcaca13e4cee0e6d5a2f147dc555aff57464dfac702036d0",
+      "snapshot": "a3b1d31d6bce-dea8bd39c4b2",
+      "repository": null,
+      "url": "https://docs.optimizely.com/llms.txt",
+      "track": "rolling-url",
+      "mode": "link-catalog",
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "licenses": [],
+      "policySha256": "1f72a965b4ae8ce33cef36992ed6090b01930112af427be74fbbe00b2cbaf6cc",
+      "catalogVersion": 3,
+      "files": [
+        {
+          "path": "ATTRIBUTION.md",
+          "sha256": "57b537f848afe39cd826d5cb782320422fbe502860003dbdef9f4e7093ebc264",
+          "bytes": 184,
+          "cached": false
+        },
+        {
+          "path": "INDEX.md",
+          "sha256": "4b4fc79e938414611eee559e488cbaa081f03d9c8511d4bece854d67b89c860f",
+          "bytes": 27019,
+          "cached": false
+        },
+        {
+          "path": "PAGES.json",
+          "sha256": "a3b1d31d6bce9822bcaca13e4cee0e6d5a2f147dc555aff57464dfac702036d0",
+          "bytes": 63096,
+          "cached": false
+        }
+      ],
+      "skills": [],
+      "referenceIssues": [],
+      "domains": [
+        "cms/optimizely-saas"
+      ],
+      "seedParity": null,
+      "fetchedAt": "2026-10-16T01:18:48.452Z"
+    },
+    "optimizely-graph-docs": {
+      "id": "optimizely-graph-docs",
+      "revision": "e4f105f278f80c9a69c61074a05b2716cb82a0c0c0f5eef7a101c150cc25a553",
+      "snapshot": "e4f105f278f8-0cd861915769",
+      "repository": null,
+      "url": "https://docs.optimizely.com/llms.txt",
+      "track": "rolling-url",
+      "mode": "link-catalog",
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "licenses": [],
+      "policySha256": "bb218b45eb3c7fee8c4f61eb8ebf9100557a1ed2f8b5ea2c2f52b2a3bc1d9daf",
+      "catalogVersion": 3,
+      "files": [
+        {
+          "path": "ATTRIBUTION.md",
+          "sha256": "57b537f848afe39cd826d5cb782320422fbe502860003dbdef9f4e7093ebc264",
+          "bytes": 184,
+          "cached": false
+        },
+        {
+          "path": "INDEX.md",
+          "sha256": "2d087bcf0343247909a7e9d4b7dd1e69114e6280cfe1b61c149a475824dbeca7",
+          "bytes": 18462,
+          "cached": false
+        },
+        {
+          "path": "PAGES.json",
+          "sha256": "e4f105f278f80c9a69c61074a05b2716cb82a0c0c0f5eef7a101c150cc25a553",
+          "bytes": 43082,
+          "cached": false
+        }
+      ],
+      "skills": [],
+      "referenceIssues": [],
+      "domains": [
+        "cms/optimizely-saas"
+      ],
+      "seedParity": null,
+      "fetchedAt": "2026-10-16T01:18:50.034Z"
     }
   },
   "toolchain": {

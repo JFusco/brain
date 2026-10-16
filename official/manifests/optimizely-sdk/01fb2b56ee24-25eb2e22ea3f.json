@@ -13,7 +13,7 @@
     }
   ],
   "policySha256": "caa28febc0cc3b797bc83e664a0a68d7ad0fba8e68047b2269592420de6fbe76",
-  "catalogVersion": 2,
+  "catalogVersion": 3,
   "files": [
     {
       "path": "docs/guides/agent-skills.md",

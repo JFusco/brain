@@ -5,6 +5,7 @@ import {at,config,json,readJSON,writeJSON,atomic,sha,now,mkdir,object,safePath,i
 import {api,download,markdownResponse} from './network.mjs';
 import {archive} from './archive.mjs';
 import {assertClean} from './privacy.mjs';
+import {fetchDocumentationCatalog} from './documentation.mjs';
 const require=createRequire(import.meta.url);
 const {splitFrontmatter,scalar}=require('../wiki/lib/frontmatter.cjs');
 
@@ -34,15 +35,17 @@ export function snapshotFiles(entry) {
 function detectLicense(files) {
   const declarations=[];
   for(const [name,bytes] of files) {
-    if(/(?:^|\/)LICENSE(?:\.[^/]*)?$/i.test(name))declarations.push({path:name,sha256:sha(bytes)});
+    if(/(?:^|\/)LICENSE(?:[-.][^/]*)?$/i.test(name))declarations.push({path:name,sha256:sha(bytes)});
     if(name.endsWith('SKILL.md')){const value=scalar(splitFrontmatter(bytes.toString()).raw,'license');if(value)declarations.push({path:name,license:value});}
   }
   return declarations.sort((a,b)=>a.path.localeCompare(b.path));
 }
 function catalog(spec,files) {
   const skills=[];
+  const skillRoot=spec.skillRoot?mapped(spec,spec.skillRoot+'entry').slice(0,-5):null;
   for(const [name,bytes] of files) {
     if(!/(?:^|\/)SKILL\.md$/.test(name))continue;
+    if(skillRoot&&(!name.startsWith(skillRoot)||name.slice(skillRoot.length).split('/').length!==2))continue;
     const directory=path.posix.dirname(name),folder=path.posix.basename(directory),parsed=splitFrontmatter(bytes.toString());
     if(!scalar(parsed.raw,'name')||!scalar(parsed.raw,'description'))throw new Error(`Invalid skill frontmatter in ${spec.id}`);
     const installable=spec.installPolicy==='portable' || spec.installPolicy==='sitecore-bundle' || spec.installPolicy==='curated' && spec.installableSkills.includes(folder);
@@ -50,6 +53,23 @@ function catalog(spec,files) {
     skills.push({id:`${spec.id}/${folder}`,name:folder,declaredName:scalar(parsed.raw,'name'),description:scalar(parsed.raw,'description'),directory,installable,policy:spec.installPolicy,appliesTo:applies,preferred:!!spec.preferred});
   }
   return skills.sort((a,b)=>a.id.localeCompare(b.id));
+}
+export function refreshCatalogs() {
+  requireRegistryApproval();const current=lock(),changed=[];
+  for(const spec of registry().sources){const entry=current.sources[spec.id];if(!entry)continue;const files=snapshotFiles(entry),skills=catalog(spec,files),references=relativeProblems(spec,files,skills);if(entry.catalogVersion===3&&JSON.stringify(entry.skills)===JSON.stringify(skills)&&JSON.stringify(entry.referenceIssues)===JSON.stringify(references))continue;entry.skills=skills;entry.referenceIssues=references;entry.catalogVersion=3;const manifest=readJSON(manifestFile(entry),entry);writeJSON(manifestFile(entry),{...manifest,skills,referenceIssues:references,catalogVersion:3});changed.push(spec.id);}
+  const cached=[];
+  // Preserve bytes and hashes using the established cache/restore path for
+  // oversized files and full exports superseded by link-only catalogs.
+  for(const name of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){
+    const manifest=json(name),spec=registry().sources.find(source=>source.id===manifest.id);
+    const retained=manifest.files.filter(file=>!file.cached&&(file.bytes>1024*1024||spec?.catalogOnly&&manifest.mode!=='link-catalog'&&!/^(?:INDEX\.md|ATTRIBUTION\.md|LICENSE(?:[-.][^/]*)?)$/i.test(file.path)));
+    if(!retained.length)continue;
+    const files=snapshotFiles(manifest);
+    for(const record of retained){object(files.get(record.path));record.cached=true;cached.push(`${manifest.id}/${manifest.snapshot}/${record.path}`);}
+    writeJSON(name,manifest);
+    if(current.sources[manifest.id]?.snapshot===manifest.snapshot)current.sources[manifest.id].files=manifest.files;
+  }
+  writeJSON(at('official/sources.lock.json'),current);generateHubs();updateIgnores();return {changed,cached};
 }
 function relativeProblems(spec,files,skills) {
   const problems=[];
@@ -86,7 +106,10 @@ async function resolve(spec,seed) {
 export async function fetchSource(spec,{seed=false}={}) {
   if(!/^[a-z0-9][a-z0-9-]*$/.test(spec.id))throw new Error('Invalid source ID');
   let files,revision,url,rawArchive;
-  if(spec.kind==='repository') {
+  if(spec.catalogOnly) {
+    const resolved=spec.kind==='repository'?await resolve(spec,seed):null;
+    ({files,revision,url}=await fetchDocumentationCatalog(spec,resolved));
+  } else if(spec.kind==='repository') {
     revision=await resolve(spec,seed);url=`https://codeload.github.com/${spec.repository}/tar.gz/${revision}`;
     const response=await download(url,{hosts:['codeload.github.com'],maxBytes:config().network.maxDownloadBytes});rawArchive=response.bytes;
     const base=spec.sourceBase||'';
@@ -100,13 +123,13 @@ export async function fetchSource(spec,{seed=false}={}) {
     markdownResponse(response);files=new Map([[safePath(spec.filename||'docs.md'),response.bytes]]);revision=sha(response.bytes);url=response.url;
     if(spec.licenseFile){const license=await download(spec.licenseFile.url,{hosts:spec.licenseFile.allowedHosts,maxBytes:1024*1024});if(sha(license.bytes)!==spec.licenseFile.sha256)throw new Error('Documentation license checksum changed');files.set('LICENSE.txt',license.bytes);}
   } else throw new Error('Unsupported source kind');
-  const records=[...files].map(([name,bytes])=>({path:name,sha256:sha(bytes),bytes:bytes.length,cached:bytes.length>1024*1024})).sort((a,b)=>a.path.localeCompare(b.path));
+  const records=[...files].map(([name,bytes])=>({path:name,sha256:sha(bytes),bytes:bytes.length,cached:bytes.length>1024*1024||!spec.catalogOnly&&!!spec.privateOnly&&!['INDEX.md','ATTRIBUTION.md'].includes(name)})).sort((a,b)=>a.path.localeCompare(b.path));
   const licenses=detectLicense(files);
   if(spec.kind==='repository'&&!licenses.length)throw new Error(`No license or license declaration found for ${spec.id}`);
   const skills=catalog(spec,files),references=relativeProblems(spec,files,skills);
   // Individual upstream relative-link defects make a skill reference-only, not silently repaired.
   const digest=sha(JSON.stringify(records));
-  return {files,entry:{id:spec.id,revision,snapshot:`${revision.slice(0,12)}-${digest.slice(0,12)}`,repository:spec.repository||null,url,track:spec.track||'rolling-url',license:spec.license,licenses,policySha256:fingerprint(spec),catalogVersion:2,files:records,skills,referenceIssues:references,domains:spec.domains,seedParity:seed?{verified:true,verificationScope:'selected upstream files',files:spec.seedFiles?.length||0,archiveSha256:rawArchive?sha(rawArchive):null,archiveExpectedSha256:spec.seedArchiveSha256||null,archiveMatchesExpected:!!rawArchive&&sha(rawArchive)===spec.seedArchiveSha256}:null}};
+  return {files,entry:{id:spec.id,revision,snapshot:`${revision.slice(0,12)}-${digest.slice(0,12)}`,repository:spec.repository||null,url,track:spec.track||'rolling-url',mode:spec.catalogOnly?'link-catalog':'snapshot',license:spec.license,licenses,policySha256:fingerprint(spec),catalogVersion:3,files:records,skills,referenceIssues:references,domains:spec.domains,seedParity:seed?{verified:true,verificationScope:'selected upstream files',files:spec.seedFiles?.length||0,archiveSha256:rawArchive?sha(rawArchive):null,archiveExpectedSha256:spec.seedArchiveSha256||null,archiveMatchesExpected:!!rawArchive&&sha(rawArchive)===spec.seedArchiveSha256}:null}};
 }
 function publish(entry,files) {
   const root=snapshotRoot(entry);noSymlinks(at('official'),root);
@@ -120,23 +143,23 @@ function publish(entry,files) {
 function licenseKey(entry){return JSON.stringify({files:entry.licenses.filter(l=>l.sha256),declarations:[...new Set(entry.licenses.filter(l=>l.license).map(l=>l.license))].sort()});}
 export async function sync({seed=false,ids=null,dueOnly=false}={}) {
   requireRegistryApproval();
-  const specs=registry().sources.filter(s=>!ids||ids.includes(s.id));
+  const specs=registry().sources.filter(s=>ids?ids.includes(s.id):s.refresh!==false);
   if(ids?.some(id=>!specs.some(s=>s.id===id)))throw new Error('Unknown official source ID');
   const current=lock(),state=readJSON(at('.state/official-runs.json'));
   const changed=[],failed=[],unchanged=[];
   for(const spec of specs) {
     const previous=current.sources[spec.id];const run=state[spec.id]||{};
-    if(dueOnly && run.policySha256===fingerprint(spec) && (run.nextAttemptAt && Date.parse(run.nextAttemptAt)>Date.now() || run.lastSuccess && Date.now()-Date.parse(run.lastSuccess)<7*86400000))continue;
+    if(dueOnly && run.policySha256===fingerprint(spec) && (run.nextAttemptAt && Date.parse(run.nextAttemptAt)>Date.now() || run.lastSuccess && Date.now()-Date.parse(run.lastSuccess)<(config().official?.refreshHours??20)*3600000))continue;
     try {
       if(previous){snapshotFiles(previous);if(previous.policySha256!==fingerprint(spec))throw new Error('Registry policy changed; apply it through an approved proposal');}
       const result=await fetchSource(spec,{seed});
-      if(previous && licenseKey(previous)!==licenseKey(result.entry) && spec.approvedLicenseSha256!==sha(licenseKey(result.entry))){writeJSON(at(`.state/license-reviews/${spec.id}.json`),{source:spec.id,revision:result.entry.revision,previous:previous.licenses,proposed:result.entry.licenses,approvedLicenseSha256:sha(licenseKey(result.entry))},0o600);throw new Error('License material changed; source requires approval');}
+      if(previous && licenseKey(previous)!==licenseKey(result.entry)){writeJSON(at(`.state/license-reviews/${spec.id}.json`),{source:spec.id,revision:result.entry.revision,previous:previous.licenses,observed:result.entry.licenses,at:now(),status:'recorded-automatic-refresh'},0o600);log('official-license-change',{id:spec.id,status:'recorded'});}
       if(previous?.snapshot===result.entry.snapshot){
-        if(previous.catalogVersion!==2||JSON.stringify(previous.skills)!==JSON.stringify(result.entry.skills)||JSON.stringify(previous.referenceIssues)!==JSON.stringify(result.entry.referenceIssues)){
-          previous.skills=result.entry.skills;previous.referenceIssues=result.entry.referenceIssues;previous.catalogVersion=2;
+        if(previous.catalogVersion!==3||JSON.stringify(previous.skills)!==JSON.stringify(result.entry.skills)||JSON.stringify(previous.referenceIssues)!==JSON.stringify(result.entry.referenceIssues)){
+          previous.skills=result.entry.skills;previous.referenceIssues=result.entry.referenceIssues;previous.catalogVersion=3;
           writeJSON(at('official/sources.lock.json'),current);
           const manifest=readJSON(manifestFile(previous),previous);
-          writeJSON(manifestFile(previous),{...manifest,skills:previous.skills,referenceIssues:previous.referenceIssues,catalogVersion:2});
+          writeJSON(manifestFile(previous),{...manifest,skills:previous.skills,referenceIssues:previous.referenceIssues,catalogVersion:3});
         }
         unchanged.push(spec.id);
       }
@@ -170,11 +193,12 @@ export function officialSections() {
       if(!entry){lines.push(`- ${spec.id}: not available locally; see [upstream](${spec.repository?'https://github.com/'+spec.repository:spec.url}).`);continue;}
       const base=`official/snapshots/${entry.id}/${entry.snapshot}`,hub=at(`knowledge/${domain}/INDEX.md`);
       const rel=file=>path.relative(path.dirname(hub),at(base+'/'+file)).split(path.sep).join('/');
-      lines.push(`- **${entry.id}** — ${entry.track}; revision \`${entry.revision}\`; fetched ${entry.fetchedAt?.slice(0,10)||'unknown'}.`);
+      const coverage=entry.mode==='link-catalog'?'link catalog; page bodies not mirrored':spec.refresh===false?'retained snapshot; automatic refresh disabled':'selected reference snapshot';
+      lines.push(`- **${entry.id}** — ${coverage}; ${entry.track}; revision \`${entry.revision}\`; fetched ${entry.fetchedAt?.slice(0,10)||'unknown'}.`);
       for(const skill of entry.skills)lines.push(`  - [${skill.name}](${rel(skill.directory+'/SKILL.md')})${skill.installable?'':' — reference only'}.`);
       if(!entry.skills.length || entry.files.some(f=>f.path.startsWith('docs/'))) {
         const docs=entry.files.filter(f=>/\.(?:md|mdx|txt)$/.test(f.path)&&!f.path.includes('/SKILL.md')&&!/LICENSE/i.test(f.path)).slice(0,8);
-        for(const doc of docs)lines.push(`  - [${doc.path}](${rel(doc.path)}).`);
+        for(const doc of docs){let upstream=spec.url;if(spec.kind==='repository'){let original=doc.path;for(const rule of spec.mappings||[])if(original.startsWith(rule.to)){original=rule.from+original.slice(rule.to.length);break;}upstream=`https://github.com/${spec.repository}/blob/${entry.revision}/${spec.sourceBase||''}${original}`;}lines.push(doc.cached?`  - [${doc.path}](${upstream||spec.indexUrl}) — upstream; restore the exact local snapshot with \`official restore ${entry.id}\`.`:`  - [${doc.path}](${rel(doc.path)}).`);}
       }
     }
     for(const pointer of reg.pointers.filter(p=>p.domain===domain))lines.push(`- [Official website](${pointer.url}) — pointer only: ${pointer.reason}`);

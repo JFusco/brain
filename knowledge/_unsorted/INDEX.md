@@ -8,7 +8,9 @@ aliases: ["agents", "agent tooling"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No approved learnings yet.
+- [Choose CMS guidance by product and integration](cms-guidance.md)
+- [Curate useful guidance and publish it automatically](curation-standard.md)
+- [Find applicable best practices and skills](find-guidance-and-skills.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

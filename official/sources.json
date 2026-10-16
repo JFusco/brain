@@ -1282,7 +1282,7 @@
           "raw.githubusercontent.com"
         ]
       },
-      "applicability": "Rolling documentation; prefer version-matched documentation in the target project",
+      "applicability": "Retained historical snapshot; normal lookup uses the Next.js documentation index.",
       "installPolicy": "reference-only",
       "scanExceptions": [
         {
@@ -1303,7 +1303,8 @@
           "lineSha256": "57ee5fa54cc173f533af7f61d7b0d69bdb2b8ae8ce4fcc98fde533feee493fcf",
           "justification": "Truncated illustrative PEM value containing literal ellipses; no complete private key."
         }
-      ]
+      ],
+      "refresh": false
     },
     {
       "id": "react-index",
@@ -1327,6 +1328,176 @@
       },
       "applicability": "Rolling documentation; prefer version-matched documentation in the target project",
       "installPolicy": "reference-only"
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "vercel-docs",
+      "vendor": "vercel",
+      "domains": [
+        "vercel"
+      ],
+      "kind": "collection",
+      "url": "https://vercel.com/docs/sitemap.md",
+      "allowedHosts": [
+        "vercel.com"
+      ],
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "catalogOnly": true,
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored.",
+      "indexUrl": "https://vercel.com/docs/sitemap.md",
+      "includePrefixes": [
+        "/docs/"
+      ],
+      "fetchSuffix": ".md"
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "contentstack-docs",
+      "vendor": "contentstack",
+      "domains": [
+        "cms/contentstack"
+      ],
+      "kind": "collection",
+      "url": "https://www.contentstack.com/sitemap.xml",
+      "allowedHosts": [
+        "www.contentstack.com"
+      ],
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "catalogOnly": true,
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored.",
+      "indexUrl": "https://www.contentstack.com/sitemap.xml",
+      "indexFormat": "sitemap",
+      "includePrefixes": [
+        "/docs/"
+      ],
+      "maxPages": 20000,
+      "fetchSuffix": ".md",
+      "additionalPages": [
+        {
+          "title": "Sitecore to Contentstack migration",
+          "url": "https://www.contentstack.com/docs/headless-cms/sitecore-to-contentstack"
+        },
+        {
+          "title": "Brownfield migration architecture playbook",
+          "url": "https://www.contentstack.com/docs/studio/brownfield-migration-playbook"
+        }
+      ]
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "react-docs",
+      "vendor": "react",
+      "domains": [
+        "react"
+      ],
+      "kind": "repository",
+      "repository": "reactjs/react.dev",
+      "track": "default-branch",
+      "paths": [
+        {
+          "prefix": "src/content/"
+        },
+        {
+          "exact": "LICENSE-DOCS.md"
+        }
+      ],
+      "mappings": [
+        {
+          "from": "src/content/",
+          "to": "docs/"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "skillRoot": null,
+      "catalogOnly": true,
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored.",
+      "documentationPrefix": "src/content/",
+      "documentationBase": "https://react.dev/",
+      "licensePath": "LICENSE-DOCS.md"
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "tailwind-docs",
+      "vendor": "tailwind",
+      "domains": [
+        "tailwind"
+      ],
+      "kind": "repository",
+      "repository": "tailwindlabs/tailwindcss.com",
+      "track": "default-branch",
+      "paths": [
+        {
+          "prefix": "src/docs/"
+        },
+        {
+          "exact": "README.md"
+        }
+      ],
+      "mappings": [
+        {
+          "from": "src/docs/",
+          "to": "docs/"
+        },
+        {
+          "from": "README.md",
+          "to": "LICENSE.txt"
+        }
+      ],
+      "license": "Tailwind Labs educational reference; not open-source licensed",
+      "skillRoot": null,
+      "catalogOnly": true,
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored.",
+      "documentationPrefix": "src/docs/",
+      "documentationBase": "https://tailwindcss.com/docs/",
+      "licensePath": "README.md"
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "optimizely-cms-saas-docs",
+      "vendor": "optimizely-saas",
+      "domains": [
+        "cms/optimizely-saas"
+      ],
+      "kind": "collection",
+      "url": "https://docs.optimizely.com/llms.txt",
+      "indexUrl": "https://docs.optimizely.com/llms.txt",
+      "allowedHosts": [
+        "docs.optimizely.com"
+      ],
+      "includePrefixes": [
+        "/cms-saas/"
+      ],
+      "maxPages": 5000,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "catalogOnly": true,
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "optimizely-graph-docs",
+      "vendor": "optimizely-saas",
+      "domains": [
+        "cms/optimizely-saas"
+      ],
+      "kind": "collection",
+      "url": "https://docs.optimizely.com/llms.txt",
+      "indexUrl": "https://docs.optimizely.com/llms.txt",
+      "allowedHosts": [
+        "docs.optimizely.com"
+      ],
+      "includePrefixes": [
+        "/graph/"
+      ],
+      "maxPages": 5000,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "catalogOnly": true,
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
     }
   ],
   "pointers": [
