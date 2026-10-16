@@ -7,6 +7,14 @@ aliases: ["curation", "reference refresh", "Brain audit"]
 
 Brain collects private candidate evidence, keeps immutable official references, and publishes useful guidance through documented, issue-linked PRs. Joe authorized automatic maintenance merges without a human review or separate digest approval. The daily local agent is restricted to documentation and reference artifacts; code, policies, source registrations, other repositories, installed project skills, and memories are outside that recurring scope.
 
+## Capture from working projects
+
+The explicitly authorized project integration adds automatic lesson-submission instructions at substantive planning, investigation, and implementation checkpoints. It supports Codex, Claude, and Cursor through project-local adapters; installation is previewed and requires a scoped `--yes` operation for the selected Git repository. Shared instructions ask agents to distinguish documented facts, observed results, and proposed practices. This is agent-directed capture, not transcript ingestion or a guaranteed completion hook.
+
+The standalone helper keeps an ignored, private retry queue before calling Brain's existing scanned inbox capture with a validated domain. Exact duplicate receipts suppress retries, uncertain delivery retains bytes, and quarantined material is retained without automatic retry. Private queued text is agent-sanitized and remains unverified until Brain's scanner runs. The daily curator still determines whether material becomes published guidance.
+
+Integration ownership is separate from vendor-skill management. Changed managed content and unmanaged conflicts block replacement; private transaction journals support cautious recovery. Removal preserves unrelated text and pending private evidence plus its ignore rule. Brain itself is not enrolled. No other project enrollment, global installation, or background project mutation is implied by implementing this capability. See [the local implementation journal](../journal/2026-10-16-project-lesson-capture.md).
+
 ## Curation and publication
 
 A private proposal binds exact replacement text, destination hashes, candidate hashes, privacy policy, and the explicit subset of candidates ready for acceptance. `curation export` writes the proposal, exact-content records, and curated links into a clean issue-linked worktree of this same repository. Partial source candidates remain pending. The CLI performs no Git commits, pushes, PR creation, or merges.

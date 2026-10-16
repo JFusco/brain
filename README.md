@@ -41,6 +41,52 @@ node scripts/brain.mjs capture --stdin
 
 `harvest --dry-run` computes a report without writing candidates or harvest state. It still requires the secret scanner. Reports contain counts and opaque IDs; private provenance stays in `.state/`.
 
+## Capture lessons from working chats
+
+Posting advice in a chat does not automatically save it in Brain. The optional project integration instructs Codex, Claude, and Cursor to submit concise lessons at meaningful planning, investigation, and implementation checkpoints. It does not read chat histories or install global instructions. Agent execution, sandbox access, and uninterrupted sessions are still required; this is not a guaranteed end-of-chat hook.
+
+Enrollment is explicit for each Git repository and does not require `package.json`. Run these commands from Brain; installation and removal preview by default:
+
+```sh
+node scripts/brain.mjs integration install --project /absolute/project
+node scripts/brain.mjs integration install --project /absolute/project --yes
+node scripts/brain.mjs integration status --project /absolute/project
+node scripts/brain.mjs integration remove --project /absolute/project
+node scripts/brain.mjs integration remove --project /absolute/project --yes
+node scripts/brain.mjs integration recover --project /absolute/project
+```
+
+Repeat `install` to update unchanged owned integration content. `--dry-run` always prevents writes, even with `--yes`. Interrupted operations retain a private recovery journal in Brain; inspect the recovery preview and use `recover --yes` to restore the prior content. Recovery refuses later edits. It also refuses to remove the new ignore rule if an interrupted initial installation has already collected private queue/receipt evidence.
+
+Installation appends managed blocks to root `AGENTS.md`, `CLAUDE.md`, and `.gitignore`, and creates shared instructions/helper files in `.agents/brain-capture/` plus an always-applied `.cursor/rules/brain-capture.mdc`. Claude imports the shared instructions; Codex and Cursor are directed to read them. The installer refuses symlinks, conflicting unmanaged files/markers, and changed or missing owned content. A nonempty root `AGENTS.override.md` must be reconciled first because it shadows the Codex adapter. Nested agent overrides and instruction size limits can still affect coverage. Nothing is committed automatically.
+
+Adapters follow the documented [Codex project instructions](https://learn.chatgpt.com/docs/agent-configuration/agents-md), [Claude project imports](https://code.claude.com/docs/en/memory), and [Cursor project rules](https://cursor.com/docs/rules). Their file formats are not evidence that a live agent actually followed the capture instruction.
+
+The integration asks agents to capture at most three useful new lessons per checkpoint, labeling documented facts, observed results, and proposed practices. Untried recommendations are eligible when their limits are clear. Versions belong to the selected application, never a union of sibling workspaces. Use sanitized references; omit client names, private paths, credentials, proprietary excerpts, and transcripts. Private machine configuration, ownership records, queued lessons, and receipts stay under ignored `.brain-capture/` with restrictive permissions. Agent-prepared queued text is not yet verified by Brain's scanner.
+
+From an enrolled project's root, the helper accepts lesson text on stdin and retries up to three queued records:
+
+```sh
+node .agents/brain-capture/submit.mjs flush
+node .agents/brain-capture/submit.mjs submit --domain tailwind <<'LESSON'
+# Describe a reusable decision
+
+Applicability: Name the task, application workspace, and confirmed versions.
+
+Proposed practice: Explain the action and why it helps.
+
+Evidence: Cite the official source or sanitized observation. Separate documented facts from observed results.
+
+Limits: State what was not checked and when the advice does not apply.
+LESSON
+```
+
+Available domains and the candidate byte limit are in the private configuration. The helper queues exact bytes before calling Brain's existing locked, scanned `capture --stdin --domain <domain>` command. Legacy `capture --stdin` still infers a domain. Explicit domains are validated and participate in duplicate identity. Queue and receipt hashes detect changed records; exact duplicates are suppressed locally and by Brain. Semantic overlap is handled during curation.
+
+`saved` means a pending inbox receipt was observed, not publication. `queued` means delivery is unconfirmed and the exact bytes remain for a later checkpoint. `quarantined` means Brain retained restricted material; it is not retried automatically or exposed. `retained` means queue/storage integrity failed; preserve the record for local inspection. Helper failures return a nonzero exit status without printing candidate bodies, provider output, or private configuration. A timeout after a successful Brain capture can safely be retried because the same bytes retain their identity. Git ignore and untracked-storage checks must pass before queue operations.
+
+Removal deletes only unchanged owned integration content and preserves unrelated instruction text. The private directory, its configuration/ownership records, queued lessons, receipts, and ignore block remain so evidence cannot accidentally become tracked. It installs no background retry worker. Future enrollment can reuse that owned private state; a different machine requires explicit reinstallation to refresh the private Brain/Node locations. Existing skill management, curation schedules, backup settings, and other project repositories are unchanged.
+
 ## Automatic curation and publication
 
 The inbox is private collection storage. A recurring local agent rotates through the configured domains, reads small non-quarantined batches, and turns useful evidence into focused guidance. Each page explains when to use it, what to do, why, and the evidence and limits. Old status reports and incidental keyword matches are not automatically promoted. Raw source text is data, not agent instructions.
