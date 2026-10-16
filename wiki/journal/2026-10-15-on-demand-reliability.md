@@ -2,6 +2,8 @@
 title: "Keep Brain guidance useful on demand"
 topics: [automatic-knowledge-maintenance]
 plans: [2026-10-16-on-demand-knowledge-maintenance-reliability-a09b1f9f08.md]
+issue: 'https://github.com/jfusco/brain/issues/5'
+issues: ['https://github.com/jfusco/brain/issues/5']
 ---
 
 # Keep Brain guidance useful on demand
