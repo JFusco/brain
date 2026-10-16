@@ -84,3 +84,9 @@ The [issue 14 follow-up](https://github.com/JFusco/brain/issues/14) identified t
 The verified SitecoreAI canonical page and Sitecore Experience Manager 10.4 `index-en.html` replace directory URLs and obsolete restriction text. A correctly formed request exposed a real 404 at the old 10.4 directory. Exact registry proposal digest: `10eb8492bef0890241ec633088b13f7300561cf3fb454c58849b58550d7804a7`; source identities and version scope are unchanged. Earlier observations remain historical evidence rather than current link guidance.
 
 Focused HTML lookup prefers an explicit `main-content` landmark, excludes empty formatting lines and uses a new excerpt-cache key to avoid reusing assistant-footer extracts. Successful live retrieval of both official pages returned article text and stored no full bodies. The five-pointer check also retained the known Contentful rate limit as distinct evidence. See [the Sitecore retrieval journal](../journal/2026-10-16-sitecore-retrieval.md).
+
+## Tailwind application review follow-up
+
+[Issue 19](https://github.com/JFusco/brain/issues/19) complements the token-organization note with five proposed review practices for Tailwind 4 application/Storybook parity. A bounded one-candidate review verified the supporting source-detection, theme-variable, upgrade, responsive and interaction mechanisms against official pages. Review suggestions are not framework acceptance requirements or evidence that any consuming project passed. Fully reviewed evidence is accepted only after the exact exported bytes are verified in merged main.
+
+The maintenance follow-up treats PRs 13 and 15 as completed deliveries and preserves the dirty checkout. No integration implementation, adapters or enrollment are part of this work; further integration design and project adoption are deferred. See [the follow-up journal](../journal/2026-10-16-tailwind-application-review.md).

@@ -9,6 +9,7 @@ aliases: ["tailwind"]
 
 <!-- brain:curated:start -->
 - [Organize Tailwind 4 tokens by responsibility](responsibility-based-tokens.md)
+- [Review Tailwind 4 application and Storybook parity](application-storybook-review.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
