@@ -8,7 +8,7 @@ aliases: ["react", "hooks"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No approved learnings yet.
+- [Discard obsolete responses from React effects](effect-request-cleanup.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
