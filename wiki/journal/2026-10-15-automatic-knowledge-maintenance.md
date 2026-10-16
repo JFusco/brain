@@ -2,6 +2,8 @@
 title: "Automatic curation, official references, and wiki setup"
 date: "2026-10-15"
 topics: ["automatic-knowledge-maintenance"]
+issue: 'https://github.com/jfusco/brain/issues/1'
+issues: ['https://github.com/jfusco/brain/issues/1']
 ---
 
 # Automatic curation, official references, and wiki setup
