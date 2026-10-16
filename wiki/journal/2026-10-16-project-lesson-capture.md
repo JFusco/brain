@@ -3,6 +3,8 @@ title: "Project-scoped lesson capture"
 date: "2026-10-16"
 topics: ["automatic-knowledge-maintenance"]
 plans: ["2026-10-16-capture-reusable-lessons-from-working-chats-eeac8dc827.md"]
+issue: 'https://github.com/jfusco/brain/issues/16'
+issues: ['https://github.com/jfusco/brain/issues/16']
 ---
 
 # Project-scoped lesson capture
