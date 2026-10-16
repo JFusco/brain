@@ -28,7 +28,7 @@ node scripts/brain.mjs inbox resolve <candidate-id...> --as rejected|superseded
 node scripts/brain.mjs curation export <proposal-id> --worktree <path>
 node scripts/brain.mjs curation record-merge <proposal-id> --pr <number>
 node scripts/brain.mjs curation stale [--limit 12]
-node scripts/brain.mjs links check [--source <id>] [--limit 24]
+node scripts/brain.mjs links check [--source <id>] [--limit 24] [--retry-failures]
 node scripts/brain.mjs links status
 node scripts/brain.mjs maintenance status
 node scripts/brain.mjs maintenance run [--dry-run]
@@ -60,7 +60,7 @@ Tests and dedicated QA are deferred for v1.
 
 try {
   const {positional,flags}=args(process.argv.slice(2)),[command,subcommand,...rest]=positional;
-  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],harvest:['dry-run'],capture:['stdin'],inbox:['domain','all','file','approved-sha256','as'],curation:['worktree','pr','limit'],links:['source','limit'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],backup:['directory','file','key-file','to','yes','dry-run','folder-id','folder-url','limit','receipt'],official:['seed'],skills:['project','workspace','recommended','yes','dry-run','copy'],check:['staged'],'scheduled-run':[]};
+  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],harvest:['dry-run'],capture:['stdin'],inbox:['domain','all','file','approved-sha256','as'],curation:['worktree','pr','limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],backup:['directory','file','key-file','to','yes','dry-run','folder-id','folder-url','limit','receipt'],official:['seed'],skills:['project','workspace','recommended','yes','dry-run','copy'],check:['staged'],'scheduled-run':[]};
   if(!command||command==='help'||flags.help){console.log(help);process.exit(0);}
   if(!Object.hasOwn(allowed,command))throw new Error('Unknown command. Use --help.');
   for(const key of Object.keys(flags))if(!allowed[command].includes(key))throw new Error(`Unsupported option --${key} for ${command}`);
@@ -83,7 +83,7 @@ try {
       if(subcommand==='stale')return staleGuidance({limit:flags.limit??12,write:true});
     }
     if(command==='links'){
-      if(subcommand==='check')return checkLinks({source:flags.source,limit:flags.limit??24});
+      if(subcommand==='check')return checkLinks({source:flags.source,limit:flags.limit??24,retryFailures:!!flags['retry-failures']});
       if(subcommand==='status')return linkSummary();
     }
     if(command==='maintenance'){

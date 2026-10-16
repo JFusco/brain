@@ -8,7 +8,7 @@ aliases: ["tailwind"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No approved learnings yet.
+- [Organize Tailwind 4 tokens by responsibility](responsibility-based-tokens.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
