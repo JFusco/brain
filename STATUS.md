@@ -1,5 +1,9 @@
 # Implementation status
 
+## Automatic backups disabled
+
+Joe withdrew the backup requirement after the reliability delivery. [Issue 8](https://github.com/JFusco/brain/issues/8) tracks disabling automatic archive creation, inventory previews, retention pruning and Drive uploads. Maintenance reports backups disabled without backup-requirement alerts. Existing archives, the local key, Drive files and historical receipts remain intact. Daily learning maintenance and the one-time 4 a.m. verification remain enabled; the check now expects backup work to be skipped.
+
 ## On-demand reliability follow-up
 
 [JFusco/brain issue 5](https://github.com/JFusco/brain/issues/5) tracks this follow-up; its linked PR records publication and hosted checks. No consuming project instructions or global skills are added.
@@ -8,7 +12,7 @@
 - Stale guidance is queued after a cited source revision changes or review becomes due. Retired/superseded notes remain historical and leave recommendations. The Next.js note was revalidated against the actual official agent guide and narrowed to bundled documentation from 16.2 onward.
 - Header-only link sampling rotates across 5,753 eligible destinations with a default batch of 24. The latest network-enabled batch returned 23 healthy destinations and one Sitecore HTTP 403. An earlier sandbox-restricted batch recorded 24 transient failures; those records are retained. This is partial coverage, not a claim that every link works.
 - Maintenance status distinguishes attempts, success, source failure, unfinished publication, sampled coverage, stale notes, and backup availability. The existing 03:15 America/New_York automation now prioritizes stale guidance and records its actual publication outcome. First unattended execution of these additions remains unproven.
-- An encrypted local backup of 6,625 private files was authenticated and restored successfully into a separate empty recovery directory. After explicit authorization, the encrypted archive was uploaded to the private Google Drive backup folder. Saved name, size, and parent-folder metadata were read back and recorded; cloud bytes were not downloaded again for verification. The existing daily job now permits one verified encrypted upload to that same folder per run. The separate recovery key is never uploaded. Managed excerpt cleanup is capped and preserves unowned or modified files.
+- An encrypted local backup of 6,625 private files was authenticated and restored successfully into a separate empty recovery directory. After explicit authorization, the encrypted archive was uploaded to the private Google Drive backup folder. Saved name, size, and parent-folder metadata were read back and recorded; cloud bytes were not downloaded again for verification. The daily upload permission was subsequently withdrawn; see the disablement above. The separate recovery key is never uploaded. Managed excerpt cleanup is capped and preserves unowned or modified files.
 
 Actual runtime checks passed: content/privacy (1,226 files), official integrity, syntax (20 maintained CLI/modules), Next.js 16.1 exclusion and 16.2 match, focused pinned React fetch and cache hit, and maintenance execution with no operation failures. Status still exposes access/network warnings. The recovery key needs a separate secure off-device copy; it is excluded from archives and uploads. Installed application/workspace package resolution was not exercised against another project. Tests, fixtures, fresh-session checks, dedicated QA, and review-agent audits remain deferred.
 

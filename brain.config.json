@@ -16,7 +16,8 @@
     "linkLimit": 24,
     "overdueHours": 36,
     "backupHours": 20,
-    "keepBackups": 7
+    "keepBackups": 7,
+    "backupEnabled": false
   },
   "domains": [
     "frontend",
