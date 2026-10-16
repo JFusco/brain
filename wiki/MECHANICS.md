@@ -22,7 +22,7 @@ Ordinary relative Markdown links between wiki pages are graph relationships too.
 ## Recovery and checks
 
 - `node scripts/wiki/navigate.cjs --intent why|wiring|impact --query "<terms>"` returns the deterministic, byte-counted Markdown itinerary. Use exact `--from`/`--to` IDs after an ambiguous result; never bulk-load the wiki.
-- `node scripts/wiki/discover-plans.cjs` scans repository history plus Claude, Cursor, active Codex, and archived Codex plan stores.
+- In Brain, use `WIKI_HOME="$PWD/.state/wiki-plan-scope" node scripts/wiki/discover-plans.cjs` to inspect repository history/plans while excluding home agent session stores. The native hook sets this privacy scope automatically. Do not use unscoped home discovery in this repository.
 - `node scripts/wiki/build-graph.cjs` deterministically regenerates the wiki-only graph and connection summary.
 - `node scripts/wiki/check.cjs` rejects stale output, dangling relationships, non-wiki nodes, or executed archives without evidence and a topic.
 - The installer-owned pre-commit block is fail-open: it warns, rebuilds, and stages generated graph artifacts without blocking uncertain execution classification or lifecycle failures. It preserves a preceding command's nonzero status so advisory wiki work cannot mask a blocking lint or test gate.
