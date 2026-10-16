@@ -14,7 +14,7 @@ No approved learnings yet.
 <!-- brain:official:start -->
 ## Official sources
 
-- **sitecore-content-sdk** — default-branch; revision `e51294172719bbc0a2a71245539cf3d3bd872a1e`; fetched 2026-10-15.
+- **sitecore-content-sdk** — selected reference snapshot; default-branch; revision `e51294172719bbc0a2a71245539cf3d3bd872a1e`; fetched 2026-10-15.
   - [content-sdk-cache-components-and-osr](../../../official/snapshots/sitecore-content-sdk/e51294172719-955b269af9fc/skills/content-sdk-cache-components-and-osr/SKILL.md).
   - [content-sdk-component-data-strategy](../../../official/snapshots/sitecore-content-sdk/e51294172719-955b269af9fc/skills/content-sdk-component-data-strategy/SKILL.md).
   - [content-sdk-component-registration](../../../official/snapshots/sitecore-content-sdk/e51294172719-955b269af9fc/skills/content-sdk-component-registration/SKILL.md).

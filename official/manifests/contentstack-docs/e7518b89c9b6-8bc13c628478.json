@@ -1,0 +1,40 @@
+{
+  "id": "contentstack-docs",
+  "revision": "e7518b89c9b6ed798a8b5a898258a51b90bb6bda3e5feb00d1f1a79a60213a03",
+  "snapshot": "e7518b89c9b6-8bc13c628478",
+  "repository": null,
+  "url": "https://www.contentstack.com/sitemap.xml",
+  "track": "rolling-url",
+  "mode": "link-catalog",
+  "license": "Official documentation under upstream terms; no open license asserted",
+  "licenses": [],
+  "policySha256": "0299cd63483f2f0ff17df754972e83ad42a1e61beae5be31a61c5bd5e7cbf39b",
+  "catalogVersion": 3,
+  "files": [
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "3335b17f0086d4e7b0407431e3ba21efbdefe21a243782d2a656052e6c79dca6",
+      "bytes": 188,
+      "cached": false
+    },
+    {
+      "path": "INDEX.md",
+      "sha256": "89e064d09bdce18461de0b51e7be53f43b166fe5f6cd43413eb507c2465c36fc",
+      "bytes": 553740,
+      "cached": false
+    },
+    {
+      "path": "PAGES.json",
+      "sha256": "e7518b89c9b6ed798a8b5a898258a51b90bb6bda3e5feb00d1f1a79a60213a03",
+      "bytes": 1201199,
+      "cached": true
+    }
+  ],
+  "skills": [],
+  "referenceIssues": [],
+  "domains": [
+    "cms/contentstack"
+  ],
+  "seedParity": null,
+  "fetchedAt": "2026-10-16T01:18:42.124Z"
+}

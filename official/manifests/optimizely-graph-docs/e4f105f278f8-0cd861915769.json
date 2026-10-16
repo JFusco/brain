@@ -1,0 +1,40 @@
+{
+  "id": "optimizely-graph-docs",
+  "revision": "e4f105f278f80c9a69c61074a05b2716cb82a0c0c0f5eef7a101c150cc25a553",
+  "snapshot": "e4f105f278f8-0cd861915769",
+  "repository": null,
+  "url": "https://docs.optimizely.com/llms.txt",
+  "track": "rolling-url",
+  "mode": "link-catalog",
+  "license": "Official documentation under upstream terms; no open license asserted",
+  "licenses": [],
+  "policySha256": "bb218b45eb3c7fee8c4f61eb8ebf9100557a1ed2f8b5ea2c2f52b2a3bc1d9daf",
+  "catalogVersion": 3,
+  "files": [
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "57b537f848afe39cd826d5cb782320422fbe502860003dbdef9f4e7093ebc264",
+      "bytes": 184,
+      "cached": false
+    },
+    {
+      "path": "INDEX.md",
+      "sha256": "2d087bcf0343247909a7e9d4b7dd1e69114e6280cfe1b61c149a475824dbeca7",
+      "bytes": 18462,
+      "cached": false
+    },
+    {
+      "path": "PAGES.json",
+      "sha256": "e4f105f278f80c9a69c61074a05b2716cb82a0c0c0f5eef7a101c150cc25a553",
+      "bytes": 43082,
+      "cached": false
+    }
+  ],
+  "skills": [],
+  "referenceIssues": [],
+  "domains": [
+    "cms/optimizely-saas"
+  ],
+  "seedParity": null,
+  "fetchedAt": "2026-10-16T01:18:50.034Z"
+}

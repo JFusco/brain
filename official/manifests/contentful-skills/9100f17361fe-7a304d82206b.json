@@ -29,7 +29,7 @@
     }
   ],
   "policySha256": "9b6ac1d49d601f8519410e217aaf9ef83927bec453547ecccf7839962e0d380a",
-  "catalogVersion": 2,
+  "catalogVersion": 3,
   "files": [
     {
       "path": "LICENSE",
@@ -465,38 +465,6 @@
       "declaredName": "contentful-api",
       "description": "Comprehensive Contentful REST API guide. Covers Content Management API (CMA) for creating/updating content, Content Delivery API (CDA) for fetching published content, Preview API, Images API, and GraphQL API. All examples use curl/HTTP — language-agnostic.",
       "directory": "skills/contentful-api",
-      "installable": false,
-      "policy": "reference-only",
-      "appliesTo": {
-        "dependencies": [
-          "contentful",
-          "contentful-management"
-        ]
-      },
-      "preferred": false
-    },
-    {
-      "id": "contentful-skills/contentful-custom-app-enhancement",
-      "name": "contentful-custom-app-enhancement",
-      "declaredName": "contentful-custom-app-enhancement",
-      "description": ">-",
-      "directory": "skills/contentful-apps/contentful-custom-app-enhancement",
-      "installable": false,
-      "policy": "reference-only",
-      "appliesTo": {
-        "dependencies": [
-          "contentful",
-          "contentful-management"
-        ]
-      },
-      "preferred": false
-    },
-    {
-      "id": "contentful-skills/contentful-custom-app-from-scratch",
-      "name": "contentful-custom-app-from-scratch",
-      "declaredName": "contentful-custom-app-from-scratch",
-      "description": ">-",
-      "directory": "skills/contentful-apps/contentful-custom-app-from-scratch",
       "installable": false,
       "policy": "reference-only",
       "appliesTo": {

@@ -20,6 +20,9 @@ export function show(id) {
 }
 export function propose(input) {
   if(!Array.isArray(input.changes)||!input.changes.length||!Array.isArray(input.candidates))throw new Error('Proposal requires changes[] and candidates[]');
+  if(new Set(input.candidates).size!==input.candidates.length)throw new Error('Duplicate proposal candidate');
+  const acceptCandidates=input.acceptCandidates??input.candidates;
+  if(!Array.isArray(acceptCandidates)||new Set(acceptCandidates).size!==acceptCandidates.length||acceptCandidates.some(id=>!input.candidates.includes(id)))throw new Error('acceptCandidates must contain unique cited candidate IDs');
   const state=index(),candidates=input.candidates.map(id=>candidate(state,id));
   if(candidates.some(c=>c.status!=='pending'||c.disposition))throw new Error('Proposal requires pending, non-quarantined candidates');
   const seen=new Set();const changes=input.changes.map(change=>{
@@ -33,13 +36,13 @@ export function propose(input) {
   assertClean(changes.map(c=>({id:c.path,bytes:Buffer.from(c.text)})));
   const problems=validateKnowledge(changes.filter(c=>c.path.startsWith('knowledge/')).map(c=>({id:c.path,bytes:Buffer.from(c.text)})));if(problems.length)throw new Error(problems.join('; '));
   for(const change of changes.filter(c=>c.path==='official/sources.json')){const parsed=JSON.parse(change.text);if(parsed.schemaVersion!==1||!Array.isArray(parsed.sources)||!Array.isArray(parsed.pointers))throw new Error('Invalid source registry proposal');}
-  const proposal={schemaVersion:1,changes,candidates:candidates.map(c=>({id:c.id,fileSha256:c.fileSha256})),policy:policyHash()};
+  const proposal={schemaVersion:1,changes,candidates:candidates.map(c=>({id:c.id,fileSha256:c.fileSha256})),policy:policyHash(),acceptCandidates};
   const digest=sha(JSON.stringify(proposal)),id=digest.slice(0,24);
   writeJSON(proposalFile(id),{...proposal,id,digest,createdAt:now()},0o600);
   const temporary=fs.mkdtempSync(path.join(os.tmpdir(),'brain-proposal-'));fs.chmodSync(temporary,0o700);let diffs='';
   try{for(const change of changes){const before=path.join(temporary,'before'),after=path.join(temporary,'after');fs.writeFileSync(before,fs.existsSync(at(change.path))?fs.readFileSync(at(change.path)):'',{mode:0o600});fs.writeFileSync(after,change.text,{mode:0o600});const result=spawnSync('/usr/bin/diff',['-u','--label','a/'+change.path,'--label','b/'+change.path,before,after],{encoding:'utf8',maxBuffer:2*1024*1024});if(![0,1].includes(result.status))throw new Error('Could not render proposal diff');diffs+=`## ${change.path}\n\nPrevious SHA-256: ${change.beforeSha256||'new file'}\n\n\`\`\`diff\n${result.stdout}\`\`\`\n\n`;}}finally{fs.rmSync(temporary,{recursive:true,force:true});}
-  const review=`# Proposed brain changes\n\nProposal: ${id}\n\nApproved digest: ${digest}\n\nNo content has been promoted. Approve this exact proposal before applying it.\n\n`+diffs;
-  atomic(at(`.state/proposals/${id}.md`),review,0o600);return {id,digest,review:`.state/proposals/${id}.md`,changes:changes.map(c=>c.path),candidates:candidates.map(c=>c.id)};
+  const review=`# Proposed brain changes\n\nProposal: ${id}\n\nApproved digest: ${digest}\n\nNo content has been promoted. Approve this exact proposal before applying it.\n\nCandidates to accept: ${acceptCandidates.length?acceptCandidates.join(', '):'none'}.\n\nCited candidates left pending: ${candidates.filter(c=>!acceptCandidates.includes(c.id)).map(c=>c.id).join(', ')||'none'}.\n\n`+diffs;
+  atomic(at(`.state/proposals/${id}.md`),review,0o600);return {id,digest,review:`.state/proposals/${id}.md`,changes:changes.map(c=>c.path),candidates:candidates.map(c=>c.id),acceptCandidates};
 }
 export function recoverProposal() {
   const file=at('.state/proposal-transaction.json');if(!fs.existsSync(file))return;
@@ -51,6 +54,7 @@ export function recoverProposal() {
 export function apply(id,digest) {
   recoverProposal();const proposal=json(proposalFile(id));
   const payload={schemaVersion:proposal.schemaVersion,changes:proposal.changes,candidates:proposal.candidates,policy:proposal.policy};
+  if(Object.hasOwn(proposal,'acceptCandidates'))payload.acceptCandidates=proposal.acceptCandidates;
   if(!digest||digest!==proposal.digest||sha(JSON.stringify(payload))!==digest)throw new Error('Exact approved SHA-256 is required');
   if(proposal.appliedAt)return {id,alreadyApplied:true};
   if(proposal.policy!==policyHash())throw new Error('Privacy policy changed; prepare a new proposal');
@@ -66,10 +70,11 @@ export function apply(id,digest) {
     const approvals=readJSON(at('knowledge/approvals.json'),{schemaVersion:1,pages:{}});for(const change of proposal.changes)if(change.path.startsWith('knowledge/')&&!change.path.endsWith('/INDEX.md'))approvals.pages[change.path]={sha256:sha(change.text),proposal:id,digest,approvedAt:now()};writeJSON(at('knowledge/approvals.json'),approvals);
     if(proposal.changes.some(c=>c.path==='official/sources.json')){const active=lock();for(const spec of registry().sources)if(active.sources[spec.id])active.sources[spec.id].policySha256=fingerprint(spec);writeJSON(at('official/sources.lock.json'),active);writeJSON(at('.state/registry-approval.json'),{sha256:sha(fs.readFileSync(at('official/sources.json'))),proposal:id,digest,approvedAt:now()},0o600);}
     generateHubs();const result=check();if(!result.ok)throw new Error('Proposed content failed runtime checks: '+result.issues.join('; '));
-    for(const reference of proposal.candidates)state.candidates[reference.id].disposition={as:'accepted',proposal:id,at:now()};
+    const accepted=proposal.acceptCandidates??proposal.candidates.map(c=>c.id);
+    for(const candidateId of accepted)state.candidates[candidateId].disposition={as:'accepted',proposal:id,at:now()};
     writeJSON(at('.state/harvest.json'),state,0o600);refreshSummary(state);proposal.appliedAt=now();writeJSON(proposalFile(id),proposal,0o600);
     transaction.phase='committed';writeJSON(at('.state/proposal-transaction.json'),transaction,0o600);fs.rmSync(at('.state/proposal-transaction.json'));
-    return {id,applied:true,candidates:proposal.candidates.length};
+    return {id,applied:true,candidates:accepted.length,citedCandidates:proposal.candidates.length};
   }catch(error){recoverProposal();refreshSummary();throw error;}
 }
 export function resolve(ids,as) {

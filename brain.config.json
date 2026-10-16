@@ -1,5 +1,12 @@
 {
   "schemaVersion": 1,
+  "official": {
+    "refreshHours": 20,
+    "referenceMode": "catalog-first"
+  },
+  "lookup": {
+    "cacheHours": 24
+  },
   "domains": [
     "frontend",
     "react",

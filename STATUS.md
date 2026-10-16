@@ -1,6 +1,24 @@
 # Implementation status
 
+## Current maintenance delivery
+
+The maintenance change is tracked in [JFusco/brain issue 1](https://github.com/JFusco/brain/issues/1) and [delivery PR 2](https://github.com/JFusco/brain/pull/2). Their saved records provide the current publication state and hosted execution evidence.
+
+- Automatic curation prepares small useful notes and documented issue-linked PRs. Exact merged-file verification precedes candidate acceptance. Partial use of evidence leaves the candidate pending.
+- Fifteen sources have active local references. Six new documentation sources contain 4,790 distinct catalog links: Vercel (1,656), React (225), Tailwind (197), Contentstack (2,241), Optimizely CMS SaaS (278), and Optimizely Graph (193). Catalog entries are links and metadata, not downloaded page bodies. Existing snapshots are retained; superseded React page bodies and oversized metadata use the private object cache. The old Next.js full export no longer refreshes automatically.
+- `lookup --query <terms> --domain <domain>` selects relevant official links and published notes. Optional `--fetch` returns focused excerpts and caches only excerpts and retrieval receipts for 24 hours. Pinned repository fetches verify the Git blob.
+- Full context-wiki scripts, native hooks, and the three requested GitHub workflows are installed locally. `BOT_TOKEN` exists in repository secrets; hosted execution remains to be verified during delivery.
+- A daily 03:15 America/New_York local automation is active for Brain documentation only: at most 12 candidates and one issue-linked PR per run. It may merge only after runtime/wiki checks and exact-head verification. It cannot change code, hooks, workflows, registrations, policies, other repositories, or memories.
+
+The source audit covered maintained runtime modules, CLI/setup, configuration, source/catalog logic, scheduling, hook integration, and wiki navigation. It found and addressed repeated nested skill identities, whole-candidate acceptance after partial use, unreachable repository links, and a hook that prevented wiki work from running. The skill matcher's combined workspace dependencies and incidental keyword tagging remain documented limitations. Inbox review was a bounded cross-domain sample, not a semantic audit of every candidate or upstream page.
+
+Runtime content and official integrity checks have passed locally. The requested wiki graph/integrity checks have passed locally. Selective fetch succeeded for React `useEffect`, Contentstack's Sitecore migration guide, and Vercel deployment protection; React's excerpt cache also returned a hit. These do not establish the correctness of every technical claim. Tests, fixtures, fresh-session checks, dedicated QA, and review-agent audits remain deferred. See [the maintenance topic](wiki/topics/automatic-knowledge-maintenance.md) for current behavior and evidence limits.
+
+## Historical initial implementation
+
 Implemented on 2026-10-15. The CLI and scheduler never commit or push. No global skill registration or project skill installations. Tests, fixtures, CI, fresh-session tests, and dedicated QA remain deferred.
+
+The following records describe the initial implementation before the current maintenance change; their source counts, refresh interval, and manual approval flow are historical.
 
 ## Available now
 

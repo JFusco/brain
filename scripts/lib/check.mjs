@@ -38,9 +38,9 @@ export function check({staged=false}={}) {
       entries.push({id:name,bytes:result.stdout});
     }
   } else {
-    const configFiles=['README.md','AGENTS.md','CLAUDE.md','brain.config.json','official/sources.json','official/sources.lock.json','official/CHANGES.md','.gitignore'];
+    const configFiles=['README.md','STATUS.md','AGENTS.md','CLAUDE.md','brain.config.json','official/sources.json','official/sources.lock.json','official/CHANGES.md','.gitignore'];
     for(const name of configFiles)if(fs.existsSync(at(name)))entries.push({id:name,bytes:fs.readFileSync(at(name))});
-    for(const name of ['knowledge','scripts','launchd','.githooks'])for(const file of walk(at(name)))entries.push({id:path.relative(ROOT,file),bytes:fs.readFileSync(file)});
+    for(const name of ['knowledge','wiki','scripts','launchd','.githooks','.github'])for(const file of walk(at(name)))entries.push({id:path.relative(ROOT,file),bytes:fs.readFileSync(file)});
     for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){
       const manifest=json(file);entries.push({id:path.relative(ROOT,file),bytes:fs.readFileSync(file)});
       for(const record of manifest.files){const source=path.join(snapshotRoot(manifest),record.path);if(fs.existsSync(source)&&/\.(?:md|mdx|txt|json|ya?ml|[cm]?[jt]sx?)$/i.test(record.path))entries.push({id:path.relative(ROOT,source),bytes:fs.readFileSync(source)});}
