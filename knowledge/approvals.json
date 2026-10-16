@@ -49,6 +49,13 @@
       "digest": "e45d21a348d37d86ff966b9814f8e6ba02b0af42ecc2e2f01fc063994b62ce9c",
       "method": "automatic-curation-pr",
       "preparedAt": "2026-10-16T10:10:40.066Z"
+    },
+    "knowledge/tailwind/application-storybook-review.md": {
+      "sha256": "dee0a274497d5d7e91e116713deb3a9900110d082c87d7e56ca2ce5039758527",
+      "proposal": "1c9f7b4aff6115391b784d99",
+      "digest": "1c9f7b4aff6115391b784d99cd44e706b8bfbe2c4fa79b7f4ac631ce6cb1f48a",
+      "method": "automatic-curation-pr",
+      "preparedAt": "2026-10-16T19:27:35.303Z"
     }
   }
 }
