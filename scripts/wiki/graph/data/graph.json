@@ -2,12 +2,12 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 30,
-    "edges": 77,
+    "nodes": 32,
+    "edges": 83,
     "byType": {
       "index": 3,
-      "journal": 13,
-      "plan": 13,
+      "journal": 14,
+      "plan": 14,
       "topic": 1
     }
   },
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.913545,
-      "y": 0.406737,
+      "x": 0.92388,
+      "y": 0.382683,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.809017,
-      "y": 0.587785,
+      "x": 0.83147,
+      "y": 0.55557,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.669131,
-      "y": 0.743145,
+      "x": 0.707107,
+      "y": 0.707107,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.5,
-      "y": 0.866025,
+      "x": 0.55557,
+      "y": 0.83147,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": 0.309017,
-      "y": 0.951057,
+      "x": 0.382683,
+      "y": 0.92388,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": 0.104528,
-      "y": 0.994522,
+      "x": 0.19509,
+      "y": 0.980785,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": -0.104528,
-      "y": 0.994522,
+      "x": 0,
+      "y": 1,
       "size": 8
     },
     {
@@ -196,8 +196,8 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": -0.309017,
-      "y": 0.951057,
+      "x": -0.19509,
+      "y": 0.980785,
       "size": 8
     },
     {
@@ -220,9 +220,9 @@
         }
       ],
       "bytes": 5235,
-      "degree": 5,
-      "x": -0.5,
-      "y": 0.866025,
+      "degree": 6,
+      "x": -0.382683,
+      "y": 0.92388,
       "size": 8
     },
     {
@@ -240,8 +240,8 @@
       ],
       "bytes": 2588,
       "degree": 3,
-      "x": -0.669131,
-      "y": 0.743145,
+      "x": -0.55557,
+      "y": 0.83147,
       "size": 8
     },
     {
@@ -259,8 +259,27 @@
       ],
       "bytes": 7387,
       "degree": 6,
-      "x": -0.809017,
-      "y": 0.587785,
+      "x": -0.707107,
+      "y": 0.707107,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-17-retained-inbox-curation.md",
+      "label": "Retained inbox semantic curation",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 33,
+          "url": "https://github.com/jfusco/brain/issues/33"
+        }
+      ],
+      "bytes": 6269,
+      "degree": 4,
+      "x": -0.83147,
+      "y": 0.55557,
       "size": 8
     },
     {
@@ -278,8 +297,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": -0.913545,
-      "y": 0.406737,
+      "x": -0.92388,
+      "y": 0.382683,
       "size": 8
     },
     {
@@ -327,8 +346,8 @@
       ],
       "bytes": 13921,
       "degree": 3,
-      "x": -0.978148,
-      "y": 0.207912,
+      "x": -0.980785,
+      "y": 0.19509,
       "size": 8
     },
     {
@@ -339,8 +358,8 @@
       "githubRefs": [],
       "bytes": 3069,
       "degree": 2,
-      "x": 0.978148,
-      "y": 0.207912,
+      "x": 0.980785,
+      "y": 0.19509,
       "size": 12
     },
     {
@@ -370,8 +389,8 @@
       ],
       "bytes": 5776,
       "degree": 3,
-      "x": -0.978148,
-      "y": -0.207912,
+      "x": -0.980785,
+      "y": -0.19509,
       "size": 8
     },
     {
@@ -382,8 +401,8 @@
       "githubRefs": [],
       "bytes": 5333,
       "degree": 4,
-      "x": -0.913545,
-      "y": -0.406737,
+      "x": -0.92388,
+      "y": -0.382683,
       "size": 8
     },
     {
@@ -407,8 +426,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.809017,
-      "y": -0.587785,
+      "x": -0.83147,
+      "y": -0.55557,
       "size": 8
     },
     {
@@ -419,8 +438,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.669131,
-      "y": -0.743145,
+      "x": -0.707107,
+      "y": -0.707107,
       "size": 8
     },
     {
@@ -431,8 +450,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.5,
-      "y": -0.866025,
+      "x": -0.55557,
+      "y": -0.83147,
       "size": 8
     },
     {
@@ -443,8 +462,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.309017,
-      "y": -0.951057,
+      "x": -0.382683,
+      "y": -0.92388,
       "size": 8
     },
     {
@@ -462,8 +481,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": -0.104528,
-      "y": -0.994522,
+      "x": -0.19509,
+      "y": -0.980785,
       "size": 8
     },
     {
@@ -481,8 +500,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": 0.104528,
-      "y": -0.994522,
+      "x": 0,
+      "y": -1,
       "size": 8
     },
     {
@@ -493,8 +512,27 @@
       "githubRefs": [],
       "bytes": 2637,
       "degree": 3,
-      "x": 0.309017,
-      "y": -0.951057,
+      "x": 0.19509,
+      "y": -0.980785,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-17-curate-the-retained-brain-inbox-81de1bc8dc.md",
+      "label": "Curate the retained Brain inbox",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 33,
+          "url": "https://github.com/jfusco/brain/issues/33"
+        }
+      ],
+      "bytes": 1840,
+      "degree": 3,
+      "x": 0.382683,
+      "y": -0.92388,
       "size": 8
     },
     {
@@ -512,8 +550,8 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": 0.5,
-      "y": -0.866025,
+      "x": 0.55557,
+      "y": -0.83147,
       "size": 8
     },
     {
@@ -524,8 +562,8 @@
       "githubRefs": [],
       "bytes": 1560,
       "degree": 3,
-      "x": 0.669131,
-      "y": -0.743145,
+      "x": 0.707107,
+      "y": -0.707107,
       "size": 8
     },
     {
@@ -543,8 +581,8 @@
       ],
       "bytes": 1101,
       "degree": 3,
-      "x": 0.809017,
-      "y": -0.587785,
+      "x": 0.83147,
+      "y": -0.55557,
       "size": 8
     },
     {
@@ -585,6 +623,12 @@
         },
         {
           "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 33,
+          "url": "https://github.com/jfusco/brain/issues/33"
+        },
+        {
+          "repository": "jfusco/brain",
           "kind": "pull-request",
           "number": 2,
           "url": "https://github.com/jfusco/brain/pull/2"
@@ -596,10 +640,10 @@
           "url": "https://github.com/jfusco/brain/pull/3"
         }
       ],
-      "bytes": 4969,
-      "degree": 15,
-      "x": 0.913545,
-      "y": -0.406737,
+      "bytes": 5247,
+      "degree": 16,
+      "x": 0.92388,
+      "y": -0.382683,
       "size": 12
     },
     {
@@ -661,10 +705,10 @@
           "url": "https://github.com/jfusco/brain/issues/24"
         }
       ],
-      "bytes": 19295,
-      "degree": 46,
-      "x": 0.978148,
-      "y": -0.207912,
+      "bytes": 19943,
+      "degree": 49,
+      "x": 0.980785,
+      "y": -0.19509,
       "size": 8
     }
   ],
@@ -673,6 +717,13 @@
       "id": "0bc0a6cbe97a8553",
       "source": "wiki/journal/2026-10-16-link-warning-tailwind.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "0e697aa27ec9a767",
+      "source": "wiki/journal/2026-10-17-retained-inbox-curation.md",
+      "target": "wiki/journal/2026-10-17-cleanup-reconciliation.md",
       "type": "link",
       "relation": "link"
     },
@@ -728,6 +779,13 @@
     {
       "id": "26c73a7ae40df50d",
       "source": "wiki/plans/2026-10-16-complete-automatic-knowledge-maintenance-delivery-2dd5febefd.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
+      "id": "299671c2e040c211",
+      "source": "wiki/journal/2026-10-17-retained-inbox-curation.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "topic",
       "relation": "topic"
@@ -908,6 +966,13 @@
       "relation": "plan"
     },
     {
+      "id": "7afef2bf61026f7f",
+      "source": "wiki/journal/2026-10-17-retained-inbox-curation.md",
+      "target": "wiki/plans/2026-10-17-curate-the-retained-brain-inbox-81de1bc8dc.md",
+      "type": "plan",
+      "relation": "plan"
+    },
+    {
       "id": "816ad0bc4f2c1edb",
       "source": "wiki/journal/2026-10-17-status-history.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -985,6 +1050,13 @@
       "relation": "link"
     },
     {
+      "id": "98f6bb5d2fa0bbde",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/journal/2026-10-17-retained-inbox-curation.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "9b8e4af98a4d8e02",
       "source": "wiki/journal/2026-10-15-disable-backups.md",
       "target": "wiki/plans/2026-10-16-disable-automatic-private-state-backups-d62b39cfd0.md",
@@ -1044,6 +1116,13 @@
       "id": "ac7e76cb5b3e08bc",
       "source": "wiki/INDEX.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "acdf1808b6847543",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-17-curate-the-retained-brain-inbox-81de1bc8dc.md",
       "type": "link",
       "relation": "link"
     },
@@ -1151,6 +1230,13 @@
       "target": "wiki/plans/INDEX.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "e6740aaed8bdd518",
+      "source": "wiki/plans/2026-10-17-curate-the-retained-brain-inbox-81de1bc8dc.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "e68add0ad173b65d",
