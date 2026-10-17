@@ -21,6 +21,12 @@ A private proposal binds exact replacement text, destination hashes, candidate h
 
 The authorized agent documents practical effect, applicability, sanitized evidence, source revisions, limitations, actual verification, digest, and rollback in the issue and PR. After passing runtime and wiki checks and verifying the saved PR/head, it merges the scoped maintenance PR. `curation record-merge` verifies repository/base/digest, fetched main ancestry, and immutable exported file hashes before accepting the selected candidates.
 
+## Candidate rejection policy
+
+[Issue 24](https://github.com/JFusco/brain/issues/24) makes nightly disposition explicit within the existing 12-candidate budget. The curator rejects only fully reviewed material with no reusable guidance or evidence, saving candidate ID, current content hash, review coverage, decision, batch time, and a concrete reason privately before resolution and the actual command outcome afterward. Failure to save the audit record or a changed hash leaves the item pending. Status-only updates, one-off task lists, or repository instructions can qualify; their format, length, age, or tags alone cannot establish low value.
+
+Mixed, partly useful, uncertain, inaccessible, unsupported, and partly reviewed candidates remain pending with useful portions and remaining review needs recorded. Rejection preserves bodies and provenance; quarantined bodies are excluded. This refines the existing publisher prompt without adding another schedule or changing exact-content proposals, issue-linked PRs, automatic merge, or immutable merge verification. See [the rejection-policy journal](../journal/2026-10-17-curator-rejections.md).
+
 ## Freshness and source coverage
 
 The existing 02:30 local LaunchAgent performs collection and due official refresh. Official references are due after 20 hours. Changed license material is recorded automatically rather than awaiting manual approval. Content, origin, hashes, size limits, privacy screening, and last-good preservation still apply. A separate 03:15 local agent can publish at most one documentation PR and review at most 12 candidates per run.
