@@ -21,9 +21,7 @@ Open the relevant domain, then only the pages it routes to. Official sections ar
 
 ## How to apply sources
 
-Find the relevant official pages and curated notes with `node scripts/brain.mjs lookup --query "<task or topic>" --domain <domain>`. Lookup returns links and metadata by default. Add `--fetch` for a few focused excerpts; it caches excerpts and receipts, not whole page bodies. An agent can open the returned official pages directly. Do not load an entire vendor corpus into the conversation.
-
-Follow repository-local workflow instructions. Use authority packages for their maintained contracts. For API behavior, prefer official documentation matching the installed product version over rolling material. Use reviewed notes for observed patterns, rationale, and documented deviations; check their applicability and evidence date.
+Use [Find applicable best practices and skills](_unsorted/find-guidance-and-skills.md) for lookup commands, selecting one application workspace, version checks, and skill applicability. Start with a relevant domain; load only the references needed for the task. Follow the consuming repository's instructions.
 
 Authority packages live outside this repository: [CMS field vocabulary](https://github.com/JFusco/cms-field-vocabulary), [accessibility standards](https://github.com/verndale/accessibility-standards), and [UI design brain](https://github.com/verndale/ui-design-brain). Use their configured local checkouts when available. These links require access to their repositories. They are linked, never mirrored. Unavailable sources must not be replaced with guessed content.
 

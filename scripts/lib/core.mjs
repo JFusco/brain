@@ -1,19 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
-import os from 'node:os';
 import {fileURLToPath} from 'node:url';
-import {spawnSync} from 'node:child_process';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-export const HOME = os.homedir();
 export const sha = value => crypto.createHash('sha256').update(value).digest('hex');
 export const json = file => {try{return JSON.parse(fs.readFileSync(file,'utf8'));}catch(error){if(error instanceof SyntaxError)throw new Error('Invalid JSON in a configured file; content suppressed');throw error;}};
 export const readJSON = (file, fallback = {}) => fs.existsSync(file) ? json(file) : fallback;
 export const at = relative => path.join(ROOT, relative);
-export const slash = value => value.split(path.sep).join('/');
 export const now = () => new Date().toISOString();
-export const stable = value => JSON.stringify(value, Object.keys(value).sort());
 export function mkdir(dir, mode = 0o755) { fs.mkdirSync(dir, {recursive:true, mode}); }
 export function atomic(file, data, mode = 0o644) {
   if(inside(ROOT,file))noSymlinks(ROOT,file);
@@ -51,12 +46,6 @@ export function walk(root, {skip=()=>false, file=()=>true}={}) {
     }
   }
   visit(root);return out;
-}
-export function run(binary,args,options={}) {
-  const result=spawnSync(binary,args,{encoding:'utf8',maxBuffer:32*1024*1024,timeout:120000,...options});
-  if(result.error)throw new Error(`${path.basename(binary)} could not run: ${result.error.code || 'failed'}`);
-  if(result.status!==0)throw new Error(`${path.basename(binary)} failed (exit ${result.status})`);
-  return result.stdout;
 }
 let loadedConfig;
 export function config() {

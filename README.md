@@ -39,7 +39,9 @@ node scripts/brain.mjs capture --stdin
 # Type the learning, then press Ctrl-D.
 ```
 
-`harvest --dry-run` computes a report without writing candidates or harvest state. It still requires the secret scanner. Reports contain counts and opaque IDs; private provenance stays in `.state/`.
+Automatic collection reads project topic notes and authored skills. It excludes raw memory stores, indexes, repository instructions, and implementation journals; explicit lesson capture remains available. Domain keywords route candidates but do not establish relevance. Exclusion counts appear in harvest reports.
+
+`harvest --dry-run` computes a report without writing candidates or harvest state. It still requires the secret scanner. Reports contain counts and opaque IDs; private provenance stays in `.state/`. See [implementation status](STATUS.md) for current local verification and [maintenance history](wiki/topics/automatic-knowledge-maintenance.md) for dated evidence.
 
 ## Capture lessons from working chats
 
@@ -176,7 +178,7 @@ Official website pointers remain pointers until a useful downloadable source and
 | Contentstack | [Documentation sitemap](https://www.contentstack.com/sitemap.xml), Sitecore migration guidance, Studio brownfield guidance, and selected kickstart references |
 | Optimizely | [CMS SaaS and Graph index links](https://docs.optimizely.com/llms.txt), plus selected JavaScript SDK documentation |
 | Contentful | [Official repository skills](https://github.com/contentful/skills) and website pointers; broader website discovery encountered HTTP 429 |
-| Sitecore | [Official Content SDK skills and references](https://github.com/Sitecore/content-sdk), plus product website pointers; website discovery encountered HTTP 403 |
+| Sitecore | [Official Content SDK skills and references](https://github.com/Sitecore/content-sdk), plus canonical product website pointers; earlier HEAD restrictions remain historical evidence |
 
 The next useful coverage additions are a broader Contentful documentation catalog and version-specific Sitecore XP/SitecoreAI catalogs when their indexes can be retrieved reliably. These remain suggestions rather than claims of completed coverage. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. Additional sources belong in a separate documented registration change; the daily documentation job cannot add them.
 
