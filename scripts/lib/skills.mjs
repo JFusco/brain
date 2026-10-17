@@ -1,8 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import {spawnSync} from 'node:child_process';
 import {at,ROOT,config,readJSON,json,writeJSON,atomic,mkdir,sha,safePath,noSymlinks,walk,inside,now} from './core.mjs';
-import {lock,registry,snapshotFiles} from './official.mjs';
+import {lock,snapshotFiles} from './official.mjs';
 import {assertClean} from './privacy.mjs';
 import {projectContext,projectDirectory} from './project-context.mjs';
 

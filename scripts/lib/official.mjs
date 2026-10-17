@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {createRequire} from 'node:module';
-import {at,config,json,readJSON,writeJSON,atomic,sha,now,mkdir,object,safePath,inside,noSymlinks,walk,log} from './core.mjs';
+import {at,config,json,readJSON,writeJSON,atomic,sha,now,mkdir,object,safePath,noSymlinks,walk,log} from './core.mjs';
 import {api,download,markdownResponse} from './network.mjs';
 import {archive} from './archive.mjs';
 import {assertClean} from './privacy.mjs';
@@ -196,7 +196,11 @@ export function officialSections() {
       const rel=file=>path.relative(path.dirname(hub),at(base+'/'+file)).split(path.sep).join('/');
       const coverage=entry.mode==='link-catalog'?'link catalog; page bodies not mirrored':spec.refresh===false?'retained snapshot; automatic refresh disabled':'selected reference snapshot';
       lines.push(`- **${entry.id}** — ${coverage}; ${entry.track}; revision \`${entry.revision}\`; fetched ${entry.fetchedAt?.slice(0,10)||'unknown'}.`);
-      for(const skill of entry.skills)lines.push(`  - [${skill.name}](${rel(skill.directory+'/SKILL.md')})${skill.installable?'':' — reference only'}.`);
+      const sharedPlugin=spec.id==='vercel-plugin'&&['react','nextjs'].includes(domain);
+      const pluginHub=path.relative(path.dirname(hub),at('knowledge/vercel/INDEX.md')).split(path.sep).join('/');
+      if(sharedPlugin)lines.push(`  - [Complete Vercel plugin catalog](${pluginHub}).`);
+      const visibleSkills=sharedPlugin?entry.skills.filter(skill=>domain==='react'&&skill.name==='react-best-practices'):entry.skills;
+      for(const skill of visibleSkills)lines.push(`  - [${skill.name}](${rel(skill.directory+'/SKILL.md')})${skill.installable?'':' — reference only'}.`);
       if(!entry.skills.length || entry.files.some(f=>f.path.startsWith('docs/'))) {
         const docs=entry.files.filter(f=>/\.(?:md|mdx|txt)$/.test(f.path)&&!f.path.includes('/SKILL.md')&&!/LICENSE/i.test(f.path)).slice(0,8);
         for(const doc of docs){let upstream=spec.url;if(spec.kind==='repository'){let original=doc.path;for(const rule of spec.mappings||[])if(original.startsWith(rule.to)){original=rule.from+original.slice(rule.to.length);break;}upstream=`https://github.com/${spec.repository}/blob/${entry.revision}/${spec.sourceBase||''}${original}`;}lines.push(doc.cached?`  - [${doc.path}](${upstream||spec.indexUrl}) — upstream; restore the exact local snapshot with \`official restore ${entry.id}\`.`:`  - [${doc.path}](${rel(doc.path)}).`);}

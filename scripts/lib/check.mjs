@@ -3,7 +3,7 @@ import path from 'node:path';
 import {createRequire} from 'node:module';
 import {spawnSync} from 'node:child_process';
 import {at,ROOT,config,walk,inside,safePath,json,sha} from './core.mjs';
-import {assertClean,clientHits} from './privacy.mjs';
+import {assertClean} from './privacy.mjs';
 import {checkOfficial,lock,snapshotRoot,registry,requireRegistryApproval} from './official.mjs';
 import {versionConstraint} from './project-context.mjs';
 const require=createRequire(import.meta.url);

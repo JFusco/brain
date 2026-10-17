@@ -1,9 +1,24 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
-import {at,HOME,ROOT,config,json,readJSON,writeJSON,atomic,sha,walk,now,log,inside,noSymlinks} from './core.mjs';
+import {at,ROOT,config,json,readJSON,writeJSON,atomic,sha,walk,now,log,inside,noSymlinks} from './core.mjs';
 import {scrub,policyHash,scan,scanner} from './privacy.mjs';
 import {registry} from './official.mjs';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);
+const {splitFrontmatter,scalar}=require('../wiki/lib/frontmatter.cjs');
+
+// Collection changes do not invalidate private candidate privacy approvals.
+export const COLLECTION_VERSION=3;
+function collectionExclusion(file,bytes) {
+  if(/(?:^|[\\/])(?:journal|journals|memory|memories|logs)(?:[\\/]|$)/i.test(file))return 'memory-or-journal-path';
+  if(/^(?:index|memory|memory_summary|readme|agents|claude|llms)\.(?:md|mdc|mdx|txt)$/i.test(path.basename(file)))return 'index-or-instructions';
+  if(!bytes)return null;
+  const raw=splitFrontmatter(bytes.toString()).raw;
+  if(scalar(raw,'node_type')==='memory'||/^\s+node_type:\s*['\"]?memory['\"]?\s*$/m.test(raw))return 'memory-record';
+  if(scalar(raw,'entity-type')==='log-entry'||scalar(raw,'log-type')||['log','log-entry','journal','implementation'].includes(scalar(raw,'type')))return 'implementation-journal';
+  return null;
+}
 
 function excluded(file,entry) {
   const c=config(),name=path.basename(file);
@@ -34,14 +49,14 @@ export function projectRoots() {
   return [...new Set(projects.map(p=>fs.realpathSync(p)))].filter(p=>p!==ROOT).sort();
 }
 function sourceFiles({report=false}={}) {
-  const files=new Map(),errors=[],skipped=[];
+  const files=new Map(),errors=[],skipped=[],exclusions={};
+  const omit=reason=>{exclusions[reason]=(exclusions[reason]||0)+1;};
   const failure=(file,error,reason)=>{const symlink=/symlink/i.test(error.message||'');(symlink?skipped:errors).push({id:sha(file).slice(0,16),path:file,reason:symlink?'symlinked-source-deliberately-excluded':reason});};
   const add=(file,kind,project)=>{
-    try{if(excluded(file)||!fs.existsSync(file)||!fs.lstatSync(file).isFile()||fs.lstatSync(file).isSymbolicLink())return;files.set(file,{file,kind,project});}catch{errors.push({id:sha(file).slice(0,16),reason:'source-unreadable'});}
+    try{const reason=collectionExclusion(file);if(reason){omit(reason);return;}if(excluded(file)||!fs.existsSync(file)||!fs.lstatSync(file).isFile()||fs.lstatSync(file).isSymbolicLink())return;files.set(file,{file,kind,project});}catch{errors.push({id:sha(file).slice(0,16),reason:'source-unreadable'});}
   };
   for(const root of projectRoots()) {
-    for(const name of ['AGENTS.md','CLAUDE.md','llms.txt'])add(path.join(root,name),'instructions',root);
-    for(const relative of ['wiki/topics','wiki/journal','docs/wiki','.cursor/rules']) {
+    for(const relative of ['wiki/topics','docs/wiki']) {
       const dir=path.join(root,relative);
       try{noSymlinks(root,dir);for(const file of walk(dir,{skip:excluded,file:f=>/\.(?:md|mdc|mdx|txt)$/i.test(f)}))add(file,'learning',root);}catch(error){failure(dir,error,'source-directory-unreadable');}
     }
@@ -52,19 +67,9 @@ function sourceFiles({report=false}={}) {
     }catch{errors.push({id:sha(root).slice(0,16),reason:'skill-discovery-unreadable'});}
     if(report)log('harvest-project-discovered',{projectId:sha(root).slice(0,16),sourcesSoFar:files.size});
   }
-  for(const root of config().memoryRoots||[]) {
-    if(!fs.existsSync(root))continue;
-    if(root.endsWith('/.codex/memories')) {
-      for(const name of ['MEMORY.md','memory_summary.md'])add(path.join(root,name),'memory',root);
-      const dir=path.join(root,'rollout_summaries');
-      for(const file of walk(dir,{skip:excluded,file:f=>f.endsWith('.md')}))add(file,'memory',root);
-    }else{
-      for(const project of fs.readdirSync(root,{withFileTypes:true}))if(project.isDirectory()&&!project.isSymbolicLink()){
-        const dir=path.join(root,project.name,'memory');try{noSymlinks(root,dir);for(const file of walk(dir,{skip:excluded,file:f=>f.endsWith('.md')}))add(file,'memory',root);}catch{errors.push({id:sha(dir).slice(0,16),reason:'memory-directory-unreadable'});}
-      }
-    }
-  }
-  return {files:[...files.values()].sort((a,b)=>a.file.localeCompare(b.file)),errors,skipped};
+  // Raw memory roots and journals are deliberately never enumerated or read.
+
+  return {files:[...files.values()].sort((a,b)=>a.file.localeCompare(b.file)),errors,skipped,exclusions};
 }
 const provenanceCache=new Map();
 function provenance(project) {
@@ -127,16 +132,18 @@ export function refreshSummary(index=readJSON(at('.state/harvest.json'),{candida
 export async function harvest({dryRun=false}={}) {
   scanner();const policy=policyHash(),index=readJSON(at('.state/harvest.json'),{schemaVersion:1,sources:{},candidates:{}}),discovered=sourceFiles({report:!dryRun});
   if(!dryRun)log('harvest-discovered',{sources:discovered.files.length,unreadable:discovered.errors.length});
-  const work=[],counts={sources:discovered.files.length,changed:0,unchanged:0,officialOccurrences:0,unreadable:discovered.errors.length,skippedSymlinks:discovered.skipped.length,oversize:0,newCandidates:0,quarantined:0,domains:{},classes:{}};
+  const work=[],counts={collectionVersion:COLLECTION_VERSION,excluded:{...discovered.exclusions},sources:discovered.files.length,changed:0,unchanged:0,officialOccurrences:0,unreadable:discovered.errors.length,skippedSymlinks:discovered.skipped.length,oversize:0,newCandidates:0,quarantined:0,domains:{},classes:{}};
   const dispositions=new Map();for(const candidate of Object.values(index.candidates))if(['accepted','rejected'].includes(candidate.disposition?.as))dispositions.set(candidate.class+'\0'+candidate.contentSha256,candidate);
   if(!dryRun)for(const candidate of Object.values(index.candidates))if(candidate.policy!==policy&&!candidate.disposition)candidate.status='needs-rescan';
   for(const source of discovered.files) {
     const id=sha(source.file);let bytes;
     try{const stat=fs.statSync(source.file);if(stat.size>config().harvest.sourceBytes){counts.oversize++;continue;}bytes=fs.readFileSync(source.file);}catch{counts.unreadable++;continue;}
     const digest=sha(bytes),previous=index.sources[id];
-    if(previous?.sha256===digest&&previous.policy===policy){counts.unchanged++;continue;}
+    const reason=collectionExclusion(source.file,bytes);
+    if(reason){counts.excluded[reason]=(counts.excluded[reason]||0)+1;if(!dryRun)index.sources[id]={path:source.file,sha256:digest,policy,collectionVersion:COLLECTION_VERSION,excluded:reason,candidates:previous?.candidates||[]};continue;}
+    if(previous?.sha256===digest&&previous.policy===policy&&previous.collectionVersion===COLLECTION_VERSION){counts.unchanged++;continue;}
     const classification=classify(source,bytes);counts.classes[classification.class]=(counts.classes[classification.class]||0)+1;
-    if(classification.class==='official-occurrence'){counts.officialOccurrences++;if(!dryRun)index.sources[id]={path:source.file,sha256:digest,policy,class:classification.class,sourceId:classification.sourceId};continue;}
+    if(classification.class==='official-occurrence'){counts.officialOccurrences++;if(!dryRun)index.sources[id]={path:source.file,sha256:digest,policy,collectionVersion:COLLECTION_VERSION,class:classification.class,sourceId:classification.sourceId};continue;}
     counts.changed++;work.push({...source,id,sha256:digest,bytes,classification});
   }
   const findings=new Map();
@@ -160,7 +167,7 @@ export async function harvest({dryRun=false}={}) {
       index.candidates[candidateId]={id:candidateId,domain,class:classification.class,status:quarantined?'quarantined':'pending',file,contentSha256:sha(content),fileSha256:sha(text),policy,createdAt:now(),occurrences:[{source:source.id,part}],rules:[...new Set(rules)],origin:classification.observedOrigin||classification.originHint||null};
       if(prior)index.candidates[candidateId].disposition={...prior.disposition,carriedForwardFrom:prior.id};
     }
-    if(!dryRun)index.sources[source.id]={path:source.file,sha256:source.sha256,policy,class:classification.class,candidates:candidateIds};
+    if(!dryRun)index.sources[source.id]={path:source.file,sha256:source.sha256,policy,collectionVersion:COLLECTION_VERSION,class:classification.class,candidates:candidateIds};
   }
   if(!dryRun){for(const candidate of Object.values(index.candidates))if(candidate.status==='needs-rescan'&&candidate.occurrences.length&&candidate.occurrences.every(o=>index.sources[o.source]?.policy===policy)){candidate.status='superseded';candidate.disposition={as:'superseded',reason:'sources-reprocessed-under-current-policy',at:now()};}writeJSON(at('.state/harvest.json'),index,0o600);refreshSummary(index);const report={...counts,policy,completedAt:now(),sourceErrors:discovered.errors,skippedSources:discovered.skipped};writeJSON(at('.state/last-harvest.json'),report,0o600);writeJSON(at(`.state/harvest-runs/${report.completedAt.replaceAll(':','-')}.json`),report,0o600);log('harvest',{sources:counts.sources,newCandidates:counts.newCandidates,quarantined:counts.quarantined,unreadable:counts.unreadable});}
   return counts;
