@@ -114,3 +114,11 @@ The [cleanup reconciliation](../journal/2026-10-17-cleanup-reconciliation.md) re
 ## Retained inbox semantic curation
 
 The [manual continuation](../journal/2026-10-17-retained-inbox-curation.md) fully reviews 117 additional candidates in ten bounded batches, rejecting 52 records with no reusable guidance/evidence, superseding one verified duplicate and retaining 64 useful or mixed records at the pre-publication checkpoint. Two officially verified lessons about React hydration and Next.js route parameters use one exact proposal; acceptance follows merged-byte verification. This begins semantic curation rather than completing the retained backlog. The ongoing plan and private coverage/disposition records remain explicit.
+
+## Completed retained semantic audit
+
+The [completion journal](../journal/2026-10-17-semantic-audit-complete.md) closes the manual review of all 2,955 post-publication retained baseline candidates. Final original-cohort accounting is 283 rejected, 65 superseded, one accepted and 2,726 useful or uncertain candidates pending. All 3,075 original bodies are unchanged; all duplicate replacement bodies and subsequent dispositions remain preserved. Earlier partial archives/counts are dated checkpoints, not the current outstanding-review state.
+
+Completed semantic review does not imply publication or verification of every claim. Mixed evidence keeps specific useful portions and unresolved needs privately. Whole-candidate supersession preserves unique failure/version evidence; overlapping fragments remain separate when no complete replacement exists. The two verified React/Next.js lessons were accepted only after PR 34's exact merged bytes were checked.
+
+Prevention combines selective automatic collection, exact capture deduplication, overlap checks and stale-first daily curation within the existing twelve-candidate budget. It reduces recurring noise; it does not promise zero future overlap, universal package compatibility or unattended operation while the local host is unavailable. Project queries use the selected application's dependencies and reviewed knowledge/official references without automatic project enrollment or instruction injection.
