@@ -2,6 +2,8 @@
 title: "Project cleanup and selective collection"
 topics: ["automatic-knowledge-maintenance"]
 plans: ["2026-10-17-clean-brain-s-inbox-and-reduce-project-clutter-97c2efc2fd.md"]
+issue: 'https://github.com/jfusco/brain/issues/27'
+issues: ['https://github.com/jfusco/brain/issues/27']
 ---
 
 # Project cleanup and selective collection
