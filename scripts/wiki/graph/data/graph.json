@@ -2,12 +2,12 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 23,
-    "edges": 57,
+    "nodes": 25,
+    "edges": 62,
     "byType": {
       "index": 3,
-      "journal": 9,
-      "plan": 10,
+      "journal": 10,
+      "plan": 11,
       "topic": 1
     }
   },
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.854419,
-      "y": 0.519584,
+      "x": 0.876307,
+      "y": 0.481754,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.682553,
-      "y": 0.730836,
+      "x": 0.728969,
+      "y": 0.684547,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.460065,
-      "y": 0.887885,
+      "x": 0.535827,
+      "y": 0.844328,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.203456,
-      "y": 0.979084,
+      "x": 0.309017,
+      "y": 0.951057,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": -0.068242,
-      "y": 0.997669,
+      "x": 0.062791,
+      "y": 0.998027,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": -0.33488,
-      "y": 0.942261,
+      "x": -0.187381,
+      "y": 0.982287,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": -0.57668,
-      "y": 0.81697,
+      "x": -0.425779,
+      "y": 0.904827,
       "size": 8
     },
     {
@@ -196,8 +196,27 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": -0.775711,
-      "y": 0.631088,
+      "x": -0.637424,
+      "y": 0.770513,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-17-curator-rejections.md",
+      "label": "Record low-value nightly curation rejections",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 24,
+          "url": "https://github.com/jfusco/brain/issues/24"
+        }
+      ],
+      "bytes": 2588,
+      "degree": 3,
+      "x": -0.809017,
+      "y": 0.587785,
       "size": 8
     },
     {
@@ -215,8 +234,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": -0.917211,
-      "y": 0.398401,
+      "x": -0.929776,
+      "y": 0.368125,
       "size": 8
     },
     {
@@ -227,8 +246,8 @@
       "githubRefs": [],
       "bytes": 3069,
       "degree": 2,
-      "x": 0.962917,
-      "y": 0.269797,
+      "x": 0.968583,
+      "y": 0.24869,
       "size": 12
     },
     {
@@ -239,8 +258,8 @@
       "githubRefs": [],
       "bytes": 2105,
       "degree": 2,
-      "x": -0.990686,
-      "y": 0.136167,
+      "x": -0.992115,
+      "y": 0.125333,
       "size": 8
     },
     {
@@ -258,8 +277,8 @@
       ],
       "bytes": 5776,
       "degree": 3,
-      "x": -0.990686,
-      "y": -0.136167,
+      "x": -0.992115,
+      "y": -0.125333,
       "size": 8
     },
     {
@@ -270,8 +289,8 @@
       "githubRefs": [],
       "bytes": 5333,
       "degree": 4,
-      "x": -0.917211,
-      "y": -0.398401,
+      "x": -0.929776,
+      "y": -0.368125,
       "size": 8
     },
     {
@@ -295,8 +314,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.775711,
-      "y": -0.631088,
+      "x": -0.809017,
+      "y": -0.587785,
       "size": 8
     },
     {
@@ -307,8 +326,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.57668,
-      "y": -0.81697,
+      "x": -0.637424,
+      "y": -0.770513,
       "size": 8
     },
     {
@@ -319,8 +338,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.33488,
-      "y": -0.942261,
+      "x": -0.425779,
+      "y": -0.904827,
       "size": 8
     },
     {
@@ -331,8 +350,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.068242,
-      "y": -0.997669,
+      "x": -0.187381,
+      "y": -0.982287,
       "size": 8
     },
     {
@@ -350,8 +369,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": 0.203456,
-      "y": -0.979084,
+      "x": 0.062791,
+      "y": -0.998027,
       "size": 8
     },
     {
@@ -369,8 +388,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": 0.460065,
-      "y": -0.887885,
+      "x": 0.309017,
+      "y": -0.951057,
       "size": 8
     },
     {
@@ -388,8 +407,27 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": 0.682553,
-      "y": -0.730836,
+      "x": 0.535827,
+      "y": -0.844328,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-17-record-low-value-nightly-curation-rejections-4c7810f86d.md",
+      "label": "Record low-value nightly curation rejections",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 24,
+          "url": "https://github.com/jfusco/brain/issues/24"
+        }
+      ],
+      "bytes": 1101,
+      "degree": 3,
+      "x": 0.728969,
+      "y": -0.684547,
       "size": 8
     },
     {
@@ -424,6 +462,12 @@
         },
         {
           "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 24,
+          "url": "https://github.com/jfusco/brain/issues/24"
+        },
+        {
+          "repository": "jfusco/brain",
           "kind": "pull-request",
           "number": 2,
           "url": "https://github.com/jfusco/brain/pull/2"
@@ -435,10 +479,10 @@
           "url": "https://github.com/jfusco/brain/pull/3"
         }
       ],
-      "bytes": 3946,
-      "degree": 12,
-      "x": 0.854419,
-      "y": -0.519584,
+      "bytes": 4307,
+      "degree": 13,
+      "x": 0.876307,
+      "y": -0.481754,
       "size": 12
     },
     {
@@ -492,12 +536,18 @@
           "kind": "issue",
           "number": 22,
           "url": "https://github.com/jfusco/brain/issues/22"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 24,
+          "url": "https://github.com/jfusco/brain/issues/24"
         }
       ],
-      "bytes": 16378,
-      "degree": 35,
-      "x": 0.962917,
-      "y": -0.269797,
+      "bytes": 17530,
+      "degree": 38,
+      "x": 0.968583,
+      "y": -0.24869,
       "size": 8
     }
   ],
@@ -536,6 +586,13 @@
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "topic",
       "relation": "topic"
+    },
+    {
+      "id": "2052c21ae614fe59",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-17-record-low-value-nightly-curation-rejections-4c7810f86d.md",
+      "type": "link",
+      "relation": "link"
     },
     {
       "id": "20bc513047a487cf",
@@ -706,6 +763,13 @@
       "relation": "plan"
     },
     {
+      "id": "83b8a6731e1e57d5",
+      "source": "wiki/journal/2026-10-17-curator-rejections.md",
+      "target": "wiki/plans/2026-10-17-record-low-value-nightly-curation-rejections-4c7810f86d.md",
+      "type": "plan",
+      "relation": "plan"
+    },
+    {
       "id": "84a991edd7b34332",
       "source": "wiki/plans/2026-10-16-repair-sitecore-retrieval-and-canonical-documentation-links-b39bb55c46.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -811,6 +875,13 @@
       "relation": "link"
     },
     {
+      "id": "b13e4fa516a206fa",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/journal/2026-10-17-curator-rejections.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "b91bdb1bbf2e6f79",
       "source": "wiki/journal/2026-10-15-on-demand-reliability.md",
       "target": "wiki/plans/2026-10-16-on-demand-knowledge-maintenance-reliability-a09b1f9f08.md",
@@ -830,6 +901,13 @@
       "target": "wiki/plans/2026-10-16-capture-reusable-lessons-from-working-chats-eeac8dc827.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "ce9855043d03008a",
+      "source": "wiki/plans/2026-10-17-record-low-value-nightly-curation-rejections-4c7810f86d.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "d04aa6db20688b0a",
@@ -879,6 +957,13 @@
       "target": "wiki/journal/2026-10-16-project-lesson-capture.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "ed175892086fe108",
+      "source": "wiki/journal/2026-10-17-curator-rejections.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "fbb29c5c6c99174c",
