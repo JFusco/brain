@@ -39,3 +39,7 @@ The executed plan is partial specifically because full semantic review of the re
 ## Issue-linked delivery verification
 
 The delivery branch starts at refreshed remote main `be035c7`. Content/privacy checks passed for 1,671 files with no warnings; official integrity and syntax for all 23 Node modules passed. Scoped wiki discovery returned no unresolved candidates, and graph/integrity passed with 28 nodes and 70 edges. The primary checkout was not pulled or switched because its unrelated dirty state required preservation; the separate clean worktree ran `git pull --ff-only origin main` before creating the issue branch. The existing pre-commit privacy guard remains enabled. No test suites, fixtures, fresh-session tests, dedicated QA, review agents or additional CI were added or claimed. This code/policy cleanup stops at a verified pull request; it is not an automatic maintenance merge.
+
+## Later reconciliation
+
+The [reconciliation journal](2026-10-17-cleanup-reconciliation.md) records the subsequent authorized merge of PR 28, additional individual rejection/duplicate review, final aggregate counts and preserved primary-checkout recovery state. The earlier local-only and PR-only statements above describe their checkpoints. The original semantic-curation limitation remains explicit.
