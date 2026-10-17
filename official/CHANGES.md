@@ -1,8 +1,9 @@
 # Official source changes
 
-Updated 2026-10-16T01:29:39.366Z. No automatic commits.
+Updated 2026-10-17T06:34:30.788Z. No automatic commits.
 
-- **vercel-docs**: `68570b370995c7925787690e76ef83871e2642f23e15969f5fc1f4f125c90b19` → `97f63dace14bc561e49ad6a27e325190c2121576966a6c398eef8d94d0e6bdfb`; 0 added, 2 modified, 0 removed.
-- **contentstack-docs**: `e7518b89c9b6ed798a8b5a898258a51b90bb6bda3e5feb00d1f1a79a60213a03` → `1c380c3b5dd201ae8b6ff7ac72a9365307757dac8d876fcfb0e84cf3b20a596f`; 0 added, 2 modified, 0 removed.
-- **react-docs**: `046f17d04295ba047bb5739026b4ac3110f17028` → `046f17d04295ba047bb5739026b4ac3110f17028`; 0 added, 1 modified, 0 removed.
-- **tailwind-docs**: `7f92c2213315c195dae583d68752da4042da3ade` → `7f92c2213315c195dae583d68752da4042da3ade`; 0 added, 1 modified, 0 removed.
+- **sitecore-content-sdk**: `e51294172719bbc0a2a71245539cf3d3bd872a1e` → `6ec243fc709bfb917e7ce9be6151e63d0f33c5b6`; 0 added, 0 modified, 0 removed.
+- **vercel-plugin**: `045b17eea6dfe6f9ec4b8c1a49f453d11491684f` → `137e9f44a243a939c5eaea30e4dff96aee744f64`; 1 added, 4 modified, 0 removed.
+- **contentful-skills**: `9100f17361fe0ed074b9ecd84aea9b210447e463` → `27a5172887a9d32c1753e28369c8bd4e3c140d19`; 7 added, 7 modified, 0 removed.
+- **optimizely-sdk**: `01fb2b56ee24d54a4e1b3c0580727a2d07145bde` → `5ef6268e688b35959d84b901c0bd6e81cb3669ef`; 0 added, 3 modified, 0 removed.
+- **vercel-docs**: `97f63dace14bc561e49ad6a27e325190c2121576966a6c398eef8d94d0e6bdfb` → `5fe1e6efea767fae1d0d61882415143efe03cfca88b3d0d99d2b931b45161085`; 0 added, 2 modified, 0 removed.

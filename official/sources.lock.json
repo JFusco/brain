@@ -251,6 +251,10 @@
       ],
       "referenceIssues": [
         {
+          "from": "skills/README.md",
+          "target": "AGENTS.md"
+        },
+        {
           "from": "skills/dev-workflow/SKILL.md",
           "target": ".github/workflows/policy-scan.yml"
         },
@@ -261,10 +265,6 @@
         {
           "from": "skills/dev-workflow/SKILL.md",
           "target": ".github/workflows/issues-jira.yml"
-        },
-        {
-          "from": "skills/README.md",
-          "target": "AGENTS.md"
         }
       ],
       "domains": [
@@ -282,11 +282,12 @@
     },
     "sitecore-content-sdk": {
       "id": "sitecore-content-sdk",
-      "revision": "e51294172719bbc0a2a71245539cf3d3bd872a1e",
-      "snapshot": "e51294172719-955b269af9fc",
+      "revision": "6ec243fc709bfb917e7ce9be6151e63d0f33c5b6",
+      "snapshot": "6ec243fc709b-955b269af9fc",
       "repository": "Sitecore/content-sdk",
-      "url": "https://codeload.github.com/Sitecore/content-sdk/tar.gz/e51294172719bbc0a2a71245539cf3d3bd872a1e",
+      "url": "https://codeload.github.com/Sitecore/content-sdk/tar.gz/6ec243fc709bfb917e7ce9be6151e63d0f33c5b6",
       "track": "default-branch",
+      "mode": "snapshot",
       "license": "Apache-2.0",
       "licenses": [
         {
@@ -295,6 +296,7 @@
         }
       ],
       "policySha256": "0b0f96a4ded3c30238d1e968b1e3a45df9d7517242e7c46fb13bd12d46f27594",
+      "catalogVersion": 3,
       "files": [
         {
           "path": "docs/AGENTS-key-concepts.md",
@@ -781,14 +783,17 @@
         "cms/sitecore-ai"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-15T18:08:19.092Z",
+      "fetchedAt": "2026-10-17T06:33:04.822Z",
       "history": [
+        {
+          "snapshot": "e51294172719-955b269af9fc",
+          "revision": "e51294172719bbc0a2a71245539cf3d3bd872a1e"
+        },
         {
           "snapshot": "890ce57efbda-da04410d87c9",
           "revision": "890ce57efbda2526eb3e1be6bcee9746681b5d99"
         }
-      ],
-      "catalogVersion": 3
+      ]
     },
     "vercel-agent-skills": {
       "id": "vercel-agent-skills",
@@ -1435,11 +1440,12 @@
     },
     "vercel-plugin": {
       "id": "vercel-plugin",
-      "revision": "045b17eea6dfe6f9ec4b8c1a49f453d11491684f",
-      "snapshot": "045b17eea6df-51348587fb1d",
+      "revision": "137e9f44a243a939c5eaea30e4dff96aee744f64",
+      "snapshot": "137e9f44a243-05658e9d5222",
       "repository": "vercel/vercel-plugin",
-      "url": "https://codeload.github.com/vercel/vercel-plugin/tar.gz/045b17eea6dfe6f9ec4b8c1a49f453d11491684f",
+      "url": "https://codeload.github.com/vercel/vercel-plugin/tar.gz/137e9f44a243a939c5eaea30e4dff96aee744f64",
       "track": "default-branch",
+      "mode": "snapshot",
       "license": "Apache-2.0",
       "licenses": [
         {
@@ -1628,8 +1634,8 @@
         },
         {
           "path": "skills/create-a-backend/SKILL.md",
-          "sha256": "0ac49fd640ce4928588b1f9be65c17540dcec0b51f3a6d5b5fad3e6e1074ba86",
-          "bytes": 5853,
+          "sha256": "d1d09bea75f785db07e30e6c2f087853c5963a8a43c3437a8692d9d35e21b725",
+          "bytes": 6291,
           "cached": false
         },
         {
@@ -1642,6 +1648,12 @@
           "path": "skills/custom-metrics/SKILL.md",
           "sha256": "dda9871df28f58001367e6ee923912c3b41d3ed77a4ef665ce0552227760d4f1",
           "bytes": 6528,
+          "cached": false
+        },
+        {
+          "path": "skills/daemons/SKILL.md",
+          "sha256": "04d8f4f0dc361e8b9bdfc3c4b444d81fe041563c630a0a9b0207d2e4c7fbb5ab",
+          "bytes": 15854,
           "cached": false
         },
         {
@@ -1820,8 +1832,8 @@
         },
         {
           "path": "skills/knowledge-update/SKILL.md",
-          "sha256": "9849b61e6bf847d9dc1f263ea6c7777f4c248ec53c93af43225e15c03f818aad",
-          "bytes": 10376,
+          "sha256": "58d39516b02bd089ab0b806f0c67c9ef0152f937e9632e96917f82efdbb311d9",
+          "bytes": 10659,
           "cached": false
         },
         {
@@ -1892,8 +1904,8 @@
         },
         {
           "path": "skills/queues/SKILL.md",
-          "sha256": "38ad06c8c9785b944ce887a94bdb60511f4f6e8eda3b2fef01cadd5a1b16342b",
-          "bytes": 9651,
+          "sha256": "c3583912ba78909016e944c9ca08996f27890d11ba2eec5cfe4c878ad8f344ae",
+          "bytes": 9734,
           "cached": false
         },
         {
@@ -3224,8 +3236,8 @@
         },
         {
           "path": "skills/vercel-functions/SKILL.md",
-          "sha256": "ac162ecba80415929a1c40f65beea13cb25f09baf3bfa87ce6d6e404962040c6",
-          "bytes": 48961,
+          "sha256": "4421b7ae035e4cfd6c5f23a5ebce7fa5d8a7b1289ced2a7d36985a37ef2e92fe",
+          "bytes": 49033,
           "cached": false
         },
         {
@@ -3438,7 +3450,7 @@
           "id": "vercel-plugin/create-a-backend",
           "name": "create-a-backend",
           "declaredName": "create-a-backend",
-          "description": "Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions, Services, containers, Workflow, Queues, and Marketplace databases; or selecting a supported backend framework or runtime.",
+          "description": "Backend architecture guidance. Use when planning, building, or migrating an API or backend; choosing between Functions, Services, containers, Daemons, Workflow, Queues, and Marketplace databases; or selecting a supported backend framework or runtime.",
           "directory": "skills/create-a-backend",
           "installable": false,
           "policy": "curated",
@@ -3455,6 +3467,21 @@
           "declaredName": "custom-metrics",
           "description": "Emit and query Vercel Custom Metrics. Use when instrumenting application or business measurements in Vercel Functions, using metric() from @vercel/functions, choosing metric names and attributes, or querying emitted values with vc metrics.",
           "directory": "skills/custom-metrics",
+          "installable": false,
+          "policy": "curated",
+          "appliesTo": {
+            "dependencies": [
+              "react"
+            ]
+          },
+          "preferred": true
+        },
+        {
+          "id": "vercel-plugin/daemons",
+          "name": "daemons",
+          "declaredName": "daemons",
+          "description": "Vercel Daemons guidance — long-running background workers built from a Dockerfile and declared under the `daemons` key in vercel.json. Use when running queue consumers, Celery/Sidekiq/BullMQ workers, workflow workers, or job runners next to an app on Vercel; configuring daemon instances per region, memory, or command; handling SIGTERM; or choosing between Daemons, Functions, Queues, and Workflows.",
+          "directory": "skills/daemons",
           "installable": false,
           "policy": "curated",
           "appliesTo": {
@@ -3853,8 +3880,12 @@
         "vercel"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-16T00:50:12.273Z",
+      "fetchedAt": "2026-10-17T06:33:24.754Z",
       "history": [
+        {
+          "snapshot": "045b17eea6df-51348587fb1d",
+          "revision": "045b17eea6dfe6f9ec4b8c1a49f453d11491684f"
+        },
         {
           "snapshot": "d874dac94438-8db6a16f9bc5",
           "revision": "d874dac94438ac4b8c788e8c2b90a6abbce197a6"
@@ -3945,11 +3976,12 @@
     },
     "contentful-skills": {
       "id": "contentful-skills",
-      "revision": "9100f17361fe0ed074b9ecd84aea9b210447e463",
-      "snapshot": "9100f17361fe-7a304d82206b",
+      "revision": "27a5172887a9d32c1753e28369c8bd4e3c140d19",
+      "snapshot": "27a5172887a9-1427297e432f",
       "repository": "contentful/skills",
-      "url": "https://codeload.github.com/contentful/skills/tar.gz/9100f17361fe0ed074b9ecd84aea9b210447e463",
+      "url": "https://codeload.github.com/contentful/skills/tar.gz/27a5172887a9d32c1753e28369c8bd4e3c140d19",
       "track": "default-branch",
+      "mode": "snapshot",
       "license": "MIT",
       "licenses": [
         {
@@ -3963,6 +3995,10 @@
         {
           "path": "skills/contentful-apps/contentful-custom-app-from-scratch/SKILL.md",
           "license": "MIT"
+        },
+        {
+          "path": "skills/contentful-env-analysis/LICENSE",
+          "sha256": "a0a54c962fd6f99e9f915455a33994a8237f6653a815c2eca369307205197388"
         },
         {
           "path": "skills/contentful-migration/SKILL.md",
@@ -3984,8 +4020,8 @@
         },
         {
           "path": "skills/contentful-api/package.json",
-          "sha256": "ebf64f2e462ec0061e44af6eb63a7d0a6a89b737a16718821fdd355f46865db6",
-          "bytes": 259,
+          "sha256": "4e1e24f146b21448b53bee6835d8951c272c8838ceb9326aaf0c2ac7ec3ca852",
+          "bytes": 258,
           "cached": false
         },
         {
@@ -4133,9 +4169,51 @@
           "cached": false
         },
         {
+          "path": "skills/contentful-env-analysis/LICENSE",
+          "sha256": "a0a54c962fd6f99e9f915455a33994a8237f6653a815c2eca369307205197388",
+          "bytes": 1072,
+          "cached": false
+        },
+        {
+          "path": "skills/contentful-env-analysis/package.json",
+          "sha256": "7a7b37fdaf7c113470b12e73e0fb6144f3e7e9b48383ff2066f9ce11e0e7a865",
+          "bytes": 388,
+          "cached": false
+        },
+        {
+          "path": "skills/contentful-env-analysis/references/database.md",
+          "sha256": "73fccf10762b90518f671d260152030a1299d537420b796b5b38b9de6bf4bf1e",
+          "bytes": 3200,
+          "cached": false
+        },
+        {
+          "path": "skills/contentful-env-analysis/references/exo-domain.md",
+          "sha256": "00a54a9876aec4c5d749e60e229b0b201e60b89ae8aa3ea320286dd6f7eb296f",
+          "bytes": 1107,
+          "cached": false
+        },
+        {
+          "path": "skills/contentful-env-analysis/scripts/main.js",
+          "sha256": "6119f75bbfa2c147c0ad4949803e0ab7444489e9137687bf33b291574d41378c",
+          "bytes": 1258073,
+          "cached": true
+        },
+        {
+          "path": "skills/contentful-env-analysis/SKILL.md",
+          "sha256": "9a6218c4332ac15e7e7c3355da7ceedf092d79d1c762388ff29494848b835ad6",
+          "bytes": 6855,
+          "cached": false
+        },
+        {
+          "path": "skills/contentful-env-analysis/THIRD-PARTY-NOTICES.md",
+          "sha256": "7b6f6ed950f884dddd7be313f18a8fe274b330133844d746b3c4059a2c5d4650",
+          "bytes": 46270,
+          "cached": false
+        },
+        {
           "path": "skills/contentful-guide/package.json",
-          "sha256": "0539b7bf56f78d7fc08b39f219e01b2f3a9cfa977e3545b508c03a4dcf2cfdf6",
-          "bytes": 235,
+          "sha256": "5e66d8e94bab0761f6161dd4f441e9782ef04b218a06e9efc91d10e43d7b0a28",
+          "bytes": 234,
           "cached": false
         },
         {
@@ -4164,8 +4242,8 @@
         },
         {
           "path": "skills/contentful-migration/package.json",
-          "sha256": "d55229cd9593abaa314a046e70efde0f01cceb7a98941608b5e2c0fbcec508bd",
-          "bytes": 229,
+          "sha256": "31e45d190d772961b109df8de2aa4bb14d5c72bde56b6de4719a75585b719c21",
+          "bytes": 228,
           "cached": false
         },
         {
@@ -4194,8 +4272,8 @@
         },
         {
           "path": "skills/contentful-nextjs/package.json",
-          "sha256": "b2f4d95e9d5746d2d2bdb27fe8db4330e83324fd35311ab3b9a9402395fdf00f",
-          "bytes": 233,
+          "sha256": "ac4c87e115845dc95d4cf63b789dd88fa7cb118aa65d218605753608e1b46142",
+          "bytes": 232,
           "cached": false
         },
         {
@@ -4224,14 +4302,14 @@
         },
         {
           "path": "skills/contentful-personalization/bin/contentful-personalization.mjs",
-          "sha256": "f3007aefff16a5c7c972973b50855885788490e2381d98f56662fd5bad3f13f7",
-          "bytes": 988507,
+          "sha256": "f7c5e7df77d49a5ef6a1043155d5207a6af18634deb707d2254d595cab235590",
+          "bytes": 988592,
           "cached": false
         },
         {
           "path": "skills/contentful-personalization/package.json",
-          "sha256": "bd438f05dc281cf60a42c46b093bce1b985e2681c43ddc64d3ae10ff1d261daa",
-          "bytes": 339,
+          "sha256": "84f3d1b02e19e756a915f8744511655295f6b604ae2deed96137173a286d474b",
+          "bytes": 338,
           "cached": false
         },
         {
@@ -4398,8 +4476,8 @@
         },
         {
           "path": "skills/contentful-personalization/SKILL.md",
-          "sha256": "b8b0f3f478f38f0336fe971fe57ba5b4654f704fa3cf71be7724b3b69d7c6685",
-          "bytes": 12138,
+          "sha256": "6e5634e4532d5633f4d42cb2f2d76f209fec9342491b210b35d4297ba0dd280b",
+          "bytes": 12137,
           "cached": false
         }
       ],
@@ -4410,6 +4488,22 @@
           "declaredName": "contentful-api",
           "description": "Comprehensive Contentful REST API guide. Covers Content Management API (CMA) for creating/updating content, Content Delivery API (CDA) for fetching published content, Preview API, Images API, and GraphQL API. All examples use curl/HTTP — language-agnostic.",
           "directory": "skills/contentful-api",
+          "installable": false,
+          "policy": "reference-only",
+          "appliesTo": {
+            "dependencies": [
+              "contentful",
+              "contentful-management"
+            ]
+          },
+          "preferred": false
+        },
+        {
+          "id": "contentful-skills/contentful-env-analysis",
+          "name": "contentful-env-analysis",
+          "declaredName": "contentful-env-analysis",
+          "description": "Download a Contentful space and environment into a local read-only SQLite snapshot, inspect its content model and ExO entities, or answer data questions without starting an ExO upgrade.",
+          "directory": "skills/contentful-env-analysis",
           "installable": false,
           "policy": "reference-only",
           "appliesTo": {
@@ -4490,15 +4584,22 @@
         "cms/contentful"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-15T18:39:34.126Z"
+      "fetchedAt": "2026-10-17T06:33:49.876Z",
+      "history": [
+        {
+          "snapshot": "9100f17361fe-7a304d82206b",
+          "revision": "9100f17361fe0ed074b9ecd84aea9b210447e463"
+        }
+      ]
     },
     "optimizely-sdk": {
       "id": "optimizely-sdk",
-      "revision": "01fb2b56ee24d54a4e1b3c0580727a2d07145bde",
-      "snapshot": "01fb2b56ee24-25eb2e22ea3f",
+      "revision": "5ef6268e688b35959d84b901c0bd6e81cb3669ef",
+      "snapshot": "5ef6268e688b-7b09031e8213",
       "repository": "episerver/content-js-sdk",
-      "url": "https://codeload.github.com/episerver/content-js-sdk/tar.gz/01fb2b56ee24d54a4e1b3c0580727a2d07145bde",
+      "url": "https://codeload.github.com/episerver/content-js-sdk/tar.gz/5ef6268e688b35959d84b901c0bd6e81cb3669ef",
       "track": "default-branch",
+      "mode": "snapshot",
       "license": "Apache-2.0",
       "licenses": [
         {
@@ -4577,8 +4678,8 @@
         },
         {
           "path": "docs/guides/observability.md",
-          "sha256": "31c1459d589df9a369891a35f0ec68e8cfe06e80837fdfe311b778feb7995832",
-          "bytes": 13572,
+          "sha256": "3c21e706124df394b008ca1e231a117e36b84ac83a8a7d9cee8f4c4acecc4ec6",
+          "bytes": 15393,
           "cached": false
         },
         {
@@ -4781,8 +4882,8 @@
         },
         {
           "path": "docs/reference/config.md",
-          "sha256": "2d65be19de75a31670841adc17b1046c7418d19b83bfc3c58fc55626ae3193f1",
-          "bytes": 16733,
+          "sha256": "3e5d18653b9a24fd92a5ffb5cee27947fd03403414f1cb4d7978388dc3a85c4d",
+          "bytes": 17713,
           "cached": false
         },
         {
@@ -4823,8 +4924,8 @@
         },
         {
           "path": "docs/reference/troubleshooting.md",
-          "sha256": "3a82534e94d8a107e1f98fd26697e82ba1b31dcd4e040f1d4fb6fa958c2c3200",
-          "bytes": 14091,
+          "sha256": "c2e1df1621c575dde73b795515d6f0c21ba14bcf1717ee6bffd6cb2deeed15e0",
+          "bytes": 14653,
           "cached": false
         },
         {
@@ -4863,7 +4964,13 @@
         "cms/optimizely-saas"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-15T18:39:36.668Z"
+      "fetchedAt": "2026-10-17T06:34:04.407Z",
+      "history": [
+        {
+          "snapshot": "01fb2b56ee24-25eb2e22ea3f",
+          "revision": "01fb2b56ee24d54a4e1b3c0580727a2d07145bde"
+        }
+      ]
     },
     "nextjs-docs": {
       "id": "nextjs-docs",
@@ -4972,8 +5079,8 @@
     },
     "vercel-docs": {
       "id": "vercel-docs",
-      "revision": "97f63dace14bc561e49ad6a27e325190c2121576966a6c398eef8d94d0e6bdfb",
-      "snapshot": "97f63dace14b-6d06e9d01ac3",
+      "revision": "5fe1e6efea767fae1d0d61882415143efe03cfca88b3d0d99d2b931b45161085",
+      "snapshot": "5fe1e6efea76-d98ab814456b",
       "repository": null,
       "url": "https://vercel.com/docs/sitemap.md",
       "track": "rolling-url",
@@ -4991,14 +5098,14 @@
         },
         {
           "path": "INDEX.md",
-          "sha256": "127705c489517b3180df50deb2d3e69c68b7946165d001f8b4c8f8be79901f17",
-          "bytes": 157684,
+          "sha256": "6f750e1a91aa4df6cb0735ccd1d635d4ffd8eeca44deb008863399d1fd07a15d",
+          "bytes": 159809,
           "cached": false
         },
         {
           "path": "PAGES.json",
-          "sha256": "97f63dace14bc561e49ad6a27e325190c2121576966a6c398eef8d94d0e6bdfb",
-          "bytes": 372171,
+          "sha256": "5fe1e6efea767fae1d0d61882415143efe03cfca88b3d0d99d2b931b45161085",
+          "bytes": 377152,
           "cached": false
         }
       ],
@@ -5008,8 +5115,12 @@
         "vercel"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-16T01:29:33.359Z",
+      "fetchedAt": "2026-10-17T06:34:15.044Z",
       "history": [
+        {
+          "snapshot": "97f63dace14b-6d06e9d01ac3",
+          "revision": "97f63dace14bc561e49ad6a27e325190c2121576966a6c398eef8d94d0e6bdfb"
+        },
         {
           "snapshot": "68570b370995-58c3f1a8d205",
           "revision": "68570b370995c7925787690e76ef83871e2642f23e15969f5fc1f4f125c90b19"
