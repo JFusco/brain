@@ -14,15 +14,15 @@ No approved learnings yet.
 <!-- brain:official:start -->
 ## Official sources
 
-- **optimizely-sdk** — selected reference snapshot; default-branch; revision `01fb2b56ee24d54a4e1b3c0580727a2d07145bde`; fetched 2026-10-15.
-  - [docs/guides/agent-skills.md](../../../official/snapshots/optimizely-sdk/01fb2b56ee24-25eb2e22ea3f/docs/guides/agent-skills.md).
-  - [docs/guides/authentication.md](../../../official/snapshots/optimizely-sdk/01fb2b56ee24-25eb2e22ea3f/docs/guides/authentication.md).
-  - [docs/guides/content-types.md](../../../official/snapshots/optimizely-sdk/01fb2b56ee24-25eb2e22ea3f/docs/guides/content-types.md).
-  - [docs/guides/contracts.md](../../../official/snapshots/optimizely-sdk/01fb2b56ee24-25eb2e22ea3f/docs/guides/contracts.md).
-  - [docs/guides/dam-assets.md](../../../official/snapshots/optimizely-sdk/01fb2b56ee24-25eb2e22ea3f/docs/guides/dam-assets.md).
-  - [docs/guides/deploy-to-frontend-hosting.md](../../../official/snapshots/optimizely-sdk/01fb2b56ee24-25eb2e22ea3f/docs/guides/deploy-to-frontend-hosting.md).
-  - [docs/guides/display-templates.md](../../../official/snapshots/optimizely-sdk/01fb2b56ee24-25eb2e22ea3f/docs/guides/display-templates.md).
-  - [docs/guides/experiences.md](../../../official/snapshots/optimizely-sdk/01fb2b56ee24-25eb2e22ea3f/docs/guides/experiences.md).
+- **optimizely-sdk** — selected reference snapshot; default-branch; revision `5ef6268e688b35959d84b901c0bd6e81cb3669ef`; fetched 2026-10-17.
+  - [docs/guides/agent-skills.md](../../../official/snapshots/optimizely-sdk/5ef6268e688b-7b09031e8213/docs/guides/agent-skills.md).
+  - [docs/guides/authentication.md](../../../official/snapshots/optimizely-sdk/5ef6268e688b-7b09031e8213/docs/guides/authentication.md).
+  - [docs/guides/content-types.md](../../../official/snapshots/optimizely-sdk/5ef6268e688b-7b09031e8213/docs/guides/content-types.md).
+  - [docs/guides/contracts.md](../../../official/snapshots/optimizely-sdk/5ef6268e688b-7b09031e8213/docs/guides/contracts.md).
+  - [docs/guides/dam-assets.md](../../../official/snapshots/optimizely-sdk/5ef6268e688b-7b09031e8213/docs/guides/dam-assets.md).
+  - [docs/guides/deploy-to-frontend-hosting.md](../../../official/snapshots/optimizely-sdk/5ef6268e688b-7b09031e8213/docs/guides/deploy-to-frontend-hosting.md).
+  - [docs/guides/display-templates.md](../../../official/snapshots/optimizely-sdk/5ef6268e688b-7b09031e8213/docs/guides/display-templates.md).
+  - [docs/guides/experiences.md](../../../official/snapshots/optimizely-sdk/5ef6268e688b-7b09031e8213/docs/guides/experiences.md).
 - **optimizely-cms-saas-docs** — link catalog; page bodies not mirrored; rolling-url; revision `a3b1d31d6bce9822bcaca13e4cee0e6d5a2f147dc555aff57464dfac702036d0`; fetched 2026-10-16.
   - [ATTRIBUTION.md](../../../official/snapshots/optimizely-cms-saas-docs/a3b1d31d6bce-dea8bd39c4b2/ATTRIBUTION.md).
   - [INDEX.md](../../../official/snapshots/optimizely-cms-saas-docs/a3b1d31d6bce-dea8bd39c4b2/INDEX.md).

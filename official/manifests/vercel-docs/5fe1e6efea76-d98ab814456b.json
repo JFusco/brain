@@ -1,0 +1,40 @@
+{
+  "id": "vercel-docs",
+  "revision": "5fe1e6efea767fae1d0d61882415143efe03cfca88b3d0d99d2b931b45161085",
+  "snapshot": "5fe1e6efea76-d98ab814456b",
+  "repository": null,
+  "url": "https://vercel.com/docs/sitemap.md",
+  "track": "rolling-url",
+  "mode": "link-catalog",
+  "license": "Official documentation under upstream terms; no open license asserted",
+  "licenses": [],
+  "policySha256": "b3f3bd4b4d1e06577c1ed17adc900f754379e5e8c822c07bf37fa72a9d64dffa",
+  "catalogVersion": 3,
+  "files": [
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "29cccdccaa085422253836e31c21e85c35cef85fdcdb154cfb84bee301fb1e52",
+      "bytes": 182,
+      "cached": false
+    },
+    {
+      "path": "INDEX.md",
+      "sha256": "6f750e1a91aa4df6cb0735ccd1d635d4ffd8eeca44deb008863399d1fd07a15d",
+      "bytes": 159809,
+      "cached": false
+    },
+    {
+      "path": "PAGES.json",
+      "sha256": "5fe1e6efea767fae1d0d61882415143efe03cfca88b3d0d99d2b931b45161085",
+      "bytes": 377152,
+      "cached": false
+    }
+  ],
+  "skills": [],
+  "referenceIssues": [],
+  "domains": [
+    "vercel"
+  ],
+  "seedParity": null,
+  "fetchedAt": "2026-10-17T06:34:15.044Z"
+}

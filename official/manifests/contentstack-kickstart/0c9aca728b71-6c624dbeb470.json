@@ -248,6 +248,10 @@
   ],
   "referenceIssues": [
     {
+      "from": "skills/README.md",
+      "target": "AGENTS.md"
+    },
+    {
       "from": "skills/dev-workflow/SKILL.md",
       "target": ".github/workflows/policy-scan.yml"
     },
@@ -258,10 +262,6 @@
     {
       "from": "skills/dev-workflow/SKILL.md",
       "target": ".github/workflows/issues-jira.yml"
-    },
-    {
-      "from": "skills/README.md",
-      "target": "AGENTS.md"
     }
   ],
   "domains": [
