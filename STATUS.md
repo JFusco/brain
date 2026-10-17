@@ -9,7 +9,8 @@ Brain provides on-demand frontend/CMS knowledge lookup, selected project-skill m
 - Four unused core exports, eight unused imports, and two redundant directory placeholders were removed. Setup, maintenance, recovery tools, vendor snapshots, manifests, and the eight published notes remain available.
 - Inbox screening and deduplication record decisions privately. Retained mixed evidence remains pending; structural screening is not completed semantic curation.
 - [PR 28](https://github.com/JFusco/brain/pull/28) merged the project cleanup. The primary checkout was reconciled to merged main after verifying all local intent was already upstream and preserving the original state in a recovery stash.
-- The original 3,075 pending candidates were structurally screened: 38 individually reviewed irrelevant records were rejected and 28 verified duplicates superseded. The remaining 3,009 stay pending for semantic curation. All original bodies are preserved; cleanup accepted or published no candidates.
+- The original cleanup structurally screened 3,075 candidates, rejected 38 irrelevant records and superseded 28 verified duplicates. All original bodies remain preserved.
+- [Semantic curation](wiki/journal/2026-10-17-retained-inbox-curation.md) subsequently reviewed 117 additional candidates in full, rejected 52 more and superseded one further duplicate. Mixed or uncertain evidence stays pending; two source-verified lessons are prepared through the exact-proposal publication flow. The journal distinguishes its pre-publication count from later merge acceptance.
 
 ## Verification and operation
 
