@@ -27,6 +27,7 @@ node scripts/brain.mjs inbox resolve <candidate-id...> --as accepted --pr <merge
 node scripts/brain.mjs inbox propose --file <registry-change.json>
 node scripts/brain.mjs inbox apply <proposal-id> --approved-sha256 <digest>
 node scripts/brain.mjs curation stale [--limit 12]
+node scripts/brain.mjs curation hubs
 node scripts/brain.mjs links check [--source <id>] [--limit 24] [--retry-failures]
 node scripts/brain.mjs links status
 node scripts/brain.mjs maintenance status
@@ -72,6 +73,7 @@ try {
     }
     if(command==='curation'){
       if(subcommand==='stale')return staleGuidance({limit:flags.limit??12,write:true});
+      if(subcommand==='hubs')return {changed:official.generateHubs()};
     }
     if(command==='links'){
       if(subcommand==='check')return checkLinks({source:flags.source,limit:flags.limit??24,retryFailures:!!flags['retry-failures']});

@@ -8,7 +8,7 @@ aliases: ["sitecore-ai"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No approved learnings yet.
+No curated notes yet.
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

@@ -6,7 +6,7 @@ import {api,download,markdownResponse} from './network.mjs';
 import {archive} from './archive.mjs';
 import {assertClean} from './privacy.mjs';
 import {fetchDocumentationCatalog} from './documentation.mjs';
-import {staleGuidance} from './guidance.mjs';
+import {staleGuidance,publishedGuidance,curatedBlock,CURATED} from './guidance.mjs';
 const require=createRequire(import.meta.url);
 const {splitFrontmatter,scalar}=require('../wiki/lib/frontmatter.cjs');
 
@@ -210,18 +210,16 @@ export function officialSections() {
   return sections;
 }
 export function generateHubs() {
+  const pages=publishedGuidance(),changed=[];
   for(const [domain,section] of Object.entries(officialSections())) {
     const file=at(`knowledge/${domain}/INDEX.md`);const text=fs.readFileSync(file,'utf8');
     if(!text.includes('<!-- brain:official:start -->')||!text.includes('<!-- brain:official:end -->'))throw new Error('Domain hub is missing managed markers');
     let result=text.replace(/<!-- brain:official:start -->[\s\S]*?<!-- brain:official:end -->/,`<!-- brain:official:start -->\n${section}<!-- brain:official:end -->`);
-    if(result.includes('<!-- brain:curated:start -->')){
-      const approvals=readJSON(at('knowledge/approvals.json'),{pages:{}}),pages=[];
-      for(const [relative,approval]of Object.entries(approvals.pages)){if(!relative.startsWith(`knowledge/${domain}/`)||relative.endsWith('/INDEX.md'))continue;const page=at(relative);if(!fs.existsSync(page)||sha(fs.readFileSync(page))!==approval.sha256)continue;const parsed=splitFrontmatter(fs.readFileSync(page,'utf8'));if(['superseded','retired'].includes(scalar(parsed.raw,'status')))continue;const title=scalar(parsed.raw,'title');const href=path.relative(path.dirname(file),page).split(path.sep).join('/');pages.push(`- [${title.replace(/[\[\]]/g,'')}](${href})`);}
-      result=result.replace(/<!-- brain:curated:start -->[\s\S]*?<!-- brain:curated:end -->/,`<!-- brain:curated:start -->\n${pages.length?pages.sort().join('\n'):'No approved learnings yet.'}\n<!-- brain:curated:end -->`);
-    }
-    if(result!==text)atomic(file,result);
+    if(CURATED.test(result))result=result.replace(CURATED,curatedBlock(domain,pages));
+    if(result!==text){atomic(file,result);changed.push(`knowledge/${domain}/INDEX.md`);}
   }
   staleGuidance({limit:100,write:true});
+  return changed;
 }
 export function updateIgnores() {
   const file=at('.gitignore'),text=fs.readFileSync(file,'utf8'),base=text.replace(/\n# brain:large:start[\s\S]*?# brain:large:end\n?/,'\n').trimEnd();
