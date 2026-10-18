@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "w3c-accessibility",
-  "revision": "58eb25958e090c92fcb3f711c00976f682e8e90f20ef084e634dc95b4a2db0fb",
+  "revision": "c2c7fa790e32156b38b445e98c5dbe7b96dccda9030b876ca7100d2c0874d6c8",
   "origin": "https://www.w3.org/WAI/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -655,6 +655,16 @@
       "title": "How to Meet WCAG 2.2 (Quick Reference)",
       "url": "https://www.w3.org/WAI/WCAG22/quickref/",
       "fetchUrl": "https://www.w3.org/WAI/WCAG22/quickref/"
+    },
+    {
+      "title": "Techniques for WCAG 2.2",
+      "url": "https://www.w3.org/WAI/WCAG22/Techniques/",
+      "fetchUrl": "https://www.w3.org/WAI/WCAG22/Techniques/"
+    },
+    {
+      "title": "Understanding WCAG 2.2",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/",
+      "fetchUrl": "https://www.w3.org/WAI/WCAG22/Understanding/"
     }
   ],
   "referenceIssues": []
