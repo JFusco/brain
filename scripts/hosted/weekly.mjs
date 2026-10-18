@@ -28,17 +28,14 @@ function restorePrevious(){
   if(fs.existsSync(runs)){const saved=bounded(runs),kept={};for(const spec of registry().sources){const run=saved[spec.id];if(!run||typeof run!=='object')continue;kept[spec.id]={};for(const key of ['lastAttempt','lastSuccess','failures','nextAttemptAt','error'])if(Object.hasOwn(run,key))kept[spec.id][key]=run[key];}writeJSON(at('.state/official-runs.json'),kept,0o600);}
 }
 const short=value=>value?`\`${value.slice(0,12)}\``:'none';
-function body({changes,notes,failures,warnings,issues},{fingerprint,links,runs}){
+const driftLine=c=>`\`${c.id}\`: ${c.to===null?'source no longer registered':c.from===null?`new catalog at ${short(c.to)}`:c.from===c.to?'catalog metadata changed':`${short(c.from)} → ${short(c.to)}`}`;
+function body({notes,failures,warnings,issues},{fingerprint,links,runs,drift}){
   const list=(items,line)=>items.length?items.map(line).join('\n'):'None.';
   const shown=warnings.slice(0,50);
   return `${marker}
 ## Summary
 
-${changes.length} catalog changes, ${notes.length} notes citing changed sources, ${failures.length} source refresh failures, ${warnings.length} link warnings and ${issues.length} check failures. Last updated by [run ${runId}](${runURL}).
-
-## Catalog changes
-
-${list(changes,c=>`- \`${c.id}\`: ${c.to===null?'source no longer registered':c.from===null?`new catalog at ${short(c.to)}`:c.from===c.to?'catalog metadata changed':`${short(c.from)} → ${short(c.to)}`}`)}
+${notes.length} notes citing changed sources, ${failures.length} source refresh failures, ${warnings.length} link warnings and ${issues.length} check failures. ${drift.length} catalog${drift.length===1?'':'s'} also drifted upstream, which is routine and never opens this issue. Last updated by [run ${runId}](${runURL}).
 
 ## Notes citing changed sources
 
@@ -58,9 +55,14 @@ ${list(shown,w=>`- \`${w.source}\`: ${w.state} (${w.status?`HTTP ${w.status}`:'n
 
 ${list(issues,i=>`- ${i}`)}
 
+## Routine catalog drift
+
+Informational, as of this update; drift alone never opens this issue. The weekly catalog-refresh PR picks it up.
+
+${list(drift,c=>`- ${driftLine(c)}`)}
+
 ## Expected Outcome
 
-- **Catalog changes:** on an issue branch, run \`node scripts/brain.mjs official sync\` and \`check\`, then open a catalog-refresh PR with only the catalogs, the lock and regenerated hubs. It merges once checks pass.
 - **Notes citing changed sources:** re-verify each claim against the current official page and update it through a knowledge PR. Never change only a hash or date.
 - **Failures and link warnings:** fix registry routing through an ordinary issue-linked PR, which stops for review. A redirect or changed hash is not evidence that a claim is correct.
 
@@ -70,12 +72,13 @@ Fingerprint: ${fingerprint}. The issue is rewritten only when its findings chang
 `;
 }
 function deliver(findings,context){
+  // Only findings that need a person open or rewrite the issue; routine catalog drift does not.
   const open=ghJSON('issue','list','--repo',repository,'--state','open','--label','documentation','--search',`"${title}" in:title`,'--json','number,body,title').filter(i=>i.body.includes(marker));
   if(open.length>1)throw new Error('Ambiguous weekly reference health issues');
   const [current]=open,empty=Object.values(findings).every(list=>!list.length);
   if(empty){
     if(!current)return {outcome:'no findings',issue:null};
-    gh('issue','close',String(current.number),'--repo',repository,'--reason','completed','--comment',`No findings in [run ${runId}](${runURL}).`);
+    gh('issue','close',String(current.number),'--repo',repository,'--reason','completed','--comment',`No findings in [run ${runId}](${runURL}).${context.drift.length?` Routine catalog drift: ${context.drift.map(c=>c.id).join(', ')}.`:''}`);
     if(ghJSON('issue','view',String(current.number),'--repo',repository,'--json','state').state!=='CLOSED')throw new Error('Weekly issue did not close');
     return {outcome:'closed',issue:current.number};
   }
@@ -95,10 +98,10 @@ const report=await withLock(async()=>{
   const state=readJSON(at('.state/link-health.json'),{links:{}});
   const warnings=Object.values(state.links).filter(r=>r.active!==false&&!['healthy','redirected'].includes(r.state)).map(r=>({source:r.source,url:r.url,state:r.state,status:r.status??null})).sort((a,b)=>a.source.localeCompare(b.source)||a.url.localeCompare(b.url));
   let issues;try{issues=check().issues;}catch(error){issues=[error.message];}
-  const findings={changes:refresh.changed,notes,failures:refresh.failed.map(f=>({source:f.id,reason:f.error})),warnings,issues};
+  const findings={notes,failures:refresh.failed.map(f=>({source:f.id,reason:f.error})),warnings,issues};
   const fingerprint=sha(JSON.stringify(findings));
-  const delivery=deliver(findings,{fingerprint,links:{checked:links.checked+pointers.checked,poolSize:links.poolSize},runs:readJSON(at('.state/official-runs.json'),{})});
-  return {refresh:{changed:refresh.changed.length,unchanged:refresh.unchanged.length,failed:refresh.failed.length},notes:notes.length,links:{checked:links.checked+pointers.checked,poolSize:links.poolSize,warnings:warnings.length},checkIssues:issues.length,...delivery};
+  const delivery=deliver(findings,{fingerprint,drift:refresh.changed,links:{checked:links.checked+pointers.checked,poolSize:links.poolSize},runs:readJSON(at('.state/official-runs.json'),{})});
+  return {refresh:{changed:refresh.changed.length,unchanged:refresh.unchanged.length,failed:refresh.failed.length},drift:refresh.changed.map(driftLine),notes:notes.length,links:{checked:links.checked+pointers.checked,poolSize:links.poolSize,warnings:warnings.length},checkIssues:issues.length,...delivery};
 });
-if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`## Brain weekly reference health\n\n- Catalogs: ${report.refresh.changed} changed, ${report.refresh.unchanged} unchanged, ${report.refresh.failed} failed (working tree only; nothing committed).\n- Notes citing changed sources: ${report.notes}.\n- Links: ${report.links.checked} checked of ${report.links.poolSize}; ${report.links.warnings} active warnings.\n- Check failures: ${report.checkIssues}.\n- Issue: ${report.outcome}${report.issue?` (#${report.issue})`:''}.\n`);
+if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`## Brain weekly reference health\n\n- Catalogs: ${report.refresh.changed} changed, ${report.refresh.unchanged} unchanged, ${report.refresh.failed} failed (working tree only; nothing committed).${report.drift.map(line=>`\n  - ${line}`).join('')}\n- Notes citing changed sources: ${report.notes}.\n- Links: ${report.links.checked} checked of ${report.links.poolSize}; ${report.links.warnings} active warnings.\n- Check failures: ${report.checkIssues}.\n- Issue: ${report.outcome}${report.issue?` (#${report.issue})`:''}.\n`);
 console.log(JSON.stringify(report,null,2));
