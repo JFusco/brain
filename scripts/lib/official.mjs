@@ -165,7 +165,6 @@ export async function sync({seed=false,ids=null,dueOnly=false}={}) {
       else {
         assertClean([...result.files].filter(([name])=>/\.(?:md|mdx|txt|json|ya?ml|[cm]?[jt]sx?)$/i.test(name)).map(([name,bytes])=>({id:name,bytes})),{clients:false,exceptions:spec.scanExceptions||[]});
         result.entry.fetchedAt=now();publish(result.entry,result.files);
-        if(previous){result.entry.history=[{snapshot:previous.snapshot,revision:previous.revision},...(previous.history||[])].filter((x,i,a)=>a.findIndex(y=>y.snapshot===x.snapshot)===i).slice(0,2);}
         current.sources[spec.id]=result.entry;
         changed.push({id:spec.id,from:previous?.revision||null,to:result.entry.revision,added:result.entry.files.filter(f=>!previous?.files.some(p=>p.path===f.path)).length,removed:previous?.files.filter(f=>!result.entry.files.some(p=>p.path===f.path)).length||0,modified:result.entry.files.filter(f=>previous?.files.some(p=>p.path===f.path&&p.sha256!==f.sha256)).length});
         writeJSON(at('official/sources.lock.json'),current);
@@ -231,7 +230,7 @@ export function updateIgnores() {
 }
 function pruneSnapshots() {
   const active=lock(),retained=new Set();
-  for(const entry of Object.values(active.sources)){retained.add(`${entry.id}/${entry.snapshot}`);for(const old of entry.history||[])retained.add(`${entry.id}/${old.snapshot}`);}
+  for(const entry of Object.values(active.sources))retained.add(`${entry.id}/${entry.snapshot}`);
   const referenceText=[...walk(at('knowledge'),{file:f=>f.endsWith('.md')}),...walk(at('.state/proposals'),{file:f=>f.endsWith('.json')})].map(f=>fs.readFileSync(f,'utf8')).join('\n');
   for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){
     const entry=json(file),key=`${entry.id}/${entry.snapshot}`;
@@ -242,13 +241,6 @@ function pruneSnapshots() {
   const used=new Set();
   for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')}))for(const record of json(file).files)used.add(record.sha256);
   if(fs.existsSync(at('.state/objects')))for(const digest of fs.readdirSync(at('.state/objects')))if(/^[0-9a-f]{64}$/.test(digest)&&!used.has(digest))fs.rmSync(at('.state/objects/'+digest));
-}
-export function rollback(id) {
-  const current=lock(),entry=current.sources[id];if(!entry?.history?.length)throw new Error('No retained earlier snapshot');
-  snapshotFiles(entry);const previous=readJSON(at(`official/manifests/${id}/${entry.history[0].snapshot}.json`),null);if(!previous)throw new Error('Previous snapshot manifest unavailable');
-  if(previous.policySha256!==entry.policySha256)throw new Error('Rollback refused: previous snapshot uses a different registry policy; active snapshot retained');
-  snapshotFiles(previous);previous.history=[{snapshot:entry.snapshot,revision:entry.revision},...(previous.history||[])].slice(0,2);current.sources[id]=previous;writeJSON(at('official/sources.lock.json'),current);generateHubs();updateIgnores();log('official-rollback',{id});
-  return {id,revision:previous.revision};
 }
 export async function restore(id) {
   const entry=lock().sources[id],spec=registry().sources.find(s=>s.id===id);if(!entry||!spec)throw new Error('Unknown active source');

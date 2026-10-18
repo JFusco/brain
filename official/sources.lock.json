@@ -272,12 +272,6 @@
       ],
       "seedParity": null,
       "fetchedAt": "2026-10-15T18:08:20.527Z",
-      "history": [
-        {
-          "snapshot": "00ad45da90b7-ba3b2a2bcda2",
-          "revision": "00ad45da90b7986c3b9094d86abd90a5082097cc"
-        }
-      ],
       "catalogVersion": 3
     },
     "sitecore-content-sdk": {
@@ -783,17 +777,7 @@
         "cms/sitecore-ai"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-17T06:33:04.822Z",
-      "history": [
-        {
-          "snapshot": "e51294172719-955b269af9fc",
-          "revision": "e51294172719bbc0a2a71245539cf3d3bd872a1e"
-        },
-        {
-          "snapshot": "890ce57efbda-da04410d87c9",
-          "revision": "890ce57efbda2526eb3e1be6bcee9746681b5d99"
-        }
-      ]
+      "fetchedAt": "2026-10-17T06:33:04.822Z"
     },
     "vercel-agent-skills": {
       "id": "vercel-agent-skills",
@@ -3880,17 +3864,7 @@
         "vercel"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-17T06:33:24.754Z",
-      "history": [
-        {
-          "snapshot": "045b17eea6df-51348587fb1d",
-          "revision": "045b17eea6dfe6f9ec4b8c1a49f453d11491684f"
-        },
-        {
-          "snapshot": "d874dac94438-8db6a16f9bc5",
-          "revision": "d874dac94438ac4b8c788e8c2b90a6abbce197a6"
-        }
-      ]
+      "fetchedAt": "2026-10-17T06:33:24.754Z"
     },
     "nextjs-index": {
       "id": "nextjs-index",
@@ -3928,13 +3902,7 @@
         "nextjs"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-16T00:50:42.885Z",
-      "history": [
-        {
-          "snapshot": "7042244d22b5-76f4b96aef1d",
-          "revision": "7042244d22b56c78439c67e051a322db82720c09706bc77b44dc6f619df8300d"
-        }
-      ]
+      "fetchedAt": "2026-10-16T00:50:42.885Z"
     },
     "react-index": {
       "id": "react-index",
@@ -4584,17 +4552,7 @@
         "cms/contentful"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-18T06:32:41.246Z",
-      "history": [
-        {
-          "snapshot": "27a5172887a9-1427297e432f",
-          "revision": "27a5172887a9d32c1753e28369c8bd4e3c140d19"
-        },
-        {
-          "snapshot": "9100f17361fe-7a304d82206b",
-          "revision": "9100f17361fe0ed074b9ecd84aea9b210447e463"
-        }
-      ]
+      "fetchedAt": "2026-10-18T06:32:41.246Z"
     },
     "optimizely-sdk": {
       "id": "optimizely-sdk",
@@ -4968,13 +4926,7 @@
         "cms/optimizely-saas"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-17T06:34:04.407Z",
-      "history": [
-        {
-          "snapshot": "01fb2b56ee24-25eb2e22ea3f",
-          "revision": "01fb2b56ee24d54a4e1b3c0580727a2d07145bde"
-        }
-      ]
+      "fetchedAt": "2026-10-17T06:34:04.407Z"
     },
     "react-docs": {
       "id": "react-docs",
@@ -5025,17 +4977,7 @@
         "react"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-16T01:29:37.529Z",
-      "history": [
-        {
-          "snapshot": "046f17d04295-69ad4b0ef87f",
-          "revision": "046f17d04295ba047bb5739026b4ac3110f17028"
-        },
-        {
-          "snapshot": "046f17d04295-c3dfb7a069ed",
-          "revision": "046f17d04295ba047bb5739026b4ac3110f17028"
-        }
-      ]
+      "fetchedAt": "2026-10-16T01:29:37.529Z"
     },
     "vercel-docs": {
       "id": "vercel-docs",
@@ -5075,17 +5017,7 @@
         "vercel"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-17T06:34:15.044Z",
-      "history": [
-        {
-          "snapshot": "97f63dace14b-6d06e9d01ac3",
-          "revision": "97f63dace14bc561e49ad6a27e325190c2121576966a6c398eef8d94d0e6bdfb"
-        },
-        {
-          "snapshot": "68570b370995-58c3f1a8d205",
-          "revision": "68570b370995c7925787690e76ef83871e2642f23e15969f5fc1f4f125c90b19"
-        }
-      ]
+      "fetchedAt": "2026-10-17T06:34:15.044Z"
     },
     "contentstack-docs": {
       "id": "contentstack-docs",
@@ -5125,17 +5057,7 @@
         "cms/contentstack"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-18T06:32:53.753Z",
-      "history": [
-        {
-          "snapshot": "1c380c3b5dd2-e863a028b99c",
-          "revision": "1c380c3b5dd201ae8b6ff7ac72a9365307757dac8d876fcfb0e84cf3b20a596f"
-        },
-        {
-          "snapshot": "e7518b89c9b6-8bc13c628478",
-          "revision": "e7518b89c9b6ed798a8b5a898258a51b90bb6bda3e5feb00d1f1a79a60213a03"
-        }
-      ]
+      "fetchedAt": "2026-10-18T06:32:53.753Z"
     },
     "tailwind-docs": {
       "id": "tailwind-docs",
@@ -5186,13 +5108,7 @@
         "tailwind"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-16T01:29:39.340Z",
-      "history": [
-        {
-          "snapshot": "7f92c2213315-72309e56949a",
-          "revision": "7f92c2213315c195dae583d68752da4042da3ade"
-        }
-      ]
+      "fetchedAt": "2026-10-16T01:29:39.340Z"
     },
     "optimizely-cms-saas-docs": {
       "id": "optimizely-cms-saas-docs",
