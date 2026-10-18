@@ -7,6 +7,7 @@ import {policyHash,assertClean} from './privacy.mjs';
 import {list,show} from './inbox.mjs';
 import {refreshSummary} from './harvest.mjs';
 import {api} from './network.mjs';
+import {comparisonCatalog,validateDeduplication} from './deduplication.mjs';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
 const {scalar,splitFrontmatter}=require('../wiki/lib/frontmatter.cjs');
@@ -21,6 +22,7 @@ function proposal(id) {
   const value=json(at(`.state/proposals/${id}.json`));
   const payload={schemaVersion:value.schemaVersion,changes:value.changes,candidates:value.candidates,policy:value.policy};
   if(Object.hasOwn(value,'acceptCandidates'))payload.acceptCandidates=value.acceptCandidates;
+  if(Object.hasOwn(value,'deduplication'))payload.deduplication=value.deduplication;
   if(sha(JSON.stringify(payload))!==value.digest)throw new Error('Proposal bytes changed');
   if(value.policy!==policyHash())throw new Error('Proposal requires rescan under the current privacy policy');
   if(value.changes.some(change=>!/^knowledge\/.+\.md$/.test(change.path)))throw new Error('Curation export supports knowledge pages only');
@@ -37,9 +39,16 @@ export function exportProposal(id,directory) {
   if(!/^codex\/\d+-[a-z0-9-]+$/.test(git(['branch','--show-current'],target)))throw new Error('Use an issue-linked codex branch');
   if(git(['status','--porcelain'],target))throw new Error('Curation export requires a clean worktree');
   const value=proposal(id),writes=new Map();
+  validateDeduplication(value.changes,value.deduplication);
   for(const change of value.changes){safePath(change.path);const file=path.join(target,change.path);noSymlinks(target,file);const actual=fs.existsSync(file)?sha(fs.readFileSync(file)):null;if(actual!==change.beforeSha256)throw new Error('Proposal destination changed; prepare a fresh proposal');writes.set(change.path,change.text);}
   const approvalsPath=path.join(target,'knowledge/approvals.json');noSymlinks(target,approvalsPath);
   const approvals=readJSON(approvalsPath,{schemaVersion:1,pages:{}});
+  if(value.deduplication){
+    const expected=comparisonCatalog().catalog.map(page=>[page.path,page.sha256]);
+    const actual=Object.entries(approvals.pages).sort(([a],[b])=>a.localeCompare(b)).map(([name,record])=>[name,record.sha256]);
+    if(JSON.stringify(expected)!==JSON.stringify(actual))throw new Error('Worktree guidance catalog changed; repeat duplicate review against the current publication base');
+    for(const [name,digest]of actual){safePath(name);const file=path.join(target,name);noSymlinks(target,file);if(sha(fs.readFileSync(file))!==digest)throw new Error('Worktree guidance differs from its publication record');}
+  }
   for(const change of value.changes)if(!change.path.endsWith('/INDEX.md'))approvals.pages[change.path]={sha256:sha(change.text),proposal:id,digest:value.digest,method:'automatic-curation-pr',preparedAt:now()};
   const config=json(path.join(target,'brain.config.json'));
   for(const domain of config.domains){

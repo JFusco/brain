@@ -41,6 +41,8 @@ node scripts/brain.mjs capture --stdin
 
 Automatic collection reads project topic notes and authored skills. It excludes raw memory stores, indexes, repository instructions, and implementation journals; explicit lesson capture remains available. Domain keywords route candidates but do not establish relevance. Exclusion counts appear in harvest reports.
 
+Collection remembers each source's device/inode, size, nanosecond modification and change times, mode, privacy policy, and collection version in private `.state/harvest.json`. An unchanged metadata record skips opening the source body. New, changed, replaced, or invalidated sources are read and hashed; metadata-only changes with identical bytes refresh the stamp without recreating candidates. Reads check identity before and after to avoid checkpointing a file that changes mid-read. Discovery still enumerates eligible paths; this is not a filesystem watcher. The first run after this upgrade reads eligible files once to seed stamps. `harvest --rehash` bypasses the metadata shortcut for an explicit content audit. Reports separate `metadataSkipped`, `contentReads`, and `bytesRead`. This local optimization does not defend against privileged filesystem/private-state tampering.
+
 `harvest --dry-run` computes a report without writing candidates or harvest state. It still requires the secret scanner. Reports contain counts and opaque IDs; private provenance stays in `.state/`. See [implementation status](STATUS.md) for current local verification and [maintenance history](wiki/topics/automatic-knowledge-maintenance.md) for dated evidence.
 
 ## Capture lessons from working chats
@@ -99,6 +101,17 @@ Store proposal input in an ignored file, for example `.state/proposal-input.json
 {
   "candidates": ["candidate-id"],
   "acceptCandidates": [],
+  "deduplication": {
+    "catalogSha256": "Hash returned by inbox compare",
+    "decisions": [
+      {
+        "path": "knowledge/nextjs/example.md",
+        "action": "create",
+        "reason": "The concrete decision absent from existing guidance, with version and applicability differences.",
+        "compared": []
+      }
+    ]
+  },
   "changes": [
     {
       "path": "knowledge/nextjs/example.md",
@@ -109,8 +122,12 @@ Store proposal input in an ignored file, for example `.state/proposal-input.json
 ```
 
 ```sh
+node scripts/brain.mjs inbox compare candidate-id
+node scripts/brain.mjs inbox compare --file .state/proposal-input.json
 node scripts/brain.mjs inbox propose --file .state/proposal-input.json
 ```
+
+Comparison returns the complete compact catalog (including historical note status), its digest, and up to six ranked excerpts. The scheduled curator compares meaning across the catalog, reads relevant full pages, and checks proposed pages against each other. Shared-word ranking helps retrieval but cannot establish semantic equivalence. Prefer updating an existing page when the lesson is the same; a genuinely distinct version, decision, or applicability can justify a separate page. `compared` must account for the top three matches for each proposed note and the existing destination on updates. Each entry has `path`, exact `sha256`, `relationship` (`distinct` or `same-lesson`), and a concrete `reason`; `same-lesson` requires using that page as the destination. An empty comparison list is valid only when no ranked matches or existing destination exist. Duplicate-review decisions become part of the immutable proposal digest. Historical proposal digests remain verifiable for merge reconciliation; an unreviewed legacy proposal needs a fresh reviewed proposal before a new apply/export. Changed catalogs invalidate new reviews before application/export, and export checks the isolated worktree's catalog too. Exact duplicate bodies with the same declared domain, package constraints and applicability are refused; different scopes still require semantic review. No heuristic automatically discards paraphrases, resolves candidates, or sends private text to an external similarity service. This enforces recorded agent review, not a proof that every paraphrase will be detected. Catalog output fails explicitly above 256 KiB instead of silently omitting pages.
 
 The command writes a private exact-text proposal, destination hashes, cited candidate hashes, and digest. `acceptCandidates` lists only fully reviewed candidates; an empty array lets a proposal cite evidence without accepting its remaining material. Omitting the field retains the legacy behavior of accepting all cited candidates.
 
