@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
 import {args,json,withLock,log} from './lib/core.mjs';
-import {harvest,capture} from './lib/harvest.mjs';
+import {capture} from './lib/capture.mjs';
 import * as inbox from './lib/inbox.mjs';
 import * as official from './lib/official.mjs';
 import * as skills from './lib/skills.mjs';
@@ -16,12 +16,12 @@ import {cleanExcerptCache} from './lib/cache.mjs';
 
 const help=`Personal brain — explicit, local knowledge and approved vendor sources
 
-node scripts/brain.mjs harvest [--dry-run] [--rehash]
 node scripts/brain.mjs lookup --query <terms> [--domain nextjs] [--limit 5] [--fetch] [--project <path> --workspace <relative-app>] [--versions next@16,react@19]
 node scripts/brain.mjs capture --stdin [--domain tailwind]
 node scripts/brain.mjs integration status|install|remove|recover --project <path> [--yes] [--dry-run]
-node scripts/brain.mjs inbox list [--domain nextjs] [--all]
+node scripts/brain.mjs inbox list [--domain nextjs] [--all] [--backlog]
 node scripts/brain.mjs inbox show <candidate-id>
+node scripts/brain.mjs inbox rescan [<candidate-id...>]
 node scripts/brain.mjs inbox resolve <candidate-id...> --as rejected|superseded
 node scripts/brain.mjs inbox resolve <candidate-id...> --as accepted --pr <merged-number>
 node scripts/brain.mjs inbox propose --file <registry-change.json>
@@ -53,20 +53,20 @@ Tests and dedicated QA are deferred for v1.
 
 try {
   const {positional,flags}=args(process.argv.slice(2)),[command,subcommand,...rest]=positional;
-  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],harvest:['dry-run','rehash'],capture:['stdin','domain'],integration:['project','yes','dry-run'],inbox:['domain','all','file','approved-sha256','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],official:['seed'],skills:['project','workspace','recommended','yes','dry-run','copy'],check:['staged'],'scheduled-run':[]};
+  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],capture:['stdin','domain'],integration:['project','yes','dry-run'],inbox:['domain','all','backlog','file','approved-sha256','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],official:['seed'],skills:['project','workspace','recommended','yes','dry-run','copy'],check:['staged'],'scheduled-run':[]};
   if(!command||command==='help'||flags.help){console.log(help);process.exit(0);}
   if(!Object.hasOwn(allowed,command))throw new Error('Unknown command. Use --help.');
   for(const key of Object.keys(flags))if(!allowed[command].includes(key))throw new Error(`Unsupported option --${key} for ${command}`);
-  const mutating=command==='lookup'&&flags.fetch||command==='curation'||command==='scheduled-run'||command==='capture'||command==='integration'&&subcommand!=='status'&&flags.yes&&!flags['dry-run']||command==='harvest'&&!flags['dry-run']||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='run'&&!flags['dry-run']||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['propose','apply','resolve'].includes(subcommand)||command==='official'&&['sync','rollback','restore','recatalog'].includes(subcommand)||command==='skills'&&subcommand!=='suggest'&&flags.yes&&!flags['dry-run'];
+  const mutating=command==='lookup'&&flags.fetch||command==='curation'||command==='scheduled-run'||command==='capture'||command==='integration'&&subcommand!=='status'&&flags.yes&&!flags['dry-run']||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='run'&&!flags['dry-run']||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['propose','apply','resolve','rescan'].includes(subcommand)||command==='official'&&['sync','rollback','restore','recatalog'].includes(subcommand)||command==='skills'&&subcommand!=='suggest'&&flags.yes&&!flags['dry-run'];
   async function execute() {
     if(mutating)inbox.recoverProposal();
     if(command==='lookup')return lookup({query:flags.query,domain:flags.domain,limit:flags.limit??5,fetch:!!flags.fetch,project:flags.project,workspace:flags.workspace,versions:flags.versions});
-    if(command==='harvest')return harvest({dryRun:!!flags['dry-run'],rehash:!!flags.rehash});
     if(command==='capture'){if(!flags.stdin)throw new Error('Use capture --stdin');return capture(fs.readFileSync(0,'utf8'),{domain:flags.domain});}
     if(command==='integration')return integration(subcommand,flags.project,{yes:!!flags.yes,dryRun:!!flags['dry-run']});
     if(command==='inbox'){
-      if(subcommand==='list')return inbox.list({domain:flags.domain,all:!!flags.all});
+      if(subcommand==='list')return inbox.list({domain:flags.domain,all:!!flags.all,backlog:!!flags.backlog});
       if(subcommand==='show')return inbox.show(rest[0]);
+      if(subcommand==='rescan')return inbox.rescan(rest);
       if(subcommand==='propose'){if(!flags.file)throw new Error('--file is required');return inbox.propose(json(flags.file));}
       if(subcommand==='apply')return inbox.apply(rest[0],flags['approved-sha256']);
       if(subcommand==='resolve'){if(!rest.length)throw new Error('Candidate IDs are required');return inbox.resolve(rest,flags.as,{pr:flags.pr});}

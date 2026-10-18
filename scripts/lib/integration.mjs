@@ -87,7 +87,7 @@ export function integration(action,input,{yes=false,dryRun=false}={}) {
     noSymlinks(root,path.join(root,'AGENTS.override.md'));
     if(fs.existsSync(path.join(root,'AGENTS.override.md'))&&fs.statSync(path.join(root,'AGENTS.override.md')).size)throw new Error('AGENTS.override.md shadows the adapter; reconcile project instructions before enrollment');
     const desired=payload();assertClean([...desired].map(([id,value])=>({id,bytes:Buffer.from(value)})));
-    desired.set(`${privateDir}/config.json`,jsonText({schemaVersion:1,cli:at('scripts/brain.mjs'),node:process.execPath,maxBytes:config().harvest.candidateBytes,domains:config().domains}));
+    desired.set(`${privateDir}/config.json`,jsonText({schemaVersion:1,cli:at('scripts/brain.mjs'),node:process.execPath,maxBytes:config().capture.candidateBytes,domains:config().domains}));
     for(const [name,wanted]of desired){
       const current=text(root,name),owned=records[name];
       if(isBlock(name)){

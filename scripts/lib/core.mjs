@@ -57,7 +57,7 @@ export function config() {
 }
 export function args(argv) {
   const positional=[], flags={};
-  const bool=new Set(['yes','dry-run','recommended','copy','staged','stdin','seed','force','json','help','all','fetch','retry-failures','rehash']);
+  const bool=new Set(['yes','dry-run','recommended','copy','staged','stdin','seed','force','json','help','all','backlog','fetch','retry-failures']);
   for(let i=0;i<argv.length;i++) {
     if(!argv[i].startsWith('--')){positional.push(argv[i]);continue;}
     const [key,inline]=argv[i].slice(2).split(/=(.*)/s);

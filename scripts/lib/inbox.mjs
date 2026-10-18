@@ -3,21 +3,42 @@ import path from 'node:path';
 import os from 'node:os';
 import {spawnSync} from 'node:child_process';
 import {at,ROOT,readJSON,json,writeJSON,atomic,sha,now,safePath,noSymlinks,config} from './core.mjs';
-import {assertClean,policyHash} from './privacy.mjs';
-import {refreshSummary} from './harvest.mjs';
+import {assertClean,policyHash,scan,scanner,clientHits} from './privacy.mjs';
+import {refreshSummary} from './capture.mjs';
 import {generateHubs,updateIgnores,lock,registry,fingerprint} from './official.mjs';
 import {check} from './check.mjs';
 import {mergedBrainPR} from './maintenance.mjs';
 
 const index=()=>readJSON(at('.state/harvest.json'),{schemaVersion:1,sources:{},candidates:{}});
 const proposalFile=id=>{if(!/^[0-9a-f]{24}$/.test(id))throw new Error('Invalid proposal ID');return at(`.state/proposals/${id}.json`);};
-function candidate(state,id){const c=state.candidates[id];if(!c)throw new Error('Unknown candidate ID');if(c.policy!==policyHash())throw new Error('Candidate needs rescan under current privacy policy');if(sha(fs.readFileSync(at(c.file)))!==c.fileSha256)throw new Error('Candidate content changed; refusing stale approval');return c;}
-export function list({domain,all=false}={}) {
-  return Object.values(index().candidates).filter(c=>!c.disposition&&(!domain||c.domain===domain)&&(all||c.status==='pending')).map(c=>({id:c.id,domain:c.domain,class:c.class,status:c.status,bytes:fs.statSync(at(c.file)).size}));
+function candidate(state,id){const c=state.candidates[id];if(!c)throw new Error('Unknown candidate ID');if(c.policy!==policyHash())throw new Error('Candidate was scanned under an older privacy policy; run inbox rescan');if(sha(fs.readFileSync(at(c.file)))!==c.fileSha256)throw new Error('Candidate content changed; refusing stale approval');return c;}
+// Captures are the review queue; the historical harvested backlog is listed only on request.
+export function list({domain,all=false,backlog=false}={}) {
+  return Object.values(index().candidates).filter(c=>!c.disposition&&(backlog||c.class==='capture')&&(!domain||c.domain===domain)&&(all||c.status==='pending')).map(c=>({id:c.id,domain:c.domain,class:c.class,status:c.status,bytes:fs.statSync(at(c.file)).size}));
 }
 export function show(id) {
   const c=candidate(index(),id);if(c.status==='quarantined')throw new Error('Candidate is quarantined. Inspect private provenance locally; do not load raw content into a review session.');
-  const bytes=fs.readFileSync(at(c.file));if(bytes.length>config().harvest.candidateBytes+2048)throw new Error('Candidate exceeds review byte cap');return bytes.toString();
+  const bytes=fs.readFileSync(at(c.file));if(bytes.length>config().capture.candidateBytes+2048)throw new Error('Candidate exceeds review byte cap');return bytes.toString();
+}
+// Re-scan records saved under an older privacy policy; bodies are never rewritten.
+export function rescan(ids=[]) {
+  scanner();const state=index(),policy=policyHash(),result={rescanned:0,pending:0,quarantined:0,changed:0};
+  for(const id of ids)if(!state.candidates[id])throw new Error('Unknown candidate ID');
+  const work=[];
+  for(const c of (ids.length?ids.map(id=>state.candidates[id]):Object.values(state.candidates)).filter(c=>!c.disposition&&c.status!=='quarantined'&&c.policy!==policy)){
+    const bytes=fs.readFileSync(at(c.file));if(sha(bytes)!==c.fileSha256){result.changed++;continue;}work.push({c,bytes});
+  }
+  for(let start=0;start<work.length;start+=300){
+    const batch=work.slice(start,start+300),rules=new Map();
+    for(const finding of scan(batch.map(({c,bytes})=>({id:c.id,bytes})))){if(!rules.has(finding.id))rules.set(finding.id,[]);rules.get(finding.id).push(finding.rule);}
+    for(const {c,bytes} of batch){
+      const found=[...(rules.get(c.id)||[]),...(clientHits(bytes.toString()).length?['client-term']:[])];
+      c.status=found.length?'quarantined':'pending';c.rules=[...new Set([...(c.rules||[]),...found])];c.policy=policy;
+      result.rescanned++;result[c.status]++;
+    }
+  }
+  if(result.rescanned){writeJSON(at('.state/harvest.json'),state,0o600);refreshSummary(state);}
+  return result;
 }
 // Proposals change only the source registry; knowledge notes publish through ordinary PRs.
 export function propose(input) {
