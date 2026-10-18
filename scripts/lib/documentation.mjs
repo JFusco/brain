@@ -2,18 +2,13 @@ import {api,download,markdownResponse} from './network.mjs';
 import {config,sha} from './core.mjs';
 import {gunzipSync} from 'node:zlib';
 
-function catalogFiles(spec,pages,origin) {
+function bounded(spec,pages) {
   if(!pages.length)throw new Error('Official source contains no matching documentation links');
   if(pages.length>(spec.maxPages??5000))throw new Error('Documentation catalog exceeds its page bound; refusing a partial catalog');
-  pages.sort((a,b)=>a.url.localeCompare(b.url));
-  const catalog={schemaVersion:1,source:spec.id,domains:spec.domains,origin,pages};
-  const files=new Map([
-    ['PAGES.json',Buffer.from(JSON.stringify(catalog,null,2)+'\n')],
-    ['INDEX.md',Buffer.from(`# ${spec.id}\n\nOfficial link catalog: ${pages.length} pages. Page bodies are not mirrored.\n\nSource: ${origin}\n\n`+pages.map(page=>`- [${page.title.replace(/[\[\]\r\n]/g,'')}](${page.url})`).join('\n')+'\n')],
-    ['ATTRIBUTION.md',Buffer.from(`Official source: ${origin}\n\nRights metadata: ${spec.license}. No additional reuse license is inferred.\n`)]
-  ]);
-  return {files,revision:sha(files.get('PAGES.json')),url:origin};
+  return pages.sort((a,b)=>a.url.localeCompare(b.url));
 }
+// Collection revisions keep the digest of the former PAGES.json serialization, so earlier citations stay comparable.
+export const pageDigest=(spec,origin,pages)=>sha(JSON.stringify({schemaVersion:1,source:spec.id,domains:spec.domains,origin,pages},null,2)+'\n');
 
 export async function fetchDocumentationCatalog(spec,revision) {
   if(spec.kind==='repository'){
@@ -25,9 +20,7 @@ export async function fetchDocumentationCatalog(spec,revision) {
       const relative=file.path.slice(prefix.length).replace(/\.(?:md|mdx)$/,'').replace(/(?:^|\/)index$/,'');
       return {title:relative.split('/').filter(Boolean).join(' / ').replace(/-/g,' ')||spec.vendor,url:new URL(relative,spec.documentationBase).href,fetchUrl:`https://raw.githubusercontent.com/${spec.repository}/${revision}/${file.path}`,gitBlobSha:file.sha};
     });
-    const result=catalogFiles(spec,pages,`https://github.com/${spec.repository}/tree/${revision}/${prefix}`);
-    if(spec.licensePath){const license=await download(`https://raw.githubusercontent.com/${spec.repository}/${revision}/${spec.licensePath}`,{hosts:['raw.githubusercontent.com'],maxBytes:1024*1024});result.files.set('LICENSE.txt',license.bytes);}
-    return {...result,revision};
+    return {pages:bounded(spec,pages),origin:`https://github.com/${spec.repository}/tree/${revision}/${prefix}`};
   }
   const pages=new Map(),queue=[spec.indexUrl],seen=new Set();
   const add=(href,title,base,replace=false)=>{
@@ -54,5 +47,6 @@ export async function fetchDocumentationCatalog(spec,revision) {
     }else for(const match of index.matchAll(/\[([^\]\n]+)\]\(([^\s)]+)\)/g))add(match[2],match[1],response.url);
   }
   for(const page of spec.additionalPages||[])add(page.url,page.title,spec.indexUrl,true);
-  return catalogFiles(spec,[...pages.values()],spec.indexUrl);
+  const sorted=bounded(spec,[...pages.values()]);
+  return {pages:sorted,origin:spec.indexUrl,revision:pageDigest(spec,spec.indexUrl,sorted)};
 }

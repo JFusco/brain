@@ -100,23 +100,15 @@
       ],
       "paths": [
         {
-          "prefix": ".agents/skills/"
+          "prefix": "skills/"
         },
         {
-          "prefix": ".agents/docs/"
-        },
-        {
-          "exact": "LICENSE.txt"
+          "prefix": "docs/"
         }
       ],
-      "mappings": [
-        {
-          "from": ".agents/",
-          "to": ""
-        }
-      ],
+      "mappings": [],
       "license": "Apache-2.0",
-      "skillRoot": ".agents/skills/",
+      "skillRoot": "skills/",
       "installPolicy": "sitecore-bundle",
       "appliesTo": {
         "dependencies": [
@@ -131,7 +123,7 @@
         ]
       },
       "preferred": false,
-      "sourceBase": "packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/"
+      "sourceBase": "packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/"
     },
     {
       "id": "contentstack-kickstart",
@@ -1465,7 +1457,7 @@
     {
       "domain": "react",
       "url": "https://react.dev/learn",
-      "reason": "The documentation index is mirrored with CC-BY-4.0 attribution."
+      "reason": "Official React documentation (CC-BY-4.0); react-index and react-docs catalog its links."
     },
     {
       "domain": "vercel",

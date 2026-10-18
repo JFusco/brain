@@ -1,11 +1,5 @@
 brain.config.local.json
 inbox/
 .state/
-official/snapshots/**/.large-files
 .DS_Store
 *.tmp
-
-# brain:large:start
-/official/snapshots/contentful-skills/1e40a4c0e841-f270b5c6c7a2/skills/contentful-env-analysis/scripts/main.js
-/official/snapshots/optimizely-sdk/5ef6268e688b-7b09031e8213/docs/images/form-create-container.png
-# brain:large:end

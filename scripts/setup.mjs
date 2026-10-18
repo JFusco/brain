@@ -28,7 +28,7 @@ await withLock(async()=>{
     if(output.status!==0||output.stdout.trim().replace(/^v/,'')!==version)throw new Error('Downloaded scanner did not report the expected version');
     local.toolchain={...local.toolchain,gitleaks:binary,gitleaksVersion:version,gitleaksBinarySha256:sha(files.get('gitleaks'))};
     writeJSON(at('brain.config.local.json'),local,0o600);
-    const lock=readJSON(at('official/sources.lock.json'),{schemaVersion:1,sources:{}});
+    const lock=readJSON(at('official/sources.lock.json'),{schemaVersion:2,sources:{},toolchain:{}});
     lock.toolchain={gitleaks:{version,archiveSha256:expected,binarySha256:local.toolchain.gitleaksBinarySha256,url:asset.browser_download_url,license:'MIT'}};
     writeJSON(at('official/sources.lock.json'),lock);
     console.log(`Installed checksum-verified Gitleaks ${version} privately inside the brain.`);

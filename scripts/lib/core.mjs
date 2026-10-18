@@ -87,9 +87,5 @@ export function log(event,details={}) {
   fs.appendFileSync(file,JSON.stringify({at:now(),event,...details})+'\n',{mode:0o600});
   for(const old of fs.readdirSync(dir))if(/^\d{4}-\d\d-\d\d\.jsonl$/.test(old) && Date.now()-Date.parse(old.slice(0,10))>30*86400000)fs.rmSync(path.join(dir,old));
 }
-export function object(bytes) {
-  const digest=sha(bytes),file=at(`.state/objects/${digest}`);
-  if(!fs.existsSync(file))atomic(file,bytes,0o600);
-  else if(sha(fs.readFileSync(file))!==digest)throw new Error('Corrupt cache object');
-  return digest;
-}
+// Git's blob object ID, so fetched repository files can be checked against pinned catalogs.
+export const gitBlob = bytes => crypto.createHash('sha1').update(`blob ${bytes.length}\0`).update(bytes).digest('hex');
