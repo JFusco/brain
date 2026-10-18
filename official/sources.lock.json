@@ -4976,50 +4976,6 @@
         }
       ]
     },
-    "nextjs-docs": {
-      "id": "nextjs-docs",
-      "revision": "02d68aa4eef9196f9a65a07b5bcd8bef8a48a5e291b33eece47cdb249589265b",
-      "snapshot": "02d68aa4eef9-656eebf2ff91",
-      "repository": null,
-      "url": "https://nextjs.org/docs/llms-full.txt",
-      "track": "rolling-url",
-      "license": "MIT",
-      "licenses": [
-        {
-          "path": "LICENSE.txt",
-          "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224"
-        }
-      ],
-      "policySha256": "3d71e58a5dd6dd01d945916cb08665bd0791f200b8408b89ce2b789d47513a43",
-      "catalogVersion": 3,
-      "files": [
-        {
-          "path": "LICENSE.txt",
-          "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224",
-          "bytes": 1079,
-          "cached": false
-        },
-        {
-          "path": "llms-full.txt",
-          "sha256": "02d68aa4eef9196f9a65a07b5bcd8bef8a48a5e291b33eece47cdb249589265b",
-          "bytes": 4419039,
-          "cached": true
-        }
-      ],
-      "skills": [],
-      "referenceIssues": [],
-      "domains": [
-        "nextjs"
-      ],
-      "seedParity": null,
-      "fetchedAt": "2026-10-16T00:50:47.728Z",
-      "history": [
-        {
-          "snapshot": "4bab6be071ad-6ea8a79265c8",
-          "revision": "4bab6be071ad4f5f749b8f8446b7f33e26ed8bb33d61f8d881678f748d5fbe9c"
-        }
-      ]
-    },
     "react-docs": {
       "id": "react-docs",
       "revision": "046f17d04295ba047bb5739026b4ac3110f17028",

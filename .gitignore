@@ -9,8 +9,6 @@ official/snapshots/**/.large-files
 /official/snapshots/contentful-skills/1e40a4c0e841-f270b5c6c7a2/skills/contentful-env-analysis/scripts/main.js
 /official/snapshots/contentful-skills/27a5172887a9-1427297e432f/skills/contentful-env-analysis/scripts/main.js
 /official/snapshots/contentstack-docs/e7518b89c9b6-8bc13c628478/PAGES.json
-/official/snapshots/nextjs-docs/02d68aa4eef9-656eebf2ff91/llms-full.txt
-/official/snapshots/nextjs-docs/4bab6be071ad-6ea8a79265c8/llms-full.txt
 /official/snapshots/optimizely-sdk/01fb2b56ee24-25eb2e22ea3f/docs/images/form-create-container.png
 /official/snapshots/optimizely-sdk/5ef6268e688b-7b09031e8213/docs/images/form-create-container.png
 /official/snapshots/react-docs/046f17d04295-c3dfb7a069ed/docs/blog/2020/12/21/data-fetching-with-react-server-components.md

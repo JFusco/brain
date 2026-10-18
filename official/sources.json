@@ -1263,50 +1263,6 @@
       "installPolicy": "reference-only"
     },
     {
-      "id": "nextjs-docs",
-      "vendor": "nextjs",
-      "domains": [
-        "nextjs"
-      ],
-      "kind": "url",
-      "url": "https://nextjs.org/docs/llms-full.txt",
-      "filename": "llms-full.txt",
-      "allowedHosts": [
-        "nextjs.org"
-      ],
-      "license": "MIT",
-      "licenseFile": {
-        "url": "https://raw.githubusercontent.com/vercel/next.js/fb20d9af8b89e2507466702d6844f9e984012fb8/license.md",
-        "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224",
-        "allowedHosts": [
-          "raw.githubusercontent.com"
-        ]
-      },
-      "applicability": "Retained historical snapshot; normal lookup uses the Next.js documentation index.",
-      "installPolicy": "reference-only",
-      "scanExceptions": [
-        {
-          "path": "llms-full.txt",
-          "rule": "private-key",
-          "lineSha256": "570af0d2a1353839ddd5d17af0c6502f76db969f3af50460cb81dafd09bd5959",
-          "justification": "Truncated illustrative PEM value containing literal ellipses; no complete private key."
-        },
-        {
-          "path": "llms-full.txt",
-          "rule": "private-key",
-          "lineSha256": "46dacd724c672fd6ec514b6253dde4606592556ee1f1a70a1d09e53d1b162693",
-          "justification": "Truncated illustrative PEM value containing literal ellipses; no complete private key."
-        },
-        {
-          "path": "llms-full.txt",
-          "rule": "private-key",
-          "lineSha256": "57ee5fa54cc173f533af7f61d7b0d69bdb2b8ae8ce4fcc98fde533feee493fcf",
-          "justification": "Truncated illustrative PEM value containing literal ellipses; no complete private key."
-        }
-      ],
-      "refresh": false
-    },
-    {
       "id": "react-index",
       "vendor": "react",
       "domains": [
