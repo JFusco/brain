@@ -35,5 +35,7 @@ No curated notes yet.
   - [docs/AGENTS-router-specifics.md](https://github.com/Sitecore/content-sdk/blob/6ec243fc709bfb917e7ce9be6151e63d0f33c5b6/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-router-specifics.md).
   - [docs/AGENTS-workflows-and-boundaries.md](https://github.com/Sitecore/content-sdk/blob/6ec243fc709bfb917e7ce9be6151e63d0f33c5b6/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-workflows-and-boundaries.md).
   - [docs/README.md](https://github.com/Sitecore/content-sdk/blob/6ec243fc709bfb917e7ce9be6151e63d0f33c5b6/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/README.md).
+- **sitecoreai-docs** — link catalog of 407 pages; rolling-url; revision `dd09cf3c81ad51d22f936f2bc442ca6c0af733b3db96cea5e8b510d03654732e`; fetched 2026-10-18.
+  - [Catalog source](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml); search it with `lookup --domain cms/sitecore-ai`.
 - [Official website](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecoreai.html) — pointer only: Official SitecoreAI developer documentation; focused lookup supports HTML pages.
 <!-- brain:official:end -->

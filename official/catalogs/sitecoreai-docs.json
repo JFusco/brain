@@ -1,0 +1,2046 @@
+{
+  "schemaVersion": 1,
+  "source": "sitecoreai-docs",
+  "revision": "dd09cf3c81ad51d22f936f2bc442ca6c0af733b3db96cea5e8b510d03654732e",
+  "origin": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "bring your own components / bring your own components.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/bring-your-own-components/bring-your-own-components.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/bring-your-own-components/bring-your-own-components.html"
+    },
+    {
+      "title": "walkthrough  registering an external react component / the registercomponent method.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/bring-your-own-components/walkthrough--registering-an-external-react-component/the-registercomponent-method.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/bring-your-own-components/walkthrough--registering-an-external-react-component/the-registercomponent-method.html"
+    },
+    {
+      "title": "walkthrough  registering an external react component / walkthrough  registering an external react component.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/bring-your-own-components/walkthrough--registering-an-external-react-component/walkthrough--registering-an-external-react-component.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/bring-your-own-components/walkthrough--registering-an-external-react-component/walkthrough--registering-an-external-react-component.html"
+    },
+    {
+      "title": "content modeling and presentation / content modeling and presentation.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/content-modeling-and-presentation.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/content-modeling-and-presentation.html"
+    },
+    {
+      "title": "content resolvers / assign a content resolver to a component.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/content-resolvers/assign-a-content-resolver-to-a-component.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/content-resolvers/assign-a-content-resolver-to-a-component.html"
+    },
+    {
+      "title": "content resolvers / content resolvers.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/content-resolvers/content-resolvers.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/content-resolvers/content-resolvers.html"
+    },
+    {
+      "title": "data sources / assign a data source workflow action.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-sources/assign-a-data-source-workflow-action.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-sources/assign-a-data-source-workflow-action.html"
+    },
+    {
+      "title": "data sources / data sources.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-sources/data-sources.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-sources/data-sources.html"
+    },
+    {
+      "title": "data sources / run a source field report to set the data source context.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-sources/run-a-source-field-report-to-set-the-data-source-context.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-sources/run-a-source-field-report-to-set-the-data-source-context.html"
+    },
+    {
+      "title": "data sources / use a prefix to set the data source context.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-sources/use-a-prefix-to-set-the-data-source-context.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-sources/use-a-prefix-to-set-the-data-source-context.html"
+    },
+    {
+      "title": "data sources / walkthrough  defining standard values for your sites.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-sources/walkthrough--defining-standard-values-for-your-sites.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-sources/walkthrough--defining-standard-values-for-your-sites.html"
+    },
+    {
+      "title": "branch templates / assign user permissions to insert items using a branch template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/branch-templates/assign-user-permissions-to-insert-items-using-a-branch-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/branch-templates/assign-user-permissions-to-insert-items-using-a-branch-template.html"
+    },
+    {
+      "title": "branch templates / branch templates.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/branch-templates/branch-templates.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/branch-templates/branch-templates.html"
+    },
+    {
+      "title": "branch templates / configure the icon for a branch template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/branch-templates/configure-the-icon-for-a-branch-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/branch-templates/configure-the-icon-for-a-branch-template.html"
+    },
+    {
+      "title": "branch templates / work with a branch template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/branch-templates/work-with-a-branch-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/branch-templates/work-with-a-branch-template.html"
+    },
+    {
+      "title": "command templates / command templates.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/command-templates/command-templates.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/command-templates/command-templates.html"
+    },
+    {
+      "title": "command templates / create a command template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/command-templates/create-a-command-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/command-templates/create-a-command-template.html"
+    },
+    {
+      "title": "command templates / example  command template code to copy insert options from the parent item.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/command-templates/example--command-template-code-to-copy-insert-options-from-the-parent-item.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/command-templates/example--command-template-code-to-copy-insert-options-from-the-parent-item.html"
+    },
+    {
+      "title": "command templates / example  command template code to display a user interface.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/command-templates/example--command-template-code-to-display-a-user-interface.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/command-templates/example--command-template-code-to-display-a-user-interface.html"
+    },
+    {
+      "title": "data definition and template overview / data definition and template overview.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-definition-and-template-overview/data-definition-and-template-overview.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-definition-and-template-overview/data-definition-and-template-overview.html"
+    },
+    {
+      "title": "data definition and template overview / data definition terms and concepts.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-definition-and-template-overview/data-definition-terms-and-concepts.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-definition-and-template-overview/data-definition-terms-and-concepts.html"
+    },
+    {
+      "title": "data definition and template overview / recommended naming conventions and template storage locations.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-definition-and-template-overview/recommended-naming-conventions-and-template-storage-locations.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-definition-and-template-overview/recommended-naming-conventions-and-template-storage-locations.html"
+    },
+    {
+      "title": "add a multilist with search field to a data template / add a multilist with search field to a data template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/configure-a-field/add-a-multilist-with-search-field-to-a-data-template/add-a-multilist-with-search-field-to-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/configure-a-field/add-a-multilist-with-search-field-to-a-data-template/add-a-multilist-with-search-field-to-a-data-template.html"
+    },
+    {
+      "title": "add a multilist with search field to a data template / queries for the multilist with search source field.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/configure-a-field/add-a-multilist-with-search-field-to-a-data-template/queries-for-the-multilist-with-search-source-field.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/configure-a-field/add-a-multilist-with-search-field-to-a-data-template/queries-for-the-multilist-with-search-source-field.html"
+    },
+    {
+      "title": "configure a field / configure a field.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/configure-a-field/configure-a-field.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/configure-a-field/configure-a-field.html"
+    },
+    {
+      "title": "configure a field / controlling the list of items in a selection field.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/configure-a-field/controlling-the-list-of-items-in-a-selection-field.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/configure-a-field/controlling-the-list-of-items-in-a-selection-field.html"
+    },
+    {
+      "title": "data template fields / data template fields.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/data-template-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/data-template-fields.html"
+    },
+    {
+      "title": "the data template field types / the data template field types.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-data-template-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-data-template-field-types.html"
+    },
+    {
+      "title": "the data template field types / the developer field types.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-developer-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-developer-field-types.html"
+    },
+    {
+      "title": "the data template field types / the link field types.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-link-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-link-field-types.html"
+    },
+    {
+      "title": "the data template field types / the list field types.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-list-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-list-field-types.html"
+    },
+    {
+      "title": "the data template field types / the simple field types.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-simple-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-simple-field-types.html"
+    },
+    {
+      "title": "the data template field types / the system field types.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-system-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-data-template-field-types/the-system-field-types.html"
+    },
+    {
+      "title": "data template fields / the template field template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-template-field-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-fields/the-template-field-template.html"
+    },
+    {
+      "title": "data template sections / base templates.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-sections/base-templates.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-sections/base-templates.html"
+    },
+    {
+      "title": "data template sections / data template inheritance.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-sections/data-template-inheritance.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-sections/data-template-inheritance.html"
+    },
+    {
+      "title": "data template sections / data template sections.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-sections/data-template-sections.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-template-sections/data-template-sections.html"
+    },
+    {
+      "title": "data templates 733367 / add a field to a data template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/add-a-field-to-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/add-a-field-to-a-data-template.html"
+    },
+    {
+      "title": "data templates 733367 / add a section to a data template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/add-a-section-to-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/add-a-section-to-a-data-template.html"
+    },
+    {
+      "title": "data templates 733367 / configure base templates for a data template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/configure-base-templates-for-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/configure-base-templates-for-a-data-template.html"
+    },
+    {
+      "title": "data templates 733367 / configure the icon for a data template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/configure-the-icon-for-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/configure-the-icon-for-a-data-template.html"
+    },
+    {
+      "title": "data templates 733367 / create a data template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/create-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/create-a-data-template.html"
+    },
+    {
+      "title": "data templates 733367 / data templates 733367.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/data-templates-733367.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/data-templates-733367.html"
+    },
+    {
+      "title": "data templates 733367 / edit or change the data template associated with an item.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/edit-or-change-the-data-template-associated-with-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/edit-or-change-the-data-template-associated-with-an-item.html"
+    },
+    {
+      "title": "data templates 733367 / example  configure a template hierarchy.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/example--configure-a-template-hierarchy.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/example--configure-a-template-hierarchy.html"
+    },
+    {
+      "title": "data templates 733367 / select a data template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/select-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/select-a-data-template.html"
+    },
+    {
+      "title": "data templates 733367 / validate data template field values.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/validate-data-template-field-values.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/validate-data-template-field-values.html"
+    },
+    {
+      "title": "data templates 733367 / validate items based on a data template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/validate-items-based-on-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates-733367/validate-items-based-on-a-data-template.html"
+    },
+    {
+      "title": "data templates / data templates.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/data-templates.html"
+    },
+    {
+      "title": "insert options / assign or copy insert options.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/insert-options/assign-or-copy-insert-options.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/insert-options/assign-or-copy-insert-options.html"
+    },
+    {
+      "title": "insert options / assigned insert options versus effective insert options.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/insert-options/assigned-insert-options-versus-effective-insert-options.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/insert-options/assigned-insert-options-versus-effective-insert-options.html"
+    },
+    {
+      "title": "insert options / insert options.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/insert-options/insert-options.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/insert-options/insert-options.html"
+    },
+    {
+      "title": "sitecore query / general query syntax.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/sitecore-query/general-query-syntax.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/sitecore-query/general-query-syntax.html"
+    },
+    {
+      "title": "sitecore query / query architecture.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/sitecore-query/query-architecture.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/sitecore-query/query-architecture.html"
+    },
+    {
+      "title": "sitecore query / query axes.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/sitecore-query/query-axes.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/sitecore-query/query-axes.html"
+    },
+    {
+      "title": "sitecore query / query operators.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/sitecore-query/query-operators.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/sitecore-query/query-operators.html"
+    },
+    {
+      "title": "sitecore query / sitecore query.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/sitecore-query/sitecore-query.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/sitecore-query/sitecore-query.html"
+    },
+    {
+      "title": "configure standard values / assign a default workflow.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/standard-values-for-data-template-fields/configure-standard-values/assign-a-default-workflow.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/standard-values-for-data-template-fields/configure-standard-values/assign-a-default-workflow.html"
+    },
+    {
+      "title": "configure standard values / assign standard insert options.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/standard-values-for-data-template-fields/configure-standard-values/assign-standard-insert-options.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/standard-values-for-data-template-fields/configure-standard-values/assign-standard-insert-options.html"
+    },
+    {
+      "title": "configure standard values / assign standard layout details.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/standard-values-for-data-template-fields/configure-standard-values/assign-standard-layout-details.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/standard-values-for-data-template-fields/configure-standard-values/assign-standard-layout-details.html"
+    },
+    {
+      "title": "configure standard values / configure standard values.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/standard-values-for-data-template-fields/configure-standard-values/configure-standard-values.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/standard-values-for-data-template-fields/configure-standard-values/configure-standard-values.html"
+    },
+    {
+      "title": "standard values for data template fields / standard values for data template fields.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/standard-values-for-data-template-fields/standard-values-for-data-template-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/standard-values-for-data-template-fields/standard-values-for-data-template-fields.html"
+    },
+    {
+      "title": "the standard template / the standard template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/the-standard-template/the-standard-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/the-standard-template/the-standard-template.html"
+    },
+    {
+      "title": "the standard template / the structure of the standard template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/the-standard-template/the-structure-of-the-standard-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/the-standard-template/the-structure-of-the-standard-template.html"
+    },
+    {
+      "title": "validation rules and options / the default validation rules.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/validation-rules-and-options/the-default-validation-rules.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/validation-rules-and-options/the-default-validation-rules.html"
+    },
+    {
+      "title": "validation rules and options / the validation options.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/validation-rules-and-options/the-validation-options.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/validation-rules-and-options/the-validation-options.html"
+    },
+    {
+      "title": "validation rules and options / validation rules and options.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/validation-rules-and-options/validation-rules-and-options.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/data-templates/validation-rules-and-options/validation-rules-and-options.html"
+    },
+    {
+      "title": "grid / configure headless sites to use tailwind.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/grid/configure-headless-sites-to-use-tailwind.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/grid/configure-headless-sites-to-use-tailwind.html"
+    },
+    {
+      "title": "grid / create a custom grid.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/grid/create-a-custom-grid.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/grid/create-a-custom-grid.html"
+    },
+    {
+      "title": "grid / grid.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/grid/grid.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/grid/grid.html"
+    },
+    {
+      "title": "grid / the grid settings.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/grid/the-grid-settings.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/grid/the-grid-settings.html"
+    },
+    {
+      "title": "search and item buckets / add a search result view.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/add-a-search-result-view.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/add-a-search-result-view.html"
+    },
+    {
+      "title": "search and item buckets / add new search filters and alias filters.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/add-new-search-filters-and-alias-filters.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/add-new-search-filters-and-alias-filters.html"
+    },
+    {
+      "title": "search and item buckets / custom bucket structures.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/custom-bucket-structures.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/custom-bucket-structures.html"
+    },
+    {
+      "title": "search and item buckets / facets.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/facets.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/facets.html"
+    },
+    {
+      "title": "search and item buckets / lock a parent child relationship.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/lock-a-parent-child-relationship.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/lock-a-parent-child-relationship.html"
+    },
+    {
+      "title": "search and item buckets / search and item buckets.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/search-and-item-buckets.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-and-item-buckets/search-and-item-buckets.html"
+    },
+    {
+      "title": "search engine optimization  seo  / configure a sitemap in the content editor.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-engine-optimization--seo-/configure-a-sitemap-in-the-content-editor.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-engine-optimization--seo-/configure-a-sitemap-in-the-content-editor.html"
+    },
+    {
+      "title": "search engine optimization  seo  / configure the robots txt file.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-engine-optimization--seo-/configure-the-robots-txt-file.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-engine-optimization--seo-/configure-the-robots-txt-file.html"
+    },
+    {
+      "title": "search engine optimization  seo  / search engine optimization  seo .html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-engine-optimization--seo-/search-engine-optimization--seo-.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-engine-optimization--seo-/search-engine-optimization--seo-.html"
+    },
+    {
+      "title": "sitecore authoring and management graphql api / limitations of the graphql authoring and management api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/limitations-of-the-graphql-authoring-and-management-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/limitations-of-the-graphql-authoring-and-management-api.html"
+    },
+    {
+      "title": "sitecore authoring and management graphql api / query examples for authoring operations.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/query-examples-for-authoring-operations.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/query-examples-for-authoring-operations.html"
+    },
+    {
+      "title": "sitecore authoring and management graphql api / query examples for management operations.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/query-examples-for-management-operations.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/query-examples-for-management-operations.html"
+    },
+    {
+      "title": "sitecore authoring and management graphql api / sitecore authoring and management graphql api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/sitecore-authoring-and-management-graphql-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/sitecore-authoring-and-management-graphql-api.html"
+    },
+    {
+      "title": "sitecore authoring and management graphql api / walkthrough  enabling and authorizing requests to the authoring and management api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/walkthrough--enabling-and-authorizing-requests-to-the-authoring-and-management-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/walkthrough--enabling-and-authorizing-requests-to-the-authoring-and-management-api.html"
+    },
+    {
+      "title": "best practices / best practices.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/best-practices.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/best-practices.html"
+    },
+    {
+      "title": "best practices / recommendations  enhancing sxa performance.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--enhancing-sxa-performance.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--enhancing-sxa-performance.html"
+    },
+    {
+      "title": "best practices / recommendations  extending sxa.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--extending-sxa.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--extending-sxa.html"
+    },
+    {
+      "title": "best practices / recommendations  sharing content.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--sharing-content.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--sharing-content.html"
+    },
+    {
+      "title": "best practices / recommendations  structuring pages.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--structuring-pages.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--structuring-pages.html"
+    },
+    {
+      "title": "best practices / recommendations  using renderings.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--using-renderings.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--using-renderings.html"
+    },
+    {
+      "title": "best practices / recommendations  working with data sources and media.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--working-with-data-sources-and-media.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations--working-with-data-sources-and-media.html"
+    },
+    {
+      "title": "best practices / recommendations structuring content for performance.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations-structuring-content-for-performance.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/best-practices/recommendations-structuring-content-for-performance.html"
+    },
+    {
+      "title": "components / components.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/components.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/components.html"
+    },
+    {
+      "title": "components / copy and customize a component.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/copy-and-customize-a-component.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/copy-and-customize-a-component.html"
+    },
+    {
+      "title": "components / create a variant for a component.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/create-a-variant-for-a-component.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/create-a-variant-for-a-component.html"
+    },
+    {
+      "title": "components / flowchart to determine whether to create a custom component.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/flowchart-to-determine-whether-to-create-a-custom-component.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/flowchart-to-determine-whether-to-create-a-custom-component.html"
+    },
+    {
+      "title": "components / use dynamic placeholders in components.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/use-dynamic-placeholders-in-components.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/use-dynamic-placeholders-in-components.html"
+    },
+    {
+      "title": "components / use the component wizard to create a custom component.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/use-the-component-wizard-to-create-a-custom-component.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/use-the-component-wizard-to-create-a-custom-component.html"
+    },
+    {
+      "title": "components / walkthrough  building a simple custom component.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/walkthrough--building-a-simple-custom-component.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/components/walkthrough--building-a-simple-custom-component.html"
+    },
+    {
+      "title": "content editor items / content editor items.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/content-editor-items.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/content-editor-items.html"
+    },
+    {
+      "title": "layout / layout.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/layout/layout.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/layout/layout.html"
+    },
+    {
+      "title": "layout / run a source field report to set the data source context 796100.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/layout/run-a-source-field-report-to-set-the-data-source-context-796100.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/layout/run-a-source-field-report-to-set-the-data-source-context-796100.html"
+    },
+    {
+      "title": "layout / set placeholder restrictions.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/layout/set-placeholder-restrictions.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/layout/set-placeholder-restrictions.html"
+    },
+    {
+      "title": "security / security.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/security/security.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/security/security.html"
+    },
+    {
+      "title": "security / set up security for a site collection and a site.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/security/set-up-security-for-a-site-collection-and-a-site.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/security/set-up-security-for-a-site-collection-and-a-site.html"
+    },
+    {
+      "title": "security / the sxa security roles.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/security/the-sxa-security-roles.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/security/the-sxa-security-roles.html"
+    },
+    {
+      "title": "sharing content / share content as a delegated area or clone.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sharing-content/share-content-as-a-delegated-area-or-clone.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sharing-content/share-content-as-a-delegated-area-or-clone.html"
+    },
+    {
+      "title": "sharing content / share data sources and presentation between sites.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sharing-content/share-data-sources-and-presentation-between-sites.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sharing-content/share-data-sources-and-presentation-between-sites.html"
+    },
+    {
+      "title": "sharing content / sharing content.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sharing-content/sharing-content.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sharing-content/sharing-content.html"
+    },
+    {
+      "title": "site collections / add a module to an existing site collection or site 1612175.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/add-a-module-to-an-existing-site-collection-or-site-1612175.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/add-a-module-to-an-existing-site-collection-or-site-1612175.html"
+    },
+    {
+      "title": "site collections / add and extend a template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/add-and-extend-a-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/add-and-extend-a-template.html"
+    },
+    {
+      "title": "site collections / create a headless site collection and site.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/create-a-headless-site-collection-and-site.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/create-a-headless-site-collection-and-site.html"
+    },
+    {
+      "title": "site collections / grouping of headless site collections and sites.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/grouping-of-headless-site-collections-and-sites.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/grouping-of-headless-site-collections-and-sites.html"
+    },
+    {
+      "title": "site collections / remove a site collection or a site.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/remove-a-site-collection-or-a-site.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/remove-a-site-collection-or-a-site.html"
+    },
+    {
+      "title": "site collections / share content between headless sites.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/share-content-between-headless-sites.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/share-content-between-headless-sites.html"
+    },
+    {
+      "title": "site collections / site collections.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/site-collections.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/site-collections/site-collections.html"
+    },
+    {
+      "title": "sites / add a module to an existing site collection or site.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/add-a-module-to-an-existing-site-collection-or-site.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/add-a-module-to-an-existing-site-collection-or-site.html"
+    },
+    {
+      "title": "sites / add a style for a rendering.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/add-a-style-for-a-rendering.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/add-a-style-for-a-rendering.html"
+    },
+    {
+      "title": "sites / adjust link settings to enable cross site linking.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/adjust-link-settings-to-enable-cross-site-linking.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/adjust-link-settings-to-enable-cross-site-linking.html"
+    },
+    {
+      "title": "sites / clone a site.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/clone-a-site.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/clone-a-site.html"
+    },
+    {
+      "title": "sites / configure a custom static error page.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/configure-a-custom-static-error-page.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/configure-a-custom-static-error-page.html"
+    },
+    {
+      "title": "sites / configure the media library for an sxa site.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/configure-the-media-library-for-an-sxa-site.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/configure-the-media-library-for-an-sxa-site.html"
+    },
+    {
+      "title": "sites / create a site template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/create-a-site-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/create-a-site-template.html"
+    },
+    {
+      "title": "sites / exclude a page from the navigation menu.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/exclude-a-page-from-the-navigation-menu.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/exclude-a-page-from-the-navigation-menu.html"
+    },
+    {
+      "title": "sites / manage multiple sites with the sxa site manager.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/manage-multiple-sites-with-the-sxa-site-manager.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/manage-multiple-sites-with-the-sxa-site-manager.html"
+    },
+    {
+      "title": "sites / sites.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/sites.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/sites.html"
+    },
+    {
+      "title": "sites / the site host fields.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/the-site-host-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/content-editor-items/sites/the-site-host-fields.html"
+    },
+    {
+      "title": "pages configuration / add a custom style to the rich text editor.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/add-a-custom-style-to-the-rich-text-editor.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/add-a-custom-style-to-the-rich-text-editor.html"
+    },
+    {
+      "title": "pages configuration / add and configure a device in the page builder.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/add-and-configure-a-device-in-the-page-builder.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/add-and-configure-a-device-in-the-page-builder.html"
+    },
+    {
+      "title": "pages configuration / add the manage items section to pages for a custom component.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/add-the-manage-items-section-to-pages-for-a-custom-component.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/add-the-manage-items-section-to-pages-for-a-custom-component.html"
+    },
+    {
+      "title": "pages configuration / control the html wrapping for rte output.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/control-the-html-wrapping-for-rte-output.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/control-the-html-wrapping-for-rte-output.html"
+    },
+    {
+      "title": "pages configuration / customize the rich text editor toolbar.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/customize-the-rich-text-editor-toolbar.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/customize-the-rich-text-editor-toolbar.html"
+    },
+    {
+      "title": "pages configuration / let custom components react instantly to style changes in page builder.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/let-custom-components-react-instantly-to-style-changes-in-page-builder.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/let-custom-components-react-instantly-to-style-changes-in-page-builder.html"
+    },
+    {
+      "title": "pages configuration / make a custom component available in the page builder.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/make-a-custom-component-available-in-the-page-builder.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/make-a-custom-component-available-in-the-page-builder.html"
+    },
+    {
+      "title": "pages configuration / pages configuration.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/pages-configuration.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/pages-configuration.html"
+    },
+    {
+      "title": "walkthrough  adding a custom style to pages / available css classes.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/walkthrough--adding-a-custom-style-to-pages/available-css-classes.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/walkthrough--adding-a-custom-style-to-pages/available-css-classes.html"
+    },
+    {
+      "title": "walkthrough  adding a custom style to pages / display types for styles.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/walkthrough--adding-a-custom-style-to-pages/display-types-for-styles.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/walkthrough--adding-a-custom-style-to-pages/display-types-for-styles.html"
+    },
+    {
+      "title": "walkthrough  adding a custom style to pages / walkthrough  adding a custom style to pages.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/walkthrough--adding-a-custom-style-to-pages/walkthrough--adding-a-custom-style-to-pages.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/walkthrough--adding-a-custom-style-to-pages/walkthrough--adding-a-custom-style-to-pages.html"
+    },
+    {
+      "title": "pages configuration / walkthrough  setting up a custom grid.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/walkthrough--setting-up-a-custom-grid.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/walkthrough--setting-up-a-custom-grid.html"
+    },
+    {
+      "title": "sitecoreai for developers / sitecore experience accelerator  sxa  faqs.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/sitecore-experience-accelerator--sxa--faqs.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/sitecore-experience-accelerator--sxa--faqs.html"
+    },
+    {
+      "title": "sitecoreai for developers / sitecoreai for developers.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/sitecoreai-for-developers.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/sitecoreai-for-developers.html"
+    },
+    {
+      "title": "content modeling and presentation / the sitecore powershell extensions script library.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/the-sitecore-powershell-extensions-script-library.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/the-sitecore-powershell-extensions-script-library.html"
+    },
+    {
+      "title": "walkthrough  adding and configuring a webhook submit action / walkthrough  adding and configuring a webhook submit action.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-submit-action/walkthrough--adding-and-configuring-a-webhook-submit-action.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-submit-action/walkthrough--adding-and-configuring-a-webhook-submit-action.html"
+    },
+    {
+      "title": "walkthrough  adding and configuring a webhook submit action / webhook submit action configuration fields.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-submit-action/webhook-submit-action-configuration-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-submit-action/webhook-submit-action-configuration-fields.html"
+    },
+    {
+      "title": "walkthrough  adding and configuring a webhook submit action / webhook submit action http request.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-submit-action/webhook-submit-action-http-request.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-submit-action/webhook-submit-action-http-request.html"
+    },
+    {
+      "title": "walkthrough  adding and configuring a webhook validation action / walkthrough  adding and configuring a webhook validation action.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-validation-action/walkthrough--adding-and-configuring-a-webhook-validation-action.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-validation-action/walkthrough--adding-and-configuring-a-webhook-validation-action.html"
+    },
+    {
+      "title": "walkthrough  adding and configuring a webhook validation action / webhook validation action configuration fields.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-validation-action/webhook-validation-action-configuration-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-validation-action/webhook-validation-action-configuration-fields.html"
+    },
+    {
+      "title": "walkthrough  adding and configuring a webhook validation action / webhook validation action http request.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-validation-action/webhook-validation-action-http-request.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-validation-action/webhook-validation-action-http-request.html"
+    },
+    {
+      "title": "walkthrough  adding and configuring a webhook validation action / webhook validation action http response.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-validation-action/webhook-validation-action-http-response.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--adding-and-configuring-a-webhook-validation-action/webhook-validation-action-http-response.html"
+    },
+    {
+      "title": "walkthrough  creating and configuring a webhook event handler / walkthrough  creating and configuring a webhook event handler.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--creating-and-configuring-a-webhook-event-handler/walkthrough--creating-and-configuring-a-webhook-event-handler.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--creating-and-configuring-a-webhook-event-handler/walkthrough--creating-and-configuring-a-webhook-event-handler.html"
+    },
+    {
+      "title": "walkthrough  creating and configuring a webhook event handler / webhook event handler configuration fields.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--creating-and-configuring-a-webhook-event-handler/webhook-event-handler-configuration-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--creating-and-configuring-a-webhook-event-handler/webhook-event-handler-configuration-fields.html"
+    },
+    {
+      "title": "walkthrough  creating and configuring a webhook event handler / webhook event handler http request.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--creating-and-configuring-a-webhook-event-handler/webhook-event-handler-http-request.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--creating-and-configuring-a-webhook-event-handler/webhook-event-handler-http-request.html"
+    },
+    {
+      "title": "walkthrough  using an authorization item / walkthrough  using an authorization item.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--using-an-authorization-item/walkthrough--using-an-authorization-item.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--using-an-authorization-item/walkthrough--using-an-authorization-item.html"
+    },
+    {
+      "title": "walkthrough  using an authorization item / webhook authentication types.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--using-an-authorization-item/webhook-authentication-types.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/walkthrough--using-an-authorization-item/webhook-authentication-types.html"
+    },
+    {
+      "title": "webhooks / webhooks.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/webhooks.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/webhooks/webhooks.html"
+    },
+    {
+      "title": "workflow cookbook / add commands and actions to states.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/add-commands-and-actions-to-states.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/add-commands-and-actions-to-states.html"
+    },
+    {
+      "title": "workflow cookbook / assign a workflow to a template.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/assign-a-workflow-to-a-template.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/assign-a-workflow-to-a-template.html"
+    },
+    {
+      "title": "workflow cookbook / create a workflow with states.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/create-a-workflow-with-states.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/create-a-workflow-with-states.html"
+    },
+    {
+      "title": "workflow cookbook / hide a workflow command for certain users.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/hide-a-workflow-command-for-certain-users.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/hide-a-workflow-command-for-certain-users.html"
+    },
+    {
+      "title": "workflow cookbook / hide a workflow state for certain users.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/hide-a-workflow-state-for-certain-users.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/hide-a-workflow-state-for-certain-users.html"
+    },
+    {
+      "title": "workflow cookbook / workflow cookbook.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/workflow-cookbook.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-cookbook/workflow-cookbook.html"
+    },
+    {
+      "title": "workflow reference / defining workflows.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-reference/defining-workflows.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-reference/defining-workflows.html"
+    },
+    {
+      "title": "workflow reference / standard and custom actions.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-reference/standard-and-custom-actions.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-reference/standard-and-custom-actions.html"
+    },
+    {
+      "title": "workflow reference / standard template workflow section fields.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-reference/standard-template-workflow-section-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-reference/standard-template-workflow-section-fields.html"
+    },
+    {
+      "title": "workflow reference / workflow and security features.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-reference/workflow-and-security-features.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-reference/workflow-and-security-features.html"
+    },
+    {
+      "title": "workflow reference / workflow reference.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-reference/workflow-reference.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow-reference/workflow-reference.html"
+    },
+    {
+      "title": "workflow / workflow.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/workflow/workflow.html"
+    },
+    {
+      "title": "working with languages / add a language to your environment.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/add-a-language-to-your-environment.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/add-a-language-to-your-environment.html"
+    },
+    {
+      "title": "working with languages / add a language version to a site.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/add-a-language-version-to-a-site.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/add-a-language-version-to-a-site.html"
+    },
+    {
+      "title": "working with languages / add a language version to an item.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/add-a-language-version-to-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/add-a-language-version-to-an-item.html"
+    },
+    {
+      "title": "language fallback / language fallback and publishing.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/language-fallback/language-fallback-and-publishing.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/language-fallback/language-fallback-and-publishing.html"
+    },
+    {
+      "title": "language fallback / language fallback.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/language-fallback/language-fallback.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/language-fallback/language-fallback.html"
+    },
+    {
+      "title": "overview of setting up language fallback / fine tune your language fallback configuration.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/language-fallback/overview-of-setting-up-language-fallback/fine-tune-your-language-fallback-configuration.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/language-fallback/overview-of-setting-up-language-fallback/fine-tune-your-language-fallback-configuration.html"
+    },
+    {
+      "title": "overview of setting up language fallback / overview of setting up language fallback.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/language-fallback/overview-of-setting-up-language-fallback/overview-of-setting-up-language-fallback.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/language-fallback/overview-of-setting-up-language-fallback/overview-of-setting-up-language-fallback.html"
+    },
+    {
+      "title": "language fallback / the language fallback pipelines.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/language-fallback/the-language-fallback-pipelines.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/language-fallback/the-language-fallback-pipelines.html"
+    },
+    {
+      "title": "working with languages / work with dictionaries.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/work-with-dictionaries.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/work-with-dictionaries.html"
+    },
+    {
+      "title": "working with languages / working with languages.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/working-with-languages.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/working-with-languages/working-with-languages.html"
+    },
+    {
+      "title": "data lake export service / data entities reference.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/data-lake-export-service/data-entities-reference.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/data-lake-export-service/data-entities-reference.html"
+    },
+    {
+      "title": "data lake export service / data lake export service.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/data-lake-export-service/data-lake-export-service.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/data-lake-export-service/data-lake-export-service.html"
+    },
+    {
+      "title": "data privacy / data privacy.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/data-privacy/data-privacy.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/data-privacy/data-privacy.html"
+    },
+    {
+      "title": "data privacy / data retention.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/data-privacy/data-retention.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/data-privacy/data-retention.html"
+    },
+    {
+      "title": "data privacy / visitor cookies.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/data-privacy/visitor-cookies.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/data-privacy/visitor-cookies.html"
+    },
+    {
+      "title": "deploying sitecoreai / app configuration api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/app-configuration-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/app-configuration-api.html"
+    },
+    {
+      "title": "deploying sitecoreai / deploy api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-api.html"
+    },
+    {
+      "title": "deploy app / deploy app.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/deploy-app.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/deploy-app.html"
+    },
+    {
+      "title": "deploy app / manage a project.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-a-project.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-a-project.html"
+    },
+    {
+      "title": "manage an environment / access the environment variables for a site.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-an-environment/access-the-environment-variables-for-a-site.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-an-environment/access-the-environment-variables-for-a-site.html"
+    },
+    {
+      "title": "manage an environment / context id environment variables.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-an-environment/context-id-environment-variables.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-an-environment/context-id-environment-variables.html"
+    },
+    {
+      "title": "manage an environment / manage an environment.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-an-environment/manage-an-environment.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-an-environment/manage-an-environment.html"
+    },
+    {
+      "title": "manage an environment / rotate deploy secrets for your environments.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-an-environment/rotate-deploy-secrets-for-your-environments.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-an-environment/rotate-deploy-secrets-for-your-environments.html"
+    },
+    {
+      "title": "deploy app / manage connections for source control and hosting providers.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-connections-for-source-control-and-hosting-providers.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/manage-connections-for-source-control-and-hosting-providers.html"
+    },
+    {
+      "title": "managing sitecoreai client credentials / create a json web token for the authoring and management api or the deploy api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/managing-sitecoreai-client-credentials/create-a-json-web-token-for-the-authoring-and-management-api-or-the-deploy-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/managing-sitecoreai-client-credentials/create-a-json-web-token-for-the-authoring-and-management-api-or-the-deploy-api.html"
+    },
+    {
+      "title": "managing sitecoreai client credentials / manage client credentials for a sitecoreai organization or environment.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/managing-sitecoreai-client-credentials/manage-client-credentials-for-a-sitecoreai-organization-or-environment.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/managing-sitecoreai-client-credentials/manage-client-credentials-for-a-sitecoreai-organization-or-environment.html"
+    },
+    {
+      "title": "managing sitecoreai client credentials / managing sitecoreai client credentials.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/managing-sitecoreai-client-credentials/managing-sitecoreai-client-credentials.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/managing-sitecoreai-client-credentials/managing-sitecoreai-client-credentials.html"
+    },
+    {
+      "title": "deploy app / sitecoreai system status.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/sitecoreai-system-status.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/sitecoreai-system-status.html"
+    },
+    {
+      "title": "deploy app / the deployment log.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/the-deployment-log.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploy-app/the-deployment-log.html"
+    },
+    {
+      "title": "deploying sitecoreai / deploying sitecoreai.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploying-sitecoreai.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/deploying-sitecoreai.html"
+    },
+    {
+      "title": "deploying sitecoreai / ip allowlist for outbound traffic.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/ip-allowlist-for-outbound-traffic.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/ip-allowlist-for-outbound-traffic.html"
+    },
+    {
+      "title": "migrating content between sitecoreai environments / migrate content between sitecoreai environments.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/migrating-content-between-sitecoreai-environments/migrate-content-between-sitecoreai-environments.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/migrating-content-between-sitecoreai-environments/migrate-content-between-sitecoreai-environments.html"
+    },
+    {
+      "title": "migrating content between sitecoreai environments / migrating content between sitecoreai environments.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/migrating-content-between-sitecoreai-environments/migrating-content-between-sitecoreai-environments.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/migrating-content-between-sitecoreai-environments/migrating-content-between-sitecoreai-environments.html"
+    },
+    {
+      "title": "deploying sitecoreai / sitecore cli xm cloud plugin.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/sitecore-cli-xm-cloud-plugin.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/sitecore-cli-xm-cloud-plugin.html"
+    },
+    {
+      "title": "the sitecoreai build configuration / configure your environment.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/the-sitecoreai-build-configuration/configure-your-environment.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/the-sitecoreai-build-configuration/configure-your-environment.html"
+    },
+    {
+      "title": "the sitecoreai build configuration / the sitecoreai build configuration.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/the-sitecoreai-build-configuration/the-sitecoreai-build-configuration.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/deploying-sitecoreai/the-sitecoreai-build-configuration/the-sitecoreai-build-configuration.html"
+    },
+    {
+      "title": "development / adapt your search settings to solr availability.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/adapt-your-search-settings-to-solr-availability.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/adapt-your-search-settings-to-solr-availability.html"
+    },
+    {
+      "title": "development / configuration layers.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/configuration-layers.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/configuration-layers.html"
+    },
+    {
+      "title": "development / configuring item locking.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/configuring-item-locking.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/configuring-item-locking.html"
+    },
+    {
+      "title": "development / development.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/development.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/development.html"
+    },
+    {
+      "title": "development / rebuild search indexes.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/rebuild-search-indexes.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/rebuild-search-indexes.html"
+    },
+    {
+      "title": "development / scheduled tasks.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/scheduled-tasks.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/scheduled-tasks.html"
+    },
+    {
+      "title": "development / serialization in sitecore.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/serialization-in-sitecore.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/serialization-in-sitecore.html"
+    },
+    {
+      "title": "development / solr managed schemas.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/solr-managed-schemas.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/solr-managed-schemas.html"
+    },
+    {
+      "title": "development / specify connection timeout.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/specify-connection-timeout.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/specify-connection-timeout.html"
+    },
+    {
+      "title": "development / supporting utc.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/supporting-utc.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/supporting-utc.html"
+    },
+    {
+      "title": "development / the links table.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/the-links-table.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/the-links-table.html"
+    },
+    {
+      "title": "development / update your starter foundation code.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/update-your-starter-foundation-code.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/update-your-starter-foundation-code.html"
+    },
+    {
+      "title": "use a patch file to customize the sitecore configuration / configuration patch file examples.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/use-a-patch-file-to-customize-the-sitecore-configuration/configuration-patch-file-examples.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/use-a-patch-file-to-customize-the-sitecore-configuration/configuration-patch-file-examples.html"
+    },
+    {
+      "title": "use a patch file to customize the sitecore configuration / control a patch file setting.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/use-a-patch-file-to-customize-the-sitecore-configuration/control-a-patch-file-setting.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/use-a-patch-file-to-customize-the-sitecore-configuration/control-a-patch-file-setting.html"
+    },
+    {
+      "title": "use a patch file to customize the sitecore configuration / disable a patch file.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/use-a-patch-file-to-customize-the-sitecore-configuration/disable-a-patch-file.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/use-a-patch-file-to-customize-the-sitecore-configuration/disable-a-patch-file.html"
+    },
+    {
+      "title": "use a patch file to customize the sitecore configuration / disable blocking of svg files with javascript code.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/use-a-patch-file-to-customize-the-sitecore-configuration/disable-blocking-of-svg-files-with-javascript-code.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/use-a-patch-file-to-customize-the-sitecore-configuration/disable-blocking-of-svg-files-with-javascript-code.html"
+    },
+    {
+      "title": "use a patch file to customize the sitecore configuration / use a patch file to customize the sitecore configuration.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/use-a-patch-file-to-customize-the-sitecore-configuration/use-a-patch-file-to-customize-the-sitecore-configuration.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/use-a-patch-file-to-customize-the-sitecore-configuration/use-a-patch-file-to-customize-the-sitecore-configuration.html"
+    },
+    {
+      "title": "development / using items as resources.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/development/using-items-as-resources.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/development/using-items-as-resources.html"
+    },
+    {
+      "title": "experience edge apis / admin rest api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/admin-rest-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/admin-rest-api.html"
+    },
+    {
+      "title": "authorization and api access / authorization and api access.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/authorization-and-api-access/authorization-and-api-access.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/authorization-and-api-access/authorization-and-api-access.html"
+    },
+    {
+      "title": "authorization and api access / create a json web token for experience edge apis.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/authorization-and-api-access/create-a-json-web-token-for-experience-edge-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/authorization-and-api-access/create-a-json-web-token-for-experience-edge-apis.html"
+    },
+    {
+      "title": "authorization and api access / generate a delivery graphql api token.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/authorization-and-api-access/generate-a-delivery-graphql-api-token.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/authorization-and-api-access/generate-a-delivery-graphql-api-token.html"
+    },
+    {
+      "title": "experience edge apis / delivery graphql api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/delivery-graphql-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/delivery-graphql-api.html"
+    },
+    {
+      "title": "experience edge apis / differences between the preview and the delivery graphql apis.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/differences-between-the-preview-and-the-delivery-graphql-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/differences-between-the-preview-and-the-delivery-graphql-apis.html"
+    },
+    {
+      "title": "experience edge apis / experience edge apis.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/experience-edge-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/experience-edge-apis.html"
+    },
+    {
+      "title": "preview graphql api / preview graphql api limitations and restrictions.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/preview-graphql-api/preview-graphql-api-limitations-and-restrictions.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/preview-graphql-api/preview-graphql-api-limitations-and-restrictions.html"
+    },
+    {
+      "title": "preview graphql api / preview graphql api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/preview-graphql-api/preview-graphql-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/preview-graphql-api/preview-graphql-api.html"
+    },
+    {
+      "title": "experience edge apis / query examples for the delivery graphql api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/query-examples-for-the-delivery-graphql-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/query-examples-for-the-delivery-graphql-api.html"
+    },
+    {
+      "title": "experience edge apis / set up the graphql ides.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/set-up-the-graphql-ides.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/set-up-the-graphql-ides.html"
+    },
+    {
+      "title": "experience edge apis / the experience edge schema.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/the-experience-edge-schema.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/the-experience-edge-schema.html"
+    },
+    {
+      "title": "experience edge apis / token rest api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/token-rest-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-apis/token-rest-api.html"
+    },
+    {
+      "title": "experience edge / experience edge best practices.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-best-practices.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge-best-practices.html"
+    },
+    {
+      "title": "experience edge / experience edge.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/experience-edge.html"
+    },
+    {
+      "title": "experience edge / limitations and restrictions of experience edge.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/limitations-and-restrictions-of-experience-edge.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/limitations-and-restrictions-of-experience-edge.html"
+    },
+    {
+      "title": "publishing to experience edge / dependencies and publishing.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/dependencies-and-publishing.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/dependencies-and-publishing.html"
+    },
+    {
+      "title": "publishing to experience edge / making fields from the standard template publishable.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/making-fields-from-the-standard-template-publishable.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/making-fields-from-the-standard-template-publishable.html"
+    },
+    {
+      "title": "publishing to experience edge / publishing configuration.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/publishing-configuration.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/publishing-configuration.html"
+    },
+    {
+      "title": "publishing to experience edge / publishing failures and diagnostics.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/publishing-failures-and-diagnostics.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/publishing-failures-and-diagnostics.html"
+    },
+    {
+      "title": "publishing to experience edge / publishing to experience edge.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/publishing-to-experience-edge.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/publishing-to-experience-edge.html"
+    },
+    {
+      "title": "publishing to experience edge / the publishing process.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/the-publishing-process.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/publishing-to-experience-edge/the-publishing-process.html"
+    },
+    {
+      "title": "experience edge / the architecture of experience edge.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/the-architecture-of-experience-edge.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/the-architecture-of-experience-edge.html"
+    },
+    {
+      "title": "webhook objects / the webhook execution modes.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/webhook-objects/the-webhook-execution-modes.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/webhook-objects/the-webhook-execution-modes.html"
+    },
+    {
+      "title": "webhook objects / webhook objects.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/webhook-objects/webhook-objects.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/experience-edge/webhook-objects/webhook-objects.html"
+    },
+    {
+      "title": "front end hosting applications / deploy your front end application to netlify.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/front-end-hosting-applications/deploy-your-front-end-application-to-netlify.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/front-end-hosting-applications/deploy-your-front-end-application-to-netlify.html"
+    },
+    {
+      "title": "deploy your front end application to vercel / deploy your front end application to vercel.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/front-end-hosting-applications/deploy-your-front-end-application-to-vercel/deploy-your-front-end-application-to-vercel.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/front-end-hosting-applications/deploy-your-front-end-application-to-vercel/deploy-your-front-end-application-to-vercel.html"
+    },
+    {
+      "title": "deploy your front end application to vercel / manage a vercel connection.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/front-end-hosting-applications/deploy-your-front-end-application-to-vercel/manage-a-vercel-connection.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/front-end-hosting-applications/deploy-your-front-end-application-to-vercel/manage-a-vercel-connection.html"
+    },
+    {
+      "title": "deploy your front end application to vercel / use vercel s deployment protection for content sdk apps.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/front-end-hosting-applications/deploy-your-front-end-application-to-vercel/use-vercel-s-deployment-protection-for-content-sdk-apps.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/front-end-hosting-applications/deploy-your-front-end-application-to-vercel/use-vercel-s-deployment-protection-for-content-sdk-apps.html"
+    },
+    {
+      "title": "front end hosting applications / front end hosting applications.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/front-end-hosting-applications/front-end-hosting-applications.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/front-end-hosting-applications/front-end-hosting-applications.html"
+    },
+    {
+      "title": "getting started with sitecoreai / build your first component.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/getting-started-with-sitecoreai/build-your-first-component.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/getting-started-with-sitecoreai/build-your-first-component.html"
+    },
+    {
+      "title": "getting started with sitecoreai / create a site and a page.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/getting-started-with-sitecoreai/create-a-site-and-a-page.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/getting-started-with-sitecoreai/create-a-site-and-a-page.html"
+    },
+    {
+      "title": "getting started with sitecoreai / deploy a project and environment.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/getting-started-with-sitecoreai/deploy-a-project-and-environment.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/getting-started-with-sitecoreai/deploy-a-project-and-environment.html"
+    },
+    {
+      "title": "getting started with sitecoreai / getting started with sitecoreai.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/getting-started-with-sitecoreai/getting-started-with-sitecoreai.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/getting-started-with-sitecoreai/getting-started-with-sitecoreai.html"
+    },
+    {
+      "title": "getting started with sitecoreai / set up your local development environment.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/getting-started-with-sitecoreai/set-up-your-local-development-environment.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/getting-started-with-sitecoreai/set-up-your-local-development-environment.html"
+    },
+    {
+      "title": "introduction to framework agnostic sitecore development / advanced tooling.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/advanced-tooling.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/advanced-tooling.html"
+    },
+    {
+      "title": "introduction to framework agnostic sitecore development / analytics and personalization.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/analytics-and-personalization.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/analytics-and-personalization.html"
+    },
+    {
+      "title": "content rendering / content rendering.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/content-rendering.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/content-rendering.html"
+    },
+    {
+      "title": "content rendering / field types in rendering data.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/field-types-in-rendering-data.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/field-types-in-rendering-data.html"
+    },
+    {
+      "title": "content rendering / layout query and response.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/layout-query-and-response.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/layout-query-and-response.html"
+    },
+    {
+      "title": "content rendering / render sitecoreai content in your app.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/render-sitecoreai-content-in-your-app.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/render-sitecoreai-content-in-your-app.html"
+    },
+    {
+      "title": "content rendering / the preview and delivery graphql apis.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/the-preview-and-delivery-graphql-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/the-preview-and-delivery-graphql-apis.html"
+    },
+    {
+      "title": "content rendering / troubleshoot content rendering.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/troubleshoot-content-rendering.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/content-rendering/troubleshoot-content-rendering.html"
+    },
+    {
+      "title": "introduction to framework agnostic sitecore development / create a sitecoreai project with your own code.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/create-a-sitecoreai-project-with-your-own-code.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/create-a-sitecoreai-project-with-your-own-code.html"
+    },
+    {
+      "title": "introduction to framework agnostic sitecore development / introduction to framework agnostic sitecore development.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/introduction-to-framework-agnostic-sitecore-development.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/introduction-to-framework-agnostic-sitecore-development.html"
+    },
+    {
+      "title": "routing localization and multi sites / implement routing localization and multi sites.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/implement-routing-localization-and-multi-sites.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/implement-routing-localization-and-multi-sites.html"
+    },
+    {
+      "title": "routing localization and multi sites / locale resolution.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/locale-resolution.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/locale-resolution.html"
+    },
+    {
+      "title": "routing localization and multi sites / multisite resolution.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/multisite-resolution.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/multisite-resolution.html"
+    },
+    {
+      "title": "routing localization and multi sites / redirects.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/redirects.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/redirects.html"
+    },
+    {
+      "title": "routing localization and multi sites / routing localization and multi sites.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/routing-localization-and-multi-sites.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/routing-localization-and-multi-sites.html"
+    },
+    {
+      "title": "routing localization and multi sites / troubleshoot routing localization and multi sites.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/troubleshoot-routing-localization-and-multi-sites.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/routing-localization-and-multi-sites/troubleshoot-routing-localization-and-multi-sites.html"
+    },
+    {
+      "title": "visual editing / editing architecture.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/visual-editing/editing-architecture.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/visual-editing/editing-architecture.html"
+    },
+    {
+      "title": "visual editing / field types in editing mode.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/visual-editing/field-types-in-editing-mode.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/visual-editing/field-types-in-editing-mode.html"
+    },
+    {
+      "title": "visual editing / troubleshoot visual editing.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/visual-editing/troubleshoot-visual-editing.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/visual-editing/troubleshoot-visual-editing.html"
+    },
+    {
+      "title": "visual editing / visual editing.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/visual-editing/visual-editing.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/introduction-to-framework-agnostic-sitecore-development/visual-editing/visual-editing.html"
+    },
+    {
+      "title": "configure sitecoreai instance / configure sitecoreai instance.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/configure-sitecoreai-instance/configure-sitecoreai-instance.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/configure-sitecoreai-instance/configure-sitecoreai-instance.html"
+    },
+    {
+      "title": "configure sitecoreai instance / export the site data from the source environment.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/configure-sitecoreai-instance/export-the-site-data-from-the-source-environment.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/configure-sitecoreai-instance/export-the-site-data-from-the-source-environment.html"
+    },
+    {
+      "title": "content audit / perform a content audit.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/content-audit/perform-a-content-audit.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/content-audit/perform-a-content-audit.html"
+    },
+    {
+      "title": "migrate a site to sitecoreai / create a migration.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/create-a-migration.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/create-a-migration.html"
+    },
+    {
+      "title": "map content / map content.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/map-content/map-content.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/map-content/map-content.html"
+    },
+    {
+      "title": "migrate a site to sitecoreai / migrate a site to sitecoreai.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/migrate-a-site-to-sitecoreai.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/migrate-a-site-to-sitecoreai.html"
+    },
+    {
+      "title": "migration / begin the migration.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/migration/begin-the-migration.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/migration/begin-the-migration.html"
+    },
+    {
+      "title": "select cms / select cms.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/select-cms/select-cms.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/migrate-a-site-to-sitecoreai/select-cms/select-cms.html"
+    },
+    {
+      "title": "profile import / batch file format.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/profile-import/batch-file-format.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/profile-import/batch-file-format.html"
+    },
+    {
+      "title": "profile import / import a batch file.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/profile-import/import-a-batch-file.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/profile-import/import-a-batch-file.html"
+    },
+    {
+      "title": "profile import / profile import api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/profile-import/profile-import-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/profile-import/profile-import-api.html"
+    },
+    {
+      "title": "profile import / profile import errors and troubleshooting.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/profile-import/profile-import-errors-and-troubleshooting.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/profile-import/profile-import-errors-and-troubleshooting.html"
+    },
+    {
+      "title": "profile import / profile import.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/profile-import/profile-import.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/profile-import/profile-import.html"
+    },
+    {
+      "title": "search experiences / add a json template to a content item.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/search-experiences/add-a-json-template-to-a-content-item.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/search-experiences/add-a-json-template-to-a-content-item.html"
+    },
+    {
+      "title": "search experiences / copy the search component from the starter kit.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/search-experiences/copy-the-search-component-from-the-starter-kit.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/search-experiences/copy-the-search-component-from-the-starter-kit.html"
+    },
+    {
+      "title": "search experiences / ingestion service api.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/search-experiences/ingestion-service-api.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/search-experiences/ingestion-service-api.html"
+    },
+    {
+      "title": "search experiences / search experiences.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/search-experiences/search-experiences.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/search-experiences/search-experiences.html"
+    },
+    {
+      "title": "connect to an environment / log in to an instance with the sitecore cli.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/connect-to-an-environment/log-in-to-an-instance-with-the-sitecore-cli.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/connect-to-an-environment/log-in-to-an-instance-with-the-sitecore-cli.html"
+    },
+    {
+      "title": "sitecore command line interface / create a sitecoreai project using the sitecore cli.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/create-a-sitecoreai-project-using-the-sitecore-cli.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/create-a-sitecoreai-project-using-the-sitecore-cli.html"
+    },
+    {
+      "title": "sitecore command line interface / deploy your changes to an environment.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/deploy-your-changes-to-an-environment.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/deploy-your-changes-to-an-environment.html"
+    },
+    {
+      "title": "install and setup sitecore cli / install sitecore command line interface.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/install-and-setup-sitecore-cli/install-sitecore-command-line-interface.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/install-and-setup-sitecore-cli/install-sitecore-command-line-interface.html"
+    },
+    {
+      "title": "install and setup sitecore cli / updating default cli plugins in version 7.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/install-and-setup-sitecore-cli/updating-default-cli-plugins-in-version-7.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/install-and-setup-sitecore-cli/updating-default-cli-plugins-in-version-7.html"
+    },
+    {
+      "title": "install and setup sitecore cli / upgrade the sitecore command line interface to the latest version.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/install-and-setup-sitecore-cli/upgrade-the-sitecore-command-line-interface-to-the-latest-version.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/install-and-setup-sitecore-cli/upgrade-the-sitecore-command-line-interface-to-the-latest-version.html"
+    },
+    {
+      "title": "plugins / experience edge plugin.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/experience-edge-plugin.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/experience-edge-plugin.html"
+    },
+    {
+      "title": "plugins / extend the command line interface with nuget.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/extend-the-command-line-interface-with-nuget.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/extend-the-command-line-interface-with-nuget.html"
+    },
+    {
+      "title": "plugins / indexing plugin.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/indexing-plugin.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/indexing-plugin.html"
+    },
+    {
+      "title": "plugins / items as resources plugin.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/items-as-resources-plugin.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/items-as-resources-plugin.html"
+    },
+    {
+      "title": "plugins / plugins.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/plugins.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/plugins.html"
+    },
+    {
+      "title": "plugins / publishing plugin.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/publishing-plugin.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/publishing-plugin.html"
+    },
+    {
+      "title": "serialization plugin / create and install a sitecore content serialization package.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/serialization-plugin/create-and-install-a-sitecore-content-serialization-package.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/serialization-plugin/create-and-install-a-sitecore-content-serialization-package.html"
+    },
+    {
+      "title": "serialization plugin / serialization plugin.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/serialization-plugin/serialization-plugin.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/serialization-plugin/serialization-plugin.html"
+    },
+    {
+      "title": "serialization plugin / validate serialized content items.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/serialization-plugin/validate-serialized-content-items.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/serialization-plugin/validate-serialized-content-items.html"
+    },
+    {
+      "title": "plugins / the database cleanup plugin.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/the-database-cleanup-plugin.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/the-database-cleanup-plugin.html"
+    },
+    {
+      "title": "xm cloud plugin / install the xm cloud plugin.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/xm-cloud-plugin/install-the-xm-cloud-plugin.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/xm-cloud-plugin/install-the-xm-cloud-plugin.html"
+    },
+    {
+      "title": "xm cloud plugin / xm cloud plugin.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/xm-cloud-plugin/xm-cloud-plugin.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/plugins/xm-cloud-plugin/xm-cloud-plugin.html"
+    },
+    {
+      "title": "sitecore command line interface / prerequisites.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/prerequisites.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/prerequisites.html"
+    },
+    {
+      "title": "sitecore command line interface / publish and validate content for testing purposes using the sitecore cli.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/publish-and-validate-content-for-testing-purposes-using-the-sitecore-cli.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/publish-and-validate-content-for-testing-purposes-using-the-sitecore-cli.html"
+    },
+    {
+      "title": "sitecore cli command reference / sitecore cli command reference.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/sitecore-cli-command-reference.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/sitecore-cli-command-reference.html"
+    },
+    {
+      "title": "the cli cloud command / the cli cloud command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cli-cloud-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cli-cloud-command.html"
+    },
+    {
+      "title": "the cli cloud command / the cloud deployment command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-deployment-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-deployment-command.html"
+    },
+    {
+      "title": "the cli cloud command / the cloud editinghost command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-editinghost-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-editinghost-command.html"
+    },
+    {
+      "title": "the cli cloud command / the cloud environment command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-environment-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-environment-command.html"
+    },
+    {
+      "title": "the cli cloud command / the cloud login command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-login-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-login-command.html"
+    },
+    {
+      "title": "the cli cloud command / the cloud logout command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-logout-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-logout-command.html"
+    },
+    {
+      "title": "the cli cloud command / the cloud organization command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-organization-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-organization-command.html"
+    },
+    {
+      "title": "the cli cloud command / the cloud project command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-project-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-cloud-command/the-cloud-project-command.html"
+    },
+    {
+      "title": "sitecore cli command reference / the cli connect command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-connect-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-connect-command.html"
+    },
+    {
+      "title": "sitecore cli command reference / the cli dbcleanup command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-dbcleanup-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-dbcleanup-command.html"
+    },
+    {
+      "title": "the cli edge command / the cli edge command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-edge-command/the-cli-edge-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-edge-command/the-cli-edge-command.html"
+    },
+    {
+      "title": "the cli edge command / the edge apikey command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-edge-command/the-edge-apikey-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-edge-command/the-edge-apikey-command.html"
+    },
+    {
+      "title": "the cli edge command / the edge login command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-edge-command/the-edge-login-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-edge-command/the-edge-login-command.html"
+    },
+    {
+      "title": "the cli edge command / the edge tenant command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-edge-command/the-edge-tenant-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-edge-command/the-edge-tenant-command.html"
+    },
+    {
+      "title": "sitecore cli command reference / the cli index command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-index-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-index-command.html"
+    },
+    {
+      "title": "sitecore cli command reference / the cli itemres command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-itemres-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-itemres-command.html"
+    },
+    {
+      "title": "sitecore cli command reference / the cli login command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-login-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-login-command.html"
+    },
+    {
+      "title": "sitecore cli command reference / the cli plugin command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-plugin-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-plugin-command.html"
+    },
+    {
+      "title": "sitecore cli command reference / the cli publish command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-publish-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-publish-command.html"
+    },
+    {
+      "title": "sitecore cli command reference / the cli serialization command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-serialization-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-cli-serialization-command.html"
+    },
+    {
+      "title": "sitecore cli command reference / the environment command.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-environment-command.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-cli-command-reference/the-environment-command.html"
+    },
+    {
+      "title": "sitecore command line interface / sitecore command line interface.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-command-line-interface.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/sitecore-command-line-interface.html"
+    },
+    {
+      "title": "sitecore command line interface / synchronize items between remote and local sitecoreai instances with the sitecore cli.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/synchronize-items-between-remote-and-local-sitecoreai-instances-with-the-sitecore-cli.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-command-line-interface/synchronize-items-between-remote-and-local-sitecoreai-instances-with-the-sitecore-cli.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / add a field type converter.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/add-a-field-type-converter.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/add-a-field-type-converter.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / add transformations to public links for dynamic asset renditions.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/add-transformations-to-public-links-for-dynamic-asset-renditions.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/add-transformations-to-public-links-for-dynamic-asset-renditions.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / change the schedule for the idtable cleanup task for cmp.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/change-the-schedule-for-the-idtable-cleanup-task-for-cmp.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/change-the-schedule-for-the-idtable-cleanup-task-for-cmp.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / change the taxonomy provider for cmp.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/change-the-taxonomy-provider-for-cmp.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/change-the-taxonomy-provider-for-cmp.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / changing mapping delimiters.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/changing-mapping-delimiters.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/changing-mapping-delimiters.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / configure the image tag attribute mapping in sitecore.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/configure-the-image-tag-attribute-mapping-in-sitecore.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/configure-the-image-tag-attribute-mapping-in-sitecore.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / configuring sitecore connect for content hub.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / create a sitecore content hub action.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/create-a-sitecore-content-hub-action.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/create-a-sitecore-content-hub-action.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / create a trigger.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/create-a-trigger.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/create-a-trigger.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / create a user in sitecore content hub for scch.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/create-a-user-in-sitecore-content-hub-for-scch.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/create-a-user-in-sitecore-content-hub-for-scch.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / rebuild the search indexes.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/rebuild-the-search-indexes.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/rebuild-the-search-indexes.html"
+    },
+    {
+      "title": "configuring sitecore connect for content hub / walkthrough  configuring items for content import.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/walkthrough--configuring-items-for-content-import.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/configuring-sitecore-connect-for-content-hub/walkthrough--configuring-items-for-content-import.html"
+    },
+    {
+      "title": "sitecore connect for content hub   cmp / cmp items in the content editor.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub---cmp/cmp-items-in-the-content-editor.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub---cmp/cmp-items-in-the-content-editor.html"
+    },
+    {
+      "title": "sitecore connect for content hub   cmp / customized entity types in content hub.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub---cmp/customized-entity-types-in-content-hub.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub---cmp/customized-entity-types-in-content-hub.html"
+    },
+    {
+      "title": "sitecore connect for content hub   cmp / sitecore connect for content hub   cmp.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub---cmp/sitecore-connect-for-content-hub---cmp.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub---cmp/sitecore-connect-for-content-hub---cmp.html"
+    },
+    {
+      "title": "sitecore connect for content hub   cmp / the tag field mapping settings.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub---cmp/the-tag-field-mapping-settings.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub---cmp/the-tag-field-mapping-settings.html"
+    },
+    {
+      "title": "sitecore connect for content hub architecture / sitecore connect for content hub   dam.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub---dam.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub---dam.html"
+    },
+    {
+      "title": "sitecore connect for content hub architecture / sitecore connect for content hub architecture.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub-architecture.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub-architecture/sitecore-connect-for-content-hub-architecture.html"
+    },
+    {
+      "title": "sitecore connect for content hub / sitecore connect for content hub.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/sitecore-connect-for-content-hub.html"
+    },
+    {
+      "title": "using sitecore connect for content hub / available operations.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/available-operations.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/available-operations.html"
+    },
+    {
+      "title": "using sitecore connect for content hub / display assets.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/display-assets.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/display-assets.html"
+    },
+    {
+      "title": "using sitecore connect for content hub / prepare a cmp item for publishing.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/prepare-a-cmp-item-for-publishing.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/prepare-a-cmp-item-for-publishing.html"
+    },
+    {
+      "title": "using sitecore connect for content hub / synchronize dam asset changes.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/synchronize-dam-asset-changes.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/synchronize-dam-asset-changes.html"
+    },
+    {
+      "title": "using sitecore connect for content hub / troubleshooting scch.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/troubleshooting-scch.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/troubleshooting-scch.html"
+    },
+    {
+      "title": "using sitecore connect for content hub / using sitecore connect for content hub.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub/using-sitecore-connect-for-content-hub.html"
+    },
+    {
+      "title": "configuration / excluded fields.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/configuration/excluded-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/configuration/excluded-fields.html"
+    },
+    {
+      "title": "configuration / metadata pulling.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/configuration/metadata-pulling.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/configuration/metadata-pulling.html"
+    },
+    {
+      "title": "configuration / sitecore content serialization configuration reference.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/configuration/sitecore-content-serialization-configuration-reference.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/configuration/sitecore-content-serialization-configuration-reference.html"
+    },
+    {
+      "title": "sitecore content serialization / create a sitecore content serialization module.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/create-a-sitecore-content-serialization-module.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/create-a-sitecore-content-serialization-module.html"
+    },
+    {
+      "title": "serialization paths / change the relative serialization path.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serialization-paths/change-the-relative-serialization-path.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serialization-paths/change-the-relative-serialization-path.html"
+    },
+    {
+      "title": "serialization paths / configure the maximum relative item path length.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serialization-paths/configure-the-maximum-relative-item-path-length.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serialization-paths/configure-the-maximum-relative-item-path-length.html"
+    },
+    {
+      "title": "serialization paths / relative serialization path hashing and aliasing.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serialization-paths/relative-serialization-path-hashing-and-aliasing.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serialization-paths/relative-serialization-path-hashing-and-aliasing.html"
+    },
+    {
+      "title": "serializing roles and users / configure role serialization.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serializing-roles-and-users/configure-role-serialization.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serializing-roles-and-users/configure-role-serialization.html"
+    },
+    {
+      "title": "serializing roles and users / user serialization.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serializing-roles-and-users/user-serialization.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serializing-roles-and-users/user-serialization.html"
+    },
+    {
+      "title": "sitecore content serialization / serializing with nuget and npm.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serializing-with-nuget-and-npm.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/serializing-with-nuget-and-npm.html"
+    },
+    {
+      "title": "sitecore content serialization / set up content serialization.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/set-up-content-serialization.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/set-up-content-serialization.html"
+    },
+    {
+      "title": "sitecore content serialization / sitecore content serialization.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/sitecore-content-serialization.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecore-content-serialization/sitecore-content-serialization.html"
+    },
+    {
+      "title": "sitecoreai / sitecoreai glossary.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecoreai-glossary.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecoreai-glossary.html"
+    },
+    {
+      "title": "sitecoreai / content authoring concepts for developers new to sitecore.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecoreai/content-authoring-concepts-for-developers-new-to-sitecore.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecoreai/content-authoring-concepts-for-developers-new-to-sitecore.html"
+    },
+    {
+      "title": "sitecoreai / extending sitecoreai.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecoreai/extending-sitecoreai.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecoreai/extending-sitecoreai.html"
+    },
+    {
+      "title": "sitecoreai / limitations and restrictions.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecoreai/limitations-and-restrictions.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecoreai/limitations-and-restrictions.html"
+    },
+    {
+      "title": "sitecoreai / sitecoreai.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecoreai/sitecoreai.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/sitecoreai/sitecoreai.html"
+    },
+    {
+      "title": "log in to sitecoreai / change or reset your sitecore password.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/log-in-to-sitecoreai/change-or-reset-your-sitecore-password.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/log-in-to-sitecoreai/change-or-reset-your-sitecore-password.html"
+    },
+    {
+      "title": "log in to sitecoreai / log in to sitecoreai.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/log-in-to-sitecoreai/log-in-to-sitecoreai.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/log-in-to-sitecoreai/log-in-to-sitecoreai.html"
+    },
+    {
+      "title": "sitecoreai security / security and item buckets.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/sitecoreai-security/security-and-item-buckets.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/sitecoreai-security/security-and-item-buckets.html"
+    },
+    {
+      "title": "sitecoreai security / sitecoreai security.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/sitecoreai-security/sitecoreai-security.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/sitecoreai-security/sitecoreai-security.html"
+    },
+    {
+      "title": "sitecoreai security / the history table and the history engine.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/sitecoreai-security/the-history-table-and-the-history-engine.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/sitecoreai-security/the-history-table-and-the-history-engine.html"
+    },
+    {
+      "title": "sitecoreai security / the security tools.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/sitecoreai-security/the-security-tools.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/sitecoreai-security/the-security-tools.html"
+    },
+    {
+      "title": "the access rights / assign access rights to a security account.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/the-access-rights/assign-access-rights-to-a-security-account.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/the-access-rights/assign-access-rights-to-a-security-account.html"
+    },
+    {
+      "title": "the access rights / assigning access rights.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/the-access-rights/assigning-access-rights.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/the-access-rights/assigning-access-rights.html"
+    },
+    {
+      "title": "the access rights / the access rights.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/the-access-rights/the-access-rights.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/the-access-rights/the-access-rights.html"
+    },
+    {
+      "title": "the access rights / the inheritance access right.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/the-access-rights/the-inheritance-access-right.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/the-access-rights/the-inheritance-access-right.html"
+    },
+    {
+      "title": "the access rights / view the access rights of a security account.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/the-access-rights/view-the-access-rights-of-a-security-account.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/the-access-rights/view-the-access-rights-of-a-security-account.html"
+    },
+    {
+      "title": "user security / user security.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/user-security.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/user-security.html"
+    },
+    {
+      "title": "users roles and domains / add a user to a role.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/add-a-user-to-a-role.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/add-a-user-to-a-role.html"
+    },
+    {
+      "title": "users roles and domains / add or remove a security account from a role.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/add-or-remove-a-security-account-from-a-role.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/add-or-remove-a-security-account-from-a-role.html"
+    },
+    {
+      "title": "users roles and domains / assign sitecoreai roles with claims mapping.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/assign-sitecoreai-roles-with-claims-mapping.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/assign-sitecoreai-roles-with-claims-mapping.html"
+    },
+    {
+      "title": "users roles and domains / create and edit a security domain.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/create-and-edit-a-security-domain.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/create-and-edit-a-security-domain.html"
+    },
+    {
+      "title": "users roles and domains / create and set up a role.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/create-and-set-up-a-role.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/create-and-set-up-a-role.html"
+    },
+    {
+      "title": "users roles and domains / creating users in sitecoreai.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/creating-users-in-sitecoreai.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/creating-users-in-sitecoreai.html"
+    },
+    {
+      "title": "users roles and domains / edit and manage a user account.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/edit-and-manage-a-user-account.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/edit-and-manage-a-user-account.html"
+    },
+    {
+      "title": "users roles and domains / security domains.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/security-domains.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/security-domains.html"
+    },
+    {
+      "title": "users roles and domains / the security roles.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/the-security-roles.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/the-security-roles.html"
+    },
+    {
+      "title": "users roles and domains / the user accounts.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/the-user-accounts.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/the-user-accounts.html"
+    },
+    {
+      "title": "users roles and domains / users roles and domains.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/users-roles-and-domains.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/user-security/users-roles-and-domains/users-roles-and-domains.html"
+    },
+    {
+      "title": "using docker for full stack development / connect sitecoreai page builder to your local xm instance.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/using-docker-for-full-stack-development/connect-sitecoreai-page-builder-to-your-local-xm-instance.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/using-docker-for-full-stack-development/connect-sitecoreai-page-builder-to-your-local-xm-instance.html"
+    },
+    {
+      "title": "using docker for full stack development / preparing to run the foundation template locally.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/using-docker-for-full-stack-development/preparing-to-run-the-foundation-template-locally.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/using-docker-for-full-stack-development/preparing-to-run-the-foundation-template-locally.html"
+    },
+    {
+      "title": "using docker for full stack development / set up your full stack sitecoreai local development environment.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/using-docker-for-full-stack-development/set-up-your-full-stack-sitecoreai-local-development-environment.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/using-docker-for-full-stack-development/set-up-your-full-stack-sitecoreai-local-development-environment.html"
+    },
+    {
+      "title": "using docker for full stack development / using docker for full stack development.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/using-docker-for-full-stack-development/using-docker-for-full-stack-development.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/using-docker-for-full-stack-development/using-docker-for-full-stack-development.html"
+    }
+  ],
+  "referenceIssues": []
+}

@@ -102,6 +102,18 @@
       "fetchedAt": "2026-10-18T22:21:47.119Z",
       "track": "rolling-url",
       "catalogSha256": "4423c761538946b22fa29dc9434c19dc166af45d752059e595351b03f3222dba"
+    },
+    "sitecoreai-docs": {
+      "revision": "dd09cf3c81ad51d22f936f2bc442ca6c0af733b3db96cea5e8b510d03654732e",
+      "fetchedAt": "2026-10-18T23:49:39.678Z",
+      "track": "rolling-url",
+      "catalogSha256": "6a9b33d44d60198831790c5864df422f9de5631e430408f60c89f5a0d6596b50"
+    },
+    "sitecore-xp-docs": {
+      "revision": "08b5fa1d9b1bdcd8dbfc634f4b626e214b12eb21a70f96dcec5c7b86c0f07ff1",
+      "fetchedAt": "2026-10-18T23:49:40.708Z",
+      "track": "rolling-url",
+      "catalogSha256": "dc1f723a4191d275a1bbe1afd0ac3206d2f24494f11543789c88c3362039216d"
     }
   },
   "toolchain": {
