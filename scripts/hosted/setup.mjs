@@ -16,7 +16,7 @@ function PathEntry(parent,name){const file=path.join(parent,name),stat=fs.lstatS
 const publicConfig=json(at('brain.config.json')),version=json(at('official/sources.lock.json')).toolchain.gitleaks.version;
 if(!/^\d+\.\d+\.\d+$/.test(version))throw new Error('Invalid pinned scanner version');
 const gh=spawnSync('which',['gh'],{encoding:'utf8'}).stdout.trim();if(!path.isAbsolute(gh))throw new Error('GitHub CLI unavailable');
-const profile={official:{...publicConfig.official,allowUnavailableHistoricalCache:true},maintenance:{...publicConfig.maintenance,backupEnabled:false},clientTerms:[],clientAliases:[],harvest:{...publicConfig.harvest,projectPatterns:[]},authorities:publicConfig.authorities||[],toolchain:{node:process.execPath,gh,tar:'/usr/bin/tar'}};
+const profile={official:{...publicConfig.official,allowUnavailableHistoricalCache:true},maintenance:{...publicConfig.maintenance},clientTerms:[],clientAliases:[],harvest:{...publicConfig.harvest,projectPatterns:[]},authorities:publicConfig.authorities||[],toolchain:{node:process.execPath,gh,tar:'/usr/bin/tar'}};
 writeJSON(at('brain.config.local.json'),profile,0o600);
 const base=`https://github.com/gitleaks/gitleaks/releases/download/v${version}/`,name=`gitleaks_${version}_${process.platform}_${process.arch}.tar.gz`,hosts=['github.com','release-assets.githubusercontent.com','objects.githubusercontent.com'];
 const [bundle,checksums]=await Promise.all([download(base+name,{hosts}),download(base+`gitleaks_${version}_checksums.txt`,{hosts,maxBytes:1024*1024})]);

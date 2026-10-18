@@ -14,7 +14,6 @@ import {staleGuidance} from './lib/guidance.mjs';
 import {checkLinks,linkSummary} from './lib/link-health.mjs';
 import {maintenanceStatus,runMaintenance,recordPublication} from './lib/maintenance.mjs';
 import {cleanExcerptCache} from './lib/cache.mjs';
-import {createBackup,inspectBackup,backupSummary,configureCloudBackup,pendingCloudBackups,recordCloudBackup} from './lib/backup.mjs';
 
 const help=`Personal brain — explicit, local knowledge and approved vendor sources
 
@@ -38,13 +37,6 @@ node scripts/brain.mjs maintenance status
 node scripts/brain.mjs maintenance run [--dry-run]
 node scripts/brain.mjs maintenance cleanup [--yes]
 node scripts/brain.mjs maintenance publication --phase started|completed|failed [--run-id <id>] [--outcome published|unchanged] [--pr <number>] [--trigger manual|scheduled-agent]
-node scripts/brain.mjs backup status
-node scripts/brain.mjs backup create [--directory <path>] [--dry-run]
-node scripts/brain.mjs backup verify --file <archive> [--key-file <key>]
-node scripts/brain.mjs backup restore --file <archive> --to <empty-directory> [--key-file <key>] [--yes]
-node scripts/brain.mjs backup configure-cloud --folder-id <id> --folder-url <verified-url>
-node scripts/brain.mjs backup pending [--limit 1]
-node scripts/brain.mjs backup record-cloud --file <archive> --receipt <private-provider-json>
 node scripts/brain.mjs official sync [source-id...] [--seed]
 node scripts/brain.mjs official check
 node scripts/brain.mjs official recatalog
@@ -64,11 +56,11 @@ Tests and dedicated QA are deferred for v1.
 
 try {
   const {positional,flags}=args(process.argv.slice(2)),[command,subcommand,...rest]=positional;
-  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],harvest:['dry-run','rehash'],capture:['stdin','domain'],integration:['project','yes','dry-run'],inbox:['domain','all','file','approved-sha256','as'],curation:['worktree','pr','limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],backup:['directory','file','key-file','to','yes','dry-run','folder-id','folder-url','limit','receipt'],official:['seed'],skills:['project','workspace','recommended','yes','dry-run','copy'],check:['staged'],'scheduled-run':[]};
+  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],harvest:['dry-run','rehash'],capture:['stdin','domain'],integration:['project','yes','dry-run'],inbox:['domain','all','file','approved-sha256','as'],curation:['worktree','pr','limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],official:['seed'],skills:['project','workspace','recommended','yes','dry-run','copy'],check:['staged'],'scheduled-run':[]};
   if(!command||command==='help'||flags.help){console.log(help);process.exit(0);}
   if(!Object.hasOwn(allowed,command))throw new Error('Unknown command. Use --help.');
   for(const key of Object.keys(flags))if(!allowed[command].includes(key))throw new Error(`Unsupported option --${key} for ${command}`);
-  const mutating=command==='lookup'&&flags.fetch||command==='curation'||command==='scheduled-run'||command==='capture'||command==='integration'&&subcommand!=='status'&&flags.yes&&!flags['dry-run']||command==='harvest'&&!flags['dry-run']||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='run'&&!flags['dry-run']||subcommand==='cleanup'&&flags.yes)||command==='backup'&&(subcommand==='create'&&!flags['dry-run']||subcommand==='restore'&&flags.yes||['configure-cloud','record-cloud'].includes(subcommand))||command==='inbox'&&['propose','apply','resolve'].includes(subcommand)||command==='official'&&['sync','rollback','restore','recatalog'].includes(subcommand)||command==='skills'&&subcommand!=='suggest'&&flags.yes&&!flags['dry-run'];
+  const mutating=command==='lookup'&&flags.fetch||command==='curation'||command==='scheduled-run'||command==='capture'||command==='integration'&&subcommand!=='status'&&flags.yes&&!flags['dry-run']||command==='harvest'&&!flags['dry-run']||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='run'&&!flags['dry-run']||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['propose','apply','resolve'].includes(subcommand)||command==='official'&&['sync','rollback','restore','recatalog'].includes(subcommand)||command==='skills'&&subcommand!=='suggest'&&flags.yes&&!flags['dry-run'];
   async function execute() {
     if(mutating)inbox.recoverProposal();
     if(command==='lookup')return lookup({query:flags.query,domain:flags.domain,limit:flags.limit??5,fetch:!!flags.fetch,project:flags.project,workspace:flags.workspace,versions:flags.versions});
@@ -97,15 +89,6 @@ try {
       if(subcommand==='run')return runMaintenance({dryRun:!!flags['dry-run']});
       if(subcommand==='cleanup')return cleanExcerptCache({yes:!!flags.yes});
       if(subcommand==='publication')return recordPublication({phase:flags.phase,runId:flags['run-id'],outcome:flags.outcome,pr:flags.pr,trigger:flags.trigger||'manual'});
-    }
-    if(command==='backup'){
-      if(subcommand==='status')return backupSummary();
-      if(subcommand==='create')return createBackup({directory:flags.directory,dryRun:!!flags['dry-run']});
-      if(subcommand==='verify')return inspectBackup(flags.file,{keyFile:flags['key-file']});
-      if(subcommand==='restore'){if(!flags.to)throw new Error('--to is required');return inspectBackup(flags.file,{keyFile:flags['key-file'],restoreTo:flags.to,yes:!!flags.yes});}
-      if(subcommand==='configure-cloud')return configureCloudBackup(flags['folder-id'],flags['folder-url']);
-      if(subcommand==='pending')return pendingCloudBackups({limit:flags.limit??1});
-      if(subcommand==='record-cloud')return recordCloudBackup(flags.file,flags.receipt);
     }
     if(command==='official'){
       if(subcommand==='sync')return official.sync({seed:!!flags.seed,ids:rest.length?rest:null});

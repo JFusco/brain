@@ -4,7 +4,6 @@ import {at,ROOT,config,readJSON,writeJSON,now,sha} from './core.mjs';
 import {staleGuidance} from './guidance.mjs';
 import {checkLinks,linkSummary} from './link-health.mjs';
 import {cleanExcerptCache} from './cache.mjs';
-import {createBackup,backupSummary,pruneBackups} from './backup.mjs';
 import {api} from './network.mjs';
 
 const overdue=(value,hours)=>!value||!Number.isFinite(Date.parse(value))||Date.now()-Date.parse(value)>hours*3600000;
@@ -24,16 +23,13 @@ export function maintenanceStatus() {
   if(publication.lastOutcome==='failed')errors.push('The latest publication attempt failed');
   if(!hosted&&publication.lastSuccess&&overdue(publication.lastSuccess,grace))errors.push('Publication has no recent successful run');
   if(!publication.lastSuccess)warnings.push('Awaiting the first recorded publication run; configuration is not unattended execution proof');
-  const backup=backupSummary();
-  if(backup.automaticEnabled&&(!backup.lastSuccess||overdue(backup.lastSuccess,grace)||backup.lastFailure))errors.push('A current verified private-state backup is missing or failing');
-  if(backup.automaticEnabled&&backup.localOnly)warnings.push(backup.cloudConfigured?'The latest encrypted backup awaits Google Drive upload/readback':'Backups are local; an off-device copy has not been verified');
   const links=linkSummary();
   if(!hosted&&(!links.lastRun||overdue(links.lastRun,grace)))warnings.push('Link sampling has no recent run');
   if(!hosted&&(links.counts.dead||links.counts['suspected-dead']))warnings.push('Link sampling found dead or potentially dead destinations');
   if(!hosted&&(links.counts.restricted||links.counts['rate-limited']))warnings.push('Some official destinations are restricted or rate-limited');
   if(!hosted&&['transient-error','unavailable','blocked-redirect','redirect-loop','invalid-redirect'].some(state=>links.counts[state]))warnings.push('Link sampling has unresolved network, availability, or redirect failures');
   const guidance=staleGuidance({limit:12});if(guidance.total)warnings.push('Curated guidance is due for source/claim revalidation');
-  return {ok:!errors.length,checkedAt:now(),errors,warnings,references:{backend:hosted?'github-actions':'local',statusURL:hosted?'https://github.com/JFusco/brain/actions/workflows/brain-maintenance.yml':null,notice:hosted?'Local source/link observations are historical; inspect the hosted run and verification for current status. Local ok does not establish hosted success.':null},collection:{lastAttempt:schedule.lastAttempt||schedule.lastRun||null,lastSuccess:lastCollectionSuccess||null,failures:schedule.lastResult?.failures?.length||0},sources,publication:{lastAttempt:publication.lastAttempt||null,lastSuccess:publication.lastSuccess||null,lastOutcome:publication.lastOutcome||null,lastPr:publication.lastPr||null,activeRun:publication.activeRun||null,trigger:publication.trigger||null},maintenance:{lastAttempt:maintenance.lastAttempt||null,lastSuccess:maintenance.lastSuccess||null,failures:maintenance.failures||[]},links,guidance:{due:guidance.total},backup,notice:'Local jobs require this Mac and their host app. Agent-reported publication records distinguish manual from scheduled invocation; they are not independent scheduler attestations. Missed-run status is evaluated when checked.'};
+  return {ok:!errors.length,checkedAt:now(),errors,warnings,references:{backend:hosted?'github-actions':'local',statusURL:hosted?'https://github.com/JFusco/brain/actions/workflows/brain-maintenance.yml':null,notice:hosted?'Local source/link observations are historical; inspect the hosted run and verification for current status. Local ok does not establish hosted success.':null},collection:{lastAttempt:schedule.lastAttempt||schedule.lastRun||null,lastSuccess:lastCollectionSuccess||null,failures:schedule.lastResult?.failures?.length||0},sources,publication:{lastAttempt:publication.lastAttempt||null,lastSuccess:publication.lastSuccess||null,lastOutcome:publication.lastOutcome||null,lastPr:publication.lastPr||null,activeRun:publication.activeRun||null,trigger:publication.trigger||null},maintenance:{lastAttempt:maintenance.lastAttempt||null,lastSuccess:maintenance.lastSuccess||null,failures:maintenance.failures||[]},links,guidance:{due:guidance.total},notice:'Local jobs require this Mac and their host app. Agent-reported publication records distinguish manual from scheduled invocation; they are not independent scheduler attestations. Missed-run status is evaluated when checked.'};
 }
 
 export async function recordPublication({phase,runId,outcome,pr,trigger='manual'}={}) {
@@ -64,8 +60,7 @@ export async function recordPublication({phase,runId,outcome,pr,trigger='manual'
 }
 
 export async function runMaintenance({dryRun=false,dueOnly=true}={}) {
-  const automaticBackups=config().maintenance?.backupEnabled===true,disabledBackup={skipped:true,reason:'Automatic backups are disabled'};
-  if(dryRun)return {dryRun:true,guidance:staleGuidance({limit:12}),cache:cleanExcerptCache(),backup:automaticBackups?await createBackup({dryRun:true}):disabledBackup,status:maintenanceStatus()};
+  if(dryRun)return {dryRun:true,guidance:staleGuidance({limit:12}),cache:cleanExcerptCache(),status:maintenanceStatus()};
   const state=readJSON(at('.state/maintenance.json'),{}),result={failures:[]};state.lastAttempt=now();writeJSON(at('.state/maintenance.json'),state,0o600);
   result.guidance=staleGuidance({limit:100,write:true});
   try{result.cache=cleanExcerptCache({yes:true});}catch{result.failures.push({operation:'cache',reason:'Managed excerpt cleanup failed; unverified files preserved'});}
@@ -73,11 +68,6 @@ export async function runMaintenance({dryRun=false,dueOnly=true}={}) {
   else if(!dueOnly||overdue(state.lastLinkAttempt,20)){
     try{result.links=await checkLinks();state.lastLinkAttempt=now();}catch{result.failures.push({operation:'links',reason:'Bounded link sampling failed; previous evidence retained'});}
   }
-  if(automaticBackups)try{
-    const backup=await createBackup({dueOnly});result.backup={skipped:!!backup.skipped,verified:!!backup.verified,files:backup.files||null};
-    result.backupRetention=await pruneBackups();
-  }catch{result.failures.push({operation:'backup',reason:'Encrypted backup failed; previous verified archives retained'});}
-  else result.backup=disabledBackup;
   state.lastRun=now();state.failures=result.failures;if(!result.failures.length)state.lastSuccess=now();
   writeJSON(at('.state/maintenance.json'),state,0o600);
   const current=maintenanceStatus();

@@ -36,15 +36,11 @@ Skill installations are project-scoped and explicit. Suggest first, then use the
 
 ## Maintenance and recovery
 
-Official-reference maintenance is owned by the trusted default-branch [GitHub-hosted workflow](wiki/topics/hosted-maintenance.md), including bounded warning investigation, one checked publication PR and a fresh dependent verifier. Private collection/curation stays local; never upload inbox, client configuration, sessions, raw memories, keys or private-state backups. The hosted investigator has read credentials only and returns data to the guarded writer. Historical cached gaps are an explicit fresh-runner coverage limit; active/available-byte and strict local integrity checks remain enabled.
+Official-reference maintenance is owned by the trusted default-branch [GitHub-hosted workflow](wiki/topics/hosted-maintenance.md), including bounded warning investigation, one checked publication PR and a fresh dependent verifier. Private collection/curation stays local; never upload inbox, client configuration, sessions, raw memories or keys. The hosted investigator has read credentials only and returns data to the guarded writer. Historical cached gaps are an explicit fresh-runner coverage limit; active/available-byte and strict local integrity checks remain enabled.
 
 For active official-link warnings or registered-source access failures, follow [daily link warning investigation](wiki/topics/link-warning-investigation.md). Investigate up to 12 new/due warning URLs per publisher run, persist private evidence/dispositions and semantic notification fingerprints, and repair verified existing-reference routing through the same single issue-linked PR. Only the runbook's pointer and existing-source routing fields are authorized; no new registrations, hosts, policies or code. Keep real unresolved warnings visible, respect backoff and preserve history; unchanged non-actionable observations do not justify duplicate issues or alerts.
 
 Run bounded due-time `maintenance run` and inspect `maintenance status`. Record publication start/completion/failure with the actual trigger and active run ID; a configured schedule is not proof of execution. Preserve restricted, transient, failed, and partial evidence. Link sampling is bounded coverage, never a claim that every catalog link was checked.
-
-Automatic backups and Drive uploads are disabled at Joe’s request. Keep `maintenance.backupEnabled` false and skip backup requirements in routine status/verification; preserve existing artifacts and keys. Manual backup/recovery tools require an explicitly scoped request.
-
-Backups encrypt eligible private state and verify authentication and file checksums before success. Keep the recovery key separate; never print, commit, or upload it. Upload only verified ciphertext to the explicitly authorized Drive folder and record observed metadata; never change sharing or delete cloud files. Do not retry an approval-rejected upload without the required explicit user authorization. Recovery uses an empty private destination and never overwrites active state. Cleanup removes only unchanged owned cache/backup files; preserve modified, unowned, historical, and failed evidence.
 
 ## Commit message standard
 
