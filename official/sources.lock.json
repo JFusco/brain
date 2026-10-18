@@ -3976,10 +3976,10 @@
     },
     "contentful-skills": {
       "id": "contentful-skills",
-      "revision": "27a5172887a9d32c1753e28369c8bd4e3c140d19",
-      "snapshot": "27a5172887a9-1427297e432f",
+      "revision": "1e40a4c0e841faa5e7f1146a70c5eb605c7802d0",
+      "snapshot": "1e40a4c0e841-f270b5c6c7a2",
       "repository": "contentful/skills",
-      "url": "https://codeload.github.com/contentful/skills/tar.gz/27a5172887a9d32c1753e28369c8bd4e3c140d19",
+      "url": "https://codeload.github.com/contentful/skills/tar.gz/1e40a4c0e841faa5e7f1146a70c5eb605c7802d0",
       "track": "default-branch",
       "mode": "snapshot",
       "license": "MIT",
@@ -4020,7 +4020,7 @@
         },
         {
           "path": "skills/contentful-api/package.json",
-          "sha256": "4e1e24f146b21448b53bee6835d8951c272c8838ceb9326aaf0c2ac7ec3ca852",
+          "sha256": "7136a9925f0e70bee21195e8bc0bd79fd9fae17c04b3f26f4558cfb244a94009",
           "bytes": 258,
           "cached": false
         },
@@ -4176,7 +4176,7 @@
         },
         {
           "path": "skills/contentful-env-analysis/package.json",
-          "sha256": "7a7b37fdaf7c113470b12e73e0fb6144f3e7e9b48383ff2066f9ce11e0e7a865",
+          "sha256": "555a227bf7640ebf26ea4a3f4fc6431801d4201c8bb97b6c714a435c9fcb3500",
           "bytes": 388,
           "cached": false
         },
@@ -4212,7 +4212,7 @@
         },
         {
           "path": "skills/contentful-guide/package.json",
-          "sha256": "5e66d8e94bab0761f6161dd4f441e9782ef04b218a06e9efc91d10e43d7b0a28",
+          "sha256": "5da0f34bf3de517198edac4767da0e975e4bedda298fc47e1e36bc0df281b51f",
           "bytes": 234,
           "cached": false
         },
@@ -4242,7 +4242,7 @@
         },
         {
           "path": "skills/contentful-migration/package.json",
-          "sha256": "31e45d190d772961b109df8de2aa4bb14d5c72bde56b6de4719a75585b719c21",
+          "sha256": "13ec93406207aad241a3a4892e4659ddea30e676b0bf988161cc15c2e5caefdb",
           "bytes": 228,
           "cached": false
         },
@@ -4272,7 +4272,7 @@
         },
         {
           "path": "skills/contentful-nextjs/package.json",
-          "sha256": "ac4c87e115845dc95d4cf63b789dd88fa7cb118aa65d218605753608e1b46142",
+          "sha256": "4b46842ef03e9dae11f54c1d989829a6b1d56fa14ef860452083ad2be54ceee7",
           "bytes": 232,
           "cached": false
         },
@@ -4302,13 +4302,13 @@
         },
         {
           "path": "skills/contentful-personalization/bin/contentful-personalization.mjs",
-          "sha256": "f7c5e7df77d49a5ef6a1043155d5207a6af18634deb707d2254d595cab235590",
+          "sha256": "417d2a1ec59628879e78ba261a0de4409ba14d8ca411eaf51a719e40be9a04a9",
           "bytes": 988592,
           "cached": false
         },
         {
           "path": "skills/contentful-personalization/package.json",
-          "sha256": "84f3d1b02e19e756a915f8744511655295f6b604ae2deed96137173a286d474b",
+          "sha256": "b8447704d8086a7557f3293253e4768684afd4b666bc92298c0c934833bc91aa",
           "bytes": 338,
           "cached": false
         },
@@ -4476,7 +4476,7 @@
         },
         {
           "path": "skills/contentful-personalization/SKILL.md",
-          "sha256": "6e5634e4532d5633f4d42cb2f2d76f209fec9342491b210b35d4297ba0dd280b",
+          "sha256": "74b47706957bce2378dd9a3c5ca9d484e03e4d581b98589a98e4684f60a33e1a",
           "bytes": 12137,
           "cached": false
         }
@@ -4584,8 +4584,12 @@
         "cms/contentful"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-17T06:33:49.876Z",
+      "fetchedAt": "2026-10-18T06:32:41.246Z",
       "history": [
+        {
+          "snapshot": "27a5172887a9-1427297e432f",
+          "revision": "27a5172887a9d32c1753e28369c8bd4e3c140d19"
+        },
         {
           "snapshot": "9100f17361fe-7a304d82206b",
           "revision": "9100f17361fe0ed074b9ecd84aea9b210447e463"
@@ -5129,8 +5133,8 @@
     },
     "contentstack-docs": {
       "id": "contentstack-docs",
-      "revision": "1c380c3b5dd201ae8b6ff7ac72a9365307757dac8d876fcfb0e84cf3b20a596f",
-      "snapshot": "1c380c3b5dd2-e863a028b99c",
+      "revision": "27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d",
+      "snapshot": "27fb06e5aabe-63e2d1992231",
       "repository": null,
       "url": "https://www.contentstack.com/sitemap.xml",
       "track": "rolling-url",
@@ -5148,14 +5152,14 @@
         },
         {
           "path": "INDEX.md",
-          "sha256": "814a2ce984608266e953ea69161a1dda3674ec9de787f88b9ba432983495846c",
-          "bytes": 269899,
+          "sha256": "7e567d8c50dda7e9ab22f3b19b1dc46b13b34c46ffd2e3a49d774d8c51b89091",
+          "bytes": 270022,
           "cached": false
         },
         {
           "path": "PAGES.json",
-          "sha256": "1c380c3b5dd201ae8b6ff7ac72a9365307757dac8d876fcfb0e84cf3b20a596f",
-          "bytes": 593387,
+          "sha256": "27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d",
+          "bytes": 593650,
           "cached": false
         }
       ],
@@ -5165,8 +5169,12 @@
         "cms/contentstack"
       ],
       "seedParity": null,
-      "fetchedAt": "2026-10-16T01:29:35.190Z",
+      "fetchedAt": "2026-10-18T06:32:53.753Z",
       "history": [
+        {
+          "snapshot": "1c380c3b5dd2-e863a028b99c",
+          "revision": "1c380c3b5dd201ae8b6ff7ac72a9365307757dac8d876fcfb0e84cf3b20a596f"
+        },
         {
           "snapshot": "e7518b89c9b6-8bc13c628478",
           "revision": "e7518b89c9b6ed798a8b5a898258a51b90bb6bda3e5feb00d1f1a79a60213a03"

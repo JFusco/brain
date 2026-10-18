@@ -21,8 +21,8 @@ No approved learnings yet.
   - [framework](../../../official/snapshots/contentstack-kickstart/0c9aca728b71-6c624dbeb470/skills/framework/SKILL.md) — reference only.
   - [testing](../../../official/snapshots/contentstack-kickstart/0c9aca728b71-6c624dbeb470/skills/testing/SKILL.md) — reference only.
   - [typescript-style](../../../official/snapshots/contentstack-kickstart/0c9aca728b71-6c624dbeb470/skills/typescript-style/SKILL.md) — reference only.
-- **contentstack-docs** — link catalog; page bodies not mirrored; rolling-url; revision `1c380c3b5dd201ae8b6ff7ac72a9365307757dac8d876fcfb0e84cf3b20a596f`; fetched 2026-10-16.
-  - [ATTRIBUTION.md](../../../official/snapshots/contentstack-docs/1c380c3b5dd2-e863a028b99c/ATTRIBUTION.md).
-  - [INDEX.md](../../../official/snapshots/contentstack-docs/1c380c3b5dd2-e863a028b99c/INDEX.md).
+- **contentstack-docs** — link catalog; page bodies not mirrored; rolling-url; revision `27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d`; fetched 2026-10-18.
+  - [ATTRIBUTION.md](../../../official/snapshots/contentstack-docs/27fb06e5aabe-63e2d1992231/ATTRIBUTION.md).
+  - [INDEX.md](../../../official/snapshots/contentstack-docs/27fb06e5aabe-63e2d1992231/INDEX.md).
 - [Official website](https://www.contentstack.com/llms.txt) — pointer only: Machine-readable index retrieved; mirroring terms remain unverified.
 <!-- brain:official:end -->
