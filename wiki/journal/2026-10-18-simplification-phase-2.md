@@ -32,7 +32,7 @@ issues: ['https://github.com/jfusco/brain/issues/54']
   - `inbox list` shows captures by default; `--backlog` adds the harvested records.
 - **Capture skill.** [`skills/brain-capture/`](../../skills/brain-capture/SKILL.md) is manual-only and documented in the README; see [the skill decision](../topics/brain-skill.md).
 - **Integration and installer removed.** `scripts/lib/integration.mjs`, `scripts/integration/` and the `integration` command are deleted. `skills.mjs` keeps only the read-only `suggest`, which now also reports skills already present in the project. The scheduled run no longer writes a project-update report.
-- **Pre-existing defect fixed.** Since hosted reference maintenance ([PR 46](https://github.com/JFusco/brain/pull/46)), `scheduled-run` threw `Cannot read properties of undefined (reading 'length')` on the skipped official result. The LaunchAgent run therefore failed before recording success.
+- **Pre-existing defect fixed.** Code from hosted reference maintenance ([PR 46](https://github.com/JFusco/brain/pull/46), merged 2026-10-18) made `scheduled-run` throw `Cannot read properties of undefined (reading 'length')` on the skipped official result, before it recorded success. Any LaunchAgent run on that code fails; the first nightly 02:30 run after the merge had not yet happened when this was found, so at most on-load runs were affected.
 - **Knowledge cleanup.**
   - `find-guidance-and-skills.md` and `curation-standard.md` are retired.
   - The Contentful Preview guidance moved from `cms-guidance.md` into `cms/contentful/preview-api-surface.md`, with its evidence and provenance.
