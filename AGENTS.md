@@ -35,6 +35,8 @@ Skill installations are project-scoped and explicit. Suggest first, then use the
 
 ## Maintenance and recovery
 
+For active official-link warnings or registered-source access failures, follow [daily link warning investigation](wiki/topics/link-warning-investigation.md). Investigate up to 12 new/due warning URLs per publisher run, persist private evidence/dispositions and semantic notification fingerprints, and repair verified existing-reference routing through the same single issue-linked PR. Only the runbook's pointer and existing-source routing fields are authorized; no new registrations, hosts, policies or code. Keep real unresolved warnings visible, respect backoff and preserve history; unchanged non-actionable observations do not justify duplicate issues or alerts.
+
 Run bounded due-time `maintenance run` and inspect `maintenance status`. Record publication start/completion/failure with the actual trigger and active run ID; a configured schedule is not proof of execution. Preserve restricted, transient, failed, and partial evidence. Link sampling is bounded coverage, never a claim that every catalog link was checked.
 
 Automatic backups and Drive uploads are disabled at Joe’s request. Keep `maintenance.backupEnabled` false and skip backup requirements in routine status/verification; preserve existing artifacts and keys. Manual backup/recovery tools require an explicitly scoped request.
