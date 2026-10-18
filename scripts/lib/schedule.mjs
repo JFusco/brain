@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import {spawnSync} from 'node:child_process';
-import {at,readJSON,writeJSON,now,log} from './core.mjs';
+import {at,config,readJSON,writeJSON,now,log} from './core.mjs';
 import {harvest,COLLECTION_VERSION} from './harvest.mjs';
 import {sync,generateHubs} from './official.mjs';
 import {projectRoots} from './harvest.mjs';
@@ -14,7 +14,8 @@ export async function scheduledRun() {
   for(const name of ['stdout','stderr']){const file=at(`.state/launchd.${name}.log`);if(fs.existsSync(file)&&fs.statSync(file).size>1024*1024){fs.copyFileSync(file,at(`.state/logs/launchd-last.${name}.log`));fs.truncateSync(file);}}
   generateHubs();
   if(!state.harvestSuccess || state.harvestPolicy!==policyHash() || state.collectionVersion!==COLLECTION_VERSION || Date.now()-Date.parse(state.harvestSuccess)>20*3600000){try{result.harvest=await harvest();state.harvestSuccess=now();state.harvestPolicy=policyHash();state.collectionVersion=COLLECTION_VERSION;}catch(error){result.failures.push({operation:'harvest',reason:error.message});}}
-  try{result.official=await sync({dueOnly:true});result.failures.push(...result.official.failed.map(f=>({operation:'official',source:f.id,reason:f.error})));}catch(error){result.failures.push({operation:'official',reason:error.message});}
+  if(config().maintenance?.referenceBackend==='github-actions')result.official={skipped:true,reason:'Official reference maintenance is owned by GitHub Actions'};
+  else try{result.official=await sync({dueOnly:true});result.failures.push(...result.official.failed.map(f=>({operation:'official',source:f.id,reason:f.error})));}catch(error){result.failures.push({operation:'official',reason:error.message});}
   try{result.maintenance=await runMaintenance({dueOnly:true});result.failures.push(...result.maintenance.failures);}catch{result.failures.push({operation:'maintenance',reason:'Maintenance failed; inspect private status'});}
   const updates=[];
   for(const root of new Set([...projectRoots(),...readJSON(at('.state/enrolled-projects.json'),[])]))if(fs.existsSync(root+'/.agents/skills/brain.source.json')){

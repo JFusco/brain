@@ -203,6 +203,8 @@ Interrupted writes keep a private recovery journal. `skills recover --project <p
 
 ## Privacy and maintenance
 
+Official-reference refresh, bounded link investigation/publication and completion-linked verification run in [GitHub Actions](https://github.com/JFusco/brain/actions/workflows/brain-maintenance.yml) at 03:15 America/New_York or by manual dispatch; a separate hosted check at 04:00 verifies the day’s actual scheduled run. They use GitHub-hosted runners, with `BOT_TOKEN` only in the guarded writer and `OPENAI_API_KEY` only in the investigator action. [Hosted maintenance](wiki/topics/hosted-maintenance.md) documents scope, evidence, operational artifacts, cache limits and rollback. Private project collection and unpublished learning curation stay local and are not uploaded; backups remain disabled.
+
 `brain.config.local.json` holds private roots, client terms, aliases, and local executable paths. Initial terms come from client directory names; add confirmed aliases there. Internal Verndale terminology is retained. A changed scrub policy causes rescanning before content can be promoted.
 
 Client redaction and secret scanning cover content and public metadata. A secret hit quarantines the whole candidate. This is a screening layer: the curator still needs to catch contextual client details. Never inspect auth files to improve a learning.
@@ -249,13 +251,13 @@ node scripts/setup.mjs --launch-agent
 node scripts/brain.mjs scheduled-run
 ```
 
-One user LaunchAgent runs at 02:30 and on load. Due-time checks provide startup catch-up: harvest, official reference refresh and link sampling run when due, and source failures retry with bounded backoff. A separate local Codex heartbeat prepares and publishes useful curation and reference-update PRs. It preserves unrelated changes and skips unchanged or non-actionable work quietly. Local scheduled agent work requires the desktop app and machine to be available. Logs and notifications contain no raw candidate text. All CLI mutations share a lock; other project repositories are not enrolled for background writes.
+One user LaunchAgent runs at 02:30 and on load. Due-time checks provide startup catch-up: harvest, official reference refresh and link sampling run when due, and source failures retry with bounded backoff. A separate local Codex heartbeat handles private learning curation when the Mac/app is available; the hosted workflow owns official-reference and link maintenance. It preserves unrelated changes and skips unchanged or non-actionable work quietly. Local scheduled agent work requires the desktop app and machine to be available. Logs and notifications contain no raw candidate text. All CLI mutations share a lock; other project repositories are not enrolled for background writes.
 
 On a new machine, validate the official source registry and use `node scripts/setup.mjs --approve-registry` to establish its local integrity receipt. Later registry changes use documented maintenance PRs and a matching updated receipt. Back up private state to preserve the inbox, dispositions, local paths, registry receipt, curation receipts, and cached oversized files.
 
 After cloning, run `git config core.hooksPath .githooks` to activate the pre-commit guard.
 
-Brain CLI commands never create commits or remotes and never push. The authorized scheduled agent publishes through issue-linked PRs. Tests, fixtures, fresh-session checks, general CI, and dedicated QA are deferred for v1; the explicitly requested wiki workflows are installed. Runtime safeguards and actual command results are retained.
+Brain CLI commands never create commits or remotes and never push. The authorized scheduled agent publishes through issue-linked PRs. Tests, fixtures, fresh-session checks, general CI, and dedicated QA are deferred for v1; the explicitly requested wiki and hosted maintenance/verification workflows are installed. Runtime safeguards and actual command results are retained.
 
 ## Context wiki
 

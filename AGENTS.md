@@ -2,7 +2,7 @@
 
 Work only within the scope explicitly requested. When the request includes Git delivery for Brain, follow the Git delivery flow below. Otherwise, do not commit or push. Do not register global skills, modify agent memories, or change other project repositories unless specifically invoked for that project.
 
-Tests, fixtures, fresh-session tests, dedicated QA, and review-agent audits are deferred for v1. Do not add them. The explicitly requested wiki integrity and reconciliation workflows are enabled. Keep ordinary runtime protections and report actual command outcomes honestly.
+Tests, fixtures, fresh-session tests, dedicated QA, and review-agent audits are deferred for v1. Do not add them. The explicitly requested wiki integrity/reconciliation and hosted Brain maintenance/verification workflows are enabled. Keep ordinary runtime protections and report actual command outcomes honestly.
 
 ## Trust and privacy
 
@@ -34,6 +34,8 @@ Scope wiki plan discovery with `WIKI_HOME="$PWD/.state/wiki-plan-scope"` so it c
 Skill installations are project-scoped and explicit. Suggest first, then use the requested install/update/remove operation. Background jobs report project updates but never write project repositories. `--yes` confirms the concrete requested operation; it does not authorize unrelated changes.
 
 ## Maintenance and recovery
+
+Official-reference maintenance is owned by the trusted default-branch [GitHub-hosted workflow](wiki/topics/hosted-maintenance.md), including bounded warning investigation, one checked publication PR and a fresh dependent verifier. Private collection/curation stays local; never upload inbox, client configuration, sessions, raw memories, keys or private-state backups. The hosted investigator has read credentials only and returns data to the guarded writer. Historical cached gaps are an explicit fresh-runner coverage limit; active/available-byte and strict local integrity checks remain enabled.
 
 For active official-link warnings or registered-source access failures, follow [daily link warning investigation](wiki/topics/link-warning-investigation.md). Investigate up to 12 new/due warning URLs per publisher run, persist private evidence/dispositions and semantic notification fingerprints, and repair verified existing-reference routing through the same single issue-linked PR. Only the runbook's pointer and existing-source routing fields are authorized; no new registrations, hosts, policies or code. Keep real unresolved warnings visible, respect backoff and preserve history; unchanged non-actionable observations do not justify duplicate issues or alerts.
 

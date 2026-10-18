@@ -106,7 +106,7 @@ try {
     }
     if(command==='official'){
       if(subcommand==='sync')return official.sync({seed:!!flags.seed,ids:rest.length?rest:null});
-      if(subcommand==='check'){const issues=official.checkOfficial();return {ok:!issues.length,issues};}
+      if(subcommand==='check'){const issues=official.checkOfficial(),gaps=official.historicalCacheGaps();return {ok:!issues.length,issues,warnings:gaps.length?[`${gaps.length} historical cached files unavailable; not verified`]:[]};}
       if(subcommand==='recatalog')return official.refreshCatalogs();
       if(subcommand==='rollback')return official.rollback(rest[0]);
       if(subcommand==='restore')return official.restore(rest[0]);

@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 root=$(git rev-parse --show-toplevel)
-/usr/local/bin/node "$root/scripts/brain.mjs" check --staged
+node "$root/scripts/brain.mjs" check --staged
 
 # Brain excludes raw agent session stores from wiki discovery.
 mkdir -p "$root/.state/wiki-plan-scope"

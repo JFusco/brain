@@ -21,11 +21,11 @@ function mapped(spec,name) {
 }
 export function snapshotRoot(entry){if(!/^[a-z0-9][a-z0-9-]*$/.test(entry.id)||!/^[a-f0-9]{12}-[a-f0-9]{12}$/.test(entry.snapshot))throw new Error('Invalid snapshot identity');return at(`official/snapshots/${entry.id}/${entry.snapshot}`);}
 const manifestFile=entry=>at(`official/manifests/${entry.id}/${entry.snapshot}.json`);
-export function snapshotFiles(entry) {
+export function snapshotFiles(entry,{allowMissingCached=false}={}) {
   const root=snapshotRoot(entry),files=new Map();noSymlinks(at('official'),root);
   for(const record of entry.files) {
     safePath(record.path);const file=path.join(root,record.path);noSymlinks(root,file);
-    if(!fs.existsSync(file))throw new Error(`Missing snapshot file in ${entry.id}; cached bytes must be restored explicitly`);
+    if(!fs.existsSync(file)){if(allowMissingCached&&record.cached)continue;throw new Error(`Missing snapshot file in ${entry.id}; cached bytes must be restored explicitly`);}
     const bytes=fs.readFileSync(file);if(sha(bytes)!==record.sha256)throw new Error(`Managed snapshot modified: ${entry.id}/${record.path}`);
     files.set(record.path,bytes);
   }
@@ -265,11 +265,17 @@ export async function restore(id) {
   assertClean([...recovered].map(([id,bytes])=>({id,bytes})),{clients:false,exceptions:spec.scanExceptions||[]});
   for(const [name,bytes]of recovered){object(bytes);atomic(path.join(root,name),bytes);}if(!fs.existsSync(manifestFile(entry)))writeJSON(manifestFile(entry),entry);return {id,restored:missing.length};
 }
+export function historicalCacheGaps() {
+  if(config().official?.allowUnavailableHistoricalCache!==true)return [];
+  const active=lock(),required=new Set(registry().sources.filter(s=>s.refresh!==false).map(s=>`${s.id}/${active.sources[s.id]?.snapshot}`)),gaps=[];
+  for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){const entry=json(file);if(required.has(`${entry.id}/${entry.snapshot}`))continue;for(const record of entry.files)if(record.cached&&!fs.existsSync(path.join(snapshotRoot(entry),safePath(record.path))))gaps.push({source:entry.id,snapshot:entry.snapshot,path:record.path,sha256:record.sha256});}
+  return gaps;
+}
 export function checkOfficial() {
-  const active=lock(),issues=[];
+  const active=lock(),issues=[],partial=config().official?.allowUnavailableHistoricalCache===true,required=new Set(registry().sources.filter(s=>s.refresh!==false).map(s=>`${s.id}/${active.sources[s.id]?.snapshot}`));
   try{requireRegistryApproval();}catch(error){issues.push(error.message);}
-  for(const spec of registry().sources){const entry=active.sources[spec.id];if(!entry){issues.push(`${spec.id}: no active snapshot`);continue;}if(entry.policySha256!==fingerprint(spec))issues.push(`${spec.id}: registry differs from approved lock`);try{snapshotFiles(entry);}catch(error){issues.push(error.message);}}
-  for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){try{snapshotFiles(json(file));}catch(error){issues.push(error.message);}}
+  for(const spec of registry().sources){const entry=active.sources[spec.id];if(!entry){issues.push(`${spec.id}: no active snapshot`);continue;}if(entry.policySha256!==fingerprint(spec))issues.push(`${spec.id}: registry differs from approved lock`);try{snapshotFiles(entry,{allowMissingCached:partial&&spec.refresh===false});}catch(error){issues.push(error.message);}}
+  for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){try{const entry=json(file);snapshotFiles(entry,{allowMissingCached:partial&&!required.has(`${entry.id}/${entry.snapshot}`)});}catch(error){issues.push(error.message);}}
   for(const [domain,section] of Object.entries(officialSections())){const actual=fs.readFileSync(at(`knowledge/${domain}/INDEX.md`),'utf8').match(/<!-- brain:official:start -->\n([\s\S]*?)<!-- brain:official:end -->/)?.[1];if(actual!==section)issues.push(`Stale official section: ${domain}`);}
   return issues;
 }

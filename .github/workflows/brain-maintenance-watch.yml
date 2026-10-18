@@ -1,0 +1,55 @@
+name: Verify Brain daily maintenance
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+      timezone: America/New_York
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: 'Optional exact hosted run ID for manual verification; scheduled checks require today’s scheduled run'
+        required: false
+        type: string
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: brain-maintenance-watch
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  verify:
+    if: github.repository == 'JFusco/brain' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify actual daily run and its independent verification job
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const {owner, repo} = context.repo;
+            const requested = context.payload.inputs?.run_id?.trim();
+            const localDate = value => new Intl.DateTimeFormat('en-CA', {timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(value));
+            let run;
+            if (requested) {
+              if (!/^\d+$/.test(requested) || context.eventName !== 'workflow_dispatch') throw new Error('Invalid manual run identity');
+              run = (await github.rest.actions.getWorkflowRun({owner, repo, run_id: requested})).data;
+            } else {
+              const runs = (await github.rest.actions.listWorkflowRuns({owner, repo, workflow_id:'brain-maintenance.yml', branch:'main', event:'schedule', per_page:30})).data.workflow_runs;
+              run = runs.find(r => localDate(r.created_at) === localDate(Date.now()));
+              if (!run) throw new Error('No scheduled Brain maintenance run found for today in New York. GitHub scheduling may be late or unavailable; manual/setup runs are not scheduled proof.');
+            }
+            if (run.head_branch !== 'main' || run.path !== '.github/workflows/brain-maintenance.yml' || !['schedule','workflow_dispatch'].includes(run.event)) throw new Error('Unexpected workflow identity');
+            await core.summary.addHeading('Brain daily maintenance verification').addRaw(`Run [${run.id}](${run.html_url}), attempt ${run.run_attempt}, event ${run.event}, created ${run.created_at}.\n\n`).write();
+            if (run.status !== 'completed') {await core.summary.addRaw('**In progress** — no overlapping maintenance or retry was started.\n').write(); return;}
+            if (run.conclusion !== 'success') throw new Error(`Hosted maintenance concluded ${run.conclusion}; inspect that run for the actual failed stage.`);
+            const jobs = (await github.rest.actions.listJobsForWorkflowRun({owner,repo,run_id:run.id,filter:'latest',per_page:100})).data.jobs;
+            for (const name of ['maintenance','publish','verify']) if (!jobs.some(j => j.name === name && j.conclusion === 'success')) throw new Error(`Missing successful actual ${name} job for this attempt`);
+            const artifacts = (await github.rest.actions.listWorkflowRunArtifacts({owner,repo,run_id:run.id})).data.artifacts;
+            if (!artifacts.some(a => a.name === `brain-verification-${run.run_attempt}` && !a.expired)) throw new Error('No retained verification receipt for the actual completed attempt');
+            await core.summary.addRaw(`**Verified:** preparation, guarded publication and independent receipt/merged-byte verification jobs completed. ${run.event === 'schedule' ? 'This is an actual scheduled run.' : 'This is manual hosted proof, not scheduled execution proof.'} Consult the run receipt for investigated/skipped warnings and any unexercised repair path. No private inbox, backup or Mac/app was used by these hosted jobs.\n`).write();

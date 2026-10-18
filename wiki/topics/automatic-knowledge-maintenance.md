@@ -138,3 +138,7 @@ The exact registry proposal digest is `406d2573c1ed028a4db28ccced3494764ce680538
 ## Investigate recurring official-link warnings
 
 [Issue 43](https://github.com/JFusco/brain/issues/43) extends the existing publisher with a documented investigation step, separate from the CLI checker: at most 12 new/due warning URLs, a private durable disposition/evidence ledger, semantic notification fingerprints, and narrow verified routing fixes in the existing single checked PR. Real access limits remain visible, but unchanged observations do not generate duplicate issues or alerts. No new source/host registration or code change is authorized. See the [runbook](link-warning-investigation.md) and [delivery journal](../journal/2026-10-18-daily-link-investigation.md). Configuration/readback and manual checks do not establish future unattended repair.
+
+## Hosted official maintenance
+
+[Issue 45](https://github.com/JFusco/brain/issues/45) moves official-reference refresh, bounded link investigation/publication and completion-linked verification to trusted GitHub-hosted runners. Private project collection and unpublished curation remain local; no private-state export or backup is part of the migration. See [hosted maintenance](hosted-maintenance.md) for the three-job boundary, optional historical-cache coverage, operational checkpoint retention, local handoff and separate manual/scheduled proof.

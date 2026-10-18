@@ -5,7 +5,7 @@ aliases: ["link warning repair", "recurring link warnings"]
 
 # Daily link warning investigation
 
-The existing 03:15 America/New_York Brain publisher performs this agent-directed procedure after due maintenance and registered-source refresh, before assembling its single issue-linked documentation PR. The CLI supplies observations and guarded proposals; it does not perform semantic investigation or repair itself. Read this page when link warnings or source-access failures need investigation. Use only Brain; no consuming-project changes or automatic context injection.
+The 03:15 America/New_York Brain publisher performs this agent-directed procedure after due maintenance and registered-source refresh, before assembling its single issue-linked documentation PR. The CLI supplies observations and guarded proposals; it does not perform semantic investigation or repair itself. Read this page when link warnings or source-access failures need investigation. Use only Brain; no consuming-project changes or automatic context injection.
 
 ## Select a bounded batch
 
@@ -51,3 +51,7 @@ Recheck actual affected links and focused lookup in the scheduled checkout; reta
 Rollback uses an issue-linked exact registry/knowledge revert and guarded integrity-receipt reconciliation, preserving all failed observations, private investigations, snapshots and candidates. Disabling this procedure restores the prior publisher instructions without changing its schedule. Automatic backups and Drive uploads remain disabled; no backup/key operation is part of investigation.
 
 This is a documented scheduled-agent procedure using existing commands, not an added executable investigator or unattended-execution proof. A sleeping/offline Mac or unavailable app cannot perform or notify about the run.
+
+## GitHub-hosted execution
+
+The [hosted workflow](hosted-maintenance.md) executes the official-link scope without Mac/app availability. The investigator has no Git write token and returns structured evidence to a separate guarded writer; private inbox curation is excluded. Its retrieval allowance is split into at most 12 investigator requests and 12 independent publisher re-fetches. Official checkpoints and fresh verification are scoped to the actual GitHub run/attempt. Local source/link status is historical after delegation.
