@@ -56,6 +56,20 @@
       "digest": "1c9f7b4aff6115391b784d99cd44e706b8bfbe2c4fa79b7f4ac631ce6cb1f48a",
       "method": "automatic-curation-pr",
       "preparedAt": "2026-10-16T19:27:35.303Z"
+    },
+    "knowledge/react/hydration-browser-storage.md": {
+      "sha256": "83c8bd930a0b546e509d854e7ff0edcab63aca2f3b19d443d74cd584af98687b",
+      "proposal": "963964b8067344583e426335",
+      "digest": "963964b8067344583e4263358b924bf7c36220d53116ba379030a0a9471e572e",
+      "method": "automatic-curation-pr",
+      "preparedAt": "2026-10-17T14:02:13.702Z"
+    },
+    "knowledge/nextjs/async-route-parameters.md": {
+      "sha256": "5ed30caef89036c56c9f3226b14633330ab402929c9141d69f80aad1c0029d2f",
+      "proposal": "963964b8067344583e426335",
+      "digest": "963964b8067344583e4263358b924bf7c36220d53116ba379030a0a9471e572e",
+      "method": "automatic-curation-pr",
+      "preparedAt": "2026-10-17T14:02:13.702Z"
     }
   }
 }
