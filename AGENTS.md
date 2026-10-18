@@ -71,6 +71,11 @@ For repository changes that include delivery:
    and the saved PR and head are verified. Never merge failed content or
    bypass branch protections. Registry, workflow, code and other delivery
    stops at the verified PR unless the user authorizes merging.
+8. Once a PR merges, by an agent or by Joe, delete its branch: the remote
+   branch if GitHub kept it, the local branch and any worktree used for it.
+   Delete only when the PR merged and the branch tip is the merged head;
+   ask before removing a worktree with uncommitted changes. Never delete
+   an unmerged branch.
 
 <!-- wiki-skill:start -->
 ## Context wiki
