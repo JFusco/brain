@@ -7,6 +7,7 @@ import {assertClean,policyHash} from './privacy.mjs';
 import {refreshSummary} from './harvest.mjs';
 import {generateHubs,updateIgnores,lock,registry,fingerprint} from './official.mjs';
 import {check,validateKnowledge} from './check.mjs';
+import {comparisonCatalog,compareText,validateDeduplication} from './deduplication.mjs';
 
 const index=()=>readJSON(at('.state/harvest.json'),{schemaVersion:1,sources:{},candidates:{}});
 const proposalFile=id=>{if(!/^[0-9a-f]{24}$/.test(id))throw new Error('Invalid proposal ID');return at(`.state/proposals/${id}.json`);};
@@ -17,6 +18,20 @@ export function list({domain,all=false}={}) {
 export function show(id) {
   const c=candidate(index(),id);if(c.status==='quarantined')throw new Error('Candidate is quarantined. Inspect private provenance locally; do not load raw content into a review session.');
   const bytes=fs.readFileSync(at(c.file));if(bytes.length>config().harvest.candidateBytes+2048)throw new Error('Candidate exceeds review byte cap');return bytes.toString();
+}
+export function compare(id,input) {
+  const snapshot=comparisonCatalog();
+  if(input){
+    if(!Array.isArray(input.changes)||!input.changes.length)throw new Error('Comparison requires proposal changes[]');
+    if(Buffer.byteLength(JSON.stringify(input.changes))>512*1024)throw new Error('Comparison input exceeds proposal bound');
+    return {catalogSha256:snapshot.catalogSha256,catalog:snapshot.catalog,changes:input.changes.filter(change=>/^knowledge\/.+\.md$/.test(change.path)&&!change.path.endsWith('/INDEX.md')).map(change=>{
+      if(typeof change.text!=='string'||!change.text.trim())throw new Error('Comparison requires full proposed note text');
+      const result=compareText(change.text,snapshot);
+      return {path:change.path,related:result.related,notice:result.notice};
+    })};
+  }
+  if(!id)throw new Error('Comparison requires a candidate ID or --file <proposal-input.json>');
+  return {candidate:id,...compareText(show(id),snapshot)};
 }
 export function propose(input) {
   if(!Array.isArray(input.changes)||!input.changes.length||!Array.isArray(input.candidates))throw new Error('Proposal requires changes[] and candidates[]');
@@ -36,7 +51,9 @@ export function propose(input) {
   assertClean(changes.map(c=>({id:c.path,bytes:Buffer.from(c.text)})));
   const problems=validateKnowledge(changes.filter(c=>c.path.startsWith('knowledge/')).map(c=>({id:c.path,bytes:Buffer.from(c.text)})));if(problems.length)throw new Error(problems.join('; '));
   for(const change of changes.filter(c=>c.path==='official/sources.json')){const parsed=JSON.parse(change.text);if(parsed.schemaVersion!==1||!Array.isArray(parsed.sources)||!Array.isArray(parsed.pointers))throw new Error('Invalid source registry proposal');}
-  const proposal={schemaVersion:1,changes,candidates:candidates.map(c=>({id:c.id,fileSha256:c.fileSha256})),policy:policyHash(),acceptCandidates};
+  const deduplication=validateDeduplication(changes,input.deduplication);
+  if(deduplication)assertClean([{id:'duplicate-review',bytes:Buffer.from(JSON.stringify(deduplication))}]);
+  const proposal={schemaVersion:1,changes,candidates:candidates.map(c=>({id:c.id,fileSha256:c.fileSha256})),policy:policyHash(),acceptCandidates,...(deduplication?{deduplication}:{})};
   const digest=sha(JSON.stringify(proposal)),id=digest.slice(0,24);
   writeJSON(proposalFile(id),{...proposal,id,digest,createdAt:now()},0o600);
   const temporary=fs.mkdtempSync(path.join(os.tmpdir(),'brain-proposal-'));fs.chmodSync(temporary,0o700);let diffs='';
@@ -55,9 +72,11 @@ export function apply(id,digest) {
   recoverProposal();const proposal=json(proposalFile(id));
   const payload={schemaVersion:proposal.schemaVersion,changes:proposal.changes,candidates:proposal.candidates,policy:proposal.policy};
   if(Object.hasOwn(proposal,'acceptCandidates'))payload.acceptCandidates=proposal.acceptCandidates;
+  if(Object.hasOwn(proposal,'deduplication'))payload.deduplication=proposal.deduplication;
   if(!digest||digest!==proposal.digest||sha(JSON.stringify(payload))!==digest)throw new Error('Exact approved SHA-256 is required');
   if(proposal.appliedAt)return {id,alreadyApplied:true};
   if(proposal.policy!==policyHash())throw new Error('Privacy policy changed; prepare a new proposal');
+  validateDeduplication(proposal.changes,proposal.deduplication);
   const state=index();
   for(const reference of proposal.candidates){const c=candidate(state,reference.id);if(c.fileSha256!==reference.fileSha256||c.disposition||c.status!=='pending')throw new Error('Candidate changed after proposal');}
   for(const change of proposal.changes){noSymlinks(ROOT,at(change.path));const actual=fs.existsSync(at(change.path))?sha(fs.readFileSync(at(change.path))):null;if(actual!==change.beforeSha256)throw new Error('Destination changed after proposal; prepare a new proposal');}
