@@ -236,7 +236,9 @@ export function officialProblems(read,names,{unexpected='warnings'}={}) {
   }
   for(const spec of reg.sources)if(!active.sources[spec.id])warnings.push(`${spec.id}: not yet catalogued; run official sync ${spec.id}`);
   const expected=new Set(['official/sources.json','official/sources.lock.json',...Object.keys(active.sources).filter(id=>SOURCE_ID.test(id)).map(catalogPath)]);
-  const extra=names.filter(name=>!expected.has(name));if(extra.length)(unexpected==='issues'?issues:warnings).push(`${extra.length} unexpected files under official/; only the registry, lock and catalogs belong there`);
+  // Name the leftovers (for example pre-catalog snapshots) so the warning says exactly what to remove.
+  const extra=names.filter(name=>!expected.has(name)),paths=[...new Set(extra.map(name=>name.startsWith('official/catalogs/')?name:name.split('/').slice(0,2).join('/')))].sort();
+  if(extra.length)(unexpected==='issues'?issues:warnings).push(`${extra.length} unexpected files under official/ (${paths.join(', ')}); only the registry, lock and catalogs belong there${unexpected==='issues'?'':`. Delete them with: rm -rf ${paths.join(' ')}`}`);
   if(!issues.length)for(const [domain,section] of Object.entries(officialSections({reg,active,catalog:id=>catalogs[id]}))){const actual=read(`knowledge/${domain}/INDEX.md`)?.toString().match(/<!-- brain:official:start -->\n([\s\S]*?)<!-- brain:official:end -->/)?.[1];if(actual!==section)issues.push(`Stale official section: ${domain}; run curation hubs`);}
   return {issues,warnings};
 }
