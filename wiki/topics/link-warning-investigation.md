@@ -5,6 +5,8 @@ aliases: ["link warning repair", "recurring link warnings"]
 
 # Daily link warning investigation
 
+Historical: [simplification phase 3](../journal/2026-10-18-simplification-phase-3.md) removed the investigator and its automatic routing repairs. Link warnings now appear in the weekly reference health issue, and fixes are ordinary registry PRs that stop for review. This page records how the removed procedure worked.
+
 The 03:15 America/New_York Brain publisher performs this agent-directed procedure after due maintenance and registered-source refresh, before assembling its single issue-linked documentation PR. The CLI supplies observations and guarded proposals; it does not perform semantic investigation or repair itself. Read this page when link warnings or source-access failures need investigation. Use only Brain; no consuming-project changes or automatic context injection.
 
 ## Select a bounded batch

@@ -1,0 +1,976 @@
+{
+  "schemaVersion": 1,
+  "source": "optimizely-graph-docs",
+  "revision": "e4f105f278f80c9a69c61074a05b2716cb82a0c0c0f5eef7a101c150cc25a553",
+  "origin": "https://docs.optimizely.com/llms.txt",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Get bestbet collection(s)",
+      "url": "https://docs.optimizely.com/graph/api.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api.md"
+    },
+    {
+      "title": "Add webhook",
+      "url": "https://docs.optimizely.com/graph/api/add-webhook.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/add-webhook.md"
+    },
+    {
+      "title": "Clear pinned items in collection",
+      "url": "https://docs.optimizely.com/graph/api/clear-pinned-items-in-collection.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/clear-pinned-items-in-collection.md"
+    },
+    {
+      "title": "Create a new pinned item",
+      "url": "https://docs.optimizely.com/graph/api/create-a-new-pinned-item.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/create-a-new-pinned-item.md"
+    },
+    {
+      "title": "Delete a bestbet collection",
+      "url": "https://docs.optimizely.com/graph/api/delete-a-bestbet-collection.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/delete-a-bestbet-collection.md"
+    },
+    {
+      "title": "Delete a pinned collection",
+      "url": "https://docs.optimizely.com/graph/api/delete-a-pinned-collection.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/delete-a-pinned-collection.md"
+    },
+    {
+      "title": "Delete OIDC config",
+      "url": "https://docs.optimizely.com/graph/api/delete-oidc-config.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/delete-oidc-config.md"
+    },
+    {
+      "title": "Delete source",
+      "url": "https://docs.optimizely.com/graph/api/delete-source.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/delete-source.md"
+    },
+    {
+      "title": "Delete stop words",
+      "url": "https://docs.optimizely.com/graph/api/delete-stop-words.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/delete-stop-words.md"
+    },
+    {
+      "title": "Delete synonyms",
+      "url": "https://docs.optimizely.com/graph/api/delete-synonyms.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/delete-synonyms.md"
+    },
+    {
+      "title": "Delete webhook",
+      "url": "https://docs.optimizely.com/graph/api/delete-webhook.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/delete-webhook.md"
+    },
+    {
+      "title": "Execute graphql query",
+      "url": "https://docs.optimizely.com/graph/api/execute-graphql-query.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/execute-graphql-query.md"
+    },
+    {
+      "title": "Full content type update",
+      "url": "https://docs.optimizely.com/graph/api/full-content-type-update.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/full-content-type-update.md"
+    },
+    {
+      "title": "Get content types",
+      "url": "https://docs.optimizely.com/graph/api/get-content-types.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/get-content-types.md"
+    },
+    {
+      "title": "Get list of pinned items by collection id",
+      "url": "https://docs.optimizely.com/graph/api/get-list-of-pinned-items-by-collection-id.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/get-list-of-pinned-items-by-collection-id.md"
+    },
+    {
+      "title": "Get pinned collection by Id",
+      "url": "https://docs.optimizely.com/graph/api/get-pinned-collection-by-id.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/get-pinned-collection-by-id.md"
+    },
+    {
+      "title": "Get pinned collection(s)",
+      "url": "https://docs.optimizely.com/graph/api/get-pinned-collections.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/get-pinned-collections.md"
+    },
+    {
+      "title": "Get pinned item by id",
+      "url": "https://docs.optimizely.com/graph/api/get-pinned-item-by-id.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/get-pinned-item-by-id.md"
+    },
+    {
+      "title": "Get pinned results",
+      "url": "https://docs.optimizely.com/graph/api/get-pinned-results.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/get-pinned-results.md"
+    },
+    {
+      "title": "Get request logs",
+      "url": "https://docs.optimizely.com/graph/api/get-request-logs.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/get-request-logs.md"
+    },
+    {
+      "title": "Get source metadata",
+      "url": "https://docs.optimizely.com/graph/api/get-source-metadata.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/get-source-metadata.md"
+    },
+    {
+      "title": "List synonyms",
+      "url": "https://docs.optimizely.com/graph/api/list-synonyms.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/list-synonyms.md"
+    },
+    {
+      "title": "List webhooks",
+      "url": "https://docs.optimizely.com/graph/api/list-webhooks.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/list-webhooks.md"
+    },
+    {
+      "title": "Partial content type update",
+      "url": "https://docs.optimizely.com/graph/api/partial-content-type-update.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/partial-content-type-update.md"
+    },
+    {
+      "title": "Purge content data",
+      "url": "https://docs.optimizely.com/graph/api/purge-content-data.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/purge-content-data.md"
+    },
+    {
+      "title": "Register a bestbet collection",
+      "url": "https://docs.optimizely.com/graph/api/register-a-bestbet-collection.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/register-a-bestbet-collection.md"
+    },
+    {
+      "title": "Register a pinned collection",
+      "url": "https://docs.optimizely.com/graph/api/register-a-pinned-collection.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/register-a-pinned-collection.md"
+    },
+    {
+      "title": "Remove pinned item",
+      "url": "https://docs.optimizely.com/graph/api/remove-pinned-item.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/remove-pinned-item.md"
+    },
+    {
+      "title": "Store stop words",
+      "url": "https://docs.optimizely.com/graph/api/store-stop-words.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/store-stop-words.md"
+    },
+    {
+      "title": "Store synonyms",
+      "url": "https://docs.optimizely.com/graph/api/store-synonyms.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/store-synonyms.md"
+    },
+    {
+      "title": "Sync content data",
+      "url": "https://docs.optimizely.com/graph/api/sync-content-data.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/sync-content-data.md"
+    },
+    {
+      "title": "Sync content types",
+      "url": "https://docs.optimizely.com/graph/api/sync-content-types.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/sync-content-types.md"
+    },
+    {
+      "title": "Update a bestbet collection",
+      "url": "https://docs.optimizely.com/graph/api/update-a-bestbet-collection.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/update-a-bestbet-collection.md"
+    },
+    {
+      "title": "Update a pinned collection",
+      "url": "https://docs.optimizely.com/graph/api/update-a-pinned-collection.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/update-a-pinned-collection.md"
+    },
+    {
+      "title": "Update a pinned item",
+      "url": "https://docs.optimizely.com/graph/api/update-a-pinned-item.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/update-a-pinned-item.md"
+    },
+    {
+      "title": "Update source metadata",
+      "url": "https://docs.optimizely.com/graph/api/update-source-metadata.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/update-source-metadata.md"
+    },
+    {
+      "title": "Update webhook",
+      "url": "https://docs.optimizely.com/graph/api/update-webhook.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/update-webhook.md"
+    },
+    {
+      "title": "Upsert OIDC config",
+      "url": "https://docs.optimizely.com/graph/api/upsert-oidc-config.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/upsert-oidc-config.md"
+    },
+    {
+      "title": "Execute graphql query",
+      "url": "https://docs.optimizely.com/graph/api/V7P7-execute-graphql-query.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/api/V7P7-execute-graphql-query.md"
+    },
+    {
+      "title": "Overview of Optimizely Graph",
+      "url": "https://docs.optimizely.com/graph/docs.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs.md"
+    },
+    {
+      "title": "Advanced features",
+      "url": "https://docs.optimizely.com/graph/docs/advanced-features.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/advanced-features.md"
+    },
+    {
+      "title": "Advanced use cases",
+      "url": "https://docs.optimizely.com/graph/docs/advanced-use-cases.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/advanced-use-cases.md"
+    },
+    {
+      "title": "API reference",
+      "url": "https://docs.optimizely.com/graph/docs/api-reference.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/api-reference.md"
+    },
+    {
+      "title": "Architecture overview",
+      "url": "https://docs.optimizely.com/graph/docs/architecture-overview.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/architecture-overview.md"
+    },
+    {
+      "title": "Arguments",
+      "url": "https://docs.optimizely.com/graph/docs/arguments.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/arguments.md"
+    },
+    {
+      "title": "Authentication with OIDC for Optimizely Graph",
+      "url": "https://docs.optimizely.com/graph/docs/authentication-with-oidc-for-optimizely-graph.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/authentication-with-oidc-for-optimizely-graph.md"
+    },
+    {
+      "title": "Authentication",
+      "url": "https://docs.optimizely.com/graph/docs/authentication.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/authentication.md"
+    },
+    {
+      "title": "Autocomplete",
+      "url": "https://docs.optimizely.com/graph/docs/autocomplete.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/autocomplete.md"
+    },
+    {
+      "title": "Basic authentication from back end",
+      "url": "https://docs.optimizely.com/graph/docs/basic-authentication-from-back-end.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/basic-authentication-from-back-end.md"
+    },
+    {
+      "title": "Basic",
+      "url": "https://docs.optimizely.com/graph/docs/basic.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/basic.md"
+    },
+    {
+      "title": "Bearer",
+      "url": "https://docs.optimizely.com/graph/docs/bearer.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/bearer.md"
+    },
+    {
+      "title": "Best practices and troubleshooting",
+      "url": "https://docs.optimizely.com/graph/docs/best-practices-and-troubleshooting-saas.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/best-practices-and-troubleshooting-saas.md"
+    },
+    {
+      "title": "Best practices and troubleshooting",
+      "url": "https://docs.optimizely.com/graph/docs/best-practices-and-troubleshooting.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/best-practices-and-troubleshooting.md"
+    },
+    {
+      "title": "Block with image and metadata",
+      "url": "https://docs.optimizely.com/graph/docs/block-with-image-and-metadata.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/block-with-image-and-metadata.md"
+    },
+    {
+      "title": "Boosting",
+      "url": "https://docs.optimizely.com/graph/docs/boosting.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/boosting.md"
+    },
+    {
+      "title": "Build an ASP.NET Core API (manual GraphQL client)",
+      "url": "https://docs.optimizely.com/graph/docs/build-an-asp-net-core-api-manual-graphql-client.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/build-an-asp-net-core-api-manual-graphql-client.md"
+    },
+    {
+      "title": "Build an ASP.NET Core API using StrawberryShake (recommended)",
+      "url": "https://docs.optimizely.com/graph/docs/build-an-asp-net-core-api-using-strawberryshake-recommended.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/build-an-asp-net-core-api-using-strawberryshake-recommended.md"
+    },
+    {
+      "title": "C# SDK for CMS 13",
+      "url": "https://docs.optimizely.com/graph/docs/c-sdk-for-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/c-sdk-for-cms-13.md"
+    },
+    {
+      "title": "Cached templates",
+      "url": "https://docs.optimizely.com/graph/docs/cached-templates.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/cached-templates.md"
+    },
+    {
+      "title": "Caching best practices",
+      "url": "https://docs.optimizely.com/graph/docs/caching-best-practices.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/caching-best-practices.md"
+    },
+    {
+      "title": "Collect diagnostic data and contact support",
+      "url": "https://docs.optimizely.com/graph/docs/collect-diagnostic-data-and-contact-support.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/collect-diagnostic-data-and-contact-support.md"
+    },
+    {
+      "title": "Common mistakes working with Optimizely Graph",
+      "url": "https://docs.optimizely.com/graph/docs/common-mistakes-working-with-graph.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/common-mistakes-working-with-graph.md"
+    },
+    {
+      "title": "Composable architecture with Graph",
+      "url": "https://docs.optimizely.com/graph/docs/composable-architecture.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/composable-architecture.md"
+    },
+    {
+      "title": "Configure CMS 12 to send content",
+      "url": "https://docs.optimizely.com/graph/docs/configure-cms-12-to-send-content.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/configure-cms-12-to-send-content.md"
+    },
+    {
+      "title": "Content retrieval",
+      "url": "https://docs.optimizely.com/graph/docs/content-retrieval.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/content-retrieval.md"
+    },
+    {
+      "title": "Content types",
+      "url": "https://docs.optimizely.com/graph/docs/content-types.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/content-types.md"
+    },
+    {
+      "title": "Content variation",
+      "url": "https://docs.optimizely.com/graph/docs/content-variation.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/content-variation.md"
+    },
+    {
+      "title": "Control field indexing",
+      "url": "https://docs.optimizely.com/graph/docs/control-field-indexing.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/control-field-indexing.md"
+    },
+    {
+      "title": "Craft queries, filters, and relationships",
+      "url": "https://docs.optimizely.com/graph/docs/crafting-queries-filters-and-relationships.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/crafting-queries-filters-and-relationships.md"
+    },
+    {
+      "title": "Create queries",
+      "url": "https://docs.optimizely.com/graph/docs/create-queries.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/create-queries.md"
+    },
+    {
+      "title": "Cursor-based pagination",
+      "url": "https://docs.optimizely.com/graph/docs/cursor-based-pagination.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/cursor-based-pagination.md"
+    },
+    {
+      "title": "Cursor",
+      "url": "https://docs.optimizely.com/graph/docs/cursor.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/cursor.md"
+    },
+    {
+      "title": "Cyclic queries",
+      "url": "https://docs.optimizely.com/graph/docs/cyclic-queries.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/cyclic-queries.md"
+    },
+    {
+      "title": "Debug GraphQL queries",
+      "url": "https://docs.optimizely.com/graph/docs/debug-graphql-queries.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/debug-graphql-queries.md"
+    },
+    {
+      "title": "Graph development accounts and developer instances in Search Management portal",
+      "url": "https://docs.optimizely.com/graph/docs/development-accounts-in-search-management-portal.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/development-accounts-in-search-management-portal.md"
+    },
+    {
+      "title": "Dynamic frontend integration",
+      "url": "https://docs.optimizely.com/graph/docs/dynamic-frontend-integration.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/dynamic-frontend-integration.md"
+    },
+    {
+      "title": "Error handling and rate limits",
+      "url": "https://docs.optimizely.com/graph/docs/error-handling-and-rate-limits.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/error-handling-and-rate-limits.md"
+    },
+    {
+      "title": "Explore your schema",
+      "url": "https://docs.optimizely.com/graph/docs/explore-your-schema-saas.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/explore-your-schema-saas.md"
+    },
+    {
+      "title": "Explore your schema",
+      "url": "https://docs.optimizely.com/graph/docs/explore-your-schema.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/explore-your-schema.md"
+    },
+    {
+      "title": "Facets",
+      "url": "https://docs.optimizely.com/graph/docs/facets.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/facets.md"
+    },
+    {
+      "title": "Fallback languages",
+      "url": "https://docs.optimizely.com/graph/docs/fallback-languages.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/fallback-languages.md"
+    },
+    {
+      "title": "Feature comparison",
+      "url": "https://docs.optimizely.com/graph/docs/feature-comparison.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/feature-comparison.md"
+    },
+    {
+      "title": "Migrate Search & Navigation features to Graph",
+      "url": "https://docs.optimizely.com/graph/docs/feature-migration.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/feature-migration.md"
+    },
+    {
+      "title": "Filter by IDs",
+      "url": "https://docs.optimizely.com/graph/docs/filter-by-ids.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/filter-by-ids.md"
+    },
+    {
+      "title": "Filter content",
+      "url": "https://docs.optimizely.com/graph/docs/filter-content.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/filter-content.md"
+    },
+    {
+      "title": "Filter",
+      "url": "https://docs.optimizely.com/graph/docs/filter.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/filter.md"
+    },
+    {
+      "title": "Filter documents",
+      "url": "https://docs.optimizely.com/graph/docs/filtering.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/filtering.md"
+    },
+    {
+      "title": "Fragments and aliases",
+      "url": "https://docs.optimizely.com/graph/docs/fragments-and-aliases.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/fragments-and-aliases.md"
+    },
+    {
+      "title": "Full-text search",
+      "url": "https://docs.optimizely.com/graph/docs/full-text-search.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/full-text-search.md"
+    },
+    {
+      "title": "Fuzzy search",
+      "url": "https://docs.optimizely.com/graph/docs/fuzzy-search.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/fuzzy-search.md"
+    },
+    {
+      "title": "Generic OIDC provider",
+      "url": "https://docs.optimizely.com/graph/docs/generic-oidc-provider.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/generic-oidc-provider.md"
+    },
+    {
+      "title": "Geo search",
+      "url": "https://docs.optimizely.com/graph/docs/geo-search.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/geo-search.md"
+    },
+    {
+      "title": "Get started with Optimizely Graph for CMS (SaaS)",
+      "url": "https://docs.optimizely.com/graph/docs/get-started-with-optimizely-graph-for-cms-saas.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/get-started-with-optimizely-graph-for-cms-saas.md"
+    },
+    {
+      "title": "Get started with Optimizely Graph and CMS 12",
+      "url": "https://docs.optimizely.com/graph/docs/get-started-with-optimizely-graph-using-cms-12.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/get-started-with-optimizely-graph-using-cms-12.md"
+    },
+    {
+      "title": "Get started with Optimizely Graph",
+      "url": "https://docs.optimizely.com/graph/docs/get-started-with-optimizely-graph.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/get-started-with-optimizely-graph.md"
+    },
+    {
+      "title": "Get started with the GraphQL API",
+      "url": "https://docs.optimizely.com/graph/docs/get-started-with-the-graphql-api.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/get-started-with-the-graphql-api.md"
+    },
+    {
+      "title": "GraphQL API technical overview",
+      "url": "https://docs.optimizely.com/graph/docs/graphql-api-technical-overview.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/graphql-api-technical-overview.md"
+    },
+    {
+      "title": "GraphQL best practices",
+      "url": "https://docs.optimizely.com/graph/docs/graphql-best-practices.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/graphql-best-practices.md"
+    },
+    {
+      "title": "Handle large results",
+      "url": "https://docs.optimizely.com/graph/docs/handle-large-results.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/handle-large-results.md"
+    },
+    {
+      "title": "Headless architecture patterns",
+      "url": "https://docs.optimizely.com/graph/docs/headless-architecture-patterns.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/headless-architecture-patterns.md"
+    },
+    {
+      "title": "Highlight",
+      "url": "https://docs.optimizely.com/graph/docs/highlight.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/highlight.md"
+    },
+    {
+      "title": "Hit count",
+      "url": "https://docs.optimizely.com/graph/docs/hit-count.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/hit-count.md"
+    },
+    {
+      "title": "HMAC",
+      "url": "https://docs.optimizely.com/graph/docs/hmac.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/hmac.md"
+    },
+    {
+      "title": "ids (Filter IDs)",
+      "url": "https://docs.optimizely.com/graph/docs/ids-filter-ids.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/ids-filter-ids.md"
+    },
+    {
+      "title": "Inline fragments for content schema",
+      "url": "https://docs.optimizely.com/graph/docs/inline-fragments-for-content-schema.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/inline-fragments-for-content-schema.md"
+    },
+    {
+      "title": "Introduction to Graph integrations",
+      "url": "https://docs.optimizely.com/graph/docs/introduction-to-graph-integrations.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/introduction-to-graph-integrations.md"
+    },
+    {
+      "title": "Item queries for single entities",
+      "url": "https://docs.optimizely.com/graph/docs/item-queries-for-single-entities.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/item-queries-for-single-entities.md"
+    },
+    {
+      "title": "Joins with linking",
+      "url": "https://docs.optimizely.com/graph/docs/joins-with-linking.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/joins-with-linking.md"
+    },
+    {
+      "title": "\\_json field",
+      "url": "https://docs.optimizely.com/graph/docs/json-field.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/json-field.md"
+    },
+    {
+      "title": "What content Optimizely Graph indexes",
+      "url": "https://docs.optimizely.com/graph/docs/k0T0-what-content-optimizely-graph-indexes.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/k0T0-what-content-optimizely-graph-indexes.md"
+    },
+    {
+      "title": "Known limitations and workarounds",
+      "url": "https://docs.optimizely.com/graph/docs/known-limitations-and-workarounds.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/known-limitations-and-workarounds.md"
+    },
+    {
+      "title": "Live preview with Next.js (headless)",
+      "url": "https://docs.optimizely.com/graph/docs/live-preview-with-nextjs-headless.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/live-preview-with-nextjs-headless.md"
+    },
+    {
+      "title": "Locale (language routing)",
+      "url": "https://docs.optimizely.com/graph/docs/locale-language-routing.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/locale-language-routing.md"
+    },
+    {
+      "title": "Locale",
+      "url": "https://docs.optimizely.com/graph/docs/locale.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/locale.md"
+    },
+    {
+      "title": "Logical connectors",
+      "url": "https://docs.optimizely.com/graph/docs/logical-connectors.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/logical-connectors.md"
+    },
+    {
+      "title": "Manage webhooks",
+      "url": "https://docs.optimizely.com/graph/docs/manage-webhooks.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/manage-webhooks.md"
+    },
+    {
+      "title": "Migrate autocomplete",
+      "url": "https://docs.optimizely.com/graph/docs/migrate-autocomplete.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/migrate-autocomplete.md"
+    },
+    {
+      "title": "Migrate best bets to pinned results",
+      "url": "https://docs.optimizely.com/graph/docs/migrate-best-bets-to-pinned-results.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/migrate-best-bets-to-pinned-results.md"
+    },
+    {
+      "title": "Migrate boosting",
+      "url": "https://docs.optimizely.com/graph/docs/migrate-boosting.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/migrate-boosting.md"
+    },
+    {
+      "title": "Migrate synonyms",
+      "url": "https://docs.optimizely.com/graph/docs/migrate-synonyms.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/migrate-synonyms.md"
+    },
+    {
+      "title": "Migration decision framework",
+      "url": "https://docs.optimizely.com/graph/docs/migration-decision-framework.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/migration-decision-framework.md"
+    },
+    {
+      "title": "Overview of migrating from Search & Navigation",
+      "url": "https://docs.optimizely.com/graph/docs/migration-documentation-overview.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/migration-documentation-overview.md"
+    },
+    {
+      "title": "Modified and deleted content items",
+      "url": "https://docs.optimizely.com/graph/docs/modified-and-deleted-content-items.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/modified-and-deleted-content-items.md"
+    },
+    {
+      "title": "Natural language processing",
+      "url": "https://docs.optimizely.com/graph/docs/natural-language-processing.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/natural-language-processing.md"
+    },
+    {
+      "title": "Omnichannel content delivery",
+      "url": "https://docs.optimizely.com/graph/docs/omnichannel-delivery.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/omnichannel-delivery.md"
+    },
+    {
+      "title": "OpenID Connect (OIDC)",
+      "url": "https://docs.optimizely.com/graph/docs/openid-connect-oidc.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/openid-connect-oidc.md"
+    },
+    {
+      "title": "Operators",
+      "url": "https://docs.optimizely.com/graph/docs/operators.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/operators.md"
+    },
+    {
+      "title": "Opti ID provider",
+      "url": "https://docs.optimizely.com/graph/docs/opti-id-provider.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/opti-id-provider.md"
+    },
+    {
+      "title": "Optimizely CMS 12",
+      "url": "https://docs.optimizely.com/graph/docs/optimizely-cms-12.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/optimizely-cms-12.md"
+    },
+    {
+      "title": "Optimizely CMS 13",
+      "url": "https://docs.optimizely.com/graph/docs/optimizely-cms-13-1.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/optimizely-cms-13-1.md"
+    },
+    {
+      "title": "Optimizely CMS (SaaS)",
+      "url": "https://docs.optimizely.com/graph/docs/optimizely-cms-saas.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/optimizely-cms-saas.md"
+    },
+    {
+      "title": "Optimizely Commerce Connect",
+      "url": "https://docs.optimizely.com/graph/docs/optimizely-commerce-connect.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/optimizely-commerce-connect.md"
+    },
+    {
+      "title": "Optimizely Graph .NET Source SDK",
+      "url": "https://docs.optimizely.com/graph/docs/optimizely-graph-net-source-sdk.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/optimizely-graph-net-source-sdk.md"
+    },
+    {
+      "title": "Optimizely Graph releases and channels",
+      "url": "https://docs.optimizely.com/graph/docs/optimizely-graph-releases-and-channels.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/optimizely-graph-releases-and-channels.md"
+    },
+    {
+      "title": "Optimizely Graph schema",
+      "url": "https://docs.optimizely.com/graph/docs/optimizely-graph-schema.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/optimizely-graph-schema.md"
+    },
+    {
+      "title": "OrderBy",
+      "url": "https://docs.optimizely.com/graph/docs/orderby.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/orderby.md"
+    },
+    {
+      "title": "Parent and child queries",
+      "url": "https://docs.optimizely.com/graph/docs/parent-and-child-queries.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/parent-and-child-queries.md"
+    },
+    {
+      "title": "Perform Full-text search using Graph",
+      "url": "https://docs.optimizely.com/graph/docs/perform-full-text-search-using-graph.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/perform-full-text-search-using-graph.md"
+    },
+    {
+      "title": "Performance and Monitoring",
+      "url": "https://docs.optimizely.com/graph/docs/performance-and-monitoring.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/performance-and-monitoring.md"
+    },
+    {
+      "title": "Performance dashboard in Search Management portal",
+      "url": "https://docs.optimizely.com/graph/docs/performance-dashboard-in-search-management-portal.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/performance-dashboard-in-search-management-portal.md"
+    },
+    {
+      "title": "Performance optimization",
+      "url": "https://docs.optimizely.com/graph/docs/performance-optimization.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/performance-optimization.md"
+    },
+    {
+      "title": "Personalized search and filtering",
+      "url": "https://docs.optimizely.com/graph/docs/personalized-search.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/personalized-search.md"
+    },
+    {
+      "title": "Pinned results in Search Management portal",
+      "url": "https://docs.optimizely.com/graph/docs/pinned-results-in-search-management-portal.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/pinned-results-in-search-management-portal.md"
+    },
+    {
+      "title": "Pinned results",
+      "url": "https://docs.optimizely.com/graph/docs/pinned-results.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/pinned-results.md"
+    },
+    {
+      "title": "Prerequisites for Optimizely Graph",
+      "url": "https://docs.optimizely.com/graph/docs/prerequisites-for-optimizely-graph.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/prerequisites-for-optimizely-graph.md"
+    },
+    {
+      "title": "Product search with inventory",
+      "url": "https://docs.optimizely.com/graph/docs/product-search-with-inventory.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/product-search-with-inventory.md"
+    },
+    {
+      "title": "Provision an Optimizely Graph instance for CMS 13",
+      "url": "https://docs.optimizely.com/graph/docs/provision-an-optimizely-graph-instance-for-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/provision-an-optimizely-graph-instance-for-cms-13.md"
+    },
+    {
+      "title": "Get started",
+      "url": "https://docs.optimizely.com/graph/docs/Qn1G-get-started.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/Qn1G-get-started.md"
+    },
+    {
+      "title": "Query a specific locale",
+      "url": "https://docs.optimizely.com/graph/docs/query-a-specific-locale.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/query-a-specific-locale.md"
+    },
+    {
+      "title": "Query examples",
+      "url": "https://docs.optimizely.com/graph/docs/query-examples.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/query-examples.md"
+    },
+    {
+      "title": "Query",
+      "url": "https://docs.optimizely.com/graph/docs/query.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/query.md"
+    },
+    {
+      "title": "Quick start guide: C# ASP.NET",
+      "url": "https://docs.optimizely.com/graph/docs/quick-start-c.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/quick-start-c.md"
+    },
+    {
+      "title": "Quick start guide: C# and .NET",
+      "url": "https://docs.optimizely.com/graph/docs/quick-start-guide-c-and-net.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/quick-start-guide-c-and-net.md"
+    },
+    {
+      "title": "Quick start guide: Next.js and React",
+      "url": "https://docs.optimizely.com/graph/docs/quick-start-guide-next-js-and-react.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/quick-start-guide-next-js-and-react.md"
+    },
+    {
+      "title": "Quick start guide: Next.js React",
+      "url": "https://docs.optimizely.com/graph/docs/quick-start-guide-nextjs-react.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/quick-start-guide-nextjs-react.md"
+    },
+    {
+      "title": "Rate limits",
+      "url": "https://docs.optimizely.com/graph/docs/rate-limits.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/rate-limits.md"
+    },
+    {
+      "title": "Recent articles by category",
+      "url": "https://docs.optimizely.com/graph/docs/recent-articles-by-category.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/recent-articles-by-category.md"
+    },
+    {
+      "title": "Recursive queries",
+      "url": "https://docs.optimizely.com/graph/docs/recursive-queries.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/recursive-queries.md"
+    },
+    {
+      "title": "Reference properties",
+      "url": "https://docs.optimizely.com/graph/docs/reference-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/reference-properties.md"
+    },
+    {
+      "title": "Search content",
+      "url": "https://docs.optimizely.com/graph/docs/search-content.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/search-content.md"
+    },
+    {
+      "title": "Search hit tracking",
+      "url": "https://docs.optimizely.com/graph/docs/search-hit-tracking.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/search-hit-tracking.md"
+    },
+    {
+      "title": "Search Management portal",
+      "url": "https://docs.optimizely.com/graph/docs/search-management-portal.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/search-management-portal.md"
+    },
+    {
+      "title": "Semantic search",
+      "url": "https://docs.optimizely.com/graph/docs/semantic-search.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/semantic-search.md"
+    },
+    {
+      "title": "Send multilingual content to Graph",
+      "url": "https://docs.optimizely.com/graph/docs/send-multilingual-content-to-graph.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/send-multilingual-content-to-graph.md"
+    },
+    {
+      "title": "Single key",
+      "url": "https://docs.optimizely.com/graph/docs/single-key.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/single-key.md"
+    },
+    {
+      "title": "Site search",
+      "url": "https://docs.optimizely.com/graph/docs/site-search.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/site-search.md"
+    },
+    {
+      "title": "Skip and limit pagination",
+      "url": "https://docs.optimizely.com/graph/docs/skip-and-limit-pagination.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/skip-and-limit-pagination.md"
+    },
+    {
+      "title": "Skip and limit",
+      "url": "https://docs.optimizely.com/graph/docs/skip-and-limit.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/skip-and-limit.md"
+    },
+    {
+      "title": "Smooth rebuild",
+      "url": "https://docs.optimizely.com/graph/docs/smooth-rebuild.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/smooth-rebuild.md"
+    },
+    {
+      "title": "Sort content",
+      "url": "https://docs.optimizely.com/graph/docs/sort-content.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/sort-content.md"
+    },
+    {
+      "title": "Stop words",
+      "url": "https://docs.optimizely.com/graph/docs/stop-words.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/stop-words.md"
+    },
+    {
+      "title": "Summarize Optimizely Graph results using facets",
+      "url": "https://docs.optimizely.com/graph/docs/summarize-optimizely-graph-results-using-facets.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/summarize-optimizely-graph-results-using-facets.md"
+    },
+    {
+      "title": "Sync content data",
+      "url": "https://docs.optimizely.com/graph/docs/sync-content-data.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/sync-content-data.md"
+    },
+    {
+      "title": "Sync content types for external data",
+      "url": "https://docs.optimizely.com/graph/docs/sync-content-types-for-external-data.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/sync-content-types-for-external-data.md"
+    },
+    {
+      "title": "Synchronize content",
+      "url": "https://docs.optimizely.com/graph/docs/sync-content.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/sync-content.md"
+    },
+    {
+      "title": "Sync fallback language versions",
+      "url": "https://docs.optimizely.com/graph/docs/sync-fallback-language-versions.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/sync-fallback-language-versions.md"
+    },
+    {
+      "title": "Synchronize content events to Optimizely Graph",
+      "url": "https://docs.optimizely.com/graph/docs/synchronize-content-events-to-optimizely-graph.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/synchronize-content-events-to-optimizely-graph.md"
+    },
+    {
+      "title": "Synchronize Optimizely Graph using API",
+      "url": "https://docs.optimizely.com/graph/docs/synchronize-optimizely-graph-using-api.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/synchronize-optimizely-graph-using-api.md"
+    },
+    {
+      "title": "Synonyms in Search Management portal",
+      "url": "https://docs.optimizely.com/graph/docs/synonyms-in-search-management-portal.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/synonyms-in-search-management-portal.md"
+    },
+    {
+      "title": "Synonyms",
+      "url": "https://docs.optimizely.com/graph/docs/synonyms.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/synonyms.md"
+    },
+    {
+      "title": "Text extraction from media",
+      "url": "https://docs.optimizely.com/graph/docs/text-extraction-from-media.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/text-extraction-from-media.md"
+    },
+    {
+      "title": "Troubleshoot common errors",
+      "url": "https://docs.optimizely.com/graph/docs/troubleshoot-common-errors.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/troubleshoot-common-errors.md"
+    },
+    {
+      "title": "Troubleshoot migration issues from Search & Navigation to Graph",
+      "url": "https://docs.optimizely.com/graph/docs/troubleshoot-migration-issues-from-search-navigation-to-graph.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/troubleshoot-migration-issues-from-search-navigation-to-graph.md"
+    },
+    {
+      "title": "Optimizely GraphQL basics",
+      "url": "https://docs.optimizely.com/graph/docs/understanding-graphql-basics.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/understanding-graphql-basics.md"
+    },
+    {
+      "title": "Use case: Gatsby deployment",
+      "url": "https://docs.optimizely.com/graph/docs/use-case-gatsby-deployment.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/use-case-gatsby-deployment.md"
+    },
+    {
+      "title": "Use case: Vercel deployment",
+      "url": "https://docs.optimizely.com/graph/docs/use-case-vercel-deployment.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/use-case-vercel-deployment.md"
+    },
+    {
+      "title": "Webhooks",
+      "url": "https://docs.optimizely.com/graph/docs/webhooks.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/webhooks.md"
+    },
+    {
+      "title": "Where filter",
+      "url": "https://docs.optimizely.com/graph/docs/where-filter.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/where-filter.md"
+    },
+    {
+      "title": "Where",
+      "url": "https://docs.optimizely.com/graph/docs/where.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/where.md"
+    },
+    {
+      "title": "Manage multi-lingual content",
+      "url": "https://docs.optimizely.com/graph/docs/working-with-multi-lingual-content.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/working-with-multi-lingual-content.md"
+    },
+    {
+      "title": "2026 Optimizely Graph release notes",
+      "url": "https://docs.optimizely.com/graph/release-notes.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/release-notes.md"
+    },
+    {
+      "title": "2024 Optimizely Graph release notes",
+      "url": "https://docs.optimizely.com/graph/release-notes/2024-optimizely-graph-release-notes.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/release-notes/2024-optimizely-graph-release-notes.md"
+    },
+    {
+      "title": "2025 Optimizely Graph release notes",
+      "url": "https://docs.optimizely.com/graph/release-notes/2025-optimizely-graph-release-notes.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/release-notes/2025-optimizely-graph-release-notes.md"
+    }
+  ],
+  "referenceIssues": []
+}

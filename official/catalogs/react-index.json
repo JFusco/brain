@@ -1,0 +1,906 @@
+{
+  "schemaVersion": 1,
+  "source": "react-index",
+  "revision": "24fe39758189fed4633c335fe42f903dba79dbbf35871caed295b7cc41a7c42d",
+  "origin": "https://react.dev/llms.txt",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Quick Start",
+      "url": "https://react.dev/learn.md",
+      "fetchUrl": "https://react.dev/learn.md"
+    },
+    {
+      "title": "Tutorial: Tic-Tac-Toe",
+      "url": "https://react.dev/learn/tutorial-tic-tac-toe.md",
+      "fetchUrl": "https://react.dev/learn/tutorial-tic-tac-toe.md"
+    },
+    {
+      "title": "Thinking in React",
+      "url": "https://react.dev/learn/thinking-in-react.md",
+      "fetchUrl": "https://react.dev/learn/thinking-in-react.md"
+    },
+    {
+      "title": "Installation",
+      "url": "https://react.dev/learn/installation.md",
+      "fetchUrl": "https://react.dev/learn/installation.md"
+    },
+    {
+      "title": "Creating a React App",
+      "url": "https://react.dev/learn/creating-a-react-app.md",
+      "fetchUrl": "https://react.dev/learn/creating-a-react-app.md"
+    },
+    {
+      "title": "Build a React App from Scratch",
+      "url": "https://react.dev/learn/build-a-react-app-from-scratch.md",
+      "fetchUrl": "https://react.dev/learn/build-a-react-app-from-scratch.md"
+    },
+    {
+      "title": "Add React to an Existing Project",
+      "url": "https://react.dev/learn/add-react-to-an-existing-project.md",
+      "fetchUrl": "https://react.dev/learn/add-react-to-an-existing-project.md"
+    },
+    {
+      "title": "Setup",
+      "url": "https://react.dev/learn/setup.md",
+      "fetchUrl": "https://react.dev/learn/setup.md"
+    },
+    {
+      "title": "Editor Setup",
+      "url": "https://react.dev/learn/editor-setup.md",
+      "fetchUrl": "https://react.dev/learn/editor-setup.md"
+    },
+    {
+      "title": "Using TypeScript",
+      "url": "https://react.dev/learn/typescript.md",
+      "fetchUrl": "https://react.dev/learn/typescript.md"
+    },
+    {
+      "title": "React Developer Tools",
+      "url": "https://react.dev/learn/react-developer-tools.md",
+      "fetchUrl": "https://react.dev/learn/react-developer-tools.md"
+    },
+    {
+      "title": "React Compiler",
+      "url": "https://react.dev/learn/react-compiler.md",
+      "fetchUrl": "https://react.dev/learn/react-compiler.md"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://react.dev/learn/react-compiler/introduction.md",
+      "fetchUrl": "https://react.dev/learn/react-compiler/introduction.md"
+    },
+    {
+      "title": "Installation",
+      "url": "https://react.dev/learn/react-compiler/installation.md",
+      "fetchUrl": "https://react.dev/learn/react-compiler/installation.md"
+    },
+    {
+      "title": "Incremental Adoption",
+      "url": "https://react.dev/learn/react-compiler/incremental-adoption.md",
+      "fetchUrl": "https://react.dev/learn/react-compiler/incremental-adoption.md"
+    },
+    {
+      "title": "Debugging and Troubleshooting",
+      "url": "https://react.dev/learn/react-compiler/debugging.md",
+      "fetchUrl": "https://react.dev/learn/react-compiler/debugging.md"
+    },
+    {
+      "title": "Describing the UI",
+      "url": "https://react.dev/learn/describing-the-ui.md",
+      "fetchUrl": "https://react.dev/learn/describing-the-ui.md"
+    },
+    {
+      "title": "Your First Component",
+      "url": "https://react.dev/learn/your-first-component.md",
+      "fetchUrl": "https://react.dev/learn/your-first-component.md"
+    },
+    {
+      "title": "Importing and Exporting Components",
+      "url": "https://react.dev/learn/importing-and-exporting-components.md",
+      "fetchUrl": "https://react.dev/learn/importing-and-exporting-components.md"
+    },
+    {
+      "title": "Writing Markup with JSX",
+      "url": "https://react.dev/learn/writing-markup-with-jsx.md",
+      "fetchUrl": "https://react.dev/learn/writing-markup-with-jsx.md"
+    },
+    {
+      "title": "JavaScript in JSX with Curly Braces",
+      "url": "https://react.dev/learn/javascript-in-jsx-with-curly-braces.md",
+      "fetchUrl": "https://react.dev/learn/javascript-in-jsx-with-curly-braces.md"
+    },
+    {
+      "title": "Passing Props to a Component",
+      "url": "https://react.dev/learn/passing-props-to-a-component.md",
+      "fetchUrl": "https://react.dev/learn/passing-props-to-a-component.md"
+    },
+    {
+      "title": "Conditional Rendering",
+      "url": "https://react.dev/learn/conditional-rendering.md",
+      "fetchUrl": "https://react.dev/learn/conditional-rendering.md"
+    },
+    {
+      "title": "Rendering Lists",
+      "url": "https://react.dev/learn/rendering-lists.md",
+      "fetchUrl": "https://react.dev/learn/rendering-lists.md"
+    },
+    {
+      "title": "Keeping Components Pure",
+      "url": "https://react.dev/learn/keeping-components-pure.md",
+      "fetchUrl": "https://react.dev/learn/keeping-components-pure.md"
+    },
+    {
+      "title": "Your UI as a Tree",
+      "url": "https://react.dev/learn/understanding-your-ui-as-a-tree.md",
+      "fetchUrl": "https://react.dev/learn/understanding-your-ui-as-a-tree.md"
+    },
+    {
+      "title": "Adding Interactivity",
+      "url": "https://react.dev/learn/adding-interactivity.md",
+      "fetchUrl": "https://react.dev/learn/adding-interactivity.md"
+    },
+    {
+      "title": "Responding to Events",
+      "url": "https://react.dev/learn/responding-to-events.md",
+      "fetchUrl": "https://react.dev/learn/responding-to-events.md"
+    },
+    {
+      "title": "State: A Component's Memory",
+      "url": "https://react.dev/learn/state-a-components-memory.md",
+      "fetchUrl": "https://react.dev/learn/state-a-components-memory.md"
+    },
+    {
+      "title": "Render and Commit",
+      "url": "https://react.dev/learn/render-and-commit.md",
+      "fetchUrl": "https://react.dev/learn/render-and-commit.md"
+    },
+    {
+      "title": "State as a Snapshot",
+      "url": "https://react.dev/learn/state-as-a-snapshot.md",
+      "fetchUrl": "https://react.dev/learn/state-as-a-snapshot.md"
+    },
+    {
+      "title": "Queueing a Series of State Updates",
+      "url": "https://react.dev/learn/queueing-a-series-of-state-updates.md",
+      "fetchUrl": "https://react.dev/learn/queueing-a-series-of-state-updates.md"
+    },
+    {
+      "title": "Updating Objects in State",
+      "url": "https://react.dev/learn/updating-objects-in-state.md",
+      "fetchUrl": "https://react.dev/learn/updating-objects-in-state.md"
+    },
+    {
+      "title": "Updating Arrays in State",
+      "url": "https://react.dev/learn/updating-arrays-in-state.md",
+      "fetchUrl": "https://react.dev/learn/updating-arrays-in-state.md"
+    },
+    {
+      "title": "Managing State",
+      "url": "https://react.dev/learn/managing-state.md",
+      "fetchUrl": "https://react.dev/learn/managing-state.md"
+    },
+    {
+      "title": "Reacting to Input with State",
+      "url": "https://react.dev/learn/reacting-to-input-with-state.md",
+      "fetchUrl": "https://react.dev/learn/reacting-to-input-with-state.md"
+    },
+    {
+      "title": "Choosing the State Structure",
+      "url": "https://react.dev/learn/choosing-the-state-structure.md",
+      "fetchUrl": "https://react.dev/learn/choosing-the-state-structure.md"
+    },
+    {
+      "title": "Sharing State Between Components",
+      "url": "https://react.dev/learn/sharing-state-between-components.md",
+      "fetchUrl": "https://react.dev/learn/sharing-state-between-components.md"
+    },
+    {
+      "title": "Preserving and Resetting State",
+      "url": "https://react.dev/learn/preserving-and-resetting-state.md",
+      "fetchUrl": "https://react.dev/learn/preserving-and-resetting-state.md"
+    },
+    {
+      "title": "Extracting State Logic into a Reducer",
+      "url": "https://react.dev/learn/extracting-state-logic-into-a-reducer.md",
+      "fetchUrl": "https://react.dev/learn/extracting-state-logic-into-a-reducer.md"
+    },
+    {
+      "title": "Passing Data Deeply with Context",
+      "url": "https://react.dev/learn/passing-data-deeply-with-context.md",
+      "fetchUrl": "https://react.dev/learn/passing-data-deeply-with-context.md"
+    },
+    {
+      "title": "Scaling Up with Reducer and Context",
+      "url": "https://react.dev/learn/scaling-up-with-reducer-and-context.md",
+      "fetchUrl": "https://react.dev/learn/scaling-up-with-reducer-and-context.md"
+    },
+    {
+      "title": "Escape Hatches",
+      "url": "https://react.dev/learn/escape-hatches.md",
+      "fetchUrl": "https://react.dev/learn/escape-hatches.md"
+    },
+    {
+      "title": "Referencing Values with Refs",
+      "url": "https://react.dev/learn/referencing-values-with-refs.md",
+      "fetchUrl": "https://react.dev/learn/referencing-values-with-refs.md"
+    },
+    {
+      "title": "Manipulating the DOM with Refs",
+      "url": "https://react.dev/learn/manipulating-the-dom-with-refs.md",
+      "fetchUrl": "https://react.dev/learn/manipulating-the-dom-with-refs.md"
+    },
+    {
+      "title": "Synchronizing with Effects",
+      "url": "https://react.dev/learn/synchronizing-with-effects.md",
+      "fetchUrl": "https://react.dev/learn/synchronizing-with-effects.md"
+    },
+    {
+      "title": "You Might Not Need an Effect",
+      "url": "https://react.dev/learn/you-might-not-need-an-effect.md",
+      "fetchUrl": "https://react.dev/learn/you-might-not-need-an-effect.md"
+    },
+    {
+      "title": "Lifecycle of Reactive Effects",
+      "url": "https://react.dev/learn/lifecycle-of-reactive-effects.md",
+      "fetchUrl": "https://react.dev/learn/lifecycle-of-reactive-effects.md"
+    },
+    {
+      "title": "Separating Events from Effects",
+      "url": "https://react.dev/learn/separating-events-from-effects.md",
+      "fetchUrl": "https://react.dev/learn/separating-events-from-effects.md"
+    },
+    {
+      "title": "Removing Effect Dependencies",
+      "url": "https://react.dev/learn/removing-effect-dependencies.md",
+      "fetchUrl": "https://react.dev/learn/removing-effect-dependencies.md"
+    },
+    {
+      "title": "Reusing Logic with Custom Hooks",
+      "url": "https://react.dev/learn/reusing-logic-with-custom-hooks.md",
+      "fetchUrl": "https://react.dev/learn/reusing-logic-with-custom-hooks.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://react.dev/reference/react.md",
+      "fetchUrl": "https://react.dev/reference/react.md"
+    },
+    {
+      "title": "Hooks",
+      "url": "https://react.dev/reference/react/hooks.md",
+      "fetchUrl": "https://react.dev/reference/react/hooks.md"
+    },
+    {
+      "title": "useActionState",
+      "url": "https://react.dev/reference/react/useActionState.md",
+      "fetchUrl": "https://react.dev/reference/react/useActionState.md"
+    },
+    {
+      "title": "useCallback",
+      "url": "https://react.dev/reference/react/useCallback.md",
+      "fetchUrl": "https://react.dev/reference/react/useCallback.md"
+    },
+    {
+      "title": "useContext",
+      "url": "https://react.dev/reference/react/useContext.md",
+      "fetchUrl": "https://react.dev/reference/react/useContext.md"
+    },
+    {
+      "title": "useDebugValue",
+      "url": "https://react.dev/reference/react/useDebugValue.md",
+      "fetchUrl": "https://react.dev/reference/react/useDebugValue.md"
+    },
+    {
+      "title": "useDeferredValue",
+      "url": "https://react.dev/reference/react/useDeferredValue.md",
+      "fetchUrl": "https://react.dev/reference/react/useDeferredValue.md"
+    },
+    {
+      "title": "useEffect",
+      "url": "https://react.dev/reference/react/useEffect.md",
+      "fetchUrl": "https://react.dev/reference/react/useEffect.md"
+    },
+    {
+      "title": "useEffectEvent",
+      "url": "https://react.dev/reference/react/useEffectEvent.md",
+      "fetchUrl": "https://react.dev/reference/react/useEffectEvent.md"
+    },
+    {
+      "title": "useId",
+      "url": "https://react.dev/reference/react/useId.md",
+      "fetchUrl": "https://react.dev/reference/react/useId.md"
+    },
+    {
+      "title": "useImperativeHandle",
+      "url": "https://react.dev/reference/react/useImperativeHandle.md",
+      "fetchUrl": "https://react.dev/reference/react/useImperativeHandle.md"
+    },
+    {
+      "title": "useInsertionEffect",
+      "url": "https://react.dev/reference/react/useInsertionEffect.md",
+      "fetchUrl": "https://react.dev/reference/react/useInsertionEffect.md"
+    },
+    {
+      "title": "useLayoutEffect",
+      "url": "https://react.dev/reference/react/useLayoutEffect.md",
+      "fetchUrl": "https://react.dev/reference/react/useLayoutEffect.md"
+    },
+    {
+      "title": "useMemo",
+      "url": "https://react.dev/reference/react/useMemo.md",
+      "fetchUrl": "https://react.dev/reference/react/useMemo.md"
+    },
+    {
+      "title": "useOptimistic",
+      "url": "https://react.dev/reference/react/useOptimistic.md",
+      "fetchUrl": "https://react.dev/reference/react/useOptimistic.md"
+    },
+    {
+      "title": "useReducer",
+      "url": "https://react.dev/reference/react/useReducer.md",
+      "fetchUrl": "https://react.dev/reference/react/useReducer.md"
+    },
+    {
+      "title": "useRef",
+      "url": "https://react.dev/reference/react/useRef.md",
+      "fetchUrl": "https://react.dev/reference/react/useRef.md"
+    },
+    {
+      "title": "useState",
+      "url": "https://react.dev/reference/react/useState.md",
+      "fetchUrl": "https://react.dev/reference/react/useState.md"
+    },
+    {
+      "title": "useSyncExternalStore",
+      "url": "https://react.dev/reference/react/useSyncExternalStore.md",
+      "fetchUrl": "https://react.dev/reference/react/useSyncExternalStore.md"
+    },
+    {
+      "title": "useTransition",
+      "url": "https://react.dev/reference/react/useTransition.md",
+      "fetchUrl": "https://react.dev/reference/react/useTransition.md"
+    },
+    {
+      "title": "Components",
+      "url": "https://react.dev/reference/react/components.md",
+      "fetchUrl": "https://react.dev/reference/react/components.md"
+    },
+    {
+      "title": "<Fragment> (<>)",
+      "url": "https://react.dev/reference/react/Fragment.md",
+      "fetchUrl": "https://react.dev/reference/react/Fragment.md"
+    },
+    {
+      "title": "<Profiler>",
+      "url": "https://react.dev/reference/react/Profiler.md",
+      "fetchUrl": "https://react.dev/reference/react/Profiler.md"
+    },
+    {
+      "title": "<StrictMode>",
+      "url": "https://react.dev/reference/react/StrictMode.md",
+      "fetchUrl": "https://react.dev/reference/react/StrictMode.md"
+    },
+    {
+      "title": "<Suspense>",
+      "url": "https://react.dev/reference/react/Suspense.md",
+      "fetchUrl": "https://react.dev/reference/react/Suspense.md"
+    },
+    {
+      "title": "<Activity>",
+      "url": "https://react.dev/reference/react/Activity.md",
+      "fetchUrl": "https://react.dev/reference/react/Activity.md"
+    },
+    {
+      "title": "<ViewTransition>",
+      "url": "https://react.dev/reference/react/ViewTransition.md",
+      "fetchUrl": "https://react.dev/reference/react/ViewTransition.md"
+    },
+    {
+      "title": "APIs",
+      "url": "https://react.dev/reference/react/apis.md",
+      "fetchUrl": "https://react.dev/reference/react/apis.md"
+    },
+    {
+      "title": "act",
+      "url": "https://react.dev/reference/react/act.md",
+      "fetchUrl": "https://react.dev/reference/react/act.md"
+    },
+    {
+      "title": "addTransitionType",
+      "url": "https://react.dev/reference/react/addTransitionType.md",
+      "fetchUrl": "https://react.dev/reference/react/addTransitionType.md"
+    },
+    {
+      "title": "cache",
+      "url": "https://react.dev/reference/react/cache.md",
+      "fetchUrl": "https://react.dev/reference/react/cache.md"
+    },
+    {
+      "title": "cacheSignal",
+      "url": "https://react.dev/reference/react/cacheSignal.md",
+      "fetchUrl": "https://react.dev/reference/react/cacheSignal.md"
+    },
+    {
+      "title": "captureOwnerStack",
+      "url": "https://react.dev/reference/react/captureOwnerStack.md",
+      "fetchUrl": "https://react.dev/reference/react/captureOwnerStack.md"
+    },
+    {
+      "title": "createContext",
+      "url": "https://react.dev/reference/react/createContext.md",
+      "fetchUrl": "https://react.dev/reference/react/createContext.md"
+    },
+    {
+      "title": "lazy",
+      "url": "https://react.dev/reference/react/lazy.md",
+      "fetchUrl": "https://react.dev/reference/react/lazy.md"
+    },
+    {
+      "title": "memo",
+      "url": "https://react.dev/reference/react/memo.md",
+      "fetchUrl": "https://react.dev/reference/react/memo.md"
+    },
+    {
+      "title": "startTransition",
+      "url": "https://react.dev/reference/react/startTransition.md",
+      "fetchUrl": "https://react.dev/reference/react/startTransition.md"
+    },
+    {
+      "title": "use",
+      "url": "https://react.dev/reference/react/use.md",
+      "fetchUrl": "https://react.dev/reference/react/use.md"
+    },
+    {
+      "title": "experimental_taintObjectReference",
+      "url": "https://react.dev/reference/react/experimental_taintObjectReference.md",
+      "fetchUrl": "https://react.dev/reference/react/experimental_taintObjectReference.md"
+    },
+    {
+      "title": "experimental_taintUniqueValue",
+      "url": "https://react.dev/reference/react/experimental_taintUniqueValue.md",
+      "fetchUrl": "https://react.dev/reference/react/experimental_taintUniqueValue.md"
+    },
+    {
+      "title": "Hooks",
+      "url": "https://react.dev/reference/react-dom/hooks.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/hooks.md"
+    },
+    {
+      "title": "useFormStatus",
+      "url": "https://react.dev/reference/react-dom/hooks/useFormStatus.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/hooks/useFormStatus.md"
+    },
+    {
+      "title": "Components",
+      "url": "https://react.dev/reference/react-dom/components.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components.md"
+    },
+    {
+      "title": "Common (e.g. <div>)",
+      "url": "https://react.dev/reference/react-dom/components/common.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/common.md"
+    },
+    {
+      "title": "<form>",
+      "url": "https://react.dev/reference/react-dom/components/form.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/form.md"
+    },
+    {
+      "title": "<input>",
+      "url": "https://react.dev/reference/react-dom/components/input.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/input.md"
+    },
+    {
+      "title": "<option>",
+      "url": "https://react.dev/reference/react-dom/components/option.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/option.md"
+    },
+    {
+      "title": "<progress>",
+      "url": "https://react.dev/reference/react-dom/components/progress.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/progress.md"
+    },
+    {
+      "title": "<select>",
+      "url": "https://react.dev/reference/react-dom/components/select.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/select.md"
+    },
+    {
+      "title": "<textarea>",
+      "url": "https://react.dev/reference/react-dom/components/textarea.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/textarea.md"
+    },
+    {
+      "title": "<img>",
+      "url": "https://react.dev/reference/react-dom/components/img.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/img.md"
+    },
+    {
+      "title": "<link>",
+      "url": "https://react.dev/reference/react-dom/components/link.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/link.md"
+    },
+    {
+      "title": "<meta>",
+      "url": "https://react.dev/reference/react-dom/components/meta.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/meta.md"
+    },
+    {
+      "title": "<script>",
+      "url": "https://react.dev/reference/react-dom/components/script.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/script.md"
+    },
+    {
+      "title": "<style>",
+      "url": "https://react.dev/reference/react-dom/components/style.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/style.md"
+    },
+    {
+      "title": "<title>",
+      "url": "https://react.dev/reference/react-dom/components/title.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/components/title.md"
+    },
+    {
+      "title": "APIs",
+      "url": "https://react.dev/reference/react-dom.md",
+      "fetchUrl": "https://react.dev/reference/react-dom.md"
+    },
+    {
+      "title": "browser",
+      "url": "https://react.dev/reference/react-dom/browser.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/browser.md"
+    },
+    {
+      "title": "createPortal",
+      "url": "https://react.dev/reference/react-dom/createPortal.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/createPortal.md"
+    },
+    {
+      "title": "flushSync",
+      "url": "https://react.dev/reference/react-dom/flushSync.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/flushSync.md"
+    },
+    {
+      "title": "preconnect",
+      "url": "https://react.dev/reference/react-dom/preconnect.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/preconnect.md"
+    },
+    {
+      "title": "prefetchDNS",
+      "url": "https://react.dev/reference/react-dom/prefetchDNS.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/prefetchDNS.md"
+    },
+    {
+      "title": "preinit",
+      "url": "https://react.dev/reference/react-dom/preinit.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/preinit.md"
+    },
+    {
+      "title": "preinitModule",
+      "url": "https://react.dev/reference/react-dom/preinitModule.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/preinitModule.md"
+    },
+    {
+      "title": "preload",
+      "url": "https://react.dev/reference/react-dom/preload.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/preload.md"
+    },
+    {
+      "title": "preloadModule",
+      "url": "https://react.dev/reference/react-dom/preloadModule.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/preloadModule.md"
+    },
+    {
+      "title": "Client APIs",
+      "url": "https://react.dev/reference/react-dom/client.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/client.md"
+    },
+    {
+      "title": "createRoot",
+      "url": "https://react.dev/reference/react-dom/client/createRoot.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/client/createRoot.md"
+    },
+    {
+      "title": "hydrateRoot",
+      "url": "https://react.dev/reference/react-dom/client/hydrateRoot.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/client/hydrateRoot.md"
+    },
+    {
+      "title": "Server APIs",
+      "url": "https://react.dev/reference/react-dom/server.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/server.md"
+    },
+    {
+      "title": "renderToPipeableStream",
+      "url": "https://react.dev/reference/react-dom/server/renderToPipeableStream.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/server/renderToPipeableStream.md"
+    },
+    {
+      "title": "renderToReadableStream",
+      "url": "https://react.dev/reference/react-dom/server/renderToReadableStream.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/server/renderToReadableStream.md"
+    },
+    {
+      "title": "renderToStaticMarkup",
+      "url": "https://react.dev/reference/react-dom/server/renderToStaticMarkup.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/server/renderToStaticMarkup.md"
+    },
+    {
+      "title": "renderToString",
+      "url": "https://react.dev/reference/react-dom/server/renderToString.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/server/renderToString.md"
+    },
+    {
+      "title": "resume",
+      "url": "https://react.dev/reference/react-dom/server/resume.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/server/resume.md"
+    },
+    {
+      "title": "resumeToPipeableStream",
+      "url": "https://react.dev/reference/react-dom/server/resumeToPipeableStream.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/server/resumeToPipeableStream.md"
+    },
+    {
+      "title": "Static APIs",
+      "url": "https://react.dev/reference/react-dom/static.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/static.md"
+    },
+    {
+      "title": "prerender",
+      "url": "https://react.dev/reference/react-dom/static/prerender.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/static/prerender.md"
+    },
+    {
+      "title": "prerenderToNodeStream",
+      "url": "https://react.dev/reference/react-dom/static/prerenderToNodeStream.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/static/prerenderToNodeStream.md"
+    },
+    {
+      "title": "resumeAndPrerender",
+      "url": "https://react.dev/reference/react-dom/static/resumeAndPrerender.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/static/resumeAndPrerender.md"
+    },
+    {
+      "title": "resumeAndPrerenderToNodeStream",
+      "url": "https://react.dev/reference/react-dom/static/resumeAndPrerenderToNodeStream.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/static/resumeAndPrerenderToNodeStream.md"
+    },
+    {
+      "title": "Compiling Libraries",
+      "url": "https://react.dev/reference/react-compiler/compiling-libraries.md",
+      "fetchUrl": "https://react.dev/reference/react-compiler/compiling-libraries.md"
+    },
+    {
+      "title": "Configuration",
+      "url": "https://react.dev/reference/react-compiler/configuration.md",
+      "fetchUrl": "https://react.dev/reference/react-compiler/configuration.md"
+    },
+    {
+      "title": "compilationMode",
+      "url": "https://react.dev/reference/react-compiler/compilationMode.md",
+      "fetchUrl": "https://react.dev/reference/react-compiler/compilationMode.md"
+    },
+    {
+      "title": "gating",
+      "url": "https://react.dev/reference/react-compiler/gating.md",
+      "fetchUrl": "https://react.dev/reference/react-compiler/gating.md"
+    },
+    {
+      "title": "logger",
+      "url": "https://react.dev/reference/react-compiler/logger.md",
+      "fetchUrl": "https://react.dev/reference/react-compiler/logger.md"
+    },
+    {
+      "title": "panicThreshold",
+      "url": "https://react.dev/reference/react-compiler/panicThreshold.md",
+      "fetchUrl": "https://react.dev/reference/react-compiler/panicThreshold.md"
+    },
+    {
+      "title": "target",
+      "url": "https://react.dev/reference/react-compiler/target.md",
+      "fetchUrl": "https://react.dev/reference/react-compiler/target.md"
+    },
+    {
+      "title": "Directives",
+      "url": "https://react.dev/reference/react-compiler/directives.md",
+      "fetchUrl": "https://react.dev/reference/react-compiler/directives.md"
+    },
+    {
+      "title": "\"use memo\"",
+      "url": "https://react.dev/reference/react-compiler/directives/use-memo.md",
+      "fetchUrl": "https://react.dev/reference/react-compiler/directives/use-memo.md"
+    },
+    {
+      "title": "\"use no memo\"",
+      "url": "https://react.dev/reference/react-compiler/directives/use-no-memo.md",
+      "fetchUrl": "https://react.dev/reference/react-compiler/directives/use-no-memo.md"
+    },
+    {
+      "title": "React Performance tracks",
+      "url": "https://react.dev/reference/dev-tools/react-performance-tracks.md",
+      "fetchUrl": "https://react.dev/reference/dev-tools/react-performance-tracks.md"
+    },
+    {
+      "title": "Lints",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks.md"
+    },
+    {
+      "title": "exhaustive-deps",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/exhaustive-deps.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/exhaustive-deps.md"
+    },
+    {
+      "title": "rules-of-hooks",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/rules-of-hooks.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/rules-of-hooks.md"
+    },
+    {
+      "title": "component-hook-factories",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/component-hook-factories.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/component-hook-factories.md"
+    },
+    {
+      "title": "config",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/config.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/config.md"
+    },
+    {
+      "title": "error-boundaries",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/error-boundaries.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/error-boundaries.md"
+    },
+    {
+      "title": "gating",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/gating.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/gating.md"
+    },
+    {
+      "title": "globals",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/globals.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/globals.md"
+    },
+    {
+      "title": "immutability",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/immutability.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/immutability.md"
+    },
+    {
+      "title": "incompatible-library",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/incompatible-library.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/incompatible-library.md"
+    },
+    {
+      "title": "preserve-manual-memoization",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/preserve-manual-memoization.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/preserve-manual-memoization.md"
+    },
+    {
+      "title": "purity",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/purity.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/purity.md"
+    },
+    {
+      "title": "refs",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/refs.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/refs.md"
+    },
+    {
+      "title": "set-state-in-effect",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-effect.md"
+    },
+    {
+      "title": "set-state-in-render",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-render.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/set-state-in-render.md"
+    },
+    {
+      "title": "static-components",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/static-components.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/static-components.md"
+    },
+    {
+      "title": "unsupported-syntax",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/unsupported-syntax.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/unsupported-syntax.md"
+    },
+    {
+      "title": "use-memo",
+      "url": "https://react.dev/reference/eslint-plugin-react-hooks/lints/use-memo.md",
+      "fetchUrl": "https://react.dev/reference/eslint-plugin-react-hooks/lints/use-memo.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://react.dev/reference/rules.md",
+      "fetchUrl": "https://react.dev/reference/rules.md"
+    },
+    {
+      "title": "Components and Hooks must be pure",
+      "url": "https://react.dev/reference/rules/components-and-hooks-must-be-pure.md",
+      "fetchUrl": "https://react.dev/reference/rules/components-and-hooks-must-be-pure.md"
+    },
+    {
+      "title": "React calls Components and Hooks",
+      "url": "https://react.dev/reference/rules/react-calls-components-and-hooks.md",
+      "fetchUrl": "https://react.dev/reference/rules/react-calls-components-and-hooks.md"
+    },
+    {
+      "title": "Rules of Hooks",
+      "url": "https://react.dev/reference/rules/rules-of-hooks.md",
+      "fetchUrl": "https://react.dev/reference/rules/rules-of-hooks.md"
+    },
+    {
+      "title": "Server Components",
+      "url": "https://react.dev/reference/rsc/server-components.md",
+      "fetchUrl": "https://react.dev/reference/rsc/server-components.md"
+    },
+    {
+      "title": "Server Functions",
+      "url": "https://react.dev/reference/rsc/server-functions.md",
+      "fetchUrl": "https://react.dev/reference/rsc/server-functions.md"
+    },
+    {
+      "title": "Directives",
+      "url": "https://react.dev/reference/rsc/directives.md",
+      "fetchUrl": "https://react.dev/reference/rsc/directives.md"
+    },
+    {
+      "title": "'use client'",
+      "url": "https://react.dev/reference/rsc/use-client.md",
+      "fetchUrl": "https://react.dev/reference/rsc/use-client.md"
+    },
+    {
+      "title": "'use server'",
+      "url": "https://react.dev/reference/rsc/use-server.md",
+      "fetchUrl": "https://react.dev/reference/rsc/use-server.md"
+    },
+    {
+      "title": "Legacy React APIs",
+      "url": "https://react.dev/reference/react/legacy.md",
+      "fetchUrl": "https://react.dev/reference/react/legacy.md"
+    },
+    {
+      "title": "Children",
+      "url": "https://react.dev/reference/react/Children.md",
+      "fetchUrl": "https://react.dev/reference/react/Children.md"
+    },
+    {
+      "title": "cloneElement",
+      "url": "https://react.dev/reference/react/cloneElement.md",
+      "fetchUrl": "https://react.dev/reference/react/cloneElement.md"
+    },
+    {
+      "title": "Component",
+      "url": "https://react.dev/reference/react/Component.md",
+      "fetchUrl": "https://react.dev/reference/react/Component.md"
+    },
+    {
+      "title": "createElement",
+      "url": "https://react.dev/reference/react/createElement.md",
+      "fetchUrl": "https://react.dev/reference/react/createElement.md"
+    },
+    {
+      "title": "createRef",
+      "url": "https://react.dev/reference/react/createRef.md",
+      "fetchUrl": "https://react.dev/reference/react/createRef.md"
+    },
+    {
+      "title": "forwardRef",
+      "url": "https://react.dev/reference/react/forwardRef.md",
+      "fetchUrl": "https://react.dev/reference/react/forwardRef.md"
+    },
+    {
+      "title": "isValidElement",
+      "url": "https://react.dev/reference/react/isValidElement.md",
+      "fetchUrl": "https://react.dev/reference/react/isValidElement.md"
+    },
+    {
+      "title": "PureComponent",
+      "url": "https://react.dev/reference/react/PureComponent.md",
+      "fetchUrl": "https://react.dev/reference/react/PureComponent.md"
+    }
+  ],
+  "referenceIssues": []
+}

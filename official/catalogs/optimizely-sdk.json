@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "source": "optimizely-sdk",
+  "revision": "5ef6268e688b35959d84b901c0bd6e81cb3669ef",
+  "origin": "https://github.com/episerver/content-js-sdk/tree/5ef6268e688b35959d84b901c0bd6e81cb3669ef/",
+  "skills": [],
+  "docs": [
+    {
+      "path": "docs/guides/agent-skills.md",
+      "title": "Use agent skills",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/agent-skills.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/agent-skills.md",
+      "gitBlobSha": "dd96304a42bd3ec7e9abecf7f35ba98fb2f1d8fa"
+    },
+    {
+      "path": "docs/guides/authentication.md",
+      "title": "Authenticate requests to Graph",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/authentication.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/authentication.md",
+      "gitBlobSha": "d07114c5c3aeae8431dfdeb4cd12820442ebd9f2"
+    },
+    {
+      "path": "docs/guides/content-types.md",
+      "title": "Define content types",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/content-types.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/content-types.md",
+      "gitBlobSha": "e50eb022f3517068ca47ad9c14bc443f7f407604"
+    },
+    {
+      "path": "docs/guides/contracts.md",
+      "title": "Share properties with contracts",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/contracts.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/contracts.md",
+      "gitBlobSha": "a0f5fcecac4cecab5b2caa25694936cdcbcef065"
+    },
+    {
+      "path": "docs/guides/dam-assets.md",
+      "title": "DAM assets",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/dam-assets.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/dam-assets.md",
+      "gitBlobSha": "06b734787c4eb6a4f717b3365fea65a76e9e95c4"
+    },
+    {
+      "path": "docs/guides/deploy-to-frontend-hosting.md",
+      "title": "Deploy to Optimizely front-end hosting",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/deploy-to-frontend-hosting.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/deploy-to-frontend-hosting.md",
+      "gitBlobSha": "dd2563170616d102cf89ed0f4f7653e7515981fa"
+    },
+    {
+      "path": "docs/guides/display-templates.md",
+      "title": "Style components with display templates",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/display-templates.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/display-templates.md",
+      "gitBlobSha": "6dd03621c3cb2fe8499eb94ce801f7dcaeb55b66"
+    },
+    {
+      "path": "docs/guides/experiences.md",
+      "title": "Build pages with experiences",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/experiences.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/experiences.md",
+      "gitBlobSha": "fdacbc9cc314bb36dbb3ad7d9702292e36a9f844"
+    },
+    {
+      "path": "docs/guides/forms.md",
+      "title": "Build forms with Optimizely Forms",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/forms.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/forms.md",
+      "gitBlobSha": "41063e1dbe3614c59629452bb545e15704f36dd1"
+    },
+    {
+      "path": "docs/guides/framework-agnostic-core.md",
+      "title": "Build on the framework-agnostic core",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/framework-agnostic-core.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/framework-agnostic-core.md",
+      "gitBlobSha": "aafdb99003080292b6846e51ffb93bca8d7c03c7"
+    },
+    {
+      "path": "docs/guides/navigation.md",
+      "title": "Build navigation",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/navigation.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/navigation.md",
+      "gitBlobSha": "a74ff5c2acea29c29b949e7b2084bfe95b7b6aeb"
+    },
+    {
+      "path": "docs/guides/observability.md",
+      "title": "Monitor the SDK with OpenTelemetry",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/observability.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/observability.md",
+      "gitBlobSha": "ce1bfe117028fe7a94dcd3806850f684f859e539"
+    },
+    {
+      "path": "docs/guides/request-context.md",
+      "title": "Request context",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/request-context.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/request-context.md",
+      "gitBlobSha": "d470c2c73ae18ccb9298238453b2d164f9e50e9c"
+    },
+    {
+      "path": "docs/guides/rich-text.md",
+      "title": "Rich text",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/rich-text.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/rich-text.md",
+      "gitBlobSha": "6b7d1a15bbb5d659190e9420d8b5e299ba7f3558"
+    },
+    {
+      "path": "docs/guides/taxonomy.md",
+      "title": "Use taxonomy categories",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/taxonomy.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/taxonomy.md",
+      "gitBlobSha": "28acf58c0871118f145e9e86a411824ca3b466d0"
+    },
+    {
+      "path": "docs/guides/validating-external-data.md",
+      "title": "Validate external data",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/validating-external-data.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/guides/validating-external-data.md",
+      "gitBlobSha": "3f55c9452c914cc0ffed70e3b503249b61bf1386"
+    },
+    {
+      "path": "docs/learn/connect-to-cms.md",
+      "title": "Connect to the CMS",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/connect-to-cms.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/connect-to-cms.md",
+      "gitBlobSha": "cbb598e170120de6225ee8fefe442035472d6ab8"
+    },
+    {
+      "path": "docs/learn/create-content.md",
+      "title": "Create content",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/create-content.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/create-content.md",
+      "gitBlobSha": "90a7ae961ea77b7015a81973063649030d821cb7"
+    },
+    {
+      "path": "docs/learn/fetch-content.md",
+      "title": "Fetch content",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/fetch-content.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/fetch-content.md",
+      "gitBlobSha": "425b749b350a3823ad58bb27f9d82c1f852098e3"
+    },
+    {
+      "path": "docs/learn/first-content-type.md",
+      "title": "Your first content type",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/first-content-type.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/first-content-type.md",
+      "gitBlobSha": "502c9e18028807bfa4d60382104682c06c9c7de9"
+    },
+    {
+      "path": "docs/learn/installation.md",
+      "title": "Installation",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/installation.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/installation.md",
+      "gitBlobSha": "90e7ad37e90e5adff818a7d91f40c4235055d424"
+    },
+    {
+      "path": "docs/learn/live-preview.md",
+      "title": "Live preview",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/live-preview.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/live-preview.md",
+      "gitBlobSha": "1f642e3abcf5689dbdca10fc8235f821832bb627"
+    },
+    {
+      "path": "docs/learn/quick-start.md",
+      "title": "Quick start",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/quick-start.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/quick-start.md",
+      "gitBlobSha": "b8b19440e2b5d5d560ebda1e20bb5eb4efd4ed78"
+    },
+    {
+      "path": "docs/learn/render-with-react.md",
+      "title": "Render with React",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/render-with-react.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/learn/render-with-react.md",
+      "gitBlobSha": "8b29a436663fe4f848f2a1912f4d26bd286d2f9c"
+    },
+    {
+      "path": "docs/README.md",
+      "title": "Optimizely CMS JavaScript SDK",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/README.md",
+      "gitBlobSha": "2df48f9972ddaeb3d20c616a083b4d5a15657926"
+    },
+    {
+      "path": "docs/reference/cli.md",
+      "title": "CLI",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/cli.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/cli.md",
+      "gitBlobSha": "d83dd533e0d8fa751dd6034f5ad38b4ac15d6b73"
+    },
+    {
+      "path": "docs/reference/config.md",
+      "title": "config(), getClient() and GraphClient",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/config.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/config.md",
+      "gitBlobSha": "a51008a51a8d869b76c1cb0447e3fa1aa454c6a8"
+    },
+    {
+      "path": "docs/reference/graph-client.md",
+      "title": "GraphClient",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/graph-client.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/graph-client.md",
+      "gitBlobSha": "78769777e02a27562be6202453bb5da6b269cba5"
+    },
+    {
+      "path": "docs/reference/migration-v3.md",
+      "title": "Migrating to 3.0",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/migration-v3.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/migration-v3.md",
+      "gitBlobSha": "ca03eb39f520804b51d47f0b86d555ab6802fe2b"
+    },
+    {
+      "path": "docs/reference/optimizely-config.md",
+      "title": "optimizely.config.mjs",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/optimizely-config.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/optimizely-config.md",
+      "gitBlobSha": "054e6487deff2be177d9610414cf4a408259be3b"
+    },
+    {
+      "path": "docs/reference/property-types.md",
+      "title": "Property types",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/property-types.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/property-types.md",
+      "gitBlobSha": "f76693e0f874fc408f3a3b3d1df33711aa2a8a8b"
+    },
+    {
+      "path": "docs/reference/react-components.md",
+      "title": "React components",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/react-components.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/react-components.md",
+      "gitBlobSha": "b2677adea788167816d566cf5f8a9252cfba4c12"
+    },
+    {
+      "path": "docs/reference/rich-text-component.md",
+      "title": "RichText",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/rich-text-component.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/rich-text-component.md",
+      "gitBlobSha": "4db2e9fafbb8bcb455d8f02dd6119658a176d879"
+    },
+    {
+      "path": "docs/reference/troubleshooting.md",
+      "title": "Troubleshooting",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/troubleshooting.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/reference/troubleshooting.md",
+      "gitBlobSha": "020f320e73f552c7a099f70077cb68888a2793a7"
+    },
+    {
+      "path": "docs/STYLE.md",
+      "title": "Writing the docs",
+      "url": "https://github.com/episerver/content-js-sdk/blob/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/STYLE.md",
+      "fetchUrl": "https://raw.githubusercontent.com/episerver/content-js-sdk/5ef6268e688b35959d84b901c0bd6e81cb3669ef/docs/STYLE.md",
+      "gitBlobSha": "65a2202d8c766393265c651d1b450268b3dc89e7"
+    }
+  ],
+  "pages": [],
+  "referenceIssues": [
+    {
+      "from": "docs/guides/deploy-to-frontend-hosting.md",
+      "target": "packages/optimizely-cms-create-app/templates/scaffold/github/deploy-optimizely.yml"
+    },
+    {
+      "from": "docs/learn/quick-start.md",
+      "target": "templates/"
+    },
+    {
+      "from": "docs/learn/quick-start.md",
+      "target": "samples/"
+    },
+    {
+      "from": "docs/learn/quick-start.md",
+      "target": "packages/optimizely-cms-create-app/README.md"
+    }
+  ]
+}

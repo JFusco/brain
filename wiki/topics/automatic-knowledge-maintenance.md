@@ -5,7 +5,7 @@ aliases: ["curation", "reference refresh", "Brain audit"]
 
 # Automatic knowledge maintenance
 
-Brain captures private lesson evidence, keeps immutable official references, and publishes useful guidance through documented, issue-linked PRs. Joe authorized automatic maintenance merges without a human review or separate digest approval. The daily local agent is restricted to documentation and reference artifacts; code, policies, new source/host registrations, other repositories, installed project skills, and memories are outside that recurring scope. The bounded existing-reference routing exception is defined in the [daily link warning investigation procedure](link-warning-investigation.md).
+Brain captures private lesson evidence, catalogs official entry points, and publishes useful guidance through documented, issue-linked PRs. Joe authorized automatic merges for routine knowledge, catalog-refresh and wiki maintenance PRs without a separate digest approval. The nightly local curator is restricted to knowledge and reference artifacts; code, policies, registry edits, new source/host registrations, other repositories, installed project skills, and memories are outside that recurring scope.
 
 ## Current flow: notes publish on merge
 
@@ -17,6 +17,17 @@ Brain captures private lesson evidence, keeps immutable official references, and
 - **Kept.** Stale-first revalidation, the 12-per-night limit, the conservative rejection rules and the automatic merge authorization for routine knowledge PRs all remain.
 - **Backlog.** The 2,726 pending harvested records stay untouched and are reviewed only on request (`inbox list --backlog`). The privacy policy now covers only client terms and the scanner version, and `inbox rescan` re-checks older records without rewriting bodies.
 - **Nightly curator.** The local Codex curator is repointed to stale notes and new captures.
+
+## Current flow: official link catalogs
+
+[Simplification phase 3](../journal/2026-10-18-simplification-phase-3.md) ([issue 56](https://github.com/JFusco/brain/issues/56)) replaced the snapshot mirrors, the hosted publisher and the LaunchAgent described in the historical sections below.
+
+- **Catalogs, not bodies.** `official/` holds the registry, a slim lock and `official/catalogs/<id>.json`: page links and titles, plus `SKILL.md` and doc links at the pinned commit with skill metadata for repository sources. `lookup --fetch` retrieves bodies on demand and verifies pinned Git blob IDs.
+- **Revisions kept.** Each lock entry keeps the source's `revision`, so `curation stale` still flags notes whose cited `source-id@revision` moved.
+- **Weekly check.** One GitHub workflow refreshes catalogs in the runner without committing, samples links, runs `check`, and keeps one issue. Catalog refreshes land through catalog-refresh PRs that merge once checks pass.
+- **Registry edits** are ordinary PRs that run `official sync <id>` and `check`; registry drift fails `check`. Lock policy hashes and `inbox propose`/`apply` are gone.
+- **No LaunchAgent.** `curation stale` refreshes the stale queue, and `maintenance status` reports publication bookkeeping and catalog age without a collection signal.
+- **Why.** Mirrors were 95% of tracked bytes, made fresh clones fail `check`, and needed a daily Codex-investigated publisher with two repository secrets. Rollback is now `git revert`.
 
 ## Capture from working projects
 
@@ -31,7 +42,7 @@ Integration ownership is separate from vendor-skill management. Changed managed 
 
 ## Curation and publication
 
-Historical: phase 2 replaced this with ordinary note PRs; `inbox propose`/`apply` remain only for registry changes.
+Historical: phase 2 replaced this with ordinary note PRs, and phase 3 removed the remaining registry-only `inbox propose`/`apply`.
 
 A private proposal binds exact replacement text, destination hashes, candidate hashes, privacy policy, and the explicit subset of candidates ready for acceptance. `curation export` writes the proposal, exact-content records, and curated links into a clean issue-linked worktree of this same repository. Partial source candidates remain pending. The CLI performs no Git commits, pushes, PR creation, or merges.
 
@@ -44,6 +55,8 @@ The authorized agent documents practical effect, applicability, sanitized eviden
 Mixed, partly useful, uncertain, inaccessible, unsupported, and partly reviewed candidates remain pending with useful portions and remaining review needs recorded. Rejection preserves bodies and provenance; quarantined bodies are excluded. This refines the existing publisher prompt without adding another schedule or changing exact-content proposals, issue-linked PRs, automatic merge, or immutable merge verification. See [the rejection-policy journal](../journal/2026-10-17-curator-rejections.md).
 
 ## Freshness and source coverage
+
+Historical: phase 3 replaced the LaunchAgent, the snapshots and the private object cache with link catalogs and a weekly hosted check. Catalog-first lookup and selective `--fetch` remain.
 
 The existing 02:30 local LaunchAgent performs collection and due official refresh. Official references are due after 20 hours. Changed license material is recorded automatically rather than awaiting manual approval. Content, origin, hashes, size limits, privacy screening, and last-good preservation still apply. A separate 03:15 local agent can publish at most one documentation PR and review at most 12 candidates per run.
 
@@ -153,12 +166,16 @@ The exact registry proposal digest is `406d2573c1ed028a4db28ccced3494764ce680538
 
 ## Investigate recurring official-link warnings
 
+Historical: phase 3 removed the investigator; warnings now appear in the weekly reference health issue.
+
 [Issue 43](https://github.com/JFusco/brain/issues/43) extends the existing publisher with a documented investigation step, separate from the CLI checker: at most 12 new/due warning URLs, a private durable disposition/evidence ledger, semantic notification fingerprints, and narrow verified routing fixes in the existing single checked PR. Real access limits remain visible, but unchanged observations do not generate duplicate issues or alerts. No new source/host registration or code change is authorized. See the [runbook](link-warning-investigation.md) and [delivery journal](../journal/2026-10-18-daily-link-investigation.md). Configuration/readback and manual checks do not establish future unattended repair.
 
 ## Hosted official maintenance
+
+Historical: phase 3 replaced this with the weekly reference health workflow.
 
 [Issue 45](https://github.com/JFusco/brain/issues/45) moves official-reference refresh, bounded link investigation/publication and completion-linked verification to trusted GitHub-hosted runners. Private project collection and unpublished curation remain local; no private-state export or backup is part of the migration. See [hosted maintenance](hosted-maintenance.md) for the three-job boundary, optional historical-cache coverage, operational checkpoint retention, local handoff and separate manual/scheduled proof.
 
 ## Phase 1 simplification
 
-[Issue 52](https://github.com/JFusco/brain/issues/52) removes upkeep that no longer earned its keep. The private `.state/registry-approval.json` receipt is gone: it made `lookup` fail on fresh clones and after merged registry PRs, while hosted setup rewrote it for whatever was checked out. Git history, PR review and the lock's per-source `policySha256` check now guard the registry. The disabled backup subsystem (module, CLI commands, maintenance hooks and config keys) is removed; existing private archives and keys were not touched, and the earlier backup sections above are historical. The wiki merge and issue reconciliation workflows are removed; the same-delivery rule records history. Other projects now use the [opt-in Brain skill](brain-skill.md). See the [phase 1 journal](../journal/2026-10-18-simplification-phase-1.md).
+[Issue 52](https://github.com/JFusco/brain/issues/52) removes upkeep that no longer earned its keep. The private `.state/registry-approval.json` receipt is gone: it made `lookup` fail on fresh clones and after merged registry PRs, while hosted setup rewrote it for whatever was checked out. Git history, PR review and the lock's per-source `policySha256` check now guard the registry (phase 3 later replaced `policySha256` with a registry-drift check). The disabled backup subsystem (module, CLI commands, maintenance hooks and config keys) is removed; existing private archives and keys were not touched, and the earlier backup sections above are historical. The wiki merge and issue reconciliation workflows are removed; the same-delivery rule records history. Other projects now use the [opt-in Brain skill](brain-skill.md). See the [phase 1 journal](../journal/2026-10-18-simplification-phase-1.md).

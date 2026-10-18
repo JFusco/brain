@@ -1,0 +1,1536 @@
+{
+  "schemaVersion": 1,
+  "source": "nextjs-index",
+  "revision": "4ba86c99073ca6b65f04f5a283dcebb76deffd8a3e2fefe031ba5dd1ad8e6556",
+  "origin": "https://nextjs.org/docs/llms.txt",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Getting Started",
+      "url": "https://nextjs.org/docs/app/getting-started",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started"
+    },
+    {
+      "title": "Installation",
+      "url": "https://nextjs.org/docs/app/getting-started/installation",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/installation"
+    },
+    {
+      "title": "Project Structure",
+      "url": "https://nextjs.org/docs/app/getting-started/project-structure",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/project-structure"
+    },
+    {
+      "title": "Layouts and Pages",
+      "url": "https://nextjs.org/docs/app/getting-started/layouts-and-pages",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/layouts-and-pages"
+    },
+    {
+      "title": "Linking and Navigating",
+      "url": "https://nextjs.org/docs/app/getting-started/linking-and-navigating",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/linking-and-navigating"
+    },
+    {
+      "title": "Server and Client Components",
+      "url": "https://nextjs.org/docs/app/getting-started/server-and-client-components",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/server-and-client-components"
+    },
+    {
+      "title": "Fetching Data",
+      "url": "https://nextjs.org/docs/app/getting-started/fetching-data",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/fetching-data"
+    },
+    {
+      "title": "Mutating Data",
+      "url": "https://nextjs.org/docs/app/getting-started/mutating-data",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/mutating-data"
+    },
+    {
+      "title": "Caching",
+      "url": "https://nextjs.org/docs/app/getting-started/caching",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/caching"
+    },
+    {
+      "title": "Revalidating",
+      "url": "https://nextjs.org/docs/app/getting-started/revalidating",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/revalidating"
+    },
+    {
+      "title": "Error Handling",
+      "url": "https://nextjs.org/docs/app/getting-started/error-handling",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/error-handling"
+    },
+    {
+      "title": "CSS",
+      "url": "https://nextjs.org/docs/app/getting-started/css",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/css"
+    },
+    {
+      "title": "Image Optimization",
+      "url": "https://nextjs.org/docs/app/getting-started/images",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/images"
+    },
+    {
+      "title": "Font Optimization",
+      "url": "https://nextjs.org/docs/app/getting-started/fonts",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/fonts"
+    },
+    {
+      "title": "Metadata and OG images",
+      "url": "https://nextjs.org/docs/app/getting-started/metadata-and-og-images",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/metadata-and-og-images"
+    },
+    {
+      "title": "Route Handlers",
+      "url": "https://nextjs.org/docs/app/getting-started/route-handlers",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/route-handlers"
+    },
+    {
+      "title": "Proxy",
+      "url": "https://nextjs.org/docs/app/getting-started/proxy",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/proxy"
+    },
+    {
+      "title": "Deploying",
+      "url": "https://nextjs.org/docs/app/getting-started/deploying",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/deploying"
+    },
+    {
+      "title": "Upgrading",
+      "url": "https://nextjs.org/docs/app/getting-started/upgrading",
+      "fetchUrl": "https://nextjs.org/docs/app/getting-started/upgrading"
+    },
+    {
+      "title": "Guides",
+      "url": "https://nextjs.org/docs/app/guides",
+      "fetchUrl": "https://nextjs.org/docs/app/guides"
+    },
+    {
+      "title": "Adopting Partial Prefetching",
+      "url": "https://nextjs.org/docs/app/guides/adopting-partial-prefetching",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/adopting-partial-prefetching"
+    },
+    {
+      "title": "AI Coding Agents",
+      "url": "https://nextjs.org/docs/app/guides/ai-agents",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/ai-agents"
+    },
+    {
+      "title": "Analytics",
+      "url": "https://nextjs.org/docs/app/guides/analytics",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/analytics"
+    },
+    {
+      "title": "Authentication",
+      "url": "https://nextjs.org/docs/app/guides/authentication",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/authentication"
+    },
+    {
+      "title": "Authentication with Cache Components",
+      "url": "https://nextjs.org/docs/app/guides/authentication-with-cache-components",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/authentication-with-cache-components"
+    },
+    {
+      "title": "Backend for Frontend",
+      "url": "https://nextjs.org/docs/app/guides/backend-for-frontend",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/backend-for-frontend"
+    },
+    {
+      "title": "Building",
+      "url": "https://nextjs.org/docs/app/guides/building",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/building"
+    },
+    {
+      "title": "Caching (Previous Model)",
+      "url": "https://nextjs.org/docs/app/guides/caching-without-cache-components",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/caching-without-cache-components"
+    },
+    {
+      "title": "CDN Caching",
+      "url": "https://nextjs.org/docs/app/guides/cdn-caching",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/cdn-caching"
+    },
+    {
+      "title": "CI Build Caching",
+      "url": "https://nextjs.org/docs/app/guides/ci-build-caching",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/ci-build-caching"
+    },
+    {
+      "title": "Client-side data fetching",
+      "url": "https://nextjs.org/docs/app/guides/client-side-data-fetching",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/client-side-data-fetching"
+    },
+    {
+      "title": "SWR",
+      "url": "https://nextjs.org/docs/app/guides/client-side-data-fetching/swr",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/client-side-data-fetching/swr"
+    },
+    {
+      "title": "TanStack Query",
+      "url": "https://nextjs.org/docs/app/guides/client-side-data-fetching/tanstack-query",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/client-side-data-fetching/tanstack-query"
+    },
+    {
+      "title": "Content Security Policy",
+      "url": "https://nextjs.org/docs/app/guides/content-security-policy",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/content-security-policy"
+    },
+    {
+      "title": "CSS-in-JS",
+      "url": "https://nextjs.org/docs/app/guides/css-in-js",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/css-in-js"
+    },
+    {
+      "title": "Custom Server",
+      "url": "https://nextjs.org/docs/app/guides/custom-server",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/custom-server"
+    },
+    {
+      "title": "Data Security",
+      "url": "https://nextjs.org/docs/app/guides/data-security",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/data-security"
+    },
+    {
+      "title": "Debugging",
+      "url": "https://nextjs.org/docs/app/guides/debugging",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/debugging"
+    },
+    {
+      "title": "Deploying to Platforms",
+      "url": "https://nextjs.org/docs/app/guides/deploying-to-platforms",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/deploying-to-platforms"
+    },
+    {
+      "title": "Draft Mode",
+      "url": "https://nextjs.org/docs/app/guides/draft-mode",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/draft-mode"
+    },
+    {
+      "title": "Environment Variables",
+      "url": "https://nextjs.org/docs/app/guides/environment-variables",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/environment-variables"
+    },
+    {
+      "title": "Forms",
+      "url": "https://nextjs.org/docs/app/guides/forms",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/forms"
+    },
+    {
+      "title": "How Revalidation Works",
+      "url": "https://nextjs.org/docs/app/guides/how-revalidation-works",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/how-revalidation-works"
+    },
+    {
+      "title": "ISR",
+      "url": "https://nextjs.org/docs/app/guides/incremental-static-regeneration",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/incremental-static-regeneration"
+    },
+    {
+      "title": "ISR with Cache Components",
+      "url": "https://nextjs.org/docs/app/guides/incremental-static-regeneration-cache-components",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/incremental-static-regeneration-cache-components"
+    },
+    {
+      "title": "Instant navigation",
+      "url": "https://nextjs.org/docs/app/guides/instant-navigation",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/instant-navigation"
+    },
+    {
+      "title": "Instrumentation",
+      "url": "https://nextjs.org/docs/app/guides/instrumentation",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/instrumentation"
+    },
+    {
+      "title": "Interactive apps",
+      "url": "https://nextjs.org/docs/app/guides/interactive-apps",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/interactive-apps"
+    },
+    {
+      "title": "Internationalization",
+      "url": "https://nextjs.org/docs/app/guides/internationalization",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/internationalization"
+    },
+    {
+      "title": "JSON-LD",
+      "url": "https://nextjs.org/docs/app/guides/json-ld",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/json-ld"
+    },
+    {
+      "title": "Keeping pages static",
+      "url": "https://nextjs.org/docs/app/guides/keeping-pages-static",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/keeping-pages-static"
+    },
+    {
+      "title": "Lazy Loading",
+      "url": "https://nextjs.org/docs/app/guides/lazy-loading",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/lazy-loading"
+    },
+    {
+      "title": "Development Environment",
+      "url": "https://nextjs.org/docs/app/guides/local-development",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/local-development"
+    },
+    {
+      "title": "Next.js MCP Server",
+      "url": "https://nextjs.org/docs/app/guides/mcp",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/mcp"
+    },
+    {
+      "title": "MDX",
+      "url": "https://nextjs.org/docs/app/guides/mdx",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/mdx"
+    },
+    {
+      "title": "Memory Usage",
+      "url": "https://nextjs.org/docs/app/guides/memory-usage",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/memory-usage"
+    },
+    {
+      "title": "Migrating",
+      "url": "https://nextjs.org/docs/app/guides/migrating",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/migrating"
+    },
+    {
+      "title": "App Router",
+      "url": "https://nextjs.org/docs/app/guides/migrating/app-router-migration",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/migrating/app-router-migration"
+    },
+    {
+      "title": "Create React App",
+      "url": "https://nextjs.org/docs/app/guides/migrating/from-create-react-app",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/migrating/from-create-react-app"
+    },
+    {
+      "title": "Vite",
+      "url": "https://nextjs.org/docs/app/guides/migrating/from-vite",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/migrating/from-vite"
+    },
+    {
+      "title": "Migrating to Cache Components",
+      "url": "https://nextjs.org/docs/app/guides/migrating-to-cache-components",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/migrating-to-cache-components"
+    },
+    {
+      "title": "Multi-tenant",
+      "url": "https://nextjs.org/docs/app/guides/multi-tenant",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/multi-tenant"
+    },
+    {
+      "title": "Multi-zones",
+      "url": "https://nextjs.org/docs/app/guides/multi-zones",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/multi-zones"
+    },
+    {
+      "title": "Offline support",
+      "url": "https://nextjs.org/docs/app/guides/offline-support",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/offline-support"
+    },
+    {
+      "title": "OpenTelemetry",
+      "url": "https://nextjs.org/docs/app/guides/open-telemetry",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/open-telemetry"
+    },
+    {
+      "title": "Optimizing prefetching",
+      "url": "https://nextjs.org/docs/app/guides/optimizing-prefetching",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/optimizing-prefetching"
+    },
+    {
+      "title": "Optimizing the static shell",
+      "url": "https://nextjs.org/docs/app/guides/optimizing-the-static-shell",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/optimizing-the-static-shell"
+    },
+    {
+      "title": "Package Bundling",
+      "url": "https://nextjs.org/docs/app/guides/package-bundling",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/package-bundling"
+    },
+    {
+      "title": "PPR Platform Guide",
+      "url": "https://nextjs.org/docs/app/guides/ppr-platform-guide",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/ppr-platform-guide"
+    },
+    {
+      "title": "Prefetching",
+      "url": "https://nextjs.org/docs/app/guides/prefetching",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/prefetching"
+    },
+    {
+      "title": "Preserving UI state",
+      "url": "https://nextjs.org/docs/app/guides/preserving-ui-state",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/preserving-ui-state"
+    },
+    {
+      "title": "Preventing Flash",
+      "url": "https://nextjs.org/docs/app/guides/preventing-flash-before-hydration",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/preventing-flash-before-hydration"
+    },
+    {
+      "title": "Production",
+      "url": "https://nextjs.org/docs/app/guides/production-checklist",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/production-checklist"
+    },
+    {
+      "title": "PWAs",
+      "url": "https://nextjs.org/docs/app/guides/progressive-web-apps",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/progressive-web-apps"
+    },
+    {
+      "title": "Public pages",
+      "url": "https://nextjs.org/docs/app/guides/public-static-pages",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/public-static-pages"
+    },
+    {
+      "title": "Redirecting",
+      "url": "https://nextjs.org/docs/app/guides/redirecting",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/redirecting"
+    },
+    {
+      "title": "Rendering Philosophy",
+      "url": "https://nextjs.org/docs/app/guides/rendering-philosophy",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/rendering-philosophy"
+    },
+    {
+      "title": "Sass",
+      "url": "https://nextjs.org/docs/app/guides/sass",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/sass"
+    },
+    {
+      "title": "Scripts",
+      "url": "https://nextjs.org/docs/app/guides/scripts",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/scripts"
+    },
+    {
+      "title": "Self-Hosting",
+      "url": "https://nextjs.org/docs/app/guides/self-hosting",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/self-hosting"
+    },
+    {
+      "title": "Server Actions",
+      "url": "https://nextjs.org/docs/app/guides/server-actions",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/server-actions"
+    },
+    {
+      "title": "Server and Client Boundary",
+      "url": "https://nextjs.org/docs/app/guides/server-and-client-boundary",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/server-and-client-boundary"
+    },
+    {
+      "title": "SPAs",
+      "url": "https://nextjs.org/docs/app/guides/single-page-applications",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/single-page-applications"
+    },
+    {
+      "title": "Static Exports",
+      "url": "https://nextjs.org/docs/app/guides/static-exports",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/static-exports"
+    },
+    {
+      "title": "Streaming",
+      "url": "https://nextjs.org/docs/app/guides/streaming",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/streaming"
+    },
+    {
+      "title": "Tailwind CSS v3",
+      "url": "https://nextjs.org/docs/app/guides/tailwind-v3-css",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/tailwind-v3-css"
+    },
+    {
+      "title": "Testing",
+      "url": "https://nextjs.org/docs/app/guides/testing",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/testing"
+    },
+    {
+      "title": "Cypress",
+      "url": "https://nextjs.org/docs/app/guides/testing/cypress",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/testing/cypress"
+    },
+    {
+      "title": "Jest",
+      "url": "https://nextjs.org/docs/app/guides/testing/jest",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/testing/jest"
+    },
+    {
+      "title": "Playwright",
+      "url": "https://nextjs.org/docs/app/guides/testing/playwright",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/testing/playwright"
+    },
+    {
+      "title": "Vitest",
+      "url": "https://nextjs.org/docs/app/guides/testing/vitest",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/testing/vitest"
+    },
+    {
+      "title": "Third Party Libraries",
+      "url": "https://nextjs.org/docs/app/guides/third-party-libraries",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/third-party-libraries"
+    },
+    {
+      "title": "Upgrading",
+      "url": "https://nextjs.org/docs/app/guides/upgrading",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/upgrading"
+    },
+    {
+      "title": "Upgrade with a coding agent",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/agent-upgrade",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/upgrading/agent-upgrade"
+    },
+    {
+      "title": "Codemods",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/codemods",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/upgrading/codemods"
+    },
+    {
+      "title": "Version 14",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/version-14",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/upgrading/version-14"
+    },
+    {
+      "title": "Version 15",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/version-15",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/upgrading/version-15"
+    },
+    {
+      "title": "Version 16",
+      "url": "https://nextjs.org/docs/app/guides/upgrading/version-16",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/upgrading/version-16"
+    },
+    {
+      "title": "Videos",
+      "url": "https://nextjs.org/docs/app/guides/videos",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/videos"
+    },
+    {
+      "title": "View transitions",
+      "url": "https://nextjs.org/docs/app/guides/view-transitions",
+      "fetchUrl": "https://nextjs.org/docs/app/guides/view-transitions"
+    },
+    {
+      "title": "API Reference",
+      "url": "https://nextjs.org/docs/app/api-reference",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference"
+    },
+    {
+      "title": "Directives",
+      "url": "https://nextjs.org/docs/app/api-reference/directives",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/directives"
+    },
+    {
+      "title": "use cache",
+      "url": "https://nextjs.org/docs/app/api-reference/directives/use-cache",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/directives/use-cache"
+    },
+    {
+      "title": "use cache: private",
+      "url": "https://nextjs.org/docs/app/api-reference/directives/use-cache-private",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/directives/use-cache-private"
+    },
+    {
+      "title": "use cache: remote",
+      "url": "https://nextjs.org/docs/app/api-reference/directives/use-cache-remote",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/directives/use-cache-remote"
+    },
+    {
+      "title": "use client",
+      "url": "https://nextjs.org/docs/app/api-reference/directives/use-client",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/directives/use-client"
+    },
+    {
+      "title": "use server",
+      "url": "https://nextjs.org/docs/app/api-reference/directives/use-server",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/directives/use-server"
+    },
+    {
+      "title": "Components",
+      "url": "https://nextjs.org/docs/app/api-reference/components",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/components"
+    },
+    {
+      "title": "Font",
+      "url": "https://nextjs.org/docs/app/api-reference/components/font",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/components/font"
+    },
+    {
+      "title": "Form Component",
+      "url": "https://nextjs.org/docs/app/api-reference/components/form",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/components/form"
+    },
+    {
+      "title": "Image Component",
+      "url": "https://nextjs.org/docs/app/api-reference/components/image",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/components/image"
+    },
+    {
+      "title": "Link Component",
+      "url": "https://nextjs.org/docs/app/api-reference/components/link",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/components/link"
+    },
+    {
+      "title": "Script Component",
+      "url": "https://nextjs.org/docs/app/api-reference/components/script",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/components/script"
+    },
+    {
+      "title": "File-system conventions",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions"
+    },
+    {
+      "title": "default.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/default",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/default"
+    },
+    {
+      "title": "Dynamic Segments",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes"
+    },
+    {
+      "title": "error.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/error",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/error"
+    },
+    {
+      "title": "forbidden.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/forbidden",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/forbidden"
+    },
+    {
+      "title": "instrumentation.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation"
+    },
+    {
+      "title": "instrumentation-client.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client"
+    },
+    {
+      "title": "Intercepting Routes",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/intercepting-routes",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/intercepting-routes"
+    },
+    {
+      "title": "layout.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/layout",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/layout"
+    },
+    {
+      "title": "loading.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/loading",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/loading"
+    },
+    {
+      "title": "mdx-components.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/mdx-components",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/mdx-components"
+    },
+    {
+      "title": "not-found.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/not-found",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/not-found"
+    },
+    {
+      "title": "page.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/page",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/page"
+    },
+    {
+      "title": "Parallel Routes",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/parallel-routes",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/parallel-routes"
+    },
+    {
+      "title": "proxy.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/proxy",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/proxy"
+    },
+    {
+      "title": "public",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/public-folder",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/public-folder"
+    },
+    {
+      "title": "route.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/route"
+    },
+    {
+      "title": "Route Groups",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-groups",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/route-groups"
+    },
+    {
+      "title": "src",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/src-folder",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/src-folder"
+    },
+    {
+      "title": "template.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/template",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/template"
+    },
+    {
+      "title": "unauthorized.js",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/unauthorized",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/unauthorized"
+    },
+    {
+      "title": "Metadata Files",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata"
+    },
+    {
+      "title": "favicon, icon, and apple-icon",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons"
+    },
+    {
+      "title": "manifest.json",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/manifest",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/manifest"
+    },
+    {
+      "title": "opengraph-image and twitter-image",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image"
+    },
+    {
+      "title": "robots.txt",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots"
+    },
+    {
+      "title": "sitemap.xml",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap"
+    },
+    {
+      "title": "Route Segment Config",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config"
+    },
+    {
+      "title": "dynamicParams",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/dynamicParams",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/dynamicParams"
+    },
+    {
+      "title": "ensureStatic",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/ensureStatic",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/ensureStatic"
+    },
+    {
+      "title": "instant",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/instant",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/instant"
+    },
+    {
+      "title": "maxDuration",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/maxDuration",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/maxDuration"
+    },
+    {
+      "title": "preferredRegion (deprecated)",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/preferredRegion",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/preferredRegion"
+    },
+    {
+      "title": "prefetch config",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/prefetch",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/prefetch"
+    },
+    {
+      "title": "runtime",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/runtime",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config/runtime"
+    },
+    {
+      "title": "Functions",
+      "url": "https://nextjs.org/docs/app/api-reference/functions",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions"
+    },
+    {
+      "title": "after",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/after",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/after"
+    },
+    {
+      "title": "cacheLife",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/cacheLife",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/cacheLife"
+    },
+    {
+      "title": "cacheTag",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/cacheTag",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/cacheTag"
+    },
+    {
+      "title": "catchError",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/catchError",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/catchError"
+    },
+    {
+      "title": "connection",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/connection",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/connection"
+    },
+    {
+      "title": "cookies",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/cookies",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/cookies"
+    },
+    {
+      "title": "draftMode",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/draft-mode",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/draft-mode"
+    },
+    {
+      "title": "fetch",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/fetch",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/fetch"
+    },
+    {
+      "title": "forbidden",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/forbidden",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/forbidden"
+    },
+    {
+      "title": "generateImageMetadata",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-image-metadata",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/generate-image-metadata"
+    },
+    {
+      "title": "generateMetadata",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-metadata",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/generate-metadata"
+    },
+    {
+      "title": "generateSitemaps",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-sitemaps",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/generate-sitemaps"
+    },
+    {
+      "title": "generateStaticParams",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-static-params",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/generate-static-params"
+    },
+    {
+      "title": "generateViewport",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/generate-viewport",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/generate-viewport"
+    },
+    {
+      "title": "headers",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/headers",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/headers"
+    },
+    {
+      "title": "ImageResponse",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/image-response",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/image-response"
+    },
+    {
+      "title": "io",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/io",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/io"
+    },
+    {
+      "title": "navigation",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/navigation",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/navigation"
+    },
+    {
+      "title": "NextRequest",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/next-request",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/next-request"
+    },
+    {
+      "title": "NextResponse",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/next-response",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/next-response"
+    },
+    {
+      "title": "root-params",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/next-root-params",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/next-root-params"
+    },
+    {
+      "title": "notFound",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/not-found",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/not-found"
+    },
+    {
+      "title": "permanentRedirect",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/permanentRedirect",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/permanentRedirect"
+    },
+    {
+      "title": "prefetch",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/prefetch",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/prefetch"
+    },
+    {
+      "title": "redirect",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/redirect",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/redirect"
+    },
+    {
+      "title": "refresh",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/refresh",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/refresh"
+    },
+    {
+      "title": "revalidatePath",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/revalidatePath",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/revalidatePath"
+    },
+    {
+      "title": "revalidateTag",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/revalidateTag",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/revalidateTag"
+    },
+    {
+      "title": "unauthorized",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/unauthorized",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/unauthorized"
+    },
+    {
+      "title": "unstable_cache",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/unstable_cache",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/unstable_cache"
+    },
+    {
+      "title": "unstable_noStore",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/unstable_noStore",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/unstable_noStore"
+    },
+    {
+      "title": "unstable_rethrow",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/unstable_rethrow",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/unstable_rethrow"
+    },
+    {
+      "title": "updateTag",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/updateTag",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/updateTag"
+    },
+    {
+      "title": "useLinkStatus",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-link-status",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-link-status"
+    },
+    {
+      "title": "useOffline",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-offline",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-offline"
+    },
+    {
+      "title": "useParams",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-params",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-params"
+    },
+    {
+      "title": "usePathname",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-pathname",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-pathname"
+    },
+    {
+      "title": "useReportWebVitals",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-report-web-vitals",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-report-web-vitals"
+    },
+    {
+      "title": "useRouter",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-router",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-router"
+    },
+    {
+      "title": "useSearchParams",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-search-params",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-search-params"
+    },
+    {
+      "title": "useSelectedLayoutSegment",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segment",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segment"
+    },
+    {
+      "title": "useSelectedLayoutSegments",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segments",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segments"
+    },
+    {
+      "title": "userAgent",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/userAgent",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/userAgent"
+    },
+    {
+      "title": "Configuration",
+      "url": "https://nextjs.org/docs/app/api-reference/config",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config"
+    },
+    {
+      "title": "next.config.js",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js"
+    },
+    {
+      "title": "adapterPath",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/adapterPath",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/adapterPath"
+    },
+    {
+      "title": "agentFeedback",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/agentFeedback",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/agentFeedback"
+    },
+    {
+      "title": "agentRules",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/agentRules",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/agentRules"
+    },
+    {
+      "title": "agentUpgrade",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/agentUpgrade",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/agentUpgrade"
+    },
+    {
+      "title": "allowedDevOrigins",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins"
+    },
+    {
+      "title": "appDir",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/appDir",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/appDir"
+    },
+    {
+      "title": "assetPrefix",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/assetPrefix",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/assetPrefix"
+    },
+    {
+      "title": "authInterrupts",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/authInterrupts",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/authInterrupts"
+    },
+    {
+      "title": "basePath",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/basePath",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/basePath"
+    },
+    {
+      "title": "cacheComponents",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheComponents",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheComponents"
+    },
+    {
+      "title": "cacheHandlers",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheHandlers",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheHandlers"
+    },
+    {
+      "title": "cacheLife",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheLife",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheLife"
+    },
+    {
+      "title": "cacheMaxMemorySize",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheMaxMemorySize",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheMaxMemorySize"
+    },
+    {
+      "title": "compress",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/compress",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/compress"
+    },
+    {
+      "title": "crossOrigin",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/crossOrigin",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/crossOrigin"
+    },
+    {
+      "title": "cssChunking",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cssChunking",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cssChunking"
+    },
+    {
+      "title": "deploymentId",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/deploymentId",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/deploymentId"
+    },
+    {
+      "title": "devIndicators",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/devIndicators",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/devIndicators"
+    },
+    {
+      "title": "distDir",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/distDir",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/distDir"
+    },
+    {
+      "title": "enablePrerenderSourceMaps",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/enablePrerenderSourceMaps",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/enablePrerenderSourceMaps"
+    },
+    {
+      "title": "env",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/env",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/env"
+    },
+    {
+      "title": "expireTime",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/expireTime",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/expireTime"
+    },
+    {
+      "title": "exportPathMap",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/exportPathMap",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/exportPathMap"
+    },
+    {
+      "title": "exposeTestingApiInProductionBuild",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/exposeTestingApiInProductionBuild",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/exposeTestingApiInProductionBuild"
+    },
+    {
+      "title": "generateBuildId",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/generateBuildId",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/generateBuildId"
+    },
+    {
+      "title": "generateEtags",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/generateEtags",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/generateEtags"
+    },
+    {
+      "title": "headers",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/headers",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/headers"
+    },
+    {
+      "title": "htmlLimitedBots",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/htmlLimitedBots",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/htmlLimitedBots"
+    },
+    {
+      "title": "httpAgentOptions",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/httpAgentOptions",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/httpAgentOptions"
+    },
+    {
+      "title": "images",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/images",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/images"
+    },
+    {
+      "title": "cacheHandler",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/incrementalCacheHandlerPath",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/incrementalCacheHandlerPath"
+    },
+    {
+      "title": "inlineCss",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/inlineCss",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/inlineCss"
+    },
+    {
+      "title": "instrumentationClientInject",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/instrumentationClientInject",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/instrumentationClientInject"
+    },
+    {
+      "title": "logging",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/logging",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/logging"
+    },
+    {
+      "title": "mdxRs",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/mdxRs",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/mdxRs"
+    },
+    {
+      "title": "onDemandEntries",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/onDemandEntries",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/onDemandEntries"
+    },
+    {
+      "title": "optimizePackageImports",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/optimizePackageImports",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/optimizePackageImports"
+    },
+    {
+      "title": "output",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/output",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/output"
+    },
+    {
+      "title": "outputHashSalt",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/outputHashSalt",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/outputHashSalt"
+    },
+    {
+      "title": "pageExtensions",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/pageExtensions",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/pageExtensions"
+    },
+    {
+      "title": "partialPrefetching",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/partialPrefetching",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/partialPrefetching"
+    },
+    {
+      "title": "poweredByHeader",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/poweredByHeader",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/poweredByHeader"
+    },
+    {
+      "title": "prefetchInlining",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/prefetchInlining",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/prefetchInlining"
+    },
+    {
+      "title": "productionBrowserSourceMaps",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/productionBrowserSourceMaps",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/productionBrowserSourceMaps"
+    },
+    {
+      "title": "proxyClientMaxBodySize",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/proxyClientMaxBodySize",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/proxyClientMaxBodySize"
+    },
+    {
+      "title": "reactCompiler",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactCompiler",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactCompiler"
+    },
+    {
+      "title": "reactMaxHeadersLength",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactMaxHeadersLength",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactMaxHeadersLength"
+    },
+    {
+      "title": "reactStrictMode",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactStrictMode",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/reactStrictMode"
+    },
+    {
+      "title": "redirects",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/redirects",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/redirects"
+    },
+    {
+      "title": "rewrites",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/rewrites",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/rewrites"
+    },
+    {
+      "title": "sassOptions",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/sassOptions",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/sassOptions"
+    },
+    {
+      "title": "serverActions",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverActions",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverActions"
+    },
+    {
+      "title": "serverComponentsHmrCache",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverComponentsHmrCache",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverComponentsHmrCache"
+    },
+    {
+      "title": "serverExternalPackages",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverExternalPackages",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/serverExternalPackages"
+    },
+    {
+      "title": "skipProxyUrlNormalize",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/skipProxyUrlNormalize",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/skipProxyUrlNormalize"
+    },
+    {
+      "title": "skipTrailingSlashRedirect",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/skipTrailingSlashRedirect",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/skipTrailingSlashRedirect"
+    },
+    {
+      "title": "staleTimes",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/staleTimes",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/staleTimes"
+    },
+    {
+      "title": "staticGeneration*",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/staticGeneration",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/staticGeneration"
+    },
+    {
+      "title": "supportsImmutableAssets",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/supportsImmutableAssets",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/supportsImmutableAssets"
+    },
+    {
+      "title": "taint",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/taint",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/taint"
+    },
+    {
+      "title": "trailingSlash",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/trailingSlash",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/trailingSlash"
+    },
+    {
+      "title": "transpilePackages",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/transpilePackages",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/transpilePackages"
+    },
+    {
+      "title": "turbopack",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack"
+    },
+    {
+      "title": "turbopackChunking",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackChunking",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackChunking"
+    },
+    {
+      "title": "turbopackFileSystemCache",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackFileSystemCache",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackFileSystemCache"
+    },
+    {
+      "title": "turbopackGc",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackGc",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackGc"
+    },
+    {
+      "title": "turbopack.ignoreIssue",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackIgnoreIssue",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackIgnoreIssue"
+    },
+    {
+      "title": "turbopackLazyDynamicImports",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackLazyDynamicImports",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackLazyDynamicImports"
+    },
+    {
+      "title": "turbopackLazyDynamicImportsSSR",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackLazyDynamicImportsSSR",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackLazyDynamicImportsSSR"
+    },
+    {
+      "title": "turbopackLocalPostcssConfig",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackLocalPostcssConfig",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackLocalPostcssConfig"
+    },
+    {
+      "title": "turbopackMemoryEviction",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackMemoryEviction",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackMemoryEviction"
+    },
+    {
+      "title": "turbopackPluginRuntimeStrategy",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackPluginRuntimeStrategy",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackPluginRuntimeStrategy"
+    },
+    {
+      "title": "turbopackRustReactCompiler",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackRustReactCompiler",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopackRustReactCompiler"
+    },
+    {
+      "title": "typedRoutes",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/typedRoutes",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/typedRoutes"
+    },
+    {
+      "title": "typescript",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/typescript",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/typescript"
+    },
+    {
+      "title": "urlImports",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/urlImports",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/urlImports"
+    },
+    {
+      "title": "useLightningcss",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useLightningcss",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useLightningcss"
+    },
+    {
+      "title": "useOffline",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useOffline",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useOffline"
+    },
+    {
+      "title": "useTypeScriptCli",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useTypeScriptCli",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/useTypeScriptCli"
+    },
+    {
+      "title": "webpack",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/webpack",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/webpack"
+    },
+    {
+      "title": "webVitalsAttribution",
+      "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/webVitalsAttribution",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/next-config-js/webVitalsAttribution"
+    },
+    {
+      "title": "TypeScript",
+      "url": "https://nextjs.org/docs/app/api-reference/config/typescript",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/typescript"
+    },
+    {
+      "title": "ESLint",
+      "url": "https://nextjs.org/docs/app/api-reference/config/eslint",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/config/eslint"
+    },
+    {
+      "title": "CLI",
+      "url": "https://nextjs.org/docs/app/api-reference/cli",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/cli"
+    },
+    {
+      "title": "create-next-app",
+      "url": "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/cli/create-next-app"
+    },
+    {
+      "title": "next CLI",
+      "url": "https://nextjs.org/docs/app/api-reference/cli/next",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/cli/next"
+    },
+    {
+      "title": "Adapters",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters"
+    },
+    {
+      "title": "Configuration",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/configuration",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/configuration"
+    },
+    {
+      "title": "Creating an Adapter",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/creating-an-adapter",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/creating-an-adapter"
+    },
+    {
+      "title": "API Reference",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/api-reference",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/api-reference"
+    },
+    {
+      "title": "Testing Adapters",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/testing-adapters",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/testing-adapters"
+    },
+    {
+      "title": "Routing with @next/routing",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/routing-with-next-routing",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/routing-with-next-routing"
+    },
+    {
+      "title": "Implementing PPR in an Adapter",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/implementing-ppr-in-an-adapter",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/implementing-ppr-in-an-adapter"
+    },
+    {
+      "title": "Runtime Integration",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/runtime-integration",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/runtime-integration"
+    },
+    {
+      "title": "Invoking Entrypoints",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/invoking-entrypoints",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/invoking-entrypoints"
+    },
+    {
+      "title": "Output Types",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/output-types",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/output-types"
+    },
+    {
+      "title": "Routing Information",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/routing-information",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/routing-information"
+    },
+    {
+      "title": "Use Cases",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/use-cases",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/use-cases"
+    },
+    {
+      "title": "Supporting Immutable Static Assets",
+      "url": "https://nextjs.org/docs/app/api-reference/adapters/immutable-static-assets",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/adapters/immutable-static-assets"
+    },
+    {
+      "title": "Edge Runtime",
+      "url": "https://nextjs.org/docs/app/api-reference/edge",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/edge"
+    },
+    {
+      "title": "Turbopack",
+      "url": "https://nextjs.org/docs/app/api-reference/turbopack",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/turbopack"
+    },
+    {
+      "title": "Glossary",
+      "url": "https://nextjs.org/docs/app/glossary",
+      "fetchUrl": "https://nextjs.org/docs/app/glossary"
+    },
+    {
+      "title": "Architecture",
+      "url": "https://nextjs.org/docs/architecture",
+      "fetchUrl": "https://nextjs.org/docs/architecture"
+    },
+    {
+      "title": "Accessibility",
+      "url": "https://nextjs.org/docs/architecture/accessibility",
+      "fetchUrl": "https://nextjs.org/docs/architecture/accessibility"
+    },
+    {
+      "title": "Fast Refresh",
+      "url": "https://nextjs.org/docs/architecture/fast-refresh",
+      "fetchUrl": "https://nextjs.org/docs/architecture/fast-refresh"
+    },
+    {
+      "title": "Next.js Compiler",
+      "url": "https://nextjs.org/docs/architecture/nextjs-compiler",
+      "fetchUrl": "https://nextjs.org/docs/architecture/nextjs-compiler"
+    },
+    {
+      "title": "Supported Browsers",
+      "url": "https://nextjs.org/docs/architecture/supported-browsers",
+      "fetchUrl": "https://nextjs.org/docs/architecture/supported-browsers"
+    },
+    {
+      "title": "Community",
+      "url": "https://nextjs.org/docs/community",
+      "fetchUrl": "https://nextjs.org/docs/community"
+    },
+    {
+      "title": "Contribution Guide",
+      "url": "https://nextjs.org/docs/community/contribution-guide",
+      "fetchUrl": "https://nextjs.org/docs/community/contribution-guide"
+    },
+    {
+      "title": "Rspack",
+      "url": "https://nextjs.org/docs/community/rspack",
+      "fetchUrl": "https://nextjs.org/docs/community/rspack"
+    },
+    {
+      "title": "Pages Router",
+      "url": "https://nextjs.org/docs/pages/llms.txt",
+      "fetchUrl": "https://nextjs.org/docs/pages/llms.txt"
+    }
+  ],
+  "referenceIssues": []
+}

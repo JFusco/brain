@@ -44,8 +44,8 @@ export function scan(entries) {
     return findings;
   } finally {fs.rmSync(temporary,{recursive:true,force:true});}
 }
-export function assertClean(entries,{clients=true,exceptions=[]}={}) {
-  const findings=scan(entries).filter(f=>!f.lineSha256||!exceptions.some(e=>e.path===f.id&&e.rule===f.rule&&e.lineSha256===f.lineSha256));
+export function assertClean(entries,{clients=true}={}) {
+  const findings=scan(entries);
   if(findings.length){const id=sha(JSON.stringify(findings)).slice(0,24);writeJSON(at(`.state/scan-blocks/${id}.json`),{at:now(),findings},0o600);throw new Error(`Secret scan blocked content (${findings.length} findings; private report ${id}; values suppressed)`);}
   if(clients && entries.some(e=>clientHits(e.id+'\n'+e.bytes.toString('utf8')).length))throw new Error('Client identifier scan blocked content (values suppressed)');
 }

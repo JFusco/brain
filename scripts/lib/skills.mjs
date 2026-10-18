@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {ROOT,json,safePath,inside} from './core.mjs';
-import {lock} from './official.mjs';
+import {lock,readCatalog} from './official.mjs';
 import {projectContext} from './project-context.mjs';
 
 // Read-only: Brain recommends vendor skills but never writes them into projects.
@@ -34,11 +34,11 @@ function compatibility(p,skill) {
 }
 export function suggest(input,{workspace}={}) {
   const p=project(input,{workspace}),active=lock(),all=[];
-  for(const entry of Object.values(active.sources))for(const skill of entry.skills) {
+  for(const [source,entry] of Object.entries(active.sources))for(const skill of readCatalog(source,entry).skills) {
     const relevant=Object.keys(p.dependencies).some(name=>(skill.appliesTo?.dependencies||[]).some(pattern=>pattern.endsWith('/*')?name.startsWith(pattern.slice(0,-1)):name===pattern));
     if(!relevant||skill.policy==='curated'&&!skill.installable)continue;
     const match=compatibility(p,skill),present=['.agents/skills','.claude/skills'].some(dir=>fs.existsSync(path.join(p.root,dir,skill.name)));
-    all.push({id:skill.id,name:skill.name,declaredName:skill.declaredName,source:entry.id,revision:entry.revision,status:present?'present in project':match.matches?'recommended':'not recommended',compatible:match.matches,reason:match.reason,preferred:skill.preferred});
+    all.push({id:skill.id,name:skill.name,declaredName:skill.declaredName,source,revision:entry.revision,status:present?'present in project':match.matches?'recommended':'not recommended',compatible:match.matches,reason:match.reason,preferred:skill.preferred});
   }
   for(const item of all)if(item.compatible&&!item.preferred&&all.some(other=>other.preferred&&other.compatible&&(other.name===item.name||other.declaredName===item.declaredName))){item.compatible=false;item.reason='A preferred provider supplies this skill';if(item.status==='recommended')item.status='alternative provider';}
   return all.sort((a,b)=>a.id.localeCompare(b.id));

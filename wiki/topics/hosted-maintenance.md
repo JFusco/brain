@@ -5,6 +5,8 @@ aliases: ["hosted maintenance", "cloud link investigation"]
 
 # GitHub-hosted official maintenance
 
+Historical: [simplification phase 3](../journal/2026-10-18-simplification-phase-3.md) ([issue 56](https://github.com/JFusco/brain/issues/56)) replaced this workflow, its Codex investigator and its 04:00 watch with one weekly reference health run that keeps a single issue; see [automatic knowledge maintenance](automatic-knowledge-maintenance.md). This page records how the removed mechanism worked.
+
 The trusted default-branch `Brain hosted maintenance` workflow runs at 03:15 America/New_York, with daylight-saving handling supplied by GitHub's timezone-aware schedule. Manual dispatch uses the same pipeline. GitHub may delay schedules; this removes the Mac/app dependency, not scheduler latency.
 
 The scope is existing registered official references, their links and narrowly verified routing repairs. Private captures and unpublished inbox curation remain local; no client terms/paths, inbox/candidate bodies, session/auth/environment files, raw memories, private-state backups or recovery keys are copied to runners. Automatic backups and Drive uploads remain disabled.

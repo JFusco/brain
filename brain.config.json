@@ -1,9 +1,5 @@
 {
   "schemaVersion": 1,
-  "official": {
-    "refreshHours": 20,
-    "referenceMode": "catalog-first"
-  },
   "lookup": {
     "cacheHours": 24,
     "maxCacheFiles": 1000,
@@ -13,9 +9,7 @@
     "reviewDays": 30
   },
   "maintenance": {
-    "linkLimit": 24,
-    "overdueHours": 36,
-    "referenceBackend": "github-actions"
+    "linkLimit": 24
   },
   "domains": [
     "frontend",
@@ -96,9 +90,7 @@
     "maxExpandedBytes": 268435456
   },
   "toolchain": {
-    "node": "/usr/local/bin/node",
-    "gh": "/opt/homebrew/bin/gh",
-    "tar": "/usr/bin/tar"
+    "gh": "/opt/homebrew/bin/gh"
   },
   "authorities": [
     {

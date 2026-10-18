@@ -2,7 +2,7 @@
 
 A local knowledge base for frontend and CMS work. Use it on demand through the opt-in `brain` skill; nothing loads into a session unless you invoke it.
 
-- `official/` contains versioned documentation link catalogs and selected SDK/skill reference snapshots. Registered sources refresh automatically each day; new documentation sources do not mirror page bodies by default.
+- `official/` is a registry of official entry points with generated link catalogs: page links, titles, skill metadata and the revision each catalog was taken from. No vendor page bodies are stored; a weekly hosted check reports when catalogs change upstream.
 - `knowledge/` contains curated, generalized guidance. A note is published when its ordinary, issue-linked PR merges; captured lessons never write these pages directly.
 - `wiki/` records Brain's own decisions, executed plans, audit findings, and maintenance history.
 - `inbox/` and `.state/` are private, ignored working storage. Do not force-add them.
@@ -96,34 +96,38 @@ A good note states when to use it, what to do and why, its evidence and limits. 
 
 The local nightly curator (a Codex app automation on Joe's Mac, not in this repository) follows the same steps: stale notes first, then at most 12 new captures rotated across domains, with one knowledge PR for the night's changes. If nothing qualifies, it records an unchanged run with `maintenance publication`. The CLI never calls an LLM.
 
-Registry edits are separate. `inbox propose --file <registry-change.json>` with `{"changes":[{"path":"official/sources.json","text":"<full replacement>"}]}` writes a private, digest-bound diff. `inbox apply <id> --approved-sha256 <digest>` then applies it, updates the matching policy hashes in `official/sources.lock.json` and runs `check`. Hosted link-warning repairs use the same path.
+Registry edits are ordinary changes too. Edit `official/sources.json` on an issue branch, run `official sync <id>` for each affected source (it rewrites that catalog, its lock entry and the hubs), run `check`, and open the issue-linked PR. Registry PRs stop at the verified PR for review; only catalog-refresh PRs merge automatically.
 
 ## Documentation lookup and official references
 
 The default is a searchable catalog of official page links with titles, domains, source revisions, and freshness metadata, plus small curated notes. `lookup` ranks matching links and notes without downloading page bodies. An index's revision describes the observed catalog; it is not a framework package version or proof of the page's present content.
 
-`lookup --fetch` retrieves only the selected pages and returns focused excerpts with the fetch time and full-response content hash. For repository documentation it verifies the pinned Git blob when available. Private caching retains only the excerpt and retrieval receipt for 24 hours, not the full response. Managed excerpts are capped at 1,000 files / 8 MiB. Cleanup deletes only unchanged files owned by the cache ledger; legacy, unowned, or modified files and all source objects remain intact. Fetch failures are returned explicitly alongside the usable link. Agents can also open the returned official URLs with their own browsing tools.
+`lookup --fetch` retrieves only the selected pages and returns focused excerpts with the fetch time and full-response content hash. For repository documentation it verifies the pinned Git blob when available. Private caching retains only the excerpt and retrieval receipt for 24 hours, not the full response. Managed excerpts are capped at 1,000 files / 8 MiB. Cleanup deletes only unchanged files owned by the cache ledger; legacy, unowned, or modified files remain intact. Fetch failures are returned explicitly alongside the usable link. Agents can also open the returned official URLs with their own browsing tools.
 
 Add `--project /absolute/project --workspace apps/web` to resolve the selected application’s installed dependencies, or use explicit literals such as `--versions next@16.2,react@19`. Brain reads bounded manifests without executing project code. It does not combine sibling workspaces. A monorepo root requires an explicit application workspace for skill operations; lookup reports that selection is still needed. When present, the selected Next.js package’s bundled docs are searched first. No instructions are injected into consuming projects.
 
 Curated `versions` support only `package@major[.minor.patch]` and `package@>=version`. Incompatible notes are excluded; missing, partial, complex, or prerelease versions remain unconfirmed where they cannot establish the constraint. Rolling official catalogs are not labeled version-compatible merely because a package was detected.
 
-Existing snapshots remain available for historical evidence and selected SDK/skill contracts. The old Next.js full-documentation snapshot is retained but excluded from automatic refresh; its page index is the normal discovery source. Source coverage distinguishes catalogued links, selected snapshots, and website pointers. Cataloguing links does not mean their bodies have been downloaded or technically verified.
+Coverage distinguishes catalogued links and website pointers. Cataloguing a link does not mean its body was downloaded or technically verified.
 
-`official/sources.json` is the registered source inventory. `official/sources.lock.json` records active catalog/reference revisions, hashes, attribution, applicability, and skill metadata. Catalogs are generated from official indexes, sitemaps, or pinned repository trees. A truncated tree, exceeded bound, or failed required index retains the previous good catalog rather than publishing a partial replacement.
+`official/sources.json` is the registered source inventory: what each source is, where its entry point lives, its license metadata and its skill policy. `official/sources.lock.json` records each catalog's `revision`, `fetchedAt`, tracking mode and SHA-256, and `official/catalogs/<id>.json` holds the generated links:
 
-Sync uses authenticated GitHub API access through `gh` when available, verified HTTPS downloads, bounded archive parsing, and selected regular files only. Nothing downloaded is executed. A DNS-over-HTTPS fallback is configured for this machine; it changes no system DNS settings and can be disabled in `brain.config.json`.
+- **Repository sources** (skill and SDK repositories) list each `SKILL.md` and Markdown doc as a GitHub link at the pinned commit, with a raw fetch URL and the Git blob ID, plus the skill metadata `skills suggest` uses. Their revision is the commit.
+- **Documentation trees, indexes and sitemaps** list page links. A repository tree's revision is its commit; an `llms.txt` index or sitemap uses a content digest.
 
-An unchanged source preserves its snapshot bytes; local catalog upgrades can refresh metadata. Failures retain the last good snapshot. License changes are recorded with previous and observed material in `.state/license-reviews/` and do not pause refresh. Downloads, source identity, license presence, hashes, and privacy checks still apply. Registry changes use documented automatic maintenance PRs; unknown-origin sources remain quarantined.
+Notes cite sources as `source-id@revision`. When a catalog's revision moves, `curation stale` flags the citing notes.
 
-Published vendor examples can trigger scanner findings. Exceptions are registry changes and bind the source path, scanner rule, and exact line-span hash. They never apply to captures or notes. Each registered source must also match its policy hash in `official/sources.lock.json`; a registry edit without the matching lock update fails `official check` and `official restore`.
+`official sync [source-id...]` rebuilds catalogs in memory and writes only the catalog, its lock entry and the hubs. It uses authenticated GitHub API access through `gh` when available, verified HTTPS downloads, bounded archive parsing and selected regular files. Nothing downloaded is executed or kept beyond the catalog, and each catalog is secret-scanned before it is written. A truncated tree, exceeded bound or failed index keeps the previous good catalog rather than publishing a partial replacement. A DNS-over-HTTPS fallback is configured for this machine; it changes no system DNS settings and can be disabled in `brain.config.json`.
 
-```sh
-node scripts/brain.mjs official rollback <source-id>
-node scripts/brain.mjs official restore <source-id>
-```
+`check`, including the pre-commit `check --staged`, verifies:
 
-Each snapshot also has a tracked manifest under `official/manifests/`, so its recorded hashes survive a clone. Large source files stay ignored and are backed by local content-addressed objects. `official restore` restores missing files from verified cache objects or exactly matching upstream bytes; it refuses modified files and never substitutes current rolling content for historical content. Keep `.state/` in a private machine backup if historical snapshots matter. Missing skill entry-point dependencies make a skill reference-only; secondary upstream link defects are recorded in the lock.
+- the registry's fields;
+- that each catalog matches its lock hash and revision;
+- that catalog links stay on the source's approved hosts;
+- that catalogs still match the registry's skill policy;
+- that hub sections are current.
+
+A registry edit without `official sync` therefore fails `check`. Rollback is `git revert`; no historical snapshots are retained. A skill with unresolved entry-point references is reference-only, and secondary upstream link defects are recorded in the catalog's `referenceIssues`.
 
 Official website pointers remain pointers until a useful downloadable source and suitable reuse terms are established. Public availability by itself is not a license. Unknown-origin skill bundles stay quarantined.
 
@@ -131,7 +135,7 @@ Official website pointers remain pointers until a useful downloadable source and
 
 | Area | Available references |
 | --- | --- |
-| Next.js | [Official page index](https://nextjs.org/docs/llms.txt), version guidance, and retained historical export |
+| Next.js | [Official page index](https://nextjs.org/docs/llms.txt) and version guidance |
 | Vercel | [Platform documentation catalog](https://vercel.com/docs/sitemap.md), official plugin skills, and agent skills |
 | React | [Pinned documentation-tree catalog](https://github.com/reactjs/react.dev/tree/main/src/content), plus the official index |
 | Tailwind | [Documentation-tree catalog](https://github.com/tailwindlabs/tailwindcss.com/tree/main/src/docs), with rights metadata preserved |
@@ -140,7 +144,7 @@ Official website pointers remain pointers until a useful downloadable source and
 | Contentful | [Official repository skills](https://github.com/contentful/skills) and website pointers; broader website discovery encountered HTTP 429 |
 | Sitecore | [Official Content SDK skills and references](https://github.com/Sitecore/content-sdk), plus canonical product website pointers; earlier HEAD restrictions remain historical evidence |
 
-The next useful coverage additions are a broader Contentful documentation catalog and version-specific Sitecore XP/SitecoreAI catalogs when their indexes can be retrieved reliably. These remain suggestions rather than claims of completed coverage. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. Additional sources belong in a separate documented registration change; the daily documentation job cannot add them.
+The next useful coverage additions are a broader Contentful documentation catalog and version-specific Sitecore XP/SitecoreAI catalogs when their indexes can be retrieved reliably. These remain suggestions rather than claims of completed coverage. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. Additional sources belong in a separate documented registration change; the weekly check cannot add them.
 
 ## Project skills
 
@@ -149,13 +153,13 @@ node scripts/brain.mjs skills suggest --project /absolute/project/path
 node scripts/brain.mjs skills suggest --project /absolute/monorepo --workspace apps/web
 ```
 
-`skills suggest` is read-only. It recommends vendor skills from Brain's official snapshots that fit the selected application, judged from its declared/installed dependencies, required scripts and project layout, without executing project code. In a monorepo, add `--workspace apps/web`. Installed versions and declared-only ranges have distinct confidence labels. Unknown compatibility is reported rather than guessed. Vercel plugin skills are preferred when providers overlap. Template-bound Contentstack skills remain references; Sitecore skills require their specific supporting docs and layout. A skill already present under `.agents/skills/` or `.claude/skills/` is reported as `present in project`.
+`skills suggest` is read-only. It recommends vendor skills from Brain's official skill catalogs that fit the selected application, judged from its declared/installed dependencies, required scripts and project layout, without executing project code. In a monorepo, add `--workspace apps/web`. Installed versions and declared-only ranges have distinct confidence labels. Unknown compatibility is reported rather than guessed. Vercel plugin skills are preferred when providers overlap. Template-bound Contentstack skills remain references; Sitecore skills require their specific supporting docs and layout. A skill already present under `.agents/skills/` or `.claude/skills/` is reported as `present in project`.
 
 Brain doesn't install skills into projects. Install a recommended skill with its vendor's documented method, scoped to the project that needs it.
 
 ## Privacy and maintenance
 
-Official-reference refresh, bounded link investigation/publication and completion-linked verification run in [GitHub Actions](https://github.com/JFusco/brain/actions/workflows/brain-maintenance.yml) at 03:15 America/New_York or by manual dispatch; a separate hosted check at 04:00 verifies the day’s actual scheduled run. They use GitHub-hosted runners, with `BOT_TOKEN` only in the guarded writer and `OPENAI_API_KEY` only in the investigator action. [Hosted maintenance](wiki/topics/hosted-maintenance.md) documents scope, evidence, operational artifacts, cache limits and rollback. Private captures and unpublished curation stay local and are not uploaded.
+A [weekly GitHub Actions run](https://github.com/JFusco/brain/actions/workflows/brain-weekly.yml) (Mondays 08:23 UTC, or manual dispatch) refreshes the official catalogs in the runner without committing them, samples up to 100 links plus the website pointers, runs `check`, and keeps one `[Task] Brain weekly reference health` issue. The issue is rewritten only when its findings change and closed when a run finds none. The run uses the default `GITHUB_TOKEN` with `issues: write`; link observations carry between runs in a 90-day Actions artifact. Private captures and unpublished curation stay local and are not uploaded.
 
 `brain.config.local.json` holds client terms, aliases, and local executable paths. Add confirmed client names and aliases there. Internal Verndale terminology is retained. The privacy policy covers the client terms and the pinned scanner version. When either changes, `inbox show` refuses records saved under the old policy until `inbox rescan` re-scans them. Rescan never rewrites a body, and any finding quarantines the record.
 
@@ -172,33 +176,39 @@ node scripts/brain.mjs links check --retry-failures --limit 25
 node scripts/brain.mjs links check --source website-pointers --limit 8
 node scripts/brain.mjs links status
 node scripts/brain.mjs maintenance status
-node scripts/brain.mjs maintenance run --dry-run
-node scripts/brain.mjs maintenance run
 node scripts/brain.mjs maintenance cleanup
 node scripts/brain.mjs maintenance cleanup --yes
 ```
 
-Link checks rotate through a bounded sample (24 by default, maximum 100), favoring published-note and recently fetched references while spreading work across sources. They request headers with an explicit documentation-compatible Accept header. A HEAD 403, 405 or 501 receives one GET fallback with a one-byte range request; response bodies are discarded immediately. Final request method and original HEAD status remain recorded, and a GET access error remains an access error. The implicit `website-pointers` source can be checked separately under the same bounds. A first 404 is suspected dead, two daily observations establish dead, and 410 is immediately dead. Access restrictions, rate limits, redirects, and network failures remain separate. Failed observations can retry after their recorded backoff; healthy samples and 404/410 observations retain the daily window. Due failures take priority within each source bucket. `--retry-failures` checks only due warnings under the same batch/host bounds. Previous observations are saved privately under `.state/link-health-history/` before replacement, so recovery clears current warnings without erasing failures. Checks never rewrite a registration. Coverage counts distinguish sampled links from the full catalog; this is not an exhaustive link audit. Approved-host boundaries also apply to redirects.
+Link checks rotate through a bounded sample (24 by default, maximum 100), favoring published-note and recently fetched references while spreading work across sources. They request headers with an explicit documentation-compatible Accept header. A HEAD 403, 405 or 501 receives one GET fallback with a one-byte range request; response bodies are discarded immediately. Final request method and original HEAD status remain recorded, and a GET access error remains an access error. The implicit `website-pointers` source can be checked separately under the same bounds. A first 404 is suspected dead, two observations at least a day apart establish dead, and 410 is immediately dead. Access restrictions, rate limits, redirects, and network failures remain separate. Failed observations can retry after their recorded backoff; healthy samples and 404/410 observations retain the daily window. Due failures take priority within each source bucket. `--retry-failures` checks only due warnings under the same batch/host bounds. Previous observations are saved privately under `.state/link-health-history/` before replacement, so recovery clears current warnings without erasing failures. Checks never rewrite a registration. Coverage counts distinguish sampled links from the full catalog; this is not an exhaustive link audit. Approved-host boundaries also apply to redirects.
 
-The existing daily publisher also follows the [link-warning investigation runbook](wiki/topics/link-warning-investigation.md): up to 12 new/due warning URLs, verified official alternatives, private evidence/dispositions, and narrow existing-reference routing repairs through its single checked issue-linked PR. Unchanged unresolved warnings stay visible without duplicate daily alerts or issues. The agent performs investigation; the CLI checker and its backoff are unchanged.
+**Acting on the weekly issue:**
 
-`maintenance run` refreshes the stale-note queue, cleans owned excerpt receipts, and samples links when due. Status shows collection/publication attempts and success separately, source failures, unfinished publication, link coverage, and stale notes. A completed unchanged publication run is valid; an attempt alone is not success. Publication bookkeeping uses `maintenance publication --phase started --trigger manual|scheduled-agent`, then the returned `--run-id` with `--phase completed --outcome unchanged`, or `--outcome published --pr <merged-number>`. Record failures with `--phase failed`. These are agent reports, not independent scheduler attestations. The 36-hour missed-run signal appears when status is next evaluated; a sleeping or offline Mac cannot send an immediate alert.
+- **Catalog changes:** refresh catalogs on an issue branch with `official sync` and `check`, then open a catalog-refresh PR containing only the catalogs, the lock and regenerated hubs. It merges once checks pass.
+- **Notes citing changed sources:** re-verify each one through a knowledge PR.
+- **Dead links and failing sources:** fix them through an ordinary registry PR, which stops for review.
 
-## Schedule and setup
+A redirect or changed hash is never evidence that a claim is correct.
+
+`maintenance status` reports publication bookkeeping, each source's catalog revision and age, local link counts and stale notes; it fails only on publication errors. Publication bookkeeping uses `maintenance publication --phase started --trigger manual|scheduled-agent`, then the returned `--run-id` with `--phase completed --outcome unchanged`, or `--outcome published --pr <merged-number>`. Record failures with `--phase failed`. These are agent reports, not independent scheduler attestations.
+
+## Setup
 
 ```sh
 node scripts/setup.mjs
-node scripts/setup.mjs --launch-agent
-node scripts/brain.mjs scheduled-run
+node scripts/hosted/setup.mjs
 ```
 
-One user LaunchAgent runs at 02:30 and on load. It regenerates hubs and runs due maintenance (the stale-note queue and excerpt cleanup); official reference refresh and link sampling belong to the hosted workflow. A separate local Codex automation curates captures when the Mac/app is available. It preserves unrelated changes and skips unchanged or non-actionable work quietly. Local scheduled agent work requires the desktop app and machine to be available. Logs and notifications contain no raw capture text. All CLI mutations share a lock; background jobs never write other project repositories.
+- **`setup.mjs`** installs the checksum-verified scanner on macOS.
+- **`hosted/setup.mjs`** is for a cloud session or CI. It installs the scanner version pinned in the lock and writes an empty client profile; `check` then passes in a fresh clone.
 
-Registry changes use documented maintenance PRs. Git history and the lock's per-source policy hashes are the integrity record, so a new machine needs no separate registry approval step. Brain has no built-in backup; include `.state/`, `inbox/` and `brain.config.local.json` in your normal machine backup to preserve the inbox, dispositions, local paths and cached oversized files.
+There is no LaunchAgent. A separate local Codex automation curates captures when the Mac and app are available. It preserves unrelated changes and skips unchanged or non-actionable work quietly. Logs contain no raw capture text. All CLI mutations share a lock, and background jobs never write other project repositories.
+
+Registry changes are ordinary issue-linked PRs. Git history, the lock's catalog hashes and `check` are the integrity record, so a new machine needs no separate registry approval step. Brain has no built-in backup; include `.state/`, `inbox/` and `brain.config.local.json` in your normal machine backup to preserve the inbox, dispositions and local paths.
 
 After cloning, run `git config core.hooksPath .githooks` to activate the pre-commit guard.
 
-Brain CLI commands never create commits or remotes and never push. Knowledge and maintenance changes publish through issue-linked PRs. Tests, fixtures, fresh-session checks, general CI, and dedicated QA are deferred for v1; the explicitly requested wiki and hosted maintenance/verification workflows are installed. Runtime safeguards and actual command results are retained.
+Brain CLI commands never create commits or remotes and never push. Knowledge and maintenance changes publish through issue-linked PRs. Tests, fixtures, fresh-session checks, general CI, and dedicated QA are deferred for v1; the explicitly requested wiki check and weekly reference health workflows are installed. Runtime safeguards and actual command results are retained.
 
 ## Context wiki
 
@@ -210,4 +220,4 @@ node scripts/wiki/check.cjs
 node scripts/wiki/serve-graph.cjs
 ```
 
-Hosted `Wiki integrity` checks PRs. Brain no longer runs automatic wiki merge or issue reconciliation workflows; the same-delivery rule records history with each change. The repository `BOT_TOKEN` secret remains in use by the hosted maintenance publisher.
+Hosted `Wiki integrity` checks PRs. Brain no longer runs automatic wiki merge or issue reconciliation workflows; the same-delivery rule records history with each change. No repository secrets are required; the weekly workflow uses the default `GITHUB_TOKEN`.

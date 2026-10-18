@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {createRequire} from 'node:module';
-import {at,config,json,readJSON,writeJSON,atomic,sha,now,mkdir,object,safePath,noSymlinks,walk,log} from './core.mjs';
+import {at,ROOT,config,json,readJSON,writeJSON,atomic,sha,now,safePath,noSymlinks,walk,log} from './core.mjs';
 import {api,download,markdownResponse} from './network.mjs';
 import {archive} from './archive.mjs';
 import {assertClean} from './privacy.mjs';
@@ -10,66 +10,33 @@ import {staleGuidance,publishedGuidance,curatedBlock,CURATED} from './guidance.m
 const require=createRequire(import.meta.url);
 const {splitFrontmatter,scalar}=require('../wiki/lib/frontmatter.cjs');
 
+// official/ holds the registry, a slim lock and generated link catalogs; page bodies are fetched on demand.
 export const registry=()=>json(at('official/sources.json'));
-export const lock=()=>readJSON(at('official/sources.lock.json'),{schemaVersion:1,sources:{},toolchain:{}});
-export const fingerprint=spec=>sha(JSON.stringify(spec));
+export const lock=()=>readJSON(at('official/sources.lock.json'),{schemaVersion:2,sources:{},toolchain:{}});
+const SOURCE_ID=/^[a-z0-9][a-z0-9-]*$/;
+export function catalogPath(id){if(!SOURCE_ID.test(id))throw new Error('Invalid source ID');return `official/catalogs/${id}.json`;}
+export const catalogBytes=doc=>Buffer.from(JSON.stringify(doc,null,2)+'\n');
+export function readCatalog(id,entry=lock().sources[id]) {
+  const file=at(catalogPath(id));noSymlinks(at('official'),file);
+  const bytes=fs.readFileSync(file);if(!entry||sha(bytes)!==entry.catalogSha256)throw new Error(`Catalog differs from its lock entry: ${id}`);
+  const doc=JSON.parse(bytes);if(doc.source!==id||doc.revision!==entry.revision)throw new Error(`Invalid official catalog: ${id}`);
+  return doc;
+}
 const selected=(source,name)=>source.paths.some(rule=>rule.exact===name || rule.prefix && name.startsWith(rule.prefix));
-function mapped(spec,name) {
-  for(const rule of spec.mappings||[])if(name.startsWith(rule.from))return safePath(rule.to+name.slice(rule.from.length));
-  return safePath(name);
+export function skillPolicy(spec,folder) {
+  return {installable:spec.installPolicy==='portable' || spec.installPolicy==='sitecore-bundle' || spec.installPolicy==='curated' && spec.installableSkills.includes(folder),appliesTo:spec.id==='vercel-plugin' ? {dependencies:[folder==='nextjs'?'next':'react']} : spec.appliesTo};
 }
-export function snapshotRoot(entry){if(!/^[a-z0-9][a-z0-9-]*$/.test(entry.id)||!/^[a-f0-9]{12}-[a-f0-9]{12}$/.test(entry.snapshot))throw new Error('Invalid snapshot identity');return at(`official/snapshots/${entry.id}/${entry.snapshot}`);}
-const manifestFile=entry=>at(`official/manifests/${entry.id}/${entry.snapshot}.json`);
-export function snapshotFiles(entry,{allowMissingCached=false}={}) {
-  const root=snapshotRoot(entry),files=new Map();noSymlinks(at('official'),root);
-  for(const record of entry.files) {
-    safePath(record.path);const file=path.join(root,record.path);noSymlinks(root,file);
-    if(!fs.existsSync(file)){if(allowMissingCached&&record.cached)continue;throw new Error(`Missing snapshot file in ${entry.id}; cached bytes must be restored explicitly`);}
-    const bytes=fs.readFileSync(file);if(sha(bytes)!==record.sha256)throw new Error(`Managed snapshot modified: ${entry.id}/${record.path}`);
-    files.set(record.path,bytes);
-  }
-  const known=new Set(entry.files.map(f=>f.path));
-  for(const file of walk(root))if(!known.has(path.relative(root,file).split(path.sep).join('/')))throw new Error(`Unexpected snapshot file in ${entry.id}`);
-  return files;
-}
-function detectLicense(files) {
-  const declarations=[];
-  for(const [name,bytes] of files) {
-    if(/(?:^|\/)LICENSE(?:[-.][^/]*)?$/i.test(name))declarations.push({path:name,sha256:sha(bytes)});
-    if(name.endsWith('SKILL.md')){const value=scalar(splitFrontmatter(bytes.toString()).raw,'license');if(value)declarations.push({path:name,license:value});}
-  }
-  return declarations.sort((a,b)=>a.path.localeCompare(b.path));
-}
-function catalog(spec,files) {
-  const skills=[];
-  const skillRoot=spec.skillRoot?mapped(spec,spec.skillRoot+'entry').slice(0,-5):null;
+function skillsOf(spec,files) {
+  const skills=[],skillRoot=spec.skillRoot||null;
   for(const [name,bytes] of files) {
     if(!/(?:^|\/)SKILL\.md$/.test(name))continue;
     if(skillRoot&&(!name.startsWith(skillRoot)||name.slice(skillRoot.length).split('/').length!==2))continue;
     const directory=path.posix.dirname(name),folder=path.posix.basename(directory),parsed=splitFrontmatter(bytes.toString());
     if(!scalar(parsed.raw,'name')||!scalar(parsed.raw,'description'))throw new Error(`Invalid skill frontmatter in ${spec.id}`);
-    const installable=spec.installPolicy==='portable' || spec.installPolicy==='sitecore-bundle' || spec.installPolicy==='curated' && spec.installableSkills.includes(folder);
-    const applies=spec.id==='vercel-plugin' ? {dependencies:[folder==='nextjs'?'next':'react']} : spec.appliesTo;
-    skills.push({id:`${spec.id}/${folder}`,name:folder,declaredName:scalar(parsed.raw,'name'),description:scalar(parsed.raw,'description'),directory,installable,policy:spec.installPolicy,appliesTo:applies,preferred:!!spec.preferred});
+    const {installable,appliesTo}=skillPolicy(spec,folder);
+    skills.push({id:`${spec.id}/${folder}`,name:folder,declaredName:scalar(parsed.raw,'name'),description:scalar(parsed.raw,'description'),directory,installable,policy:spec.installPolicy,appliesTo,preferred:!!spec.preferred});
   }
   return skills.sort((a,b)=>a.id.localeCompare(b.id));
-}
-export function refreshCatalogs() {
-  const current=lock(),changed=[];
-  for(const spec of registry().sources){const entry=current.sources[spec.id];if(!entry)continue;const files=snapshotFiles(entry),skills=catalog(spec,files),references=relativeProblems(spec,files,skills);if(entry.catalogVersion===3&&JSON.stringify(entry.skills)===JSON.stringify(skills)&&JSON.stringify(entry.referenceIssues)===JSON.stringify(references))continue;entry.skills=skills;entry.referenceIssues=references;entry.catalogVersion=3;const manifest=readJSON(manifestFile(entry),entry);writeJSON(manifestFile(entry),{...manifest,skills,referenceIssues:references,catalogVersion:3});changed.push(spec.id);}
-  const cached=[];
-  // Preserve bytes and hashes using the established cache/restore path for
-  // oversized files and full exports superseded by link-only catalogs.
-  for(const name of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){
-    const manifest=json(name),spec=registry().sources.find(source=>source.id===manifest.id);
-    const retained=manifest.files.filter(file=>!file.cached&&(file.bytes>1024*1024||spec?.catalogOnly&&manifest.mode!=='link-catalog'&&!/^(?:INDEX\.md|ATTRIBUTION\.md|LICENSE(?:[-.][^/]*)?)$/i.test(file.path)));
-    if(!retained.length)continue;
-    const files=snapshotFiles(manifest);
-    for(const record of retained){object(files.get(record.path));record.cached=true;cached.push(`${manifest.id}/${manifest.snapshot}/${record.path}`);}
-    writeJSON(name,manifest);
-    if(current.sources[manifest.id]?.snapshot===manifest.snapshot)current.sources[manifest.id].files=manifest.files;
-  }
-  writeJSON(at('official/sources.lock.json'),current);generateHubs();updateIgnores();return {changed,cached};
 }
 function relativeProblems(spec,files,skills) {
   const problems=[];
@@ -92,8 +59,22 @@ function relativeProblems(spec,files,skills) {
   }
   return problems;
 }
-async function resolve(spec,seed) {
-  if(seed){if(spec.seedRevision)return spec.seedRevision;throw new Error('Seed revision unresolved; verify the version-to-commit mapping first');}
+// Pure: sync and one-off conversions build identical catalogs from the same inputs.
+export function buildCatalog(spec,{revision,origin,files,blobs,index,pages=[]}) {
+  const doc={schemaVersion:1,source:spec.id,revision,origin,skills:[],docs:[],pages,referenceIssues:[]};
+  if(files){
+    files=new Map([...files].sort(([a],[b])=>a.localeCompare(b)));
+    const pinned=name=>`${revision}/${spec.sourceBase||''}${name}`,blob=name=>`https://github.com/${spec.repository}/blob/${pinned(name)}`,raw=name=>`https://raw.githubusercontent.com/${spec.repository}/${pinned(name)}`;
+    // Archives can rewrite line endings, so blob IDs come from the repository tree, not archive bytes.
+    const blobId=name=>{const value=blobs?.get(name);if(!/^[0-9a-f]{40}$/.test(value||''))throw new Error(`Missing Git blob for ${spec.id}/${name}`);return value;};
+    doc.origin=`https://github.com/${spec.repository}/tree/${pinned('')}`;doc.skills=skillsOf(spec,files);doc.referenceIssues=relativeProblems(spec,files,doc.skills);
+    for(const skill of doc.skills){const name=skill.directory+'/SKILL.md';Object.assign(skill,{url:blob(name),fetchUrl:raw(name),gitBlobSha:blobId(name)});}
+    doc.docs=[...files].filter(([name,bytes])=>/\.(?:md|mdx|txt)$/.test(name)&&!/LICENSE|SKILL\.md$|llms(?:-full)?\.txt$/.test(name)&&bytes.length<=2*1024*1024).sort(([a],[b])=>a.localeCompare(b)).map(([name,bytes])=>({path:name,title:bytes.toString().match(/^#\s+(.+)$/m)?.[1]||name,url:blob(name),fetchUrl:raw(name),gitBlobSha:blobId(name)}));
+  }
+  if(index)for(const [,title,href] of index.toString().matchAll(/\[([^\]\n]+)\]\((https:\/\/[^\s)]+)\)/g)){let url;try{url=new URL(href);}catch{continue;}if(!url.username&&!url.password&&(!url.port||url.port==='443')&&spec.allowedHosts.includes(url.hostname))doc.pages.push({title,url:url.href,fetchUrl:url.href});}
+  return doc;
+}
+async function resolve(spec) {
   if(spec.track==='pinned'){if(!/^[0-9a-f]{40}$/.test(spec.revision||''))throw new Error('Pinned source requires a full commit');return spec.revision;}
   let ref;
   if(spec.track==='latest-release'){const release=await api(`repos/${spec.repository}/releases/latest`);if(release.prerelease||release.draft)throw new Error('No stable release');ref=release.tag_name;}
@@ -103,106 +84,80 @@ async function resolve(spec,seed) {
   if(!/^[0-9a-f]{40}$/.test(commit.sha))throw new Error('Could not resolve immutable commit');
   return commit.sha;
 }
-export async function fetchSource(spec,{seed=false}={}) {
-  if(!/^[a-z0-9][a-z0-9-]*$/.test(spec.id))throw new Error('Invalid source ID');
-  let files,revision,url,rawArchive;
-  if(spec.catalogOnly) {
-    const resolved=spec.kind==='repository'?await resolve(spec,seed):null;
-    ({files,revision,url}=await fetchDocumentationCatalog(spec,resolved));
-  } else if(spec.kind==='repository') {
-    revision=await resolve(spec,seed);url=`https://codeload.github.com/${spec.repository}/tar.gz/${revision}`;
-    const response=await download(url,{hosts:['codeload.github.com'],maxBytes:config().network.maxDownloadBytes});rawArchive=response.bytes;
-    const base=spec.sourceBase||'';
-    const rawFiles=archive(rawArchive,{select:name=>name.startsWith(base)&&selected(spec,name.slice(base.length))});
-    const upstream=new Map([...rawFiles].map(([name,bytes])=>[name.slice(base.length),bytes]));
-    if(seed){for(const expected of spec.seedFiles||[]){const bytes=upstream.get(expected.path);if(!bytes||sha(bytes)!==expected.sha256)throw new Error(`Seed hash parity failed for ${spec.id}/${expected.path}`);}}
-    for(const rule of spec.paths){if(rule.required===false)continue;if(rule.prefix && ![...upstream.keys()].some(n=>n.startsWith(rule.prefix)))throw new Error(`Approved upstream path disappeared: ${spec.id}/${rule.prefix}`);}
-    files=new Map();for(const [name,bytes] of upstream){const destination=mapped(spec,name);if(destination.split('/').some(p=>['.agents','.claude','.cursor','.codex','.git'].includes(p)))throw new Error('Source mapping would create a tool directory');if(files.has(destination))throw new Error('Colliding source path mapping');files.set(destination,bytes);}
-  } else if(spec.kind==='url') {
+// Upstream bytes stay in memory; only the catalog is written.
+export async function fetchCatalog(spec) {
+  if(!SOURCE_ID.test(spec.id))throw new Error('Invalid source ID');
+  if(spec.kind==='repository'&&spec.catalogOnly){const revision=await resolve(spec);return buildCatalog(spec,{revision,...await fetchDocumentationCatalog(spec,revision)});}
+  if(spec.kind==='collection')return buildCatalog(spec,await fetchDocumentationCatalog(spec));
+  if(spec.kind==='repository'){
+    const revision=await resolve(spec),base=spec.sourceBase||'';
+    const response=await download(`https://codeload.github.com/${spec.repository}/tar.gz/${revision}`,{hosts:['codeload.github.com'],maxBytes:config().network.maxDownloadBytes});
+    const files=new Map([...archive(response.bytes,{select:name=>name.startsWith(base)&&selected(spec,name.slice(base.length))})].map(([name,bytes])=>[safePath(name.slice(base.length)),bytes]));
+    for(const rule of spec.paths){if(rule.required===false)continue;if(rule.prefix && ![...files.keys()].some(n=>n.startsWith(rule.prefix)))throw new Error(`Approved upstream path disappeared: ${spec.id}/${rule.prefix}`);}
+    const tree=await api(`repos/${spec.repository}/git/trees/${revision}?recursive=1`);if(tree.truncated)throw new Error('Official repository tree is truncated; refusing a partial catalog');
+    const blobs=new Map(tree.tree.filter(file=>file.type==='blob'&&file.path.startsWith(base)).map(file=>[file.path.slice(base.length),file.sha]));
+    return buildCatalog(spec,{revision,files,blobs});
+  }
+  if(spec.kind==='url'){
     const response=await download(spec.url,{hosts:spec.allowedHosts,maxBytes:config().network.maxDownloadBytes,headers:{accept:'text/markdown, text/plain;q=0.9'}});
-    markdownResponse(response);files=new Map([[safePath(spec.filename||'docs.md'),response.bytes]]);revision=sha(response.bytes);url=response.url;
-    if(spec.licenseFile){const license=await download(spec.licenseFile.url,{hosts:spec.licenseFile.allowedHosts,maxBytes:1024*1024});if(sha(license.bytes)!==spec.licenseFile.sha256)throw new Error('Documentation license checksum changed');files.set('LICENSE.txt',license.bytes);}
-  } else throw new Error('Unsupported source kind');
-  const records=[...files].map(([name,bytes])=>({path:name,sha256:sha(bytes),bytes:bytes.length,cached:bytes.length>1024*1024||!spec.catalogOnly&&!!spec.privateOnly&&!['INDEX.md','ATTRIBUTION.md'].includes(name)})).sort((a,b)=>a.path.localeCompare(b.path));
-  const licenses=detectLicense(files);
-  if(spec.kind==='repository'&&!licenses.length)throw new Error(`No license or license declaration found for ${spec.id}`);
-  const skills=catalog(spec,files),references=relativeProblems(spec,files,skills);
-  // Individual upstream relative-link defects make a skill reference-only, not silently repaired.
-  const digest=sha(JSON.stringify(records));
-  return {files,entry:{id:spec.id,revision,snapshot:`${revision.slice(0,12)}-${digest.slice(0,12)}`,repository:spec.repository||null,url,track:spec.track||'rolling-url',mode:spec.catalogOnly?'link-catalog':'snapshot',license:spec.license,licenses,policySha256:fingerprint(spec),catalogVersion:3,files:records,skills,referenceIssues:references,domains:spec.domains,seedParity:seed?{verified:true,verificationScope:'selected upstream files',files:spec.seedFiles?.length||0,archiveSha256:rawArchive?sha(rawArchive):null,archiveExpectedSha256:spec.seedArchiveSha256||null,archiveMatchesExpected:!!rawArchive&&sha(rawArchive)===spec.seedArchiveSha256}:null}};
+    markdownResponse(response);return buildCatalog(spec,{revision:sha(response.bytes),origin:response.url,index:response.bytes});
+  }
+  throw new Error('Unsupported source kind');
 }
-function publish(entry,files) {
-  const root=snapshotRoot(entry);noSymlinks(at('official'),root);
-  if(fs.existsSync(root)){snapshotFiles(entry);return;}
-  mkdir(at('.state/staging'),0o700);const stage=fs.mkdtempSync(at('.state/staging/official-'));
-  try{for(const record of entry.files){const bytes=files.get(record.path);object(bytes);atomic(path.join(stage,record.path),bytes);}mkdir(path.dirname(root));fs.renameSync(stage,root);}
-  finally{fs.rmSync(stage,{recursive:true,force:true});}
-  writeJSON(at(`.state/snapshots/${entry.id}/${entry.snapshot}.json`),entry,0o600);
-  writeJSON(manifestFile(entry),entry);
+function writeLock(reg,current) {
+  const sources={};for(const spec of reg.sources)if(current.sources[spec.id])sources[spec.id]=current.sources[spec.id];
+  for(const [id,entry] of Object.entries(current.sources))sources[id]??=entry;
+  writeJSON(at('official/sources.lock.json'),{schemaVersion:2,sources,toolchain:current.toolchain||{}});
 }
-function licenseKey(entry){return JSON.stringify({files:entry.licenses.filter(l=>l.sha256),declarations:[...new Set(entry.licenses.filter(l=>l.license).map(l=>l.license))].sort()});}
-export async function sync({seed=false,ids=null,dueOnly=false}={}) {
-  const specs=registry().sources.filter(s=>ids?ids.includes(s.id):s.refresh!==false);
+export async function sync({ids=null}={}) {
+  const reg=registry(),specs=reg.sources.filter(s=>!ids||ids.includes(s.id));
   if(ids?.some(id=>!specs.some(s=>s.id===id)))throw new Error('Unknown official source ID');
   const current=lock(),state=readJSON(at('.state/official-runs.json'));
   const changed=[],failed=[],unchanged=[];
   for(const spec of specs) {
-    const previous=current.sources[spec.id];const run=state[spec.id]||{};
-    if(dueOnly && run.policySha256===fingerprint(spec) && (run.nextAttemptAt && Date.parse(run.nextAttemptAt)>Date.now() || run.lastSuccess && Date.now()-Date.parse(run.lastSuccess)<(config().official?.refreshHours??20)*3600000))continue;
+    const previous=current.sources[spec.id],run=state[spec.id]||{},track=spec.track||'rolling-url';
     try {
-      if(previous){snapshotFiles(previous);if(previous.policySha256!==fingerprint(spec))throw new Error('Registry policy changed; apply it through an approved proposal');}
-      const result=await fetchSource(spec,{seed});
-      if(previous && licenseKey(previous)!==licenseKey(result.entry)){writeJSON(at(`.state/license-reviews/${spec.id}.json`),{source:spec.id,revision:result.entry.revision,previous:previous.licenses,observed:result.entry.licenses,at:now(),status:'recorded-automatic-refresh'},0o600);log('official-license-change',{id:spec.id,status:'recorded'});}
-      if(previous?.snapshot===result.entry.snapshot){
-        if(previous.catalogVersion!==3||JSON.stringify(previous.skills)!==JSON.stringify(result.entry.skills)||JSON.stringify(previous.referenceIssues)!==JSON.stringify(result.entry.referenceIssues)){
-          previous.skills=result.entry.skills;previous.referenceIssues=result.entry.referenceIssues;previous.catalogVersion=3;
-          writeJSON(at('official/sources.lock.json'),current);
-          const manifest=readJSON(manifestFile(previous),previous);
-          writeJSON(manifestFile(previous),{...manifest,skills:previous.skills,referenceIssues:previous.referenceIssues,catalogVersion:3});
-        }
-        unchanged.push(spec.id);
-      }
+      const doc=await fetchCatalog(spec),bytes=catalogBytes(doc);
+      if(bytes.length>1024*1024)throw new Error('Catalog exceeds 1 MiB; narrow the source before committing it');
+      assertClean([{id:catalogPath(spec.id),bytes}],{clients:false});
+      const digest=sha(bytes);
+      if(previous?.catalogSha256===digest&&previous.track===track)unchanged.push(spec.id);
       else {
-        assertClean([...result.files].filter(([name])=>/\.(?:md|mdx|txt|json|ya?ml|[cm]?[jt]sx?)$/i.test(name)).map(([name,bytes])=>({id:name,bytes})),{clients:false,exceptions:spec.scanExceptions||[]});
-        result.entry.fetchedAt=now();publish(result.entry,result.files);
-        if(previous){result.entry.history=[{snapshot:previous.snapshot,revision:previous.revision},...(previous.history||[])].filter((x,i,a)=>a.findIndex(y=>y.snapshot===x.snapshot)===i).slice(0,2);}
-        current.sources[spec.id]=result.entry;
-        changed.push({id:spec.id,from:previous?.revision||null,to:result.entry.revision,added:result.entry.files.filter(f=>!previous?.files.some(p=>p.path===f.path)).length,removed:previous?.files.filter(f=>!result.entry.files.some(p=>p.path===f.path)).length||0,modified:result.entry.files.filter(f=>previous?.files.some(p=>p.path===f.path&&p.sha256!==f.sha256)).length});
-        writeJSON(at('official/sources.lock.json'),current);
+        atomic(at(catalogPath(spec.id)),bytes);
+        current.sources[spec.id]={revision:doc.revision,fetchedAt:previous?.catalogSha256===digest?previous.fetchedAt:now(),track,catalogSha256:digest};
+        changed.push({id:spec.id,from:previous?.revision||null,to:doc.revision});writeLock(reg,current);
       }
-      state[spec.id]={lastAttempt:now(),lastSuccess:now(),policySha256:fingerprint(spec),failures:0};
+      state[spec.id]={lastAttempt:now(),lastSuccess:now(),failures:0};
       log('official-source',{id:spec.id,status:changed.some(c=>c.id===spec.id)?'changed':'unchanged'});
     }catch(error){
+      // A failed source keeps its last good catalog.
       const failures=(run.failures||0)+1;
-      state[spec.id]={...run,lastAttempt:now(),policySha256:fingerprint(spec),failures,nextAttemptAt:new Date(Date.now()+Math.min(24,2**Math.min(failures,4))*3600000).toISOString(),error:error.message};
+      state[spec.id]={...run,lastAttempt:now(),failures,nextAttemptAt:new Date(Date.now()+Math.min(24,2**Math.min(failures,4))*3600000).toISOString(),error:error.message};
+      delete state[spec.id].policySha256;
       failed.push({id:spec.id,error:error.message});log('official-source',{id:spec.id,status:'failed',reason:error.message});
     }
     writeJSON(at('.state/official-runs.json'),state,0o600);
   }
-  if(changed.length)atomic(at('official/CHANGES.md'),`# Official source changes\n\nUpdated ${now()}. No automatic commits.\n\n`+changed.map(c=>`- **${c.id}**: \`${c.from||'initial'}\` → \`${c.to}\`; ${c.added} added, ${c.modified} modified, ${c.removed} removed.`).join('\n')+'\n');
-  generateHubs();pruneSnapshots();updateIgnores();
-  const report={changed,unchanged,failed};writeJSON(at('.state/last-sync.json'),report,0o600);return report;
+  if(!ids)for(const id of Object.keys(current.sources))if(!reg.sources.some(s=>s.id===id)){changed.push({id,from:current.sources[id].revision,to:null});delete current.sources[id];fs.rmSync(at(catalogPath(id)),{force:true});writeLock(reg,current);}
+  generateHubs();
+  return {changed,unchanged,failed};
 }
-export function officialSections() {
-  const active=lock(),reg=registry(),sections={};
+export function officialSections({reg=registry(),active=lock(),catalog=readCatalog}={}) {
+  const sections={};
   for(const domain of config().domains){
-    const lines=['## Official sources',''];
+    const lines=['## Official sources',''],hub=`knowledge/${domain}/INDEX.md`;
     for(const spec of reg.sources.filter(s=>s.domains.includes(domain))) {
       const entry=active.sources[spec.id];
-      if(!entry){lines.push(`- ${spec.id}: not available locally; see [upstream](${spec.repository?'https://github.com/'+spec.repository:spec.url}).`);continue;}
-      const base=`official/snapshots/${entry.id}/${entry.snapshot}`,hub=at(`knowledge/${domain}/INDEX.md`);
-      const rel=file=>path.relative(path.dirname(hub),at(base+'/'+file)).split(path.sep).join('/');
-      const coverage=entry.mode==='link-catalog'?'link catalog; page bodies not mirrored':spec.refresh===false?'retained snapshot; automatic refresh disabled':'selected reference snapshot';
-      lines.push(`- **${entry.id}** — ${coverage}; ${entry.track}; revision \`${entry.revision}\`; fetched ${entry.fetchedAt?.slice(0,10)||'unknown'}.`);
+      if(!entry){lines.push(`- ${spec.id}: not yet catalogued; see [upstream](${spec.repository?'https://github.com/'+spec.repository:spec.url||spec.indexUrl}).`);continue;}
+      const doc=catalog(spec.id,entry);
+      const coverage=doc.pages.length?`link catalog of ${doc.pages.length} pages`:`${doc.skills.length} skills and ${doc.docs.length} docs at a pinned commit`;
+      lines.push(`- **${spec.id}** — ${coverage}; ${entry.track}; revision \`${entry.revision}\`; fetched ${entry.fetchedAt?.slice(0,10)||'unknown'}.`);
       const sharedPlugin=spec.id==='vercel-plugin'&&['react','nextjs'].includes(domain);
-      const pluginHub=path.relative(path.dirname(hub),at('knowledge/vercel/INDEX.md')).split(path.sep).join('/');
-      if(sharedPlugin)lines.push(`  - [Complete Vercel plugin catalog](${pluginHub}).`);
-      const visibleSkills=sharedPlugin?entry.skills.filter(skill=>domain==='react'&&skill.name==='react-best-practices'):entry.skills;
-      for(const skill of visibleSkills)lines.push(`  - [${skill.name}](${rel(skill.directory+'/SKILL.md')})${skill.installable?'':' — reference only'}.`);
-      if(!entry.skills.length || entry.files.some(f=>f.path.startsWith('docs/'))) {
-        const docs=entry.files.filter(f=>/\.(?:md|mdx|txt)$/.test(f.path)&&!f.path.includes('/SKILL.md')&&!/LICENSE/i.test(f.path)).slice(0,8);
-        for(const doc of docs){let upstream=spec.url;if(spec.kind==='repository'){let original=doc.path;for(const rule of spec.mappings||[])if(original.startsWith(rule.to)){original=rule.from+original.slice(rule.to.length);break;}upstream=`https://github.com/${spec.repository}/blob/${entry.revision}/${spec.sourceBase||''}${original}`;}lines.push(doc.cached?`  - [${doc.path}](${upstream||spec.indexUrl}) — upstream; restore the exact local snapshot with \`official restore ${entry.id}\`.`:`  - [${doc.path}](${rel(doc.path)}).`);}
-      }
+      if(sharedPlugin)lines.push(`  - [Complete Vercel plugin catalog](${path.posix.relative(path.posix.dirname(hub),'knowledge/vercel/INDEX.md')}).`);
+      const visibleSkills=sharedPlugin?doc.skills.filter(skill=>domain==='react'&&skill.name==='react-best-practices'):doc.skills;
+      for(const skill of visibleSkills)lines.push(`  - [${skill.name}](${skill.url})${skill.installable?'':' — reference only'}.`);
+      if(!doc.skills.length || doc.docs.some(d=>d.path.startsWith('docs/')))for(const item of doc.docs.slice(0,8))lines.push(`  - [${item.path}](${item.url}).`);
+      if(doc.pages.length)lines.push(`  - [Catalog source](${doc.origin}); search it with \`lookup --domain ${domain}\`.`);
     }
     for(const pointer of reg.pointers.filter(p=>p.domain===domain))lines.push(`- [Official website](${pointer.url}) — pointer only: ${pointer.reason}`);
     sections[domain]=lines.join('\n')+'\n';
@@ -221,56 +176,72 @@ export function generateHubs() {
   staleGuidance({limit:100,write:true});
   return changed;
 }
-export function updateIgnores() {
-  const file=at('.gitignore'),text=fs.readFileSync(file,'utf8'),base=text.replace(/\n# brain:large:start[\s\S]*?# brain:large:end\n?/,'\n').trimEnd();
-  const cached=[];
-  for(const entry of Object.values(lock().sources))for(const record of entry.files.filter(f=>f.cached))cached.push(`/official/snapshots/${entry.id}/${entry.snapshot}/${record.path}`);
-  // Also retain ignored materializations from older snapshots.
-  for(const manifest of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){const entry=json(manifest);for(const record of entry.files.filter(f=>f.cached))cached.push(`/official/snapshots/${entry.id}/${entry.snapshot}/${record.path}`);}
-  const result=base+'\n\n# brain:large:start\n'+[...new Set(cached)].sort().join('\n')+'\n# brain:large:end\n';if(result!==text)atomic(file,result);
-}
-function pruneSnapshots() {
-  const active=lock(),retained=new Set();
-  for(const entry of Object.values(active.sources)){retained.add(`${entry.id}/${entry.snapshot}`);for(const old of entry.history||[])retained.add(`${entry.id}/${old.snapshot}`);}
-  const referenceText=[...walk(at('knowledge'),{file:f=>f.endsWith('.md')}),...walk(at('.state/proposals'),{file:f=>f.endsWith('.json')})].map(f=>fs.readFileSync(f,'utf8')).join('\n');
-  for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){
-    const entry=json(file),key=`${entry.id}/${entry.snapshot}`;
-    if(retained.has(key)||referenceText.includes(entry.snapshot))continue;
-    try{snapshotFiles(entry);}catch{log('snapshot-retention',{id:entry.id,status:'preserved-modified-snapshot'});continue;}
-    fs.rmSync(snapshotRoot(entry),{recursive:true});fs.rmSync(file);fs.rmSync(at(`.state/snapshots/${entry.id}/${entry.snapshot}.json`),{force:true});
+const POLICIES=['reference-only','portable','curated','sitecore-bundle'],TRACKS=['default-branch','latest-release','pinned'],COMMON=['id','vendor','domains','kind','license','installPolicy','preferred','applicability'];
+// Registry keys are strict so a field sync would ignore cannot look like policy.
+const FIELDS={repository:[...COMMON,'repository','track','revision','sourceBase','skillRoot','paths','appliesTo','installableSkills','catalogOnly','documentationPrefix','documentationBase','maxPages'],url:[...COMMON,'url','allowedHosts'],collection:[...COMMON,'indexUrl','indexFormat','allowedHosts','includePrefixes','maxPages','fetchSuffix','additionalPages']};
+function webURL(value){try{const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password&&(!url.port||url.port==='443')?url:null;}catch{return null;}}
+const onHosts=(value,hosts)=>hosts.includes(webURL(value)?.hostname);
+const catalogHosts=spec=>[...(spec.kind==='repository'?['github.com','raw.githubusercontent.com']:[]),...(webURL(spec.documentationBase)?[webURL(spec.documentationBase).hostname]:[]),...(spec.allowedHosts||[])];
+function registryProblems(reg) {
+  const issues=[],domains=config().domains,ids=new Set();
+  if(reg.schemaVersion!==2||!Array.isArray(reg.sources)||!Array.isArray(reg.pointers)||Object.keys(reg).length!==3)return ['official/sources.json: schemaVersion 2 with sources and pointers is required'];
+  for(const spec of reg.sources){
+    if(!SOURCE_ID.test(spec?.id)||ids.has(spec.id)){issues.push('official/sources.json: invalid or duplicate source ID');continue;}
+    ids.add(spec.id);const fail=reason=>issues.push(`official/sources.json: ${spec.id}: ${reason}`);
+    if(!FIELDS[spec.kind])fail('unknown kind');
+    else for(const key of Object.keys(spec))if(!FIELDS[spec.kind].includes(key))fail(`unsupported field ${key}`);
+    if(!Array.isArray(spec.domains)||!spec.domains.length||spec.domains.some(d=>!domains.includes(d)))fail('unknown domain');
+    if(typeof spec.license!=='string'||!spec.license.trim())fail('license is required');
+    if(!POLICIES.includes(spec.installPolicy))fail('unknown install policy');
+    if(spec.kind==='repository'){
+      if(!/^[\w.-]+\/[\w.-]+$/.test(spec.repository||''))fail('repository is required');
+      if(!TRACKS.includes(spec.track)||spec.track==='pinned'&&!/^[0-9a-f]{40}$/.test(spec.revision||''))fail('invalid tracking policy');
+      if(spec.catalogOnly?typeof spec.documentationPrefix!=='string'||!spec.documentationPrefix||!webURL(spec.documentationBase):!Array.isArray(spec.paths)||!spec.paths.length||spec.paths.some(rule=>typeof (rule.prefix??rule.exact)!=='string'))fail('repository selection is incomplete');
+      if(spec.installPolicy==='curated'&&!Array.isArray(spec.installableSkills))fail('curated sources list installable skills');
+    }
+    if(spec.kind==='url'&&!onHosts(spec.url,spec.allowedHosts||[]))fail('url must be HTTPS on an allowed host');
+    if(spec.kind==='collection'&&(!onHosts(spec.indexUrl,spec.allowedHosts||[])||!Array.isArray(spec.includePrefixes)))fail('indexUrl must be HTTPS on an allowed host with include prefixes');
   }
-  const used=new Set();
-  for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')}))for(const record of json(file).files)used.add(record.sha256);
-  if(fs.existsSync(at('.state/objects')))for(const digest of fs.readdirSync(at('.state/objects')))if(/^[0-9a-f]{64}$/.test(digest)&&!used.has(digest))fs.rmSync(at('.state/objects/'+digest));
+  for(const pointer of reg.pointers)if(!domains.includes(pointer?.domain)||!webURL(pointer.url)||typeof pointer.reason!=='string'||!pointer.reason.trim()||Object.keys(pointer).length!==3)issues.push('official/sources.json: invalid website pointer');
+  return issues;
 }
-export function rollback(id) {
-  const current=lock(),entry=current.sources[id];if(!entry?.history?.length)throw new Error('No retained earlier snapshot');
-  snapshotFiles(entry);const previous=readJSON(at(`official/manifests/${id}/${entry.history[0].snapshot}.json`),null);if(!previous)throw new Error('Previous snapshot manifest unavailable');
-  if(previous.policySha256!==entry.policySha256)throw new Error('Rollback refused: previous snapshot uses a different registry policy; active snapshot retained');
-  snapshotFiles(previous);previous.history=[{snapshot:entry.snapshot,revision:entry.revision},...(previous.history||[])].slice(0,2);current.sources[id]=previous;writeJSON(at('official/sources.lock.json'),current);generateHubs();updateIgnores();log('official-rollback',{id});
-  return {id,revision:previous.revision};
+function catalogProblems(spec,entry,doc) {
+  const label=`${spec.id}: catalog`,hosts=catalogHosts(spec),items=[...(doc?.skills||[]),...(doc?.docs||[]),...(doc?.pages||[])];
+  if(doc?.schemaVersion!==1||doc.source!==spec.id||doc.revision!==entry.revision||!['skills','docs','pages','referenceIssues'].every(key=>Array.isArray(doc[key])))return [`${label} structure or revision is invalid`];
+  const issues=[];
+  if(!onHosts(doc.origin,hosts)||items.some(item=>!onHosts(item.url,hosts)||!onHosts(item.fetchUrl??item.url,hosts)))issues.push(`${label} links leave the source's approved hosts`);
+  if(items.some(item=>item.gitBlobSha!==undefined&&!/^[0-9a-f]{40}$/.test(item.gitBlobSha)))issues.push(`${label} has an invalid Git blob hash`);
+  if(spec.kind!=='repository'||spec.catalogOnly){if(!doc.pages.length||doc.pages.length>(spec.maxPages??5000)||doc.skills.length||doc.docs.length)issues.push(`${label} page count is out of bounds`);return issues;}
+  // Registry edits change what sync derives; a stale catalog must be refreshed, not trusted.
+  const prefix=`https://github.com/${spec.repository}/blob/${entry.revision}/${spec.sourceBase||''}`;
+  const drift=doc.pages.length||doc.skills.some(skill=>{const policy=skillPolicy(spec,skill.name);return skill.id!==`${spec.id}/${skill.name}`||skill.policy!==spec.installPolicy||skill.preferred!==!!spec.preferred||skill.installable!==(policy.installable&&!skill.blockedReason)||JSON.stringify(skill.appliesTo)!==JSON.stringify(policy.appliesTo)||skill.url!==`${prefix}${skill.directory}/SKILL.md`;})||doc.docs.some(item=>item.url!==prefix+item.path);
+  if(drift)issues.push(`${spec.id}: catalog does not match the registry; run official sync ${spec.id}`);
+  return issues;
 }
-export async function restore(id) {
-  const entry=lock().sources[id],spec=registry().sources.find(s=>s.id===id);if(!entry||!spec)throw new Error('Unknown active source');
-  if(entry.policySha256!==fingerprint(spec))throw new Error('Registry policy changed; approval is required');
-  const root=snapshotRoot(entry);noSymlinks(at('official'),root);const missing=[];
-  for(const record of entry.files){safePath(record.path);const file=path.join(root,record.path);noSymlinks(at('official'),file);if(fs.existsSync(file)){if(sha(fs.readFileSync(file))!==record.sha256)throw new Error('Restore refuses locally modified snapshot files');}else missing.push(record);}
-  if(!missing.length)return {id,restored:0,noOp:true};
-  let fetched=null;const recovered=new Map();
-  for(const record of missing){const cached=at(`.state/objects/${record.sha256}`);if(fs.existsSync(cached)){const bytes=fs.readFileSync(cached);if(sha(bytes)!==record.sha256)throw new Error('Cached snapshot bytes are corrupt');recovered.set(record.path,bytes);}else{if(!fetched)fetched=await fetchSource(spec.kind==='repository'?{...spec,track:'pinned',revision:entry.revision}:spec);const bytes=fetched.files.get(record.path);if(!bytes||sha(bytes)!==record.sha256)throw new Error('Historical content unavailable: upstream no longer serves the recorded bytes');recovered.set(record.path,bytes);}}
-  assertClean([...recovered].map(([id,bytes])=>({id,bytes})),{clients:false,exceptions:spec.scanExceptions||[]});
-  for(const [name,bytes]of recovered){object(bytes);atomic(path.join(root,name),bytes);}if(!fs.existsSync(manifestFile(entry)))writeJSON(manifestFile(entry),entry);return {id,restored:missing.length};
-}
-export function historicalCacheGaps() {
-  if(config().official?.allowUnavailableHistoricalCache!==true)return [];
-  const active=lock(),required=new Set(registry().sources.filter(s=>s.refresh!==false).map(s=>`${s.id}/${active.sources[s.id]?.snapshot}`)),gaps=[];
-  for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){const entry=json(file);if(required.has(`${entry.id}/${entry.snapshot}`))continue;for(const record of entry.files)if(record.cached&&!fs.existsSync(path.join(snapshotRoot(entry),safePath(record.path))))gaps.push({source:entry.id,snapshot:entry.snapshot,path:record.path,sha256:record.sha256});}
-  return gaps;
+// Pure over a reader so check can validate staged blobs and the working tree alike.
+export function officialProblems(read,names,{unexpected='warnings'}={}) {
+  const issues=[],warnings=[],parse=name=>{const bytes=read(name);if(!bytes){issues.push(`${name}: missing`);return null;}try{return JSON.parse(bytes);}catch{issues.push(`${name}: invalid JSON`);return null;}};
+  const reg=parse('official/sources.json'),active=parse('official/sources.lock.json');if(!reg||!active)return {issues,warnings};
+  issues.push(...registryProblems(reg));if(issues.length)return {issues,warnings};
+  if(active.schemaVersion!==2||!active.sources||typeof active.sources!=='object'||!/^\d+\.\d+\.\d+$/.test(active.toolchain?.gitleaks?.version||''))return {issues:['official/sources.lock.json: schemaVersion 2 with sources and the pinned scanner is required'],warnings};
+  const catalogs={};
+  for(const [id,entry] of Object.entries(active.sources)){
+    const spec=reg.sources.find(s=>s.id===id);if(!spec){issues.push(`${id}: lock entry has no registered source`);continue;}
+    if(Object.keys(entry).sort().join()!=='catalogSha256,fetchedAt,revision,track'||!Number.isFinite(Date.parse(entry.fetchedAt))||!(spec.kind==='repository'?/^[0-9a-f]{40}$/:/^[0-9a-f]{64}$/).test(entry.revision)){issues.push(`${id}: invalid lock entry`);continue;}
+    if(entry.track!==(spec.track||'rolling-url'))issues.push(`${id}: lock tracking differs from the registry; run official sync ${id}`);
+    const bytes=read(catalogPath(id));if(!bytes){issues.push(`${id}: catalog is missing`);continue;}
+    if(sha(bytes)!==entry.catalogSha256){issues.push(`${id}: catalog differs from its lock entry`);continue;}
+    try{catalogs[id]=JSON.parse(bytes);}catch{issues.push(`${id}: catalog is invalid JSON`);continue;}
+    issues.push(...catalogProblems(spec,entry,catalogs[id]));
+  }
+  for(const spec of reg.sources)if(!active.sources[spec.id])warnings.push(`${spec.id}: not yet catalogued; run official sync ${spec.id}`);
+  const expected=new Set(['official/sources.json','official/sources.lock.json',...Object.keys(active.sources).filter(id=>SOURCE_ID.test(id)).map(catalogPath)]);
+  const extra=names.filter(name=>!expected.has(name));if(extra.length)(unexpected==='issues'?issues:warnings).push(`${extra.length} unexpected files under official/; only the registry, lock and catalogs belong there`);
+  if(!issues.length)for(const [domain,section] of Object.entries(officialSections({reg,active,catalog:id=>catalogs[id]}))){const actual=read(`knowledge/${domain}/INDEX.md`)?.toString().match(/<!-- brain:official:start -->\n([\s\S]*?)<!-- brain:official:end -->/)?.[1];if(actual!==section)issues.push(`Stale official section: ${domain}; run curation hubs`);}
+  return {issues,warnings};
 }
 export function checkOfficial() {
-  const active=lock(),issues=[],partial=config().official?.allowUnavailableHistoricalCache===true,required=new Set(registry().sources.filter(s=>s.refresh!==false).map(s=>`${s.id}/${active.sources[s.id]?.snapshot}`));
-  for(const spec of registry().sources){const entry=active.sources[spec.id];if(!entry){issues.push(`${spec.id}: no active snapshot`);continue;}if(entry.policySha256!==fingerprint(spec))issues.push(`${spec.id}: registry differs from approved lock`);try{snapshotFiles(entry,{allowMissingCached:partial&&spec.refresh===false});}catch(error){issues.push(error.message);}}
-  for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){try{const entry=json(file);snapshotFiles(entry,{allowMissingCached:partial&&!required.has(`${entry.id}/${entry.snapshot}`)});}catch(error){issues.push(error.message);}}
-  for(const [domain,section] of Object.entries(officialSections())){const actual=fs.readFileSync(at(`knowledge/${domain}/INDEX.md`),'utf8').match(/<!-- brain:official:start -->\n([\s\S]*?)<!-- brain:official:end -->/)?.[1];if(actual!==section)issues.push(`Stale official section: ${domain}`);}
-  return issues;
+  const names=walk(at('official')).map(file=>path.relative(ROOT,file).split(path.sep).join('/'));
+  const {issues,warnings}=officialProblems(name=>fs.existsSync(at(name))?fs.readFileSync(at(name)):null,names);
+  return {ok:!issues.length,issues,warnings};
 }

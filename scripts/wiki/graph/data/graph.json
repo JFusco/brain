@@ -2,12 +2,12 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 57,
-    "edges": 160,
+    "nodes": 59,
+    "edges": 175,
     "byType": {
       "index": 3,
-      "journal": 24,
-      "plan": 25,
+      "journal": 25,
+      "plan": 26,
       "topic": 5
     }
   },
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.975796,
-      "y": 0.218681,
+      "x": 0.977403,
+      "y": 0.211383,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.945817,
-      "y": 0.324699,
+      "x": 0.949398,
+      "y": 0.314077,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.904357,
-      "y": 0.426776,
+      "x": 0.910635,
+      "y": 0.413212,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.851919,
-      "y": 0.523673,
+      "x": 0.861554,
+      "y": 0.507666,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": 0.789141,
-      "y": 0.614213,
+      "x": 0.802712,
+      "y": 0.596367,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": 0.716783,
-      "y": 0.697297,
+      "x": 0.734774,
+      "y": 0.678312,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": 0.635724,
-      "y": 0.771917,
+      "x": 0.658511,
+      "y": 0.752571,
       "size": 8
     },
     {
@@ -196,8 +196,8 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": 0.546948,
-      "y": 0.837166,
+      "x": 0.574787,
+      "y": 0.818303,
       "size": 8
     },
     {
@@ -221,8 +221,8 @@
       ],
       "bytes": 5340,
       "degree": 6,
-      "x": 0.451533,
-      "y": 0.892254,
+      "x": 0.484551,
+      "y": 0.874763,
       "size": 8
     },
     {
@@ -240,8 +240,8 @@
       ],
       "bytes": 2693,
       "degree": 3,
-      "x": 0.350638,
-      "y": 0.936511,
+      "x": 0.388824,
+      "y": 0.921312,
       "size": 8
     },
     {
@@ -259,8 +259,8 @@
       ],
       "bytes": 7492,
       "degree": 6,
-      "x": 0.245485,
-      "y": 0.9694,
+      "x": 0.288692,
+      "y": 0.957422,
       "size": 8
     },
     {
@@ -278,8 +278,8 @@
       ],
       "bytes": 6374,
       "degree": 5,
-      "x": 0.137354,
-      "y": 0.990522,
+      "x": 0.185289,
+      "y": 0.982684,
       "size": 8
     },
     {
@@ -303,8 +303,8 @@
       ],
       "bytes": 6037,
       "degree": 4,
-      "x": 0.027554,
-      "y": 0.99962,
+      "x": 0.079786,
+      "y": 0.996812,
       "size": 8
     },
     {
@@ -322,8 +322,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": -0.082579,
-      "y": 0.996584,
+      "x": -0.026621,
+      "y": 0.999646,
       "size": 8
     },
     {
@@ -377,8 +377,8 @@
       ],
       "bytes": 14026,
       "degree": 3,
-      "x": -0.191711,
-      "y": 0.981451,
+      "x": -0.132726,
+      "y": 0.991153,
       "size": 8
     },
     {
@@ -396,8 +396,8 @@
       ],
       "bytes": 4835,
       "degree": 4,
-      "x": -0.298515,
-      "y": 0.954405,
+      "x": -0.237327,
+      "y": 0.97143,
       "size": 8
     },
     {
@@ -415,8 +415,8 @@
       ],
       "bytes": 3450,
       "degree": 4,
-      "x": -0.401695,
-      "y": 0.915773,
+      "x": -0.339239,
+      "y": 0.9407,
       "size": 8
     },
     {
@@ -434,8 +434,8 @@
       ],
       "bytes": 1787,
       "degree": 4,
-      "x": -0.5,
-      "y": 0.866025,
+      "x": -0.437307,
+      "y": 0.899312,
       "size": 8
     },
     {
@@ -453,8 +453,8 @@
       ],
       "bytes": 1203,
       "degree": 2,
-      "x": -0.592235,
-      "y": 0.805765,
+      "x": -0.530421,
+      "y": 0.847734,
       "size": 8
     },
     {
@@ -472,8 +472,8 @@
       ],
       "bytes": 1850,
       "degree": 4,
-      "x": -0.677282,
-      "y": 0.735724,
+      "x": -0.617525,
+      "y": 0.786552,
       "size": 8
     },
     {
@@ -491,8 +491,8 @@
       ],
       "bytes": 1533,
       "degree": 2,
-      "x": -0.754107,
-      "y": 0.656752,
+      "x": -0.697632,
+      "y": 0.716457,
       "size": 8
     },
     {
@@ -510,8 +510,8 @@
       ],
       "bytes": 4286,
       "degree": 4,
-      "x": -0.821778,
-      "y": 0.569808,
+      "x": -0.769834,
+      "y": 0.638244,
       "size": 8
     },
     {
@@ -529,8 +529,8 @@
       ],
       "bytes": 4178,
       "degree": 5,
-      "x": -0.879474,
-      "y": 0.475947,
+      "x": -0.833314,
+      "y": 0.5528,
       "size": 8
     },
     {
@@ -554,8 +554,27 @@
       ],
       "bytes": 7746,
       "degree": 11,
-      "x": -0.926494,
-      "y": 0.376309,
+      "x": -0.887352,
+      "y": 0.461093,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-18-simplification-phase-3.md",
+      "label": "Simplification phase 3",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 56,
+          "url": "https://github.com/jfusco/brain/issues/56"
+        }
+      ],
+      "bytes": 8844,
+      "degree": 10,
+      "x": -0.931336,
+      "y": 0.364161,
       "size": 8
     },
     {
@@ -566,8 +585,8 @@
       "githubRefs": [],
       "bytes": 2704,
       "degree": 2,
-      "x": 0.993931,
-      "y": 0.110008,
+      "x": 0.994335,
+      "y": 0.106293,
       "size": 12
     },
     {
@@ -578,8 +597,8 @@
       "githubRefs": [],
       "bytes": 2105,
       "degree": 2,
-      "x": -0.962268,
-      "y": 0.272103,
+      "x": -0.964768,
+      "y": 0.263103,
       "size": 8
     },
     {
@@ -597,8 +616,8 @@
       ],
       "bytes": 5776,
       "degree": 3,
-      "x": -0.986361,
-      "y": 0.164595,
+      "x": -0.987268,
+      "y": 0.159063,
       "size": 8
     },
     {
@@ -609,8 +628,8 @@
       "githubRefs": [],
       "bytes": 5333,
       "degree": 4,
-      "x": -0.998482,
-      "y": 0.055088,
+      "x": -0.998583,
+      "y": 0.053222,
       "size": 8
     },
     {
@@ -634,8 +653,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.998482,
-      "y": -0.055088,
+      "x": -0.998583,
+      "y": -0.053222,
       "size": 8
     },
     {
@@ -646,8 +665,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.986361,
-      "y": -0.164595,
+      "x": -0.987268,
+      "y": -0.159063,
       "size": 8
     },
     {
@@ -658,8 +677,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.962268,
-      "y": -0.272103,
+      "x": -0.964768,
+      "y": -0.263103,
       "size": 8
     },
     {
@@ -670,8 +689,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.926494,
-      "y": -0.376309,
+      "x": -0.931336,
+      "y": -0.364161,
       "size": 8
     },
     {
@@ -689,8 +708,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": -0.879474,
-      "y": -0.475947,
+      "x": -0.887352,
+      "y": -0.461093,
       "size": 8
     },
     {
@@ -708,8 +727,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": -0.821778,
-      "y": -0.569808,
+      "x": -0.833314,
+      "y": -0.5528,
       "size": 8
     },
     {
@@ -720,8 +739,8 @@
       "githubRefs": [],
       "bytes": 2637,
       "degree": 3,
-      "x": -0.754107,
-      "y": -0.656752,
+      "x": -0.769834,
+      "y": -0.638244,
       "size": 8
     },
     {
@@ -739,8 +758,8 @@
       ],
       "bytes": 2014,
       "degree": 3,
-      "x": -0.677282,
-      "y": -0.735724,
+      "x": -0.697632,
+      "y": -0.716457,
       "size": 8
     },
     {
@@ -758,8 +777,8 @@
       ],
       "bytes": 1840,
       "degree": 3,
-      "x": -0.592235,
-      "y": -0.805765,
+      "x": -0.617525,
+      "y": -0.786552,
       "size": 8
     },
     {
@@ -777,8 +796,8 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": -0.5,
-      "y": -0.866025,
+      "x": -0.530421,
+      "y": -0.847734,
       "size": 8
     },
     {
@@ -789,8 +808,8 @@
       "githubRefs": [],
       "bytes": 1560,
       "degree": 3,
-      "x": -0.401695,
-      "y": -0.915773,
+      "x": -0.437307,
+      "y": -0.899312,
       "size": 8
     },
     {
@@ -808,8 +827,8 @@
       ],
       "bytes": 1101,
       "degree": 3,
-      "x": -0.298515,
-      "y": -0.954405,
+      "x": -0.339239,
+      "y": -0.9407,
       "size": 8
     },
     {
@@ -827,8 +846,8 @@
       ],
       "bytes": 1210,
       "degree": 2,
-      "x": -0.191711,
-      "y": -0.981451,
+      "x": -0.237327,
+      "y": -0.97143,
       "size": 8
     },
     {
@@ -846,8 +865,8 @@
       ],
       "bytes": 15754,
       "degree": 4,
-      "x": -0.082579,
-      "y": -0.996584,
+      "x": -0.132726,
+      "y": -0.991153,
       "size": 8
     },
     {
@@ -871,8 +890,33 @@
       ],
       "bytes": 16781,
       "degree": 5,
-      "x": 0.027554,
-      "y": -0.99962,
+      "x": -0.026621,
+      "y": -0.999646,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-18-brain-simplification-phase-3-official-references-as-a-link-registry-22cef58128.md",
+      "label": "Brain simplification phase 3 — official references as a link registry",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 56,
+          "url": "https://github.com/jfusco/brain/issues/56"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "pull-request",
+          "number": 55,
+          "url": "https://github.com/jfusco/brain/pull/55"
+        }
+      ],
+      "bytes": 21921,
+      "degree": 5,
+      "x": 0.079786,
+      "y": -0.996812,
       "size": 8
     },
     {
@@ -890,8 +934,8 @@
       ],
       "bytes": 1069,
       "degree": 3,
-      "x": 0.137354,
-      "y": -0.990522,
+      "x": 0.185289,
+      "y": -0.982684,
       "size": 8
     },
     {
@@ -902,8 +946,8 @@
       "githubRefs": [],
       "bytes": 1157,
       "degree": 3,
-      "x": 0.245485,
-      "y": -0.9694,
+      "x": 0.288692,
+      "y": -0.957422,
       "size": 8
     },
     {
@@ -921,8 +965,8 @@
       ],
       "bytes": 1423,
       "degree": 2,
-      "x": 0.350638,
-      "y": -0.936511,
+      "x": 0.388824,
+      "y": -0.921312,
       "size": 8
     },
     {
@@ -940,8 +984,8 @@
       ],
       "bytes": 969,
       "degree": 2,
-      "x": 0.451533,
-      "y": -0.892254,
+      "x": 0.484551,
+      "y": -0.874763,
       "size": 8
     },
     {
@@ -959,8 +1003,8 @@
       ],
       "bytes": 1374,
       "degree": 3,
-      "x": 0.546948,
-      "y": -0.837166,
+      "x": 0.574787,
+      "y": -0.818303,
       "size": 8
     },
     {
@@ -978,8 +1022,8 @@
       ],
       "bytes": 1238,
       "degree": 3,
-      "x": 0.635724,
-      "y": -0.771917,
+      "x": 0.658511,
+      "y": -0.752571,
       "size": 8
     },
     {
@@ -997,8 +1041,8 @@
       ],
       "bytes": 803,
       "degree": 2,
-      "x": 0.716783,
-      "y": -0.697297,
+      "x": 0.734774,
+      "y": -0.678312,
       "size": 8
     },
     {
@@ -1093,6 +1137,12 @@
         },
         {
           "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 56,
+          "url": "https://github.com/jfusco/brain/issues/56"
+        },
+        {
+          "repository": "jfusco/brain",
           "kind": "pull-request",
           "number": 2,
           "url": "https://github.com/jfusco/brain/pull/2"
@@ -1104,10 +1154,10 @@
           "url": "https://github.com/jfusco/brain/pull/3"
         }
       ],
-      "bytes": 9478,
-      "degree": 27,
-      "x": 0.789141,
-      "y": -0.614213,
+      "bytes": 10067,
+      "degree": 28,
+      "x": 0.802712,
+      "y": -0.596367,
       "size": 12
     },
     {
@@ -1203,12 +1253,18 @@
           "kind": "issue",
           "number": 54,
           "url": "https://github.com/jfusco/brain/issues/54"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 56,
+          "url": "https://github.com/jfusco/brain/issues/56"
         }
       ],
-      "bytes": 27781,
-      "degree": 76,
-      "x": 0.851919,
-      "y": -0.523673,
+      "bytes": 29622,
+      "degree": 81,
+      "x": 0.861554,
+      "y": -0.507666,
       "size": 8
     },
     {
@@ -1231,8 +1287,8 @@
       ],
       "bytes": 3960,
       "degree": 9,
-      "x": 0.904357,
-      "y": -0.426776,
+      "x": 0.910635,
+      "y": -0.413212,
       "size": 8
     },
     {
@@ -1243,11 +1299,18 @@
         "hosted maintenance",
         "cloud link investigation"
       ],
-      "githubRefs": [],
-      "bytes": 8558,
-      "degree": 10,
-      "x": 0.945817,
-      "y": -0.324699,
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 56,
+          "url": "https://github.com/jfusco/brain/issues/56"
+        }
+      ],
+      "bytes": 8959,
+      "degree": 15,
+      "x": 0.949398,
+      "y": -0.314077,
       "size": 8
     },
     {
@@ -1269,8 +1332,8 @@
       ],
       "bytes": 4993,
       "degree": 10,
-      "x": 0.975796,
-      "y": -0.218681,
+      "x": 0.977403,
+      "y": -0.211383,
       "size": 8
     },
     {
@@ -1282,14 +1345,21 @@
         "recurring link warnings"
       ],
       "githubRefs": [],
-      "bytes": 11080,
-      "degree": 8,
-      "x": 0.993931,
-      "y": -0.110008,
+      "bytes": 11400,
+      "degree": 12,
+      "x": 0.994335,
+      "y": -0.106293,
       "size": 8
     }
   ],
   "edges": [
+    {
+      "id": "033018f4e2d88afa",
+      "source": "wiki/journal/2026-10-18-simplification-phase-3.md",
+      "target": "wiki/topics/hosted-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
     {
       "id": "043fb0081f4ec8c2",
       "source": "wiki/journal/2026-10-18-hosted-artifact-permissions.md",
@@ -1473,6 +1543,13 @@
       "relation": "link"
     },
     {
+      "id": "32464bbd38020855",
+      "source": "wiki/plans/2026-10-18-brain-simplification-phase-3-official-references-as-a-link-registry-22cef58128.md",
+      "target": "wiki/topics/hosted-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "324dfad8e72b9f6f",
       "source": "wiki/plans/2026-10-17-publish-october-17-references-and-revalidate-guidance-8942e2cf45.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -1515,6 +1592,13 @@
       "relation": "link"
     },
     {
+      "id": "390533263ede3c2c",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/journal/2026-10-18-simplification-phase-3.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "3941c7a5a27443a1",
       "source": "wiki/journal/2026-10-17-semantic-audit-complete.md",
       "target": "wiki/plans/2026-10-17-complete-the-retained-brain-semantic-audit-c84fe68577.md",
@@ -1546,6 +1630,13 @@
       "id": "3e70325fc282eb55",
       "source": "wiki/journal/2026-10-17-status-history.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "43457b92c8b8e689",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-18-brain-simplification-phase-3-official-references-as-a-link-registry-22cef58128.md",
       "type": "link",
       "relation": "link"
     },
@@ -1700,6 +1791,20 @@
       "id": "68a27cc76d51150b",
       "source": "wiki/plans/INDEX.md",
       "target": "wiki/plans/2026-10-18-add-daily-investigation-of-official-link-warnings-cf4f891d83.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "69d5a0cfd305644d",
+      "source": "wiki/journal/2026-10-18-simplification-phase-3.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
+      "id": "6a55bb6c7750ba40",
+      "source": "wiki/journal/2026-10-18-simplification-phase-3.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "link",
       "relation": "link"
     },
@@ -1963,6 +2068,13 @@
       "relation": "topic"
     },
     {
+      "id": "988ddb0df44cbc63",
+      "source": "wiki/journal/2026-10-18-simplification-phase-3.md",
+      "target": "wiki/topics/hosted-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "98f6bb5d2fa0bbde",
       "source": "wiki/topics/automatic-knowledge-maintenance.md",
       "target": "wiki/journal/2026-10-17-retained-inbox-curation.md",
@@ -2015,6 +2127,13 @@
       "id": "a1324c4a65fbdfa3",
       "source": "wiki/topics/automatic-knowledge-maintenance.md",
       "target": "wiki/journal/2026-10-16-tailwind-application-review.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "a44b04f963e3eb69",
+      "source": "wiki/topics/link-warning-investigation.md",
+      "target": "wiki/journal/2026-10-18-simplification-phase-3.md",
       "type": "link",
       "relation": "link"
     },
@@ -2094,6 +2213,13 @@
       "target": "wiki/plans/2026-10-17-curate-the-retained-brain-inbox-81de1bc8dc.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "adaba82ec3b09192",
+      "source": "wiki/journal/2026-10-18-simplification-phase-3.md",
+      "target": "wiki/plans/2026-10-18-brain-simplification-phase-3-official-references-as-a-link-registry-22cef58128.md",
+      "type": "plan",
+      "relation": "plan"
     },
     {
       "id": "af41d900e8712559",
@@ -2271,6 +2397,20 @@
       "relation": "link"
     },
     {
+      "id": "d668b1920e6351ee",
+      "source": "wiki/topics/hosted-maintenance.md",
+      "target": "wiki/journal/2026-10-18-simplification-phase-3.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "d77727e1d6965292",
+      "source": "wiki/journal/2026-10-18-simplification-phase-3.md",
+      "target": "wiki/topics/link-warning-investigation.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "d8da41f66b68439a",
       "source": "wiki/journal/2026-10-18-simplification-phase-2.md",
       "target": "wiki/plans/2026-10-18-brain-simplification-phase-2-publish-knowledge-as-ordinary-git-changes-e971dbeb8b.md",
@@ -2283,6 +2423,20 @@
       "target": "wiki/journal/2026-10-16-link-warning-tailwind.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "dbf6905c23c21bbb",
+      "source": "wiki/topics/hosted-maintenance.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "dca10c97f8d84ae0",
+      "source": "wiki/plans/2026-10-18-brain-simplification-phase-3-official-references-as-a-link-registry-22cef58128.md",
+      "target": "wiki/topics/link-warning-investigation.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "dda8300883c26eaf",
@@ -2341,6 +2495,13 @@
       "relation": "link"
     },
     {
+      "id": "e8a1d5faa7829d9a",
+      "source": "wiki/journal/2026-10-18-simplification-phase-3.md",
+      "target": "wiki/topics/link-warning-investigation.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "e93e6513062f17dc",
       "source": "wiki/topics/automatic-knowledge-maintenance.md",
       "target": "wiki/topics/brain-skill.md",
@@ -2364,6 +2525,13 @@
     {
       "id": "ed175892086fe108",
       "source": "wiki/journal/2026-10-17-curator-rejections.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
+      "id": "f3674a613620bc10",
+      "source": "wiki/plans/2026-10-18-brain-simplification-phase-3-official-references-as-a-link-registry-22cef58128.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "topic",
       "relation": "topic"

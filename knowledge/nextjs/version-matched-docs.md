@@ -24,4 +24,4 @@ Preserve existing framework-managed instruction blocks. This guidance does not i
 
 ## Evidence and limits
 
-The [official agent guide](https://nextjs.org/docs/app/guides/ai-agents) was rechecked on 2026-10-16; the [captured index](../../official/snapshots/nextjs-index/4ba86c99073c-4ee48a797e36/llms.txt) supplies discovery metadata. The guide confirms bundled docs from 16.2; automatic framework-managed instructions are a separate feature available from 16.3. This note's constraint covers bundled documentation, not compatibility of every framework API. A changed catalog hash alone was not treated as revalidation.
+The [official agent guide](https://nextjs.org/docs/app/guides/ai-agents) was rechecked on 2026-10-16; the [llms.txt index](https://nextjs.org/docs/llms.txt) supplies discovery metadata. The guide confirms bundled docs from 16.2; automatic framework-managed instructions are a separate feature available from 16.3. This note's constraint covers bundled documentation, not compatibility of every framework API. A changed catalog hash alone was not treated as revalidation.

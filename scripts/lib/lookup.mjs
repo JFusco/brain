@@ -1,8 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {createRequire} from 'node:module';
-import {at,config,readJSON,sha,safePath,noSymlinks,now} from './core.mjs';
-import {registry,lock,snapshotRoot} from './official.mjs';
+import {at,config,readJSON,sha,noSymlinks,now,gitBlob} from './core.mjs';
+import {registry,lock,readCatalog} from './official.mjs';
 import {download} from './network.mjs';
 import {assertClean} from './privacy.mjs';
 import {projectContext,versionFit} from './project-context.mjs';
@@ -13,11 +13,6 @@ const {scalar}=require('../wiki/lib/frontmatter.cjs');
 const stops=new Set(['a','an','and','are','for','how','i','in','is','it','of','on','the','to','use','using','with']);
 const tokens=text=>[...new Set(String(text).toLowerCase().replace(/next\.?js/g,'nextjs').split(/[^a-z0-9]+/).filter(word=>word.length>1&&!stops.has(word)))];
 function webURL(value) {const url=new URL(value);if(url.protocol!=='https:'||url.username||url.password||url.port&&url.port!=='443')throw new Error('Catalog URL must use HTTPS without credentials');return url;}
-function officialURL(spec,entry,file) {
-  if(spec.kind!=='repository')return spec.url||spec.indexUrl;
-  let original=file;for(const rule of spec.mappings||[])if(original.startsWith(rule.to)){original=rule.from+original.slice(rule.to.length);break;}
-  return `https://github.com/${spec.repository}/blob/${entry.revision}/${spec.sourceBase||''}${original}`;
-}
 export function lookupEntries(domain) {
   const result=[],active=lock(),reg=registry();
   for(const page of publishedGuidance()){
@@ -25,17 +20,10 @@ export function lookupEntries(domain) {
     result.push({kind:'curated-note',title:page.title,path:page.path,domain:page.domain,summary:page.body.replace(/^#+.*$/gm,'').trim().slice(0,500),evidenceDate:scalar(page.raw,'evidence_date'),applicability:scalar(page.raw,'applicability'),versions:page.versions,freshness:page.freshness,sha256:page.sha256});
   }
   for(const spec of reg.sources){if(domain&&!spec.domains.includes(domain))continue;const entry=active.sources[spec.id];if(!entry)continue;
-    const base={source:spec.id,domains:spec.domains,sourceRevision:entry.revision,catalogFetchedAt:entry.fetchedAt};
-    const root=snapshotRoot(entry);
-    const read=record=>{safePath(record.path);const file=path.join(root,record.path);noSymlinks(at('official'),file);const bytes=fs.readFileSync(file);if(sha(bytes)!==record.sha256)throw new Error('Official lookup input differs from its recorded hash');return bytes;};
-    const catalog=entry.files.find(file=>file.path==='PAGES.json');
-    if(catalog){const document=JSON.parse(read(catalog));if(document.schemaVersion!==1||document.source!==spec.id||!Array.isArray(document.pages))throw new Error('Invalid documentation catalog');for(const page of document.pages){webURL(page.url);webURL(page.fetchUrl||page.url);result.push({...base,...page,kind:'official-page'});}continue;}
-    for(const skill of entry.skills)result.push({...base,kind:'skill-reference',title:skill.declaredName||skill.name,summary:skill.description,url:officialURL(spec,entry,skill.directory+'/SKILL.md'),installable:skill.installable,applicability:skill.appliesTo});
-    for(const record of entry.files){if(record.bytes>2*1024*1024||!/\.(?:md|mdx|txt)$/.test(record.path)||/LICENSE|SKILL\.md$/.test(record.path))continue;const text=read(record).toString();
-      if(/llms(?:-full)?\.txt$/.test(record.path)){
-        for(const match of text.matchAll(/\[([^\]\n]+)\]\((https:\/\/[^\s)]+)\)/g)){let url;try{url=webURL(match[2]);}catch{continue;}if(!spec.allowedHosts?.includes(url.hostname))continue;result.push({...base,kind:'official-page',title:match[1],url:url.href,fetchUrl:url.href});}
-      }else result.push({...base,kind:'official-reference',title:text.match(/^#\s+(.+)$/m)?.[1]||record.path,url:officialURL(spec,entry,record.path)});
-    }
+    const base={source:spec.id,domains:spec.domains,sourceRevision:entry.revision,catalogFetchedAt:entry.fetchedAt},doc=readCatalog(spec.id,entry);
+    for(const page of doc.pages){webURL(page.url);webURL(page.fetchUrl||page.url);result.push({...base,...page,kind:'official-page'});}
+    for(const skill of doc.skills)result.push({...base,kind:'skill-reference',title:skill.declaredName||skill.name,summary:skill.description,url:skill.url,fetchUrl:skill.fetchUrl,gitBlobSha:skill.gitBlobSha,installable:skill.installable,applicability:skill.appliesTo});
+    for(const item of doc.docs)result.push({...base,kind:'official-reference',title:item.title,url:item.url,fetchUrl:item.fetchUrl,gitBlobSha:item.gitBlobSha});
   }
   for(const pointer of reg.pointers){if(domain&&pointer.domain!==domain)continue;webURL(pointer.url);result.push({kind:'official-pointer',title:pointer.domain+' official documentation',domains:[pointer.domain],url:pointer.url,summary:pointer.reason,coverage:'website pointer; contents not catalogued'});}
   return result;
@@ -69,11 +57,10 @@ async function fetchExcerpt(item,query) {
   if(cached&&Date.now()-Date.parse(cached.fetchedAt)<(config().lookup?.cacheHours??24)*3600000){assertClean([{id:'lookup-excerpt',bytes:Buffer.from(cached.excerpt)}],{clients:false});return {...cached,cache:'hit'};}
   const response=await download(target,{hosts:[...allowed],maxBytes:4*1024*1024,headers:{accept:'text/markdown, text/plain;q=0.9, text/html;q=0.5'}});
   const text=response.bytes.toString();if(!text.trim()||text.includes('\0')||/just a moment|sign in to continue|cf-chl-/i.test(text.slice(0,3000)))throw new Error('Documentation page is unavailable or challenged');
-  if(item.gitBlobSha&&shaGitBlob(response.bytes)!==item.gitBlobSha)throw new Error('Fetched documentation differs from the pinned repository blob');
+  if(item.gitBlobSha&&gitBlob(response.bytes)!==item.gitBlobSha)throw new Error('Fetched documentation differs from the pinned repository blob');
   const fragment=excerpt(text,query,String(response.headers['content-type']||'').includes('text/html'));assertClean([{id:'lookup-excerpt',bytes:Buffer.from(fragment)}],{clients:false});
   const receipt={schemaVersion:2,url:response.url,fetchedAt:now(),contentSha256:sha(response.bytes),excerpt:fragment,bodyStored:false};storeExcerpt(file,receipt);cleanExcerptCache({yes:true});return {...receipt,cache:'miss'};
 }
-function shaGitBlob(bytes) {return require('node:crypto').createHash('sha1').update(`blob ${bytes.length}\0`).update(bytes).digest('hex');}
 export async function lookup({query,domain,limit=5,fetch=false,project,workspace,versions}={}) {
   if(typeof query!=='string'||!query.trim()||!tokens(query).length)throw new Error('--query must contain searchable words');
   if(domain&&!config().domains.includes(domain))throw new Error('Unknown knowledge domain');

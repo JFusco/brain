@@ -8,12 +8,15 @@ Brain provides on-demand frontend/CMS knowledge lookup, read-only project-skill 
 - Phase 2 ([issue 54](https://github.com/JFusco/brain/issues/54)) makes publishing an ordinary Git change. A merged note with `status: current` is published, with no approval ledger or proposal export. Lessons arrive through the manual `brain-capture` skill instead of nightly project harvesting.
   - The `integration` command and the project skill installer are gone; `skills suggest` remains.
   - The 2,726 pending harvested records stay untouched in the private inbox and are reviewed only on request. The privacy-policy change requires one `inbox rescan`.
+- Phase 3 ([issue 56](https://github.com/JFusco/brain/issues/56)) makes `official/` a link registry. It keeps the registry, a slim lock and generated link catalogs (16 files instead of 1,544), with no vendor bodies, rollback history or `official restore`. `check` passes in a fresh clone after setup.
+  - A weekly GitHub workflow refreshes catalogs in the runner, samples links and keeps one issue. It replaces the daily Codex-investigated publisher and its watch.
+  - Registry edits are ordinary PRs; lock policy hashes and `inbox propose`/`apply` are gone. The LaunchAgent and `scheduled-run` are removed.
 
 ## Delivered cleanup
 
 - Automatic collection selected project topic notes and authored skills, excluding raw memory roots, indexes, repository instructions and implementation journals. Phase 2 removed it.
 - React and Next.js link to the full Vercel plugin catalog instead of repeating it. React retains its direct review entry. Knowledge usage instructions have one detailed guide.
-- Four unused core exports, eight unused imports, and two redundant directory placeholders were removed. Setup, maintenance, recovery tools, vendor snapshots, manifests, and the ten published notes remain available.
+- Four unused core exports, eight unused imports, and two redundant directory placeholders were removed. Setup, maintenance and the published notes remain available; phase 3 removed the vendor snapshots, manifests and recovery tools.
 - Inbox screening, full retained-baseline semantic review and deduplication record hash-bound decisions privately. Useful or uncertain evidence stays pending with specific reasons and evidence gaps.
 - [PR 28](https://github.com/JFusco/brain/pull/28) merged the project cleanup. The primary checkout was reconciled to merged main after verifying all local intent was already upstream and preserving the original state in a recovery stash.
 - The original cleanup structurally screened 3,075 candidates, rejected 38 irrelevant records and superseded 28 verified duplicates. All original bodies remain preserved.
@@ -26,7 +29,7 @@ Local verification outcomes and cleanup counts are recorded in [the reconciliati
 
 [Contentful access repair](https://github.com/JFusco/brain/issues/41) replaces the throttled landing-page pointer with verified official API/JavaScript SDK Markdown entry points. Both retrieval and the unchanged checker returned 200, and focused lookup cached excerpts only. Historical failures remain retained; unused URLs leave active coverage through normal registry reconciliation.
 
-Use `node scripts/brain.mjs maintenance status` for observed collection/publication attempts, failures, source freshness, and sampled link coverage. A configured schedule alone is not proof of execution.
+Use `node scripts/brain.mjs maintenance status` for publication attempts and failures, catalog freshness, local link counts and stale notes; the weekly reference health issue reports hosted catalog changes and link warnings. A configured schedule alone is not proof of execution.
 
 Backup tooling, previously disabled, has been removed; existing private archives and keys were not touched. Tests, fixtures, CI, fresh-session checks, dedicated QA, and review-agent audits remain deferred for v1.
 
