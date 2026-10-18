@@ -16,11 +16,11 @@
       "preparedAt": "2026-10-17T07:18:10.053Z"
     },
     "knowledge/_unsorted/cms-guidance.md": {
-      "sha256": "dc666de4dd3480fa855764e829340ec969ef3ad665e73cd7ffc519cd448ea46f",
-      "proposal": "fe8fe6973049436931133aab",
-      "digest": "fe8fe6973049436931133aab846c00423455e7f8000369b49ea20ae8dd477821",
+      "sha256": "1b2654583a208b5c9e4b603a5f3c42a9c3be7b6fab9ee47bdbcf8332429d1a1a",
+      "proposal": "49103c15dbe0cd6665920d42",
+      "digest": "49103c15dbe0cd6665920d426d35e81c939bed239f9102d53ad07446fcfe90b5",
       "method": "automatic-curation-pr",
-      "preparedAt": "2026-10-17T07:18:10.053Z"
+      "preparedAt": "2026-10-18T07:16:42.876Z"
     },
     "knowledge/frontend/match-evidence-to-claim.md": {
       "sha256": "6c6ae82b901b622f35a6345a6fd2d01bad18d6cb3bd262f56fe97fff48571338",

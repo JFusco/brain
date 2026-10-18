@@ -2,12 +2,12 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 34,
-    "edges": 89,
+    "nodes": 36,
+    "edges": 95,
     "byType": {
       "index": 3,
-      "journal": 15,
-      "plan": 15,
+      "journal": 16,
+      "plan": 16,
       "topic": 1
     }
   },
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.932472,
-      "y": 0.361242,
+      "x": 0.939693,
+      "y": 0.34202,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.850217,
-      "y": 0.526432,
+      "x": 0.866025,
+      "y": 0.5,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.739009,
-      "y": 0.673696,
+      "x": 0.766044,
+      "y": 0.642788,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.602635,
-      "y": 0.798017,
+      "x": 0.642788,
+      "y": 0.766044,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": 0.445738,
-      "y": 0.895163,
+      "x": 0.5,
+      "y": 0.866025,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": 0.273663,
-      "y": 0.961826,
+      "x": 0.34202,
+      "y": 0.939693,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": 0.092268,
-      "y": 0.995734,
+      "x": 0.173648,
+      "y": 0.984808,
       "size": 8
     },
     {
@@ -196,8 +196,8 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": -0.092268,
-      "y": 0.995734,
+      "x": 0,
+      "y": 1,
       "size": 8
     },
     {
@@ -221,8 +221,8 @@
       ],
       "bytes": 5340,
       "degree": 6,
-      "x": -0.273663,
-      "y": 0.961826,
+      "x": -0.173648,
+      "y": 0.984808,
       "size": 8
     },
     {
@@ -240,8 +240,8 @@
       ],
       "bytes": 2693,
       "degree": 3,
-      "x": -0.445738,
-      "y": 0.895163,
+      "x": -0.34202,
+      "y": 0.939693,
       "size": 8
     },
     {
@@ -259,8 +259,8 @@
       ],
       "bytes": 7492,
       "degree": 6,
-      "x": -0.602635,
-      "y": 0.798017,
+      "x": -0.5,
+      "y": 0.866025,
       "size": 8
     },
     {
@@ -278,8 +278,8 @@
       ],
       "bytes": 6374,
       "degree": 5,
-      "x": -0.739009,
-      "y": 0.673696,
+      "x": -0.642788,
+      "y": 0.766044,
       "size": 8
     },
     {
@@ -303,8 +303,8 @@
       ],
       "bytes": 6037,
       "degree": 4,
-      "x": -0.850217,
-      "y": 0.526432,
+      "x": -0.766044,
+      "y": 0.642788,
       "size": 8
     },
     {
@@ -322,8 +322,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": -0.932472,
-      "y": 0.361242,
+      "x": -0.866025,
+      "y": 0.5,
       "size": 8
     },
     {
@@ -377,8 +377,27 @@
       ],
       "bytes": 14026,
       "degree": 3,
-      "x": -0.982973,
-      "y": 0.18375,
+      "x": -0.939693,
+      "y": 0.34202,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-18-cms-preview-guidance.md",
+      "label": "Refresh CMS references and correct Preview guidance",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 39,
+          "url": "https://github.com/jfusco/brain/issues/39"
+        }
+      ],
+      "bytes": 4835,
+      "degree": 4,
+      "x": -0.984808,
+      "y": 0.173648,
       "size": 8
     },
     {
@@ -389,8 +408,8 @@
       "githubRefs": [],
       "bytes": 3069,
       "degree": 2,
-      "x": 0.982973,
-      "y": 0.18375,
+      "x": 0.984808,
+      "y": 0.173648,
       "size": 12
     },
     {
@@ -420,8 +439,8 @@
       ],
       "bytes": 5776,
       "degree": 3,
-      "x": -0.982973,
-      "y": -0.18375,
+      "x": -0.984808,
+      "y": -0.173648,
       "size": 8
     },
     {
@@ -432,8 +451,8 @@
       "githubRefs": [],
       "bytes": 5333,
       "degree": 4,
-      "x": -0.932472,
-      "y": -0.361242,
+      "x": -0.939693,
+      "y": -0.34202,
       "size": 8
     },
     {
@@ -457,8 +476,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.850217,
-      "y": -0.526432,
+      "x": -0.866025,
+      "y": -0.5,
       "size": 8
     },
     {
@@ -469,8 +488,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.739009,
-      "y": -0.673696,
+      "x": -0.766044,
+      "y": -0.642788,
       "size": 8
     },
     {
@@ -481,8 +500,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.602635,
-      "y": -0.798017,
+      "x": -0.642788,
+      "y": -0.766044,
       "size": 8
     },
     {
@@ -493,8 +512,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.445738,
-      "y": -0.895163,
+      "x": -0.5,
+      "y": -0.866025,
       "size": 8
     },
     {
@@ -512,8 +531,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": -0.273663,
-      "y": -0.961826,
+      "x": -0.34202,
+      "y": -0.939693,
       "size": 8
     },
     {
@@ -531,8 +550,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": -0.092268,
-      "y": -0.995734,
+      "x": -0.173648,
+      "y": -0.984808,
       "size": 8
     },
     {
@@ -543,8 +562,8 @@
       "githubRefs": [],
       "bytes": 2637,
       "degree": 3,
-      "x": 0.092268,
-      "y": -0.995734,
+      "x": 0,
+      "y": -1,
       "size": 8
     },
     {
@@ -562,8 +581,8 @@
       ],
       "bytes": 2014,
       "degree": 3,
-      "x": 0.273663,
-      "y": -0.961826,
+      "x": 0.173648,
+      "y": -0.984808,
       "size": 8
     },
     {
@@ -581,8 +600,8 @@
       ],
       "bytes": 1840,
       "degree": 3,
-      "x": 0.445738,
-      "y": -0.895163,
+      "x": 0.34202,
+      "y": -0.939693,
       "size": 8
     },
     {
@@ -600,8 +619,8 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": 0.602635,
-      "y": -0.798017,
+      "x": 0.5,
+      "y": -0.866025,
       "size": 8
     },
     {
@@ -612,8 +631,8 @@
       "githubRefs": [],
       "bytes": 1560,
       "degree": 3,
-      "x": 0.739009,
-      "y": -0.673696,
+      "x": 0.642788,
+      "y": -0.766044,
       "size": 8
     },
     {
@@ -631,8 +650,27 @@
       ],
       "bytes": 1101,
       "degree": 3,
-      "x": 0.850217,
-      "y": -0.526432,
+      "x": 0.766044,
+      "y": -0.642788,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-18-refresh-cms-references-and-correct-contentful-preview-guidance-e97334eb8a.md",
+      "label": "Refresh CMS references and correct Contentful Preview guidance",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 39,
+          "url": "https://github.com/jfusco/brain/issues/39"
+        }
+      ],
+      "bytes": 1374,
+      "degree": 3,
+      "x": 0.866025,
+      "y": -0.5,
       "size": 8
     },
     {
@@ -685,6 +723,12 @@
         },
         {
           "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 39,
+          "url": "https://github.com/jfusco/brain/issues/39"
+        },
+        {
+          "repository": "jfusco/brain",
           "kind": "pull-request",
           "number": 2,
           "url": "https://github.com/jfusco/brain/pull/2"
@@ -696,10 +740,10 @@
           "url": "https://github.com/jfusco/brain/pull/3"
         }
       ],
-      "bytes": 5551,
-      "degree": 17,
-      "x": 0.932472,
-      "y": -0.361242,
+      "bytes": 5895,
+      "degree": 18,
+      "x": 0.939693,
+      "y": -0.34202,
       "size": 12
     },
     {
@@ -759,12 +803,18 @@
           "kind": "issue",
           "number": 24,
           "url": "https://github.com/jfusco/brain/issues/24"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 39,
+          "url": "https://github.com/jfusco/brain/issues/39"
         }
       ],
-      "bytes": 21404,
-      "degree": 52,
-      "x": 0.982973,
-      "y": -0.18375,
+      "bytes": 22421,
+      "degree": 56,
+      "x": 0.984808,
+      "y": -0.173648,
       "size": 8
     }
   ],
@@ -803,6 +853,13 @@
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "topic",
       "relation": "topic"
+    },
+    {
+      "id": "167fd8367d7f1743",
+      "source": "wiki/journal/2026-10-18-cms-preview-guidance.md",
+      "target": "wiki/plans/2026-10-18-refresh-cms-references-and-correct-contentful-preview-guidance-e97334eb8a.md",
+      "type": "plan",
+      "relation": "plan"
     },
     {
       "id": "1941acdc90a5ce91",
@@ -922,6 +979,13 @@
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "45b51c974b96cd35",
+      "source": "wiki/journal/2026-10-18-cms-preview-guidance.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "488c596ce6981f26",
@@ -1092,6 +1156,13 @@
       "relation": "link"
     },
     {
+      "id": "906c10a47d01c59f",
+      "source": "wiki/journal/2026-10-18-cms-preview-guidance.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "930d9087e162b695",
       "source": "wiki/journal/2026-10-16-first-scheduled-curation.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -1239,9 +1310,23 @@
       "relation": "plan"
     },
     {
+      "id": "bc9dcca50aef2b1c",
+      "source": "wiki/plans/2026-10-18-refresh-cms-references-and-correct-contentful-preview-guidance-e97334eb8a.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "bfc07ac9e1527f92",
       "source": "wiki/journal/2026-10-15-on-demand-reliability.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "c1db428b97fffb16",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-18-refresh-cms-references-and-correct-contentful-preview-guidance-e97334eb8a.md",
       "type": "link",
       "relation": "link"
     },
@@ -1256,6 +1341,13 @@
       "id": "c73f55bc07bf19f6",
       "source": "wiki/journal/2026-10-16-project-lesson-capture.md",
       "target": "wiki/plans/2026-10-16-capture-reusable-lessons-from-working-chats-eeac8dc827.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "c916af73f43558fd",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/journal/2026-10-18-cms-preview-guidance.md",
       "type": "link",
       "relation": "link"
     },

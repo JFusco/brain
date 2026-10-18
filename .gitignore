@@ -6,6 +6,7 @@ official/snapshots/**/.large-files
 *.tmp
 
 # brain:large:start
+/official/snapshots/contentful-skills/1e40a4c0e841-f270b5c6c7a2/skills/contentful-env-analysis/scripts/main.js
 /official/snapshots/contentful-skills/27a5172887a9-1427297e432f/skills/contentful-env-analysis/scripts/main.js
 /official/snapshots/contentstack-docs/e7518b89c9b6-8bc13c628478/PAGES.json
 /official/snapshots/nextjs-docs/02d68aa4eef9-656eebf2ff91/llms-full.txt
