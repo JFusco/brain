@@ -142,3 +142,7 @@ The exact registry proposal digest is `406d2573c1ed028a4db28ccced3494764ce680538
 ## Hosted official maintenance
 
 [Issue 45](https://github.com/JFusco/brain/issues/45) moves official-reference refresh, bounded link investigation/publication and completion-linked verification to trusted GitHub-hosted runners. Private project collection and unpublished curation remain local; no private-state export or backup is part of the migration. See [hosted maintenance](hosted-maintenance.md) for the three-job boundary, optional historical-cache coverage, operational checkpoint retention, local handoff and separate manual/scheduled proof.
+
+## Phase 1 simplification
+
+[Issue 52](https://github.com/JFusco/brain/issues/52) removes upkeep that no longer earned its keep. The private `.state/registry-approval.json` receipt is gone: it made `lookup` fail on fresh clones and after merged registry PRs, while hosted setup rewrote it for whatever was checked out. Git history, PR review and the lock's per-source `policySha256` check now guard the registry. The disabled backup subsystem (module, CLI commands, maintenance hooks and config keys) is removed; existing private archives and keys were not touched, and the earlier backup sections above are historical. The wiki merge and issue reconciliation workflows are removed; the same-delivery rule records history. Other projects now use the [opt-in Brain skill](brain-skill.md). See the [phase 1 journal](../journal/2026-10-18-simplification-phase-1.md).
