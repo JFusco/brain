@@ -144,7 +144,24 @@ Official website pointers remain pointers until a useful downloadable source and
 | Contentful | [Official repository skills](https://github.com/contentful/skills) and website pointers; broader website discovery encountered HTTP 429 |
 | Sitecore | [Official Content SDK skills and references](https://github.com/Sitecore/content-sdk), plus canonical product website pointers; earlier HEAD restrictions remain historical evidence |
 
-The next useful coverage additions are a broader Contentful documentation catalog and version-specific Sitecore XP/SitecoreAI catalogs when their indexes can be retrieved reliably. These remain suggestions rather than claims of completed coverage. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. Additional sources belong in a separate documented registration change; the weekly check cannot add them.
+Coverage is reviewed weekly against the watch list below, and each addition is a separate registration PR. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. The weekly check never adds sources.
+
+### Coverage watch list
+
+The weekly coverage review checks these official places for new documentation indexes (`llms.txt`, sitemaps, docs repositories), skills or agent repositories, and MCP servers. An MCP server is recorded as a website pointer.
+
+| Area | Official places |
+| --- | --- |
+| Next.js | nextjs.org/docs (`llms.txt`), github.com/vercel, github.com/vercel-labs |
+| React | react.dev (`llms.txt`), github.com/reactjs |
+| TypeScript | typescriptlang.org/docs, github.com/microsoft/TypeScript-Website |
+| Tailwind | tailwindcss.com/docs, github.com/tailwindlabs |
+| Accessibility (WCAG, WAI-ARIA) | w3.org/WAI, github.com/w3c |
+| Vercel | vercel.com/docs (`llms.txt`, sitemap), github.com/vercel |
+| Optimizely SaaS and PaaS | docs.optimizely.com and docs.developers.optimizely.com (`llms.txt`), github.com/episerver |
+| Contentstack | contentstack.com (`llms.txt`, sitemap), github.com/contentstack |
+| SitecoreAI and Sitecore XP | doc.sitecore.com, github.com/Sitecore |
+| Contentful | contentful.com/developers/docs (`llms.txt`), github.com/contentful |
 
 ## Project skills
 
@@ -159,7 +176,7 @@ Brain doesn't install skills into projects. Install a recommended skill with its
 
 ## Privacy and maintenance
 
-A [weekly GitHub Actions run](https://github.com/JFusco/brain/actions/workflows/brain-weekly.yml) (Mondays 08:23 UTC, or manual dispatch) refreshes the official catalogs in the runner without committing them, samples up to 100 links plus the website pointers, runs `check`, and keeps one `[Task] Brain weekly reference health` issue. The issue is rewritten only when its findings change and closed when a run finds none. The run uses the default `GITHUB_TOKEN` with `issues: write`; link observations carry between runs in a 90-day Actions artifact. Private captures and unpublished curation stay local and are not uploaded.
+A [weekly GitHub Actions run](https://github.com/JFusco/brain/actions/workflows/brain-weekly.yml) (Mondays 08:23 UTC, or manual dispatch) refreshes the official catalogs in the runner without committing them, samples up to 100 links plus the website pointers, runs `check`, and keeps one `[Task] Brain weekly reference health` issue. It opens only for findings that need a person: notes citing changed sources, refresh failures, link warnings and check failures. Routine catalog drift is listed but never opens it. The issue is rewritten only when those findings change and closed when a run finds none; a manually closed issue reopens as a new one if findings persist. The run uses the default `GITHUB_TOKEN` with `issues: write`; link observations carry between runs in a 90-day Actions artifact. Private captures and unpublished curation stay local and are not uploaded.
 
 `brain.config.local.json` holds client terms, aliases, and local executable paths. Add confirmed client names and aliases there. Internal Verndale terminology is retained. The privacy policy covers the client terms and the pinned scanner version. When either changes, `inbox show` refuses records saved under the old policy until `inbox rescan` re-scans them. Rescan never rewrites a body, and any finding quarantines the record.
 
@@ -184,11 +201,13 @@ Link checks rotate through a bounded sample (24 by default, maximum 100), favori
 
 **Acting on the weekly issue:**
 
-- **Catalog changes:** refresh catalogs on an issue branch with `official sync` and `check`, then open a catalog-refresh PR containing only the catalogs, the lock and regenerated hubs. It merges once checks pass.
+- **Routine catalog drift:** the weekly catalog refresh picks it up. On an issue branch, run `official sync` and `check`, then open a catalog-refresh PR containing only the catalogs, the lock and regenerated hubs. It merges once checks pass.
 - **Notes citing changed sources:** re-verify each one through a knowledge PR.
 - **Dead links and failing sources:** fix them through an ordinary registry PR, which stops for review.
 
 A redirect or changed hash is never evidence that a claim is correct.
+
+**Brain catalog sync** runs the refresh in GitHub Actions for any session that can't reach vendor sites. Dispatch it manually on a non-main branch, optionally with space-separated source IDs. It runs `official sync` and `check` with the pinned scanner, then commits only the catalogs, the lock and the hubs back to that branch. Use it to verify a new registration before its PR, too. Open the PR after the workflow's commit, so the PR checks run on that head.
 
 `maintenance status` reports publication bookkeeping, each source's catalog revision and age, local link counts and stale notes; it fails only on publication errors. Publication bookkeeping uses `maintenance publication --phase started --trigger manual|scheduled-agent`, then the returned `--run-id` with `--phase completed --outcome unchanged`, or `--outcome published --pr <merged-number>`. Record failures with `--phase failed`. These are agent reports, not independent scheduler attestations.
 

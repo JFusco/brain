@@ -31,6 +31,8 @@ Follow README → "Documentation lookup and official references" and "Maintenanc
 - Never treat a redirect or changed hash as evidence that a technical claim is correct.
 - Registry changes to `official/sources.json` need a documented issue-linked PR: run `official sync <id>` for each affected source, then `check`. New sources, domains or hosts need their own registration change. Keep real unresolved warnings visible in the weekly issue and respect backoff.
 - Record publication start, completion or failure with the actual trigger and run ID; a configured schedule is not proof of execution. Link sampling is bounded coverage, never a full audit.
+- **Weekly catalog refresh.** Once a week, run `official sync` and `check` on an issue branch; from a session that cannot reach vendor sites, dispatch **Brain catalog sync** on that branch instead. When only catalogs, the lock and hub official sections changed, deliver one catalog-refresh PR (step 7). Report anything else rather than merging it.
+- **Weekly coverage review.** Once a week, check README → "Coverage watch list" for new official documentation indexes, skills or agent repositories and MCP servers in each domain. Register each finding in its own registration PR, verified with **Brain catalog sync**, which stops for review. Never register a source you could not retrieve or that only a third party mentions.
 
 ## Projects and skills
 
