@@ -1,0 +1,2501 @@
+{
+  "schemaVersion": 1,
+  "source": "optimizely-cms13-docs",
+  "revision": "c0c9cf5042df65b82451daf5965c858ffcf86dd0d04656602bee8d3ce27c851a",
+  "origin": "https://docs.optimizely.com/llms.txt",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Introduction to the CMS REST API",
+      "url": "https://docs.optimizely.com/cms-13/api.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api.md"
+    },
+    {
+      "title": "Approve the active step of an approval for a content version that is in review. For multi-step approvals, the version remains in review until all steps are approved.",
+      "url": "https://docs.optimizely.com/cms-13/api/approve-the-active-step-of-an-approval-for-a-content-version-that-is-in-review-for-multi-step-approvals-the-version-remains-in-review-until-all-steps-are-approved.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/approve-the-active-step-of-an-approval-for-a-content-version-that-is-in-review-for-multi-step-approvals-the-version-remains-in-review-until-all-steps-are-approved.md"
+    },
+    {
+      "title": "Change content version into draft status.",
+      "url": "https://docs.optimizely.com/cms-13/api/change-content-version-into-draft-status.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/change-content-version-into-draft-status.md"
+    },
+    {
+      "title": "Copy content",
+      "url": "https://docs.optimizely.com/cms-13/api/copy-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/copy-content.md"
+    },
+    {
+      "title": "Create application",
+      "url": "https://docs.optimizely.com/cms-13/api/create-application.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/create-application.md"
+    },
+    {
+      "title": "Create blueprint",
+      "url": "https://docs.optimizely.com/cms-13/api/create-blueprint.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/create-blueprint.md"
+    },
+    {
+      "title": "Create content type",
+      "url": "https://docs.optimizely.com/cms-13/api/create-content-type.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/create-content-type.md"
+    },
+    {
+      "title": "Create content",
+      "url": "https://docs.optimizely.com/cms-13/api/create-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/create-content.md"
+    },
+    {
+      "title": "Create contentsource",
+      "url": "https://docs.optimizely.com/cms-13/api/create-contentsource.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/create-contentsource.md"
+    },
+    {
+      "title": "Create contenttypebinding",
+      "url": "https://docs.optimizely.com/cms-13/api/create-contenttypebinding.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/create-contenttypebinding.md"
+    },
+    {
+      "title": "Create display template",
+      "url": "https://docs.optimizely.com/cms-13/api/create-display-template.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/create-display-template.md"
+    },
+    {
+      "title": "Create locale",
+      "url": "https://docs.optimizely.com/cms-13/api/create-locale.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/create-locale.md"
+    },
+    {
+      "title": "Create property group",
+      "url": "https://docs.optimizely.com/cms-13/api/create-property-group.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/create-property-group.md"
+    },
+    {
+      "title": "Create version",
+      "url": "https://docs.optimizely.com/cms-13/api/create-version.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/create-version.md"
+    },
+    {
+      "title": "Delete application",
+      "url": "https://docs.optimizely.com/cms-13/api/delete-application.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/delete-application.md"
+    },
+    {
+      "title": "Delete blueprint",
+      "url": "https://docs.optimizely.com/cms-13/api/delete-blueprint.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/delete-blueprint.md"
+    },
+    {
+      "title": "Delete content type",
+      "url": "https://docs.optimizely.com/cms-13/api/delete-content-type.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/delete-content-type.md"
+    },
+    {
+      "title": "Delete content",
+      "url": "https://docs.optimizely.com/cms-13/api/delete-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/delete-content.md"
+    },
+    {
+      "title": "Delete contentsource",
+      "url": "https://docs.optimizely.com/cms-13/api/delete-contentsource.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/delete-contentsource.md"
+    },
+    {
+      "title": "Delete contenttypebinding",
+      "url": "https://docs.optimizely.com/cms-13/api/delete-contenttypebinding.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/delete-contenttypebinding.md"
+    },
+    {
+      "title": "Delete display template",
+      "url": "https://docs.optimizely.com/cms-13/api/delete-display-template.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/delete-display-template.md"
+    },
+    {
+      "title": "Delete locale",
+      "url": "https://docs.optimizely.com/cms-13/api/delete-locale.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/delete-locale.md"
+    },
+    {
+      "title": "Delete property group",
+      "url": "https://docs.optimizely.com/cms-13/api/delete-property-group.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/delete-property-group.md"
+    },
+    {
+      "title": "Delete version",
+      "url": "https://docs.optimizely.com/cms-13/api/delete-version.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/delete-version.md"
+    },
+    {
+      "title": "Download content media file.",
+      "url": "https://docs.optimizely.com/cms-13/api/download-content-media-file.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/download-content-media-file.md"
+    },
+    {
+      "title": "Export manifest",
+      "url": "https://docs.optimizely.com/cms-13/api/export-manifest.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/export-manifest.md"
+    },
+    {
+      "title": "Get application",
+      "url": "https://docs.optimizely.com/cms-13/api/get-application.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-application.md"
+    },
+    {
+      "title": "Get blueprint",
+      "url": "https://docs.optimizely.com/cms-13/api/get-blueprint.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-blueprint.md"
+    },
+    {
+      "title": "Get content node",
+      "url": "https://docs.optimizely.com/cms-13/api/get-content-node.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-content-node.md"
+    },
+    {
+      "title": "Get content path",
+      "url": "https://docs.optimizely.com/cms-13/api/get-content-path.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-content-path.md"
+    },
+    {
+      "title": "Get content type",
+      "url": "https://docs.optimizely.com/cms-13/api/get-content-type.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-content-type.md"
+    },
+    {
+      "title": "Get contentsource",
+      "url": "https://docs.optimizely.com/cms-13/api/get-contentsource.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-contentsource.md"
+    },
+    {
+      "title": "Get contenttypebinding",
+      "url": "https://docs.optimizely.com/cms-13/api/get-contenttypebinding.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-contenttypebinding.md"
+    },
+    {
+      "title": "Get display template",
+      "url": "https://docs.optimizely.com/cms-13/api/get-display-template.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-display-template.md"
+    },
+    {
+      "title": "Get locale",
+      "url": "https://docs.optimizely.com/cms-13/api/get-locale.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-locale.md"
+    },
+    {
+      "title": "Get preview URLs for a content item version.",
+      "url": "https://docs.optimizely.com/cms-13/api/get-preview-urls-for-a-content-item-version.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-preview-urls-for-a-content-item-version.md"
+    },
+    {
+      "title": "Get property format",
+      "url": "https://docs.optimizely.com/cms-13/api/get-property-format.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-property-format.md"
+    },
+    {
+      "title": "Get property group",
+      "url": "https://docs.optimizely.com/cms-13/api/get-property-group.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-property-group.md"
+    },
+    {
+      "title": "Get version",
+      "url": "https://docs.optimizely.com/cms-13/api/get-version.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-version.md"
+    },
+    {
+      "title": "Import manifest",
+      "url": "https://docs.optimizely.com/cms-13/api/import-manifest.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/import-manifest.md"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://docs.optimizely.com/cms-13/api/introduction.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/introduction.md"
+    },
+    {
+      "title": "Delete locale",
+      "url": "https://docs.optimizely.com/cms-13/api/k5Jj-delete-locale.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/k5Jj-delete-locale.md"
+    },
+    {
+      "title": "List applications",
+      "url": "https://docs.optimizely.com/cms-13/api/list-applications.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-applications.md"
+    },
+    {
+      "title": "List assets",
+      "url": "https://docs.optimizely.com/cms-13/api/list-assets.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-assets.md"
+    },
+    {
+      "title": "List blueprints",
+      "url": "https://docs.optimizely.com/cms-13/api/list-blueprints.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-blueprints.md"
+    },
+    {
+      "title": "List content in container",
+      "url": "https://docs.optimizely.com/cms-13/api/list-content-in-container.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-content-in-container.md"
+    },
+    {
+      "title": "List content sources",
+      "url": "https://docs.optimizely.com/cms-13/api/list-content-sources.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-content-sources.md"
+    },
+    {
+      "title": "List content type bindings",
+      "url": "https://docs.optimizely.com/cms-13/api/list-content-type-bindings.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-content-type-bindings.md"
+    },
+    {
+      "title": "List content types",
+      "url": "https://docs.optimizely.com/cms-13/api/list-content-types.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-content-types.md"
+    },
+    {
+      "title": "List display templates",
+      "url": "https://docs.optimizely.com/cms-13/api/list-display-templates.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-display-templates.md"
+    },
+    {
+      "title": "List locale versions",
+      "url": "https://docs.optimizely.com/cms-13/api/list-locale-versions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-locale-versions.md"
+    },
+    {
+      "title": "List locales",
+      "url": "https://docs.optimizely.com/cms-13/api/list-locales.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-locales.md"
+    },
+    {
+      "title": "List property formats",
+      "url": "https://docs.optimizely.com/cms-13/api/list-property-formats.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-property-formats.md"
+    },
+    {
+      "title": "List property groups",
+      "url": "https://docs.optimizely.com/cms-13/api/list-property-groups.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-property-groups.md"
+    },
+    {
+      "title": "List versions",
+      "url": "https://docs.optimizely.com/cms-13/api/list-versions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/list-versions.md"
+    },
+    {
+      "title": "Make content ready to publish, if approvals are required the version will automatically be moved to in review.",
+      "url": "https://docs.optimizely.com/cms-13/api/make-content-ready-to-publish-if-approvals-are-required-the-version-will-automatically-be-moved-to-in-review.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/make-content-ready-to-publish-if-approvals-are-required-the-version-will-automatically-be-moved-to-in-review.md"
+    },
+    {
+      "title": "Model: Application",
+      "url": "https://docs.optimizely.com/cms-13/api/model-application.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-application.md"
+    },
+    {
+      "title": "Model: ApplicationHost",
+      "url": "https://docs.optimizely.com/cms-13/api/model-applicationhost.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-applicationhost.md"
+    },
+    {
+      "title": "Model: ApplicationHostPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-applicationhostpatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-applicationhostpatch.md"
+    },
+    {
+      "title": "Model: ApplicationHostType",
+      "url": "https://docs.optimizely.com/cms-13/api/model-applicationhosttype.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-applicationhosttype.md"
+    },
+    {
+      "title": "Model: ApplicationHostTypePatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-applicationhosttypepatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-applicationhosttypepatch.md"
+    },
+    {
+      "title": "Model: ApplicationPage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-applicationpage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-applicationpage.md"
+    },
+    {
+      "title": "Model: ApplicationPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-applicationpatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-applicationpatch.md"
+    },
+    {
+      "title": "Model: ApplicationType",
+      "url": "https://docs.optimizely.com/cms-13/api/model-applicationtype.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-applicationtype.md"
+    },
+    {
+      "title": "Model: ApplicationTypePatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-applicationtypepatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-applicationtypepatch.md"
+    },
+    {
+      "title": "Model: ApprovalDecisionOptions",
+      "url": "https://docs.optimizely.com/cms-13/api/model-approvaldecisionoptions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-approvaldecisionoptions.md"
+    },
+    {
+      "title": "Model: ArrayItem",
+      "url": "https://docs.optimizely.com/cms-13/api/model-arrayitem.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-arrayitem.md"
+    },
+    {
+      "title": "Model: Blueprint",
+      "url": "https://docs.optimizely.com/cms-13/api/model-blueprint.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-blueprint.md"
+    },
+    {
+      "title": "Model: BlueprintData",
+      "url": "https://docs.optimizely.com/cms-13/api/model-blueprintdata.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-blueprintdata.md"
+    },
+    {
+      "title": "Model: BlueprintDataPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-blueprintdatapatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-blueprintdatapatch.md"
+    },
+    {
+      "title": "Model: BlueprintPage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-blueprintpage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-blueprintpage.md"
+    },
+    {
+      "title": "Model: BlueprintPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-blueprintpatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-blueprintpatch.md"
+    },
+    {
+      "title": "Model: CompositionDisplaySettings",
+      "url": "https://docs.optimizely.com/cms-13/api/model-compositiondisplaysettings.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-compositiondisplaysettings.md"
+    },
+    {
+      "title": "Model: CompositionDisplaySettingsPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-compositiondisplaysettingspatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-compositiondisplaysettingspatch.md"
+    },
+    {
+      "title": "Model: CompositionNode",
+      "url": "https://docs.optimizely.com/cms-13/api/model-compositionnode.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-compositionnode.md"
+    },
+    {
+      "title": "Model: CompositionNodePatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-compositionnodepatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-compositionnodepatch.md"
+    },
+    {
+      "title": "Model: ContentBinding",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentbinding.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentbinding.md"
+    },
+    {
+      "title": "Model: ContentBindingPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentbindingpatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentbindingpatch.md"
+    },
+    {
+      "title": "Model: ContentComponent",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentcomponent.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentcomponent.md"
+    },
+    {
+      "title": "Model: ContentComponentPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentcomponentpatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentcomponentpatch.md"
+    },
+    {
+      "title": "Model: ContentData",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentdata.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentdata.md"
+    },
+    {
+      "title": "Model: ContentDataPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentdatapatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentdatapatch.md"
+    },
+    {
+      "title": "Model: ContentNode",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentnode.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentnode.md"
+    },
+    {
+      "title": "Model: ContentNodePage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentnodepage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentnodepage.md"
+    },
+    {
+      "title": "Model: ContentNodePatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentnodepatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentnodepatch.md"
+    },
+    {
+      "title": "Model: ContentSource",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentsource.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentsource.md"
+    },
+    {
+      "title": "Model: ContentSourcePage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentsourcepage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentsourcepage.md"
+    },
+    {
+      "title": "Model: ContentSourcePatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentsourcepatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentsourcepatch.md"
+    },
+    {
+      "title": "Model: ContentType",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contenttype.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contenttype.md"
+    },
+    {
+      "title": "Model: ContentTypeBinding",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contenttypebinding.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contenttypebinding.md"
+    },
+    {
+      "title": "Model: ContentTypeBindingPage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contenttypebindingpage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contenttypebindingpage.md"
+    },
+    {
+      "title": "Model: ContentTypeBindingPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contenttypebindingpatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contenttypebindingpatch.md"
+    },
+    {
+      "title": "Model: ContentTypePage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contenttypepage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contenttypepage.md"
+    },
+    {
+      "title": "Model: ContentTypePatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contenttypepatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contenttypepatch.md"
+    },
+    {
+      "title": "Model: ContentTypeProperty",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contenttypeproperty.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contenttypeproperty.md"
+    },
+    {
+      "title": "Model: ContentVersion",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentversion.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentversion.md"
+    },
+    {
+      "title": "Model: ContentVersionPage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentversionpage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentversionpage.md"
+    },
+    {
+      "title": "Model: ContentVersionPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-contentversionpatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-contentversionpatch.md"
+    },
+    {
+      "title": "Model: CopyContentOptions",
+      "url": "https://docs.optimizely.com/cms-13/api/model-copycontentoptions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-copycontentoptions.md"
+    },
+    {
+      "title": "Model: DisplaySetting",
+      "url": "https://docs.optimizely.com/cms-13/api/model-displaysetting.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-displaysetting.md"
+    },
+    {
+      "title": "Model: DisplaySettingChoice",
+      "url": "https://docs.optimizely.com/cms-13/api/model-displaysettingchoice.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-displaysettingchoice.md"
+    },
+    {
+      "title": "Model: DisplayTemplate",
+      "url": "https://docs.optimizely.com/cms-13/api/model-displaytemplate.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-displaytemplate.md"
+    },
+    {
+      "title": "Model: DisplayTemplatePage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-displaytemplatepage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-displaytemplatepage.md"
+    },
+    {
+      "title": "Model: DisplayTemplatePatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-displaytemplatepatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-displaytemplatepatch.md"
+    },
+    {
+      "title": "Model: EnumerationValue",
+      "url": "https://docs.optimizely.com/cms-13/api/model-enumerationvalue.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-enumerationvalue.md"
+    },
+    {
+      "title": "Model: Link",
+      "url": "https://docs.optimizely.com/cms-13/api/model-link.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-link.md"
+    },
+    {
+      "title": "Model: Locale",
+      "url": "https://docs.optimizely.com/cms-13/api/model-locale.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-locale.md"
+    },
+    {
+      "title": "Model: LocalePage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-localepage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-localepage.md"
+    },
+    {
+      "title": "Model: LocalePatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-localepatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-localepatch.md"
+    },
+    {
+      "title": "Model: Manifest",
+      "url": "https://docs.optimizely.com/cms-13/api/model-manifest.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-manifest.md"
+    },
+    {
+      "title": "Model: ManifestImportMessage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-manifestimportmessage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-manifestimportmessage.md"
+    },
+    {
+      "title": "Model: ManifestImportResult",
+      "url": "https://docs.optimizely.com/cms-13/api/model-manifestimportresult.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-manifestimportresult.md"
+    },
+    {
+      "title": "Model: MediaData",
+      "url": "https://docs.optimizely.com/cms-13/api/model-mediadata.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-mediadata.md"
+    },
+    {
+      "title": "Model: MediaDataPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-mediadatapatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-mediadatapatch.md"
+    },
+    {
+      "title": "Model: NewContent",
+      "url": "https://docs.optimizely.com/cms-13/api/model-newcontent.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-newcontent.md"
+    },
+    {
+      "title": "Model: NewContentNode",
+      "url": "https://docs.optimizely.com/cms-13/api/model-newcontentnode.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-newcontentnode.md"
+    },
+    {
+      "title": "Model: Preview",
+      "url": "https://docs.optimizely.com/cms-13/api/model-preview.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-preview.md"
+    },
+    {
+      "title": "Model: PreviewPage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-previewpage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-previewpage.md"
+    },
+    {
+      "title": "Model: ProblemDetails",
+      "url": "https://docs.optimizely.com/cms-13/api/model-problemdetails.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-problemdetails.md"
+    },
+    {
+      "title": "Model: PropertyData",
+      "url": "https://docs.optimizely.com/cms-13/api/model-propertydata.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-propertydata.md"
+    },
+    {
+      "title": "Model: PropertyFormat",
+      "url": "https://docs.optimizely.com/cms-13/api/model-propertyformat.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-propertyformat.md"
+    },
+    {
+      "title": "Model: PropertyFormatPage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-propertyformatpage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-propertyformatpage.md"
+    },
+    {
+      "title": "Model: PropertyGroup",
+      "url": "https://docs.optimizely.com/cms-13/api/model-propertygroup.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-propertygroup.md"
+    },
+    {
+      "title": "Model: PropertyGroupPage",
+      "url": "https://docs.optimizely.com/cms-13/api/model-propertygrouppage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-propertygrouppage.md"
+    },
+    {
+      "title": "Model: PropertyGroupPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-propertygrouppatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-propertygrouppatch.md"
+    },
+    {
+      "title": "Model: PropertyMapping",
+      "url": "https://docs.optimizely.com/cms-13/api/model-propertymapping.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-propertymapping.md"
+    },
+    {
+      "title": "Model: PropertyMappings",
+      "url": "https://docs.optimizely.com/cms-13/api/model-propertymappings.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-propertymappings.md"
+    },
+    {
+      "title": "Model: PropertyMappingsPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-propertymappingspatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-propertymappingspatch.md"
+    },
+    {
+      "title": "Model: PublishContentOptions",
+      "url": "https://docs.optimizely.com/cms-13/api/model-publishcontentoptions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-publishcontentoptions.md"
+    },
+    {
+      "title": "Model: ReadyContentOptions",
+      "url": "https://docs.optimizely.com/cms-13/api/model-readycontentoptions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-readycontentoptions.md"
+    },
+    {
+      "title": "Model: RichText",
+      "url": "https://docs.optimizely.com/cms-13/api/model-richtext.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-richtext.md"
+    },
+    {
+      "title": "Model: SecurityIdentity",
+      "url": "https://docs.optimizely.com/cms-13/api/model-securityidentity.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-securityidentity.md"
+    },
+    {
+      "title": "Model: SecurityIdentityPatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-securityidentitypatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-securityidentitypatch.md"
+    },
+    {
+      "title": "Model: UrlScheme",
+      "url": "https://docs.optimizely.com/cms-13/api/model-urlscheme.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-urlscheme.md"
+    },
+    {
+      "title": "Model: UrlSchemePatch",
+      "url": "https://docs.optimizely.com/cms-13/api/model-urlschemepatch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/model-urlschemepatch.md"
+    },
+    {
+      "title": "Patch application",
+      "url": "https://docs.optimizely.com/cms-13/api/patch-application.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/patch-application.md"
+    },
+    {
+      "title": "Patch blueprint",
+      "url": "https://docs.optimizely.com/cms-13/api/patch-blueprint.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/patch-blueprint.md"
+    },
+    {
+      "title": "Patch content type",
+      "url": "https://docs.optimizely.com/cms-13/api/patch-content-type.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/patch-content-type.md"
+    },
+    {
+      "title": "Patch content",
+      "url": "https://docs.optimizely.com/cms-13/api/patch-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/patch-content.md"
+    },
+    {
+      "title": "Patch contentsource",
+      "url": "https://docs.optimizely.com/cms-13/api/patch-contentsource.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/patch-contentsource.md"
+    },
+    {
+      "title": "Patch contenttypebinding",
+      "url": "https://docs.optimizely.com/cms-13/api/patch-contenttypebinding.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/patch-contenttypebinding.md"
+    },
+    {
+      "title": "Patch display template",
+      "url": "https://docs.optimizely.com/cms-13/api/patch-display-template.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/patch-display-template.md"
+    },
+    {
+      "title": "Patch locale",
+      "url": "https://docs.optimizely.com/cms-13/api/patch-locale.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/patch-locale.md"
+    },
+    {
+      "title": "Patch property group",
+      "url": "https://docs.optimizely.com/cms-13/api/patch-property-group.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/patch-property-group.md"
+    },
+    {
+      "title": "Patch version",
+      "url": "https://docs.optimizely.com/cms-13/api/patch-version.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/patch-version.md"
+    },
+    {
+      "title": "Publish content version",
+      "url": "https://docs.optimizely.com/cms-13/api/publish-content-version.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/publish-content-version.md"
+    },
+    {
+      "title": "Query versions",
+      "url": "https://docs.optimizely.com/cms-13/api/query-versions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/query-versions.md"
+    },
+    {
+      "title": "Reject a content version that is in review. The version transitions to rejected status regardless of remaining approval steps.",
+      "url": "https://docs.optimizely.com/cms-13/api/reject-a-content-version-that-is-in-review-the-version-transitions-to-rejected-status-regardless-of-remaining-approval-steps.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/reject-a-content-version-that-is-in-review-the-version-transitions-to-rejected-status-regardless-of-remaining-approval-steps.md"
+    },
+    {
+      "title": "Restore content",
+      "url": "https://docs.optimizely.com/cms-13/api/restore-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/restore-content.md"
+    },
+    {
+      "title": "Authentication and authorization",
+      "url": "https://docs.optimizely.com/cms-13/api/VPNg-authentication-and-authorization.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/VPNg-authentication-and-authorization.md"
+    },
+    {
+      "title": "CMS 13 overview",
+      "url": "https://docs.optimizely.com/cms-13/docs.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs.md"
+    },
+    {
+      "title": "About the app verification process",
+      "url": "https://docs.optimizely.com/cms-13/docs/about-the-app-verification-process.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/about-the-app-verification-process.md"
+    },
+    {
+      "title": "Add a custom language",
+      "url": "https://docs.optimizely.com/cms-13/docs/add-a-custom-language.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/add-a-custom-language.md"
+    },
+    {
+      "title": "Add a module initializer",
+      "url": "https://docs.optimizely.com/cms-13/docs/add-a-module-initializer.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/add-a-module-initializer.md"
+    },
+    {
+      "title": "Add and configure menu items",
+      "url": "https://docs.optimizely.com/cms-13/docs/add-and-configure-menu-items.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/add-and-configure-menu-items.md"
+    },
+    {
+      "title": "Add and edit images",
+      "url": "https://docs.optimizely.com/cms-13/docs/add-and-edit-images.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/add-and-edit-images.md"
+    },
+    {
+      "title": "Add Azure event provider to .NET Core application",
+      "url": "https://docs.optimizely.com/cms-13/docs/add-azure-event-provider.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/add-azure-event-provider.md"
+    },
+    {
+      "title": "Add editing attributes",
+      "url": "https://docs.optimizely.com/cms-13/docs/add-editing-attributes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/add-editing-attributes.md"
+    },
+    {
+      "title": "Add images with the CMP DAM asset picker",
+      "url": "https://docs.optimizely.com/cms-13/docs/add-images-with-the-cmp-dam-asset-picker.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/add-images-with-the-cmp-dam-asset-picker.md"
+    },
+    {
+      "title": "Add links",
+      "url": "https://docs.optimizely.com/cms-13/docs/add-links.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/add-links.md"
+    },
+    {
+      "title": "Administer groups",
+      "url": "https://docs.optimizely.com/cms-13/docs/administer-groups.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/administer-groups.md"
+    },
+    {
+      "title": "Administer users",
+      "url": "https://docs.optimizely.com/cms-13/docs/administer-users.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/administer-users.md"
+    },
+    {
+      "title": "Advanced content types",
+      "url": "https://docs.optimizely.com/cms-13/docs/advanced-content-types.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/advanced-content-types.md"
+    },
+    {
+      "title": "Aggregate Optimizely Graph results with the C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/aggregations.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/aggregations.md"
+    },
+    {
+      "title": "All properties editing view",
+      "url": "https://docs.optimizely.com/cms-13/docs/all-properties-editing-view.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/all-properties-editing-view.md"
+    },
+    {
+      "title": "Apex domain redirect",
+      "url": "https://docs.optimizely.com/cms-13/docs/apex-domain-redirect.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/apex-domain-redirect.md"
+    },
+    {
+      "title": "API replacement map",
+      "url": "https://docs.optimizely.com/cms-13/docs/api-replacement-map.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/api-replacement-map.md"
+    },
+    {
+      "title": "Application framework",
+      "url": "https://docs.optimizely.com/cms-13/docs/application-framework.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/application-framework.md"
+    },
+    {
+      "title": "Applications",
+      "url": "https://docs.optimizely.com/cms-13/docs/applications.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/applications.md"
+    },
+    {
+      "title": "Approve changes",
+      "url": "https://docs.optimizely.com/cms-13/docs/approve-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/approve-changes.md"
+    },
+    {
+      "title": "Approve content",
+      "url": "https://docs.optimizely.com/cms-13/docs/approve-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/approve-content.md"
+    },
+    {
+      "title": "Approve sequences",
+      "url": "https://docs.optimizely.com/cms-13/docs/approve-sequences.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/approve-sequences.md"
+    },
+    {
+      "title": "Apps (add-ons) platform compatibility",
+      "url": "https://docs.optimizely.com/cms-13/docs/apps-platform-compatibility.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/apps-platform-compatibility.md"
+    },
+    {
+      "title": "ASP.NET Identity",
+      "url": "https://docs.optimizely.com/cms-13/docs/asp-net-identity.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/asp-net-identity.md"
+    },
+    {
+      "title": "Assets and media",
+      "url": "https://docs.optimizely.com/cms-13/docs/assets-and-media.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/assets-and-media.md"
+    },
+    {
+      "title": "Manage audiences",
+      "url": "https://docs.optimizely.com/cms-13/docs/audiences.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/audiences.md"
+    },
+    {
+      "title": "Authentication requests in C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/authentication.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/authentication.md"
+    },
+    {
+      "title": "Auto-suggestion editor",
+      "url": "https://docs.optimizely.com/cms-13/docs/auto-suggestion-editor.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/auto-suggestion-editor.md"
+    },
+    {
+      "title": "Available tools for CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/available-tools.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/available-tools.md"
+    },
+    {
+      "title": "Best practices for organizing assets",
+      "url": "https://docs.optimizely.com/cms-13/docs/best-practices-for-organizing-assets.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/best-practices-for-organizing-assets.md"
+    },
+    {
+      "title": "Blob property",
+      "url": "https://docs.optimizely.com/cms-13/docs/blob-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/blob-property.md"
+    },
+    {
+      "title": "BLOB storage and providers",
+      "url": "https://docs.optimizely.com/cms-13/docs/blob-storage-and-providers.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/blob-storage-and-providers.md"
+    },
+    {
+      "title": "Block property",
+      "url": "https://docs.optimizely.com/cms-13/docs/block-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/block-property.md"
+    },
+    {
+      "title": "Blueprints",
+      "url": "https://docs.optimizely.com/cms-13/docs/blueprints.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/blueprints.md"
+    },
+    {
+      "title": "Breaking changes in CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/breaking-changes-in-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/breaking-changes-in-cms-13.md"
+    },
+    {
+      "title": "Build content models",
+      "url": "https://docs.optimizely.com/cms-13/docs/build-content-models.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/build-content-models.md"
+    },
+    {
+      "title": "Building blocks of content modeling",
+      "url": "https://docs.optimizely.com/cms-13/docs/building-blocks-of-content-modeling.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/building-blocks-of-content-modeling.md"
+    },
+    {
+      "title": "Property types",
+      "url": "https://docs.optimizely.com/cms-13/docs/built-in-property-types.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/built-in-property-types.md"
+    },
+    {
+      "title": "Cache objects",
+      "url": "https://docs.optimizely.com/cms-13/docs/cache-objects.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/cache-objects.md"
+    },
+    {
+      "title": "Cache read-only objects",
+      "url": "https://docs.optimizely.com/cms-13/docs/cache-read-only-objects.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/cache-read-only-objects.md"
+    },
+    {
+      "title": "Categories",
+      "url": "https://docs.optimizely.com/cms-13/docs/categories.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/categories.md"
+    },
+    {
+      "title": "Change a view through configuration",
+      "url": "https://docs.optimizely.com/cms-13/docs/change-a-view-through-configuration.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/change-a-view-through-configuration.md"
+    },
+    {
+      "title": "Change log",
+      "url": "https://docs.optimizely.com/cms-13/docs/change-log.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/change-log.md"
+    },
+    {
+      "title": "Change URLs for edit and admin views",
+      "url": "https://docs.optimizely.com/cms-13/docs/change-urls-for-edit-and-admin-view.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/change-urls-for-edit-and-admin-view.md"
+    },
+    {
+      "title": "Choice property",
+      "url": "https://docs.optimizely.com/cms-13/docs/choice-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/choice-property.md"
+    },
+    {
+      "title": "CMS 13 and 12 Graph comparison",
+      "url": "https://docs.optimizely.com/cms-13/docs/cms-13-and-12-graph-comparison.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/cms-13-and-12-graph-comparison.md"
+    },
+    {
+      "title": "CMS edit user interface",
+      "url": "https://docs.optimizely.com/cms-13/docs/cms-13-user-interface.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/cms-13-user-interface.md"
+    },
+    {
+      "title": "CMS dashboard",
+      "url": "https://docs.optimizely.com/cms-13/docs/cms-dashboard.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/cms-dashboard.md"
+    },
+    {
+      "title": "CMS section",
+      "url": "https://docs.optimizely.com/cms-13/docs/cms-section.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/cms-section.md"
+    },
+    {
+      "title": "CMS users and related tasks",
+      "url": "https://docs.optimizely.com/cms-13/docs/cms-users-and-related-tasks.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/cms-users-and-related-tasks.md"
+    },
+    {
+      "title": "CmsUI section",
+      "url": "https://docs.optimizely.com/cms-13/docs/cmsui-section.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/cmsui-section.md"
+    },
+    {
+      "title": "Collaborate with comments",
+      "url": "https://docs.optimizely.com/cms-13/docs/collaborate-with-comments.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/collaborate-with-comments.md"
+    },
+    {
+      "title": "Command builders",
+      "url": "https://docs.optimizely.com/cms-13/docs/command-builders.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/command-builders.md"
+    },
+    {
+      "title": "Command pattern",
+      "url": "https://docs.optimizely.com/cms-13/docs/command-pattern.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/command-pattern.md"
+    },
+    {
+      "title": "Common workflows with CMS tools",
+      "url": "https://docs.optimizely.com/cms-13/docs/common-workflows-cms-tools.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/common-workflows-cms-tools.md"
+    },
+    {
+      "title": "Configure a custom BLOB provider",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-a-custom-blob-provider.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-a-custom-blob-provider.md"
+    },
+    {
+      "title": "Configure a custom localization provider",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-a-custom-localization-provider.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-a-custom-localization-provider.md"
+    },
+    {
+      "title": "Configure a fallback language",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-a-fallback-language.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-a-fallback-language.md"
+    },
+    {
+      "title": "Configure CDN",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-cdn.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-cdn.md"
+    },
+    {
+      "title": "Configure CMS user interface",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-cms-user-interface.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-cms-user-interface.md"
+    },
+    {
+      "title": "Configure CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-cms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-cms.md"
+    },
+    {
+      "title": "Configure content providers",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-content-providers.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-content-providers.md"
+    },
+    {
+      "title": "Configure the DAM asset picker for CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-dam-asset-picker-cms13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-dam-asset-picker-cms13.md"
+    },
+    {
+      "title": "Configure DataAccess and DDS",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-dataaccess-and-dynamicdatastore.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-dataaccess-and-dynamicdatastore.md"
+    },
+    {
+      "title": "Configure database mode",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-database-mode.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-database-mode.md"
+    },
+    {
+      "title": "Configure DDS",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-dds.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-dds.md"
+    },
+    {
+      "title": "Configure editor templates",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-editor-templates.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-editor-templates.md"
+    },
+    {
+      "title": "Configure email server",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-email-server.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-email-server.md"
+    },
+    {
+      "title": "For administrators",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-for-administrators.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-for-administrators.md"
+    },
+    {
+      "title": "For developers",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-for-developers.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-for-developers.md"
+    },
+    {
+      "title": "Configure in-memory cache limits",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-in-memory-cache-limits.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-in-memory-cache-limits.md"
+    },
+    {
+      "title": "Configure multiple sites",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-multiple-sites.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-multiple-sites.md"
+    },
+    {
+      "title": "Configure properties",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-properties.md"
+    },
+    {
+      "title": "Configure Shell modules",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-shell-modules.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-shell-modules.md"
+    },
+    {
+      "title": "Configure the default editor wrapper",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-the-default-editor-wrapper.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-the-default-editor-wrapper.md"
+    },
+    {
+      "title": "Configure Visual Builder",
+      "url": "https://docs.optimizely.com/cms-13/docs/configure-visual-builder.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/configure-visual-builder.md"
+    },
+    {
+      "title": "Content approvals",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-approvals.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-approvals.md"
+    },
+    {
+      "title": "Content assets and folders",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-assets-and-folders.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-assets-and-folders.md"
+    },
+    {
+      "title": "Content binding",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-binding.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-binding.md"
+    },
+    {
+      "title": "Content management and repository breaking changes",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-management-and-repository-breaking-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-management-and-repository-breaking-changes.md"
+    },
+    {
+      "title": "Content Metadata properties",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-metadata-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-metadata-properties.md"
+    },
+    {
+      "title": "Content property",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-property.md"
+    },
+    {
+      "title": "Content providers",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-providers.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-providers.md"
+    },
+    {
+      "title": "Content security policy",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-security-policy.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-security-policy.md"
+    },
+    {
+      "title": "Content templates",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-templates.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-templates.md"
+    },
+    {
+      "title": "Content types and property definitions breaking changes",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-types-and-property-definitions-breaking-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-types-and-property-definitions-breaking-changes.md"
+    },
+    {
+      "title": "Content types in code",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-types-in-code.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-types-in-code.md"
+    },
+    {
+      "title": "Content types in the UI",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-types-in-the-ui.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-types-in-the-ui.md"
+    },
+    {
+      "title": "Content versions",
+      "url": "https://docs.optimizely.com/cms-13/docs/content-versions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content-versions.md"
+    },
+    {
+      "title": "Content",
+      "url": "https://docs.optimizely.com/cms-13/docs/content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/content.md"
+    },
+    {
+      "title": "ContentType attribute",
+      "url": "https://docs.optimizely.com/cms-13/docs/contenttype-attribute.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/contenttype-attribute.md"
+    },
+    {
+      "title": "Context-sensitive components",
+      "url": "https://docs.optimizely.com/cms-13/docs/context-sensitive-components.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/context-sensitive-components.md"
+    },
+    {
+      "title": "Migrate the Conventions API from CMS 12 to CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/conventions-api-migration-guide.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/conventions-api-migration-guide.md"
+    },
+    {
+      "title": "Convert pages",
+      "url": "https://docs.optimizely.com/cms-13/docs/convert-pages.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/convert-pages.md"
+    },
+    {
+      "title": "Cookie usage",
+      "url": "https://docs.optimizely.com/cms-13/docs/cookie-usage.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/cookie-usage.md"
+    },
+    {
+      "title": "CMS dashboard",
+      "url": "https://docs.optimizely.com/cms-13/docs/copy-of-cms-dashboard.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/copy-of-cms-dashboard.md"
+    },
+    {
+      "title": "CMS edit user interface",
+      "url": "https://docs.optimizely.com/cms-13/docs/copy-of-cms-edit-user-interface.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/copy-of-cms-edit-user-interface.md"
+    },
+    {
+      "title": "CMS users and related tasks",
+      "url": "https://docs.optimizely.com/cms-13/docs/copy-of-cms-users-and-related-tasks.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/copy-of-cms-users-and-related-tasks.md"
+    },
+    {
+      "title": "Create a category",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-a-category.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-a-category.md"
+    },
+    {
+      "title": "Create a component",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-a-component.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-a-component.md"
+    },
+    {
+      "title": "Create a container",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-a-container.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-a-container.md"
+    },
+    {
+      "title": "Create a custom event provider",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-a-custom-event-provider.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-a-custom-event-provider.md"
+    },
+    {
+      "title": "Create a Dockerfile for a CMS application",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-a-docker-file.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-a-docker-file.md"
+    },
+    {
+      "title": "Create a page programmatically",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-a-page-programmatically.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-a-page-programmatically.md"
+    },
+    {
+      "title": "Create a React component",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-a-react-component.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-a-react-component.md"
+    },
+    {
+      "title": "Create a view",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-a-view.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-a-view.md"
+    },
+    {
+      "title": "Create an editor widget",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-an-editor-widget.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-an-editor-widget.md"
+    },
+    {
+      "title": "Create an initialization module",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-an-initialization-module.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-an-initialization-module.md"
+    },
+    {
+      "title": "Create audience criteria",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-audience-criteria.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-audience-criteria.md"
+    },
+    {
+      "title": "Create command plugins for global toolbar",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-command-plugins-for-global-toolbar.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-command-plugins-for-global-toolbar.md"
+    },
+    {
+      "title": "Create content variations",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-content-variations.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-content-variations.md"
+    },
+    {
+      "title": "Create content",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-content.md"
+    },
+    {
+      "title": "Create contracts",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-contracts.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-contracts.md"
+    },
+    {
+      "title": "Create custom audience criteria",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-custom-audience-criteria.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-custom-audience-criteria.md"
+    },
+    {
+      "title": "Create MVC component",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-mvc-component.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-mvc-component.md"
+    },
+    {
+      "title": "Create pages and shared blocks",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-pages-and-shared-blocks.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-pages-and-shared-blocks.md"
+    },
+    {
+      "title": "Create Visual Builder content from a blueprint",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-visual-builder-content-from-a-blueprint.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-visual-builder-content-from-a-blueprint.md"
+    },
+    {
+      "title": "Create Visual Builder content from scratch",
+      "url": "https://docs.optimizely.com/cms-13/docs/create-visual-builder-content-from-scratch.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/create-visual-builder-content-from-scratch.md"
+    },
+    {
+      "title": "Custom properties",
+      "url": "https://docs.optimizely.com/cms-13/docs/custom-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/custom-properties.md"
+    },
+    {
+      "title": "Customize the editing preview for media",
+      "url": "https://docs.optimizely.com/cms-13/docs/customize-the-editing-preview-for-media.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/customize-the-editing-preview-for-media.md"
+    },
+    {
+      "title": "DateTime property",
+      "url": "https://docs.optimizely.com/cms-13/docs/datetime-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/datetime-property.md"
+    },
+    {
+      "title": "Debug CMS UI",
+      "url": "https://docs.optimizely.com/cms-13/docs/debug-cms-ui.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/debug-cms-ui.md"
+    },
+    {
+      "title": "Decay functions for relevance scoring",
+      "url": "https://docs.optimizely.com/cms-13/docs/decay-functions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/decay-functions.md"
+    },
+    {
+      "title": "Define language-specific properties",
+      "url": "https://docs.optimizely.com/cms-13/docs/define-language-specific-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/define-language-specific-properties.md"
+    },
+    {
+      "title": "Define page properties",
+      "url": "https://docs.optimizely.com/cms-13/docs/define-page-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/define-page-properties.md"
+    },
+    {
+      "title": "Delete and restore content",
+      "url": "https://docs.optimizely.com/cms-13/docs/delete-and-restore-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/delete-and-restore-content.md"
+    },
+    {
+      "title": "Dependency injection",
+      "url": "https://docs.optimizely.com/cms-13/docs/dependency-injection.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/dependency-injection.md"
+    },
+    {
+      "title": "Deploy CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/deploy-cms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/deploy-cms.md"
+    },
+    {
+      "title": "Deploy to Azure Web Apps",
+      "url": "https://docs.optimizely.com/cms-13/docs/deploy-to-azure-web-apps.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/deploy-to-azure-web-apps.md"
+    },
+    {
+      "title": "Deploy to Windows servers",
+      "url": "https://docs.optimizely.com/cms-13/docs/deploy-to-windows-servers.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/deploy-to-windows-servers.md"
+    },
+    {
+      "title": "Deployment scenarios",
+      "url": "https://docs.optimizely.com/cms-13/docs/deployment-scenarios.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/deployment-scenarios.md"
+    },
+    {
+      "title": "Describe content in the UI",
+      "url": "https://docs.optimizely.com/cms-13/docs/describe-content-in-the-ui.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/describe-content-in-the-ui.md"
+    },
+    {
+      "title": "Determine languages",
+      "url": "https://docs.optimizely.com/cms-13/docs/determine-languages.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/determine-languages.md"
+    },
+    {
+      "title": "Develop apps for CMS",
+      "url": "https://docs.optimizely.com/cms-13/docs/develop-apps-for-cms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/develop-apps-for-cms.md"
+    },
+    {
+      "title": "Develop content",
+      "url": "https://docs.optimizely.com/cms-13/docs/develop-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/develop-content.md"
+    },
+    {
+      "title": "Develop properties",
+      "url": "https://docs.optimizely.com/cms-13/docs/develop-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/develop-properties.md"
+    },
+    {
+      "title": "Develop the CMS UI",
+      "url": "https://docs.optimizely.com/cms-13/docs/develop-the-cms-ui.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/develop-the-cms-ui.md"
+    },
+    {
+      "title": "Develop the CMS",
+      "url": "https://docs.optimizely.com/cms-13/docs/develop-the-cms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/develop-the-cms.md"
+    },
+    {
+      "title": "Developer overview of CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/developer-overview-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/developer-overview-cms-13.md"
+    },
+    {
+      "title": "Dialog boxes",
+      "url": "https://docs.optimizely.com/cms-13/docs/dialog-boxes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/dialog-boxes.md"
+    },
+    {
+      "title": "Digital Asset Management (DAM)",
+      "url": "https://docs.optimizely.com/cms-13/docs/digital-asset-management-dam.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/digital-asset-management-dam.md"
+    },
+    {
+      "title": "Disable personalized content",
+      "url": "https://docs.optimizely.com/cms-13/docs/disable-personalized-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/disable-personalized-content.md"
+    },
+    {
+      "title": "Display channels",
+      "url": "https://docs.optimizely.com/cms-13/docs/display-channels.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/display-channels.md"
+    },
+    {
+      "title": "Display options",
+      "url": "https://docs.optimizely.com/cms-13/docs/display-options.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/display-options.md"
+    },
+    {
+      "title": "Dojo JavaScript framework",
+      "url": "https://docs.optimizely.com/cms-13/docs/dojo-javascript-framework.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/dojo-javascript-framework.md"
+    },
+    {
+      "title": "Drag-and-drop",
+      "url": "https://docs.optimizely.com/cms-13/docs/drag-and-drop.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/drag-and-drop.md"
+    },
+    {
+      "title": "Dynamic Data Store",
+      "url": "https://docs.optimizely.com/cms-13/docs/dynamic-data-store.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/dynamic-data-store.md"
+    },
+    {
+      "title": "Edit content using TinyMCE",
+      "url": "https://docs.optimizely.com/cms-13/docs/edit-content-using-tinymce.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/edit-content-using-tinymce.md"
+    },
+    {
+      "title": "Edit multi-channel content",
+      "url": "https://docs.optimizely.com/cms-13/docs/edit-multi-channel-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/edit-multi-channel-content.md"
+    },
+    {
+      "title": "Edit objects",
+      "url": "https://docs.optimizely.com/cms-13/docs/edit-objects.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/edit-objects.md"
+    },
+    {
+      "title": "Edit tabs",
+      "url": "https://docs.optimizely.com/cms-13/docs/edit-tabs.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/edit-tabs.md"
+    },
+    {
+      "title": "EditHint in MVC",
+      "url": "https://docs.optimizely.com/cms-13/docs/edithint-in-mvc.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/edithint-in-mvc.md"
+    },
+    {
+      "title": "Editing UI",
+      "url": "https://docs.optimizely.com/cms-13/docs/editing-ui.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/editing-ui.md"
+    },
+    {
+      "title": "Enable headless multi-channel content in CMS",
+      "url": "https://docs.optimizely.com/cms-13/docs/enable-headless-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/enable-headless-content.md"
+    },
+    {
+      "title": "Manually enable live preview",
+      "url": "https://docs.optimizely.com/cms-13/docs/enable-live-preview.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/enable-live-preview.md"
+    },
+    {
+      "title": "Optimizely Forms for CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/episerver-forms-addon.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/episerver-forms-addon.md"
+    },
+    {
+      "title": "Troubleshoot Optimizely Graph errors in C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/error-reference.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/error-reference.md"
+    },
+    {
+      "title": "Events and event providers",
+      "url": "https://docs.optimizely.com/cms-13/docs/events-and-event-providers.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/events-and-event-providers.md"
+    },
+    {
+      "title": "Example – Create audience criteria",
+      "url": "https://docs.optimizely.com/cms-13/docs/example-create-audience-criteria.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/example-create-audience-criteria.md"
+    },
+    {
+      "title": "Project examples",
+      "url": "https://docs.optimizely.com/cms-13/docs/examples-of-using-projects.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/examples-of-using-projects.md"
+    },
+    {
+      "title": "Expire content",
+      "url": "https://docs.optimizely.com/cms-13/docs/expire-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/expire-content.md"
+    },
+    {
+      "title": "Explore caching methods in Optimizely CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/explore-caching-methods-in-optimizely-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/explore-caching-methods-in-optimizely-cms-13.md"
+    },
+    {
+      "title": "Export data from CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/export-data-from-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/export-data-from-cms-13.md"
+    },
+    {
+      "title": "Extend the navigation",
+      "url": "https://docs.optimizely.com/cms-13/docs/extend-the-navigation.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/extend-the-navigation.md"
+    },
+    {
+      "title": "Extend the Tasks panel with custom queries",
+      "url": "https://docs.optimizely.com/cms-13/docs/extend-the-tasks-pane-with-custom-queries.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/extend-the-tasks-pane-with-custom-queries.md"
+    },
+    {
+      "title": "FAQs for CMS v13.0.0",
+      "url": "https://docs.optimizely.com/cms-13/docs/faqs-for-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/faqs-for-cms-13.md"
+    },
+    {
+      "title": "File providers and virtual paths",
+      "url": "https://docs.optimizely.com/cms-13/docs/file-providers-and-vitual-paths.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/file-providers-and-vitual-paths.md"
+    },
+    {
+      "title": "Filter Optimizely Graph results with the C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/filtering.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/filtering.md"
+    },
+    {
+      "title": "Folders",
+      "url": "https://docs.optimizely.com/cms-13/docs/folders.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/folders.md"
+    },
+    {
+      "title": "For administrators",
+      "url": "https://docs.optimizely.com/cms-13/docs/for-administrators.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/for-administrators.md"
+    },
+    {
+      "title": "For developers",
+      "url": "https://docs.optimizely.com/cms-13/docs/for-developers.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/for-developers.md"
+    },
+    {
+      "title": "Breaking changes in Optimizely Forms 6.0.0",
+      "url": "https://docs.optimizely.com/cms-13/docs/forms-6.0.0-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/forms-6.0.0-changes.md"
+    },
+    {
+      "title": "Migrate to Optimizely Forms 6.0.0",
+      "url": "https://docs.optimizely.com/cms-13/docs/forms-6.0.0-migration.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/forms-6.0.0-migration.md"
+    },
+    {
+      "title": "Forms",
+      "url": "https://docs.optimizely.com/cms-13/docs/forms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/forms.md"
+    },
+    {
+      "title": "Framework and platform breaking changes",
+      "url": "https://docs.optimizely.com/cms-13/docs/framework-and-platform-breaking-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/framework-and-platform-breaking-changes.md"
+    },
+    {
+      "title": "GEO Analytics for CMS (PaaS)",
+      "url": "https://docs.optimizely.com/cms-13/docs/geo-analytics-for-cms-paas.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/geo-analytics-for-cms-paas.md"
+    },
+    {
+      "title": "Get started with Optimizely Agent Platform tools",
+      "url": "https://docs.optimizely.com/cms-13/docs/get-started-tools-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/get-started-tools-cms-13.md"
+    },
+    {
+      "title": "Get started with CMS 13 for users",
+      "url": "https://docs.optimizely.com/cms-13/docs/get-started-with-cms-for-users.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/get-started-with-cms-for-users.md"
+    },
+    {
+      "title": "Get started with Optimizely Graph for CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/get-started-with-optimizely-graph-for-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/get-started-with-optimizely-graph-for-cms-13.md"
+    },
+    {
+      "title": "Get started with Visual Builder",
+      "url": "https://docs.optimizely.com/cms-13/docs/get-started-with-visual-builder.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/get-started-with-visual-builder.md"
+    },
+    {
+      "title": "Globalization scenarios",
+      "url": "https://docs.optimizely.com/cms-13/docs/globalization-scenarios.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/globalization-scenarios.md"
+    },
+    {
+      "title": "Glossary of terms",
+      "url": "https://docs.optimizely.com/cms-13/docs/glossary-of-terms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/glossary-of-terms.md"
+    },
+    {
+      "title": "Graph C# (.NET) SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/graph-c-net-sdk.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/graph-c-net-sdk.md"
+    },
+    {
+      "title": "GraphiQL",
+      "url": "https://docs.optimizely.com/cms-13/docs/graphiql.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/graphiql.md"
+    },
+    {
+      "title": "Guid property",
+      "url": "https://docs.optimizely.com/cms-13/docs/guid-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/guid-property.md"
+    },
+    {
+      "title": "Hide or control access to customized components",
+      "url": "https://docs.optimizely.com/cms-13/docs/hide-or-control-access-to-a-component.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/hide-or-control-access-to-a-component.md"
+    },
+    {
+      "title": "Highlight parent menu items",
+      "url": "https://docs.optimizely.com/cms-13/docs/highlight-parent-menu-items.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/highlight-parent-menu-items.md"
+    },
+    {
+      "title": "IContentRepository",
+      "url": "https://docs.optimizely.com/cms-13/docs/icontentrepository.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/icontentrepository.md"
+    },
+    {
+      "title": "Import data to CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/import-data-to-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/import-data-to-cms-13.md"
+    },
+    {
+      "title": "Include the total count in Optimizely Graph queries with the C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/include-total.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/include-total.md"
+    },
+    {
+      "title": "Index DDS properties for faster search",
+      "url": "https://docs.optimizely.com/cms-13/docs/index-properties-for-faster-search.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/index-properties-for-faster-search.md"
+    },
+    {
+      "title": "Indexing conventions",
+      "url": "https://docs.optimizely.com/cms-13/docs/indexing-conventions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/indexing-conventions.md"
+    },
+    {
+      "title": "Initialize CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/initialize-cms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/initialize-cms.md"
+    },
+    {
+      "title": "Install Azure BLOB provider for Optimizely CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/install-azure-blob-provider-for-optimizely-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-azure-blob-provider-for-optimizely-cms-13.md"
+    },
+    {
+      "title": "Install CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/install-cms13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-cms13.md"
+    },
+    {
+      "title": "Install database schema",
+      "url": "https://docs.optimizely.com/cms-13/docs/install-database-schema.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-database-schema.md"
+    },
+    {
+      "title": "Install Mark chat in CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/install-mark-chat-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-mark-chat-cms-13.md"
+    },
+    {
+      "title": "Install Optimizely apps (add-ons)",
+      "url": "https://docs.optimizely.com/cms-13/docs/install-optimizely-apps.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-optimizely-apps.md"
+    },
+    {
+      "title": "Integrate external content sources with CMS",
+      "url": "https://docs.optimizely.com/cms-13/docs/integrate-external-content-sources-with-cms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/integrate-external-content-sources-with-cms.md"
+    },
+    {
+      "title": "JavaScript SDK documentation",
+      "url": "https://docs.optimizely.com/cms-13/docs/javascript-sdk.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/javascript-sdk.md"
+    },
+    {
+      "title": "JsonString property",
+      "url": "https://docs.optimizely.com/cms-13/docs/jsonstring-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/jsonstring-property.md"
+    },
+    {
+      "title": "Language and globalization concepts",
+      "url": "https://docs.optimizely.com/cms-13/docs/language-and-globalization-concepts.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/language-and-globalization-concepts.md"
+    },
+    {
+      "title": "Breaking changes in Language Manager 6.0.0",
+      "url": "https://docs.optimizely.com/cms-13/docs/language-manager-6.0-breaking-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/language-manager-6.0-breaking-changes.md"
+    },
+    {
+      "title": "Language Manager for CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/language-manager.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/language-manager.md"
+    },
+    {
+      "title": "Languages",
+      "url": "https://docs.optimizely.com/cms-13/docs/languages.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/languages.md"
+    },
+    {
+      "title": "Link property",
+      "url": "https://docs.optimizely.com/cms-13/docs/link-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/link-property.md"
+    },
+    {
+      "title": "Link to other content",
+      "url": "https://docs.optimizely.com/cms-13/docs/link-to-other-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/link-to-other-content.md"
+    },
+    {
+      "title": "Links",
+      "url": "https://docs.optimizely.com/cms-13/docs/links.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/links.md"
+    },
+    {
+      "title": "LINQ support for DDS",
+      "url": "https://docs.optimizely.com/cms-13/docs/linq-support-for-dds.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/linq-support-for-dds.md"
+    },
+    {
+      "title": "List properties",
+      "url": "https://docs.optimizely.com/cms-13/docs/list-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/list-properties.md"
+    },
+    {
+      "title": "Localization and import or export breaking changes",
+      "url": "https://docs.optimizely.com/cms-13/docs/localization-and-importexport-breaking-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/localization-and-importexport-breaking-changes.md"
+    },
+    {
+      "title": "Localization service",
+      "url": "https://docs.optimizely.com/cms-13/docs/localization-service.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/localization-service.md"
+    },
+    {
+      "title": "Localize the user interface",
+      "url": "https://docs.optimizely.com/cms-13/docs/localize-the-user-interface.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/localize-the-user-interface.md"
+    },
+    {
+      "title": "Log activity",
+      "url": "https://docs.optimizely.com/cms-13/docs/log-activity.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/log-activity.md"
+    },
+    {
+      "title": "Logging options",
+      "url": "https://docs.optimizely.com/cms-13/docs/logging-options.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/logging-options.md"
+    },
+    {
+      "title": "Manage assets with DAM",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-assets-with-dam.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-assets-with-dam.md"
+    },
+    {
+      "title": "Manage assets",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-assets.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-assets.md"
+    },
+    {
+      "title": "Manage blueprints",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-blueprints.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-blueprints.md"
+    },
+    {
+      "title": "Client resources",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-client-resources.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-client-resources.md"
+    },
+    {
+      "title": "Manage cloud licenses",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-cloud-licenses.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-cloud-licenses.md"
+    },
+    {
+      "title": "Manage content with Content Manager",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-content-with-content-manager.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-content-with-content-manager.md"
+    },
+    {
+      "title": "Manage content",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-content.md"
+    },
+    {
+      "title": "Manage identity, date, and time",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-identity-date-and-time.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-identity-date-and-time.md"
+    },
+    {
+      "title": "Manage languages",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-languages.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-languages.md"
+    },
+    {
+      "title": "Manage projects",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-projects.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-projects.md"
+    },
+    {
+      "title": "Manage versions of content",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-versions-of-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-versions-of-content.md"
+    },
+    {
+      "title": "Map stores",
+      "url": "https://docs.optimizely.com/cms-13/docs/map-stores.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/map-stores.md"
+    },
+    {
+      "title": "Mark chat for Optimizely CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/mark-chat-for-optimizely-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/mark-chat-for-optimizely-cms-13.md"
+    },
+    {
+      "title": "MCP server for CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/mcp-server-for-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/mcp-server-for-cms-13.md"
+    },
+    {
+      "title": "Media examples",
+      "url": "https://docs.optimizely.com/cms-13/docs/media-examples.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/media-examples.md"
+    },
+    {
+      "title": "Media types and templates",
+      "url": "https://docs.optimizely.com/cms-13/docs/media-types-and-templates.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/media-types-and-templates.md"
+    },
+    {
+      "title": "Media",
+      "url": "https://docs.optimizely.com/cms-13/docs/media.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/media.md"
+    },
+    {
+      "title": "Message service pool",
+      "url": "https://docs.optimizely.com/cms-13/docs/message-service-pool.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/message-service-pool.md"
+    },
+    {
+      "title": "Migrate an Alloy site from CMS 12 to CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/migrate-alloy-12-to-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/migrate-alloy-12-to-13.md"
+    },
+    {
+      "title": "Migrate apps to ASP.NET Core",
+      "url": "https://docs.optimizely.com/cms-13/docs/migrate-apps-to-asp-net-core.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/migrate-apps-to-asp-net-core.md"
+    },
+    {
+      "title": "Migrate DAM from CMS 12 to CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/migrate-dam-from-cms-12-to-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/migrate-dam-from-cms-12-to-cms-13.md"
+    },
+    {
+      "title": "Mixed-mode authentication",
+      "url": "https://docs.optimizely.com/cms-13/docs/mixed-mode-authentication.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/mixed-mode-authentication.md"
+    },
+    {
+      "title": "module.config",
+      "url": "https://docs.optimizely.com/cms-13/docs/moduleconfig.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/moduleconfig.md"
+    },
+    {
+      "title": "Multilingual content",
+      "url": "https://docs.optimizely.com/cms-13/docs/multilingual-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/multilingual-content.md"
+    },
+    {
+      "title": "NuGet package families in CMS",
+      "url": "https://docs.optimizely.com/cms-13/docs/nuget-package-families-in-cms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/nuget-package-families-in-cms.md"
+    },
+    {
+      "title": "Number property",
+      "url": "https://docs.optimizely.com/cms-13/docs/number-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/number-property.md"
+    },
+    {
+      "title": "On-page edit",
+      "url": "https://docs.optimizely.com/cms-13/docs/on-page-editing-view.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/on-page-editing-view.md"
+    },
+    {
+      "title": "OptiAlloy property",
+      "url": "https://docs.optimizely.com/cms-13/docs/optialloy-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/optialloy-property.md"
+    },
+    {
+      "title": "Optimizely Agent Platform in CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/optimizely-agent-platform-in-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/optimizely-agent-platform-in-cms-13.md"
+    },
+    {
+      "title": "Optimizely Connectors Directory",
+      "url": "https://docs.optimizely.com/cms-13/docs/optimizely-connectors-directory.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/optimizely-connectors-directory.md"
+    },
+    {
+      "title": "Optimizely Forms",
+      "url": "https://docs.optimizely.com/cms-13/docs/optimizely-forms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/optimizely-forms.md"
+    },
+    {
+      "title": "Optimizely Languages gadget",
+      "url": "https://docs.optimizely.com/cms-13/docs/optimizely-languages-gadget.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/optimizely-languages-gadget.md"
+    },
+    {
+      "title": "TinyMCE spellchecker",
+      "url": "https://docs.optimizely.com/cms-13/docs/optimizely-spellchecker-for-tinymce.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/optimizely-spellchecker-for-tinymce.md"
+    },
+    {
+      "title": "Optimizely and third-party package compatibility breaking changes",
+      "url": "https://docs.optimizely.com/cms-13/docs/optimizely-third-party-packages-breaking-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/optimizely-third-party-packages-breaking-changes.md"
+    },
+    {
+      "title": "Order Optimizely Graph results with the C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/ordering.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/ordering.md"
+    },
+    {
+      "title": "Organize content types and properties",
+      "url": "https://docs.optimizely.com/cms-13/docs/organize-content-types-and-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/organize-content-types-and-properties.md"
+    },
+    {
+      "title": "Overview of Graph C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/overview-of-c-sharp-sdk.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/overview-of-c-sharp-sdk.md"
+    },
+    {
+      "title": "Package and deploy CMS apps",
+      "url": "https://docs.optimizely.com/cms-13/docs/package-and-deploy-cms-apps.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/package-and-deploy-cms-apps.md"
+    },
+    {
+      "title": "Paginate Optimizely Graph results with the C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/pagination.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/pagination.md"
+    },
+    {
+      "title": "Partial routing",
+      "url": "https://docs.optimizely.com/cms-13/docs/partial-routing.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/partial-routing.md"
+    },
+    {
+      "title": "Permissions for functions",
+      "url": "https://docs.optimizely.com/cms-13/docs/permissions-for-functions-ui.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/permissions-for-functions-ui.md"
+    },
+    {
+      "title": "Permissions for functions with code",
+      "url": "https://docs.optimizely.com/cms-13/docs/permissions-to-functions-with-code.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/permissions-to-functions-with-code.md"
+    },
+    {
+      "title": "Persist IContent instances",
+      "url": "https://docs.optimizely.com/cms-13/docs/persist-icontent-instances.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/persist-icontent-instances.md"
+    },
+    {
+      "title": "Personalize a digital experience with audiences",
+      "url": "https://docs.optimizely.com/cms-13/docs/personalize-a-digital-experience-with-audiences.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/personalize-a-digital-experience-with-audiences.md"
+    },
+    {
+      "title": "Personalize content",
+      "url": "https://docs.optimizely.com/cms-13/docs/personalize-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/personalize-content.md"
+    },
+    {
+      "title": "Pinned results in the C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/pinned-results.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/pinned-results.md"
+    },
+    {
+      "title": "Plan a deployment",
+      "url": "https://docs.optimizely.com/cms-13/docs/plan-a-deployment.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/plan-a-deployment.md"
+    },
+    {
+      "title": "Plug in a gadget",
+      "url": "https://docs.optimizely.com/cms-13/docs/plug-in-a-gadget.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/plug-in-a-gadget.md"
+    },
+    {
+      "title": "Plug-in areas",
+      "url": "https://docs.optimizely.com/cms-13/docs/plug-in-areas.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/plug-in-areas.md"
+    },
+    {
+      "title": "Plug-in commands",
+      "url": "https://docs.optimizely.com/cms-13/docs/plug-in-commands.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/plug-in-commands.md"
+    },
+    {
+      "title": "Preview rendering for blocks",
+      "url": "https://docs.optimizely.com/cms-13/docs/preview-rendering-for-blocks.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/preview-rendering-for-blocks.md"
+    },
+    {
+      "title": "Preview Visual Builder content",
+      "url": "https://docs.optimizely.com/cms-13/docs/preview-visual-builder-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/preview-visual-builder-content.md"
+    },
+    {
+      "title": "Program a template change",
+      "url": "https://docs.optimizely.com/cms-13/docs/program-a-template-change.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/program-a-template-change.md"
+    },
+    {
+      "title": "Program projects",
+      "url": "https://docs.optimizely.com/cms-13/docs/program-projects.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/program-projects.md"
+    },
+    {
+      "title": "Migrate from CMS 12 to CMS 13 with Optimizely Graph",
+      "url": "https://docs.optimizely.com/cms-13/docs/project-migration-for-cms-12-with-optimizely-graph.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/project-migration-for-cms-12-with-optimizely-graph.md"
+    },
+    {
+      "title": "Projects",
+      "url": "https://docs.optimizely.com/cms-13/docs/projects.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/projects.md"
+    },
+    {
+      "title": "Property attributes",
+      "url": "https://docs.optimizely.com/cms-13/docs/property-attributes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/property-attributes.md"
+    },
+    {
+      "title": "PropertyList",
+      "url": "https://docs.optimizely.com/cms-13/docs/propertylist.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/propertylist.md"
+    },
+    {
+      "title": "Publish and subscribe messaging system",
+      "url": "https://docs.optimizely.com/cms-13/docs/publish-and-subscribe-messaging-system.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/publish-and-subscribe-messaging-system.md"
+    },
+    {
+      "title": "Publish content",
+      "url": "https://docs.optimizely.com/cms-13/docs/publish-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/publish-content.md"
+    },
+    {
+      "title": "Quick start with the Graph C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/quick-start.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/quick-start.md"
+    },
+    {
+      "title": "Refactor content type classes",
+      "url": "https://docs.optimizely.com/cms-13/docs/refactor-content-type-classes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/refactor-content-type-classes.md"
+    },
+    {
+      "title": "Register a custom editor",
+      "url": "https://docs.optimizely.com/cms-13/docs/register-a-custom-editor.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/register-a-custom-editor.md"
+    },
+    {
+      "title": "Render an experience with tag helpers",
+      "url": "https://docs.optimizely.com/cms-13/docs/render-an-experience-with-tag-helpers.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/render-an-experience-with-tag-helpers.md"
+    },
+    {
+      "title": "Render content",
+      "url": "https://docs.optimizely.com/cms-13/docs/render-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/render-content.md"
+    },
+    {
+      "title": "Replace a component globally",
+      "url": "https://docs.optimizely.com/cms-13/docs/replace-a-component-globally.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/replace-a-component-globally.md"
+    },
+    {
+      "title": "Reports for CMS content",
+      "url": "https://docs.optimizely.com/cms-13/docs/reports-for-cms-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/reports-for-cms-content.md"
+    },
+    {
+      "title": "Resolve the currently loaded content context",
+      "url": "https://docs.optimizely.com/cms-13/docs/resolve-content-context.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/resolve-content-context.md"
+    },
+    {
+      "title": "Resolve NuGet dependency conflicts",
+      "url": "https://docs.optimizely.com/cms-13/docs/resolve-nuget-dependency-conflicts.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/resolve-nuget-dependency-conflicts.md"
+    },
+    {
+      "title": "Restrict content types in properties",
+      "url": "https://docs.optimizely.com/cms-13/docs/restrict-content-types-in-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/restrict-content-types-in-properties.md"
+    },
+    {
+      "title": "Route to BLOB properties",
+      "url": "https://docs.optimizely.com/cms-13/docs/route-to-blob-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/route-to-blob-properties.md"
+    },
+    {
+      "title": "Scheduled jobs through the UI",
+      "url": "https://docs.optimizely.com/cms-13/docs/scheduled-jobs-through-the-ui.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/scheduled-jobs-through-the-ui.md"
+    },
+    {
+      "title": "Scheduling, plugins, and events breaking changes",
+      "url": "https://docs.optimizely.com/cms-13/docs/scheduling-plugins-and-events-breaking-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/scheduling-plugins-and-events-breaking-changes.md"
+    },
+    {
+      "title": "Search configuration",
+      "url": "https://docs.optimizely.com/cms-13/docs/search-configuration.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/search-configuration.md"
+    },
+    {
+      "title": "Track search result clicks in C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/search-tracking.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/search-tracking.md"
+    },
+    {
+      "title": "Search content in Optimizely Graph with the C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/searching.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/searching.md"
+    },
+    {
+      "title": "Secure UI and admin interfaces",
+      "url": "https://docs.optimizely.com/cms-13/docs/secure-ui-and-admin-interfaces.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/secure-ui-and-admin-interfaces.md"
+    },
+    {
+      "title": "Security and access control breaking changes",
+      "url": "https://docs.optimizely.com/cms-13/docs/security-and-access-control-breaking-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/security-and-access-control-breaking-changes.md"
+    },
+    {
+      "title": "Security",
+      "url": "https://docs.optimizely.com/cms-13/docs/security.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/security.md"
+    },
+    {
+      "title": "Select content",
+      "url": "https://docs.optimizely.com/cms-13/docs/select-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/select-content.md"
+    },
+    {
+      "title": "Select templates",
+      "url": "https://docs.optimizely.com/cms-13/docs/select-templates.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/select-templates.md"
+    },
+    {
+      "title": "Select Visual Builder styles",
+      "url": "https://docs.optimizely.com/cms-13/docs/select-visual-builder-styles.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/select-visual-builder-styles.md"
+    },
+    {
+      "title": "Send and receive custom events",
+      "url": "https://docs.optimizely.com/cms-13/docs/send-and-receive-custom-events.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/send-and-receive-custom-events.md"
+    },
+    {
+      "title": "Search engine optimization",
+      "url": "https://docs.optimizely.com/cms-13/docs/seo.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/seo.md"
+    },
+    {
+      "title": "Service locator",
+      "url": "https://docs.optimizely.com/cms-13/docs/service-locator.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/service-locator.md"
+    },
+    {
+      "title": "Session handling in audience criteria",
+      "url": "https://docs.optimizely.com/cms-13/docs/session-handling-in-audience-criteria.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/session-handling-in-audience-criteria.md"
+    },
+    {
+      "title": "Set access rights with Opti ID",
+      "url": "https://docs.optimizely.com/cms-13/docs/set-access-rights-with-opti-id.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/set-access-rights-with-opti-id.md"
+    },
+    {
+      "title": "Set access rights without Opti ID",
+      "url": "https://docs.optimizely.com/cms-13/docs/set-access-rights-without-opti-id.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/set-access-rights-without-opti-id.md"
+    },
+    {
+      "title": "Settings",
+      "url": "https://docs.optimizely.com/cms-13/docs/settings.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/settings.md"
+    },
+    {
+      "title": "Shared blocks",
+      "url": "https://docs.optimizely.com/cms-13/docs/shared-blocks.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/shared-blocks.md"
+    },
+    {
+      "title": "Shell profile",
+      "url": "https://docs.optimizely.com/cms-13/docs/shell-profile.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/shell-profile.md"
+    },
+    {
+      "title": "Single or multiple list options",
+      "url": "https://docs.optimizely.com/cms-13/docs/single-or-multiple-list-options.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/single-or-multiple-list-options.md"
+    },
+    {
+      "title": "Sites-to-applications and routing breaking changes",
+      "url": "https://docs.optimizely.com/cms-13/docs/sites-to-applications-and-routing-breaking-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/sites-to-applications-and-routing-breaking-changes.md"
+    },
+    {
+      "title": "Store architecture",
+      "url": "https://docs.optimizely.com/cms-13/docs/store-architecture.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/store-architecture.md"
+    },
+    {
+      "title": "Structure the website",
+      "url": "https://docs.optimizely.com/cms-13/docs/structure-the-website.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/structure-the-website.md"
+    },
+    {
+      "title": "Subscription keys",
+      "url": "https://docs.optimizely.com/cms-13/docs/subscription-keys.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/subscription-keys.md"
+    },
+    {
+      "title": "Synchronization",
+      "url": "https://docs.optimizely.com/cms-13/docs/synchronization.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/synchronization.md"
+    },
+    {
+      "title": "Synonyms in C# SDK",
+      "url": "https://docs.optimizely.com/cms-13/docs/synonyms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/synonyms.md"
+    },
+    {
+      "title": "System requirements for CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/system-requirements-for-cms13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/system-requirements-for-cms13.md"
+    },
+    {
+      "title": "Tags",
+      "url": "https://docs.optimizely.com/cms-13/docs/tags.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/tags.md"
+    },
+    {
+      "title": "TemplateDescriptor",
+      "url": "https://docs.optimizely.com/cms-13/docs/templatedescriptor.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/templatedescriptor.md"
+    },
+    {
+      "title": "Text property",
+      "url": "https://docs.optimizely.com/cms-13/docs/text-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/text-property.md"
+    },
+    {
+      "title": "TinyMCE configuration API",
+      "url": "https://docs.optimizely.com/cms-13/docs/tinymce-configuration-api.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/tinymce-configuration-api.md"
+    },
+    {
+      "title": "TinyMCE custom style formats",
+      "url": "https://docs.optimizely.com/cms-13/docs/tinymce-custom-style-formats.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/tinymce-custom-style-formats.md"
+    },
+    {
+      "title": "TinyMCE default settings",
+      "url": "https://docs.optimizely.com/cms-13/docs/tinymce-default-settings.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/tinymce-default-settings.md"
+    },
+    {
+      "title": "TinyMCE editor",
+      "url": "https://docs.optimizely.com/cms-13/docs/tinymce-editor.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/tinymce-editor.md"
+    },
+    {
+      "title": "TinyMCE plug-ins",
+      "url": "https://docs.optimizely.com/cms-13/docs/tinymce-plug-ins.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/tinymce-plug-ins.md"
+    },
+    {
+      "title": "TinyMCE property configuration",
+      "url": "https://docs.optimizely.com/cms-13/docs/tinymce-property-configuration.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/tinymce-property-configuration.md"
+    },
+    {
+      "title": "Translate content",
+      "url": "https://docs.optimizely.com/cms-13/docs/translate-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/translate-content.md"
+    },
+    {
+      "title": "Troubleshoot Optimizely Agent Platform tools",
+      "url": "https://docs.optimizely.com/cms-13/docs/troubleshoot-optimizely-agent-platform-tools.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/troubleshoot-optimizely-agent-platform-tools.md"
+    },
+    {
+      "title": "UI, editors, and shell breaking changes",
+      "url": "https://docs.optimizely.com/cms-13/docs/ui-editors-and-shell-breaking-changes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/ui-editors-and-shell-breaking-changes.md"
+    },
+    {
+      "title": "UI wrapper types",
+      "url": "https://docs.optimizely.com/cms-13/docs/ui-wrapper-types.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/ui-wrapper-types.md"
+    },
+    {
+      "title": "Upgrade global navigation menu",
+      "url": "https://docs.optimizely.com/cms-13/docs/upgrade-global-navigation-menu.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/upgrade-global-navigation-menu.md"
+    },
+    {
+      "title": "Upgrade to CMS 13 from CMS 12",
+      "url": "https://docs.optimizely.com/cms-13/docs/upgrade-to-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/upgrade-to-cms-13.md"
+    },
+    {
+      "title": "URL routing",
+      "url": "https://docs.optimizely.com/cms-13/docs/url-routing.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/url-routing.md"
+    },
+    {
+      "title": "URL segments and IDN",
+      "url": "https://docs.optimizely.com/cms-13/docs/url-segments-and-idn.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/url-segments-and-idn.md"
+    },
+    {
+      "title": "Use block as property",
+      "url": "https://docs.optimizely.com/cms-13/docs/use-block-as-property.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/use-block-as-property.md"
+    },
+    {
+      "title": "Use menu providers",
+      "url": "https://docs.optimizely.com/cms-13/docs/use-menu-providers.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/use-menu-providers.md"
+    },
+    {
+      "title": "User notification examples",
+      "url": "https://docs.optimizely.com/cms-13/docs/user-notification-examples.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/user-notification-examples.md"
+    },
+    {
+      "title": "User notifications",
+      "url": "https://docs.optimizely.com/cms-13/docs/user-notifications.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/user-notifications.md"
+    },
+    {
+      "title": "Validate links",
+      "url": "https://docs.optimizely.com/cms-13/docs/validate-links.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/validate-links.md"
+    },
+    {
+      "title": "Validate object instances",
+      "url": "https://docs.optimizely.com/cms-13/docs/validate-object-instances.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/validate-object-instances.md"
+    },
+    {
+      "title": "View models and partial views",
+      "url": "https://docs.optimizely.com/cms-13/docs/view-models-and-partial-views.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/view-models-and-partial-views.md"
+    },
+    {
+      "title": "Views",
+      "url": "https://docs.optimizely.com/cms-13/docs/views.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/views.md"
+    },
+    {
+      "title": "Virtual roles",
+      "url": "https://docs.optimizely.com/cms-13/docs/virtual-roles.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/virtual-roles.md"
+    },
+    {
+      "title": "WebSocket support",
+      "url": "https://docs.optimizely.com/cms-13/docs/websocket-support.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/websocket-support.md"
+    },
+    {
+      "title": "Why upgrade to CMS 13?",
+      "url": "https://docs.optimizely.com/cms-13/docs/why-upgrade-my-cms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/why-upgrade-my-cms.md"
+    },
+    {
+      "title": "Work with projects",
+      "url": "https://docs.optimizely.com/cms-13/docs/work-with-projects.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/work-with-projects.md"
+    },
+    {
+      "title": "Work with shared content",
+      "url": "https://docs.optimizely.com/cms-13/docs/work-with-shared-content.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/work-with-shared-content.md"
+    },
+    {
+      "title": "Write custom attributes",
+      "url": "https://docs.optimizely.com/cms-13/docs/write-custom-attributes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/write-custom-attributes.md"
+    },
+    {
+      "title": "Write log messages",
+      "url": "https://docs.optimizely.com/cms-13/docs/write-log-messages.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/write-log-messages.md"
+    },
+    {
+      "title": "2026 Optimizely CMS 13 release notes",
+      "url": "https://docs.optimizely.com/cms-13/release-notes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/release-notes.md"
+    },
+    {
+      "title": "2026 Optimizely CMS 13 general availability (GA) release notes",
+      "url": "https://docs.optimizely.com/cms-13/release-notes/2026-optimizely-cms-13-general-availability-ga-release-notes.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/release-notes/2026-optimizely-cms-13-general-availability-ga-release-notes.md"
+    }
+  ],
+  "referenceIssues": []
+}
