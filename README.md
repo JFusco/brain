@@ -275,4 +275,4 @@ node scripts/wiki/check.cjs
 node scripts/wiki/serve-graph.cjs
 ```
 
-Hosted `Wiki integrity` checks PRs. The canonical `Sync context wiki` and `Sync wiki issue state` writers require a repository `BOT_TOKEN` with contents and pull-request write access. Never copy a personal login credential into that secret implicitly. Maintenance automation handles the resulting wiki PRs under the same documented automatic-publication policy.
+Hosted `Wiki integrity` checks PRs. Brain no longer runs automatic wiki merge or issue reconciliation workflows; the same-delivery rule records history with each change. The repository `BOT_TOKEN` secret remains in use by the hosted maintenance publisher.
