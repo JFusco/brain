@@ -57,7 +57,7 @@ export function config() {
 }
 export function args(argv) {
   const positional=[], flags={};
-  const bool=new Set(['yes','staged','stdin','help','all','backlog','fetch','retry-failures']);
+  const bool=new Set(['yes','staged','stdin','help','all','backlog','fetch','retry-failures','hosted']);
   for(let i=0;i<argv.length;i++) {
     if(!argv[i].startsWith('--')){positional.push(argv[i]);continue;}
     const [key,inline]=argv[i].slice(2).split(/=(.*)/s);

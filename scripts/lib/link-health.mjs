@@ -12,14 +12,15 @@ export function linkSummary() {
   return {lastRun:state.lastRun||null,lastSuccess:state.lastSuccess||null,poolSize:state.poolSize||0,observed:Object.keys(state.links).length,counts,lastBatch:state.lastBatch||null};
 }
 
-export async function checkLinks({limit=config().maintenance?.linkLimit??24,source,retryFailures=false}={}) {
+export async function checkLinks({limit=config().maintenance?.linkLimit??24,source,retryFailures=false,skipHosts=[]}={}) {
   limit=Number(limit);if(!Number.isInteger(limit)||limit<1||limit>100)throw new Error('Link limit must be between 1 and 100');
   const registered=registry(),specs=registered.sources;if(source&&!specs.some(spec=>spec.id===source)&&!(source==='website-pointers'&&registered.pointers.length))throw new Error('Unknown registered link source');
   const all=new Map(),aliases=new Map();
   for(const item of lookupEntries())if(item.url){
     const spec=specs.find(spec=>spec.id===item.source),url=new URL(item.url);
     const hosts=spec?.kind==='repository'?['github.com',...(spec.allowedHosts||[]),...(spec.documentationBase?[new URL(spec.documentationBase).hostname]:[])]:spec?.allowedHosts||[url.hostname];
-    if(url.protocol==='https:'&&!url.username&&!url.password&&(!url.port||url.port==='443')&&hosts.includes(url.hostname)&&!all.has(url.href))all.set(url.href,{url:url.href,source:item.source||'website-pointers',hosts,priority:0});
+    // Skipped hosts leave the pool, so their earlier records turn inactive rather than staying as warnings.
+    if(url.protocol==='https:'&&!url.username&&!url.password&&(!url.port||url.port==='443')&&hosts.includes(url.hostname)&&!skipHosts.includes(url.hostname)&&!all.has(url.href))all.set(url.href,{url:url.href,source:item.source||'website-pointers',hosts,priority:0});
     if(item.fetchUrl)aliases.set(item.fetchUrl,url.href);
   }
   for(const page of publishedGuidance())if(!['superseded','retired'].includes(page.freshness.status))for(const match of page.body.matchAll(/\]\((https:\/\/[^\s)]+)\)/g)){const item=all.get(match[1]);if(item)item.priority=2;}

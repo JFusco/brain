@@ -211,6 +211,8 @@ A redirect or changed hash is never evidence that a claim is correct.
 
 **Brain catalog sync** runs the refresh in GitHub Actions for any session that can't reach vendor sites. Dispatch it manually on a non-main branch, optionally with space-separated source IDs. It runs `official sync` and `check` with the pinned scanner, then commits only the catalogs, the lock and the hubs back to that branch. Use it to verify a new registration before its PR, too. Open the PR after the workflow's commit, so the PR checks run on that head.
 
+**Runner-blocked hosts.** Some vendor sites refuse GitHub-hosted runners: doc.sitecore.com returns HTTP 403 and www.contentful.com returns 429. `runnerBlockedHosts` in `official/sources.json` lists them. `official sync --hosted` skips any source that uses one of these hosts, and both workflows run sync that way. The weekly workflow also leaves their links out of its sample, then names the skipped sources in its summary. A local `official sync`, such as the Mac's weekly refresh, is the only thing that refreshes those catalogs. When registering such a source, verify it with a local sync instead of Brain catalog sync.
+
 `maintenance status` reports publication bookkeeping, each source's catalog revision and age, local link counts and stale notes; it fails only on publication errors. Publication bookkeeping uses `maintenance publication --phase started --trigger manual|scheduled-agent`, then the returned `--run-id` with `--phase completed --outcome unchanged`, or `--outcome published --pr <merged-number>`. Record failures with `--phase failed`. These are agent reports, not independent scheduler attestations.
 
 ## Setup

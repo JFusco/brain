@@ -28,7 +28,7 @@ node scripts/brain.mjs links status
 node scripts/brain.mjs maintenance status
 node scripts/brain.mjs maintenance cleanup [--yes]
 node scripts/brain.mjs maintenance publication --phase started|completed|failed [--run-id <id>] [--outcome published|unchanged] [--pr <number>] [--trigger manual|scheduled-agent]
-node scripts/brain.mjs official sync [source-id...]
+node scripts/brain.mjs official sync [--hosted] [source-id...]
 node scripts/brain.mjs official check
 node scripts/brain.mjs skills suggest --project <path> [--workspace <relative-app>]
 node scripts/brain.mjs check [--staged]
@@ -40,7 +40,7 @@ Tests and dedicated QA are deferred for v1.
 
 try {
   const {positional,flags}=args(process.argv.slice(2)),[command,subcommand,...rest]=positional;
-  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],capture:['stdin','domain'],inbox:['domain','all','backlog','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['yes','phase','run-id','outcome','pr','trigger'],official:[],skills:['project','workspace'],check:['staged']};
+  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],capture:['stdin','domain'],inbox:['domain','all','backlog','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['yes','phase','run-id','outcome','pr','trigger'],official:['hosted'],skills:['project','workspace'],check:['staged']};
   if(!command||command==='help'||flags.help){console.log(help);process.exit(0);}
   if(!Object.hasOwn(allowed,command))throw new Error('Unknown command. Use --help.');
   for(const key of Object.keys(flags))if(!allowed[command].includes(key))throw new Error(`Unsupported option --${key} for ${command}`);
@@ -68,7 +68,7 @@ try {
       if(subcommand==='publication')return recordPublication({phase:flags.phase,runId:flags['run-id'],outcome:flags.outcome,pr:flags.pr,trigger:flags.trigger||'manual'});
     }
     if(command==='official'){
-      if(subcommand==='sync')return official.sync({ids:rest.length?rest:null});
+      if(subcommand==='sync')return official.sync({ids:rest.length?rest:null,hosted:!!flags.hosted});
       if(subcommand==='check')return official.checkOfficial();
     }
     if(command==='skills'){

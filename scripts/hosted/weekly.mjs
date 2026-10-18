@@ -29,13 +29,14 @@ function restorePrevious(){
 }
 const short=value=>value?`\`${value.slice(0,12)}\``:'none';
 const driftLine=c=>`\`${c.id}\`: ${c.to===null?'source no longer registered':c.from===null?`new catalog at ${short(c.to)}`:c.from===c.to?'catalog metadata changed':`${short(c.from)} → ${short(c.to)}`}`;
-function body({notes,failures,warnings,issues},{fingerprint,links,runs,drift}){
+const localLine=ids=>ids.length?`${ids.map(id=>`\`${id}\``).join(', ')} ${ids.length===1?'is':'are'} refreshed only by the local weekly sync, because ${ids.length===1?'its host refuses':'their hosts refuse'} GitHub-hosted runners.`:'';
+function body({notes,failures,warnings,issues},{fingerprint,links,runs,drift,local}){
   const list=(items,line)=>items.length?items.map(line).join('\n'):'None.';
   const shown=warnings.slice(0,50);
   return `${marker}
 ## Summary
 
-${notes.length} notes citing changed sources, ${failures.length} source refresh failures, ${warnings.length} link warnings and ${issues.length} check failures. ${drift.length} catalog${drift.length===1?'':'s'} also drifted upstream, which is routine and never opens this issue. Last updated by [run ${runId}](${runURL}).
+${notes.length} notes citing changed sources, ${failures.length} source refresh failures, ${warnings.length} link warnings and ${issues.length} check failures. ${drift.length} catalog${drift.length===1?'':'s'} also drifted upstream, which is routine and never opens this issue. ${local.length?localLine(local)+' ':''}Last updated by [run ${runId}](${runURL}).
 
 ## Notes citing changed sources
 
@@ -92,16 +93,16 @@ function deliver(findings,context){
 }
 const report=await withLock(async()=>{
   restorePrevious();
-  const refresh=await sync();
+  const refresh=await sync({hosted:true}),skipHosts=registry().runnerBlockedHosts||[];
   const notes=staleGuidance({limit:100}).pages.flatMap(page=>page.reasons.filter(r=>r.kind==='source-changed').map(r=>({path:page.path,source:r.source,cited:r.cited,current:r.current})));
-  const links=await checkLinks({limit:100}),pointers=await checkLinks({source:'website-pointers',limit:24});
+  const links=await checkLinks({limit:100,skipHosts}),pointers=await checkLinks({source:'website-pointers',limit:24,skipHosts});
   const state=readJSON(at('.state/link-health.json'),{links:{}});
   const warnings=Object.values(state.links).filter(r=>r.active!==false&&!['healthy','redirected'].includes(r.state)).map(r=>({source:r.source,url:r.url,state:r.state,status:r.status??null})).sort((a,b)=>a.source.localeCompare(b.source)||a.url.localeCompare(b.url));
   let issues;try{issues=check().issues;}catch(error){issues=[error.message];}
   const findings={notes,failures:refresh.failed.map(f=>({source:f.id,reason:f.error})),warnings,issues};
   const fingerprint=sha(JSON.stringify(findings));
-  const delivery=deliver(findings,{fingerprint,drift:refresh.changed,links:{checked:links.checked+pointers.checked,poolSize:links.poolSize},runs:readJSON(at('.state/official-runs.json'),{})});
-  return {refresh:{changed:refresh.changed.length,unchanged:refresh.unchanged.length,failed:refresh.failed.length},drift:refresh.changed.map(driftLine),notes:notes.length,links:{checked:links.checked+pointers.checked,poolSize:links.poolSize,warnings:warnings.length},checkIssues:issues.length,...delivery};
+  const delivery=deliver(findings,{fingerprint,drift:refresh.changed,local:refresh.skipped,links:{checked:links.checked+pointers.checked,poolSize:links.poolSize},runs:readJSON(at('.state/official-runs.json'),{})});
+  return {refresh:{changed:refresh.changed.length,unchanged:refresh.unchanged.length,failed:refresh.failed.length,skipped:refresh.skipped},drift:refresh.changed.map(driftLine),notes:notes.length,links:{checked:links.checked+pointers.checked,poolSize:links.poolSize,warnings:warnings.length},checkIssues:issues.length,...delivery};
 });
-if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`## Brain weekly reference health\n\n- Catalogs: ${report.refresh.changed} changed, ${report.refresh.unchanged} unchanged, ${report.refresh.failed} failed (working tree only; nothing committed).${report.drift.map(line=>`\n  - ${line}`).join('')}\n- Notes citing changed sources: ${report.notes}.\n- Links: ${report.links.checked} checked of ${report.links.poolSize}; ${report.links.warnings} active warnings.\n- Check failures: ${report.checkIssues}.\n- Issue: ${report.outcome}${report.issue?` (#${report.issue})`:''}.\n`);
+if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,`## Brain weekly reference health\n\n- Catalogs: ${report.refresh.changed} changed, ${report.refresh.unchanged} unchanged, ${report.refresh.failed} failed (working tree only; nothing committed).${report.drift.map(line=>`\n  - ${line}`).join('')}${report.refresh.skipped.length?`\n- Not refreshed here: ${localLine(report.refresh.skipped)}`:''}\n- Notes citing changed sources: ${report.notes}.\n- Links: ${report.links.checked} checked of ${report.links.poolSize}; ${report.links.warnings} active warnings.\n- Check failures: ${report.checkIssues}.\n- Issue: ${report.outcome}${report.issue?` (#${report.issue})`:''}.\n`);
 console.log(JSON.stringify(report,null,2));
