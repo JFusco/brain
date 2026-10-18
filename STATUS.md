@@ -17,6 +17,8 @@ Brain provides on-demand frontend/CMS knowledge lookup, selected project-skill m
 
 Local verification outcomes and cleanup counts are recorded in [the reconciliation journal](wiki/journal/2026-10-17-cleanup-reconciliation.md). Runtime checks establish structure, privacy and integrity; they do not prove every technical claim or unattended execution.
 
+[Contentful access repair](https://github.com/JFusco/brain/issues/41) replaces the throttled landing-page pointer with verified official API/JavaScript SDK Markdown entry points. Both retrieval and the unchanged checker returned 200, and focused lookup cached excerpts only. Historical failures remain retained; unused URLs leave active coverage through normal registry reconciliation.
+
 Use `node scripts/brain.mjs maintenance status` for observed collection/publication attempts, failures, source freshness, and sampled link coverage. A configured schedule alone is not proof of execution.
 
 Automatic backups and Drive uploads are disabled. Tests, fixtures, CI, fresh-session checks, dedicated QA, and review-agent audits remain deferred for v1.

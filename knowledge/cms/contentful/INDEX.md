@@ -21,5 +21,6 @@ No approved learnings yet.
   - [contentful-migration](../../../official/snapshots/contentful-skills/1e40a4c0e841-f270b5c6c7a2/skills/contentful-migration/SKILL.md) — reference only.
   - [contentful-nextjs](../../../official/snapshots/contentful-skills/1e40a4c0e841-f270b5c6c7a2/skills/contentful-nextjs/SKILL.md) — reference only.
   - [contentful-personalization](../../../official/snapshots/contentful-skills/1e40a4c0e841-f270b5c6c7a2/skills/contentful-personalization/SKILL.md) — reference only.
-- [Official website](https://www.contentful.com/developers/docs) — pointer only: Website index returned HTTP 429; official repository skills are mirrored.
+- [Official website](https://www.contentful.com/developers/docs/references/api-basics.md) — pointer only: Official API overview in supported Markdown: delivery, management, preview, images and GraphQL. Follow the relevant API reference for the task.
+- [Official website](https://www.contentful.com/developers/docs/sdks/javascript/sdks.md) — pointer only: Official JavaScript client-library guide in supported Markdown. Confirm the consuming application's installed SDK and selected API; this is not a full documentation catalog.
 <!-- brain:official:end -->
