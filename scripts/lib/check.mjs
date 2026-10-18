@@ -4,7 +4,7 @@ import {createRequire} from 'node:module';
 import {spawnSync} from 'node:child_process';
 import {at,ROOT,config,walk,inside,safePath,json,sha} from './core.mjs';
 import {assertClean} from './privacy.mjs';
-import {checkOfficial,lock,snapshotRoot,registry,requireRegistryApproval} from './official.mjs';
+import {checkOfficial,historicalCacheGaps,lock,snapshotRoot,registry,requireRegistryApproval} from './official.mjs';
 import {versionConstraint} from './project-context.mjs';
 const require=createRequire(import.meta.url);
 const {splitFrontmatter,scalar,list:frontmatterList,frontmatterProblems}=require('../wiki/lib/frontmatter.cjs');
@@ -65,6 +65,7 @@ export function check({staged=false}={}) {
   for(const entry of entries.filter(e=>e.id.startsWith('knowledge/')&&e.id.endsWith('.md')&&!e.id.includes('/_templates/'))){const parsed=splitFrontmatter(entry.bytes.toString());if(scalar(parsed.raw,'status')==='superseded'){const target=scalar(parsed.raw,'superseded_by');if(!approvedPages[target]||!entries.some(candidate=>candidate.id===target))issues.push(`${entry.id}: superseded replacement has no published content`);}}
   if(!staged) {
     for(const issue of checkOfficial())(issue.endsWith('no active snapshot')?warnings:issues).push(issue);
+    const historicalGaps=historicalCacheGaps();if(historicalGaps.length)warnings.push(`${historicalGaps.length} historical cached files unavailable; active and present bytes remain checked`);
     try{collect(ROOT,{wikiRoot:'knowledge'});}catch(error){issues.push(error.message);}
     const approved=new Set();for(const entry of Object.values(lock().sources))for(const record of entry.files)approved.add(path.join(snapshotRoot(entry),record.path));
     for(const {id,bytes} of entries.filter(e=>e.id.startsWith('knowledge/')&&e.id.endsWith('.md')&&!e.id.includes('/_templates/'))) {

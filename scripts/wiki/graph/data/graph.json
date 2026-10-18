@@ -2,13 +2,13 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 41,
-    "edges": 108,
+    "nodes": 44,
+    "edges": 117,
     "byType": {
       "index": 3,
-      "journal": 18,
-      "plan": 18,
-      "topic": 2
+      "journal": 19,
+      "plan": 19,
+      "topic": 3
     }
   },
   "nodes": [
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.953396,
-      "y": 0.301721,
+      "x": 0.959493,
+      "y": 0.281733,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.896166,
-      "y": 0.44372,
+      "x": 0.909632,
+      "y": 0.415415,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.817929,
-      "y": 0.575319,
+      "x": 0.841254,
+      "y": 0.540641,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.720522,
-      "y": 0.693433,
+      "x": 0.75575,
+      "y": 0.654861,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": 0.606225,
-      "y": 0.795293,
+      "x": 0.654861,
+      "y": 0.75575,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": 0.47772,
-      "y": 0.878512,
+      "x": 0.540641,
+      "y": 0.841254,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": 0.338017,
-      "y": 0.94114,
+      "x": 0.415415,
+      "y": 0.909632,
       "size": 8
     },
     {
@@ -196,8 +196,8 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": 0.190391,
-      "y": 0.981708,
+      "x": 0.281733,
+      "y": 0.959493,
       "size": 8
     },
     {
@@ -221,8 +221,8 @@
       ],
       "bytes": 5340,
       "degree": 6,
-      "x": 0.038303,
-      "y": 0.999266,
+      "x": 0.142315,
+      "y": 0.989821,
       "size": 8
     },
     {
@@ -240,8 +240,8 @@
       ],
       "bytes": 2693,
       "degree": 3,
-      "x": -0.114683,
-      "y": 0.993402,
+      "x": 0,
+      "y": 1,
       "size": 8
     },
     {
@@ -259,8 +259,8 @@
       ],
       "bytes": 7492,
       "degree": 6,
-      "x": -0.264982,
-      "y": 0.964253,
+      "x": -0.142315,
+      "y": 0.989821,
       "size": 8
     },
     {
@@ -278,8 +278,8 @@
       ],
       "bytes": 6374,
       "degree": 5,
-      "x": -0.409069,
-      "y": 0.912504,
+      "x": -0.281733,
+      "y": 0.959493,
       "size": 8
     },
     {
@@ -303,8 +303,8 @@
       ],
       "bytes": 6037,
       "degree": 4,
-      "x": -0.543568,
-      "y": 0.839365,
+      "x": -0.415415,
+      "y": 0.909632,
       "size": 8
     },
     {
@@ -322,8 +322,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": -0.665326,
-      "y": 0.746553,
+      "x": -0.540641,
+      "y": 0.841254,
       "size": 8
     },
     {
@@ -377,8 +377,8 @@
       ],
       "bytes": 14026,
       "degree": 3,
-      "x": -0.771489,
-      "y": 0.636242,
+      "x": -0.654861,
+      "y": 0.75575,
       "size": 8
     },
     {
@@ -396,8 +396,8 @@
       ],
       "bytes": 4835,
       "degree": 4,
-      "x": -0.85957,
-      "y": 0.511019,
+      "x": -0.75575,
+      "y": 0.654861,
       "size": 8
     },
     {
@@ -415,8 +415,8 @@
       ],
       "bytes": 3450,
       "degree": 4,
-      "x": -0.927502,
-      "y": 0.373817,
+      "x": -0.841254,
+      "y": 0.540641,
       "size": 8
     },
     {
@@ -434,8 +434,27 @@
       ],
       "bytes": 1787,
       "degree": 4,
-      "x": -0.973695,
-      "y": 0.227854,
+      "x": -0.909632,
+      "y": 0.415415,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-18-hosted-maintenance.md",
+      "label": "GitHub-hosted official maintenance and verification",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 45,
+          "url": "https://github.com/jfusco/brain/issues/45"
+        }
+      ],
+      "bytes": 1850,
+      "degree": 4,
+      "x": -0.959493,
+      "y": 0.281733,
       "size": 8
     },
     {
@@ -446,8 +465,8 @@
       "githubRefs": [],
       "bytes": 3069,
       "degree": 2,
-      "x": 0.98828,
-      "y": 0.152649,
+      "x": 0.989821,
+      "y": 0.142315,
       "size": 12
     },
     {
@@ -458,8 +477,8 @@
       "githubRefs": [],
       "bytes": 2105,
       "degree": 2,
-      "x": -0.997066,
-      "y": 0.076549,
+      "x": -0.989821,
+      "y": 0.142315,
       "size": 8
     },
     {
@@ -477,8 +496,8 @@
       ],
       "bytes": 5776,
       "degree": 3,
-      "x": -0.997066,
-      "y": -0.076549,
+      "x": -1,
+      "y": 0,
       "size": 8
     },
     {
@@ -489,8 +508,8 @@
       "githubRefs": [],
       "bytes": 5333,
       "degree": 4,
-      "x": -0.973695,
-      "y": -0.227854,
+      "x": -0.989821,
+      "y": -0.142315,
       "size": 8
     },
     {
@@ -514,8 +533,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.927502,
-      "y": -0.373817,
+      "x": -0.959493,
+      "y": -0.281733,
       "size": 8
     },
     {
@@ -526,8 +545,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.85957,
-      "y": -0.511019,
+      "x": -0.909632,
+      "y": -0.415415,
       "size": 8
     },
     {
@@ -538,8 +557,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.771489,
-      "y": -0.636242,
+      "x": -0.841254,
+      "y": -0.540641,
       "size": 8
     },
     {
@@ -550,8 +569,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.665326,
-      "y": -0.746553,
+      "x": -0.75575,
+      "y": -0.654861,
       "size": 8
     },
     {
@@ -569,8 +588,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": -0.543568,
-      "y": -0.839365,
+      "x": -0.654861,
+      "y": -0.75575,
       "size": 8
     },
     {
@@ -588,8 +607,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": -0.409069,
-      "y": -0.912504,
+      "x": -0.540641,
+      "y": -0.841254,
       "size": 8
     },
     {
@@ -600,8 +619,8 @@
       "githubRefs": [],
       "bytes": 2637,
       "degree": 3,
-      "x": -0.264982,
-      "y": -0.964253,
+      "x": -0.415415,
+      "y": -0.909632,
       "size": 8
     },
     {
@@ -619,8 +638,8 @@
       ],
       "bytes": 2014,
       "degree": 3,
-      "x": -0.114683,
-      "y": -0.993402,
+      "x": -0.281733,
+      "y": -0.959493,
       "size": 8
     },
     {
@@ -638,8 +657,8 @@
       ],
       "bytes": 1840,
       "degree": 3,
-      "x": 0.038303,
-      "y": -0.999266,
+      "x": -0.142315,
+      "y": -0.989821,
       "size": 8
     },
     {
@@ -657,8 +676,8 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": 0.190391,
-      "y": -0.981708,
+      "x": 0,
+      "y": -1,
       "size": 8
     },
     {
@@ -669,8 +688,8 @@
       "githubRefs": [],
       "bytes": 1560,
       "degree": 3,
-      "x": 0.338017,
-      "y": -0.94114,
+      "x": 0.142315,
+      "y": -0.989821,
       "size": 8
     },
     {
@@ -688,8 +707,8 @@
       ],
       "bytes": 1101,
       "degree": 3,
-      "x": 0.47772,
-      "y": -0.878512,
+      "x": 0.281733,
+      "y": -0.959493,
       "size": 8
     },
     {
@@ -707,8 +726,27 @@
       ],
       "bytes": 1210,
       "degree": 2,
-      "x": 0.606225,
-      "y": -0.795293,
+      "x": 0.415415,
+      "y": -0.909632,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-18-move-official-maintenance-and-verification-to-github-hosted-runners-c1910d2449.md",
+      "label": "Move official maintenance and verification to GitHub-hosted runners",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 45,
+          "url": "https://github.com/jfusco/brain/issues/45"
+        }
+      ],
+      "bytes": 1423,
+      "degree": 2,
+      "x": 0.540641,
+      "y": -0.841254,
       "size": 8
     },
     {
@@ -726,8 +764,8 @@
       ],
       "bytes": 1374,
       "degree": 3,
-      "x": 0.720522,
-      "y": -0.693433,
+      "x": 0.654861,
+      "y": -0.75575,
       "size": 8
     },
     {
@@ -745,8 +783,8 @@
       ],
       "bytes": 1238,
       "degree": 3,
-      "x": 0.817929,
-      "y": -0.575319,
+      "x": 0.75575,
+      "y": -0.654861,
       "size": 8
     },
     {
@@ -817,6 +855,12 @@
         },
         {
           "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 45,
+          "url": "https://github.com/jfusco/brain/issues/45"
+        },
+        {
+          "repository": "jfusco/brain",
           "kind": "pull-request",
           "number": 2,
           "url": "https://github.com/jfusco/brain/pull/2"
@@ -828,10 +872,10 @@
           "url": "https://github.com/jfusco/brain/pull/3"
         }
       ],
-      "bytes": 6601,
-      "degree": 20,
-      "x": 0.896166,
-      "y": -0.44372,
+      "bytes": 7015,
+      "degree": 21,
+      "x": 0.841254,
+      "y": -0.540641,
       "size": 12
     },
     {
@@ -909,12 +953,33 @@
           "kind": "issue",
           "number": 43,
           "url": "https://github.com/jfusco/brain/issues/43"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 45,
+          "url": "https://github.com/jfusco/brain/issues/45"
         }
       ],
-      "bytes": 24585,
-      "degree": 63,
-      "x": 0.953396,
-      "y": -0.301721,
+      "bytes": 25137,
+      "degree": 65,
+      "x": 0.909632,
+      "y": -0.415415,
+      "size": 8
+    },
+    {
+      "id": "wiki/topics/hosted-maintenance.md",
+      "label": "GitHub-hosted official maintenance",
+      "type": "topic",
+      "aliases": [
+        "hosted maintenance",
+        "cloud link investigation"
+      ],
+      "githubRefs": [],
+      "bytes": 8058,
+      "degree": 6,
+      "x": 0.959493,
+      "y": -0.281733,
       "size": 8
     },
     {
@@ -926,10 +991,10 @@
         "recurring link warnings"
       ],
       "githubRefs": [],
-      "bytes": 10765,
-      "degree": 4,
-      "x": 0.98828,
-      "y": -0.152649,
+      "bytes": 11289,
+      "degree": 7,
+      "x": 0.989821,
+      "y": -0.142315,
       "size": 8
     }
   ],
@@ -956,6 +1021,13 @@
       "relation": "link"
     },
     {
+      "id": "0ea695a86f91bb20",
+      "source": "wiki/journal/2026-10-18-hosted-maintenance.md",
+      "target": "wiki/topics/link-warning-investigation.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "10f13893473c5449",
       "source": "wiki/topics/automatic-knowledge-maintenance.md",
       "target": "wiki/journal/2026-10-17-project-cleanup.md",
@@ -975,6 +1047,13 @@
       "target": "wiki/plans/2026-10-18-refresh-cms-references-and-correct-contentful-preview-guidance-e97334eb8a.md",
       "type": "plan",
       "relation": "plan"
+    },
+    {
+      "id": "190aea487497a31d",
+      "source": "wiki/topics/link-warning-investigation.md",
+      "target": "wiki/topics/hosted-maintenance.md",
+      "type": "link",
+      "relation": "link"
     },
     {
       "id": "1941acdc90a5ce91",
@@ -1299,6 +1378,13 @@
       "relation": "plan"
     },
     {
+      "id": "83c12324d4f1cc60",
+      "source": "wiki/journal/2026-10-18-hosted-maintenance.md",
+      "target": "wiki/topics/hosted-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "84a991edd7b34332",
       "source": "wiki/plans/2026-10-16-repair-sitecore-retrieval-and-canonical-documentation-links-b39bb55c46.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -1481,6 +1567,13 @@
       "relation": "link"
     },
     {
+      "id": "af41d900e8712559",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-18-move-official-maintenance-and-verification-to-github-hosted-runners-c1910d2449.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "b0482ce1c018ebbf",
       "source": "wiki/journal/2026-10-18-contentful-documentation-access.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -1537,6 +1630,13 @@
       "relation": "topic"
     },
     {
+      "id": "c469ffaccc083276",
+      "source": "wiki/topics/hosted-maintenance.md",
+      "target": "wiki/topics/link-warning-investigation.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "c73f55bc07bf19f6",
       "source": "wiki/journal/2026-10-16-project-lesson-capture.md",
       "target": "wiki/plans/2026-10-16-capture-reusable-lessons-from-working-chats-eeac8dc827.md",
@@ -1556,6 +1656,13 @@
       "target": "wiki/plans/2026-10-17-clean-brain-s-inbox-and-reduce-project-clutter-97c2efc2fd.md",
       "type": "plan",
       "relation": "plan"
+    },
+    {
+      "id": "ce8204e2cb05d516",
+      "source": "wiki/journal/2026-10-18-hosted-maintenance.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "ce9855043d03008a",
@@ -1600,6 +1707,13 @@
       "relation": "link"
     },
     {
+      "id": "dda8300883c26eaf",
+      "source": "wiki/plans/2026-10-18-move-official-maintenance-and-verification-to-github-hosted-runners-c1910d2449.md",
+      "target": "wiki/topics/hosted-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "df122e0040389211",
       "source": "wiki/journal/2026-10-17-semantic-audit-complete.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -1635,9 +1749,23 @@
       "relation": "link"
     },
     {
+      "id": "e877206206b3b5b5",
+      "source": "wiki/journal/2026-10-18-hosted-maintenance.md",
+      "target": "wiki/topics/hosted-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "eaeeb8f21dd48a46",
       "source": "wiki/topics/automatic-knowledge-maintenance.md",
       "target": "wiki/journal/2026-10-16-project-lesson-capture.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "eb09caf464a98e11",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/topics/hosted-maintenance.md",
       "type": "link",
       "relation": "link"
     },

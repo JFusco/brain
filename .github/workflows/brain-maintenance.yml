@@ -1,0 +1,175 @@
+name: Brain hosted maintenance
+
+on:
+  schedule:
+    - cron: '15 3 * * *'
+      timezone: America/New_York
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: read
+  checks: read
+
+concurrency:
+  group: brain-hosted-maintenance
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  WIKI_HOME: ${{ github.workspace }}/.state/wiki-plan-scope
+
+jobs:
+  maintenance:
+    if: github.repository == 'JFusco/brain' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    outputs:
+      investigator: ${{ steps.investigator.outputs.final-message }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.14.0'
+      - name: Check required secrets without exposing values
+        env:
+          API_KEY_PRESENT: ${{ secrets.OPENAI_API_KEY != '' }}
+          BOT_TOKEN_PRESENT: ${{ secrets.BOT_TOKEN != '' }}
+        run: |
+          test "$API_KEY_PRESENT" = true || { echo 'OPENAI_API_KEY repository secret is required'; exit 1; }
+          test "$BOT_TOKEN_PRESENT" = true || { echo 'BOT_TOKEN repository secret is required'; exit 1; }
+      - name: Locate prior operational checkpoint
+        id: previous
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const {owner, repo} = context.repo;
+            const runs = await github.rest.actions.listWorkflowRuns({owner, repo, workflow_id: 'brain-maintenance.yml', branch: 'main', status: 'completed', per_page: 30});
+            for (const run of runs.data.workflow_runs) {
+              if (run.id === context.runId || !['schedule', 'workflow_dispatch'].includes(run.event) || run.head_repository?.full_name !== `${owner}/${repo}`) continue;
+              const artifacts = await github.rest.actions.listWorkflowRunArtifacts({owner, repo, run_id: run.id});
+              const checkpoint = artifacts.data.artifacts.filter(a => /^brain-operational-state-\d+$/.test(a.name) && !a.expired).sort((a,b) => Number(b.name.split('-').pop())-Number(a.name.split('-').pop()))[0];
+              if (checkpoint) {core.setOutput('run_id', String(run.id)); core.setOutput('artifact_name', checkpoint.name); return;}
+            }
+      - name: Restore only official-source operational evidence
+        if: steps.previous.outputs.run_id != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ steps.previous.outputs.artifact_name }}
+          path: .state/previous
+          github-token: ${{ github.token }}
+          run-id: ${{ steps.previous.outputs.run_id }}
+      - name: Bootstrap isolated Linux profile
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/hosted/setup.mjs
+      - name: Refresh registered references and prepare bounded warning batch
+        id: prepare
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/hosted/maintenance.mjs prepare
+      - name: Preserve prepared official artifacts before model execution
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: brain-prepared-${{ github.run_attempt }}
+          path: |
+            .state/hosted/prepared.json
+            .state/hosted/receipt.json
+            .state/hosted/state.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 14
+      - name: Investigate bounded official-link warnings without Git write credentials
+        id: investigator
+        if: steps.prepare.outputs.investigate == 'true'
+        uses: openai/codex-action@bdf19a4a223ec2549a3e2274a0cf61556bc07675 # v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          prompt-file: .github/codex/link-investigation.md
+          sandbox: workspace-write
+          safety-strategy: drop-sudo
+          codex-args: '["--ephemeral", "--config", "sandbox_workspace_write.network_access=true", "--output-schema", ".github/codex/link-investigation.schema.json"]'
+
+  publish:
+    needs: maintenance
+    if: always() && github.repository == 'JFusco/brain' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.BOT_TOKEN }}
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.14.0'
+      - uses: actions/download-artifact@v4
+        with:
+          name: brain-prepared-${{ github.run_attempt }}
+          path: .state/hosted
+      - name: Bootstrap isolated writer profile
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/hosted/setup.mjs
+      - name: Validate proposals, publish one checked PR and verify immutable merged bytes
+        env:
+          GH_TOKEN: ${{ secrets.BOT_TOKEN }}
+          BRAIN_AGENT_RESULT: ${{ needs.maintenance.outputs.investigator }}
+          BRAIN_PREPARE_RESULT: ${{ needs.maintenance.result }}
+        run: node scripts/hosted/maintenance.mjs publish
+      - name: Preserve only official-source operational checkpoint
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: brain-operational-state-${{ github.run_attempt }}
+          path: |
+            .state/hosted/state.json
+            .state/hosted/receipt.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 90
+
+  verify:
+    needs: [maintenance, publish]
+    if: always() && github.repository == 'JFusco/brain' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      actions: read
+      pull-requests: read
+      checks: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.14.0'
+      - uses: actions/download-artifact@v4
+        with:
+          name: brain-operational-state-${{ github.run_attempt }}
+          path: .state/hosted
+      - name: Independently verify this run and attempt in a fresh read-only-credential job
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRAIN_PREPARE_RESULT: ${{ needs.maintenance.result }}
+          BRAIN_PUBLISH_RESULT: ${{ needs.publish.result }}
+        run: |
+          node scripts/hosted/setup.mjs
+          node scripts/hosted/maintenance.mjs verify
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: brain-verification-${{ github.run_attempt }}
+          path: .state/hosted/verification.json
+          include-hidden-files: true
+          if-no-files-found: warn
+          retention-days: 90

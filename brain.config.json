@@ -17,7 +17,8 @@
     "overdueHours": 36,
     "backupHours": 20,
     "keepBackups": 7,
-    "backupEnabled": false
+    "backupEnabled": false,
+    "referenceBackend": "github-actions"
   },
   "domains": [
     "frontend",
