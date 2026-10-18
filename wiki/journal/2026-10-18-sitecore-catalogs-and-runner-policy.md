@@ -12,8 +12,9 @@ issues: ["https://github.com/JFusco/brain/issues/62", "https://github.com/JFusco
 `f8eb511363186ef181c727f3fc53ce2b44757f56` before the documentation registrations
 arrived. [PR 65](https://github.com/JFusco/brain/pull/65) contains the Sitecore
 registrations, the collection-fetch header correction and the branch cleanup
-rule. Its README/wiki follow-up stops ready for user review; this entry does
-not claim that PR 65 has merged. Contentful remains pending in
+rule. The README/wiki follow-up initially stopped for user review; the user
+subsequently authorized merge once the final checks pass. The linked PR is
+the authoritative merge record. Contentful remains pending in
 [issue 64](https://github.com/JFusco/brain/issues/64).
 
 ## What PR 63 established
@@ -116,5 +117,7 @@ prompt separately in the app; this is not proof that a scheduled run occurred.
 
 Revert the Sitecore registration/header commit and this documentation
 follow-up to undo their tracked changes. Preserve private receipts and
-existing checkout work. The plan is partial because Contentful and PR 65's
-merge remain pending; branch cleanup after that merge is still required.
+existing checkout work. The plan was archived as partial at the pre-merge
+review checkpoint and retains that earlier instruction. Contentful remains
+deferred; the later merge authorization does not register it. Branch cleanup
+is required after the actual merge.
