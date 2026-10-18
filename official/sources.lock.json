@@ -86,10 +86,10 @@
       "catalogSha256": "5d8ac0ba86c8df112fe83f07e8a7e1be60da29ca4e553c48814c2b488d86e8de"
     },
     "typescript-docs": {
-      "revision": "4bcb49227fb543cb6ba112f466ee9d255f6731bc7d037d693b152e2224856fee",
-      "fetchedAt": "2026-10-18T22:21:45.462Z",
+      "revision": "976aad95ddf048018db9ea74183652480b19af8c5fa898f41a0620db83f5b30b",
+      "fetchedAt": "2026-10-18T22:23:12.320Z",
       "track": "rolling-url",
-      "catalogSha256": "4c76f0d7f7048d27e814168c46fca6fee5a8cc0dcfdcd37d1e8c3ff40737039e"
+      "catalogSha256": "21e41fa6da98aad4e7a3c9535b2383e134ec55303136b6eb041f6c73166c2f7b"
     },
     "w3c-accessibility": {
       "revision": "c2c7fa790e32156b38b445e98c5dbe7b96dccda9030b876ca7100d2c0874d6c8",

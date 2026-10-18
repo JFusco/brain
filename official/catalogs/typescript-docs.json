@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "typescript-docs",
-  "revision": "4bcb49227fb543cb6ba112f466ee9d255f6731bc7d037d693b152e2224856fee",
+  "revision": "976aad95ddf048018db9ea74183652480b19af8c5fa898f41a0620db83f5b30b",
   "origin": "https://www.typescriptlang.org/sitemap-index.xml",
   "skills": [],
   "docs": [],
@@ -670,6 +670,686 @@
       "title": "handbook / variable declarations.html",
       "url": "https://www.typescriptlang.org/docs/handbook/variable-declarations.html",
       "fetchUrl": "https://www.typescriptlang.org/docs/handbook/variable-declarations.html"
+    },
+    {
+      "title": "tsconfig",
+      "url": "https://www.typescriptlang.org/tsconfig/",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/"
+    },
+    {
+      "title": "tsconfig / allowArbitraryExtensions.html",
+      "url": "https://www.typescriptlang.org/tsconfig/allowArbitraryExtensions.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/allowArbitraryExtensions.html"
+    },
+    {
+      "title": "tsconfig / allowImportingTsExtensions.html",
+      "url": "https://www.typescriptlang.org/tsconfig/allowImportingTsExtensions.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/allowImportingTsExtensions.html"
+    },
+    {
+      "title": "tsconfig / allowJs.html",
+      "url": "https://www.typescriptlang.org/tsconfig/allowJs.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/allowJs.html"
+    },
+    {
+      "title": "tsconfig / allowSyntheticDefaultImports.html",
+      "url": "https://www.typescriptlang.org/tsconfig/allowSyntheticDefaultImports.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/allowSyntheticDefaultImports.html"
+    },
+    {
+      "title": "tsconfig / allowUmdGlobalAccess.html",
+      "url": "https://www.typescriptlang.org/tsconfig/allowUmdGlobalAccess.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/allowUmdGlobalAccess.html"
+    },
+    {
+      "title": "tsconfig / allowUnreachableCode.html",
+      "url": "https://www.typescriptlang.org/tsconfig/allowUnreachableCode.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/allowUnreachableCode.html"
+    },
+    {
+      "title": "tsconfig / allowUnusedLabels.html",
+      "url": "https://www.typescriptlang.org/tsconfig/allowUnusedLabels.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/allowUnusedLabels.html"
+    },
+    {
+      "title": "tsconfig / alwaysStrict.html",
+      "url": "https://www.typescriptlang.org/tsconfig/alwaysStrict.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/alwaysStrict.html"
+    },
+    {
+      "title": "tsconfig / assumeChangesOnlyAffectDirectDependencies.html",
+      "url": "https://www.typescriptlang.org/tsconfig/assumeChangesOnlyAffectDirectDependencies.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/assumeChangesOnlyAffectDirectDependencies.html"
+    },
+    {
+      "title": "tsconfig / baseUrl.html",
+      "url": "https://www.typescriptlang.org/tsconfig/baseUrl.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/baseUrl.html"
+    },
+    {
+      "title": "tsconfig / charset.html",
+      "url": "https://www.typescriptlang.org/tsconfig/charset.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/charset.html"
+    },
+    {
+      "title": "tsconfig / checkJs.html",
+      "url": "https://www.typescriptlang.org/tsconfig/checkJs.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/checkJs.html"
+    },
+    {
+      "title": "tsconfig / clean.html",
+      "url": "https://www.typescriptlang.org/tsconfig/clean.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/clean.html"
+    },
+    {
+      "title": "tsconfig / composite.html",
+      "url": "https://www.typescriptlang.org/tsconfig/composite.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/composite.html"
+    },
+    {
+      "title": "tsconfig / customConditions.html",
+      "url": "https://www.typescriptlang.org/tsconfig/customConditions.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/customConditions.html"
+    },
+    {
+      "title": "tsconfig / declaration.html",
+      "url": "https://www.typescriptlang.org/tsconfig/declaration.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/declaration.html"
+    },
+    {
+      "title": "tsconfig / declarationDir.html",
+      "url": "https://www.typescriptlang.org/tsconfig/declarationDir.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/declarationDir.html"
+    },
+    {
+      "title": "tsconfig / declarationMap.html",
+      "url": "https://www.typescriptlang.org/tsconfig/declarationMap.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/declarationMap.html"
+    },
+    {
+      "title": "tsconfig / diagnostics.html",
+      "url": "https://www.typescriptlang.org/tsconfig/diagnostics.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/diagnostics.html"
+    },
+    {
+      "title": "tsconfig / disableFilenameBasedTypeAcquisition.html",
+      "url": "https://www.typescriptlang.org/tsconfig/disableFilenameBasedTypeAcquisition.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/disableFilenameBasedTypeAcquisition.html"
+    },
+    {
+      "title": "tsconfig / disableReferencedProjectLoad.html",
+      "url": "https://www.typescriptlang.org/tsconfig/disableReferencedProjectLoad.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/disableReferencedProjectLoad.html"
+    },
+    {
+      "title": "tsconfig / disableSizeLimit.html",
+      "url": "https://www.typescriptlang.org/tsconfig/disableSizeLimit.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/disableSizeLimit.html"
+    },
+    {
+      "title": "tsconfig / disableSolutionSearching.html",
+      "url": "https://www.typescriptlang.org/tsconfig/disableSolutionSearching.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/disableSolutionSearching.html"
+    },
+    {
+      "title": "tsconfig / disableSourceOfProjectReferenceRedirect.html",
+      "url": "https://www.typescriptlang.org/tsconfig/disableSourceOfProjectReferenceRedirect.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/disableSourceOfProjectReferenceRedirect.html"
+    },
+    {
+      "title": "tsconfig / downlevelIteration.html",
+      "url": "https://www.typescriptlang.org/tsconfig/downlevelIteration.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/downlevelIteration.html"
+    },
+    {
+      "title": "tsconfig / emitBOM.html",
+      "url": "https://www.typescriptlang.org/tsconfig/emitBOM.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/emitBOM.html"
+    },
+    {
+      "title": "tsconfig / emitDeclarationOnly.html",
+      "url": "https://www.typescriptlang.org/tsconfig/emitDeclarationOnly.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/emitDeclarationOnly.html"
+    },
+    {
+      "title": "tsconfig / emitDecoratorMetadata.html",
+      "url": "https://www.typescriptlang.org/tsconfig/emitDecoratorMetadata.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/emitDecoratorMetadata.html"
+    },
+    {
+      "title": "tsconfig / enable.html",
+      "url": "https://www.typescriptlang.org/tsconfig/enable.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/enable.html"
+    },
+    {
+      "title": "tsconfig / erasableSyntaxOnly.html",
+      "url": "https://www.typescriptlang.org/tsconfig/erasableSyntaxOnly.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/erasableSyntaxOnly.html"
+    },
+    {
+      "title": "tsconfig / esModuleInterop.html",
+      "url": "https://www.typescriptlang.org/tsconfig/esModuleInterop.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/esModuleInterop.html"
+    },
+    {
+      "title": "tsconfig / exactOptionalPropertyTypes.html",
+      "url": "https://www.typescriptlang.org/tsconfig/exactOptionalPropertyTypes.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/exactOptionalPropertyTypes.html"
+    },
+    {
+      "title": "tsconfig / exclude.html",
+      "url": "https://www.typescriptlang.org/tsconfig/exclude.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/exclude.html"
+    },
+    {
+      "title": "tsconfig / excludeDirectories.html",
+      "url": "https://www.typescriptlang.org/tsconfig/excludeDirectories.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/excludeDirectories.html"
+    },
+    {
+      "title": "tsconfig / excludeFiles.html",
+      "url": "https://www.typescriptlang.org/tsconfig/excludeFiles.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/excludeFiles.html"
+    },
+    {
+      "title": "tsconfig / experimentalDecorators.html",
+      "url": "https://www.typescriptlang.org/tsconfig/experimentalDecorators.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/experimentalDecorators.html"
+    },
+    {
+      "title": "tsconfig / explainFiles.html",
+      "url": "https://www.typescriptlang.org/tsconfig/explainFiles.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/explainFiles.html"
+    },
+    {
+      "title": "tsconfig / extendedDiagnostics.html",
+      "url": "https://www.typescriptlang.org/tsconfig/extendedDiagnostics.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/extendedDiagnostics.html"
+    },
+    {
+      "title": "tsconfig / extends.html",
+      "url": "https://www.typescriptlang.org/tsconfig/extends.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/extends.html"
+    },
+    {
+      "title": "tsconfig / fallbackPolling.html",
+      "url": "https://www.typescriptlang.org/tsconfig/fallbackPolling.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/fallbackPolling.html"
+    },
+    {
+      "title": "tsconfig / files.html",
+      "url": "https://www.typescriptlang.org/tsconfig/files.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/files.html"
+    },
+    {
+      "title": "tsconfig / force.html",
+      "url": "https://www.typescriptlang.org/tsconfig/force.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/force.html"
+    },
+    {
+      "title": "tsconfig / forceConsistentCasingInFileNames.html",
+      "url": "https://www.typescriptlang.org/tsconfig/forceConsistentCasingInFileNames.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/forceConsistentCasingInFileNames.html"
+    },
+    {
+      "title": "tsconfig / generateCpuProfile.html",
+      "url": "https://www.typescriptlang.org/tsconfig/generateCpuProfile.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/generateCpuProfile.html"
+    },
+    {
+      "title": "tsconfig / generateTrace.html",
+      "url": "https://www.typescriptlang.org/tsconfig/generateTrace.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/generateTrace.html"
+    },
+    {
+      "title": "tsconfig / importHelpers.html",
+      "url": "https://www.typescriptlang.org/tsconfig/importHelpers.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/importHelpers.html"
+    },
+    {
+      "title": "tsconfig / importsNotUsedAsValues.html",
+      "url": "https://www.typescriptlang.org/tsconfig/importsNotUsedAsValues.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/importsNotUsedAsValues.html"
+    },
+    {
+      "title": "tsconfig / include.html",
+      "url": "https://www.typescriptlang.org/tsconfig/include.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/include.html"
+    },
+    {
+      "title": "tsconfig / incremental.html",
+      "url": "https://www.typescriptlang.org/tsconfig/incremental.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/incremental.html"
+    },
+    {
+      "title": "tsconfig / inlineSourceMap.html",
+      "url": "https://www.typescriptlang.org/tsconfig/inlineSourceMap.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/inlineSourceMap.html"
+    },
+    {
+      "title": "tsconfig / inlineSources.html",
+      "url": "https://www.typescriptlang.org/tsconfig/inlineSources.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/inlineSources.html"
+    },
+    {
+      "title": "tsconfig / isolatedDeclarations.html",
+      "url": "https://www.typescriptlang.org/tsconfig/isolatedDeclarations.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/isolatedDeclarations.html"
+    },
+    {
+      "title": "tsconfig / isolatedModules.html",
+      "url": "https://www.typescriptlang.org/tsconfig/isolatedModules.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/isolatedModules.html"
+    },
+    {
+      "title": "tsconfig / jsx.html",
+      "url": "https://www.typescriptlang.org/tsconfig/jsx.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/jsx.html"
+    },
+    {
+      "title": "tsconfig / jsxFactory.html",
+      "url": "https://www.typescriptlang.org/tsconfig/jsxFactory.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/jsxFactory.html"
+    },
+    {
+      "title": "tsconfig / jsxFragmentFactory.html",
+      "url": "https://www.typescriptlang.org/tsconfig/jsxFragmentFactory.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/jsxFragmentFactory.html"
+    },
+    {
+      "title": "tsconfig / jsxImportSource.html",
+      "url": "https://www.typescriptlang.org/tsconfig/jsxImportSource.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/jsxImportSource.html"
+    },
+    {
+      "title": "tsconfig / keyofStringsOnly.html",
+      "url": "https://www.typescriptlang.org/tsconfig/keyofStringsOnly.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/keyofStringsOnly.html"
+    },
+    {
+      "title": "tsconfig / lib.html",
+      "url": "https://www.typescriptlang.org/tsconfig/lib.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/lib.html"
+    },
+    {
+      "title": "tsconfig / libReplacement.html",
+      "url": "https://www.typescriptlang.org/tsconfig/libReplacement.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/libReplacement.html"
+    },
+    {
+      "title": "tsconfig / listEmittedFiles.html",
+      "url": "https://www.typescriptlang.org/tsconfig/listEmittedFiles.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/listEmittedFiles.html"
+    },
+    {
+      "title": "tsconfig / listFiles.html",
+      "url": "https://www.typescriptlang.org/tsconfig/listFiles.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/listFiles.html"
+    },
+    {
+      "title": "tsconfig / locale.html",
+      "url": "https://www.typescriptlang.org/tsconfig/locale.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/locale.html"
+    },
+    {
+      "title": "tsconfig / mapRoot.html",
+      "url": "https://www.typescriptlang.org/tsconfig/mapRoot.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/mapRoot.html"
+    },
+    {
+      "title": "tsconfig / maxNodeModuleJsDepth.html",
+      "url": "https://www.typescriptlang.org/tsconfig/maxNodeModuleJsDepth.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/maxNodeModuleJsDepth.html"
+    },
+    {
+      "title": "tsconfig / module.html",
+      "url": "https://www.typescriptlang.org/tsconfig/module.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/module.html"
+    },
+    {
+      "title": "tsconfig / moduleDetection.html",
+      "url": "https://www.typescriptlang.org/tsconfig/moduleDetection.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/moduleDetection.html"
+    },
+    {
+      "title": "tsconfig / moduleResolution.html",
+      "url": "https://www.typescriptlang.org/tsconfig/moduleResolution.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/moduleResolution.html"
+    },
+    {
+      "title": "tsconfig / moduleSuffixes.html",
+      "url": "https://www.typescriptlang.org/tsconfig/moduleSuffixes.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/moduleSuffixes.html"
+    },
+    {
+      "title": "tsconfig / newLine.html",
+      "url": "https://www.typescriptlang.org/tsconfig/newLine.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/newLine.html"
+    },
+    {
+      "title": "tsconfig / noCheck.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noCheck.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noCheck.html"
+    },
+    {
+      "title": "tsconfig / noEmit.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noEmit.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noEmit.html"
+    },
+    {
+      "title": "tsconfig / noEmitHelpers.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noEmitHelpers.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noEmitHelpers.html"
+    },
+    {
+      "title": "tsconfig / noEmitOnError.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noEmitOnError.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noEmitOnError.html"
+    },
+    {
+      "title": "tsconfig / noErrorTruncation.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noErrorTruncation.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noErrorTruncation.html"
+    },
+    {
+      "title": "tsconfig / noFallthroughCasesInSwitch.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noFallthroughCasesInSwitch.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noFallthroughCasesInSwitch.html"
+    },
+    {
+      "title": "tsconfig / noImplicitAny.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noImplicitAny.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noImplicitAny.html"
+    },
+    {
+      "title": "tsconfig / noImplicitOverride.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noImplicitOverride.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noImplicitOverride.html"
+    },
+    {
+      "title": "tsconfig / noImplicitReturns.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noImplicitReturns.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noImplicitReturns.html"
+    },
+    {
+      "title": "tsconfig / noImplicitThis.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noImplicitThis.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noImplicitThis.html"
+    },
+    {
+      "title": "tsconfig / noImplicitUseStrict.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noImplicitUseStrict.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noImplicitUseStrict.html"
+    },
+    {
+      "title": "tsconfig / noLib.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noLib.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noLib.html"
+    },
+    {
+      "title": "tsconfig / noPropertyAccessFromIndexSignature.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noPropertyAccessFromIndexSignature.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noPropertyAccessFromIndexSignature.html"
+    },
+    {
+      "title": "tsconfig / noResolve.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noResolve.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noResolve.html"
+    },
+    {
+      "title": "tsconfig / noStrictGenericChecks.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noStrictGenericChecks.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noStrictGenericChecks.html"
+    },
+    {
+      "title": "tsconfig / noUncheckedIndexedAccess.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noUncheckedIndexedAccess.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noUncheckedIndexedAccess.html"
+    },
+    {
+      "title": "tsconfig / noUncheckedSideEffectImports.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noUncheckedSideEffectImports.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noUncheckedSideEffectImports.html"
+    },
+    {
+      "title": "tsconfig / noUnusedLocals.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noUnusedLocals.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noUnusedLocals.html"
+    },
+    {
+      "title": "tsconfig / noUnusedParameters.html",
+      "url": "https://www.typescriptlang.org/tsconfig/noUnusedParameters.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/noUnusedParameters.html"
+    },
+    {
+      "title": "tsconfig / out.html",
+      "url": "https://www.typescriptlang.org/tsconfig/out.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/out.html"
+    },
+    {
+      "title": "tsconfig / outDir.html",
+      "url": "https://www.typescriptlang.org/tsconfig/outDir.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/outDir.html"
+    },
+    {
+      "title": "tsconfig / outFile.html",
+      "url": "https://www.typescriptlang.org/tsconfig/outFile.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/outFile.html"
+    },
+    {
+      "title": "tsconfig / paths.html",
+      "url": "https://www.typescriptlang.org/tsconfig/paths.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/paths.html"
+    },
+    {
+      "title": "tsconfig / plugins.html",
+      "url": "https://www.typescriptlang.org/tsconfig/plugins.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/plugins.html"
+    },
+    {
+      "title": "tsconfig / preserveConstEnums.html",
+      "url": "https://www.typescriptlang.org/tsconfig/preserveConstEnums.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/preserveConstEnums.html"
+    },
+    {
+      "title": "tsconfig / preserveSymlinks.html",
+      "url": "https://www.typescriptlang.org/tsconfig/preserveSymlinks.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/preserveSymlinks.html"
+    },
+    {
+      "title": "tsconfig / preserveValueImports.html",
+      "url": "https://www.typescriptlang.org/tsconfig/preserveValueImports.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/preserveValueImports.html"
+    },
+    {
+      "title": "tsconfig / preserveWatchOutput.html",
+      "url": "https://www.typescriptlang.org/tsconfig/preserveWatchOutput.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/preserveWatchOutput.html"
+    },
+    {
+      "title": "tsconfig / pretty.html",
+      "url": "https://www.typescriptlang.org/tsconfig/pretty.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/pretty.html"
+    },
+    {
+      "title": "tsconfig / reactNamespace.html",
+      "url": "https://www.typescriptlang.org/tsconfig/reactNamespace.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/reactNamespace.html"
+    },
+    {
+      "title": "tsconfig / references.html",
+      "url": "https://www.typescriptlang.org/tsconfig/references.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/references.html"
+    },
+    {
+      "title": "tsconfig / removeComments.html",
+      "url": "https://www.typescriptlang.org/tsconfig/removeComments.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/removeComments.html"
+    },
+    {
+      "title": "tsconfig / resolveJsonModule.html",
+      "url": "https://www.typescriptlang.org/tsconfig/resolveJsonModule.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/resolveJsonModule.html"
+    },
+    {
+      "title": "tsconfig / resolvePackageJsonExports.html",
+      "url": "https://www.typescriptlang.org/tsconfig/resolvePackageJsonExports.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/resolvePackageJsonExports.html"
+    },
+    {
+      "title": "tsconfig / resolvePackageJsonImports.html",
+      "url": "https://www.typescriptlang.org/tsconfig/resolvePackageJsonImports.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/resolvePackageJsonImports.html"
+    },
+    {
+      "title": "tsconfig / rewriteRelativeImportExtensions.html",
+      "url": "https://www.typescriptlang.org/tsconfig/rewriteRelativeImportExtensions.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/rewriteRelativeImportExtensions.html"
+    },
+    {
+      "title": "tsconfig / rootDir.html",
+      "url": "https://www.typescriptlang.org/tsconfig/rootDir.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/rootDir.html"
+    },
+    {
+      "title": "tsconfig / rootDirs.html",
+      "url": "https://www.typescriptlang.org/tsconfig/rootDirs.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/rootDirs.html"
+    },
+    {
+      "title": "tsconfig / skipDefaultLibCheck.html",
+      "url": "https://www.typescriptlang.org/tsconfig/skipDefaultLibCheck.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/skipDefaultLibCheck.html"
+    },
+    {
+      "title": "tsconfig / skipLibCheck.html",
+      "url": "https://www.typescriptlang.org/tsconfig/skipLibCheck.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/skipLibCheck.html"
+    },
+    {
+      "title": "tsconfig / sourceMap.html",
+      "url": "https://www.typescriptlang.org/tsconfig/sourceMap.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/sourceMap.html"
+    },
+    {
+      "title": "tsconfig / sourceRoot.html",
+      "url": "https://www.typescriptlang.org/tsconfig/sourceRoot.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/sourceRoot.html"
+    },
+    {
+      "title": "tsconfig / stopBuildOnErrors.html",
+      "url": "https://www.typescriptlang.org/tsconfig/stopBuildOnErrors.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/stopBuildOnErrors.html"
+    },
+    {
+      "title": "tsconfig / strict.html",
+      "url": "https://www.typescriptlang.org/tsconfig/strict.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/strict.html"
+    },
+    {
+      "title": "tsconfig / strictBindCallApply.html",
+      "url": "https://www.typescriptlang.org/tsconfig/strictBindCallApply.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/strictBindCallApply.html"
+    },
+    {
+      "title": "tsconfig / strictBuiltinIteratorReturn.html",
+      "url": "https://www.typescriptlang.org/tsconfig/strictBuiltinIteratorReturn.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/strictBuiltinIteratorReturn.html"
+    },
+    {
+      "title": "tsconfig / strictFunctionTypes.html",
+      "url": "https://www.typescriptlang.org/tsconfig/strictFunctionTypes.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/strictFunctionTypes.html"
+    },
+    {
+      "title": "tsconfig / strictNullChecks.html",
+      "url": "https://www.typescriptlang.org/tsconfig/strictNullChecks.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/strictNullChecks.html"
+    },
+    {
+      "title": "tsconfig / strictPropertyInitialization.html",
+      "url": "https://www.typescriptlang.org/tsconfig/strictPropertyInitialization.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/strictPropertyInitialization.html"
+    },
+    {
+      "title": "tsconfig / stripInternal.html",
+      "url": "https://www.typescriptlang.org/tsconfig/stripInternal.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/stripInternal.html"
+    },
+    {
+      "title": "tsconfig / suppressExcessPropertyErrors.html",
+      "url": "https://www.typescriptlang.org/tsconfig/suppressExcessPropertyErrors.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/suppressExcessPropertyErrors.html"
+    },
+    {
+      "title": "tsconfig / suppressImplicitAnyIndexErrors.html",
+      "url": "https://www.typescriptlang.org/tsconfig/suppressImplicitAnyIndexErrors.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/suppressImplicitAnyIndexErrors.html"
+    },
+    {
+      "title": "tsconfig / synchronousWatchDirectory.html",
+      "url": "https://www.typescriptlang.org/tsconfig/synchronousWatchDirectory.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/synchronousWatchDirectory.html"
+    },
+    {
+      "title": "tsconfig / target.html",
+      "url": "https://www.typescriptlang.org/tsconfig/target.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/target.html"
+    },
+    {
+      "title": "tsconfig / traceResolution.html",
+      "url": "https://www.typescriptlang.org/tsconfig/traceResolution.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/traceResolution.html"
+    },
+    {
+      "title": "tsconfig / tsBuildInfoFile.html",
+      "url": "https://www.typescriptlang.org/tsconfig/tsBuildInfoFile.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/tsBuildInfoFile.html"
+    },
+    {
+      "title": "tsconfig / typeAcquisition.html",
+      "url": "https://www.typescriptlang.org/tsconfig/typeAcquisition.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/typeAcquisition.html"
+    },
+    {
+      "title": "tsconfig / typeRoots.html",
+      "url": "https://www.typescriptlang.org/tsconfig/typeRoots.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/typeRoots.html"
+    },
+    {
+      "title": "tsconfig / types.html",
+      "url": "https://www.typescriptlang.org/tsconfig/types.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/types.html"
+    },
+    {
+      "title": "tsconfig / useDefineForClassFields.html",
+      "url": "https://www.typescriptlang.org/tsconfig/useDefineForClassFields.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/useDefineForClassFields.html"
+    },
+    {
+      "title": "tsconfig / useUnknownInCatchVariables.html",
+      "url": "https://www.typescriptlang.org/tsconfig/useUnknownInCatchVariables.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/useUnknownInCatchVariables.html"
+    },
+    {
+      "title": "tsconfig / verbatimModuleSyntax.html",
+      "url": "https://www.typescriptlang.org/tsconfig/verbatimModuleSyntax.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/verbatimModuleSyntax.html"
+    },
+    {
+      "title": "tsconfig / verbose.html",
+      "url": "https://www.typescriptlang.org/tsconfig/verbose.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/verbose.html"
+    },
+    {
+      "title": "tsconfig / watchDirectory.html",
+      "url": "https://www.typescriptlang.org/tsconfig/watchDirectory.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/watchDirectory.html"
+    },
+    {
+      "title": "tsconfig / watchFile.html",
+      "url": "https://www.typescriptlang.org/tsconfig/watchFile.html",
+      "fetchUrl": "https://www.typescriptlang.org/tsconfig/watchFile.html"
     }
   ],
   "referenceIssues": []
