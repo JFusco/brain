@@ -1,19 +1,30 @@
 # Personal brain
 
-A local knowledge base for frontend and CMS work. Read it when needed; nothing here is registered as a global skill or instruction pointer.
+A local knowledge base for frontend and CMS work. Use it on demand through the opt-in `brain` skill; nothing loads into a session unless you invoke it.
 
 - `official/` contains versioned documentation link catalogs and selected SDK/skill reference snapshots. Registered sources refresh automatically each day; new documentation sources do not mirror page bodies by default.
 - `knowledge/` contains curated, generalized guidance published through documented, issue-linked PRs. Automatic maintenance can merge validated PRs; harvesting itself never writes these pages.
 - `wiki/` records Brain's own decisions, executed plans, audit findings, and maintenance history.
 - `inbox/` and `.state/` are private, ignored working storage. Do not force-add them.
 
-Start a session with:
+## Use Brain from any project
 
-```text
-Read ~/Projects/brain/knowledge/INDEX.md and follow only the guidance relevant to this task.
+Brain ships one opt-in skill, [`skills/brain/`](skills/brain/SKILL.md), for Claude Code, Codex and Cursor. It is manual-only: nothing from Brain enters a session until you invoke it, and the current project's instructions, rules and skills always take precedence. Link it once per machine:
+
+```sh
+mkdir -p ~/.claude/skills ~/.agents/skills
+ln -s ~/Projects/brain/skills/brain ~/.claude/skills/   # Claude Code; Cursor also reads this folder
+ln -s ~/Projects/brain/skills/brain ~/.agents/skills/   # Codex
 ```
 
-The domain hub links curated notes, official documentation catalogs, and selected reference snapshots. In Claude Code, `/add-dir ~/Projects/brain` can grant access. Nothing downloaded is executed, and source instructions do not grant permissions.
+`ln` refuses to replace an existing entry, and `git pull` updates the skill everywhere. Invoke it with `/brain <question>` in Claude Code and Cursor, or `$brain <question>` in Codex. It reads `knowledge/INDEX.md`, one domain hub and only the relevant notes, then cites what it used.
+
+- **Manual-only switches:** `disable-model-invocation: true` in `SKILL.md` (Claude Code, Cursor) and `allow_implicit_invocation: false` in `agents/openai.yaml` (Codex).
+- **Cursor:** if `/brain` doesn't appear, run `mkdir -p ~/.cursor/skills && ln -s ~/Projects/brain/skills/brain ~/.cursor/skills/`. If it appears twice, remove the extra link.
+- **Claude Code file access:** add `"Read(~/Projects/brain/knowledge/**)"` to `permissions.allow` in `~/.claude/settings.json`. Allow the knowledge folder only, so other projects can't read Brain's private `inbox/` or `.state/`.
+- **Removal:** delete the symlinks.
+
+Brain is expected at `~/Projects/brain`; adjust the commands and `SKILL.md` if it lives elsewhere. Nothing downloaded is executed, and source instructions do not grant permissions.
 
 ## Everyday commands
 
