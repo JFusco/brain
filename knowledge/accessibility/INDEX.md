@@ -16,5 +16,5 @@ No curated notes yet.
 
 - **w3c-accessibility** — link catalog of 132 pages; rolling-url; revision `c2c7fa790e32156b38b445e98c5dbe7b96dccda9030b876ca7100d2c0874d6c8`; fetched 2026-10-18.
   - [Catalog source](https://www.w3.org/WAI/sitemap.xml); search it with `lookup --domain accessibility`.
-- [Official website](https://www.w3.org/WAI/standards-guidelines/wcag/) — pointer only: W3C WCAG overview; the w3c-accessibility catalog lists WCAG 2.2 Understanding and Techniques pages and the ARIA Authoring Practices Guide.
+- [Official website](https://www.w3.org/WAI/standards-guidelines/wcag/) — pointer only: W3C WCAG overview; the w3c-accessibility catalog lists the WCAG 2.2 and WAI-ARIA 1.2 specifications, the WCAG 2.2 Understanding and Techniques indexes, and the ARIA Authoring Practices Guide.
 <!-- brain:official:end -->

@@ -138,11 +138,13 @@ Official website pointers remain pointers until a useful downloadable source and
 | Next.js | [Official page index](https://nextjs.org/docs/llms.txt) and version guidance |
 | Vercel | [Platform documentation catalog](https://vercel.com/docs/sitemap.md), official plugin skills, and agent skills |
 | React | [Pinned documentation-tree catalog](https://github.com/reactjs/react.dev/tree/main/src/content), plus the official index |
+| TypeScript | [Handbook and TSConfig reference catalog](https://www.typescriptlang.org/docs/) from the site's sitemap |
+| Accessibility | [WCAG 2.2](https://www.w3.org/TR/WCAG22/) and [WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/), the WCAG 2.2 Understanding and Techniques indexes, and the [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) |
 | Tailwind | [Documentation-tree catalog](https://github.com/tailwindlabs/tailwindcss.com/tree/main/src/docs), with rights metadata preserved |
 | Contentstack | [Documentation sitemap](https://www.contentstack.com/sitemap.xml), Sitecore migration guidance, Studio brownfield guidance, and selected kickstart references |
-| Optimizely | [CMS SaaS and Graph index links](https://docs.optimizely.com/llms.txt), plus selected JavaScript SDK documentation |
-| Contentful | [Official repository skills](https://github.com/contentful/skills) and website pointers; broader website discovery encountered HTTP 429 |
-| Sitecore | [Official Content SDK skills and references](https://github.com/Sitecore/content-sdk), plus canonical product website pointers; earlier HEAD restrictions remain historical evidence |
+| Optimizely | [CMS SaaS, CMS 13 (PaaS) and Graph index links](https://docs.optimizely.com/llms.txt), plus selected JavaScript SDK documentation |
+| Contentful | [Official repository skills](https://github.com/contentful/skills) and website pointers; the documentation `llms.txt` returns HTTP 429 to GitHub-hosted runners, so it has no catalog yet |
+| Sitecore | [Official Content SDK skills and references](https://github.com/Sitecore/content-sdk), plus SitecoreAI and XP 10.4 website pointers; doc.sitecore.com returns HTTP 403 to GitHub-hosted runners, so its docs have no catalog yet |
 
 Coverage is reviewed weekly against the watch list below, and each addition is a separate registration PR. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. The weekly check never adds sources.
 

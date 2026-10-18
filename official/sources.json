@@ -510,7 +510,7 @@
     {
       "domain": "accessibility",
       "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
-      "reason": "W3C WCAG overview; the w3c-accessibility catalog lists WCAG 2.2 Understanding and Techniques pages and the ARIA Authoring Practices Guide."
+      "reason": "W3C WCAG overview; the w3c-accessibility catalog lists the WCAG 2.2 and WAI-ARIA 1.2 specifications, the WCAG 2.2 Understanding and Techniques indexes, and the ARIA Authoring Practices Guide."
     }
   ]
 }
