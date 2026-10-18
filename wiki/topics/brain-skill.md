@@ -15,6 +15,15 @@ Other projects use Brain through one manual-only skill, [`skills/brain/`](../../
 - **Narrow file access.** Claude Code gets `Read(~/Projects/brain/knowledge/**)`, not the whole repository, so other projects cannot read the private inbox or `.state/`.
 - **Rejected alternatives.** An always-loaded instruction (a global CLAUDE.md/AGENTS.md, or the project `integration` blocks) costs context in every session. Automatic triggering costs one description line per session and can run beside project guidance; revisit it only if manual use proves easy to forget.
 
+## Capture skill
+
+[Phase 2](../journal/2026-10-18-simplification-phase-2.md) adds a second manual-only skill, [`skills/brain-capture/`](../../skills/brain-capture/SKILL.md), with the same switches and two more user-level links.
+
+- **What it does.** From any project, it drafts up to three sanitized lessons in the page-template shape. It labels documented, observed and proposed claims, names the application and versions, and pipes each lesson to `node ~/Projects/brain/scripts/brain.mjs capture --stdin --domain <d>`.
+- **Where lessons go.** Into Brain's private, scanned inbox; nothing is published. A later Brain session turns captures into notes through an ordinary PR.
+- **Why not open the PR directly.** Joe chose the inbox route so that Git operations and client context stay out of other projects.
+- **What it replaces.** The removed project `integration` command, which appended always-loaded instruction blocks to enrolled projects.
+
 ## Evidence and limits
 
 Claude Code behavior comes from its skills and memory documentation: a `disable-model-invocation` skill's description is not in context, personal skills override same-named project skills, and `--add-dir` does not load that directory's CLAUDE.md by default. Because personal skills win in Claude Code, Brain must never install vendor skills at user level; that would override a project's own copy.

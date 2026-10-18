@@ -30,60 +30,8 @@
     "cms/contentful",
     "_unsorted"
   ],
-  "harvest": {
-    "projectPatterns": [
-      "*",
-      "@verndale/*",
-      "clients/*"
-    ],
-    "candidateBytes": 16384,
-    "sourceBytes": 8388608,
-    "excludeDirectories": [
-      "node_modules",
-      ".git",
-      "dist",
-      "build",
-      ".next",
-      "out",
-      "coverage",
-      "graphify-out",
-      "output",
-      "sessions",
-      "transcripts",
-      "rollouts",
-      "plans",
-      ".state",
-      "inbox",
-      ".pnpm-store",
-      ".venv",
-      "venv",
-      ".yarn",
-      ".cache",
-      ".turbo",
-      ".tox",
-      "__pycache__",
-      ".pytest_cache",
-      ".mypy_cache",
-      ".ruff_cache",
-      "worktrees",
-      ".worktrees",
-      ".qa",
-      ".qa-operations",
-      ".agent-browser",
-      ".playwright",
-      "playwright-report",
-      "test-results",
-      ".vercel"
-    ],
-    "excludeFiles": [
-      "mcp.json",
-      ".mcp.json",
-      "config.toml",
-      "auth.json",
-      "raw_memories.md",
-      "history.jsonl"
-    ],
-    "classifierVersion": 2
+  "capture": {
+    "candidateBytes": 16384
   },
   "keywords": {
     "nextjs": [

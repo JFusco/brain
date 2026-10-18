@@ -4,13 +4,15 @@ domain: "_unsorted"
 aliases: ["best practices","skill selection","find skills"]
 evidence_date: "2026-10-15"
 reviewed_at: "2026-10-17"
-status: "current"
+status: "retired"
 versions: []
 applicability: "Tasks using Brain references; skill installation requires explicit project scope"
 provenance: "vercel-plugin@137e9f44a243a939c5eaea30e4dff96aee744f64; sitecore-content-sdk@6ec243fc709bfb917e7ce9be6151e63d0f33c5b6; current Brain registry and skills matcher"
 ---
 
 # Find applicable best practices and skills
+
+> Retired on 2026-10-18. The manual [`brain` skill](../../skills/brain/SKILL.md) now routes requests to the relevant notes and official entry points, and Brain no longer installs project skills. This page is kept as history.
 
 ## When to use this
 

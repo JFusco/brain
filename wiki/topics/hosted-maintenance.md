@@ -7,7 +7,7 @@ aliases: ["hosted maintenance", "cloud link investigation"]
 
 The trusted default-branch `Brain hosted maintenance` workflow runs at 03:15 America/New_York, with daylight-saving handling supplied by GitHub's timezone-aware schedule. Manual dispatch uses the same pipeline. GitHub may delay schedules; this removes the Mac/app dependency, not scheduler latency.
 
-The scope is existing registered official references, their links and narrowly verified routing repairs. Private project harvesting and unpublished inbox curation remain local; no client terms/paths, inbox/candidate bodies, session/auth/environment files, raw memories, private-state backups or recovery keys are copied to runners. Automatic backups and Drive uploads remain disabled.
+The scope is existing registered official references, their links and narrowly verified routing repairs. Private captures and unpublished inbox curation remain local; no client terms/paths, inbox/candidate bodies, session/auth/environment files, raw memories, private-state backups or recovery keys are copied to runners. Automatic backups and Drive uploads remain disabled.
 
 ## Three separate jobs
 

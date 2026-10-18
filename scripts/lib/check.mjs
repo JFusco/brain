@@ -5,26 +5,11 @@ import {spawnSync} from 'node:child_process';
 import {at,ROOT,config,walk,inside,safePath,json,sha} from './core.mjs';
 import {assertClean} from './privacy.mjs';
 import {checkOfficial,historicalCacheGaps,lock,snapshotRoot,registry} from './official.mjs';
-import {versionConstraint} from './project-context.mjs';
+import {validateKnowledge,isNote,curatedBlock,CURATED} from './guidance.mjs';
 const require=createRequire(import.meta.url);
-const {splitFrontmatter,scalar,list:frontmatterList,frontmatterProblems}=require('../wiki/lib/frontmatter.cjs');
+const {splitFrontmatter,scalar}=require('../wiki/lib/frontmatter.cjs');
 const {collect}=require('../wiki/lib/wiki-graph.cjs');
 
-export function validateKnowledge(entries) {
-  const problems=[];
-  for(const {id,bytes} of entries) {
-    const parsed=splitFrontmatter(bytes.toString());
-    if(!parsed.raw)problems.push(`${id}: missing frontmatter`);
-    if(!scalar(parsed.raw,'title'))problems.push(`${id}: missing title`);
-    problems.push(...frontmatterProblems(parsed.raw).map(p=>`${id}: ${p}`));
-    if(!id.endsWith('/INDEX.md')&&!id.includes('/_templates/'))for(const key of ['domain','evidence_date','applicability','provenance'])if(!scalar(parsed.raw,key))problems.push(`${id}: missing ${key}`);
-    const status=scalar(parsed.raw,'status');if(status&&!['current','superseded','retired'].includes(status))problems.push(`${id}: invalid guidance status`);
-    for(const field of ['reviewed_at','review_after']){const value=scalar(parsed.raw,field);if(value&&(!/^\d{4}-\d\d-\d\d$/.test(value)||!Number.isFinite(Date.parse(value))||new Date(value).toISOString().slice(0,10)!==value))problems.push(`${id}: invalid ${field}`);}
-    for(const value of frontmatterList(parsed.raw,'versions'))try{versionConstraint(value);}catch{problems.push(`${id}: invalid package-version constraint`);}
-    const replacement=scalar(parsed.raw,'superseded_by');if(status==='superseded'&&(!/^knowledge\/.+\.md$/.test(replacement)||replacement===id||replacement.split('/').includes('..')))problems.push(`${id}: superseded guidance requires a different knowledge page`);
-  }
-  return problems;
-}
 export function check({staged=false}={}) {
   const issues=[],warnings=[],entries=[];
   if(staged) {
@@ -58,10 +43,10 @@ export function check({staged=false}={}) {
   for(const entry of vendor){const parts=entry.id.split('/'),source=registry().sources.find(s=>s.id===parts[2]);for(const exception of source?.scanExceptions||[])if(exception.path===parts.slice(4).join('/'))exceptions.push({...exception,path:entry.id});}
   try{assertClean(vendor,{clients:false,exceptions});}catch(error){issues.push(error.message);}
   issues.push(...validateKnowledge(entries.filter(e=>e.id.startsWith('knowledge/')&&e.id.endsWith('.md')&&!e.id.includes('/_templates/'))));
-  const approvalBytes=staged?entries.find(e=>e.id==='knowledge/approvals.json')?.bytes:fs.existsSync(at('knowledge/approvals.json'))?fs.readFileSync(at('knowledge/approvals.json')):null;
-  const approvedPages=approvalBytes?JSON.parse(approvalBytes).pages:{};
-  for(const entry of entries.filter(e=>e.id.startsWith('knowledge/')&&e.id.endsWith('.md')&&!e.id.endsWith('/INDEX.md')&&!e.id.includes('/_templates/')))if(approvedPages[entry.id]?.sha256!==sha(entry.bytes))issues.push(`${entry.id}: exact content has no matching approval record`);
-  for(const entry of entries.filter(e=>e.id.startsWith('knowledge/')&&e.id.endsWith('.md')&&!e.id.includes('/_templates/'))){const parsed=splitFrontmatter(entry.bytes.toString());if(scalar(parsed.raw,'status')==='superseded'){const target=scalar(parsed.raw,'superseded_by');if(!approvedPages[target]||!entries.some(candidate=>candidate.id===target))issues.push(`${entry.id}: superseded replacement has no published content`);}}
+  const notes=entries.filter(e=>isNote(e.id)).map(e=>({path:e.id,raw:splitFrontmatter(e.bytes.toString()).raw,valid:!validateKnowledge([e]).length}));
+  for(const note of notes)if(scalar(note.raw,'status')==='superseded'){const target=scalar(note.raw,'superseded_by');if(!notes.some(candidate=>candidate.path===target))issues.push(`${note.path}: superseded replacement has no published content`);}
+  // Hubs must link exactly the current notes these bytes would publish.
+  for(const domain of config().domains){const hub=`knowledge/${domain}/INDEX.md`,block=entries.find(e=>e.id===hub)?.bytes.toString().match(CURATED)?.[0];if(block&&block!==curatedBlock(domain,notes.filter(note=>note.valid)))issues.push(`${hub}: curated links are out of date; run curation hubs`);}
   if(!staged) {
     for(const issue of checkOfficial())(issue.endsWith('no active snapshot')?warnings:issues).push(issue);
     const historicalGaps=historicalCacheGaps();if(historicalGaps.length)warnings.push(`${historicalGaps.length} historical cached files unavailable; active and present bytes remain checked`);

@@ -8,7 +8,7 @@ aliases: ["contentful"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No approved learnings yet.
+- [Choose Contentful delivery or Preview before copying examples](preview-api-surface.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

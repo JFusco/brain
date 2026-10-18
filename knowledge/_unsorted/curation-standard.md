@@ -5,9 +5,12 @@ aliases: ["curation","knowledge quality","automatic publication"]
 evidence_date: "2026-10-17"
 applicability: "Brain maintenance; mechanical validation does not establish technical correctness"
 provenance: "User-authorized automatic curation policy on 2026-10-15 and rejection refinement on 2026-10-17; current Brain proposal and merge-recording code"
+status: "retired"
 ---
 
 # Curate useful guidance and publish it automatically
+
+> Retired on 2026-10-18. This was Brain's own maintenance process, not frontend guidance. Its standing rules now live in `AGENTS.md` → "Curation and publication" and the README; the proposal, export and merge-recording steps it describes were removed. This page is kept as history.
 
 ## When to use this
 

@@ -5,6 +5,8 @@ aliases: ["file stamps", "paraphrase review", "inbox compare"]
 
 # Incremental collection and duplicate lesson review
 
+Historical: [simplification phase 2](../journal/2026-10-18-simplification-phase-2.md) removed project harvesting with its incremental stamps, and `inbox compare` with its duplicate-review records. Lessons now arrive through explicit capture. Overlap review is a curator reading the relevant hubs and notes before editing one in an ordinary knowledge PR. This page records how the removed mechanism worked.
+
 Collection enumerates eligible project files but opens a source body only when its saved device/inode, size, nanosecond modification/change times, mode, privacy policy, or collection version differs. Reads verify identity before and after. A metadata-only change with unchanged bytes refreshes the private stamp without rescanning or recreating candidates. Changed content still passes the existing scanner, source classification, scrubbing, chunk hashing and provenance tracking. Accepted/rejected dispositions and original evidence remain intact. This is a trusted local optimization, not protection from privileged filesystem or private-state tampering. `harvest --rehash` provides an explicit content audit.
 
 The upgrade seeds stamps once. Actual collection inspected 2,128 source files, reading 10,342,195 bytes, and created zero new candidates. The immediate follow-up dry run enumerated those 2,128 files, skipped all source bodies, read zero body bytes and found no new candidates or unreadable sources. These are local command outcomes, not unattended scheduler proof. The source-body counters do not include toolchain verification or directory discovery.

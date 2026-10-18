@@ -1,10 +1,17 @@
 # Implementation status
 
-Brain provides on-demand frontend/CMS knowledge lookup, selected project-skill management, and private lesson capture. Start at [the knowledge index](knowledge/INDEX.md); use [the README](README.md) for commands.
+Brain provides on-demand frontend/CMS knowledge lookup, read-only project-skill suggestions, and manual private lesson capture. Start at [the knowledge index](knowledge/INDEX.md); use [the README](README.md) for commands.
+
+## Simplification
+
+- [Phase 1](wiki/journal/2026-10-18-simplification-phase-1.md) added the opt-in `brain` skill, fixed `lookup` on fresh clones, and removed backup tooling and the wiki sync workflows.
+- Phase 2 ([issue 54](https://github.com/JFusco/brain/issues/54)) makes publishing an ordinary Git change. A merged note with `status: current` is published, with no approval ledger or proposal export. Lessons arrive through the manual `brain-capture` skill instead of nightly project harvesting.
+  - The `integration` command and the project skill installer are gone; `skills suggest` remains.
+  - The 2,726 pending harvested records stay untouched in the private inbox and are reviewed only on request. The privacy-policy change requires one `inbox rescan`.
 
 ## Delivered cleanup
 
-- Automatic collection selects project topic notes and authored skills. Raw memory roots, indexes, repository instructions, and implementation journals are excluded. Explicit captures and existing project capture integrations remain available.
+- Automatic collection selected project topic notes and authored skills, excluding raw memory roots, indexes, repository instructions and implementation journals. Phase 2 removed it.
 - React and Next.js link to the full Vercel plugin catalog instead of repeating it. React retains its direct review entry. Knowledge usage instructions have one detailed guide.
 - Four unused core exports, eight unused imports, and two redundant directory placeholders were removed. Setup, maintenance, recovery tools, vendor snapshots, manifests, and the ten published notes remain available.
 - Inbox screening, full retained-baseline semantic review and deduplication record hash-bound decisions privately. Useful or uncertain evidence stays pending with specific reasons and evidence gaps.

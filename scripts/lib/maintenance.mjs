@@ -32,6 +32,16 @@ export function maintenanceStatus() {
   return {ok:!errors.length,checkedAt:now(),errors,warnings,references:{backend:hosted?'github-actions':'local',statusURL:hosted?'https://github.com/JFusco/brain/actions/workflows/brain-maintenance.yml':null,notice:hosted?'Local source/link observations are historical; inspect the hosted run and verification for current status. Local ok does not establish hosted success.':null},collection:{lastAttempt:schedule.lastAttempt||schedule.lastRun||null,lastSuccess:lastCollectionSuccess||null,failures:schedule.lastResult?.failures?.length||0},sources,publication:{lastAttempt:publication.lastAttempt||null,lastSuccess:publication.lastSuccess||null,lastOutcome:publication.lastOutcome||null,lastPr:publication.lastPr||null,activeRun:publication.activeRun||null,trigger:publication.trigger||null},maintenance:{lastAttempt:maintenance.lastAttempt||null,lastSuccess:maintenance.lastSuccess||null,failures:maintenance.failures||[]},links,guidance:{due:guidance.total},notice:'Local jobs require this Mac and their host app. Agent-reported publication records distinguish manual from scheduled invocation; they are not independent scheduler attestations. Missed-run status is evaluated when checked.'};
 }
 
+export async function mergedBrainPR(pr) {
+  if(!/^[1-9]\d*$/.test(String(pr||'')))throw new Error('A merged PR number is required');
+  const origin=spawnSync('git',['remote','get-url','origin'],{cwd:ROOT,encoding:'utf8',timeout:10000});
+  const repository=origin.stdout?.trim().match(/^(?:https:\/\/github\.com\/|git@github\.com:)([\w.-]+\/[\w.-]+?)(?:\.git)?$/)?.[1];
+  if(!repository)throw new Error('Cannot establish Brain repository identity');
+  const saved=await api(`repos/${repository}/pulls/${pr}`);
+  if(!saved.merged_at||saved.base?.ref!=='main'||saved.base?.repo?.full_name?.toLowerCase()!==repository.toLowerCase())throw new Error('PR is not merged to Brain main');
+  return saved;
+}
+
 export async function recordPublication({phase,runId,outcome,pr,trigger='manual'}={}) {
   const file=at('.state/publication.json'),state=readJSON(file,{});
   if(!['manual','scheduled-agent'].includes(trigger))throw new Error('Publication trigger must be manual or scheduled-agent');
@@ -46,11 +56,7 @@ export async function recordPublication({phase,runId,outcome,pr,trigger='manual'
     if(!['published','unchanged'].includes(outcome))throw new Error('Completion outcome must be published or unchanged');
     if(outcome==='published'){
       if(!/^[1-9]\d*$/.test(String(pr||'')))throw new Error('Published completion requires --pr');
-      const origin=spawnSync('git',['remote','get-url','origin'],{cwd:ROOT,encoding:'utf8',timeout:10000});
-      const repository=origin.stdout?.trim().match(/^(?:https:\/\/github\.com\/|git@github\.com:)([\w.-]+\/[\w.-]+?)(?:\.git)?$/)?.[1];
-      if(!repository)throw new Error('Cannot establish Brain repository identity');
-      const saved=await api(`repos/${repository}/pulls/${pr}`);
-      if(!saved.merged_at||saved.base?.ref!=='main'||saved.base?.repo?.full_name?.toLowerCase()!==repository.toLowerCase())throw new Error('Publication PR is not merged to Brain main');
+      const saved=await mergedBrainPR(pr);
       state.lastPr=Number(pr);state.lastMergeCommit=saved.merge_commit_sha;
     }else if(pr)throw new Error('Unchanged publication cannot cite a new merged PR');
     state.lastSuccess=now();state.lastOutcome=outcome;
