@@ -14,7 +14,7 @@ export function maintenanceStatus() {
   if(publication.lastOutcome==='failed')errors.push('The latest publication attempt failed');
   if(!publication.lastSuccess)warnings.push('Awaiting the first recorded publication run; configuration is not unattended execution proof');
   const guidance=staleGuidance({limit:12});if(guidance.total)warnings.push('Curated guidance is due for source/claim revalidation');
-  return {ok:!errors.length,checkedAt:now(),errors,warnings,sources,publication:{lastAttempt:publication.lastAttempt||null,lastSuccess:publication.lastSuccess||null,lastOutcome:publication.lastOutcome||null,lastPr:publication.lastPr||null,activeRun:publication.activeRun||null,trigger:publication.trigger||null},links:linkSummary(),guidance:{due:guidance.total},notice:'Agent-reported publication records distinguish manual from scheduled invocation; they are not independent scheduler attestations. Link counts are local samples from this machine.'};
+  return {ok:!errors.length,checkedAt:now(),errors,warnings,references:{weekly:'https://github.com/JFusco/brain/actions/workflows/brain-weekly.yml',notice:'Catalog refresh and link sampling run weekly on GitHub and report through one issue.'},sources,publication:{lastAttempt:publication.lastAttempt||null,lastSuccess:publication.lastSuccess||null,lastOutcome:publication.lastOutcome||null,lastPr:publication.lastPr||null,activeRun:publication.activeRun||null,trigger:publication.trigger||null},links:linkSummary(),guidance:{due:guidance.total},notice:'Agent-reported publication records distinguish manual from scheduled invocation; they are not independent scheduler attestations. Link counts are local samples from this machine.'};
 }
 
 export async function mergedBrainPR(pr) {

@@ -1,0 +1,70 @@
+name: Brain weekly reference health
+
+on:
+  schedule:
+    # Mondays 08:23 UTC; plain UTC cron, no timezone key.
+    - cron: '23 8 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+  actions: read
+
+concurrency:
+  group: brain-weekly-references
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  weekly:
+    if: github.repository == 'JFusco/brain' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.14.0'
+      - name: Locate the previous run's link state
+        id: previous
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const {owner, repo} = context.repo;
+            const runs = await github.rest.actions.listWorkflowRuns({owner, repo, workflow_id: 'brain-weekly.yml', branch: 'main', status: 'completed', per_page: 30});
+            for (const run of runs.data.workflow_runs) {
+              if (run.id === context.runId || !['schedule', 'workflow_dispatch'].includes(run.event) || run.head_repository?.full_name !== `${owner}/${repo}`) continue;
+              const artifacts = await github.rest.actions.listWorkflowRunArtifacts({owner, repo, run_id: run.id});
+              const state = artifacts.data.artifacts.filter(a => /^brain-link-state-\d+$/.test(a.name) && !a.expired).sort((a, b) => Number(b.name.split('-').pop()) - Number(a.name.split('-').pop()))[0];
+              if (state) {core.setOutput('run_id', String(run.id)); core.setOutput('artifact_name', state.name); return;}
+            }
+      - name: Restore the previous run's link state
+        if: steps.previous.outputs.run_id != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ steps.previous.outputs.artifact_name }}
+          path: .state/previous
+          github-token: ${{ github.token }}
+          run-id: ${{ steps.previous.outputs.run_id }}
+      - name: Install the pinned scanner profile
+        run: node scripts/hosted/setup.mjs
+      - name: Refresh catalogs, sample links, check and update the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/hosted/weekly.mjs
+      - name: Keep link state for the next run
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: brain-link-state-${{ github.run_attempt }}
+          path: |
+            .state/link-health.json
+            .state/official-runs.json
+          include-hidden-files: true
+          if-no-files-found: warn
+          retention-days: 90
