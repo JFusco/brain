@@ -109,12 +109,15 @@ function writeLock(reg,current) {
   for(const [id,entry] of Object.entries(current.sources))sources[id]??=entry;
   writeJSON(at('official/sources.lock.json'),{schemaVersion:2,sources,toolchain:current.toolchain||{}});
 }
-export async function sync({ids=null}={}) {
+// Hosted runs skip sources on hosts that refuse GitHub-hosted runners; a local sync refreshes them.
+export const runnerBlocked=(spec,reg=registry())=>catalogHosts(spec).some(host=>(reg.runnerBlockedHosts||[]).includes(host));
+export async function sync({ids=null,hosted=false}={}) {
   const reg=registry(),specs=reg.sources.filter(s=>!ids||ids.includes(s.id));
   if(ids?.some(id=>!specs.some(s=>s.id===id)))throw new Error('Unknown official source ID');
   const current=lock(),state=readJSON(at('.state/official-runs.json'));
-  const changed=[],failed=[],unchanged=[];
+  const changed=[],failed=[],unchanged=[],skipped=hosted?specs.filter(s=>runnerBlocked(s,reg)).map(s=>s.id):[];
   for(const spec of specs) {
+    if(skipped.includes(spec.id))continue;
     const previous=current.sources[spec.id],run=state[spec.id]||{},track=spec.track||'rolling-url';
     try {
       const doc=await fetchCatalog(spec),bytes=catalogBytes(doc);
@@ -140,7 +143,7 @@ export async function sync({ids=null}={}) {
   }
   if(!ids)for(const id of Object.keys(current.sources))if(!reg.sources.some(s=>s.id===id)){changed.push({id,from:current.sources[id].revision,to:null});delete current.sources[id];fs.rmSync(at(catalogPath(id)),{force:true});writeLock(reg,current);}
   generateHubs();
-  return {changed,unchanged,failed};
+  return {changed,unchanged,failed,skipped};
 }
 export function officialSections({reg=registry(),active=lock(),catalog=readCatalog}={}) {
   const sections={};
@@ -184,7 +187,7 @@ const onHosts=(value,hosts)=>hosts.includes(webURL(value)?.hostname);
 const catalogHosts=spec=>[...(spec.kind==='repository'?['github.com','raw.githubusercontent.com']:[]),...(webURL(spec.documentationBase)?[webURL(spec.documentationBase).hostname]:[]),...(spec.allowedHosts||[])];
 function registryProblems(reg) {
   const issues=[],domains=config().domains,ids=new Set();
-  if(reg.schemaVersion!==2||!Array.isArray(reg.sources)||!Array.isArray(reg.pointers)||Object.keys(reg).length!==3)return ['official/sources.json: schemaVersion 2 with sources and pointers is required'];
+  if(reg.schemaVersion!==2||!Array.isArray(reg.sources)||!Array.isArray(reg.pointers)||Object.keys(reg).filter(key=>key!=='runnerBlockedHosts').length!==3)return ['official/sources.json: schemaVersion 2 with sources and pointers is required'];
   for(const spec of reg.sources){
     if(!SOURCE_ID.test(spec?.id)||ids.has(spec.id)){issues.push('official/sources.json: invalid or duplicate source ID');continue;}
     ids.add(spec.id);const fail=reason=>issues.push(`official/sources.json: ${spec.id}: ${reason}`);
@@ -203,6 +206,10 @@ function registryProblems(reg) {
     if(spec.kind==='collection'&&(!onHosts(spec.indexUrl,spec.allowedHosts||[])||!Array.isArray(spec.includePrefixes)))fail('indexUrl must be HTTPS on an allowed host with include prefixes');
   }
   for(const pointer of reg.pointers)if(!domains.includes(pointer?.domain)||!webURL(pointer.url)||typeof pointer.reason!=='string'||!pointer.reason.trim()||Object.keys(pointer).length!==3)issues.push('official/sources.json: invalid website pointer');
+  if(Object.hasOwn(reg,'runnerBlockedHosts')){
+    const blocked=reg.runnerBlockedHosts,used=new Set([...reg.sources.filter(s=>s&&typeof s==='object').flatMap(catalogHosts),...reg.pointers.map(p=>webURL(p?.url)?.hostname)]);
+    if(!Array.isArray(blocked)||new Set(blocked).size!==blocked.length||blocked.some(host=>!used.has(host)))issues.push('official/sources.json: runnerBlockedHosts must list unique hosts used by registered sources or pointers');
+  }
   return issues;
 }
 function catalogProblems(spec,entry,doc) {

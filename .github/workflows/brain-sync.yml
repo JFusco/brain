@@ -1,7 +1,8 @@
 name: Brain catalog sync
 
 # Manual only: refresh catalogs (all, or the given source IDs) on a non-main
-# branch and commit the catalogs, lock and hubs back to that branch.
+# branch and commit the catalogs, lock and hubs back to that branch. Sources
+# on runnerBlockedHosts are skipped; a local official sync refreshes them.
 on:
   workflow_dispatch:
     inputs:
@@ -39,7 +40,7 @@ jobs:
           SOURCES: ${{ inputs.sources }}
         run: |
           set +e
-          node scripts/brain.mjs official sync $SOURCES > .state/sync.json
+          node scripts/brain.mjs official sync --hosted $SOURCES > .state/sync.json
           status=$?
           set -e
           cat .state/sync.json
