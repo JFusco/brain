@@ -5,9 +5,23 @@ aliases: ["curation", "reference refresh", "Brain audit"]
 
 # Automatic knowledge maintenance
 
-Brain collects private candidate evidence, keeps immutable official references, and publishes useful guidance through documented, issue-linked PRs. Joe authorized automatic maintenance merges without a human review or separate digest approval. The daily local agent is restricted to documentation and reference artifacts; code, policies, new source/host registrations, other repositories, installed project skills, and memories are outside that recurring scope. The bounded existing-reference routing exception is defined in the [daily link warning investigation procedure](link-warning-investigation.md).
+Brain captures private lesson evidence, keeps immutable official references, and publishes useful guidance through documented, issue-linked PRs. Joe authorized automatic maintenance merges without a human review or separate digest approval. The daily local agent is restricted to documentation and reference artifacts; code, policies, new source/host registrations, other repositories, installed project skills, and memories are outside that recurring scope. The bounded existing-reference routing exception is defined in the [daily link warning investigation procedure](link-warning-investigation.md).
+
+## Current flow: notes publish on merge
+
+[Simplification phase 2](../journal/2026-10-18-simplification-phase-2.md) ([issue 54](https://github.com/JFusco/brain/issues/54)) replaced the pipeline described in the historical sections below.
+
+- **Capture.** Lessons are captured deliberately with the manual `brain-capture` skill (`capture --stdin --domain <d>`) into the private, scanned inbox. Nightly project harvesting and the project `integration` blocks are gone.
+- **Publication.** Publishing is an ordinary Git change: edit a note on an issue branch, run `curation hubs` and `check`, then merge the PR. A merged note with `status: current` is published. `knowledge/approvals.json`, proposal digests, `curation export`/`record-merge` and duplicate-review records are gone. After merge, `inbox resolve --as accepted --pr <n>` records the outcome against the verified merged PR.
+- **Why.** Over 3,075 harvested candidates, the old path accepted one and published about ten notes. Its exact-byte ledger made one hand edit break `lookup`, maintenance, `official sync` and the hosted run.
+- **Kept.** Stale-first revalidation, the 12-per-night limit, the conservative rejection rules and the automatic merge authorization for routine knowledge PRs all remain.
+- **Backlog.** The 2,726 pending harvested records stay untouched and are reviewed only on request (`inbox list --backlog`). The privacy policy now covers only client terms and the scanner version, and `inbox rescan` re-checks older records without rewriting bodies.
+- **Nightly curator.** The local Codex curator is repointed to stale notes and new captures.
 
 ## Capture from working projects
+
+Historical: phase 2 removed this integration.
+
 
 The explicitly authorized project integration adds automatic lesson-submission instructions at substantive planning, investigation, and implementation checkpoints. It supports Codex, Claude, and Cursor through project-local adapters; installation is previewed and requires a scoped `--yes` operation for the selected Git repository. Shared instructions ask agents to distinguish documented facts, observed results, and proposed practices. This is agent-directed capture, not transcript ingestion or a guaranteed completion hook.
 
@@ -16,6 +30,8 @@ The standalone helper keeps an ignored, private retry queue before calling Brain
 Integration ownership is separate from vendor-skill management. Changed managed content and unmanaged conflicts block replacement; private transaction journals support cautious recovery. Removal preserves unrelated text and pending private evidence plus its ignore rule. Brain itself is not enrolled. No other project enrollment, global installation, or background project mutation is implied by implementing this capability. See [the local implementation journal](../journal/2026-10-16-project-lesson-capture.md).
 
 ## Curation and publication
+
+Historical: phase 2 replaced this with ordinary note PRs; `inbox propose`/`apply` remain only for registry changes.
 
 A private proposal binds exact replacement text, destination hashes, candidate hashes, privacy policy, and the explicit subset of candidates ready for acceptance. `curation export` writes the proposal, exact-content records, and curated links into a clean issue-linked worktree of this same repository. Partial source candidates remain pending. The CLI performs no Git commits, pushes, PR creation, or merges.
 
