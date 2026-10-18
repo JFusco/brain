@@ -21,7 +21,7 @@ Local verification outcomes and cleanup counts are recorded in [the reconciliati
 
 Use `node scripts/brain.mjs maintenance status` for observed collection/publication attempts, failures, source freshness, and sampled link coverage. A configured schedule alone is not proof of execution.
 
-Automatic backups and Drive uploads are disabled. Tests, fixtures, CI, fresh-session checks, dedicated QA, and review-agent audits remain deferred for v1.
+Backup tooling, previously disabled, has been removed; existing private archives and keys were not touched. Tests, fixtures, CI, fresh-session checks, dedicated QA, and review-agent audits remain deferred for v1.
 
 ## History
 

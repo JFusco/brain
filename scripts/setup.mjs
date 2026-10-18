@@ -35,7 +35,6 @@ await withLock(async()=>{
     writeJSON(at('official/sources.lock.json'),lock);
     console.log(`Installed checksum-verified Gitleaks ${version} privately inside the brain.`);
   }
-  if(process.argv.includes('--approve-registry'))writeJSON(at('.state/registry-approval.json'),{sha256:sha(fs.readFileSync(at('official/sources.json'))),approvedAt:now(),method:'Explicit setup --approve-registry invocation'},0o600);
   if(process.argv.includes('--launch-agent')) {
     const label='com.joefusco.brain',source=at(`launchd/${label}.plist`),destination=path.join(os.homedir(),'Library/LaunchAgents',label+'.plist');
     const escape=value=>value.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');

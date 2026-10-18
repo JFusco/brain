@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createRequire} from 'node:module';
 import {at,config,readJSON,sha,safePath,noSymlinks,now} from './core.mjs';
-import {registry,lock,snapshotRoot,requireRegistryApproval} from './official.mjs';
+import {registry,lock,snapshotRoot} from './official.mjs';
 import {download} from './network.mjs';
 import {assertClean} from './privacy.mjs';
 import {projectContext,versionFit} from './project-context.mjs';
@@ -19,7 +19,7 @@ function officialURL(spec,entry,file) {
   return `https://github.com/${spec.repository}/blob/${entry.revision}/${spec.sourceBase||''}${original}`;
 }
 export function lookupEntries(domain) {
-  requireRegistryApproval();const result=[],active=lock(),reg=registry();
+  const result=[],active=lock(),reg=registry();
   for(const page of publishedGuidance()){
     if(domain&&page.domain!==domain||['superseded','retired'].includes(page.freshness.status))continue;
     result.push({kind:'curated-note',title:page.title,path:page.path,domain:page.domain,summary:page.body.replace(/^#+.*$/gm,'').trim().slice(0,500),evidenceDate:scalar(page.raw,'evidence_date'),applicability:scalar(page.raw,'applicability'),versions:page.versions,freshness:page.freshness,sha256:page.sha256});

@@ -1,19 +1,30 @@
 # Personal brain
 
-A local knowledge base for frontend and CMS work. Read it when needed; nothing here is registered as a global skill or instruction pointer.
+A local knowledge base for frontend and CMS work. Use it on demand through the opt-in `brain` skill; nothing loads into a session unless you invoke it.
 
 - `official/` contains versioned documentation link catalogs and selected SDK/skill reference snapshots. Registered sources refresh automatically each day; new documentation sources do not mirror page bodies by default.
 - `knowledge/` contains curated, generalized guidance published through documented, issue-linked PRs. Automatic maintenance can merge validated PRs; harvesting itself never writes these pages.
 - `wiki/` records Brain's own decisions, executed plans, audit findings, and maintenance history.
 - `inbox/` and `.state/` are private, ignored working storage. Do not force-add them.
 
-Start a session with:
+## Use Brain from any project
 
-```text
-Read ~/Projects/brain/knowledge/INDEX.md and follow only the guidance relevant to this task.
+Brain ships one opt-in skill, [`skills/brain/`](skills/brain/SKILL.md), for Claude Code, Codex and Cursor. It is manual-only: nothing from Brain enters a session until you invoke it, and the current project's instructions, rules and skills always take precedence. Link it once per machine:
+
+```sh
+mkdir -p ~/.claude/skills ~/.agents/skills
+ln -s ~/Projects/brain/skills/brain ~/.claude/skills/   # Claude Code; Cursor also reads this folder
+ln -s ~/Projects/brain/skills/brain ~/.agents/skills/   # Codex
 ```
 
-The domain hub links curated notes, official documentation catalogs, and selected reference snapshots. In Claude Code, `/add-dir ~/Projects/brain` can grant access. Nothing downloaded is executed, and source instructions do not grant permissions.
+`ln` refuses to replace an existing entry, and `git pull` updates the skill everywhere. Invoke it with `/brain <question>` in Claude Code and Cursor, or `$brain <question>` in Codex. It reads `knowledge/INDEX.md`, one domain hub and only the relevant notes, then cites what it used.
+
+- **Manual-only switches:** `disable-model-invocation: true` in `SKILL.md` (Claude Code, Cursor) and `allow_implicit_invocation: false` in `agents/openai.yaml` (Codex).
+- **Cursor:** if `/brain` doesn't appear, run `mkdir -p ~/.cursor/skills && ln -s ~/Projects/brain/skills/brain ~/.cursor/skills/`. If it appears twice, remove the extra link.
+- **Claude Code file access:** add `"Read(~/Projects/brain/knowledge/**)"` to `permissions.allow` in `~/.claude/settings.json`. Allow the knowledge folder only, so other projects can't read Brain's private `inbox/` or `.state/`.
+- **Removal:** delete the symlinks.
+
+Brain is expected at `~/Projects/brain`; adjust the commands and `SKILL.md` if it lives elsewhere. Nothing downloaded is executed, and source instructions do not grant permissions.
 
 ## Everyday commands
 
@@ -89,7 +100,7 @@ Available domains and the candidate byte limit are in the private configuration.
 
 `saved` means a pending inbox receipt was observed, not publication. `queued` means delivery is unconfirmed and the exact bytes remain for a later checkpoint. `quarantined` means Brain retained restricted material; it is not retried automatically or exposed. `retained` means queue/storage integrity failed; preserve the record for local inspection. Helper failures return a nonzero exit status without printing candidate bodies, provider output, or private configuration. A timeout after a successful Brain capture can safely be retried because the same bytes retain their identity. Git ignore and untracked-storage checks must pass before queue operations.
 
-Removal deletes only unchanged owned integration content and preserves unrelated instruction text. The private directory, its configuration/ownership records, queued lessons, receipts, and ignore block remain so evidence cannot accidentally become tracked. It installs no background retry worker. Future enrollment can reuse that owned private state; a different machine requires explicit reinstallation to refresh the private Brain/Node locations. Existing skill management, curation schedules, backup settings, and other project repositories are unchanged.
+Removal deletes only unchanged owned integration content and preserves unrelated instruction text. The private directory, its configuration/ownership records, queued lessons, receipts, and ignore block remain so evidence cannot accidentally become tracked. It installs no background retry worker. Future enrollment can reuse that owned private state; a different machine requires explicit reinstallation to refresh the private Brain/Node locations. Existing skill management, curation schedules, and other project repositories are unchanged.
 
 ## Automatic curation and publication
 
@@ -151,7 +162,7 @@ This verifies the GitHub merge, repository, base branch, proposal digest in the 
 
 Run `curation stale --limit 12` before selecting new material. A changed source revision or a 30-day review date queues the note for claim verification; neither proves that its advice changed. Re-read the relevant official pages, keep the evidence and limits, and publish the revised note through the same exact-content proposal. Optional `review_after` selects an earlier review date. Set `status: retired` when advice should no longer be recommended, or `status: superseded` with a published `superseded_by` path when a replacement exists. These pages remain in history but leave lookup and curated hub recommendations.
 
-Only knowledge Markdown and `official/sources.json` are proposal destinations. PR export currently supports knowledge Markdown; registry maintenance uses a separate documented PR and updates its local integrity receipt after validation. Generated official sections are maintained by sync. The CLI never calls an LLM; the scheduled agent performs semantic curation.
+Only knowledge Markdown and `official/sources.json` are proposal destinations. PR export currently supports knowledge Markdown; registry maintenance uses a separate documented PR that also updates the matching policy hashes in `official/sources.lock.json`. Generated official sections are maintained by sync. The CLI never calls an LLM; the scheduled agent performs semantic curation.
 
 Exact page hashes are recorded in `knowledge/approvals.json`; domain indexes generate curated links from those records. On a branch these are proposed publication records; merging publishes them. A handwritten or modified page is excluded from that navigation until its exact content has a matching record.
 
@@ -173,7 +184,7 @@ Sync uses authenticated GitHub API access through `gh` when available, verified 
 
 An unchanged source preserves its snapshot bytes; local catalog upgrades can refresh metadata. Failures retain the last good snapshot. License changes are recorded with previous and observed material in `.state/license-reviews/` and do not pause refresh. Downloads, source identity, license presence, hashes, and privacy checks still apply. Registry changes use documented automatic maintenance PRs; unknown-origin sources remain quarantined.
 
-Published vendor examples can trigger scanner findings. Exceptions require an approved registry proposal and bind the source path, scanner rule, and exact line-span hash. They never apply to personal harvests. Source registry bytes are also checked against the approval ledger, so an unapproved edit pauses synchronization.
+Published vendor examples can trigger scanner findings. Exceptions require an approved registry proposal and bind the source path, scanner rule, and exact line-span hash. They never apply to personal harvests. Each registered source must also match its policy hash in `official/sources.lock.json`; a registry edit without the matching lock update fails `official check` and `official restore`.
 
 ```sh
 node scripts/brain.mjs official rollback <source-id>
@@ -220,7 +231,7 @@ Interrupted writes keep a private recovery journal. `skills recover --project <p
 
 ## Privacy and maintenance
 
-Official-reference refresh, bounded link investigation/publication and completion-linked verification run in [GitHub Actions](https://github.com/JFusco/brain/actions/workflows/brain-maintenance.yml) at 03:15 America/New_York or by manual dispatch; a separate hosted check at 04:00 verifies the day’s actual scheduled run. They use GitHub-hosted runners, with `BOT_TOKEN` only in the guarded writer and `OPENAI_API_KEY` only in the investigator action. [Hosted maintenance](wiki/topics/hosted-maintenance.md) documents scope, evidence, operational artifacts, cache limits and rollback. Private project collection and unpublished learning curation stay local and are not uploaded; backups remain disabled.
+Official-reference refresh, bounded link investigation/publication and completion-linked verification run in [GitHub Actions](https://github.com/JFusco/brain/actions/workflows/brain-maintenance.yml) at 03:15 America/New_York or by manual dispatch; a separate hosted check at 04:00 verifies the day’s actual scheduled run. They use GitHub-hosted runners, with `BOT_TOKEN` only in the guarded writer and `OPENAI_API_KEY` only in the investigator action. [Hosted maintenance](wiki/topics/hosted-maintenance.md) documents scope, evidence, operational artifacts, cache limits and rollback. Private project collection and unpublished learning curation stay local and are not uploaded.
 
 `brain.config.local.json` holds private roots, client terms, aliases, and local executable paths. Initial terms come from client directory names; add confirmed aliases there. Internal Verndale terminology is retained. A changed scrub policy causes rescanning before content can be promoted.
 
@@ -228,7 +239,7 @@ Client redaction and secret scanning cover content and public metadata. A secret
 
 The scanner is pinned and checksum-verified in the brain's private tools directory. Missing or changed scanner binaries block harvest and promotion. The pre-commit hook reads staged blobs and blocks private paths, including force-added ignored content. Hooks are a local safeguard, not an access-control boundary.
 
-## Maintenance and private recovery
+## Maintenance
 
 ```sh
 node scripts/brain.mjs curation stale --limit 12
@@ -241,24 +252,13 @@ node scripts/brain.mjs maintenance run --dry-run
 node scripts/brain.mjs maintenance run
 node scripts/brain.mjs maintenance cleanup
 node scripts/brain.mjs maintenance cleanup --yes
-node scripts/brain.mjs backup status
-node scripts/brain.mjs backup create --dry-run
-node scripts/brain.mjs backup create
-node scripts/brain.mjs backup verify --file /private/path/archive.brainbackup
-node scripts/brain.mjs backup restore --file /private/path/archive.brainbackup --to /private/empty/recovery --yes
 ```
 
 Link checks rotate through a bounded sample (24 by default, maximum 100), favoring published-note and recently fetched references while spreading work across sources. They request headers with an explicit documentation-compatible Accept header. A HEAD 403, 405 or 501 receives one GET fallback with a one-byte range request; response bodies are discarded immediately. Final request method and original HEAD status remain recorded, and a GET access error remains an access error. The implicit `website-pointers` source can be checked separately under the same bounds. A first 404 is suspected dead, two daily observations establish dead, and 410 is immediately dead. Access restrictions, rate limits, redirects, and network failures remain separate. Failed observations can retry after their recorded backoff; healthy samples and 404/410 observations retain the daily window. Due failures take priority within each source bucket. `--retry-failures` checks only due warnings under the same batch/host bounds. Previous observations are saved privately under `.state/link-health-history/` before replacement, so recovery clears current warnings without erasing failures. Checks never rewrite a registration. Coverage counts distinguish sampled links from the full catalog; this is not an exhaustive link audit. Approved-host boundaries also apply to redirects.
 
 The existing daily publisher also follows the [link-warning investigation runbook](wiki/topics/link-warning-investigation.md): up to 12 new/due warning URLs, verified official alternatives, private evidence/dispositions, and narrow existing-reference routing repairs through its single checked issue-linked PR. Unchanged unresolved warnings stay visible without duplicate daily alerts or issues. The agent performs investigation; the CLI checker and its backoff are unchanged.
 
-`maintenance run` refreshes the stale-note queue, cleans owned excerpt receipts, and samples links when due. Automatic backups and Drive uploads are disabled at Joe’s request (`maintenance.backupEnabled: false`). Maintenance and its dry-run preview skip backup creation, inventory and pruning; status reports the disabled setting without missing/stale/local-only backup alerts. Existing archives, keys, Drive files and receipts are preserved. The explicit manual backup/recovery commands remain available for recovery or a separately requested operation. Status shows collection/publication attempts and success separately, source failures, unfinished publication, link coverage, stale notes, and backup availability. A completed unchanged publication run is valid; an attempt alone is not success. Publication bookkeeping uses `maintenance publication --phase started --trigger manual|scheduled-agent`, then the returned `--run-id` with `--phase completed --outcome unchanged`, or `--outcome published --pr <merged-number>`. Record failures with `--phase failed`. These are agent reports, not independent scheduler attestations. The 36-hour missed-run signal appears when status is next evaluated; a sleeping or offline Mac cannot send an immediate alert.
-
-Backups contain eligible private configuration, inbox records, proposals, provenance, publication receipts, failure records, and cached source objects. They exclude worktrees, tools, excerpt caches, recovery copies, auth/environment/session/transcript/raw-memory files, and the recovery key. Bounds are 40,000 files, 64 MiB per file, and 512 MiB total input. Archives use gzip and authenticated AES-256-GCM encryption. Creation decrypts and verifies the archive before recording success; failures preserve earlier verified archives. Local retention keeps seven owned archives and preserves modified or unknown files. Source snapshots in Git remain separate from this private-state backup.
-
-The local key is `.state/backup.key` (private permissions). Keep a separate secure copy off this Mac, such as in a password manager; losing the key makes encrypted archives unusable. Never print it, commit it, or upload it beside the archive. `--key-file /private/path/key` supports recovery with that separate key. Recovery authenticates every file and stages into an empty directory before activation; it never overwrites active state or executes restored code. Inspect recovered state before manually restoring it to a new checkout.
-
-Google Drive can hold encrypted archives in an explicitly approved private folder. `backup configure-cloud --folder-id <id> --folder-url <url>` records only the destination; it performs no upload. Automatic Drive uploads are currently disabled. For a separately authorized manual upload, the agent uses `backup pending --limit 1`, uploads only the verified encrypted archive through the connected Drive tool, reads its saved name, size, and parent folder back, and records that observed metadata using `backup record-cloud --file <archive> --receipt <private-json>`. The recovery key is excluded. Cloud status distinguishes upload/metadata readback from downloaded-byte verification. The CLI never deletes Drive files or changes sharing. Until upload and readback succeed, backup status continues to report local-only protection. Folder IDs and receipts stay private.
+`maintenance run` refreshes the stale-note queue, cleans owned excerpt receipts, and samples links when due. Status shows collection/publication attempts and success separately, source failures, unfinished publication, link coverage, and stale notes. A completed unchanged publication run is valid; an attempt alone is not success. Publication bookkeeping uses `maintenance publication --phase started --trigger manual|scheduled-agent`, then the returned `--run-id` with `--phase completed --outcome unchanged`, or `--outcome published --pr <merged-number>`. Record failures with `--phase failed`. These are agent reports, not independent scheduler attestations. The 36-hour missed-run signal appears when status is next evaluated; a sleeping or offline Mac cannot send an immediate alert.
 
 ## Schedule and setup
 
@@ -270,7 +270,7 @@ node scripts/brain.mjs scheduled-run
 
 One user LaunchAgent runs at 02:30 and on load. Due-time checks provide startup catch-up: harvest, official reference refresh and link sampling run when due, and source failures retry with bounded backoff. A separate local Codex heartbeat handles private learning curation when the Mac/app is available; the hosted workflow owns official-reference and link maintenance. It preserves unrelated changes and skips unchanged or non-actionable work quietly. Local scheduled agent work requires the desktop app and machine to be available. Logs and notifications contain no raw candidate text. All CLI mutations share a lock; other project repositories are not enrolled for background writes.
 
-On a new machine, validate the official source registry and use `node scripts/setup.mjs --approve-registry` to establish its local integrity receipt. Later registry changes use documented maintenance PRs and a matching updated receipt. Back up private state to preserve the inbox, dispositions, local paths, registry receipt, curation receipts, and cached oversized files.
+Registry changes use documented maintenance PRs. Git history and the lock's per-source policy hashes are the integrity record, so a new machine needs no separate registry approval step. Brain has no built-in backup; include `.state/`, `inbox/` and `brain.config.local.json` in your normal machine backup to preserve the inbox, dispositions, local paths, curation receipts, and cached oversized files.
 
 After cloning, run `git config core.hooksPath .githooks` to activate the pre-commit guard.
 
@@ -286,4 +286,4 @@ node scripts/wiki/check.cjs
 node scripts/wiki/serve-graph.cjs
 ```
 
-Hosted `Wiki integrity` checks PRs. The canonical `Sync context wiki` and `Sync wiki issue state` writers require a repository `BOT_TOKEN` with contents and pull-request write access. Never copy a personal login credential into that secret implicitly. Maintenance automation handles the resulting wiki PRs under the same documented automatic-publication policy.
+Hosted `Wiki integrity` checks PRs. Brain no longer runs automatic wiki merge or issue reconciliation workflows; the same-delivery rule records history with each change. The repository `BOT_TOKEN` secret remains in use by the hosted maintenance publisher.

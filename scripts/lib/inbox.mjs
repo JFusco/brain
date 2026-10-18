@@ -81,13 +81,13 @@ export function apply(id,digest) {
   for(const reference of proposal.candidates){const c=candidate(state,reference.id);if(c.fileSha256!==reference.fileSha256||c.disposition||c.status!=='pending')throw new Error('Candidate changed after proposal');}
   for(const change of proposal.changes){noSymlinks(ROOT,at(change.path));const actual=fs.existsSync(at(change.path))?sha(fs.readFileSync(at(change.path))):null;if(actual!==change.beforeSha256)throw new Error('Destination changed after proposal; prepare a new proposal');}
   assertClean(proposal.changes.map(c=>({id:c.path,bytes:Buffer.from(c.text)})));
-  const backupPaths=[...new Set([...proposal.changes.map(c=>c.path),'official/sources.lock.json','knowledge/approvals.json',`.state/proposals/${id}.json`,'.state/registry-approval.json','.state/harvest.json',...config().domains.map(d=>`knowledge/${d}/INDEX.md`)])];
+  const backupPaths=[...new Set([...proposal.changes.map(c=>c.path),'official/sources.lock.json','knowledge/approvals.json',`.state/proposals/${id}.json`,'.state/harvest.json',...config().domains.map(d=>`knowledge/${d}/INDEX.md`)])];
   const transaction={phase:'applying',proposal:id,backups:backupPaths.map(p=>({path:p,bytes:fs.existsSync(at(p))?fs.readFileSync(at(p)).toString('base64'):null,mode:p.startsWith('.state/')?0o600:0o644}))};
   writeJSON(at('.state/proposal-transaction.json'),transaction,0o600);
   try {
     for(const change of proposal.changes)atomic(at(change.path),change.text);
     const approvals=readJSON(at('knowledge/approvals.json'),{schemaVersion:1,pages:{}});for(const change of proposal.changes)if(change.path.startsWith('knowledge/')&&!change.path.endsWith('/INDEX.md'))approvals.pages[change.path]={sha256:sha(change.text),proposal:id,digest,approvedAt:now()};writeJSON(at('knowledge/approvals.json'),approvals);
-    if(proposal.changes.some(c=>c.path==='official/sources.json')){const active=lock();for(const spec of registry().sources)if(active.sources[spec.id])active.sources[spec.id].policySha256=fingerprint(spec);writeJSON(at('official/sources.lock.json'),active);writeJSON(at('.state/registry-approval.json'),{sha256:sha(fs.readFileSync(at('official/sources.json'))),proposal:id,digest,approvedAt:now()},0o600);}
+    if(proposal.changes.some(c=>c.path==='official/sources.json')){const active=lock();for(const spec of registry().sources)if(active.sources[spec.id])active.sources[spec.id].policySha256=fingerprint(spec);writeJSON(at('official/sources.lock.json'),active);}
     generateHubs();const result=check();if(!result.ok)throw new Error('Proposed content failed runtime checks: '+result.issues.join('; '));
     const accepted=proposal.acceptCandidates??proposal.candidates.map(c=>c.id);
     for(const candidateId of accepted)state.candidates[candidateId].disposition={as:'accepted',proposal:id,at:now()};
