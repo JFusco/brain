@@ -33,7 +33,7 @@ export async function fetchDocumentationCatalog(spec,revision) {
     if(replace||!pages.has(url))pages.set(url,{title:title.replace(/[\[\]\r\n]/g,'').replace(/\.md$/,''),url,fetchUrl});
   };
   while(queue.length){
-    const input=queue.shift();if(seen.has(input))continue;seen.add(input);if(seen.size>(spec.maxIndexes??32))throw new Error('Documentation index bound exceeded; refusing a partial catalog');
+    const input=queue.shift();if(seen.has(input))continue;seen.add(input);if(seen.size>(spec.maxIndexes??32))throw new Error('Sitemap index bound exceeded; refusing a partial catalog');
     const response=await download(input,{hosts:spec.allowedHosts,maxBytes:config().network.maxDownloadBytes});
     const bytes=/\.gz(?:$|\?)/.test(input)?gunzipSync(response.bytes,{maxOutputLength:config().network.maxExpandedBytes}):response.bytes;
     const index=markdownResponse({...response,bytes});
@@ -44,11 +44,7 @@ export async function fetchDocumentationCatalog(spec,revision) {
         if(/\.xml(?:\.gz)?$/.test(target.pathname)){queue.push(target.href);continue;}
         add(href,decodeURIComponent(target.pathname).split('/').filter(Boolean).slice(-2).join(' / ').replace(/-/g,' '),response.url);
       }
-    }else for(const match of index.matchAll(/\[([^\]\n]+)\]\(([^\s)]+)\)/g)){
-      // Sources that publish per-section llms.txt files opt in to following them, like nested sitemaps.
-      if(spec.followIndexes){let target;try{target=new URL(match[2],response.url);}catch{continue;}if(target.protocol==='https:'&&!target.username&&!target.password&&spec.allowedHosts.includes(target.hostname)&&target.pathname.endsWith('/llms.txt')&&spec.includePrefixes.some(prefix=>target.pathname.startsWith(prefix))){target.hash='';target.search='';queue.push(target.href);continue;}}
-      add(match[2],match[1],response.url);
-    }
+    }else for(const match of index.matchAll(/\[([^\]\n]+)\]\(([^\s)]+)\)/g))add(match[2],match[1],response.url);
   }
   for(const page of spec.additionalPages||[])add(page.url,page.title,spec.indexUrl,true);
   const sorted=bounded(spec,[...pages.values()]);

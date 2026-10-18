@@ -375,7 +375,8 @@
         "www.typescriptlang.org"
       ],
       "includePrefixes": [
-        "/docs/"
+        "/docs/",
+        "/tsconfig"
       ],
       "maxPages": 5000,
       "license": "Official documentation under upstream terms; no open license asserted",
@@ -427,73 +428,6 @@
         }
       ],
       "license": "W3C Document License; links only, no content mirrored",
-      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
-    },
-    {
-      "installPolicy": "reference-only",
-      "preferred": false,
-      "id": "sitecoreai-docs",
-      "vendor": "sitecore",
-      "domains": [
-        "cms/sitecore-ai"
-      ],
-      "kind": "collection",
-      "indexUrl": "https://doc.sitecore.com/sitemap.xml",
-      "indexFormat": "sitemap",
-      "allowedHosts": [
-        "doc.sitecore.com"
-      ],
-      "includePrefixes": [
-        "/sai/en/developers/"
-      ],
-      "maxPages": 5000,
-      "maxIndexes": 64,
-      "license": "Official documentation under upstream terms; no open license asserted",
-      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
-    },
-    {
-      "installPolicy": "reference-only",
-      "preferred": false,
-      "id": "sitecore-xp-docs",
-      "vendor": "sitecore",
-      "domains": [
-        "cms/sitecore-xp"
-      ],
-      "kind": "collection",
-      "indexUrl": "https://doc.sitecore.com/sitemap.xml",
-      "indexFormat": "sitemap",
-      "allowedHosts": [
-        "doc.sitecore.com"
-      ],
-      "includePrefixes": [
-        "/xp/en/developers/104/"
-      ],
-      "maxPages": 5000,
-      "maxIndexes": 64,
-      "license": "Official documentation under upstream terms; no open license asserted",
-      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
-    },
-    {
-      "installPolicy": "reference-only",
-      "preferred": false,
-      "id": "contentful-docs",
-      "vendor": "contentful",
-      "domains": [
-        "cms/contentful"
-      ],
-      "kind": "collection",
-      "indexUrl": "https://www.contentful.com/developers/docs/llms.txt",
-      "allowedHosts": [
-        "www.contentful.com"
-      ],
-      "includePrefixes": [
-        "/developers/docs/"
-      ],
-      "fetchSuffix": ".md",
-      "followIndexes": true,
-      "maxIndexes": 64,
-      "maxPages": 5000,
-      "license": "Official documentation under upstream terms; no open license asserted",
       "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
     },
     {

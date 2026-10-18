@@ -21,7 +21,6 @@ aliases: ["contentful"]
   - [contentful-migration](https://github.com/contentful/skills/blob/1e40a4c0e841faa5e7f1146a70c5eb605c7802d0/skills/contentful-migration/SKILL.md) — reference only.
   - [contentful-nextjs](https://github.com/contentful/skills/blob/1e40a4c0e841faa5e7f1146a70c5eb605c7802d0/skills/contentful-nextjs/SKILL.md) — reference only.
   - [contentful-personalization](https://github.com/contentful/skills/blob/1e40a4c0e841faa5e7f1146a70c5eb605c7802d0/skills/contentful-personalization/SKILL.md) — reference only.
-- contentful-docs: not yet catalogued; see [upstream](https://www.contentful.com/developers/docs/llms.txt).
 - [Official website](https://www.contentful.com/developers/docs/references/api-basics.md) — pointer only: Official API overview in supported Markdown: delivery, management, preview, images and GraphQL. Follow the relevant API reference for the task.
 - [Official website](https://www.contentful.com/developers/docs/sdks/javascript/sdks.md) — pointer only: Official JavaScript client-library guide in supported Markdown. Confirm the consuming application's installed SDK and selected API; this is not a full documentation catalog.
 <!-- brain:official:end -->
