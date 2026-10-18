@@ -2,6 +2,8 @@
 title: "Retained inbox semantic curation"
 topics: ["automatic-knowledge-maintenance"]
 plans: ["2026-10-17-curate-the-retained-brain-inbox-81de1bc8dc.md"]
+issue: 'https://github.com/jfusco/brain/issues/33'
+issues: ['https://github.com/jfusco/brain/issues/33']
 ---
 
 # Retained inbox semantic curation
