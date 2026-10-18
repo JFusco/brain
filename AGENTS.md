@@ -1,6 +1,6 @@
 # Brain working procedures
 
-Work only within the requested scope. Commit or push only when the request includes Git delivery, using the flow below. Do not modify agent memories or change other project repositories unless invoked for that project. The only global registration is the opt-in `brain` skill (`skills/brain/`), which Joe links per the README.
+Work only within the requested scope. Commit or push only when the request includes Git delivery, using the flow below. Do not modify agent memories or change other project repositories unless invoked for that project. The only global registrations are the opt-in `brain` and `brain-capture` skills (`skills/`), which Joe links per the README.
 
 Tests, fixtures, fresh-session tests, dedicated QA and review-agent audits are deferred for v1; do not add them. The wiki integrity check and hosted maintenance/verification workflows are enabled. Keep ordinary runtime protections and report actual command outcomes.
 

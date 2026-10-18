@@ -9,18 +9,25 @@ A local knowledge base for frontend and CMS work. Use it on demand through the o
 
 ## Use Brain from any project
 
-Brain ships one opt-in skill, [`skills/brain/`](skills/brain/SKILL.md), for Claude Code, Codex and Cursor. It is manual-only: nothing from Brain enters a session until you invoke it, and the current project's instructions, rules and skills always take precedence. Link it once per machine:
+Brain ships two opt-in skills for Claude Code, Codex and Cursor:
+
+- [`skills/brain/`](skills/brain/SKILL.md) answers from Brain's notes and official entry points.
+- [`skills/brain-capture/`](skills/brain-capture/SKILL.md) saves a lesson from the current task to Brain's private inbox.
+
+Both are manual-only: nothing from Brain enters a session until you invoke it, and the current project's instructions, rules and skills always take precedence. Link them once per machine:
 
 ```sh
 mkdir -p ~/.claude/skills ~/.agents/skills
-ln -s ~/Projects/brain/skills/brain ~/.claude/skills/   # Claude Code; Cursor also reads this folder
-ln -s ~/Projects/brain/skills/brain ~/.agents/skills/   # Codex
+ln -s ~/Projects/brain/skills/brain ~/.claude/skills/           # Claude Code; Cursor also reads this folder
+ln -s ~/Projects/brain/skills/brain ~/.agents/skills/           # Codex
+ln -s ~/Projects/brain/skills/brain-capture ~/.claude/skills/   # Claude Code and Cursor
+ln -s ~/Projects/brain/skills/brain-capture ~/.agents/skills/   # Codex
 ```
 
-`ln` refuses to replace an existing entry, and `git pull` updates the skill everywhere. Invoke it with `/brain <question>` in Claude Code and Cursor, or `$brain <question>` in Codex. It reads `knowledge/INDEX.md`, one domain hub and only the relevant notes, then cites what it used.
+`ln` refuses to replace an existing entry, and `git pull` updates the skills everywhere. Invoke them with `/brain <question>` or `/brain-capture` in Claude Code and Cursor, and `$brain` or `$brain-capture` in Codex. `brain` reads `knowledge/INDEX.md`, one domain hub and only the relevant notes, then cites what it used.
 
-- **Manual-only switches:** `disable-model-invocation: true` in `SKILL.md` (Claude Code, Cursor) and `allow_implicit_invocation: false` in `agents/openai.yaml` (Codex).
-- **Cursor:** if `/brain` doesn't appear, run `mkdir -p ~/.cursor/skills && ln -s ~/Projects/brain/skills/brain ~/.cursor/skills/`. If it appears twice, remove the extra link.
+- **Manual-only switches:** `disable-model-invocation: true` in each `SKILL.md` (Claude Code, Cursor) and `allow_implicit_invocation: false` in each `agents/openai.yaml` (Codex).
+- **Cursor:** if `/brain` or `/brain-capture` doesn't appear, link the skill into `~/.cursor/skills/` the same way. If it appears twice, remove the extra link.
 - **Claude Code file access:** add `"Read(~/Projects/brain/knowledge/**)"` to `permissions.allow` in `~/.claude/settings.json`. Allow the knowledge folder only, so other projects can't read Brain's private `inbox/` or `.state/`.
 - **Removal:** delete the symlinks.
 
