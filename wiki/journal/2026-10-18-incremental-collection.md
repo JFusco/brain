@@ -2,6 +2,8 @@
 title: "Skip unchanged source bodies and review duplicate lessons"
 topics: ["incremental-collection"]
 plans: ["2026-10-18-incremental-collection-and-duplicate-lesson-review-18503b9454.md", "2026-10-18-deliver-incremental-collection-and-daily-duplicate-review-3a697901c0.md"]
+issue: 'https://github.com/jfusco/brain/issues/49'
+issues: ['https://github.com/jfusco/brain/issues/49']
 ---
 
 # Skip unchanged source bodies and review duplicate lessons
