@@ -13,11 +13,14 @@
   },
   "domains": [
     "frontend",
+    "accessibility",
     "react",
+    "typescript",
     "nextjs",
     "vercel",
     "tailwind",
     "cms/optimizely-saas",
+    "cms/optimizely-paas",
     "cms/contentstack",
     "cms/sitecore-ai",
     "cms/sitecore-xp",
@@ -44,6 +47,12 @@
       "jsx",
       "hooks"
     ],
+    "typescript": [
+      "typescript",
+      "tsconfig",
+      ".d.ts",
+      "type narrowing"
+    ],
     "tailwind": [
       "tailwind",
       "@theme"
@@ -57,6 +66,12 @@
       "optimizely",
       "episerver",
       "cms-sdk"
+    ],
+    "cms/optimizely-paas": [
+      "optimizely cms 13",
+      "cms 13",
+      "optimizely paas",
+      "episerver.cms"
     ],
     "cms/contentstack": [
       "contentstack"
@@ -77,11 +92,17 @@
       "contentful"
     ],
     "frontend": [
-      "accessibility",
-      "a11y",
       "css",
       "html",
       "frontend"
+    ],
+    "accessibility": [
+      "accessibility",
+      "a11y",
+      "wcag",
+      "wai-aria",
+      "aria-",
+      "screen reader"
     ]
   },
   "network": {

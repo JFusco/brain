@@ -42,6 +42,7 @@ jobs:
           node scripts/brain.mjs official sync $SOURCES > .state/sync.json
           status=$?
           set -e
+          cat .state/sync.json
           { echo '## Brain catalog sync'; echo; echo '```json'; cat .state/sync.json; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
           echo "status=$status" >> "$GITHUB_OUTPUT"
       - name: Check

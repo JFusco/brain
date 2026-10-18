@@ -359,6 +359,96 @@
       "maxPages": 5000,
       "license": "Official documentation under upstream terms; no open license asserted",
       "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "typescript-docs",
+      "vendor": "typescript",
+      "domains": [
+        "typescript"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://www.typescriptlang.org/sitemap-index.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "www.typescriptlang.org"
+      ],
+      "includePrefixes": [
+        "/docs/",
+        "/tsconfig"
+      ],
+      "maxPages": 5000,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "w3c-accessibility",
+      "vendor": "w3c",
+      "domains": [
+        "accessibility"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://www.w3.org/WAI/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "www.w3.org"
+      ],
+      "includePrefixes": [
+        "/WAI/WCAG22/Understanding/",
+        "/WAI/WCAG22/Techniques/",
+        "/WAI/WCAG22/quickref/",
+        "/WAI/ARIA/apg/",
+        "/TR/WCAG22/",
+        "/TR/wai-aria-1.2/"
+      ],
+      "maxPages": 5000,
+      "additionalPages": [
+        {
+          "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/"
+        },
+        {
+          "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
+          "url": "https://www.w3.org/TR/wai-aria-1.2/"
+        },
+        {
+          "title": "How to Meet WCAG 2.2 (Quick Reference)",
+          "url": "https://www.w3.org/WAI/WCAG22/quickref/"
+        },
+        {
+          "title": "Understanding WCAG 2.2",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/"
+        },
+        {
+          "title": "Techniques for WCAG 2.2",
+          "url": "https://www.w3.org/WAI/WCAG22/Techniques/"
+        }
+      ],
+      "license": "W3C Document License; links only, no content mirrored",
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "optimizely-cms13-docs",
+      "vendor": "optimizely-paas",
+      "domains": [
+        "cms/optimizely-paas"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://docs.optimizely.com/llms.txt",
+      "allowedHosts": [
+        "docs.optimizely.com"
+      ],
+      "includePrefixes": [
+        "/cms-13/"
+      ],
+      "maxPages": 5000,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
     }
   ],
   "pointers": [
@@ -411,6 +501,16 @@
       "domain": "cms/sitecore-xp",
       "url": "https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/index-en.html",
       "reason": "Official Sitecore Experience Manager 10.4 developer documentation; retain the product/version context when applying guidance."
+    },
+    {
+      "domain": "typescript",
+      "url": "https://www.typescriptlang.org/docs/",
+      "reason": "Official TypeScript documentation; the typescript-docs catalog lists its pages."
+    },
+    {
+      "domain": "accessibility",
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "reason": "W3C WCAG overview; the w3c-accessibility catalog lists the WCAG 2.2 and WAI-ARIA 1.2 specifications, the WCAG 2.2 Understanding and Techniques indexes, and the ARIA Authoring Practices Guide."
     }
   ]
 }

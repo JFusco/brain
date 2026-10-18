@@ -1,7 +1,7 @@
 ---
 status: "partial"
 executed: true
-evidence: ["https://github.com/JFusco/brain/issues/58", "Branch claude/magical-einstein-kdv7nw commits 0ba7a68, 5d08ac0, 41f9f83, c1373fc", ".github/workflows/brain-sync.yml"]
+evidence: ["https://github.com/JFusco/brain/issues/58", "Branch claude/magical-einstein-kdv7nw commits 0ba7a68, 5d08ac0, 41f9f83, c1373fc", ".github/workflows/brain-sync.yml", "https://github.com/JFusco/brain/issues/60", "official/catalogs/typescript-docs.json, w3c-accessibility.json, optimizely-cms13-docs.json"]
 source_tool: "repository"
 source: "/root/.claude/plans/root-claude-uploads-b27753f8-a256-5edc-sorted-pumpkin.md"
 topics: ["automatic-knowledge-maintenance", "hosted-maintenance"]

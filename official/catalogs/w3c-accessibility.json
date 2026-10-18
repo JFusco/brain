@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 1,
+  "source": "w3c-accessibility",
+  "revision": "c2c7fa790e32156b38b445e98c5dbe7b96dccda9030b876ca7100d2c0874d6c8",
+  "origin": "https://www.w3.org/WAI/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
+      "url": "https://www.w3.org/TR/wai-aria-1.2/",
+      "fetchUrl": "https://www.w3.org/TR/wai-aria-1.2/"
+    },
+    {
+      "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "fetchUrl": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "title": "ARIA / apg",
+      "url": "https://www.w3.org/WAI/ARIA/apg/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/"
+    },
+    {
+      "title": "apg / about",
+      "url": "https://www.w3.org/WAI/ARIA/apg/about/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/about/"
+    },
+    {
+      "title": "about / acknowledgements",
+      "url": "https://www.w3.org/WAI/ARIA/apg/about/acknowledgements/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/about/acknowledgements/"
+    },
+    {
+      "title": "about / aria basics",
+      "url": "https://www.w3.org/WAI/ARIA/apg/about/aria-basics/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/about/aria-basics/"
+    },
+    {
+      "title": "about / at support tables",
+      "url": "https://www.w3.org/WAI/ARIA/apg/about/at-support-tables/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/about/at-support-tables/"
+    },
+    {
+      "title": "about / change history",
+      "url": "https://www.w3.org/WAI/ARIA/apg/about/change-history/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/about/change-history/"
+    },
+    {
+      "title": "about / contributing",
+      "url": "https://www.w3.org/WAI/ARIA/apg/about/contributing/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/about/contributing/"
+    },
+    {
+      "title": "about / coverage and quality",
+      "url": "https://www.w3.org/WAI/ARIA/apg/about/coverage-and-quality/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/about/coverage-and-quality/"
+    },
+    {
+      "title": "about / introduction",
+      "url": "https://www.w3.org/WAI/ARIA/apg/about/introduction/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/about/introduction/"
+    },
+    {
+      "title": "about / related specifications",
+      "url": "https://www.w3.org/WAI/ARIA/apg/about/related-specifications/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/about/related-specifications/"
+    },
+    {
+      "title": "apg / example index",
+      "url": "https://www.w3.org/WAI/ARIA/apg/example-index/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/example-index/"
+    },
+    {
+      "title": "apg / patterns",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/"
+    },
+    {
+      "title": "patterns / accordion",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/"
+    },
+    {
+      "title": "examples / accordion",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/examples/accordion/"
+    },
+    {
+      "title": "patterns / alert",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/alert/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/alert/"
+    },
+    {
+      "title": "examples / alert",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/alert/examples/alert/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/alert/examples/alert/"
+    },
+    {
+      "title": "patterns / alertdialog",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/"
+    },
+    {
+      "title": "examples / alertdialog",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/examples/alertdialog/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/examples/alertdialog/"
+    },
+    {
+      "title": "patterns / breadcrumb",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/"
+    },
+    {
+      "title": "examples / breadcrumb",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/examples/breadcrumb/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/examples/breadcrumb/"
+    },
+    {
+      "title": "patterns / button",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/button/"
+    },
+    {
+      "title": "examples / button_idl",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/examples/button_idl/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/button/examples/button_idl/"
+    },
+    {
+      "title": "examples / button",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/examples/button/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/button/examples/button/"
+    },
+    {
+      "title": "patterns / carousel",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/carousel/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/carousel/"
+    },
+    {
+      "title": "examples / carousel 1 prev next",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/carousel/examples/carousel-1-prev-next/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/carousel/examples/carousel-1-prev-next/"
+    },
+    {
+      "title": "examples / carousel 2 tablist",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/carousel/examples/carousel-2-tablist/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/carousel/examples/carousel-2-tablist/"
+    },
+    {
+      "title": "patterns / checkbox",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/"
+    },
+    {
+      "title": "examples / checkbox mixed",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/examples/checkbox-mixed/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/examples/checkbox-mixed/"
+    },
+    {
+      "title": "examples / checkbox",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/examples/checkbox/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/examples/checkbox/"
+    },
+    {
+      "title": "patterns / combobox",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/"
+    },
+    {
+      "title": "examples / combobox autocomplete both",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-autocomplete-both/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-autocomplete-both/"
+    },
+    {
+      "title": "examples / combobox autocomplete list",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-autocomplete-list/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-autocomplete-list/"
+    },
+    {
+      "title": "examples / combobox autocomplete none",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-autocomplete-none/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-autocomplete-none/"
+    },
+    {
+      "title": "examples / combobox datepicker",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-datepicker/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-datepicker/"
+    },
+    {
+      "title": "examples / combobox select only",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-select-only/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-select-only/"
+    },
+    {
+      "title": "examples / grid combo",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/grid-combo/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/grid-combo/"
+    },
+    {
+      "title": "patterns / dialog modal",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/"
+    },
+    {
+      "title": "examples / datepicker dialog",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/datepicker-dialog/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/datepicker-dialog/"
+    },
+    {
+      "title": "examples / dialog",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/dialog/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/dialog/"
+    },
+    {
+      "title": "patterns / disclosure",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/"
+    },
+    {
+      "title": "examples / disclosure card",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-card/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-card/"
+    },
+    {
+      "title": "examples / disclosure faq",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-faq/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-faq/"
+    },
+    {
+      "title": "examples / disclosure image description",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-image-description/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-image-description/"
+    },
+    {
+      "title": "examples / disclosure navigation hybrid",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid/"
+    },
+    {
+      "title": "examples / disclosure navigation",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation/"
+    },
+    {
+      "title": "patterns / feed",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/feed/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/feed/"
+    },
+    {
+      "title": "examples / feed display.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/feed/examples/feed-display.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/feed/examples/feed-display.html"
+    },
+    {
+      "title": "examples / feed",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/feed/examples/feed/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/feed/examples/feed/"
+    },
+    {
+      "title": "patterns / grid",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/"
+    },
+    {
+      "title": "examples / advanced data grid",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/examples/advanced-data-grid/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/examples/advanced-data-grid/"
+    },
+    {
+      "title": "examples / data grids",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/examples/data-grids/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/examples/data-grids/"
+    },
+    {
+      "title": "examples / layout grids",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/examples/layout-grids/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/examples/layout-grids/"
+    },
+    {
+      "title": "patterns / landmarks",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/"
+    },
+    {
+      "title": "examples / at.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/at.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/at.html"
+    },
+    {
+      "title": "examples / banner.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/banner.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/banner.html"
+    },
+    {
+      "title": "examples / complementary.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/complementary.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/complementary.html"
+    },
+    {
+      "title": "examples / contentinfo.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/contentinfo.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/contentinfo.html"
+    },
+    {
+      "title": "examples / form.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/form.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/form.html"
+    },
+    {
+      "title": "examples / general principles.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/general-principles.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/general-principles.html"
+    },
+    {
+      "title": "examples / HTML5.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html"
+    },
+    {
+      "title": "examples / main.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/main.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/main.html"
+    },
+    {
+      "title": "examples / navigation.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/navigation.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/navigation.html"
+    },
+    {
+      "title": "examples / region.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/region.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/region.html"
+    },
+    {
+      "title": "examples / resources.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/resources.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/resources.html"
+    },
+    {
+      "title": "examples / search.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/search.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/search.html"
+    },
+    {
+      "title": "patterns / link",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/link/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/link/"
+    },
+    {
+      "title": "examples / link",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/link/examples/link/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/link/examples/link/"
+    },
+    {
+      "title": "patterns / listbox",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/"
+    },
+    {
+      "title": "examples / listbox actions",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-actions/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-actions/"
+    },
+    {
+      "title": "examples / listbox collapsible",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-collapsible/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-collapsible/"
+    },
+    {
+      "title": "examples / listbox grouped",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-grouped/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-grouped/"
+    },
+    {
+      "title": "examples / listbox rearrangeable",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-rearrangeable/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-rearrangeable/"
+    },
+    {
+      "title": "examples / listbox scrollable",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-scrollable/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-scrollable/"
+    },
+    {
+      "title": "patterns / menu button",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/"
+    },
+    {
+      "title": "examples / menu button actions active descendant",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-actions-active-descendant/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-actions-active-descendant/"
+    },
+    {
+      "title": "examples / menu button actions",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-actions/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-actions/"
+    },
+    {
+      "title": "examples / menu button links",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-links/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/examples/menu-button-links/"
+    },
+    {
+      "title": "patterns / menubar",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/menubar/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/menubar/"
+    },
+    {
+      "title": "examples / menubar editor",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-editor/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-editor/"
+    },
+    {
+      "title": "examples / menubar navigation",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-navigation/"
+    },
+    {
+      "title": "patterns / meter",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/meter/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/meter/"
+    },
+    {
+      "title": "examples / meter",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/meter/examples/meter/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/meter/examples/meter/"
+    },
+    {
+      "title": "patterns / radio",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/"
+    },
+    {
+      "title": "examples / radio activedescendant",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/examples/radio-activedescendant/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/examples/radio-activedescendant/"
+    },
+    {
+      "title": "examples / radio rating",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/examples/radio-rating/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/examples/radio-rating/"
+    },
+    {
+      "title": "examples / radio",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/examples/radio/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/examples/radio/"
+    },
+    {
+      "title": "patterns / slider multithumb",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/slider-multithumb/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/slider-multithumb/"
+    },
+    {
+      "title": "examples / slider multithumb",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/slider-multithumb/examples/slider-multithumb/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/slider-multithumb/examples/slider-multithumb/"
+    },
+    {
+      "title": "patterns / slider",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/"
+    },
+    {
+      "title": "examples / slider color viewer",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/examples/slider-color-viewer/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/examples/slider-color-viewer/"
+    },
+    {
+      "title": "examples / slider rating",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/examples/slider-rating/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/examples/slider-rating/"
+    },
+    {
+      "title": "examples / slider seek",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/examples/slider-seek/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/examples/slider-seek/"
+    },
+    {
+      "title": "examples / slider temperature",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/examples/slider-temperature/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/examples/slider-temperature/"
+    },
+    {
+      "title": "patterns / spinbutton",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/"
+    },
+    {
+      "title": "examples / datepicker spinbuttons",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/examples/datepicker-spinbuttons/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/examples/datepicker-spinbuttons/"
+    },
+    {
+      "title": "examples / quantity spinbutton",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/examples/quantity-spinbutton/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/examples/quantity-spinbutton/"
+    },
+    {
+      "title": "patterns / switch",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/"
+    },
+    {
+      "title": "examples / switch button",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/examples/switch-button/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/examples/switch-button/"
+    },
+    {
+      "title": "examples / switch checkbox",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/examples/switch-checkbox/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/examples/switch-checkbox/"
+    },
+    {
+      "title": "examples / switch",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/examples/switch/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/examples/switch/"
+    },
+    {
+      "title": "patterns / table",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/table/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/table/"
+    },
+    {
+      "title": "examples / sortable table",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/"
+    },
+    {
+      "title": "examples / table",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/table/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/table/"
+    },
+    {
+      "title": "patterns / tabs",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/"
+    },
+    {
+      "title": "examples / tabs actions",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-actions/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-actions/"
+    },
+    {
+      "title": "examples / tabs automatic",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-automatic/"
+    },
+    {
+      "title": "examples / tabs manual",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-manual/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/examples/tabs-manual/"
+    },
+    {
+      "title": "patterns / toolbar",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/"
+    },
+    {
+      "title": "examples / help.html",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/examples/help.html",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/examples/help.html"
+    },
+    {
+      "title": "examples / toolbar",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/examples/toolbar/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/examples/toolbar/"
+    },
+    {
+      "title": "patterns / tooltip",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/"
+    },
+    {
+      "title": "patterns / treegrid",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/treegrid/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/treegrid/"
+    },
+    {
+      "title": "examples / treegrid 1",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/treegrid/examples/treegrid-1/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/treegrid/examples/treegrid-1/"
+    },
+    {
+      "title": "patterns / treeview",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/treeview/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/treeview/"
+    },
+    {
+      "title": "examples / treeview 1a",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/treeview/examples/treeview-1a/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/treeview/examples/treeview-1a/"
+    },
+    {
+      "title": "examples / treeview 1b",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/treeview/examples/treeview-1b/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/treeview/examples/treeview-1b/"
+    },
+    {
+      "title": "examples / treeview navigation",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/treeview/examples/treeview-navigation/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/treeview/examples/treeview-navigation/"
+    },
+    {
+      "title": "patterns / windowsplitter",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/windowsplitter/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/patterns/windowsplitter/"
+    },
+    {
+      "title": "apg / practices",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/practices/"
+    },
+    {
+      "title": "practices / grid and table properties",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/grid-and-table-properties/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/practices/grid-and-table-properties/"
+    },
+    {
+      "title": "practices / hiding semantics",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/hiding-semantics/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/practices/hiding-semantics/"
+    },
+    {
+      "title": "practices / keyboard interface",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/"
+    },
+    {
+      "title": "practices / landmark regions",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/"
+    },
+    {
+      "title": "practices / names and descriptions",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/practices/names-and-descriptions/"
+    },
+    {
+      "title": "practices / range related properties",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/range-related-properties/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/practices/range-related-properties/"
+    },
+    {
+      "title": "practices / read me first",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/"
+    },
+    {
+      "title": "practices / structural roles",
+      "url": "https://www.w3.org/WAI/ARIA/apg/practices/structural-roles/",
+      "fetchUrl": "https://www.w3.org/WAI/ARIA/apg/practices/structural-roles/"
+    },
+    {
+      "title": "How to Meet WCAG 2.2 (Quick Reference)",
+      "url": "https://www.w3.org/WAI/WCAG22/quickref/",
+      "fetchUrl": "https://www.w3.org/WAI/WCAG22/quickref/"
+    },
+    {
+      "title": "Techniques for WCAG 2.2",
+      "url": "https://www.w3.org/WAI/WCAG22/Techniques/",
+      "fetchUrl": "https://www.w3.org/WAI/WCAG22/Techniques/"
+    },
+    {
+      "title": "Understanding WCAG 2.2",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/",
+      "fetchUrl": "https://www.w3.org/WAI/WCAG22/Understanding/"
+    }
+  ],
+  "referenceIssues": []
+}

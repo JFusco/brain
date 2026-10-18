@@ -84,6 +84,24 @@
       "fetchedAt": "2026-10-16T01:18:50.034Z",
       "track": "rolling-url",
       "catalogSha256": "5d8ac0ba86c8df112fe83f07e8a7e1be60da29ca4e553c48814c2b488d86e8de"
+    },
+    "typescript-docs": {
+      "revision": "976aad95ddf048018db9ea74183652480b19af8c5fa898f41a0620db83f5b30b",
+      "fetchedAt": "2026-10-18T22:23:12.320Z",
+      "track": "rolling-url",
+      "catalogSha256": "21e41fa6da98aad4e7a3c9535b2383e134ec55303136b6eb041f6c73166c2f7b"
+    },
+    "w3c-accessibility": {
+      "revision": "c2c7fa790e32156b38b445e98c5dbe7b96dccda9030b876ca7100d2c0874d6c8",
+      "fetchedAt": "2026-10-18T22:19:36.587Z",
+      "track": "rolling-url",
+      "catalogSha256": "7c6810d11428134b36c1c2061d45e9e5cf7f1c5951c39889d28bd6470de0c2cf"
+    },
+    "optimizely-cms13-docs": {
+      "revision": "c0c9cf5042df65b82451daf5965c858ffcf86dd0d04656602bee8d3ce27c851a",
+      "fetchedAt": "2026-10-18T22:21:47.119Z",
+      "track": "rolling-url",
+      "catalogSha256": "4423c761538946b22fa29dc9434c19dc166af45d752059e595351b03f3222dba"
     }
   },
   "toolchain": {
