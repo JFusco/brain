@@ -2,6 +2,8 @@
 title: "Cleanup reconciliation and verified deduplication"
 topics: ["automatic-knowledge-maintenance"]
 plans: ["2026-10-17-reconcile-brain-cleanup-evidence-and-duplicate-dispositions-d94ac7a452.md"]
+issue: 'https://github.com/jfusco/brain/issues/30'
+issues: ['https://github.com/jfusco/brain/issues/30']
 ---
 
 # Cleanup reconciliation and verified deduplication
