@@ -369,7 +369,7 @@
         "typescript"
       ],
       "kind": "collection",
-      "indexUrl": "https://www.typescriptlang.org/sitemap.xml",
+      "indexUrl": "https://www.typescriptlang.org/sitemap-index.xml",
       "indexFormat": "sitemap",
       "allowedHosts": [
         "www.typescriptlang.org"
@@ -505,16 +505,13 @@
         "cms/optimizely-paas"
       ],
       "kind": "collection",
-      "indexUrl": "https://docs.developers.optimizely.com/content-management-system/v13.0.0-CMS/llms.txt",
+      "indexUrl": "https://docs.optimizely.com/llms.txt",
       "allowedHosts": [
-        "docs.developers.optimizely.com"
+        "docs.optimizely.com"
       ],
       "includePrefixes": [
-        "/content-management-system/v13.0.0-CMS/"
+        "/cms-13/"
       ],
-      "fetchSuffix": ".md",
-      "followIndexes": true,
-      "maxIndexes": 32,
       "maxPages": 5000,
       "license": "Official documentation under upstream terms; no open license asserted",
       "applicability": "Official link catalog; page content is fetched selectively, not mirrored."

@@ -14,5 +14,5 @@ No curated notes yet.
 <!-- brain:official:start -->
 ## Official sources
 
-- optimizely-cms13-docs: not yet catalogued; see [upstream](https://docs.developers.optimizely.com/content-management-system/v13.0.0-CMS/llms.txt).
+- optimizely-cms13-docs: not yet catalogued; see [upstream](https://docs.optimizely.com/llms.txt).
 <!-- brain:official:end -->

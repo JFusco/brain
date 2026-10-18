@@ -14,6 +14,6 @@ No curated notes yet.
 <!-- brain:official:start -->
 ## Official sources
 
-- typescript-docs: not yet catalogued; see [upstream](https://www.typescriptlang.org/sitemap.xml).
+- typescript-docs: not yet catalogued; see [upstream](https://www.typescriptlang.org/sitemap-index.xml).
 - [Official website](https://www.typescriptlang.org/docs/) — pointer only: Official TypeScript documentation; the typescript-docs catalog lists its pages.
 <!-- brain:official:end -->
