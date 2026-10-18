@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
-import {args,json,withLock,log} from './lib/core.mjs';
+import {args,withLock,log} from './lib/core.mjs';
 import {capture} from './lib/capture.mjs';
 import * as inbox from './lib/inbox.mjs';
 import * as official from './lib/official.mjs';
@@ -22,8 +22,6 @@ node scripts/brain.mjs inbox show <candidate-id>
 node scripts/brain.mjs inbox rescan [<candidate-id...>]
 node scripts/brain.mjs inbox resolve <candidate-id...> --as rejected|superseded
 node scripts/brain.mjs inbox resolve <candidate-id...> --as accepted --pr <merged-number>
-node scripts/brain.mjs inbox propose --file <registry-change.json>
-node scripts/brain.mjs inbox apply <proposal-id> --approved-sha256 <digest>
 node scripts/brain.mjs curation stale [--limit 12]
 node scripts/brain.mjs curation hubs
 node scripts/brain.mjs links check [--source <id>] [--limit 24] [--retry-failures]
@@ -41,28 +39,25 @@ node scripts/brain.mjs skills suggest --project <path> [--workspace <relative-ap
 node scripts/brain.mjs check [--staged]
 node scripts/brain.mjs scheduled-run
 
- Knowledge notes publish when an ordinary PR merges. Proposals change only official/sources.json.
+ Knowledge notes and registry edits publish when ordinary PRs merge.
  Nothing in this CLI commits, pushes, opens, or merges PRs.
 Tests and dedicated QA are deferred for v1.
 `;
 
 try {
   const {positional,flags}=args(process.argv.slice(2)),[command,subcommand,...rest]=positional;
-  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],capture:['stdin','domain'],inbox:['domain','all','backlog','file','approved-sha256','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],official:['seed'],skills:['project','workspace'],check:['staged'],'scheduled-run':[]};
+  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],capture:['stdin','domain'],inbox:['domain','all','backlog','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],official:['seed'],skills:['project','workspace'],check:['staged'],'scheduled-run':[]};
   if(!command||command==='help'||flags.help){console.log(help);process.exit(0);}
   if(!Object.hasOwn(allowed,command))throw new Error('Unknown command. Use --help.');
   for(const key of Object.keys(flags))if(!allowed[command].includes(key))throw new Error(`Unsupported option --${key} for ${command}`);
-  const mutating=command==='lookup'&&flags.fetch||command==='curation'||command==='scheduled-run'||command==='capture'||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='run'&&!flags['dry-run']||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['propose','apply','resolve','rescan'].includes(subcommand)||command==='official'&&['sync','rollback','restore','recatalog'].includes(subcommand);
+  const mutating=command==='lookup'&&flags.fetch||command==='curation'||command==='scheduled-run'||command==='capture'||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='run'&&!flags['dry-run']||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['resolve','rescan'].includes(subcommand)||command==='official'&&['sync','rollback','restore','recatalog'].includes(subcommand);
   async function execute() {
-    if(mutating)inbox.recoverProposal();
     if(command==='lookup')return lookup({query:flags.query,domain:flags.domain,limit:flags.limit??5,fetch:!!flags.fetch,project:flags.project,workspace:flags.workspace,versions:flags.versions});
     if(command==='capture'){if(!flags.stdin)throw new Error('Use capture --stdin');return capture(fs.readFileSync(0,'utf8'),{domain:flags.domain});}
     if(command==='inbox'){
       if(subcommand==='list')return inbox.list({domain:flags.domain,all:!!flags.all,backlog:!!flags.backlog});
       if(subcommand==='show')return inbox.show(rest[0]);
       if(subcommand==='rescan')return inbox.rescan(rest);
-      if(subcommand==='propose'){if(!flags.file)throw new Error('--file is required');return inbox.propose(json(flags.file));}
-      if(subcommand==='apply')return inbox.apply(rest[0],flags['approved-sha256']);
       if(subcommand==='resolve'){if(!rest.length)throw new Error('Candidate IDs are required');return inbox.resolve(rest,flags.as,{pr:flags.pr});}
     }
     if(command==='curation'){
