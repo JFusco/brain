@@ -7,12 +7,15 @@ aliases: ["brain", "knowledge", "frontend and CMS"]
 
 Open the relevant domain, then only the pages it routes to. Official sections are generated; a curated note is published when its knowledge PR merges.
 
-- [Frontend and accessibility](frontend/INDEX.md)
+- [Frontend](frontend/INDEX.md)
+- [Accessibility (WCAG, WAI-ARIA)](accessibility/INDEX.md)
 - [React](react/INDEX.md)
+- [TypeScript](typescript/INDEX.md)
 - [Next.js and App Router caching](nextjs/INDEX.md)
 - [Vercel](vercel/INDEX.md)
 - [Tailwind](tailwind/INDEX.md)
 - [Optimizely SaaS](cms/optimizely-saas/INDEX.md)
+- [Optimizely PaaS (CMS 13)](cms/optimizely-paas/INDEX.md)
 - [Contentstack](cms/contentstack/INDEX.md)
 - [SitecoreAI](cms/sitecore-ai/INDEX.md)
 - [Sitecore XP](cms/sitecore-xp/INDEX.md)

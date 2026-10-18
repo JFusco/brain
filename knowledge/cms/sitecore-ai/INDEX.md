@@ -35,5 +35,6 @@ No curated notes yet.
   - [docs/AGENTS-router-specifics.md](https://github.com/Sitecore/content-sdk/blob/6ec243fc709bfb917e7ce9be6151e63d0f33c5b6/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-router-specifics.md).
   - [docs/AGENTS-workflows-and-boundaries.md](https://github.com/Sitecore/content-sdk/blob/6ec243fc709bfb917e7ce9be6151e63d0f33c5b6/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-workflows-and-boundaries.md).
   - [docs/README.md](https://github.com/Sitecore/content-sdk/blob/6ec243fc709bfb917e7ce9be6151e63d0f33c5b6/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/README.md).
+- sitecoreai-docs: not yet catalogued; see [upstream](https://doc.sitecore.com/sitemap.xml).
 - [Official website](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecoreai.html) — pointer only: Official SitecoreAI developer documentation; focused lookup supports HTML pages.
 <!-- brain:official:end -->

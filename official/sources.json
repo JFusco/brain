@@ -359,6 +359,157 @@
       "maxPages": 5000,
       "license": "Official documentation under upstream terms; no open license asserted",
       "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "typescript-docs",
+      "vendor": "typescript",
+      "domains": [
+        "typescript"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://www.typescriptlang.org/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "www.typescriptlang.org"
+      ],
+      "includePrefixes": [
+        "/docs/"
+      ],
+      "maxPages": 5000,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "w3c-accessibility",
+      "vendor": "w3c",
+      "domains": [
+        "accessibility"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://www.w3.org/WAI/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "www.w3.org"
+      ],
+      "includePrefixes": [
+        "/WAI/WCAG22/Understanding/",
+        "/WAI/WCAG22/Techniques/",
+        "/WAI/WCAG22/quickref/",
+        "/WAI/ARIA/apg/",
+        "/TR/WCAG22/",
+        "/TR/wai-aria-1.2/"
+      ],
+      "maxPages": 5000,
+      "additionalPages": [
+        {
+          "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
+          "url": "https://www.w3.org/TR/WCAG22/"
+        },
+        {
+          "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
+          "url": "https://www.w3.org/TR/wai-aria-1.2/"
+        },
+        {
+          "title": "How to Meet WCAG 2.2 (Quick Reference)",
+          "url": "https://www.w3.org/WAI/WCAG22/quickref/"
+        }
+      ],
+      "license": "W3C Document License; links only, no content mirrored",
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "sitecoreai-docs",
+      "vendor": "sitecore",
+      "domains": [
+        "cms/sitecore-ai"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://doc.sitecore.com/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "doc.sitecore.com"
+      ],
+      "includePrefixes": [
+        "/sai/en/developers/"
+      ],
+      "maxPages": 5000,
+      "maxIndexes": 64,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "sitecore-xp-docs",
+      "vendor": "sitecore",
+      "domains": [
+        "cms/sitecore-xp"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://doc.sitecore.com/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "doc.sitecore.com"
+      ],
+      "includePrefixes": [
+        "/xp/en/developers/104/"
+      ],
+      "maxPages": 5000,
+      "maxIndexes": 64,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "contentful-docs",
+      "vendor": "contentful",
+      "domains": [
+        "cms/contentful"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://www.contentful.com/developers/docs/llms.txt",
+      "allowedHosts": [
+        "www.contentful.com"
+      ],
+      "includePrefixes": [
+        "/developers/docs/"
+      ],
+      "fetchSuffix": ".md",
+      "followIndexes": true,
+      "maxIndexes": 64,
+      "maxPages": 5000,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "optimizely-cms13-docs",
+      "vendor": "optimizely-paas",
+      "domains": [
+        "cms/optimizely-paas"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://docs.developers.optimizely.com/content-management-system/v13.0.0-CMS/llms.txt",
+      "allowedHosts": [
+        "docs.developers.optimizely.com"
+      ],
+      "includePrefixes": [
+        "/content-management-system/v13.0.0-CMS/"
+      ],
+      "fetchSuffix": ".md",
+      "followIndexes": true,
+      "maxIndexes": 32,
+      "maxPages": 5000,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "applicability": "Official link catalog; page content is fetched selectively, not mirrored."
     }
   ],
   "pointers": [
@@ -411,6 +562,16 @@
       "domain": "cms/sitecore-xp",
       "url": "https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/index-en.html",
       "reason": "Official Sitecore Experience Manager 10.4 developer documentation; retain the product/version context when applying guidance."
+    },
+    {
+      "domain": "typescript",
+      "url": "https://www.typescriptlang.org/docs/",
+      "reason": "Official TypeScript documentation; the typescript-docs catalog lists its pages."
+    },
+    {
+      "domain": "accessibility",
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "reason": "W3C WCAG overview; the w3c-accessibility catalog lists WCAG 2.2 Understanding and Techniques pages and the ARIA Authoring Practices Guide."
     }
   ]
 }
