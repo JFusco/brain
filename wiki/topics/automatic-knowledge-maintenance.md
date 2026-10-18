@@ -28,6 +28,7 @@ Brain captures private lesson evidence, catalogs official entry points, and publ
 - **Registry edits** are ordinary PRs that run `official sync <id>` and `check`; registry drift fails `check`. Lock policy hashes and `inbox propose`/`apply` are gone.
 - **No LaunchAgent.** `curation stale` refreshes the stale queue, and `maintenance status` reports publication bookkeeping and catalog age without a collection signal.
 - **Why.** Mirrors were 95% of tracked bytes, made fresh clones fail `check`, and needed a daily Codex-investigated publisher with two repository secrets. Rollback is now `git revert`.
+- **Weekly refresh and discovery.** The [phase 3 follow-up](../journal/2026-10-18-phase-3-follow-up.md) keeps routine catalog drift out of the weekly issue. It asks for a weekly catalog-refresh PR and a weekly coverage review against the README watch list. The manual **Brain catalog sync** workflow refreshes or verifies catalogs on a branch for sessions that can't reach vendor sites.
 
 ## Capture from working projects
 

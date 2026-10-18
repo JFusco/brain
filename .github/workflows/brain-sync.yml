@@ -1,0 +1,69 @@
+name: Brain catalog sync
+
+# Manual only: refresh catalogs (all, or the given source IDs) on a non-main
+# branch and commit the catalogs, lock and hubs back to that branch.
+on:
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: Space-separated source IDs; empty refreshes every registered source
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: brain-catalog-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  sync:
+    if: github.repository == 'JFusco/brain' && github.ref_type == 'branch' && github.ref_name != 'main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.14.0'
+      - name: Install the pinned scanner profile
+        run: node scripts/hosted/setup.mjs
+      - name: Sync catalogs
+        id: sync
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCES: ${{ inputs.sources }}
+        run: |
+          set +e
+          node scripts/brain.mjs official sync $SOURCES > .state/sync.json
+          status=$?
+          set -e
+          { echo '## Brain catalog sync'; echo; echo '```json'; cat .state/sync.json; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+      - name: Check
+        run: node scripts/brain.mjs check
+      - name: Commit catalogs, lock and hubs to this branch
+        env:
+          BRANCH: ${{ github.ref_name }}
+          RUN_ID: ${{ github.run_id }}
+          WIKI_HOME: ${{ github.workspace }}/.state/wiki-plan-scope
+        run: |
+          git add -A official/catalogs official/sources.lock.json knowledge
+          if git diff --cached --quiet; then echo 'No catalog changes.' >> "$GITHUB_STEP_SUMMARY"; exit 0; fi
+          if git diff --cached --name-only | grep -Ev '^(official/catalogs/[a-z0-9-]+\.json|official/sources\.lock\.json|knowledge/.+/INDEX\.md)$'; then
+            echo 'Refusing to commit paths outside the catalogs, the lock and hubs.'; exit 1
+          fi
+          mkdir -p "$WIKI_HOME"
+          git config core.hooksPath .githooks
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore(official): refresh catalogs' -m "Brain catalog sync run $RUN_ID."
+          git push origin "HEAD:$BRANCH"
+          git diff --name-only HEAD~1 HEAD | sed 's/^/- /' >> "$GITHUB_STEP_SUMMARY"
+      - name: Fail when a source failed to refresh
+        if: steps.sync.outputs.status != '0'
+        run: |
+          echo 'One or more sources failed to refresh; their last good catalogs were kept. See the run summary.'
+          exit 1
