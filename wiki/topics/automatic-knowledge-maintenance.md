@@ -29,6 +29,7 @@ Brain captures private lesson evidence, catalogs official entry points, and publ
 - **No LaunchAgent.** `curation stale` refreshes the stale queue, and `maintenance status` reports publication bookkeeping and catalog age without a collection signal.
 - **Why.** Mirrors were 95% of tracked bytes, made fresh clones fail `check`, and needed a daily Codex-investigated publisher with two repository secrets. Rollback is now `git revert`.
 - **Weekly refresh and discovery.** The [phase 3 follow-up](../journal/2026-10-18-phase-3-follow-up.md) keeps routine catalog drift out of the weekly issue. It asks for a weekly catalog-refresh PR and a weekly coverage review against the README watch list. The manual **Brain catalog sync** workflow refreshes or verifies catalogs on a branch for sessions that can't reach vendor sites.
+- **Coverage.** TypeScript, accessibility (WCAG 2.2, WAI-ARIA) and Optimizely CMS 13 catalogs were [registered](../journal/2026-10-18-coverage-registrations.md). doc.sitecore.com and Contentful's documentation `llms.txt` refuse GitHub-hosted runners (HTTP 403 and 429), so those stay as website pointers.
 
 ## Capture from working projects
 
