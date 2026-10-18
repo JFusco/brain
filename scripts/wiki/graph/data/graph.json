@@ -2,12 +2,12 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 44,
-    "edges": 117,
+    "nodes": 46,
+    "edges": 121,
     "byType": {
       "index": 3,
-      "journal": 19,
-      "plan": 19,
+      "journal": 20,
+      "plan": 20,
       "topic": 3
     }
   },
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.959493,
-      "y": 0.281733,
+      "x": 0.962917,
+      "y": 0.269797,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.909632,
-      "y": 0.415415,
+      "x": 0.917211,
+      "y": 0.398401,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.841254,
-      "y": 0.540641,
+      "x": 0.854419,
+      "y": 0.519584,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.75575,
-      "y": 0.654861,
+      "x": 0.775711,
+      "y": 0.631088,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": 0.654861,
-      "y": 0.75575,
+      "x": 0.682553,
+      "y": 0.730836,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": 0.540641,
-      "y": 0.841254,
+      "x": 0.57668,
+      "y": 0.81697,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": 0.415415,
-      "y": 0.909632,
+      "x": 0.460065,
+      "y": 0.887885,
       "size": 8
     },
     {
@@ -196,8 +196,8 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": 0.281733,
-      "y": 0.959493,
+      "x": 0.33488,
+      "y": 0.942261,
       "size": 8
     },
     {
@@ -221,8 +221,8 @@
       ],
       "bytes": 5340,
       "degree": 6,
-      "x": 0.142315,
-      "y": 0.989821,
+      "x": 0.203456,
+      "y": 0.979084,
       "size": 8
     },
     {
@@ -240,8 +240,8 @@
       ],
       "bytes": 2693,
       "degree": 3,
-      "x": 0,
-      "y": 1,
+      "x": 0.068242,
+      "y": 0.997669,
       "size": 8
     },
     {
@@ -259,8 +259,8 @@
       ],
       "bytes": 7492,
       "degree": 6,
-      "x": -0.142315,
-      "y": 0.989821,
+      "x": -0.068242,
+      "y": 0.997669,
       "size": 8
     },
     {
@@ -278,8 +278,8 @@
       ],
       "bytes": 6374,
       "degree": 5,
-      "x": -0.281733,
-      "y": 0.959493,
+      "x": -0.203456,
+      "y": 0.979084,
       "size": 8
     },
     {
@@ -303,8 +303,8 @@
       ],
       "bytes": 6037,
       "degree": 4,
-      "x": -0.415415,
-      "y": 0.909632,
+      "x": -0.33488,
+      "y": 0.942261,
       "size": 8
     },
     {
@@ -322,8 +322,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": -0.540641,
-      "y": 0.841254,
+      "x": -0.460065,
+      "y": 0.887885,
       "size": 8
     },
     {
@@ -377,8 +377,8 @@
       ],
       "bytes": 14026,
       "degree": 3,
-      "x": -0.654861,
-      "y": 0.75575,
+      "x": -0.57668,
+      "y": 0.81697,
       "size": 8
     },
     {
@@ -396,8 +396,8 @@
       ],
       "bytes": 4835,
       "degree": 4,
-      "x": -0.75575,
-      "y": 0.654861,
+      "x": -0.682553,
+      "y": 0.730836,
       "size": 8
     },
     {
@@ -415,8 +415,8 @@
       ],
       "bytes": 3450,
       "degree": 4,
-      "x": -0.841254,
-      "y": 0.540641,
+      "x": -0.775711,
+      "y": 0.631088,
       "size": 8
     },
     {
@@ -434,8 +434,8 @@
       ],
       "bytes": 1787,
       "degree": 4,
-      "x": -0.909632,
-      "y": 0.415415,
+      "x": -0.854419,
+      "y": 0.519584,
       "size": 8
     },
     {
@@ -453,8 +453,27 @@
       ],
       "bytes": 1850,
       "degree": 4,
-      "x": -0.959493,
-      "y": 0.281733,
+      "x": -0.917211,
+      "y": 0.398401,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-18-hosted-state-handoff.md",
+      "label": "Preserve hosted preparation state in publication",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 45,
+          "url": "https://github.com/jfusco/brain/issues/45"
+        }
+      ],
+      "bytes": 1362,
+      "degree": 2,
+      "x": -0.962917,
+      "y": 0.269797,
       "size": 8
     },
     {
@@ -465,8 +484,8 @@
       "githubRefs": [],
       "bytes": 3069,
       "degree": 2,
-      "x": 0.989821,
-      "y": 0.142315,
+      "x": 0.990686,
+      "y": 0.136167,
       "size": 12
     },
     {
@@ -477,8 +496,8 @@
       "githubRefs": [],
       "bytes": 2105,
       "degree": 2,
-      "x": -0.989821,
-      "y": 0.142315,
+      "x": -0.990686,
+      "y": 0.136167,
       "size": 8
     },
     {
@@ -508,8 +527,8 @@
       "githubRefs": [],
       "bytes": 5333,
       "degree": 4,
-      "x": -0.989821,
-      "y": -0.142315,
+      "x": -0.990686,
+      "y": -0.136167,
       "size": 8
     },
     {
@@ -533,8 +552,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.959493,
-      "y": -0.281733,
+      "x": -0.962917,
+      "y": -0.269797,
       "size": 8
     },
     {
@@ -545,8 +564,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.909632,
-      "y": -0.415415,
+      "x": -0.917211,
+      "y": -0.398401,
       "size": 8
     },
     {
@@ -557,8 +576,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.841254,
-      "y": -0.540641,
+      "x": -0.854419,
+      "y": -0.519584,
       "size": 8
     },
     {
@@ -569,8 +588,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.75575,
-      "y": -0.654861,
+      "x": -0.775711,
+      "y": -0.631088,
       "size": 8
     },
     {
@@ -588,8 +607,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": -0.654861,
-      "y": -0.75575,
+      "x": -0.682553,
+      "y": -0.730836,
       "size": 8
     },
     {
@@ -607,8 +626,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": -0.540641,
-      "y": -0.841254,
+      "x": -0.57668,
+      "y": -0.81697,
       "size": 8
     },
     {
@@ -619,8 +638,8 @@
       "githubRefs": [],
       "bytes": 2637,
       "degree": 3,
-      "x": -0.415415,
-      "y": -0.909632,
+      "x": -0.460065,
+      "y": -0.887885,
       "size": 8
     },
     {
@@ -638,8 +657,8 @@
       ],
       "bytes": 2014,
       "degree": 3,
-      "x": -0.281733,
-      "y": -0.959493,
+      "x": -0.33488,
+      "y": -0.942261,
       "size": 8
     },
     {
@@ -657,8 +676,8 @@
       ],
       "bytes": 1840,
       "degree": 3,
-      "x": -0.142315,
-      "y": -0.989821,
+      "x": -0.203456,
+      "y": -0.979084,
       "size": 8
     },
     {
@@ -676,8 +695,8 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": 0,
-      "y": -1,
+      "x": -0.068242,
+      "y": -0.997669,
       "size": 8
     },
     {
@@ -688,8 +707,8 @@
       "githubRefs": [],
       "bytes": 1560,
       "degree": 3,
-      "x": 0.142315,
-      "y": -0.989821,
+      "x": 0.068242,
+      "y": -0.997669,
       "size": 8
     },
     {
@@ -707,8 +726,8 @@
       ],
       "bytes": 1101,
       "degree": 3,
-      "x": 0.281733,
-      "y": -0.959493,
+      "x": 0.203456,
+      "y": -0.979084,
       "size": 8
     },
     {
@@ -726,8 +745,8 @@
       ],
       "bytes": 1210,
       "degree": 2,
-      "x": 0.415415,
-      "y": -0.909632,
+      "x": 0.33488,
+      "y": -0.942261,
       "size": 8
     },
     {
@@ -745,8 +764,27 @@
       ],
       "bytes": 1423,
       "degree": 2,
-      "x": 0.540641,
-      "y": -0.841254,
+      "x": 0.460065,
+      "y": -0.887885,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-18-preserve-preparation-observations-across-hosted-publication-aeccc4bdca.md",
+      "label": "Preserve preparation observations across hosted publication",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 45,
+          "url": "https://github.com/jfusco/brain/issues/45"
+        }
+      ],
+      "bytes": 969,
+      "degree": 2,
+      "x": 0.57668,
+      "y": -0.81697,
       "size": 8
     },
     {
@@ -764,8 +802,8 @@
       ],
       "bytes": 1374,
       "degree": 3,
-      "x": 0.654861,
-      "y": -0.75575,
+      "x": 0.682553,
+      "y": -0.730836,
       "size": 8
     },
     {
@@ -783,8 +821,8 @@
       ],
       "bytes": 1238,
       "degree": 3,
-      "x": 0.75575,
-      "y": -0.654861,
+      "x": 0.775711,
+      "y": -0.631088,
       "size": 8
     },
     {
@@ -872,10 +910,10 @@
           "url": "https://github.com/jfusco/brain/pull/3"
         }
       ],
-      "bytes": 7015,
-      "degree": 21,
-      "x": 0.841254,
-      "y": -0.540641,
+      "bytes": 7430,
+      "degree": 22,
+      "x": 0.854419,
+      "y": -0.519584,
       "size": 12
     },
     {
@@ -962,9 +1000,9 @@
         }
       ],
       "bytes": 25137,
-      "degree": 65,
-      "x": 0.909632,
-      "y": -0.415415,
+      "degree": 66,
+      "x": 0.917211,
+      "y": -0.398401,
       "size": 8
     },
     {
@@ -976,10 +1014,10 @@
         "cloud link investigation"
       ],
       "githubRefs": [],
-      "bytes": 8058,
-      "degree": 6,
-      "x": 0.959493,
-      "y": -0.281733,
+      "bytes": 8365,
+      "degree": 8,
+      "x": 0.962917,
+      "y": -0.269797,
       "size": 8
     },
     {
@@ -993,8 +1031,8 @@
       "githubRefs": [],
       "bytes": 11289,
       "degree": 7,
-      "x": 0.989821,
-      "y": -0.142315,
+      "x": 0.990686,
+      "y": -0.136167,
       "size": 8
     }
   ],
@@ -1150,6 +1188,13 @@
       "id": "355b085344694472",
       "source": "wiki/INDEX.md",
       "target": "wiki/MECHANICS.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "375c174a06a26178",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-18-preserve-preparation-observations-across-hosted-publication-aeccc4bdca.md",
       "type": "link",
       "relation": "link"
     },
@@ -1343,11 +1388,25 @@
       "relation": "topic"
     },
     {
+      "id": "7acbd877ae1f902e",
+      "source": "wiki/journal/2026-10-18-hosted-state-handoff.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "7afef2bf61026f7f",
       "source": "wiki/journal/2026-10-17-retained-inbox-curation.md",
       "target": "wiki/plans/2026-10-17-curate-the-retained-brain-inbox-81de1bc8dc.md",
       "type": "plan",
       "relation": "plan"
+    },
+    {
+      "id": "7c139806cd91390c",
+      "source": "wiki/plans/2026-10-18-preserve-preparation-observations-across-hosted-publication-aeccc4bdca.md",
+      "target": "wiki/topics/hosted-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "7e5508a1357ce0b1",
@@ -1537,6 +1596,13 @@
       "target": "wiki/topics/link-warning-investigation.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "ab381fab5ba9a207",
+      "source": "wiki/journal/2026-10-18-hosted-state-handoff.md",
+      "target": "wiki/topics/hosted-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "ab70ad1a4ed89b8a",
