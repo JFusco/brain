@@ -416,6 +416,14 @@
         {
           "title": "How to Meet WCAG 2.2 (Quick Reference)",
           "url": "https://www.w3.org/WAI/WCAG22/quickref/"
+        },
+        {
+          "title": "Understanding WCAG 2.2",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/"
+        },
+        {
+          "title": "Techniques for WCAG 2.2",
+          "url": "https://www.w3.org/WAI/WCAG22/Techniques/"
         }
       ],
       "license": "W3C Document License; links only, no content mirrored",
