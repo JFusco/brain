@@ -2,6 +2,8 @@
 title: "Record low-value nightly curation rejections"
 topics: ["automatic-knowledge-maintenance"]
 plans: ["2026-10-17-record-low-value-nightly-curation-rejections-4c7810f86d.md"]
+issue: 'https://github.com/jfusco/brain/issues/24'
+issues: ['https://github.com/jfusco/brain/issues/24']
 ---
 
 # Record low-value nightly curation rejections
