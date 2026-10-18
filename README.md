@@ -151,7 +151,7 @@ This verifies the GitHub merge, repository, base branch, proposal digest in the 
 
 Run `curation stale --limit 12` before selecting new material. A changed source revision or a 30-day review date queues the note for claim verification; neither proves that its advice changed. Re-read the relevant official pages, keep the evidence and limits, and publish the revised note through the same exact-content proposal. Optional `review_after` selects an earlier review date. Set `status: retired` when advice should no longer be recommended, or `status: superseded` with a published `superseded_by` path when a replacement exists. These pages remain in history but leave lookup and curated hub recommendations.
 
-Only knowledge Markdown and `official/sources.json` are proposal destinations. PR export currently supports knowledge Markdown; registry maintenance uses a separate documented PR and updates its local integrity receipt after validation. Generated official sections are maintained by sync. The CLI never calls an LLM; the scheduled agent performs semantic curation.
+Only knowledge Markdown and `official/sources.json` are proposal destinations. PR export currently supports knowledge Markdown; registry maintenance uses a separate documented PR that also updates the matching policy hashes in `official/sources.lock.json`. Generated official sections are maintained by sync. The CLI never calls an LLM; the scheduled agent performs semantic curation.
 
 Exact page hashes are recorded in `knowledge/approvals.json`; domain indexes generate curated links from those records. On a branch these are proposed publication records; merging publishes them. A handwritten or modified page is excluded from that navigation until its exact content has a matching record.
 
@@ -173,7 +173,7 @@ Sync uses authenticated GitHub API access through `gh` when available, verified 
 
 An unchanged source preserves its snapshot bytes; local catalog upgrades can refresh metadata. Failures retain the last good snapshot. License changes are recorded with previous and observed material in `.state/license-reviews/` and do not pause refresh. Downloads, source identity, license presence, hashes, and privacy checks still apply. Registry changes use documented automatic maintenance PRs; unknown-origin sources remain quarantined.
 
-Published vendor examples can trigger scanner findings. Exceptions require an approved registry proposal and bind the source path, scanner rule, and exact line-span hash. They never apply to personal harvests. Source registry bytes are also checked against the approval ledger, so an unapproved edit pauses synchronization.
+Published vendor examples can trigger scanner findings. Exceptions require an approved registry proposal and bind the source path, scanner rule, and exact line-span hash. They never apply to personal harvests. Each registered source must also match its policy hash in `official/sources.lock.json`; a registry edit without the matching lock update fails `official check` and `official restore`.
 
 ```sh
 node scripts/brain.mjs official rollback <source-id>
@@ -270,7 +270,7 @@ node scripts/brain.mjs scheduled-run
 
 One user LaunchAgent runs at 02:30 and on load. Due-time checks provide startup catch-up: harvest, official reference refresh and link sampling run when due, and source failures retry with bounded backoff. A separate local Codex heartbeat handles private learning curation when the Mac/app is available; the hosted workflow owns official-reference and link maintenance. It preserves unrelated changes and skips unchanged or non-actionable work quietly. Local scheduled agent work requires the desktop app and machine to be available. Logs and notifications contain no raw candidate text. All CLI mutations share a lock; other project repositories are not enrolled for background writes.
 
-On a new machine, validate the official source registry and use `node scripts/setup.mjs --approve-registry` to establish its local integrity receipt. Later registry changes use documented maintenance PRs and a matching updated receipt. Back up private state to preserve the inbox, dispositions, local paths, registry receipt, curation receipts, and cached oversized files.
+Registry changes use documented maintenance PRs. Git history and the lock's per-source policy hashes are the integrity record, so a new machine needs no separate registry approval step. Back up private state to preserve the inbox, dispositions, local paths, curation receipts, and cached oversized files.
 
 After cloning, run `git config core.hooksPath .githooks` to activate the pre-commit guard.
 

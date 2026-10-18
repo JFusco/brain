@@ -4,7 +4,7 @@ import {createRequire} from 'node:module';
 import {spawnSync} from 'node:child_process';
 import {at,ROOT,config,walk,inside,safePath,json,sha} from './core.mjs';
 import {assertClean} from './privacy.mjs';
-import {checkOfficial,historicalCacheGaps,lock,snapshotRoot,registry,requireRegistryApproval} from './official.mjs';
+import {checkOfficial,historicalCacheGaps,lock,snapshotRoot,registry} from './official.mjs';
 import {versionConstraint} from './project-context.mjs';
 const require=createRequire(import.meta.url);
 const {splitFrontmatter,scalar,list:frontmatterList,frontmatterProblems}=require('../wiki/lib/frontmatter.cjs');
@@ -51,7 +51,6 @@ export function check({staged=false}={}) {
       for(const record of manifest.files){const source=path.join(snapshotRoot(manifest),record.path);if(fs.existsSync(source)&&/\.(?:md|mdx|txt|json|ya?ml|[cm]?[jt]sx?)$/i.test(record.path))entries.push({id:path.relative(ROOT,source),bytes:fs.readFileSync(source)});}
     }
   }
-  try{requireRegistryApproval();if(staged){const source=entries.find(e=>e.id==='official/sources.json');if(source&&sha(source.bytes)!==sha(fs.readFileSync(at('official/sources.json'))))issues.push('Staged registry differs from the approved working registry');}}catch(error){issues.push(error.message);}
   const vendor=entries.filter(e=>e.id.startsWith('official/snapshots/')),personal=entries.filter(e=>!e.id.startsWith('official/snapshots/'));
   if(staged)for(const entry of vendor){const parts=entry.id.split('/'),name=`official/manifests/${parts[2]}/${parts[3]}.json`,record=entries.find(e=>e.id===name);if(!record){issues.push('Staged vendor content requires its snapshot manifest');continue;}const manifest=JSON.parse(record.bytes),file=manifest.files.find(f=>f.path===parts.slice(4).join('/'));if(!file||sha(entry.bytes)!==file.sha256)issues.push('Staged vendor content differs from its snapshot manifest');}
   try{assertClean(personal);}catch(error){issues.push(error.message);}

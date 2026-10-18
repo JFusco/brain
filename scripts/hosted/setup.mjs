@@ -26,6 +26,5 @@ const files=archive(bundle.bytes,{stripRoot:false,select:name=>['gitleaks','LICE
 if(!files.has('gitleaks'))throw new Error('Scanner binary missing');atomic(binary,files.get('gitleaks'),0o700);
 const result=spawnSync(binary,['version'],{encoding:'utf8'});if(result.status!==0||result.stdout.trim().replace(/^v/,'')!==version)throw new Error('Scanner version mismatch');
 profile.toolchain={...profile.toolchain,gitleaks:binary,gitleaksVersion:version,gitleaksBinarySha256:sha(files.get('gitleaks'))};writeJSON(at('brain.config.local.json'),profile,0o600);
-writeJSON(at('.state/registry-approval.json'),{sha256:sha(fs.readFileSync(at('official/sources.json'))),method:'Trusted default-branch hosted bootstrap',commit:process.env.GITHUB_SHA||null},0o600);
 writeJSON(at('.state/hosted-toolchain.json'),{version,archiveSha256:expected,binarySha256:profile.toolchain.gitleaksBinarySha256,platform:process.platform,arch:process.arch},0o600);
 console.log('Pinned checksum-verified scanner and isolated hosted profile ready; no private collection or backup configuration imported.');

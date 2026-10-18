@@ -13,7 +13,6 @@ const {splitFrontmatter,scalar}=require('../wiki/lib/frontmatter.cjs');
 export const registry=()=>json(at('official/sources.json'));
 export const lock=()=>readJSON(at('official/sources.lock.json'),{schemaVersion:1,sources:{},toolchain:{}});
 export const fingerprint=spec=>sha(JSON.stringify(spec));
-export function requireRegistryApproval(){const approval=readJSON(at('.state/registry-approval.json'),{});if(approval.sha256!==sha(fs.readFileSync(at('official/sources.json'))))throw new Error('Source registry changed without an approved proposal');}
 const selected=(source,name)=>source.paths.some(rule=>rule.exact===name || rule.prefix && name.startsWith(rule.prefix));
 function mapped(spec,name) {
   for(const rule of spec.mappings||[])if(name.startsWith(rule.from))return safePath(rule.to+name.slice(rule.from.length));
@@ -56,7 +55,7 @@ function catalog(spec,files) {
   return skills.sort((a,b)=>a.id.localeCompare(b.id));
 }
 export function refreshCatalogs() {
-  requireRegistryApproval();const current=lock(),changed=[];
+  const current=lock(),changed=[];
   for(const spec of registry().sources){const entry=current.sources[spec.id];if(!entry)continue;const files=snapshotFiles(entry),skills=catalog(spec,files),references=relativeProblems(spec,files,skills);if(entry.catalogVersion===3&&JSON.stringify(entry.skills)===JSON.stringify(skills)&&JSON.stringify(entry.referenceIssues)===JSON.stringify(references))continue;entry.skills=skills;entry.referenceIssues=references;entry.catalogVersion=3;const manifest=readJSON(manifestFile(entry),entry);writeJSON(manifestFile(entry),{...manifest,skills,referenceIssues:references,catalogVersion:3});changed.push(spec.id);}
   const cached=[];
   // Preserve bytes and hashes using the established cache/restore path for
@@ -143,7 +142,6 @@ function publish(entry,files) {
 }
 function licenseKey(entry){return JSON.stringify({files:entry.licenses.filter(l=>l.sha256),declarations:[...new Set(entry.licenses.filter(l=>l.license).map(l=>l.license))].sort()});}
 export async function sync({seed=false,ids=null,dueOnly=false}={}) {
-  requireRegistryApproval();
   const specs=registry().sources.filter(s=>ids?ids.includes(s.id):s.refresh!==false);
   if(ids?.some(id=>!specs.some(s=>s.id===id)))throw new Error('Unknown official source ID');
   const current=lock(),state=readJSON(at('.state/official-runs.json'));
@@ -273,7 +271,6 @@ export function historicalCacheGaps() {
 }
 export function checkOfficial() {
   const active=lock(),issues=[],partial=config().official?.allowUnavailableHistoricalCache===true,required=new Set(registry().sources.filter(s=>s.refresh!==false).map(s=>`${s.id}/${active.sources[s.id]?.snapshot}`));
-  try{requireRegistryApproval();}catch(error){issues.push(error.message);}
   for(const spec of registry().sources){const entry=active.sources[spec.id];if(!entry){issues.push(`${spec.id}: no active snapshot`);continue;}if(entry.policySha256!==fingerprint(spec))issues.push(`${spec.id}: registry differs from approved lock`);try{snapshotFiles(entry,{allowMissingCached:partial&&spec.refresh===false});}catch(error){issues.push(error.message);}}
   for(const file of walk(at('official/manifests'),{file:f=>f.endsWith('.json')})){try{const entry=json(file);snapshotFiles(entry,{allowMissingCached:partial&&!required.has(`${entry.id}/${entry.snapshot}`)});}catch(error){issues.push(error.message);}}
   for(const [domain,section] of Object.entries(officialSections())){const actual=fs.readFileSync(at(`knowledge/${domain}/INDEX.md`),'utf8').match(/<!-- brain:official:start -->\n([\s\S]*?)<!-- brain:official:end -->/)?.[1];if(actual!==section)issues.push(`Stale official section: ${domain}`);}
