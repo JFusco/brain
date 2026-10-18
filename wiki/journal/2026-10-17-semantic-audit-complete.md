@@ -2,6 +2,8 @@
 title: "Retained semantic audit completion"
 topics: ["automatic-knowledge-maintenance"]
 plans: ["2026-10-17-complete-the-retained-brain-semantic-audit-c84fe68577.md"]
+issue: 'https://github.com/jfusco/brain/issues/36'
+issues: ['https://github.com/jfusco/brain/issues/36']
 ---
 
 # Retained semantic audit completion
