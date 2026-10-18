@@ -257,7 +257,7 @@
           "url": "https://github.com/jfusco/brain/issues/27"
         }
       ],
-      "bytes": 7387,
+      "bytes": 7492,
       "degree": 6,
       "x": -0.602635,
       "y": 0.798017,
@@ -364,12 +364,18 @@
         },
         {
           "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 27,
+          "url": "https://github.com/jfusco/brain/issues/27"
+        },
+        {
+          "repository": "jfusco/brain",
           "kind": "pull-request",
           "number": 2,
           "url": "https://github.com/jfusco/brain/pull/2"
         }
       ],
-      "bytes": 13921,
+      "bytes": 14026,
       "degree": 3,
       "x": -0.982973,
       "y": 0.18375,

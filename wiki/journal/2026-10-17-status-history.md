@@ -1,6 +1,8 @@
 ---
 title: "Historical implementation status before project cleanup"
 topics: ["automatic-knowledge-maintenance"]
+issue: 'https://github.com/jfusco/brain/issues/27'
+issues: ['https://github.com/jfusco/brain/issues/27']
 ---
 
 # Historical implementation status before project cleanup
