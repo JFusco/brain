@@ -1533,8 +1533,13 @@
     },
     {
       "domain": "cms/contentful",
-      "url": "https://www.contentful.com/developers/docs",
-      "reason": "Website index returned HTTP 429; official repository skills are mirrored."
+      "url": "https://www.contentful.com/developers/docs/references/api-basics.md",
+      "reason": "Official API overview in supported Markdown: delivery, management, preview, images and GraphQL. Follow the relevant API reference for the task."
+    },
+    {
+      "domain": "cms/contentful",
+      "url": "https://www.contentful.com/developers/docs/sdks/javascript/sdks.md",
+      "reason": "Official JavaScript client-library guide in supported Markdown. Confirm the consuming application's installed SDK and selected API; this is not a full documentation catalog."
     },
     {
       "domain": "cms/sitecore-ai",

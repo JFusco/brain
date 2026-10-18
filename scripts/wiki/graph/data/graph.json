@@ -2,12 +2,12 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 36,
-    "edges": 95,
+    "nodes": 38,
+    "edges": 101,
     "byType": {
       "index": 3,
-      "journal": 16,
-      "plan": 16,
+      "journal": 17,
+      "plan": 17,
       "topic": 1
     }
   },
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.939693,
-      "y": 0.34202,
+      "x": 0.945817,
+      "y": 0.324699,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.866025,
-      "y": 0.5,
+      "x": 0.879474,
+      "y": 0.475947,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.766044,
-      "y": 0.642788,
+      "x": 0.789141,
+      "y": 0.614213,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.642788,
-      "y": 0.766044,
+      "x": 0.677282,
+      "y": 0.735724,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": 0.5,
-      "y": 0.866025,
+      "x": 0.546948,
+      "y": 0.837166,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": 0.34202,
-      "y": 0.939693,
+      "x": 0.401695,
+      "y": 0.915773,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": 0.173648,
-      "y": 0.984808,
+      "x": 0.245485,
+      "y": 0.9694,
       "size": 8
     },
     {
@@ -196,8 +196,8 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": 0,
-      "y": 1,
+      "x": 0.082579,
+      "y": 0.996584,
       "size": 8
     },
     {
@@ -221,8 +221,8 @@
       ],
       "bytes": 5340,
       "degree": 6,
-      "x": -0.173648,
-      "y": 0.984808,
+      "x": -0.082579,
+      "y": 0.996584,
       "size": 8
     },
     {
@@ -240,8 +240,8 @@
       ],
       "bytes": 2693,
       "degree": 3,
-      "x": -0.34202,
-      "y": 0.939693,
+      "x": -0.245485,
+      "y": 0.9694,
       "size": 8
     },
     {
@@ -259,8 +259,8 @@
       ],
       "bytes": 7492,
       "degree": 6,
-      "x": -0.5,
-      "y": 0.866025,
+      "x": -0.401695,
+      "y": 0.915773,
       "size": 8
     },
     {
@@ -278,8 +278,8 @@
       ],
       "bytes": 6374,
       "degree": 5,
-      "x": -0.642788,
-      "y": 0.766044,
+      "x": -0.546948,
+      "y": 0.837166,
       "size": 8
     },
     {
@@ -303,8 +303,8 @@
       ],
       "bytes": 6037,
       "degree": 4,
-      "x": -0.766044,
-      "y": 0.642788,
+      "x": -0.677282,
+      "y": 0.735724,
       "size": 8
     },
     {
@@ -322,8 +322,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": -0.866025,
-      "y": 0.5,
+      "x": -0.789141,
+      "y": 0.614213,
       "size": 8
     },
     {
@@ -377,8 +377,8 @@
       ],
       "bytes": 14026,
       "degree": 3,
-      "x": -0.939693,
-      "y": 0.34202,
+      "x": -0.879474,
+      "y": 0.475947,
       "size": 8
     },
     {
@@ -396,8 +396,27 @@
       ],
       "bytes": 4835,
       "degree": 4,
-      "x": -0.984808,
-      "y": 0.173648,
+      "x": -0.945817,
+      "y": 0.324699,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-18-contentful-documentation-access.md",
+      "label": "Replace the throttled Contentful documentation pointer",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 41,
+          "url": "https://github.com/jfusco/brain/issues/41"
+        }
+      ],
+      "bytes": 3450,
+      "degree": 4,
+      "x": -0.986361,
+      "y": 0.164595,
       "size": 8
     },
     {
@@ -408,8 +427,8 @@
       "githubRefs": [],
       "bytes": 3069,
       "degree": 2,
-      "x": 0.984808,
-      "y": 0.173648,
+      "x": 0.986361,
+      "y": 0.164595,
       "size": 12
     },
     {
@@ -439,8 +458,8 @@
       ],
       "bytes": 5776,
       "degree": 3,
-      "x": -0.984808,
-      "y": -0.173648,
+      "x": -0.986361,
+      "y": -0.164595,
       "size": 8
     },
     {
@@ -451,8 +470,8 @@
       "githubRefs": [],
       "bytes": 5333,
       "degree": 4,
-      "x": -0.939693,
-      "y": -0.34202,
+      "x": -0.945817,
+      "y": -0.324699,
       "size": 8
     },
     {
@@ -476,8 +495,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.866025,
-      "y": -0.5,
+      "x": -0.879474,
+      "y": -0.475947,
       "size": 8
     },
     {
@@ -488,8 +507,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.766044,
-      "y": -0.642788,
+      "x": -0.789141,
+      "y": -0.614213,
       "size": 8
     },
     {
@@ -500,8 +519,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.642788,
-      "y": -0.766044,
+      "x": -0.677282,
+      "y": -0.735724,
       "size": 8
     },
     {
@@ -512,8 +531,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.5,
-      "y": -0.866025,
+      "x": -0.546948,
+      "y": -0.837166,
       "size": 8
     },
     {
@@ -531,8 +550,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": -0.34202,
-      "y": -0.939693,
+      "x": -0.401695,
+      "y": -0.915773,
       "size": 8
     },
     {
@@ -550,8 +569,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": -0.173648,
-      "y": -0.984808,
+      "x": -0.245485,
+      "y": -0.9694,
       "size": 8
     },
     {
@@ -562,8 +581,8 @@
       "githubRefs": [],
       "bytes": 2637,
       "degree": 3,
-      "x": 0,
-      "y": -1,
+      "x": -0.082579,
+      "y": -0.996584,
       "size": 8
     },
     {
@@ -581,8 +600,8 @@
       ],
       "bytes": 2014,
       "degree": 3,
-      "x": 0.173648,
-      "y": -0.984808,
+      "x": 0.082579,
+      "y": -0.996584,
       "size": 8
     },
     {
@@ -600,8 +619,8 @@
       ],
       "bytes": 1840,
       "degree": 3,
-      "x": 0.34202,
-      "y": -0.939693,
+      "x": 0.245485,
+      "y": -0.9694,
       "size": 8
     },
     {
@@ -619,8 +638,8 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": 0.5,
-      "y": -0.866025,
+      "x": 0.401695,
+      "y": -0.915773,
       "size": 8
     },
     {
@@ -631,8 +650,8 @@
       "githubRefs": [],
       "bytes": 1560,
       "degree": 3,
-      "x": 0.642788,
-      "y": -0.766044,
+      "x": 0.546948,
+      "y": -0.837166,
       "size": 8
     },
     {
@@ -650,8 +669,8 @@
       ],
       "bytes": 1101,
       "degree": 3,
-      "x": 0.766044,
-      "y": -0.642788,
+      "x": 0.677282,
+      "y": -0.735724,
       "size": 8
     },
     {
@@ -669,8 +688,27 @@
       ],
       "bytes": 1374,
       "degree": 3,
-      "x": 0.866025,
-      "y": -0.5,
+      "x": 0.789141,
+      "y": -0.614213,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-18-replace-the-throttled-contentful-documentation-pointer-bdb41e74f7.md",
+      "label": "Replace the throttled Contentful documentation pointer",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 41,
+          "url": "https://github.com/jfusco/brain/issues/41"
+        }
+      ],
+      "bytes": 1238,
+      "degree": 3,
+      "x": 0.879474,
+      "y": -0.475947,
       "size": 8
     },
     {
@@ -729,6 +767,12 @@
         },
         {
           "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 41,
+          "url": "https://github.com/jfusco/brain/issues/41"
+        },
+        {
+          "repository": "jfusco/brain",
           "kind": "pull-request",
           "number": 2,
           "url": "https://github.com/jfusco/brain/pull/2"
@@ -740,10 +784,10 @@
           "url": "https://github.com/jfusco/brain/pull/3"
         }
       ],
-      "bytes": 5895,
-      "degree": 18,
-      "x": 0.939693,
-      "y": -0.34202,
+      "bytes": 6223,
+      "degree": 19,
+      "x": 0.945817,
+      "y": -0.324699,
       "size": 12
     },
     {
@@ -809,12 +853,18 @@
           "kind": "issue",
           "number": 39,
           "url": "https://github.com/jfusco/brain/issues/39"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 41,
+          "url": "https://github.com/jfusco/brain/issues/41"
         }
       ],
-      "bytes": 22421,
-      "degree": 56,
-      "x": 0.984808,
-      "y": -0.173648,
+      "bytes": 23667,
+      "degree": 60,
+      "x": 0.986361,
+      "y": -0.164595,
       "size": 8
     }
   ],
@@ -914,6 +964,13 @@
       "id": "2afaa89c8213f9ef",
       "source": "wiki/plans/INDEX.md",
       "target": "wiki/plans/2026-10-16-automatic-knowledge-maintenance-and-documentation-coverage-683e6d04bb.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "2fa12b0180b5abab",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/journal/2026-10-18-contentful-documentation-access.md",
       "type": "link",
       "relation": "link"
     },
@@ -1128,6 +1185,13 @@
       "relation": "topic"
     },
     {
+      "id": "82d8ab10801b495b",
+      "source": "wiki/journal/2026-10-18-contentful-documentation-access.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "83b8a6731e1e57d5",
       "source": "wiki/journal/2026-10-17-curator-rejections.md",
       "target": "wiki/plans/2026-10-17-record-low-value-nightly-curation-rejections-4c7810f86d.md",
@@ -1156,9 +1220,30 @@
       "relation": "link"
     },
     {
+      "id": "8c5ca6943ba0681f",
+      "source": "wiki/plans/2026-10-18-replace-the-throttled-contentful-documentation-pointer-bdb41e74f7.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
+      "id": "8da662e2f178eaf3",
+      "source": "wiki/journal/2026-10-18-contentful-documentation-access.md",
+      "target": "wiki/plans/2026-10-18-replace-the-throttled-contentful-documentation-pointer-bdb41e74f7.md",
+      "type": "plan",
+      "relation": "plan"
+    },
+    {
       "id": "906c10a47d01c59f",
       "source": "wiki/journal/2026-10-18-cms-preview-guidance.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "9116da21109dbcbf",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-18-replace-the-throttled-contentful-documentation-pointer-bdb41e74f7.md",
       "type": "link",
       "relation": "link"
     },
@@ -1287,6 +1372,13 @@
       "target": "wiki/plans/2026-10-17-curate-the-retained-brain-inbox-81de1bc8dc.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "b0482ce1c018ebbf",
+      "source": "wiki/journal/2026-10-18-contentful-documentation-access.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "b094cd25b516e04b",
