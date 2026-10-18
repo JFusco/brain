@@ -34,7 +34,9 @@ export async function fetchDocumentationCatalog(spec,revision) {
   };
   while(queue.length){
     const input=queue.shift();if(seen.has(input))continue;seen.add(input);if(seen.size>(spec.maxIndexes??32))throw new Error('Sitemap index bound exceeded; refusing a partial catalog');
-    const response=await download(input,{hosts:spec.allowedHosts,maxBytes:config().network.maxDownloadBytes});
+    // Publishers can reject index requests that omit their supported media types.
+    const accept=spec.indexFormat==='sitemap'?'application/xml, text/xml;q=0.9, text/plain;q=0.8':'text/markdown, text/plain;q=0.9';
+    const response=await download(input,{hosts:spec.allowedHosts,maxBytes:config().network.maxDownloadBytes,headers:{accept}});
     const bytes=/\.gz(?:$|\?)/.test(input)?gunzipSync(response.bytes,{maxOutputLength:config().network.maxExpandedBytes}):response.bytes;
     const index=markdownResponse({...response,bytes});
     if(spec.indexFormat==='sitemap'){

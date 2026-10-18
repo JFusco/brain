@@ -1,0 +1,1976 @@
+{
+  "schemaVersion": 1,
+  "source": "sitecore-xp-docs",
+  "revision": "08b5fa1d9b1bdcd8dbfc634f4b626e214b12eb21a70f96dcec5c7b86c0f07ff1",
+  "origin": "https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "sitecore experience manager / access a branch of items.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-a-branch-of-items.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-a-branch-of-items.html"
+    },
+    {
+      "title": "sitecore experience manager / access a field using the fieldrenderer.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-a-field-using-the-fieldrenderer.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-a-field-using-the-fieldrenderer.html"
+    },
+    {
+      "title": "sitecore experience manager / access alternate languages of an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-alternate-languages-of-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-alternate-languages-of-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access alternate versions of an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-alternate-versions-of-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-alternate-versions-of-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access checkbox fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-checkbox-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-checkbox-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / access checklist multilist treelist and treelistex fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-checklist-multilist-treelist-and-treelistex-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-checklist-multilist-treelist-and-treelistex-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / access date and datetime fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-date-and-datetime-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-date-and-datetime-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / access droplink droptree and grouped droplink fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-droplink-droptree-and-grouped-droplink-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-droplink-droptree-and-grouped-droplink-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / access field values.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-field-values.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-field-values.html"
+    },
+    {
+      "title": "sitecore experience manager / access file drop area fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-file-drop-area-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-file-drop-area-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / access file fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-file-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-file-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / access general link fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-general-link-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-general-link-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / access image fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-image-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-image-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / access items related to another item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-items-related-to-another-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-items-related-to-another-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access sitecore media items.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-sitecore-media-items.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-sitecore-media-items.html"
+    },
+    {
+      "title": "sitecore experience manager / access system data templates.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-system-data-templates.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-system-data-templates.html"
+    },
+    {
+      "title": "sitecore experience manager / access system fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-system-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-system-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / access system items.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-system-items.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-system-items.html"
+    },
+    {
+      "title": "sitecore experience manager / access the ancestors of an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-ancestors-of-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-ancestors-of-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access the children of an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-children-of-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-children-of-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access the context item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-context-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-context-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access the friendly url of a content item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-friendly-url-of-a-content-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-friendly-url-of-a-content-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access the friendly url of a media item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-friendly-url-of-a-media-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-friendly-url-of-a-media-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access the icon for an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-icon-for-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-icon-for-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access the parent of an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-parent-of-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-parent-of-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / access the standard value of a field.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-standard-value-of-a-field.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-standard-value-of-a-field.html"
+    },
+    {
+      "title": "sitecore experience manager / access the url of an rss feed.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-url-of-an-rss-feed.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/access-the-url-of-an-rss-feed.html"
+    },
+    {
+      "title": "sitecore experience manager / adapt your search settings to solr availability.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/adapt-your-search-settings-to-solr-availability.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/adapt-your-search-settings-to-solr-availability.html"
+    },
+    {
+      "title": "sitecore experience manager / add a custom telerik radspell dictionary   tdf .html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-custom-telerik-radspell-dictionary---tdf-.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-custom-telerik-radspell-dictionary---tdf-.html"
+    },
+    {
+      "title": "sitecore experience manager / add a field to a data template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-field-to-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-field-to-a-data-template.html"
+    },
+    {
+      "title": "sitecore experience manager / add a form to a webpage.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-form-to-a-webpage.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-form-to-a-webpage.html"
+    },
+    {
+      "title": "sitecore experience manager / add a multilist with search field to a data template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-multilist-with-search-field-to-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-multilist-with-search-field-to-a-data-template.html"
+    },
+    {
+      "title": "sitecore experience manager / add a runtime plugin manually.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-runtime-plugin-manually.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-runtime-plugin-manually.html"
+    },
+    {
+      "title": "sitecore experience manager / add a search result view.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-search-result-view.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-search-result-view.html"
+    },
+    {
+      "title": "sitecore experience manager / add a section to a data template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-section-to-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-a-section-to-a-data-template.html"
+    },
+    {
+      "title": "sitecore experience manager / add an email address to the forms address book.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-an-email-address-to-the-forms-address-book.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-an-email-address-to-the-forms-address-book.html"
+    },
+    {
+      "title": "sitecore experience manager / add commands and actions to states.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-commands-and-actions-to-states.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-commands-and-actions-to-states.html"
+    },
+    {
+      "title": "sitecore experience manager / add new search filters and alias filters.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-new-search-filters-and-alias-filters.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-new-search-filters-and-alias-filters.html"
+    },
+    {
+      "title": "sitecore experience manager / add styles and scripts to sitecore forms.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-styles-and-scripts-to-sitecore-forms.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/add-styles-and-scripts-to-sitecore-forms.html"
+    },
+    {
+      "title": "sitecore experience manager / adding content testing to a workflow.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/adding-content-testing-to-a-workflow.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/adding-content-testing-to-a-workflow.html"
+    },
+    {
+      "title": "sitecore experience manager / aliases.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/aliases.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/aliases.html"
+    },
+    {
+      "title": "sitecore experience manager / analyze sitecore logs with application insights.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/analyze-sitecore-logs-with-application-insights.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/analyze-sitecore-logs-with-application-insights.html"
+    },
+    {
+      "title": "sitecore experience manager / analyzing and reporting.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/analyzing-and-reporting.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/analyzing-and-reporting.html"
+    },
+    {
+      "title": "sitecore experience manager / api keys for the odata item service.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/api-keys-for-the-odata-item-service.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/api-keys-for-the-odata-item-service.html"
+    },
+    {
+      "title": "sitecore experience manager / api reference for blob storage.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/api-reference-for-blob-storage.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/api-reference-for-blob-storage.html"
+    },
+    {
+      "title": "sitecore experience manager / application performance tuning.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/application-performance-tuning.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/application-performance-tuning.html"
+    },
+    {
+      "title": "sitecore experience manager / application structure.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/application-structure.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/application-structure.html"
+    },
+    {
+      "title": "sitecore experience manager / asp net syndication classes.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/asp-net-syndication-classes.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/asp-net-syndication-classes.html"
+    },
+    {
+      "title": "sitecore experience manager / assembly resolver scanner.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assembly-resolver-scanner.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assembly-resolver-scanner.html"
+    },
+    {
+      "title": "sitecore experience manager / assign a default workflow.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-a-default-workflow.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-a-default-workflow.html"
+    },
+    {
+      "title": "sitecore experience manager / assign a workflow to a template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-a-workflow-to-a-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-a-workflow-to-a-template.html"
+    },
+    {
+      "title": "sitecore experience manager / assign access rights to sitecore form folders.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-access-rights-to-sitecore-form-folders.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-access-rights-to-sitecore-form-folders.html"
+    },
+    {
+      "title": "sitecore experience manager / assign or copy insert options.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-or-copy-insert-options.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-or-copy-insert-options.html"
+    },
+    {
+      "title": "sitecore experience manager / assign standard insert options.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-standard-insert-options.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-standard-insert-options.html"
+    },
+    {
+      "title": "sitecore experience manager / assign standard layout details.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-standard-layout-details.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-standard-layout-details.html"
+    },
+    {
+      "title": "sitecore experience manager / assign user permissions to insert items using a branch template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-user-permissions-to-insert-items-using-a-branch-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assign-user-permissions-to-insert-items-using-a-branch-template.html"
+    },
+    {
+      "title": "sitecore experience manager / assigned insert options versus effective insert options.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assigned-insert-options-versus-effective-insert-options.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/assigned-insert-options-versus-effective-insert-options.html"
+    },
+    {
+      "title": "sitecore experience manager / automating index and statistics maintenance.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/automating-index-and-statistics-maintenance.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/automating-index-and-statistics-maintenance.html"
+    },
+    {
+      "title": "sitecore experience manager / azure monitoring and alerts.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/azure-monitoring-and-alerts.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/azure-monitoring-and-alerts.html"
+    },
+    {
+      "title": "sitecore experience manager / azure waf.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/azure-waf.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/azure-waf.html"
+    },
+    {
+      "title": "sitecore experience manager / base interface and classes for creating value providers.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/base-interface-and-classes-for-creating-value-providers.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/base-interface-and-classes-for-creating-value-providers.html"
+    },
+    {
+      "title": "sitecore experience manager / base templates.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/base-templates.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/base-templates.html"
+    },
+    {
+      "title": "sitecore experience manager / blob storage and sitecore media items.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/blob-storage-and-sitecore-media-items.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/blob-storage-and-sitecore-media-items.html"
+    },
+    {
+      "title": "sitecore experience manager / blob storage performance reference.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/blob-storage-performance-reference.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/blob-storage-performance-reference.html"
+    },
+    {
+      "title": "sitecore experience manager / branch templates.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/branch-templates.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/branch-templates.html"
+    },
+    {
+      "title": "sitecore experience manager / build a custom content provider for sitecore content tagging.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/build-a-custom-content-provider-for-sitecore-content-tagging.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/build-a-custom-content-provider-for-sitecore-content-tagging.html"
+    },
+    {
+      "title": "sitecore experience manager / build a custom discovery provider for sitecore content tagging.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/build-a-custom-discovery-provider-for-sitecore-content-tagging.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/build-a-custom-discovery-provider-for-sitecore-content-tagging.html"
+    },
+    {
+      "title": "sitecore experience manager / build a custom tagger for sitecore content tagging.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/build-a-custom-tagger-for-sitecore-content-tagging.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/build-a-custom-tagger-for-sitecore-content-tagging.html"
+    },
+    {
+      "title": "sitecore experience manager / build a custom taxonomy provider for sitecore content tagging.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/build-a-custom-taxonomy-provider-for-sitecore-content-tagging.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/build-a-custom-taxonomy-provider-for-sitecore-content-tagging.html"
+    },
+    {
+      "title": "sitecore experience manager / build item and media urls.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/build-item-and-media-urls.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/build-item-and-media-urls.html"
+    },
+    {
+      "title": "sitecore experience manager / cache size recommendations.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/cache-size-recommendations.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/cache-size-recommendations.html"
+    },
+    {
+      "title": "sitecore experience manager / cdn setup considerations.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/cdn-setup-considerations.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/cdn-setup-considerations.html"
+    },
+    {
+      "title": "sitecore experience manager / change the content test strategy.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/change-the-content-test-strategy.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/change-the-content-test-strategy.html"
+    },
+    {
+      "title": "sitecore experience manager / cold start and warm up optimization.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/cold-start-and-warm-up-optimization.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/cold-start-and-warm-up-optimization.html"
+    },
+    {
+      "title": "sitecore experience manager / command templates.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/command-templates.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/command-templates.html"
+    },
+    {
+      "title": "sitecore experience manager / configuration.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configuration.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configuration.html"
+    },
+    {
+      "title": "sitecore experience manager / configure a field.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-a-field.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-a-field.html"
+    },
+    {
+      "title": "sitecore experience manager / configure a sitecore instance and sitecore identity server.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-a-sitecore-instance-and-sitecore-identity-server.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-a-sitecore-instance-and-sitecore-identity-server.html"
+    },
+    {
+      "title": "sitecore experience manager / configure application insights post deployment.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-application-insights-post-deployment.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-application-insights-post-deployment.html"
+    },
+    {
+      "title": "sitecore experience manager / configure azure key vault.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-azure-key-vault.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-azure-key-vault.html"
+    },
+    {
+      "title": "sitecore experience manager / configure base templates for a data template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-base-templates-for-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-base-templates-for-a-data-template.html"
+    },
+    {
+      "title": "sitecore experience manager / configure content dependencies for an mvc rendering.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-content-dependencies-for-an-mvc-rendering.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-content-dependencies-for-an-mvc-rendering.html"
+    },
+    {
+      "title": "sitecore experience manager / configure content tagging to include or exclude fields in the tagging process.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-content-tagging-to-include-or-exclude-fields-in-the-tagging-process.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-content-tagging-to-include-or-exclude-fields-in-the-tagging-process.html"
+    },
+    {
+      "title": "sitecore experience manager / configure federated authentication.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-federated-authentication.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-federated-authentication.html"
+    },
+    {
+      "title": "sitecore experience manager / configure html caching.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-html-caching.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-html-caching.html"
+    },
+    {
+      "title": "sitecore experience manager / configure refinitiv intelligent tagging open calais as your content tagging provider.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-refinitiv-intelligent-tagging-open-calais-as-your-content-tagging-provider.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-refinitiv-intelligent-tagging-open-calais-as-your-content-tagging-provider.html"
+    },
+    {
+      "title": "sitecore experience manager / configure serialization.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-serialization.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-serialization.html"
+    },
+    {
+      "title": "sitecore experience manager / configure sitecore device detection.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-sitecore-device-detection.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-sitecore-device-detection.html"
+    },
+    {
+      "title": "sitecore experience manager / configure sitecore power bi health reports.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-sitecore-power-bi-health-reports.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-sitecore-power-bi-health-reports.html"
+    },
+    {
+      "title": "sitecore experience manager / configure standard values.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-standard-values.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-standard-values.html"
+    },
+    {
+      "title": "sitecore experience manager / configure test suggestions.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-test-suggestions.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-test-suggestions.html"
+    },
+    {
+      "title": "sitecore experience manager / configure the format of exported form data.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-the-format-of-exported-form-data.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-the-format-of-exported-form-data.html"
+    },
+    {
+      "title": "sitecore experience manager / configure the icon for a branch template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-the-icon-for-a-branch-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-the-icon-for-a-branch-template.html"
+    },
+    {
+      "title": "sitecore experience manager / configure the icon for a data template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-the-icon-for-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-the-icon-for-a-data-template.html"
+    },
+    {
+      "title": "sitecore experience manager / configure transparent data encryption for sitecore forms.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-transparent-data-encryption-for-sitecore-forms.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configure-transparent-data-encryption-for-sitecore-forms.html"
+    },
+    {
+      "title": "sitecore experience manager / configuring item locking.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configuring-item-locking.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/configuring-item-locking.html"
+    },
+    {
+      "title": "sitecore experience manager / considerations for cdn.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/considerations-for-cdn.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/considerations-for-cdn.html"
+    },
+    {
+      "title": "sitecore experience manager / considerations for using the azure blob storage module.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/considerations-for-using-the-azure-blob-storage-module.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/considerations-for-using-the-azure-blob-storage-module.html"
+    },
+    {
+      "title": "sitecore experience manager / content delivery network.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/content-delivery-network.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/content-delivery-network.html"
+    },
+    {
+      "title": "sitecore experience manager / controlling the list of items in a selection field.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/controlling-the-list-of-items-in-a-selection-field.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/controlling-the-list-of-items-in-a-selection-field.html"
+    },
+    {
+      "title": "sitecore experience manager / copy an item and its descendants.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/copy-an-item-and-its-descendants.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/copy-an-item-and-its-descendants.html"
+    },
+    {
+      "title": "sitecore experience manager / create a command template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-command-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-command-template.html"
+    },
+    {
+      "title": "sitecore experience manager / create a custom form element category.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-custom-form-element-category.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-custom-form-element-category.html"
+    },
+    {
+      "title": "sitecore experience manager / create a data template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-data-template.html"
+    },
+    {
+      "title": "sitecore experience manager / create a media library item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-media-library-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-media-library-item.html"
+    },
+    {
+      "title": "sitecore experience manager / create a new request throttling strategy.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-new-request-throttling-strategy.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-new-request-throttling-strategy.html"
+    },
+    {
+      "title": "sitecore experience manager / create a publishing target.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-publishing-target.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-publishing-target.html"
+    },
+    {
+      "title": "sitecore experience manager / create a version of an item in a language.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-version-of-an-item-in-a-language.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-version-of-an-item-in-a-language.html"
+    },
+    {
+      "title": "sitecore experience manager / create a workflow with states.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-workflow-with-states.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-a-workflow-with-states.html"
+    },
+    {
+      "title": "sitecore experience manager / create an alias in the content editor.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-an-alias-in-the-content-editor.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-an-alias-in-the-content-editor.html"
+    },
+    {
+      "title": "sitecore experience manager / create an alias.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-an-alias.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-an-alias.html"
+    },
+    {
+      "title": "sitecore experience manager / create an entityservice.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-an-entityservice.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-an-entityservice.html"
+    },
+    {
+      "title": "sitecore experience manager / create an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / create and assign insert rules.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-and-assign-insert-rules.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-and-assign-insert-rules.html"
+    },
+    {
+      "title": "sitecore experience manager / create custom rules for sitecore device detection.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-custom-rules-for-sitecore-device-detection.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-custom-rules-for-sitecore-device-detection.html"
+    },
+    {
+      "title": "sitecore experience manager / create media items using apis.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-media-items-using-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-media-items-using-apis.html"
+    },
+    {
+      "title": "sitecore experience manager / create media items using the file system.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-media-items-using-the-file-system.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/create-media-items-using-the-file-system.html"
+    },
+    {
+      "title": "sitecore experience manager / creating an autocomplete list for form element styling.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/creating-an-autocomplete-list-for-form-element-styling.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/creating-an-autocomplete-list-for-form-element-styling.html"
+    },
+    {
+      "title": "sitecore experience manager / cross origin resource sharing  cors .html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/cross-origin-resource-sharing--cors-.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/cross-origin-resource-sharing--cors-.html"
+    },
+    {
+      "title": "sitecore experience manager / custom bucket structures.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/custom-bucket-structures.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/custom-bucket-structures.html"
+    },
+    {
+      "title": "sitecore experience manager / customize an alert.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/customize-an-alert.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/customize-an-alert.html"
+    },
+    {
+      "title": "sitecore experience manager / customize the azure monitoring and alerts basic overview tiles.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/customize-the-azure-monitoring-and-alerts-basic-overview-tiles.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/customize-the-azure-monitoring-and-alerts-basic-overview-tiles.html"
+    },
+    {
+      "title": "sitecore experience manager / customize the dashboard of a tile.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/customize-the-dashboard-of-a-tile.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/customize-the-dashboard-of-a-tile.html"
+    },
+    {
+      "title": "sitecore experience manager / customize the experience editor ribbon.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/customize-the-experience-editor-ribbon.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/customize-the-experience-editor-ribbon.html"
+    },
+    {
+      "title": "sitecore experience manager / data definition and template overview.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-definition-and-template-overview.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-definition-and-template-overview.html"
+    },
+    {
+      "title": "sitecore experience manager / data definition terms and concepts.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-definition-terms-and-concepts.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-definition-terms-and-concepts.html"
+    },
+    {
+      "title": "sitecore experience manager / data template fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-template-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-template-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / data template inheritance.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-template-inheritance.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-template-inheritance.html"
+    },
+    {
+      "title": "sitecore experience manager / data template sections.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-template-sections.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-template-sections.html"
+    },
+    {
+      "title": "sitecore experience manager / data templates 1158191.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-templates-1158191.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-templates-1158191.html"
+    },
+    {
+      "title": "sitecore experience manager / data templates.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-templates.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/data-templates.html"
+    },
+    {
+      "title": "sitecore experience manager / database optimization and maintenance.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/database-optimization-and-maintenance.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/database-optimization-and-maintenance.html"
+    },
+    {
+      "title": "sitecore experience manager / date time best practices.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/date-time-best-practices.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/date-time-best-practices.html"
+    },
+    {
+      "title": "sitecore experience manager / date time conversions.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/date-time-conversions.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/date-time-conversions.html"
+    },
+    {
+      "title": "sitecore experience manager / date time in cloud installations.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/date-time-in-cloud-installations.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/date-time-in-cloud-installations.html"
+    },
+    {
+      "title": "sitecore experience manager / date time types.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/date-time-types.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/date-time-types.html"
+    },
+    {
+      "title": "sitecore experience manager / datetime.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/datetime.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/datetime.html"
+    },
+    {
+      "title": "sitecore experience manager / defining workflows.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/defining-workflows.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/defining-workflows.html"
+    },
+    {
+      "title": "sitecore experience manager / delete an item and its descendants.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/delete-an-item-and-its-descendants.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/delete-an-item-and-its-descendants.html"
+    },
+    {
+      "title": "sitecore experience manager / delete the descendants of an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/delete-the-descendants-of-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/delete-the-descendants-of-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / dependency injection.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/dependency-injection.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/dependency-injection.html"
+    },
+    {
+      "title": "sitecore experience manager / deploy a new sitecore instance on azure with azure monitoring and alerts basic.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/deploy-a-new-sitecore-instance-on-azure-with-azure-monitoring-and-alerts-basic.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/deploy-a-new-sitecore-instance-on-azure-with-azure-monitoring-and-alerts-basic.html"
+    },
+    {
+      "title": "sitecore experience manager / deploy a sitecore xp pre release to a paas solution.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/deploy-a-sitecore-xp-pre-release-to-a-paas-solution.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/deploy-a-sitecore-xp-pre-release-to-a-paas-solution.html"
+    },
+    {
+      "title": "sitecore experience manager / deploy an existing sitecore instance on azure with azure monitoring and alerts basic.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/deploy-an-existing-sitecore-instance-on-azure-with-azure-monitoring-and-alerts-basic.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/deploy-an-existing-sitecore-instance-on-azure-with-azure-monitoring-and-alerts-basic.html"
+    },
+    {
+      "title": "sitecore experience manager / deploying with sitecore on azure.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/deploying-with-sitecore-on-azure.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/deploying-with-sitecore-on-azure.html"
+    },
+    {
+      "title": "sitecore experience manager / deploying your sitecore customizations with microsoft azure.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/deploying-your-sitecore-customizations-with-microsoft-azure.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/deploying-your-sitecore-customizations-with-microsoft-azure.html"
+    },
+    {
+      "title": "sitecore experience manager / determine if a field contains standard values.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/determine-if-a-field-contains-standard-values.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/determine-if-a-field-contains-standard-values.html"
+    },
+    {
+      "title": "sitecore experience manager / developer considerations for the sitecore media library cdn support.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/developer-considerations-for-the-sitecore-media-library-cdn-support.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/developer-considerations-for-the-sitecore-media-library-cdn-support.html"
+    },
+    {
+      "title": "sitecore experience manager / device detection.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/device-detection.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/device-detection.html"
+    },
+    {
+      "title": "sitecore experience manager / disable cdn support for the sitecore media library.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/disable-cdn-support-for-the-sitecore-media-library.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/disable-cdn-support-for-the-sitecore-media-library.html"
+    },
+    {
+      "title": "sitecore experience manager / dynamic placeholders.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/dynamic-placeholders.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/dynamic-placeholders.html"
+    },
+    {
+      "title": "sitecore experience manager / edit or change the data template associated with an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/edit-or-change-the-data-template-associated-with-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/edit-or-change-the-data-template-associated-with-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / edit the layout of an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/edit-the-layout-of-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/edit-the-layout-of-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / embeddable forms framework.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/embeddable-forms-framework.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/embeddable-forms-framework.html"
+    },
+    {
+      "title": "sitecore experience manager / example  code for the insert options pipeline processor to allow folders anywhere.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--code-for-the-insert-options-pipeline-processor-to-allow-folders-anywhere.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--code-for-the-insert-options-pipeline-processor-to-allow-folders-anywhere.html"
+    },
+    {
+      "title": "sitecore experience manager / example  code to limit the number of child items under any item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--code-to-limit-the-number-of-child-items-under-any-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--code-to-limit-the-number-of-child-items-under-any-item.html"
+    },
+    {
+      "title": "sitecore experience manager / example  command template code to copy insert options from the parent item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--command-template-code-to-copy-insert-options-from-the-parent-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--command-template-code-to-copy-insert-options-from-the-parent-item.html"
+    },
+    {
+      "title": "sitecore experience manager / example  command template code to display a user interface.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--command-template-code-to-display-a-user-interface.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--command-template-code-to-display-a-user-interface.html"
+    },
+    {
+      "title": "sitecore experience manager / example  configure a template hierarchy.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--configure-a-template-hierarchy.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--configure-a-template-hierarchy.html"
+    },
+    {
+      "title": "sitecore experience manager / example  syndicate children of multiple items.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--syndicate-children-of-multiple-items.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--syndicate-children-of-multiple-items.html"
+    },
+    {
+      "title": "sitecore experience manager / example  syndication entry categories.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--syndication-entry-categories.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--syndication-entry-categories.html"
+    },
+    {
+      "title": "sitecore experience manager / example  syndication entry title length limit.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--syndication-entry-title-length-limit.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/example--syndication-entry-title-length-limit.html"
+    },
+    {
+      "title": "sitecore experience manager / experience analytics advanced report filtering.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/experience-analytics-advanced-report-filtering.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/experience-analytics-advanced-report-filtering.html"
+    },
+    {
+      "title": "sitecore experience manager / facets.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/facets.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/facets.html"
+    },
+    {
+      "title": "sitecore experience manager / find out if the solr search service is available.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/find-out-if-the-solr-search-service-is-available.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/find-out-if-the-solr-search-service-is-available.html"
+    },
+    {
+      "title": "sitecore experience manager / fine tune your language fallback configuration.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/fine-tune-your-language-fallback-configuration.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/fine-tune-your-language-fallback-configuration.html"
+    },
+    {
+      "title": "sitecore experience manager / general query syntax.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/general-query-syntax.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/general-query-syntax.html"
+    },
+    {
+      "title": "sitecore experience manager / general recommendations.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/general-recommendations.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/general-recommendations.html"
+    },
+    {
+      "title": "sitecore experience manager / getting started with sitecore ip geolocation service.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/getting-started-with-sitecore-ip-geolocation-service.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/getting-started-with-sitecore-ip-geolocation-service.html"
+    },
+    {
+      "title": "sitecore experience manager / handle submit action errors for forms.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/handle-submit-action-errors-for-forms.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/handle-submit-action-errors-for-forms.html"
+    },
+    {
+      "title": "sitecore experience manager / handle transient database connection errors.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/handle-transient-database-connection-errors.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/handle-transient-database-connection-errors.html"
+    },
+    {
+      "title": "sitecore experience manager / hide a workflow command for certain users.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/hide-a-workflow-command-for-certain-users.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/hide-a-workflow-command-for-certain-users.html"
+    },
+    {
+      "title": "sitecore experience manager / hide a workflow state for certain users.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/hide-a-workflow-state-for-certain-users.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/hide-a-workflow-state-for-certain-users.html"
+    },
+    {
+      "title": "sitecore experience manager / identify which database raised a publish event.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/identify-which-database-raised-a-publish-event.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/identify-which-database-raised-a-publish-event.html"
+    },
+    {
+      "title": "sitecore experience manager / iis   azure app service tuning.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/iis---azure-app-service-tuning.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/iis---azure-app-service-tuning.html"
+    },
+    {
+      "title": "sitecore experience manager / implement an insert options pipeline processor.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/implement-an-insert-options-pipeline-processor.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/implement-an-insert-options-pipeline-processor.html"
+    },
+    {
+      "title": "sitecore experience manager / import media files in a zip file.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/import-media-files-in-a-zip-file.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/import-media-files-in-a-zip-file.html"
+    },
+    {
+      "title": "sitecore experience manager / insert options.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/insert-options.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/insert-options.html"
+    },
+    {
+      "title": "sitecore experience manager / ip geolocation.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/ip-geolocation.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/ip-geolocation.html"
+    },
+    {
+      "title": "sitecore experience manager / item operations  rename move copy and delete.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/item-operations--rename-move-copy-and-delete.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/item-operations--rename-move-copy-and-delete.html"
+    },
+    {
+      "title": "sitecore experience manager / joining data.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/joining-data.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/joining-data.html"
+    },
+    {
+      "title": "sitecore experience manager / language fallback   changes to apis.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/language-fallback---changes-to-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/language-fallback---changes-to-apis.html"
+    },
+    {
+      "title": "sitecore experience manager / language fallback.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/language-fallback.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/language-fallback.html"
+    },
+    {
+      "title": "sitecore experience manager / language specific search.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/language-specific-search.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/language-specific-search.html"
+    },
+    {
+      "title": "sitecore experience manager / licensing.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/licensing.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/licensing.html"
+    },
+    {
+      "title": "sitecore experience manager / list manager.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/list-manager.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/list-manager.html"
+    },
+    {
+      "title": "sitecore experience manager / localize the ui.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/localize-the-ui.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/localize-the-ui.html"
+    },
+    {
+      "title": "sitecore experience manager / lock a parent child relationship.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/lock-a-parent-child-relationship.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/lock-a-parent-child-relationship.html"
+    },
+    {
+      "title": "sitecore experience manager / logging.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/logging.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/logging.html"
+    },
+    {
+      "title": "sitecore experience manager / manage and upload files to sitecore on azure.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/manage-and-upload-files-to-sitecore-on-azure.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/manage-and-upload-files-to-sitecore-on-azure.html"
+    },
+    {
+      "title": "sitecore experience manager / manage file storage for forms.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/manage-file-storage-for-forms.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/manage-file-storage-for-forms.html"
+    },
+    {
+      "title": "sitecore experience manager / manually configure the sitecore media library to use a cdn.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/manually-configure-the-sitecore-media-library-to-use-a-cdn.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/manually-configure-the-sitecore-media-library-to-use-a-cdn.html"
+    },
+    {
+      "title": "sitecore experience manager / miscellaneous development tasks.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/miscellaneous-development-tasks.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/miscellaneous-development-tasks.html"
+    },
+    {
+      "title": "sitecore experience manager / monitoring and diagnostics.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/monitoring-and-diagnostics.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/monitoring-and-diagnostics.html"
+    },
+    {
+      "title": "sitecore experience manager / monitoring and maintaining azure sql.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/monitoring-and-maintaining-azure-sql.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/monitoring-and-maintaining-azure-sql.html"
+    },
+    {
+      "title": "sitecore experience manager / monitoring application performance with application map.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/monitoring-application-performance-with-application-map.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/monitoring-application-performance-with-application-map.html"
+    },
+    {
+      "title": "sitecore experience manager / move an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/move-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/move-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / multiple items in a data source.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/multiple-items-in-a-data-source.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/multiple-items-in-a-data-source.html"
+    },
+    {
+      "title": "sitecore experience manager / mvc and pipelines.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-and-pipelines.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-and-pipelines.html"
+    },
+    {
+      "title": "sitecore experience manager / mvc and renderings.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-and-renderings.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-and-renderings.html"
+    },
+    {
+      "title": "sitecore experience manager / mvc and request handling.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-and-request-handling.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-and-request-handling.html"
+    },
+    {
+      "title": "sitecore experience manager / mvc and templates.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-and-templates.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-and-templates.html"
+    },
+    {
+      "title": "sitecore experience manager / mvc areas.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-areas.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-areas.html"
+    },
+    {
+      "title": "sitecore experience manager / mvc rules and personalization.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-rules-and-personalization.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc-rules-and-personalization.html"
+    },
+    {
+      "title": "sitecore experience manager / mvc.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/mvc.html"
+    },
+    {
+      "title": "sitecore experience manager / performance and optimization.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/performance-and-optimization.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/performance-and-optimization.html"
+    },
+    {
+      "title": "sitecore experience manager / place an item in editing mode.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/place-an-item-in-editing-mode.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/place-an-item-in-editing-mode.html"
+    },
+    {
+      "title": "sitecore experience manager / plugin filtering.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/plugin-filtering.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/plugin-filtering.html"
+    },
+    {
+      "title": "sitecore experience manager / prefilling forms walkthrough series.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/prefilling-forms-walkthrough-series.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/prefilling-forms-walkthrough-series.html"
+    },
+    {
+      "title": "sitecore experience manager / publishing and queue table maintenance.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/publishing-and-queue-table-maintenance.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/publishing-and-queue-table-maintenance.html"
+    },
+    {
+      "title": "sitecore experience manager / queries for null or empty strings.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/queries-for-null-or-empty-strings.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/queries-for-null-or-empty-strings.html"
+    },
+    {
+      "title": "sitecore experience manager / queries for the multilist with search source field.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/queries-for-the-multilist-with-search-source-field.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/queries-for-the-multilist-with-search-source-field.html"
+    },
+    {
+      "title": "sitecore experience manager / query architecture.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-architecture.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-architecture.html"
+    },
+    {
+      "title": "sitecore experience manager / query axes.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-axes.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-axes.html"
+    },
+    {
+      "title": "sitecore experience manager / query examples for authoring operations.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-examples-for-authoring-operations.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-examples-for-authoring-operations.html"
+    },
+    {
+      "title": "sitecore experience manager / query examples for events subscription.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-examples-for-events-subscription.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-examples-for-events-subscription.html"
+    },
+    {
+      "title": "sitecore experience manager / query examples for management operations.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-examples-for-management-operations.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-examples-for-management-operations.html"
+    },
+    {
+      "title": "sitecore experience manager / query operators.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-operators.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/query-operators.html"
+    },
+    {
+      "title": "sitecore experience manager / recommended naming conventions and template storage locations.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/recommended-naming-conventions-and-template-storage-locations.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/recommended-naming-conventions-and-template-storage-locations.html"
+    },
+    {
+      "title": "sitecore experience manager / rename an item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/rename-an-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/rename-an-item.html"
+    },
+    {
+      "title": "sitecore experience manager / reset a field to its standard value.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/reset-a-field-to-its-standard-value.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/reset-a-field-to-its-standard-value.html"
+    },
+    {
+      "title": "sitecore experience manager / resolve item access rights.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/resolve-item-access-rights.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/resolve-item-access-rights.html"
+    },
+    {
+      "title": "sitecore experience manager / revert an item a tree of items or a database 1158436.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/revert-an-item-a-tree-of-items-or-a-database-1158436.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/revert-an-item-a-tree-of-items-or-a-database-1158436.html"
+    },
+    {
+      "title": "sitecore experience manager / revert an item a tree of items or a database.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/revert-an-item-a-tree-of-items-or-a-database.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/revert-an-item-a-tree-of-items-or-a-database.html"
+    },
+    {
+      "title": "sitecore experience manager / role specific considerations.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/role-specific-considerations.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/role-specific-considerations.html"
+    },
+    {
+      "title": "sitecore experience manager / rules and parameters for device detection.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/rules-and-parameters-for-device-detection.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/rules-and-parameters-for-device-detection.html"
+    },
+    {
+      "title": "sitecore experience manager / run an application as a windows service.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/run-an-application-as-a-windows-service.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/run-an-application-as-a-windows-service.html"
+    },
+    {
+      "title": "sitecore experience manager / run sql database cleanup before migration.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/run-sql-database-cleanup-before-migration.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/run-sql-database-cleanup-before-migration.html"
+    },
+    {
+      "title": "sitecore experience manager / running pipeline processors concurrently.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/running-pipeline-processors-concurrently.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/running-pipeline-processors-concurrently.html"
+    },
+    {
+      "title": "sitecore experience manager / runtime configuration.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/runtime-configuration.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/runtime-configuration.html"
+    },
+    {
+      "title": "sitecore experience manager / search and item buckets.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/search-and-item-buckets.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/search-and-item-buckets.html"
+    },
+    {
+      "title": "sitecore experience manager / search indexes using linq to sitecore.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/search-indexes-using-linq-to-sitecore.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/search-indexes-using-linq-to-sitecore.html"
+    },
+    {
+      "title": "sitecore experience manager / securing microsoft azure resources for a sitecore deployment.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/securing-microsoft-azure-resources-for-a-sitecore-deployment.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/securing-microsoft-azure-resources-for-a-sitecore-deployment.html"
+    },
+    {
+      "title": "sitecore experience manager / select a data template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/select-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/select-a-data-template.html"
+    },
+    {
+      "title": "sitecore experience manager / serialization in sitecore.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/serialization-in-sitecore.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/serialization-in-sitecore.html"
+    },
+    {
+      "title": "sitecore experience manager / serialize an item or a tree of items 1158434.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/serialize-an-item-or-a-tree-of-items-1158434.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/serialize-an-item-or-a-tree-of-items-1158434.html"
+    },
+    {
+      "title": "sitecore experience manager / serialize an item or a tree of items.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/serialize-an-item-or-a-tree-of-items.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/serialize-an-item-or-a-tree-of-items.html"
+    },
+    {
+      "title": "sitecore experience manager / serialize items using event handlers.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/serialize-items-using-event-handlers.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/serialize-items-using-event-handlers.html"
+    },
+    {
+      "title": "sitecore experience manager / set a report segment initialization time period.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/set-a-report-segment-initialization-time-period.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/set-a-report-segment-initialization-time-period.html"
+    },
+    {
+      "title": "sitecore experience manager / set up a device layout.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/set-up-a-device-layout.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/set-up-a-device-layout.html"
+    },
+    {
+      "title": "sitecore experience manager / set up sitecore and visual studio for development.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/set-up-sitecore-and-visual-studio-for-development.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/set-up-sitecore-and-visual-studio-for-development.html"
+    },
+    {
+      "title": "sitecore experience manager / set up sitecore ip geolocation.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/set-up-sitecore-ip-geolocation.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/set-up-sitecore-ip-geolocation.html"
+    },
+    {
+      "title": "sitecore experience manager / set up visual studio to work with sitecore mvc.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/set-up-visual-studio-to-work-with-sitecore-mvc.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/set-up-visual-studio-to-work-with-sitecore-mvc.html"
+    },
+    {
+      "title": "sitecore experience manager / settings supporting utc implementation.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/settings-supporting-utc-implementation.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/settings-supporting-utc-implementation.html"
+    },
+    {
+      "title": "sitecore experience manager / single sign out.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/single-sign-out.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/single-sign-out.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore assembly list nuget packages.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-assembly-list-nuget-packages.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-assembly-list-nuget-packages.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore authoring and management graphql api.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-authoring-and-management-graphql-api.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-authoring-and-management-graphql-api.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore blob storage.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-blob-storage.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-blob-storage.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore cache settings.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-cache-settings.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-cache-settings.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore commerce public nuget feed.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-commerce-public-nuget-feed.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-commerce-public-nuget-feed.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore configurations and topology for azure.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-configurations-and-topology-for-azure.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-configurations-and-topology-for-azure.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore content tagging architecture.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-content-tagging-architecture.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-content-tagging-architecture.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore content tagging.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-content-tagging.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-content-tagging.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore forms.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-forms.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-forms.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore host.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-host.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-host.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore identity server authentication.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-identity-server-authentication.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-identity-server-authentication.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore identity structure.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-identity-structure.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-identity-structure.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore identity.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-identity.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-identity.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore item api.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-item-api.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-item-api.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore media library cdn overview.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-media-library-cdn-overview.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-media-library-cdn-overview.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore media library cdn related configuration reference.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-media-library-cdn-related-configuration-reference.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-media-library-cdn-related-configuration-reference.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore on azure.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-on-azure.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-on-azure.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore powershell public nuget feed faq.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-powershell-public-nuget-feed-faq.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-powershell-public-nuget-feed-faq.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore public nuget feed faq.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-public-nuget-feed-faq.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-public-nuget-feed-faq.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore query.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-query.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-query.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore services client security.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-services-client-security.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-services-client-security.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore services client.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-services-client.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-services-client.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore syndication classes.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-syndication-classes.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-syndication-classes.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore syndication feedmanager.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-syndication-feedmanager.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-syndication-feedmanager.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore syndication feedutil.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-syndication-feedutil.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-syndication-feedutil.html"
+    },
+    {
+      "title": "sitecore experience manager / sitecore syndication publicfeed.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-syndication-publicfeed.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sitecore-syndication-publicfeed.html"
+    },
+    {
+      "title": "sitecore experience manager / specify sort order of link targets.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/specify-sort-order-of-link-targets.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/specify-sort-order-of-link-targets.html"
+    },
+    {
+      "title": "sitecore experience manager / sql index maintenance strategy.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sql-index-maintenance-strategy.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/sql-index-maintenance-strategy.html"
+    },
+    {
+      "title": "sitecore experience manager / standard and custom actions.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/standard-and-custom-actions.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/standard-and-custom-actions.html"
+    },
+    {
+      "title": "sitecore experience manager / standard template workflow section fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/standard-template-workflow-section-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/standard-template-workflow-section-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / standard values for data template fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/standard-values-for-data-template-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/standard-values-for-data-template-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / statistics updates.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/statistics-updates.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/statistics-updates.html"
+    },
+    {
+      "title": "sitecore experience manager / storing date time values in databases.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/storing-date-time-values-in-databases.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/storing-date-time-values-in-databases.html"
+    },
+    {
+      "title": "sitecore experience manager / supporting autocomplete with n gram.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/supporting-autocomplete-with-n-gram.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/supporting-autocomplete-with-n-gram.html"
+    },
+    {
+      "title": "sitecore experience manager / syndication apis.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/syndication-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/syndication-apis.html"
+    },
+    {
+      "title": "sitecore experience manager / system servicemodel syndication syndicationitem.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/system-servicemodel-syndication-syndicationitem.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/system-servicemodel-syndication-syndicationitem.html"
+    },
+    {
+      "title": "sitecore experience manager / tag content using sitecore content tagging.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/tag-content-using-sitecore-content-tagging.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/tag-content-using-sitecore-content-tagging.html"
+    },
+    {
+      "title": "sitecore experience manager / the azure monitoring and alerts basic dashboard alerts reference.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-azure-monitoring-and-alerts-basic-dashboard-alerts-reference.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-azure-monitoring-and-alerts-basic-dashboard-alerts-reference.html"
+    },
+    {
+      "title": "sitecore experience manager / the client certificate for sitecore deployments.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-client-certificate-for-sitecore-deployments.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-client-certificate-for-sitecore-deployments.html"
+    },
+    {
+      "title": "sitecore experience manager / the data template field types.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-data-template-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-data-template-field-types.html"
+    },
+    {
+      "title": "sitecore experience manager / the default private session state provider in sitecore azure.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-default-private-session-state-provider-in-sitecore-azure.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-default-private-session-state-provider-in-sitecore-azure.html"
+    },
+    {
+      "title": "sitecore experience manager / the default serialization format.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-default-serialization-format.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-default-serialization-format.html"
+    },
+    {
+      "title": "sitecore experience manager / the default validation rules.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-default-validation-rules.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-default-validation-rules.html"
+    },
+    {
+      "title": "sitecore experience manager / the developer field types.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-developer-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-developer-field-types.html"
+    },
+    {
+      "title": "sitecore experience manager / the indexcrawler.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-indexcrawler.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-indexcrawler.html"
+    },
+    {
+      "title": "sitecore experience manager / the insert options pipeline.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-insert-options-pipeline.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-insert-options-pipeline.html"
+    },
+    {
+      "title": "sitecore experience manager / the itemservice.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-itemservice.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-itemservice.html"
+    },
+    {
+      "title": "sitecore experience manager / the language fallback pipelines.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-language-fallback-pipelines.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-language-fallback-pipelines.html"
+    },
+    {
+      "title": "sitecore experience manager / the link field types.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-link-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-link-field-types.html"
+    },
+    {
+      "title": "sitecore experience manager / the links table.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-links-table.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-links-table.html"
+    },
+    {
+      "title": "sitecore experience manager / the list manager api.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-list-manager-api.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-list-manager-api.html"
+    },
+    {
+      "title": "sitecore experience manager / the odata item service.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-odata-item-service.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-odata-item-service.html"
+    },
+    {
+      "title": "sitecore experience manager / the plugin manifest file.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-plugin-manifest-file.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-plugin-manifest-file.html"
+    },
+    {
+      "title": "sitecore experience manager / the restful api for the itemservice.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-restful-api-for-the-itemservice.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-restful-api-for-the-itemservice.html"
+    },
+    {
+      "title": "sitecore experience manager / the security roles in sitecore forms.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-security-roles-in-sitecore-forms.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-security-roles-in-sitecore-forms.html"
+    },
+    {
+      "title": "sitecore experience manager / the simple field types.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-simple-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-simple-field-types.html"
+    },
+    {
+      "title": "sitecore experience manager / the standard template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-standard-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-standard-template.html"
+    },
+    {
+      "title": "sitecore experience manager / the structure of the standard template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-structure-of-the-standard-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-structure-of-the-standard-template.html"
+    },
+    {
+      "title": "sitecore experience manager / the system field types.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-system-field-types.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-system-field-types.html"
+    },
+    {
+      "title": "sitecore experience manager / the template field template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-template-field-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-template-field-template.html"
+    },
+    {
+      "title": "sitecore experience manager / the validation options.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-validation-options.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-validation-options.html"
+    },
+    {
+      "title": "sitecore experience manager / the versioned layout api changes.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-versioned-layout-api-changes.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-versioned-layout-api-changes.html"
+    },
+    {
+      "title": "sitecore experience manager / the yaml serialization format.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-yaml-serialization-format.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/the-yaml-serialization-format.html"
+    },
+    {
+      "title": "sitecore experience manager / throttle requests.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/throttle-requests.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/throttle-requests.html"
+    },
+    {
+      "title": "sitecore experience manager / transform links in html to friendly urls.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/transform-links-in-html-to-friendly-urls.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/transform-links-in-html-to-friendly-urls.html"
+    },
+    {
+      "title": "sitecore experience manager / troubleshooting  azure monitoring and alerts basic.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/troubleshooting--azure-monitoring-and-alerts-basic.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/troubleshooting--azure-monitoring-and-alerts-basic.html"
+    },
+    {
+      "title": "sitecore experience manager / troubleshooting blob storage.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/troubleshooting-blob-storage.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/troubleshooting-blob-storage.html"
+    },
+    {
+      "title": "sitecore experience manager / troubleshooting content apis.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/troubleshooting-content-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/troubleshooting-content-apis.html"
+    },
+    {
+      "title": "sitecore experience manager / troubleshooting performance issues.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/troubleshooting-performance-issues.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/troubleshooting-performance-issues.html"
+    },
+    {
+      "title": "sitecore experience manager / understanding sitecore authentication behavior changes.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/understanding-sitecore-authentication-behavior-changes.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/understanding-sitecore-authentication-behavior-changes.html"
+    },
+    {
+      "title": "sitecore experience manager / update an item a tree of items or a database 1158435.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/update-an-item-a-tree-of-items-or-a-database-1158435.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/update-an-item-a-tree-of-items-or-a-database-1158435.html"
+    },
+    {
+      "title": "sitecore experience manager / update an item a tree of items or a database.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/update-an-item-a-tree-of-items-or-a-database.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/update-an-item-a-tree-of-items-or-a-database.html"
+    },
+    {
+      "title": "sitecore experience manager / use bearer tokens in client applications.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-bearer-tokens-in-client-applications.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-bearer-tokens-in-client-applications.html"
+    },
+    {
+      "title": "sitecore experience manager / use conditional logic for your forms.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-conditional-logic-for-your-forms.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-conditional-logic-for-your-forms.html"
+    },
+    {
+      "title": "sitecore experience manager / use entra id auth for db connections.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-entra-id-auth-for-db-connections.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-entra-id-auth-for-db-connections.html"
+    },
+    {
+      "title": "sitecore experience manager / use mvc models.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-mvc-models.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-mvc-models.html"
+    },
+    {
+      "title": "sitecore experience manager / use mvc routing.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-mvc-routing.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-mvc-routing.html"
+    },
+    {
+      "title": "sitecore experience manager / use permissions for search.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-permissions-for-search.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-permissions-for-search.html"
+    },
+    {
+      "title": "sitecore experience manager / use sitecore azure toolkit to enable cdn for the sitecore media library.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-sitecore-azure-toolkit-to-enable-cdn-for-the-sitecore-media-library.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-sitecore-azure-toolkit-to-enable-cdn-for-the-sitecore-media-library.html"
+    },
+    {
+      "title": "sitecore experience manager / use sprites to improve the performance of the experience editor.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-sprites-to-improve-the-performance-of-the-experience-editor.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-sprites-to-improve-the-performance-of-the-experience-editor.html"
+    },
+    {
+      "title": "sitecore experience manager / use the azure marketplace to enable a cdn for the sitecore media library.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-the-azure-marketplace-to-enable-a-cdn-for-the-sitecore-media-library.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-the-azure-marketplace-to-enable-a-cdn-for-the-sitecore-media-library.html"
+    },
+    {
+      "title": "sitecore experience manager / use the blob migration tool.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-the-blob-migration-tool.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-the-blob-migration-tool.html"
+    },
+    {
+      "title": "sitecore experience manager / use the service page to serialize update and revert a database.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-the-service-page-to-serialize-update-and-revert-a-database.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-the-service-page-to-serialize-update-and-revert-a-database.html"
+    },
+    {
+      "title": "sitecore experience manager / use the sitecore content tagging framework in your custom solution.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-the-sitecore-content-tagging-framework-in-your-custom-solution.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-the-sitecore-content-tagging-framework-in-your-custom-solution.html"
+    },
+    {
+      "title": "sitecore experience manager / use the sitecore identity server as a federation gateway.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-the-sitecore-identity-server-as-a-federation-gateway.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/use-the-sitecore-identity-server-as-a-federation-gateway.html"
+    },
+    {
+      "title": "sitecore experience manager / using analytics with sitecore on azure.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-analytics-with-sitecore-on-azure.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-analytics-with-sitecore-on-azure.html"
+    },
+    {
+      "title": "sitecore experience manager / using azure application gateway to secure your content delivery server.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-azure-application-gateway-to-secure-your-content-delivery-server.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-azure-application-gateway-to-secure-your-content-delivery-server.html"
+    },
+    {
+      "title": "sitecore experience manager / using device detection.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-device-detection.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-device-detection.html"
+    },
+    {
+      "title": "sitecore experience manager / using editframes.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-editframes.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-editframes.html"
+    },
+    {
+      "title": "sitecore experience manager / using federated authentication with sitecore.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-federated-authentication-with-sitecore.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-federated-authentication-with-sitecore.html"
+    },
+    {
+      "title": "sitecore experience manager / using items as resources.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-items-as-resources.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-items-as-resources.html"
+    },
+    {
+      "title": "sitecore experience manager / using observableaggregator t  to filter items.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-observableaggregator-t--to-filter-items.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-observableaggregator-t--to-filter-items.html"
+    },
+    {
+      "title": "sitecore experience manager / using the entityservice from javascript.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-the-entityservice-from-javascript.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-the-entityservice-from-javascript.html"
+    },
+    {
+      "title": "sitecore experience manager / using the itemservice from javascript.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-the-itemservice-from-javascript.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-the-itemservice-from-javascript.html"
+    },
+    {
+      "title": "sitecore experience manager / using the restful api for the entityservice.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-the-restful-api-for-the-entityservice.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/using-the-restful-api-for-the-entityservice.html"
+    },
+    {
+      "title": "sitecore experience manager / utc.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/utc.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/utc.html"
+    },
+    {
+      "title": "sitecore experience manager / validate data template field values.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/validate-data-template-field-values.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/validate-data-template-field-values.html"
+    },
+    {
+      "title": "sitecore experience manager / validate items based on a data template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/validate-items-based-on-a-data-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/validate-items-based-on-a-data-template.html"
+    },
+    {
+      "title": "sitecore experience manager / validation rules and options.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/validation-rules-and-options.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/validation-rules-and-options.html"
+    },
+    {
+      "title": "sitecore experience manager / versioned layouts.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/versioned-layouts.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/versioned-layouts.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  adding a bar chart to an experience analytics report.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--adding-a-bar-chart-to-an-experience-analytics-report.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--adding-a-bar-chart-to-an-experience-analytics-report.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  adding an embeddable form to a webpage.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--adding-an-embeddable-form-to-a-webpage.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--adding-an-embeddable-form-to-a-webpage.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  adding and configuring a webhook submit action.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--adding-and-configuring-a-webhook-submit-action.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--adding-and-configuring-a-webhook-submit-action.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  adding and configuring a webhook validation action.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--adding-and-configuring-a-webhook-validation-action.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--adding-and-configuring-a-webhook-validation-action.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  create a submit action that redacts form submissions.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--create-a-submit-action-that-redacts-form-submissions.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--create-a-submit-action-that-redacts-form-submissions.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a custom experience analytics report.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-experience-analytics-report.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-experience-analytics-report.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a custom form element.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-form-element.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-form-element.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a custom rating element with property editor.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-rating-element-with-property-editor.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-rating-element-with-property-editor.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a custom rating element.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-rating-element.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-rating-element.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a custom sitecore forms index.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-sitecore-forms-index.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-sitecore-forms-index.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a custom submit action that updates contact details.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-submit-action-that-updates-contact-details.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-submit-action-that-updates-contact-details.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a custom submit action.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-submit-action.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-submit-action.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a custom validator based on the existing regular expression validation.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-validator-based-on-the-existing-regular-expression-validation.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-custom-validator-based-on-the-existing-regular-expression-validation.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a login page.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-login-page.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-login-page.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a power bi dashboard for sitecore on azure.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-power-bi-dashboard-for-sitecore-on-azure.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-power-bi-dashboard-for-sitecore-on-azure.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating a register page.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-register-page.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-a-register-page.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating and configuring a webhook event handler.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-and-configuring-a-webhook-event-handler.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-and-configuring-a-webhook-event-handler.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating bootstrap css class options to style a button element.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-bootstrap-css-class-options-to-style-a-button-element.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-bootstrap-css-class-options-to-style-a-button-element.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  creating custom validation.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-custom-validation.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--creating-custom-validation.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  deploying a new sitecore environment to the microsoft azure app service.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--deploying-a-new-sitecore-environment-to-the-microsoft-azure-app-service.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--deploying-a-new-sitecore-environment-to-the-microsoft-azure-app-service.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  enabling and authorizing requests to the authoring and management api.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--enabling-and-authorizing-requests-to-the-authoring-and-management-api.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--enabling-and-authorizing-requests-to-the-authoring-and-management-api.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  enabling application map for application insights for xconnect.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--enabling-application-map-for-application-insights-for-xconnect.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--enabling-application-map-for-application-insights-for-xconnect.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  extending the list manager to show custom columns in a contact list.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--extending-the-list-manager-to-show-custom-columns-in-a-contact-list.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--extending-the-list-manager-to-show-custom-columns-in-a-contact-list.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  setting up a value provider for prefilling forms.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--setting-up-a-value-provider-for-prefilling-forms.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--setting-up-a-value-provider-for-prefilling-forms.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthrough  using an authorization item.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--using-an-authorization-item.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthrough--using-an-authorization-item.html"
+    },
+    {
+      "title": "sitecore experience manager / walkthroughs for sitecore forms.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthroughs-for-sitecore-forms.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/walkthroughs-for-sitecore-forms.html"
+    },
+    {
+      "title": "sitecore experience manager / webhook authentication types.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-authentication-types.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-authentication-types.html"
+    },
+    {
+      "title": "sitecore experience manager / webhook event handler configuration fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-event-handler-configuration-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-event-handler-configuration-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / webhook event handler http request.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-event-handler-http-request.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-event-handler-http-request.html"
+    },
+    {
+      "title": "sitecore experience manager / webhook submit action configuration fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-submit-action-configuration-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-submit-action-configuration-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / webhook submit action http request.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-submit-action-http-request.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-submit-action-http-request.html"
+    },
+    {
+      "title": "sitecore experience manager / webhook validation action configuration fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-validation-action-configuration-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-validation-action-configuration-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / webhook validation action http request.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-validation-action-http-request.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-validation-action-http-request.html"
+    },
+    {
+      "title": "sitecore experience manager / webhook validation action http response.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-validation-action-http-response.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhook-validation-action-http-response.html"
+    },
+    {
+      "title": "sitecore experience manager / webhooks.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhooks.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/webhooks.html"
+    },
+    {
+      "title": "sitecore experience manager / work with a branch template.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/work-with-a-branch-template.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/work-with-a-branch-template.html"
+    },
+    {
+      "title": "sitecore experience manager / work with items as resources.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/work-with-items-as-resources.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/work-with-items-as-resources.html"
+    },
+    {
+      "title": "sitecore experience manager / work with the form client api.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/work-with-the-form-client-api.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/work-with-the-form-client-api.html"
+    },
+    {
+      "title": "sitecore experience manager / workflow and security features.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/workflow-and-security-features.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/workflow-and-security-features.html"
+    },
+    {
+      "title": "sitecore experience manager / workflow cookbook.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/workflow-cookbook.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/workflow-cookbook.html"
+    },
+    {
+      "title": "sitecore experience manager / workflow reference.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/workflow-reference.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/workflow-reference.html"
+    },
+    {
+      "title": "sitecore experience manager / workflow.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/workflow.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/workflow.html"
+    },
+    {
+      "title": "sitecore experience manager / working with culture information.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/working-with-culture-information.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/working-with-culture-information.html"
+    },
+    {
+      "title": "sitecore experience manager / working with databases.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/working-with-databases.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/working-with-databases.html"
+    },
+    {
+      "title": "sitecore experience manager / working with fields.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/working-with-fields.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/working-with-fields.html"
+    },
+    {
+      "title": "sitecore experience manager / working with items.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/working-with-items.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/working-with-items.html"
+    },
+    {
+      "title": "sitecore experience manager / working with links.html",
+      "url": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/working-with-links.html",
+      "fetchUrl": "https://doc.sitecore.com/xp/developers/104/sitecore-experience-manager/working-with-links.html"
+    }
+  ],
+  "referenceIssues": []
+}

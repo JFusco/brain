@@ -2,12 +2,12 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 62,
-    "edges": 187,
+    "nodes": 64,
+    "edges": 193,
     "byType": {
       "index": 3,
-      "journal": 27,
-      "plan": 27,
+      "journal": 28,
+      "plan": 28,
       "topic": 5
     }
   },
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.97953,
-      "y": 0.201299,
+      "x": 0.980785,
+      "y": 0.19509,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.954139,
-      "y": 0.299363,
+      "x": 0.95694,
+      "y": 0.290285,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.918958,
-      "y": 0.394356,
+      "x": 0.92388,
+      "y": 0.382683,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.874347,
-      "y": 0.485302,
+      "x": 0.881921,
+      "y": 0.471397,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": 0.820763,
-      "y": 0.571268,
+      "x": 0.83147,
+      "y": 0.55557,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": 0.758758,
-      "y": 0.651372,
+      "x": 0.77301,
+      "y": 0.634393,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": 0.688967,
-      "y": 0.724793,
+      "x": 0.707107,
+      "y": 0.707107,
       "size": 8
     },
     {
@@ -196,8 +196,8 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": 0.612106,
-      "y": 0.790776,
+      "x": 0.634393,
+      "y": 0.77301,
       "size": 8
     },
     {
@@ -221,8 +221,8 @@
       ],
       "bytes": 5340,
       "degree": 6,
-      "x": 0.528964,
-      "y": 0.848644,
+      "x": 0.55557,
+      "y": 0.83147,
       "size": 8
     },
     {
@@ -240,8 +240,8 @@
       ],
       "bytes": 2693,
       "degree": 3,
-      "x": 0.440394,
-      "y": 0.897805,
+      "x": 0.471397,
+      "y": 0.881921,
       "size": 8
     },
     {
@@ -259,8 +259,8 @@
       ],
       "bytes": 7492,
       "degree": 6,
-      "x": 0.347305,
-      "y": 0.937752,
+      "x": 0.382683,
+      "y": 0.92388,
       "size": 8
     },
     {
@@ -278,8 +278,8 @@
       ],
       "bytes": 6374,
       "degree": 5,
-      "x": 0.250653,
-      "y": 0.968077,
+      "x": 0.290285,
+      "y": 0.95694,
       "size": 8
     },
     {
@@ -303,8 +303,8 @@
       ],
       "bytes": 6037,
       "degree": 4,
-      "x": 0.151428,
-      "y": 0.988468,
+      "x": 0.19509,
+      "y": 0.980785,
       "size": 8
     },
     {
@@ -322,8 +322,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": 0.050649,
-      "y": 0.998717,
+      "x": 0.098017,
+      "y": 0.995185,
       "size": 8
     },
     {
@@ -377,8 +377,8 @@
       ],
       "bytes": 14026,
       "degree": 3,
-      "x": -0.050649,
-      "y": 0.998717,
+      "x": 0,
+      "y": 1,
       "size": 8
     },
     {
@@ -396,8 +396,8 @@
       ],
       "bytes": 4835,
       "degree": 4,
-      "x": -0.151428,
-      "y": 0.988468,
+      "x": -0.098017,
+      "y": 0.995185,
       "size": 8
     },
     {
@@ -415,8 +415,8 @@
       ],
       "bytes": 3450,
       "degree": 4,
-      "x": -0.250653,
-      "y": 0.968077,
+      "x": -0.19509,
+      "y": 0.980785,
       "size": 8
     },
     {
@@ -433,9 +433,9 @@
         }
       ],
       "bytes": 3020,
-      "degree": 4,
-      "x": -0.347305,
-      "y": 0.937752,
+      "degree": 5,
+      "x": -0.290285,
+      "y": 0.95694,
       "size": 8
     },
     {
@@ -453,8 +453,8 @@
       ],
       "bytes": 1787,
       "degree": 4,
-      "x": -0.440394,
-      "y": 0.897805,
+      "x": -0.382683,
+      "y": 0.92388,
       "size": 8
     },
     {
@@ -472,8 +472,8 @@
       ],
       "bytes": 1203,
       "degree": 2,
-      "x": -0.528964,
-      "y": 0.848644,
+      "x": -0.471397,
+      "y": 0.881921,
       "size": 8
     },
     {
@@ -491,8 +491,8 @@
       ],
       "bytes": 1850,
       "degree": 4,
-      "x": -0.612106,
-      "y": 0.790776,
+      "x": -0.55557,
+      "y": 0.83147,
       "size": 8
     },
     {
@@ -510,8 +510,8 @@
       ],
       "bytes": 1533,
       "degree": 2,
-      "x": -0.688967,
-      "y": 0.724793,
+      "x": -0.634393,
+      "y": 0.77301,
       "size": 8
     },
     {
@@ -529,8 +529,8 @@
       ],
       "bytes": 4286,
       "degree": 4,
-      "x": -0.758758,
-      "y": 0.651372,
+      "x": -0.707107,
+      "y": 0.707107,
       "size": 8
     },
     {
@@ -548,8 +548,8 @@
       ],
       "bytes": 3742,
       "degree": 6,
-      "x": -0.820763,
-      "y": 0.571268,
+      "x": -0.77301,
+      "y": 0.634393,
       "size": 8
     },
     {
@@ -567,8 +567,8 @@
       ],
       "bytes": 4178,
       "degree": 5,
-      "x": -0.874347,
-      "y": 0.485302,
+      "x": -0.83147,
+      "y": 0.55557,
       "size": 8
     },
     {
@@ -592,8 +592,8 @@
       ],
       "bytes": 7746,
       "degree": 11,
-      "x": -0.918958,
-      "y": 0.394356,
+      "x": -0.881921,
+      "y": 0.471397,
       "size": 8
     },
     {
@@ -611,8 +611,45 @@
       ],
       "bytes": 8844,
       "degree": 11,
-      "x": -0.954139,
-      "y": 0.299363,
+      "x": -0.92388,
+      "y": 0.382683,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-18-sitecore-catalogs-and-runner-policy.md",
+      "label": "Sitecore catalogs and runner policy",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 62,
+          "url": "https://github.com/jfusco/brain/issues/62"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 64,
+          "url": "https://github.com/jfusco/brain/issues/64"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "pull-request",
+          "number": 63,
+          "url": "https://github.com/jfusco/brain/pull/63"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "pull-request",
+          "number": 65,
+          "url": "https://github.com/jfusco/brain/pull/65"
+        }
+      ],
+      "bytes": 6902,
+      "degree": 4,
+      "x": -0.95694,
+      "y": 0.290285,
       "size": 8
     },
     {
@@ -623,8 +660,8 @@
       "githubRefs": [],
       "bytes": 2704,
       "degree": 2,
-      "x": 0.994869,
-      "y": 0.101168,
+      "x": 0.995185,
+      "y": 0.098017,
       "size": 12
     },
     {
@@ -635,8 +672,8 @@
       "githubRefs": [],
       "bytes": 2105,
       "degree": 2,
-      "x": -0.97953,
-      "y": 0.201299,
+      "x": -0.980785,
+      "y": 0.19509,
       "size": 8
     },
     {
@@ -654,8 +691,8 @@
       ],
       "bytes": 5776,
       "degree": 3,
-      "x": -0.994869,
-      "y": 0.101168,
+      "x": -0.995185,
+      "y": 0.098017,
       "size": 8
     },
     {
@@ -691,8 +728,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.994869,
-      "y": -0.101168,
+      "x": -0.995185,
+      "y": -0.098017,
       "size": 8
     },
     {
@@ -703,8 +740,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.97953,
-      "y": -0.201299,
+      "x": -0.980785,
+      "y": -0.19509,
       "size": 8
     },
     {
@@ -715,8 +752,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.954139,
-      "y": -0.299363,
+      "x": -0.95694,
+      "y": -0.290285,
       "size": 8
     },
     {
@@ -727,8 +764,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.918958,
-      "y": -0.394356,
+      "x": -0.92388,
+      "y": -0.382683,
       "size": 8
     },
     {
@@ -746,8 +783,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": -0.874347,
-      "y": -0.485302,
+      "x": -0.881921,
+      "y": -0.471397,
       "size": 8
     },
     {
@@ -765,8 +802,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": -0.820763,
-      "y": -0.571268,
+      "x": -0.83147,
+      "y": -0.55557,
       "size": 8
     },
     {
@@ -777,8 +814,8 @@
       "githubRefs": [],
       "bytes": 2637,
       "degree": 3,
-      "x": -0.758758,
-      "y": -0.651372,
+      "x": -0.77301,
+      "y": -0.634393,
       "size": 8
     },
     {
@@ -796,8 +833,8 @@
       ],
       "bytes": 2014,
       "degree": 3,
-      "x": -0.688967,
-      "y": -0.724793,
+      "x": -0.707107,
+      "y": -0.707107,
       "size": 8
     },
     {
@@ -815,8 +852,8 @@
       ],
       "bytes": 1840,
       "degree": 3,
-      "x": -0.612106,
-      "y": -0.790776,
+      "x": -0.634393,
+      "y": -0.77301,
       "size": 8
     },
     {
@@ -834,8 +871,8 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": -0.528964,
-      "y": -0.848644,
+      "x": -0.55557,
+      "y": -0.83147,
       "size": 8
     },
     {
@@ -846,8 +883,8 @@
       "githubRefs": [],
       "bytes": 1560,
       "degree": 3,
-      "x": -0.440394,
-      "y": -0.897805,
+      "x": -0.471397,
+      "y": -0.881921,
       "size": 8
     },
     {
@@ -865,8 +902,8 @@
       ],
       "bytes": 1101,
       "degree": 3,
-      "x": -0.347305,
-      "y": -0.937752,
+      "x": -0.382683,
+      "y": -0.92388,
       "size": 8
     },
     {
@@ -884,8 +921,8 @@
       ],
       "bytes": 1210,
       "degree": 2,
-      "x": -0.250653,
-      "y": -0.968077,
+      "x": -0.290285,
+      "y": -0.95694,
       "size": 8
     },
     {
@@ -915,8 +952,8 @@
       ],
       "bytes": 10603,
       "degree": 5,
-      "x": -0.151428,
-      "y": -0.988468,
+      "x": -0.19509,
+      "y": -0.980785,
       "size": 8
     },
     {
@@ -934,8 +971,8 @@
       ],
       "bytes": 15754,
       "degree": 4,
-      "x": -0.050649,
-      "y": -0.998717,
+      "x": -0.098017,
+      "y": -0.995185,
       "size": 8
     },
     {
@@ -959,8 +996,8 @@
       ],
       "bytes": 16781,
       "degree": 5,
-      "x": 0.050649,
-      "y": -0.998717,
+      "x": 0,
+      "y": -1,
       "size": 8
     },
     {
@@ -984,8 +1021,8 @@
       ],
       "bytes": 21921,
       "degree": 5,
-      "x": 0.151428,
-      "y": -0.988468,
+      "x": 0.098017,
+      "y": -0.995185,
       "size": 8
     },
     {
@@ -1003,8 +1040,8 @@
       ],
       "bytes": 1069,
       "degree": 3,
-      "x": 0.250653,
-      "y": -0.968077,
+      "x": 0.19509,
+      "y": -0.980785,
       "size": 8
     },
     {
@@ -1015,8 +1052,8 @@
       "githubRefs": [],
       "bytes": 1157,
       "degree": 3,
-      "x": 0.347305,
-      "y": -0.937752,
+      "x": 0.290285,
+      "y": -0.95694,
       "size": 8
     },
     {
@@ -1034,8 +1071,8 @@
       ],
       "bytes": 1423,
       "degree": 2,
-      "x": 0.440394,
-      "y": -0.897805,
+      "x": 0.382683,
+      "y": -0.92388,
       "size": 8
     },
     {
@@ -1053,8 +1090,8 @@
       ],
       "bytes": 969,
       "degree": 2,
-      "x": 0.528964,
-      "y": -0.848644,
+      "x": 0.471397,
+      "y": -0.881921,
       "size": 8
     },
     {
@@ -1072,8 +1109,33 @@
       ],
       "bytes": 1374,
       "degree": 3,
-      "x": 0.612106,
-      "y": -0.790776,
+      "x": 0.55557,
+      "y": -0.83147,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-18-register-sitecore-catalogs-and-preserve-contentful-follow-up-1bc888d3dc.md",
+      "label": "Register Sitecore catalogs and preserve Contentful follow-up",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "pull-request",
+          "number": 63,
+          "url": "https://github.com/jfusco/brain/pull/63"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "pull-request",
+          "number": 65,
+          "url": "https://github.com/jfusco/brain/pull/65"
+        }
+      ],
+      "bytes": 2936,
+      "degree": 3,
+      "x": 0.634393,
+      "y": -0.77301,
       "size": 8
     },
     {
@@ -1091,8 +1153,8 @@
       ],
       "bytes": 1238,
       "degree": 3,
-      "x": 0.688967,
-      "y": -0.724793,
+      "x": 0.707107,
+      "y": -0.707107,
       "size": 8
     },
     {
@@ -1110,8 +1172,8 @@
       ],
       "bytes": 803,
       "degree": 2,
-      "x": 0.758758,
-      "y": -0.651372,
+      "x": 0.77301,
+      "y": -0.634393,
       "size": 8
     },
     {
@@ -1233,12 +1295,24 @@
           "kind": "pull-request",
           "number": 3,
           "url": "https://github.com/jfusco/brain/pull/3"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "pull-request",
+          "number": 63,
+          "url": "https://github.com/jfusco/brain/pull/63"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "pull-request",
+          "number": 65,
+          "url": "https://github.com/jfusco/brain/pull/65"
         }
       ],
-      "bytes": 10704,
-      "degree": 29,
-      "x": 0.820763,
-      "y": -0.571268,
+      "bytes": 11163,
+      "degree": 30,
+      "x": 0.83147,
+      "y": -0.55557,
       "size": 12
     },
     {
@@ -1340,12 +1414,24 @@
           "kind": "issue",
           "number": 56,
           "url": "https://github.com/jfusco/brain/issues/56"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "pull-request",
+          "number": 63,
+          "url": "https://github.com/jfusco/brain/pull/63"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "pull-request",
+          "number": 65,
+          "url": "https://github.com/jfusco/brain/pull/65"
         }
       ],
-      "bytes": 30314,
-      "degree": 86,
-      "x": 0.874347,
-      "y": -0.485302,
+      "bytes": 31514,
+      "degree": 89,
+      "x": 0.881921,
+      "y": -0.471397,
       "size": 8
     },
     {
@@ -1368,8 +1454,8 @@
       ],
       "bytes": 3960,
       "degree": 9,
-      "x": 0.918958,
-      "y": -0.394356,
+      "x": 0.92388,
+      "y": -0.382683,
       "size": 8
     },
     {
@@ -1390,8 +1476,8 @@
       ],
       "bytes": 8959,
       "degree": 17,
-      "x": 0.954139,
-      "y": -0.299363,
+      "x": 0.95694,
+      "y": -0.290285,
       "size": 8
     },
     {
@@ -1413,8 +1499,8 @@
       ],
       "bytes": 4993,
       "degree": 10,
-      "x": 0.97953,
-      "y": -0.201299,
+      "x": 0.980785,
+      "y": -0.19509,
       "size": 8
     },
     {
@@ -1428,8 +1514,8 @@
       "githubRefs": [],
       "bytes": 11400,
       "degree": 12,
-      "x": 0.994869,
-      "y": -0.101168,
+      "x": 0.995185,
+      "y": -0.098017,
       "size": 8
     }
   ],
@@ -1459,6 +1545,13 @@
       "id": "0bc0a6cbe97a8553",
       "source": "wiki/journal/2026-10-16-link-warning-tailwind.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "0d3ee295b7f295dc",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/journal/2026-10-18-sitecore-catalogs-and-runner-policy.md",
       "type": "link",
       "relation": "link"
     },
@@ -1729,6 +1822,13 @@
       "relation": "link"
     },
     {
+      "id": "412975bbfffe5ddb",
+      "source": "wiki/journal/2026-10-18-sitecore-catalogs-and-runner-policy.md",
+      "target": "wiki/journal/2026-10-18-coverage-registrations.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "43457b92c8b8e689",
       "source": "wiki/plans/INDEX.md",
       "target": "wiki/plans/2026-10-18-brain-simplification-phase-3-official-references-as-a-link-registry-22cef58128.md",
@@ -1818,6 +1918,13 @@
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "58c9afb05959f325",
+      "source": "wiki/plans/2026-10-18-register-sitecore-catalogs-and-preserve-contentful-follow-up-1bc888d3dc.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "58f57beeb292e042",
@@ -2142,6 +2249,13 @@
       "relation": "link"
     },
     {
+      "id": "91241ef3de4e8aba",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-18-register-sitecore-catalogs-and-preserve-contentful-follow-up-1bc888d3dc.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "930d9087e162b695",
       "source": "wiki/journal/2026-10-16-first-scheduled-curation.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -2294,6 +2408,13 @@
       "target": "wiki/journal/2026-10-18-simplification-phase-1.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "a83d10c18b351bc4",
+      "source": "wiki/journal/2026-10-18-sitecore-catalogs-and-runner-policy.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "a99871f7279bc60d",
@@ -2455,6 +2576,13 @@
       "target": "wiki/topics/link-warning-investigation.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "c5d1bde598f73d9a",
+      "source": "wiki/journal/2026-10-18-sitecore-catalogs-and-runner-policy.md",
+      "target": "wiki/plans/2026-10-18-register-sitecore-catalogs-and-preserve-contentful-follow-up-1bc888d3dc.md",
+      "type": "plan",
+      "relation": "plan"
     },
     {
       "id": "c734dc6789827e6f",

@@ -143,8 +143,9 @@ Official website pointers remain pointers until a useful downloadable source and
 | Tailwind | [Documentation-tree catalog](https://github.com/tailwindlabs/tailwindcss.com/tree/main/src/docs), with rights metadata preserved |
 | Contentstack | [Documentation sitemap](https://www.contentstack.com/sitemap.xml), Sitecore migration guidance, Studio brownfield guidance, and selected kickstart references |
 | Optimizely | [CMS SaaS, CMS 13 (PaaS) and Graph index links](https://docs.optimizely.com/llms.txt), plus selected JavaScript SDK documentation |
-| Contentful | [Official repository skills](https://github.com/contentful/skills) and website pointers; the documentation `llms.txt` returns HTTP 429 to GitHub-hosted runners, so it has no catalog yet |
-| Sitecore | [Official Content SDK skills and references](https://github.com/Sitecore/content-sdk), plus SitecoreAI and XP 10.4 website pointers; doc.sitecore.com returns HTTP 403 to GitHub-hosted runners, so its docs have no catalog yet |
+| Contentful | [Official repository skills](https://github.com/contentful/skills) and website pointers; the documentation catalog remains pending because automated index requests receive an HTTP 429 challenge, including from the Mac, although Chrome can open the indexes |
+| SitecoreAI | [Platform developer manual catalog](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml): 407 links at registration, plus [official Content SDK skills and references](https://github.com/Sitecore/content-sdk) |
+| Sitecore XP 10.4 | [Experience Manager developer manual catalog](https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/sitemap.xml): 393 links at registration; separate Experience Platform, administration, developer-tools and managed-cloud manuals are outside this catalog |
 
 Coverage is reviewed weekly against the watch list below, and each addition is a separate registration PR. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. The weekly check never adds sources.
 
@@ -212,6 +213,15 @@ A redirect or changed hash is never evidence that a claim is correct.
 **Brain catalog sync** runs the refresh in GitHub Actions for any session that can't reach vendor sites. Dispatch it manually on a non-main branch, optionally with space-separated source IDs. It runs `official sync` and `check` with the pinned scanner, then commits only the catalogs, the lock and the hubs back to that branch. Use it to verify a new registration before its PR, too. Open the PR after the workflow's commit, so the PR checks run on that head.
 
 **Runner-blocked hosts.** Some vendor sites refuse GitHub-hosted runners: doc.sitecore.com returns HTTP 403 and www.contentful.com returns 429. `runnerBlockedHosts` in `official/sources.json` lists them. `official sync --hosted` skips any source that uses one of these hosts, and both workflows run sync that way. The weekly workflow also leaves their links out of its sample, then names the skipped sources in its summary. A local `official sync`, such as the Mac's weekly refresh, is the only thing that refreshes those catalogs. When registering such a source, verify it with a local sync instead of Brain catalog sync.
+
+The two Sitecore catalogs were generated locally after the collection fetcher gained an explicit Accept header. Their product sitemaps list language-neutral page paths, which the registrations preserve; successful sampled requests redirect to the English pages. Refresh just these catalogs with:
+
+```sh
+node scripts/brain.mjs official sync sitecoreai-docs sitecore-xp-docs
+node scripts/brain.mjs check
+```
+
+This needs a working client and network path, not macOS specifically. Browser access alone does not prove a CLI sync will work: Contentful's indexes opened in Chrome while direct requests still received a Vercel challenge. Its registration remains pending. See the [Sitecore delivery record](wiki/journal/2026-10-18-sitecore-catalogs-and-runner-policy.md) for the selected manuals, bounded verification and limits.
 
 `maintenance status` reports publication bookkeeping, each source's catalog revision and age, local link counts and stale notes; it fails only on publication errors. Publication bookkeeping uses `maintenance publication --phase started --trigger manual|scheduled-agent`, then the returned `--run-id` with `--phase completed --outcome unchanged`, or `--outcome published --pr <merged-number>`. Record failures with `--phase failed`. These are agent reports, not independent scheduler attestations.
 
