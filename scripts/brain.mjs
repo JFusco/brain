@@ -38,9 +38,6 @@ node scripts/brain.mjs official recatalog
 node scripts/brain.mjs official rollback <source-id>
 node scripts/brain.mjs official restore <source-id>
 node scripts/brain.mjs skills suggest --project <path> [--workspace <relative-app>]
-node scripts/brain.mjs skills install|update|remove <source-id/skill...> --project <path> [--yes] [--dry-run] [--copy]
-node scripts/brain.mjs skills install|update --recommended --project <path> [--yes] [--dry-run]
-node scripts/brain.mjs skills recover --project <path> [--yes] [--dry-run]
 node scripts/brain.mjs check [--staged]
 node scripts/brain.mjs scheduled-run
 
@@ -51,11 +48,11 @@ Tests and dedicated QA are deferred for v1.
 
 try {
   const {positional,flags}=args(process.argv.slice(2)),[command,subcommand,...rest]=positional;
-  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],capture:['stdin','domain'],inbox:['domain','all','backlog','file','approved-sha256','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],official:['seed'],skills:['project','workspace','recommended','yes','dry-run','copy'],check:['staged'],'scheduled-run':[]};
+  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],capture:['stdin','domain'],inbox:['domain','all','backlog','file','approved-sha256','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],official:['seed'],skills:['project','workspace'],check:['staged'],'scheduled-run':[]};
   if(!command||command==='help'||flags.help){console.log(help);process.exit(0);}
   if(!Object.hasOwn(allowed,command))throw new Error('Unknown command. Use --help.');
   for(const key of Object.keys(flags))if(!allowed[command].includes(key))throw new Error(`Unsupported option --${key} for ${command}`);
-  const mutating=command==='lookup'&&flags.fetch||command==='curation'||command==='scheduled-run'||command==='capture'||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='run'&&!flags['dry-run']||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['propose','apply','resolve','rescan'].includes(subcommand)||command==='official'&&['sync','rollback','restore','recatalog'].includes(subcommand)||command==='skills'&&subcommand!=='suggest'&&flags.yes&&!flags['dry-run'];
+  const mutating=command==='lookup'&&flags.fetch||command==='curation'||command==='scheduled-run'||command==='capture'||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='run'&&!flags['dry-run']||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['propose','apply','resolve','rescan'].includes(subcommand)||command==='official'&&['sync','rollback','restore','recatalog'].includes(subcommand);
   async function execute() {
     if(mutating)inbox.recoverProposal();
     if(command==='lookup')return lookup({query:flags.query,domain:flags.domain,limit:flags.limit??5,fetch:!!flags.fetch,project:flags.project,workspace:flags.workspace,versions:flags.versions});
@@ -91,8 +88,6 @@ try {
     }
     if(command==='skills'){
       if(subcommand==='suggest')return skills.suggest(flags.project,{workspace:flags.workspace});
-      if(subcommand==='recover')return skills.recover(flags.project,{yes:!!flags.yes,dryRun:!!flags['dry-run'],workspace:flags.workspace});
-      if(['install','update','remove'].includes(subcommand))return skills.mutate(subcommand,flags.project,rest,{recommended:!!flags.recommended,yes:!!flags.yes,dryRun:!!flags['dry-run'],copy:flags.copy?true:null,workspace:flags.workspace});
     }
     if(command==='check')return check({staged:!!flags.staged});
     if(command==='scheduled-run')return scheduledRun();

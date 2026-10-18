@@ -197,20 +197,12 @@ The next useful coverage additions are a broader Contentful documentation catalo
 
 ```sh
 node scripts/brain.mjs skills suggest --project /absolute/project/path
-node scripts/brain.mjs skills install --recommended --project /absolute/project/path --dry-run
-node scripts/brain.mjs skills install --recommended --project /absolute/project/path --yes
-node scripts/brain.mjs skills update <source-id/skill> --project /absolute/project/path --yes
-node scripts/brain.mjs skills remove <source-id/skill> --project /absolute/project/path --yes
-node scripts/brain.mjs skills recover --project /absolute/project/path --dry-run
+node scripts/brain.mjs skills suggest --project /absolute/monorepo --workspace apps/web
 ```
 
-Suggestions inspect only the selected application’s declared/installed dependencies, required scripts, and project layout without executing project code. In a monorepo add `--workspace apps/web` to each command. Installed versions and declared-only ranges have distinct confidence labels. Unknown compatibility is reported rather than guessed. Vercel plugin skills are preferred when providers overlap. Template-bound Contentstack skills remain references; Sitecore skills require their specific supporting docs and layout.
+`skills suggest` is read-only. It recommends vendor skills from Brain's official snapshots that fit the selected application, judged from its declared/installed dependencies, required scripts and project layout, without executing project code. In a monorepo, add `--workspace apps/web`. Installed versions and declared-only ranges have distinct confidence labels. Unknown compatibility is reported rather than guessed. Vercel plugin skills are preferred when providers overlap. Template-bound Contentstack skills remain references; Sitecore skills require their specific supporting docs and layout. A skill already present under `.agents/skills/` or `.claude/skills/` is reported as `present in project`.
 
-Canonical copies go in `.agents/skills`; Claude gets relative `.claude/skills` links. Both Codex and Cursor discover the canonical directory. `--copy` supplies real Claude directories and necessary docs instead of symlinks for Windows-compatible repositories. Updates preserve the previously chosen copy mode.
-
-The manifest records all managed files and upstream sources. Operations preflight the complete change and refuse local modifications, unmanaged collisions, and shared-file conflicts. Project changes are never committed. Background runs only report updates in `.state/project-updates.json`.
-
-Interrupted writes keep a private recovery journal. `skills recover --project <path>` previews restoration; `--yes` restores only when affected files still match either the recorded original or the attempted operation. Later local edits block recovery and preserve the journal.
+Brain doesn't install skills into projects. Install a recommended skill with its vendor's documented method, scoped to the project that needs it.
 
 ## Privacy and maintenance
 

@@ -32,7 +32,7 @@ Follow README → "Documentation lookup and official references" and "Maintenanc
 
 ## Projects and skills
 
-Using Brain from another project starts at `knowledge/INDEX.md` (or the `brain` skill) and follows only relevant hubs; that project's instructions win. Never merge sibling dependency sets or inject Brain instructions automatically. Skill installation into a project is explicit and project-scoped: suggest first, then run the requested operation; `--yes` confirms only that operation. Background jobs report project updates but never write project repositories.
+Using Brain from another project starts at `knowledge/INDEX.md` (or the `brain` skill) and follows only relevant hubs; that project's instructions win. Never merge sibling dependency sets or inject Brain instructions automatically. `skills suggest` is read-only; Brain never installs skills into projects. Installing a recommended skill is a separate, explicitly project-scoped step with the vendor's own method. Background jobs never write project repositories.
 
 ## Commit message standard
 
