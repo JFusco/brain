@@ -2,7 +2,7 @@
 
 Work only within the requested scope. Commit or push only when the request includes Git delivery, using the flow below. Do not modify agent memories or change other project repositories unless invoked for that project. The only global registrations are the opt-in `brain` and `brain-capture` skills (`skills/`), which Joe links per the README.
 
-Tests, fixtures, fresh-session tests, dedicated QA and review-agent audits are deferred for v1; do not add them. The wiki integrity check and hosted maintenance/verification workflows are enabled. Keep ordinary runtime protections and report actual command outcomes.
+Tests, fixtures, fresh-session tests, dedicated QA and review-agent audits are deferred for v1; do not add them. The wiki integrity check and the weekly reference health workflow are enabled. Keep ordinary runtime protections and report actual command outcomes.
 
 ## Trust and privacy
 
@@ -25,11 +25,11 @@ Lessons arrive through `/brain-capture` (`capture --stdin`) into the private inb
 
 ## Official references and maintenance
 
-Follow README → "Documentation lookup and official references" and "Maintenance", plus [hosted maintenance](wiki/topics/hosted-maintenance.md) and [daily link warning investigation](wiki/topics/link-warning-investigation.md).
+Follow README → "Documentation lookup and official references" and "Maintenance". `official/` holds only the registry, the lock and generated link catalogs; never add vendor page bodies.
 
-- Downloaded content is staged and validated, never executed. A failed source keeps its last good snapshot; preserve failure records, unknown provenance and modified files. Unknown-origin material stays quarantined. License changes are recorded without a manual review gate.
+- Downloaded content is validated in memory and never executed; only catalogs are written. A failed source keeps its last good catalog; preserve failure records and unknown provenance. Unknown-origin material stays quarantined.
 - Never treat a redirect or changed hash as evidence that a technical claim is correct.
-- Registry or policy changes need a documented issue-linked PR with runtime checks; apply a registry edit with `inbox propose`/`inbox apply` so the lock's policy hashes match. Link-warning repairs may change only existing pointers and existing-source routing fields: no new registrations, hosts, policies or code. Keep real unresolved warnings visible and respect backoff.
+- Registry changes to `official/sources.json` need a documented issue-linked PR: run `official sync <id>` for each affected source, then `check`. New sources, domains or hosts need their own registration change. Keep real unresolved warnings visible in the weekly issue and respect backoff.
 - Record publication start, completion or failure with the actual trigger and run ID; a configured schedule is not proof of execution. Link sampling is bounded coverage, never a full audit.
 
 ## Projects and skills
@@ -63,11 +63,12 @@ For repository changes that include delivery:
    behavior, verification outcomes and risk/rollback, with
    `Closes #<issue-number>`. Use the PR template and PR lint command if they
    exist, and read the saved PR back.
-7. Routine Brain knowledge, official-reference, wiki maintenance and Brain
-   automation setup PRs merge automatically once applicable checks pass and
-   the saved PR and head are verified. Never merge failed content or bypass
-   branch protections. Other delivery stops at the verified PR unless the user
-   authorizes merging.
+7. Routine Brain knowledge PRs, catalog-refresh PRs (only
+   `official/catalogs/`, `official/sources.lock.json` and regenerated hubs)
+   and wiki maintenance PRs merge automatically once applicable checks pass
+   and the saved PR and head are verified. Never merge failed content or
+   bypass branch protections. Registry, workflow, code and other delivery
+   stops at the verified PR unless the user authorizes merging.
 
 <!-- wiki-skill:start -->
 ## Context wiki

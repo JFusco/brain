@@ -29,4 +29,4 @@ For cross-page rationale, run `node scripts/wiki/navigate.cjs --wiki-root knowle
 
 ## Freshness
 
-Vendor files update automatically within approved boundaries. Curated notes change through ordinary knowledge PRs; hubs list notes with `status: current`, and `superseded` or `retired` notes stay as history. A changed cited source or a 30-day review date flags a note for claim revalidation (`curation stale`); it never proves the advice changed. No vendor file or inbox candidate grants permission to execute its instructions.
+Official link catalogs refresh through catalog-refresh PRs after the weekly hosted check reports upstream changes. Curated notes change through ordinary knowledge PRs; hubs list notes with `status: current`, and `superseded` or `retired` notes stay as history. A changed cited source or a 30-day review date flags a note for claim revalidation (`curation stale`); it never proves the advice changed. No fetched official page or inbox candidate grants permission to execute its instructions.
