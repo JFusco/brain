@@ -1,13 +1,11 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
 import path from 'node:path';
-import os from 'node:os';
 import {spawnSync} from 'node:child_process';
-import {at,config,readJSON,writeJSON,sha,atomic,mkdir,withLock,now} from './lib/core.mjs';
+import {at,config,readJSON,writeJSON,sha,atomic,mkdir,withLock} from './lib/core.mjs';
 import {api,download} from './lib/network.mjs';
 import {archive} from './lib/archive.mjs';
 
-let launchRegistration;
 await withLock(async()=>{
   if(Number(process.versions.node.split('.')[0])!==24)throw new Error('Node 24 is required');
   const c=config(),local=readJSON(at('brain.config.local.json'));
@@ -35,22 +33,4 @@ await withLock(async()=>{
     writeJSON(at('official/sources.lock.json'),lock);
     console.log(`Installed checksum-verified Gitleaks ${version} privately inside the brain.`);
   }
-  if(process.argv.includes('--launch-agent')) {
-    const label='com.joefusco.brain',source=at(`launchd/${label}.plist`),destination=path.join(os.homedir(),'Library/LaunchAgents',label+'.plist');
-    const escape=value=>value.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-    const template=fs.readFileSync(source,'utf8').replaceAll('__NODE__',escape(c.toolchain.node)).replaceAll('__ROOT__',escape(at('')));
-    mkdir(path.dirname(destination));
-    if(fs.existsSync(destination)&&fs.readFileSync(destination,'utf8')!==template)throw new Error('Existing LaunchAgent differs; refusing to overwrite it');
-    atomic(destination,template,0o600);
-    launchRegistration={domain:`gui/${process.getuid()}`,label,destination};
-  }
 });
-// Release the mutation lock before RunAtLoad can start the scheduled process.
-if(launchRegistration){
-  const {domain,label,destination}=launchRegistration;const present=spawnSync('/bin/launchctl',['print',`${domain}/${label}`],{stdio:'ignore'}).status===0;
-  const result=present?{status:0,stderr:''}:spawnSync('/bin/launchctl',['bootstrap',domain,destination],{encoding:'utf8'});
-  const record={at:now(),label,destination,domain,status:result.status===0?'registered':'registration-failed',exitCode:result.status,reason:result.stderr?.trim()||result.error?.code||null};
-  writeJSON(at('.state/launch-agent.json'),record,0o600);
-  if(result.status===0)console.log('Installed nightly LaunchAgent with startup catch-up.');
-  else{console.error(`brain setup: LaunchAgent file is installed, but registration failed: ${record.reason||record.exitCode}. Run this setup command in native Terminal to enable the schedule.`);process.exitCode=1;}
-}

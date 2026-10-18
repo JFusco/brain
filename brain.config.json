@@ -13,9 +13,7 @@
     "reviewDays": 30
   },
   "maintenance": {
-    "linkLimit": 24,
-    "overdueHours": 36,
-    "referenceBackend": "github-actions"
+    "linkLimit": 24
   },
   "domains": [
     "frontend",
@@ -96,7 +94,6 @@
     "maxExpandedBytes": 268435456
   },
   "toolchain": {
-    "node": "/usr/local/bin/node",
     "gh": "/opt/homebrew/bin/gh",
     "tar": "/usr/bin/tar"
   },
