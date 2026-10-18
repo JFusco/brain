@@ -7,7 +7,6 @@ import * as official from './lib/official.mjs';
 import * as skills from './lib/skills.mjs';
 import {check} from './lib/check.mjs';
 import {scheduledRun} from './lib/schedule.mjs';
-import {exportProposal,recordMerge} from './lib/curation.mjs';
 import {lookup} from './lib/lookup.mjs';
 import {integration} from './lib/integration.mjs';
 import {staleGuidance} from './lib/guidance.mjs';
@@ -23,13 +22,10 @@ node scripts/brain.mjs capture --stdin [--domain tailwind]
 node scripts/brain.mjs integration status|install|remove|recover --project <path> [--yes] [--dry-run]
 node scripts/brain.mjs inbox list [--domain nextjs] [--all]
 node scripts/brain.mjs inbox show <candidate-id>
-node scripts/brain.mjs inbox compare <candidate-id>
-node scripts/brain.mjs inbox compare --file <proposal-input.json>
-node scripts/brain.mjs inbox propose --file <proposal-input.json>
-node scripts/brain.mjs inbox apply <proposal-id> --approved-sha256 <digest>
 node scripts/brain.mjs inbox resolve <candidate-id...> --as rejected|superseded
-node scripts/brain.mjs curation export <proposal-id> --worktree <path>
-node scripts/brain.mjs curation record-merge <proposal-id> --pr <number>
+node scripts/brain.mjs inbox resolve <candidate-id...> --as accepted --pr <merged-number>
+node scripts/brain.mjs inbox propose --file <registry-change.json>
+node scripts/brain.mjs inbox apply <proposal-id> --approved-sha256 <digest>
 node scripts/brain.mjs curation stale [--limit 12]
 node scripts/brain.mjs links check [--source <id>] [--limit 24] [--retry-failures]
 node scripts/brain.mjs links status
@@ -49,14 +45,14 @@ node scripts/brain.mjs skills recover --project <path> [--yes] [--dry-run]
 node scripts/brain.mjs check [--staged]
 node scripts/brain.mjs scheduled-run
 
- Proposals bind exact text and evidence. Curation publishes through documented PRs.
+ Knowledge notes publish when an ordinary PR merges. Proposals change only official/sources.json.
  Nothing in this CLI commits, pushes, opens, or merges PRs.
 Tests and dedicated QA are deferred for v1.
 `;
 
 try {
   const {positional,flags}=args(process.argv.slice(2)),[command,subcommand,...rest]=positional;
-  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],harvest:['dry-run','rehash'],capture:['stdin','domain'],integration:['project','yes','dry-run'],inbox:['domain','all','file','approved-sha256','as'],curation:['worktree','pr','limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],official:['seed'],skills:['project','workspace','recommended','yes','dry-run','copy'],check:['staged'],'scheduled-run':[]};
+  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],harvest:['dry-run','rehash'],capture:['stdin','domain'],integration:['project','yes','dry-run'],inbox:['domain','all','file','approved-sha256','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['dry-run','yes','phase','run-id','outcome','pr','trigger'],official:['seed'],skills:['project','workspace','recommended','yes','dry-run','copy'],check:['staged'],'scheduled-run':[]};
   if(!command||command==='help'||flags.help){console.log(help);process.exit(0);}
   if(!Object.hasOwn(allowed,command))throw new Error('Unknown command. Use --help.');
   for(const key of Object.keys(flags))if(!allowed[command].includes(key))throw new Error(`Unsupported option --${key} for ${command}`);
@@ -70,14 +66,11 @@ try {
     if(command==='inbox'){
       if(subcommand==='list')return inbox.list({domain:flags.domain,all:!!flags.all});
       if(subcommand==='show')return inbox.show(rest[0]);
-      if(subcommand==='compare')return inbox.compare(rest[0],flags.file?json(flags.file):undefined);
       if(subcommand==='propose'){if(!flags.file)throw new Error('--file is required');return inbox.propose(json(flags.file));}
       if(subcommand==='apply')return inbox.apply(rest[0],flags['approved-sha256']);
-      if(subcommand==='resolve'){if(!rest.length)throw new Error('Candidate IDs are required');return inbox.resolve(rest,flags.as);}
+      if(subcommand==='resolve'){if(!rest.length)throw new Error('Candidate IDs are required');return inbox.resolve(rest,flags.as,{pr:flags.pr});}
     }
     if(command==='curation'){
-      if(subcommand==='export')return exportProposal(rest[0],flags.worktree);
-      if(subcommand==='record-merge')return recordMerge(rest[0],flags.pr);
       if(subcommand==='stale')return staleGuidance({limit:flags.limit??12,write:true});
     }
     if(command==='links'){
