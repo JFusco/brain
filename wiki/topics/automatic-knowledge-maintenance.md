@@ -5,7 +5,7 @@ aliases: ["curation", "reference refresh", "Brain audit"]
 
 # Automatic knowledge maintenance
 
-Brain collects private candidate evidence, keeps immutable official references, and publishes useful guidance through documented, issue-linked PRs. Joe authorized automatic maintenance merges without a human review or separate digest approval. The daily local agent is restricted to documentation and reference artifacts; code, policies, source registrations, other repositories, installed project skills, and memories are outside that recurring scope.
+Brain collects private candidate evidence, keeps immutable official references, and publishes useful guidance through documented, issue-linked PRs. Joe authorized automatic maintenance merges without a human review or separate digest approval. The daily local agent is restricted to documentation and reference artifacts; code, policies, new source/host registrations, other repositories, installed project skills, and memories are outside that recurring scope. The bounded existing-reference routing exception is defined in the [daily link warning investigation procedure](link-warning-investigation.md).
 
 ## Capture from working projects
 
@@ -134,3 +134,7 @@ Six individually reviewed candidates remain pending with exact-hash private tria
 [Issue 41](https://github.com/JFusco/brain/issues/41) replaces a persistently throttled HTML landing-page pointer with two supported official Markdown references: API basics and JavaScript client libraries. Ordinary GET and the unchanged HEAD checker both return 200 for these pages. HTML landing/index routes still return real 429 responses to this client; no provider-wide cause or API-quota diagnosis is inferred. The official docs advertise Markdown as a page representation.
 
 The exact registry proposal digest is `406d2573c1ed028a4db28ccced3494764ce680538c14446e5853e22bf6ebf366`. Existing source registrations, snapshots, license observations and reference-only skill status remain unchanged. The new links are scoped entry points, not a full catalog or installed-SDK compatibility guarantee. Prior failures stay retained; the retired unused URL leaves active coverage through normal registry reconciliation. No checker special case, retry exception, identity change or alert suppression is introduced. See [the access-repair journal](../journal/2026-10-18-contentful-documentation-access.md).
+
+## Investigate recurring official-link warnings
+
+[Issue 43](https://github.com/JFusco/brain/issues/43) extends the existing publisher with a documented investigation step, separate from the CLI checker: at most 12 new/due warning URLs, a private durable disposition/evidence ledger, semantic notification fingerprints, and narrow verified routing fixes in the existing single checked PR. Real access limits remain visible, but unchanged observations do not generate duplicate issues or alerts. No new source/host registration or code change is authorized. See the [runbook](link-warning-investigation.md) and [delivery journal](../journal/2026-10-18-daily-link-investigation.md). Configuration/readback and manual checks do not establish future unattended repair.

@@ -2,13 +2,13 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 38,
-    "edges": 101,
+    "nodes": 41,
+    "edges": 108,
     "byType": {
       "index": 3,
-      "journal": 17,
-      "plan": 17,
-      "topic": 1
+      "journal": 18,
+      "plan": 18,
+      "topic": 2
     }
   },
   "nodes": [
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.945817,
-      "y": 0.324699,
+      "x": 0.953396,
+      "y": 0.301721,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.879474,
-      "y": 0.475947,
+      "x": 0.896166,
+      "y": 0.44372,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.789141,
-      "y": 0.614213,
+      "x": 0.817929,
+      "y": 0.575319,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.677282,
-      "y": 0.735724,
+      "x": 0.720522,
+      "y": 0.693433,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": 0.546948,
-      "y": 0.837166,
+      "x": 0.606225,
+      "y": 0.795293,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": 0.401695,
-      "y": 0.915773,
+      "x": 0.47772,
+      "y": 0.878512,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": 0.245485,
-      "y": 0.9694,
+      "x": 0.338017,
+      "y": 0.94114,
       "size": 8
     },
     {
@@ -196,8 +196,8 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": 0.082579,
-      "y": 0.996584,
+      "x": 0.190391,
+      "y": 0.981708,
       "size": 8
     },
     {
@@ -221,8 +221,8 @@
       ],
       "bytes": 5340,
       "degree": 6,
-      "x": -0.082579,
-      "y": 0.996584,
+      "x": 0.038303,
+      "y": 0.999266,
       "size": 8
     },
     {
@@ -240,8 +240,8 @@
       ],
       "bytes": 2693,
       "degree": 3,
-      "x": -0.245485,
-      "y": 0.9694,
+      "x": -0.114683,
+      "y": 0.993402,
       "size": 8
     },
     {
@@ -259,8 +259,8 @@
       ],
       "bytes": 7492,
       "degree": 6,
-      "x": -0.401695,
-      "y": 0.915773,
+      "x": -0.264982,
+      "y": 0.964253,
       "size": 8
     },
     {
@@ -278,8 +278,8 @@
       ],
       "bytes": 6374,
       "degree": 5,
-      "x": -0.546948,
-      "y": 0.837166,
+      "x": -0.409069,
+      "y": 0.912504,
       "size": 8
     },
     {
@@ -303,8 +303,8 @@
       ],
       "bytes": 6037,
       "degree": 4,
-      "x": -0.677282,
-      "y": 0.735724,
+      "x": -0.543568,
+      "y": 0.839365,
       "size": 8
     },
     {
@@ -322,8 +322,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": -0.789141,
-      "y": 0.614213,
+      "x": -0.665326,
+      "y": 0.746553,
       "size": 8
     },
     {
@@ -377,8 +377,8 @@
       ],
       "bytes": 14026,
       "degree": 3,
-      "x": -0.879474,
-      "y": 0.475947,
+      "x": -0.771489,
+      "y": 0.636242,
       "size": 8
     },
     {
@@ -396,8 +396,8 @@
       ],
       "bytes": 4835,
       "degree": 4,
-      "x": -0.945817,
-      "y": 0.324699,
+      "x": -0.85957,
+      "y": 0.511019,
       "size": 8
     },
     {
@@ -415,8 +415,27 @@
       ],
       "bytes": 3450,
       "degree": 4,
-      "x": -0.986361,
-      "y": 0.164595,
+      "x": -0.927502,
+      "y": 0.373817,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-18-daily-link-investigation.md",
+      "label": "Daily official-link warning investigation",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 43,
+          "url": "https://github.com/jfusco/brain/issues/43"
+        }
+      ],
+      "bytes": 1787,
+      "degree": 4,
+      "x": -0.973695,
+      "y": 0.227854,
       "size": 8
     },
     {
@@ -427,8 +446,8 @@
       "githubRefs": [],
       "bytes": 3069,
       "degree": 2,
-      "x": 0.986361,
-      "y": 0.164595,
+      "x": 0.98828,
+      "y": 0.152649,
       "size": 12
     },
     {
@@ -439,8 +458,8 @@
       "githubRefs": [],
       "bytes": 2105,
       "degree": 2,
-      "x": -1,
-      "y": 0,
+      "x": -0.997066,
+      "y": 0.076549,
       "size": 8
     },
     {
@@ -458,8 +477,8 @@
       ],
       "bytes": 5776,
       "degree": 3,
-      "x": -0.986361,
-      "y": -0.164595,
+      "x": -0.997066,
+      "y": -0.076549,
       "size": 8
     },
     {
@@ -470,8 +489,8 @@
       "githubRefs": [],
       "bytes": 5333,
       "degree": 4,
-      "x": -0.945817,
-      "y": -0.324699,
+      "x": -0.973695,
+      "y": -0.227854,
       "size": 8
     },
     {
@@ -495,8 +514,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.879474,
-      "y": -0.475947,
+      "x": -0.927502,
+      "y": -0.373817,
       "size": 8
     },
     {
@@ -507,8 +526,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.789141,
-      "y": -0.614213,
+      "x": -0.85957,
+      "y": -0.511019,
       "size": 8
     },
     {
@@ -519,8 +538,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.677282,
-      "y": -0.735724,
+      "x": -0.771489,
+      "y": -0.636242,
       "size": 8
     },
     {
@@ -531,8 +550,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.546948,
-      "y": -0.837166,
+      "x": -0.665326,
+      "y": -0.746553,
       "size": 8
     },
     {
@@ -550,8 +569,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": -0.401695,
-      "y": -0.915773,
+      "x": -0.543568,
+      "y": -0.839365,
       "size": 8
     },
     {
@@ -569,8 +588,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": -0.245485,
-      "y": -0.9694,
+      "x": -0.409069,
+      "y": -0.912504,
       "size": 8
     },
     {
@@ -581,8 +600,8 @@
       "githubRefs": [],
       "bytes": 2637,
       "degree": 3,
-      "x": -0.082579,
-      "y": -0.996584,
+      "x": -0.264982,
+      "y": -0.964253,
       "size": 8
     },
     {
@@ -600,8 +619,8 @@
       ],
       "bytes": 2014,
       "degree": 3,
-      "x": 0.082579,
-      "y": -0.996584,
+      "x": -0.114683,
+      "y": -0.993402,
       "size": 8
     },
     {
@@ -619,8 +638,8 @@
       ],
       "bytes": 1840,
       "degree": 3,
-      "x": 0.245485,
-      "y": -0.9694,
+      "x": 0.038303,
+      "y": -0.999266,
       "size": 8
     },
     {
@@ -638,8 +657,8 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": 0.401695,
-      "y": -0.915773,
+      "x": 0.190391,
+      "y": -0.981708,
       "size": 8
     },
     {
@@ -650,8 +669,8 @@
       "githubRefs": [],
       "bytes": 1560,
       "degree": 3,
-      "x": 0.546948,
-      "y": -0.837166,
+      "x": 0.338017,
+      "y": -0.94114,
       "size": 8
     },
     {
@@ -669,8 +688,27 @@
       ],
       "bytes": 1101,
       "degree": 3,
-      "x": 0.677282,
-      "y": -0.735724,
+      "x": 0.47772,
+      "y": -0.878512,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-18-add-daily-investigation-of-official-link-warnings-cf4f891d83.md",
+      "label": "Add daily investigation of official link warnings",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 43,
+          "url": "https://github.com/jfusco/brain/issues/43"
+        }
+      ],
+      "bytes": 1210,
+      "degree": 2,
+      "x": 0.606225,
+      "y": -0.795293,
       "size": 8
     },
     {
@@ -688,8 +726,8 @@
       ],
       "bytes": 1374,
       "degree": 3,
-      "x": 0.789141,
-      "y": -0.614213,
+      "x": 0.720522,
+      "y": -0.693433,
       "size": 8
     },
     {
@@ -707,8 +745,8 @@
       ],
       "bytes": 1238,
       "degree": 3,
-      "x": 0.879474,
-      "y": -0.475947,
+      "x": 0.817929,
+      "y": -0.575319,
       "size": 8
     },
     {
@@ -773,6 +811,12 @@
         },
         {
           "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 43,
+          "url": "https://github.com/jfusco/brain/issues/43"
+        },
+        {
+          "repository": "jfusco/brain",
           "kind": "pull-request",
           "number": 2,
           "url": "https://github.com/jfusco/brain/pull/2"
@@ -784,10 +828,10 @@
           "url": "https://github.com/jfusco/brain/pull/3"
         }
       ],
-      "bytes": 6223,
-      "degree": 19,
-      "x": 0.945817,
-      "y": -0.324699,
+      "bytes": 6601,
+      "degree": 20,
+      "x": 0.896166,
+      "y": -0.44372,
       "size": 12
     },
     {
@@ -859,12 +903,33 @@
           "kind": "issue",
           "number": 41,
           "url": "https://github.com/jfusco/brain/issues/41"
+        },
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 43,
+          "url": "https://github.com/jfusco/brain/issues/43"
         }
       ],
-      "bytes": 23667,
-      "degree": 60,
-      "x": 0.986361,
-      "y": -0.164595,
+      "bytes": 24585,
+      "degree": 63,
+      "x": 0.953396,
+      "y": -0.301721,
+      "size": 8
+    },
+    {
+      "id": "wiki/topics/link-warning-investigation.md",
+      "label": "Daily link warning investigation",
+      "type": "topic",
+      "aliases": [
+        "link warning repair",
+        "recurring link warnings"
+      ],
+      "githubRefs": [],
+      "bytes": 10765,
+      "degree": 4,
+      "x": 0.98828,
+      "y": -0.152649,
       "size": 8
     }
   ],
@@ -961,6 +1026,13 @@
       "relation": "link"
     },
     {
+      "id": "2af8ad1719aa4d34",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/topics/link-warning-investigation.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "2afaa89c8213f9ef",
       "source": "wiki/plans/INDEX.md",
       "target": "wiki/plans/2026-10-16-automatic-knowledge-maintenance-and-documentation-coverage-683e6d04bb.md",
@@ -1045,6 +1117,13 @@
       "relation": "topic"
     },
     {
+      "id": "474234d94ef1b485",
+      "source": "wiki/plans/2026-10-18-add-daily-investigation-of-official-link-warnings-cf4f891d83.md",
+      "target": "wiki/topics/link-warning-investigation.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "488c596ce6981f26",
       "source": "wiki/plans/2026-10-16-brain-follow-ups-curation-and-delivery-reconciliation-eb8a80597f.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -1094,6 +1173,13 @@
       "relation": "link"
     },
     {
+      "id": "59439ad56a628e14",
+      "source": "wiki/journal/2026-10-18-daily-link-investigation.md",
+      "target": "wiki/topics/link-warning-investigation.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "5bc1244d67a453f7",
       "source": "wiki/topics/automatic-knowledge-maintenance.md",
       "target": "wiki/journal/2026-10-16-sitecore-retrieval.md",
@@ -1120,6 +1206,13 @@
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "topic",
       "relation": "topic"
+    },
+    {
+      "id": "68a27cc76d51150b",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-18-add-daily-investigation-of-official-link-warnings-cf4f891d83.md",
+      "type": "link",
+      "relation": "link"
     },
     {
       "id": "6db5d83bf844e458",
@@ -1162,6 +1255,13 @@
       "target": "wiki/plans/2026-10-16-brain-follow-ups-curation-and-delivery-reconciliation-eb8a80597f.md",
       "type": "plan",
       "relation": "plan"
+    },
+    {
+      "id": "7866c1f9c936a47d",
+      "source": "wiki/journal/2026-10-18-daily-link-investigation.md",
+      "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "7afef2bf61026f7f",
@@ -1342,6 +1442,13 @@
       "id": "a5ceeb72d9fea5b1",
       "source": "wiki/topics/automatic-knowledge-maintenance.md",
       "target": "wiki/journal/2026-10-16-first-scheduled-curation.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "a78900f8bc4018c3",
+      "source": "wiki/journal/2026-10-18-daily-link-investigation.md",
+      "target": "wiki/topics/link-warning-investigation.md",
       "type": "link",
       "relation": "link"
     },
@@ -1552,6 +1659,13 @@
       "id": "fce97f5f6a0479d1",
       "source": "wiki/topics/automatic-knowledge-maintenance.md",
       "target": "wiki/journal/2026-10-15-automatic-knowledge-maintenance.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "ff09ba248924b418",
+      "source": "wiki/topics/automatic-knowledge-maintenance.md",
+      "target": "wiki/journal/2026-10-18-daily-link-investigation.md",
       "type": "link",
       "relation": "link"
     },
