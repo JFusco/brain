@@ -176,17 +176,20 @@ export function generateHubs() {
   staleGuidance({limit:100,write:true});
   return changed;
 }
-const KINDS=['repository','url','collection'],POLICIES=['reference-only','portable','curated','sitecore-bundle'],TRACKS=['default-branch','latest-release','pinned'];
+const POLICIES=['reference-only','portable','curated','sitecore-bundle'],TRACKS=['default-branch','latest-release','pinned'],COMMON=['id','vendor','domains','kind','license','installPolicy','preferred','applicability'];
+// Registry keys are strict so a field sync would ignore cannot look like policy.
+const FIELDS={repository:[...COMMON,'repository','track','revision','sourceBase','skillRoot','paths','appliesTo','installableSkills','catalogOnly','documentationPrefix','documentationBase','maxPages'],url:[...COMMON,'url','allowedHosts'],collection:[...COMMON,'indexUrl','indexFormat','allowedHosts','includePrefixes','maxPages','fetchSuffix','additionalPages']};
 function webURL(value){try{const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password&&(!url.port||url.port==='443')?url:null;}catch{return null;}}
 const onHosts=(value,hosts)=>hosts.includes(webURL(value)?.hostname);
 const catalogHosts=spec=>[...(spec.kind==='repository'?['github.com','raw.githubusercontent.com']:[]),...(webURL(spec.documentationBase)?[webURL(spec.documentationBase).hostname]:[]),...(spec.allowedHosts||[])];
 function registryProblems(reg) {
   const issues=[],domains=config().domains,ids=new Set();
-  if(!Array.isArray(reg.sources)||!Array.isArray(reg.pointers))return ['official/sources.json: sources and pointers are required'];
+  if(reg.schemaVersion!==2||!Array.isArray(reg.sources)||!Array.isArray(reg.pointers)||Object.keys(reg).length!==3)return ['official/sources.json: schemaVersion 2 with sources and pointers is required'];
   for(const spec of reg.sources){
     if(!SOURCE_ID.test(spec?.id)||ids.has(spec.id)){issues.push('official/sources.json: invalid or duplicate source ID');continue;}
     ids.add(spec.id);const fail=reason=>issues.push(`official/sources.json: ${spec.id}: ${reason}`);
-    if(!KINDS.includes(spec.kind))fail('unknown kind');
+    if(!FIELDS[spec.kind])fail('unknown kind');
+    else for(const key of Object.keys(spec))if(!FIELDS[spec.kind].includes(key))fail(`unsupported field ${key}`);
     if(!Array.isArray(spec.domains)||!spec.domains.length||spec.domains.some(d=>!domains.includes(d)))fail('unknown domain');
     if(typeof spec.license!=='string'||!spec.license.trim())fail('license is required');
     if(!POLICIES.includes(spec.installPolicy))fail('unknown install policy');
@@ -199,7 +202,7 @@ function registryProblems(reg) {
     if(spec.kind==='url'&&!onHosts(spec.url,spec.allowedHosts||[]))fail('url must be HTTPS on an allowed host');
     if(spec.kind==='collection'&&(!onHosts(spec.indexUrl,spec.allowedHosts||[])||!Array.isArray(spec.includePrefixes)))fail('indexUrl must be HTTPS on an allowed host with include prefixes');
   }
-  for(const pointer of reg.pointers)if(!domains.includes(pointer?.domain)||!webURL(pointer.url)||typeof pointer.reason!=='string'||!pointer.reason.trim())issues.push('official/sources.json: invalid website pointer');
+  for(const pointer of reg.pointers)if(!domains.includes(pointer?.domain)||!webURL(pointer.url)||typeof pointer.reason!=='string'||!pointer.reason.trim()||Object.keys(pointer).length!==3)issues.push('official/sources.json: invalid website pointer');
   return issues;
 }
 function catalogProblems(spec,entry,doc) {
