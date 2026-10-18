@@ -10,6 +10,9 @@ import {archive} from '../lib/archive.mjs';
 if(Number(process.versions.node.split('.')[0])!==24)throw new Error('Node 24 required');
 if(!['linux','darwin'].includes(process.platform)||!['x64','arm64'].includes(process.arch))throw new Error('Unsupported scanner platform');
 if(fs.existsSync(at('brain.config.local.json')))throw new Error('Hosted setup refuses an existing local configuration');
+// Artifact download normalizes modes; re-establish private ownership before any CLI check.
+for(const relative of ['.state','.state/previous','.state/hosted']){const file=at(relative);if(!fs.existsSync(file)){if(relative==='.state')fs.mkdirSync(file,{mode:0o700});continue;}const stat=fs.lstatSync(file);if(!stat.isDirectory()||stat.isSymbolicLink())throw new Error('Invalid hosted private directory');fs.chmodSync(file,0o700);for(const name of fs.readdirSync(file)){const entry=PathEntry(file,name);if(entry.stat.isFile())fs.chmodSync(entry.path,0o600);}}
+function PathEntry(parent,name){const file=path.join(parent,name),stat=fs.lstatSync(file);if(stat.isSymbolicLink())throw new Error('Symlink in hosted private artifact');return {path:file,stat};}
 const publicConfig=json(at('brain.config.json')),version=json(at('official/sources.lock.json')).toolchain.gitleaks.version;
 if(!/^\d+\.\d+\.\d+$/.test(version))throw new Error('Invalid pinned scanner version');
 const gh=spawnSync('which',['gh'],{encoding:'utf8'}).stdout.trim();if(!path.isAbsolute(gh))throw new Error('GitHub CLI unavailable');
