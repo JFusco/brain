@@ -193,3 +193,7 @@ Historical: phase 3 replaced this with the weekly reference health workflow.
 ## Phase 1 simplification
 
 [Issue 52](https://github.com/JFusco/brain/issues/52) removes upkeep that no longer earned its keep. The private `.state/registry-approval.json` receipt is gone: it made `lookup` fail on fresh clones and after merged registry PRs, while hosted setup rewrote it for whatever was checked out. Git history, PR review and the lock's per-source `policySha256` check now guard the registry (phase 3 later replaced `policySha256` with a registry-drift check). The disabled backup subsystem (module, CLI commands, maintenance hooks and config keys) is removed; existing private archives and keys were not touched, and the earlier backup sections above are historical. The wiki merge and issue reconciliation workflows are removed; the same-delivery rule records history. Other projects now use the [opt-in Brain skill](brain-skill.md). See the [phase 1 journal](../journal/2026-10-18-simplification-phase-1.md).
+
+## October 19 Vercel plugin catalog refresh
+
+The [catalog refresh journal](../journal/2026-10-19-vercel-plugin-refresh.md) records the existing approved source advancing to commit `e3219f801658b0488eb56a6cc49725be56f451d2`. Vercel Flags links enter the catalog as references; no skill installation, package compatibility claim or source registration follows from the refresh.
