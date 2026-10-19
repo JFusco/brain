@@ -252,6 +252,14 @@ node scripts/nightly.mjs complete --run-id <id> --file <private-stage-report-jso
 
 The stage report contains `runId`, `outcome` (`published` or `unchanged`), `stages` (`refresh`, `links`, `curation`, `review`, `verification`, each with `outcome` and concrete `summary`), and `prs` (`[{number,headSha,files:[{path,sha256}]}]`, using the exact files returned by `prepare`; `null` means deletion). Review/verification stages must be completed, including when no changes qualify. `verify` executes final checks even for unchanged runs; caller-supplied check assertions do not replace it. After successful completion, accept only fully covered captures, then remove the verified merged branches and clean worktrees. Preserve receipts and any uncertain or unmerged work.
 
+For an explicitly requested extra run after the daily run completed, use:
+
+```sh
+node scripts/nightly.mjs claim --trigger manual --author-id <actual-agent-id> --rerun <short-reason-code>
+```
+
+`--rerun` is manual-only and never used by the scheduled task. It starts a new run/publication ID while preserving the scheduled completion, daily attempt count and all historical receipts. Manual reruns have a separate three-attempt limit per due date and one-hour failure backoff. They share the mutation lock, active-run reconciliation and exact-head review/publication checks. Their completions are stored by run ID under `manual.completed`; ordinary claims still skip a completed date. Continue through the same checkout, review, prepare, merge, verify and complete commands. This does not change the single daily 5 p.m. schedule.
+
 The merge command records passing Wiki integrity for the exact PR head, uses GitHub's matching-head merge guard and leaves branch protection in force. An interrupted merge reconciles the same PR and approval; completion also requires that recorded guarded-merge evidence. Reviewer identities are reported by the orchestrating agent. Local hooks and receipts guard the supported workflow; they do not prevent someone deliberately bypassing local safeguards.
 
 ## Setup
@@ -264,7 +272,7 @@ node scripts/hosted/setup.mjs
 - **`setup.mjs`** installs the checksum-verified scanner on macOS.
 - **`hosted/setup.mjs`** is for a cloud session or CI. It installs the scanner version pinned in the lock and writes an empty client profile; `check` then passes in a fresh clone.
 
-There is no LaunchAgent. One local Codex automation polls every fifteen minutes, with work due once per New York day at 03:15. `node scripts/nightly.mjs status` is read-only; `claim --trigger scheduled-agent --author-id <actual-agent-id>` starts due work. A completed date never repeats; missed dates coalesce, failures retry after an hour, and three failed attempts exhaust that date's retries. Interrupted runs require reconciliation of their original IDs. Review and verification run before completion; the old one-time verifier is paused. The Mac must be awake and the app running, so catch-up happens at a later polling opportunity. Actual unattended and sleep/wake behavior remain unproven until observed. It preserves unrelated changes; logs contain no raw capture text, and background jobs never write other project repositories.
+There is no LaunchAgent. One local Codex automation runs daily at 5 p.m. America/New_York, following daylight saving time. It refreshes references and checks links, publishes qualifying catalog updates, then reviews stale guidance and up to twelve pending captures before publishing qualifying knowledge changes. The runner becomes eligible at 03:15; the automation invokes it at 5 p.m. `node scripts/nightly.mjs status` is read-only; `claim --trigger scheduled-agent --author-id <actual-agent-id>` starts due work. A completed date never repeats; missed dates coalesce, failures retry after an hour, and three failed attempts exhaust that date's retries. Interrupted runs require reconciliation of their original IDs. Review and verification run before completion; the old one-time verifier is paused. The Mac must be awake and the app running, so missed work catches up at the next scheduled or explicitly requested invocation. Actual unattended and sleep/wake behavior remain unproven until observed. It preserves unrelated changes; logs contain no raw capture text, and background jobs never write other project repositories.
 
 Registry changes are ordinary issue-linked PRs. Git history, the lock's catalog hashes and `check` are the integrity record, so a new machine needs no separate registry approval step. Brain has no built-in backup; include `.state/`, `inbox/` and `brain.config.local.json` in your normal machine backup to preserve the inbox, dispositions and local paths.
 
