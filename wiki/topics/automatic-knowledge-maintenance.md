@@ -203,3 +203,5 @@ Historical: phase 3 replaced this with the weekly reference health workflow.
 ## October 19 Vercel plugin catalog refresh
 
 The [catalog refresh journal](../journal/2026-10-19-vercel-plugin-refresh.md) records the existing approved source advancing to commit `e3219f801658b0488eb56a6cc49725be56f451d2`. Vercel Flags links enter the catalog as references; no skill installation, package compatibility claim or source registration follows from the refresh.
+
+The [nested CMS hub repair](../journal/2026-10-19-nested-catalog-hubs.md) permits generated official sections in nested domain hubs while retaining the catalog-only prose guard.
