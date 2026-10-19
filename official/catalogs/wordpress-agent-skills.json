@@ -1,0 +1,931 @@
+{
+  "schemaVersion": 1,
+  "source": "wordpress-agent-skills",
+  "revision": "55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15",
+  "origin": "https://github.com/WordPress/agent-skills/tree/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/",
+  "skills": [
+    {
+      "id": "wordpress-agent-skills/blueprint",
+      "name": "blueprint",
+      "declaredName": "blueprint",
+      "description": "Use when the deliverable is WordPress Playground Blueprint JSON or a Blueprint bundle, including creating, editing, reviewing, validating schema keys, choosing steps/resources, and debugging Blueprint files. For only running or sharing a Playground environment, use wp-playground.",
+      "directory": "skills/blueprint",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/blueprint/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/blueprint/SKILL.md",
+      "gitBlobSha": "fb5bb9698916dc272a729b1b23658a8d592aa4ba"
+    },
+    {
+      "id": "wordpress-agent-skills/wordpress-router",
+      "name": "wordpress-router",
+      "declaredName": "wordpress-router",
+      "description": "Use when the user asks about WordPress codebases (plugins, themes, block themes, Gutenberg blocks, WP core checkouts) and you need to quickly classify the repo and route to the correct workflow/skill (blocks, theme.json, REST API, WP-CLI, performance, security, testing, release packaging).",
+      "directory": "skills/wordpress-router",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wordpress-router/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wordpress-router/SKILL.md",
+      "gitBlobSha": "8924561c705b7918a1259d3a3ad7f2753cf8f227"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-abilities-api",
+      "name": "wp-abilities-api",
+      "declaredName": "wp-abilities-api",
+      "description": "Use when working with the WordPress Abilities API (wp_register_ability, wp_register_ability_category, /wp-json/wp-abilities/v1/*, @wordpress/abilities) including defining abilities, categories, meta, REST exposure, and permissions checks for clients.",
+      "directory": "skills/wp-abilities-api",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/SKILL.md",
+      "gitBlobSha": "1edc3a4cdf2ec76d4c5199e7c4c72d923361118c"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-abilities-audit",
+      "name": "wp-abilities-audit",
+      "declaredName": "wp-abilities-audit",
+      "description": "Audit a WordPress plugin's REST surface and produce a standardized audit document proposing Abilities API registrations. Produces a markdown doc with a YAML schema and prose sections that humans and agents can both consume when planning a registration rollout. Works on any WP plugin.",
+      "directory": "skills/wp-abilities-audit",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-audit/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-audit/SKILL.md",
+      "gitBlobSha": "3c3c91530a4dd6c9d22b82ede5b99a57321750ff"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-abilities-verify",
+      "name": "wp-abilities-verify",
+      "declaredName": "wp-abilities-verify",
+      "description": "Verify a WordPress plugin's Abilities API registrations: enumerate abilities, check that callback behavior matches each annotation's claim (the adversarial readonly-but-writes detection), validate permissions and schemas, and validate audit documents produced by wp-abilities-audit.",
+      "directory": "skills/wp-abilities-verify",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/SKILL.md",
+      "gitBlobSha": "96bbc6207f4d7a0c0fbe2bd396f26a5e7c6852a7"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-block-development",
+      "name": "wp-block-development",
+      "declaredName": "wp-block-development",
+      "description": "Use when developing WordPress (Gutenberg) blocks: block.json metadata, register_block_type(_from_metadata), attributes/serialization, supports, dynamic rendering (render.php/render_callback), deprecations/migrations, viewScript vs viewScriptModule, and @wordpress/scripts/@wordpress/create-block build and test workflows.",
+      "directory": "skills/wp-block-development",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/SKILL.md",
+      "gitBlobSha": "df198b748c6337908f341f98600f428b9cb015b7"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-block-themes",
+      "name": "wp-block-themes",
+      "declaredName": "wp-block-themes",
+      "description": "Use when developing WordPress block themes: theme.json (global settings/styles), templates and template parts, patterns, style variations, and Site Editor troubleshooting (style hierarchy, overrides, caching).",
+      "directory": "skills/wp-block-themes",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/SKILL.md",
+      "gitBlobSha": "bb3dfca39016b6c40af74e07a17908228c630c47"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-env",
+      "name": "wp-env",
+      "declaredName": "wp-env",
+      "description": "Use when setting up, configuring, or troubleshooting local WordPress development environments with @wordpress/env (wp-env). Triggers on mentions of wp-env, local WordPress development, Docker-based WordPress, or requests to start/stop/configure a local WordPress instance.",
+      "directory": "skills/wp-env",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-env/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-env/SKILL.md",
+      "gitBlobSha": "7e2018b15a150ba3648339a7b9493690d9efbeb9"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-interactivity-api",
+      "name": "wp-interactivity-api",
+      "declaredName": "wp-interactivity-api",
+      "description": "Use when building or debugging WordPress Interactivity API features (data-wp-* directives, @wordpress/interactivity store/state/actions, block viewScriptModule integration, wp_interactivity_*()) including performance, hydration, and directive behavior.",
+      "directory": "skills/wp-interactivity-api",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-interactivity-api/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-interactivity-api/SKILL.md",
+      "gitBlobSha": "7bd8fad20fbf2210199db29cc4493287e918e376"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-patterns",
+      "name": "wp-patterns",
+      "declaredName": "wp-patterns",
+      "description": "Pattern: create or update WordPress block patterns (starter pages, templates, template parts, Query Loop layouts), review pattern registration, block markup, categories, accessibility, or i18n/escaping, or improve pattern design quality. Route custom blocks to wp-block-development; route frontend interactivity to wp-interactivity-api.",
+      "directory": "skills/wp-patterns",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/SKILL.md",
+      "gitBlobSha": "9e086fc143c164d4b9f085e22a450ac6fcc553b0"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-performance",
+      "name": "wp-performance",
+      "declaredName": "wp-performance",
+      "description": "Use when investigating or improving WordPress performance (backend-only agent): profiling and measurement (WP-CLI profile/doctor, Server-Timing, Query Monitor via REST headers), database/query optimization, autoloaded options, object caching, cron, HTTP API calls, and safe verification.",
+      "directory": "skills/wp-performance",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/SKILL.md",
+      "gitBlobSha": "8b13e64627429e1d6f2cdbd0db80dd7497f4af4b"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-phpstan",
+      "name": "wp-phpstan",
+      "declaredName": "wp-phpstan",
+      "description": "Use when configuring, running, or fixing PHPStan static analysis in WordPress projects (plugins/themes/sites): phpstan.neon setup, baselines, WordPress-specific typing, and handling third-party plugin classes.",
+      "directory": "skills/wp-phpstan",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-phpstan/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-phpstan/SKILL.md",
+      "gitBlobSha": "3bd52e8a97565f0a99b5d52e583a362c34ef5554"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-playground",
+      "name": "wp-playground",
+      "declaredName": "wp-playground",
+      "description": "Use as the WordPress Playground routing wrapper for ambiguous Playground work, local CLI runs with @wp-playground/cli, playground.wordpress.net share links, browser previews, WebMCP site tools, snapshots, mounts, version switching, and Xdebug. For Blueprint JSON authoring or review, use the blueprint skill directly.",
+      "directory": "skills/wp-playground",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/SKILL.md",
+      "gitBlobSha": "df9fcea31929f49197711ad69d66e67b491c72d6"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-plugin-development",
+      "name": "wp-plugin-development",
+      "declaredName": "wp-plugin-development",
+      "description": "Use when developing WordPress plugins: architecture and hooks, activation/deactivation/uninstall, admin UI and Settings API, data storage, cron/tasks, security (nonces/capabilities/sanitization/escaping), and release packaging.",
+      "directory": "skills/wp-plugin-development",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/SKILL.md",
+      "gitBlobSha": "9cec1d056a20f55fa30704d08d0f7067c55392a2"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-plugin-directory-guidelines",
+      "name": "wp-plugin-directory-guidelines",
+      "declaredName": "wp-plugin-directory-guidelines",
+      "description": "Use when reviewing WordPress plugins for GPL compliance, checking license headers or compatibility, evaluating upsell/freemium/trialware patterns, validating plugin naming or trademark rules, checking plugin slugs, running Plugin Check (PCP) to validate plugin changes, interpreting its findings, understanding why a plugin was rejected from WordPress.org, or answering questions about the 18 WordPress.org Plugin Directory guidelines.",
+      "directory": "skills/wp-plugin-directory-guidelines",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/SKILL.md",
+      "gitBlobSha": "e4f09611a42b9b715646139705490fcd8874c4fa"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-project-triage",
+      "name": "wp-project-triage",
+      "declaredName": "wp-project-triage",
+      "description": "Use when you need a deterministic inspection of a WordPress repository (plugin/theme/block theme/WP core/Gutenberg/full site) including tooling/tests/version hints, and a structured JSON report to guide workflows and guardrails.",
+      "directory": "skills/wp-project-triage",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-project-triage/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-project-triage/SKILL.md",
+      "gitBlobSha": "f5ea34e5c1c85f22402a295735f561c045050042"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-rest-api",
+      "name": "wp-rest-api",
+      "declaredName": "wp-rest-api",
+      "description": "Use when building, extending, or debugging WordPress REST API endpoints/routes: register_rest_route, WP_REST_Controller/controller classes, schema/argument validation, permission_callback/authentication, response shaping, register_rest_field/register_meta, or exposing CPTs/taxonomies via show_in_rest.",
+      "directory": "skills/wp-rest-api",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/SKILL.md",
+      "gitBlobSha": "b6cfbf65ae50b59cdd05096d8ec933ef8e62adea"
+    },
+    {
+      "id": "wordpress-agent-skills/wp-wpcli-and-ops",
+      "name": "wp-wpcli-and-ops",
+      "declaredName": "wp-wpcli-and-ops",
+      "description": "Use when working with WP-CLI (wp) for WordPress operations: safe search-replace, db export/import, plugin/theme/user/content management, cron, cache flushing, multisite, and scripting/automation with wp-cli.yml.",
+      "directory": "skills/wp-wpcli-and-ops",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/SKILL.md",
+      "gitBlobSha": "738aed64fefe28710a8c762ae23ef24f0284a167"
+    },
+    {
+      "id": "wordpress-agent-skills/wpds",
+      "name": "wpds",
+      "declaredName": "wpds",
+      "description": "Use when building UIs leveraging the WordPress Design System (WPDS) and its components, tokens, patterns, etc.",
+      "directory": "skills/wpds",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wpds/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wpds/SKILL.md",
+      "gitBlobSha": "fdcb1b95e5043202aacc292d90d07f042bdffe29"
+    }
+  ],
+  "docs": [
+    {
+      "path": "CONTRIBUTING.md",
+      "title": "Contributing to Agent Skills",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/CONTRIBUTING.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/CONTRIBUTING.md",
+      "gitBlobSha": "b251a2bbac280019a0cb66208089243f4e43ff6e"
+    },
+    {
+      "path": "docs/ai-authorship.md",
+      "title": "AI Authorship Disclosure",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/ai-authorship.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/ai-authorship.md",
+      "gitBlobSha": "be7b173406f3df4d601b338a61abe78b330ae78d"
+    },
+    {
+      "path": "docs/authoring-guide.md",
+      "title": "Authoring guide (AI-assisted)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/authoring-guide.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/authoring-guide.md",
+      "gitBlobSha": "621273a04bb9516ed0432efcdbf094661b1d3e1b"
+    },
+    {
+      "path": "docs/compatibility-policy.md",
+      "title": "Compatibility policy",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/compatibility-policy.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/compatibility-policy.md",
+      "gitBlobSha": "23c0e56e6c1ab3957eb441d1e343b4a99740ee35"
+    },
+    {
+      "path": "docs/packaging.md",
+      "title": "Packaging and installation",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/packaging.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/packaging.md",
+      "gitBlobSha": "00e6445769afe3e7305e0650eebf150fcae908e1"
+    },
+    {
+      "path": "docs/principles.md",
+      "title": "Principles",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/principles.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/principles.md",
+      "gitBlobSha": "3674d5eb06c49641fe799a674b6c43def6c02a25"
+    },
+    {
+      "path": "docs/skill-set-v1.md",
+      "title": "WordPress skill set (v1)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/skill-set-v1.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/skill-set-v1.md",
+      "gitBlobSha": "cfd5617d3b3f81e211cbfefb5feda3b042c82a02"
+    },
+    {
+      "path": "docs/upstream-sync.md",
+      "title": "Upstream sync (automation plan)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/upstream-sync.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/upstream-sync.md",
+      "gitBlobSha": "d10c74649a4a5dc2dc9cf09271deeb67e4734e47"
+    },
+    {
+      "path": "README.md",
+      "title": "Agent Skills for WordPress",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/README.md",
+      "gitBlobSha": "1fe8b76b3e624361a160eb82dc1141e52040deca"
+    },
+    {
+      "path": "skills/wordpress-router/references/decision-tree.md",
+      "title": "Router decision tree (v1)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wordpress-router/references/decision-tree.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wordpress-router/references/decision-tree.md",
+      "gitBlobSha": "c82ae96e52745613b23dd147dfc26f7fcf749e43"
+    },
+    {
+      "path": "skills/wp-abilities-api/references/delegate-helper-pattern.md",
+      "title": "Delegate helper pattern",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/delegate-helper-pattern.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/delegate-helper-pattern.md",
+      "gitBlobSha": "9aa434649818967ff931aa77810a55df2cf63c9f"
+    },
+    {
+      "path": "skills/wp-abilities-api/references/domain-vs-projection.md",
+      "title": "Domain capability vs projection — picking the layer to register at",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/domain-vs-projection.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/domain-vs-projection.md",
+      "gitBlobSha": "ffad35d875cef6e988034b38867e124d75883474"
+    },
+    {
+      "path": "skills/wp-abilities-api/references/error-code-vocabulary.md",
+      "title": "Error code vocabulary",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/error-code-vocabulary.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/error-code-vocabulary.md",
+      "gitBlobSha": "3ff2201d281a5db269ae68689be8cea8238545e4"
+    },
+    {
+      "path": "skills/wp-abilities-api/references/grouping-heuristic.md",
+      "title": "Grouping heuristic — domain-layer granularity",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/grouping-heuristic.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/grouping-heuristic.md",
+      "gitBlobSha": "810a17eb59fb0e52640d1807895111d04e0a3bd3"
+    },
+    {
+      "path": "skills/wp-abilities-api/references/input-schema-gotchas.md",
+      "title": "Input schema gotchas",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/input-schema-gotchas.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/input-schema-gotchas.md",
+      "gitBlobSha": "481d1a43f6bbbc2df095aa56d334f6b591587f0f"
+    },
+    {
+      "path": "skills/wp-abilities-api/references/php-registration.md",
+      "title": "PHP registration quick guide",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/php-registration.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/php-registration.md",
+      "gitBlobSha": "8f2ff5201101e1254d3fe3fd208b245bfeed44b0"
+    },
+    {
+      "path": "skills/wp-abilities-api/references/plugin-family-patterns.md",
+      "title": "Plugin-family patterns",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/plugin-family-patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/plugin-family-patterns.md",
+      "gitBlobSha": "df548cc6558839a4b493294a0aead99e53464453"
+    },
+    {
+      "path": "skills/wp-abilities-api/references/rest-api.md",
+      "title": "REST API quick guide (`wp-abilities/v1`)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/rest-api.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/rest-api.md",
+      "gitBlobSha": "9aaa7e87c0189d4e7c19a5abef1e7fff1a518ff5"
+    },
+    {
+      "path": "skills/wp-abilities-api/references/shared-core-service.md",
+      "title": "Shared core service — keeping abilities in lockstep with REST and UI",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/shared-core-service.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/references/shared-core-service.md",
+      "gitBlobSha": "57ccf5f4126ecb4100165c5b76f6c7d5244bad26"
+    },
+    {
+      "path": "skills/wp-abilities-audit/references/audit-schema.md",
+      "title": "Audit Document Schema",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-audit/references/audit-schema.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-audit/references/audit-schema.md",
+      "gitBlobSha": "ffe1215bb9756d8a90aabf4edb17914a21d5ce3a"
+    },
+    {
+      "path": "skills/wp-abilities-audit/references/capability-gate-tracing.md",
+      "title": "Capability-Gate Tracing",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-audit/references/capability-gate-tracing.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-audit/references/capability-gate-tracing.md",
+      "gitBlobSha": "274d6dfaab720acf6259e22b82e97e0b61cc3751"
+    },
+    {
+      "path": "skills/wp-abilities-audit/references/controller-enumeration.md",
+      "title": "Controller Enumeration",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-audit/references/controller-enumeration.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-audit/references/controller-enumeration.md",
+      "gitBlobSha": "b63340f8692d391f1a776be71dedb9f4f1bc3a69"
+    },
+    {
+      "path": "skills/wp-abilities-verify/references/annotation-correctness.md",
+      "title": "Annotation Correctness",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/annotation-correctness.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/annotation-correctness.md",
+      "gitBlobSha": "128e721aae4460fdb03a08d542f627b4ec28810f"
+    },
+    {
+      "path": "skills/wp-abilities-verify/references/audit-schema-validation.md",
+      "title": "Audit Schema Validation",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/audit-schema-validation.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/audit-schema-validation.md",
+      "gitBlobSha": "2cd2c672c8ebc59a74ec8de0858d53bdd16dc6b4"
+    },
+    {
+      "path": "skills/wp-abilities-verify/references/permission-roundtrip.md",
+      "title": "Permission Roundtrip",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/permission-roundtrip.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/permission-roundtrip.md",
+      "gitBlobSha": "43aaddbc1215d6b888fb75c1fee2d955a6cad537"
+    },
+    {
+      "path": "skills/wp-abilities-verify/references/runtime-harness.md",
+      "title": "Runtime Harness",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/runtime-harness.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/runtime-harness.md",
+      "gitBlobSha": "20f0c6095c36cf8d2bb645d61749945246cb2768"
+    },
+    {
+      "path": "skills/wp-abilities-verify/references/schema-lints.md",
+      "title": "Schema Lints",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/schema-lints.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/schema-lints.md",
+      "gitBlobSha": "bc4ad00a630a2303441725302d47d03a2ed10574"
+    },
+    {
+      "path": "skills/wp-abilities-verify/references/static-enumeration.md",
+      "title": "Static Enumeration",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/static-enumeration.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/references/static-enumeration.md",
+      "gitBlobSha": "45d7238e9616dfa87403249036bf4874eeb7353d"
+    },
+    {
+      "path": "skills/wp-block-development/references/attributes-and-serialization.md",
+      "title": "Attributes and serialization",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/attributes-and-serialization.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/attributes-and-serialization.md",
+      "gitBlobSha": "08fd2a81cf0101c72ec83c29b1b8986cbab9a188"
+    },
+    {
+      "path": "skills/wp-block-development/references/block-json.md",
+      "title": "`block.json` (metadata) guidance",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/block-json.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/block-json.md",
+      "gitBlobSha": "9cfe967e4ab32f093e8ab8c914f11b87e84c909f"
+    },
+    {
+      "path": "skills/wp-block-development/references/creating-new-blocks.md",
+      "title": "Creating new blocks (scaffolding)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/creating-new-blocks.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/creating-new-blocks.md",
+      "gitBlobSha": "f9d8f74d9fddaba3328d73447c3c4056765ea5f1"
+    },
+    {
+      "path": "skills/wp-block-development/references/debugging.md",
+      "title": "Debugging quick routes",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/debugging.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/debugging.md",
+      "gitBlobSha": "c650407edf8e6cf1f9ba9c69aa48897ff223277d"
+    },
+    {
+      "path": "skills/wp-block-development/references/deprecations.md",
+      "title": "Deprecations and migrations",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/deprecations.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/deprecations.md",
+      "gitBlobSha": "582e7c44b3ed60e115d53049ca69985c338ca60a"
+    },
+    {
+      "path": "skills/wp-block-development/references/dynamic-rendering.md",
+      "title": "Dynamic blocks (server rendering)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/dynamic-rendering.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/dynamic-rendering.md",
+      "gitBlobSha": "ee6aa943932c2990ecb374ca21cfff872af3cace"
+    },
+    {
+      "path": "skills/wp-block-development/references/inner-blocks.md",
+      "title": "Inner Blocks (nested blocks)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/inner-blocks.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/inner-blocks.md",
+      "gitBlobSha": "e150ed97b613631ea55f5d3939b6897a1f514a08"
+    },
+    {
+      "path": "skills/wp-block-development/references/registration.md",
+      "title": "Registration patterns (PHP-first)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/registration.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/registration.md",
+      "gitBlobSha": "f87899933a93146262847f9c51176c9ec4e2c6ef"
+    },
+    {
+      "path": "skills/wp-block-development/references/supports-and-wrappers.md",
+      "title": "Supports and wrapper attributes",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/supports-and-wrappers.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/supports-and-wrappers.md",
+      "gitBlobSha": "b8e6dcff45cfea78c82568bae0286377e3ad64a7"
+    },
+    {
+      "path": "skills/wp-block-development/references/tooling-and-testing.md",
+      "title": "Tooling and testing",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/tooling-and-testing.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/references/tooling-and-testing.md",
+      "gitBlobSha": "a8f2a2beb1d5aaf04ba5b7aa353a07936b3200d7"
+    },
+    {
+      "path": "skills/wp-block-themes/references/creating-new-block-theme.md",
+      "title": "Creating a new block theme",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/creating-new-block-theme.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/creating-new-block-theme.md",
+      "gitBlobSha": "500f401a20a276024c4dc5469dfb9a2226b25d07"
+    },
+    {
+      "path": "skills/wp-block-themes/references/debugging.md",
+      "title": "Debugging block theme issues",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/debugging.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/debugging.md",
+      "gitBlobSha": "9414a16c2b1f458c8b67d700ddc3fff0973915ba"
+    },
+    {
+      "path": "skills/wp-block-themes/references/patterns.md",
+      "title": "Patterns (filesystem patterns)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/patterns.md",
+      "gitBlobSha": "aee6bddd49611fa8a4f593de7b4b3afb441dc9b6"
+    },
+    {
+      "path": "skills/wp-block-themes/references/style-variations.md",
+      "title": "Style variations (`styles/*.json`)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/style-variations.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/style-variations.md",
+      "gitBlobSha": "6d02ff7c4fb2f66527335710f04cbcc5b58b2f89"
+    },
+    {
+      "path": "skills/wp-block-themes/references/templates-and-parts.md",
+      "title": "Templates and template parts",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/templates-and-parts.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/templates-and-parts.md",
+      "gitBlobSha": "0f009eaa0e17746f4c0a8c22cac3db81558bd96a"
+    },
+    {
+      "path": "skills/wp-block-themes/references/theme-json.md",
+      "title": "`theme.json` guidance",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/theme-json.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/references/theme-json.md",
+      "gitBlobSha": "a444b1afef1fc7a2b5683cac530f059c6571c4a6"
+    },
+    {
+      "path": "skills/wp-interactivity-api/references/debugging.md",
+      "title": "Debugging checklist",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-interactivity-api/references/debugging.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-interactivity-api/references/debugging.md",
+      "gitBlobSha": "81c58dd2ad6fee84148fcbb943b90a187a8a412e"
+    },
+    {
+      "path": "skills/wp-interactivity-api/references/directives-quickref.md",
+      "title": "Directives quick reference (high level)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-interactivity-api/references/directives-quickref.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-interactivity-api/references/directives-quickref.md",
+      "gitBlobSha": "a00a7810983c4900f5caab14b1512b4e8bf9335a"
+    },
+    {
+      "path": "skills/wp-interactivity-api/references/server-side-rendering.md",
+      "title": "Server-Side Rendering for Interactivity API",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-interactivity-api/references/server-side-rendering.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-interactivity-api/references/server-side-rendering.md",
+      "gitBlobSha": "1002137e9140aafb62a0b1a81941c4e7ac1a3f66"
+    },
+    {
+      "path": "skills/wp-patterns/references/anti-patterns.md",
+      "title": "Anti-Patterns",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/anti-patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/anti-patterns.md",
+      "gitBlobSha": "8e28c1c885c610d3e356e0cf92e001a179472cae"
+    },
+    {
+      "path": "skills/wp-patterns/references/block-markup-reference.md",
+      "title": "Block Markup Reference",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/block-markup-reference.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/block-markup-reference.md",
+      "gitBlobSha": "e582fa09735b4a0d4fd81ac9421dbddfd01efb5a"
+    },
+    {
+      "path": "skills/wp-patterns/references/design-with-tokens.md",
+      "title": "Design with Tokens",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/design-with-tokens.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/design-with-tokens.md",
+      "gitBlobSha": "5f223ed43c47dc5537c12b41ae1cbea952c50264"
+    },
+    {
+      "path": "skills/wp-patterns/references/example-prompts.md",
+      "title": "Example Prompts",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/example-prompts.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/example-prompts.md",
+      "gitBlobSha": "909278f7da2b05a652c7adf68b5af0ed2682d82f"
+    },
+    {
+      "path": "skills/wp-patterns/references/pattern-categories-and-types.md",
+      "title": "Pattern Categories and Types",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/pattern-categories-and-types.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/pattern-categories-and-types.md",
+      "gitBlobSha": "1561bf0870c5b2b942c799bd8b881a2656dd3fca"
+    },
+    {
+      "path": "skills/wp-patterns/references/pattern-registration.md",
+      "title": "Pattern Registration",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/pattern-registration.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/pattern-registration.md",
+      "gitBlobSha": "d7598abab211283c62e1c4141e73b68dd2594cc5"
+    },
+    {
+      "path": "skills/wp-patterns/references/visual-composition.md",
+      "title": "Visual Composition Moves",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/visual-composition.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/references/visual-composition.md",
+      "gitBlobSha": "74e0004a6e041e54b2547211ea4bfb38b9382c92"
+    },
+    {
+      "path": "skills/wp-performance/references/autoload-options.md",
+      "title": "Autoloaded options",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/autoload-options.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/autoload-options.md",
+      "gitBlobSha": "2b1758cc0576e454e6067aa37d9f9998c71e0d0d"
+    },
+    {
+      "path": "skills/wp-performance/references/cron.md",
+      "title": "WP-Cron performance",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/cron.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/cron.md",
+      "gitBlobSha": "dd7a53d6d4c41ad4406e1d2f7452cd9d83b91e8d"
+    },
+    {
+      "path": "skills/wp-performance/references/database.md",
+      "title": "Database / query performance",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/database.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/database.md",
+      "gitBlobSha": "cd796c7504b9c3ab08ac7bff2a410ece2803a273"
+    },
+    {
+      "path": "skills/wp-performance/references/http-api.md",
+      "title": "HTTP API (remote requests)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/http-api.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/http-api.md",
+      "gitBlobSha": "8de5a47274ee70e35f5b3e3bdc3aadc558419669"
+    },
+    {
+      "path": "skills/wp-performance/references/measurement.md",
+      "title": "Measurement (profiling vs benchmarking)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/measurement.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/measurement.md",
+      "gitBlobSha": "ef196ad7ef65b859d14dc7cd10bb10956d21505a"
+    },
+    {
+      "path": "skills/wp-performance/references/object-cache.md",
+      "title": "Object caching",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/object-cache.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/object-cache.md",
+      "gitBlobSha": "6e87f106509137b0d80cd57dc5d914ef23791499"
+    },
+    {
+      "path": "skills/wp-performance/references/query-monitor-headless.md",
+      "title": "Query Monitor (headless / backend-only)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/query-monitor-headless.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/query-monitor-headless.md",
+      "gitBlobSha": "fd427d33f6d833c49e0d1cfe4a404c5ce0728fda"
+    },
+    {
+      "path": "skills/wp-performance/references/server-timing.md",
+      "title": "Server-Timing (Performance Lab)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/server-timing.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/server-timing.md",
+      "gitBlobSha": "b8a01742499147f896278d8b6a92fe6da21d88d9"
+    },
+    {
+      "path": "skills/wp-performance/references/wp-cli-doctor.md",
+      "title": "WP-CLI doctor (`wp doctor`)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/wp-cli-doctor.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/wp-cli-doctor.md",
+      "gitBlobSha": "9d22832c6f8fdf6e626f07d57741a9e109598408"
+    },
+    {
+      "path": "skills/wp-performance/references/wp-cli-profile.md",
+      "title": "WP-CLI profiling (`wp profile`)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/wp-cli-profile.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/references/wp-cli-profile.md",
+      "gitBlobSha": "8575e48eb62a2f3d21a868a4b80ec5eb5b1f755f"
+    },
+    {
+      "path": "skills/wp-phpstan/references/configuration.md",
+      "title": "PHPStan configuration (WordPress)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-phpstan/references/configuration.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-phpstan/references/configuration.md",
+      "gitBlobSha": "f2e7ff0afc3f23c7acadd4fac89c6895fe38eec0"
+    },
+    {
+      "path": "skills/wp-phpstan/references/third-party-classes.md",
+      "title": "Third-party classes and ignore patterns",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-phpstan/references/third-party-classes.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-phpstan/references/third-party-classes.md",
+      "gitBlobSha": "f0e1ebb8d0e029b0b45d81124197ab92bc1d25aa"
+    },
+    {
+      "path": "skills/wp-phpstan/references/wordpress-annotations.md",
+      "title": "WordPress-specific type annotations",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-phpstan/references/wordpress-annotations.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-phpstan/references/wordpress-annotations.md",
+      "gitBlobSha": "bb88d0719f0a0dba90e201c730b172d883c379d9"
+    },
+    {
+      "path": "skills/wp-playground/references/cli.md",
+      "title": "skills/wp-playground/references/cli.md",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/cli.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/cli.md",
+      "gitBlobSha": "0204be6b133d188ef69d75e95fbe283038cb25cb"
+    },
+    {
+      "path": "skills/wp-playground/references/debugging.md",
+      "title": "skills/wp-playground/references/debugging.md",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/debugging.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/debugging.md",
+      "gitBlobSha": "ed6922d11b59423851014c0dc6172f8d05326c55"
+    },
+    {
+      "path": "skills/wp-playground/references/mcp.md",
+      "title": "skills/wp-playground/references/mcp.md",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/mcp.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/mcp.md",
+      "gitBlobSha": "2d4ea21b3a1b8e2790664d1d35b70689e369b9bf"
+    },
+    {
+      "path": "skills/wp-playground/references/sites-api.md",
+      "title": "skills/wp-playground/references/sites-api.md",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/sites-api.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/sites-api.md",
+      "gitBlobSha": "f1f3a28c1494d6b6f2d422c42e9a93ec1a7bd1a1"
+    },
+    {
+      "path": "skills/wp-playground/references/webmcp.md",
+      "title": "skills/wp-playground/references/webmcp.md",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/webmcp.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/webmcp.md",
+      "gitBlobSha": "fc9ab5ed8150b8f3391e6bfcdb468fa35b7eb117"
+    },
+    {
+      "path": "skills/wp-playground/references/website.md",
+      "title": "skills/wp-playground/references/website.md",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/website.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/references/website.md",
+      "gitBlobSha": "2f2d1c9171fa8dc594ff4e499c9fcd9577758524"
+    },
+    {
+      "path": "skills/wp-plugin-development/references/data-and-cron.md",
+      "title": "Data storage, cron, and upgrades",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/data-and-cron.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/data-and-cron.md",
+      "gitBlobSha": "193e25c029a70e8f060df8589008940bb87b1cef"
+    },
+    {
+      "path": "skills/wp-plugin-development/references/debugging.md",
+      "title": "Debugging quick routes",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/debugging.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/debugging.md",
+      "gitBlobSha": "af783361632f8c17ead523b9d54efed34e29418a"
+    },
+    {
+      "path": "skills/wp-plugin-development/references/lifecycle.md",
+      "title": "Activation, deactivation, uninstall",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/lifecycle.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/lifecycle.md",
+      "gitBlobSha": "ebf083774ee428692c09fd110ac249d94a488821"
+    },
+    {
+      "path": "skills/wp-plugin-development/references/security.md",
+      "title": "Security guardrails (plugin work)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/security.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/security.md",
+      "gitBlobSha": "b63afb250b75aab6761c144583f793ada2889e74"
+    },
+    {
+      "path": "skills/wp-plugin-development/references/settings-api.md",
+      "title": "Settings API (admin options)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/settings-api.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/settings-api.md",
+      "gitBlobSha": "0a07970acc29a060d42824cf53b93c2deffd45c6"
+    },
+    {
+      "path": "skills/wp-plugin-development/references/structure.md",
+      "title": "Plugin structure and loading",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/structure.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/references/structure.md",
+      "gitBlobSha": "b05503bcb3d6e1342673e74f4af1d4eff3cd824f"
+    },
+    {
+      "path": "skills/wp-plugin-directory-guidelines/references/gpl-compliance.md",
+      "title": "skills/wp-plugin-directory-guidelines/references/gpl-compliance.md",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/references/gpl-compliance.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/references/gpl-compliance.md",
+      "gitBlobSha": "7656fbae2ae8680abe051bfb4eccaddc38fc67c4"
+    },
+    {
+      "path": "skills/wp-plugin-directory-guidelines/references/guideline-review-checklist.md",
+      "title": "WordPress.org Plugin Directory Guidelines — Review Checklist",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/references/guideline-review-checklist.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/references/guideline-review-checklist.md",
+      "gitBlobSha": "f511d0e2f1abe42bde4ee8670d54587939a095cd"
+    },
+    {
+      "path": "skills/wp-plugin-directory-guidelines/references/naming-rules.md",
+      "title": "skills/wp-plugin-directory-guidelines/references/naming-rules.md",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/references/naming-rules.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/references/naming-rules.md",
+      "gitBlobSha": "5d08faa9dc3e7fbb694b71e6e935e1395f2e0948"
+    },
+    {
+      "path": "skills/wp-plugin-directory-guidelines/references/plugin-check.md",
+      "title": "Plugin Check validation",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/references/plugin-check.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/references/plugin-check.md",
+      "gitBlobSha": "71eda2ed7d3d3fea2692ee06680c0eb5a8628255"
+    },
+    {
+      "path": "skills/wp-rest-api/references/authentication.md",
+      "title": "Authentication (summary)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/authentication.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/authentication.md",
+      "gitBlobSha": "6e214e4d00a9c4f63bcab2170e9fcf9502291238"
+    },
+    {
+      "path": "skills/wp-rest-api/references/custom-content-types.md",
+      "title": "Custom Content Types (summary)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/custom-content-types.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/custom-content-types.md",
+      "gitBlobSha": "83c34e96a5ec29afb24590765a915391390c0f87"
+    },
+    {
+      "path": "skills/wp-rest-api/references/discovery-and-params.md",
+      "title": "Discovery and Global Parameters (summary)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/discovery-and-params.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/discovery-and-params.md",
+      "gitBlobSha": "0b2fe815a9abaa941983c3b38225caa7309d4994"
+    },
+    {
+      "path": "skills/wp-rest-api/references/responses-and-fields.md",
+      "title": "Responses and Fields (summary)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/responses-and-fields.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/responses-and-fields.md",
+      "gitBlobSha": "9aef0718f0097edb94602b66361525b56f119b08"
+    },
+    {
+      "path": "skills/wp-rest-api/references/routes-and-endpoints.md",
+      "title": "Routes and Endpoints (summary)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/routes-and-endpoints.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/routes-and-endpoints.md",
+      "gitBlobSha": "4192b24ee8cb1b4b96eaf361ec651a3ec5dfd920"
+    },
+    {
+      "path": "skills/wp-rest-api/references/schema.md",
+      "title": "Schema and Argument Validation (summary)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/schema.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/references/schema.md",
+      "gitBlobSha": "25fa1c9e91f05b86d0d949994dc7ec0262c4813b"
+    },
+    {
+      "path": "skills/wp-wpcli-and-ops/references/automation.md",
+      "title": "Automation with WP-CLI",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/automation.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/automation.md",
+      "gitBlobSha": "4cd914ad402f06670e97ddd3d1fcc4a979aa2b68"
+    },
+    {
+      "path": "skills/wp-wpcli-and-ops/references/cron-and-cache.md",
+      "title": "Cron, caches, and rewrites",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/cron-and-cache.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/cron-and-cache.md",
+      "gitBlobSha": "5d69e9d8783b3649570a36bb4348ebc6bde970e4"
+    },
+    {
+      "path": "skills/wp-wpcli-and-ops/references/debugging.md",
+      "title": "Debugging WP-CLI",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/debugging.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/debugging.md",
+      "gitBlobSha": "4dd6b0e698b13ffa38d48595dae247e9b9f9110f"
+    },
+    {
+      "path": "skills/wp-wpcli-and-ops/references/multisite.md",
+      "title": "Multisite targeting",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/multisite.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/multisite.md",
+      "gitBlobSha": "d07323643f3bf6326dd04827fe8b3a0f53ae02fe"
+    },
+    {
+      "path": "skills/wp-wpcli-and-ops/references/packages-and-updates.md",
+      "title": "Plugin/theme operations",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/packages-and-updates.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/packages-and-updates.md",
+      "gitBlobSha": "508f1bc9d7a727766b7433b0e95068bd418024f3"
+    },
+    {
+      "path": "skills/wp-wpcli-and-ops/references/safety.md",
+      "title": "Safety rules (WP-CLI)",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/safety.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/safety.md",
+      "gitBlobSha": "a9974fcacc5088fc0dba1479aacb146734d52f0b"
+    },
+    {
+      "path": "skills/wp-wpcli-and-ops/references/search-replace.md",
+      "title": "Safe `wp search-replace`",
+      "url": "https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/search-replace.md",
+      "fetchUrl": "https://raw.githubusercontent.com/WordPress/agent-skills/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/references/search-replace.md",
+      "gitBlobSha": "5c8fff00814de16c9a55ce8f935ec55362ed6d04"
+    }
+  ],
+  "pages": [],
+  "referenceIssues": []
+}

@@ -114,6 +114,18 @@
       "fetchedAt": "2026-10-18T23:49:40.708Z",
       "track": "rolling-url",
       "catalogSha256": "dc1f723a4191d275a1bbe1afd0ac3206d2f24494f11543789c88c3362039216d"
+    },
+    "wordpress-docs": {
+      "revision": "205de4d1aa4015040106650fa334bce2b89f9f8ef4d2f5b8324c9972da1b8072",
+      "fetchedAt": "2026-10-19T00:23:46.781Z",
+      "track": "rolling-url",
+      "catalogSha256": "8b34f51db476a489b6239c1f485d0a87e74fdbd91b0477379bdbfb4d26ca9297"
+    },
+    "wordpress-agent-skills": {
+      "revision": "55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15",
+      "fetchedAt": "2026-10-19T00:24:54.833Z",
+      "track": "default-branch",
+      "catalogSha256": "3ad43b4cea3f918033ad794b208719846cc89a90fddc6248e7c9d82d5ca6ea17"
     }
   },
   "toolchain": {

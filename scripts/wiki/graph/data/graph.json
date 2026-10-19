@@ -2,13 +2,13 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 65,
-    "edges": 196,
+    "nodes": 68,
+    "edges": 203,
     "byType": {
       "index": 3,
-      "journal": 29,
-      "plan": 28,
-      "topic": 5
+      "journal": 30,
+      "plan": 29,
+      "topic": 6
     }
   },
   "nodes": [
@@ -18,8 +18,8 @@
       "type": "index",
       "aliases": [],
       "githubRefs": [],
-      "bytes": 1793,
-      "degree": 5,
+      "bytes": 1914,
+      "degree": 6,
       "x": 1,
       "y": 0,
       "size": 12
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.98137,
-      "y": 0.192127,
+      "x": 0.982973,
+      "y": 0.18375,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.958246,
-      "y": 0.285946,
+      "x": 0.961826,
+      "y": 0.273663,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.926175,
-      "y": 0.377095,
+      "x": 0.932472,
+      "y": 0.361242,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.885456,
-      "y": 0.464723,
+      "x": 0.895163,
+      "y": 0.445738,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": 0.83647,
-      "y": 0.548013,
+      "x": 0.850217,
+      "y": 0.526432,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": 0.779674,
-      "y": 0.626185,
+      "x": 0.798017,
+      "y": 0.602635,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": 0.715599,
-      "y": 0.698511,
+      "x": 0.739009,
+      "y": 0.673696,
       "size": 8
     },
     {
@@ -196,8 +196,8 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": 0.644842,
-      "y": 0.764316,
+      "x": 0.673696,
+      "y": 0.739009,
       "size": 8
     },
     {
@@ -221,8 +221,8 @@
       ],
       "bytes": 5340,
       "degree": 6,
-      "x": 0.568065,
-      "y": 0.822984,
+      "x": 0.602635,
+      "y": 0.798017,
       "size": 8
     },
     {
@@ -240,8 +240,8 @@
       ],
       "bytes": 2693,
       "degree": 3,
-      "x": 0.485983,
-      "y": 0.873968,
+      "x": 0.526432,
+      "y": 0.850217,
       "size": 8
     },
     {
@@ -259,8 +259,8 @@
       ],
       "bytes": 7492,
       "degree": 6,
-      "x": 0.399365,
-      "y": 0.916792,
+      "x": 0.445738,
+      "y": 0.895163,
       "size": 8
     },
     {
@@ -278,8 +278,8 @@
       ],
       "bytes": 6374,
       "degree": 5,
-      "x": 0.309017,
-      "y": 0.951057,
+      "x": 0.361242,
+      "y": 0.932472,
       "size": 8
     },
     {
@@ -303,8 +303,8 @@
       ],
       "bytes": 6037,
       "degree": 4,
-      "x": 0.215784,
-      "y": 0.976441,
+      "x": 0.273663,
+      "y": 0.961826,
       "size": 8
     },
     {
@@ -322,8 +322,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": 0.120537,
-      "y": 0.992709,
+      "x": 0.18375,
+      "y": 0.982973,
       "size": 8
     },
     {
@@ -377,8 +377,8 @@
       ],
       "bytes": 14026,
       "degree": 3,
-      "x": 0.024164,
-      "y": 0.999708,
+      "x": 0.092268,
+      "y": 0.995734,
       "size": 8
     },
     {
@@ -396,8 +396,8 @@
       ],
       "bytes": 4835,
       "degree": 4,
-      "x": -0.072435,
-      "y": 0.997373,
+      "x": 0,
+      "y": 1,
       "size": 8
     },
     {
@@ -415,8 +415,8 @@
       ],
       "bytes": 3450,
       "degree": 4,
-      "x": -0.168357,
-      "y": 0.985726,
+      "x": -0.092268,
+      "y": 0.995734,
       "size": 8
     },
     {
@@ -434,8 +434,8 @@
       ],
       "bytes": 3020,
       "degree": 5,
-      "x": -0.262707,
-      "y": 0.964876,
+      "x": -0.18375,
+      "y": 0.982973,
       "size": 8
     },
     {
@@ -453,8 +453,8 @@
       ],
       "bytes": 1787,
       "degree": 4,
-      "x": -0.354605,
-      "y": 0.935016,
+      "x": -0.273663,
+      "y": 0.961826,
       "size": 8
     },
     {
@@ -472,8 +472,8 @@
       ],
       "bytes": 1203,
       "degree": 2,
-      "x": -0.443192,
-      "y": 0.896427,
+      "x": -0.361242,
+      "y": 0.932472,
       "size": 8
     },
     {
@@ -491,8 +491,8 @@
       ],
       "bytes": 1850,
       "degree": 4,
-      "x": -0.52764,
-      "y": 0.849468,
+      "x": -0.445738,
+      "y": 0.895163,
       "size": 8
     },
     {
@@ -510,8 +510,8 @@
       ],
       "bytes": 1533,
       "degree": 2,
-      "x": -0.607163,
-      "y": 0.794578,
+      "x": -0.526432,
+      "y": 0.850217,
       "size": 8
     },
     {
@@ -529,8 +529,8 @@
       ],
       "bytes": 4286,
       "degree": 4,
-      "x": -0.681016,
-      "y": 0.732269,
+      "x": -0.602635,
+      "y": 0.798017,
       "size": 8
     },
     {
@@ -548,8 +548,8 @@
       ],
       "bytes": 3742,
       "degree": 6,
-      "x": -0.748511,
-      "y": 0.663123,
+      "x": -0.673696,
+      "y": 0.739009,
       "size": 8
     },
     {
@@ -567,8 +567,8 @@
       ],
       "bytes": 4178,
       "degree": 5,
-      "x": -0.809017,
-      "y": 0.587785,
+      "x": -0.739009,
+      "y": 0.673696,
       "size": 8
     },
     {
@@ -592,8 +592,8 @@
       ],
       "bytes": 7746,
       "degree": 11,
-      "x": -0.86197,
-      "y": 0.50696,
+      "x": -0.798017,
+      "y": 0.602635,
       "size": 8
     },
     {
@@ -611,8 +611,8 @@
       ],
       "bytes": 8844,
       "degree": 11,
-      "x": -0.906874,
-      "y": 0.421401,
+      "x": -0.850217,
+      "y": 0.526432,
       "size": 8
     },
     {
@@ -648,8 +648,8 @@
       ],
       "bytes": 6902,
       "degree": 5,
-      "x": -0.943312,
-      "y": 0.331908,
+      "x": -0.895163,
+      "y": 0.445738,
       "size": 8
     },
     {
@@ -685,8 +685,27 @@
       ],
       "bytes": 2313,
       "degree": 3,
-      "x": -0.970942,
-      "y": 0.239316,
+      "x": -0.932472,
+      "y": 0.361242,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-19-wordpress-coverage.md",
+      "label": "Register WordPress developer references",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 69,
+          "url": "https://github.com/jfusco/brain/issues/69"
+        }
+      ],
+      "bytes": 5379,
+      "degree": 4,
+      "x": -0.961826,
+      "y": 0.273663,
       "size": 8
     },
     {
@@ -697,8 +716,8 @@
       "githubRefs": [],
       "bytes": 2704,
       "degree": 2,
-      "x": 0.995332,
-      "y": 0.096514,
+      "x": 0.995734,
+      "y": 0.092268,
       "size": 12
     },
     {
@@ -709,8 +728,8 @@
       "githubRefs": [],
       "bytes": 2105,
       "degree": 2,
-      "x": -0.989506,
-      "y": 0.144489,
+      "x": -0.982973,
+      "y": 0.18375,
       "size": 8
     },
     {
@@ -728,8 +747,8 @@
       ],
       "bytes": 5776,
       "degree": 3,
-      "x": -0.998832,
-      "y": 0.048313,
+      "x": -0.995734,
+      "y": 0.092268,
       "size": 8
     },
     {
@@ -740,8 +759,8 @@
       "githubRefs": [],
       "bytes": 5333,
       "degree": 4,
-      "x": -0.998832,
-      "y": -0.048313,
+      "x": -1,
+      "y": 0,
       "size": 8
     },
     {
@@ -765,8 +784,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -0.989506,
-      "y": -0.144489,
+      "x": -0.995734,
+      "y": -0.092268,
       "size": 8
     },
     {
@@ -777,8 +796,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.970942,
-      "y": -0.239316,
+      "x": -0.982973,
+      "y": -0.18375,
       "size": 8
     },
     {
@@ -789,8 +808,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.943312,
-      "y": -0.331908,
+      "x": -0.961826,
+      "y": -0.273663,
       "size": 8
     },
     {
@@ -801,8 +820,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.906874,
-      "y": -0.421401,
+      "x": -0.932472,
+      "y": -0.361242,
       "size": 8
     },
     {
@@ -820,8 +839,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": -0.86197,
-      "y": -0.50696,
+      "x": -0.895163,
+      "y": -0.445738,
       "size": 8
     },
     {
@@ -839,8 +858,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": -0.809017,
-      "y": -0.587785,
+      "x": -0.850217,
+      "y": -0.526432,
       "size": 8
     },
     {
@@ -851,8 +870,8 @@
       "githubRefs": [],
       "bytes": 2637,
       "degree": 3,
-      "x": -0.748511,
-      "y": -0.663123,
+      "x": -0.798017,
+      "y": -0.602635,
       "size": 8
     },
     {
@@ -870,8 +889,8 @@
       ],
       "bytes": 2014,
       "degree": 3,
-      "x": -0.681016,
-      "y": -0.732269,
+      "x": -0.739009,
+      "y": -0.673696,
       "size": 8
     },
     {
@@ -889,8 +908,8 @@
       ],
       "bytes": 1840,
       "degree": 3,
-      "x": -0.607163,
-      "y": -0.794578,
+      "x": -0.673696,
+      "y": -0.739009,
       "size": 8
     },
     {
@@ -908,8 +927,8 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": -0.52764,
-      "y": -0.849468,
+      "x": -0.602635,
+      "y": -0.798017,
       "size": 8
     },
     {
@@ -920,8 +939,8 @@
       "githubRefs": [],
       "bytes": 1560,
       "degree": 3,
-      "x": -0.443192,
-      "y": -0.896427,
+      "x": -0.526432,
+      "y": -0.850217,
       "size": 8
     },
     {
@@ -939,8 +958,8 @@
       ],
       "bytes": 1101,
       "degree": 3,
-      "x": -0.354605,
-      "y": -0.935016,
+      "x": -0.445738,
+      "y": -0.895163,
       "size": 8
     },
     {
@@ -958,8 +977,8 @@
       ],
       "bytes": 1210,
       "degree": 2,
-      "x": -0.262707,
-      "y": -0.964876,
+      "x": -0.361242,
+      "y": -0.932472,
       "size": 8
     },
     {
@@ -989,8 +1008,8 @@
       ],
       "bytes": 10603,
       "degree": 5,
-      "x": -0.168357,
-      "y": -0.985726,
+      "x": -0.273663,
+      "y": -0.961826,
       "size": 8
     },
     {
@@ -1008,8 +1027,8 @@
       ],
       "bytes": 15754,
       "degree": 4,
-      "x": -0.072435,
-      "y": -0.997373,
+      "x": -0.18375,
+      "y": -0.982973,
       "size": 8
     },
     {
@@ -1033,8 +1052,8 @@
       ],
       "bytes": 16781,
       "degree": 5,
-      "x": 0.024164,
-      "y": -0.999708,
+      "x": -0.092268,
+      "y": -0.995734,
       "size": 8
     },
     {
@@ -1058,8 +1077,8 @@
       ],
       "bytes": 21921,
       "degree": 5,
-      "x": 0.120537,
-      "y": -0.992709,
+      "x": 0,
+      "y": -1,
       "size": 8
     },
     {
@@ -1077,8 +1096,8 @@
       ],
       "bytes": 1069,
       "degree": 3,
-      "x": 0.215784,
-      "y": -0.976441,
+      "x": 0.092268,
+      "y": -0.995734,
       "size": 8
     },
     {
@@ -1089,8 +1108,8 @@
       "githubRefs": [],
       "bytes": 1157,
       "degree": 3,
-      "x": 0.309017,
-      "y": -0.951057,
+      "x": 0.18375,
+      "y": -0.982973,
       "size": 8
     },
     {
@@ -1108,8 +1127,8 @@
       ],
       "bytes": 1423,
       "degree": 2,
-      "x": 0.399365,
-      "y": -0.916792,
+      "x": 0.273663,
+      "y": -0.961826,
       "size": 8
     },
     {
@@ -1127,8 +1146,8 @@
       ],
       "bytes": 969,
       "degree": 2,
-      "x": 0.485983,
-      "y": -0.873968,
+      "x": 0.361242,
+      "y": -0.932472,
       "size": 8
     },
     {
@@ -1146,8 +1165,8 @@
       ],
       "bytes": 1374,
       "degree": 3,
-      "x": 0.568065,
-      "y": -0.822984,
+      "x": 0.445738,
+      "y": -0.895163,
       "size": 8
     },
     {
@@ -1171,8 +1190,8 @@
       ],
       "bytes": 2936,
       "degree": 3,
-      "x": 0.644842,
-      "y": -0.764316,
+      "x": 0.526432,
+      "y": -0.850217,
       "size": 8
     },
     {
@@ -1190,8 +1209,8 @@
       ],
       "bytes": 1238,
       "degree": 3,
-      "x": 0.715599,
-      "y": -0.698511,
+      "x": 0.602635,
+      "y": -0.798017,
       "size": 8
     },
     {
@@ -1209,8 +1228,20 @@
       ],
       "bytes": 803,
       "degree": 2,
-      "x": 0.779674,
-      "y": -0.626185,
+      "x": 0.673696,
+      "y": -0.739009,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-19-add-official-wordpress-documentation-coverage-3c144c2580.md",
+      "label": "Add official WordPress documentation coverage",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [],
+      "bytes": 1339,
+      "degree": 3,
+      "x": 0.739009,
+      "y": -0.673696,
       "size": 8
     },
     {
@@ -1346,10 +1377,10 @@
           "url": "https://github.com/jfusco/brain/pull/65"
         }
       ],
-      "bytes": 11163,
-      "degree": 30,
-      "x": 0.83647,
-      "y": -0.548013,
+      "bytes": 11537,
+      "degree": 31,
+      "x": 0.798017,
+      "y": -0.602635,
       "size": 12
     },
     {
@@ -1467,8 +1498,8 @@
       ],
       "bytes": 31799,
       "degree": 91,
-      "x": 0.885456,
-      "y": -0.464723,
+      "x": 0.850217,
+      "y": -0.526432,
       "size": 8
     },
     {
@@ -1491,8 +1522,8 @@
       ],
       "bytes": 3960,
       "degree": 9,
-      "x": 0.926175,
-      "y": -0.377095,
+      "x": 0.895163,
+      "y": -0.445738,
       "size": 8
     },
     {
@@ -1513,8 +1544,8 @@
       ],
       "bytes": 8959,
       "degree": 17,
-      "x": 0.958246,
-      "y": -0.285946,
+      "x": 0.932472,
+      "y": -0.361242,
       "size": 8
     },
     {
@@ -1536,8 +1567,8 @@
       ],
       "bytes": 4993,
       "degree": 10,
-      "x": 0.98137,
-      "y": -0.192127,
+      "x": 0.961826,
+      "y": -0.273663,
       "size": 8
     },
     {
@@ -1551,8 +1582,31 @@
       "githubRefs": [],
       "bytes": 11400,
       "degree": 12,
-      "x": 0.995332,
-      "y": -0.096514,
+      "x": 0.982973,
+      "y": -0.18375,
+      "size": 8
+    },
+    {
+      "id": "wiki/topics/wordpress-coverage.md",
+      "label": "WordPress documentation coverage",
+      "type": "topic",
+      "aliases": [
+        "wordpress-docs",
+        "wordpress-agent-skills",
+        "WordPress handbooks"
+      ],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 69,
+          "url": "https://github.com/jfusco/brain/issues/69"
+        }
+      ],
+      "bytes": 2705,
+      "degree": 5,
+      "x": 0.995734,
+      "y": -0.092268,
       "size": 8
     }
   ],
@@ -1717,6 +1771,13 @@
       "target": "wiki/topics/incremental-collection.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "25fce1d7a20c3936",
+      "source": "wiki/plans/2026-10-19-add-official-wordpress-documentation-coverage-3c144c2580.md",
+      "target": "wiki/topics/wordpress-coverage.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "26c73a7ae40df50d",
@@ -1915,6 +1976,13 @@
       "relation": "topic"
     },
     {
+      "id": "4915333430e3113f",
+      "source": "wiki/topics/wordpress-coverage.md",
+      "target": "wiki/journal/2026-10-19-wordpress-coverage.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "4b524fb16baf6f55",
       "source": "wiki/journal/2026-10-18-phase-3-follow-up.md",
       "target": "wiki/journal/2026-10-18-simplification-phase-3.md",
@@ -2062,6 +2130,13 @@
       "relation": "topic"
     },
     {
+      "id": "688e30196cc8c6e7",
+      "source": "wiki/INDEX.md",
+      "target": "wiki/topics/wordpress-coverage.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "68a27cc76d51150b",
       "source": "wiki/plans/INDEX.md",
       "target": "wiki/plans/2026-10-18-add-daily-investigation-of-official-link-warnings-cf4f891d83.md",
@@ -2137,6 +2212,13 @@
       "target": "wiki/plans/2026-10-16-brain-follow-ups-curation-and-delivery-reconciliation-eb8a80597f.md",
       "type": "plan",
       "relation": "plan"
+    },
+    {
+      "id": "777979a98ad88679",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-19-add-official-wordpress-documentation-coverage-3c144c2580.md",
+      "type": "link",
+      "relation": "link"
     },
     {
       "id": "784d68505578702f",
@@ -2272,6 +2354,13 @@
       "relation": "topic"
     },
     {
+      "id": "8d60c2b7d8f447d3",
+      "source": "wiki/journal/2026-10-19-wordpress-coverage.md",
+      "target": "wiki/plans/2026-10-19-add-official-wordpress-documentation-coverage-3c144c2580.md",
+      "type": "plan",
+      "relation": "plan"
+    },
+    {
       "id": "8da662e2f178eaf3",
       "source": "wiki/journal/2026-10-18-contentful-documentation-access.md",
       "target": "wiki/plans/2026-10-18-replace-the-throttled-contentful-documentation-pointer-bdb41e74f7.md",
@@ -2291,6 +2380,13 @@
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "9107ada3bb3c9888",
+      "source": "wiki/journal/2026-10-19-wordpress-coverage.md",
+      "target": "wiki/topics/wordpress-coverage.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "9116da21109dbcbf",
@@ -2746,6 +2842,13 @@
       "target": "wiki/plans/2026-10-18-brain-simplification-phase-2-publish-knowledge-as-ordinary-git-changes-e971dbeb8b.md",
       "type": "plan",
       "relation": "plan"
+    },
+    {
+      "id": "d95f8897d3d357b4",
+      "source": "wiki/journal/2026-10-19-wordpress-coverage.md",
+      "target": "wiki/topics/wordpress-coverage.md",
+      "type": "link",
+      "relation": "link"
     },
     {
       "id": "da0581348b7e1af4",

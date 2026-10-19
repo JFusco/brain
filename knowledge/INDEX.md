@@ -20,6 +20,7 @@ Open the relevant domain, then only the pages it routes to. Official sections ar
 - [SitecoreAI](cms/sitecore-ai/INDEX.md)
 - [Sitecore XP](cms/sitecore-xp/INDEX.md)
 - [Contentful](cms/contentful/INDEX.md)
+- [WordPress](cms/wordpress/INDEX.md)
 - [Unsorted learnings and agent tooling](_unsorted/INDEX.md)
 
 ## How to apply sources
