@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "5fe1e6efea767fae1d0d61882415143efe03cfca88b3d0d99d2b931b45161085",
+  "revision": "66bf3f6b05455b9a831a4a1dbb4cf89b06e641a67f5e3c175b4075c51172eee6",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -2580,6 +2580,11 @@
       "title": "Handling Verified Bots",
       "url": "https://vercel.com/docs/botid/verified-bots",
       "fetchUrl": "https://vercel.com/docs/botid/verified-bots.md"
+    },
+    {
+      "title": "Verify Visitors on Page Load",
+      "url": "https://vercel.com/docs/botid/verify-on-page-load",
+      "fetchUrl": "https://vercel.com/docs/botid/verify-on-page-load.md"
     },
     {
       "title": "Build Output API",
@@ -5902,6 +5907,21 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/connect/update-connector-trigger-destinations.md"
     },
     {
+      "title": "Force restart a project daemon instance",
+      "url": "https://vercel.com/docs/rest-api/daemons/force-restart-a-project-daemon-instance",
+      "fetchUrl": "https://vercel.com/docs/rest-api/daemons/force-restart-a-project-daemon-instance.md"
+    },
+    {
+      "title": "Get project daemons",
+      "url": "https://vercel.com/docs/rest-api/daemons/get-project-daemons",
+      "fetchUrl": "https://vercel.com/docs/rest-api/daemons/get-project-daemons.md"
+    },
+    {
+      "title": "Override a project daemon's instance counts",
+      "url": "https://vercel.com/docs/rest-api/daemons/override-a-project-daemon-s-instance-counts",
+      "fetchUrl": "https://vercel.com/docs/rest-api/daemons/override-a-project-daemon-s-instance-counts.md"
+    },
+    {
       "title": "Cancel a deployment",
       "url": "https://vercel.com/docs/rest-api/deployments/cancel-a-deployment",
       "fetchUrl": "https://vercel.com/docs/rest-api/deployments/cancel-a-deployment.md"
@@ -8405,6 +8425,11 @@
       "title": "Workflow Pricing and Limits",
       "url": "https://vercel.com/docs/workflows/pricing",
       "fetchUrl": "https://vercel.com/docs/workflows/pricing.md"
+    },
+    {
+      "title": "Workflow Data Retention",
+      "url": "https://vercel.com/docs/workflows/retention",
+      "fetchUrl": "https://vercel.com/docs/workflows/retention.md"
     }
   ],
   "referenceIssues": []

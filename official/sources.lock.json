@@ -20,16 +20,16 @@
       "catalogSha256": "1da7af8baf08d3052086a4614d708d6bd0e28623be3a8a14dae166cd759eae06"
     },
     "vercel-plugin": {
-      "revision": "e3219f801658b0488eb56a6cc49725be56f451d2",
-      "fetchedAt": "2026-10-19T10:03:20.940Z",
+      "revision": "0db44088cc0454455f85f46150162716d58acd8c",
+      "fetchedAt": "2026-10-19T23:08:43.020Z",
       "track": "default-branch",
-      "catalogSha256": "0c8ff8d5232f8e61b791b2fb7ec8275752f4835113b222d0ae59acf953bc3adf"
+      "catalogSha256": "83a3cdfc4489064968a7e23c8a2439f27f07ae8a00c13315c28fd288c60d9863"
     },
     "contentful-skills": {
-      "revision": "1e40a4c0e841faa5e7f1146a70c5eb605c7802d0",
-      "fetchedAt": "2026-10-18T06:32:41.246Z",
+      "revision": "2fc01adba109e1331724df7a521c348368cf08bd",
+      "fetchedAt": "2026-10-19T23:08:44.749Z",
       "track": "default-branch",
-      "catalogSha256": "1c7b95ab636f4d7cde7f2826a3570936234f593151c3218c20791a7034bb78ac"
+      "catalogSha256": "d47eaf30db9aaa1a673690f763e11ad981d9b3417442c471973656af75d35889"
     },
     "optimizely-sdk": {
       "revision": "5ef6268e688b35959d84b901c0bd6e81cb3669ef",
@@ -50,10 +50,10 @@
       "catalogSha256": "d45b3f6f4ebc88d1b930417a339ff741468144d3b7d462c34fc819409dd0e92b"
     },
     "vercel-docs": {
-      "revision": "5fe1e6efea767fae1d0d61882415143efe03cfca88b3d0d99d2b931b45161085",
-      "fetchedAt": "2026-10-17T06:34:15.044Z",
+      "revision": "66bf3f6b05455b9a831a4a1dbb4cf89b06e641a67f5e3c175b4075c51172eee6",
+      "fetchedAt": "2026-10-19T23:08:51.711Z",
       "track": "rolling-url",
-      "catalogSha256": "68430b2a418cd8b44fde6ce5363e52ba777df6dc519792d22cdc1c56d90ad339"
+      "catalogSha256": "504899289ea11129921c3df19467be9b3a485de2418c4d8e23bbbfc8f351400d"
     },
     "contentstack-docs": {
       "revision": "27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d",
