@@ -20,10 +20,10 @@
       "catalogSha256": "1da7af8baf08d3052086a4614d708d6bd0e28623be3a8a14dae166cd759eae06"
     },
     "vercel-plugin": {
-      "revision": "137e9f44a243a939c5eaea30e4dff96aee744f64",
-      "fetchedAt": "2026-10-17T06:33:24.754Z",
+      "revision": "e3219f801658b0488eb56a6cc49725be56f451d2",
+      "fetchedAt": "2026-10-19T10:03:20.940Z",
       "track": "default-branch",
-      "catalogSha256": "d734bfa3ac15502ca566c312a4c980df4d6b4616d7a33d83d046a9d313905032"
+      "catalogSha256": "0c8ff8d5232f8e61b791b2fb7ec8275752f4835113b222d0ae59acf953bc3adf"
     },
     "contentful-skills": {
       "revision": "1e40a4c0e841faa5e7f1146a70c5eb605c7802d0",
