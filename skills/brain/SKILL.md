@@ -1,6 +1,6 @@
 ---
 name: brain
-description: Joe's opt-in frontend and CMS knowledge base — curated lessons, best practices and official documentation entry points for React, Next.js, Vercel, Tailwind, Sitecore, Contentstack, Contentful and Optimizely.
+description: Joe's opt-in frontend and CMS knowledge base — curated lessons, best practices and official documentation entry points for React, TypeScript, Next.js, Vercel, Tailwind, accessibility, Sitecore, Contentstack, Contentful, Optimizely and WordPress.
 disable-model-invocation: true
 ---
 

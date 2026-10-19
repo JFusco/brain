@@ -111,7 +111,12 @@
       "wp-cli",
       "wp-json",
       "theme.json",
-      "block.json"
+      "block.json",
+      "@wordpress/",
+      "add_action",
+      "add_filter",
+      "wp_",
+      "functions.php"
     ]
   },
   "network": {

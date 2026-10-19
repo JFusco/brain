@@ -5,7 +5,7 @@ import {at,ROOT,config,json,readJSON,writeJSON,atomic,sha,now,safePath,noSymlink
 import {api,download,markdownResponse} from './network.mjs';
 import {archive} from './archive.mjs';
 import {assertClean} from './privacy.mjs';
-import {fetchDocumentationCatalog} from './documentation.mjs';
+import {fetchDocumentationCatalog,indexLimit} from './documentation.mjs';
 import {staleGuidance,publishedGuidance,curatedBlock,CURATED} from './guidance.mjs';
 const require=createRequire(import.meta.url);
 const {splitFrontmatter,scalar}=require('../wiki/lib/frontmatter.cjs');
@@ -85,10 +85,10 @@ async function resolve(spec) {
   return commit.sha;
 }
 // Upstream bytes stay in memory; only the catalog is written.
-export async function fetchCatalog(spec) {
+export async function fetchCatalog(spec,{onIndex}={}) {
   if(!SOURCE_ID.test(spec.id))throw new Error('Invalid source ID');
   if(spec.kind==='repository'&&spec.catalogOnly){const revision=await resolve(spec);return buildCatalog(spec,{revision,...await fetchDocumentationCatalog(spec,revision)});}
-  if(spec.kind==='collection')return buildCatalog(spec,await fetchDocumentationCatalog(spec));
+  if(spec.kind==='collection')return buildCatalog(spec,await fetchDocumentationCatalog(spec,undefined,{onIndex}));
   if(spec.kind==='repository'){
     const revision=await resolve(spec),base=spec.sourceBase||'';
     const response=await download(`https://codeload.github.com/${spec.repository}/tar.gz/${revision}`,{hosts:['codeload.github.com'],maxBytes:config().network.maxDownloadBytes});
@@ -115,12 +115,14 @@ export async function sync({ids=null,hosted=false}={}) {
   const reg=registry(),specs=reg.sources.filter(s=>!ids||ids.includes(s.id));
   if(ids?.some(id=>!specs.some(s=>s.id===id)))throw new Error('Unknown official source ID');
   const current=lock(),state=readJSON(at('.state/official-runs.json'));
-  const changed=[],failed=[],unchanged=[],skipped=hosted?specs.filter(s=>runnerBlocked(s,reg)).map(s=>s.id):[];
+  const changed=[],failed=[],unchanged=[],crawls=[],skipped=hosted?specs.filter(s=>runnerBlocked(s,reg)).map(s=>s.id):[];
   for(const spec of specs) {
     if(skipped.includes(spec.id))continue;
     const previous=current.sources[spec.id],run=state[spec.id]||{},track=spec.track||'rolling-url';
+    let crawl;
     try {
-      const doc=await fetchCatalog(spec),bytes=catalogBytes(doc);
+      if(spec.kind==='collection')crawl={id:spec.id,indexesFetched:0,maxIndexes:indexLimit(spec)};
+      const doc=await fetchCatalog(spec,{onIndex:counts=>Object.assign(crawl,counts)}),bytes=catalogBytes(doc);
       if(bytes.length>1024*1024)throw new Error('Catalog exceeds 1 MiB; narrow the source before committing it');
       assertClean([{id:catalogPath(spec.id),bytes}],{clients:false});
       const digest=sha(bytes);
@@ -130,20 +132,21 @@ export async function sync({ids=null,hosted=false}={}) {
         current.sources[spec.id]={revision:doc.revision,fetchedAt:previous?.catalogSha256===digest?previous.fetchedAt:now(),track,catalogSha256:digest};
         changed.push({id:spec.id,from:previous?.revision||null,to:doc.revision});writeLock(reg,current);
       }
-      state[spec.id]={lastAttempt:now(),lastSuccess:now(),failures:0};
-      log('official-source',{id:spec.id,status:changed.some(c=>c.id===spec.id)?'changed':'unchanged'});
+      state[spec.id]={lastAttempt:now(),lastSuccess:now(),failures:0,...(crawl?{crawl}:{})};
+      log('official-source',{id:spec.id,status:changed.some(c=>c.id===spec.id)?'changed':'unchanged',...(crawl?{crawl}:{})});
     }catch(error){
       // A failed source keeps its last good catalog.
       const failures=(run.failures||0)+1;
-      state[spec.id]={...run,lastAttempt:now(),failures,nextAttemptAt:new Date(Date.now()+Math.min(24,2**Math.min(failures,4))*3600000).toISOString(),error:error.message};
+      state[spec.id]={...run,lastAttempt:now(),failures,nextAttemptAt:new Date(Date.now()+Math.min(24,2**Math.min(failures,4))*3600000).toISOString(),error:error.message,...(crawl?{crawl}:{})};
       delete state[spec.id].policySha256;
-      failed.push({id:spec.id,error:error.message});log('official-source',{id:spec.id,status:'failed',reason:error.message});
+      failed.push({id:spec.id,error:error.message});log('official-source',{id:spec.id,status:'failed',reason:error.message,...(crawl?{crawl}:{})});
     }
+    if(crawl)crawls.push({...crawl,status:failed.some(f=>f.id===spec.id)?'failed':'success'});
     writeJSON(at('.state/official-runs.json'),state,0o600);
   }
   if(!ids)for(const id of Object.keys(current.sources))if(!reg.sources.some(s=>s.id===id)){changed.push({id,from:current.sources[id].revision,to:null});delete current.sources[id];fs.rmSync(at(catalogPath(id)),{force:true});writeLock(reg,current);}
   generateHubs();
-  return {changed,unchanged,failed,skipped};
+  return {changed,unchanged,failed,skipped,crawls};
 }
 export function officialSections({reg=registry(),active=lock(),catalog=readCatalog}={}) {
   const sections={};
@@ -181,7 +184,7 @@ export function generateHubs() {
 }
 const POLICIES=['reference-only','portable','curated','sitecore-bundle'],TRACKS=['default-branch','latest-release','pinned'],COMMON=['id','vendor','domains','kind','license','installPolicy','preferred','applicability'];
 // Registry keys are strict so a field sync would ignore cannot look like policy.
-const FIELDS={repository:[...COMMON,'repository','track','revision','sourceBase','skillRoot','paths','appliesTo','installableSkills','catalogOnly','documentationPrefix','documentationBase','maxPages'],url:[...COMMON,'url','allowedHosts'],collection:[...COMMON,'indexUrl','indexFormat','allowedHosts','includePrefixes','maxPages','fetchSuffix','additionalPages']};
+const FIELDS={repository:[...COMMON,'repository','track','revision','sourceBase','skillRoot','paths','appliesTo','installableSkills','catalogOnly','documentationPrefix','documentationBase','maxPages'],url:[...COMMON,'url','allowedHosts'],collection:[...COMMON,'indexUrl','indexFormat','allowedHosts','includePrefixes','maxPages','maxIndexes','fetchSuffix','additionalPages']};
 function webURL(value){try{const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password&&(!url.port||url.port==='443')?url:null;}catch{return null;}}
 const onHosts=(value,hosts)=>hosts.includes(webURL(value)?.hostname);
 const catalogHosts=spec=>[...(spec.kind==='repository'?['github.com','raw.githubusercontent.com']:[]),...(webURL(spec.documentationBase)?[webURL(spec.documentationBase).hostname]:[]),...(spec.allowedHosts||[])];
@@ -204,6 +207,7 @@ function registryProblems(reg) {
     }
     if(spec.kind==='url'&&!onHosts(spec.url,spec.allowedHosts||[]))fail('url must be HTTPS on an allowed host');
     if(spec.kind==='collection'&&(!onHosts(spec.indexUrl,spec.allowedHosts||[])||!Array.isArray(spec.includePrefixes)))fail('indexUrl must be HTTPS on an allowed host with include prefixes');
+    if(spec.kind==='collection')try{indexLimit(spec);}catch(error){fail(error.message);}
   }
   for(const pointer of reg.pointers)if(!domains.includes(pointer?.domain)||!webURL(pointer.url)||typeof pointer.reason!=='string'||!pointer.reason.trim()||Object.keys(pointer).length!==3)issues.push('official/sources.json: invalid website pointer');
   if(Object.hasOwn(reg,'runnerBlockedHosts')){

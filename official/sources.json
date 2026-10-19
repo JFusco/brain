@@ -616,6 +616,11 @@
       "domain": "accessibility",
       "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
       "reason": "W3C WCAG overview; the w3c-accessibility catalog lists the WCAG 2.2 and WAI-ARIA 1.2 specifications, the WCAG 2.2 Understanding and Techniques indexes, and the ARIA Authoring Practices Guide."
+    },
+    {
+      "domain": "cms/wordpress",
+      "url": "https://github.com/WordPress/mcp-adapter",
+      "reason": "Official WordPress MCP adapter, identified by the WordPress AI handbook at https://make.wordpress.org/ai/handbook/projects/mcp-adapter/. Website pointer only; no installation or execution. Check requirements against the consuming WordPress project."
     }
   ]
 }
