@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import {spawnSync} from 'node:child_process';
 import {at,ROOT,args,readJSON,writeJSON,now,sha,safePath,withLock} from './lib/core.mjs';
 import {recordPublication,mergedBrainPR} from './lib/maintenance.mjs';
+import * as gates from './lib/nightly-publication.mjs';
 
 const file=at('.state/nightly.json'),zone='America/New_York';
 function dueDate(){
@@ -15,8 +16,9 @@ function dueDate(){
 function load(){return readJSON(file,{schemaVersion:1,completed:{},attempts:{}});}
 function save(state,attempt){if(attempt)writeJSON(at(`.state/nightly/runs/${attempt.id}.json`),attempt,0o600);writeJSON(file,state,0o600);}
 function git(...argv){const r=spawnSync('git',argv,{cwd:ROOT,maxBuffer:32*1024*1024});if(r.status!==0)throw new Error('Required Git evidence is unavailable');return r.stdout;}
-async function verifyMerged(item){
+async function verifyMerged(item,attempt){
   const pr=await mergedBrainPR(item.number);
+  if(attempt.protocolVersion===2)gates.verifyApproval(attempt.id,item,pr);
   if(pr.head.sha!==item.headSha||!Array.isArray(item.files)||!item.files.length)throw new Error('Review must identify the exact PR head and every changed file');
   git('merge-base','--is-ancestor',pr.merge_commit_sha,'origin/main');
   const paths=git('diff','--name-only','--no-renames',`${pr.merge_commit_sha}^`,pr.merge_commit_sha).toString().trim().split('\n').filter(Boolean).sort();
@@ -31,11 +33,13 @@ async function verifyMerged(item){
 }
 const {positional:[operation],flags}=args(process.argv.slice(2));
 try{
-  const allowed={status:[],claim:['trigger'],complete:['run-id','file'],failed:['run-id','reason']};
-  if(!allowed[operation]||Object.keys(flags).some(k=>!allowed[operation].includes(k)))throw new Error('Use nightly.mjs status|claim --trigger manual|scheduled-agent|complete --run-id <id> --file <report>|failed --run-id <id> --reason <code>');
+  const allowed={status:[],claim:['trigger','author-id'],checkout:['run-id','issue','slug','kind'],rebase:['run-id','worktree'],prepare:['run-id','worktree','file'],merge:['run-id','worktree','pr'],verify:['run-id','worktree'],complete:['run-id','file'],failed:['run-id','reason']};
+  if(!allowed[operation]||Object.keys(flags).some(k=>!allowed[operation].includes(k)))throw new Error('Use nightly.mjs status|claim|checkout|rebase|prepare|merge|verify|complete|failed; see README for options');
+  if(operation!=='status'&&ROOT!==gates.coordinator())throw new Error('Run nightly mutation commands from the primary checkout');
   const run=async()=>{
+    if(['checkout','rebase','prepare','merge','verify'].includes(operation))return gates[operation]({runId:flags['run-id'],worktree:flags.worktree,file:flags.file,issue:flags.issue,slug:flags.slug,kind:flags.kind,pr:flags.pr});
     const state=load(),slotDate=dueDate();
-    if(operation==='status')return {timezone:zone,window:'03:15',slotDate,completed:state.completed[slotDate]||null,active:state.active||null,attempts:state.attempts[slotDate]||0,retryAfter:state.retryAfter||null,lastFailure:state.lastFailure||null,notice:'Local execution requires an awake Mac and running app. Missed dates coalesce; recorded review is agent evidence, not independent proof.'};
+    if(operation==='status')return {timezone:zone,window:'03:15',slotDate,completed:state.completed[slotDate]||null,active:state.active||null,attempts:state.attempts[slotDate]||0,retryAfter:state.retryAfter||null,lastFailure:state.lastFailure||null,notice:'Local execution requires an awake Mac and running app. Missed dates coalesce. Publication receipts bind review and executed checks to exact commits; reviewer identity is agent-reported.'};
     if(operation==='claim'){
       if(!['manual','scheduled-agent'].includes(flags.trigger))throw new Error('Record the actual invocation trigger');
       if(state.active)return {claimed:false,reason:'active-run-needs-reconciliation',active:state.active};
@@ -44,8 +48,9 @@ try{
       if(Date.parse(state.retryAfter)>Date.now())return {claimed:false,reason:'backoff',retryAfter:state.retryAfter};
       const previous=readJSON(at('.state/publication.json'),{});
       if(previous.activeRun)return {claimed:false,reason:'publication-needs-reconciliation',active:previous.activeRun};
+      if(typeof flags['author-id']!=='string'||!flags['author-id'].trim()||flags['author-id'].length>200)throw new Error('Record the actual author agent identity with --author-id');
       const publication=await recordPublication({phase:'started',trigger:flags.trigger});
-      const attempt={id:crypto.randomUUID(),slotDate,startedAt:now(),trigger:flags.trigger,publicationRunId:publication.runId,phase:'started'};
+      const attempt={id:crypto.randomUUID(),slotDate,startedAt:now(),trigger:flags.trigger,publicationRunId:publication.runId,phase:'started',protocolVersion:2,authorId:flags['author-id']};
       state.active=attempt;state.attempts[slotDate]=(state.attempts[slotDate]||0)+1;save(state,attempt);return {claimed:true,...attempt};
     }
     const attempt=state.active;
@@ -61,9 +66,10 @@ try{
     if(report?.runId!==attempt.id||!['published','unchanged'].includes(report.outcome))throw new Error('Provide the actual run report and outcome');
     for(const name of ['refresh','links','curation','review','verification'])if(!['completed','unnecessary'].includes(report.stages?.[name]?.outcome)||!report.stages[name].summary?.trim())throw new Error(`Missing actual ${name} evidence`);
     if(report.stages.review.outcome!=='completed'||report.stages.verification.outcome!=='completed')throw new Error('Review and verification cannot be skipped');
-    for(const command of ['node scripts/brain.mjs check','node scripts/brain.mjs official check','node scripts/wiki/check.cjs'])if(!report.checks?.some(c=>c.command===command&&c.exitCode===0))throw new Error('Required local checks did not pass');
+    if(attempt.protocolVersion!==2)for(const command of gates.CHECKS)if(!report.checks?.some(c=>c.command===command&&c.exitCode===0))throw new Error('Required local checks did not pass');
     if(!Array.isArray(report.prs)||report.outcome==='unchanged'&&report.prs.length||report.outcome==='published'&&!report.prs.length)throw new Error('Publication outcome differs from the recorded PRs');
-    const merged=[];for(const item of report.prs)merged.push(await verifyMerged(item));
+    const merged=[];for(const item of report.prs)merged.push(await verifyMerged(item,attempt));
+    if(attempt.protocolVersion===2)report.verification=gates.completionChecks(attempt.id,merged);
     const receipt=at(`.state/nightly/reports/${attempt.id}.json`);writeJSON(receipt,report,0o600);
     const publication=readJSON(at('.state/publication.json'),{});
     if(publication.lastRun?.id!==attempt.publicationRunId||publication.lastRun.outcome!==report.outcome)await recordPublication({phase:'completed',runId:attempt.publicationRunId,trigger:attempt.trigger,outcome:report.outcome,pr:merged.at(-1)?.number});
