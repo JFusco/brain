@@ -158,7 +158,8 @@ export function merge({runId,worktree,pr}){
   approved(entry.worktree,runId,head);
   if(saved.state!=='open'||saved.draft||saved.head.sha!==head||saved.head.ref!==entry.branch||saved.head.repo?.full_name!==repo||saved.base.ref!=='main'||saved.base.sha!==entry.baseSha)throw new Error('Saved PR does not match the approved head, branch, repository and base');
   const runs=JSON.parse(gh('api',`repos/${repo}/actions/workflows/wiki-check.yml/runs?head_sha=${head}&event=pull_request&per_page=100`)).workflow_runs;
-  const latest=runs?.filter(r=>r.head_sha===head&&r.pull_requests?.some(p=>p.number===Number(pr))).sort((a,b)=>b.run_number-a.run_number||b.run_attempt-a.run_attempt)[0];
+  // GitHub may omit PR associations, even on successful pull_request runs.
+  const latest=runs?.filter(r=>r.head_sha===head&&r.head_branch===entry.branch&&r.head_repository?.full_name===repo&&r.event==='pull_request').sort((a,b)=>b.run_number-a.run_number||b.run_attempt-a.run_attempt)[0];
   if(!latest||latest.status!=='completed'||latest.conclusion!=='success')throw new Error('Wiki integrity must pass on the exact PR head before merge');
   // Check again immediately before invoking GitHub; do not bypass branch protection.
   const receipt=approved(entry.worktree,runId,head);

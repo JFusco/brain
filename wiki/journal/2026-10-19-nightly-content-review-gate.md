@@ -22,6 +22,8 @@ baseline require another review and preparation. Failed evidence stays private.
 The gate executes the existing runtime/privacy, official integrity and wiki
 checks itself. The guarded merge requires passing Wiki integrity on the exact PR
 head and uses GitHub's matching-head merge option without a protection bypass.
+The observed Wiki run for PR 78 had an empty PR association array; the guard binds
+the named workflow's pull-request event to the exact head, branch and repository.
 Final checks and immutable merged-byte verification precede capture acceptance.
 The existing automation adopts this sequence; the primary checkout stays on main
 and merged publishing branches/worktrees are temporary.
