@@ -144,10 +144,13 @@ Official website pointers remain pointers until a useful downloadable source and
 | Contentstack | [Documentation sitemap](https://www.contentstack.com/sitemap.xml), Sitecore migration guidance, Studio brownfield guidance, and selected kickstart references |
 | Optimizely | [CMS SaaS, CMS 13 (PaaS) and Graph index links](https://docs.optimizely.com/llms.txt), plus selected JavaScript SDK documentation |
 | Contentful | [Official repository skills](https://github.com/contentful/skills) and website pointers; the documentation catalog remains pending because automated index requests receive an HTTP 429 challenge, including from the Mac, although Chrome can open the indexes |
+| WordPress | [Developer handbook sitemap](https://developer.wordpress.org/sitemap.xml): 1,013 links across blocks, themes, plugins, REST API, common APIs, advanced administration and coding standards at registration; [official agent skills](https://github.com/WordPress/agent-skills) are searchable references |
 | SitecoreAI | [Platform developer manual catalog](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml): 407 links at registration, plus [official Content SDK skills and references](https://github.com/Sitecore/content-sdk) |
 | Sitecore XP 10.4 | [Experience Manager developer manual catalog](https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/sitemap.xml): 393 links at registration; separate Experience Platform, administration, developer-tools and managed-cloud manuals are outside this catalog |
 
 Coverage is reviewed weekly against the watch list below, and each addition is a separate registration PR. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. The weekly check never adds sources.
+
+WordPress coverage lives in the [WordPress hub](knowledge/cms/wordpress/INDEX.md). Use `lookup --domain cms/wordpress --query "rest api authentication" --fetch --limit 1` for a focused article excerpt. Handbooks are rolling, and skill references are pinned to their catalogued commit; neither establishes compatibility with an installed core, Gutenberg or plugin version. The docs catalog excludes the PHP code reference, WP-CLI commands, developer news, WordPress.com and third-party plugin manuals. General documentation content is [CC0; code snippets are GPLv2 or later](https://make.wordpress.org/docs/licensing/). The agent-skills repository declares GPLv2 or later.
 
 ### Coverage watch list
 
@@ -165,6 +168,7 @@ The weekly coverage review checks these official places for new documentation in
 | Contentstack | contentstack.com (`llms.txt`, sitemap), github.com/contentstack |
 | SitecoreAI and Sitecore XP | doc.sitecore.com, github.com/Sitecore |
 | Contentful | contentful.com/developers/docs (`llms.txt`), github.com/contentful |
+| WordPress | developer.wordpress.org (`sitemap.xml`), github.com/WordPress/agent-skills |
 
 ## Project skills
 

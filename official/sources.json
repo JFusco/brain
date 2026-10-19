@@ -494,6 +494,66 @@
       "maxPages": 5000,
       "license": "Official documentation under upstream terms; no open license asserted",
       "applicability": "Official Sitecore Experience Manager 10.4 developer documentation link catalog; excludes separate Experience Platform, administration, developer-tools and managed-cloud manuals. Page content is fetched selectively, not mirrored."
+    },
+    {
+      "id": "wordpress-docs",
+      "vendor": "wordpress",
+      "domains": [
+        "cms/wordpress"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://developer.wordpress.org/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "developer.wordpress.org"
+      ],
+      "includePrefixes": [
+        "/block-editor/",
+        "/themes/",
+        "/plugins/",
+        "/rest-api/",
+        "/apis/",
+        "/advanced-administration/",
+        "/coding-standards/"
+      ],
+      "maxPages": 3000,
+      "license": "CC0-1.0 (general content); GPL-2.0-or-later (code snippets). Official policy: https://make.wordpress.org/docs/licensing/",
+      "installPolicy": "reference-only",
+      "applicability": "Rolling WordPress.org developer handbook links for block editor, themes, plugins, REST API, common APIs, advanced administration and coding standards. Verify feature availability against the target WordPress core and Gutenberg/plugin versions. Excludes PHP code reference, WP-CLI, news, WordPress.com and third-party plugins."
+    },
+    {
+      "id": "wordpress-agent-skills",
+      "vendor": "wordpress",
+      "domains": [
+        "cms/wordpress"
+      ],
+      "kind": "repository",
+      "repository": "WordPress/agent-skills",
+      "track": "default-branch",
+      "paths": [
+        {
+          "prefix": "skills/"
+        },
+        {
+          "prefix": "shared/"
+        },
+        {
+          "prefix": "docs/"
+        },
+        {
+          "exact": "README.md"
+        },
+        {
+          "exact": "LICENSE"
+        },
+        {
+          "exact": "CONTRIBUTING.md"
+        }
+      ],
+      "skillRoot": "skills/",
+      "license": "GPL-2.0-or-later; see LICENSE at the catalogued WordPress/agent-skills commit",
+      "installPolicy": "reference-only",
+      "applicability": "Official WordPress agent skills and selected supporting references at a pinned upstream commit. Reference only; no installation or execution. Scope and version requirements must be checked against the consuming WordPress project."
     }
   ],
   "pointers": [

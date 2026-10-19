@@ -25,6 +25,7 @@
     "cms/sitecore-ai",
     "cms/sitecore-xp",
     "cms/contentful",
+    "cms/wordpress",
     "_unsorted"
   ],
   "capture": {
@@ -103,6 +104,14 @@
       "wai-aria",
       "aria-",
       "screen reader"
+    ],
+    "cms/wordpress": [
+      "wordpress",
+      "gutenberg",
+      "wp-cli",
+      "wp-json",
+      "theme.json",
+      "block.json"
     ]
   },
   "network": {
