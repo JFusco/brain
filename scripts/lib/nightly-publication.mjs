@@ -54,7 +54,7 @@ function snapshot(entry,head){
   const paths=git(cwd,'diff','--name-only','--no-renames','-z',baseSha,head).toString().split('\0').filter(Boolean).sort();
   const notes=[],files=paths.map(file=>{
     safePath(file);
-    const hub=/^knowledge\/[^/]+\/INDEX\.md$/.test(file);
+    const hub=/^knowledge\/(?:[^/]+\/)+INDEX\.md$/.test(file);
     const permitted=kind==='catalog'?/^(official\/catalogs\/|official\/sources\.lock\.json$)/.test(file)||hub:/^(knowledge\/|wiki\/|scripts\/wiki\/graph\/data\/)/.test(file)&&!file.includes('/_templates/');
     if(!permitted)throw new Error('Changed path is outside this nightly publication scope');
     const before=blob(cwd,baseSha,file),after=blob(cwd,head,file);
