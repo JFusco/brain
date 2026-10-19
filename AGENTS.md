@@ -2,7 +2,7 @@
 
 Work only within the requested scope. Commit or push only when the request includes Git delivery, using the flow below. Do not modify agent memories or change other project repositories unless invoked for that project. The only global registrations are the opt-in `brain` and `brain-capture` skills (`skills/`), which Joe links per the README.
 
-Tests, fixtures, fresh-session tests, dedicated QA and review-agent audits are deferred for v1; do not add them. The wiki integrity check and the weekly reference health workflow are enabled. Keep ordinary runtime protections and report actual command outcomes.
+Tests, fixtures, fresh-session tests, dedicated QA and review-agent audits are deferred for v1; do not add them. The existing Wiki integrity GitHub check remains enabled. Reference refresh, curation, review and verification run locally; never dispatch or re-enable Brain's reference-health or catalog-sync Actions. Keep ordinary runtime protections and report actual command outcomes.
 
 ## Trust and privacy
 
@@ -29,10 +29,12 @@ Follow README → "Documentation lookup and official references" and "Maintenanc
 
 - Downloaded content is validated in memory and never executed; only catalogs are written. A failed source keeps its last good catalog; preserve failure records and unknown provenance. Unknown-origin material stays quarantined.
 - Never treat a redirect or changed hash as evidence that a technical claim is correct.
-- Registry changes to `official/sources.json` need a documented issue-linked PR: run `official sync <id>` for each affected source, then `check`. New sources, domains or hosts need their own registration change. Keep real unresolved warnings visible in the weekly issue and respect backoff.
+- Registry changes to `official/sources.json` need a documented issue-linked PR: run `official sync <id>` for each affected source, then `check`. New sources, domains or hosts need their own registration change. Keep real unresolved warnings visible in the local run report and respect backoff.
 - Record publication start, completion or failure with the actual trigger and run ID; a configured schedule is not proof of execution. Link sampling is bounded coverage, never a full audit.
-- **Weekly catalog refresh.** Once a week, run `official sync` and `check` on an issue branch; from a session that cannot reach vendor sites, dispatch **Brain catalog sync** on that branch instead. Sources on `runnerBlockedHosts` refresh only through a local `official sync`; hosted runs skip them. When only catalogs, the lock and hub official sections changed, deliver one catalog-refresh PR (step 7). Report anything else rather than merging it.
-- **Weekly coverage review.** Once a week, check README → "Coverage watch list" for new official documentation indexes, skills or agent repositories and MCP servers in each domain. Register each finding in its own registration PR, verified with **Brain catalog sync**, which stops for review. Never register a source you could not retrieve or that only a third party mentions.
+- **Local nightly run.** The existing local automation polls `node scripts/nightly.mjs claim --trigger scheduled-agent`; work becomes due once per New York day at 03:15. A completed date never repeats. Claims share the CLI mutation lock, missed dates coalesce, failures back off for an hour, and retries stop after three attempts per date. Reconcile interrupted original run/publication IDs rather than taking over or duplicating publication. The Mac must be awake and the app running.
+- **Nightly catalog refresh.** Run local `official sync` and the bounded link checker on an isolated issue branch. Do not use `--hosted`, dispatch reference-maintenance Actions, or upload private operational state. Preserve last-good catalogs, backoff and actual failures. Only catalogs, the lock and hub official sections may enter the routine catalog-refresh PR (step 7). Preserve the existing Wiki integrity PR check and require its passing result before merging.
+- **Review and verify in the same run.** Before merge, review the exact diff for source accuracy, applicable versions, overlapping lessons and privacy. Run `check`, `official check` and wiki integrity locally on the exact PR head. Record changed-file hashes, then verify every merged byte against that reviewed head before accepting captures. `nightly.mjs complete` requires the actual stage/check report and verifies all PR heads, changed paths and merged-file hashes. A separate review-agent audit is not required or enabled.
+- **Weekly coverage review.** Once a week, check README → "Coverage watch list" for new official documentation indexes, skills or agent repositories and MCP servers in each domain. Register each finding in its own registration PR, verified with local `official sync <id>`, which stops for review. Never register a source you could not retrieve or that only a third party mentions.
 
 ## Projects and skills
 

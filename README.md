@@ -2,7 +2,7 @@
 
 A local knowledge base for frontend and CMS work. Use it on demand through the opt-in `brain` skill; nothing loads into a session unless you invoke it.
 
-- `official/` is a registry of official entry points with generated link catalogs: page links, titles, skill metadata and the revision each catalog was taken from. No vendor page bodies are stored; a weekly hosted check reports when catalogs change upstream.
+- `official/` is a registry of official entry points with generated link catalogs: page links, titles, skill metadata and the revision each catalog was taken from. No vendor page bodies are stored; the local nightly run refreshes catalogs and checks references.
 - `knowledge/` contains curated, generalized guidance. A note is published when its ordinary, issue-linked PR merges; captured lessons never write these pages directly.
 - `wiki/` records Brain's own decisions, executed plans, audit findings, and maintenance history.
 - `inbox/` and `.state/` are private, ignored working storage. Do not force-add them.
@@ -94,7 +94,7 @@ Publishing knowledge is an ordinary Git change. A merged note with `status: curr
 
 A good note states when to use it, what to do and why, its evidence and limits. It labels documented facts, observations and proposed practices, and names the versions it applies to. Narrow a claim you can't check to a labeled observation, or leave it out. Set `status: retired` when advice should no longer be recommended, or `status: superseded` with a `superseded_by` path when a replacement exists. These pages remain in history but leave lookup and the hubs.
 
-The local nightly curator (a Codex app automation on Joe's Mac, not in this repository) follows the same steps: stale notes first, then at most 12 new captures rotated across domains, with one knowledge PR for the night's changes. If nothing qualifies, it records an unchanged run with `maintenance publication`. The CLI never calls an LLM.
+The local nightly automation follows the same steps: stale notes first, then at most 12 new captures rotated across domains, with one knowledge PR for the night's changes. It also refreshes catalogs locally, samples links, reviews the exact proposed changes and runs local checks before merging. It verifies the merged bytes before accepting captures. If nothing qualifies, it records an unchanged run. The CLI never calls an LLM.
 
 Registry edits are ordinary changes too. Edit `official/sources.json` on an issue branch, run `official sync <id>` for each affected source (it rewrites that catalog, its lock entry and the hubs), run `check`, and open the issue-linked PR. Registry PRs stop at the verified PR for review; only catalog-refresh PRs merge automatically.
 
@@ -148,7 +148,7 @@ Official website pointers remain pointers until a useful downloadable source and
 | SitecoreAI | [Platform developer manual catalog](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml): 407 links at registration, plus [official Content SDK skills and references](https://github.com/Sitecore/content-sdk) |
 | Sitecore XP 10.4 | [Experience Manager developer manual catalog](https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/sitemap.xml): 393 links at registration; separate Experience Platform, administration, developer-tools and managed-cloud manuals are outside this catalog |
 
-Coverage is reviewed weekly against the watch list below, and each addition is a separate registration PR. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. The weekly check never adds sources.
+Coverage is reviewed weekly against the watch list below, and each addition is a separate registration PR. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. Routine refresh never adds sources.
 
 WordPress coverage lives in the [WordPress hub](knowledge/cms/wordpress/INDEX.md). Use `lookup --domain cms/wordpress --query "rest api authentication" --fetch --limit 1` for a focused article excerpt. Handbooks are rolling, and skill references are pinned to their catalogued commit; neither establishes compatibility with an installed core, Gutenberg or plugin version. The docs catalog excludes the PHP code reference, WP-CLI commands, developer news, WordPress.com and third-party plugin manuals. General documentation content is [CC0; code snippets are GPLv2 or later](https://make.wordpress.org/docs/licensing/). The agent-skills repository declares GPLv2 or later.
 
@@ -189,7 +189,7 @@ Brain doesn't install skills into projects. Install a recommended skill with its
 
 ## Privacy and maintenance
 
-A [weekly GitHub Actions run](https://github.com/JFusco/brain/actions/workflows/brain-weekly.yml) (Mondays 08:23 UTC, or manual dispatch) refreshes the official catalogs in the runner without committing them, samples up to 100 links plus the website pointers, runs `check`, and keeps one `[Task] Brain weekly reference health` issue. It opens only for findings that need a person: notes citing changed sources, refresh failures, link warnings and check failures. Routine catalog drift is listed but never opens it. The issue is rewritten only when those findings change and closed when a run finds none; a manually closed issue reopens as a new one if findings persist. The run uses the default `GITHUB_TOKEN` with `issues: write`; link observations carry between runs in a 90-day Actions artifact. Private captures and unpublished curation stay local and are not uploaded.
+Reference maintenance is local as of October 19, 2026. **Brain weekly reference health** and **Brain catalog sync** are disabled in GitHub; the existing **Wiki integrity** PR check remains enabled. The local automation owns catalog refresh, bounded link sampling, stale-note/capture curation, review and verification. It publishes through authorized issue/PR delivery and still requires the Wiki integrity check before merge. It never dispatches the retired reference workflows or uploads private operational state. Failed sources retain their last-good catalogs, and failed or partial runs remain visible in local receipts.
 
 `brain.config.local.json` holds client terms, aliases, and local executable paths. Add confirmed client names and aliases there. Internal Verndale terminology is retained. The privacy policy covers the client terms and the pinned scanner version. When either changes, `inbox show` refuses records saved under the old policy until `inbox rescan` re-scans them. Rescan never rewrites a body, and any finding quarantines the record.
 
@@ -212,23 +212,23 @@ node scripts/brain.mjs maintenance cleanup --yes
 
 Link checks rotate through a bounded sample (24 by default, maximum 100), favoring published-note and recently fetched references while spreading work across sources. They request headers with an explicit documentation-compatible Accept header. A HEAD 403, 405 or 501 receives one GET fallback with a one-byte range request; response bodies are discarded immediately. Final request method and original HEAD status remain recorded, and a GET access error remains an access error. The implicit `website-pointers` source can be checked separately under the same bounds. A first 404 is suspected dead, two observations at least a day apart establish dead, and 410 is immediately dead. Access restrictions, rate limits, redirects, and network failures remain separate. Failed observations can retry after their recorded backoff; healthy samples and 404/410 observations retain the daily window. Due failures take priority within each source bucket. `--retry-failures` checks only due warnings under the same batch/host bounds. Previous observations are saved privately under `.state/link-health-history/` before replacement, so recovery clears current warnings without erasing failures. Checks never rewrite a registration. Coverage counts distinguish sampled links from the full catalog; this is not an exhaustive link audit. Approved-host boundaries also apply to redirects.
 
-**Acting on the weekly issue:**
+**Acting on local findings:**
 
-- **Routine catalog drift:** the weekly catalog refresh picks it up. On an issue branch, run `official sync` and `check`, then open a catalog-refresh PR containing only the catalogs, the lock and regenerated hubs. It merges once checks pass.
+- **Routine catalog drift:** the nightly local refresh picks it up. On an issue branch, run `official sync` and `check`, then open a catalog-refresh PR containing only the catalogs, the lock and regenerated hubs. It merges once local checks and the exact-head review pass.
 - **Notes citing changed sources:** re-verify each one through a knowledge PR.
 - **Dead links and failing sources:** fix them through an ordinary registry PR, which stops for review.
 
 A redirect or changed hash is never evidence that a claim is correct.
 
-**Brain catalog sync** runs the refresh in GitHub Actions for any session that can't reach vendor sites. Dispatch it manually on a non-main branch, optionally with space-separated source IDs. It runs `official sync` and `check` with the pinned scanner, then commits only the catalogs, the lock and the hubs back to that branch. Use it to verify a new registration before its PR, too. Open the PR after the workflow's commit, so the PR checks run on that head.
+**Local source verification.** Run `official sync <id>` and `check` on the source's issue branch. A network or access failure is retained and reported; there is no GitHub Actions fallback. New registrations still stop at a verified PR for review.
 
-**Runner-blocked hosts.** Some vendor sites refuse GitHub-hosted runners. `runnerBlockedHosts` in `official/sources.json` lists them; today that is only www.contentful.com, which answers automated requests with an HTTP 429 challenge. doc.sitecore.com was listed until [issue 66](https://github.com/JFusco/brain/issues/66): its 403 came from index requests without an Accept header, not from a runner block. `official sync --hosted` skips any source that uses one of these hosts, and both workflows run sync that way. The weekly workflow also leaves their links out of its sample, then names the skipped sources in its summary. A local `official sync`, such as the Mac's weekly refresh, is the only thing that refreshes those catalogs. When registering such a source, verify it with a local sync instead of Brain catalog sync.
+**Historical runner restrictions.** `runnerBlockedHosts` remains historical configuration for the retired hosted path. Local `official sync` does not use `--hosted` and does not skip those sources for a runner restriction. An HTTP 429 or other real local access failure remains a failure with its recorded backoff. [Issue 66](https://github.com/JFusco/brain/issues/66) established that Sitecore's earlier runner 403 came from missing Accept headers; it did not establish universal access to every vendor.
 
-The two Sitecore catalogs were first generated locally after the collection fetcher gained an explicit Accept header. GitHub-hosted runners now refresh them too, so the weekly workflow and Brain catalog sync cover them like any other source. Their product sitemaps list language-neutral page paths, which the registrations preserve; successful sampled requests redirect to the English pages.
+The two Sitecore catalogs were first generated locally after the collection fetcher gained an explicit Accept header. Their product sitemaps list language-neutral page paths, which the registrations preserve; successful sampled requests redirect to the English pages. Earlier successful hosted refreshes remain historical evidence.
 
 Browser access alone does not prove a CLI sync will work: Contentful's indexes opened in Chrome while direct requests still received a Vercel challenge. Its registration remains pending. See the [Sitecore delivery record](wiki/journal/2026-10-18-sitecore-catalogs-and-runner-policy.md) for the selected manuals, bounded verification and limits.
 
-`maintenance status` reports publication bookkeeping, each source's catalog revision and age, local link counts and stale notes; it fails only on publication errors. Publication bookkeeping uses `maintenance publication --phase started --trigger manual|scheduled-agent`, then the returned `--run-id` with `--phase completed --outcome unchanged`, or `--outcome published --pr <merged-number>`. Record failures with `--phase failed`. These are agent reports, not independent scheduler attestations.
+`maintenance status` reports the local execution policy, nightly receipts, publication bookkeeping, each source's catalog revision and age, local link counts and stale notes. The nightly gate starts and closes the exact publication run. `nightly.mjs complete` requires a report for refresh, links, curation, review and verification, passing local check records, and every published PR's reviewed head and changed-file hashes. It verifies fetched-main ancestry and merged bytes. Preserve original IDs when reconciling an interrupted run. These are agent reports, not independent scheduler attestations.
 
 ## Setup
 
@@ -240,13 +240,13 @@ node scripts/hosted/setup.mjs
 - **`setup.mjs`** installs the checksum-verified scanner on macOS.
 - **`hosted/setup.mjs`** is for a cloud session or CI. It installs the scanner version pinned in the lock and writes an empty client profile; `check` then passes in a fresh clone.
 
-There is no LaunchAgent. A separate local Codex automation curates captures when the Mac and app are available. It preserves unrelated changes and skips unchanged or non-actionable work quietly. Logs contain no raw capture text. All CLI mutations share a lock, and background jobs never write other project repositories.
+There is no LaunchAgent. One local Codex automation polls every fifteen minutes, with work due once per New York day at 03:15. `node scripts/nightly.mjs status` is read-only; `claim --trigger scheduled-agent` starts due work. A completed date never repeats; missed dates coalesce, failures retry after an hour, and three failed attempts exhaust that date's retries. Interrupted runs require reconciliation of their original IDs. Review and verification run before completion; the old one-time verifier is paused. The Mac must be awake and the app running, so catch-up happens at a later polling opportunity. Actual unattended and sleep/wake behavior remain unproven until observed. It preserves unrelated changes; logs contain no raw capture text, and background jobs never write other project repositories.
 
 Registry changes are ordinary issue-linked PRs. Git history, the lock's catalog hashes and `check` are the integrity record, so a new machine needs no separate registry approval step. Brain has no built-in backup; include `.state/`, `inbox/` and `brain.config.local.json` in your normal machine backup to preserve the inbox, dispositions and local paths.
 
 After cloning, run `git config core.hooksPath .githooks` to activate the pre-commit guard.
 
-Brain CLI commands never create commits or remotes and never push. Knowledge and maintenance changes publish through issue-linked PRs. Tests, fixtures, fresh-session checks, general CI, and dedicated QA are deferred for v1; the explicitly requested wiki check and weekly reference health workflows are installed. Runtime safeguards and actual command results are retained.
+Brain CLI commands never create commits or remotes and never push. Knowledge and maintenance changes publish through issue-linked PRs. Tests, fixtures, fresh-session checks, general CI, and dedicated QA are deferred for v1. The explicitly requested Wiki integrity PR check remains enabled; reference-maintenance workflows are disabled. Runtime safeguards and actual command results are retained.
 
 ## Context wiki
 
@@ -258,4 +258,4 @@ node scripts/wiki/check.cjs
 node scripts/wiki/serve-graph.cjs
 ```
 
-Hosted `Wiki integrity` checks PRs. Brain no longer runs automatic wiki merge or issue reconciliation workflows; the same-delivery rule records history with each change. No repository secrets are required; the weekly workflow uses the default `GITHUB_TOKEN`.
+Hosted `Wiki integrity` checks PRs. Brain no longer runs automatic wiki merge or issue reconciliation workflows; the same-delivery rule records history with each change. No repository secrets are required for that read-only wiki check. Reference maintenance uses the local tools and authenticated issue/PR delivery.
