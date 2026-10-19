@@ -71,4 +71,5 @@ No curated notes yet.
   - [docs/principles.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/principles.md).
   - [docs/skill-set-v1.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/skill-set-v1.md).
   - [docs/upstream-sync.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/upstream-sync.md).
+- [Official website](https://github.com/WordPress/mcp-adapter) — pointer only: Official WordPress MCP adapter, identified by the WordPress AI handbook at https://make.wordpress.org/ai/handbook/projects/mcp-adapter/. Website pointer only; no installation or execution. Check requirements against the consuming WordPress project.
 <!-- brain:official:end -->

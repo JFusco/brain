@@ -2,6 +2,13 @@ import {api,download,markdownResponse} from './network.mjs';
 import {config,sha} from './core.mjs';
 import {gunzipSync} from 'node:zlib';
 
+export const DEFAULT_MAX_INDEXES=32,MAX_INDEXES=128;
+export function indexLimit(spec) {
+  const limit=Object.hasOwn(spec,'maxIndexes')?spec.maxIndexes:DEFAULT_MAX_INDEXES;
+  if(!Number.isInteger(limit)||limit<1||limit>MAX_INDEXES)throw new Error(`maxIndexes must be an integer from 1 to ${MAX_INDEXES}`);
+  return limit;
+}
+
 function bounded(spec,pages) {
   if(!pages.length)throw new Error('Official source contains no matching documentation links');
   if(pages.length>(spec.maxPages??5000))throw new Error('Documentation catalog exceeds its page bound; refusing a partial catalog');
@@ -10,7 +17,7 @@ function bounded(spec,pages) {
 // Collection revisions keep the digest of the former PAGES.json serialization, so earlier citations stay comparable.
 export const pageDigest=(spec,origin,pages)=>sha(JSON.stringify({schemaVersion:1,source:spec.id,domains:spec.domains,origin,pages},null,2)+'\n');
 
-export async function fetchDocumentationCatalog(spec,revision) {
+export async function fetchDocumentationCatalog(spec,revision,{onIndex=()=>{}}={}) {
   if(spec.kind==='repository'){
     const tree=await api(`repos/${spec.repository}/git/trees/${revision}?recursive=1`);
     if(tree.truncated)throw new Error('Official repository tree is truncated; refusing a partial catalog');
@@ -22,7 +29,8 @@ export async function fetchDocumentationCatalog(spec,revision) {
     });
     return {pages:bounded(spec,pages),origin:`https://github.com/${spec.repository}/tree/${revision}/${prefix}`};
   }
-  const pages=new Map(),queue=[spec.indexUrl],seen=new Set();
+  const pages=new Map(),queue=[spec.indexUrl],seen=new Set(),maxIndexes=indexLimit(spec);
+  let indexesFetched=0;
   const add=(href,title,base,replace=false)=>{
     let target;try{target=new URL(href,base);}catch{return;}
     if(target.protocol!=='https:'||target.username||target.password||target.port&&target.port!=='443'||!spec.allowedHosts.includes(target.hostname)||!spec.includePrefixes.some(prefix=>target.pathname.startsWith(prefix)))return;
@@ -33,10 +41,13 @@ export async function fetchDocumentationCatalog(spec,revision) {
     if(replace||!pages.has(url))pages.set(url,{title:title.replace(/[\[\]\r\n]/g,'').replace(/\.md$/,''),url,fetchUrl});
   };
   while(queue.length){
-    const input=queue.shift();if(seen.has(input))continue;seen.add(input);if(seen.size>(spec.maxIndexes??32))throw new Error('Sitemap index bound exceeded; refusing a partial catalog');
+    const input=queue.shift();if(seen.has(input))continue;
+    if(seen.size>=maxIndexes)throw new Error(`Sitemap index bound exceeded (${indexesFetched}/${maxIndexes} downloaded); refusing a partial catalog`);
+    seen.add(input);
     // Publishers can reject index requests that omit their supported media types.
     const accept=spec.indexFormat==='sitemap'?'application/xml, text/xml;q=0.9, text/plain;q=0.8':'text/markdown, text/plain;q=0.9';
     const response=await download(input,{hosts:spec.allowedHosts,maxBytes:config().network.maxDownloadBytes,headers:{accept}});
+    onIndex({indexesFetched:++indexesFetched,maxIndexes});
     const bytes=/\.gz(?:$|\?)/.test(input)?gunzipSync(response.bytes,{maxOutputLength:config().network.maxExpandedBytes}):response.bytes;
     const index=markdownResponse({...response,bytes});
     if(spec.indexFormat==='sitemap'){

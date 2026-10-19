@@ -152,6 +152,12 @@ Coverage is reviewed weekly against the watch list below, and each addition is a
 
 WordPress coverage lives in the [WordPress hub](knowledge/cms/wordpress/INDEX.md). Use `lookup --domain cms/wordpress --query "rest api authentication" --fetch --limit 1` for a focused article excerpt. Handbooks are rolling, and skill references are pinned to their catalogued commit; neither establishes compatibility with an installed core, Gutenberg or plugin version. The docs catalog excludes the PHP code reference, WP-CLI commands, developer news, WordPress.com and third-party plugin manuals. General documentation content is [CC0; code snippets are GPLv2 or later](https://make.wordpress.org/docs/licensing/). The agent-skills repository declares GPLv2 or later.
 
+The [official WordPress MCP adapter](https://github.com/WordPress/mcp-adapter), identified by the [AI handbook](https://make.wordpress.org/ai/handbook/projects/mcp-adapter/), is a website pointer only. Brain does not install or execute it.
+
+Collection refresh results include `crawls` with each source's successful `indexesFetched` count and `maxIndexes` limit, including unchanged refreshes and partial failures. The private source-run record and log retain the counts. These count logical index downloads, including nested and image sitemaps, rather than HTTP redirect hops or only the sitemap URLs whose pages survive filtering. A collection may set `maxIndexes` to an integer from 1 to 128; the default remains 32. Exceeding it still refuses a partial catalog and retains the last good catalog. A WordPress crawl on 2026-10-19 fetched 18 indexes and returned the existing 1,013 links; that is a dated measurement, not a growth guarantee.
+
+Capture without `--domain` recognizes WordPress identifiers such as `@wordpress/`, `wp_`, `add_action`, `add_filter` and `functions.php`. Recognizable WordPress context wins equal-scoring React/frontend matches; higher scores and other domains retain their ordering. Explicit `--domain` still takes precedence. Routing is a keyword heuristic, not semantic classification.
+
 ### Coverage watch list
 
 The weekly coverage review checks these official places for new documentation indexes (`llms.txt`, sitemaps, docs repositories), skills or agent repositories, and MCP servers. An MCP server is recorded as a website pointer.
@@ -168,7 +174,7 @@ The weekly coverage review checks these official places for new documentation in
 | Contentstack | contentstack.com (`llms.txt`, sitemap), github.com/contentstack |
 | SitecoreAI and Sitecore XP | doc.sitecore.com, github.com/Sitecore |
 | Contentful | contentful.com/developers/docs (`llms.txt`), github.com/contentful |
-| WordPress | developer.wordpress.org (`sitemap.xml`), github.com/WordPress/agent-skills |
+| WordPress | developer.wordpress.org (`sitemap.xml`), github.com/WordPress, make.wordpress.org/ai |
 
 ## Project skills
 
