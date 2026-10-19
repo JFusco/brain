@@ -8,7 +8,7 @@ aliases: ["optimizely-saas"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No curated notes yet.
+- [Share repeated CMS content by editorial ownership](shared-content-editorial-ownership.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
