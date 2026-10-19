@@ -1,7 +1,6 @@
 {
   "schemaVersion": 2,
   "runnerBlockedHosts": [
-    "doc.sitecore.com",
     "www.contentful.com"
   ],
   "sources": [
