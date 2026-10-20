@@ -2,12 +2,12 @@
 title: "Discard obsolete responses from React effects"
 domain: "react"
 aliases: ["effect cleanup", "stale responses", "request races"]
-evidence_date: "2026-10-16"
-reviewed_at: "2026-10-16"
+evidence_date: "2026-10-20"
+reviewed_at: "2026-10-20"
 status: "current"
 versions: ["react@19.3"]
 applicability: "React 19.3 client Effects that manually fetch data; verify the target application's installed release"
-provenance: "Partial candidate f4baa475d5f72287073b7024; react-docs@046f17d04295ba047bb5739026b4ac3110f17028; useEffect response SHA256 d4fd102c75df4194f5fa4eae8387f3a0aa7b4ba773c3a5ba29e41bf997a61cdb, fetched 2026-10-16T07:20:23.858Z"
+provenance: "react-docs@ae5e48074d4f73f1e349eda2a66841f9a959023e; official useEffect cleanup/dependency/Strict Mode guidance rechecked 2026-10-20; sanitized authored lifecycle observation, not rerun"
 ---
 
 # Discard obsolete responses from React effects
@@ -29,4 +29,8 @@ An illustrative failure is selecting a second item while the first item's slower
 
 ## Evidence and limits
 
-The [official React reference](https://react.dev/reference/react/useEffect#fetching-data-with-effects) documents the cleanup guard and recommends framework loading or client caching. The pinned catalog response was verified against its Git blob; the live reference identifies React 19.3. The private candidate supplied an observed lifecycle issue, not a reproduced benchmark or a compatibility guarantee for older releases. This guard protects UI state; it does not prove network cancellation, caching, or server authorization.
+**Documented and revalidated October 20, 2026:** the [React useEffect reference](https://react.dev/reference/react/useEffect#fetching-data-with-effects) still invalidates an earlier request's result during cleanup, requires reactive dependencies and recommends framework loading or a client cache. The dependency-change, unmount and development Strict Mode cleanup rules were checked as well. The live reference identifies React 19.3; the refreshed pinned [useEffect source](https://github.com/reactjs/react.dev/blob/ae5e48074d4f73f1e349eda2a66841f9a959023e/src/content/reference/react/useEffect.md) supports these same conclusions. A new repository revision did not change this advice.
+
+**Proposed application of that rule:** guard error-state updates as well as success-state updates, because an obsolete setup should own neither. Awaiting a promise alone does not invalidate its completion.
+
+**Historical observation:** sanitized authored evidence described a lifecycle issue; it was not rerun as a benchmark or application walkthrough here. The result guard protects UI state, not network cancellation, caching or server authorization. No compatibility guarantee for other installed releases is established.

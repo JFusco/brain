@@ -211,3 +211,5 @@ The [shared CMS content journal](../journal/2026-10-19-shared-cms-content-guidan
 The [October 20 Contentful revalidation](../journal/2026-10-20-contentful-note-revalidation.md) preserves the Preview Sync conflict at the current pinned revision and corrects the CMS routing table using actual claim-level source review.
 
 The [Contentstack skill-scope findings](../journal/2026-10-20-contentstack-skill-scope.md) distinguish starter-specific conventions from independently documented practices, with no automatic installation or cross-project compatibility assertion.
+
+The [October 20 scheduled note review](../journal/2026-10-20-scheduled-note-revalidation.md) rechecks four existing React/CMS notes against refreshed references, retains the verified Preview conflict, and records an empty pending capture queue without inventing additions.
