@@ -2,12 +2,12 @@
 title: "Keep browser storage out of the hydration render"
 domain: "react"
 aliases: ["localStorage hydration", "server client mismatch", "browser storage"]
-evidence_date: "2026-10-17"
-reviewed_at: "2026-10-17"
+evidence_date: "2026-10-20"
+reviewed_at: "2026-10-20"
 status: "current"
 versions: ["react@19.3", "react-dom@19.3"]
 applicability: "React 19.3 server-rendered interfaces hydrated by React DOM; check the application's installed versions"
-provenance: "Fully reviewed candidate 77ecee6e04f5e18fb6f30050; react-docs@046f17d04295ba047bb5739026b4ac3110f17028; useEffect SHA256 d4fd102c75df4194f5fa4eae8387f3a0aa7b4ba773c3a5ba29e41bf997a61cdb; hydrateRoot SHA256 01b552ea68e4e45a089fb2d00b528bfc56f206977ab88e1a125c9dd97c2618f6; Git blobs verified 2026-10-17"
+provenance: "react-docs@ae5e48074d4f73f1e349eda2a66841f9a959023e; official useEffect/hydrateRoot guidance rechecked 2026-10-20; sanitized historical storage-initializer observation, not rerun"
 ---
 
 # Keep browser storage out of the hydration render
@@ -26,4 +26,8 @@ Two-pass rendering adds work and can visibly change the page on slow connections
 
 ## Evidence and limits
 
-A private historical record reports fixing a storage-initializer mismatch by moving the read to a mount Effect. Its browser walkthrough was not repeated here. React's [Effect guidance](https://react.dev/reference/react/useEffect#displaying-different-content-on-the-server-and-the-client) explains matching initial output and client-only Effects; [hydrateRoot](https://react.dev/reference/react-dom/client/hydrateRoot#handling-different-client-and-server-content) documents two-pass rendering and its cost. Both pinned source bodies were verified against Git blob hashes. This does not define storage validation, cross-tab synchronization, authorization or a blanket rule to put all state in Effects.
+**Documented and revalidated October 20, 2026:** React's [Effect guidance](https://react.dev/reference/react/useEffect#displaying-different-content-on-the-server-and-the-client) still requires matching initial output and explains that Effects run only on the client. [hydrateRoot](https://react.dev/reference/react-dom/client/hydrateRoot#handling-different-client-and-server-content) still documents the additional render in a two-pass approach, its user-visible cost and the need to fix mismatches. These sections and development Strict Mode behavior were read again; the live references identify React 19.3. The refreshed pinned sources support keeping the existing procedure, rather than treating a repository revision change as new advice.
+
+**Application limit:** use a post-mount storage read for state that an already server-rendered component needs after hydration; it is not a blanket instruction to put all state or every browser-only component in Effects. A lazy initializer still executes as part of rendering and does not itself defer the read until after mount.
+
+**Historical observation:** sanitized authored evidence reports moving a storage-initializer read to a mount Effect. Its browser walkthrough was not repeated. Storage validation, cross-tab synchronization, authorization and compatibility with other installed React versions remain outside this note.
