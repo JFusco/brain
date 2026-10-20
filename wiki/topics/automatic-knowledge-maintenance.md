@@ -209,3 +209,5 @@ The [nested CMS hub repair](../journal/2026-10-19-nested-catalog-hubs.md) permit
 The [shared CMS content journal](../journal/2026-10-19-shared-cms-content-guidance.md) records the first real manual rerun's capture-to-knowledge delivery, with documented block behavior separated from proposed migration practices and source-change warnings retained.
 
 The [October 20 Contentful revalidation](../journal/2026-10-20-contentful-note-revalidation.md) preserves the Preview Sync conflict at the current pinned revision and corrects the CMS routing table using actual claim-level source review.
+
+The [Contentstack skill-scope findings](../journal/2026-10-20-contentstack-skill-scope.md) distinguish starter-specific conventions from independently documented practices, with no automatic installation or cross-project compatibility assertion.
