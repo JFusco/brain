@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "66bf3f6b05455b9a831a4a1dbb4cf89b06e641a67f5e3c175b4075c51172eee6",
+  "revision": "348b7c08f53ad501f670a3d4f5c2d8962f7ed5901345bb9665061ab8a5408754",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -407,7 +407,7 @@
       "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/deployments/web_fetch_vercel_url.md"
     },
     {
-      "title": "Documentation and CLI",
+      "title": "Documentation, CLI, and Feedback",
       "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/documentation",
       "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/documentation.md"
     },
@@ -415,6 +415,11 @@
       "title": "search_vercel_documentation",
       "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/documentation/search_vercel_documentation",
       "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/documentation/search_vercel_documentation.md"
+    },
+    {
+      "title": "submit_feedback",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/documentation/submit_feedback",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/documentation/submit_feedback.md"
     },
     {
       "title": "use_vercel_cli",

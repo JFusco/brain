@@ -19,12 +19,12 @@ aliases: ["react", "hooks"]
   - [composition-patterns](https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/composition-patterns/SKILL.md).
   - [react-best-practices](https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/react-best-practices/SKILL.md).
   - [web-design-guidelines](https://github.com/vercel-labs/agent-skills/blob/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines/SKILL.md).
-- **vercel-plugin** — 37 skills and 240 docs at a pinned commit; default-branch; revision `0db44088cc0454455f85f46150162716d58acd8c`; fetched 2026-10-19.
+- **vercel-plugin** — 37 skills and 240 docs at a pinned commit; default-branch; revision `6400c27898f28197a235fc1c93ecf53d86df2d40`; fetched 2026-10-20.
   - [Complete Vercel plugin catalog](../vercel/INDEX.md).
-  - [react-best-practices](https://github.com/vercel/vercel-plugin/blob/0db44088cc0454455f85f46150162716d58acd8c/skills/react-best-practices/SKILL.md).
-- **react-index** — link catalog of 179 pages; rolling-url; revision `24fe39758189fed4633c335fe42f903dba79dbbf35871caed295b7cc41a7c42d`; fetched 2026-10-15.
+  - [react-best-practices](https://github.com/vercel/vercel-plugin/blob/6400c27898f28197a235fc1c93ecf53d86df2d40/skills/react-best-practices/SKILL.md).
+- **react-index** — link catalog of 180 pages; rolling-url; revision `8164398bcb11d2ed3377e96aac8473f508d2ddd687d51b7968be3a991056fd65`; fetched 2026-10-20.
   - [Catalog source](https://react.dev/llms.txt); search it with `lookup --domain react`.
-- **react-docs** — link catalog of 225 pages; default-branch; revision `046f17d04295ba047bb5739026b4ac3110f17028`; fetched 2026-10-16.
-  - [Catalog source](https://github.com/reactjs/react.dev/tree/046f17d04295ba047bb5739026b4ac3110f17028/src/content/); search it with `lookup --domain react`.
+- **react-docs** — link catalog of 226 pages; default-branch; revision `ae5e48074d4f73f1e349eda2a66841f9a959023e`; fetched 2026-10-20.
+  - [Catalog source](https://github.com/reactjs/react.dev/tree/ae5e48074d4f73f1e349eda2a66841f9a959023e/src/content/); search it with `lookup --domain react`.
 - [Official website](https://react.dev/learn) — pointer only: Official React documentation (CC-BY-4.0); react-index and react-docs catalog its links.
 <!-- brain:official:end -->
