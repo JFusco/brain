@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "sources": {
     "sitecore-content-sdk": {
-      "revision": "6ec243fc709bfb917e7ce9be6151e63d0f33c5b6",
-      "fetchedAt": "2026-10-17T06:33:04.822Z",
+      "revision": "dd7962d8f3eb9b826edb86ff3996c852e43ed31c",
+      "fetchedAt": "2026-10-20T20:59:04.082Z",
       "track": "default-branch",
-      "catalogSha256": "b433d60daf8d84669cd1a86ff03500e2b89b3d37c4f4890bdb3215a41eb58d26"
+      "catalogSha256": "d433c98ab2cfba0e2ba39d6440375f074f2f698a47bb8a166985303712a3f561"
     },
     "contentstack-kickstart": {
       "revision": "0c9aca728b7113a6a64a2ccea2b3b448c45529fa",
@@ -20,22 +20,22 @@
       "catalogSha256": "1da7af8baf08d3052086a4614d708d6bd0e28623be3a8a14dae166cd759eae06"
     },
     "vercel-plugin": {
-      "revision": "0db44088cc0454455f85f46150162716d58acd8c",
-      "fetchedAt": "2026-10-19T23:08:43.020Z",
+      "revision": "6400c27898f28197a235fc1c93ecf53d86df2d40",
+      "fetchedAt": "2026-10-20T20:59:09.707Z",
       "track": "default-branch",
-      "catalogSha256": "83a3cdfc4489064968a7e23c8a2439f27f07ae8a00c13315c28fd288c60d9863"
+      "catalogSha256": "2770763e06138193c7adb1d8241a835071eaa4870eabec1eb420b8f5938297c8"
     },
     "contentful-skills": {
-      "revision": "2fc01adba109e1331724df7a521c348368cf08bd",
-      "fetchedAt": "2026-10-19T23:08:44.749Z",
+      "revision": "6dc5d75db7fc6515658e8f8eb2394d76292cfdf3",
+      "fetchedAt": "2026-10-20T20:59:11.646Z",
       "track": "default-branch",
-      "catalogSha256": "d47eaf30db9aaa1a673690f763e11ad981d9b3417442c471973656af75d35889"
+      "catalogSha256": "9b3e68db6c0c95162bcb15e50e77c8f4d35784cbc2ecfabe99db55e7a62c749b"
     },
     "optimizely-sdk": {
-      "revision": "5ef6268e688b35959d84b901c0bd6e81cb3669ef",
-      "fetchedAt": "2026-10-17T06:34:04.407Z",
+      "revision": "027c2c6018cacb96bc63c633c7d4286fe160a73c",
+      "fetchedAt": "2026-10-20T20:59:14.864Z",
       "track": "default-branch",
-      "catalogSha256": "129dfcab98142278b556cdca2cbe9702fb2c837db7718205155b6016a746de68"
+      "catalogSha256": "7094018b4ab50d6e05174f0fa7348000d542ccf20332708097a1dd9f8ac50594"
     },
     "nextjs-index": {
       "revision": "4ba86c99073ca6b65f04f5a283dcebb76deffd8a3e2fefe031ba5dd1ad8e6556",
@@ -44,16 +44,16 @@
       "catalogSha256": "613eb34f02fcfa1102c3c7bf378479d4069ce3f57db402707a862450c4839fcc"
     },
     "react-index": {
-      "revision": "24fe39758189fed4633c335fe42f903dba79dbbf35871caed295b7cc41a7c42d",
-      "fetchedAt": "2026-10-15T18:08:31.321Z",
+      "revision": "8164398bcb11d2ed3377e96aac8473f508d2ddd687d51b7968be3a991056fd65",
+      "fetchedAt": "2026-10-20T20:59:16.535Z",
       "track": "rolling-url",
-      "catalogSha256": "d45b3f6f4ebc88d1b930417a339ff741468144d3b7d462c34fc819409dd0e92b"
+      "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "66bf3f6b05455b9a831a4a1dbb4cf89b06e641a67f5e3c175b4075c51172eee6",
-      "fetchedAt": "2026-10-19T23:08:51.711Z",
+      "revision": "348b7c08f53ad501f670a3d4f5c2d8962f7ed5901345bb9665061ab8a5408754",
+      "fetchedAt": "2026-10-20T20:59:17.940Z",
       "track": "rolling-url",
-      "catalogSha256": "504899289ea11129921c3df19467be9b3a485de2418c4d8e23bbbfc8f351400d"
+      "catalogSha256": "c0526f70b6dd297df7c588ac8c6520491332b50d85fcc726674f1d36c62771b4"
     },
     "contentstack-docs": {
       "revision": "27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d",
@@ -62,10 +62,10 @@
       "catalogSha256": "0963c2536d8bcdc319f5f36f2e06200e66347267930775876d4542a236329491"
     },
     "react-docs": {
-      "revision": "046f17d04295ba047bb5739026b4ac3110f17028",
-      "fetchedAt": "2026-10-16T01:29:37.529Z",
+      "revision": "ae5e48074d4f73f1e349eda2a66841f9a959023e",
+      "fetchedAt": "2026-10-20T20:59:22.260Z",
       "track": "default-branch",
-      "catalogSha256": "773e9e348c46ce7bdd4d51f6af8f87613e4cac5b9bef0e7cefa8944ffcf80e50"
+      "catalogSha256": "3b29e3b986b8a66d572acca17a4a168e9a16577830fce43a6c4fc722e31411d6"
     },
     "tailwind-docs": {
       "revision": "7f92c2213315c195dae583d68752da4042da3ade",

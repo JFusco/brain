@@ -1,9 +1,28 @@
 {
   "schemaVersion": 1,
   "source": "contentful-skills",
-  "revision": "2fc01adba109e1331724df7a521c348368cf08bd",
-  "origin": "https://github.com/contentful/skills/tree/2fc01adba109e1331724df7a521c348368cf08bd/",
+  "revision": "6dc5d75db7fc6515658e8f8eb2394d76292cfdf3",
+  "origin": "https://github.com/contentful/skills/tree/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/",
   "skills": [
+    {
+      "id": "contentful-skills/channels-destinations",
+      "name": "channels-destinations",
+      "declaredName": "channels-destinations",
+      "description": "Set up and manage Contentful Channels, Destinations, and Destination Nodes through the Destinations Management API. Use for creating or updating channel contracts, destination properties, destination maps, experience/folder/redirect nodes, assigning experiences, routing and path configuration, publishing, unpublishing, migration, or deletion. Verify the current API schema and permissions before acting; use this skill instead of guessing endpoints or payloads.",
+      "directory": "skills/channels-destinations",
+      "installable": false,
+      "policy": "reference-only",
+      "appliesTo": {
+        "dependencies": [
+          "contentful",
+          "contentful-management"
+        ]
+      },
+      "preferred": false,
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/channels-destinations/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/channels-destinations/SKILL.md",
+      "gitBlobSha": "23a668738643615e438fd50a629eda9fbe75deba"
+    },
     {
       "id": "contentful-skills/contentful-api",
       "name": "contentful-api",
@@ -19,8 +38,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/SKILL.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/SKILL.md",
       "gitBlobSha": "8833ff1f0cd1335b1061117c975dd7097a87ad53"
     },
     {
@@ -38,8 +57,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-env-analysis/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-env-analysis/SKILL.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-env-analysis/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-env-analysis/SKILL.md",
       "gitBlobSha": "1e1358f518930c1e279307c9e92a8f24912c3b5a"
     },
     {
@@ -57,8 +76,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-guide/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-guide/SKILL.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-guide/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-guide/SKILL.md",
       "gitBlobSha": "4e06612c861a0464affc2f08f288eceb74f56407"
     },
     {
@@ -76,8 +95,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-migration/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-migration/SKILL.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-migration/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-migration/SKILL.md",
       "gitBlobSha": "32e03d907427545827a97a9fda323dcbf59275f2"
     },
     {
@@ -95,8 +114,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-nextjs/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-nextjs/SKILL.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-nextjs/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-nextjs/SKILL.md",
       "gitBlobSha": "9041cf95ae363134fab24d53b9581de0f71dd0a7"
     },
     {
@@ -114,9 +133,9 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/SKILL.md",
-      "gitBlobSha": "3b8d6a974086381ae2069ec94852b0b9916b57cd"
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/SKILL.md",
+      "gitBlobSha": "f7a5690683bb0d4eacf9101a31df9c26f5c31778"
     },
     {
       "id": "contentful-skills/exo-content-bindings",
@@ -133,437 +152,451 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/exo-content-bindings/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/exo-content-bindings/SKILL.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/exo-content-bindings/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/exo-content-bindings/SKILL.md",
       "gitBlobSha": "2f6bbab9079f453fd2d16c93937e46c83e48be68"
     }
   ],
   "docs": [
     {
+      "path": "skills/channels-destinations/references/api-workflows.md",
+      "title": "API operations and lifecycle",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/channels-destinations/references/api-workflows.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/channels-destinations/references/api-workflows.md",
+      "gitBlobSha": "d82db43ce5794afb5af87fedfc18c683f277f0da"
+    },
+    {
+      "path": "skills/channels-destinations/references/domain-rules.md",
+      "title": "Domain rules and setup checklist",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/channels-destinations/references/domain-rules.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/channels-destinations/references/domain-rules.md",
+      "gitBlobSha": "3eb7becf1ea1de8261b41130701de66a5b628c45"
+    },
+    {
       "path": "skills/contentful-api/references/authentication.md",
       "title": "Authentication",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/authentication.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/authentication.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/authentication.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/authentication.md",
       "gitBlobSha": "6e1310e7ac02d32091af0cc6251a54ee17f74aca"
     },
     {
       "path": "skills/contentful-api/references/content-delivery/includes-links.md",
       "title": "Includes & Links",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-delivery/includes-links.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-delivery/includes-links.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-delivery/includes-links.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-delivery/includes-links.md",
       "gitBlobSha": "15a7af4340a515708bf6ef4631e16ee172642760"
     },
     {
       "path": "skills/contentful-api/references/content-delivery/localization.md",
       "title": "Localization",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-delivery/localization.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-delivery/localization.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-delivery/localization.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-delivery/localization.md",
       "gitBlobSha": "d3310a9e655ce18ce9754ad48c8dc9675178963d"
     },
     {
       "path": "skills/contentful-api/references/content-delivery/overview.md",
       "title": "Content Delivery API Overview",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-delivery/overview.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-delivery/overview.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-delivery/overview.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-delivery/overview.md",
       "gitBlobSha": "9d71430a2408ffc8dcb098b6140bdd4fa9a486c8"
     },
     {
       "path": "skills/contentful-api/references/content-delivery/querying.md",
       "title": "Querying",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-delivery/querying.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-delivery/querying.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-delivery/querying.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-delivery/querying.md",
       "gitBlobSha": "a9260d7e420b33ecafdf1bf344c3319c1bb002e7"
     },
     {
       "path": "skills/contentful-api/references/content-delivery/sync.md",
       "title": "Sync API",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-delivery/sync.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-delivery/sync.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-delivery/sync.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-delivery/sync.md",
       "gitBlobSha": "770c2282d08b8d74d2f7ae7768bc50dc395bfd9c"
     },
     {
       "path": "skills/contentful-api/references/content-management/assets.md",
       "title": "Assets",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/assets.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/assets.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/assets.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/assets.md",
       "gitBlobSha": "cf520ed2340449ec528ce0085569868a1175d9d2"
     },
     {
       "path": "skills/contentful-api/references/content-management/bulk-actions.md",
       "title": "Bulk Actions",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/bulk-actions.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/bulk-actions.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/bulk-actions.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/bulk-actions.md",
       "gitBlobSha": "0dee26e4b9dbf7f9e582fcff8fac57362f5c00c9"
     },
     {
       "path": "skills/contentful-api/references/content-management/content-types.md",
       "title": "Content Types",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/content-types.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/content-types.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/content-types.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/content-types.md",
       "gitBlobSha": "40ad75a714b36a575a4a5fa564f67c8dc82bc090"
     },
     {
       "path": "skills/contentful-api/references/content-management/entries.md",
       "title": "Entries",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/entries.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/entries.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/entries.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/entries.md",
       "gitBlobSha": "66067a0af87ed75aecf3035e98740e97c9e33f52"
     },
     {
       "path": "skills/contentful-api/references/content-management/environments.md",
       "title": "Environments",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/environments.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/environments.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/environments.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/environments.md",
       "gitBlobSha": "d30ab6fcacf9ea80a45ac57b396cc46901575057"
     },
     {
       "path": "skills/contentful-api/references/content-management/overview.md",
       "title": "Content Management API Overview",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/overview.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-management/overview.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/overview.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-management/overview.md",
       "gitBlobSha": "500836fdf34fec69b1cdf6e0b740e934c6a40754"
     },
     {
       "path": "skills/contentful-api/references/content-preview/overview.md",
       "title": "Content Preview API",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-preview/overview.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/content-preview/overview.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-preview/overview.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/content-preview/overview.md",
       "gitBlobSha": "fbff6df53ceaf7d5f32582d2cd12ad1abcf747dd"
     },
     {
       "path": "skills/contentful-api/references/graphql/overview.md",
       "title": "GraphQL Content API",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/graphql/overview.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/graphql/overview.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/graphql/overview.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/graphql/overview.md",
       "gitBlobSha": "b69db6ce3fd2d70cccf741cc4656c2d42cec07ba"
     },
     {
       "path": "skills/contentful-api/references/http-conventions.md",
       "title": "HTTP Conventions",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/http-conventions.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/http-conventions.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/http-conventions.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/http-conventions.md",
       "gitBlobSha": "bd14b4f89a0db2e57992e51957f394ab32461afe"
     },
     {
       "path": "skills/contentful-api/references/images/overview.md",
       "title": "Images API",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/images/overview.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-api/references/images/overview.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/images/overview.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-api/references/images/overview.md",
       "gitBlobSha": "b92982eb6f8be32281e51104e59471d19b06e2dd"
     },
     {
       "path": "skills/contentful-apps/contentful-custom-app-enhancement/references/enhancement-checklist.md",
       "title": "Enhancement Checklist",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-apps/contentful-custom-app-enhancement/references/enhancement-checklist.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-apps/contentful-custom-app-enhancement/references/enhancement-checklist.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-apps/contentful-custom-app-enhancement/references/enhancement-checklist.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-apps/contentful-custom-app-enhancement/references/enhancement-checklist.md",
       "gitBlobSha": "7fc32f6bfef9d72266317eab6cbdd49ca73c41e8"
     },
     {
       "path": "skills/contentful-apps/contentful-custom-app-from-scratch/references/app-planning.md",
       "title": "App Planning",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-apps/contentful-custom-app-from-scratch/references/app-planning.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-apps/contentful-custom-app-from-scratch/references/app-planning.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-apps/contentful-custom-app-from-scratch/references/app-planning.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-apps/contentful-custom-app-from-scratch/references/app-planning.md",
       "gitBlobSha": "7da3135a89221ef2ad9bb5915963fa99c8853e74"
     },
     {
       "path": "skills/contentful-apps/contentful-custom-app-from-scratch/references/repo-and-validation.md",
       "title": "Repository and Validation",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-apps/contentful-custom-app-from-scratch/references/repo-and-validation.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-apps/contentful-custom-app-from-scratch/references/repo-and-validation.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-apps/contentful-custom-app-from-scratch/references/repo-and-validation.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-apps/contentful-custom-app-from-scratch/references/repo-and-validation.md",
       "gitBlobSha": "2acdc146a3c9ed6f971dc3690f435c2ad1085e61"
     },
     {
       "path": "skills/contentful-env-analysis/references/database.md",
       "title": "Snapshot database",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-env-analysis/references/database.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-env-analysis/references/database.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-env-analysis/references/database.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-env-analysis/references/database.md",
       "gitBlobSha": "391b6ccba4fbe1effaa624465ab317950a301d03"
     },
     {
       "path": "skills/contentful-env-analysis/references/exo-domain.md",
       "title": "Experience Orchestration entities",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-env-analysis/references/exo-domain.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-env-analysis/references/exo-domain.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-env-analysis/references/exo-domain.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-env-analysis/references/exo-domain.md",
       "gitBlobSha": "7f1badf1e0405a158a819116750399a23f4e66d0"
     },
     {
       "path": "skills/contentful-env-analysis/THIRD-PARTY-NOTICES.md",
       "title": "Third-party notices",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-env-analysis/THIRD-PARTY-NOTICES.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-env-analysis/THIRD-PARTY-NOTICES.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-env-analysis/THIRD-PARTY-NOTICES.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-env-analysis/THIRD-PARTY-NOTICES.md",
       "gitBlobSha": "f7e65fc49f0d8c2a8b76ca205a0e75a1e74b0eb7"
     },
     {
       "path": "skills/contentful-guide/references/docs-map.md",
       "title": "Contentful Docs Map",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-guide/references/docs-map.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-guide/references/docs-map.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-guide/references/docs-map.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-guide/references/docs-map.md",
       "gitBlobSha": "2df2426e03fb0e28b5e541021b7ff2cf8b840f2f"
     },
     {
       "path": "skills/contentful-guide/references/lexicon.md",
       "title": "Contentful Lexicon",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-guide/references/lexicon.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-guide/references/lexicon.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-guide/references/lexicon.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-guide/references/lexicon.md",
       "gitBlobSha": "5c27810b2aff3dffbd83ec578af3c13b7f527e7b"
     },
     {
       "path": "skills/contentful-guide/references/skill-routing.md",
       "title": "Skill Routing",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-guide/references/skill-routing.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-guide/references/skill-routing.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-guide/references/skill-routing.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-guide/references/skill-routing.md",
       "gitBlobSha": "f259d9b7237cb1af60277fce40640147a98916c7"
     },
     {
       "path": "skills/contentful-migration/references/api-reference.md",
       "title": "Migration API Reference",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-migration/references/api-reference.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-migration/references/api-reference.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-migration/references/api-reference.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-migration/references/api-reference.md",
       "gitBlobSha": "6e64cbc643e206137791f9baeeda670c1628c5e7"
     },
     {
       "path": "skills/contentful-migration/references/patterns.md",
       "title": "Migration Patterns",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-migration/references/patterns.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-migration/references/patterns.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-migration/references/patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-migration/references/patterns.md",
       "gitBlobSha": "6efd59b8137934ddec462353dd052ca038ad807b"
     },
     {
       "path": "skills/contentful-migration/references/running-migrations.md",
       "title": "Running Migrations",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-migration/references/running-migrations.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-migration/references/running-migrations.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-migration/references/running-migrations.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-migration/references/running-migrations.md",
       "gitBlobSha": "1b71ad9a1cd68e5aa05195d31ab3fd81687295d8"
     },
     {
       "path": "skills/contentful-nextjs/references/nextjs-setup.md",
       "title": "Next.js Setup",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-nextjs/references/nextjs-setup.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-nextjs/references/nextjs-setup.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-nextjs/references/nextjs-setup.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-nextjs/references/nextjs-setup.md",
       "gitBlobSha": "b8ebd04dd1d739e0f1a70f3a7ccec7d7102adb84"
     },
     {
       "path": "skills/contentful-nextjs/references/preview-and-draft-mode.md",
       "title": "Preview and Draft Mode",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-nextjs/references/preview-and-draft-mode.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-nextjs/references/preview-and-draft-mode.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-nextjs/references/preview-and-draft-mode.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-nextjs/references/preview-and-draft-mode.md",
       "gitBlobSha": "c3e0f1c1aa843bc99c26c9503467c71844b7997b"
     },
     {
       "path": "skills/contentful-nextjs/references/troubleshooting.md",
       "title": "Troubleshooting",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-nextjs/references/troubleshooting.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-nextjs/references/troubleshooting.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-nextjs/references/troubleshooting.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-nextjs/references/troubleshooting.md",
       "gitBlobSha": "860bb7bcd087407c25285d9520b84a464b95426a"
     },
     {
       "path": "skills/contentful-personalization/references/analytics-and-preview.md",
       "title": "Analytics and Preview",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/analytics-and-preview.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/analytics-and-preview.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/analytics-and-preview.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/analytics-and-preview.md",
       "gitBlobSha": "d3a925e637646f5eb8c77c2a5c03270037042876"
     },
     {
       "path": "skills/contentful-personalization/references/analytics-patterns.md",
       "title": "Analytics Configuration for Ninetailed",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/analytics-patterns.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/analytics-patterns.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/analytics-patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/analytics-patterns.md",
       "gitBlobSha": "6e705db24afd99f94eb2646550c210ecdb9901c8"
     },
     {
       "path": "skills/contentful-personalization/references/common-errors.md",
       "title": "Common Errors and Fixes",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/common-errors.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/common-errors.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/common-errors.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/common-errors.md",
       "gitBlobSha": "96db7eab6478552be836bd93979691eb7e4f4020"
     },
     {
       "path": "skills/contentful-personalization/references/component-patterns.md",
       "title": "Component Patterns",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/component-patterns.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/component-patterns.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/component-patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/component-patterns.md",
       "gitBlobSha": "25c234f593c74acd100bd39109000a428815fa61"
     },
     {
       "path": "skills/contentful-personalization/references/contentful-app-setup.md",
       "title": "Contentful App Setup",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/contentful-app-setup.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/contentful-app-setup.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/contentful-app-setup.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/contentful-app-setup.md",
       "gitBlobSha": "6091b9aea0a439b1f0c6056f4b1c87e709eb9678"
     },
     {
       "path": "skills/contentful-personalization/references/contentful-integration-guide.md",
       "title": "Contentful Personalization Integration Guide",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/contentful-integration-guide.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/contentful-integration-guide.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/contentful-integration-guide.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/contentful-integration-guide.md",
       "gitBlobSha": "186ad4960be271c4c53f3ba8528d570959a182df"
     },
     {
       "path": "skills/contentful-personalization/references/env-var-spec.md",
       "title": "Environment Variables",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/env-var-spec.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/env-var-spec.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/env-var-spec.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/env-var-spec.md",
       "gitBlobSha": "259768903a02982e48db02472ab52cb87e4f2e7f"
     },
     {
       "path": "skills/contentful-personalization/references/framework-notes.md",
       "title": "Framework-Specific Notes",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/framework-notes.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/framework-notes.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/framework-notes.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/framework-notes.md",
       "gitBlobSha": "7fe1c3620fd60950be1ce229641804b4a0968fbf"
     },
     {
       "path": "skills/contentful-personalization/references/how-personalization-works.md",
       "title": "How Contentful Personalization Works",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/how-personalization-works.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/how-personalization-works.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/how-personalization-works.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/how-personalization-works.md",
       "gitBlobSha": "a17a466be74a8ee5b5eac8aeb02f62e4a1de5129"
     },
     {
       "path": "skills/contentful-personalization/references/implementation-examples.md",
       "title": "Implementation Examples",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/implementation-examples.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/implementation-examples.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/implementation-examples.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/implementation-examples.md",
       "gitBlobSha": "341d16ec7264e3f394c6c32513f1ca1e8acaf848"
     },
     {
       "path": "skills/contentful-personalization/references/middleware-patterns.md",
       "title": "Middleware Patterns",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/middleware-patterns.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/middleware-patterns.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/middleware-patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/middleware-patterns.md",
       "gitBlobSha": "f8c0c832c45ff07cebd303db25edd8e0c655a799"
     },
     {
       "path": "skills/contentful-personalization/references/optimization-nextjs-app-router.md",
       "title": "Optimization SDK: Next.js App Router",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-nextjs-app-router.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-nextjs-app-router.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-nextjs-app-router.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-nextjs-app-router.md",
       "gitBlobSha": "ccdac57d90138d8e3e525355375cd3f8e0c38d50"
     },
     {
       "path": "skills/contentful-personalization/references/optimization-nextjs-pages-router.md",
       "title": "Optimization SDK: Next.js Pages Router",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-nextjs-pages-router.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-nextjs-pages-router.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-nextjs-pages-router.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-nextjs-pages-router.md",
       "gitBlobSha": "f7194ce0d62459b16abb86a3830115603052d301"
     },
     {
       "path": "skills/contentful-personalization/references/optimization-node.md",
       "title": "Optimization SDK: Node.js",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-node.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-node.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-node.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-node.md",
       "gitBlobSha": "af66cbf83cca8d8ed79f6df1be39f584d5e332cd"
     },
     {
       "path": "skills/contentful-personalization/references/optimization-overview.md",
       "title": "Optimization SDK runtime router",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-overview.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-overview.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-overview.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-overview.md",
       "gitBlobSha": "3ed2e22d144eb011ed9d97ceedcffb6cde15aa6c"
     },
     {
       "path": "skills/contentful-personalization/references/optimization-react-native.md",
       "title": "Optimization SDK: React Native",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-react-native.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-react-native.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-react-native.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-react-native.md",
       "gitBlobSha": "c5be3143258d51c35ccff5a2e993d0a9bc84b61f"
     },
     {
       "path": "skills/contentful-personalization/references/optimization-react-web.md",
       "title": "Optimization SDK: React Web",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-react-web.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-react-web.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-react-web.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-react-web.md",
       "gitBlobSha": "669205658b2af2f0bddcf908b518962d96acfb71"
     },
     {
       "path": "skills/contentful-personalization/references/optimization-shared.md",
       "title": "Optimization SDK shared contract",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-shared.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-shared.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-shared.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-shared.md",
       "gitBlobSha": "9b92d13330974033178c3c5186eb8a6637bd4359"
     },
     {
       "path": "skills/contentful-personalization/references/optimization-web.md",
       "title": "Optimization SDK: browser Web",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-web.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/optimization-web.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-web.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/optimization-web.md",
       "gitBlobSha": "0b4fe3ce9462c513d925026098b1626a37723ebd"
     },
     {
       "path": "skills/contentful-personalization/references/package-versions.md",
       "title": "SDK Packages",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/package-versions.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/package-versions.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/package-versions.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/package-versions.md",
       "gitBlobSha": "4801440307b4a75374fa34929caae82106792958"
     },
     {
       "path": "skills/contentful-personalization/references/provider-patterns.md",
       "title": "Provider Patterns",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/provider-patterns.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/provider-patterns.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/provider-patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/provider-patterns.md",
       "gitBlobSha": "f1ba60de000e800deb0779d71fd2ecb0e67fc582"
     },
     {
       "path": "skills/contentful-personalization/references/readiness-criteria.md",
       "title": "Readiness Criteria",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/readiness-criteria.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/readiness-criteria.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/readiness-criteria.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/readiness-criteria.md",
       "gitBlobSha": "353bf67c013deec1a1c30e8ecc560f19a36a3bbb"
     },
     {
       "path": "skills/contentful-personalization/references/rendering-pipeline.md",
       "title": "Rendering Pipeline",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/rendering-pipeline.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/rendering-pipeline.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/rendering-pipeline.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/rendering-pipeline.md",
       "gitBlobSha": "767b47ae889e24505168c3b49bf558abedd11bae"
     },
     {
       "path": "skills/contentful-personalization/references/sdk-legacy-guide.md",
       "title": "Legacy SDK Reference: @ninetailed/experience.js",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/sdk-legacy-guide.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/sdk-legacy-guide.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/sdk-legacy-guide.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/sdk-legacy-guide.md",
       "gitBlobSha": "f7c711a65455525ee278b241f87c018d9e7b213f"
     },
     {
       "path": "skills/contentful-personalization/references/sdk-selection.md",
       "title": "SDK Selection",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/sdk-selection.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/sdk-selection.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/sdk-selection.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/sdk-selection.md",
       "gitBlobSha": "a9013747a7f9424aecb6776ab10d0c95e16d0650"
     },
     {
       "path": "skills/contentful-personalization/references/ssr-guide.md",
       "title": "SSR and Edge Rendering Guide",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/ssr-guide.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/contentful-personalization/references/ssr-guide.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/ssr-guide.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/contentful-personalization/references/ssr-guide.md",
       "gitBlobSha": "646710bb558a6d2cfb41b54f3c9e6a153508efa6"
     },
     {
       "path": "skills/exo-content-bindings/references/api-workflow.md",
       "title": "API Workflow — Step by Step",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/exo-content-bindings/references/api-workflow.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/exo-content-bindings/references/api-workflow.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/exo-content-bindings/references/api-workflow.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/exo-content-bindings/references/api-workflow.md",
       "gitBlobSha": "5e69d02d45d8b54a2186675781cd5b43916b30cf"
     },
     {
       "path": "skills/exo-content-bindings/references/resolver-patterns.md",
       "title": "Resolver Patterns",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/exo-content-bindings/references/resolver-patterns.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/exo-content-bindings/references/resolver-patterns.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/exo-content-bindings/references/resolver-patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/exo-content-bindings/references/resolver-patterns.md",
       "gitBlobSha": "69086d20551ec04ded123a0217d2daff17fb3396"
     },
     {
       "path": "skills/exo-content-bindings/references/richtext-and-types.md",
       "title": "Pointer Expressions, GraphQL Conventions, RichText, and Type Mapping",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/exo-content-bindings/references/richtext-and-types.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/exo-content-bindings/references/richtext-and-types.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/exo-content-bindings/references/richtext-and-types.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/exo-content-bindings/references/richtext-and-types.md",
       "gitBlobSha": "89901699275e77bce54ab80dc2711c5ce7e57154"
     },
     {
       "path": "skills/exo-content-bindings/references/worked-example.md",
       "title": "Worked Example: Hero + Card from Promotion Entry",
-      "url": "https://github.com/contentful/skills/blob/2fc01adba109e1331724df7a521c348368cf08bd/skills/exo-content-bindings/references/worked-example.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/2fc01adba109e1331724df7a521c348368cf08bd/skills/exo-content-bindings/references/worked-example.md",
+      "url": "https://github.com/contentful/skills/blob/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/exo-content-bindings/references/worked-example.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentful/skills/6dc5d75db7fc6515658e8f8eb2394d76292cfdf3/skills/exo-content-bindings/references/worked-example.md",
       "gitBlobSha": "a1a8bc7f2d6e191d21d946fab16c36c19c671d45"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "react-index",
-  "revision": "24fe39758189fed4633c335fe42f903dba79dbbf35871caed295b7cc41a7c42d",
+  "revision": "8164398bcb11d2ed3377e96aac8473f508d2ddd687d51b7968be3a991056fd65",
   "origin": "https://react.dev/llms.txt",
   "skills": [],
   "docs": [],
@@ -720,6 +720,11 @@
       "title": "React Performance tracks",
       "url": "https://react.dev/reference/dev-tools/react-performance-tracks.md",
       "fetchUrl": "https://react.dev/reference/dev-tools/react-performance-tracks.md"
+    },
+    {
+      "title": "React DevTools for agents",
+      "url": "https://react.dev/reference/dev-tools/react-devtools-cdt-mcp.md",
+      "fetchUrl": "https://react.dev/reference/dev-tools/react-devtools-cdt-mcp.md"
     },
     {
       "title": "Lints",
