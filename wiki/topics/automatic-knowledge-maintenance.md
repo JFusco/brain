@@ -29,6 +29,10 @@ Joe then authorized a separate content reviewer for knowledge additions and chan
 
 The [local setup journal](../journal/2026-10-19-local-nightly-maintenance.md) distinguishes configuration and manual checks from future unattended execution. The Mac/app must be available; catch-up runs at a later scheduled or explicitly requested invocation. The initial setup was local; Joe subsequently authorized Git delivery through [issue 75](https://github.com/JFusco/brain/issues/75). Owned branches and worktrees are removed after their changes and evidence are safely accounted for; unrelated work and historical failures remain preserved.
 
+## October 21 capture curation
+
+The [daily curation journal](../journal/2026-10-21-daily-capture-curation.md) records stale-first CMS revalidation and six reviewed captures. Related import proposals share one Contentstack procedure; asset ownership, design acceptance, component context and shared-document coordination retain separate applicability. Official mechanisms ground proposed practices without turning private pilot claims into general compatibility or throughput guarantees. Partially covered captures stay pending, and final run completion remains the acceptance boundary.
+
 ## Current flow: notes publish on merge
 
 [Simplification phase 2](../journal/2026-10-18-simplification-phase-2.md) ([issue 54](https://github.com/JFusco/brain/issues/54)) replaced the pipeline described in the historical sections below.

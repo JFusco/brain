@@ -14,7 +14,9 @@ aliases: ["frontend"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
+- [Bound design preparation by stable inputs and ownership](bounded-design-preparation.md)
 - [Match UI evidence to the acceptance claim](match-evidence-to-claim.md)
+- [Preserve component meaning when preparing design context](design-component-context.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
