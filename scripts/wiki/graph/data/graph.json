@@ -2,12 +2,12 @@
   "version": 1,
   "wikiRoot": "wiki",
   "counts": {
-    "nodes": 96,
-    "edges": 256,
+    "nodes": 101,
+    "edges": 266,
     "byType": {
       "index": 3,
-      "journal": 43,
-      "plan": 42,
+      "journal": 45,
+      "plan": 45,
       "topic": 8
     }
   },
@@ -51,8 +51,8 @@
       ],
       "bytes": 5791,
       "degree": 3,
-      "x": 0.991445,
-      "y": 0.130526,
+      "x": 0.99227,
+      "y": 0.124099,
       "size": 8
     },
     {
@@ -70,8 +70,8 @@
       ],
       "bytes": 2050,
       "degree": 3,
-      "x": 0.980785,
-      "y": 0.19509,
+      "x": 0.982635,
+      "y": 0.185548,
       "size": 8
     },
     {
@@ -89,8 +89,8 @@
       ],
       "bytes": 4177,
       "degree": 4,
-      "x": 0.965926,
-      "y": 0.258819,
+      "x": 0.969199,
+      "y": 0.246279,
       "size": 8
     },
     {
@@ -108,8 +108,8 @@
       ],
       "bytes": 2318,
       "degree": 4,
-      "x": 0.94693,
-      "y": 0.321439,
+      "x": 0.952013,
+      "y": 0.306057,
       "size": 8
     },
     {
@@ -127,8 +127,8 @@
       ],
       "bytes": 3834,
       "degree": 4,
-      "x": 0.92388,
-      "y": 0.382683,
+      "x": 0.931144,
+      "y": 0.364652,
       "size": 8
     },
     {
@@ -146,8 +146,8 @@
       ],
       "bytes": 5036,
       "degree": 5,
-      "x": 0.896873,
-      "y": 0.442289,
+      "x": 0.906673,
+      "y": 0.421835,
       "size": 8
     },
     {
@@ -165,8 +165,8 @@
       ],
       "bytes": 3452,
       "degree": 3,
-      "x": 0.866025,
-      "y": 0.5,
+      "x": 0.878693,
+      "y": 0.477387,
       "size": 8
     },
     {
@@ -196,8 +196,8 @@
       ],
       "bytes": 5638,
       "degree": 3,
-      "x": 0.83147,
-      "y": 0.55557,
+      "x": 0.847315,
+      "y": 0.531091,
       "size": 8
     },
     {
@@ -221,8 +221,8 @@
       ],
       "bytes": 5340,
       "degree": 6,
-      "x": 0.793353,
-      "y": 0.608761,
+      "x": 0.812658,
+      "y": 0.582741,
       "size": 8
     },
     {
@@ -240,8 +240,8 @@
       ],
       "bytes": 2693,
       "degree": 3,
-      "x": 0.75184,
-      "y": 0.659346,
+      "x": 0.774857,
+      "y": 0.632136,
       "size": 8
     },
     {
@@ -259,8 +259,8 @@
       ],
       "bytes": 7492,
       "degree": 6,
-      "x": 0.707107,
-      "y": 0.707107,
+      "x": 0.734059,
+      "y": 0.679086,
       "size": 8
     },
     {
@@ -278,8 +278,8 @@
       ],
       "bytes": 6374,
       "degree": 5,
-      "x": 0.659346,
-      "y": 0.75184,
+      "x": 0.69042,
+      "y": 0.723409,
       "size": 8
     },
     {
@@ -303,8 +303,8 @@
       ],
       "bytes": 6037,
       "degree": 4,
-      "x": 0.608761,
-      "y": 0.793353,
+      "x": 0.64411,
+      "y": 0.764933,
       "size": 8
     },
     {
@@ -322,8 +322,8 @@
       ],
       "bytes": 5034,
       "degree": 4,
-      "x": 0.55557,
-      "y": 0.83147,
+      "x": 0.595309,
+      "y": 0.803497,
       "size": 8
     },
     {
@@ -377,8 +377,8 @@
       ],
       "bytes": 14026,
       "degree": 3,
-      "x": 0.5,
-      "y": 0.866025,
+      "x": 0.544204,
+      "y": 0.838953,
       "size": 8
     },
     {
@@ -396,8 +396,8 @@
       ],
       "bytes": 4835,
       "degree": 4,
-      "x": 0.442289,
-      "y": 0.896873,
+      "x": 0.490994,
+      "y": 0.871163,
       "size": 8
     },
     {
@@ -415,8 +415,8 @@
       ],
       "bytes": 3450,
       "degree": 4,
-      "x": 0.382683,
-      "y": 0.92388,
+      "x": 0.435884,
+      "y": 0.900003,
       "size": 8
     },
     {
@@ -434,8 +434,8 @@
       ],
       "bytes": 3020,
       "degree": 5,
-      "x": 0.321439,
-      "y": 0.94693,
+      "x": 0.379088,
+      "y": 0.92536,
       "size": 8
     },
     {
@@ -453,8 +453,8 @@
       ],
       "bytes": 1787,
       "degree": 4,
-      "x": 0.258819,
-      "y": 0.965926,
+      "x": 0.320826,
+      "y": 0.947138,
       "size": 8
     },
     {
@@ -472,8 +472,8 @@
       ],
       "bytes": 1203,
       "degree": 2,
-      "x": 0.19509,
-      "y": 0.980785,
+      "x": 0.261322,
+      "y": 0.965252,
       "size": 8
     },
     {
@@ -491,8 +491,8 @@
       ],
       "bytes": 1850,
       "degree": 4,
-      "x": 0.130526,
-      "y": 0.991445,
+      "x": 0.200807,
+      "y": 0.979631,
       "size": 8
     },
     {
@@ -510,8 +510,8 @@
       ],
       "bytes": 1533,
       "degree": 2,
-      "x": 0.065403,
-      "y": 0.997859,
+      "x": 0.139515,
+      "y": 0.99022,
       "size": 8
     },
     {
@@ -529,8 +529,8 @@
       ],
       "bytes": 4286,
       "degree": 4,
-      "x": 0,
-      "y": 1,
+      "x": 0.077684,
+      "y": 0.996978,
       "size": 8
     },
     {
@@ -548,8 +548,8 @@
       ],
       "bytes": 3742,
       "degree": 6,
-      "x": -0.065403,
-      "y": 0.997859,
+      "x": 0.015552,
+      "y": 0.999879,
       "size": 8
     },
     {
@@ -567,8 +567,8 @@
       ],
       "bytes": 4178,
       "degree": 5,
-      "x": -0.130526,
-      "y": 0.991445,
+      "x": -0.04664,
+      "y": 0.998912,
       "size": 8
     },
     {
@@ -592,8 +592,8 @@
       ],
       "bytes": 7746,
       "degree": 11,
-      "x": -0.19509,
-      "y": 0.980785,
+      "x": -0.108652,
+      "y": 0.99408,
       "size": 8
     },
     {
@@ -611,8 +611,8 @@
       ],
       "bytes": 8844,
       "degree": 11,
-      "x": -0.258819,
-      "y": 0.965926,
+      "x": -0.170244,
+      "y": 0.985402,
       "size": 8
     },
     {
@@ -648,8 +648,8 @@
       ],
       "bytes": 6902,
       "degree": 5,
-      "x": -0.321439,
-      "y": 0.94693,
+      "x": -0.231176,
+      "y": 0.972912,
       "size": 8
     },
     {
@@ -667,8 +667,8 @@
       ],
       "bytes": 4343,
       "degree": 2,
-      "x": -0.382683,
-      "y": 0.92388,
+      "x": -0.291215,
+      "y": 0.956658,
       "size": 8
     },
     {
@@ -686,8 +686,8 @@
       ],
       "bytes": 1386,
       "degree": 2,
-      "x": -0.442289,
-      "y": 0.896873,
+      "x": -0.350126,
+      "y": 0.936702,
       "size": 8
     },
     {
@@ -705,8 +705,8 @@
       ],
       "bytes": 960,
       "degree": 2,
-      "x": -0.5,
-      "y": 0.866025,
+      "x": -0.407684,
+      "y": 0.913123,
       "size": 8
     },
     {
@@ -724,8 +724,8 @@
       ],
       "bytes": 2367,
       "degree": 3,
-      "x": -0.55557,
-      "y": 0.83147,
+      "x": -0.463664,
+      "y": 0.886011,
       "size": 8
     },
     {
@@ -743,8 +743,8 @@
       ],
       "bytes": 1704,
       "degree": 2,
-      "x": -0.608761,
-      "y": 0.793353,
+      "x": -0.51785,
+      "y": 0.855472,
       "size": 8
     },
     {
@@ -780,8 +780,8 @@
       ],
       "bytes": 2313,
       "degree": 3,
-      "x": -0.659346,
-      "y": 0.75184,
+      "x": -0.570032,
+      "y": 0.821622,
       "size": 8
     },
     {
@@ -799,8 +799,8 @@
       ],
       "bytes": 1416,
       "degree": 2,
-      "x": -0.707107,
-      "y": 0.707107,
+      "x": -0.62001,
+      "y": 0.784594,
       "size": 8
     },
     {
@@ -818,8 +818,8 @@
       ],
       "bytes": 5379,
       "degree": 4,
-      "x": -0.75184,
-      "y": 0.659346,
+      "x": -0.667588,
+      "y": 0.744531,
       "size": 8
     },
     {
@@ -843,8 +843,8 @@
       ],
       "bytes": 3124,
       "degree": 3,
-      "x": -0.793353,
-      "y": 0.608761,
+      "x": -0.712584,
+      "y": 0.701587,
       "size": 8
     },
     {
@@ -862,8 +862,8 @@
       ],
       "bytes": 1527,
       "degree": 2,
-      "x": -0.83147,
-      "y": 0.55557,
+      "x": -0.754823,
+      "y": 0.655929,
       "size": 8
     },
     {
@@ -881,8 +881,8 @@
       ],
       "bytes": 1557,
       "degree": 2,
-      "x": -0.866025,
-      "y": 0.5,
+      "x": -0.794142,
+      "y": 0.607733,
       "size": 8
     },
     {
@@ -900,8 +900,8 @@
       ],
       "bytes": 1232,
       "degree": 1,
-      "x": -0.896873,
-      "y": 0.442289,
+      "x": -0.830388,
+      "y": 0.557186,
       "size": 8
     },
     {
@@ -919,8 +919,8 @@
       ],
       "bytes": 1710,
       "degree": 2,
-      "x": -0.92388,
-      "y": 0.382683,
+      "x": -0.863422,
+      "y": 0.504483,
       "size": 8
     },
     {
@@ -938,8 +938,39 @@
       ],
       "bytes": 464,
       "degree": 1,
-      "x": -0.94693,
-      "y": 0.321439,
+      "x": -0.893115,
+      "y": 0.449828,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-21-capture-nebula.md",
+      "label": "Make capture arrivals and the nebula visible",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [
+        {
+          "repository": "jfusco/brain",
+          "kind": "issue",
+          "number": 102,
+          "url": "https://github.com/jfusco/brain/issues/102"
+        }
+      ],
+      "bytes": 2267,
+      "degree": 2,
+      "x": -0.919353,
+      "y": 0.393434,
+      "size": 8
+    },
+    {
+      "id": "wiki/journal/2026-10-21-galaxy-visual-refresh.md",
+      "label": "Replace the anatomical Brain with a galaxy",
+      "type": "journal",
+      "aliases": [],
+      "githubRefs": [],
+      "bytes": 4635,
+      "degree": 2,
+      "x": -0.942034,
+      "y": 0.335517,
       "size": 8
     },
     {
@@ -957,8 +988,8 @@
       ],
       "bytes": 5737,
       "degree": 3,
-      "x": -0.965926,
-      "y": 0.258819,
+      "x": -0.961071,
+      "y": 0.276302,
       "size": 8
     },
     {
@@ -969,8 +1000,8 @@
       "githubRefs": [],
       "bytes": 2704,
       "degree": 2,
-      "x": 0.997859,
-      "y": 0.065403,
+      "x": 0.998066,
+      "y": 0.06217,
       "size": 12
     },
     {
@@ -981,8 +1012,8 @@
       "githubRefs": [],
       "bytes": 2105,
       "degree": 2,
-      "x": -0.980785,
-      "y": 0.19509,
+      "x": -0.976389,
+      "y": 0.216018,
       "size": 8
     },
     {
@@ -1000,8 +1031,8 @@
       ],
       "bytes": 5776,
       "degree": 3,
-      "x": -0.991445,
-      "y": 0.130526,
+      "x": -0.98793,
+      "y": 0.154898,
       "size": 8
     },
     {
@@ -1012,8 +1043,8 @@
       "githubRefs": [],
       "bytes": 5333,
       "degree": 4,
-      "x": -0.997859,
-      "y": 0.065403,
+      "x": -0.995649,
+      "y": 0.093179,
       "size": 8
     },
     {
@@ -1037,8 +1068,8 @@
       ],
       "bytes": 2877,
       "degree": 2,
-      "x": -1,
-      "y": 0,
+      "x": -0.999516,
+      "y": 0.0311,
       "size": 8
     },
     {
@@ -1049,8 +1080,8 @@
       "githubRefs": [],
       "bytes": 1665,
       "degree": 3,
-      "x": -0.997859,
-      "y": -0.065403,
+      "x": -0.999516,
+      "y": -0.0311,
       "size": 8
     },
     {
@@ -1061,8 +1092,8 @@
       "githubRefs": [],
       "bytes": 2686,
       "degree": 3,
-      "x": -0.991445,
-      "y": -0.130526,
+      "x": -0.995649,
+      "y": -0.093179,
       "size": 8
     },
     {
@@ -1073,8 +1104,8 @@
       "githubRefs": [],
       "bytes": 2078,
       "degree": 3,
-      "x": -0.980785,
-      "y": -0.19509,
+      "x": -0.98793,
+      "y": -0.154898,
       "size": 8
     },
     {
@@ -1092,8 +1123,8 @@
       ],
       "bytes": 1075,
       "degree": 3,
-      "x": -0.965926,
-      "y": -0.258819,
+      "x": -0.976389,
+      "y": -0.216018,
       "size": 8
     },
     {
@@ -1111,8 +1142,8 @@
       ],
       "bytes": 1153,
       "degree": 3,
-      "x": -0.94693,
-      "y": -0.321439,
+      "x": -0.961071,
+      "y": -0.276302,
       "size": 8
     },
     {
@@ -1123,8 +1154,8 @@
       "githubRefs": [],
       "bytes": 2637,
       "degree": 3,
-      "x": -0.92388,
-      "y": -0.382683,
+      "x": -0.942034,
+      "y": -0.335517,
       "size": 8
     },
     {
@@ -1142,8 +1173,8 @@
       ],
       "bytes": 2014,
       "degree": 3,
-      "x": -0.896873,
-      "y": -0.442289,
+      "x": -0.919353,
+      "y": -0.393434,
       "size": 8
     },
     {
@@ -1161,8 +1192,8 @@
       ],
       "bytes": 1840,
       "degree": 3,
-      "x": -0.866025,
-      "y": -0.5,
+      "x": -0.893115,
+      "y": -0.449828,
       "size": 8
     },
     {
@@ -1180,8 +1211,8 @@
       ],
       "bytes": 1384,
       "degree": 3,
-      "x": -0.83147,
-      "y": -0.55557,
+      "x": -0.863422,
+      "y": -0.504483,
       "size": 8
     },
     {
@@ -1192,8 +1223,8 @@
       "githubRefs": [],
       "bytes": 1560,
       "degree": 3,
-      "x": -0.793353,
-      "y": -0.608761,
+      "x": -0.830388,
+      "y": -0.557186,
       "size": 8
     },
     {
@@ -1211,8 +1242,8 @@
       ],
       "bytes": 1101,
       "degree": 3,
-      "x": -0.75184,
-      "y": -0.659346,
+      "x": -0.794142,
+      "y": -0.607733,
       "size": 8
     },
     {
@@ -1230,8 +1261,8 @@
       ],
       "bytes": 1210,
       "degree": 2,
-      "x": -0.707107,
-      "y": -0.707107,
+      "x": -0.754823,
+      "y": -0.655929,
       "size": 8
     },
     {
@@ -1261,8 +1292,8 @@
       ],
       "bytes": 10603,
       "degree": 5,
-      "x": -0.659346,
-      "y": -0.75184,
+      "x": -0.712584,
+      "y": -0.701587,
       "size": 8
     },
     {
@@ -1280,8 +1311,8 @@
       ],
       "bytes": 15754,
       "degree": 4,
-      "x": -0.608761,
-      "y": -0.793353,
+      "x": -0.667588,
+      "y": -0.744531,
       "size": 8
     },
     {
@@ -1305,8 +1336,8 @@
       ],
       "bytes": 16781,
       "degree": 5,
-      "x": -0.55557,
-      "y": -0.83147,
+      "x": -0.62001,
+      "y": -0.784594,
       "size": 8
     },
     {
@@ -1330,8 +1361,8 @@
       ],
       "bytes": 21921,
       "degree": 5,
-      "x": -0.5,
-      "y": -0.866025,
+      "x": -0.570032,
+      "y": -0.821622,
       "size": 8
     },
     {
@@ -1349,8 +1380,8 @@
       ],
       "bytes": 1069,
       "degree": 3,
-      "x": -0.442289,
-      "y": -0.896873,
+      "x": -0.51785,
+      "y": -0.855472,
       "size": 8
     },
     {
@@ -1361,8 +1392,8 @@
       "githubRefs": [],
       "bytes": 1157,
       "degree": 3,
-      "x": -0.382683,
-      "y": -0.92388,
+      "x": -0.463664,
+      "y": -0.886011,
       "size": 8
     },
     {
@@ -1380,8 +1411,8 @@
       ],
       "bytes": 1423,
       "degree": 2,
-      "x": -0.321439,
-      "y": -0.94693,
+      "x": -0.407684,
+      "y": -0.913123,
       "size": 8
     },
     {
@@ -1399,8 +1430,8 @@
       ],
       "bytes": 969,
       "degree": 2,
-      "x": -0.258819,
-      "y": -0.965926,
+      "x": -0.350126,
+      "y": -0.936702,
       "size": 8
     },
     {
@@ -1418,8 +1449,8 @@
       ],
       "bytes": 1374,
       "degree": 3,
-      "x": -0.19509,
-      "y": -0.980785,
+      "x": -0.291215,
+      "y": -0.956658,
       "size": 8
     },
     {
@@ -1443,8 +1474,8 @@
       ],
       "bytes": 2936,
       "degree": 3,
-      "x": -0.130526,
-      "y": -0.991445,
+      "x": -0.231176,
+      "y": -0.972912,
       "size": 8
     },
     {
@@ -1462,8 +1493,8 @@
       ],
       "bytes": 1238,
       "degree": 3,
-      "x": -0.065403,
-      "y": -0.997859,
+      "x": -0.170244,
+      "y": -0.985402,
       "size": 8
     },
     {
@@ -1481,8 +1512,8 @@
       ],
       "bytes": 803,
       "degree": 2,
-      "x": 0,
-      "y": -1,
+      "x": -0.108652,
+      "y": -0.99408,
       "size": 8
     },
     {
@@ -1493,8 +1524,8 @@
       "githubRefs": [],
       "bytes": 1339,
       "degree": 3,
-      "x": 0.065403,
-      "y": -0.997859,
+      "x": -0.04664,
+      "y": -0.998912,
       "size": 8
     },
     {
@@ -1512,8 +1543,8 @@
       ],
       "bytes": 778,
       "degree": 2,
-      "x": 0.130526,
-      "y": -0.991445,
+      "x": 0.015552,
+      "y": -0.999879,
       "size": 8
     },
     {
@@ -1524,8 +1555,8 @@
       "githubRefs": [],
       "bytes": 1212,
       "degree": 3,
-      "x": 0.19509,
-      "y": -0.980785,
+      "x": 0.077684,
+      "y": -0.996978,
       "size": 8
     },
     {
@@ -1536,8 +1567,8 @@
       "githubRefs": [],
       "bytes": 1500,
       "degree": 2,
-      "x": 0.258819,
-      "y": -0.965926,
+      "x": 0.139515,
+      "y": -0.99022,
       "size": 8
     },
     {
@@ -1555,8 +1586,8 @@
       ],
       "bytes": 861,
       "degree": 2,
-      "x": 0.321439,
-      "y": -0.94693,
+      "x": 0.200807,
+      "y": -0.979631,
       "size": 8
     },
     {
@@ -1574,8 +1605,8 @@
       ],
       "bytes": 594,
       "degree": 2,
-      "x": 0.382683,
-      "y": -0.92388,
+      "x": 0.261322,
+      "y": -0.965252,
       "size": 8
     },
     {
@@ -1593,8 +1624,8 @@
       ],
       "bytes": 796,
       "degree": 2,
-      "x": 0.442289,
-      "y": -0.896873,
+      "x": 0.320826,
+      "y": -0.947138,
       "size": 8
     },
     {
@@ -1612,8 +1643,8 @@
       ],
       "bytes": 1567,
       "degree": 3,
-      "x": 0.5,
-      "y": -0.866025,
+      "x": 0.379088,
+      "y": -0.92536,
       "size": 8
     },
     {
@@ -1631,8 +1662,8 @@
       ],
       "bytes": 922,
       "degree": 2,
-      "x": 0.55557,
-      "y": -0.83147,
+      "x": 0.435884,
+      "y": -0.900003,
       "size": 8
     },
     {
@@ -1643,8 +1674,8 @@
       "githubRefs": [],
       "bytes": 4846,
       "degree": 2,
-      "x": 0.608761,
-      "y": -0.793353,
+      "x": 0.490994,
+      "y": -0.871163,
       "size": 8
     },
     {
@@ -1655,8 +1686,8 @@
       "githubRefs": [],
       "bytes": 572,
       "degree": 2,
-      "x": 0.659346,
-      "y": -0.75184,
+      "x": 0.544204,
+      "y": -0.838953,
       "size": 8
     },
     {
@@ -1674,8 +1705,8 @@
       ],
       "bytes": 1010,
       "degree": 2,
-      "x": 0.707107,
-      "y": -0.707107,
+      "x": 0.595309,
+      "y": -0.803497,
       "size": 8
     },
     {
@@ -1693,8 +1724,8 @@
       ],
       "bytes": 892,
       "degree": 2,
-      "x": 0.75184,
-      "y": -0.659346,
+      "x": 0.64411,
+      "y": -0.764933,
       "size": 8
     },
     {
@@ -1705,8 +1736,44 @@
       "githubRefs": [],
       "bytes": 11458,
       "degree": 3,
-      "x": 0.793353,
-      "y": -0.608761,
+      "x": 0.69042,
+      "y": -0.723409,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-21-animate-capture-arrivals-and-the-nebula-01f529f939.md",
+      "label": "Animate capture arrivals and the nebula",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [],
+      "bytes": 959,
+      "degree": 2,
+      "x": 0.734059,
+      "y": -0.679086,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-21-brain-activity-reactions-and-pending-teachings-a7da4c0d6d.md",
+      "label": "Brain activity reactions and pending teachings",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [],
+      "bytes": 1614,
+      "degree": 2,
+      "x": 0.774857,
+      "y": -0.632136,
+      "size": 8
+    },
+    {
+      "id": "wiki/plans/2026-10-21-galaxy-visual-refresh-2bf4f37b3f.md",
+      "label": "Galaxy visual refresh",
+      "type": "plan",
+      "aliases": [],
+      "githubRefs": [],
+      "bytes": 1232,
+      "degree": 2,
+      "x": 0.812658,
+      "y": -0.582741,
       "size": 8
     },
     {
@@ -1890,10 +1957,10 @@
           "url": "https://github.com/jfusco/brain/pull/65"
         }
       ],
-      "bytes": 16145,
-      "degree": 44,
-      "x": 0.83147,
-      "y": -0.55557,
+      "bytes": 16998,
+      "degree": 47,
+      "x": 0.847315,
+      "y": -0.531091,
       "size": 12
     },
     {
@@ -2029,8 +2096,8 @@
       ],
       "bytes": 38120,
       "degree": 121,
-      "x": 0.866025,
-      "y": -0.5,
+      "x": 0.878693,
+      "y": -0.477387,
       "size": 8
     },
     {
@@ -2053,8 +2120,8 @@
       ],
       "bytes": 3960,
       "degree": 9,
-      "x": 0.896873,
-      "y": -0.442289,
+      "x": 0.906673,
+      "y": -0.421835,
       "size": 8
     },
     {
@@ -2075,8 +2142,8 @@
       ],
       "bytes": 8959,
       "degree": 17,
-      "x": 0.92388,
-      "y": -0.382683,
+      "x": 0.931144,
+      "y": -0.364652,
       "size": 8
     },
     {
@@ -2098,8 +2165,8 @@
       ],
       "bytes": 4993,
       "degree": 10,
-      "x": 0.94693,
-      "y": -0.321439,
+      "x": 0.952013,
+      "y": -0.306057,
       "size": 8
     },
     {
@@ -2113,8 +2180,8 @@
       "githubRefs": [],
       "bytes": 11400,
       "degree": 12,
-      "x": 0.965926,
-      "y": -0.258819,
+      "x": 0.969199,
+      "y": -0.246279,
       "size": 8
     },
     {
@@ -2130,10 +2197,10 @@
           "url": "https://github.com/jfusco/brain/issues/98"
         }
       ],
-      "bytes": 1301,
-      "degree": 2,
-      "x": 0.980785,
-      "y": -0.19509,
+      "bytes": 2670,
+      "degree": 9,
+      "x": 0.982635,
+      "y": -0.185548,
       "size": 8
     },
     {
@@ -2151,8 +2218,8 @@
       ],
       "bytes": 450,
       "degree": 2,
-      "x": 0.991445,
-      "y": -0.130526,
+      "x": 0.99227,
+      "y": -0.124099,
       "size": 8
     },
     {
@@ -2180,8 +2247,8 @@
       ],
       "bytes": 4856,
       "degree": 8,
-      "x": 0.997859,
-      "y": -0.065403,
+      "x": 0.998066,
+      "y": -0.06217,
       "size": 8
     }
   ],
@@ -2323,6 +2390,13 @@
       "id": "12ea77c68df60ea4",
       "source": "wiki/plans/INDEX.md",
       "target": "wiki/plans/2026-10-19-allow-explicit-manual-maintenance-reruns-83a5a9fe7a.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "1481faa0c8c6c150",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-21-animate-capture-arrivals-and-the-nebula-01f529f939.md",
       "type": "link",
       "relation": "link"
     },
@@ -2523,6 +2597,13 @@
       "relation": "link"
     },
     {
+      "id": "3399fdb50373dc6f",
+      "source": "wiki/journal/2026-10-21-galaxy-visual-refresh.md",
+      "target": "wiki/topics/visual-brain.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "348901173de377b1",
       "source": "wiki/journal/2026-10-16-project-lesson-capture.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -2649,6 +2730,13 @@
       "relation": "link"
     },
     {
+      "id": "43ca49f58a37e4df",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-21-brain-activity-reactions-and-pending-teachings-a7da4c0d6d.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
       "id": "45a3d09fab418c96",
       "source": "wiki/plans/2026-10-19-local-nightly-reference-maintenance-and-review-d2b90e939b.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
@@ -2722,6 +2810,13 @@
       "id": "4f12ea28e3234dc9",
       "source": "wiki/journal/2026-10-17-semantic-audit-complete.md",
       "target": "wiki/journal/2026-10-17-retained-inbox-curation.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "546aecc6d15ad250",
+      "source": "wiki/journal/2026-10-21-capture-nebula.md",
+      "target": "wiki/topics/visual-brain.md",
       "type": "link",
       "relation": "link"
     },
@@ -2806,6 +2901,13 @@
       "id": "5c2e6652dc0ffec5",
       "source": "wiki/journal/2026-10-18-simplification-phase-2.md",
       "target": "wiki/topics/brain-skill.md",
+      "type": "link",
+      "relation": "link"
+    },
+    {
+      "id": "5df3b0cc8b6d40ac",
+      "source": "wiki/journal/2026-10-21-galaxy-visual-refresh.md",
+      "target": "wiki/topics/visual-brain.md",
       "type": "link",
       "relation": "link"
     },
@@ -2964,6 +3066,13 @@
       "relation": "link"
     },
     {
+      "id": "76306a543f234974",
+      "source": "wiki/journal/2026-10-21-capture-nebula.md",
+      "target": "wiki/topics/visual-brain.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "76454687f12ccc17",
       "source": "wiki/journal/2026-10-16-tailwind-application-review.md",
       "target": "wiki/plans/2026-10-16-brain-follow-ups-curation-and-delivery-reconciliation-eb8a80597f.md",
@@ -3032,6 +3141,13 @@
       "target": "wiki/topics/hosted-maintenance.md",
       "type": "topic",
       "relation": "topic"
+    },
+    {
+      "id": "7e099e0c83cf86db",
+      "source": "wiki/plans/INDEX.md",
+      "target": "wiki/plans/2026-10-21-galaxy-visual-refresh-2bf4f37b3f.md",
+      "type": "link",
+      "relation": "link"
     },
     {
       "id": "7e5508a1357ce0b1",
@@ -3545,11 +3661,25 @@
       "relation": "link"
     },
     {
+      "id": "bde27c4a1540b4fa",
+      "source": "wiki/plans/2026-10-21-animate-capture-arrivals-and-the-nebula-01f529f939.md",
+      "target": "wiki/topics/visual-brain.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
       "id": "bfc07ac9e1527f92",
       "source": "wiki/journal/2026-10-15-on-demand-reliability.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
       "type": "link",
       "relation": "link"
+    },
+    {
+      "id": "c0655409b2d84678",
+      "source": "wiki/plans/2026-10-21-galaxy-visual-refresh-2bf4f37b3f.md",
+      "target": "wiki/topics/visual-brain.md",
+      "type": "topic",
+      "relation": "topic"
     },
     {
       "id": "c1db428b97fffb16",
@@ -3870,6 +4000,13 @@
       "id": "ed175892086fe108",
       "source": "wiki/journal/2026-10-17-curator-rejections.md",
       "target": "wiki/topics/automatic-knowledge-maintenance.md",
+      "type": "topic",
+      "relation": "topic"
+    },
+    {
+      "id": "edb1c5f4bd91d468",
+      "source": "wiki/plans/2026-10-21-brain-activity-reactions-and-pending-teachings-a7da4c0d6d.md",
+      "target": "wiki/topics/visual-brain.md",
       "type": "topic",
       "relation": "topic"
     },
