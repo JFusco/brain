@@ -9,6 +9,7 @@ aliases: ["contentstack"]
 
 <!-- brain:curated:start -->
 - [Check Contentstack kickstart assumptions before reuse](kickstart-skill-applicability.md)
+- [Generate editor guidance from reviewed field definitions](editor-guidance-from-field-definitions.md)
 - [Keep Contentstack import state with native concurrency](asset-import-state.md)
 - [Organize Contentstack assets by ownership and reuse](asset-ownership-and-reuse.md)
 <!-- brain:curated:end -->

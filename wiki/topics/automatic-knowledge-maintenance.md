@@ -33,6 +33,10 @@ The [local setup journal](../journal/2026-10-19-local-nightly-maintenance.md) di
 
 The [daily curation journal](../journal/2026-10-21-daily-capture-curation.md) records stale-first CMS revalidation and six reviewed captures. Related import proposals share one Contentstack procedure; asset ownership, design acceptance, component context and shared-document coordination retain separate applicability. Official mechanisms ground proposed practices without turning private pilot claims into general compatibility or throughput guarantees. Partially covered captures stay pending, and final run completion remains the acceptance boundary.
 
+## Completing partly incorporated captures
+
+The [October 21 follow-up](../journal/2026-10-21-capture-accounting-follow-up.md) records Joe’s request to finish five partly incorporated captures and review editor-guidance material. Useful proposals can be fully accounted for without presenting them as tested implementations. The author records which claims were checked, which practices remain proposed and which incident-specific claims were not adopted. Original evidence remains private; capture acceptance still waits for guarded publication and successful run completion. Missing runtime experiments are stated as limits rather than invented results.
+
 ## Current flow: notes publish on merge
 
 [Simplification phase 2](../journal/2026-10-18-simplification-phase-2.md) ([issue 54](https://github.com/JFusco/brain/issues/54)) replaced the pipeline described in the historical sections below.

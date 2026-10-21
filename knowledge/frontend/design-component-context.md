@@ -28,3 +28,5 @@ Use this when mapping Figma instances to existing application components or adap
 
 Official pages were read on October 21. These are preparation practices, without a native editing session, installed integration check or Code Connect accuracy benchmark. Private reconstruction observations were not independently validated and supply no general repair algorithm. Geometry equality alone is not a proof of semantic identity. For coordination, see [bounded design preparation](bounded-design-preparation.md).
 
+
+**Proposed comparison procedure:** when identity is uncertain, compare component/instance relationships, supported properties, assets, layout, ownership and lineage alongside geometry. Define the required equality checks before choosing reconstruction or reuse. Preserve stable identities where supported, and record a failed persistence/readback check rather than calling a non-throwing mutation successful. The private report of a particular fragment-based reconstruction is not a general repair recipe; this note adopts the comparison principle without asserting that experiment was reproduced.
