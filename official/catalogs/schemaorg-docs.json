@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "source": "schemaorg-docs",
+  "revision": "fd5f6e3f496d0f569a651cc9f87b867dc9659da7d6ad010607c5bf1501822dee",
+  "origin": "https://schema.org/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "docs / about.html",
+      "url": "https://schema.org/docs/about.html",
+      "fetchUrl": "https://schema.org/docs/about.html"
+    },
+    {
+      "title": "Schema.org structured data model",
+      "url": "https://schema.org/docs/datamodel.html",
+      "fetchUrl": "https://schema.org/docs/datamodel.html"
+    },
+    {
+      "title": "docs / developers.html",
+      "url": "https://schema.org/docs/developers.html",
+      "fetchUrl": "https://schema.org/docs/developers.html"
+    },
+    {
+      "title": "docs / extension.html",
+      "url": "https://schema.org/docs/extension.html",
+      "fetchUrl": "https://schema.org/docs/extension.html"
+    },
+    {
+      "title": "docs / faq.html",
+      "url": "https://schema.org/docs/faq.html",
+      "fetchUrl": "https://schema.org/docs/faq.html"
+    },
+    {
+      "title": "docs / full.html",
+      "url": "https://schema.org/docs/full.html",
+      "fetchUrl": "https://schema.org/docs/full.html"
+    },
+    {
+      "title": "docs / gs.html",
+      "url": "https://schema.org/docs/gs.html",
+      "fetchUrl": "https://schema.org/docs/gs.html"
+    },
+    {
+      "title": "docs / hotels.html",
+      "url": "https://schema.org/docs/hotels.html",
+      "fetchUrl": "https://schema.org/docs/hotels.html"
+    },
+    {
+      "title": "docs / howwework.html",
+      "url": "https://schema.org/docs/howwework.html",
+      "fetchUrl": "https://schema.org/docs/howwework.html"
+    },
+    {
+      "title": "docs / meddocs.html",
+      "url": "https://schema.org/docs/meddocs.html",
+      "fetchUrl": "https://schema.org/docs/meddocs.html"
+    },
+    {
+      "title": "docs / releases.html",
+      "url": "https://schema.org/docs/releases.html",
+      "fetchUrl": "https://schema.org/docs/releases.html"
+    },
+    {
+      "title": "docs / schemas.html",
+      "url": "https://schema.org/docs/schemas.html",
+      "fetchUrl": "https://schema.org/docs/schemas.html"
+    }
+  ],
+  "referenceIssues": []
+}

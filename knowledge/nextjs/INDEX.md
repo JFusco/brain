@@ -5,6 +5,12 @@ aliases: ["nextjs", "next.js", "app router", "app router caching"]
 
 # Nextjs
 
+## Related domains
+
+- [Performance](../performance/INDEX.md)
+- [Security](../security/INDEX.md)
+- [Semantics](../semantics/INDEX.md)
+
 ## Curated learnings
 
 <!-- brain:curated:start -->

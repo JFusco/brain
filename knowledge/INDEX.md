@@ -9,6 +9,9 @@ Open the relevant domain, then only the pages it routes to. Official sections ar
 
 - [Frontend](frontend/INDEX.md)
 - [Accessibility (WCAG, WAI-ARIA)](accessibility/INDEX.md)
+- [Performance](performance/INDEX.md)
+- [Security](security/INDEX.md)
+- [Semantics](semantics/INDEX.md)
 - [React](react/INDEX.md)
 - [TypeScript](typescript/INDEX.md)
 - [Next.js and App Router caching](nextjs/INDEX.md)

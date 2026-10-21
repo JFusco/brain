@@ -5,6 +5,12 @@ aliases: ["accessibility", "a11y", "wcag", "wai-aria"]
 
 # Accessibility
 
+## Related domains
+
+- [Performance](../performance/INDEX.md)
+- [Security](../security/INDEX.md)
+- [Semantics](../semantics/INDEX.md)
+
 ## Curated learnings
 
 <!-- brain:curated:start -->

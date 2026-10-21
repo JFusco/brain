@@ -7,6 +7,12 @@ aliases: ["curation", "reference refresh", "Brain audit"]
 
 Brain captures private lesson evidence, catalogs official entry points, and publishes useful guidance through documented, issue-linked PRs. Joe authorized automatic merges for routine knowledge, catalog-refresh and wiki maintenance PRs without a separate digest approval. The nightly local curator is restricted to knowledge and reference artifacts; code, policies, registry edits, new source/host registrations, other repositories, installed project skills, and memories are outside that recurring scope.
 
+## Performance, Security and Semantics coverage
+
+The [October 21 implementation journal](../journal/2026-10-21-performance-security-semantics-hubs.md) records three additive reference hubs, OWASP and Schema.org catalogs, seven pointers and configuration-only capture routing. Semantics keeps HTML, structured data, content models and experimental search distinct. Existing vendor assignments and routing behavior remain intact; no initial practice notes were added.
+
+Local catalog, routing and lookup checks passed. Schema.org datamodel selective retrieval failed as unavailable or challenged, so the plan remains partial despite successful catalog indexing. Joe subsequently authorized issue-linked Git delivery and merging through [issue 101](https://github.com/JFusco/brain/issues/101). The new hubs appear in local lookup, while visual graph visibility awaits publication to committed main.
+
 ## Current execution: local nightly maintenance
 
 On October 19 Joe requested local reference refresh, curation, review and verification. The **Brain weekly reference health** and **Brain catalog sync** GitHub workflows are disabled. The separate **Wiki integrity** PR check remains active; the maintenance change does not disable or bypass it.
