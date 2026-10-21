@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "sitecore-content-sdk",
-  "revision": "dd7962d8f3eb9b826edb86ff3996c852e43ed31c",
-  "origin": "https://github.com/Sitecore/content-sdk/tree/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/",
+  "revision": "27af66d9c81f143927c96d8dc543d852b5c30b69",
+  "origin": "https://github.com/Sitecore/content-sdk/tree/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/",
   "skills": [
     {
       "id": "sitecore-content-sdk/content-sdk-cache-components-and-osr",
@@ -25,8 +25,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-cache-components-and-osr/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-cache-components-and-osr/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-cache-components-and-osr/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-cache-components-and-osr/SKILL.md",
       "gitBlobSha": "4ef5c52c17ec7081fac5d24ae13b95fad4d91cef"
     },
     {
@@ -50,8 +50,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-data-strategy/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-data-strategy/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-data-strategy/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-data-strategy/SKILL.md",
       "gitBlobSha": "91d437214d38a89fdebd84844061220e38c0464b"
     },
     {
@@ -75,8 +75,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-registration/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-registration/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-registration/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-registration/SKILL.md",
       "gitBlobSha": "828aaf5fb8f5fd106709bdb03f7b11e87eae12d2"
     },
     {
@@ -100,8 +100,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-scaffold/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-scaffold/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-scaffold/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-scaffold/SKILL.md",
       "gitBlobSha": "ee1fc3d9e66b04a8008ff77f3f7fd70e83456fe8"
     },
     {
@@ -125,8 +125,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-variants/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-variants/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-variants/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-component-variants/SKILL.md",
       "gitBlobSha": "522cae398afb29f921ce0a373981161ef4f583ae"
     },
     {
@@ -150,8 +150,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-dictionary-and-i18n/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-dictionary-and-i18n/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-dictionary-and-i18n/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-dictionary-and-i18n/SKILL.md",
       "gitBlobSha": "e3ca0e07f6ab92fd56a5bbfe539cedc77ca104e6"
     },
     {
@@ -175,8 +175,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-editing-safe-rendering/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-editing-safe-rendering/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-editing-safe-rendering/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-editing-safe-rendering/SKILL.md",
       "gitBlobSha": "a3e07bf2f4f51697f9a31ee793f7e8d7862eec19"
     },
     {
@@ -200,8 +200,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-field-usage-image-link-text/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-field-usage-image-link-text/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-field-usage-image-link-text/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-field-usage-image-link-text/SKILL.md",
       "gitBlobSha": "ac7d387e0fae2591a8d02372c6ee037a239df40e"
     },
     {
@@ -225,8 +225,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-graphql-data-fetching/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-graphql-data-fetching/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-graphql-data-fetching/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-graphql-data-fetching/SKILL.md",
       "gitBlobSha": "51ffa6d503426db0e98c2b8e76772de8f4f04997"
     },
     {
@@ -250,8 +250,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-multisite-management/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-multisite-management/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-multisite-management/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-multisite-management/SKILL.md",
       "gitBlobSha": "04de796bcf4142fb125be8e9bd718810b1c00e14"
     },
     {
@@ -275,8 +275,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-route-configuration/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-route-configuration/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-route-configuration/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-route-configuration/SKILL.md",
       "gitBlobSha": "20008dc11c00ef22f47c8b9cb765a0f37f8bbcf7"
     },
     {
@@ -300,8 +300,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-site-setup-and-env/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-site-setup-and-env/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-site-setup-and-env/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-site-setup-and-env/SKILL.md",
       "gitBlobSha": "aa44086521446f965130ee2038684bcfc6a703eb"
     },
     {
@@ -325,8 +325,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-sitemap-robots/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-sitemap-robots/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-sitemap-robots/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-sitemap-robots/SKILL.md",
       "gitBlobSha": "1d86bfc7de3dba1237737b1f75825dd2fd7d2fc3"
     },
     {
@@ -350,8 +350,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-troubleshoot-editing/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-troubleshoot-editing/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-troubleshoot-editing/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-troubleshoot-editing/SKILL.md",
       "gitBlobSha": "590dc0c8964b7423ea27d36b52b7c7e76d0ca533"
     },
     {
@@ -375,8 +375,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-upgrade-assistant/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-upgrade-assistant/SKILL.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-upgrade-assistant/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/skills/content-sdk-upgrade-assistant/SKILL.md",
       "gitBlobSha": "7861b07d74d2ec21470d8468284e6ed47184d1d2"
     }
   ],
@@ -384,36 +384,36 @@
     {
       "path": "docs/AGENTS-key-concepts.md",
       "title": "Key concepts (App Router + Cache Components)",
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-key-concepts.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-key-concepts.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-key-concepts.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-key-concepts.md",
       "gitBlobSha": "466d1bfb1719fc989ff65e1aa136d3ce573b7fa8"
     },
     {
       "path": "docs/AGENTS-overview.md",
       "title": "Project overview (App Router + Cache Components)",
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-overview.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-overview.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-overview.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-overview.md",
       "gitBlobSha": "f365d232107978c85a488970715afdf07cb9a442"
     },
     {
       "path": "docs/AGENTS-router-specifics.md",
       "title": "Next.js App Router + Cache Components specifics",
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-router-specifics.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-router-specifics.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-router-specifics.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-router-specifics.md",
       "gitBlobSha": "512e8d3575d5ea7dcdabdf21d87d8b31dfb111df"
     },
     {
       "path": "docs/AGENTS-workflows-and-boundaries.md",
       "title": "Workflows and boundaries (App Router + Cache Components)",
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-workflows-and-boundaries.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-workflows-and-boundaries.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-workflows-and-boundaries.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-workflows-and-boundaries.md",
       "gitBlobSha": "b9e02788fbe93819a3786f72f35e6513a6b05bbd"
     },
     {
       "path": "docs/README.md",
       "title": "Layered AI docs (App Router + Cache Components)",
-      "url": "https://github.com/Sitecore/content-sdk/blob/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/dd7962d8f3eb9b826edb86ff3996c852e43ed31c/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/README.md",
+      "url": "https://github.com/Sitecore/content-sdk/blob/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/Sitecore/content-sdk/27af66d9c81f143927c96d8dc543d852b5c30b69/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/README.md",
       "gitBlobSha": "a01b58e10ea5d0bcc68d125fc1bf06c012ff00aa"
     }
   ],

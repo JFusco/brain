@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms13-docs",
-  "revision": "c0c9cf5042df65b82451daf5965c858ffcf86dd0d04656602bee8d3ce27c851a",
+  "revision": "7fcd63b3ed0e7fe7217f9d07d26df15907107181fa89bec629d3fa225140d9d1",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -1937,7 +1937,7 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/migrate-dam-from-cms-12-to-cms-13.md"
     },
     {
-      "title": "Mixed-mode authentication",
+      "title": "Mixed-mode authentication for CMS 13",
       "url": "https://docs.optimizely.com/cms-13/docs/mixed-mode-authentication.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/mixed-mode-authentication.md"
     },

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "348b7c08f53ad501f670a3d4f5c2d8962f7ed5901345bb9665061ab8a5408754",
+  "revision": "45bb893a2ca51eb0906e6c35cc1162cbfe5e2048548c4dc61f62ce16331d5c5d",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -4342,7 +4342,7 @@
       "fetchUrl": "https://vercel.com/docs/headers/response-headers.md"
     },
     {
-      "title": "How Vercel CDN works",
+      "title": "How Vercel CDN Works",
       "url": "https://vercel.com/docs/how-vercel-cdn-works",
       "fetchUrl": "https://vercel.com/docs/how-vercel-cdn-works.md"
     },
@@ -6297,6 +6297,16 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-all-flags-for-a-team.md"
     },
     {
+      "title": "List attribute label counts",
+      "url": "https://vercel.com/docs/rest-api/feature-flags/list-attribute-label-counts",
+      "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-attribute-label-counts.md"
+    },
+    {
+      "title": "List attribute labels",
+      "url": "https://vercel.com/docs/rest-api/feature-flags/list-attribute-labels",
+      "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-attribute-labels.md"
+    },
+    {
       "title": "List flag versions",
       "url": "https://vercel.com/docs/rest-api/feature-flags/list-flag-versions",
       "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-flag-versions.md"
@@ -6315,6 +6325,11 @@
       "title": "List team project flag settings",
       "url": "https://vercel.com/docs/rest-api/feature-flags/list-team-project-flag-settings",
       "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-team-project-flag-settings.md"
+    },
+    {
+      "title": "Look up attribute labels",
+      "url": "https://vercel.com/docs/rest-api/feature-flags/look-up-attribute-labels",
+      "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/look-up-attribute-labels.md"
     },
     {
       "title": "Retrieve the feature flags of a deployment",
@@ -7772,14 +7787,19 @@
       "fetchUrl": "https://vercel.com/docs/routing-middleware.md"
     },
     {
-      "title": "Routing Middleware API",
-      "url": "https://vercel.com/docs/routing-middleware/api",
-      "fetchUrl": "https://vercel.com/docs/routing-middleware/api.md"
-    },
-    {
       "title": "Getting Started with Routing Middleware",
       "url": "https://vercel.com/docs/routing-middleware/getting-started",
       "fetchUrl": "https://vercel.com/docs/routing-middleware/getting-started.md"
+    },
+    {
+      "title": "Routing Middleware: JS Reference",
+      "url": "https://vercel.com/docs/routing-middleware/js-reference",
+      "fetchUrl": "https://vercel.com/docs/routing-middleware/js-reference.md"
+    },
+    {
+      "title": "Routing Middleware: Python Reference",
+      "url": "https://vercel.com/docs/routing-middleware/python-reference",
+      "fetchUrl": "https://vercel.com/docs/routing-middleware/python-reference.md"
     },
     {
       "title": "Project-Level Routing Rules",
