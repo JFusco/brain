@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "sitecoreai-docs",
-  "revision": "dd09cf3c81ad51d22f936f2bc442ca6c0af733b3db96cea5e8b510d03654732e",
+  "revision": "70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6",
   "origin": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -395,6 +395,11 @@
       "title": "search engine optimization  seo  / configure a sitemap in the content editor.html",
       "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-engine-optimization--seo-/configure-a-sitemap-in-the-content-editor.html",
       "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-engine-optimization--seo-/configure-a-sitemap-in-the-content-editor.html"
+    },
+    {
+      "title": "search engine optimization  seo  / configure json ld schemas.html",
+      "url": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-engine-optimization--seo-/configure-json-ld-schemas.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/developers/sitecoreai/content-modeling-and-presentation/search-engine-optimization--seo-/configure-json-ld-schemas.html"
     },
     {
       "title": "search engine optimization  seo  / configure the robots txt file.html",

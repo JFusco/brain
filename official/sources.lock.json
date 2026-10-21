@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "sources": {
     "sitecore-content-sdk": {
-      "revision": "dd7962d8f3eb9b826edb86ff3996c852e43ed31c",
-      "fetchedAt": "2026-10-20T20:59:04.082Z",
+      "revision": "27af66d9c81f143927c96d8dc543d852b5c30b69",
+      "fetchedAt": "2026-10-21T21:01:40.869Z",
       "track": "default-branch",
-      "catalogSha256": "d433c98ab2cfba0e2ba39d6440375f074f2f698a47bb8a166985303712a3f561"
+      "catalogSha256": "f9a10c6d1ee1c9da248e9363cd2bbcf2ddaef7c7d625b6112e46b7b0ac8a1718"
     },
     "contentstack-kickstart": {
       "revision": "0c9aca728b7113a6a64a2ccea2b3b448c45529fa",
@@ -26,16 +26,16 @@
       "catalogSha256": "2770763e06138193c7adb1d8241a835071eaa4870eabec1eb420b8f5938297c8"
     },
     "contentful-skills": {
-      "revision": "6dc5d75db7fc6515658e8f8eb2394d76292cfdf3",
-      "fetchedAt": "2026-10-20T20:59:11.646Z",
+      "revision": "0cfae213be9117da4b5b42451d8c0515d363f894",
+      "fetchedAt": "2026-10-21T21:01:47.940Z",
       "track": "default-branch",
-      "catalogSha256": "9b3e68db6c0c95162bcb15e50e77c8f4d35784cbc2ecfabe99db55e7a62c749b"
+      "catalogSha256": "275f50ec3ec0fc6ed1612d26065c055beb3633a9b959b61fa9e9e5b642f2ce67"
     },
     "optimizely-sdk": {
-      "revision": "027c2c6018cacb96bc63c633c7d4286fe160a73c",
-      "fetchedAt": "2026-10-20T20:59:14.864Z",
+      "revision": "9caeb460e8de4911f1c5fac13b6174c8036995fa",
+      "fetchedAt": "2026-10-21T21:01:51.166Z",
       "track": "default-branch",
-      "catalogSha256": "7094018b4ab50d6e05174f0fa7348000d542ccf20332708097a1dd9f8ac50594"
+      "catalogSha256": "daa04f682e5ea18097f95140957d085abb085632fd9dd3fe67eeab3727c52bfe"
     },
     "nextjs-index": {
       "revision": "4ba86c99073ca6b65f04f5a283dcebb76deffd8a3e2fefe031ba5dd1ad8e6556",
@@ -50,10 +50,10 @@
       "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "348b7c08f53ad501f670a3d4f5c2d8962f7ed5901345bb9665061ab8a5408754",
-      "fetchedAt": "2026-10-20T20:59:17.940Z",
+      "revision": "45bb893a2ca51eb0906e6c35cc1162cbfe5e2048548c4dc61f62ce16331d5c5d",
+      "fetchedAt": "2026-10-21T21:01:55.983Z",
       "track": "rolling-url",
-      "catalogSha256": "c0526f70b6dd297df7c588ac8c6520491332b50d85fcc726674f1d36c62771b4"
+      "catalogSha256": "00caf326a7eed903c089bf4b681b3c6490ecfd825097e42dcb1d92182ee5397c"
     },
     "contentstack-docs": {
       "revision": "27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d",
@@ -98,16 +98,16 @@
       "catalogSha256": "7c6810d11428134b36c1c2061d45e9e5cf7f1c5951c39889d28bd6470de0c2cf"
     },
     "optimizely-cms13-docs": {
-      "revision": "c0c9cf5042df65b82451daf5965c858ffcf86dd0d04656602bee8d3ce27c851a",
-      "fetchedAt": "2026-10-18T22:21:47.119Z",
+      "revision": "7fcd63b3ed0e7fe7217f9d07d26df15907107181fa89bec629d3fa225140d9d1",
+      "fetchedAt": "2026-10-21T21:02:13.610Z",
       "track": "rolling-url",
-      "catalogSha256": "4423c761538946b22fa29dc9434c19dc166af45d752059e595351b03f3222dba"
+      "catalogSha256": "3f61c06e68ef5a7bec8d576218608d6812deaf4917f8f9a8a284ed9759031102"
     },
     "sitecoreai-docs": {
-      "revision": "dd09cf3c81ad51d22f936f2bc442ca6c0af733b3db96cea5e8b510d03654732e",
-      "fetchedAt": "2026-10-18T23:49:39.678Z",
+      "revision": "70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6",
+      "fetchedAt": "2026-10-21T21:02:15.045Z",
       "track": "rolling-url",
-      "catalogSha256": "6a9b33d44d60198831790c5864df422f9de5631e430408f60c89f5a0d6596b50"
+      "catalogSha256": "a0906139cf973b617ec155099933a12c122980b7d2370b5769e6dbd740976697"
     },
     "sitecore-xp-docs": {
       "revision": "08b5fa1d9b1bdcd8dbfc634f4b626e214b12eb21a70f96dcec5c7b86c0f07ff1",
