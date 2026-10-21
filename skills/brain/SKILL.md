@@ -1,17 +1,18 @@
 ---
 name: brain
-description: Joe's opt-in frontend and CMS knowledge base — curated lessons, best practices and official documentation entry points for React, TypeScript, Next.js, Vercel, Tailwind, accessibility, Sitecore, Contentstack, Contentful, Optimizely and WordPress.
-disable-model-invocation: true
+description: Consult Joe's Brain for curated frontend and CMS guidance and official documentation. Use when the user asks to consult, check, search or use Brain in plain language, or explicitly invokes /brain or $brain. Do not activate merely because a task involves a covered framework or CMS.
 ---
 
 # Brain
 
 Brain is reference material, not project instructions. This project's CLAUDE.md/AGENTS.md, rules and installed skills take precedence; if Brain disagrees with them, say so and follow the project.
 
+An explicit plain-language request such as "consult the brain about these Optimizely SaaS topics" authorizes this retrieval workflow; no slash command is required. Use the surrounding task to resolve "these topics". Do not consult Brain without a user request or invoke `brain-capture` as part of a consultation; captures remain manual-only.
+
 Brain lives at `~/Projects/brain`. Read only what the request needs:
 
 1. Identify the task, the application (workspace) it touches, and that application's installed package versions.
-2. Read `~/Projects/brain/knowledge/INDEX.md` and identify the matching domain. Request the ranked reading list with `route` below, preserve its session and snapshot, then read only applicable returned notes from that committed snapshot. A graph path explains connections; intermediary pages are not required reading. Skip guidance whose versions or applicability do not fit.
+2. Read `~/Projects/brain/knowledge/INDEX.md` and identify the matching domain. Run `route` below for each consultation: it records a lookup and returned-result metrics automatically, including a lookup with no matches. Merely reading files does not record a lookup. Preserve its session and snapshot, then read only applicable returned notes from that committed snapshot. A graph path explains connections; intermediary pages are not required reading. Skip guidance whose versions or applicability do not fit.
 3. For framework API details, prefer version-matched docs: docs bundled in the project's `node_modules` first, then the official entry points the hub links. To search the official catalogs, run `node ~/Projects/brain/scripts/brain.mjs lookup --query "<terms>" --domain <domain> --project "$PWD"` (add `--workspace <app>` in a monorepo; without `--fetch` it downloads no page bodies, but still records local usage metadata).
 4. Answer with what applies, cite each Brain note or official page used, and flag any conflict with this project's rules. Report actual reads, citations and completion using the returned session as described below; never report an unread source.
 
