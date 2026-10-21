@@ -287,7 +287,6 @@ The native `.githooks/pre-commit` runs the blocking Brain privacy check, then th
 ```sh
 node scripts/wiki/build-graph.cjs
 node scripts/wiki/check.cjs
-node scripts/wiki/serve-graph.cjs
 ```
 
 Hosted `Wiki integrity` checks PRs. Brain no longer runs automatic wiki merge or issue reconciliation workflows; the same-delivery rule records history with each change. No repository secrets are required for that read-only wiki check. Reference maintenance uses the local tools and authenticated issue/PR delivery.
