@@ -554,6 +554,56 @@
       "license": "GPL-2.0-or-later; see LICENSE at the catalogued WordPress/agent-skills commit",
       "installPolicy": "reference-only",
       "applicability": "Official WordPress agent skills and selected supporting references at a pinned upstream commit. Reference only; no installation or execution. Scope and version requirements must be checked against the consuming WordPress project."
+    },
+    {
+      "id": "owasp-cheat-sheets",
+      "vendor": "owasp",
+      "domains": [
+        "security"
+      ],
+      "kind": "collection",
+      "indexFormat": "sitemap",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "maxPages": 5000,
+      "maxIndexes": 32,
+      "indexUrl": "https://cheatsheetseries.owasp.org/sitemap.xml",
+      "allowedHosts": [
+        "cheatsheetseries.owasp.org"
+      ],
+      "includePrefixes": [
+        "/cheatsheets/"
+      ],
+      "license": "CC-BY-SA-4.0",
+      "applicability": "Rolling OWASP application-security cheat-sheet links. Apply guidance to the target web application, framework and CMS; this catalog does not establish compliance. Page bodies are fetched selectively, not mirrored."
+    },
+    {
+      "id": "schemaorg-docs",
+      "vendor": "schemaorg",
+      "domains": [
+        "semantics"
+      ],
+      "kind": "collection",
+      "indexFormat": "sitemap",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "maxPages": 5000,
+      "maxIndexes": 32,
+      "indexUrl": "https://schema.org/sitemap.xml",
+      "allowedHosts": [
+        "schema.org"
+      ],
+      "includePrefixes": [
+        "/docs/"
+      ],
+      "license": "CC-BY-SA-3.0 (schemas, supporting documentation and examples; https://schema.org/docs/faq.html)",
+      "applicability": "Rolling Schema.org documentation links under /docs/ for structured-data vocabulary and modeling. Excludes the complete type/property vocabulary catalog. Page bodies are fetched selectively, not mirrored.",
+      "additionalPages": [
+        {
+          "title": "Schema.org structured data model",
+          "url": "https://schema.org/docs/datamodel.html"
+        }
+      ]
     }
   ],
   "pointers": [
@@ -621,6 +671,41 @@
       "domain": "cms/wordpress",
       "url": "https://github.com/WordPress/mcp-adapter",
       "reason": "Official WordPress MCP adapter, identified by the WordPress AI handbook at https://make.wordpress.org/ai/handbook/projects/mcp-adapter/. Website pointer only; no installation or execution. Check requirements against the consuming WordPress project."
+    },
+    {
+      "domain": "performance",
+      "url": "https://web.dev/learn/performance",
+      "reason": "Web performance: browser loading, rendering and profiling. Rolling web.dev Learn Performance course; pointer only."
+    },
+    {
+      "domain": "performance",
+      "url": "https://web.dev/articles/vitals",
+      "reason": "Core Web Vitals performance metrics. Rolling web.dev overview; pointer only."
+    },
+    {
+      "domain": "semantics",
+      "url": "https://html.spec.whatwg.org/multipage/",
+      "reason": "HTML semantics and native controls in the WHATWG HTML Living Standard. Rolling standard; pointer only."
+    },
+    {
+      "domain": "semantics",
+      "url": "https://web.dev/learn/html/semantic-html",
+      "reason": "Semantic HTML meaning and native elements. Rolling web.dev tutorial; pointer only."
+    },
+    {
+      "domain": "semantics",
+      "url": "https://www.w3.org/TR/json-ld11/",
+      "reason": "JSON-LD 1.1 structured data and linked data; published W3C Recommendation. Pointer only."
+    },
+    {
+      "domain": "semantics",
+      "url": "https://www.contentstack.com/docs/headless-cms/about-content-modeling",
+      "reason": "Contentstack content modeling and domain models; product-specific headless CMS guidance. Verify applicability to the consuming stack. Pointer only."
+    },
+    {
+      "domain": "semantics",
+      "url": "https://docs.optimizely.com/graph/docs/semantic-search.md",
+      "reason": "Optimizely Graph semantic search; experimental product feature. Confirm current availability and limitations for the target Graph deployment. Pointer only."
     }
   ]
 }
