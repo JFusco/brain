@@ -4,7 +4,7 @@ import http from 'node:http';
 import {randomUUID} from 'node:crypto';
 import {at,noSymlinks} from '../core.mjs';
 import {snapshot,healthOverlay} from './snapshot.mjs';
-import {route,reportActivity} from './retrieval.mjs';
+import {route,reportActivity,pendingIntake} from './retrieval.mjs';
 import {summary,eventsAfter,latestSequence,startSession,sessionInfo} from './metrics.mjs';
 const types={'.html':'text/html; charset=utf-8','.js':'application/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml'};
 async function body(req){let data='';for await(const chunk of req){data+=chunk;if(Buffer.byteLength(data)>8192)throw new Error('Request body exceeds its bound');}return JSON.parse(data);}
@@ -25,6 +25,7 @@ export async function serve({port=4174}={}){
       if(req.method==='GET'&&url.pathname==='/api/graph'){
         const s=snapshot(),nodes=healthOverlay(s);return send(200,{snapshot:s.revision,domains:s.domains,nodes,edges:s.edges});
       }
+      if(req.method==='GET'&&url.pathname==='/api/intake')return send(200,pendingIntake());
       if(req.method==='GET'&&url.pathname==='/api/metrics')return send(200,await summary(url.searchParams.get('period')||'today'));
       if(req.method==='GET'&&url.pathname==='/api/events'){
         let seq=await latestSequence();res.writeHead(200,{'Content-Type':'text/event-stream','Connection':'keep-alive'});res.write('event: ready\ndata: {}\n\n');

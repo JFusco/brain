@@ -25,7 +25,7 @@ export async function startSession(snapshot){const db=await database(),id=random
 export async function sessionInfo(id){if(typeof id!=='string'||!/^[-a-f0-9]{36}$/.test(id))throw new Error('Invalid activity session');const s=(await database()).prepare('SELECT * FROM sessions WHERE id=?').get(id);if(!s)throw new Error('Unknown activity session');return s;}
 export async function record({session,node='',type,eventId,origin='agent'}) {
   const db=await database();const s=await sessionInfo(session);const now=Date.now();
-  if(!['search','no-results','returned','planned','read','cited','complete'].includes(type)||!['agent','viewer','cli'].includes(origin))throw new Error('Invalid activity event');
+  if(!['search-started','search-failed','captured','search','no-results','returned','planned','read','cited','complete'].includes(type)||!['agent','viewer','cli'].includes(origin))throw new Error('Invalid activity event');
   if(typeof eventId!=='string'||!/^[-a-f0-9]{36}$/.test(eventId)||typeof node!=='string'||node.length>2048)throw new Error('Invalid activity identifiers');
   const dedupe=['read','cited','complete'].includes(type)?`${session}|${node}|${type}`:eventId;
   db.exec('BEGIN IMMEDIATE');
@@ -35,7 +35,7 @@ export async function record({session,node='',type,eventId,origin='agent'}) {
     const current=db.prepare('SELECT started,completed FROM sessions WHERE id=?').get(session);
     if(now-current.started>DAY||current.completed)throw new Error('Activity session has expired or completed');
     db.prepare('INSERT INTO events(id,dedupe,session,node,type,at,origin) VALUES(?,?,?,?,?,?,?)').run(eventId,dedupe,session,node,type,now,origin);
-    if(type!=='planned'&&type!=='complete')db.prepare(`INSERT INTO daily(day,node,type,count,last) VALUES(?,?,?,1,?) ON CONFLICT(day,node,type) DO UPDATE SET count=count+1,last=excluded.last`).run(day(now),node,type,now);
+    if(!['planned','complete','search-started','search-failed'].includes(type))db.prepare(`INSERT INTO daily(day,node,type,count,last) VALUES(?,?,?,1,?) ON CONFLICT(day,node,type) DO UPDATE SET count=count+1,last=excluded.last`).run(day(now),node,type,now);
     if(type==='complete')db.prepare('UPDATE sessions SET completed=? WHERE id=?').run(now,session);
     // Daily totals are updated in the same transaction as insertion, before pruning.
     db.prepare('DELETE FROM events WHERE at < ?').run(now-30*DAY);
@@ -47,7 +47,7 @@ export async function summary(period='today'){
   if(!['today','week','all'].includes(period))throw new Error('Unknown metrics period');
   const db=await database(),since=period==='today'?day(Date.now()):period==='week'?new Date(Date.parse(day(Date.now())+'T12:00:00Z')-6*DAY).toISOString().slice(0,10):'0000-00-00';
   const rows=db.prepare('SELECT node,type,SUM(count) AS count,MAX(last) AS last FROM daily WHERE day>=? GROUP BY node,type').all(since);
-  const totals={search:0,'no-results':0,returned:0,read:0,cited:0},nodes={};
+  const totals={search:0,'no-results':0,returned:0,read:0,cited:0,captured:0},nodes={};
   for(const row of rows){totals[row.type]=(totals[row.type]||0)+row.count;if(row.node){nodes[row.node]??={returned:0,read:0,cited:0,lastUsed:0};nodes[row.node][row.type]=row.count;nodes[row.node].lastUsed=Math.max(nodes[row.node].lastUsed,row.last);}}
   const sessions=db.prepare('SELECT id,snapshot,started,completed FROM sessions ORDER BY started DESC LIMIT 20').all().map(s=>({...s,status:s.completed?'completed':Date.now()-s.started>DAY?'interrupted':'active'}));
   const recent=db.prepare('SELECT e.session,e.node,e.type,e.at,e.origin,s.snapshot FROM events e JOIN sessions s ON s.id=e.session ORDER BY e.seq DESC LIMIT 20').all();

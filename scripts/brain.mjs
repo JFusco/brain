@@ -60,10 +60,11 @@ try {
       if(subcommand==='report')return (await import('./lib/visual-brain/retrieval.mjs')).reportActivity({session:flags.session,node:flags.node,type:flags.type,eventId:flags['event-id']});
     }
     if(command==='lookup'){
-      const result=await lookup({query:flags.query,domain:flags.domain,limit:flags.limit??5,fetch:!!flags.fetch,project:flags.project,workspace:flags.workspace,versions:flags.versions});
-      await (await import('./lib/visual-brain/retrieval.mjs')).recordOrdinaryLookup(result);return result;
+      const activity=await import('./lib/visual-brain/retrieval.mjs'),session=await activity.beginLookupActivity();
+      let result;try{result=await lookup({query:flags.query,domain:flags.domain,limit:flags.limit??5,fetch:!!flags.fetch,project:flags.project,workspace:flags.workspace,versions:flags.versions});}catch(error){await activity.lookupActivityFailed(session);throw error;}
+      await activity.recordOrdinaryLookup(result,{session});return result;
     }
-    if(command==='capture'){if(!flags.stdin)throw new Error('Use capture --stdin');return capture(fs.readFileSync(0,'utf8'),{domain:flags.domain});}
+    if(command==='capture'){if(!flags.stdin)throw new Error('Use capture --stdin');const result=capture(fs.readFileSync(0,'utf8'),{domain:flags.domain});await (await import('./lib/visual-brain/retrieval.mjs')).recordCaptureActivity(result);return result;}
     if(command==='inbox'){
       if(subcommand==='list')return inbox.list({domain:flags.domain,all:!!flags.all,backlog:!!flags.backlog});
       if(subcommand==='show')return inbox.show(rest[0]);
