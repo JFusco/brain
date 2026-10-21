@@ -26,6 +26,9 @@
     "cms/sitecore-xp",
     "cms/contentful",
     "cms/wordpress",
+    "performance",
+    "security",
+    "semantics",
     "_unsorted"
   ],
   "capture": {
@@ -117,6 +120,34 @@
       "add_filter",
       "wp_",
       "functions.php"
+    ],
+    "performance": [
+      "web performance",
+      "core web vitals",
+      "largest contentful paint",
+      "interaction to next paint",
+      "cumulative layout shift",
+      "performance budget",
+      "rendering performance"
+    ],
+    "security": [
+      "application security",
+      "owasp",
+      "authentication",
+      "authorization",
+      "session security",
+      "injection prevention",
+      "content security policy"
+    ],
+    "semantics": [
+      "semantic html",
+      "html semantics",
+      "structured data",
+      "schema.org",
+      "json-ld",
+      "content modeling",
+      "domain modeling",
+      "semantic search"
     ]
   },
   "network": {

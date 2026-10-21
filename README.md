@@ -167,6 +167,9 @@ Official website pointers remain pointers until a useful downloadable source and
 | React | [Pinned documentation-tree catalog](https://github.com/reactjs/react.dev/tree/main/src/content), plus the official index |
 | TypeScript | [Handbook and TSConfig reference catalog](https://www.typescriptlang.org/docs/) from the site's sitemap |
 | Accessibility | [WCAG 2.2](https://www.w3.org/TR/WCAG22/) and [WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/), the WCAG 2.2 Understanding and Techniques indexes, and the [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) |
+| Performance | [web.dev Learn Performance](https://web.dev/learn/performance) and [Core Web Vitals](https://web.dev/articles/vitals), pointers only; no web.dev catalog |
+| Security | [OWASP cheat-sheet sitemap](https://cheatsheetseries.owasp.org/sitemap.xml), application-security catalog; no compliance claim |
+| Semantics | [Schema.org /docs/ catalog](https://schema.org/sitemap.xml), excluding the full vocabulary; pointers for WHATWG HTML, web.dev semantic HTML, JSON-LD 1.1, Contentstack modeling and experimental Optimizely Graph semantic search |
 | Tailwind | [Documentation-tree catalog](https://github.com/tailwindlabs/tailwindcss.com/tree/main/src/docs), with rights metadata preserved |
 | Contentstack | [Documentation sitemap](https://www.contentstack.com/sitemap.xml), Sitecore migration guidance, Studio brownfield guidance, and selected kickstart references |
 | Optimizely | [CMS SaaS, CMS 13 (PaaS) and Graph index links](https://docs.optimizely.com/llms.txt), plus selected JavaScript SDK documentation |
@@ -185,6 +188,8 @@ Collection refresh results include `crawls` with each source's successful `index
 
 Capture without `--domain` recognizes WordPress identifiers such as `@wordpress/`, `wp_`, `add_action`, `add_filter` and `functions.php`. Recognizable WordPress context wins equal-scoring React/frontend matches; higher scores and other domains retain their ordering. Explicit `--domain` still takes precedence. Routing is a keyword heuristic, not semantic classification.
 
+OWASP cheat sheets use [CC-BY-SA-4.0](https://github.com/OWASP/CheatSheetSeries). Schema.org schemas, supporting documentation and examples use [CC-BY-SA-3.0](https://schema.org/docs/faq.html); Apache-2.0 concerns the site software. Both new catalogs are reference-only, capped at 5,000 pages and 32 indexes. Page bodies are fetched selectively, never mirrored. Standards, vendor modeling guidance and experimental search remain distinct in the [Semantics hub](knowledge/semantics/INDEX.md).
+
 ### Coverage watch list
 
 The weekly coverage review checks these official places for new documentation indexes (`llms.txt`, sitemaps, docs repositories), skills or agent repositories, and MCP servers. An MCP server is recorded as a website pointer.
@@ -194,6 +199,9 @@ The weekly coverage review checks these official places for new documentation in
 | Next.js | nextjs.org/docs (`llms.txt`), github.com/vercel, github.com/vercel-labs |
 | React | react.dev (`llms.txt`), github.com/reactjs |
 | TypeScript | typescriptlang.org/docs, github.com/microsoft/TypeScript-Website |
+| Performance | web.dev/learn/performance, web.dev/articles/vitals; pointer-only coverage, observed sitemap timeouts and archived repository |
+| Security | cheatsheetseries.owasp.org (`sitemap.xml`), github.com/OWASP/CheatSheetSeries |
+| Semantics | html.spec.whatwg.org, web.dev/learn/html, schema.org (`sitemap.xml`, /docs/ only), w3.org/TR/json-ld11, contentstack.com/docs, docs.optimizely.com/graph |
 | Tailwind | tailwindcss.com/docs, github.com/tailwindlabs |
 | Accessibility (WCAG, WAI-ARIA) | w3.org/WAI, github.com/w3c |
 | Vercel | vercel.com/docs (`llms.txt`, sitemap), github.com/vercel |

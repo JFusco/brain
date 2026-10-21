@@ -5,6 +5,12 @@ aliases: ["frontend"]
 
 # Frontend
 
+## Related domains
+
+- [Performance](../performance/INDEX.md)
+- [Security](../security/INDEX.md)
+- [Semantics](../semantics/INDEX.md)
+
 ## Curated learnings
 
 <!-- brain:curated:start -->

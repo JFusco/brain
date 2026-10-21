@@ -126,6 +126,18 @@
       "fetchedAt": "2026-10-19T00:24:54.833Z",
       "track": "default-branch",
       "catalogSha256": "3ad43b4cea3f918033ad794b208719846cc89a90fddc6248e7c9d82d5ca6ea17"
+    },
+    "owasp-cheat-sheets": {
+      "revision": "6d07d8e422d2f2e96d3b1304a9d16b7f54e1b4ccd472bc6745fee122153d3775",
+      "fetchedAt": "2026-10-21T14:43:48.091Z",
+      "track": "rolling-url",
+      "catalogSha256": "4ad611ae601034742aa0efb2ba4be224ffceee8e0a112de64dda3fd5748650e4"
+    },
+    "schemaorg-docs": {
+      "revision": "fd5f6e3f496d0f569a651cc9f87b867dc9659da7d6ad010607c5bf1501822dee",
+      "fetchedAt": "2026-10-21T14:44:02.420Z",
+      "track": "rolling-url",
+      "catalogSha256": "665e891b1788f2f24ba86bbfb0dcd417c90a8b45f844e8dbec97ef022176a47d"
     }
   },
   "toolchain": {
