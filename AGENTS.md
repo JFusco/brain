@@ -96,7 +96,7 @@ Use `wiki/` as this repository's durable record of executed plans, decisions, an
 - Never read generated graph JSON directly.
 - After executing a Claude, Codex, or Cursor plan, archive it and add the journal/topic updates in the same delivery per `wiki/MECHANICS.md`.
 - Run `node scripts/wiki/discover-plans.cjs` to recover missed plans, `node scripts/wiki/build-graph.cjs` after wiki edits, and `node scripts/wiki/check.cjs` before completion.
-- The Sigma.js graph indexes only Markdown under `wiki/`; never add code nodes.
+- The wiki navigation graph indexes only Markdown under `wiki/`; never add code nodes.
 
 This managed block was installed for Codex, Cursor, and Claude (via `@AGENTS.md` in `CLAUDE.md`).
 <!-- wiki-skill:end -->
