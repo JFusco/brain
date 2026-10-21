@@ -14,6 +14,11 @@ import {cleanExcerptCache} from './lib/cache.mjs';
 
 const help=`Personal brain — explicit, local knowledge and official link catalogs
 
+node scripts/brain.mjs visual serve [--port 4174]
+node scripts/brain.mjs route --query <terms> [--domain nextjs] [--versions next@16] [--project <path> --workspace <app>] [--session <id>]
+node scripts/brain.mjs activity start
+node scripts/brain.mjs activity report --session <id> --type read|cited|complete [--node <id>] --event-id <uuid>
+node scripts/brain.mjs activity summary [--period today|week|all]
 node scripts/brain.mjs lookup --query <terms> [--domain nextjs] [--limit 5] [--fetch] [--project <path> --workspace <relative-app>] [--versions next@16,react@19]
 node scripts/brain.mjs capture --stdin [--domain tailwind]
 node scripts/brain.mjs inbox list [--domain nextjs] [--all] [--backlog]
@@ -40,13 +45,24 @@ Tests and dedicated QA are deferred for v1.
 
 try {
   const {positional,flags}=args(process.argv.slice(2)),[command,subcommand,...rest]=positional;
-  const allowed={lookup:['query','domain','limit','fetch','project','workspace','versions'],capture:['stdin','domain'],inbox:['domain','all','backlog','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['yes','phase','run-id','outcome','pr','trigger'],official:['hosted'],skills:['project','workspace'],check:['staged']};
+  const allowed={visual:['port'],route:['query','domain','versions','project','workspace','session'],activity:['session','type','node','event-id','period'],lookup:['query','domain','limit','fetch','project','workspace','versions'],capture:['stdin','domain'],inbox:['domain','all','backlog','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['yes','phase','run-id','outcome','pr','trigger'],official:['hosted'],skills:['project','workspace'],check:['staged']};
   if(!command||command==='help'||flags.help){console.log(help);process.exit(0);}
   if(!Object.hasOwn(allowed,command))throw new Error('Unknown command. Use --help.');
   for(const key of Object.keys(flags))if(!allowed[command].includes(key))throw new Error(`Unsupported option --${key} for ${command}`);
   const mutating=command==='lookup'&&flags.fetch||command==='curation'||command==='capture'||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['resolve','rescan'].includes(subcommand)||command==='official'&&subcommand==='sync';
   async function execute() {
-    if(command==='lookup')return lookup({query:flags.query,domain:flags.domain,limit:flags.limit??5,fetch:!!flags.fetch,project:flags.project,workspace:flags.workspace,versions:flags.versions});
+    if(command==='visual'&&subcommand==='serve')return (await import('./lib/visual-brain/server.mjs')).serve({port:flags.port});
+    if(command==='route')return (await import('./lib/visual-brain/retrieval.mjs')).route({query:flags.query,domain:flags.domain,versions:flags.versions,project:flags.project,workspace:flags.workspace,session:flags.session});
+    if(command==='activity'){
+      const m=await import('./lib/visual-brain/metrics.mjs');
+      if(subcommand==='start')return m.startSession((await import('./lib/visual-brain/snapshot.mjs')).mainRevision());
+      if(subcommand==='summary')return m.summary(flags.period);
+      if(subcommand==='report')return (await import('./lib/visual-brain/retrieval.mjs')).reportActivity({session:flags.session,node:flags.node,type:flags.type,eventId:flags['event-id']});
+    }
+    if(command==='lookup'){
+      const result=await lookup({query:flags.query,domain:flags.domain,limit:flags.limit??5,fetch:!!flags.fetch,project:flags.project,workspace:flags.workspace,versions:flags.versions});
+      await (await import('./lib/visual-brain/retrieval.mjs')).recordOrdinaryLookup(result);return result;
+    }
     if(command==='capture'){if(!flags.stdin)throw new Error('Use capture --stdin');return capture(fs.readFileSync(0,'utf8'),{domain:flags.domain});}
     if(command==='inbox'){
       if(subcommand==='list')return inbox.list({domain:flags.domain,all:!!flags.all,backlog:!!flags.backlog});

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Brain — living knowledge</title></head>
+<body>
+  <div id="scene" aria-hidden="true"></div>
+  <header><a class="brand" href="/">B<span>R</span>AIN<small>LIVING KNOWLEDGE</small></a><div class="connection"><i id="signal"></i><span id="connection">Connecting</span></div><button id="motion" aria-pressed="false">Pause motion</button></header>
+  <main>
+    <section class="intro"><p class="eyebrow">YOUR KNOWLEDGE, CONNECTED</p><h1>A thought away.</h1><p class="muted">Explore what you know.<br>See the evidence come alive.</p></section>
+    <section class="search-panel" aria-label="Search knowledge"><form id="search"><label for="query">Find a lesson or reference</label><div class="search-row"><input id="query" placeholder="What are you working on?" required maxlength="2000"><button type="submit" id="submit">Explore ↗</button></div><div class="filters"><select id="domain" aria-label="Knowledge domain"><option value="">All domains</option></select><input id="versions" placeholder="Versions: next@16,react@19" aria-label="Optional package versions"></div></form><p id="status" role="status">Loading committed knowledge…</p><ol id="results" aria-label="Ranked evidence"></ol></section>
+    <aside id="details" hidden><button id="close" aria-label="Close knowledge details">×</button><p class="eyebrow" id="detail-kind"></p><h2 id="detail-title"></h2><p id="detail-health"></p><div id="detail-metrics"></div><div id="detail-links"></div><pre id="note"></pre><h3>Connections</h3><ul id="relationships"></ul></aside>
+    <section class="dashboard" aria-label="Brain metrics"><div class="dashboard-top"><span class="eyebrow">THE PULSE</span><select id="period" aria-label="Usage time period"><option value="today">Today</option><option value="week">Last 7 days</option><option value="all">All time</option></select><label class="heat"><input id="heat" type="checkbox"> Usage heat</label></div><div id="totals"></div><div class="dashboard-lists"><div><h3>Domain coverage</h3><div id="coverage"></div></div><div><h3>Recent activity</h3><ul id="activity"></ul></div><div><h3>Frequently used</h3><ol id="popular"></ol></div></div><p class="footnote" id="history">Counts represent recorded activity.</p></section>
+    <div class="legend"><span>● Knowledge</span><span>◇ Official sources</span><span class="amber">● Needs attention</span><span class="fresh">● New knowledge</span><span class="white">● Activity</span></div>
+  </main>
+  <footer><span id="snapshot"></span><span>LOCAL · PRIVATE · SOURCE GROUNDED</span></footer>
+  <script type="module" src="/src.js"></script>
+</body></html>

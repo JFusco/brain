@@ -60,6 +60,31 @@ node scripts/brain.mjs capture --stdin
 
 Brain no longer harvests project files; lessons arrive only through explicit capture. See [implementation status](STATUS.md) for current local verification and [maintenance history](wiki/topics/automatic-knowledge-maintenance.md) for dated evidence.
 
+## Living visual Brain
+
+The knowledge visualization is separate from the wiki. It runs locally and reads one committed local `main` snapshot, never working edits or private inbox content. Update local `main` through your normal Git workflow; the viewer does not fetch remotes. Node 24 is required; its built-in SQLite support currently emits an experimental warning.
+
+```sh
+npm ci --prefix web/brain
+npm run build --prefix web/brain
+node scripts/brain.mjs visual serve
+```
+
+Open http://127.0.0.1:4174/ (or set `--port 4175`). The server binds loopback and accepts only same-origin browser writes. Search has optional domain and literal package-version filters. Project/workspace lookup remains CLI-only. Notes display as inert text; vendor HTML is never executed. Reference links open externally.
+
+The two hemispheres contain domain clusters. Idle breathing/drift is decorative; pink marks new knowledge, white pulses reflect recorded activity and purple paths explain relationships. Use focus, domain filters, source expansion, usage heat, or Pause motion. Reduced motion is respected. If WebGL is unavailable, the search results and text controls remain the fallback.
+
+```sh
+node scripts/brain.mjs route --query "caching revalidation" --domain nextjs --versions next@16.2
+node scripts/brain.mjs activity summary --period week
+```
+
+Routes preserve lookup ranking and version compatibility, return up to five ranked sources, and explain paths between selected results. A disconnected source remains a result. Path intermediates are not required reading. Unconfirmed applicability remains unconfirmed. The opt-in Brain skill reports reads/citations; it does not monitor other agents or files automatically.
+
+Ordinary CLI lookups now write usage metadata while keeping their results and project access unchanged. SQLite in ignored `.state/visual-brain/` records IDs, event types, timestamps and snapshot IDs, without question text, answers or project paths. Metrics record returned appearances per lookup and reads/citations once per session/node/type. Sessions expire after 24 hours. Thirty days of detail and retry deduplication are retained, with daily aggregates retained for all-time counts. Day boundaries use America/New_York. Counts span content revisions, start at installation and measure recorded activity, not trust or answer quality. External link clicks alone are not reads.
+
+The health overlay uses existing revalidation signals and local link-check records; unknown health stays unknown. Domain coverage shows eligible notes, registered references and recorded usage. Metrics failures leave retrieval available and report missing recording; damaged databases are never reset automatically. Include the entire `.state/visual-brain/` directory in normal backups while the viewer and CLI are stopped; no automatic backup service is added. Roll back code through Git without deleting the database.
+
 ## Capture lessons from working chats
 
 Posting advice in a chat doesn't save it in Brain. When a task teaches something reusable, invoke `/brain-capture` (or `$brain-capture` in Codex) in that project. The skill drafts up to three sanitized lessons in the [page template](knowledge/_templates/page.md) shape and pipes each one to Brain:
