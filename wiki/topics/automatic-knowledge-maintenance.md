@@ -37,6 +37,10 @@ The [daily curation journal](../journal/2026-10-21-daily-capture-curation.md) re
 
 The [October 21 follow-up](../journal/2026-10-21-capture-accounting-follow-up.md) records Joe’s request to finish five partly incorporated captures and review editor-guidance material. Useful proposals can be fully accounted for without presenting them as tested implementations. The author records which claims were checked, which practices remain proposed and which incident-specific claims were not adopted. Original evidence remains private; capture acceptance still waits for guarded publication and successful run completion. Missing runtime experiments are stated as limits rather than invented results.
 
+## Consistent capture review instructions
+
+The [documentation alignment journal](../journal/2026-10-21-capture-review-docs.md) records the matching README and AGENTS.md rules requested after the automation update. Fully accounted-for acceptance covers all reusable guidance plus explicit exclusions; it does not certify every raw capture assertion. Proposed practices retain their limits, genuine unresolved evidence stays pending, and required publication/completion precedes resolution. Private claim coverage remains run evidence rather than a new approval ledger. Original bodies and separate disposition history are preserved.
+
 ## Current flow: notes publish on merge
 
 [Simplification phase 2](../journal/2026-10-18-simplification-phase-2.md) ([issue 54](https://github.com/JFusco/brain/issues/54)) replaced the pipeline described in the historical sections below.
