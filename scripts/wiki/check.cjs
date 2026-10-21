@@ -50,7 +50,6 @@ function main() {
     'scripts/wiki/routing.cjs',
     'scripts/wiki/routing-policy.json',
     'scripts/wiki/reconcile-merges.cjs',
-    'scripts/wiki/graph/viewer/routing.js',
   ]) {
     if (!fs.existsSync(path.join(root, required)))
       errors.push(`missing ${required}`);
