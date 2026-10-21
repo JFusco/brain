@@ -3,3 +3,6 @@ inbox/
 .state/
 .DS_Store
 *.tmp
+
+web/brain/node_modules/
+web/brain/dist/

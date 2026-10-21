@@ -30,7 +30,7 @@ export function check({staged=false}={}) {
   } else {
     const configFiles=['README.md','STATUS.md','AGENTS.md','CLAUDE.md','brain.config.json','official/sources.json','official/sources.lock.json','.gitignore'];
     for(const name of configFiles)if(fs.existsSync(at(name)))entries.push({id:name,bytes:fs.readFileSync(at(name))});
-    for(const name of ['knowledge','skills','wiki','scripts','.githooks','.github','official/catalogs'])for(const file of walk(at(name)))entries.push({id:path.relative(ROOT,file).split(path.sep).join('/'),bytes:fs.readFileSync(file)});
+    for(const name of ['knowledge','skills','wiki','scripts','web','.githooks','.github','official/catalogs'])for(const file of walk(at(name),{skip:(full,entry)=>entry.isDirectory()&&['node_modules','dist'].includes(entry.name)}))entries.push({id:path.relative(ROOT,file).split(path.sep).join('/'),bytes:fs.readFileSync(file)});
   }
   // Catalog titles and descriptions are vendor text: secrets are scanned, client terms are not.
   const vendor=entries.filter(e=>e.id.startsWith('official/catalogs/')),personal=entries.filter(e=>!e.id.startsWith('official/catalogs/'));
@@ -57,7 +57,7 @@ export function check({staged=false}={}) {
         if(!fs.existsSync(target))issues.push(`${id}: missing local link target`);
       }
     }
-    for(const file of walk(ROOT,{skip:(full,entry)=>entry.isDirectory()&&['.git','.state','inbox'].includes(entry.name)})) {
+    for(const file of walk(ROOT,{skip:(full,entry)=>entry.isDirectory()&&['.git','.state','inbox','node_modules','dist'].includes(entry.name)})) {
       const components=path.relative(ROOT,file).split(path.sep);
       if(components.some(p=>['.agents','.claude','.cursor','.codex'].includes(p)))issues.push('Brain contains a tool-discovered directory');
     }
