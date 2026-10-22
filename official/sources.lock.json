@@ -156,6 +156,12 @@
       "fetchedAt": "2026-10-22T01:36:18.862Z",
       "track": "rolling-url",
       "catalogSha256": "8c65ada59738cfbd46aa3db803968e7174c8a51a4af4b9eb8775c54d53d65b5d"
+    },
+    "owasp-asvs": {
+      "revision": "5cf9b032440be53ce345ab3c130fda46ba1ce7a2",
+      "fetchedAt": "2026-10-22T01:38:14.252Z",
+      "track": "pinned",
+      "catalogSha256": "421fdc2a04477e19d5d2d0d956f479e9d2d1b88f093f28c6dd309891e589425d"
     }
   },
   "toolchain": {

@@ -24,3 +24,9 @@ Language declarations, locale-specific formatting and text direction remain sepa
 [Issue 121](https://github.com/JFusco/brain/issues/121) registers official JavaScript/TypeScript documentation under Frontend. The sitemap selection includes only `/docs/`, excluding next-version, other-language and community pages. It is reference-only and does not install Playwright or enable Brain tests, fixtures or QA agents. Rolling docs do not establish compatibility with a consuming project's installed runner or browsers.
 
 The first Playwright sync correctly refused 296 links because `/docs/` also contains `/docs/next/`. The registration now explicitly excludes that subtree using validated optional collection path exclusions; the 250-page bound stays in place. This corrects the selected scope rather than treating next-version guidance as stable documentation. The initial failed attempt remains in private operational logs.
+
+## OWASP ASVS
+
+[Issue 122](https://github.com/JFusco/brain/issues/122) adds English ASVS 5.0.0 documents alongside the existing cheat sheets. The stable `v5.0.0_release` commit is pinned as `5cf9b032440be53ce345ab3c130fda46ba1ce7a2`; GitHub's releases/latest resolves to an explicitly named Bleeding Edge release despite `prerelease: false`, so it is deliberately not used. This preserves a stable version boundary and leaves upgrades explicit. Requirement lookup does not assess an application or confer compliance/certification.
+
+The repository archive exceeded the existing 64 MiB download cap and was refused. ASVS now uses the existing bounded Git-tree catalog path, with a validated Markdown documentation suffix so pinned GitHub reading links retain `.md`. No download or archive limit was raised; only selected pages are fetched on demand and verified against their Git blobs. The failed archive attempt remains in private logs.
