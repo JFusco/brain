@@ -251,6 +251,7 @@ code change; routine catalog-refresh PRs still exclude dependency upgrades.
 ### Official coverage
 
 | Area | Available references |
+| Browser testing | Official Playwright JavaScript/TypeScript documentation catalog; guidance for consuming projects, with installed-version applicability left explicit |
 | Internationalization | W3C HTML authoring index: bounded articles, questions and tutorials covering language, encoding and text direction |
 | Browser platform | Bounded English MDN catalog: HTML, CSS guides, JavaScript guides, HTTP, selected browser APIs and Baseline; not the complete MDN library |
 | --- | --- |
@@ -287,6 +288,7 @@ OWASP cheat sheets use [CC-BY-SA-4.0](https://github.com/OWASP/CheatSheetSeries)
 The weekly coverage review checks these official places for new documentation indexes (`llms.txt`, sitemaps, docs repositories), skills or agent repositories, and MCP servers. An MCP server is recorded as a website pointer.
 
 | Area | Official places |
+| Browser testing | playwright.dev/sitemap.xml; github.com/microsoft/playwright/docs/src |
 | Internationalization | www.w3.org/International/techniques/authoring-html; github.com/w3c/i18n-drafts |
 | Browser platform | developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz; github.com/mdn/content; browser support remains separate from project acceptance |
 | --- | --- |

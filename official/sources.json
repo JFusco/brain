@@ -658,6 +658,31 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling W3C internationalization authoring resources linked by the HTML techniques index. Language, locale, encoding and text direction are distinct. Articles may retain older examples; check the target HTML and CMS surface."
+    },
+    {
+      "id": "playwright-docs",
+      "vendor": "playwright",
+      "domains": [
+        "frontend"
+      ],
+      "kind": "collection",
+      "indexFormat": "sitemap",
+      "indexUrl": "https://playwright.dev/sitemap.xml",
+      "allowedHosts": [
+        "playwright.dev"
+      ],
+      "includePrefixes": [
+        "/docs/"
+      ],
+      "maxPages": 250,
+      "maxIndexes": 2,
+      "license": "Apache-2.0; https://github.com/microsoft/playwright/blob/main/LICENSE",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling official JavaScript/TypeScript Playwright documentation only; excludes other language trees, next-version docs, community pages and videos. Confirm installed Playwright and browser versions. Reference knowledge for consuming projects; adds no Brain tests or agents.",
+      "excludePrefixes": [
+        "/docs/next/"
+      ]
     }
   ],
   "pointers": [
