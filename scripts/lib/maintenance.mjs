@@ -4,6 +4,7 @@ import {at,ROOT,readJSON,writeJSON,now} from './core.mjs';
 import {staleGuidance} from './guidance.mjs';
 import {linkSummary} from './link-health.mjs';
 import {api} from './network.mjs';
+import {vocabularyStatus} from './vocabulary.mjs';
 
 const overdue=(value,hours)=>!value||!Number.isFinite(Date.parse(value))||Date.now()-Date.parse(value)>hours*3600000;
 export function maintenanceStatus() {
@@ -15,7 +16,10 @@ export function maintenanceStatus() {
   if(!publication.lastSuccess)warnings.push('Awaiting the first recorded publication run; configuration is not unattended execution proof');
   const guidance=staleGuidance({limit:12});if(guidance.total)warnings.push('Curated guidance is due for source/claim revalidation');
   const nightly=readJSON(at('.state/nightly.json'),{});
-  return {ok:!errors.length,checkedAt:now(),errors,warnings,references:{execution:'local',timezone:'America/New_York',window:'03:15',notice:'The local nightly automation refreshes catalogs, samples links, curates and reviews additions, and verifies publication. Reference-maintenance Actions are disabled; the Wiki integrity PR check remains enabled.'},nightly:{active:nightly.active||null,lastFailure:nightly.lastFailure||null,completedDates:Object.keys(nightly.completed||{}).sort(),retryAfter:nightly.retryAfter||null},sources,publication:{lastAttempt:publication.lastAttempt||null,lastSuccess:publication.lastSuccess||null,lastOutcome:publication.lastOutcome||null,lastPr:publication.lastPr||null,activeRun:publication.activeRun||null,trigger:publication.trigger||null},links:linkSummary(),guidance:{due:guidance.total},notice:'Local jobs require an awake Mac and running app. Agent-reported publication records distinguish manual from scheduled invocation; they are not independent scheduler attestations. Link counts are bounded local samples.'};
+  const vocabulary=vocabularyStatus();
+  if(!vocabulary.ok)warnings.push('CMS vocabulary installation or release check needs attention');
+  if(vocabulary.release?.updateAvailable)warnings.push('A newer CMS vocabulary release is available; the installed version remains pinned');
+  return {ok:!errors.length,checkedAt:now(),errors,warnings,references:{execution:'local',timezone:'America/New_York',window:'03:15',notice:'The local nightly automation refreshes catalogs, samples links, curates and reviews additions, and verifies publication. Reference-maintenance Actions are disabled; the Wiki integrity PR check remains enabled.'},nightly:{active:nightly.active||null,lastFailure:nightly.lastFailure||null,completedDates:Object.keys(nightly.completed||{}).sort(),retryAfter:nightly.retryAfter||null},sources,vocabulary,publication:{lastAttempt:publication.lastAttempt||null,lastSuccess:publication.lastSuccess||null,lastOutcome:publication.lastOutcome||null,lastPr:publication.lastPr||null,activeRun:publication.activeRun||null,trigger:publication.trigger||null},links:linkSummary(),guidance:{due:guidance.total},notice:'Local jobs require an awake Mac and running app. Agent-reported publication records distinguish manual from scheduled invocation; they are not independent scheduler attestations. Link counts are bounded local samples.'};
 }
 
 export async function mergedBrainPR(pr) {

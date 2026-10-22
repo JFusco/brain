@@ -9,6 +9,7 @@ This wiki is the durable project record for decisions, executed plans, and subst
 - [Automatic knowledge maintenance](./topics/automatic-knowledge-maintenance.md) — curation, documentation coverage, privacy, automation, and audit findings.
 - [Incremental collection](./topics/incremental-collection.md) — skip unchanged source bodies and compare lessons before publication.
 - [WordPress coverage](./topics/wordpress-coverage.md) — official developer handbooks and reference-only agent skills.
+- [CMS field vocabulary](./topics/cms-field-vocabulary.md) — pinned field facts, explicit profiles and advisory release detection.
 - [Opt-in Brain skill](./topics/brain-skill.md) — use Brain from Claude Code, Codex and Cursor without loading it into every session.
 - `wiki/topics/` — durable decision and domain pages.
 - `wiki/journal/` — chronological substantive-change entries.

@@ -28,7 +28,7 @@ export function check({staged=false}={}) {
       entries.push({id:name,bytes:result.stdout});
     }
   } else {
-    const configFiles=['README.md','STATUS.md','AGENTS.md','CLAUDE.md','brain.config.json','official/sources.json','official/sources.lock.json','.gitignore'];
+    const configFiles=['README.md','STATUS.md','AGENTS.md','CLAUDE.md','brain.config.json','package.json','package-lock.json','official/sources.json','official/sources.lock.json','.gitignore'];
     for(const name of configFiles)if(fs.existsSync(at(name)))entries.push({id:name,bytes:fs.readFileSync(at(name))});
     for(const name of ['knowledge','skills','wiki','scripts','web','.githooks','.github','official/catalogs'])for(const file of walk(at(name),{skip:(full,entry)=>entry.isDirectory()&&['node_modules','dist'].includes(entry.name)}))entries.push({id:path.relative(ROOT,file).split(path.sep).join('/'),bytes:fs.readFileSync(file)});
   }

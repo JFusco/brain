@@ -6,6 +6,7 @@ import {spawnSync} from 'node:child_process';
 import {at,ROOT,args,readJSON,writeJSON,now,sha,safePath,withLock} from './lib/core.mjs';
 import {recordPublication,mergedBrainPR} from './lib/maintenance.mjs';
 import * as gates from './lib/nightly-publication.mjs';
+import {checkVocabularyRelease} from './lib/vocabulary.mjs';
 
 const file=at('.state/nightly.json'),zone='America/New_York';
 function dueDate(){
@@ -54,7 +55,10 @@ try{
       if(typeof flags['author-id']!=='string'||!flags['author-id'].trim()||flags['author-id'].length>200)throw new Error('Record the actual author agent identity with --author-id');
       const publication=await recordPublication({phase:'started',trigger:flags.trigger});
       const attempt={id:crypto.randomUUID(),slotDate,startedAt:now(),trigger:flags.trigger,publicationRunId:publication.runId,phase:'started',protocolVersion:2,authorId:flags['author-id'],...(rerun?{mode:'manual-rerun',rerunReason:flags.rerun}:{})};
-      state.active=attempt;ledger.attempts[slotDate]=(ledger.attempts[slotDate]||0)+1;save(state,attempt);return {claimed:true,...attempt};
+      state.active=attempt;ledger.attempts[slotDate]=(ledger.attempts[slotDate]||0)+1;save(state,attempt);
+      // Advisory metadata only: preserve the claimed run and routine catalog scope.
+      try{attempt.vocabulary=await checkVocabularyRelease();}catch(error){attempt.vocabulary={ok:false,error:error.message};}
+      save(state,attempt);return {claimed:true,...attempt};
     }
     const attempt=state.active;
     if(!attempt||attempt.id!==flags['run-id'])throw new Error('The exact active nightly run ID is required');
