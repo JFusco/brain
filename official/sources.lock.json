@@ -138,6 +138,12 @@
       "fetchedAt": "2026-10-21T14:44:02.420Z",
       "track": "rolling-url",
       "catalogSha256": "665e891b1788f2f24ba86bbfb0dcd417c90a8b45f844e8dbec97ef022176a47d"
+    },
+    "mdn-web-docs": {
+      "revision": "cceec17e41c46ac0d1593a34b8977148257c68f33517430b2267961b46bf2935",
+      "fetchedAt": "2026-10-22T01:31:06.805Z",
+      "track": "rolling-url",
+      "catalogSha256": "28e25d435520ef39194721cb98d285907d056e92028cd3d34ffac2f690da13c2"
     }
   },
   "toolchain": {

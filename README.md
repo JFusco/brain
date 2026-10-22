@@ -251,6 +251,7 @@ code change; routine catalog-refresh PRs still exclude dependency upgrades.
 ### Official coverage
 
 | Area | Available references |
+| Browser platform | Bounded English MDN catalog: HTML, CSS guides, JavaScript guides, HTTP, selected browser APIs and Baseline; not the complete MDN library |
 | --- | --- |
 | Next.js | [Official page index](https://nextjs.org/docs/llms.txt) and version guidance |
 | Vercel | [Platform documentation catalog](https://vercel.com/docs/sitemap.md), official plugin skills, and agent skills |
@@ -285,6 +286,7 @@ OWASP cheat sheets use [CC-BY-SA-4.0](https://github.com/OWASP/CheatSheetSeries)
 The weekly coverage review checks these official places for new documentation indexes (`llms.txt`, sitemaps, docs repositories), skills or agent repositories, and MCP servers. An MCP server is recorded as a website pointer.
 
 | Area | Official places |
+| Browser platform | developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz; github.com/mdn/content; browser support remains separate from project acceptance |
 | --- | --- |
 | Next.js | nextjs.org/docs (`llms.txt`), github.com/vercel, github.com/vercel-labs |
 | React | react.dev (`llms.txt`), github.com/reactjs |
