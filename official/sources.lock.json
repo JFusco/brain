@@ -20,10 +20,10 @@
       "catalogSha256": "1da7af8baf08d3052086a4614d708d6bd0e28623be3a8a14dae166cd759eae06"
     },
     "vercel-plugin": {
-      "revision": "6400c27898f28197a235fc1c93ecf53d86df2d40",
-      "fetchedAt": "2026-10-20T20:59:09.707Z",
+      "revision": "89e9ab9e4a15de0b18f3df6bc89d29152a00ff1b",
+      "fetchedAt": "2026-10-22T23:24:25.810Z",
       "track": "default-branch",
-      "catalogSha256": "2770763e06138193c7adb1d8241a835071eaa4870eabec1eb420b8f5938297c8"
+      "catalogSha256": "8e54a2dfe538a565521a4af0a2392964e2d559ba20a8648e5b0be1666266271f"
     },
     "contentful-skills": {
       "revision": "0cfae213be9117da4b5b42451d8c0515d363f894",
@@ -32,10 +32,10 @@
       "catalogSha256": "275f50ec3ec0fc6ed1612d26065c055beb3633a9b959b61fa9e9e5b642f2ce67"
     },
     "optimizely-sdk": {
-      "revision": "9caeb460e8de4911f1c5fac13b6174c8036995fa",
-      "fetchedAt": "2026-10-21T21:01:51.166Z",
+      "revision": "d85caa8a0dce2291204417dd8ec9bc4f95963fdd",
+      "fetchedAt": "2026-10-22T23:24:30.671Z",
       "track": "default-branch",
-      "catalogSha256": "daa04f682e5ea18097f95140957d085abb085632fd9dd3fe67eeab3727c52bfe"
+      "catalogSha256": "23fc5d527a6631f743cb03458e95e7dff86d093ca410ddccb19f15ebb5ed9254"
     },
     "nextjs-index": {
       "revision": "4ba86c99073ca6b65f04f5a283dcebb76deffd8a3e2fefe031ba5dd1ad8e6556",
@@ -50,10 +50,10 @@
       "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "45bb893a2ca51eb0906e6c35cc1162cbfe5e2048548c4dc61f62ce16331d5c5d",
-      "fetchedAt": "2026-10-21T21:01:55.983Z",
+      "revision": "ab048ae92ace1e687886dfc5de3ee9dafa1d76614d521abfd0746626e3295b5c",
+      "fetchedAt": "2026-10-22T23:24:33.975Z",
       "track": "rolling-url",
-      "catalogSha256": "00caf326a7eed903c089bf4b681b3c6490ecfd825097e42dcb1d92182ee5397c"
+      "catalogSha256": "c77e348900aab8cf371bc4add630cdb42be55f1f0ede20014acb3c49f6cebf6f"
     },
     "contentstack-docs": {
       "revision": "27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d",
@@ -74,10 +74,10 @@
       "catalogSha256": "68c47dbe1f452c975689f8b6f6cfdffb8db5178fc836f7ab14200d4f842ed39f"
     },
     "optimizely-cms-saas-docs": {
-      "revision": "a3b1d31d6bce9822bcaca13e4cee0e6d5a2f147dc555aff57464dfac702036d0",
-      "fetchedAt": "2026-10-16T01:18:48.452Z",
+      "revision": "4e7dd5eeae36577bcb4d08f1f2617b4dfeab71f0541e212710ea48b8a233ba92",
+      "fetchedAt": "2026-10-22T23:24:43.968Z",
       "track": "rolling-url",
-      "catalogSha256": "adad14c76e764a29bc289c601f0eab5fa42f76cadea76e2b56c337c2a1cc95ed"
+      "catalogSha256": "06ac074220d58fe92b39eaeb252a075c38d0a3e05e1ff4c2b29aa1f7ab07f7da"
     },
     "optimizely-graph-docs": {
       "revision": "e4f105f278f80c9a69c61074a05b2716cb82a0c0c0f5eef7a101c150cc25a553",
@@ -116,16 +116,16 @@
       "catalogSha256": "dc1f723a4191d275a1bbe1afd0ac3206d2f24494f11543789c88c3362039216d"
     },
     "wordpress-docs": {
-      "revision": "205de4d1aa4015040106650fa334bce2b89f9f8ef4d2f5b8324c9972da1b8072",
-      "fetchedAt": "2026-10-19T00:23:46.781Z",
+      "revision": "efdbfa1b194e386e10bedb1974b4416e98c0b3c54b20a4e9cee5f1919a02e95d",
+      "fetchedAt": "2026-10-22T23:24:53.141Z",
       "track": "rolling-url",
-      "catalogSha256": "8b34f51db476a489b6239c1f485d0a87e74fdbd91b0477379bdbfb4d26ca9297"
+      "catalogSha256": "8d434af7268d461d2c0db40eb40c7205110bf1a2ce824a49eb1b182f6e64c0a4"
     },
     "wordpress-agent-skills": {
-      "revision": "55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15",
-      "fetchedAt": "2026-10-19T00:24:54.833Z",
+      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
+      "fetchedAt": "2026-10-22T23:24:55.015Z",
       "track": "default-branch",
-      "catalogSha256": "3ad43b4cea3f918033ad794b208719846cc89a90fddc6248e7c9d82d5ca6ea17"
+      "catalogSha256": "134b141d3fc37763aa786fd4253946d09fdaa9607d43f4c1e92dac9b58928a4d"
     },
     "owasp-cheat-sheets": {
       "revision": "6d07d8e422d2f2e96d3b1304a9d16b7f54e1b4ccd472bc6745fee122153d3775",

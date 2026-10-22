@@ -41,35 +41,35 @@ No curated notes yet.
 <!-- brain:official:start -->
 ## Official sources
 
-- **wordpress-docs** — link catalog of 1013 pages; rolling-url; revision `205de4d1aa4015040106650fa334bce2b89f9f8ef4d2f5b8324c9972da1b8072`; fetched 2026-10-19.
+- **wordpress-docs** — link catalog of 1014 pages; rolling-url; revision `efdbfa1b194e386e10bedb1974b4416e98c0b3c54b20a4e9cee5f1919a02e95d`; fetched 2026-10-22.
   - [Catalog source](https://developer.wordpress.org/sitemap.xml); search it with `lookup --domain cms/wordpress`.
-- **wordpress-agent-skills** — 19 skills and 96 docs at a pinned commit; default-branch; revision `55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15`; fetched 2026-10-19.
-  - [blueprint](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/blueprint/SKILL.md) — reference only.
-  - [wordpress-router](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wordpress-router/SKILL.md) — reference only.
-  - [wp-abilities-api](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-api/SKILL.md) — reference only.
-  - [wp-abilities-audit](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-audit/SKILL.md) — reference only.
-  - [wp-abilities-verify](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-abilities-verify/SKILL.md) — reference only.
-  - [wp-block-development](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-development/SKILL.md) — reference only.
-  - [wp-block-themes](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-block-themes/SKILL.md) — reference only.
-  - [wp-env](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-env/SKILL.md) — reference only.
-  - [wp-interactivity-api](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-interactivity-api/SKILL.md) — reference only.
-  - [wp-patterns](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-patterns/SKILL.md) — reference only.
-  - [wp-performance](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-performance/SKILL.md) — reference only.
-  - [wp-phpstan](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-phpstan/SKILL.md) — reference only.
-  - [wp-playground](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-playground/SKILL.md) — reference only.
-  - [wp-plugin-development](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-development/SKILL.md) — reference only.
-  - [wp-plugin-directory-guidelines](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-plugin-directory-guidelines/SKILL.md) — reference only.
-  - [wp-project-triage](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-project-triage/SKILL.md) — reference only.
-  - [wp-rest-api](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-rest-api/SKILL.md) — reference only.
-  - [wp-wpcli-and-ops](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wp-wpcli-and-ops/SKILL.md) — reference only.
-  - [wpds](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/skills/wpds/SKILL.md) — reference only.
-  - [CONTRIBUTING.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/CONTRIBUTING.md).
-  - [docs/ai-authorship.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/ai-authorship.md).
-  - [docs/authoring-guide.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/authoring-guide.md).
-  - [docs/compatibility-policy.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/compatibility-policy.md).
-  - [docs/packaging.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/packaging.md).
-  - [docs/principles.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/principles.md).
-  - [docs/skill-set-v1.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/skill-set-v1.md).
-  - [docs/upstream-sync.md](https://github.com/WordPress/agent-skills/blob/55cd0f78b996f453c194a1a6ecc5c9a2e0f6cf15/docs/upstream-sync.md).
+- **wordpress-agent-skills** — 19 skills and 96 docs at a pinned commit; default-branch; revision `eff3785fc28c4380d172094518c66a6a997c95d4`; fetched 2026-10-22.
+  - [blueprint](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/blueprint/SKILL.md) — reference only.
+  - [wordpress-router](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wordpress-router/SKILL.md) — reference only.
+  - [wp-abilities-api](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-abilities-api/SKILL.md) — reference only.
+  - [wp-abilities-audit](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-abilities-audit/SKILL.md) — reference only.
+  - [wp-abilities-verify](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-abilities-verify/SKILL.md) — reference only.
+  - [wp-block-development](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-block-development/SKILL.md) — reference only.
+  - [wp-block-themes](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-block-themes/SKILL.md) — reference only.
+  - [wp-env](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-env/SKILL.md) — reference only.
+  - [wp-interactivity-api](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-interactivity-api/SKILL.md) — reference only.
+  - [wp-patterns](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-patterns/SKILL.md) — reference only.
+  - [wp-performance](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-performance/SKILL.md) — reference only.
+  - [wp-phpstan](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-phpstan/SKILL.md) — reference only.
+  - [wp-playground](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-playground/SKILL.md) — reference only.
+  - [wp-plugin-development](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-plugin-development/SKILL.md) — reference only.
+  - [wp-plugin-directory-guidelines](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-plugin-directory-guidelines/SKILL.md) — reference only.
+  - [wp-project-triage](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-project-triage/SKILL.md) — reference only.
+  - [wp-rest-api](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-rest-api/SKILL.md) — reference only.
+  - [wp-wpcli-and-ops](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wp-wpcli-and-ops/SKILL.md) — reference only.
+  - [wpds](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/skills/wpds/SKILL.md) — reference only.
+  - [CONTRIBUTING.md](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/CONTRIBUTING.md).
+  - [docs/ai-authorship.md](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/docs/ai-authorship.md).
+  - [docs/authoring-guide.md](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/docs/authoring-guide.md).
+  - [docs/compatibility-policy.md](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/docs/compatibility-policy.md).
+  - [docs/packaging.md](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/docs/packaging.md).
+  - [docs/principles.md](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/docs/principles.md).
+  - [docs/skill-set-v1.md](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/docs/skill-set-v1.md).
+  - [docs/upstream-sync.md](https://github.com/WordPress/agent-skills/blob/eff3785fc28c4380d172094518c66a6a997c95d4/docs/upstream-sync.md).
 - [Official website](https://github.com/WordPress/mcp-adapter) — pointer only: Official WordPress MCP adapter, identified by the WordPress AI handbook at https://make.wordpress.org/ai/handbook/projects/mcp-adapter/. Website pointer only; no installation or execution. Check requirements against the consuming WordPress project.
 <!-- brain:official:end -->

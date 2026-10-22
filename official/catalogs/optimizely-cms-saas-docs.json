@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms-saas-docs",
-  "revision": "a3b1d31d6bce9822bcaca13e4cee0e6d5a2f147dc555aff57464dfac702036d0",
+  "revision": "4e7dd5eeae36577bcb4d08f1f2617b4dfeab71f0541e212710ea48b8a233ba92",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -10,6 +10,11 @@
       "title": "Introduction to the CMS (SaaS) REST API",
       "url": "https://docs.optimizely.com/cms-saas/api.md",
       "fetchUrl": "https://docs.optimizely.com/cms-saas/api.md"
+    },
+    {
+      "title": "Get content node",
+      "url": "https://docs.optimizely.com/cms-saas/api/-nmn-get-content-node.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-saas/api/-nmn-get-content-node.md"
     },
     {
       "title": "Approve the active step of an approval for a content version that is in review. For multi-step approvals, the version remains in review until all steps are approved.",
@@ -155,6 +160,11 @@
       "title": "Export manifest",
       "url": "https://docs.optimizely.com/cms-saas/api/export-manifest.md",
       "fetchUrl": "https://docs.optimizely.com/cms-saas/api/export-manifest.md"
+    },
+    {
+      "title": "Delete locale",
+      "url": "https://docs.optimizely.com/cms-saas/api/F91O-delete-locale.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-saas/api/F91O-delete-locale.md"
     },
     {
       "title": "Get application",
@@ -687,11 +697,6 @@
       "fetchUrl": "https://docs.optimizely.com/cms-saas/api/model-securityidentitypatch.md"
     },
     {
-      "title": "Get content node",
-      "url": "https://docs.optimizely.com/cms-saas/api/nise-get-content-node.md",
-      "fetchUrl": "https://docs.optimizely.com/cms-saas/api/nise-get-content-node.md"
-    },
-    {
       "title": "Patch application",
       "url": "https://docs.optimizely.com/cms-saas/api/patch-application.md",
       "fetchUrl": "https://docs.optimizely.com/cms-saas/api/patch-application.md"
@@ -765,11 +770,6 @@
       "title": "Restore content",
       "url": "https://docs.optimizely.com/cms-saas/api/restore-content.md",
       "fetchUrl": "https://docs.optimizely.com/cms-saas/api/restore-content.md"
-    },
-    {
-      "title": "Delete locale",
-      "url": "https://docs.optimizely.com/cms-saas/api/UuCQ-delete-locale.md",
-      "fetchUrl": "https://docs.optimizely.com/cms-saas/api/UuCQ-delete-locale.md"
     },
     {
       "title": "Overview of CMS (SaaS)",
