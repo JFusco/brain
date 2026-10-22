@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "45bb893a2ca51eb0906e6c35cc1162cbfe5e2048548c4dc61f62ce16331d5c5d",
+  "revision": "ab048ae92ace1e687886dfc5de3ee9dafa1d76614d521abfd0746626e3295b5c",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -2712,6 +2712,26 @@
       "fetchUrl": "https://vercel.com/docs/cdn-security/security-headers.md"
     },
     {
+      "title": "Chat SDK",
+      "url": "https://vercel.com/docs/chat-sdk",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk.md"
+    },
+    {
+      "title": "Chat SDK Adapters",
+      "url": "https://vercel.com/docs/chat-sdk/adapters",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/adapters.md"
+    },
+    {
+      "title": "Using eve with Chat SDK",
+      "url": "https://vercel.com/docs/chat-sdk/eve",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/eve.md"
+    },
+    {
+      "title": "Getting Started with Chat SDK",
+      "url": "https://vercel.com/docs/chat-sdk/quickstart",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/quickstart.md"
+    },
+    {
       "title": "Working with Checks",
       "url": "https://vercel.com/docs/checks",
       "fetchUrl": "https://vercel.com/docs/checks.md"
@@ -3425,6 +3445,11 @@
       "title": "Claim Deployments",
       "url": "https://vercel.com/docs/deployments/claim-deployments",
       "fetchUrl": "https://vercel.com/docs/deployments/claim-deployments.md"
+    },
+    {
+      "title": "Deploying to Vercel Without Logging In",
+      "url": "https://vercel.com/docs/deployments/deploy-without-logging-in",
+      "fetchUrl": "https://vercel.com/docs/deployments/deploy-without-logging-in.md"
     },
     {
       "title": "Deployment Policies",
