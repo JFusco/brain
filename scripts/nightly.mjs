@@ -7,6 +7,7 @@ import {at,ROOT,args,readJSON,writeJSON,now,sha,safePath,withLock} from './lib/c
 import {recordPublication,mergedBrainPR} from './lib/maintenance.mjs';
 import * as gates from './lib/nightly-publication.mjs';
 import {checkVocabularyRelease} from './lib/vocabulary.mjs';
+import {checkUiPatternsRelease} from './lib/ui-patterns.mjs';
 
 const file=at('.state/nightly.json'),zone='America/New_York';
 function dueDate(){
@@ -58,6 +59,7 @@ try{
       state.active=attempt;ledger.attempts[slotDate]=(ledger.attempts[slotDate]||0)+1;save(state,attempt);
       // Advisory metadata only: preserve the claimed run and routine catalog scope.
       try{attempt.vocabulary=await checkVocabularyRelease();}catch(error){attempt.vocabulary={ok:false,error:error.message};}
+      try{attempt.uiPatterns=await checkUiPatternsRelease();}catch(error){attempt.uiPatterns={ok:false,error:error.message};}
       save(state,attempt);return {claimed:true,...attempt};
     }
     const attempt=state.active;

@@ -6,6 +6,7 @@
     "node": ">=24.14.0"
   },
   "dependencies": {
+    "@verndale/ui-design-brain": "1.18.2",
     "cms-field-vocabulary": "1.3.0"
   }
 }

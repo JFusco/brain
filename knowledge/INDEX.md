@@ -37,6 +37,12 @@ demand: list `vocabulary profiles`, then use `lookup --cms-profile <exact-id>`
 with the relevant query and domain. Results retain package/profile identity and
 official evidence locators; see [CMS field vocabulary](../README.md#cms-field-vocabulary).
 
+For UI component naming, add `--ui-patterns` to `lookup` with the frontend domain
+or no domain. Brain reads its pinned UI Design Brain manifests and retrieves
+selected pattern guidance with `--fetch`. Contextual aliases remain candidates;
+package naming/product guidance is separate from accessibility conformance and
+existing project design systems. See [UI pattern vocabulary](../README.md#ui-pattern-vocabulary).
+
 For cross-page rationale, run `node scripts/wiki/navigate.cjs --wiki-root knowledge --intent why --query "<terms>"`. Vendor sources are reached through hub links; they are outside the knowledge-only routing graph.
 
 ## Freshness
