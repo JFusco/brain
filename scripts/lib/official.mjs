@@ -184,7 +184,7 @@ export function generateHubs() {
 }
 const POLICIES=['reference-only','portable','curated','sitecore-bundle'],TRACKS=['default-branch','latest-release','pinned'],COMMON=['id','vendor','domains','kind','license','installPolicy','preferred','applicability'];
 // Registry keys are strict so a field sync would ignore cannot look like policy.
-const FIELDS={repository:[...COMMON,'repository','track','revision','sourceBase','skillRoot','paths','appliesTo','installableSkills','catalogOnly','documentationPrefix','documentationBase','maxPages'],url:[...COMMON,'url','allowedHosts'],collection:[...COMMON,'indexUrl','indexFormat','allowedHosts','includePrefixes','excludePrefixes','maxPages','maxIndexes','fetchSuffix','additionalPages']};
+const FIELDS={repository:[...COMMON,'repository','track','revision','sourceBase','skillRoot','paths','appliesTo','installableSkills','catalogOnly','documentationPrefix','documentationBase','documentationSuffix','maxPages'],url:[...COMMON,'url','allowedHosts'],collection:[...COMMON,'indexUrl','indexFormat','allowedHosts','includePrefixes','excludePrefixes','maxPages','maxIndexes','fetchSuffix','additionalPages']};
 function webURL(value){try{const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password&&(!url.port||url.port==='443')?url:null;}catch{return null;}}
 const onHosts=(value,hosts)=>hosts.includes(webURL(value)?.hostname);
 const catalogHosts=spec=>[...(spec.kind==='repository'?['github.com','raw.githubusercontent.com']:[]),...(webURL(spec.documentationBase)?[webURL(spec.documentationBase).hostname]:[]),...(spec.allowedHosts||[])];
@@ -203,6 +203,7 @@ function registryProblems(reg) {
       if(!/^[\w.-]+\/[\w.-]+$/.test(spec.repository||''))fail('repository is required');
       if(!TRACKS.includes(spec.track)||spec.track==='pinned'&&!/^[0-9a-f]{40}$/.test(spec.revision||''))fail('invalid tracking policy');
       if(spec.catalogOnly?typeof spec.documentationPrefix!=='string'||!spec.documentationPrefix||!webURL(spec.documentationBase):!Array.isArray(spec.paths)||!spec.paths.length||spec.paths.some(rule=>typeof (rule.prefix??rule.exact)!=='string'))fail('repository selection is incomplete');
+      if(spec.documentationSuffix!==undefined&&(!spec.catalogOnly||!['.md','.mdx'].includes(spec.documentationSuffix)))fail('documentationSuffix requires a catalog-only Markdown source');
       if(spec.installPolicy==='curated'&&!Array.isArray(spec.installableSkills))fail('curated sources list installable skills');
     }
     if(spec.kind==='url'&&!onHosts(spec.url,spec.allowedHosts||[]))fail('url must be HTTPS on an allowed host');

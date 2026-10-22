@@ -33,4 +33,6 @@ No curated notes yet.
 
 - **owasp-cheat-sheets** — link catalog of 137 pages; rolling-url; revision `6d07d8e422d2f2e96d3b1304a9d16b7f54e1b4ccd472bc6745fee122153d3775`; fetched 2026-10-21.
   - [Catalog source](https://cheatsheetseries.owasp.org/sitemap.xml); search it with `lookup --domain security`.
+- **owasp-asvs** — link catalog of 27 pages; pinned; revision `5cf9b032440be53ce345ab3c130fda46ba1ce7a2`; fetched 2026-10-22.
+  - [Catalog source](https://github.com/OWASP/ASVS/tree/5cf9b032440be53ce345ab3c130fda46ba1ce7a2/5.0/en/); search it with `lookup --domain security`.
 <!-- brain:official:end -->

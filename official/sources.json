@@ -683,6 +683,26 @@
       "excludePrefixes": [
         "/docs/next/"
       ]
+    },
+    {
+      "id": "owasp-asvs",
+      "vendor": "owasp",
+      "domains": [
+        "security"
+      ],
+      "kind": "repository",
+      "repository": "OWASP/ASVS",
+      "track": "pinned",
+      "revision": "5cf9b032440be53ce345ab3c130fda46ba1ce7a2",
+      "license": "CC-BY-SA-4.0; LICENSE.md at the pinned v5.0.0_release commit",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "ASVS 5.0.0 English documents at the immutable v5.0.0_release commit. Requirements are review references, not proof of compliance or certification. Do not substitute the repository latest tag: GitHub labels that release Bleeding Edge despite prerelease=false. Upgrades require an explicit registration change.",
+      "catalogOnly": true,
+      "documentationPrefix": "5.0/en/",
+      "documentationBase": "https://github.com/OWASP/ASVS/blob/5cf9b032440be53ce345ab3c130fda46ba1ce7a2/5.0/en/",
+      "documentationSuffix": ".md",
+      "maxPages": 100
     }
   ],
   "pointers": [
