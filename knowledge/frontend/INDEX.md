@@ -22,4 +22,6 @@ aliases: ["frontend"]
 <!-- brain:official:start -->
 ## Official sources
 
+- **mdn-web-docs** — link catalog of 884 pages; rolling-url; revision `cceec17e41c46ac0d1593a34b8977148257c68f33517430b2267961b46bf2935`; fetched 2026-10-22.
+  - [Catalog source](https://developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz); search it with `lookup --domain frontend`.
 <!-- brain:official:end -->

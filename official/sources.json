@@ -604,6 +604,34 @@
           "url": "https://schema.org/docs/datamodel.html"
         }
       ]
+    },
+    {
+      "id": "mdn-web-docs",
+      "vendor": "mdn",
+      "domains": [
+        "frontend"
+      ],
+      "kind": "collection",
+      "indexFormat": "sitemap",
+      "indexUrl": "https://developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz",
+      "allowedHosts": [
+        "developer.mozilla.org"
+      ],
+      "includePrefixes": [
+        "/en-US/docs/Web/HTML/",
+        "/en-US/docs/Web/CSS/Guides/",
+        "/en-US/docs/Web/JavaScript/Guide/",
+        "/en-US/docs/Web/HTTP/",
+        "/en-US/docs/Web/API/Fetch_API",
+        "/en-US/docs/Web/API/Intersection_Observer_API",
+        "/en-US/docs/Glossary/Baseline/"
+      ],
+      "maxPages": 1500,
+      "maxIndexes": 4,
+      "license": "CC-BY-SA-2.5 (prose); code examples have separate terms. https://github.com/mdn/content/blob/main/LICENSE.md",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling English MDN reference subset: HTML, CSS guides, JavaScript guides, HTTP, Fetch and Intersection Observer, plus Baseline. Browser availability is separate from project browser targets and accessibility testing; not a full MDN catalog."
     }
   ],
   "pointers": [
