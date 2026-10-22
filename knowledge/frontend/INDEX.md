@@ -26,4 +26,6 @@ aliases: ["frontend"]
   - [Catalog source](https://developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz); search it with `lookup --domain frontend`.
 - **w3c-internationalization** — link catalog of 71 pages; rolling-url; revision `425522bbf10fc262bbd5382aa0cad63f55c5ad56aecf2c92034bc618b5329f65`; fetched 2026-10-22.
   - [Catalog source](https://www.w3.org/International/techniques/authoring-html); search it with `lookup --domain frontend`.
+- **playwright-docs** — link catalog of 148 pages; rolling-url; revision `2b872424e6169ff0fd683c0180343963f96230188d530e2b5be4706daaa9829c`; fetched 2026-10-22.
+  - [Catalog source](https://playwright.dev/sitemap.xml); search it with `lookup --domain frontend`.
 <!-- brain:official:end -->

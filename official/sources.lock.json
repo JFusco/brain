@@ -150,6 +150,12 @@
       "fetchedAt": "2026-10-22T01:34:28.017Z",
       "track": "rolling-url",
       "catalogSha256": "764bdb67bcad8097665c20e0053d130a740fa72512003a6ec9977ce812910b6c"
+    },
+    "playwright-docs": {
+      "revision": "2b872424e6169ff0fd683c0180343963f96230188d530e2b5be4706daaa9829c",
+      "fetchedAt": "2026-10-22T01:36:18.862Z",
+      "track": "rolling-url",
+      "catalogSha256": "8c65ada59738cfbd46aa3db803968e7174c8a51a4af4b9eb8775c54d53d65b5d"
     }
   },
   "toolchain": {

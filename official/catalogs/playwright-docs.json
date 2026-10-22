@@ -1,0 +1,751 @@
+{
+  "schemaVersion": 1,
+  "source": "playwright-docs",
+  "revision": "2b872424e6169ff0fd683c0180343963f96230188d530e2b5be4706daaa9829c",
+  "origin": "https://playwright.dev/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "docs / accessibility testing",
+      "url": "https://playwright.dev/docs/accessibility-testing",
+      "fetchUrl": "https://playwright.dev/docs/accessibility-testing"
+    },
+    {
+      "title": "docs / actionability",
+      "url": "https://playwright.dev/docs/actionability",
+      "fetchUrl": "https://playwright.dev/docs/actionability"
+    },
+    {
+      "title": "docs / api testing",
+      "url": "https://playwright.dev/docs/api-testing",
+      "fetchUrl": "https://playwright.dev/docs/api-testing"
+    },
+    {
+      "title": "api / class android",
+      "url": "https://playwright.dev/docs/api/class-android",
+      "fetchUrl": "https://playwright.dev/docs/api/class-android"
+    },
+    {
+      "title": "api / class androiddevice",
+      "url": "https://playwright.dev/docs/api/class-androiddevice",
+      "fetchUrl": "https://playwright.dev/docs/api/class-androiddevice"
+    },
+    {
+      "title": "api / class androidinput",
+      "url": "https://playwright.dev/docs/api/class-androidinput",
+      "fetchUrl": "https://playwright.dev/docs/api/class-androidinput"
+    },
+    {
+      "title": "api / class androidsocket",
+      "url": "https://playwright.dev/docs/api/class-androidsocket",
+      "fetchUrl": "https://playwright.dev/docs/api/class-androidsocket"
+    },
+    {
+      "title": "api / class androidwebview",
+      "url": "https://playwright.dev/docs/api/class-androidwebview",
+      "fetchUrl": "https://playwright.dev/docs/api/class-androidwebview"
+    },
+    {
+      "title": "api / class apirequest",
+      "url": "https://playwright.dev/docs/api/class-apirequest",
+      "fetchUrl": "https://playwright.dev/docs/api/class-apirequest"
+    },
+    {
+      "title": "api / class apirequestcontext",
+      "url": "https://playwright.dev/docs/api/class-apirequestcontext",
+      "fetchUrl": "https://playwright.dev/docs/api/class-apirequestcontext"
+    },
+    {
+      "title": "api / class apiresponse",
+      "url": "https://playwright.dev/docs/api/class-apiresponse",
+      "fetchUrl": "https://playwright.dev/docs/api/class-apiresponse"
+    },
+    {
+      "title": "api / class apiresponseassertions",
+      "url": "https://playwright.dev/docs/api/class-apiresponseassertions",
+      "fetchUrl": "https://playwright.dev/docs/api/class-apiresponseassertions"
+    },
+    {
+      "title": "api / class browser",
+      "url": "https://playwright.dev/docs/api/class-browser",
+      "fetchUrl": "https://playwright.dev/docs/api/class-browser"
+    },
+    {
+      "title": "api / class browsercontext",
+      "url": "https://playwright.dev/docs/api/class-browsercontext",
+      "fetchUrl": "https://playwright.dev/docs/api/class-browsercontext"
+    },
+    {
+      "title": "api / class browserserver",
+      "url": "https://playwright.dev/docs/api/class-browserserver",
+      "fetchUrl": "https://playwright.dev/docs/api/class-browserserver"
+    },
+    {
+      "title": "api / class browsertype",
+      "url": "https://playwright.dev/docs/api/class-browsertype",
+      "fetchUrl": "https://playwright.dev/docs/api/class-browsertype"
+    },
+    {
+      "title": "api / class cdpsession",
+      "url": "https://playwright.dev/docs/api/class-cdpsession",
+      "fetchUrl": "https://playwright.dev/docs/api/class-cdpsession"
+    },
+    {
+      "title": "api / class clock",
+      "url": "https://playwright.dev/docs/api/class-clock",
+      "fetchUrl": "https://playwright.dev/docs/api/class-clock"
+    },
+    {
+      "title": "api / class consolemessage",
+      "url": "https://playwright.dev/docs/api/class-consolemessage",
+      "fetchUrl": "https://playwright.dev/docs/api/class-consolemessage"
+    },
+    {
+      "title": "api / class coverage",
+      "url": "https://playwright.dev/docs/api/class-coverage",
+      "fetchUrl": "https://playwright.dev/docs/api/class-coverage"
+    },
+    {
+      "title": "api / class credentials",
+      "url": "https://playwright.dev/docs/api/class-credentials",
+      "fetchUrl": "https://playwright.dev/docs/api/class-credentials"
+    },
+    {
+      "title": "api / class debugger",
+      "url": "https://playwright.dev/docs/api/class-debugger",
+      "fetchUrl": "https://playwright.dev/docs/api/class-debugger"
+    },
+    {
+      "title": "api / class dialog",
+      "url": "https://playwright.dev/docs/api/class-dialog",
+      "fetchUrl": "https://playwright.dev/docs/api/class-dialog"
+    },
+    {
+      "title": "api / class disposable",
+      "url": "https://playwright.dev/docs/api/class-disposable",
+      "fetchUrl": "https://playwright.dev/docs/api/class-disposable"
+    },
+    {
+      "title": "api / class download",
+      "url": "https://playwright.dev/docs/api/class-download",
+      "fetchUrl": "https://playwright.dev/docs/api/class-download"
+    },
+    {
+      "title": "api / class electron",
+      "url": "https://playwright.dev/docs/api/class-electron",
+      "fetchUrl": "https://playwright.dev/docs/api/class-electron"
+    },
+    {
+      "title": "api / class electronapplication",
+      "url": "https://playwright.dev/docs/api/class-electronapplication",
+      "fetchUrl": "https://playwright.dev/docs/api/class-electronapplication"
+    },
+    {
+      "title": "api / class elementhandle",
+      "url": "https://playwright.dev/docs/api/class-elementhandle",
+      "fetchUrl": "https://playwright.dev/docs/api/class-elementhandle"
+    },
+    {
+      "title": "api / class filechooser",
+      "url": "https://playwright.dev/docs/api/class-filechooser",
+      "fetchUrl": "https://playwright.dev/docs/api/class-filechooser"
+    },
+    {
+      "title": "api / class fixtures",
+      "url": "https://playwright.dev/docs/api/class-fixtures",
+      "fetchUrl": "https://playwright.dev/docs/api/class-fixtures"
+    },
+    {
+      "title": "api / class frame",
+      "url": "https://playwright.dev/docs/api/class-frame",
+      "fetchUrl": "https://playwright.dev/docs/api/class-frame"
+    },
+    {
+      "title": "api / class framelocator",
+      "url": "https://playwright.dev/docs/api/class-framelocator",
+      "fetchUrl": "https://playwright.dev/docs/api/class-framelocator"
+    },
+    {
+      "title": "api / class fullconfig",
+      "url": "https://playwright.dev/docs/api/class-fullconfig",
+      "fetchUrl": "https://playwright.dev/docs/api/class-fullconfig"
+    },
+    {
+      "title": "api / class fullproject",
+      "url": "https://playwright.dev/docs/api/class-fullproject",
+      "fetchUrl": "https://playwright.dev/docs/api/class-fullproject"
+    },
+    {
+      "title": "api / class genericassertions",
+      "url": "https://playwright.dev/docs/api/class-genericassertions",
+      "fetchUrl": "https://playwright.dev/docs/api/class-genericassertions"
+    },
+    {
+      "title": "api / class jshandle",
+      "url": "https://playwright.dev/docs/api/class-jshandle",
+      "fetchUrl": "https://playwright.dev/docs/api/class-jshandle"
+    },
+    {
+      "title": "api / class keyboard",
+      "url": "https://playwright.dev/docs/api/class-keyboard",
+      "fetchUrl": "https://playwright.dev/docs/api/class-keyboard"
+    },
+    {
+      "title": "api / class location",
+      "url": "https://playwright.dev/docs/api/class-location",
+      "fetchUrl": "https://playwright.dev/docs/api/class-location"
+    },
+    {
+      "title": "api / class locator",
+      "url": "https://playwright.dev/docs/api/class-locator",
+      "fetchUrl": "https://playwright.dev/docs/api/class-locator"
+    },
+    {
+      "title": "api / class locatorassertions",
+      "url": "https://playwright.dev/docs/api/class-locatorassertions",
+      "fetchUrl": "https://playwright.dev/docs/api/class-locatorassertions"
+    },
+    {
+      "title": "api / class logger",
+      "url": "https://playwright.dev/docs/api/class-logger",
+      "fetchUrl": "https://playwright.dev/docs/api/class-logger"
+    },
+    {
+      "title": "api / class mouse",
+      "url": "https://playwright.dev/docs/api/class-mouse",
+      "fetchUrl": "https://playwright.dev/docs/api/class-mouse"
+    },
+    {
+      "title": "api / class page",
+      "url": "https://playwright.dev/docs/api/class-page",
+      "fetchUrl": "https://playwright.dev/docs/api/class-page"
+    },
+    {
+      "title": "api / class pageassertions",
+      "url": "https://playwright.dev/docs/api/class-pageassertions",
+      "fetchUrl": "https://playwright.dev/docs/api/class-pageassertions"
+    },
+    {
+      "title": "api / class playwright",
+      "url": "https://playwright.dev/docs/api/class-playwright",
+      "fetchUrl": "https://playwright.dev/docs/api/class-playwright"
+    },
+    {
+      "title": "api / class playwrightassertions",
+      "url": "https://playwright.dev/docs/api/class-playwrightassertions",
+      "fetchUrl": "https://playwright.dev/docs/api/class-playwrightassertions"
+    },
+    {
+      "title": "api / class reporter",
+      "url": "https://playwright.dev/docs/api/class-reporter",
+      "fetchUrl": "https://playwright.dev/docs/api/class-reporter"
+    },
+    {
+      "title": "api / class request",
+      "url": "https://playwright.dev/docs/api/class-request",
+      "fetchUrl": "https://playwright.dev/docs/api/class-request"
+    },
+    {
+      "title": "api / class response",
+      "url": "https://playwright.dev/docs/api/class-response",
+      "fetchUrl": "https://playwright.dev/docs/api/class-response"
+    },
+    {
+      "title": "api / class route",
+      "url": "https://playwright.dev/docs/api/class-route",
+      "fetchUrl": "https://playwright.dev/docs/api/class-route"
+    },
+    {
+      "title": "api / class screencast",
+      "url": "https://playwright.dev/docs/api/class-screencast",
+      "fetchUrl": "https://playwright.dev/docs/api/class-screencast"
+    },
+    {
+      "title": "api / class selectors",
+      "url": "https://playwright.dev/docs/api/class-selectors",
+      "fetchUrl": "https://playwright.dev/docs/api/class-selectors"
+    },
+    {
+      "title": "api / class snapshotassertions",
+      "url": "https://playwright.dev/docs/api/class-snapshotassertions",
+      "fetchUrl": "https://playwright.dev/docs/api/class-snapshotassertions"
+    },
+    {
+      "title": "api / class suite",
+      "url": "https://playwright.dev/docs/api/class-suite",
+      "fetchUrl": "https://playwright.dev/docs/api/class-suite"
+    },
+    {
+      "title": "api / class test",
+      "url": "https://playwright.dev/docs/api/class-test",
+      "fetchUrl": "https://playwright.dev/docs/api/class-test"
+    },
+    {
+      "title": "api / class testcase",
+      "url": "https://playwright.dev/docs/api/class-testcase",
+      "fetchUrl": "https://playwright.dev/docs/api/class-testcase"
+    },
+    {
+      "title": "api / class testconfig",
+      "url": "https://playwright.dev/docs/api/class-testconfig",
+      "fetchUrl": "https://playwright.dev/docs/api/class-testconfig"
+    },
+    {
+      "title": "api / class testerror",
+      "url": "https://playwright.dev/docs/api/class-testerror",
+      "fetchUrl": "https://playwright.dev/docs/api/class-testerror"
+    },
+    {
+      "title": "api / class testinfo",
+      "url": "https://playwright.dev/docs/api/class-testinfo",
+      "fetchUrl": "https://playwright.dev/docs/api/class-testinfo"
+    },
+    {
+      "title": "api / class testinfoerror",
+      "url": "https://playwright.dev/docs/api/class-testinfoerror",
+      "fetchUrl": "https://playwright.dev/docs/api/class-testinfoerror"
+    },
+    {
+      "title": "api / class testoptions",
+      "url": "https://playwright.dev/docs/api/class-testoptions",
+      "fetchUrl": "https://playwright.dev/docs/api/class-testoptions"
+    },
+    {
+      "title": "api / class testproject",
+      "url": "https://playwright.dev/docs/api/class-testproject",
+      "fetchUrl": "https://playwright.dev/docs/api/class-testproject"
+    },
+    {
+      "title": "api / class testresult",
+      "url": "https://playwright.dev/docs/api/class-testresult",
+      "fetchUrl": "https://playwright.dev/docs/api/class-testresult"
+    },
+    {
+      "title": "api / class testrun",
+      "url": "https://playwright.dev/docs/api/class-testrun",
+      "fetchUrl": "https://playwright.dev/docs/api/class-testrun"
+    },
+    {
+      "title": "api / class teststep",
+      "url": "https://playwright.dev/docs/api/class-teststep",
+      "fetchUrl": "https://playwright.dev/docs/api/class-teststep"
+    },
+    {
+      "title": "api / class teststepinfo",
+      "url": "https://playwright.dev/docs/api/class-teststepinfo",
+      "fetchUrl": "https://playwright.dev/docs/api/class-teststepinfo"
+    },
+    {
+      "title": "api / class timeouterror",
+      "url": "https://playwright.dev/docs/api/class-timeouterror",
+      "fetchUrl": "https://playwright.dev/docs/api/class-timeouterror"
+    },
+    {
+      "title": "api / class touchscreen",
+      "url": "https://playwright.dev/docs/api/class-touchscreen",
+      "fetchUrl": "https://playwright.dev/docs/api/class-touchscreen"
+    },
+    {
+      "title": "api / class tracing",
+      "url": "https://playwright.dev/docs/api/class-tracing",
+      "fetchUrl": "https://playwright.dev/docs/api/class-tracing"
+    },
+    {
+      "title": "api / class video",
+      "url": "https://playwright.dev/docs/api/class-video",
+      "fetchUrl": "https://playwright.dev/docs/api/class-video"
+    },
+    {
+      "title": "api / class weberror",
+      "url": "https://playwright.dev/docs/api/class-weberror",
+      "fetchUrl": "https://playwright.dev/docs/api/class-weberror"
+    },
+    {
+      "title": "api / class webmcp",
+      "url": "https://playwright.dev/docs/api/class-webmcp",
+      "fetchUrl": "https://playwright.dev/docs/api/class-webmcp"
+    },
+    {
+      "title": "api / class websocket",
+      "url": "https://playwright.dev/docs/api/class-websocket",
+      "fetchUrl": "https://playwright.dev/docs/api/class-websocket"
+    },
+    {
+      "title": "api / class websocketroute",
+      "url": "https://playwright.dev/docs/api/class-websocketroute",
+      "fetchUrl": "https://playwright.dev/docs/api/class-websocketroute"
+    },
+    {
+      "title": "api / class webstorage",
+      "url": "https://playwright.dev/docs/api/class-webstorage",
+      "fetchUrl": "https://playwright.dev/docs/api/class-webstorage"
+    },
+    {
+      "title": "api / class worker",
+      "url": "https://playwright.dev/docs/api/class-worker",
+      "fetchUrl": "https://playwright.dev/docs/api/class-worker"
+    },
+    {
+      "title": "api / class workerinfo",
+      "url": "https://playwright.dev/docs/api/class-workerinfo",
+      "fetchUrl": "https://playwright.dev/docs/api/class-workerinfo"
+    },
+    {
+      "title": "docs / aria snapshots",
+      "url": "https://playwright.dev/docs/aria-snapshots",
+      "fetchUrl": "https://playwright.dev/docs/aria-snapshots"
+    },
+    {
+      "title": "docs / auth",
+      "url": "https://playwright.dev/docs/auth",
+      "fetchUrl": "https://playwright.dev/docs/auth"
+    },
+    {
+      "title": "docs / best practices",
+      "url": "https://playwright.dev/docs/best-practices",
+      "fetchUrl": "https://playwright.dev/docs/best-practices"
+    },
+    {
+      "title": "docs / browser contexts",
+      "url": "https://playwright.dev/docs/browser-contexts",
+      "fetchUrl": "https://playwright.dev/docs/browser-contexts"
+    },
+    {
+      "title": "docs / browsers",
+      "url": "https://playwright.dev/docs/browsers",
+      "fetchUrl": "https://playwright.dev/docs/browsers"
+    },
+    {
+      "title": "docs / canary releases",
+      "url": "https://playwright.dev/docs/canary-releases",
+      "fetchUrl": "https://playwright.dev/docs/canary-releases"
+    },
+    {
+      "title": "docs / chrome extensions",
+      "url": "https://playwright.dev/docs/chrome-extensions",
+      "fetchUrl": "https://playwright.dev/docs/chrome-extensions"
+    },
+    {
+      "title": "docs / ci",
+      "url": "https://playwright.dev/docs/ci",
+      "fetchUrl": "https://playwright.dev/docs/ci"
+    },
+    {
+      "title": "docs / ci intro",
+      "url": "https://playwright.dev/docs/ci-intro",
+      "fetchUrl": "https://playwright.dev/docs/ci-intro"
+    },
+    {
+      "title": "docs / clock",
+      "url": "https://playwright.dev/docs/clock",
+      "fetchUrl": "https://playwright.dev/docs/clock"
+    },
+    {
+      "title": "docs / codegen",
+      "url": "https://playwright.dev/docs/codegen",
+      "fetchUrl": "https://playwright.dev/docs/codegen"
+    },
+    {
+      "title": "docs / codegen intro",
+      "url": "https://playwright.dev/docs/codegen-intro",
+      "fetchUrl": "https://playwright.dev/docs/codegen-intro"
+    },
+    {
+      "title": "docs / debug",
+      "url": "https://playwright.dev/docs/debug",
+      "fetchUrl": "https://playwright.dev/docs/debug"
+    },
+    {
+      "title": "docs / dialogs",
+      "url": "https://playwright.dev/docs/dialogs",
+      "fetchUrl": "https://playwright.dev/docs/dialogs"
+    },
+    {
+      "title": "docs / docker",
+      "url": "https://playwright.dev/docs/docker",
+      "fetchUrl": "https://playwright.dev/docs/docker"
+    },
+    {
+      "title": "docs / downloads",
+      "url": "https://playwright.dev/docs/downloads",
+      "fetchUrl": "https://playwright.dev/docs/downloads"
+    },
+    {
+      "title": "docs / emulation",
+      "url": "https://playwright.dev/docs/emulation",
+      "fetchUrl": "https://playwright.dev/docs/emulation"
+    },
+    {
+      "title": "docs / evaluating",
+      "url": "https://playwright.dev/docs/evaluating",
+      "fetchUrl": "https://playwright.dev/docs/evaluating"
+    },
+    {
+      "title": "docs / events",
+      "url": "https://playwright.dev/docs/events",
+      "fetchUrl": "https://playwright.dev/docs/events"
+    },
+    {
+      "title": "docs / extensibility",
+      "url": "https://playwright.dev/docs/extensibility",
+      "fetchUrl": "https://playwright.dev/docs/extensibility"
+    },
+    {
+      "title": "docs / frames",
+      "url": "https://playwright.dev/docs/frames",
+      "fetchUrl": "https://playwright.dev/docs/frames"
+    },
+    {
+      "title": "docs / getting started cli",
+      "url": "https://playwright.dev/docs/getting-started-cli",
+      "fetchUrl": "https://playwright.dev/docs/getting-started-cli"
+    },
+    {
+      "title": "docs / getting started mcp",
+      "url": "https://playwright.dev/docs/getting-started-mcp",
+      "fetchUrl": "https://playwright.dev/docs/getting-started-mcp"
+    },
+    {
+      "title": "docs / getting started vscode",
+      "url": "https://playwright.dev/docs/getting-started-vscode",
+      "fetchUrl": "https://playwright.dev/docs/getting-started-vscode"
+    },
+    {
+      "title": "docs / handles",
+      "url": "https://playwright.dev/docs/handles",
+      "fetchUrl": "https://playwright.dev/docs/handles"
+    },
+    {
+      "title": "docs / input",
+      "url": "https://playwright.dev/docs/input",
+      "fetchUrl": "https://playwright.dev/docs/input"
+    },
+    {
+      "title": "docs / intro",
+      "url": "https://playwright.dev/docs/intro",
+      "fetchUrl": "https://playwright.dev/docs/intro"
+    },
+    {
+      "title": "docs / languages",
+      "url": "https://playwright.dev/docs/languages",
+      "fetchUrl": "https://playwright.dev/docs/languages"
+    },
+    {
+      "title": "docs / library",
+      "url": "https://playwright.dev/docs/library",
+      "fetchUrl": "https://playwright.dev/docs/library"
+    },
+    {
+      "title": "docs / locators",
+      "url": "https://playwright.dev/docs/locators",
+      "fetchUrl": "https://playwright.dev/docs/locators"
+    },
+    {
+      "title": "docs / mock",
+      "url": "https://playwright.dev/docs/mock",
+      "fetchUrl": "https://playwright.dev/docs/mock"
+    },
+    {
+      "title": "docs / mock browser apis",
+      "url": "https://playwright.dev/docs/mock-browser-apis",
+      "fetchUrl": "https://playwright.dev/docs/mock-browser-apis"
+    },
+    {
+      "title": "docs / navigations",
+      "url": "https://playwright.dev/docs/navigations",
+      "fetchUrl": "https://playwright.dev/docs/navigations"
+    },
+    {
+      "title": "docs / network",
+      "url": "https://playwright.dev/docs/network",
+      "fetchUrl": "https://playwright.dev/docs/network"
+    },
+    {
+      "title": "docs / other locators",
+      "url": "https://playwright.dev/docs/other-locators",
+      "fetchUrl": "https://playwright.dev/docs/other-locators"
+    },
+    {
+      "title": "docs / pages",
+      "url": "https://playwright.dev/docs/pages",
+      "fetchUrl": "https://playwright.dev/docs/pages"
+    },
+    {
+      "title": "docs / pom",
+      "url": "https://playwright.dev/docs/pom",
+      "fetchUrl": "https://playwright.dev/docs/pom"
+    },
+    {
+      "title": "docs / protractor",
+      "url": "https://playwright.dev/docs/protractor",
+      "fetchUrl": "https://playwright.dev/docs/protractor"
+    },
+    {
+      "title": "docs / puppeteer",
+      "url": "https://playwright.dev/docs/puppeteer",
+      "fetchUrl": "https://playwright.dev/docs/puppeteer"
+    },
+    {
+      "title": "docs / release notes",
+      "url": "https://playwright.dev/docs/release-notes",
+      "fetchUrl": "https://playwright.dev/docs/release-notes"
+    },
+    {
+      "title": "docs / running tests",
+      "url": "https://playwright.dev/docs/running-tests",
+      "fetchUrl": "https://playwright.dev/docs/running-tests"
+    },
+    {
+      "title": "docs / screenshots",
+      "url": "https://playwright.dev/docs/screenshots",
+      "fetchUrl": "https://playwright.dev/docs/screenshots"
+    },
+    {
+      "title": "docs / selenium grid",
+      "url": "https://playwright.dev/docs/selenium-grid",
+      "fetchUrl": "https://playwright.dev/docs/selenium-grid"
+    },
+    {
+      "title": "docs / service workers",
+      "url": "https://playwright.dev/docs/service-workers",
+      "fetchUrl": "https://playwright.dev/docs/service-workers"
+    },
+    {
+      "title": "docs / test agents",
+      "url": "https://playwright.dev/docs/test-agents",
+      "fetchUrl": "https://playwright.dev/docs/test-agents"
+    },
+    {
+      "title": "docs / test annotations",
+      "url": "https://playwright.dev/docs/test-annotations",
+      "fetchUrl": "https://playwright.dev/docs/test-annotations"
+    },
+    {
+      "title": "docs / test assertions",
+      "url": "https://playwright.dev/docs/test-assertions",
+      "fetchUrl": "https://playwright.dev/docs/test-assertions"
+    },
+    {
+      "title": "docs / test cli",
+      "url": "https://playwright.dev/docs/test-cli",
+      "fetchUrl": "https://playwright.dev/docs/test-cli"
+    },
+    {
+      "title": "docs / test components",
+      "url": "https://playwright.dev/docs/test-components",
+      "fetchUrl": "https://playwright.dev/docs/test-components"
+    },
+    {
+      "title": "docs / test configuration",
+      "url": "https://playwright.dev/docs/test-configuration",
+      "fetchUrl": "https://playwright.dev/docs/test-configuration"
+    },
+    {
+      "title": "docs / test fixtures",
+      "url": "https://playwright.dev/docs/test-fixtures",
+      "fetchUrl": "https://playwright.dev/docs/test-fixtures"
+    },
+    {
+      "title": "docs / test global setup teardown",
+      "url": "https://playwright.dev/docs/test-global-setup-teardown",
+      "fetchUrl": "https://playwright.dev/docs/test-global-setup-teardown"
+    },
+    {
+      "title": "docs / test parallel",
+      "url": "https://playwright.dev/docs/test-parallel",
+      "fetchUrl": "https://playwright.dev/docs/test-parallel"
+    },
+    {
+      "title": "docs / test parameterize",
+      "url": "https://playwright.dev/docs/test-parameterize",
+      "fetchUrl": "https://playwright.dev/docs/test-parameterize"
+    },
+    {
+      "title": "docs / test projects",
+      "url": "https://playwright.dev/docs/test-projects",
+      "fetchUrl": "https://playwright.dev/docs/test-projects"
+    },
+    {
+      "title": "docs / test reporters",
+      "url": "https://playwright.dev/docs/test-reporters",
+      "fetchUrl": "https://playwright.dev/docs/test-reporters"
+    },
+    {
+      "title": "docs / test retries",
+      "url": "https://playwright.dev/docs/test-retries",
+      "fetchUrl": "https://playwright.dev/docs/test-retries"
+    },
+    {
+      "title": "docs / test sharding",
+      "url": "https://playwright.dev/docs/test-sharding",
+      "fetchUrl": "https://playwright.dev/docs/test-sharding"
+    },
+    {
+      "title": "docs / test snapshots",
+      "url": "https://playwright.dev/docs/test-snapshots",
+      "fetchUrl": "https://playwright.dev/docs/test-snapshots"
+    },
+    {
+      "title": "docs / test timeouts",
+      "url": "https://playwright.dev/docs/test-timeouts",
+      "fetchUrl": "https://playwright.dev/docs/test-timeouts"
+    },
+    {
+      "title": "docs / test typescript",
+      "url": "https://playwright.dev/docs/test-typescript",
+      "fetchUrl": "https://playwright.dev/docs/test-typescript"
+    },
+    {
+      "title": "docs / test ui mode",
+      "url": "https://playwright.dev/docs/test-ui-mode",
+      "fetchUrl": "https://playwright.dev/docs/test-ui-mode"
+    },
+    {
+      "title": "docs / test use options",
+      "url": "https://playwright.dev/docs/test-use-options",
+      "fetchUrl": "https://playwright.dev/docs/test-use-options"
+    },
+    {
+      "title": "docs / test webserver",
+      "url": "https://playwright.dev/docs/test-webserver",
+      "fetchUrl": "https://playwright.dev/docs/test-webserver"
+    },
+    {
+      "title": "docs / testing library",
+      "url": "https://playwright.dev/docs/testing-library",
+      "fetchUrl": "https://playwright.dev/docs/testing-library"
+    },
+    {
+      "title": "docs / touch events",
+      "url": "https://playwright.dev/docs/touch-events",
+      "fetchUrl": "https://playwright.dev/docs/touch-events"
+    },
+    {
+      "title": "docs / trace viewer",
+      "url": "https://playwright.dev/docs/trace-viewer",
+      "fetchUrl": "https://playwright.dev/docs/trace-viewer"
+    },
+    {
+      "title": "docs / trace viewer intro",
+      "url": "https://playwright.dev/docs/trace-viewer-intro",
+      "fetchUrl": "https://playwright.dev/docs/trace-viewer-intro"
+    },
+    {
+      "title": "docs / videos",
+      "url": "https://playwright.dev/docs/videos",
+      "fetchUrl": "https://playwright.dev/docs/videos"
+    },
+    {
+      "title": "docs / webview2",
+      "url": "https://playwright.dev/docs/webview2",
+      "fetchUrl": "https://playwright.dev/docs/webview2"
+    },
+    {
+      "title": "docs / writing tests",
+      "url": "https://playwright.dev/docs/writing-tests",
+      "fetchUrl": "https://playwright.dev/docs/writing-tests"
+    }
+  ],
+  "referenceIssues": []
+}

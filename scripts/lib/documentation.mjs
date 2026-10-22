@@ -33,7 +33,7 @@ export async function fetchDocumentationCatalog(spec,revision,{onIndex=()=>{}}={
   let indexesFetched=0;
   const add=(href,title,base,replace=false)=>{
     let target;try{target=new URL(href,base);}catch{return;}
-    if(target.protocol!=='https:'||target.username||target.password||target.port&&target.port!=='443'||!spec.allowedHosts.includes(target.hostname)||!spec.includePrefixes.some(prefix=>target.pathname.startsWith(prefix)))return;
+    if(target.protocol!=='https:'||target.username||target.password||target.port&&target.port!=='443'||!spec.allowedHosts.includes(target.hostname)||!spec.includePrefixes.some(prefix=>target.pathname.startsWith(prefix))||spec.excludePrefixes?.some(prefix=>target.pathname.startsWith(prefix)))return;
     target.hash='';target.search='';
     if(spec.fetchSuffix&&target.pathname.endsWith(spec.fetchSuffix))target.pathname=target.pathname.slice(0,-spec.fetchSuffix.length);
     if(/\.(?:png|jpe?g|gif|svg|webp|pdf|zip|json|txt|xml|gz)$/i.test(target.pathname))return;
