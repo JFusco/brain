@@ -207,7 +207,10 @@ function registryProblems(reg) {
     }
     if(spec.kind==='url'&&!onHosts(spec.url,spec.allowedHosts||[]))fail('url must be HTTPS on an allowed host');
     if(spec.kind==='collection'&&(!onHosts(spec.indexUrl,spec.allowedHosts||[])||!Array.isArray(spec.includePrefixes)))fail('indexUrl must be HTTPS on an allowed host with include prefixes');
-    if(spec.kind==='collection')try{indexLimit(spec);}catch(error){fail(error.message);}
+    if(spec.kind==='collection'){
+      if(spec.indexFormat&&!['sitemap','html','markdown'].includes(spec.indexFormat))fail('unknown index format');
+      try{indexLimit(spec);}catch(error){fail(error.message);}
+    }
   }
   for(const pointer of reg.pointers)if(!domains.includes(pointer?.domain)||!webURL(pointer.url)||typeof pointer.reason!=='string'||!pointer.reason.trim()||Object.keys(pointer).length!==3)issues.push('official/sources.json: invalid website pointer');
   if(Object.hasOwn(reg,'runnerBlockedHosts')){

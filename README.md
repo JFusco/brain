@@ -144,7 +144,7 @@ Coverage distinguishes catalogued links and website pointers. Cataloguing a link
 `official/sources.json` is the registered source inventory: what each source is, where its entry point lives, its license metadata and its skill policy. `official/sources.lock.json` records each catalog's `revision`, `fetchedAt`, tracking mode and SHA-256, and `official/catalogs/<id>.json` holds the generated links:
 
 - **Repository sources** (skill and SDK repositories) list each `SKILL.md` and Markdown doc as a GitHub link at the pinned commit, with a raw fetch URL and the Git blob ID, plus the skill metadata `skills suggest` uses. Their revision is the commit.
-- **Documentation trees, indexes and sitemaps** list page links. A repository tree's revision is its commit; an `llms.txt` index or sitemap uses a content digest.
+- **Documentation trees, indexes and sitemaps** list page links. Explicit `indexFormat: html` sources read only static anchors from the approved index, filter by registered hosts and path prefixes, and never follow linked pages during sync. A repository tree's revision is its commit; an `llms.txt` index or sitemap uses a content digest.
 
 Notes cite sources as `source-id@revision`. When a catalog's revision moves, `curation stale` flags the citing notes.
 
@@ -251,6 +251,7 @@ code change; routine catalog-refresh PRs still exclude dependency upgrades.
 ### Official coverage
 
 | Area | Available references |
+| Internationalization | W3C HTML authoring index: bounded articles, questions and tutorials covering language, encoding and text direction |
 | Browser platform | Bounded English MDN catalog: HTML, CSS guides, JavaScript guides, HTTP, selected browser APIs and Baseline; not the complete MDN library |
 | --- | --- |
 | Next.js | [Official page index](https://nextjs.org/docs/llms.txt) and version guidance |
@@ -286,6 +287,7 @@ OWASP cheat sheets use [CC-BY-SA-4.0](https://github.com/OWASP/CheatSheetSeries)
 The weekly coverage review checks these official places for new documentation indexes (`llms.txt`, sitemaps, docs repositories), skills or agent repositories, and MCP servers. An MCP server is recorded as a website pointer.
 
 | Area | Official places |
+| Internationalization | www.w3.org/International/techniques/authoring-html; github.com/w3c/i18n-drafts |
 | Browser platform | developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz; github.com/mdn/content; browser support remains separate from project acceptance |
 | --- | --- |
 | Next.js | nextjs.org/docs (`llms.txt`), github.com/vercel, github.com/vercel-labs |
