@@ -3,11 +3,11 @@ title: "Share repeated CMS content by editorial ownership"
 domain: "cms/optimizely-saas"
 aliases: ["shared blocks", "inline blocks", "content reuse", "editorial ownership"]
 evidence_date: "2026-10-19"
-reviewed_at: "2026-10-19"
+reviewed_at: "2026-10-22"
 status: "current"
 versions: []
 applicability: "Optimizely CMS SaaS block reuse and migration planning; hosted version unknown; no SDK compatibility range established"
-provenance: "optimizely-cms-saas-docs@a3b1d31d6bce9822bcaca13e4cee0e6d5a2f147dc555aff57464dfac702036d0; official blocks page checked 2026-10-19; sanitized authored migration observation"
+provenance: "optimizely-cms-saas-docs@4e7dd5eeae36577bcb4d08f1f2617b4dfeab71f0541e212710ea48b8a233ba92; official blocks page checked 2026-10-19; sanitized authored migration observation"
 ---
 
 # Share repeated CMS content by editorial ownership
@@ -31,3 +31,5 @@ Use this when repeated content in an Optimizely CMS SaaS migration could either 
 **Reported observation:** a sanitized authored capture from a private migration frontend described repeated complete newsletter, contact-section and disclaimer blocks, with contact information already referenced separately. The capture reported `@optimizely/cms-sdk@3.0.0` in that one frontend; the curator did not inspect its workspace or rerun that observation. Hosted CMS version is unknown. This is not evidence of compatibility with other versions.
 
 **Proposed practices:** complete-value grouping, incremental matching and stable destination mapping require implementation and project-specific validation. No inline-to-shared conversion, connected CMS write or rendering acceptance is established here. Preserve independent ownership even where values match. For product/source selection, see [Choose CMS guidance by product and integration](../../_unsorted/cms-guidance.md); that note addresses source choice rather than this reuse decision.
+
+**Revalidated October 22, 2026:** the current official blocks and folders pages were read. Shared and inline publishing lifecycles, shared edit propagation and folder availability still support the documented decisions above. The refreshed index changed unrelated API locators; that alone was not the revalidation evidence. No migration behavior or CMS write was rerun.

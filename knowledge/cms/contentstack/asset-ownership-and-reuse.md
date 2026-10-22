@@ -3,7 +3,7 @@ title: "Organize Contentstack assets by ownership and reuse"
 domain: "cms/contentstack"
 aliases: ["asset folders", "asset metadata", "editorial asset library"]
 evidence_date: "2026-10-21"
-reviewed_at: "2026-10-21"
+reviewed_at: "2026-10-22"
 status: "current"
 versions: []
 applicability: "Editorial asset-library planning; distinguish stack assets from the separately enabled Assets service"
@@ -33,3 +33,7 @@ Official pages were read on October 21. No account entitlement, production taxon
 
 
 **Proposal boundary:** the vocabulary is a set of candidates for editor review, not a required schema or a claim that every field type is available. The master-file/crop and placement-text decisions are proposed modeling choices. Historical pilot details and unrelated frontend package versions supply no entitlement, taxonomy or delivery proof and are not adopted as reusable requirements.
+
+## Plan capacity before expansion
+
+**Documented:** [stack asset limits](https://www.contentstack.com/docs/headless-cms/asset-limitations) currently list 10,000 assets per stack, 100 MB per API upload and 700 MB through the UI; restricted filename characters are replaced with underscores. The same page distinguishes newer Assets service allowances of 500,000 per workspace and 1.5 GB per asset. These are documented defaults, not account entitlement proof. **Proposed:** count distinct intended binaries after identity review before expansion; request a limit review or narrow scope rather than assuming every image URL is a unique file. Keep stack assets and the newer service separate. For a concrete, adaptable folder proposal and product-specific limits, see [organization by editorial use](../../_unsorted/asset-organization-by-use.md). These pages were checked October 22; no account limits or folder behavior were exercised.

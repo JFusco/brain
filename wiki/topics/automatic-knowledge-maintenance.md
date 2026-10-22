@@ -231,3 +231,7 @@ The [October 20 Contentful revalidation](../journal/2026-10-20-contentful-note-r
 The [Contentstack skill-scope findings](../journal/2026-10-20-contentstack-skill-scope.md) distinguish starter-specific conventions from independently documented practices, with no automatic installation or cross-project compatibility assertion.
 
 The [October 20 scheduled note review](../journal/2026-10-20-scheduled-note-revalidation.md) rechecks four existing React/CMS notes against refreshed references, retains the verified Preview conflict, and records an empty pending capture queue without inventing additions.
+
+## October 22 asset migration guidance
+
+The [asset migration journal](../journal/2026-10-22-asset-migration-guidance.md) records source-grounded CMS media/CMP boundaries, placement alt text, proposed asset organization and a version/path-specific correction to Contentstack CLI recovery advice. Native mapping retention does not itself establish duplicate-safe asset reruns. Proposal publication does not claim connected execution, and capture acceptance follows successful publication and run completion.
