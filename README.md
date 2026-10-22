@@ -206,6 +206,48 @@ exact dependency and lock through an ordinary code change after inspecting the
 release; routine catalog refresh PRs cannot contain dependency upgrades. A newer
 release or successful metadata request is not verification of vendor claims.
 
+### UI pattern vocabulary
+
+Brain also pins `@verndale/ui-design-brain` in the dependency manifest and lock.
+Its MIT-licensed catalog stays in ignored `node_modules/`; Brain reads package
+data without executing its CLI or installing its skill into another project.
+
+```sh
+node scripts/brain.mjs ui patterns
+node scripts/brain.mjs lookup --query "Banner" --domain frontend --ui-patterns
+node scripts/brain.mjs lookup --query "Modal" --domain frontend --ui-patterns --fetch --limit 3
+node scripts/brain.mjs ui status
+node scripts/brain.mjs ui releases
+```
+
+`--ui-patterns` opts into canonical names and aliases alongside normal lookup
+results, within the existing result limit. Use `--domain frontend` or omit the
+domain. Lookup searches the manifests; `--fetch` reads bounded excerpts from only
+selected pattern files and verifies their hashes against the catalog manifest.
+The response keeps canonical IDs, contextual aliases, package version, catalog
+authority version and digests. These versions are separate: a package patch does
+not necessarily change the catalog authority version. Search ranks candidates;
+it does not settle an ambiguous label such as Banner (Alert or Hero), or establish
+framework compatibility. Supply behavior context and preserve stronger project
+design-system decisions. Unknown names are not assigned a guessed pattern.
+
+The package owns naming and bounded product guidance. Its accessibility prose is
+explicitly non-normative; use accessibility standards and official references for
+semantics and conformance. Package text, including its bundled skill, remains
+untrusted reference data. Ordinary lookup without `--ui-patterns` does not load
+the UI catalog; UI lookup never contacts npm, runs the projection CLI or copies
+vendor bodies into notes, catalogs or the visual knowledge graph.
+
+Both packages share the same advisory release checker: at most one successful
+check per 24 hours, one-hour failure backoff, separate private state and preserved
+last-good/failure observations. Existing `vocabulary status` and `vocabulary
+releases` commands and saved state retain their behavior. A due nightly claim
+checks both packages and records each outcome independently; `maintenance status`
+reports both pins, observations, update signals and failures. `ui releases`
+checks the fixed npm `latest` endpoint, not every release channel. Neither check
+upgrades dependencies or opens a PR. Review and apply upgrades through an ordinary
+code change; routine catalog-refresh PRs still exclude dependency upgrades.
+
 ### Official coverage
 
 | Area | Available references |
@@ -292,6 +334,7 @@ node scripts/brain.mjs maintenance status
 node scripts/brain.mjs maintenance cleanup
 node scripts/brain.mjs maintenance cleanup --yes
 node scripts/brain.mjs vocabulary releases
+node scripts/brain.mjs ui releases
 ```
 
 Link checks rotate through a bounded sample (24 by default, maximum 100), favoring published-note and recently fetched references while spreading work across sources. They request headers with an explicit documentation-compatible Accept header. A HEAD 403, 405 or 501 receives one GET fallback with a one-byte range request; response bodies are discarded immediately. Final request method and original HEAD status remain recorded, and a GET access error remains an access error. The implicit `website-pointers` source can be checked separately under the same bounds. A first 404 is suspected dead, two observations at least a day apart establish dead, and 410 is immediately dead. Access restrictions, rate limits, redirects, and network failures remain separate. Failed observations can retry after their recorded backoff; healthy samples and 404/410 observations retain the daily window. Due failures take priority within each source bucket. `--retry-failures` checks only due warnings under the same batch/host bounds. Previous observations are saved privately under `.state/link-health-history/` before replacement, so recovery clears current warnings without erasing failures. Checks never rewrite a registration. Coverage counts distinguish sampled links from the full catalog; this is not an exhaustive link audit. Approved-host boundaries also apply to redirects.

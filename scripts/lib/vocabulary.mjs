@@ -1,9 +1,10 @@
 import fs from 'node:fs';
-import {at,json,readJSON,noSymlinks,sha,now,writeJSON} from './core.mjs';
-import {download} from './network.mjs';
+import {at,json,noSymlinks,sha} from './core.mjs';
+import {packageReleaseStatus,checkPackageRelease} from './package-releases.mjs';
 import {assertClean} from './privacy.mjs';
 
-const name='cms-field-vocabulary',releaseFile=at('.state/vocabulary-release.json');
+const name='cms-field-vocabulary';
+const release={name,label:'CMS vocabulary',stateFile:'.state/vocabulary-release.json',identity:packageIdentity};
 const domains={contentful:'cms/contentful',contentstack:'cms/contentstack','optimizely-saas':'cms/optimizely-saas','optimizely-paas':'cms/optimizely-paas','sitecore-ai':'cms/sitecore-ai','sitecore-on-prem':'cms/sitecore-xp',wordpress:'cms/wordpress'};
 const stable=/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/;
 
@@ -56,25 +57,9 @@ export function vocabularyEntries(profileId,domain){
 }
 
 export function vocabularyStatus(){
-  const saved=readJSON(releaseFile,{});
-  let identity;try{identity=packageIdentity();}catch(error){return {ok:false,error:error.message,release:saved};}
-  const latest=saved.lastGood?.version;
-  const newer=latest?latest.split('.').map(Number).reduce((result,n,i)=>result||Math.sign(n-Number(identity.version.split('.')[i])),0)>0:false;
-  return {ok:!saved.lastError,...identity,release:{checkedAt:saved.lastAttempt||null,lastSuccess:saved.lastSuccess||null,latest:latest||null,updateAvailable:latest?newer:null,lastError:saved.lastError||null,lastFailure:saved.lastFailure||null,retryAfter:saved.retryAfter||null},notice:'Release detection never changes the dependency pin or validates vendor claims. Upgrade through an ordinary code change.'};
+  return packageReleaseStatus(release);
 }
 
-export async function checkVocabularyRelease(){
-  // Validate installation before any registry request; lookup never calls this.
-  packageIdentity();
-  const saved=readJSON(releaseFile,{}),time=Date.now();
-  if(Date.parse(saved.retryAfter)>time)return {...vocabularyStatus(),skipped:'failure-backoff'};
-  if(!saved.lastError&&time-Date.parse(saved.lastSuccess)<24*3600000)return {...vocabularyStatus(),skipped:'checked-within-24-hours'};
-  saved.lastAttempt=now();
-  try{
-    const response=await download('https://registry.npmjs.org/cms-field-vocabulary/latest',{hosts:['registry.npmjs.org'],maxBytes:128*1024,headers:{accept:'application/json'}});
-    const metadata=JSON.parse(response.bytes);
-    if(metadata.name!==name||!stable.test(metadata.version))throw new Error('Unexpected CMS vocabulary release metadata');
-    saved.lastGood={version:metadata.version,metadataSha256:sha(response.bytes)};saved.lastSuccess=now();delete saved.lastError;delete saved.retryAfter;
-  }catch(error){saved.lastError=error.message;saved.lastFailure={at:now(),error:error.message};saved.retryAfter=new Date(time+3600000).toISOString();}
-  writeJSON(releaseFile,saved,0o600);return vocabularyStatus();
+export function checkVocabularyRelease(){
+  return checkPackageRelease(release);
 }
