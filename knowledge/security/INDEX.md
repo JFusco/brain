@@ -25,7 +25,7 @@ Route application authentication, authorization, sessions, data handling, inject
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No curated notes yet.
+- [Scope an application security review](application-security-review-playbook.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

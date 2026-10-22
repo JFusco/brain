@@ -6,6 +6,8 @@ import {at,noSymlinks} from '../core.mjs';
 import {snapshot,healthOverlay} from './snapshot.mjs';
 import {route,reportActivity,pendingIntake} from './retrieval.mjs';
 import {summary,eventsAfter,latestSequence,startSession,sessionInfo} from './metrics.mjs';
+import {brief,playbooks,explain,compare} from './guidance-tools.mjs';
+import {feedback} from './feedback.mjs';
 const types={'.html':'text/html; charset=utf-8','.js':'application/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml'};
 async function body(req){let data='';for await(const chunk of req){data+=chunk;if(Buffer.byteLength(data)>8192)throw new Error('Request body exceeds its bound');}return JSON.parse(data);}
 function strict(value,keys){if(!value||Array.isArray(value)||typeof value!=='object'||Object.keys(value).some(k=>!keys.includes(k)))throw new Error('Unsupported request fields');return value;}
@@ -37,6 +39,17 @@ export async function serve({port=4174}={}){
       if(req.method==='POST'&&url.pathname==='/api/session'){strict(await body(req),[]);return send(200,await startSession(snapshot().revision));}
       if(req.method==='POST'&&url.pathname==='/api/route'){
         const input=strict(await body(req),['query','domain','versions']);return send(200,await route({...input,origin:'viewer'}));
+      }
+      if(req.method==='POST'&&url.pathname==='/api/brief'){
+        const input=strict(await body(req),['query','domain','versions']);return send(200,await brief({...input,origin:'viewer'}));
+      }
+      if(req.method==='POST'&&url.pathname==='/api/playbooks'){
+        const input=strict(await body(req),['domain','versions']);return send(200,playbooks(input));
+      }
+      if(req.method==='POST'&&['/api/explain','/api/compare','/api/feedback'].includes(url.pathname)){
+        const input=strict(await body(req),url.pathname==='/api/explain'?['node','snapshot','versions']:url.pathname==='/api/compare'?['from','to','snapshot','versions']:['node','snapshot','value']);
+        if(input.snapshot!==snapshot().revision)return send(409,{error:'Knowledge changed; refresh before continuing'});
+        return send(200,await (url.pathname==='/api/explain'?explain:url.pathname==='/api/compare'?compare:feedback)(input));
       }
       if(req.method==='POST'&&url.pathname==='/api/note'){
         const input=strict(await body(req),['node','session','snapshot']);const s=snapshot();if(input.snapshot!==s.revision)return send(409,{error:'Knowledge changed; refresh the graph before opening the note'});
