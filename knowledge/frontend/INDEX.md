@@ -24,4 +24,6 @@ aliases: ["frontend"]
 
 - **mdn-web-docs** — link catalog of 884 pages; rolling-url; revision `cceec17e41c46ac0d1593a34b8977148257c68f33517430b2267961b46bf2935`; fetched 2026-10-22.
   - [Catalog source](https://developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz); search it with `lookup --domain frontend`.
+- **w3c-internationalization** — link catalog of 71 pages; rolling-url; revision `425522bbf10fc262bbd5382aa0cad63f55c5ad56aecf2c92034bc618b5329f65`; fetched 2026-10-22.
+  - [Catalog source](https://www.w3.org/International/techniques/authoring-html); search it with `lookup --domain frontend`.
 <!-- brain:official:end -->

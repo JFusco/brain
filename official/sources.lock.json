@@ -144,6 +144,12 @@
       "fetchedAt": "2026-10-22T01:31:06.805Z",
       "track": "rolling-url",
       "catalogSha256": "28e25d435520ef39194721cb98d285907d056e92028cd3d34ffac2f690da13c2"
+    },
+    "w3c-internationalization": {
+      "revision": "425522bbf10fc262bbd5382aa0cad63f55c5ad56aecf2c92034bc618b5329f65",
+      "fetchedAt": "2026-10-22T01:34:28.017Z",
+      "track": "rolling-url",
+      "catalogSha256": "764bdb67bcad8097665c20e0053d130a740fa72512003a6ec9977ce812910b6c"
     }
   },
   "toolchain": {

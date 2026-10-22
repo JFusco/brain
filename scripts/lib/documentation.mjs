@@ -45,12 +45,22 @@ export async function fetchDocumentationCatalog(spec,revision,{onIndex=()=>{}}={
     if(seen.size>=maxIndexes)throw new Error(`Sitemap index bound exceeded (${indexesFetched}/${maxIndexes} downloaded); refusing a partial catalog`);
     seen.add(input);
     // Publishers can reject index requests that omit their supported media types.
-    const accept=spec.indexFormat==='sitemap'?'application/xml, text/xml;q=0.9, text/plain;q=0.8':'text/markdown, text/plain;q=0.9';
+    const accept=spec.indexFormat==='sitemap'?'application/xml, text/xml;q=0.9, text/plain;q=0.8':spec.indexFormat==='html'?'text/html':'text/markdown, text/plain;q=0.9';
     const response=await download(input,{hosts:spec.allowedHosts,maxBytes:config().network.maxDownloadBytes,headers:{accept}});
     onIndex({indexesFetched:++indexesFetched,maxIndexes});
     const bytes=/\.gz(?:$|\?)/.test(input)?gunzipSync(response.bytes,{maxOutputLength:config().network.maxExpandedBytes}):response.bytes;
-    const index=markdownResponse({...response,bytes});
-    if(spec.indexFormat==='sitemap'){
+    const index=spec.indexFormat==='html'?bytes.toString('utf8'):markdownResponse({...response,bytes});
+    if(spec.indexFormat==='html'){
+      if(!String(response.headers['content-type']).includes('text/html')||index.includes('\0')||!index.trim())throw new Error('Expected an HTML documentation index');
+      // Static anchors only. No scripts, styles, embedded resources or recursive page crawling.
+      const clean=index.replace(/<!--[\s\S]*?-->|<(script|style)\b[^>]*>[\s\S]*?<\/\1\s*>/gi,'');
+      const decode=text=>text.replace(/&(?:amp|quot|apos|lt|gt|nbsp);/g,value=>({'&amp;':'&','&quot;':'"','&apos;':"'",'&lt;':'<','&gt;':'>','&nbsp;':' '})[value]);
+      for(const match of clean.matchAll(/<a\b[^>]*?\s+href\s*=\s*(["'])([^"']+)\1[^>]*>([\s\S]*?)<\/a\s*>/gi)){
+        let title=decode(match[3].replace(/<[^>]*>/g,' ')).replace(/\s+/g,' ').trim();
+        if(/^(?:more|read more|here|details)$/i.test(title))try{title=decodeURIComponent(new URL(decode(match[2]),response.url).pathname).split('/').filter(Boolean).slice(-2).join(' / ').replace(/-/g,' ');}catch{continue;}
+        if(title)add(decode(match[2]),title,response.url);
+      }
+    }else if(spec.indexFormat==='sitemap'){
       for(const match of index.matchAll(/<loc>\s*(?:<!\[CDATA\[)?([^<]+?)(?:\]\]>)?\s*<\/loc>/g)){
         const href=match[1].replace(/&amp;/g,'&').trim();let target;try{target=new URL(href);}catch{continue;}
         if(target.protocol!=='https:'||target.username||target.password||!spec.allowedHosts.includes(target.hostname))continue;

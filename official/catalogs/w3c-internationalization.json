@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "source": "w3c-internationalization",
+  "revision": "425522bbf10fc262bbd5382aa0cad63f55c5ad56aecf2c92034bc618b5329f65",
+  "origin": "https://www.w3.org/International/techniques/authoring-html",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Text size in translation",
+      "url": "https://www.w3.org/International/articles/article-text-size",
+      "fetchUrl": "https://www.w3.org/International/articles/article-text-size"
+    },
+    {
+      "title": "Understanding the New Language Tags",
+      "url": "https://www.w3.org/International/articles/bcp47/",
+      "fetchUrl": "https://www.w3.org/International/articles/bcp47/"
+    },
+    {
+      "title": "articles / composite messages",
+      "url": "https://www.w3.org/International/articles/composite-messages/",
+      "fetchUrl": "https://www.w3.org/International/articles/composite-messages/"
+    },
+    {
+      "title": "Text direction",
+      "url": "https://www.w3.org/International/articles/css3-text/",
+      "fetchUrl": "https://www.w3.org/International/articles/css3-text/"
+    },
+    {
+      "title": "Character encodings: Essential concepts",
+      "url": "https://www.w3.org/International/articles/definitions-characters/",
+      "fetchUrl": "https://www.w3.org/International/articles/definitions-characters/"
+    },
+    {
+      "title": "An Introduction to Multilingual Web Addresses",
+      "url": "https://www.w3.org/International/articles/idn-and-iri/",
+      "fetchUrl": "https://www.w3.org/International/articles/idn-and-iri/"
+    },
+    {
+      "title": "articles / inline bidi markup",
+      "url": "https://www.w3.org/International/articles/inline-bidi-markup/",
+      "fetchUrl": "https://www.w3.org/International/articles/inline-bidi-markup/"
+    },
+    {
+      "title": "Unicode Bidirectional Algorithm basics",
+      "url": "https://www.w3.org/International/articles/inline-bidi-markup/uba-basics",
+      "fetchUrl": "https://www.w3.org/International/articles/inline-bidi-markup/uba-basics"
+    },
+    {
+      "title": "Language tags in HTML and XML",
+      "url": "https://www.w3.org/International/articles/language-tags/",
+      "fetchUrl": "https://www.w3.org/International/articles/language-tags/"
+    },
+    {
+      "title": "Ruby markup",
+      "url": "https://www.w3.org/International/articles/ruby/markup.en",
+      "fetchUrl": "https://www.w3.org/International/articles/ruby/markup.en"
+    },
+    {
+      "title": "Ruby Styling",
+      "url": "https://www.w3.org/International/articles/ruby/styling.html",
+      "fetchUrl": "https://www.w3.org/International/articles/ruby/styling.html"
+    },
+    {
+      "title": "Serving HTML & XHTML",
+      "url": "https://www.w3.org/International/articles/serving-xhtml/",
+      "fetchUrl": "https://www.w3.org/International/articles/serving-xhtml/"
+    },
+    {
+      "title": "Managing inline spaces in Chinese & Japanese",
+      "url": "https://www.w3.org/International/articles/styling/inline-space",
+      "fetchUrl": "https://www.w3.org/International/articles/styling/inline-space"
+    },
+    {
+      "title": "Styling underlines",
+      "url": "https://www.w3.org/International/articles/styling/underline",
+      "fetchUrl": "https://www.w3.org/International/articles/styling/underline"
+    },
+    {
+      "title": "articles / text reuse",
+      "url": "https://www.w3.org/International/articles/text-reuse/",
+      "fetchUrl": "https://www.w3.org/International/articles/text-reuse/"
+    },
+    {
+      "title": "typography / justification",
+      "url": "https://www.w3.org/International/articles/typography/justification",
+      "fetchUrl": "https://www.w3.org/International/articles/typography/justification"
+    },
+    {
+      "title": "typography / linebreak",
+      "url": "https://www.w3.org/International/articles/typography/linebreak",
+      "fetchUrl": "https://www.w3.org/International/articles/typography/linebreak"
+    },
+    {
+      "title": "Approaches to line breaking",
+      "url": "https://www.w3.org/International/articles/typography/linebreak.en",
+      "fetchUrl": "https://www.w3.org/International/articles/typography/linebreak.en"
+    },
+    {
+      "title": "Migrating to Unicode",
+      "url": "https://www.w3.org/International/articles/unicode-migration/",
+      "fetchUrl": "https://www.w3.org/International/articles/unicode-migration/"
+    },
+    {
+      "title": "Styling vertical Chinese, Japanese, Korean and Mongolian text",
+      "url": "https://www.w3.org/International/articles/vertical-text/",
+      "fetchUrl": "https://www.w3.org/International/articles/vertical-text/"
+    },
+    {
+      "title": "Accept-Language used for locale setting",
+      "url": "https://www.w3.org/International/questions/qa-accept-lang-locales",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-accept-lang-locales"
+    },
+    {
+      "title": "questions / qa b and i tags",
+      "url": "https://www.w3.org/International/questions/qa-b-and-i-tags",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-b-and-i-tags"
+    },
+    {
+      "title": "Unicode controls vs. markup for bidi support",
+      "url": "https://www.w3.org/International/questions/qa-bidi-controls",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-bidi-controls"
+    },
+    {
+      "title": "questions / qa bidi css markup",
+      "url": "https://www.w3.org/International/questions/qa-bidi-css-markup",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-bidi-css-markup"
+    },
+    {
+      "title": "Working with source code markup and code examples for RTL scripts",
+      "url": "https://www.w3.org/International/questions/qa-bidi-source",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-bidi-source"
+    },
+    {
+      "title": "questions / qa bidi space",
+      "url": "https://www.w3.org/International/questions/qa-bidi-space",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-bidi-space"
+    },
+    {
+      "title": "Using Unicode controls for bidi text",
+      "url": "https://www.w3.org/International/questions/qa-bidi-unicode-controls",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-bidi-unicode-controls"
+    },
+    {
+      "title": "The byte-order mark (BOM) in HTML",
+      "url": "https://www.w3.org/International/questions/qa-byte-order-mark",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-byte-order-mark"
+    },
+    {
+      "title": "questions / qa changing encoding",
+      "url": "https://www.w3.org/International/questions/qa-changing-encoding",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-changing-encoding"
+    },
+    {
+      "title": "questions / qa chars vs markup",
+      "url": "https://www.w3.org/International/questions/qa-chars-vs-markup",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-chars-vs-markup"
+    },
+    {
+      "title": "questions / qa choosing encodings",
+      "url": "https://www.w3.org/International/questions/qa-choosing-encodings",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-choosing-encodings"
+    },
+    {
+      "title": "questions / qa choosing language tags",
+      "url": "https://www.w3.org/International/questions/qa-choosing-language-tags",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-choosing-language-tags"
+    },
+    {
+      "title": "HTML, XHTML, XML and Control Codes",
+      "url": "https://www.w3.org/International/questions/qa-controls",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-controls"
+    },
+    {
+      "title": "questions / qa css charset",
+      "url": "https://www.w3.org/International/questions/qa-css-charset",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-css-charset"
+    },
+    {
+      "title": "questions / qa css lang",
+      "url": "https://www.w3.org/International/questions/qa-css-lang",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-css-lang"
+    },
+    {
+      "title": "Date formats, Option Three: Use the Accept-Language HTTP header",
+      "url": "https://www.w3.org/International/questions/qa-date-format",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-date-format"
+    },
+    {
+      "title": "Document character set",
+      "url": "https://www.w3.org/International/questions/qa-doc-charset",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-doc-charset"
+    },
+    {
+      "title": "questions / qa escapes",
+      "url": "https://www.w3.org/International/questions/qa-escapes",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-escapes"
+    },
+    {
+      "title": "questions / qa forms utf 8",
+      "url": "https://www.w3.org/International/questions/qa-forms-utf-8",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-forms-utf-8"
+    },
+    {
+      "title": "Checking HTTP Headers",
+      "url": "https://www.w3.org/International/questions/qa-headers-charset",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-headers-charset"
+    },
+    {
+      "title": "questions / qa html css normalization",
+      "url": "https://www.w3.org/International/questions/qa-html-css-normalization",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-html-css-normalization"
+    },
+    {
+      "title": "questions / qa html dir",
+      "url": "https://www.w3.org/International/questions/qa-html-dir",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-html-dir"
+    },
+    {
+      "title": "questions / qa html encoding declarations",
+      "url": "https://www.w3.org/International/questions/qa-html-encoding-declarations",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-html-encoding-declarations"
+    },
+    {
+      "title": "questions / qa html language declarations",
+      "url": "https://www.w3.org/International/questions/qa-html-language-declarations",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-html-language-declarations"
+    },
+    {
+      "title": "questions / qa http and lang",
+      "url": "https://www.w3.org/International/questions/qa-http-and-lang",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-http-and-lang"
+    },
+    {
+      "title": "Two-letter or three-letter language codes",
+      "url": "https://www.w3.org/International/questions/qa-lang-2or3",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-lang-2or3"
+    },
+    {
+      "title": "Setting language preferences in a browser",
+      "url": "https://www.w3.org/International/questions/qa-lang-priorities",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-lang-priorities"
+    },
+    {
+      "title": "Why use the language attribute?",
+      "url": "https://www.w3.org/International/questions/qa-lang-why",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-lang-why"
+    },
+    {
+      "title": "questions / qa link lang",
+      "url": "https://www.w3.org/International/questions/qa-link-lang",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-link-lang"
+    },
+    {
+      "title": "RTL rendering of LTR scripts",
+      "url": "https://www.w3.org/International/questions/qa-ltr-scripts-in-rtl",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-ltr-scripts-in-rtl"
+    },
+    {
+      "title": "Monolingual vs. multilingual web sites",
+      "url": "https://www.w3.org/International/questions/qa-mono-multilingual",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-mono-multilingual"
+    },
+    {
+      "title": "questions / qa navigation select",
+      "url": "https://www.w3.org/International/questions/qa-navigation-select",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-navigation-select"
+    },
+    {
+      "title": "questions / qa no language",
+      "url": "https://www.w3.org/International/questions/qa-no-language",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-no-language"
+    },
+    {
+      "title": "questions / qa personal names",
+      "url": "https://www.w3.org/International/questions/qa-personal-names",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-personal-names"
+    },
+    {
+      "title": "questions / qa resizing backgrounds",
+      "url": "https://www.w3.org/International/questions/qa-resizing-backgrounds",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-resizing-backgrounds"
+    },
+    {
+      "title": "What is ruby?",
+      "url": "https://www.w3.org/International/questions/qa-ruby",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-ruby"
+    },
+    {
+      "title": "Languages using right-to-left scripts",
+      "url": "https://www.w3.org/International/questions/qa-scripts",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-scripts"
+    },
+    {
+      "title": "Sorting select options",
+      "url": "https://www.w3.org/International/questions/qa-select-sorting",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-select-sorting"
+    },
+    {
+      "title": "questions / qa site conneg",
+      "url": "https://www.w3.org/International/questions/qa-site-conneg",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-site-conneg"
+    },
+    {
+      "title": "Types of language declaration",
+      "url": "https://www.w3.org/International/questions/qa-text-processing-vs-metadata",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-text-processing-vs-metadata"
+    },
+    {
+      "title": "questions / qa translate flag",
+      "url": "https://www.w3.org/International/questions/qa-translate-flag",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-translate-flag"
+    },
+    {
+      "title": "How to make list markers stand upright in vertical text",
+      "url": "https://www.w3.org/International/questions/qa-upright-counters-in-vertical",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-upright-counters-in-vertical"
+    },
+    {
+      "title": "Checking the character encoding using the validator",
+      "url": "https://www.w3.org/International/questions/qa-validator-charset-check",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-validator-charset-check"
+    },
+    {
+      "title": "questions / qa visual vs logical",
+      "url": "https://www.w3.org/International/questions/qa-visual-vs-logical",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-visual-vs-logical"
+    },
+    {
+      "title": "Character encodings for beginners",
+      "url": "https://www.w3.org/International/questions/qa-what-is-encoding",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-what-is-encoding"
+    },
+    {
+      "title": "When to use language negotiation",
+      "url": "https://www.w3.org/International/questions/qa-when-lang-neg",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-when-lang-neg"
+    },
+    {
+      "title": "Who uses Unicode?",
+      "url": "https://www.w3.org/International/questions/qa-who-uses-unicode",
+      "fetchUrl": "https://www.w3.org/International/questions/qa-who-uses-unicode"
+    },
+    {
+      "title": "Creating HTML Pages in Arabic, Hebrew and Other Right-to-left Scripts",
+      "url": "https://www.w3.org/International/tutorials/bidi-xhtml/",
+      "fetchUrl": "https://www.w3.org/International/tutorials/bidi-xhtml/"
+    },
+    {
+      "title": "Working with language in HTML",
+      "url": "https://www.w3.org/International/tutorials/language-decl/",
+      "fetchUrl": "https://www.w3.org/International/tutorials/language-decl/"
+    },
+    {
+      "title": "Ruby style",
+      "url": "https://www.w3.org/International/tutorials/ruby/",
+      "fetchUrl": "https://www.w3.org/International/tutorials/ruby/"
+    },
+    {
+      "title": "Handling character encodings in HTML and CSS",
+      "url": "https://www.w3.org/International/tutorials/tutorial-char-enc",
+      "fetchUrl": "https://www.w3.org/International/tutorials/tutorial-char-enc"
+    }
+  ],
+  "referenceIssues": []
+}

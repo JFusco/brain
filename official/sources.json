@@ -632,6 +632,32 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling English MDN reference subset: HTML, CSS guides, JavaScript guides, HTTP, Fetch and Intersection Observer, plus Baseline. Browser availability is separate from project browser targets and accessibility testing; not a full MDN catalog."
+    },
+    {
+      "id": "w3c-internationalization",
+      "vendor": "w3c",
+      "domains": [
+        "frontend",
+        "semantics"
+      ],
+      "kind": "collection",
+      "indexFormat": "html",
+      "indexUrl": "https://www.w3.org/International/techniques/authoring-html",
+      "allowedHosts": [
+        "www.w3.org",
+        "w3.org"
+      ],
+      "includePrefixes": [
+        "/International/articles/",
+        "/International/questions/",
+        "/International/tutorials/"
+      ],
+      "maxPages": 250,
+      "maxIndexes": 1,
+      "license": "W3C Document License; links and metadata only. https://www.w3.org/copyright/document-license/",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling W3C internationalization authoring resources linked by the HTML techniques index. Language, locale, encoding and text direction are distinct. Articles may retain older examples; check the target HTML and CMS surface."
     }
   ],
   "pointers": [

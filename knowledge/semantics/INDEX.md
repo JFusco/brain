@@ -47,6 +47,8 @@ No curated notes yet.
 
 - **schemaorg-docs** — link catalog of 12 pages; rolling-url; revision `fd5f6e3f496d0f569a651cc9f87b867dc9659da7d6ad010607c5bf1501822dee`; fetched 2026-10-21.
   - [Catalog source](https://schema.org/sitemap.xml); search it with `lookup --domain semantics`.
+- **w3c-internationalization** — link catalog of 71 pages; rolling-url; revision `425522bbf10fc262bbd5382aa0cad63f55c5ad56aecf2c92034bc618b5329f65`; fetched 2026-10-22.
+  - [Catalog source](https://www.w3.org/International/techniques/authoring-html); search it with `lookup --domain semantics`.
 - [Official website](https://html.spec.whatwg.org/multipage/) — pointer only: HTML semantics and native controls in the WHATWG HTML Living Standard. Rolling standard; pointer only.
 - [Official website](https://web.dev/learn/html/semantic-html) — pointer only: Semantic HTML meaning and native elements. Rolling web.dev tutorial; pointer only.
 - [Official website](https://www.w3.org/TR/json-ld11/) — pointer only: JSON-LD 1.1 structured data and linked data; published W3C Recommendation. Pointer only.
