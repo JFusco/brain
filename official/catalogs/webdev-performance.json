@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "source": "webdev-performance",
+  "revision": "018376bb81e7f77d0c2c23e8e554bac4297163b42153876117c519de5e69c174",
+  "origin": "https://web.dev/learn/performance",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "performance / code split javascript",
+      "url": "https://web.dev/learn/performance/code-split-javascript",
+      "fetchUrl": "https://web.dev/learn/performance/code-split-javascript"
+    },
+    {
+      "title": "performance / general html performance",
+      "url": "https://web.dev/learn/performance/general-html-performance",
+      "fetchUrl": "https://web.dev/learn/performance/general-html-performance"
+    },
+    {
+      "title": "performance / image performance",
+      "url": "https://web.dev/learn/performance/image-performance",
+      "fetchUrl": "https://web.dev/learn/performance/image-performance"
+    },
+    {
+      "title": "performance / lazy load images and iframe elements",
+      "url": "https://web.dev/learn/performance/lazy-load-images-and-iframe-elements",
+      "fetchUrl": "https://web.dev/learn/performance/lazy-load-images-and-iframe-elements"
+    },
+    {
+      "title": "performance / optimize resource loading",
+      "url": "https://web.dev/learn/performance/optimize-resource-loading",
+      "fetchUrl": "https://web.dev/learn/performance/optimize-resource-loading"
+    },
+    {
+      "title": "performance / optimize web fonts",
+      "url": "https://web.dev/learn/performance/optimize-web-fonts",
+      "fetchUrl": "https://web.dev/learn/performance/optimize-web-fonts"
+    },
+    {
+      "title": "performance / prefetching prerendering precaching",
+      "url": "https://web.dev/learn/performance/prefetching-prerendering-precaching",
+      "fetchUrl": "https://web.dev/learn/performance/prefetching-prerendering-precaching"
+    },
+    {
+      "title": "performance / resource hints",
+      "url": "https://web.dev/learn/performance/resource-hints",
+      "fetchUrl": "https://web.dev/learn/performance/resource-hints"
+    },
+    {
+      "title": "performance / understanding the critical path",
+      "url": "https://web.dev/learn/performance/understanding-the-critical-path",
+      "fetchUrl": "https://web.dev/learn/performance/understanding-the-critical-path"
+    },
+    {
+      "title": "performance / video performance",
+      "url": "https://web.dev/learn/performance/video-performance",
+      "fetchUrl": "https://web.dev/learn/performance/video-performance"
+    },
+    {
+      "title": "performance / web worker demo",
+      "url": "https://web.dev/learn/performance/web-worker-demo",
+      "fetchUrl": "https://web.dev/learn/performance/web-worker-demo"
+    },
+    {
+      "title": "performance / web worker overview",
+      "url": "https://web.dev/learn/performance/web-worker-overview",
+      "fetchUrl": "https://web.dev/learn/performance/web-worker-overview"
+    },
+    {
+      "title": "performance / welcome",
+      "url": "https://web.dev/learn/performance/welcome",
+      "fetchUrl": "https://web.dev/learn/performance/welcome"
+    },
+    {
+      "title": "performance / why speed matters",
+      "url": "https://web.dev/learn/performance/why-speed-matters",
+      "fetchUrl": "https://web.dev/learn/performance/why-speed-matters"
+    }
+  ],
+  "referenceIssues": []
+}

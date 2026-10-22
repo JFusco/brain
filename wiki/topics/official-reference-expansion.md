@@ -30,3 +30,7 @@ The first Playwright sync correctly refused 296 links because `/docs/` also cont
 [Issue 122](https://github.com/JFusco/brain/issues/122) adds English ASVS 5.0.0 documents alongside the existing cheat sheets. The stable `v5.0.0_release` commit is pinned as `5cf9b032440be53ce345ab3c130fda46ba1ce7a2`; GitHub's releases/latest resolves to an explicitly named Bleeding Edge release despite `prerelease: false`, so it is deliberately not used. This preserves a stable version boundary and leaves upgrades explicit. Requirement lookup does not assess an application or confer compliance/certification.
 
 The repository archive exceeded the existing 64 MiB download cap and was refused. ASVS now uses the existing bounded Git-tree catalog path, with a validated Markdown documentation suffix so pinned GitHub reading links retain `.md`. No download or archive limit was raised; only selected pages are fetched on demand and verified against their Git blobs. The failed archive attempt remains in private logs.
+
+## web.dev performance
+
+[Issue 123](https://github.com/JFusco/brain/issues/123) expands the existing pointers into a bounded Learn Performance course catalog. The explicitly selected static HTML index admits only `web.dev/learn/performance/` module links, with one-index and 64-page limits. The course and Core Web Vitals pointers remain available. This deliberately avoids a full-site sitemap crawl, translation duplicates and claims of measured performance. Historical sitemap failures remain history, not evidence against the successfully retrieved course index.

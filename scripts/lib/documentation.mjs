@@ -57,7 +57,7 @@ export async function fetchDocumentationCatalog(spec,revision,{onIndex=()=>{}}={
       const decode=text=>text.replace(/&(?:amp|quot|apos|lt|gt|nbsp);/g,value=>({'&amp;':'&','&quot;':'"','&apos;':"'",'&lt;':'<','&gt;':'>','&nbsp;':' '})[value]);
       for(const match of clean.matchAll(/<a\b[^>]*?\s+href\s*=\s*(["'])([^"']+)\1[^>]*>([\s\S]*?)<\/a\s*>/gi)){
         let title=decode(match[3].replace(/<[^>]*>/g,' ')).replace(/\s+/g,' ').trim();
-        if(/^(?:more|read more|here|details)$/i.test(title))try{title=decodeURIComponent(new URL(decode(match[2]),response.url).pathname).split('/').filter(Boolean).slice(-2).join(' / ').replace(/-/g,' ');}catch{continue;}
+        if(/^(?:more|read more|read article|learn more|here|details)$/i.test(title))try{title=decodeURIComponent(new URL(decode(match[2]),response.url).pathname).split('/').filter(Boolean).slice(-2).join(' / ').replace(/-/g,' ');}catch{continue;}
         if(title)add(decode(match[2]),title,response.url);
       }
     }else if(spec.indexFormat==='sitemap'){
