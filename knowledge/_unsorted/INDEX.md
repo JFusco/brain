@@ -9,6 +9,7 @@ aliases: ["agents", "agent tooling"]
 
 <!-- brain:curated:start -->
 - [Choose CMS guidance by product and integration](cms-guidance.md)
+- [Plan migrated asset folders by editorial use](asset-organization-by-use.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

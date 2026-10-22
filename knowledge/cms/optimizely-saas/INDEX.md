@@ -8,6 +8,8 @@ aliases: ["optimizely-saas"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
+- [Choose Optimizely media destination and placement text](media-destination-and-placement.md)
+- [Separate CMP upload transfer from asset creation](cmp-upload-and-reconciliation.md)
 - [Share repeated CMS content by editorial ownership](shared-content-editorial-ownership.md)
 <!-- brain:curated:end -->
 
