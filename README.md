@@ -162,6 +162,50 @@ A registry edit without `official sync` therefore fails `check`. Rollback is `gi
 
 Official website pointers remain pointers until a useful downloadable source and suitable reuse terms are established. Public availability by itself is not a license. Unknown-origin skill bundles stay quarantined.
 
+### CMS field vocabulary
+
+Brain consumes the exact `cms-field-vocabulary` version in `package.json` and
+`package-lock.json`. Install it locally with `npm ci --ignore-scripts` from the
+Brain root. The package is MIT licensed; its catalog and evidence manifests stay
+in ignored `node_modules/`, and Brain reads their JSON without executing package
+code. Vocabulary tables are not copied into notes or official link catalogs.
+
+```sh
+node scripts/brain.mjs vocabulary profiles
+node scripts/brain.mjs lookup --query "contentReference" --domain cms/optimizely-saas --cms-profile optimizely-saas.sdk-3 --limit 3
+node scripts/brain.mjs vocabulary status
+node scripts/brain.mjs vocabulary releases
+```
+
+`--cms-profile` opts into field results alongside matching Brain notes and
+official links, within the normal result limit. Choose one exact profile from
+`vocabulary profiles`; Brain never selects a consumer adapter's default or guesses
+the surface from a CMS name. A conflicting domain, unknown profile or missing or
+wrong package version fails explicitly. Profile metadata retains product, surface,
+transport, version boundary and extensibility. Available exact Optimizely SDK
+constraints are checked against `--project` or `--versions`; other compatibility
+remains unconfirmed rather than inferred from explicit selection.
+
+Selected field results retain native tokens, documented/undocumented claims,
+value shapes, source IDs, locators and evidence URLs. The response identifies the
+package version, catalog hash and source-lock digest. Rendering operations retain
+their authority and selection predicates; these are reference facts, not resolved
+consumer contracts or permission to apply every rendering branch. No agent policy
+is applied. Brain supplies modeling guidance separately. Official evidence pages
+are not fetched or reverified by field lookup, including with `--fetch`; that flag
+continues to retrieve only selected ordinary documentation pages. Ordinary lookup
+without `--cms-profile` never loads the vocabulary catalog or contacts npm.
+
+Release detection requests bounded metadata from the fixed npm registry endpoint,
+at most once per 24 hours after success, with one-hour failure backoff. A new due
+nightly claim runs this advisory check and records its result in the private run
+receipt. `maintenance status` exposes the last check, current pin, newer-release
+signal and failures. Failed checks retain the last good observation and last
+failure. Detection never changes the package or publishes anything. Upgrade the
+exact dependency and lock through an ordinary code change after inspecting the
+release; routine catalog refresh PRs cannot contain dependency upgrades. A newer
+release or successful metadata request is not verification of vendor claims.
+
 ### Official coverage
 
 | Area | Available references |
@@ -247,6 +291,7 @@ node scripts/brain.mjs links status
 node scripts/brain.mjs maintenance status
 node scripts/brain.mjs maintenance cleanup
 node scripts/brain.mjs maintenance cleanup --yes
+node scripts/brain.mjs vocabulary releases
 ```
 
 Link checks rotate through a bounded sample (24 by default, maximum 100), favoring published-note and recently fetched references while spreading work across sources. They request headers with an explicit documentation-compatible Accept header. A HEAD 403, 405 or 501 receives one GET fallback with a one-byte range request; response bodies are discarded immediately. Final request method and original HEAD status remain recorded, and a GET access error remains an access error. The implicit `website-pointers` source can be checked separately under the same bounds. A first 404 is suspected dead, two observations at least a day apart establish dead, and 410 is immediately dead. Access restrictions, rate limits, redirects, and network failures remain separate. Failed observations can retry after their recorded backoff; healthy samples and 404/410 observations retain the daily window. Due failures take priority within each source bucket. `--retry-failures` checks only due warnings under the same batch/host bounds. Previous observations are saved privately under `.state/link-health-history/` before replacement, so recovery clears current warnings without erasing failures. Checks never rewrite a registration. Coverage counts distinguish sampled links from the full catalog; this is not an exhaustive link audit. Approved-host boundaries also apply to redirects.
@@ -304,6 +349,7 @@ The merge command records passing Wiki integrity for the exact PR head, uses Git
 ## Setup
 
 ```sh
+npm ci --ignore-scripts
 node scripts/setup.mjs
 node scripts/hosted/setup.mjs
 ```

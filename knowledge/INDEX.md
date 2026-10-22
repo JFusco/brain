@@ -32,6 +32,11 @@ Start with a relevant domain and load only the references the task needs. Identi
 
 Authority packages live outside this repository: [CMS field vocabulary](https://github.com/JFusco/cms-field-vocabulary), [accessibility standards](https://github.com/verndale/accessibility-standards), and [UI design brain](https://github.com/verndale/ui-design-brain). Use their configured local checkouts when available. These links require access to their repositories. They are linked, never mirrored. Unavailable sources must not be replaced with guessed content.
 
+For CMS field facts, Brain also reads the pinned published vocabulary package on
+demand: list `vocabulary profiles`, then use `lookup --cms-profile <exact-id>`
+with the relevant query and domain. Results retain package/profile identity and
+official evidence locators; see [CMS field vocabulary](../README.md#cms-field-vocabulary).
+
 For cross-page rationale, run `node scripts/wiki/navigate.cjs --wiki-root knowledge --intent why --query "<terms>"`. Vendor sources are reached through hub links; they are outside the knowledge-only routing graph.
 
 ## Freshness

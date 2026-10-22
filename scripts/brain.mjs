@@ -11,6 +11,7 @@ import {staleGuidance} from './lib/guidance.mjs';
 import {checkLinks,linkSummary} from './lib/link-health.mjs';
 import {maintenanceStatus,recordPublication} from './lib/maintenance.mjs';
 import {cleanExcerptCache} from './lib/cache.mjs';
+import {vocabularyProfiles,vocabularyStatus,checkVocabularyRelease} from './lib/vocabulary.mjs';
 
 const help=`Personal brain — explicit, local knowledge and official link catalogs
 
@@ -20,6 +21,10 @@ node scripts/brain.mjs activity start
 node scripts/brain.mjs activity report --session <id> --type read|cited|complete [--node <id>] --event-id <uuid>
 node scripts/brain.mjs activity summary [--period today|week|all]
 node scripts/brain.mjs lookup --query <terms> [--domain nextjs] [--limit 5] [--fetch] [--project <path> --workspace <relative-app>] [--versions next@16,react@19]
+  Add --cms-profile <exact-profile-id> for pinned CMS field facts.
+node scripts/brain.mjs vocabulary profiles
+node scripts/brain.mjs vocabulary status
+node scripts/brain.mjs vocabulary releases
 node scripts/brain.mjs capture --stdin [--domain tailwind]
 node scripts/brain.mjs inbox list [--domain nextjs] [--all] [--backlog]
 node scripts/brain.mjs inbox show <candidate-id>
@@ -45,11 +50,11 @@ Tests and dedicated QA are deferred for v1.
 
 try {
   const {positional,flags}=args(process.argv.slice(2)),[command,subcommand,...rest]=positional;
-  const allowed={visual:['port'],route:['query','domain','versions','project','workspace','session'],activity:['session','type','node','event-id','period'],lookup:['query','domain','limit','fetch','project','workspace','versions'],capture:['stdin','domain'],inbox:['domain','all','backlog','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['yes','phase','run-id','outcome','pr','trigger'],official:['hosted'],skills:['project','workspace'],check:['staged']};
+  const allowed={visual:['port'],route:['query','domain','versions','project','workspace','session'],activity:['session','type','node','event-id','period'],lookup:['query','domain','limit','fetch','project','workspace','versions','cms-profile'],vocabulary:[],capture:['stdin','domain'],inbox:['domain','all','backlog','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['yes','phase','run-id','outcome','pr','trigger'],official:['hosted'],skills:['project','workspace'],check:['staged']};
   if(!command||command==='help'||flags.help){console.log(help);process.exit(0);}
   if(!Object.hasOwn(allowed,command))throw new Error('Unknown command. Use --help.');
   for(const key of Object.keys(flags))if(!allowed[command].includes(key))throw new Error(`Unsupported option --${key} for ${command}`);
-  const mutating=command==='lookup'&&flags.fetch||command==='curation'||command==='capture'||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['resolve','rescan'].includes(subcommand)||command==='official'&&subcommand==='sync';
+  const mutating=command==='vocabulary'&&subcommand==='releases'||command==='lookup'&&flags.fetch||command==='curation'||command==='capture'||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['resolve','rescan'].includes(subcommand)||command==='official'&&subcommand==='sync';
   async function execute() {
     if(command==='visual'&&subcommand==='serve')return (await import('./lib/visual-brain/server.mjs')).serve({port:flags.port});
     if(command==='route')return (await import('./lib/visual-brain/retrieval.mjs')).route({query:flags.query,domain:flags.domain,versions:flags.versions,project:flags.project,workspace:flags.workspace,session:flags.session});
@@ -61,8 +66,13 @@ try {
     }
     if(command==='lookup'){
       const activity=await import('./lib/visual-brain/retrieval.mjs'),session=await activity.beginLookupActivity();
-      let result;try{result=await lookup({query:flags.query,domain:flags.domain,limit:flags.limit??5,fetch:!!flags.fetch,project:flags.project,workspace:flags.workspace,versions:flags.versions});}catch(error){await activity.lookupActivityFailed(session);throw error;}
+      let result;try{result=await lookup({query:flags.query,domain:flags.domain,limit:flags.limit??5,fetch:!!flags.fetch,project:flags.project,workspace:flags.workspace,versions:flags.versions,cmsProfile:flags['cms-profile']});}catch(error){await activity.lookupActivityFailed(session);throw error;}
       await activity.recordOrdinaryLookup(result,{session});return result;
+    }
+    if(command==='vocabulary'){
+      if(subcommand==='profiles')return vocabularyProfiles();
+      if(subcommand==='status')return vocabularyStatus();
+      if(subcommand==='releases')return checkVocabularyRelease();
     }
     if(command==='capture'){if(!flags.stdin)throw new Error('Use capture --stdin');const result=capture(fs.readFileSync(0,'utf8'),{domain:flags.domain});await (await import('./lib/visual-brain/retrieval.mjs')).recordCaptureActivity(result);return result;}
     if(command==='inbox'){
