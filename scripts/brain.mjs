@@ -18,6 +18,11 @@ const help=`Personal brain — explicit, local knowledge and official link catal
 
 node scripts/brain.mjs visual serve [--port 4174]
 node scripts/brain.mjs route --query <terms> [--domain nextjs] [--versions next@16] [--project <path> --workspace <app>] [--session <id>]
+node scripts/brain.mjs brief --query <task> [--domain <domain>] [--project <path> --workspace <app>] [--versions next@16]
+node scripts/brain.mjs playbooks [--domain <domain>] [--project <path> --workspace <app>] [--versions next@16]
+node scripts/brain.mjs explain --node <knowledge-node-id> [--versions next@16]
+node scripts/brain.mjs compare --from <node-id> --to <node-id> [--versions next@16]
+node scripts/brain.mjs feedback --node <knowledge-note-id> --snapshot <main-sha> [--value helped|needs-clarification|did-not-apply|clear]
 node scripts/brain.mjs activity start
 node scripts/brain.mjs activity report --session <id> --type read|cited|complete [--node <id>] --event-id <uuid>
 node scripts/brain.mjs activity summary [--period today|week|all]
@@ -55,14 +60,16 @@ Tests and dedicated QA are deferred for v1.
 
 try {
   const {positional,flags}=args(process.argv.slice(2)),[command,subcommand,...rest]=positional;
-  const allowed={visual:['port'],route:['query','domain','versions','project','workspace','session'],activity:['session','type','node','event-id','period'],lookup:['query','domain','limit','fetch','project','workspace','versions','cms-profile','ui-patterns'],vocabulary:[],ui:[],capture:['stdin','domain'],inbox:['domain','all','backlog','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['yes','phase','run-id','outcome','pr','trigger'],official:['hosted'],skills:['project','workspace'],check:['staged']};
+  const allowed={visual:['port'],route:['query','domain','versions','project','workspace','session'],brief:['query','domain','versions','project','workspace','session'],playbooks:['domain','versions','project','workspace'],explain:['node','snapshot','versions','project','workspace'],compare:['from','to','snapshot','versions','project','workspace'],feedback:['node','snapshot','value'],activity:['session','type','node','event-id','period'],lookup:['query','domain','limit','fetch','project','workspace','versions','cms-profile','ui-patterns'],vocabulary:[],ui:[],capture:['stdin','domain'],inbox:['domain','all','backlog','as','pr'],curation:['limit'],links:['source','limit','retry-failures'],maintenance:['yes','phase','run-id','outcome','pr','trigger'],official:['hosted'],skills:['project','workspace'],check:['staged']};
   if(!command||command==='help'||flags.help){console.log(help);process.exit(0);}
   if(!Object.hasOwn(allowed,command))throw new Error('Unknown command. Use --help.');
   for(const key of Object.keys(flags))if(!allowed[command].includes(key))throw new Error(`Unsupported option --${key} for ${command}`);
-  const mutating=['vocabulary','ui'].includes(command)&&subcommand==='releases'||command==='lookup'&&flags.fetch||command==='curation'||command==='capture'||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['resolve','rescan'].includes(subcommand)||command==='official'&&subcommand==='sync';
+  const mutating=command==='feedback'&&flags.value!==undefined||['vocabulary','ui'].includes(command)&&subcommand==='releases'||command==='lookup'&&flags.fetch||command==='curation'||command==='capture'||command==='links'&&subcommand==='check'||command==='maintenance'&&(subcommand==='publication'||subcommand==='cleanup'&&flags.yes)||command==='inbox'&&['resolve','rescan'].includes(subcommand)||command==='official'&&subcommand==='sync';
   async function execute() {
     if(command==='visual'&&subcommand==='serve')return (await import('./lib/visual-brain/server.mjs')).serve({port:flags.port});
     if(command==='route')return (await import('./lib/visual-brain/retrieval.mjs')).route({query:flags.query,domain:flags.domain,versions:flags.versions,project:flags.project,workspace:flags.workspace,session:flags.session});
+    if(['brief','playbooks','explain','compare'].includes(command))return (await import('./lib/visual-brain/guidance-tools.mjs'))[command](flags);
+    if(command==='feedback')return (await import('./lib/visual-brain/feedback.mjs')).feedback(flags);
     if(command==='activity'){
       const m=await import('./lib/visual-brain/metrics.mjs');
       if(subcommand==='start')return m.startSession((await import('./lib/visual-brain/snapshot.mjs')).mainRevision());

@@ -15,6 +15,34 @@ Other projects use Brain through the on-demand [`skills/brain/`](../../skills/br
 - **Narrow file access.** Claude Code gets `Read(~/Projects/brain/knowledge/**)`, not the whole repository, so other projects cannot read the private inbox or `.state/`.
 - **Rejected alternatives.** An always-loaded instruction (a global CLAUDE.md/AGENTS.md, or the project `integration` blocks) costs context in every session. The original manual-only selection was revised to recognize explicit natural-language requests; there is still no automatic consultation for unrelated work or project instruction injection.
 
+## Practical project workflows
+
+[Issue 124](https://github.com/JFusco/brain/issues/124) extends the existing opt-in
+skill with all five workflows Joe approved: project briefings, source-backed
+playbooks, explaining differing guidance, explicit usefulness feedback, and visual
+connection explanations. The conditional skill reference is
+[`project-work.md`](../../skills/brain/references/project-work.md); ordinary
+consultation retains its existing path and invocation policy.
+
+- `brief` uses the same ranked route, session and committed-main snapshot and
+  returns evidence and gaps. The agent composes the task-specific briefing after
+  reading the evidence; the CLI performs no model inference or project edits.
+- Playbooks are ordinary current notes with validated `format: playbook`, four
+  initial proposed workflows, official provenance, applicability and evidence
+  limits. Listing is not reading, and publishing remains the normal Git flow.
+- Explanations derive from explicit committed graph edges. Comparisons expose
+  version/surface differences and authored decision branches; their verdict stays
+  unresolved until claims are read and assessed. No similarity-based conflict
+  detector or automatic ranking changes were added.
+- One explicit usefulness response belongs to a note content hash. It stays in an
+  additive private SQLite table, preserves older activity and note-version
+  responses, accepts no free-text comments and does not infer votes from usage.
+- The viewer exposes evidence briefings, playbook browsing, applicability,
+  comparison pinning, connection reasons and next reading. Same-origin and
+  committed-snapshot checks also protect the new endpoints. Unrelated main
+  updates retain feedback for unchanged notes; changed content has a separate
+  response. Rollback preserves the database and its additive table.
+
 ## Capture skill
 
 [Phase 2](../journal/2026-10-18-simplification-phase-2.md) adds a second manual-only skill, [`skills/brain-capture/`](../../skills/brain-capture/SKILL.md), with `disable-model-invocation: true`, `allow_implicit_invocation: false` and two more user-level links. These settings remain unchanged by plain-language consultation support.

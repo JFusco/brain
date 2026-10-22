@@ -33,6 +33,64 @@ ln -s ~/Projects/brain/skills/brain-capture ~/.agents/skills/   # Codex
 
 Brain is expected at `~/Projects/brain`; adjust the commands and `SKILL.md` if it lives elsewhere. Nothing downloaded is executed, and source instructions do not grant permissions.
 
+## Prepare a task with Brain
+
+Ask: “Use Brain to prepare a briefing for this task.” The opt-in skill identifies
+one application workspace and its confirmed versions, reads applicable lessons
+and official references, then gives a short briefing: context, relevant guidance,
+pitfalls and differing recommendations, and the smallest proposed implementation
+and verification steps. Project instructions continue to govern the work.
+
+```sh
+node scripts/brain.mjs brief --query "prepare a multilingual page" --project /absolute/project --workspace apps/web --domain frontend
+node scripts/brain.mjs playbooks --domain frontend
+node scripts/brain.mjs explain --node knowledge/frontend/multilingual-page-playbook.md
+node scripts/brain.mjs compare --from knowledge/frontend/multilingual-page-playbook.md --to knowledge/frontend/browser-verification-playbook.md
+```
+
+`brief` calls the existing ranked route and returns evidence, applicable note
+procedures, decision branches and gaps. The agent reads that evidence and writes
+the task-specific recommendation; the CLI calls no model and edits no project.
+It records one normal lookup. `playbooks` lists published proposed workflows
+without recording a read. Briefings, playbooks, explanations and comparisons use
+committed local `main`, matching the viewer; branch edits appear after merge and
+updating local main. A direct `lookup` continues to support working-tree sources.
+
+The initial playbooks cover multilingual CMS pages, image loading by visibility,
+focused browser verification and application security reviews. Each states its
+applicability, procedure, documented decision boundaries, sources and limits.
+They propose useful sequences; they do not claim an application experiment ran.
+
+`explain` describes explicit graph relationships and suggests up to five connected
+readings. `compare` exposes two sources' scope, version constraints, freshness and
+authored “Where guidance differs” sections. It leaves the verdict unresolved;
+the agent must read the claims before explaining a disagreement or choosing a
+recommendation. A shared link, different title or changed hash proves neither
+agreement nor contradiction. These tools do not change retrieval ranking.
+
+In the viewer, use **Prepare task brief** for an evidence outline or **Browse
+playbooks** to select a workflow. Open a star for applicability, decision
+branches, explanations of its connections and suggested next reading. Pin a star
+with **Compare this star**, open another, then compare their guidance. The viewer
+does not generate an answer; ask the skill for a task-specific briefing.
+
+For a published note, explicitly choose **Helped**, **Needs clarification** or
+**Did not apply**. **Clear response** removes that response. The CLI equivalent is:
+
+```sh
+node scripts/brain.mjs feedback --node knowledge/frontend/multilingual-page-playbook.md --snapshot <current-main-sha> --value helped
+```
+
+Feedback stores one private local response per note content hash in the existing
+`.state/visual-brain/activity.sqlite` database. Repeating a choice adds no votes;
+unrelated main updates retain it, while edited note content starts without a
+response and retains the older record. There are no comment bodies, project
+paths or chat text. Feedback does not alter ranking, certify advice or trigger
+capture/publication. Existing activity data is preserved by an additive table;
+the same stopped-process directory backup guidance applies. A stale snapshot is
+refused before feedback can be recorded. Briefing previews are not recorded as
+full note reads; opening a note retains the existing read behavior.
+
 ## Everyday commands
 
 Run from this repository, or invoke the script by its absolute path:

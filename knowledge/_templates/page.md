@@ -1,5 +1,6 @@
 ---
 title: "Page title"
+format: "note"
 domain: "nextjs"
 aliases: []
 evidence_date: "YYYY-MM-DD"
@@ -21,6 +22,12 @@ Use optional `versions` constraints such as `"next@>=16.2"` or `"tailwindcss@4"`
 ## What to do
 
 Give the smallest actionable procedure and explain why it helps. Link existing guidance instead of duplicating it.
+
+For a practical playbook, use `format: "playbook"` and give an ordered procedure.
+Add `## Where guidance differs` when documented conditions select different
+recommendations. Name the relevant versions, product surfaces or evidence gaps;
+do not invent a conflict from similar titles or links. Label an unexercised
+workflow as proposed practice, separately from its documented supporting facts.
 
 ## Evidence and limits
 

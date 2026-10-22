@@ -25,7 +25,7 @@ Route browser loading, rendering, Core Web Vitals, profiling, budgets, caching a
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No curated notes yet.
+- [Choose image loading by visibility](image-loading-playbook.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

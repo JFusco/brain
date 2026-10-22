@@ -16,6 +16,8 @@ aliases: ["frontend"]
 <!-- brain:curated:start -->
 - [Bound design preparation by stable inputs and ownership](bounded-design-preparation.md)
 - [Match UI evidence to the acceptance claim](match-evidence-to-claim.md)
+- [Prepare a focused browser verification](browser-verification-playbook.md)
+- [Prepare a multilingual CMS page](multilingual-page-playbook.md)
 - [Preserve component meaning when preparing design context](design-component-context.md)
 <!-- brain:curated:end -->
 

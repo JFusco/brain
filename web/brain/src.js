@@ -3,9 +3,10 @@ import * as THREE from 'three';
 import './style.css';
 import {renderMarkdown} from './markdown.js';
 import {createCaptureNebula} from './capture-nebula.js';
+import {createGuidance} from './guidance.js';
 const $=id=>document.getElementById(id);
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-let galaxy,graph,network,stats,session,sessionExpiresAt=0,sessionRequest=null,selected,focusedDomain='',expanded=new Set(),active=new Map(),fresh=new Map(),planned=new Set(),lastGraph,liveEvents=[],sse,known=new Set();
+let galaxy,graph,network,stats,session,sessionExpiresAt=0,sessionRequest=null,selected,guidance,focusedDomain='',expanded=new Set(),active=new Map(),fresh=new Map(),planned=new Set(),lastGraph,liveEvents=[],sse,known=new Set();
 const nodeObjects=new Map(),metricDisplays=new Map(),starLabels=new Map();
 let focusGraph=null,overviewReferences=new Set();
 let lastFrame=0,visualTime=0,searchStage='idle',searchUntil=0;
@@ -50,7 +51,7 @@ function focusNode(id,limit=24){
  $('focus-title').textContent=graph.nodes.find(node=>node.id===id)?.title||'';$('focus-count').textContent=`${neighbors.length} connected stars${relationships.length>limit?' · showing first '+limit:''}`;$('focus-caption').hidden=false;
  rebuild();resizeScene();network?.cameraPosition({x:0,y:0,z:205},{x:0,y:0,z:0},reduced.matches?0:900);
 }
-function overview(){focusGraph=null;selected=null;document.body.classList.remove('node-focused');$('overview').hidden=true;$('focus-caption').hidden=true;$('details').hidden=true;rebuild();resizeScene();network?.cameraPosition({x:0,y:0,z:420},{x:0,y:0,z:0},reduced.matches?0:900);}
+function overview(){guidance?.cancel();focusGraph=null;selected=null;document.body.classList.remove('node-focused');$('overview').hidden=true;$('focus-caption').hidden=true;$('details').hidden=true;rebuild();resizeScene();network?.cameraPosition({x:0,y:0,z:420},{x:0,y:0,z:0},reduced.matches?0:900);}
 function resizeScene(){if(!network)return;const r=$('scene').getBoundingClientRect();network.width(r.width).height(r.height);}
 function animate(timestamp){
  const delta=lastFrame?Math.min(timestamp-lastFrame,50):0;lastFrame=timestamp;
@@ -119,7 +120,7 @@ function renderTotals(){
  }
  $('activity-state').textContent=Object.values(stats.totals).some(value=>value>0)?'Recording live':'Awaiting activity';
 }
-async function choose(id){const n=graph.nodes.find(n=>n.id===id);if(!n)return;selected=id;focusNode(id);$('details').hidden=false;$('detail-kind').textContent=n.kind.replaceAll('-',' ');$('detail-title').textContent=n.title;
+async function choose(id){const n=graph.nodes.find(n=>n.id===id);if(!n)return;selected=id;focusNode(id);$('details').hidden=false;$('detail-kind').textContent=n.format==='playbook'?'Proposed playbook':n.kind.replaceAll('-',' ');$('detail-title').textContent=n.title;guidance.select(n);
  const currentness=n.freshness?.status==='needs-revalidation'?'Needs attention — source changes or a review date require verification.':n.kind==='curated-note'?'No current revalidation signal; applicability still matters.':'';
  const referenceHealth=n.linkHealth?`Link check: ${n.linkHealth.state}${n.linkHealth.checkedAt?' · '+new Date(n.linkHealth.checkedAt).toLocaleString():''}. Link availability does not verify technical guidance.`:n.kind==='curated-note'?'':'Reference health unknown unless a local check recorded it.';
  $('detail-health').textContent=[currentness,referenceHealth].filter(Boolean).join(' ');
@@ -145,7 +146,7 @@ async function metrics(){try{stats=await api(`/api/metrics?period=${$('period').
  coverage();if(selected){const c=stats.nodes[selected];$('detail-metrics').textContent=`Returned ${c?.returned||0} · Read ${c?.read||0} · Cited ${c?.cited||0}${c?.lastUsed?' · Last used '+new Date(c.lastUsed).toLocaleString():''}`;}
  }catch{$('history').textContent='Activity metrics unavailable. Knowledge remains accessible.';}}
 function coverage(){if(!graph)return;$('coverage').replaceChildren(...graph.domains.map(domain=>{const items=graph.nodes.filter(n=>n.domain===domain||n.domains?.includes(domain));const notes=items.filter(n=>n.kind==='curated-note').length,refs=items.filter(n=>n.url).length,usage=items.reduce((sum,n)=>sum+(stats?.nodes[n.id]?.returned||0),0);const button=element('button',`${domain} · ${notes} notes / ${refs} refs / ${usage} returns`);button.onclick=()=>{focusedDomain=focusedDomain===domain?'':domain;$('domain').value=focusedDomain;rebuild();};return button;}));}
-async function loadGraph(){const next=await api('/api/graph');if(lastGraph===next.snapshot){graph=next;return;}const prior=known;known=new Set(next.nodes.map(n=>n.id));graph=next;lastGraph=next.snapshot;session=null;sessionExpiresAt=0;sessionRequest=null;overview();overviewReferences=new Set();for(const source of graph.nodes.filter(n=>n.kind==='source'))graph.nodes.filter(n=>n.source===source.id.slice(7)).slice(0,6).forEach(n=>overviewReferences.add(n.id));for(const edge of graph.edges)if(edge.relation==='cites official reference')overviewReferences.add(edge.target);
+async function loadGraph(){const next=await api('/api/graph');if(lastGraph===next.snapshot){graph=next;return;}guidance?.reset();const prior=known;known=new Set(next.nodes.map(n=>n.id));graph=next;lastGraph=next.snapshot;session=null;sessionExpiresAt=0;sessionRequest=null;overview();overviewReferences=new Set();for(const source of graph.nodes.filter(n=>n.kind==='source'))graph.nodes.filter(n=>n.source===source.id.slice(7)).slice(0,6).forEach(n=>overviewReferences.add(n.id));for(const edge of graph.edges)if(edge.relation==='cites official reference')overviewReferences.add(edge.target);
  if(prior.size)for(const id of known)if(!prior.has(id))fresh.set(id,Date.now()+4000);
  $('inventory').textContent=`${graph.nodes.filter(n=>n.kind==='curated-note').length.toLocaleString()} notes / ${graph.nodes.filter(n=>n.url).length.toLocaleString()} references`;
  $('snapshot').textContent=`MAIN ${graph.snapshot.slice(0,12)} · ${graph.nodes.filter(n=>n.kind==='curated-note').length} NOTES · ${graph.nodes.filter(n=>n.url).length} REFERENCES`;
@@ -175,6 +176,8 @@ $('search').onsubmit=async event=>{event.preventDefault();if(focusGraph)overview
  $('results').replaceChildren(...result.results.map(item=>{const li=element('li',''),button=element('button',item.title);button.onclick=()=>choose(item.id);const disconnected=result.connections.find(c=>c.target===item.id&&!c.path);li.append(button,element('small',`${item.kind} · compatibility ${item.compatibility.status}${disconnected?' · no graph connection':''}`));return li;}));$('status').textContent=result.results.length?`${result.results.length} ranked sources. Purple paths explain connections.${result.metricsRecorded?'':' Metrics unavailable.'}`:'No matching evidence. This search adds no knowledge automatically.';metrics();}catch(error){searchVisual('error');$('status').textContent=error.message;}finally{$('submit').disabled=false;}};
 $('pending-summary').onclick=()=>{$('intake-panel').hidden=!$('intake-panel').hidden;$('pending-summary').setAttribute('aria-expanded',String(!$('intake-panel').hidden));};
 $('domain').onchange=()=>{if(focusGraph)overview();focusedDomain=$('domain').value;rebuild();};$('period').onchange=metrics;$('heat').onchange=()=>network?.nodeColor(color);$('close').onclick=overview;$('overview').onclick=overview;reduced.onchange=()=>{motion();network?.linkDirectionalParticles(reduced.matches?0:focusGraph?3:1);};document.addEventListener('visibilitychange',motion);
+guidance=createGuidance({api,getGraph:()=>graph,onNavigate:choose,onBrowse:overview,onSession:(result,started)=>{sessionRequest=null;session=result.session;sessionExpiresAt=session?started+86400000:0;metrics();}});
+$('versions').addEventListener('change',()=>{if(selected)choose(selected);});
 try{
  await loadGraph();
  const texture=glowTexture();

@@ -18,6 +18,7 @@ export function validateKnowledge(entries) {
     problems.push(...frontmatterProblems(parsed.raw).map(p=>`${id}: ${p}`));
     if(!id.endsWith('/INDEX.md')&&!id.includes('/_templates/'))for(const key of ['domain','evidence_date','applicability','provenance'])if(!scalar(parsed.raw,key))problems.push(`${id}: missing ${key}`);
     const status=scalar(parsed.raw,'status');if(status&&!['current','superseded','retired'].includes(status))problems.push(`${id}: invalid guidance status`);
+    const format=scalar(parsed.raw,'format');if(format&&!['note','playbook'].includes(format))problems.push(`${id}: invalid guidance format`);
     for(const field of ['reviewed_at','review_after']){const value=scalar(parsed.raw,field);if(value&&(!/^\d{4}-\d\d-\d\d$/.test(value)||!Number.isFinite(Date.parse(value))||new Date(value).toISOString().slice(0,10)!==value))problems.push(`${id}: invalid ${field}`);}
     for(const value of list(parsed.raw,'versions'))try{versionConstraint(value);}catch{problems.push(`${id}: invalid package-version constraint`);}
     const replacement=scalar(parsed.raw,'superseded_by');if(status==='superseded'&&(!/^knowledge\/.+\.md$/.test(replacement)||replacement===id||replacement.split('/').includes('..')))problems.push(`${id}: superseded guidance requires a different knowledge page`);

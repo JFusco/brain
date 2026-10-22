@@ -36,15 +36,15 @@ export function snapshot(revision=mainRevision()) {
     const domain=index?id==='knowledge/INDEX.md'?null:id.slice(10,-9):scalar(parsed.raw,'domain');
     const freshness=index?{status:'current'}:guidanceState(parsed.raw,lock);
     const title=scalar(parsed.raw,'title')||id;
-    const n={id,title,kind:index?'index':'curated-note',domain,domains:domain?[domain]:[],bytes:bytes.length,versions:list(parsed.raw,'versions'),freshness,sha256:sha(bytes),path:id,summary:parsed.body.replace(/^#+.*$/gm,'').trim().slice(0,500),applicability:scalar(parsed.raw,'applicability')};
+    const n={id,title,kind:index?'index':'curated-note',format:scalar(parsed.raw,'format')||'note',domain,domains:domain?[domain]:[],bytes:bytes.length,versions:list(parsed.raw,'versions'),freshness,sha256:sha(bytes),path:id,summary:parsed.body.replace(/^#+.*$/gm,'').trim().slice(0,500),applicability:scalar(parsed.raw,'applicability')};
     addNode(n);bodies.set(id,parsed.body);if(!index)entries.push(n);
   }
   for(const spec of registry.sources){const active=lock.sources[spec.id];const bytes=contents.get(`official/catalogs/${spec.id}.json`);if(!active||!bytes)continue;
     if(sha(bytes)!==active.catalogSha256)throw new Error('Committed catalog does not match its lock');
     const doc=JSON.parse(bytes);if(doc.source!==spec.id||doc.revision!==active.revision)throw new Error('Invalid committed catalog');
-    const source=`source:${spec.id}`;addNode({id:source,title:spec.id,kind:'source',domains:spec.domains,bytes:0,versions:[],freshness:{status:'unknown'},sourceRevision:active.revision,catalogFetchedAt:active.fetchedAt});
+    const source=`source:${spec.id}`;addNode({id:source,title:spec.id,kind:'source',domains:spec.domains,bytes:0,versions:[],freshness:{status:'unknown'},sourceRevision:active.revision,catalogFetchedAt:active.fetchedAt,applicability:spec.applicability});
     for(const [items,kind] of [[doc.pages,'official-page'],[doc.skills,'skill-reference'],[doc.docs,'official-reference']])for(const item of items||[]){const url=https(item.url);if(!url)continue;
-      const entry={...item,url,title:item.declaredName||item.title||item.name||url,summary:item.description||item.summary,kind,source:spec.id,domains:spec.domains,sourceRevision:active.revision,catalogFetchedAt:active.fetchedAt};
+      const entry={...item,url,title:item.declaredName||item.title||item.name||url,summary:item.description||item.summary,kind,source:spec.id,domains:spec.domains,sourceRevision:active.revision,catalogFetchedAt:active.fetchedAt,sourceApplicability:spec.applicability};
       if(kind==='skill-reference')entry.applicability=item.appliesTo;
       entry.id=nodeID(entry);addNode({...entry,bytes:0,versions:entry.versions||[],freshness:{status:'unknown'}});entries.push(entry);edge(source,entry.id,'catalog membership');
     }
