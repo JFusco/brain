@@ -260,7 +260,7 @@ code change; routine catalog-refresh PRs still exclude dependency upgrades.
 | React | [Pinned documentation-tree catalog](https://github.com/reactjs/react.dev/tree/main/src/content), plus the official index |
 | TypeScript | [Handbook and TSConfig reference catalog](https://www.typescriptlang.org/docs/) from the site's sitemap |
 | Accessibility | [WCAG 2.2](https://www.w3.org/TR/WCAG22/) and [WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/), the WCAG 2.2 Understanding and Techniques indexes, and the [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) |
-| Performance | [web.dev Learn Performance](https://web.dev/learn/performance) and [Core Web Vitals](https://web.dev/articles/vitals), pointers only; no web.dev catalog |
+| Performance | Bounded [web.dev Learn Performance](https://web.dev/learn/performance) course catalog, plus the [Core Web Vitals](https://web.dev/articles/vitals) pointer; not the full web.dev library |
 | Security | Pinned OWASP ASVS 5.0.0 English requirements plus the [OWASP cheat-sheet sitemap](https://cheatsheetseries.owasp.org/sitemap.xml), application-security catalog; no compliance claim |
 | Semantics | [Schema.org /docs/ catalog](https://schema.org/sitemap.xml), excluding the full vocabulary; pointers for WHATWG HTML, web.dev semantic HTML, JSON-LD 1.1, Contentstack modeling and experimental Optimizely Graph semantic search |
 | Tailwind | [Documentation-tree catalog](https://github.com/tailwindlabs/tailwindcss.com/tree/main/src/docs), with rights metadata preserved |
@@ -295,7 +295,7 @@ The weekly coverage review checks these official places for new documentation in
 | Next.js | nextjs.org/docs (`llms.txt`), github.com/vercel, github.com/vercel-labs |
 | React | react.dev (`llms.txt`), github.com/reactjs |
 | TypeScript | typescriptlang.org/docs, github.com/microsoft/TypeScript-Website |
-| Performance | web.dev/learn/performance, web.dev/articles/vitals; pointer-only coverage, observed sitemap timeouts and archived repository |
+| Performance | web.dev/learn/performance course index and web.dev/articles/vitals; course links only, with historical sitemap failures retained |
 | Security | github.com/OWASP/ASVS stable releases (avoid the bleeding-edge latest tag); cheatsheetseries.owasp.org (`sitemap.xml`), github.com/OWASP/CheatSheetSeries |
 | Semantics | html.spec.whatwg.org, web.dev/learn/html, schema.org (`sitemap.xml`, /docs/ only), w3.org/TR/json-ld11, contentstack.com/docs, docs.optimizely.com/graph |
 | Tailwind | tailwindcss.com/docs, github.com/tailwindlabs |

@@ -703,6 +703,28 @@
       "documentationBase": "https://github.com/OWASP/ASVS/blob/5cf9b032440be53ce345ab3c130fda46ba1ce7a2/5.0/en/",
       "documentationSuffix": ".md",
       "maxPages": 100
+    },
+    {
+      "id": "webdev-performance",
+      "vendor": "webdev",
+      "domains": [
+        "performance"
+      ],
+      "kind": "collection",
+      "indexFormat": "html",
+      "indexUrl": "https://web.dev/learn/performance",
+      "allowedHosts": [
+        "web.dev"
+      ],
+      "includePrefixes": [
+        "/learn/performance/"
+      ],
+      "maxPages": 64,
+      "maxIndexes": 1,
+      "license": "Official web.dev documentation under upstream terms; links and metadata only, no open license asserted",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling Learn Performance course modules only: loading, rendering, resource hints, images, video, fonts, JavaScript and workers. Not a full web.dev catalog, measurement result, framework compatibility claim or performance acceptance."
     }
   ],
   "pointers": [

@@ -162,6 +162,12 @@
       "fetchedAt": "2026-10-22T01:38:14.252Z",
       "track": "pinned",
       "catalogSha256": "421fdc2a04477e19d5d2d0d956f479e9d2d1b88f093f28c6dd309891e589425d"
+    },
+    "webdev-performance": {
+      "revision": "018376bb81e7f77d0c2c23e8e554bac4297163b42153876117c519de5e69c174",
+      "fetchedAt": "2026-10-22T01:40:09.323Z",
+      "track": "rolling-url",
+      "catalogSha256": "454897787813334dee8773f0620386bbfa1f13ba1a698f2b2301af8697d81a32"
     }
   },
   "toolchain": {
