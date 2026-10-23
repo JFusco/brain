@@ -3,11 +3,11 @@ title: "Separate CMP upload transfer from asset creation"
 domain: "cms/optimizely-saas"
 aliases: []
 evidence_date: "2026-10-22"
-reviewed_at: "2026-10-22"
+reviewed_at: "2026-10-23"
 status: "current"
 versions: []
 applicability: "Optimizely CMP v3 image migration planning; official API documentation only; no connected execution"
-provenance: "optimizely-cms-saas-docs@4e7dd5eeae36577bcb4d08f1f2617b4dfeab71f0541e212710ea48b8a233ba92; directly read official CMP pages 2026-10-22; CMP is not registered as a source; proposed recovery procedure"
+provenance: "optimizely-cms-saas-docs@ae548b9dfcc952b0ce044cc0331517c2155d9a8da61cacb1b11285231415ac9e; directly read official CMP pages 2026-10-22; CMP is not registered as a source; proposed recovery procedure"
 ---
 
 # Separate CMP upload transfer from asset creation
@@ -26,6 +26,18 @@ Use this when importing files into CMP DAM or moving existing assets. Transfer c
 
 ## Evidence and limits
 
-Official documentation was reviewed, not executed. Direct retrieval of the image PATCH page timed out/returned 403; the browser search service returned its official indexed body, including the parameter list. That is documentation evidence, not a connected API check. The current [folder guide](https://docs.optimizely.com/content-marketing-platform/docs/manage-folders) documents organization and moves but did not establish a universal private-by-default rule. Do not assume name uniqueness, folder-depth limits or access from those pages.
+Official documentation was reviewed, not executed. Direct retrieval of the image PATCH page timed out/returned 403; the browser search service returned its official indexed body, including the parameter list. That is documentation evidence, not a connected API check. The folder-management page alone did not establish sharing defaults. The separately checked [sharing guide](https://docs.optimizely.com/content-marketing-platform/docs/share-folders-and-assets) documents private-by-default created folders and inherited folder permissions for assets. Check the actual intended role; do not infer access from the uploader's session, or name uniqueness and depth limits from these pages.
 
 No CMP rate ceiling, field-deprecation rule, create-time metadata beyond key/title, or official bulk CLI absence is established here. Discover current constraints before implementation. Multipart completion is not asset creation. Registration of a CMP catalog is a separate reviewed source change, not part of this delivery. For CMS delivery/alt text and Content Area restrictions, see [media destination and placement](media-destination-and-placement.md).
+
+**Revalidated October 23, 2026:** Official CMP upload, multipart, folder creation, asset listing and sharing passages were read. Transfer and final creation remain separate, repeating final creation can duplicate records, and multipart completion/status is a distinct phase. Image PATCH parameters were checked through the official indexed body after direct retrieval failed; no connected call was made.
+
+## Verify originals, placement and visibility independently
+
+**Documented:** the [asset listing API](https://docs.optimizely.com/content-marketing-platform/api/get-assets) supports folder scope, explicit subfolder inclusion and pagination. The upload guide separates the multipart file from the arbitrary title supplied during final creation. **Proposed:** preserve the intended multipart filename and collect independent native metadata after creation; do not reuse the create acknowledgement as its own readback. Check the native asset/folder identities, download the original bytes for hash comparison where required, and inspect the editor's Original File Name and intended folder separately. Expected input hashes, titles, file size or a successful create response do not substitute for independent observations.
+
+**Proposed recovery:** record the pending final-create attempt before dispatch. Serialize conflicting writers by CMP organization. Reconcile within the known owned organization/folder, paginate observations and require a single identity-supported candidate with required native metadata and original-byte evidence. Missing or ambiguous candidates stay blocked; do not blindly resend a final create. Retain original operation identities and request history when a reviewed continuation corrects a host pin. Distinguish graceful interruption from an observer-process exit; neither proves an operation failed to create.
+
+**Proposed network planning:** review API calls, pre-signed transfer endpoints and original-download hosts as separate phases. The sharing guide recommends broad vendor domain families for upload connectivity, but does not give an exhaustive original-image host contract for a strict application allowlist. A single probe cannot establish every original CDN host. Budget metadata reads, listings, original downloads, credentials/probes and recovery passes as well as creates. On a newly observed host or exhausted budget, retain evidence for a reviewed continuation; do not disable the host guard or repeatedly retry. Repeated reads are investigation candidates, not proven redundant work.
+
+**Unverified historical reports:** three private captures describe small-image placement/original-filename checks, independent byte downloads, controlled wrong/missing/changed evidence refusals, final-create acknowledgement loss, later observer exits, a reviewed CDN correction and no-write resumes. Organization-level writer exclusion was reported in controlled tests. None was rerun by this curator. Exact asset/folder counts, numbered CDN hosts, request totals/caps and elapsed timings remain private incident measurements, not throughput benchmarks, permanent host contracts or general recovery proof. Editor visibility was reported only for the signed-in role. Large files, every role and the separate CMS media path remain unexercised. Proposed deduplication of observation requests must preserve independent native verification and drift detection.

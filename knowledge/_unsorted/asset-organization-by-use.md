@@ -3,11 +3,11 @@ title: "Plan migrated asset folders by editorial use"
 domain: "_unsorted"
 aliases: []
 evidence_date: "2026-10-22"
-reviewed_at: "2026-10-22"
+reviewed_at: "2026-10-23"
 status: "current"
 versions: []
 applicability: "Proposed CMS media and DAM organization policy; adapt to Optimizely CMS SaaS, CMP and Contentstack capabilities; no implementation acceptance"
-provenance: "optimizely-cms-saas-docs@4e7dd5eeae36577bcb4d08f1f2617b4dfeab71f0541e212710ea48b8a233ba92; contentstack-docs@27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d; official organization pages read 2026-10-22; authored policy proposal"
+provenance: "optimizely-cms-saas-docs@ae548b9dfcc952b0ce044cc0331517c2155d9a8da61cacb1b11285231415ac9e; contentstack-docs@27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d; official organization pages read 2026-10-22; authored policy proposal"
 ---
 
 # Plan migrated asset folders by editorial use
@@ -28,3 +28,5 @@ Use this when a migration would otherwise copy legacy paths or leave a flat asse
 ## Evidence and limits
 
 This policy has not run in a CMS. Its shared-folder rule, depth cap, URL routing, collision suffixes and review threshold are proposals, not vendor limits or measured optima. The AEM article's 500–1,000-assets guidance is product-specific context, not a cross-CMS ceiling. Existing governance may choose a different stable taxonomy. CMP depth and uniqueness rules, CMS SaaS subfolder writes, Contentstack folder-name characters and target access mappings require project validation. See [Contentstack ownership](../cms/contentstack/asset-ownership-and-reuse.md), [Contentstack import state](../cms/contentstack/asset-import-state.md) and [Optimizely media](../cms/optimizely-saas/media-destination-and-placement.md).
+
+**Revalidated October 23, 2026:** Current Optimizely organization and folder pages still prioritize existing standards, reuse/access scope, descriptive names and a shared media/block tree without language variants. The index title changes do not establish behavior. The illustrative folder routing/depth/threshold policy remains proposed and product-dependent.
