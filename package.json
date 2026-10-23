@@ -1,5 +1,6 @@
 {
   "name": "personal-brain",
+  "packageManager": "npm@11.9.0",
   "private": true,
   "type": "module",
   "engines": {

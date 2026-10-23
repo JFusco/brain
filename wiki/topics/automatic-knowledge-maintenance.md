@@ -235,3 +235,7 @@ The [October 20 scheduled note review](../journal/2026-10-20-scheduled-note-reva
 ## October 22 asset migration guidance
 
 The [asset migration journal](../journal/2026-10-22-asset-migration-guidance.md) records source-grounded CMS media/CMP boundaries, placement alt text, proposed asset organization and a version/path-specific correction to Contentstack CLI recovery advice. Native mapping retention does not itself establish duplicate-safe asset reruns. Proposal publication does not claim connected execution, and capture acceptance follows successful publication and run completion.
+
+## npm installation guard
+
+The [npm installation journal](../journal/2026-10-23-npm-install-guard.md) records root and viewer npm declarations to prevent ordinary accidental pnpm installs from generating competing lockfiles or symlinked dependencies. The installed pnpm refused both bounded install attempts before lockfile generation. Explicit overrides remain outside this guard; nightly cleanliness and managed-path checks stay enabled.
