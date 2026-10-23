@@ -25,6 +25,16 @@ Lessons arrive through `/brain-capture` (`capture --stdin`) into the private inb
 - Retire advice with `status: retired`, or `superseded` plus `superseded_by`; the page stays as history and leaves lookup and hubs.
 - Preserve original bodies, provenance and disposition history. Never reject a backlog without individual review. Record actual resolution results, reconcile existing dispositions after interruptions and never resolve a capture twice. Original bodies remain unchanged; their embedded status is not the separate current disposition metadata.
 
+## Package installation
+
+Use npm only at the repository root and in `web/brain`; retain the tracked
+`package-lock.json` files. Use `npm ci --ignore-scripts` for root dependencies and
+`npm ci --prefix web/brain` for the viewer. Do not run pnpm/Yarn installs or
+override package-manager checks. The package-manager declarations reject ordinary
+pnpm installs before they create competing lockfiles or dependency symlinks.
+Preserve and investigate unexpected lockfiles rather than ignoring or deleting
+them automatically. Keep nightly clean-checkout and managed-path guards enabled.
+
 ## Official references and maintenance
 
 Follow README → "Documentation lookup and official references" and "Maintenance". `official/` holds only the registry, the lock and generated link catalogs; never add vendor page bodies.

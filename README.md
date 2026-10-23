@@ -455,6 +455,16 @@ The merge command records passing Wiki integrity for the exact PR head, uses Git
 
 ## Setup
 
+Use **npm only** in both the repository root and `web/brain`. Both package
+manifests declare npm; keep their tracked `package-lock.json` files as the
+installation record. Do not run pnpm or Yarn installs, generate competing
+lockfiles, or replace the root dependency directories with package-manager
+symlinks. Ordinary pnpm installs are rejected by the package-manager declaration,
+including with scripts disabled; deliberate manager-check overrides are outside
+this guard. Do not ignore or automatically delete unexpected lockfiles: preserve
+and investigate them before maintenance resumes.
+
+
 ```sh
 npm ci --ignore-scripts
 node scripts/setup.mjs
