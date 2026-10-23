@@ -239,3 +239,7 @@ The [asset migration journal](../journal/2026-10-22-asset-migration-guidance.md)
 ## npm installation guard
 
 The [npm installation journal](../journal/2026-10-23-npm-install-guard.md) records root and viewer npm declarations to prevent ordinary accidental pnpm installs from generating competing lockfiles or symlinked dependencies. The installed pnpm refused both bounded install attempts before lockfile generation. Explicit overrides remain outside this guard; nightly cleanliness and managed-path checks stay enabled.
+
+## October 23 native asset verification
+
+The [native asset verification journal](../journal/2026-10-23-native-asset-verification.md) records independent native placement, original-byte and editor evidence; uncertainty settlement without rewriting history; and distinct branch/credential cleanup. Current official passages support seven note revalidations. Historical pilot outcomes remain unverified reports, and procedures remain proposed until exercised in their target projects.

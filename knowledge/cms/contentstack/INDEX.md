@@ -12,6 +12,7 @@ aliases: ["contentstack"]
 - [Generate editor guidance from reviewed field definitions](editor-guidance-from-field-definitions.md)
 - [Keep Contentstack import state with native concurrency](asset-import-state.md)
 - [Organize Contentstack assets by ownership and reuse](asset-ownership-and-reuse.md)
+- [Verify branch isolation and credential cleanup separately](branch-isolation-and-credential-cleanup.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
