@@ -5,7 +5,9 @@ import {fileURLToPath} from 'node:url';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 export const sha = value => crypto.createHash('sha256').update(value).digest('hex');
-export const json = file => {try{return JSON.parse(fs.readFileSync(file,'utf8'));}catch(error){if(error instanceof SyntaxError)throw new Error('Invalid JSON in a configured file; content suppressed');throw error;}};
+export const json = file => {try{return JSON.parse(fs.readFileSync(file,'utf8'));}catch(error){// No `cause`: the SyntaxError message can quote file content.
+  // eslint-disable-next-line preserve-caught-error
+  if(error instanceof SyntaxError)throw new Error('Invalid JSON in a configured file; content suppressed');throw error;}};
 export const readJSON = (file, fallback = {}) => fs.existsSync(file) ? json(file) : fallback;
 export const at = relative => path.join(ROOT, relative);
 export const now = () => new Date().toISOString();
@@ -23,6 +25,8 @@ export function inside(root, target) {
   return rel === '' || (rel !== '..' && !rel.startsWith('..'+path.sep) && !path.isAbsolute(rel));
 }
 export function safePath(relative) {
+  // Control characters are rejected on purpose.
+  // eslint-disable-next-line no-control-regex
   if (typeof relative !== 'string' || !relative || relative.includes('\\') || /[\x00-\x1f\x7f]/.test(relative) || path.isAbsolute(relative) || relative.split('/').some(p=>p==='..' || p==='.' || !p)) throw new Error('Unsafe relative path');
   return relative;
 }
@@ -75,7 +79,7 @@ export function withLock(fn) {
     catch(error){
       if(error.code!=='EEXIST')throw error;
       const owner=readJSON(file,{pid:0});
-      if(owner.pid){try{process.kill(owner.pid,0);throw new Error('Another brain mutation is running');}catch(e){if(e.code!=='ESRCH')throw e;}}
+      if(owner.pid){let alive=true;try{process.kill(owner.pid,0);}catch(e){if(e.code!=='ESRCH')throw e;alive=false;}if(alive)throw new Error('Another brain mutation is running',{cause:error});}
       fs.rmSync(file);return withLock(fn);
     }
     try{return await fn();}finally{fs.closeSync(descriptor);fs.rmSync(file,{force:true});}

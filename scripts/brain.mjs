@@ -55,7 +55,7 @@ node scripts/brain.mjs check [--staged]
 
  Knowledge notes and registry edits publish when ordinary PRs merge.
  Nothing in this CLI commits, pushes, opens, or merges PRs.
-Tests and dedicated QA are deferred for v1.
+Code changes are gated by pnpm run verify:ci.
 `;
 
 try {

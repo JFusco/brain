@@ -25,7 +25,7 @@ export async function checkLinks({limit=config().maintenance?.linkLimit??24,sour
   }
   for(const page of publishedGuidance())if(!['superseded','retired'].includes(page.freshness.status))for(const match of page.body.matchAll(/\]\((https:\/\/[^\s)]+)\)/g)){const item=all.get(match[1]);if(item)item.priority=2;}
   const cache=readJSON(at('.state/lookup-cache.json'),{files:{}});
-  for(const [name]of Object.entries(cache.files).sort((a,b)=>b[1].fetchedAt.localeCompare(a[1].fetchedAt)).slice(0,20))if(/^[a-f0-9]{64}\.json$/.test(name)&&fs.existsSync(at('.state/lookup/'+name)))try{const receipt=readExcerpt(at('.state/lookup/'+name)),item=all.get(receipt.url)||all.get(aliases.get(receipt.url));if(item)item.priority=Math.max(item.priority,1);}catch{}
+  for(const [name]of Object.entries(cache.files).sort((a,b)=>b[1].fetchedAt.localeCompare(a[1].fetchedAt)).slice(0,20))if(/^[a-f0-9]{64}\.json$/.test(name)&&fs.existsSync(at('.state/lookup/'+name)))try{const receipt=readExcerpt(at('.state/lookup/'+name)),item=all.get(receipt.url)||all.get(aliases.get(receipt.url));if(item)item.priority=Math.max(item.priority,1);}catch{/* unreadable cached receipt: no priority boost */}
   const state=readJSON(at('.state/link-health.json'),{schemaVersion:1,links:{}}),buckets=new Map(),cutoff=Date.now()-24*3600000;
   for(const record of Object.values(state.links))record.active=all.has(record.url);
   for(const item of all.values()){

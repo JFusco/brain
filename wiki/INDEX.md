@@ -13,6 +13,7 @@ This wiki is the durable project record for decisions, executed plans, and subst
 - [CMS field vocabulary](./topics/cms-field-vocabulary.md) — pinned field facts, explicit profiles and advisory release detection.
 - [UI pattern vocabulary](./topics/ui-pattern-vocabulary.md) — optional component naming and guidance, with shared package release detection.
 - [Opt-in Brain skill](./topics/brain-skill.md) — use Brain from Claude Code, Codex and Cursor without loading it into every session.
+- [Code quality gate and architecture](./topics/code-quality.md) — verify:ci, hooks, focused tests and module layers.
 - `wiki/topics/` — durable decision and domain pages.
 - `wiki/journal/` — chronological substantive-change entries.
 - `wiki/connections.md` — generated relationship summary.

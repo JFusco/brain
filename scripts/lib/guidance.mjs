@@ -61,7 +61,7 @@ export function curatedBlock(domain,pages) {
   const hub=`knowledge/${domain}/INDEX.md`,links=[];
   for(const page of pages){
     if(!page.path.startsWith(`knowledge/${domain}/`)||!isNote(page.path)||['superseded','retired'].includes(scalar(page.raw,'status')))continue;
-    links.push(`- [${scalar(page.raw,'title').replace(/[\[\]]/g,'')}](${path.posix.relative(path.posix.dirname(hub),page.path)})`);
+    links.push(`- [${scalar(page.raw,'title').replace(/[[\]]/g,'')}](${path.posix.relative(path.posix.dirname(hub),page.path)})`);
   }
   return `<!-- brain:curated:start -->\n${links.length?links.sort().join('\n'):'No curated notes yet.'}\n<!-- brain:curated:end -->`;
 }

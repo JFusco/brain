@@ -1,6 +1,6 @@
 {
   "name": "local-visual-brain",
-  "packageManager": "npm@11.9.0",
+  "packageManager": "pnpm@10.33.0",
   "private": true,
   "type": "module",
   "scripts": {

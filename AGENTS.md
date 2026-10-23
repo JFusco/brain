@@ -2,7 +2,7 @@
 
 Work only within the requested scope. Commit or push only when the request includes Git delivery, using the flow below. Do not modify agent memories or change other project repositories unless invoked for that project. The only global registrations are the opt-in `brain` and `brain-capture` skills (`skills/`), which Joe links per the README.
 
-Tests, fixtures, fresh-session tests, dedicated QA and implementation review-agent audits are deferred for v1; do not add them. Joe authorized a separate content reviewer for nightly knowledge additions and changes; this is the only review-agent exception. The existing Wiki integrity GitHub check remains enabled. Reference refresh, curation, review and verification run locally; never dispatch or re-enable Brain's reference-health or catalog-sync Actions. Keep ordinary runtime protections and report actual command outcomes.
+Runtime code is gated by focused `node:test` tests (`tests/`), ESLint, Prettier and an architecture check; run `pnpm run verify:ci` before delivering code changes. Keep tests to guards, decisions and contracts that matter; do not add trivial or snapshot tests. Fresh-session tests and dedicated QA remain out of scope. Joe authorized a separate content reviewer for nightly knowledge additions and changes. The Wiki integrity, Quality and Commit message lint GitHub checks remain enabled. Reference refresh, curation, review and verification run locally; never dispatch or re-enable Brain's reference-health or catalog-sync Actions. Keep ordinary runtime protections and report actual command outcomes.
 
 ## Trust and privacy
 
@@ -27,13 +27,14 @@ Lessons arrive through `/brain-capture` (`capture --stdin`) into the private inb
 
 ## Package installation
 
-Use npm only at the repository root and in `web/brain`; retain the tracked
-`package-lock.json` files. Use `npm ci --ignore-scripts` for root dependencies and
-`npm ci --prefix web/brain` for the viewer. Do not run pnpm/Yarn installs or
-override package-manager checks. The package-manager declarations reject ordinary
-pnpm installs before they create competing lockfiles or dependency symlinks.
-Preserve and investigate unexpected lockfiles rather than ignoring or deleting
-them automatically. Keep nightly clean-checkout and managed-path guards enabled.
+Use pnpm only (`packageManager: pnpm@10.33.0`) at the repository root and in
+`web/brain`; retain the tracked `pnpm-lock.yaml` files. Use
+`pnpm install --frozen-lockfile` for root dependencies and
+`pnpm --dir web/brain install --frozen-lockfile` for the viewer. The root
+`.npmrc` sets `node-linker=hoisted` so pinned packages are real directories that
+the `noSymlinks` guards accept; keep it. Do not run npm/Yarn installs or override
+package-manager checks. Preserve and investigate unexpected lockfiles rather than
+ignoring or deleting them automatically. Keep nightly clean-checkout and managed-path guards enabled.
 
 ## Official references and maintenance
 

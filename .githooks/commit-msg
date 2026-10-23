@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+root=$(git rev-parse --show-toplevel)
+. "$root/.githooks/tool-path.sh"
+cd "$root" && commitlint --config commitlint.config.cjs --edit "$1"

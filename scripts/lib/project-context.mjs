@@ -38,9 +38,9 @@ export function projectContext(input,{workspace,versions}={}) {
           const candidate=path.join(directory,'package.json');
           if(fs.existsSync(candidate)&&fs.statSync(candidate).size<=1024*1024&&json(candidate).name===name){packageFile=candidate;break;}
           const parent=path.dirname(directory);if(parent===directory)break;directory=parent;
-        }}catch{}
+        }}catch{/* unresolvable: version stays declared-only */}
       }
-      if(packageFile)try{if(fs.statSync(packageFile).size<=1024*1024){const installed=json(packageFile);if(installed.name===name&&typeof installed.version==='string')version=installed.version;}}catch{}
+      if(packageFile)try{if(fs.statSync(packageFile).size<=1024*1024){const installed=json(packageFile);if(installed.name===name&&typeof installed.version==='string')version=installed.version;}}catch{/* unreadable manifest: version stays declared-only */}
       dependencies[name]={declared:String(declared),version,confidence:version?'installed':'declared-only'};
       if(name==='next'&&version&&packageFile){const docs=path.join(path.dirname(packageFile),'dist/docs');if(fs.existsSync(docs)&&fs.statSync(docs).isDirectory())Object.defineProperty(context,'installedDocs',{value:{root:fs.realpathSync(docs),package:'next',version},enumerable:false});}
     }

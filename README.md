@@ -123,8 +123,8 @@ Brain no longer harvests project files; lessons arrive only through explicit cap
 The knowledge visualization is separate from the wiki. It runs locally and reads one committed local `main` snapshot, never working edits or private inbox content. Update local `main` through your normal Git workflow; the viewer does not fetch remotes. Node 24 is required; its built-in SQLite support currently emits an experimental warning.
 
 ```sh
-npm ci --prefix web/brain
-npm run build --prefix web/brain
+pnpm --dir web/brain install --frozen-lockfile
+pnpm --dir web/brain run build
 node scripts/brain.mjs visual serve
 ```
 
@@ -223,7 +223,7 @@ Official website pointers remain pointers until a useful downloadable source and
 ### CMS field vocabulary
 
 Brain consumes the exact `cms-field-vocabulary` version in `package.json` and
-`package-lock.json`. Install it locally with `npm ci --ignore-scripts` from the
+`pnpm-lock.yaml`. Install it locally with `pnpm install --frozen-lockfile` from the
 Brain root. The package is MIT licensed; its catalog and evidence manifests stay
 in ignored `node_modules/`, and Brain reads their JSON without executing package
 code. Vocabulary tables are not copied into notes or official link catalogs.
@@ -455,18 +455,16 @@ The merge command records passing Wiki integrity for the exact PR head, uses Git
 
 ## Setup
 
-Use **npm only** in both the repository root and `web/brain`. Both package
-manifests declare npm; keep their tracked `package-lock.json` files as the
-installation record. Do not run pnpm or Yarn installs, generate competing
-lockfiles, or replace the root dependency directories with package-manager
-symlinks. Ordinary pnpm installs are rejected by the package-manager declaration,
-including with scripts disabled; deliberate manager-check overrides are outside
-this guard. Do not ignore or automatically delete unexpected lockfiles: preserve
-and investigate them before maintenance resumes.
+Use **pnpm only** in both the repository root and `web/brain`. Both package
+manifests declare `pnpm@10.33.0`; keep their tracked `pnpm-lock.yaml` files as
+the installation record. The root `.npmrc` uses the hoisted linker so pinned
+packages are real directories. Do not run npm or Yarn installs or generate
+competing lockfiles. Do not ignore or automatically delete unexpected lockfiles:
+preserve and investigate them before maintenance resumes.
 
 
 ```sh
-npm ci --ignore-scripts
+pnpm install --frozen-lockfile
 node scripts/setup.mjs
 node scripts/hosted/setup.mjs
 ```
@@ -478,9 +476,9 @@ There is no LaunchAgent. One local Codex automation runs daily at 5 p.m. America
 
 Registry changes are ordinary issue-linked PRs. Git history, the lock's catalog hashes and `check` are the integrity record, so a new machine needs no separate registry approval step. Brain has no built-in backup; include `.state/`, `inbox/` and `brain.config.local.json` in your normal machine backup to preserve the inbox, dispositions and local paths.
 
-After cloning, run `git config core.hooksPath .githooks` to activate the pre-commit privacy guard and nightly pre-push guard.
+After cloning, run `pnpm install --frozen-lockfile` and `git config core.hooksPath .githooks`. The hooks run the pre-commit privacy guard and staged-JavaScript lint, commit-message lint, and the nightly pre-push guard followed by `pnpm run verify:push`.
 
-Brain CLI commands never create commits or remotes and never push. The separate nightly runner creates registered temporary checkouts and performs guarded PR merges. Knowledge and maintenance changes publish through issue-linked PRs. Tests, fixtures, fresh-session checks, general CI, dedicated QA and implementation review-agent audits are deferred for v1; separate nightly content review is authorized. The explicitly requested Wiki integrity PR check remains enabled; reference-maintenance workflows are disabled. Runtime safeguards and actual command results are retained.
+Brain CLI commands never create commits or remotes and never push. The separate nightly runner creates registered temporary checkouts and performs guarded PR merges. Knowledge and maintenance changes publish through issue-linked PRs. Code changes are gated by `pnpm run verify:ci` (lint, format, architecture, tests, `check`, `official check`, wiki integrity and the viewer build), locally through the hooks and on PRs through the **Quality** and **Commit message lint** checks; separate nightly content review is authorized. The Wiki integrity PR check remains enabled; reference-maintenance workflows are disabled. Runtime safeguards and actual command results are retained.
 
 ## Context wiki
 
