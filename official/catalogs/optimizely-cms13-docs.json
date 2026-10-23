@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms13-docs",
-  "revision": "7fcd63b3ed0e7fe7217f9d07d26df15907107181fa89bec629d3fa225140d9d1",
+  "revision": "958df0d25a421aec7dbe500be013283d972b2e8b2f8b2bae2c43ad7ff1cb15d2",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -1637,7 +1637,7 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/geo-analytics-for-cms-paas.md"
     },
     {
-      "title": "Get started with Optimizely Agent Platform tools",
+      "title": "Get started with Optimizely Mark tools",
       "url": "https://docs.optimizely.com/cms-13/docs/get-started-tools-cms-13.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/get-started-tools-cms-13.md"
     },
@@ -1737,7 +1737,7 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-database-schema.md"
     },
     {
-      "title": "Install Mark chat in CMS 13",
+      "title": "Install Optimizely Mark chat in CMS 13",
       "url": "https://docs.optimizely.com/cms-13/docs/install-mark-chat-cms-13.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-mark-chat-cms-13.md"
     },
@@ -1892,7 +1892,7 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/map-stores.md"
     },
     {
-      "title": "Mark chat for Optimizely CMS 13",
+      "title": "Optimizely Mark chat for Optimizely CMS 13",
       "url": "https://docs.optimizely.com/cms-13/docs/mark-chat-for-optimizely-cms-13.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/mark-chat-for-optimizely-cms-13.md"
     },
@@ -1972,7 +1972,7 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/optialloy-property.md"
     },
     {
-      "title": "Optimizely Agent Platform in CMS 13",
+      "title": "Optimizely Mark in CMS 13",
       "url": "https://docs.optimizely.com/cms-13/docs/optimizely-agent-platform-in-cms-13.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/optimizely-agent-platform-in-cms-13.md"
     },
@@ -2377,7 +2377,7 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/translate-content.md"
     },
     {
-      "title": "Troubleshoot Optimizely Agent Platform tools",
+      "title": "Troubleshoot Optimizely Mark tools",
       "url": "https://docs.optimizely.com/cms-13/docs/troubleshoot-optimizely-agent-platform-tools.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/troubleshoot-optimizely-agent-platform-tools.md"
     },
