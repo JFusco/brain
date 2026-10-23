@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "sources": {
     "sitecore-content-sdk": {
-      "revision": "27af66d9c81f143927c96d8dc543d852b5c30b69",
-      "fetchedAt": "2026-10-21T21:01:40.869Z",
+      "revision": "53e4011b6413416a0502e68a36510f94b3f51a05",
+      "fetchedAt": "2026-10-23T21:01:15.472Z",
       "track": "default-branch",
-      "catalogSha256": "f9a10c6d1ee1c9da248e9363cd2bbcf2ddaef7c7d625b6112e46b7b0ac8a1718"
+      "catalogSha256": "22512f6d434d02503f88334b9a4eeeda69eb1dc23697d1f340df81241aee93b6"
     },
     "contentstack-kickstart": {
       "revision": "0c9aca728b7113a6a64a2ccea2b3b448c45529fa",
@@ -20,10 +20,10 @@
       "catalogSha256": "1da7af8baf08d3052086a4614d708d6bd0e28623be3a8a14dae166cd759eae06"
     },
     "vercel-plugin": {
-      "revision": "89e9ab9e4a15de0b18f3df6bc89d29152a00ff1b",
-      "fetchedAt": "2026-10-22T23:24:25.810Z",
+      "revision": "728b46b617a9e97a7cc6ef1a3f0dbdfedb349a7c",
+      "fetchedAt": "2026-10-23T21:01:28.445Z",
       "track": "default-branch",
-      "catalogSha256": "8e54a2dfe538a565521a4af0a2392964e2d559ba20a8648e5b0be1666266271f"
+      "catalogSha256": "f31d3091e6e0e866fc5a32029aaf11b8542dd1c42780c107e1d6d83436201cd3"
     },
     "contentful-skills": {
       "revision": "0cfae213be9117da4b5b42451d8c0515d363f894",
@@ -38,10 +38,10 @@
       "catalogSha256": "23fc5d527a6631f743cb03458e95e7dff86d093ca410ddccb19f15ebb5ed9254"
     },
     "nextjs-index": {
-      "revision": "4ba86c99073ca6b65f04f5a283dcebb76deffd8a3e2fefe031ba5dd1ad8e6556",
-      "fetchedAt": "2026-10-16T00:50:42.885Z",
+      "revision": "2b9f685c5a276c7da0397a8a972ea1facd4342abb390a0167b40ec23a910f463",
+      "fetchedAt": "2026-10-23T21:01:34.504Z",
       "track": "rolling-url",
-      "catalogSha256": "613eb34f02fcfa1102c3c7bf378479d4069ce3f57db402707a862450c4839fcc"
+      "catalogSha256": "3fb21d9465051fd699994e3ba0da8ef5d314247078123a024d1c45460d20663a"
     },
     "react-index": {
       "revision": "8164398bcb11d2ed3377e96aac8473f508d2ddd687d51b7968be3a991056fd65",
@@ -50,10 +50,10 @@
       "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "ab048ae92ace1e687886dfc5de3ee9dafa1d76614d521abfd0746626e3295b5c",
-      "fetchedAt": "2026-10-22T23:24:33.975Z",
+      "revision": "5318e324e3ed0af5aeb7fb2f854e8273cf2232de1e9ab6401dce748503c2adc1",
+      "fetchedAt": "2026-10-23T21:01:37.153Z",
       "track": "rolling-url",
-      "catalogSha256": "c77e348900aab8cf371bc4add630cdb42be55f1f0ede20014acb3c49f6cebf6f"
+      "catalogSha256": "a4ba03c52a8b52dc71ccea0ae0af4d059f65d3b3b4ff0e3db8e765bb11275c4f"
     },
     "contentstack-docs": {
       "revision": "27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d",
@@ -74,10 +74,10 @@
       "catalogSha256": "68c47dbe1f452c975689f8b6f6cfdffb8db5178fc836f7ab14200d4f842ed39f"
     },
     "optimizely-cms-saas-docs": {
-      "revision": "4e7dd5eeae36577bcb4d08f1f2617b4dfeab71f0541e212710ea48b8a233ba92",
-      "fetchedAt": "2026-10-22T23:24:43.968Z",
+      "revision": "ae548b9dfcc952b0ce044cc0331517c2155d9a8da61cacb1b11285231415ac9e",
+      "fetchedAt": "2026-10-23T21:01:44.714Z",
       "track": "rolling-url",
-      "catalogSha256": "06ac074220d58fe92b39eaeb252a075c38d0a3e05e1ff4c2b29aa1f7ab07f7da"
+      "catalogSha256": "8c88f3d03ca71a734cd42e31f0315cb4e8e0c98eadb409735b35d68a5370441e"
     },
     "optimizely-graph-docs": {
       "revision": "e4f105f278f80c9a69c61074a05b2716cb82a0c0c0f5eef7a101c150cc25a553",
@@ -98,10 +98,10 @@
       "catalogSha256": "7c6810d11428134b36c1c2061d45e9e5cf7f1c5951c39889d28bd6470de0c2cf"
     },
     "optimizely-cms13-docs": {
-      "revision": "7fcd63b3ed0e7fe7217f9d07d26df15907107181fa89bec629d3fa225140d9d1",
-      "fetchedAt": "2026-10-21T21:02:13.610Z",
+      "revision": "958df0d25a421aec7dbe500be013283d972b2e8b2f8b2bae2c43ad7ff1cb15d2",
+      "fetchedAt": "2026-10-23T21:01:49.460Z",
       "track": "rolling-url",
-      "catalogSha256": "3f61c06e68ef5a7bec8d576218608d6812deaf4917f8f9a8a284ed9759031102"
+      "catalogSha256": "0c5bbbe58b186d6cdb49271a23793d5ac3dbb68250cfeb2aad88c7ae50c5d76a"
     },
     "sitecoreai-docs": {
       "revision": "70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6",

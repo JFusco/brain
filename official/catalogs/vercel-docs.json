@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "ab048ae92ace1e687886dfc5de3ee9dafa1d76614d521abfd0746626e3295b5c",
+  "revision": "5318e324e3ed0af5aeb7fb2f854e8273cf2232de1e9ab6401dce748503c2adc1",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -2727,6 +2727,36 @@
       "fetchUrl": "https://vercel.com/docs/chat-sdk/eve.md"
     },
     {
+      "title": "Chat SDK Frameworks",
+      "url": "https://vercel.com/docs/chat-sdk/frameworks",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/frameworks.md"
+    },
+    {
+      "title": "Chat SDK with Hono",
+      "url": "https://vercel.com/docs/chat-sdk/frameworks/hono",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/frameworks/hono.md"
+    },
+    {
+      "title": "Chat SDK with Next.js",
+      "url": "https://vercel.com/docs/chat-sdk/frameworks/nextjs",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/frameworks/nextjs.md"
+    },
+    {
+      "title": "Chat SDK with Nitro",
+      "url": "https://vercel.com/docs/chat-sdk/frameworks/nitro",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/frameworks/nitro.md"
+    },
+    {
+      "title": "Chat SDK with Nuxt",
+      "url": "https://vercel.com/docs/chat-sdk/frameworks/nuxt",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/frameworks/nuxt.md"
+    },
+    {
+      "title": "Chat SDK with TanStack Start",
+      "url": "https://vercel.com/docs/chat-sdk/frameworks/tanstack-start",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/frameworks/tanstack-start.md"
+    },
+    {
       "title": "Getting Started with Chat SDK",
       "url": "https://vercel.com/docs/chat-sdk/quickstart",
       "fetchUrl": "https://vercel.com/docs/chat-sdk/quickstart.md"
@@ -2795,6 +2825,11 @@
       "title": "vercel blob",
       "url": "https://vercel.com/docs/cli/blob",
       "fetchUrl": "https://vercel.com/docs/cli/blob.md"
+    },
+    {
+      "title": "vercel budgets",
+      "url": "https://vercel.com/docs/cli/budgets",
+      "fetchUrl": "https://vercel.com/docs/cli/budgets.md"
     },
     {
       "title": "vercel build",
@@ -5630,6 +5665,11 @@
       "title": "List virtual model configs",
       "url": "https://vercel.com/docs/rest-api/ai-gateway/list-virtual-model-configs",
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/list-virtual-model-configs.md"
+    },
+    {
+      "title": "Update an AI Gateway API key budget",
+      "url": "https://vercel.com/docs/rest-api/ai-gateway/update-an-ai-gateway-api-key-budget",
+      "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/update-an-ai-gateway-api-key-budget.md"
     },
     {
       "title": "Update rule",
