@@ -192,6 +192,12 @@
       "fetchedAt": "2026-10-24T21:29:11.403Z",
       "track": "rolling-url",
       "catalogSha256": "0704ab34e99043491917d4fc202242ceab467d35d32f33e900d4ba81eb4c6341"
+    },
+    "vitest-docs": {
+      "revision": "9fc16ed9694188c784244565756b0eb6ecb3f6bbd111f2cb97479f821cc88adb",
+      "fetchedAt": "2026-10-24T21:39:55.081Z",
+      "track": "rolling-url",
+      "catalogSha256": "5447bf62633a0fb6e47a5010a633c1f1622e2ced58d859127452ad4400461054"
     }
   },
   "toolchain": {

@@ -1047,6 +1047,29 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling vite.dev guide, config reference and breaking-change pages. Excludes blog, team and release-announcement pages. Confirm the project's installed vite version; rolling docs do not establish compatibility with older majors."
+    },
+    {
+      "id": "vitest-docs",
+      "vendor": "vitest",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://vitest.dev/llms.txt",
+      "allowedHosts": [
+        "vitest.dev"
+      ],
+      "includePrefixes": [
+        "/config",
+        "/guide",
+        "/api/"
+      ],
+      "fetchSuffix": ".md",
+      "maxPages": 400,
+      "license": "Vitest documentation from the MIT-licensed vitest-dev/vitest repository; links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling vitest.dev config reference, guide (including browser mode and migration) and test API pages from the official Markdown index. Confirm the project's installed vitest version; rolling docs do not establish compatibility with older majors."
     }
   ],
   "pointers": [
