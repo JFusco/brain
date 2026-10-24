@@ -6,7 +6,8 @@ import { ROOT, temporary } from '../helpers.mjs';
 
 // Strip Git-local variables so a hook-invoked run cannot redirect the fixture repository.
 export function environment(extra = {}) {
-  const env = { ...process.env, ...extra };
+  // Plain output: CI runners force color, which would wrap tool messages in ANSI codes.
+  const env = { ...process.env, FORCE_COLOR: '0', NO_COLOR: '1', ...extra };
   const local = spawnSync('git', ['rev-parse', '--local-env-vars'], { encoding: 'utf8' }).stdout;
   for (const name of local.split('\n').filter(Boolean)) delete env[name];
   return env;
@@ -54,17 +55,17 @@ export function fixture(t) {
   };
   for (const [file, name] of Object.entries(stubs))
     fs.writeFileSync(path.join(root, file), STUB(name, file));
-  // Real commitlint: the commit-msg hook resolves it from the repository's dependencies.
-  fs.copyFileSync(
-    path.join(ROOT, 'commitlint.config.cjs'),
-    path.join(root, 'commitlint.config.cjs'),
-  );
+  // Real commitlint, ESLint and Prettier, resolved from the repository's dependencies.
+  for (const config of ['commitlint.config.cjs', 'eslint.config.js', '.prettierrc.json']) {
+    fs.copyFileSync(path.join(ROOT, config), path.join(root, config));
+  }
   fs.symlinkSync(path.join(ROOT, 'node_modules'), path.join(root, 'node_modules'));
   fs.writeFileSync(path.join(root, '.gitignore'), 'node_modules\n.hook-log\n');
   fs.writeFileSync(
     path.join(root, 'package.json'),
     JSON.stringify({
       private: true,
+      type: 'module',
       // Fails with 9 if Git-local variables leak into the gate.
       scripts: {
         'verify:push':
