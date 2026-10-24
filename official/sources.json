@@ -987,6 +987,41 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling Learn Performance course modules only: loading, rendering, resource hints, images, video, fonts, JavaScript and workers. Not a full web.dev catalog, measurement result, framework compatibility claim or performance acceptance."
+    },
+    {
+      "id": "web-features-baseline",
+      "vendor": "web-platform-dx",
+      "domains": [
+        "frontend"
+      ],
+      "kind": "repository",
+      "repository": "web-platform-dx/web-features",
+      "track": "default-branch",
+      "paths": [
+        {
+          "exact": "docs/baseline.md"
+        },
+        {
+          "exact": "packages/web-features/README.md"
+        },
+        {
+          "exact": "packages/compute-baseline/README.md"
+        },
+        {
+          "exact": "README.md"
+        }
+      ],
+      "license": "Apache-2.0",
+      "skillRoot": null,
+      "installPolicy": "reference-only",
+      "appliesTo": {
+        "dependencies": [
+          "web-features",
+          "compute-baseline"
+        ]
+      },
+      "preferred": false,
+      "applicability": "W3C WebDX Community Group Baseline status definition and the web-features and compute-baseline package documentation at the catalogued commit. Baseline describes browser support only; it does not establish accessibility, usability or a project's browser-support acceptance. Feature data files are not catalogued."
     }
   ],
   "pointers": [

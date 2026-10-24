@@ -180,6 +180,12 @@
       "fetchedAt": "2026-10-22T01:40:09.323Z",
       "track": "rolling-url",
       "catalogSha256": "454897787813334dee8773f0620386bbfa1f13ba1a698f2b2301af8697d81a32"
+    },
+    "web-features-baseline": {
+      "revision": "2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d",
+      "fetchedAt": "2026-10-24T21:23:25.712Z",
+      "track": "default-branch",
+      "catalogSha256": "731187bd6e1b44a26eeee3b25fc92198415c563f0dc604812f1bf18e3b44c0ee"
     }
   },
   "toolchain": {

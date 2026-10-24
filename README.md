@@ -458,7 +458,7 @@ code change; routine catalog-refresh PRs still exclude dependency upgrades.
 | --- | --- |
 | Browser testing | Official Playwright JavaScript/TypeScript documentation catalog; guidance for consuming projects, with installed-version applicability left explicit |
 | Internationalization | W3C HTML authoring index: bounded articles, questions and tutorials covering language, encoding and text direction |
-| Browser platform | Bounded English MDN catalog: HTML, CSS guides, JavaScript guides, HTTP, selected browser APIs and Baseline; not the complete MDN library |
+| Browser platform | Bounded English MDN catalog: HTML, CSS guides, JavaScript guides, HTTP, selected browser APIs and Baseline; not the complete MDN library. The W3C WebDX [Baseline status definition](https://github.com/web-platform-dx/web-features/blob/main/docs/baseline.md) and `web-features`/`compute-baseline` package documentation are catalogued at a pinned commit, without feature data |
 | Next.js | [Official page index](https://nextjs.org/docs/llms.txt) and version guidance |
 | Vercel | [Platform documentation catalog](https://vercel.com/docs/sitemap.md), official plugin skills, and agent skills |
 | React | [Pinned documentation-tree catalog](https://github.com/reactjs/react.dev/tree/main/src/content), plus the official index |
@@ -496,7 +496,7 @@ The weekly coverage review checks these official places for new documentation in
 | --- | --- |
 | Browser testing | playwright.dev/sitemap.xml; github.com/microsoft/playwright/docs/src |
 | Internationalization | www.w3.org/International/techniques/authoring-html; github.com/w3c/i18n-drafts |
-| Browser platform | developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz; github.com/mdn/content; browser support remains separate from project acceptance |
+| Browser platform | developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz; github.com/mdn/content; github.com/web-platform-dx/web-features; browser support remains separate from project acceptance |
 | Next.js | nextjs.org/docs (`llms.txt`), github.com/vercel, github.com/vercel-labs |
 | React | react.dev (`llms.txt`), github.com/reactjs |
 | TypeScript | typescriptlang.org/docs, github.com/microsoft/TypeScript-Website |

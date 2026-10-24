@@ -13,6 +13,10 @@ Each source is delivered in its own issue-linked registration PR. Catalogs conta
 
 Prose license metadata preserves CC-BY-SA-2.5 and identifies separate code-example terms. This does not register the full MDN Web API or CSS reference libraries.
 
+## Web Platform Baseline
+
+[Issue 181](https://github.com/JFusco/brain/issues/181) adds four exact documents from the W3C WebDX Community Group repository `web-platform-dx/web-features` (Apache-2.0) to Frontend: the Baseline status definition and the repository, `web-features` and `compute-baseline` READMEs. Feature data files are deliberately not catalogued. MDN's Baseline glossary pages remain the reader-facing explanation; these documents add the normative status definition and the packages that compute it. Lookup comparisons kept every Frontend note at its baseline position. Two catalog titles keep the Markdown link syntax of their upstream headings.
+
 ## W3C internationalization
 
 [Issue 120](https://github.com/JFusco/brain/issues/120) adds the official HTML authoring index to Frontend and Semantics. Only approved article, question and tutorial links enter the 250-page catalog. The source uses a single explicitly registered static HTML index; scripts, styles and embedded resources are never executed or fetched. Existing Markdown and sitemap indexes retain their formats. Unsupported formats fail registry validation.

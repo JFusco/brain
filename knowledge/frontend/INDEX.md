@@ -30,4 +30,9 @@ aliases: ["frontend"]
   - [Catalog source](https://www.w3.org/International/techniques/authoring-html); search it with `lookup --domain frontend`.
 - **playwright-docs** — link catalog of 148 pages; rolling-url; revision `2b872424e6169ff0fd683c0180343963f96230188d530e2b5be4706daaa9829c`; fetched 2026-10-22.
   - [Catalog source](https://playwright.dev/sitemap.xml); search it with `lookup --domain frontend`.
+- **web-features-baseline** — 0 skills and 4 docs at a pinned commit; default-branch; revision `2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d`; fetched 2026-10-24.
+  - [docs/baseline.md](https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/docs/baseline.md).
+  - [packages/compute-baseline/README.md](https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/packages/compute-baseline/README.md).
+  - [packages/web-features/README.md](https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/packages/web-features/README.md).
+  - [README.md](https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/README.md).
 <!-- brain:official:end -->
