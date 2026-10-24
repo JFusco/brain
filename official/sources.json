@@ -1288,6 +1288,36 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling ESLint latest documentation: user guide (flat config, CLI, rules configuration), core rule reference, extending and integration guides, feature flags and languages. Excludes contributor, maintainer and website component-library pages. Rule pages include deprecated rules; confirm the project's installed eslint major and config format."
+    },
+    {
+      "id": "pnpm-docs",
+      "vendor": "pnpm",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://pnpm.io/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "pnpm.io"
+      ],
+      "includePrefixes": [
+        "/"
+      ],
+      "excludePrefixes": [
+        "/10.x",
+        "/11.x",
+        "/blog",
+        "/r/",
+        "/crypto-donations",
+        "/logos"
+      ],
+      "maxPages": 300,
+      "maxIndexes": 1,
+      "license": "pnpm documentation from the MIT-licensed pnpm/pnpm.io repository; links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling pnpm documentation for the current major (12.x at registration): installation, workspaces, catalogs, settings, CLI reference, supply-chain security, plus the separately versioned docs for the experimental pnpr registry. Excludes the 10.x and 11.x sitemap trees, blog, redirect shortcuts and donation and logo pages. Confirm the project's packageManager pnpm version; 10.x has separate versioned docs, while 11.x sitemap entries redirected to the root docs at registration."
     }
   ],
   "pointers": [

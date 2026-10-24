@@ -246,6 +246,12 @@
       "fetchedAt": "2026-10-24T22:34:03.866Z",
       "track": "rolling-url",
       "catalogSha256": "389c2462debca63050accc65f401a0d2cb2e9b7ef2644a91b5dae4c2f05d1854"
+    },
+    "pnpm-docs": {
+      "revision": "f4fc405ab67f5c31b395a2793bf6cb0dec2a0fb5e8a4191b8a15c41ad321e3a7",
+      "fetchedAt": "2026-10-24T22:38:46.932Z",
+      "track": "rolling-url",
+      "catalogSha256": "cff1d3fddfd908dd5d5135c2caa2817e06136d90d095135c49d5bd2a0786b586"
     }
   },
   "toolchain": {

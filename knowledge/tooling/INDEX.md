@@ -33,4 +33,6 @@ No curated notes yet.
   - [Catalog source](https://testing-library.com/sitemap.xml); search it with `lookup --domain tooling`.
 - **eslint-docs** — link catalog of 370 pages; rolling-url; revision `ed4ed0f3ae1741336db5ac60879be2a97407a7a907e2e2d14d4b2f7e2fffbcec`; fetched 2026-10-24.
   - [Catalog source](https://eslint.org/docs/latest/sitemap.xml); search it with `lookup --domain tooling`.
+- **pnpm-docs** — link catalog of 170 pages; rolling-url; revision `f4fc405ab67f5c31b395a2793bf6cb0dec2a0fb5e8a4191b8a15c41ad321e3a7`; fetched 2026-10-24.
+  - [Catalog source](https://pnpm.io/sitemap.xml); search it with `lookup --domain tooling`.
 <!-- brain:official:end -->
