@@ -10,9 +10,9 @@ import { json, readJSON } from '../lib/leaf/json.mjs';
 import { at, ROOT } from '../lib/leaf/paths.mjs';
 import { registry } from '../lib/branch/official/registry.mjs';
 import { sync } from '../lib/tree/official/sync.mjs';
-import { checkLinks } from '../lib/link-health.mjs';
+import { checkLinks } from '../lib/tree/links/check.mjs';
 import { staleGuidance } from '../lib/tree/curation/stale.mjs';
-import { check } from '../lib/check.mjs';
+import { check } from '../lib/tree/check/check.mjs';
 import { assertClean } from '../lib/branch/privacy/scanner.mjs';
 
 const repository = 'JFusco/brain',
