@@ -10,7 +10,7 @@ import { readJSON } from './lib/leaf/json.mjs';
 import { at } from './lib/leaf/paths.mjs';
 import { api } from './lib/branch/platform/network/github.mjs';
 import { download } from './lib/branch/platform/network/download.mjs';
-import { archive } from './lib/branch/platform/archive.mjs';
+import { checksumFor, GITLEAKS_HOSTS, scannerFiles } from './lib/branch/platform/gitleaks.mjs';
 
 await withLock(async () => {
   if (Number(process.versions.node.split('.')[0]) !== 24) throw new Error('Node 24 is required');
@@ -26,26 +26,15 @@ await withLock(async () => {
     const asset = release.assets.find(a => a.name === name),
       checks = release.assets.find(a => /checksums\.txt$/.test(a.name));
     if (!asset || !checks) throw new Error('Official scanner release assets are missing');
-    const hosts = [
-      'github.com',
-      'release-assets.githubusercontent.com',
-      'objects.githubusercontent.com',
-    ];
+    const hosts = GITLEAKS_HOSTS;
     const [packageResponse, checksumResponse] = await Promise.all([
       download(asset.browser_download_url, { hosts }),
       download(checks.browser_download_url, { hosts, maxBytes: 1024 * 1024 }),
     ]);
-    const expected = checksumResponse.bytes
-      .toString()
-      .split('\n')
-      .map(line => line.trim().split(/\s+/))
-      .find(parts => parts[1]?.replace(/^\*/, '') === name)?.[0];
+    const expected = checksumFor(checksumResponse.bytes.toString(), name);
     if (!expected || sha(packageResponse.bytes) !== expected)
       throw new Error('Scanner archive checksum does not match');
-    const files = archive(packageResponse.bytes, {
-      stripRoot: false,
-      select: name => ['gitleaks', 'LICENSE', 'LICENSE.txt'].includes(name),
-    });
+    const files = scannerFiles(packageResponse.bytes);
     if (!files.has('gitleaks')) throw new Error('Scanner archive has no binary');
     const dir = at(`.state/tools/gitleaks/${version}`);
     mkdir(dir, 0o700);

@@ -8,7 +8,7 @@ import { sha } from '../lib/leaf/hash.mjs';
 import { json } from '../lib/leaf/json.mjs';
 import { at } from '../lib/leaf/paths.mjs';
 import { download } from '../lib/branch/platform/network/download.mjs';
-import { archive } from '../lib/branch/platform/archive.mjs';
+import { checksumFor, GITLEAKS_HOSTS, scannerFiles } from '../lib/branch/platform/gitleaks.mjs';
 
 if (Number(process.versions.node.split('.')[0]) !== 24) throw new Error('Node 24 required');
 if (!['linux', 'darwin'].includes(process.platform) || !['x64', 'arm64'].includes(process.arch))
@@ -45,22 +45,15 @@ if (!path.isAbsolute(gh)) throw new Error('GitHub CLI unavailable');
 const profile = { clientTerms: [], clientAliases: [], toolchain: { gh } };
 const base = `https://github.com/gitleaks/gitleaks/releases/download/v${version}/`,
   name = `gitleaks_${version}_${process.platform}_${process.arch}.tar.gz`,
-  hosts = ['github.com', 'release-assets.githubusercontent.com', 'objects.githubusercontent.com'];
+  hosts = GITLEAKS_HOSTS;
 const [bundle, checksums] = await Promise.all([
   download(base + name, { hosts }),
   download(base + `gitleaks_${version}_checksums.txt`, { hosts, maxBytes: 1024 * 1024 }),
 ]);
-const expected = checksums.bytes
-  .toString()
-  .split('\n')
-  .map(line => line.trim().split(/\s+/))
-  .find(parts => parts[1]?.replace(/^\*/, '') === name)?.[0];
+const expected = checksumFor(checksums.bytes.toString(), name);
 if (!expected || sha(bundle.bytes) !== expected)
   throw new Error('Pinned scanner release checksum failed');
-const files = archive(bundle.bytes, {
-    stripRoot: false,
-    select: name => ['gitleaks', 'LICENSE', 'LICENSE.txt'].includes(name),
-  }),
+const files = scannerFiles(bundle.bytes),
   binary = at('.state/hosted-tools/gitleaks');
 if (!files.has('gitleaks')) throw new Error('Scanner binary missing');
 atomic(binary, files.get('gitleaks'), 0o700);
