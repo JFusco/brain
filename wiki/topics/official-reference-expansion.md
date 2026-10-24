@@ -70,3 +70,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## axe-core rule help
 
 [Issue 189](https://github.com/JFusco/brain/issues/189) adds rule-level references for automated accessibility results. The `dequelabs/axe-core` repository describes every rule in one Markdown file, which would be a single catalog entry, so the source instead reads Deque's static axe 4.14 rule index: one page per rule, the `helpUrl` targets in axe results. The version is fixed in the URL and matches the latest stable axe-core release at registration; a new release needs an explicit registration change. Deque's `robots.txt` blocks named AI crawlers from some sections and general agents from older rule versions, but not from `/rules/axe/4.14/`. Rule IDs become the catalog titles, so lookups by rule ID or its words match directly. Automated rules cover part of WCAG and never establish conformance.
+
+## Design Tokens Community Group
+
+[Issue 191](https://github.com/JFusco/brain/issues/191) adds the first Design systems catalog: the Design Tokens Community Group 2025.10 Final Community Group Report. Its index links the Format, Color and Resolver modules with relative URLs, which the static HTML parser ignores, and the site has no sitemap, so the four verified pages are listed explicitly as additional pages within `/tr/2025.10/`. The reports are published under the W3C Community Final Specification Agreement and are not W3C Standards. The version is fixed in the path; a later report needs an explicit registration change.

@@ -210,6 +210,12 @@
       "fetchedAt": "2026-10-24T21:50:06.361Z",
       "track": "rolling-url",
       "catalogSha256": "fc65474167a7bc6e02a6190002e9d81d88848a986573e33485ed12d7249e18e5"
+    },
+    "dtcg-format": {
+      "revision": "470a989d5fd17c828423122bcaa5f252d39c82ddbf2ddf9cdf4a9c995065cf4d",
+      "fetchedAt": "2026-10-24T21:56:31.079Z",
+      "track": "rolling-url",
+      "catalogSha256": "8671d960b55f73d3bcdec6bf8d57b3585e8189bbe19a47287af0b6f057088cb3"
     }
   },
   "toolchain": {
