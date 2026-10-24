@@ -109,6 +109,18 @@
       "track": "rolling-url",
       "catalogSha256": "a0906139cf973b617ec155099933a12c122980b7d2370b5769e6dbd740976697"
     },
+    "content-hub-docs": {
+      "revision": "e377cdfbd5b19dfe15a4b6d56bda20cefb94b027f456805396ab461a607f77d4",
+      "fetchedAt": "2026-10-24T00:41:08.313Z",
+      "track": "rolling-url",
+      "catalogSha256": "f3de245acae24c8297504e34ddff451a4e6a0a570bcbc29e719cd6cffa634304"
+    },
+    "content-hub-user-docs": {
+      "revision": "63a673c07485d1a93f631cd691a9e8d32e467204023bd3316b98975c7ca46d5b",
+      "fetchedAt": "2026-10-24T00:41:09.262Z",
+      "track": "rolling-url",
+      "catalogSha256": "8dd138adde66c0fbf416d708830540e8a40b108c1ebe5630fd0da3bba4be4486"
+    },
     "sitecore-xp-docs": {
       "revision": "08b5fa1d9b1bdcd8dbfc634f4b626e214b12eb21a70f96dcec5c7b86c0f07ff1",
       "fetchedAt": "2026-10-18T23:49:40.708Z",
