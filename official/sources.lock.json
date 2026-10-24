@@ -216,6 +216,12 @@
       "fetchedAt": "2026-10-24T21:56:31.079Z",
       "track": "rolling-url",
       "catalogSha256": "8671d960b55f73d3bcdec6bf8d57b3585e8189bbe19a47287af0b6f057088cb3"
+    },
+    "figma-developer-docs": {
+      "revision": "344b023c00aa344bd3c78b77a6a1e363157e995b51f4f71fea2229793c1cc941",
+      "fetchedAt": "2026-10-24T22:03:37.312Z",
+      "track": "rolling-url",
+      "catalogSha256": "1bda8173b43cc00dcc511ebe3feeb305f8ffdede487265929a2d9ea2c2579e18"
     }
   },
   "toolchain": {

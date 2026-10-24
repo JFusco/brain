@@ -1158,6 +1158,33 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Design Tokens Community Group 2025.10 Final Community Group Report modules (Format, Color, Resolver), published 28 October 2025. Not a W3C Standard or on the Standards Track. Later drafts may change; confirm which version the project's token tooling implements."
+    },
+    {
+      "id": "figma-developer-docs",
+      "vendor": "figma",
+      "domains": [
+        "design-systems"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://developers.figma.com/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "developers.figma.com"
+      ],
+      "includePrefixes": [
+        "/docs/rest-api/",
+        "/docs/plugins/",
+        "/docs/code-connect/"
+      ],
+      "excludePrefixes": [
+        "/docs/plugins/updates/"
+      ],
+      "maxPages": 800,
+      "maxIndexes": 1,
+      "license": "Figma developer documentation under upstream terms; links and metadata only, no open license asserted",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling Figma developer documentation for the REST API, Plugin API (guides and API reference) and Code Connect. Excludes the plugin changelog, Widget API, Embed Kit and MCP server sections. Confirm the Figma plan, file permissions and installed @figma/code-connect version before applying guidance."
     }
   ],
   "pointers": [
