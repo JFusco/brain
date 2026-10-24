@@ -24,6 +24,7 @@ Open the relevant domain, then only the pages it routes to. Official sections ar
 - [Sitecore XP](cms/sitecore-xp/INDEX.md)
 - [Contentful](cms/contentful/INDEX.md)
 - [WordPress](cms/wordpress/INDEX.md)
+- [Tooling (build, test, lint, packages)](tooling/INDEX.md)
 - [Unsorted learnings and agent tooling](_unsorted/INDEX.md)
 
 ## How to apply sources
