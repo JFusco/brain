@@ -1317,7 +1317,7 @@
       "license": "pnpm documentation from the MIT-licensed pnpm/pnpm.io repository; links and metadata only",
       "installPolicy": "reference-only",
       "preferred": false,
-      "applicability": "Rolling pnpm documentation for the current major (12.x at registration): installation, workspaces, catalogs, settings, CLI reference, supply-chain security and the pnpr registry docs. Excludes the versioned 10.x and 11.x trees, blog, redirect shortcuts and donation and logo pages. Confirm the project's packageManager pnpm version; older majors have separate versioned docs."
+      "applicability": "Rolling pnpm documentation for the current major (12.x at registration): installation, workspaces, catalogs, settings, CLI reference, supply-chain security, plus the separately versioned docs for the experimental pnpr registry. Excludes the 10.x and 11.x sitemap trees, blog, redirect shortcuts and donation and logo pages. Confirm the project's packageManager pnpm version; 10.x has separate versioned docs, while 11.x sitemap entries redirected to the root docs at registration."
     }
   ],
   "pointers": [
