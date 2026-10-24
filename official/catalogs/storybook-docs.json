@@ -1,0 +1,811 @@
+{
+  "schemaVersion": 1,
+  "source": "storybook-docs",
+  "revision": "1edcef5c976598a8ddfd5f008a2781b02ceaf2299922ccc1d6a9347db5e5644a",
+  "origin": "https://storybook.js.org/docs/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "docs",
+      "url": "https://storybook.js.org/docs",
+      "fetchUrl": "https://storybook.js.org/docs.md"
+    },
+    {
+      "title": "docs / addons",
+      "url": "https://storybook.js.org/docs/addons",
+      "fetchUrl": "https://storybook.js.org/docs/addons.md"
+    },
+    {
+      "title": "addons / addon knowledge base",
+      "url": "https://storybook.js.org/docs/addons/addon-knowledge-base",
+      "fetchUrl": "https://storybook.js.org/docs/addons/addon-knowledge-base.md"
+    },
+    {
+      "title": "addons / addon migration guide",
+      "url": "https://storybook.js.org/docs/addons/addon-migration-guide",
+      "fetchUrl": "https://storybook.js.org/docs/addons/addon-migration-guide.md"
+    },
+    {
+      "title": "addons / addon types",
+      "url": "https://storybook.js.org/docs/addons/addon-types",
+      "fetchUrl": "https://storybook.js.org/docs/addons/addon-types.md"
+    },
+    {
+      "title": "addons / addons api",
+      "url": "https://storybook.js.org/docs/addons/addons-api",
+      "fetchUrl": "https://storybook.js.org/docs/addons/addons-api.md"
+    },
+    {
+      "title": "addons / configure addons",
+      "url": "https://storybook.js.org/docs/addons/configure-addons",
+      "fetchUrl": "https://storybook.js.org/docs/addons/configure-addons.md"
+    },
+    {
+      "title": "addons / install addons",
+      "url": "https://storybook.js.org/docs/addons/install-addons",
+      "fetchUrl": "https://storybook.js.org/docs/addons/install-addons.md"
+    },
+    {
+      "title": "addons / integration catalog",
+      "url": "https://storybook.js.org/docs/addons/integration-catalog",
+      "fetchUrl": "https://storybook.js.org/docs/addons/integration-catalog.md"
+    },
+    {
+      "title": "addons / writing addons",
+      "url": "https://storybook.js.org/docs/addons/writing-addons",
+      "fetchUrl": "https://storybook.js.org/docs/addons/writing-addons.md"
+    },
+    {
+      "title": "addons / writing presets",
+      "url": "https://storybook.js.org/docs/addons/writing-presets",
+      "fetchUrl": "https://storybook.js.org/docs/addons/writing-presets.md"
+    },
+    {
+      "title": "docs / ai",
+      "url": "https://storybook.js.org/docs/ai",
+      "fetchUrl": "https://storybook.js.org/docs/ai.md"
+    },
+    {
+      "title": "ai / agentic review",
+      "url": "https://storybook.js.org/docs/ai/agentic-review",
+      "fetchUrl": "https://storybook.js.org/docs/ai/agentic-review.md"
+    },
+    {
+      "title": "ai / best practices",
+      "url": "https://storybook.js.org/docs/ai/best-practices",
+      "fetchUrl": "https://storybook.js.org/docs/ai/best-practices.md"
+    },
+    {
+      "title": "ai / manifests",
+      "url": "https://storybook.js.org/docs/ai/manifests",
+      "fetchUrl": "https://storybook.js.org/docs/ai/manifests.md"
+    },
+    {
+      "title": "mcp / api",
+      "url": "https://storybook.js.org/docs/ai/mcp/api",
+      "fetchUrl": "https://storybook.js.org/docs/ai/mcp/api.md"
+    },
+    {
+      "title": "mcp / overview",
+      "url": "https://storybook.js.org/docs/ai/mcp/overview",
+      "fetchUrl": "https://storybook.js.org/docs/ai/mcp/overview.md"
+    },
+    {
+      "title": "mcp / sharing",
+      "url": "https://storybook.js.org/docs/ai/mcp/sharing",
+      "fetchUrl": "https://storybook.js.org/docs/ai/mcp/sharing.md"
+    },
+    {
+      "title": "ai / setup",
+      "url": "https://storybook.js.org/docs/ai/setup",
+      "fetchUrl": "https://storybook.js.org/docs/ai/setup.md"
+    },
+    {
+      "title": "docs / api",
+      "url": "https://storybook.js.org/docs/api",
+      "fetchUrl": "https://storybook.js.org/docs/api.md"
+    },
+    {
+      "title": "api / arg types",
+      "url": "https://storybook.js.org/docs/api/arg-types",
+      "fetchUrl": "https://storybook.js.org/docs/api/arg-types.md"
+    },
+    {
+      "title": "api / cli options",
+      "url": "https://storybook.js.org/docs/api/cli-options",
+      "fetchUrl": "https://storybook.js.org/docs/api/cli-options.md"
+    },
+    {
+      "title": "doc blocks / doc block argtypes",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-argtypes",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-argtypes.md"
+    },
+    {
+      "title": "doc blocks / doc block canvas",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-canvas",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-canvas.md"
+    },
+    {
+      "title": "doc blocks / doc block colorpalette",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-colorpalette",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-colorpalette.md"
+    },
+    {
+      "title": "doc blocks / doc block controls",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-controls",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-controls.md"
+    },
+    {
+      "title": "doc blocks / doc block description",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-description",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-description.md"
+    },
+    {
+      "title": "doc blocks / doc block icongallery",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-icongallery",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-icongallery.md"
+    },
+    {
+      "title": "doc blocks / doc block markdown",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-markdown",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-markdown.md"
+    },
+    {
+      "title": "doc blocks / doc block meta",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-meta",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-meta.md"
+    },
+    {
+      "title": "doc blocks / doc block primary",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-primary",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-primary.md"
+    },
+    {
+      "title": "doc blocks / doc block source",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-source",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-source.md"
+    },
+    {
+      "title": "doc blocks / doc block stories",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-stories",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-stories.md"
+    },
+    {
+      "title": "doc blocks / doc block story",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-story",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-story.md"
+    },
+    {
+      "title": "doc blocks / doc block subtitle",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-subtitle",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-subtitle.md"
+    },
+    {
+      "title": "doc blocks / doc block tableofcontents",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-tableofcontents",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-tableofcontents.md"
+    },
+    {
+      "title": "doc blocks / doc block title",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-title",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-title.md"
+    },
+    {
+      "title": "doc blocks / doc block typeset",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-typeset",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-typeset.md"
+    },
+    {
+      "title": "doc blocks / doc block unstyled",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-unstyled",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-unstyled.md"
+    },
+    {
+      "title": "doc blocks / doc block useof",
+      "url": "https://storybook.js.org/docs/api/doc-blocks/doc-block-useof",
+      "fetchUrl": "https://storybook.js.org/docs/api/doc-blocks/doc-block-useof.md"
+    },
+    {
+      "title": "main config / main config",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config.md"
+    },
+    {
+      "title": "main config / main config addons",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-addons",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-addons.md"
+    },
+    {
+      "title": "main config / main config babel",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-babel",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-babel.md"
+    },
+    {
+      "title": "main config / main config babel default",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-babel-default",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-babel-default.md"
+    },
+    {
+      "title": "main config / main config build",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-build",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-build.md"
+    },
+    {
+      "title": "main config / main config core",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-core",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-core.md"
+    },
+    {
+      "title": "main config / main config docs",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-docs",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-docs.md"
+    },
+    {
+      "title": "main config / main config env",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-env",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-env.md"
+    },
+    {
+      "title": "main config / main config features",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-features",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-features.md"
+    },
+    {
+      "title": "main config / main config framework",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-framework",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-framework.md"
+    },
+    {
+      "title": "main config / main config indexers",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-indexers",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-indexers.md"
+    },
+    {
+      "title": "main config / main config log level",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-log-level",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-log-level.md"
+    },
+    {
+      "title": "main config / main config manager head",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-manager-head",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-manager-head.md"
+    },
+    {
+      "title": "main config / main config preview annotations",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-preview-annotations",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-preview-annotations.md"
+    },
+    {
+      "title": "main config / main config preview body",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-preview-body",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-preview-body.md"
+    },
+    {
+      "title": "main config / main config preview head",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-preview-head",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-preview-head.md"
+    },
+    {
+      "title": "main config / main config refs",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-refs",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-refs.md"
+    },
+    {
+      "title": "main config / main config static dirs",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-static-dirs",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-static-dirs.md"
+    },
+    {
+      "title": "main config / main config stories",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-stories",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-stories.md"
+    },
+    {
+      "title": "main config / main config swc",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-swc",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-swc.md"
+    },
+    {
+      "title": "main config / main config tags",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-tags",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-tags.md"
+    },
+    {
+      "title": "main config / main config typescript",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-typescript",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-typescript.md"
+    },
+    {
+      "title": "main config / main config vite final",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-vite-final",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-vite-final.md"
+    },
+    {
+      "title": "main config / main config webpack final",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-webpack-final",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-webpack-final.md"
+    },
+    {
+      "title": "api / new frameworks",
+      "url": "https://storybook.js.org/docs/api/new-frameworks",
+      "fetchUrl": "https://storybook.js.org/docs/api/new-frameworks.md"
+    },
+    {
+      "title": "api / parameters",
+      "url": "https://storybook.js.org/docs/api/parameters",
+      "fetchUrl": "https://storybook.js.org/docs/api/parameters.md"
+    },
+    {
+      "title": "portable stories / portable stories jest",
+      "url": "https://storybook.js.org/docs/api/portable-stories/portable-stories-jest",
+      "fetchUrl": "https://storybook.js.org/docs/api/portable-stories/portable-stories-jest.md"
+    },
+    {
+      "title": "portable stories / portable stories vitest",
+      "url": "https://storybook.js.org/docs/api/portable-stories/portable-stories-vitest",
+      "fetchUrl": "https://storybook.js.org/docs/api/portable-stories/portable-stories-vitest.md"
+    },
+    {
+      "title": "docs / builders",
+      "url": "https://storybook.js.org/docs/builders",
+      "fetchUrl": "https://storybook.js.org/docs/builders.md"
+    },
+    {
+      "title": "builders / builder api",
+      "url": "https://storybook.js.org/docs/builders/builder-api",
+      "fetchUrl": "https://storybook.js.org/docs/builders/builder-api.md"
+    },
+    {
+      "title": "builders / vite",
+      "url": "https://storybook.js.org/docs/builders/vite",
+      "fetchUrl": "https://storybook.js.org/docs/builders/vite.md"
+    },
+    {
+      "title": "builders / webpack",
+      "url": "https://storybook.js.org/docs/builders/webpack",
+      "fetchUrl": "https://storybook.js.org/docs/builders/webpack.md"
+    },
+    {
+      "title": "docs / configure",
+      "url": "https://storybook.js.org/docs/configure",
+      "fetchUrl": "https://storybook.js.org/docs/configure.md"
+    },
+    {
+      "title": "configure / environment variables",
+      "url": "https://storybook.js.org/docs/configure/environment-variables",
+      "fetchUrl": "https://storybook.js.org/docs/configure/environment-variables.md"
+    },
+    {
+      "title": "integration / compilers",
+      "url": "https://storybook.js.org/docs/configure/integration/compilers",
+      "fetchUrl": "https://storybook.js.org/docs/configure/integration/compilers.md"
+    },
+    {
+      "title": "integration / eslint plugin",
+      "url": "https://storybook.js.org/docs/configure/integration/eslint-plugin",
+      "fetchUrl": "https://storybook.js.org/docs/configure/integration/eslint-plugin.md"
+    },
+    {
+      "title": "integration / frameworks",
+      "url": "https://storybook.js.org/docs/configure/integration/frameworks",
+      "fetchUrl": "https://storybook.js.org/docs/configure/integration/frameworks.md"
+    },
+    {
+      "title": "integration / frameworks feature support",
+      "url": "https://storybook.js.org/docs/configure/integration/frameworks-feature-support",
+      "fetchUrl": "https://storybook.js.org/docs/configure/integration/frameworks-feature-support.md"
+    },
+    {
+      "title": "integration / images and assets",
+      "url": "https://storybook.js.org/docs/configure/integration/images-and-assets",
+      "fetchUrl": "https://storybook.js.org/docs/configure/integration/images-and-assets.md"
+    },
+    {
+      "title": "integration / typescript",
+      "url": "https://storybook.js.org/docs/configure/integration/typescript",
+      "fetchUrl": "https://storybook.js.org/docs/configure/integration/typescript.md"
+    },
+    {
+      "title": "configure / story layout",
+      "url": "https://storybook.js.org/docs/configure/story-layout",
+      "fetchUrl": "https://storybook.js.org/docs/configure/story-layout.md"
+    },
+    {
+      "title": "configure / story rendering",
+      "url": "https://storybook.js.org/docs/configure/story-rendering",
+      "fetchUrl": "https://storybook.js.org/docs/configure/story-rendering.md"
+    },
+    {
+      "title": "configure / styling and css",
+      "url": "https://storybook.js.org/docs/configure/styling-and-css",
+      "fetchUrl": "https://storybook.js.org/docs/configure/styling-and-css.md"
+    },
+    {
+      "title": "configure / telemetry",
+      "url": "https://storybook.js.org/docs/configure/telemetry",
+      "fetchUrl": "https://storybook.js.org/docs/configure/telemetry.md"
+    },
+    {
+      "title": "user interface / change detection",
+      "url": "https://storybook.js.org/docs/configure/user-interface/change-detection",
+      "fetchUrl": "https://storybook.js.org/docs/configure/user-interface/change-detection.md"
+    },
+    {
+      "title": "user interface / features and behavior",
+      "url": "https://storybook.js.org/docs/configure/user-interface/features-and-behavior",
+      "fetchUrl": "https://storybook.js.org/docs/configure/user-interface/features-and-behavior.md"
+    },
+    {
+      "title": "user interface / sidebar and urls",
+      "url": "https://storybook.js.org/docs/configure/user-interface/sidebar-and-urls",
+      "fetchUrl": "https://storybook.js.org/docs/configure/user-interface/sidebar-and-urls.md"
+    },
+    {
+      "title": "user interface / storybook addons",
+      "url": "https://storybook.js.org/docs/configure/user-interface/storybook-addons",
+      "fetchUrl": "https://storybook.js.org/docs/configure/user-interface/storybook-addons.md"
+    },
+    {
+      "title": "user interface / theming",
+      "url": "https://storybook.js.org/docs/configure/user-interface/theming",
+      "fetchUrl": "https://storybook.js.org/docs/configure/user-interface/theming.md"
+    },
+    {
+      "title": "docs / essentials",
+      "url": "https://storybook.js.org/docs/essentials",
+      "fetchUrl": "https://storybook.js.org/docs/essentials.md"
+    },
+    {
+      "title": "essentials / actions",
+      "url": "https://storybook.js.org/docs/essentials/actions",
+      "fetchUrl": "https://storybook.js.org/docs/essentials/actions.md"
+    },
+    {
+      "title": "essentials / backgrounds",
+      "url": "https://storybook.js.org/docs/essentials/backgrounds",
+      "fetchUrl": "https://storybook.js.org/docs/essentials/backgrounds.md"
+    },
+    {
+      "title": "essentials / controls",
+      "url": "https://storybook.js.org/docs/essentials/controls",
+      "fetchUrl": "https://storybook.js.org/docs/essentials/controls.md"
+    },
+    {
+      "title": "essentials / highlight",
+      "url": "https://storybook.js.org/docs/essentials/highlight",
+      "fetchUrl": "https://storybook.js.org/docs/essentials/highlight.md"
+    },
+    {
+      "title": "essentials / measure and outline",
+      "url": "https://storybook.js.org/docs/essentials/measure-and-outline",
+      "fetchUrl": "https://storybook.js.org/docs/essentials/measure-and-outline.md"
+    },
+    {
+      "title": "essentials / toolbars and globals",
+      "url": "https://storybook.js.org/docs/essentials/toolbars-and-globals",
+      "fetchUrl": "https://storybook.js.org/docs/essentials/toolbars-and-globals.md"
+    },
+    {
+      "title": "essentials / viewport",
+      "url": "https://storybook.js.org/docs/essentials/viewport",
+      "fetchUrl": "https://storybook.js.org/docs/essentials/viewport.md"
+    },
+    {
+      "title": "docs / faq",
+      "url": "https://storybook.js.org/docs/faq",
+      "fetchUrl": "https://storybook.js.org/docs/faq.md"
+    },
+    {
+      "title": "get started / browse stories",
+      "url": "https://storybook.js.org/docs/get-started/browse-stories",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/browse-stories.md"
+    },
+    {
+      "title": "get started / conclusion",
+      "url": "https://storybook.js.org/docs/get-started/conclusion",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/conclusion.md"
+    },
+    {
+      "title": "frameworks / angular",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/angular",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/angular.md"
+    },
+    {
+      "title": "frameworks / angular vite",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/angular-vite",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/angular-vite.md"
+    },
+    {
+      "title": "frameworks / nextjs",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/nextjs",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/nextjs.md"
+    },
+    {
+      "title": "frameworks / nextjs vite",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/nextjs-vite",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/nextjs-vite.md"
+    },
+    {
+      "title": "frameworks / preact vite",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/preact-vite",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/preact-vite.md"
+    },
+    {
+      "title": "frameworks / react native web vite",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/react-native-web-vite",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/react-native-web-vite.md"
+    },
+    {
+      "title": "frameworks / react vite",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/react-vite",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/react-vite.md"
+    },
+    {
+      "title": "frameworks / react webpack5",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/react-webpack5",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/react-webpack5.md"
+    },
+    {
+      "title": "frameworks / svelte vite",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/svelte-vite",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/svelte-vite.md"
+    },
+    {
+      "title": "frameworks / sveltekit",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/sveltekit",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/sveltekit.md"
+    },
+    {
+      "title": "frameworks / tanstack react",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/tanstack-react",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/tanstack-react.md"
+    },
+    {
+      "title": "frameworks / vue3 vite",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/vue3-vite",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/vue3-vite.md"
+    },
+    {
+      "title": "frameworks / web components vite",
+      "url": "https://storybook.js.org/docs/get-started/frameworks/web-components-vite",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/frameworks/web-components-vite.md"
+    },
+    {
+      "title": "get started / install",
+      "url": "https://storybook.js.org/docs/get-started/install",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/install.md"
+    },
+    {
+      "title": "get started / setup",
+      "url": "https://storybook.js.org/docs/get-started/setup",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/setup.md"
+    },
+    {
+      "title": "get started / whats a story",
+      "url": "https://storybook.js.org/docs/get-started/whats-a-story",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/whats-a-story.md"
+    },
+    {
+      "title": "get started / why storybook",
+      "url": "https://storybook.js.org/docs/get-started/why-storybook",
+      "fetchUrl": "https://storybook.js.org/docs/get-started/why-storybook.md"
+    },
+    {
+      "title": "docs / releases",
+      "url": "https://storybook.js.org/docs/releases",
+      "fetchUrl": "https://storybook.js.org/docs/releases.md"
+    },
+    {
+      "title": "releases / features",
+      "url": "https://storybook.js.org/docs/releases/features",
+      "fetchUrl": "https://storybook.js.org/docs/releases/features.md"
+    },
+    {
+      "title": "releases / migration guide",
+      "url": "https://storybook.js.org/docs/releases/migration-guide",
+      "fetchUrl": "https://storybook.js.org/docs/releases/migration-guide.md"
+    },
+    {
+      "title": "releases / migration guide from older version",
+      "url": "https://storybook.js.org/docs/releases/migration-guide-from-older-version",
+      "fetchUrl": "https://storybook.js.org/docs/releases/migration-guide-from-older-version.md"
+    },
+    {
+      "title": "releases / roadmap",
+      "url": "https://storybook.js.org/docs/releases/roadmap",
+      "fetchUrl": "https://storybook.js.org/docs/releases/roadmap.md"
+    },
+    {
+      "title": "releases / upgrading",
+      "url": "https://storybook.js.org/docs/releases/upgrading",
+      "fetchUrl": "https://storybook.js.org/docs/releases/upgrading.md"
+    },
+    {
+      "title": "docs / sharing",
+      "url": "https://storybook.js.org/docs/sharing",
+      "fetchUrl": "https://storybook.js.org/docs/sharing.md"
+    },
+    {
+      "title": "sharing / design integrations",
+      "url": "https://storybook.js.org/docs/sharing/design-integrations",
+      "fetchUrl": "https://storybook.js.org/docs/sharing/design-integrations.md"
+    },
+    {
+      "title": "sharing / embed",
+      "url": "https://storybook.js.org/docs/sharing/embed",
+      "fetchUrl": "https://storybook.js.org/docs/sharing/embed.md"
+    },
+    {
+      "title": "sharing / package composition",
+      "url": "https://storybook.js.org/docs/sharing/package-composition",
+      "fetchUrl": "https://storybook.js.org/docs/sharing/package-composition.md"
+    },
+    {
+      "title": "sharing / publish storybook",
+      "url": "https://storybook.js.org/docs/sharing/publish-storybook",
+      "fetchUrl": "https://storybook.js.org/docs/sharing/publish-storybook.md"
+    },
+    {
+      "title": "sharing / storybook composition",
+      "url": "https://storybook.js.org/docs/sharing/storybook-composition",
+      "fetchUrl": "https://storybook.js.org/docs/sharing/storybook-composition.md"
+    },
+    {
+      "title": "docs / writing docs",
+      "url": "https://storybook.js.org/docs/writing-docs",
+      "fetchUrl": "https://storybook.js.org/docs/writing-docs.md"
+    },
+    {
+      "title": "writing docs / autodocs",
+      "url": "https://storybook.js.org/docs/writing-docs/autodocs",
+      "fetchUrl": "https://storybook.js.org/docs/writing-docs/autodocs.md"
+    },
+    {
+      "title": "writing docs / build documentation",
+      "url": "https://storybook.js.org/docs/writing-docs/build-documentation",
+      "fetchUrl": "https://storybook.js.org/docs/writing-docs/build-documentation.md"
+    },
+    {
+      "title": "writing docs / code panel",
+      "url": "https://storybook.js.org/docs/writing-docs/code-panel",
+      "fetchUrl": "https://storybook.js.org/docs/writing-docs/code-panel.md"
+    },
+    {
+      "title": "writing docs / doc blocks",
+      "url": "https://storybook.js.org/docs/writing-docs/doc-blocks",
+      "fetchUrl": "https://storybook.js.org/docs/writing-docs/doc-blocks.md"
+    },
+    {
+      "title": "writing docs / mdx",
+      "url": "https://storybook.js.org/docs/writing-docs/mdx",
+      "fetchUrl": "https://storybook.js.org/docs/writing-docs/mdx.md"
+    },
+    {
+      "title": "docs / writing stories",
+      "url": "https://storybook.js.org/docs/writing-stories",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories.md"
+    },
+    {
+      "title": "writing stories / args",
+      "url": "https://storybook.js.org/docs/writing-stories/args",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/args.md"
+    },
+    {
+      "title": "writing stories / build pages with storybook",
+      "url": "https://storybook.js.org/docs/writing-stories/build-pages-with-storybook",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/build-pages-with-storybook.md"
+    },
+    {
+      "title": "writing stories / decorators",
+      "url": "https://storybook.js.org/docs/writing-stories/decorators",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/decorators.md"
+    },
+    {
+      "title": "writing stories / loaders",
+      "url": "https://storybook.js.org/docs/writing-stories/loaders",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/loaders.md"
+    },
+    {
+      "title": "mocking data and modules / mocking modules",
+      "url": "https://storybook.js.org/docs/writing-stories/mocking-data-and-modules/mocking-modules",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/mocking-data-and-modules/mocking-modules.md"
+    },
+    {
+      "title": "mocking data and modules / mocking network requests",
+      "url": "https://storybook.js.org/docs/writing-stories/mocking-data-and-modules/mocking-network-requests",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/mocking-data-and-modules/mocking-network-requests.md"
+    },
+    {
+      "title": "mocking data and modules / mocking providers",
+      "url": "https://storybook.js.org/docs/writing-stories/mocking-data-and-modules/mocking-providers",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/mocking-data-and-modules/mocking-providers.md"
+    },
+    {
+      "title": "writing stories / naming components and hierarchy",
+      "url": "https://storybook.js.org/docs/writing-stories/naming-components-and-hierarchy",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/naming-components-and-hierarchy.md"
+    },
+    {
+      "title": "writing stories / parameters",
+      "url": "https://storybook.js.org/docs/writing-stories/parameters",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/parameters.md"
+    },
+    {
+      "title": "writing stories / play function",
+      "url": "https://storybook.js.org/docs/writing-stories/play-function",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/play-function.md"
+    },
+    {
+      "title": "writing stories / stories for multiple components",
+      "url": "https://storybook.js.org/docs/writing-stories/stories-for-multiple-components",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/stories-for-multiple-components.md"
+    },
+    {
+      "title": "writing stories / tags",
+      "url": "https://storybook.js.org/docs/writing-stories/tags",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/tags.md"
+    },
+    {
+      "title": "writing stories / typescript",
+      "url": "https://storybook.js.org/docs/writing-stories/typescript",
+      "fetchUrl": "https://storybook.js.org/docs/writing-stories/typescript.md"
+    },
+    {
+      "title": "docs / writing tests",
+      "url": "https://storybook.js.org/docs/writing-tests",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests.md"
+    },
+    {
+      "title": "writing tests / accessibility testing",
+      "url": "https://storybook.js.org/docs/writing-tests/accessibility-testing",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests/accessibility-testing.md"
+    },
+    {
+      "title": "writing tests / in ci",
+      "url": "https://storybook.js.org/docs/writing-tests/in-ci",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests/in-ci.md"
+    },
+    {
+      "title": "integrations / stories in end to end tests",
+      "url": "https://storybook.js.org/docs/writing-tests/integrations/stories-in-end-to-end-tests",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests/integrations/stories-in-end-to-end-tests.md"
+    },
+    {
+      "title": "integrations / stories in unit tests",
+      "url": "https://storybook.js.org/docs/writing-tests/integrations/stories-in-unit-tests",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests/integrations/stories-in-unit-tests.md"
+    },
+    {
+      "title": "integrations / test runner",
+      "url": "https://storybook.js.org/docs/writing-tests/integrations/test-runner",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests/integrations/test-runner.md"
+    },
+    {
+      "title": "integrations / vitest addon",
+      "url": "https://storybook.js.org/docs/writing-tests/integrations/vitest-addon",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests/integrations/vitest-addon.md"
+    },
+    {
+      "title": "writing tests / interaction testing",
+      "url": "https://storybook.js.org/docs/writing-tests/interaction-testing",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests/interaction-testing.md"
+    },
+    {
+      "title": "writing tests / snapshot testing",
+      "url": "https://storybook.js.org/docs/writing-tests/snapshot-testing",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests/snapshot-testing.md"
+    },
+    {
+      "title": "writing tests / test coverage",
+      "url": "https://storybook.js.org/docs/writing-tests/test-coverage",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests/test-coverage.md"
+    },
+    {
+      "title": "writing tests / visual testing",
+      "url": "https://storybook.js.org/docs/writing-tests/visual-testing",
+      "fetchUrl": "https://storybook.js.org/docs/writing-tests/visual-testing.md"
+    }
+  ],
+  "referenceIssues": []
+}

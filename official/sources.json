@@ -1070,6 +1070,32 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling vitest.dev config reference, guide (including browser mode and migration) and test API pages from the official Markdown index. Confirm the project's installed vitest version; rolling docs do not establish compatibility with older majors."
+    },
+    {
+      "id": "storybook-docs",
+      "vendor": "storybook",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://storybook.js.org/docs/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "storybook.js.org"
+      ],
+      "includePrefixes": [
+        "/docs"
+      ],
+      "excludePrefixes": [
+        "/docs/contribute"
+      ],
+      "fetchSuffix": ".md",
+      "maxPages": 400,
+      "maxIndexes": 1,
+      "license": "Storybook documentation from the MIT-licensed storybookjs/storybook repository; links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling storybook.js.org documentation for the current major: setup, configuration, writing stories, docs and tests, addons and API reference. Excludes contributor guides, blog, tutorials and showcase. Confirm the project's installed storybook version and framework package."
     }
   ],
   "pointers": [
