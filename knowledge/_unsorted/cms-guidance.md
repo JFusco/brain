@@ -3,11 +3,11 @@ title: "Choose CMS guidance by product and integration"
 domain: "_unsorted"
 aliases: ["CMS best practices","CMS skills","SDK guidance"]
 evidence_date: "2026-10-21"
-reviewed_at: "2026-10-23"
+reviewed_at: "2026-10-24"
 status: "current"
 versions: []
 applicability: "CMS source selection; current registry coverage does not establish API compatibility"
-provenance: "sitecore-content-sdk@53e4011b6413416a0502e68a36510f94b3f51a05; contentstack-kickstart@0c9aca728b7113a6a64a2ccea2b3b448c45529fa; contentful-skills@0cfae213be9117da4b5b42451d8c0515d363f894; optimizely-sdk@d85caa8a0dce2291204417dd8ec9bc4f95963fdd; sitecore-xp-docs@08b5fa1d9b1bdcd8dbfc634f4b626e214b12eb21a70f96dcec5c7b86c0f07ff1"
+provenance: "sitecore-content-sdk@53e4011b6413416a0502e68a36510f94b3f51a05; contentstack-kickstart@0c9aca728b7113a6a64a2ccea2b3b448c45529fa; contentful-skills@68d8cb6d92d9b7b2a97478cb2e97e7ab4aac33c6; optimizely-sdk@d85caa8a0dce2291204417dd8ec9bc4f95963fdd; sitecore-xp-docs@08b5fa1d9b1bdcd8dbfc634f4b626e214b12eb21a70f96dcec5c7b86c0f07ff1"
 ---
 
 # Choose CMS guidance by product and integration
@@ -45,3 +45,5 @@ The table describes this Brain registry and matcher on the evidence date. It doe
 **Optimizely revalidation October 22, 2026:** the current pinned SDK overview was retrieved and read. It still describes TypeScript content types pushed through the CLI, CMS authoring, Graph delivery and registered React components. Its PaaS link does not establish compatibility for a SaaS application or turn this documentation source into an installable skill. Other source-specific evidence dates above remain unchanged.
 
 **Revalidated October 23, 2026:** The refreshed pinned Sitecore overview was retrieved and read: its scope remains this App Router plus Cache Components scaffold, not all Sitecore applications or SDK development. It describes cache helpers and the scaffold revalidation route. Exact application compatibility and the other product evidence dates remain separate.
+
+**Contentful revalidation October 24, 2026:** The [exact pinned API guide](https://github.com/contentful/skills/blob/68d8cb6d92d9b7b2a97478cb2e97e7ab4aac33c6/skills/contentful-api/SKILL.md) and linked Preview overview were retrieved and read again. The guide separates management, published delivery and draft Preview. The Preview overview still gives a Sync request and overstates delivery-feature parity; the live official Preview API reference still excludes Sync and specifies separate Preview credentials and regional hosts. The conflict remains explicit. Other product evidence dates and application compatibility limits above are unchanged. No consuming SDK or connected application was exercised.

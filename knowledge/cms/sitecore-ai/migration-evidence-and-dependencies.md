@@ -1,0 +1,52 @@
+---
+title: "Plan SitecoreAI migration evidence and dependencies"
+format: "playbook"
+domain: "cms/sitecore-ai"
+aliases: ["serialization transport", "deferred media", "mapping evidence", "migration acceptance"]
+evidence_date: "2026-10-24"
+reviewed_at: "2026-10-24"
+status: "current"
+versions: []
+applicability: "Proposed planning for authored content in existing SitecoreAI models; target server, CLI, plugin and rendering SDK versions must be confirmed"
+provenance: "sitecoreai-docs@70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6; relevant official pages read 2026-10-24; sanitized private capture recommendations, no connected acceptance"
+---
+
+# Plan SitecoreAI migration evidence and dependencies
+
+## When to use this
+
+Use this when mapping authored content into an existing SitecoreAI model, deciding whether serialized definitions are needed, or preparing image references before destination media exists. It also applies when an AI draft reports missing layout or metadata contracts despite a retained destination snapshot. These are proposed migration practices supported by the documented mechanisms below, not a validated migration implementation.
+
+## What to do
+
+### Choose evidence and transport separately
+
+**Documented:** [Sitecore Content Serialization](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecore-content-serialization/sitecore-content-serialization.html) represents items as YAML and supports pull/push synchronization. Its primary role includes versioning structural items with application code. The [Authoring API examples](https://doc.sitecore.com/sai/en/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/query-examples-for-authoring-operations.html) separately show item retrieval and creation with a template, parent, language and field values.
+
+**Proposed:** choose serialization when version-controlled structural synchronization is required. For authored content targeting existing templates, consider bounded live discovery of the destination contracts and native Authoring API operations. YAML can be one evidence input without becoming a universal prerequisite for mapping. Keep mappings independent when comparing serialized and live evidence. Neither choice eliminates source extraction, field mapping, media, layout or authorization work; this does not establish that one transport is faster or always suitable.
+
+### Plan media dependencies without guessing identities
+
+**Documented:** the same Authoring API page describes `uploadMedia` returning a pre-signed URL, followed by a binary POST. Successful upload returns a native media item ID, name and full path. Obtaining the URL alone does not complete that sequence.
+
+**Proposed:** distinguish a missing field contract from a valid Image field whose destination media does not yet exist. For a new asset, capture bytes under an allowed-host policy, retain their hash, stage a media operation and express dependent field values through the migration application's supported deferred-reference mechanism. Resolve the actual destination identity after verifying the asset outcome. An offline plan need not invent an already-created media ID. Reuse instead requires an evidenced association to existing destination media; do not infer a media GUID from a source URL revision, presentation variant or sample image.
+
+Deferred-reference syntax is application-specific, not a Sitecore wire format. Preserve native Image serialization, approvals, attempt reconciliation and readback guards. A field-only harness that accepts strings/null but stages no media operations cannot establish dependency acceptance. Different URLs can serve identical bytes; evaluate deduplication against captured byte hashes.
+
+### Diagnose the evidence boundary before changing CMS configuration
+
+**Proposed:** compare the complete retained destination snapshot with the projection actually supplied to the mapping model. Preserve the site/start-item, device, layout-field and native-reference contracts required by the selected mapping, while excluding authored sample business content. Read still-needed literal references only within explicit bounds. A referenced GUID without its retrieved item is an evidence gap, not proof the item is absent; a snapshot can also be stale.
+
+Reconcile each reported issue against evidence and authorized scope using the application's existing notes/exceptions contract. Distinguish repeated gaps, preserved source conflicts and untested frontend behavior from missing required coverage. Do not mass-exclude blockers, route ambiguous prose by keywords or relax compiler guards to obtain a pass. Observations belong in notes only when that disposition is justified; unresolved required coverage remains blocking.
+
+### Report acceptance separately
+
+**Documented:** Sitecore's [Preview/Delivery comparison](https://doc.sitecore.com/sai/en/developers/sitecoreai/experience-edge/experience-edge-apis/differences-between-the-preview-and-the-delivery-graphql-apis.html) describes differences in field availability, published context and link resolution. Authoring operations and these query surfaces answer different questions.
+
+**Proposed:** report source fidelity, native field syntax, full compiler/dependency acceptance, content-management write/readback and rendered preview/interaction as separate results. Local field validity does not prove components, editor tabs or interactions render correctly. A fixture that simulates media creation/readback/resume is local evidence only, not connected upload acceptance.
+
+## Evidence and limits
+
+The cited official passages were read on the evidence date. Target server, CLI/plugin and rendering SDK versions remain unknown; no compatibility range is asserted. The proposed transport, projection and dependency procedures were not exercised against a connected CMS during curation. Private experiment outcomes and incidental application runtime versions are deliberately not adopted as public success claims. No throughput, exactly-once recovery or complete migration guarantee follows.
+
+The [Contentstack import-state guidance](../contentstack/asset-import-state.md) also separates retained mappings from safe recovery, and [Optimizely media destination guidance](../optimizely-saas/media-destination-and-placement.md) separates destination identities from renderer behavior. Their vendor-specific payloads and tools do not apply to SitecoreAI. This playbook keeps the distinct Sitecore evidence and transport decisions together.
