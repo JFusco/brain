@@ -1211,6 +1211,31 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling Chrome DevTools panel and feature pages linked from the DevTools landing page: performance, network, memory, coverage, rendering, Lighthouse panel, console, sources and AI assistance. Deeper reference pages are reached from these entries. DevTools features follow the current Chrome release; confirm the browser version used for profiling."
+    },
+    {
+      "id": "chrome-lighthouse-docs",
+      "vendor": "chrome",
+      "domains": [
+        "performance"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://developer.chrome.com/docs/lighthouse/overview",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "developer.chrome.com"
+      ],
+      "includePrefixes": [
+        "/docs/lighthouse/"
+      ],
+      "excludePrefixes": [
+        "/docs/lighthouse/v3-migration-guide"
+      ],
+      "maxPages": 150,
+      "maxIndexes": 1,
+      "license": "CC-BY-4.0 except as otherwise noted; code samples Apache-2.0 (Google Developers Site Policies); links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling Lighthouse overview and audit pages linked from the Lighthouse overview: performance, accessibility, best practices, SEO and agentic browsing audits. Excludes the historical v3 migration guide. Audit IDs and scoring follow the current Lighthouse release; a passing audit is lab evidence, not field performance or WCAG conformance."
     }
   ],
   "pointers": [

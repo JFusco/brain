@@ -228,6 +228,12 @@
       "fetchedAt": "2026-10-24T22:15:29.189Z",
       "track": "rolling-url",
       "catalogSha256": "6245e63470ccafc2672bb6f8383962db7f0db982f15c89b562f0f066009ed70b"
+    },
+    "chrome-lighthouse-docs": {
+      "revision": "b14e7b0eac880adf9dbeda7d5c70f2a67a1778cbc539f13f9d50924c03f41575",
+      "fetchedAt": "2026-10-24T22:19:30.056Z",
+      "track": "rolling-url",
+      "catalogSha256": "9c3018830afafdb33cf7edde606a4cc3aeadc535426e4c3207c46df546e99d3d"
     }
   },
   "toolchain": {
