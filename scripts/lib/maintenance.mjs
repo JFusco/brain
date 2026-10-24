@@ -6,7 +6,7 @@ import { at, ROOT } from './leaf/paths.mjs';
 import { now } from './leaf/time.mjs';
 import { staleGuidance } from './guidance.mjs';
 import { linkSummary } from './link-health.mjs';
-import { api } from './network.mjs';
+import { api } from './branch/platform/network/github.mjs';
 import { vocabularyStatus } from './vocabulary.mjs';
 import { uiPatternsStatus } from './ui-patterns.mjs';
 

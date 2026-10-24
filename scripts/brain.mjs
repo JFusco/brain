@@ -4,7 +4,9 @@ import { withLock } from './lib/branch/platform/lock.mjs';
 import { args } from './lib/leaf/cli-args.mjs';
 import { capture } from './lib/capture.mjs';
 import * as inbox from './lib/inbox.mjs';
-import * as official from './lib/official.mjs';
+import { checkOfficial } from './lib/tree/official/check.mjs';
+import { generateHubs } from './lib/tree/official/generate-hubs.mjs';
+import { sync } from './lib/tree/official/sync.mjs';
 import * as skills from './lib/skills.mjs';
 import { check } from './lib/check.mjs';
 import { lookup } from './lib/lookup.mjs';
@@ -192,7 +194,7 @@ try {
     }
     if (command === 'curation') {
       if (subcommand === 'stale') return staleGuidance({ limit: flags.limit ?? 12, write: true });
-      if (subcommand === 'hubs') return { changed: official.generateHubs() };
+      if (subcommand === 'hubs') return { changed: generateHubs() };
     }
     if (command === 'links') {
       if (subcommand === 'check')
@@ -217,8 +219,8 @@ try {
     }
     if (command === 'official') {
       if (subcommand === 'sync')
-        return official.sync({ ids: rest.length ? rest : null, hosted: !!flags.hosted });
-      if (subcommand === 'check') return official.checkOfficial();
+        return sync({ ids: rest.length ? rest : null, hosted: !!flags.hosted });
+      if (subcommand === 'check') return checkOfficial();
     }
     if (command === 'skills') {
       if (subcommand === 'suggest')

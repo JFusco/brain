@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import test from 'node:test';
-import { officialProblems } from '../scripts/lib/official.mjs';
+import { officialProblems } from '../scripts/lib/branch/official/validate.mjs';
 import { ROOT } from './helpers.mjs';
 
 const REGISTRY = 'official/sources.json';

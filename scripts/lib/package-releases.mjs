@@ -3,7 +3,7 @@ import { sha } from './leaf/hash.mjs';
 import { readJSON } from './leaf/json.mjs';
 import { at } from './leaf/paths.mjs';
 import { now } from './leaf/time.mjs';
-import { download } from './network.mjs';
+import { download } from './branch/platform/network/download.mjs';
 
 const stable = /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/;
 

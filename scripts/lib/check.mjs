@@ -6,7 +6,7 @@ import { config } from './branch/platform/config.mjs';
 import { walk, inside, safePath } from './leaf/fs-safe.mjs';
 import { at, ROOT } from './leaf/paths.mjs';
 import { assertClean } from './privacy.mjs';
-import { officialProblems } from './official.mjs';
+import { officialProblems } from './branch/official/validate.mjs';
 import { validateKnowledge, isNote, curatedBlock, CURATED } from './guidance.mjs';
 const require = createRequire(import.meta.url);
 const { splitFrontmatter, scalar } = require('../wiki/lib/frontmatter.cjs');

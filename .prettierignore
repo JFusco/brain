@@ -1,18 +1,18 @@
 # Content, catalogs and history are hashed or generated: never reformat them.
-knowledge/
-official/
-wiki/
-scripts/wiki/
-skills/
-inbox/
-.state/
+/knowledge/
+/official/
+/wiki/
+/scripts/wiki/
+/skills/
+/inbox/
+/.state/
 *.md
 *.yml
 pnpm-lock.yaml
 brain.config*.json
-node_modules/
-web/brain/dist/
-web/brain/node_modules/
+/node_modules/
+/web/brain/dist/
+/web/brain/node_modules/
 # Shared verbatim with sibling repositories.
 commitlint.config.cjs
 scripts/validate_pr_body.cjs
