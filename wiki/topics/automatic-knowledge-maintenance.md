@@ -243,3 +243,7 @@ The [npm installation journal](../journal/2026-10-23-npm-install-guard.md) recor
 ## October 23 native asset verification
 
 The [native asset verification journal](../journal/2026-10-23-native-asset-verification.md) records independent native placement, original-byte and editor evidence; uncertainty settlement without rewriting history; and distinct branch/credential cleanup. Current official passages support seven note revalidations. Historical pilot outcomes remain unverified reports, and procedures remain proposed until exercised in their target projects.
+
+## October 24 Sitecore migration evidence
+
+The [Sitecore migration journal](../journal/2026-10-24-sitecore-migration-guidance.md) records one playbook for transport choice, planned media dependencies and mapping-evidence boundaries. Documented mechanisms support explicitly proposed workflows; unverified private experiment outcomes are not public success claims. Contentful Preview Sync guidance was rechecked against the new pin and live API contract. This was an explicitly requested manual pnpm verification run; it does not prove unattended execution or change the daily 5 p.m. schedule.

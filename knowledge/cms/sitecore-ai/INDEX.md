@@ -8,7 +8,7 @@ aliases: ["sitecore-ai"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No curated notes yet.
+- [Plan SitecoreAI migration evidence and dependencies](migration-evidence-and-dependencies.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

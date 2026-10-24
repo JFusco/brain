@@ -3,11 +3,11 @@ title: "Choose CMS guidance by product and integration"
 domain: "_unsorted"
 aliases: ["CMS best practices","CMS skills","SDK guidance"]
 evidence_date: "2026-10-21"
-reviewed_at: "2026-10-23"
+reviewed_at: "2026-10-24"
 status: "current"
 versions: []
 applicability: "CMS source selection; current registry coverage does not establish API compatibility"
-provenance: "sitecore-content-sdk@53e4011b6413416a0502e68a36510f94b3f51a05; contentstack-kickstart@0c9aca728b7113a6a64a2ccea2b3b448c45529fa; contentful-skills@0cfae213be9117da4b5b42451d8c0515d363f894; optimizely-sdk@d85caa8a0dce2291204417dd8ec9bc4f95963fdd; sitecore-xp-docs@08b5fa1d9b1bdcd8dbfc634f4b626e214b12eb21a70f96dcec5c7b86c0f07ff1"
+provenance: "sitecore-content-sdk@53e4011b6413416a0502e68a36510f94b3f51a05; contentstack-kickstart@0c9aca728b7113a6a64a2ccea2b3b448c45529fa; contentful-skills@68d8cb6d92d9b7b2a97478cb2e97e7ab4aac33c6; optimizely-sdk@d85caa8a0dce2291204417dd8ec9bc4f95963fdd; sitecore-xp-docs@08b5fa1d9b1bdcd8dbfc634f4b626e214b12eb21a70f96dcec5c7b86c0f07ff1"
 ---
 
 # Choose CMS guidance by product and integration
@@ -36,7 +36,7 @@ Read only the relevant source sections. Keep authoring labels, model identities,
 
 The table describes this Brain registry and matcher on the evidence date. It does not claim that every upstream skill has been technically evaluated or that all product versions are covered. The local matcher selects one application and rejects an ambiguous monorepo root; it never combines sibling dependencies. Its Content SDK 2.x/Next.js 16.x checks are a conservative local filter, not an upstream guarantee or permission to install. Confirm exact installed packages and the consuming repository's contract before application. Use `lookup --project <root> --workspace <app> --query <terms>` on demand; never infer precise compatibility from a rolling catalog or declared-only range.
 
-**Revalidated October 21, 2026:** the current pinned [Contentful API guide](https://github.com/contentful/skills/blob/0cfae213be9117da4b5b42451d8c0515d363f894/skills/contentful-api/SKILL.md) distinguishes management, published delivery and preview. The October 21 check retrieved and read the API guide and Preview example at the refreshed pin; management, published delivery and draft Preview remain distinct. It remains useful for source selection, but the linked Preview overview still contains a Sync example that conflicts with the live API contract; follow the [separate Preview note](../cms/contentful/preview-api-surface.md) before using it.
+**Revalidated October 21, 2026:** the current pinned [Contentful API guide](https://github.com/contentful/skills/blob/68d8cb6d92d9b7b2a97478cb2e97e7ab4aac33c6/skills/contentful-api/SKILL.md) distinguishes management, published delivery and preview. The October 21 check retrieved and read the API guide and Preview example at the refreshed pin; management, published delivery and draft Preview remain distinct. It remains useful for source selection, but the linked Preview overview still contains a Sync example that conflicts with the live API contract; follow the [separate Preview note](../cms/contentful/preview-api-surface.md) before using it.
 
 **Documented entry points:** the pinned [Sitecore overview](https://github.com/Sitecore/content-sdk/blob/53e4011b6413416a0502e68a36510f94b3f51a05/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-overview.md) describes the selected App Router/Cache Components scaffold, not every Sitecore application. The pinned [Optimizely SDK overview](https://github.com/episerver/content-js-sdk/blob/d85caa8a0dce2291204417dd8ec9bc4f95963fdd/docs/README.md) distinguishes code-defined content types, CMS authoring, Graph delivery and registered rendering components. The scheduled source check read both refreshed entry points again: Sitecore still limits the overview to that scaffold, and Optimizely still describes code-defined types, CMS authoring, Graph delivery and registered components. The current SDK overview links a CMS 13 PaaS guide, but its opening workflow remains explicitly SaaS; that link does not turn this SaaS routing row into a PaaS compatibility claim. These entry points do not certify every linked example.
 
@@ -45,3 +45,5 @@ The table describes this Brain registry and matcher on the evidence date. It doe
 **Optimizely revalidation October 22, 2026:** the current pinned SDK overview was retrieved and read. It still describes TypeScript content types pushed through the CLI, CMS authoring, Graph delivery and registered React components. Its PaaS link does not establish compatibility for a SaaS application or turn this documentation source into an installable skill. Other source-specific evidence dates above remain unchanged.
 
 **Revalidated October 23, 2026:** The refreshed pinned Sitecore overview was retrieved and read: its scope remains this App Router plus Cache Components scaffold, not all Sitecore applications or SDK development. It describes cache helpers and the scaffold revalidation route. Exact application compatibility and the other product evidence dates remain separate.
+
+**Contentful revalidation October 24, 2026:** The exact pinned API guide and linked Preview overview were retrieved and read again. The guide separates management, published delivery and draft Preview. The Preview overview still gives a Sync request and overstates delivery-feature parity; the live official Preview API reference still excludes Sync and specifies separate Preview credentials and regional hosts. The conflict remains explicit. Other product evidence dates and application compatibility limits above are unchanged. No consuming SDK or connected application was exercised.
