@@ -1,5 +1,6 @@
-import { database } from './metrics.mjs';
-import { snapshot as readSnapshot } from './snapshot.mjs';
+import { snapshot as readSnapshot } from '../../branch/visual/snapshot/snapshot.mjs';
+import { database } from '../../branch/activity/database.mjs';
+
 const values = ['helped', 'needs-clarification', 'did-not-apply'];
 export async function feedback({ node, snapshot, value } = {}) {
   const graph = readSnapshot();
