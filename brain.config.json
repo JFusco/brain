@@ -29,6 +29,7 @@
     "performance",
     "security",
     "semantics",
+    "tooling",
     "_unsorted"
   ],
   "capture": {
@@ -148,6 +149,18 @@
       "content modeling",
       "domain modeling",
       "semantic search"
+    ],
+    "tooling": [
+      "vite.config",
+      "@vitejs/",
+      "vitest",
+      "storybook",
+      "testing-library",
+      "testing library",
+      "eslint",
+      "pnpm-workspace",
+      "pnpm-lock",
+      "turborepo"
     ]
   },
   "network": {
