@@ -13,6 +13,33 @@ const brain = (...argv) =>
     timeout: 30000,
   });
 
+// The public CLI surface. Adding, removing or renaming a command must update this list.
+const PUBLIC = [
+  'visual',
+  'route',
+  'brief',
+  'playbooks',
+  'explain',
+  'compare',
+  'feedback',
+  'activity',
+  'lookup',
+  'vocabulary',
+  'ui',
+  'capture',
+  'inbox',
+  'curation',
+  'links',
+  'maintenance',
+  'official',
+  'skills',
+  'check',
+];
+
+test('the command table is exactly the public CLI surface', () => {
+  assert.deepEqual(Object.keys(COMMANDS), PUBLIC);
+});
+
 test('help is generated from the command table and lists every command', () => {
   const result = brain('--help');
   assert.equal(result.status, 0);
@@ -25,7 +52,7 @@ test('help is generated from the command table and lists every command', () => {
 
 test('the README documents every command', () => {
   const readme = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
-  for (const name of Object.keys(COMMANDS))
+  for (const name of PUBLIC)
     assert.match(readme, new RegExp(`(brain\\.mjs|pnpm brain) ${name}\\b`), name);
 });
 
@@ -39,6 +66,17 @@ test('commands that mutate private state take the lock; read-only ones do not', 
   assert.equal(locks(['maintenance', 'cleanup']), false);
   assert.equal(locks(['maintenance', 'cleanup'], { yes: true }), true);
   assert.equal(locks(['official', 'sync']), true);
+  assert.equal(locks(['feedback']), false);
+  assert.equal(locks(['feedback'], { value: 'helped' }), true);
+  assert.equal(locks(['vocabulary', 'profiles']), false);
+  assert.equal(locks(['vocabulary', 'releases']), true);
+  assert.equal(locks(['ui', 'releases']), true);
+  assert.equal(locks(['links', 'status']), false);
+  assert.equal(locks(['links', 'check']), true);
+  assert.equal(locks(['capture']), true);
+  assert.equal(locks(['inbox', 'rescan']), true);
+  assert.equal(locks(['maintenance', 'publication']), true);
+  assert.equal(locks(['curation', 'nope']), true);
   assert.equal(locks(['check']), false);
 });
 
