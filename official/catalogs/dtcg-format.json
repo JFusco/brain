@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "source": "dtcg-format",
+  "revision": "470a989d5fd17c828423122bcaa5f252d39c82ddbf2ddf9cdf4a9c995065cf4d",
+  "origin": "https://www.designtokens.org/tr/2025.10/",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Design Tokens Technical Reports 2025.10",
+      "url": "https://www.designtokens.org/tr/2025.10/",
+      "fetchUrl": "https://www.designtokens.org/tr/2025.10/"
+    },
+    {
+      "title": "Design Tokens Color Module 2025.10",
+      "url": "https://www.designtokens.org/tr/2025.10/color/",
+      "fetchUrl": "https://www.designtokens.org/tr/2025.10/color/"
+    },
+    {
+      "title": "Design Tokens Format Module 2025.10",
+      "url": "https://www.designtokens.org/tr/2025.10/format/",
+      "fetchUrl": "https://www.designtokens.org/tr/2025.10/format/"
+    },
+    {
+      "title": "Design Tokens Resolver Module 2025.10",
+      "url": "https://www.designtokens.org/tr/2025.10/resolver/",
+      "fetchUrl": "https://www.designtokens.org/tr/2025.10/resolver/"
+    }
+  ],
+  "referenceIssues": []
+}

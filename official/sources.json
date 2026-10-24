@@ -1118,6 +1118,46 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "axe-core 4.14 rule help pages, the helpUrl targets reported by axe results. The version is fixed in the URL; match the project's installed axe-core version. Automated rules cover only part of WCAG, so passing them does not establish conformance."
+    },
+    {
+      "id": "dtcg-format",
+      "vendor": "dtcg",
+      "domains": [
+        "design-systems"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://www.designtokens.org/tr/2025.10/",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "www.designtokens.org"
+      ],
+      "includePrefixes": [
+        "/tr/2025.10/"
+      ],
+      "additionalPages": [
+        {
+          "title": "Design Tokens Technical Reports 2025.10",
+          "url": "https://www.designtokens.org/tr/2025.10/"
+        },
+        {
+          "title": "Design Tokens Format Module 2025.10",
+          "url": "https://www.designtokens.org/tr/2025.10/format/"
+        },
+        {
+          "title": "Design Tokens Color Module 2025.10",
+          "url": "https://www.designtokens.org/tr/2025.10/color/"
+        },
+        {
+          "title": "Design Tokens Resolver Module 2025.10",
+          "url": "https://www.designtokens.org/tr/2025.10/resolver/"
+        }
+      ],
+      "maxPages": 10,
+      "maxIndexes": 1,
+      "license": "Design Tokens Community Group reports under the W3C Community Final Specification Agreement; links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Design Tokens Community Group 2025.10 Final Community Group Report modules (Format, Color, Resolver), published 28 October 2025. Not a W3C Standard or on the Standards Track. Later drafts may change; confirm which version the project's token tooling implements."
     }
   ],
   "pointers": [
