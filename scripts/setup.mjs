@@ -8,8 +8,9 @@ import { writeJSON, atomic, mkdir } from './lib/leaf/fs-safe.mjs';
 import { sha } from './lib/leaf/hash.mjs';
 import { readJSON } from './lib/leaf/json.mjs';
 import { at } from './lib/leaf/paths.mjs';
-import { api, download } from './lib/network.mjs';
-import { archive } from './lib/archive.mjs';
+import { api } from './lib/branch/platform/network/github.mjs';
+import { download } from './lib/branch/platform/network/download.mjs';
+import { archive } from './lib/branch/platform/archive.mjs';
 
 await withLock(async () => {
   if (Number(process.versions.node.split('.')[0]) !== 24) throw new Error('Node 24 is required');

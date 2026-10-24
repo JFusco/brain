@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { archive } from '../scripts/lib/archive.mjs';
+import { archive } from '../scripts/lib/branch/platform/archive.mjs';
 import { tarball } from './helpers.mjs';
 
 test('reads selected regular files and strips the archive root', () => {

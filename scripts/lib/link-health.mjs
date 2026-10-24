@@ -6,8 +6,8 @@ import { readJSON } from './leaf/json.mjs';
 import { at } from './leaf/paths.mjs';
 import { now } from './leaf/time.mjs';
 import { lookupEntries } from './lookup.mjs';
-import { registry } from './official.mjs';
-import { probe } from './network.mjs';
+import { registry } from './branch/official/registry.mjs';
+import { probe } from './branch/platform/network/probe.mjs';
 import { publishedGuidance } from './guidance.mjs';
 import { readExcerpt } from './cache.mjs';
 
