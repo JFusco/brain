@@ -124,11 +124,18 @@ try {
       (subcommand === 'publication' || (subcommand === 'cleanup' && flags.yes))) ||
     (command === 'inbox' && ['resolve', 'rescan'].includes(subcommand)) ||
     (command === 'official' && subcommand === 'sync');
+  // Guidance tools load on demand, like the other visual Brain commands.
+  const GUIDANCE_TOOLS = {
+    brief: () => import('./lib/tree/visual/brief.mjs'),
+    playbooks: () => import('./lib/tree/visual/playbooks.mjs'),
+    explain: () => import('./lib/tree/visual/explain.mjs'),
+    compare: () => import('./lib/tree/visual/compare.mjs'),
+  };
   async function execute() {
     if (command === 'visual' && subcommand === 'serve')
-      return (await import('./lib/visual-brain/server.mjs')).serve({ port: flags.port });
+      return (await import('./lib/tree/visual/server/server.mjs')).serve({ port: flags.port });
     if (command === 'route')
-      return (await import('./lib/visual-brain/retrieval.mjs')).route({
+      return (await import('./lib/tree/visual/route.mjs')).route({
         query: flags.query,
         domain: flags.domain,
         versions: flags.versions,
@@ -137,16 +144,18 @@ try {
         session: flags.session,
       });
     if (['brief', 'playbooks', 'explain', 'compare'].includes(command))
-      return (await import('./lib/visual-brain/guidance-tools.mjs'))[command](flags);
+      return (await GUIDANCE_TOOLS[command]())[command](flags);
     if (command === 'feedback')
-      return (await import('./lib/visual-brain/feedback.mjs')).feedback(flags);
+      return (await import('./lib/tree/visual/feedback.mjs')).feedback(flags);
     if (command === 'activity') {
-      const m = await import('./lib/visual-brain/metrics.mjs');
       if (subcommand === 'start')
-        return m.startSession((await import('./lib/visual-brain/snapshot.mjs')).mainRevision());
-      if (subcommand === 'summary') return m.summary(flags.period);
+        return (await import('./lib/branch/activity/sessions.mjs')).startSession(
+          (await import('./lib/branch/visual/snapshot/blobs.mjs')).mainRevision(),
+        );
+      if (subcommand === 'summary')
+        return (await import('./lib/branch/activity/summary.mjs')).summary(flags.period);
       if (subcommand === 'report')
-        return (await import('./lib/visual-brain/retrieval.mjs')).reportActivity({
+        return (await import('./lib/branch/activity/reporting.mjs')).reportActivity({
           session: flags.session,
           node: flags.node,
           type: flags.type,
@@ -154,7 +163,7 @@ try {
         });
     }
     if (command === 'lookup') {
-      const activity = await import('./lib/visual-brain/retrieval.mjs'),
+      const activity = await import('./lib/branch/activity/reporting.mjs'),
         session = await activity.beginLookupActivity();
       let result;
       try {
@@ -189,7 +198,7 @@ try {
     if (command === 'capture') {
       if (!flags.stdin) throw new Error('Use capture --stdin');
       const result = capture(fs.readFileSync(0, 'utf8'), { domain: flags.domain });
-      await (await import('./lib/visual-brain/retrieval.mjs')).recordCaptureActivity(result);
+      await (await import('./lib/branch/activity/reporting.mjs')).recordCaptureActivity(result);
       return result;
     }
     if (command === 'inbox') {

@@ -3,7 +3,7 @@ import test from 'node:test';
 import { sha } from '../scripts/lib/leaf/hash.mjs';
 import { rankEntries } from '../scripts/lib/branch/search/rank.mjs';
 import { tokens } from '../scripts/lib/branch/search/tokens.mjs';
-import { connectingPath } from '../scripts/lib/visual-brain/retrieval.mjs';
+import { connectingPath } from '../scripts/lib/branch/visual/connecting-path.mjs';
 
 const target = { dependencies: { next: { version: '16.1.0' } } };
 
