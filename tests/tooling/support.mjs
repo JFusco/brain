@@ -6,7 +6,8 @@ import { ROOT, temporary } from '../helpers.mjs';
 
 // Strip Git-local variables so a hook-invoked run cannot redirect the fixture repository.
 export function environment(extra = {}) {
-  const env = { ...process.env, ...extra };
+  // Plain output: CI runners force color, which would wrap tool messages in ANSI codes.
+  const env = { ...process.env, FORCE_COLOR: '0', NO_COLOR: '1', ...extra };
   const local = spawnSync('git', ['rev-parse', '--local-env-vars'], { encoding: 'utf8' }).stdout;
   for (const name of local.split('\n').filter(Boolean)) delete env[name];
   return env;
