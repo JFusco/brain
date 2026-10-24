@@ -1096,6 +1096,28 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling storybook.js.org documentation for the current major: setup, configuration, writing stories, docs and tests, addons and API reference. Excludes contributor guides, blog, tutorials and showcase. Confirm the project's installed storybook version and framework package."
+    },
+    {
+      "id": "deque-axe-rules",
+      "vendor": "deque",
+      "domains": [
+        "accessibility"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://dequeuniversity.com/rules/axe/4.14",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "dequeuniversity.com"
+      ],
+      "includePrefixes": [
+        "/rules/axe/4.14/"
+      ],
+      "maxPages": 200,
+      "maxIndexes": 1,
+      "license": "Deque University rule help pages under upstream terms; links and metadata only, no open license asserted (axe-core itself is MPL-2.0)",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "axe-core 4.14 rule help pages, the helpUrl targets reported by axe results. The version is fixed in the URL; match the project's installed axe-core version. Automated rules cover only part of WCAG, so passing them does not establish conformance."
     }
   ],
   "pointers": [
