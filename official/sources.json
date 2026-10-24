@@ -1261,6 +1261,33 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling Testing Library documentation: guiding principles, queries, user-event, DOM Testing Library and the framework adapters (React, Vue, Angular, Svelte and others). Excludes the blog and contributor guide. Confirm the installed @testing-library package and its framework adapter version."
+    },
+    {
+      "id": "eslint-docs",
+      "vendor": "eslint",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://eslint.org/docs/latest/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "eslint.org"
+      ],
+      "includePrefixes": [
+        "/docs/latest/use/",
+        "/docs/latest/rules/",
+        "/docs/latest/extend/",
+        "/docs/latest/integrate/",
+        "/docs/latest/flags/",
+        "/docs/latest/languages/"
+      ],
+      "maxPages": 600,
+      "maxIndexes": 1,
+      "license": "ESLint documentation from the MIT-licensed eslint/eslint repository; links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling ESLint latest documentation: user guide (flat config, CLI, rules configuration), core rule reference, extending and integration guides, feature flags and languages. Excludes contributor, maintainer and website component-library pages. Rule pages include deprecated rules; confirm the project's installed eslint major and config format."
     }
   ],
   "pointers": [

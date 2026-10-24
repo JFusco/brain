@@ -1,0 +1,1861 @@
+{
+  "schemaVersion": 1,
+  "source": "eslint-docs",
+  "revision": "ed4ed0f3ae1741336db5ac60879be2a97407a7a907e2e2d14d4b2f7e2fffbcec",
+  "origin": "https://eslint.org/docs/latest/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "latest / extend",
+      "url": "https://eslint.org/docs/latest/extend/",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/"
+    },
+    {
+      "title": "extend / code path analysis",
+      "url": "https://eslint.org/docs/latest/extend/code-path-analysis",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/code-path-analysis"
+    },
+    {
+      "title": "extend / custom formatters",
+      "url": "https://eslint.org/docs/latest/extend/custom-formatters",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/custom-formatters"
+    },
+    {
+      "title": "extend / custom parsers",
+      "url": "https://eslint.org/docs/latest/extend/custom-parsers",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/custom-parsers"
+    },
+    {
+      "title": "extend / custom processors",
+      "url": "https://eslint.org/docs/latest/extend/custom-processors",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/custom-processors"
+    },
+    {
+      "title": "extend / custom rule tutorial",
+      "url": "https://eslint.org/docs/latest/extend/custom-rule-tutorial",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/custom-rule-tutorial"
+    },
+    {
+      "title": "extend / custom rules",
+      "url": "https://eslint.org/docs/latest/extend/custom-rules",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/custom-rules"
+    },
+    {
+      "title": "extend / languages",
+      "url": "https://eslint.org/docs/latest/extend/languages",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/languages"
+    },
+    {
+      "title": "extend / plugin migration flat config",
+      "url": "https://eslint.org/docs/latest/extend/plugin-migration-flat-config",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/plugin-migration-flat-config"
+    },
+    {
+      "title": "extend / plugins",
+      "url": "https://eslint.org/docs/latest/extend/plugins",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/plugins"
+    },
+    {
+      "title": "extend / rule deprecation",
+      "url": "https://eslint.org/docs/latest/extend/rule-deprecation",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/rule-deprecation"
+    },
+    {
+      "title": "extend / scope manager interface",
+      "url": "https://eslint.org/docs/latest/extend/scope-manager-interface",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/scope-manager-interface"
+    },
+    {
+      "title": "extend / selectors",
+      "url": "https://eslint.org/docs/latest/extend/selectors",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/selectors"
+    },
+    {
+      "title": "extend / shareable configs",
+      "url": "https://eslint.org/docs/latest/extend/shareable-configs",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/shareable-configs"
+    },
+    {
+      "title": "extend / stats",
+      "url": "https://eslint.org/docs/latest/extend/stats",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/stats"
+    },
+    {
+      "title": "extend / ways to extend",
+      "url": "https://eslint.org/docs/latest/extend/ways-to-extend",
+      "fetchUrl": "https://eslint.org/docs/latest/extend/ways-to-extend"
+    },
+    {
+      "title": "latest / flags",
+      "url": "https://eslint.org/docs/latest/flags/",
+      "fetchUrl": "https://eslint.org/docs/latest/flags/"
+    },
+    {
+      "title": "latest / integrate",
+      "url": "https://eslint.org/docs/latest/integrate/",
+      "fetchUrl": "https://eslint.org/docs/latest/integrate/"
+    },
+    {
+      "title": "integrate / integration tutorial",
+      "url": "https://eslint.org/docs/latest/integrate/integration-tutorial",
+      "fetchUrl": "https://eslint.org/docs/latest/integrate/integration-tutorial"
+    },
+    {
+      "title": "integrate / nodejs api",
+      "url": "https://eslint.org/docs/latest/integrate/nodejs-api",
+      "fetchUrl": "https://eslint.org/docs/latest/integrate/nodejs-api"
+    },
+    {
+      "title": "latest / languages",
+      "url": "https://eslint.org/docs/latest/languages/",
+      "fetchUrl": "https://eslint.org/docs/latest/languages/"
+    },
+    {
+      "title": "latest / rules",
+      "url": "https://eslint.org/docs/latest/rules/",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/"
+    },
+    {
+      "title": "rules / accessor pairs",
+      "url": "https://eslint.org/docs/latest/rules/accessor-pairs",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/accessor-pairs"
+    },
+    {
+      "title": "rules / array bracket newline",
+      "url": "https://eslint.org/docs/latest/rules/array-bracket-newline",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/array-bracket-newline"
+    },
+    {
+      "title": "rules / array bracket spacing",
+      "url": "https://eslint.org/docs/latest/rules/array-bracket-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/array-bracket-spacing"
+    },
+    {
+      "title": "rules / array callback return",
+      "url": "https://eslint.org/docs/latest/rules/array-callback-return",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/array-callback-return"
+    },
+    {
+      "title": "rules / array element newline",
+      "url": "https://eslint.org/docs/latest/rules/array-element-newline",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/array-element-newline"
+    },
+    {
+      "title": "rules / arrow body style",
+      "url": "https://eslint.org/docs/latest/rules/arrow-body-style",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/arrow-body-style"
+    },
+    {
+      "title": "rules / arrow parens",
+      "url": "https://eslint.org/docs/latest/rules/arrow-parens",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/arrow-parens"
+    },
+    {
+      "title": "rules / arrow spacing",
+      "url": "https://eslint.org/docs/latest/rules/arrow-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/arrow-spacing"
+    },
+    {
+      "title": "rules / block scoped var",
+      "url": "https://eslint.org/docs/latest/rules/block-scoped-var",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/block-scoped-var"
+    },
+    {
+      "title": "rules / block spacing",
+      "url": "https://eslint.org/docs/latest/rules/block-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/block-spacing"
+    },
+    {
+      "title": "rules / brace style",
+      "url": "https://eslint.org/docs/latest/rules/brace-style",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/brace-style"
+    },
+    {
+      "title": "rules / callback return",
+      "url": "https://eslint.org/docs/latest/rules/callback-return",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/callback-return"
+    },
+    {
+      "title": "rules / camelcase",
+      "url": "https://eslint.org/docs/latest/rules/camelcase",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/camelcase"
+    },
+    {
+      "title": "rules / capitalized comments",
+      "url": "https://eslint.org/docs/latest/rules/capitalized-comments",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/capitalized-comments"
+    },
+    {
+      "title": "rules / class methods use this",
+      "url": "https://eslint.org/docs/latest/rules/class-methods-use-this",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/class-methods-use-this"
+    },
+    {
+      "title": "rules / comma dangle",
+      "url": "https://eslint.org/docs/latest/rules/comma-dangle",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/comma-dangle"
+    },
+    {
+      "title": "rules / comma spacing",
+      "url": "https://eslint.org/docs/latest/rules/comma-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/comma-spacing"
+    },
+    {
+      "title": "rules / comma style",
+      "url": "https://eslint.org/docs/latest/rules/comma-style",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/comma-style"
+    },
+    {
+      "title": "rules / complexity",
+      "url": "https://eslint.org/docs/latest/rules/complexity",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/complexity"
+    },
+    {
+      "title": "rules / computed property spacing",
+      "url": "https://eslint.org/docs/latest/rules/computed-property-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/computed-property-spacing"
+    },
+    {
+      "title": "rules / consistent return",
+      "url": "https://eslint.org/docs/latest/rules/consistent-return",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/consistent-return"
+    },
+    {
+      "title": "rules / consistent this",
+      "url": "https://eslint.org/docs/latest/rules/consistent-this",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/consistent-this"
+    },
+    {
+      "title": "rules / constructor super",
+      "url": "https://eslint.org/docs/latest/rules/constructor-super",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/constructor-super"
+    },
+    {
+      "title": "rules / curly",
+      "url": "https://eslint.org/docs/latest/rules/curly",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/curly"
+    },
+    {
+      "title": "rules / default case",
+      "url": "https://eslint.org/docs/latest/rules/default-case",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/default-case"
+    },
+    {
+      "title": "rules / default case last",
+      "url": "https://eslint.org/docs/latest/rules/default-case-last",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/default-case-last"
+    },
+    {
+      "title": "rules / default param last",
+      "url": "https://eslint.org/docs/latest/rules/default-param-last",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/default-param-last"
+    },
+    {
+      "title": "rules / dot location",
+      "url": "https://eslint.org/docs/latest/rules/dot-location",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/dot-location"
+    },
+    {
+      "title": "rules / dot notation",
+      "url": "https://eslint.org/docs/latest/rules/dot-notation",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/dot-notation"
+    },
+    {
+      "title": "rules / eol last",
+      "url": "https://eslint.org/docs/latest/rules/eol-last",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/eol-last"
+    },
+    {
+      "title": "rules / eqeqeq",
+      "url": "https://eslint.org/docs/latest/rules/eqeqeq",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/eqeqeq"
+    },
+    {
+      "title": "rules / for direction",
+      "url": "https://eslint.org/docs/latest/rules/for-direction",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/for-direction"
+    },
+    {
+      "title": "rules / func call spacing",
+      "url": "https://eslint.org/docs/latest/rules/func-call-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/func-call-spacing"
+    },
+    {
+      "title": "rules / func name matching",
+      "url": "https://eslint.org/docs/latest/rules/func-name-matching",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/func-name-matching"
+    },
+    {
+      "title": "rules / func names",
+      "url": "https://eslint.org/docs/latest/rules/func-names",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/func-names"
+    },
+    {
+      "title": "rules / func style",
+      "url": "https://eslint.org/docs/latest/rules/func-style",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/func-style"
+    },
+    {
+      "title": "rules / function call argument newline",
+      "url": "https://eslint.org/docs/latest/rules/function-call-argument-newline",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/function-call-argument-newline"
+    },
+    {
+      "title": "rules / function paren newline",
+      "url": "https://eslint.org/docs/latest/rules/function-paren-newline",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/function-paren-newline"
+    },
+    {
+      "title": "rules / generator star",
+      "url": "https://eslint.org/docs/latest/rules/generator-star",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/generator-star"
+    },
+    {
+      "title": "rules / generator star spacing",
+      "url": "https://eslint.org/docs/latest/rules/generator-star-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/generator-star-spacing"
+    },
+    {
+      "title": "rules / getter return",
+      "url": "https://eslint.org/docs/latest/rules/getter-return",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/getter-return"
+    },
+    {
+      "title": "rules / global require",
+      "url": "https://eslint.org/docs/latest/rules/global-require",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/global-require"
+    },
+    {
+      "title": "rules / global strict",
+      "url": "https://eslint.org/docs/latest/rules/global-strict",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/global-strict"
+    },
+    {
+      "title": "rules / grouped accessor pairs",
+      "url": "https://eslint.org/docs/latest/rules/grouped-accessor-pairs",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/grouped-accessor-pairs"
+    },
+    {
+      "title": "rules / guard for in",
+      "url": "https://eslint.org/docs/latest/rules/guard-for-in",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/guard-for-in"
+    },
+    {
+      "title": "rules / handle callback err",
+      "url": "https://eslint.org/docs/latest/rules/handle-callback-err",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/handle-callback-err"
+    },
+    {
+      "title": "rules / id blacklist",
+      "url": "https://eslint.org/docs/latest/rules/id-blacklist",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/id-blacklist"
+    },
+    {
+      "title": "rules / id denylist",
+      "url": "https://eslint.org/docs/latest/rules/id-denylist",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/id-denylist"
+    },
+    {
+      "title": "rules / id length",
+      "url": "https://eslint.org/docs/latest/rules/id-length",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/id-length"
+    },
+    {
+      "title": "rules / id match",
+      "url": "https://eslint.org/docs/latest/rules/id-match",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/id-match"
+    },
+    {
+      "title": "rules / implicit arrow linebreak",
+      "url": "https://eslint.org/docs/latest/rules/implicit-arrow-linebreak",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/implicit-arrow-linebreak"
+    },
+    {
+      "title": "rules / indent",
+      "url": "https://eslint.org/docs/latest/rules/indent",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/indent"
+    },
+    {
+      "title": "rules / indent legacy",
+      "url": "https://eslint.org/docs/latest/rules/indent-legacy",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/indent-legacy"
+    },
+    {
+      "title": "rules / init declarations",
+      "url": "https://eslint.org/docs/latest/rules/init-declarations",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/init-declarations"
+    },
+    {
+      "title": "rules / jsx quotes",
+      "url": "https://eslint.org/docs/latest/rules/jsx-quotes",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/jsx-quotes"
+    },
+    {
+      "title": "rules / key spacing",
+      "url": "https://eslint.org/docs/latest/rules/key-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/key-spacing"
+    },
+    {
+      "title": "rules / keyword spacing",
+      "url": "https://eslint.org/docs/latest/rules/keyword-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/keyword-spacing"
+    },
+    {
+      "title": "rules / line comment position",
+      "url": "https://eslint.org/docs/latest/rules/line-comment-position",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/line-comment-position"
+    },
+    {
+      "title": "rules / linebreak style",
+      "url": "https://eslint.org/docs/latest/rules/linebreak-style",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/linebreak-style"
+    },
+    {
+      "title": "rules / lines around comment",
+      "url": "https://eslint.org/docs/latest/rules/lines-around-comment",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/lines-around-comment"
+    },
+    {
+      "title": "rules / lines around directive",
+      "url": "https://eslint.org/docs/latest/rules/lines-around-directive",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/lines-around-directive"
+    },
+    {
+      "title": "rules / lines between class members",
+      "url": "https://eslint.org/docs/latest/rules/lines-between-class-members",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/lines-between-class-members"
+    },
+    {
+      "title": "rules / logical assignment operators",
+      "url": "https://eslint.org/docs/latest/rules/logical-assignment-operators",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/logical-assignment-operators"
+    },
+    {
+      "title": "rules / max classes per file",
+      "url": "https://eslint.org/docs/latest/rules/max-classes-per-file",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/max-classes-per-file"
+    },
+    {
+      "title": "rules / max depth",
+      "url": "https://eslint.org/docs/latest/rules/max-depth",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/max-depth"
+    },
+    {
+      "title": "rules / max len",
+      "url": "https://eslint.org/docs/latest/rules/max-len",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/max-len"
+    },
+    {
+      "title": "rules / max lines",
+      "url": "https://eslint.org/docs/latest/rules/max-lines",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/max-lines"
+    },
+    {
+      "title": "rules / max lines per function",
+      "url": "https://eslint.org/docs/latest/rules/max-lines-per-function",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/max-lines-per-function"
+    },
+    {
+      "title": "rules / max nested callbacks",
+      "url": "https://eslint.org/docs/latest/rules/max-nested-callbacks",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/max-nested-callbacks"
+    },
+    {
+      "title": "rules / max params",
+      "url": "https://eslint.org/docs/latest/rules/max-params",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/max-params"
+    },
+    {
+      "title": "rules / max statements",
+      "url": "https://eslint.org/docs/latest/rules/max-statements",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/max-statements"
+    },
+    {
+      "title": "rules / max statements per line",
+      "url": "https://eslint.org/docs/latest/rules/max-statements-per-line",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/max-statements-per-line"
+    },
+    {
+      "title": "rules / multiline comment style",
+      "url": "https://eslint.org/docs/latest/rules/multiline-comment-style",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/multiline-comment-style"
+    },
+    {
+      "title": "rules / multiline ternary",
+      "url": "https://eslint.org/docs/latest/rules/multiline-ternary",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/multiline-ternary"
+    },
+    {
+      "title": "rules / new cap",
+      "url": "https://eslint.org/docs/latest/rules/new-cap",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/new-cap"
+    },
+    {
+      "title": "rules / new parens",
+      "url": "https://eslint.org/docs/latest/rules/new-parens",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/new-parens"
+    },
+    {
+      "title": "rules / newline after var",
+      "url": "https://eslint.org/docs/latest/rules/newline-after-var",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/newline-after-var"
+    },
+    {
+      "title": "rules / newline before return",
+      "url": "https://eslint.org/docs/latest/rules/newline-before-return",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/newline-before-return"
+    },
+    {
+      "title": "rules / newline per chained call",
+      "url": "https://eslint.org/docs/latest/rules/newline-per-chained-call",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/newline-per-chained-call"
+    },
+    {
+      "title": "rules / no alert",
+      "url": "https://eslint.org/docs/latest/rules/no-alert",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-alert"
+    },
+    {
+      "title": "rules / no array constructor",
+      "url": "https://eslint.org/docs/latest/rules/no-array-constructor",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-array-constructor"
+    },
+    {
+      "title": "rules / no arrow condition",
+      "url": "https://eslint.org/docs/latest/rules/no-arrow-condition",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-arrow-condition"
+    },
+    {
+      "title": "rules / no async promise executor",
+      "url": "https://eslint.org/docs/latest/rules/no-async-promise-executor",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-async-promise-executor"
+    },
+    {
+      "title": "rules / no await in loop",
+      "url": "https://eslint.org/docs/latest/rules/no-await-in-loop",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-await-in-loop"
+    },
+    {
+      "title": "rules / no bitwise",
+      "url": "https://eslint.org/docs/latest/rules/no-bitwise",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-bitwise"
+    },
+    {
+      "title": "rules / no buffer constructor",
+      "url": "https://eslint.org/docs/latest/rules/no-buffer-constructor",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-buffer-constructor"
+    },
+    {
+      "title": "rules / no caller",
+      "url": "https://eslint.org/docs/latest/rules/no-caller",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-caller"
+    },
+    {
+      "title": "rules / no case declarations",
+      "url": "https://eslint.org/docs/latest/rules/no-case-declarations",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-case-declarations"
+    },
+    {
+      "title": "rules / no catch shadow",
+      "url": "https://eslint.org/docs/latest/rules/no-catch-shadow",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-catch-shadow"
+    },
+    {
+      "title": "rules / no class assign",
+      "url": "https://eslint.org/docs/latest/rules/no-class-assign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-class-assign"
+    },
+    {
+      "title": "rules / no comma dangle",
+      "url": "https://eslint.org/docs/latest/rules/no-comma-dangle",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-comma-dangle"
+    },
+    {
+      "title": "rules / no compare neg zero",
+      "url": "https://eslint.org/docs/latest/rules/no-compare-neg-zero",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-compare-neg-zero"
+    },
+    {
+      "title": "rules / no cond assign",
+      "url": "https://eslint.org/docs/latest/rules/no-cond-assign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-cond-assign"
+    },
+    {
+      "title": "rules / no confusing arrow",
+      "url": "https://eslint.org/docs/latest/rules/no-confusing-arrow",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-confusing-arrow"
+    },
+    {
+      "title": "rules / no console",
+      "url": "https://eslint.org/docs/latest/rules/no-console",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-console"
+    },
+    {
+      "title": "rules / no const assign",
+      "url": "https://eslint.org/docs/latest/rules/no-const-assign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-const-assign"
+    },
+    {
+      "title": "rules / no constant binary expression",
+      "url": "https://eslint.org/docs/latest/rules/no-constant-binary-expression",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-constant-binary-expression"
+    },
+    {
+      "title": "rules / no constant condition",
+      "url": "https://eslint.org/docs/latest/rules/no-constant-condition",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-constant-condition"
+    },
+    {
+      "title": "rules / no constructor return",
+      "url": "https://eslint.org/docs/latest/rules/no-constructor-return",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-constructor-return"
+    },
+    {
+      "title": "rules / no continue",
+      "url": "https://eslint.org/docs/latest/rules/no-continue",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-continue"
+    },
+    {
+      "title": "rules / no control regex",
+      "url": "https://eslint.org/docs/latest/rules/no-control-regex",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-control-regex"
+    },
+    {
+      "title": "rules / no debugger",
+      "url": "https://eslint.org/docs/latest/rules/no-debugger",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-debugger"
+    },
+    {
+      "title": "rules / no delete var",
+      "url": "https://eslint.org/docs/latest/rules/no-delete-var",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-delete-var"
+    },
+    {
+      "title": "rules / no div regex",
+      "url": "https://eslint.org/docs/latest/rules/no-div-regex",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-div-regex"
+    },
+    {
+      "title": "rules / no dupe args",
+      "url": "https://eslint.org/docs/latest/rules/no-dupe-args",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-dupe-args"
+    },
+    {
+      "title": "rules / no dupe class members",
+      "url": "https://eslint.org/docs/latest/rules/no-dupe-class-members",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-dupe-class-members"
+    },
+    {
+      "title": "rules / no dupe else if",
+      "url": "https://eslint.org/docs/latest/rules/no-dupe-else-if",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-dupe-else-if"
+    },
+    {
+      "title": "rules / no dupe keys",
+      "url": "https://eslint.org/docs/latest/rules/no-dupe-keys",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-dupe-keys"
+    },
+    {
+      "title": "rules / no duplicate case",
+      "url": "https://eslint.org/docs/latest/rules/no-duplicate-case",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-duplicate-case"
+    },
+    {
+      "title": "rules / no duplicate imports",
+      "url": "https://eslint.org/docs/latest/rules/no-duplicate-imports",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-duplicate-imports"
+    },
+    {
+      "title": "rules / no else return",
+      "url": "https://eslint.org/docs/latest/rules/no-else-return",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-else-return"
+    },
+    {
+      "title": "rules / no empty",
+      "url": "https://eslint.org/docs/latest/rules/no-empty",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-empty"
+    },
+    {
+      "title": "rules / no empty character class",
+      "url": "https://eslint.org/docs/latest/rules/no-empty-character-class",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-empty-character-class"
+    },
+    {
+      "title": "rules / no empty class",
+      "url": "https://eslint.org/docs/latest/rules/no-empty-class",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-empty-class"
+    },
+    {
+      "title": "rules / no empty function",
+      "url": "https://eslint.org/docs/latest/rules/no-empty-function",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-empty-function"
+    },
+    {
+      "title": "rules / no empty label",
+      "url": "https://eslint.org/docs/latest/rules/no-empty-label",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-empty-label"
+    },
+    {
+      "title": "rules / no empty pattern",
+      "url": "https://eslint.org/docs/latest/rules/no-empty-pattern",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-empty-pattern"
+    },
+    {
+      "title": "rules / no empty static block",
+      "url": "https://eslint.org/docs/latest/rules/no-empty-static-block",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-empty-static-block"
+    },
+    {
+      "title": "rules / no eq null",
+      "url": "https://eslint.org/docs/latest/rules/no-eq-null",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-eq-null"
+    },
+    {
+      "title": "rules / no eval",
+      "url": "https://eslint.org/docs/latest/rules/no-eval",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-eval"
+    },
+    {
+      "title": "rules / no ex assign",
+      "url": "https://eslint.org/docs/latest/rules/no-ex-assign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-ex-assign"
+    },
+    {
+      "title": "rules / no extend native",
+      "url": "https://eslint.org/docs/latest/rules/no-extend-native",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-extend-native"
+    },
+    {
+      "title": "rules / no extra bind",
+      "url": "https://eslint.org/docs/latest/rules/no-extra-bind",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-extra-bind"
+    },
+    {
+      "title": "rules / no extra boolean cast",
+      "url": "https://eslint.org/docs/latest/rules/no-extra-boolean-cast",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-extra-boolean-cast"
+    },
+    {
+      "title": "rules / no extra label",
+      "url": "https://eslint.org/docs/latest/rules/no-extra-label",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-extra-label"
+    },
+    {
+      "title": "rules / no extra parens",
+      "url": "https://eslint.org/docs/latest/rules/no-extra-parens",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-extra-parens"
+    },
+    {
+      "title": "rules / no extra semi",
+      "url": "https://eslint.org/docs/latest/rules/no-extra-semi",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-extra-semi"
+    },
+    {
+      "title": "rules / no extra strict",
+      "url": "https://eslint.org/docs/latest/rules/no-extra-strict",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-extra-strict"
+    },
+    {
+      "title": "rules / no fallthrough",
+      "url": "https://eslint.org/docs/latest/rules/no-fallthrough",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-fallthrough"
+    },
+    {
+      "title": "rules / no floating decimal",
+      "url": "https://eslint.org/docs/latest/rules/no-floating-decimal",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-floating-decimal"
+    },
+    {
+      "title": "rules / no func assign",
+      "url": "https://eslint.org/docs/latest/rules/no-func-assign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-func-assign"
+    },
+    {
+      "title": "rules / no global assign",
+      "url": "https://eslint.org/docs/latest/rules/no-global-assign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-global-assign"
+    },
+    {
+      "title": "rules / no implicit coercion",
+      "url": "https://eslint.org/docs/latest/rules/no-implicit-coercion",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-implicit-coercion"
+    },
+    {
+      "title": "rules / no implicit globals",
+      "url": "https://eslint.org/docs/latest/rules/no-implicit-globals",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-implicit-globals"
+    },
+    {
+      "title": "rules / no implied eval",
+      "url": "https://eslint.org/docs/latest/rules/no-implied-eval",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-implied-eval"
+    },
+    {
+      "title": "rules / no import assign",
+      "url": "https://eslint.org/docs/latest/rules/no-import-assign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-import-assign"
+    },
+    {
+      "title": "rules / no inline comments",
+      "url": "https://eslint.org/docs/latest/rules/no-inline-comments",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-inline-comments"
+    },
+    {
+      "title": "rules / no inner declarations",
+      "url": "https://eslint.org/docs/latest/rules/no-inner-declarations",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-inner-declarations"
+    },
+    {
+      "title": "rules / no invalid regexp",
+      "url": "https://eslint.org/docs/latest/rules/no-invalid-regexp",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-invalid-regexp"
+    },
+    {
+      "title": "rules / no invalid this",
+      "url": "https://eslint.org/docs/latest/rules/no-invalid-this",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-invalid-this"
+    },
+    {
+      "title": "rules / no irregular whitespace",
+      "url": "https://eslint.org/docs/latest/rules/no-irregular-whitespace",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-irregular-whitespace"
+    },
+    {
+      "title": "rules / no iterator",
+      "url": "https://eslint.org/docs/latest/rules/no-iterator",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-iterator"
+    },
+    {
+      "title": "rules / no label var",
+      "url": "https://eslint.org/docs/latest/rules/no-label-var",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-label-var"
+    },
+    {
+      "title": "rules / no labels",
+      "url": "https://eslint.org/docs/latest/rules/no-labels",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-labels"
+    },
+    {
+      "title": "rules / no lone blocks",
+      "url": "https://eslint.org/docs/latest/rules/no-lone-blocks",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-lone-blocks"
+    },
+    {
+      "title": "rules / no lonely if",
+      "url": "https://eslint.org/docs/latest/rules/no-lonely-if",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-lonely-if"
+    },
+    {
+      "title": "rules / no loop func",
+      "url": "https://eslint.org/docs/latest/rules/no-loop-func",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-loop-func"
+    },
+    {
+      "title": "rules / no loss of precision",
+      "url": "https://eslint.org/docs/latest/rules/no-loss-of-precision",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-loss-of-precision"
+    },
+    {
+      "title": "rules / no magic numbers",
+      "url": "https://eslint.org/docs/latest/rules/no-magic-numbers",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-magic-numbers"
+    },
+    {
+      "title": "rules / no misleading character class",
+      "url": "https://eslint.org/docs/latest/rules/no-misleading-character-class",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-misleading-character-class"
+    },
+    {
+      "title": "rules / no mixed operators",
+      "url": "https://eslint.org/docs/latest/rules/no-mixed-operators",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-mixed-operators"
+    },
+    {
+      "title": "rules / no mixed requires",
+      "url": "https://eslint.org/docs/latest/rules/no-mixed-requires",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-mixed-requires"
+    },
+    {
+      "title": "rules / no mixed spaces and tabs",
+      "url": "https://eslint.org/docs/latest/rules/no-mixed-spaces-and-tabs",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-mixed-spaces-and-tabs"
+    },
+    {
+      "title": "rules / no multi assign",
+      "url": "https://eslint.org/docs/latest/rules/no-multi-assign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-multi-assign"
+    },
+    {
+      "title": "rules / no multi spaces",
+      "url": "https://eslint.org/docs/latest/rules/no-multi-spaces",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-multi-spaces"
+    },
+    {
+      "title": "rules / no multi str",
+      "url": "https://eslint.org/docs/latest/rules/no-multi-str",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-multi-str"
+    },
+    {
+      "title": "rules / no multiple empty lines",
+      "url": "https://eslint.org/docs/latest/rules/no-multiple-empty-lines",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-multiple-empty-lines"
+    },
+    {
+      "title": "rules / no native reassign",
+      "url": "https://eslint.org/docs/latest/rules/no-native-reassign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-native-reassign"
+    },
+    {
+      "title": "rules / no negated condition",
+      "url": "https://eslint.org/docs/latest/rules/no-negated-condition",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-negated-condition"
+    },
+    {
+      "title": "rules / no negated in lhs",
+      "url": "https://eslint.org/docs/latest/rules/no-negated-in-lhs",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-negated-in-lhs"
+    },
+    {
+      "title": "rules / no nested ternary",
+      "url": "https://eslint.org/docs/latest/rules/no-nested-ternary",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-nested-ternary"
+    },
+    {
+      "title": "rules / no new",
+      "url": "https://eslint.org/docs/latest/rules/no-new",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-new"
+    },
+    {
+      "title": "rules / no new func",
+      "url": "https://eslint.org/docs/latest/rules/no-new-func",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-new-func"
+    },
+    {
+      "title": "rules / no new native nonconstructor",
+      "url": "https://eslint.org/docs/latest/rules/no-new-native-nonconstructor",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-new-native-nonconstructor"
+    },
+    {
+      "title": "rules / no new object",
+      "url": "https://eslint.org/docs/latest/rules/no-new-object",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-new-object"
+    },
+    {
+      "title": "rules / no new require",
+      "url": "https://eslint.org/docs/latest/rules/no-new-require",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-new-require"
+    },
+    {
+      "title": "rules / no new symbol",
+      "url": "https://eslint.org/docs/latest/rules/no-new-symbol",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-new-symbol"
+    },
+    {
+      "title": "rules / no new wrappers",
+      "url": "https://eslint.org/docs/latest/rules/no-new-wrappers",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-new-wrappers"
+    },
+    {
+      "title": "rules / no nonoctal decimal escape",
+      "url": "https://eslint.org/docs/latest/rules/no-nonoctal-decimal-escape",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-nonoctal-decimal-escape"
+    },
+    {
+      "title": "rules / no obj calls",
+      "url": "https://eslint.org/docs/latest/rules/no-obj-calls",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-obj-calls"
+    },
+    {
+      "title": "rules / no object constructor",
+      "url": "https://eslint.org/docs/latest/rules/no-object-constructor",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-object-constructor"
+    },
+    {
+      "title": "rules / no octal",
+      "url": "https://eslint.org/docs/latest/rules/no-octal",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-octal"
+    },
+    {
+      "title": "rules / no octal escape",
+      "url": "https://eslint.org/docs/latest/rules/no-octal-escape",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-octal-escape"
+    },
+    {
+      "title": "rules / no param reassign",
+      "url": "https://eslint.org/docs/latest/rules/no-param-reassign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-param-reassign"
+    },
+    {
+      "title": "rules / no path concat",
+      "url": "https://eslint.org/docs/latest/rules/no-path-concat",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-path-concat"
+    },
+    {
+      "title": "rules / no plusplus",
+      "url": "https://eslint.org/docs/latest/rules/no-plusplus",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-plusplus"
+    },
+    {
+      "title": "rules / no process env",
+      "url": "https://eslint.org/docs/latest/rules/no-process-env",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-process-env"
+    },
+    {
+      "title": "rules / no process exit",
+      "url": "https://eslint.org/docs/latest/rules/no-process-exit",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-process-exit"
+    },
+    {
+      "title": "rules / no promise executor return",
+      "url": "https://eslint.org/docs/latest/rules/no-promise-executor-return",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-promise-executor-return"
+    },
+    {
+      "title": "rules / no proto",
+      "url": "https://eslint.org/docs/latest/rules/no-proto",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-proto"
+    },
+    {
+      "title": "rules / no prototype builtins",
+      "url": "https://eslint.org/docs/latest/rules/no-prototype-builtins",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-prototype-builtins"
+    },
+    {
+      "title": "rules / no redeclare",
+      "url": "https://eslint.org/docs/latest/rules/no-redeclare",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-redeclare"
+    },
+    {
+      "title": "rules / no regex spaces",
+      "url": "https://eslint.org/docs/latest/rules/no-regex-spaces",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-regex-spaces"
+    },
+    {
+      "title": "rules / no reserved keys",
+      "url": "https://eslint.org/docs/latest/rules/no-reserved-keys",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-reserved-keys"
+    },
+    {
+      "title": "rules / no restricted exports",
+      "url": "https://eslint.org/docs/latest/rules/no-restricted-exports",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-restricted-exports"
+    },
+    {
+      "title": "rules / no restricted globals",
+      "url": "https://eslint.org/docs/latest/rules/no-restricted-globals",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-restricted-globals"
+    },
+    {
+      "title": "rules / no restricted imports",
+      "url": "https://eslint.org/docs/latest/rules/no-restricted-imports",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-restricted-imports"
+    },
+    {
+      "title": "rules / no restricted modules",
+      "url": "https://eslint.org/docs/latest/rules/no-restricted-modules",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-restricted-modules"
+    },
+    {
+      "title": "rules / no restricted properties",
+      "url": "https://eslint.org/docs/latest/rules/no-restricted-properties",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-restricted-properties"
+    },
+    {
+      "title": "rules / no restricted syntax",
+      "url": "https://eslint.org/docs/latest/rules/no-restricted-syntax",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-restricted-syntax"
+    },
+    {
+      "title": "rules / no return assign",
+      "url": "https://eslint.org/docs/latest/rules/no-return-assign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-return-assign"
+    },
+    {
+      "title": "rules / no return await",
+      "url": "https://eslint.org/docs/latest/rules/no-return-await",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-return-await"
+    },
+    {
+      "title": "rules / no script url",
+      "url": "https://eslint.org/docs/latest/rules/no-script-url",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-script-url"
+    },
+    {
+      "title": "rules / no self assign",
+      "url": "https://eslint.org/docs/latest/rules/no-self-assign",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-self-assign"
+    },
+    {
+      "title": "rules / no self compare",
+      "url": "https://eslint.org/docs/latest/rules/no-self-compare",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-self-compare"
+    },
+    {
+      "title": "rules / no sequences",
+      "url": "https://eslint.org/docs/latest/rules/no-sequences",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-sequences"
+    },
+    {
+      "title": "rules / no setter return",
+      "url": "https://eslint.org/docs/latest/rules/no-setter-return",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-setter-return"
+    },
+    {
+      "title": "rules / no shadow",
+      "url": "https://eslint.org/docs/latest/rules/no-shadow",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-shadow"
+    },
+    {
+      "title": "rules / no shadow restricted names",
+      "url": "https://eslint.org/docs/latest/rules/no-shadow-restricted-names",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-shadow-restricted-names"
+    },
+    {
+      "title": "rules / no space before semi",
+      "url": "https://eslint.org/docs/latest/rules/no-space-before-semi",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-space-before-semi"
+    },
+    {
+      "title": "rules / no spaced func",
+      "url": "https://eslint.org/docs/latest/rules/no-spaced-func",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-spaced-func"
+    },
+    {
+      "title": "rules / no sparse arrays",
+      "url": "https://eslint.org/docs/latest/rules/no-sparse-arrays",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-sparse-arrays"
+    },
+    {
+      "title": "rules / no sync",
+      "url": "https://eslint.org/docs/latest/rules/no-sync",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-sync"
+    },
+    {
+      "title": "rules / no tabs",
+      "url": "https://eslint.org/docs/latest/rules/no-tabs",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-tabs"
+    },
+    {
+      "title": "rules / no template curly in string",
+      "url": "https://eslint.org/docs/latest/rules/no-template-curly-in-string",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-template-curly-in-string"
+    },
+    {
+      "title": "rules / no ternary",
+      "url": "https://eslint.org/docs/latest/rules/no-ternary",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-ternary"
+    },
+    {
+      "title": "rules / no this before super",
+      "url": "https://eslint.org/docs/latest/rules/no-this-before-super",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-this-before-super"
+    },
+    {
+      "title": "rules / no throw literal",
+      "url": "https://eslint.org/docs/latest/rules/no-throw-literal",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-throw-literal"
+    },
+    {
+      "title": "rules / no trailing spaces",
+      "url": "https://eslint.org/docs/latest/rules/no-trailing-spaces",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-trailing-spaces"
+    },
+    {
+      "title": "rules / no unassigned vars",
+      "url": "https://eslint.org/docs/latest/rules/no-unassigned-vars",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unassigned-vars"
+    },
+    {
+      "title": "rules / no undef",
+      "url": "https://eslint.org/docs/latest/rules/no-undef",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-undef"
+    },
+    {
+      "title": "rules / no undef init",
+      "url": "https://eslint.org/docs/latest/rules/no-undef-init",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-undef-init"
+    },
+    {
+      "title": "rules / no undefined",
+      "url": "https://eslint.org/docs/latest/rules/no-undefined",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-undefined"
+    },
+    {
+      "title": "rules / no underscore dangle",
+      "url": "https://eslint.org/docs/latest/rules/no-underscore-dangle",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-underscore-dangle"
+    },
+    {
+      "title": "rules / no unexpected multiline",
+      "url": "https://eslint.org/docs/latest/rules/no-unexpected-multiline",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unexpected-multiline"
+    },
+    {
+      "title": "rules / no unmodified loop condition",
+      "url": "https://eslint.org/docs/latest/rules/no-unmodified-loop-condition",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unmodified-loop-condition"
+    },
+    {
+      "title": "rules / no unneeded ternary",
+      "url": "https://eslint.org/docs/latest/rules/no-unneeded-ternary",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unneeded-ternary"
+    },
+    {
+      "title": "rules / no unreachable",
+      "url": "https://eslint.org/docs/latest/rules/no-unreachable",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unreachable"
+    },
+    {
+      "title": "rules / no unreachable loop",
+      "url": "https://eslint.org/docs/latest/rules/no-unreachable-loop",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unreachable-loop"
+    },
+    {
+      "title": "rules / no unsafe finally",
+      "url": "https://eslint.org/docs/latest/rules/no-unsafe-finally",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unsafe-finally"
+    },
+    {
+      "title": "rules / no unsafe negation",
+      "url": "https://eslint.org/docs/latest/rules/no-unsafe-negation",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unsafe-negation"
+    },
+    {
+      "title": "rules / no unsafe optional chaining",
+      "url": "https://eslint.org/docs/latest/rules/no-unsafe-optional-chaining",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unsafe-optional-chaining"
+    },
+    {
+      "title": "rules / no unused expressions",
+      "url": "https://eslint.org/docs/latest/rules/no-unused-expressions",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unused-expressions"
+    },
+    {
+      "title": "rules / no unused labels",
+      "url": "https://eslint.org/docs/latest/rules/no-unused-labels",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unused-labels"
+    },
+    {
+      "title": "rules / no unused private class members",
+      "url": "https://eslint.org/docs/latest/rules/no-unused-private-class-members",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unused-private-class-members"
+    },
+    {
+      "title": "rules / no unused vars",
+      "url": "https://eslint.org/docs/latest/rules/no-unused-vars",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-unused-vars"
+    },
+    {
+      "title": "rules / no use before define",
+      "url": "https://eslint.org/docs/latest/rules/no-use-before-define",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-use-before-define"
+    },
+    {
+      "title": "rules / no useless assignment",
+      "url": "https://eslint.org/docs/latest/rules/no-useless-assignment",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-useless-assignment"
+    },
+    {
+      "title": "rules / no useless backreference",
+      "url": "https://eslint.org/docs/latest/rules/no-useless-backreference",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-useless-backreference"
+    },
+    {
+      "title": "rules / no useless call",
+      "url": "https://eslint.org/docs/latest/rules/no-useless-call",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-useless-call"
+    },
+    {
+      "title": "rules / no useless catch",
+      "url": "https://eslint.org/docs/latest/rules/no-useless-catch",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-useless-catch"
+    },
+    {
+      "title": "rules / no useless computed key",
+      "url": "https://eslint.org/docs/latest/rules/no-useless-computed-key",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-useless-computed-key"
+    },
+    {
+      "title": "rules / no useless concat",
+      "url": "https://eslint.org/docs/latest/rules/no-useless-concat",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-useless-concat"
+    },
+    {
+      "title": "rules / no useless constructor",
+      "url": "https://eslint.org/docs/latest/rules/no-useless-constructor",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-useless-constructor"
+    },
+    {
+      "title": "rules / no useless escape",
+      "url": "https://eslint.org/docs/latest/rules/no-useless-escape",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-useless-escape"
+    },
+    {
+      "title": "rules / no useless rename",
+      "url": "https://eslint.org/docs/latest/rules/no-useless-rename",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-useless-rename"
+    },
+    {
+      "title": "rules / no useless return",
+      "url": "https://eslint.org/docs/latest/rules/no-useless-return",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-useless-return"
+    },
+    {
+      "title": "rules / no var",
+      "url": "https://eslint.org/docs/latest/rules/no-var",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-var"
+    },
+    {
+      "title": "rules / no void",
+      "url": "https://eslint.org/docs/latest/rules/no-void",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-void"
+    },
+    {
+      "title": "rules / no warning comments",
+      "url": "https://eslint.org/docs/latest/rules/no-warning-comments",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-warning-comments"
+    },
+    {
+      "title": "rules / no whitespace before property",
+      "url": "https://eslint.org/docs/latest/rules/no-whitespace-before-property",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-whitespace-before-property"
+    },
+    {
+      "title": "rules / no with",
+      "url": "https://eslint.org/docs/latest/rules/no-with",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-with"
+    },
+    {
+      "title": "rules / no wrap func",
+      "url": "https://eslint.org/docs/latest/rules/no-wrap-func",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/no-wrap-func"
+    },
+    {
+      "title": "rules / nonblock statement body position",
+      "url": "https://eslint.org/docs/latest/rules/nonblock-statement-body-position",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/nonblock-statement-body-position"
+    },
+    {
+      "title": "rules / object curly newline",
+      "url": "https://eslint.org/docs/latest/rules/object-curly-newline",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/object-curly-newline"
+    },
+    {
+      "title": "rules / object curly spacing",
+      "url": "https://eslint.org/docs/latest/rules/object-curly-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/object-curly-spacing"
+    },
+    {
+      "title": "rules / object property newline",
+      "url": "https://eslint.org/docs/latest/rules/object-property-newline",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/object-property-newline"
+    },
+    {
+      "title": "rules / object shorthand",
+      "url": "https://eslint.org/docs/latest/rules/object-shorthand",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/object-shorthand"
+    },
+    {
+      "title": "rules / one var",
+      "url": "https://eslint.org/docs/latest/rules/one-var",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/one-var"
+    },
+    {
+      "title": "rules / one var declaration per line",
+      "url": "https://eslint.org/docs/latest/rules/one-var-declaration-per-line",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/one-var-declaration-per-line"
+    },
+    {
+      "title": "rules / operator assignment",
+      "url": "https://eslint.org/docs/latest/rules/operator-assignment",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/operator-assignment"
+    },
+    {
+      "title": "rules / operator linebreak",
+      "url": "https://eslint.org/docs/latest/rules/operator-linebreak",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/operator-linebreak"
+    },
+    {
+      "title": "rules / padded blocks",
+      "url": "https://eslint.org/docs/latest/rules/padded-blocks",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/padded-blocks"
+    },
+    {
+      "title": "rules / padding line between statements",
+      "url": "https://eslint.org/docs/latest/rules/padding-line-between-statements",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/padding-line-between-statements"
+    },
+    {
+      "title": "rules / prefer arrow callback",
+      "url": "https://eslint.org/docs/latest/rules/prefer-arrow-callback",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-arrow-callback"
+    },
+    {
+      "title": "rules / prefer const",
+      "url": "https://eslint.org/docs/latest/rules/prefer-const",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-const"
+    },
+    {
+      "title": "rules / prefer destructuring",
+      "url": "https://eslint.org/docs/latest/rules/prefer-destructuring",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-destructuring"
+    },
+    {
+      "title": "rules / prefer exponentiation operator",
+      "url": "https://eslint.org/docs/latest/rules/prefer-exponentiation-operator",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-exponentiation-operator"
+    },
+    {
+      "title": "rules / prefer named capture group",
+      "url": "https://eslint.org/docs/latest/rules/prefer-named-capture-group",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-named-capture-group"
+    },
+    {
+      "title": "rules / prefer numeric literals",
+      "url": "https://eslint.org/docs/latest/rules/prefer-numeric-literals",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-numeric-literals"
+    },
+    {
+      "title": "rules / prefer object has own",
+      "url": "https://eslint.org/docs/latest/rules/prefer-object-has-own",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-object-has-own"
+    },
+    {
+      "title": "rules / prefer object spread",
+      "url": "https://eslint.org/docs/latest/rules/prefer-object-spread",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-object-spread"
+    },
+    {
+      "title": "rules / prefer promise reject errors",
+      "url": "https://eslint.org/docs/latest/rules/prefer-promise-reject-errors",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-promise-reject-errors"
+    },
+    {
+      "title": "rules / prefer reflect",
+      "url": "https://eslint.org/docs/latest/rules/prefer-reflect",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-reflect"
+    },
+    {
+      "title": "rules / prefer regex literals",
+      "url": "https://eslint.org/docs/latest/rules/prefer-regex-literals",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-regex-literals"
+    },
+    {
+      "title": "rules / prefer rest params",
+      "url": "https://eslint.org/docs/latest/rules/prefer-rest-params",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-rest-params"
+    },
+    {
+      "title": "rules / prefer spread",
+      "url": "https://eslint.org/docs/latest/rules/prefer-spread",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-spread"
+    },
+    {
+      "title": "rules / prefer template",
+      "url": "https://eslint.org/docs/latest/rules/prefer-template",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/prefer-template"
+    },
+    {
+      "title": "rules / preserve caught error",
+      "url": "https://eslint.org/docs/latest/rules/preserve-caught-error",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/preserve-caught-error"
+    },
+    {
+      "title": "rules / quote props",
+      "url": "https://eslint.org/docs/latest/rules/quote-props",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/quote-props"
+    },
+    {
+      "title": "rules / quotes",
+      "url": "https://eslint.org/docs/latest/rules/quotes",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/quotes"
+    },
+    {
+      "title": "rules / radix",
+      "url": "https://eslint.org/docs/latest/rules/radix",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/radix"
+    },
+    {
+      "title": "rules / require atomic updates",
+      "url": "https://eslint.org/docs/latest/rules/require-atomic-updates",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/require-atomic-updates"
+    },
+    {
+      "title": "rules / require await",
+      "url": "https://eslint.org/docs/latest/rules/require-await",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/require-await"
+    },
+    {
+      "title": "rules / require jsdoc",
+      "url": "https://eslint.org/docs/latest/rules/require-jsdoc",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/require-jsdoc"
+    },
+    {
+      "title": "rules / require unicode regexp",
+      "url": "https://eslint.org/docs/latest/rules/require-unicode-regexp",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/require-unicode-regexp"
+    },
+    {
+      "title": "rules / require yield",
+      "url": "https://eslint.org/docs/latest/rules/require-yield",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/require-yield"
+    },
+    {
+      "title": "rules / rest spread spacing",
+      "url": "https://eslint.org/docs/latest/rules/rest-spread-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/rest-spread-spacing"
+    },
+    {
+      "title": "rules / semi",
+      "url": "https://eslint.org/docs/latest/rules/semi",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/semi"
+    },
+    {
+      "title": "rules / semi spacing",
+      "url": "https://eslint.org/docs/latest/rules/semi-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/semi-spacing"
+    },
+    {
+      "title": "rules / semi style",
+      "url": "https://eslint.org/docs/latest/rules/semi-style",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/semi-style"
+    },
+    {
+      "title": "rules / sort imports",
+      "url": "https://eslint.org/docs/latest/rules/sort-imports",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/sort-imports"
+    },
+    {
+      "title": "rules / sort keys",
+      "url": "https://eslint.org/docs/latest/rules/sort-keys",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/sort-keys"
+    },
+    {
+      "title": "rules / sort vars",
+      "url": "https://eslint.org/docs/latest/rules/sort-vars",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/sort-vars"
+    },
+    {
+      "title": "rules / space after function name",
+      "url": "https://eslint.org/docs/latest/rules/space-after-function-name",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-after-function-name"
+    },
+    {
+      "title": "rules / space after keywords",
+      "url": "https://eslint.org/docs/latest/rules/space-after-keywords",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-after-keywords"
+    },
+    {
+      "title": "rules / space before blocks",
+      "url": "https://eslint.org/docs/latest/rules/space-before-blocks",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-before-blocks"
+    },
+    {
+      "title": "rules / space before function paren",
+      "url": "https://eslint.org/docs/latest/rules/space-before-function-paren",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-before-function-paren"
+    },
+    {
+      "title": "rules / space before function parentheses",
+      "url": "https://eslint.org/docs/latest/rules/space-before-function-parentheses",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-before-function-parentheses"
+    },
+    {
+      "title": "rules / space before keywords",
+      "url": "https://eslint.org/docs/latest/rules/space-before-keywords",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-before-keywords"
+    },
+    {
+      "title": "rules / space in brackets",
+      "url": "https://eslint.org/docs/latest/rules/space-in-brackets",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-in-brackets"
+    },
+    {
+      "title": "rules / space in parens",
+      "url": "https://eslint.org/docs/latest/rules/space-in-parens",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-in-parens"
+    },
+    {
+      "title": "rules / space infix ops",
+      "url": "https://eslint.org/docs/latest/rules/space-infix-ops",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-infix-ops"
+    },
+    {
+      "title": "rules / space return throw case",
+      "url": "https://eslint.org/docs/latest/rules/space-return-throw-case",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-return-throw-case"
+    },
+    {
+      "title": "rules / space unary ops",
+      "url": "https://eslint.org/docs/latest/rules/space-unary-ops",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-unary-ops"
+    },
+    {
+      "title": "rules / space unary word ops",
+      "url": "https://eslint.org/docs/latest/rules/space-unary-word-ops",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/space-unary-word-ops"
+    },
+    {
+      "title": "rules / spaced comment",
+      "url": "https://eslint.org/docs/latest/rules/spaced-comment",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/spaced-comment"
+    },
+    {
+      "title": "rules / spaced line comment",
+      "url": "https://eslint.org/docs/latest/rules/spaced-line-comment",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/spaced-line-comment"
+    },
+    {
+      "title": "rules / strict",
+      "url": "https://eslint.org/docs/latest/rules/strict",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/strict"
+    },
+    {
+      "title": "rules / switch colon spacing",
+      "url": "https://eslint.org/docs/latest/rules/switch-colon-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/switch-colon-spacing"
+    },
+    {
+      "title": "rules / symbol description",
+      "url": "https://eslint.org/docs/latest/rules/symbol-description",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/symbol-description"
+    },
+    {
+      "title": "rules / template curly spacing",
+      "url": "https://eslint.org/docs/latest/rules/template-curly-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/template-curly-spacing"
+    },
+    {
+      "title": "rules / template tag spacing",
+      "url": "https://eslint.org/docs/latest/rules/template-tag-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/template-tag-spacing"
+    },
+    {
+      "title": "rules / unicode bom",
+      "url": "https://eslint.org/docs/latest/rules/unicode-bom",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/unicode-bom"
+    },
+    {
+      "title": "rules / use isnan",
+      "url": "https://eslint.org/docs/latest/rules/use-isnan",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/use-isnan"
+    },
+    {
+      "title": "rules / valid jsdoc",
+      "url": "https://eslint.org/docs/latest/rules/valid-jsdoc",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/valid-jsdoc"
+    },
+    {
+      "title": "rules / valid typeof",
+      "url": "https://eslint.org/docs/latest/rules/valid-typeof",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/valid-typeof"
+    },
+    {
+      "title": "rules / vars on top",
+      "url": "https://eslint.org/docs/latest/rules/vars-on-top",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/vars-on-top"
+    },
+    {
+      "title": "rules / wrap iife",
+      "url": "https://eslint.org/docs/latest/rules/wrap-iife",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/wrap-iife"
+    },
+    {
+      "title": "rules / wrap regex",
+      "url": "https://eslint.org/docs/latest/rules/wrap-regex",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/wrap-regex"
+    },
+    {
+      "title": "rules / yield star spacing",
+      "url": "https://eslint.org/docs/latest/rules/yield-star-spacing",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/yield-star-spacing"
+    },
+    {
+      "title": "rules / yoda",
+      "url": "https://eslint.org/docs/latest/rules/yoda",
+      "fetchUrl": "https://eslint.org/docs/latest/rules/yoda"
+    },
+    {
+      "title": "latest / use",
+      "url": "https://eslint.org/docs/latest/use/",
+      "fetchUrl": "https://eslint.org/docs/latest/use/"
+    },
+    {
+      "title": "use / command line interface",
+      "url": "https://eslint.org/docs/latest/use/command-line-interface",
+      "fetchUrl": "https://eslint.org/docs/latest/use/command-line-interface"
+    },
+    {
+      "title": "use / configure",
+      "url": "https://eslint.org/docs/latest/use/configure/",
+      "fetchUrl": "https://eslint.org/docs/latest/use/configure/"
+    },
+    {
+      "title": "configure / combine configs",
+      "url": "https://eslint.org/docs/latest/use/configure/combine-configs",
+      "fetchUrl": "https://eslint.org/docs/latest/use/configure/combine-configs"
+    },
+    {
+      "title": "configure / configuration files",
+      "url": "https://eslint.org/docs/latest/use/configure/configuration-files",
+      "fetchUrl": "https://eslint.org/docs/latest/use/configure/configuration-files"
+    },
+    {
+      "title": "configure / debug",
+      "url": "https://eslint.org/docs/latest/use/configure/debug",
+      "fetchUrl": "https://eslint.org/docs/latest/use/configure/debug"
+    },
+    {
+      "title": "configure / ignore",
+      "url": "https://eslint.org/docs/latest/use/configure/ignore",
+      "fetchUrl": "https://eslint.org/docs/latest/use/configure/ignore"
+    },
+    {
+      "title": "configure / language options",
+      "url": "https://eslint.org/docs/latest/use/configure/language-options",
+      "fetchUrl": "https://eslint.org/docs/latest/use/configure/language-options"
+    },
+    {
+      "title": "configure / migration guide",
+      "url": "https://eslint.org/docs/latest/use/configure/migration-guide",
+      "fetchUrl": "https://eslint.org/docs/latest/use/configure/migration-guide"
+    },
+    {
+      "title": "configure / parser",
+      "url": "https://eslint.org/docs/latest/use/configure/parser",
+      "fetchUrl": "https://eslint.org/docs/latest/use/configure/parser"
+    },
+    {
+      "title": "configure / plugins",
+      "url": "https://eslint.org/docs/latest/use/configure/plugins",
+      "fetchUrl": "https://eslint.org/docs/latest/use/configure/plugins"
+    },
+    {
+      "title": "configure / rules",
+      "url": "https://eslint.org/docs/latest/use/configure/rules",
+      "fetchUrl": "https://eslint.org/docs/latest/use/configure/rules"
+    },
+    {
+      "title": "use / core concepts",
+      "url": "https://eslint.org/docs/latest/use/core-concepts/",
+      "fetchUrl": "https://eslint.org/docs/latest/use/core-concepts/"
+    },
+    {
+      "title": "core concepts / glossary",
+      "url": "https://eslint.org/docs/latest/use/core-concepts/glossary",
+      "fetchUrl": "https://eslint.org/docs/latest/use/core-concepts/glossary"
+    },
+    {
+      "title": "use / formatters",
+      "url": "https://eslint.org/docs/latest/use/formatters/",
+      "fetchUrl": "https://eslint.org/docs/latest/use/formatters/"
+    },
+    {
+      "title": "formatters / html formatter example",
+      "url": "https://eslint.org/docs/latest/use/formatters/html-formatter-example",
+      "fetchUrl": "https://eslint.org/docs/latest/use/formatters/html-formatter-example"
+    },
+    {
+      "title": "use / getting started",
+      "url": "https://eslint.org/docs/latest/use/getting-started",
+      "fetchUrl": "https://eslint.org/docs/latest/use/getting-started"
+    },
+    {
+      "title": "use / integrations",
+      "url": "https://eslint.org/docs/latest/use/integrations",
+      "fetchUrl": "https://eslint.org/docs/latest/use/integrations"
+    },
+    {
+      "title": "use / mcp",
+      "url": "https://eslint.org/docs/latest/use/mcp",
+      "fetchUrl": "https://eslint.org/docs/latest/use/mcp"
+    },
+    {
+      "title": "use / migrate to 10.0.0",
+      "url": "https://eslint.org/docs/latest/use/migrate-to-10.0.0",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrate-to-10.0.0"
+    },
+    {
+      "title": "use / migrate to 8.0.0",
+      "url": "https://eslint.org/docs/latest/use/migrate-to-8.0.0",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrate-to-8.0.0"
+    },
+    {
+      "title": "use / migrate to 9.0.0",
+      "url": "https://eslint.org/docs/latest/use/migrate-to-9.0.0",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrate-to-9.0.0"
+    },
+    {
+      "title": "use / migrating from jscs",
+      "url": "https://eslint.org/docs/latest/use/migrating-from-jscs",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrating-from-jscs"
+    },
+    {
+      "title": "use / migrating to 1.0.0",
+      "url": "https://eslint.org/docs/latest/use/migrating-to-1.0.0",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrating-to-1.0.0"
+    },
+    {
+      "title": "use / migrating to 2.0.0",
+      "url": "https://eslint.org/docs/latest/use/migrating-to-2.0.0",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrating-to-2.0.0"
+    },
+    {
+      "title": "use / migrating to 3.0.0",
+      "url": "https://eslint.org/docs/latest/use/migrating-to-3.0.0",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrating-to-3.0.0"
+    },
+    {
+      "title": "use / migrating to 4.0.0",
+      "url": "https://eslint.org/docs/latest/use/migrating-to-4.0.0",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrating-to-4.0.0"
+    },
+    {
+      "title": "use / migrating to 5.0.0",
+      "url": "https://eslint.org/docs/latest/use/migrating-to-5.0.0",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrating-to-5.0.0"
+    },
+    {
+      "title": "use / migrating to 6.0.0",
+      "url": "https://eslint.org/docs/latest/use/migrating-to-6.0.0",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrating-to-6.0.0"
+    },
+    {
+      "title": "use / migrating to 7.0.0",
+      "url": "https://eslint.org/docs/latest/use/migrating-to-7.0.0",
+      "fetchUrl": "https://eslint.org/docs/latest/use/migrating-to-7.0.0"
+    },
+    {
+      "title": "use / rule deprecation",
+      "url": "https://eslint.org/docs/latest/use/rule-deprecation",
+      "fetchUrl": "https://eslint.org/docs/latest/use/rule-deprecation"
+    },
+    {
+      "title": "use / suppressions",
+      "url": "https://eslint.org/docs/latest/use/suppressions",
+      "fetchUrl": "https://eslint.org/docs/latest/use/suppressions"
+    },
+    {
+      "title": "use / troubleshooting",
+      "url": "https://eslint.org/docs/latest/use/troubleshooting/",
+      "fetchUrl": "https://eslint.org/docs/latest/use/troubleshooting/"
+    },
+    {
+      "title": "troubleshooting / circular fixes",
+      "url": "https://eslint.org/docs/latest/use/troubleshooting/circular-fixes",
+      "fetchUrl": "https://eslint.org/docs/latest/use/troubleshooting/circular-fixes"
+    },
+    {
+      "title": "troubleshooting / v9 rule api changes",
+      "url": "https://eslint.org/docs/latest/use/troubleshooting/v9-rule-api-changes",
+      "fetchUrl": "https://eslint.org/docs/latest/use/troubleshooting/v9-rule-api-changes"
+    },
+    {
+      "title": "use / version support",
+      "url": "https://eslint.org/docs/latest/use/version-support",
+      "fetchUrl": "https://eslint.org/docs/latest/use/version-support"
+    }
+  ],
+  "referenceIssues": []
+}

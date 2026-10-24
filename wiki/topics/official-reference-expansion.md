@@ -90,3 +90,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## Testing Library
 
 [Issue 199](https://github.com/JFusco/brain/issues/199) adds Testing Library to Tooling from its single sitemap, limited to `/docs/` and excluding the contributor guide, consistent with Storybook. The catalog covers queries, user-event, DOM Testing Library, the framework adapters, examples and ecosystem pages. Pages have no Markdown variant, so focused excerpts read HTML.
+
+## ESLint
+
+[Issue 201](https://github.com/JFusco/brain/issues/201) adds ESLint to Tooling from the latest-docs sitemap rather than the blog-heavy site sitemap, limited to the user guide, core rules, extend, integrate, flags and languages sections. Contributor, maintainer and website component-library pages are excluded. The `latest` path is rolling (v10.13.0 at registration) and rule pages include deprecated rules, so readers confirm the installed major and config format.

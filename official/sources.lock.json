@@ -240,6 +240,12 @@
       "fetchedAt": "2026-10-24T22:28:05.616Z",
       "track": "rolling-url",
       "catalogSha256": "3169ae2eb4cc46b27b8774124b4315a9ab1c978911fd263552528e3bc640819a"
+    },
+    "eslint-docs": {
+      "revision": "ed4ed0f3ae1741336db5ac60879be2a97407a7a907e2e2d14d4b2f7e2fffbcec",
+      "fetchedAt": "2026-10-24T22:34:03.866Z",
+      "track": "rolling-url",
+      "catalogSha256": "389c2462debca63050accc65f401a0d2cb2e9b7ef2644a91b5dae4c2f05d1854"
     }
   },
   "toolchain": {
