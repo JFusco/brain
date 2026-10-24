@@ -42,3 +42,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## Dedicated tooling domain
 
 [Issue 173](https://github.com/JFusco/brain/issues/173) adds an empty `tooling` domain before any build, test, lint, package or monorepo source is registered. Lookup ranking is lexical on titles and summaries, and a curated note outranks a matching catalog link by only one point, so large new catalogs are kept out of existing domains where they would crowd notes out of the top results. Tooling keywords use distinctive names (`vitest`, `eslint`, `pnpm-workspace`) rather than bare `vite`, `test`, `lint` or `pnpm`, which would misroute captures that merely mention running a command. Design-system and commerce domains follow as separate changes. Candidate hosts stay labeled as candidates until each registration's own verified sync.
+
+## Dedicated design-systems domain
+
+[Issue 175](https://github.com/JFusco/brain/issues/175) adds an empty `design-systems` domain after `tooling`, for design tokens, design-to-code handoff and component libraries. Its keywords (`design token`, `dtcg`, `figma`, `code connect`) avoid a bare `token`. Because it is listed after the existing domains, a capture that ties with `frontend` or `accessibility` keeps the earlier domain. The Design Tokens Community Group format and Figma developer hosts stay candidates until their own verified syncs.

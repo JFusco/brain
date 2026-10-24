@@ -511,6 +511,7 @@ The weekly coverage review checks these official places for new documentation in
 | Contentful | contentful.com/developers/docs (`llms.txt`), github.com/contentful |
 | WordPress | developer.wordpress.org (`sitemap.xml`), github.com/WordPress, make.wordpress.org/ai |
 | Tooling | Candidates, not yet registered: vite.dev, vitest.dev, storybook.js.org, testing-library.com, eslint.org, pnpm.io, turborepo.dev and their official GitHub repositories (Turborepo: github.com/vercel/turborepo) |
+| Design systems | Candidates, not yet registered: designtokens.org (Design Tokens Community Group format), developers.figma.com (REST API, plugins, Code Connect), github.com/design-tokens, github.com/figma |
 
 ## Project skills
 
