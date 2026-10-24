@@ -15,4 +15,9 @@ The tooling mirrors Joe's sibling repositories (cms-field-vocabulary, agent-revi
 
 Tests cover guards, decisions and contracts: path and symlink safety, the untrusted tar reader, secret patterns, argument parsing, version fit, knowledge and official validation, ranking, the CLI surface, hooks and workflows. Trivial getters, snapshot tests, scene rendering and live network calls are excluded.
 
-Modules are moving to a Leaf → Branch → Tree → Root layout: `scripts/lib/{leaf,branch,tree}` and thin root entry points. The architecture check enforces layer direction, no import cycles and at most 200 lines per file. It stays warn-only until the split completes.
+Code follows a Leaf → Branch → Tree → Root layout. Leaf modules are pure or near-pure helpers, branch modules hold domain logic and I/O adapters, tree modules hold command handlers and orchestration, and roots only parse, dispatch and report:
+
+- `scripts/lib/{leaf,branch,tree}` with thin roots (`brain.mjs`, `nightly.mjs`, `nightly-push.mjs`, `setup.mjs`, `hosted/*.mjs`). `brain.mjs` dispatches from the declarative command table in `tree/cli/`, which also generates the help.
+- `web/brain/lib` (leaf), `model` (branch), `scene`, `ui` and `live` (tree), and `main.js` (root). Scene and panel modules open nodes through the injected `model/navigation` rather than importing the details view.
+
+The architecture check enforces layer direction, no import cycles and at most 200 lines per file, and blocks `verify:ci` since [the viewer split](../journal/2026-10-24-split-viewer.md). The executed plan is archived as [Brain cleanup: layered architecture, focused tests, quality gate](../plans/2026-10-23-brain-cleanup-layered-architecture-focused-tests-quality-gate-430c2a75f3.md).
