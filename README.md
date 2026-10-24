@@ -153,6 +153,17 @@ The hooks run lighter versions of these locally:
 - **commit-msg:** the commit-message format;
 - **pre-push:** the nightly publication guard, then `pnpm run verify:push`.
 
+Code is layered Leaf → Branch → Tree → Root, and the architecture check fails on an upward import, an import cycle or a module over 200 lines:
+
+| Layer | CLI (`scripts/`) | Viewer (`web/brain/`) | Holds |
+| --- | --- | --- | --- |
+| Leaf | `lib/leaf/` | `lib/` | Pure or near-pure helpers |
+| Branch | `lib/branch/<feature>/` | `model/` | Domain logic, state and I/O adapters |
+| Tree | `lib/tree/<feature>/` | `scene/`, `ui/`, `live/` | Commands, orchestration, rendering and panels |
+| Root | `brain.mjs`, `nightly.mjs`, `setup.mjs`, … | `main.js` | Argument parsing, wiring and startup only |
+
+A module may import its own layer or lower layers only. CLI commands, their options and their help come from one table in `scripts/lib/tree/cli/`.
+
 On GitHub, the **Quality**, **Commit message lint** and **Wiki integrity** checks run on every pull request. Tests live in `tests/`, and they cover guards, decisions and contracts, not trivia.
 
 ---
