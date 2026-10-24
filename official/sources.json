@@ -1022,6 +1022,31 @@
       },
       "preferred": false,
       "applicability": "W3C WebDX Community Group Baseline status definition and the web-features and compute-baseline package documentation at the catalogued commit. Baseline describes browser support only; it does not establish accessibility, usability or a project's browser-support acceptance. Feature data files are not catalogued."
+    },
+    {
+      "id": "vite-docs",
+      "vendor": "vite",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://vite.dev/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "vite.dev"
+      ],
+      "includePrefixes": [
+        "/guide/",
+        "/config/",
+        "/changes/"
+      ],
+      "fetchSuffix": ".md",
+      "maxPages": 200,
+      "maxIndexes": 1,
+      "license": "Vite documentation from the MIT-licensed vitejs/vite repository; links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling vite.dev guide, config reference and breaking-change pages. Excludes blog, team and release-announcement pages. Confirm the project's installed vite version; rolling docs do not establish compatibility with older majors."
     }
   ],
   "pointers": [
