@@ -2,17 +2,12 @@
 // Weekly reference health: refresh catalogs in the runner (never committed), sample links, run check and keep one issue.
 import fs from 'node:fs';
 import { spawnSync } from 'node:child_process';
-import {
-  at,
-  ROOT,
-  config,
-  json,
-  readJSON,
-  writeJSON,
-  atomic,
-  sha,
-  withLock,
-} from '../lib/core.mjs';
+import { config } from '../lib/branch/platform/config.mjs';
+import { withLock } from '../lib/branch/platform/lock.mjs';
+import { writeJSON, atomic } from '../lib/leaf/fs-safe.mjs';
+import { sha } from '../lib/leaf/hash.mjs';
+import { json, readJSON } from '../lib/leaf/json.mjs';
+import { at, ROOT } from '../lib/leaf/paths.mjs';
 import { registry, sync } from '../lib/official.mjs';
 import { checkLinks } from '../lib/link-health.mjs';
 import { staleGuidance } from '../lib/guidance.mjs';

@@ -2,7 +2,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { ROOT, at, readJSON, writeJSON, sha, now, safePath, noSymlinks, config } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { writeJSON, safePath, noSymlinks } from './leaf/fs-safe.mjs';
+import { sha } from './leaf/hash.mjs';
+import { readJSON } from './leaf/json.mjs';
+import { ROOT, at } from './leaf/paths.mjs';
+import { now } from './leaf/time.mjs';
 
 export const CHECKS = [
   'node scripts/brain.mjs check',

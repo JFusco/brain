@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { ROOT, json, safePath, inside } from './core.mjs';
+import { safePath, inside } from './leaf/fs-safe.mjs';
+import { json } from './leaf/json.mjs';
+import { ROOT } from './leaf/paths.mjs';
 import { lock, readCatalog } from './official.mjs';
 import { projectContext } from './project-context.mjs';
 

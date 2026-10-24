@@ -1,5 +1,10 @@
 import fs from 'node:fs';
-import { at, config, readJSON, writeJSON, now, sha } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { writeJSON } from './leaf/fs-safe.mjs';
+import { sha } from './leaf/hash.mjs';
+import { readJSON } from './leaf/json.mjs';
+import { at } from './leaf/paths.mjs';
+import { now } from './leaf/time.mjs';
 import { lookupEntries } from './lookup.mjs';
 import { registry } from './official.mjs';
 import { probe } from './network.mjs';

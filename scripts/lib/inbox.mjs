@@ -1,5 +1,10 @@
 import fs from 'node:fs';
-import { at, readJSON, writeJSON, sha, now, config } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { writeJSON } from './leaf/fs-safe.mjs';
+import { sha } from './leaf/hash.mjs';
+import { readJSON } from './leaf/json.mjs';
+import { at } from './leaf/paths.mjs';
+import { now } from './leaf/time.mjs';
 import { policyHash, scan, scanner, clientHits } from './privacy.mjs';
 import { refreshSummary } from './capture.mjs';
 import { mergedBrainPR } from './maintenance.mjs';

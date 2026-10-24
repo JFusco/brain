@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { sha } from '../scripts/lib/core.mjs';
+import { sha } from '../scripts/lib/leaf/hash.mjs';
 import { rankEntries, tokens } from '../scripts/lib/lookup.mjs';
 import { connectingPath } from '../scripts/lib/visual-brain/retrieval.mjs';
 

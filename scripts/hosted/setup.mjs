@@ -3,7 +3,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { at, json, writeJSON, sha, atomic } from '../lib/core.mjs';
+import { writeJSON, atomic } from '../lib/leaf/fs-safe.mjs';
+import { sha } from '../lib/leaf/hash.mjs';
+import { json } from '../lib/leaf/json.mjs';
+import { at } from '../lib/leaf/paths.mjs';
 import { download } from '../lib/network.mjs';
 import { archive } from '../lib/archive.mjs';
 

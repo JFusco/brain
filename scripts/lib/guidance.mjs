@@ -1,7 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
-import { at, ROOT, config, readJSON, sha, noSymlinks, walk, writeJSON, now } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { noSymlinks, walk, writeJSON } from './leaf/fs-safe.mjs';
+import { sha } from './leaf/hash.mjs';
+import { readJSON } from './leaf/json.mjs';
+import { at, ROOT } from './leaf/paths.mjs';
+import { now } from './leaf/time.mjs';
 import { versionConstraint } from './project-context.mjs';
 const require = createRequire(import.meta.url);
 const {

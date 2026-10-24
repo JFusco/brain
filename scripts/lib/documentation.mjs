@@ -1,5 +1,6 @@
 import { api, download, markdownResponse } from './network.mjs';
-import { config, sha } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { sha } from './leaf/hash.mjs';
 import { gunzipSync } from 'node:zlib';
 
 export const DEFAULT_MAX_INDEXES = 32,

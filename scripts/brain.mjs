@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
-import { args, withLock } from './lib/core.mjs';
+import { withLock } from './lib/branch/platform/lock.mjs';
+import { args } from './lib/leaf/cli-args.mjs';
 import { capture } from './lib/capture.mjs';
 import * as inbox from './lib/inbox.mjs';
 import * as official from './lib/official.mjs';

@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import { randomUUID } from 'node:crypto';
-import { at, mkdir, noSymlinks } from '../core.mjs';
+import { mkdir, noSymlinks } from '../leaf/fs-safe.mjs';
+import { at } from '../leaf/paths.mjs';
 const DAY = 86400000;
 const day = value =>
   new Intl.DateTimeFormat('en-CA', {

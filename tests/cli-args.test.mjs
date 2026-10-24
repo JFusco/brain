@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { args } from '../scripts/lib/core.mjs';
+import { args } from '../scripts/lib/leaf/cli-args.mjs';
 
 test('separates positionals, valued flags, inline values and booleans', () => {
   assert.deepEqual(args(['lookup', '--query', 'cache', '--limit=3', '--fetch', 'extra']), {

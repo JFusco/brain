@@ -1,7 +1,7 @@
 import https from 'node:https';
 import dns from 'node:dns';
 import { spawnSync } from 'node:child_process';
-import { config } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
 
 const addresses = new Map();
 function lookup(host, options, done) {
