@@ -1201,9 +1201,13 @@
       "includePrefixes": [
         "/docs/devtools/"
       ],
+      "excludePrefixes": [
+        "/docs/devtools/release-notes",
+        "/docs/devtools/whats-new"
+      ],
       "maxPages": 100,
       "maxIndexes": 1,
-      "license": "Chrome for Developers documentation under upstream terms; links and metadata only, no open license asserted",
+      "license": "CC-BY-4.0 except as otherwise noted; code samples Apache-2.0 (Google Developers Site Policies); links and metadata only",
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling Chrome DevTools panel and feature pages linked from the DevTools landing page: performance, network, memory, coverage, rendering, Lighthouse panel, console, sources and AI assistance. Deeper reference pages are reached from these entries. DevTools features follow the current Chrome release; confirm the browser version used for profiling."
