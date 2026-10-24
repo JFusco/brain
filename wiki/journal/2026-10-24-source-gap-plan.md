@@ -16,7 +16,7 @@ Delivered:
 
 Not delivered:
 
-- Contentful's documentation indexes still returned HTTP 429 to direct requests, so its existing website pointers remain and no registration was attempted.
+- Contentful's documentation indexes returned HTTP 429 again when probed during this run, so its existing website pointers remain and no registration was attempted.
 - The thin-domains-first backlog review (workstream C) has not run. It reviews at most 12 captures per requested session, starting with `cms/sitecore-ai`, and remains pending.
 
-Content review changed several deliveries before merge: it corrected link-count and parser claims, restored excluded root pages, recorded Chrome's CC BY 4.0 license, narrowed Salesforce access wording and noted Deque University's terms on AI training. Lookup comparisons before and after each registration kept every baseline curated note in its top five. See [official reference expansion](../topics/official-reference-expansion.md).
+Content review changed several deliveries before merge: it corrected link-count and parser claims, restored an excluded Vitest root page, recorded Chrome's CC BY 4.0 license and narrowed Salesforce access wording. A reviewer also noted that Deque University's terms prohibit AI training use; PR 190 recorded it as a risk, and the catalog stores links only. Lookup comparisons before and after each registration kept every baseline curated note in its top five. See [official reference expansion](../topics/official-reference-expansion.md).
