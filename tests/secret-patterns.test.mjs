@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { builtinHits } from '../scripts/lib/privacy.mjs';
+import { builtinHits } from '../scripts/lib/branch/privacy/secrets.mjs';
 
 // Fixtures are assembled at runtime so this file never contains a complete
 // secret-shaped literal for the repository's own privacy scan to block.

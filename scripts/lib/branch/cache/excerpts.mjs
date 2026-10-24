@@ -1,9 +1,9 @@
 import fs from 'node:fs';
-import { config } from './branch/platform/config.mjs';
-import { writeJSON, noSymlinks } from './leaf/fs-safe.mjs';
-import { sha } from './leaf/hash.mjs';
-import { readJSON, parseJSON } from './leaf/json.mjs';
-import { at, ROOT } from './leaf/paths.mjs';
+import { config } from '../platform/config.mjs';
+import { writeJSON, noSymlinks } from '../../leaf/fs-safe.mjs';
+import { sha } from '../../leaf/hash.mjs';
+import { readJSON, parseJSON } from '../../leaf/json.mjs';
+import { at, ROOT } from '../../leaf/paths.mjs';
 
 export function storeExcerpt(file, receipt) {
   const index = readJSON(at('.state/lookup-cache.json'), { schemaVersion: 1, files: {} }),

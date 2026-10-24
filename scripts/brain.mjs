@@ -2,21 +2,29 @@
 import fs from 'node:fs';
 import { withLock } from './lib/branch/platform/lock.mjs';
 import { args } from './lib/leaf/cli-args.mjs';
-import { capture } from './lib/capture.mjs';
-import * as inbox from './lib/inbox.mjs';
+import { capture } from './lib/tree/capture/capture.mjs';
+import * as inbox from './lib/tree/inbox/commands.mjs';
 import { checkOfficial } from './lib/tree/official/check.mjs';
 import { generateHubs } from './lib/tree/official/generate-hubs.mjs';
 import { sync } from './lib/tree/official/sync.mjs';
-import * as skills from './lib/skills.mjs';
+import * as skills from './lib/tree/skills/suggest.mjs';
 import { check } from './lib/check.mjs';
 import { lookup } from './lib/lookup.mjs';
-import { staleGuidance } from './lib/guidance.mjs';
+import { staleGuidance } from './lib/tree/curation/stale.mjs';
 import { checkLinks, linkSummary } from './lib/link-health.mjs';
 import { recordPublication } from './lib/branch/publication/ledger.mjs';
 import { maintenanceStatus } from './lib/tree/maintenance/status.mjs';
-import { cleanExcerptCache } from './lib/cache.mjs';
-import { vocabularyProfiles, vocabularyStatus, checkVocabularyRelease } from './lib/vocabulary.mjs';
-import { uiPatterns, uiPatternsStatus, checkUiPatternsRelease } from './lib/ui-patterns.mjs';
+import { cleanExcerptCache } from './lib/branch/cache/excerpts.mjs';
+import {
+  vocabularyProfiles,
+  vocabularyStatus,
+  checkVocabularyRelease,
+} from './lib/branch/packages/vocabulary.mjs';
+import {
+  uiPatterns,
+  uiPatternsStatus,
+  checkUiPatternsRelease,
+} from './lib/branch/packages/ui-patterns.mjs';
 
 const help = `Personal brain — explicit, local knowledge and official link catalogs
 

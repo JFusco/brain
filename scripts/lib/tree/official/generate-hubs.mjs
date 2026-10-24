@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import { atomic } from '../../leaf/fs-safe.mjs';
 import { at } from '../../leaf/paths.mjs';
-import { staleGuidance, publishedGuidance, curatedBlock, CURATED } from '../../guidance.mjs';
+import { staleGuidance } from '../curation/stale.mjs';
+import { publishedGuidance } from '../../branch/guidance/published.mjs';
+import { curatedBlock, CURATED } from '../../branch/guidance/knowledge.mjs';
 import { officialSections } from '../../branch/official/hubs.mjs';
 
 export function generateHubs() {

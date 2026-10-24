@@ -8,8 +8,8 @@ import { now } from './leaf/time.mjs';
 import { lookupEntries } from './lookup.mjs';
 import { registry } from './branch/official/registry.mjs';
 import { probe } from './branch/platform/network/probe.mjs';
-import { publishedGuidance } from './guidance.mjs';
-import { readExcerpt } from './cache.mjs';
+import { publishedGuidance } from './branch/guidance/published.mjs';
+import { readExcerpt } from './branch/cache/excerpts.mjs';
 
 export function linkSummary() {
   const state = readJSON(at('.state/link-health.json'), { links: {} }),

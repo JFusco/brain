@@ -5,7 +5,7 @@ import { sha } from '../../leaf/hash.mjs';
 import { readJSON } from '../../leaf/json.mjs';
 import { at } from '../../leaf/paths.mjs';
 import { now } from '../../leaf/time.mjs';
-import { assertClean } from '../../privacy.mjs';
+import { assertClean } from '../../branch/privacy/scanner.mjs';
 import { indexLimit } from '../../branch/official/documentation/limits.mjs';
 import {
   registry,

@@ -1,12 +1,14 @@
-import fs from 'node:fs';
-import { noSymlinks } from './leaf/fs-safe.mjs';
-import { sha } from './leaf/hash.mjs';
-import { json, parseJSON } from './leaf/json.mjs';
-import { at } from './leaf/paths.mjs';
-import { packageReleaseStatus, checkPackageRelease } from './package-releases.mjs';
-import { assertClean } from './privacy.mjs';
+import { sha } from '../../leaf/hash.mjs';
+import { parseJSON } from '../../leaf/json.mjs';
+import { STABLE_SEMVER } from '../../leaf/semver.mjs';
+import { pinnedPackage } from './pinned.mjs';
+import { packageReleaseStatus, checkPackageRelease } from './releases.mjs';
+import { assertClean } from '../privacy/scanner.mjs';
 
 const name = 'cms-field-vocabulary';
+const { file: packageFile, identity: packageIdentity } = pinnedPackage(name, 'CMS vocabulary', {
+  maxBytes: 2 * 1024 * 1024,
+});
 const release = {
   name,
   label: 'CMS vocabulary',
@@ -22,26 +24,7 @@ const domains = {
   'sitecore-on-prem': 'cms/sitecore-xp',
   wordpress: 'cms/wordpress',
 };
-const stable = /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/;
 
-function packageFile(relative, maxBytes = 2 * 1024 * 1024) {
-  const file = at(`node_modules/${name}/${relative}`);
-  noSymlinks(at('.'), file);
-  if (!fs.existsSync(file))
-    throw new Error('CMS vocabulary is unavailable; run pnpm install --frozen-lockfile in Brain');
-  if (!fs.statSync(file).isFile() || fs.statSync(file).size > maxBytes)
-    throw new Error('CMS vocabulary file exceeds its bound');
-  return fs.readFileSync(file);
-}
-function packageIdentity() {
-  const expected = json(at('package.json')).dependencies[name],
-    installed = parseJSON(packageFile('package.json'));
-  if (!stable.test(expected) || installed.name !== name || installed.version !== expected)
-    throw new Error(
-      'CMS vocabulary differs from the exact Brain dependency pin; run pnpm install --frozen-lockfile',
-    );
-  return { package: name, version: expected };
-}
 function vocabulary() {
   const identity = packageIdentity(),
     bytes = packageFile('catalog/catalog.json'),
@@ -69,7 +52,7 @@ const profileInfo = p => ({
   notes: p.notes || [],
 });
 const constraints = p =>
-  p.platform === 'optimizely-saas' && stable.test(p.version.sdk)
+  p.platform === 'optimizely-saas' && STABLE_SEMVER.test(p.version.sdk)
     ? [`@optimizely/cms-sdk@${p.version.sdk}`]
     : [];
 

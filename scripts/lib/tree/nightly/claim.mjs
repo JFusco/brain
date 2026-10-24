@@ -4,8 +4,8 @@ import { at } from '../../leaf/paths.mjs';
 import { now } from '../../leaf/time.mjs';
 import { claimRefusal, REASON_CODE, saveLedger } from '../../branch/nightly/ledger.mjs';
 import { recordPublication } from '../../branch/publication/ledger.mjs';
-import { checkVocabularyRelease } from '../../vocabulary.mjs';
-import { checkUiPatternsRelease } from '../../ui-patterns.mjs';
+import { checkVocabularyRelease } from '../../branch/packages/vocabulary.mjs';
+import { checkUiPatternsRelease } from '../../branch/packages/ui-patterns.mjs';
 
 export async function claim(state, slotDate, flags) {
   if (!['manual', 'scheduled-agent'].includes(flags.trigger))
