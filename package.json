@@ -11,6 +11,8 @@
     "cms-field-vocabulary": "1.3.0"
   },
   "scripts": {
+    "start": "pnpm --dir web/brain install --frozen-lockfile --prefer-offline && pnpm run viewer:build && node scripts/brain.mjs visual serve",
+    "brain": "node scripts/brain.mjs",
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "eslint . --fix --max-warnings=0",
     "format": "prettier --write tests scripts/quality eslint.config.js .prettierrc.json",

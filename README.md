@@ -1,28 +1,196 @@
-# Personal brain
+# Brain
 
-A local knowledge base for frontend and CMS work. Use it on demand by asking an agent to consult Brain in plain language or invoking the `brain` skill.
+Brain is a personal, local knowledge base for frontend and CMS work. It holds:
 
-- `official/` is a registry of official entry points with generated link catalogs: page links, titles, skill metadata and the revision each catalog was taken from. No vendor page bodies are stored; the local nightly run refreshes catalogs and checks references.
-- `knowledge/` contains curated, generalized guidance. A note is published when its ordinary, issue-linked PR merges; captured lessons never write these pages directly.
-- `wiki/` records Brain's own decisions, executed plans, audit findings, and maintenance history.
-- `inbox/` and `.state/` are private, ignored working storage. Do not force-add them.
+- **Curated notes** (`knowledge/`): short, reviewed lessons that say when to use something, what to do, why, and where the evidence comes from.
+- **Official documentation catalogs** (`official/`): searchable links to vendor docs (Next.js, React, Tailwind, Optimizely, Sitecore, Contentstack, WordPress and more). Page text is never copied into Brain.
 
-## Use Brain from any project
+AI agents in Claude Code, Cursor and Codex consult Brain when you ask them to, using the `brain` skill. You save new lessons with the `brain-capture` skill. Searching, reading and saving run on your machine. Publishing goes through GitHub pull requests.
 
-Brain ships two opt-in skills for Claude Code, Codex and Cursor:
+## Requirements
 
-- [`skills/brain/`](skills/brain/SKILL.md) answers from Brain's notes and official entry points.
-- [`skills/brain-capture/`](skills/brain-capture/SKILL.md) saves a lesson from the current task to Brain's private inbox.
+- macOS
+- [Node.js](https://nodejs.org/) 24, version 24.14 or later. Setup refuses other major versions; `.nvmrc` pins 24.14.0.
+- [pnpm](https://pnpm.io/) 10. Run `corepack enable` once, and Node uses the pnpm version this repository declares.
+- Git, plus the [GitHub CLI](https://cli.github.com/) (`gh`) if you publish changes
 
-The `brain` skill supports explicit plain-language requests such as "consult the brain about these Optimizely SaaS topics", as well as its command. Its description is available for skill selection; knowledge is retrieved only when requested. `brain-capture` remains manual-only. The current project's instructions, rules and skills always take precedence. Link them once per machine:
+## Install
+
+```sh
+git clone https://github.com/JFusco/brain.git ~/Projects/brain
+cd ~/Projects/brain
+pnpm install --frozen-lockfile                   # install dependencies
+pnpm --dir web/brain install --frozen-lockfile   # install the viewer's dependencies
+node scripts/setup.mjs                           # install the secret scanner
+git config core.hooksPath .githooks              # turn on the safety checks that run on commit and push
+```
+
+Keep Brain at `~/Projects/brain`, because the skills look for it there.
+
+`setup.mjs` downloads the latest checksum-verified Gitleaks scanner. Brain's privacy checks, captures and commits all need it. If the scanner version changed, setup also records the new version in `official/sources.lock.json`; publish that change through a normal PR.
+
+Setup stores the scanner's location in `brain.config.local.json`, your private settings file (never committed), and creates the file if needed. To have Brain redact client names from anything you save, add two arrays of strings to that file: `clientTerms` for the names and `clientAliases` for their nicknames.
+
+## Launch Brain
+
+```sh
+pnpm start
+```
+
+This builds the viewer and serves it at **http://127.0.0.1:4174/**. Press `Ctrl-C` to stop it.
+
+The viewer shows your knowledge as a galaxy of stars. You can:
+
+- search and filter by domain or package version;
+- open a star to read its note and see what it connects to;
+- use **Prepare task brief** for an evidence outline, or **Browse playbooks** for step-by-step workflows;
+- pin one star with **Compare this star**, then open another to see where their guidance differs.
+
+The viewer shows what is committed on your local `main` branch. New notes appear once they are merged and you pull `main`. To use a different port, build once with `pnpm start`, then run `pnpm brain visual serve --port 4175`.
+
+## Use Brain from your projects
+
+Brain ships two opt-in skills:
+- [`brain`](skills/brain/SKILL.md) answers questions from Brain's notes and official docs.
+- [`brain-capture`](skills/brain-capture/SKILL.md) saves a lesson from your current task to the private inbox. It only runs when you invoke it.
+
+### 1. Link the skills (once per machine)
 
 ```sh
 mkdir -p ~/.claude/skills ~/.agents/skills
-ln -s ~/Projects/brain/skills/brain ~/.claude/skills/           # Claude Code; Cursor also reads this folder
+ln -s ~/Projects/brain/skills/brain ~/.claude/skills/           # Claude Code (Cursor reads this folder too)
 ln -s ~/Projects/brain/skills/brain ~/.agents/skills/           # Codex
 ln -s ~/Projects/brain/skills/brain-capture ~/.claude/skills/   # Claude Code and Cursor
 ln -s ~/Projects/brain/skills/brain-capture ~/.agents/skills/   # Codex
 ```
+
+The links pick up updates whenever you `git pull` Brain. To remove the skills, delete the links.
+
+- **Claude Code:** let other projects read Brain's notes by adding `"Read(~/Projects/brain/knowledge/**)"` to `permissions.allow` in `~/.claude/settings.json`. Allow only the `knowledge` folder, so your private inbox stays private.
+- **Cursor:** if `/brain` doesn't appear, link the skills into `~/.cursor/skills/` the same way. If a skill appears twice, remove one of the links.
+
+### 2. Ask
+
+| Tool        | Consult Brain                                        | Save a lesson    |
+| ----------- | ---------------------------------------------------- | ---------------- |
+| Claude Code | `/brain <question>`, or ask "consult the brain about…" | `/brain-capture` |
+| Cursor      | `/brain <question>`, or ask in plain language        | `/brain-capture` |
+| Codex       | `$brain <question>`, or ask in plain language        | `$brain-capture` |
+
+Examples:
+
+- "Consult the brain about Next.js 16 caching for this app."
+- "Use Brain to prepare a briefing for this task."
+- After a task teaches you something reusable: `/brain-capture`
+
+When you consult Brain, the agent:
+1. finds the matching notes and official pages;
+2. keeps only the ones that fit your project's installed versions;
+3. reads those;
+4. answers with citations.
+
+Your project's own instructions always win over Brain.
+
+Saving a lesson puts it in Brain's private inbox. Nothing is published until it has been reviewed and merged.
+
+## Everyday commands
+
+`pnpm brain <command>` is shorthand for `node scripts/brain.mjs <command>`. Run it from the Brain folder, and give `--project` an absolute path. From anywhere else, run `node ~/Projects/brain/scripts/brain.mjs <command>`.
+
+A *domain* is one knowledge area, such as `nextjs`, `react`, `tailwind`, `cms/contentstack` or `cms/optimizely-saas`. The full list is in [`knowledge/INDEX.md`](knowledge/INDEX.md).
+
+| Command | What it does |
+| --- | --- |
+| `pnpm brain lookup --query "caching" --domain nextjs` | Search notes and official links |
+| `pnpm brain lookup --query "caching" --project /abs/path/to/app` | Search, filtered by that app's installed versions. In a monorepo, add `--workspace apps/web`. |
+| `pnpm brain lookup --query "useEffect" --domain react --fetch` | Also fetch short excerpts from the top official pages |
+| `pnpm brain brief --query "multilingual page" --project /abs/path/to/app` | Evidence outline for a task |
+| `pnpm brain capture --stdin` | Save a lesson. Type it, then press `Ctrl-D`. |
+| `pnpm brain inbox list` | Show saved lessons waiting for review |
+| `pnpm brain skills suggest --project /abs/path/to/app` | Recommend official vendor skills for an app (read-only) |
+| `pnpm brain maintenance status` | Health of catalogs, links and the nightly run |
+| `pnpm brain check` | Validate notes, catalogs and privacy rules |
+| `pnpm brain --help` | Every command and option |
+
+## How Brain is organized
+
+| Folder | Contents |
+| --- | --- |
+| `knowledge/` | Published notes, grouped by domain. Start at [`knowledge/INDEX.md`](knowledge/INDEX.md). |
+| `official/` | Registered official sources and their generated link catalogs |
+| `skills/` | The `brain` and `brain-capture` skills |
+| `web/brain/` | The visual viewer |
+| `scripts/` | The CLI (`brain.mjs`) and the nightly runner (`nightly.mjs`) |
+| `wiki/` | Brain's own history: decisions, plans and changes |
+| `inbox/`, `.state/` | Private working storage (ignored by Git; never commit it) |
+
+## How a lesson becomes published knowledge
+
+1. You save a lesson with `brain-capture`. It lands in the private inbox after a secret scan and client-name redaction.
+2. A review pass turns useful lessons into notes on a branch. The review runs in a session where you ask for it, or in the nightly automation: a local Codex automation that runs at 5 p.m. New York time, while the Mac is awake and the app is running. Each note states its sources, the versions it applies to, and its limits.
+3. The change goes through a normal GitHub pull request. Once it merges, the note is published.
+
+Notes that cite a changed source, or that are past their review date (30 days by default), are flagged for re-checking. See [Curation and publication](#curation-and-publication) for the exact rules.
+
+## Working on Brain's code
+
+Use **pnpm only** (see [Setup details](#setup-details)). Before delivering a code change, run:
+
+```sh
+pnpm run verify:ci
+```
+
+This runs, in order:
+1. lint and formatting;
+2. the architecture check, which keeps modules small and layered;
+3. the focused tests;
+4. `check` and `official check`, which validate notes, catalogs and privacy rules;
+5. the wiki check;
+6. the viewer build.
+
+The hooks run lighter versions of these locally:
+- **pre-commit:** the privacy check and lint of staged JavaScript, then the wiki update (that step only warns);
+- **commit-msg:** the commit-message format;
+- **pre-push:** the nightly publication guard, then `pnpm run verify:push`.
+
+On GitHub, the **Quality**, **Commit message lint** and **Wiki integrity** checks run on every pull request. Tests live in `tests/`, and they cover guards, decisions and contracts, not trivia.
+
+---
+
+# Reference
+
+The sections below are the exact operating rules that Brain's agents and nightly automation follow; `AGENTS.md` points to them by name. You don't need them for everyday use.
+
+## Command list
+
+Run from this repository, or invoke the script by its absolute path:
+
+```sh
+node scripts/brain.mjs lookup --domain nextjs --query "caching revalidation" --versions next@16.2
+node scripts/brain.mjs lookup --project /absolute/project --workspace apps/web --domain nextjs --query "caching"
+node scripts/brain.mjs lookup --domain cms/contentstack --query "Sitecore migration" --limit 3
+node scripts/brain.mjs lookup --domain react --query "useEffect" --limit 2 --fetch
+node scripts/brain.mjs inbox list --domain nextjs
+node scripts/brain.mjs inbox show <candidate-id>
+node scripts/brain.mjs curation stale
+node scripts/brain.mjs curation hubs
+node scripts/brain.mjs official sync
+node scripts/brain.mjs official check
+node scripts/brain.mjs check
+```
+
+Capture a learning without putting it in shell history or process arguments:
+
+```sh
+node scripts/brain.mjs capture --stdin
+# Type the learning, then press Ctrl-D.
+```
+
+Brain no longer harvests project files; lessons arrive only through explicit capture. See [implementation status](STATUS.md) for current local verification and [maintenance history](wiki/topics/automatic-knowledge-maintenance.md) for dated evidence.
+
+## Skill details
+
+The `brain` skill supports explicit plain-language requests such as "consult the brain about these Optimizely SaaS topics", as well as its command. Its description is available for skill selection; knowledge is retrieved only when requested. `brain-capture` remains manual-only. The current project's instructions, rules and skills always take precedence.
 
 `ln` refuses to replace an existing entry, and `git pull` updates the skills everywhere. Ask to consult Brain in plain language, or invoke `/brain <question>` in Claude Code and Cursor or `$brain` in Codex. Capture only through `/brain-capture` or `$brain-capture`. `brain` reads `knowledge/INDEX.md`, runs `route` for a ranked reading list and recorded lookup, then reads only applicable notes and cites what it used. Every completed `route` or `lookup` search counts, including zero matches; reading files alone does not. Reads and citations are reported separately.
 
@@ -33,7 +201,7 @@ ln -s ~/Projects/brain/skills/brain-capture ~/.agents/skills/   # Codex
 
 Brain is expected at `~/Projects/brain`; adjust the commands and `SKILL.md` if it lives elsewhere. Nothing downloaded is executed, and source instructions do not grant permissions.
 
-## Prepare a task with Brain
+## Task briefings and feedback
 
 Ask: “Use Brain to prepare a briefing for this task.” The opt-in skill identifies
 one application workspace and its confirmed versions, reads applicable lessons
@@ -91,42 +259,9 @@ the same stopped-process directory backup guidance applies. A stale snapshot is
 refused before feedback can be recorded. Briefing previews are not recorded as
 full note reads; opening a note retains the existing read behavior.
 
-## Everyday commands
-
-Run from this repository, or invoke the script by its absolute path:
-
-```sh
-node scripts/brain.mjs lookup --domain nextjs --query "caching revalidation" --versions next@16.2
-node scripts/brain.mjs lookup --project /absolute/project --workspace apps/web --domain nextjs --query "caching"
-node scripts/brain.mjs lookup --domain cms/contentstack --query "Sitecore migration" --limit 3
-node scripts/brain.mjs lookup --domain react --query "useEffect" --limit 2 --fetch
-node scripts/brain.mjs inbox list --domain nextjs
-node scripts/brain.mjs inbox show <candidate-id>
-node scripts/brain.mjs curation stale
-node scripts/brain.mjs curation hubs
-node scripts/brain.mjs official sync
-node scripts/brain.mjs official check
-node scripts/brain.mjs check
-```
-
-Capture a learning without putting it in shell history or process arguments:
-
-```sh
-node scripts/brain.mjs capture --stdin
-# Type the learning, then press Ctrl-D.
-```
-
-Brain no longer harvests project files; lessons arrive only through explicit capture. See [implementation status](STATUS.md) for current local verification and [maintenance history](wiki/topics/automatic-knowledge-maintenance.md) for dated evidence.
-
-## Living visual Brain
+## Visual Brain details
 
 The knowledge visualization is separate from the wiki. It runs locally and reads one committed local `main` snapshot, never working edits or private inbox content. Update local `main` through your normal Git workflow; the viewer does not fetch remotes. Node 24 is required; its built-in SQLite support currently emits an experimental warning.
-
-```sh
-pnpm --dir web/brain install --frozen-lockfile
-pnpm --dir web/brain run build
-node scripts/brain.mjs visual serve
-```
 
 Open http://127.0.0.1:4174/ (or set `--port 4175`). The server binds loopback and accepts only same-origin browser writes. Search has optional domain and literal package-version filters. Project/workspace lookup remains CLI-only. Notes render as formatted Markdown through an allowlisted DOM renderer; embedded HTML stays inert and images are not fetched. HTTPS citations open externally, and known local note links select their graph nodes. Reference links open externally.
 
@@ -309,10 +444,10 @@ code change; routine catalog-refresh PRs still exclude dependency upgrades.
 ### Official coverage
 
 | Area | Available references |
+| --- | --- |
 | Browser testing | Official Playwright JavaScript/TypeScript documentation catalog; guidance for consuming projects, with installed-version applicability left explicit |
 | Internationalization | W3C HTML authoring index: bounded articles, questions and tutorials covering language, encoding and text direction |
 | Browser platform | Bounded English MDN catalog: HTML, CSS guides, JavaScript guides, HTTP, selected browser APIs and Baseline; not the complete MDN library |
-| --- | --- |
 | Next.js | [Official page index](https://nextjs.org/docs/llms.txt) and version guidance |
 | Vercel | [Platform documentation catalog](https://vercel.com/docs/sitemap.md), official plugin skills, and agent skills |
 | React | [Pinned documentation-tree catalog](https://github.com/reactjs/react.dev/tree/main/src/content), plus the official index |
@@ -346,10 +481,10 @@ OWASP cheat sheets use [CC-BY-SA-4.0](https://github.com/OWASP/CheatSheetSeries)
 The weekly coverage review checks these official places for new documentation indexes (`llms.txt`, sitemaps, docs repositories), skills or agent repositories, and MCP servers. An MCP server is recorded as a website pointer.
 
 | Area | Official places |
+| --- | --- |
 | Browser testing | playwright.dev/sitemap.xml; github.com/microsoft/playwright/docs/src |
 | Internationalization | www.w3.org/International/techniques/authoring-html; github.com/w3c/i18n-drafts |
 | Browser platform | developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz; github.com/mdn/content; browser support remains separate from project acceptance |
-| --- | --- |
 | Next.js | nextjs.org/docs (`llms.txt`), github.com/vercel, github.com/vercel-labs |
 | React | react.dev (`llms.txt`), github.com/reactjs |
 | TypeScript | typescriptlang.org/docs, github.com/microsoft/TypeScript-Website |
@@ -453,7 +588,7 @@ node scripts/nightly.mjs claim --trigger manual --author-id <actual-agent-id> --
 
 The merge command records passing Wiki integrity for the exact PR head, uses GitHub's matching-head merge guard and leaves branch protection in force. An interrupted merge reconciles the same PR and approval; completion also requires that recorded guarded-merge evidence. Reviewer identities are reported by the orchestrating agent. Local hooks and receipts guard the supported workflow; they do not prevent someone deliberately bypassing local safeguards.
 
-## Setup
+## Setup details
 
 Use **pnpm only** in both the repository root and `web/brain`. Both package
 manifests declare `pnpm@10.33.0`; keep their tracked `pnpm-lock.yaml` files as
@@ -462,11 +597,8 @@ packages are real directories. Do not run npm or Yarn installs or generate
 competing lockfiles. Do not ignore or automatically delete unexpected lockfiles:
 preserve and investigate them before maintenance resumes.
 
-
 ```sh
-pnpm install --frozen-lockfile
-node scripts/setup.mjs
-node scripts/hosted/setup.mjs
+node scripts/hosted/setup.mjs   # cloud session or CI only
 ```
 
 - **`setup.mjs`** installs the checksum-verified scanner on macOS.
