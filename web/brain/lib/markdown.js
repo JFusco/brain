@@ -1,4 +1,5 @@
 import { marked } from 'marked';
+import { resolveLink } from './links.js';
 
 // Build only approved DOM elements. Markdown and embedded HTML never enter innerHTML.
 export function renderMarkdown(source, { path, title, onNavigate, hasNode }) {
@@ -19,33 +20,23 @@ export function renderMarkdown(source, { path, title, onNavigate, hasNode }) {
       else if (token.type === 'link') {
         node = create('span');
         node.append(inline(token.tokens));
-        try {
-          const url = new URL(token.href, 'https://brain.invalid/' + path);
-          const id = decodeURIComponent(url.pathname.slice(1));
-          if (url.origin === 'https://brain.invalid' && hasNode(id)) {
-            const link = create('a');
-            link.href = '#';
-            link.append(...node.childNodes);
-            link.onclick = event => {
-              event.preventDefault();
-              onNavigate(id);
-            };
-            node = link;
-          } else if (
-            url.origin !== 'https://brain.invalid' &&
-            url.protocol === 'https:' &&
-            !url.username &&
-            !url.password
-          ) {
-            const link = create('a');
-            link.href = url.href;
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
-            link.append(...node.childNodes);
-            node = link;
-          }
-        } catch {
-          /* An unsupported destination stays inert text. */
+        const target = resolveLink(token.href, path, hasNode);
+        if (target.kind === 'internal') {
+          const link = create('a');
+          link.href = '#';
+          link.append(...node.childNodes);
+          link.onclick = event => {
+            event.preventDefault();
+            onNavigate(target.id);
+          };
+          node = link;
+        } else if (target.kind === 'external') {
+          const link = create('a');
+          link.href = target.href;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          link.append(...node.childNodes);
+          node = link;
         }
       } else if (token.type === 'image') node = create('span', token.text || '');
       else if (token.tokens) {
