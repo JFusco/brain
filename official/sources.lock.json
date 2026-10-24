@@ -20,16 +20,16 @@
       "catalogSha256": "1da7af8baf08d3052086a4614d708d6bd0e28623be3a8a14dae166cd759eae06"
     },
     "vercel-plugin": {
-      "revision": "728b46b617a9e97a7cc6ef1a3f0dbdfedb349a7c",
-      "fetchedAt": "2026-10-23T21:01:28.445Z",
+      "revision": "3c88cfc8de5d1e124d23b0ef23f32c5aa127c845",
+      "fetchedAt": "2026-10-24T12:28:59.908Z",
       "track": "default-branch",
-      "catalogSha256": "f31d3091e6e0e866fc5a32029aaf11b8542dd1c42780c107e1d6d83436201cd3"
+      "catalogSha256": "5706e4b59fb0aff1e3553b4105d0fc5ae18256c922b9a4f62a4426e0439bdf5b"
     },
     "contentful-skills": {
-      "revision": "0cfae213be9117da4b5b42451d8c0515d363f894",
-      "fetchedAt": "2026-10-21T21:01:47.940Z",
+      "revision": "68d8cb6d92d9b7b2a97478cb2e97e7ab4aac33c6",
+      "fetchedAt": "2026-10-24T12:29:01.620Z",
       "track": "default-branch",
-      "catalogSha256": "275f50ec3ec0fc6ed1612d26065c055beb3633a9b959b61fa9e9e5b642f2ce67"
+      "catalogSha256": "e8f7b847a39aa3fae666f8599af6c714b4ce2d2ba6d6537d1db1ce9081475f0c"
     },
     "optimizely-sdk": {
       "revision": "d85caa8a0dce2291204417dd8ec9bc4f95963fdd",
@@ -50,10 +50,10 @@
       "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "5318e324e3ed0af5aeb7fb2f854e8273cf2232de1e9ab6401dce748503c2adc1",
-      "fetchedAt": "2026-10-23T21:01:37.153Z",
+      "revision": "f333c82bffa5aa51b3add1790af269e136428d1eab3d89c74846b733cd907208",
+      "fetchedAt": "2026-10-24T12:29:07.330Z",
       "track": "rolling-url",
-      "catalogSha256": "a4ba03c52a8b52dc71ccea0ae0af4d059f65d3b3b4ff0e3db8e765bb11275c4f"
+      "catalogSha256": "a2c73567934731b4a2702d766cf87e6422397ddbc6ebd6187881d81058ada2d3"
     },
     "contentstack-docs": {
       "revision": "27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d",

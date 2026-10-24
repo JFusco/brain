@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "5318e324e3ed0af5aeb7fb2f854e8273cf2232de1e9ab6401dce748503c2adc1",
+  "revision": "f333c82bffa5aa51b3add1790af269e136428d1eab3d89c74846b733cd907208",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -2755,6 +2755,31 @@
       "title": "Chat SDK with TanStack Start",
       "url": "https://vercel.com/docs/chat-sdk/frameworks/tanstack-start",
       "fetchUrl": "https://vercel.com/docs/chat-sdk/frameworks/tanstack-start.md"
+    },
+    {
+      "title": "Chat SDK Integrations",
+      "url": "https://vercel.com/docs/chat-sdk/integrations",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/integrations.md"
+    },
+    {
+      "title": "Chat SDK with AI Gateway",
+      "url": "https://vercel.com/docs/chat-sdk/integrations/ai-gateway",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/integrations/ai-gateway.md"
+    },
+    {
+      "title": "Chat SDK with Vercel Connect",
+      "url": "https://vercel.com/docs/chat-sdk/integrations/connect",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/integrations/connect.md"
+    },
+    {
+      "title": "Chat SDK with Vercel Sandbox",
+      "url": "https://vercel.com/docs/chat-sdk/integrations/sandbox",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/integrations/sandbox.md"
+    },
+    {
+      "title": "Chat SDK with Vercel Workflows",
+      "url": "https://vercel.com/docs/chat-sdk/integrations/workflows",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/integrations/workflows.md"
     },
     {
       "title": "Getting Started with Chat SDK",
@@ -8040,6 +8065,11 @@
       "title": "OpenCode",
       "url": "https://vercel.com/docs/sandbox/ecosystem/opencode",
       "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem/opencode.md"
+    },
+    {
+      "title": "Paseo",
+      "url": "https://vercel.com/docs/sandbox/ecosystem/paseo",
+      "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem/paseo.md"
     },
     {
       "title": "TanStack AI with Vercel Sandbox",
