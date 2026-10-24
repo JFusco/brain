@@ -477,6 +477,268 @@
     {
       "installPolicy": "reference-only",
       "preferred": false,
+      "id": "content-hub-docs",
+      "vendor": "sitecore",
+      "domains": [
+        "cms/sitecore-ai"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "doc.sitecore.com"
+      ],
+      "includePrefixes": [
+        "/ch/developers/cloud-dev/"
+      ],
+      "maxPages": 5000,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "applicability": "Official Sitecore Content Hub cloud developer documentation link catalog (REST APIs, fetch jobs, entities, upload, throttling, SDKs and scripting); excludes the separate API-reference class pages. The upstream sitemap strips '/en' from paths whose page names start with 'en' (for example the entity REST resources); those pages are restored as additional pages. Page content is fetched selectively, not mirrored.",
+      "additionalPages": [
+        {
+          "title": "encryption and cryptography",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/encryption-and-cryptography.html"
+        },
+        {
+          "title": "entities client 1523389",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entities-client-1523389.html"
+        },
+        {
+          "title": "entities client 1523446",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entities-client-1523446.html"
+        },
+        {
+          "title": "entities client",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entities-client.html"
+        },
+        {
+          "title": "entity 1523348",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-1523348.html"
+        },
+        {
+          "title": "entity collection",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-collection.html"
+        },
+        {
+          "title": "entity definition basic collection",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition-basic-collection.html"
+        },
+        {
+          "title": "entity definition basic",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition-basic.html"
+        },
+        {
+          "title": "entity definition collection",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition-collection.html"
+        },
+        {
+          "title": "entity definition",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition.html"
+        },
+        {
+          "title": "entity definitions client 1523390",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definitions-client-1523390.html"
+        },
+        {
+          "title": "entity definitions client 1523447",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definitions-client-1523447.html"
+        },
+        {
+          "title": "entity definitions client",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definitions-client.html"
+        },
+        {
+          "title": "entity factory 1523465",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-factory-1523465.html"
+        },
+        {
+          "title": "entity factory",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-factory.html"
+        },
+        {
+          "title": "entity ids",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-ids.html"
+        },
+        {
+          "title": "entity relation 1523352",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-relation-1523352.html"
+        },
+        {
+          "title": "entity relation",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-relation.html"
+        },
+        {
+          "title": "entity",
+          "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity.html"
+        }
+      ]
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "id": "content-hub-user-docs",
+      "vendor": "sitecore",
+      "domains": [
+        "cms/sitecore-ai"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://doc.sitecore.com/ch/en/users/content-hub/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "doc.sitecore.com"
+      ],
+      "includePrefixes": [
+        "/ch/users/content-hub/"
+      ],
+      "maxPages": 5000,
+      "license": "Official documentation under upstream terms; no open license asserted",
+      "applicability": "Official Sitecore Content Hub user documentation link catalog (DAM asset upload, import, metadata and administration guidance). The upstream sitemap strips '/en' from paths whose page names start with 'en'; those pages are restored as additional pages. Page content is fetched selectively, not mirrored.",
+      "additionalPages": [
+        {
+          "title": "enable a color profile application wide",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-a-color-profile-application-wide.html"
+        },
+        {
+          "title": "enable a rendition for watermarking",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-a-rendition-for-watermarking.html"
+        },
+        {
+          "title": "enable ai assisted metadata enrichment",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-ai-assisted-metadata-enrichment.html"
+        },
+        {
+          "title": "enable and disable the variant functionality",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-and-disable-the-variant-functionality.html"
+        },
+        {
+          "title": "enable automatic metadata enrichment on upload",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-automatic-metadata-enrichment-on-upload.html"
+        },
+        {
+          "title": "enable campaigns",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-campaigns.html"
+        },
+        {
+          "title": "enable clouddrive",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-clouddrive.html"
+        },
+        {
+          "title": "enable collections for a definition",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-collections-for-a-definition.html"
+        },
+        {
+          "title": "enable drafts",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-drafts.html"
+        },
+        {
+          "title": "enable image or video ai analysis 1522601",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-image-or-video-ai-analysis-1522601.html"
+        },
+        {
+          "title": "enable image or video ai analysis",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-image-or-video-ai-analysis.html"
+        },
+        {
+          "title": "enable m rendition transformation",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-m-rendition-transformation.html"
+        },
+        {
+          "title": "enable projects for a definition",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-projects-for-a-definition.html"
+        },
+        {
+          "title": "enable state flows",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-state-flows.html"
+        },
+        {
+          "title": "enable the brand assistant",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-the-brand-assistant.html"
+        },
+        {
+          "title": "enable the creation from templates option",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-the-creation-from-templates-option.html"
+        },
+        {
+          "title": "enable the external asset picker in the rich text editor",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-the-external-asset-picker-in-the-rich-text-editor.html"
+        },
+        {
+          "title": "enable visual search",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/enable-visual-search.html"
+        },
+        {
+          "title": "entities",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entities.html"
+        },
+        {
+          "title": "entity comments",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-comments.html"
+        },
+        {
+          "title": "entity content",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-content.html"
+        },
+        {
+          "title": "entity definition",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-definition.html"
+        },
+        {
+          "title": "entity detail filters",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-detail-filters.html"
+        },
+        {
+          "title": "entity detail members",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-detail-members.html"
+        },
+        {
+          "title": "entity detail settings",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-detail-settings.html"
+        },
+        {
+          "title": "entity details",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-details.html"
+        },
+        {
+          "title": "entity history",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-history.html"
+        },
+        {
+          "title": "entity image",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-image.html"
+        },
+        {
+          "title": "entity indicators",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-indicators.html"
+        },
+        {
+          "title": "entity list",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-list.html"
+        },
+        {
+          "title": "entity operations",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-operations.html"
+        },
+        {
+          "title": "entity public links",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-public-links.html"
+        },
+        {
+          "title": "entity rating",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-rating.html"
+        },
+        {
+          "title": "entity renditions",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-renditions.html"
+        },
+        {
+          "title": "entity templates",
+          "url": "https://doc.sitecore.com/ch/users/content-hub/entity-templates.html"
+        }
+      ]
+    },
+    {
+      "installPolicy": "reference-only",
+      "preferred": false,
       "id": "sitecore-xp-docs",
       "vendor": "sitecore",
       "domains": [

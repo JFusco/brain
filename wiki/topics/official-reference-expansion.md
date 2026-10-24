@@ -34,3 +34,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## web.dev performance
 
 [Issue 123](https://github.com/JFusco/brain/issues/123) expands the existing pointers into a bounded Learn Performance course catalog. The explicitly selected static HTML index admits only `web.dev/learn/performance/` module links, with one-index and 64-page limits. The course and Core Web Vitals pointers remain available. This deliberately avoids a full-site sitemap crawl, translation duplicates and claims of measured performance. Historical sitemap failures remain history, not evidence against the successfully retrieved course index.
+
+## Sitecore Content Hub
+
+[Issue 161](https://github.com/JFusco/brain/issues/161) adds the Content Hub (DAM) cloud developer and user documentation sitemaps to `cms/sitecore-ai` as two bounded link catalogs. Pages the upstream sitemaps list without their `/en` segment are restored explicitly as additional pages rather than by widening the include prefix. API-reference class pages remain outside the catalogs. Content Hub documentation does not establish compatibility with SitecoreAI or Content SDK versions.
