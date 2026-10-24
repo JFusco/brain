@@ -1093,7 +1093,7 @@
     {
       "domain": "commerce/salesforce-b2b",
       "url": "https://developer.salesforce.com/docs/commerce/salesforce-commerce/overview",
-      "reason": "Official B2B Commerce Developer Guide (LWR storefronts, custom components, checkout and APIs). Salesforce refuses plain HTTP fetchers, including Brain and agent web-fetch tools, with HTTP 403; open it in a real browser (for example browser automation) and confirm the org release and template."
+      "reason": "Official B2B Commerce Developer Guide (LWR storefronts, custom components, checkout and APIs). Salesforce refuses Brain's fetcher and agent web-fetch tools with HTTP 403; open it in a desktop browser (an interactive session was not tested) and confirm the org release and template."
     },
     {
       "domain": "commerce/salesforce-b2b",
@@ -1103,7 +1103,7 @@
     {
       "domain": "commerce/salesforce-b2b",
       "url": "https://developer.salesforce.com/docs/llms-commerce-cloud.txt",
-      "reason": "Official Commerce Cloud Markdown index listing the B2B Commerce guide and migration pages as .md links; it also covers B2C products, which do not apply here. Plain HTTP fetchers, including Brain, receive HTTP 403."
+      "reason": "Official Commerce Cloud Markdown index listing the B2B Commerce guide and migration pages as .md links; it also covers B2C products, which do not apply here. Brain's fetcher and agent web-fetch tools receive HTTP 403."
     }
   ]
 }
