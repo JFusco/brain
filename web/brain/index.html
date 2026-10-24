@@ -1,24 +1,138 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Brain — living knowledge</title></head>
-<body>
-  <div id="scene" aria-hidden="true"></div>
-  <header><a class="brand" href="/">BRAIN</a><div id="inventory" aria-label="Indexed knowledge"></div><button id="pending-summary" aria-expanded="false">Pending teachings</button><div class="connection"><i id="signal"></i><span id="connection">Connecting</span></div></header>
-  <main>
-    <aside id="intake-panel" hidden aria-label="Pending teachings"><h2>Pending teachings</h2><p>Violet clusters group captured lessons by domain while they await curation. They are not published knowledge.</p><ul id="intake-domains"></ul></aside>
-    <div id="search-state" role="status" hidden></div>
-    <div id="capture-state" role="status" hidden>Capture received · nebula forming · pending curation</div>
-    <div id="star-labels"></div>
-    <button id="overview" hidden>← Back to galaxy</button><div id="focus-caption" hidden><strong id="focus-title"></strong><span id="focus-count"></span></div>
-    <aside id="details" hidden><button id="close" aria-label="Close knowledge details">×</button><p class="eyebrow" id="detail-kind"></p><h2 id="detail-title"></h2><p id="detail-health"></p><div id="detail-metrics"></div><div id="detail-links"></div><section id="explanation" aria-label="Guidance context"><h3>When to use this</h3><p id="detail-applicability"></p><div id="detail-branches"></div><div id="compare-controls"></div><div id="comparison" aria-live="polite"></div></section><section id="feedback" hidden aria-label="Your usefulness feedback"><h3>Was this note useful?</h3><p>One local response for this note version. It does not change ranking or verify the advice.</p><div id="feedback-buttons"></div><p id="feedback-status" role="status"></p></section><article id="note" aria-label="Knowledge content"></article><h3>Why these connections exist</h3><ul id="relationships"></ul><h3>Suggested next reading</h3><ul id="next-reading"></ul></aside>
-    <aside id="briefing-panel" hidden aria-label="Task evidence briefing"><button id="close-briefing" aria-label="Close briefing">×</button><h2>Task evidence briefing</h2><div id="briefing-content"></div></aside>
-    <details class="telemetry"><summary>Activity details <span>↗</span></summary><section class="dashboard-lists" aria-label="Activity details"><div><h3>Domain coverage</h3><div id="coverage"></div></div><div><h3>Recent activity</h3><ul id="activity"></ul></div><div><h3>Frequently used</h3><ol id="popular"></ol></div><p id="history">Counts represent recorded activity.</p></section></details>
-    <div class="legend"><span>Knowledge</span><span>Flowing lines · relationships</span><span class="amber">Needs attention</span><span class="pending">Pending teachings</span><span class="fresh">New</span><span class="white">Activity</span></div>
-    <div class="dock">
-      <section class="dashboard" aria-label="Brain metrics"><div class="dashboard-top"><span class="eyebrow">RECORDED ACTIVITY</span><select id="period" aria-label="Usage time period"><option value="today">Today</option><option value="week">Last 7 days</option><option value="all">All time</option></select><label class="heat"><input id="heat" type="checkbox"> Heat</label><span id="activity-state">Awaiting activity</span></div><div id="totals"></div></section>
-      <section class="search-panel" aria-label="Search knowledge"><form id="search"><label class="sr-only" for="query">Find a lesson or reference</label><div class="search-row"><input id="query" placeholder="Search knowledge…" required maxlength="2000"><button type="submit" id="submit" aria-label="Search knowledge">Search ↗</button></div><div class="filters"><select id="domain" aria-label="Knowledge domain"><option value="">All domains</option></select><input id="versions" placeholder="Package versions (optional)" aria-label="Optional package versions"></div></form><div class="guidance-actions"><button id="make-brief" type="button">Prepare task brief</button><button id="show-playbooks" type="button">Browse playbooks</button></div><p id="status" role="status">Loading committed knowledge…</p><ol id="results" aria-label="Ranked evidence"></ol></section>
-    </div>
-  </main>
-  <footer><span id="snapshot"></span><span>LOCAL STORAGE · LIVE ACTIVITY</span></footer>
-  <script type="module" src="/src.js"></script>
-</body></html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brain — living knowledge</title>
+  </head>
+  <body>
+    <div id="scene" aria-hidden="true"></div>
+    <header>
+      <a class="brand" href="/">BRAIN</a>
+      <div id="inventory" aria-label="Indexed knowledge"></div>
+      <button id="pending-summary" aria-expanded="false">Pending teachings</button>
+      <div class="connection"><i id="signal"></i><span id="connection">Connecting</span></div>
+    </header>
+    <main>
+      <aside id="intake-panel" hidden aria-label="Pending teachings">
+        <h2>Pending teachings</h2>
+        <p>
+          Violet clusters group captured lessons by domain while they await curation. They are not
+          published knowledge.
+        </p>
+        <ul id="intake-domains"></ul>
+      </aside>
+      <div id="search-state" role="status" hidden></div>
+      <div id="capture-state" role="status" hidden>
+        Capture received · nebula forming · pending curation
+      </div>
+      <div id="star-labels"></div>
+      <button id="overview" hidden>← Back to galaxy</button>
+      <div id="focus-caption" hidden>
+        <strong id="focus-title"></strong><span id="focus-count"></span>
+      </div>
+      <aside id="details" hidden>
+        <button id="close" aria-label="Close knowledge details">×</button>
+        <p class="eyebrow" id="detail-kind"></p>
+        <h2 id="detail-title"></h2>
+        <p id="detail-health"></p>
+        <div id="detail-metrics"></div>
+        <div id="detail-links"></div>
+        <section id="explanation" aria-label="Guidance context">
+          <h3>When to use this</h3>
+          <p id="detail-applicability"></p>
+          <div id="detail-branches"></div>
+          <div id="compare-controls"></div>
+          <div id="comparison" aria-live="polite"></div>
+        </section>
+        <section id="feedback" hidden aria-label="Your usefulness feedback">
+          <h3>Was this note useful?</h3>
+          <p>
+            One local response for this note version. It does not change ranking or verify the
+            advice.
+          </p>
+          <div id="feedback-buttons"></div>
+          <p id="feedback-status" role="status"></p>
+        </section>
+        <article id="note" aria-label="Knowledge content"></article>
+        <h3>Why these connections exist</h3>
+        <ul id="relationships"></ul>
+        <h3>Suggested next reading</h3>
+        <ul id="next-reading"></ul>
+      </aside>
+      <aside id="briefing-panel" hidden aria-label="Task evidence briefing">
+        <button id="close-briefing" aria-label="Close briefing">×</button>
+        <h2>Task evidence briefing</h2>
+        <div id="briefing-content"></div>
+      </aside>
+      <details class="telemetry">
+        <summary>Activity details <span>↗</span></summary>
+        <section class="dashboard-lists" aria-label="Activity details">
+          <div>
+            <h3>Domain coverage</h3>
+            <div id="coverage"></div>
+          </div>
+          <div>
+            <h3>Recent activity</h3>
+            <ul id="activity"></ul>
+          </div>
+          <div>
+            <h3>Frequently used</h3>
+            <ol id="popular"></ol>
+          </div>
+          <p id="history">Counts represent recorded activity.</p>
+        </section>
+      </details>
+      <div class="legend">
+        <span>Knowledge</span><span>Flowing lines · relationships</span
+        ><span class="amber">Needs attention</span><span class="pending">Pending teachings</span
+        ><span class="fresh">New</span><span class="white">Activity</span>
+      </div>
+      <div class="dock">
+        <section class="dashboard" aria-label="Brain metrics">
+          <div class="dashboard-top">
+            <span class="eyebrow">RECORDED ACTIVITY</span
+            ><select id="period" aria-label="Usage time period">
+              <option value="today">Today</option>
+              <option value="week">Last 7 days</option>
+              <option value="all">All time</option></select
+            ><label class="heat"><input id="heat" type="checkbox" /> Heat</label
+            ><span id="activity-state">Awaiting activity</span>
+          </div>
+          <div id="totals"></div>
+        </section>
+        <section class="search-panel" aria-label="Search knowledge">
+          <form id="search">
+            <label class="sr-only" for="query">Find a lesson or reference</label>
+            <div class="search-row">
+              <input id="query" placeholder="Search knowledge…" required maxlength="2000" /><button
+                type="submit"
+                id="submit"
+                aria-label="Search knowledge"
+              >
+                Search ↗
+              </button>
+            </div>
+            <div class="filters">
+              <select id="domain" aria-label="Knowledge domain">
+                <option value="">All domains</option></select
+              ><input
+                id="versions"
+                placeholder="Package versions (optional)"
+                aria-label="Optional package versions"
+              />
+            </div>
+          </form>
+          <div class="guidance-actions">
+            <button id="make-brief" type="button">Prepare task brief</button
+            ><button id="show-playbooks" type="button">Browse playbooks</button>
+          </div>
+          <p id="status" role="status">Loading committed knowledge…</p>
+          <ol id="results" aria-label="Ranked evidence"></ol>
+        </section>
+      </div>
+    </main>
+    <footer><span id="snapshot"></span><span>LOCAL STORAGE · LIVE ACTIVITY</span></footer>
+    <script type="module" src="/src.js"></script>
+  </body>
+</html>

@@ -8,7 +8,7 @@ inbox/
 .state/
 *.md
 *.yml
-package-lock.json
+pnpm-lock.yaml
 brain.config*.json
 node_modules/
 web/brain/dist/

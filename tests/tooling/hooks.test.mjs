@@ -58,3 +58,22 @@ test('commit-msg rejects messages outside the commit standard', t => {
   assert.notEqual(result.status, 0);
   assert.match(result.stdout + result.stderr, /type-empty|subject-empty/);
 });
+
+test('staged JavaScript must pass lint and formatting before commit', t => {
+  const repo = fixture(t);
+  const write = (name, text) => {
+    fs.writeFileSync(path.join(repo.root, name), text);
+    assert.equal(run('git', ['add', name], { cwd: repo.root, env: repo.env }).status, 0);
+  };
+  write('bad-lint.mjs', 'const unused = 1;\n');
+  const unlinted = commit(repo);
+  assert.notEqual(unlinted.status, 0);
+  assert.match(unlinted.stdout + unlinted.stderr, /no-unused-vars/);
+  run('git', ['rm', '--cached', '-q', 'bad-lint.mjs'], { cwd: repo.root, env: repo.env });
+  write('bad-format.mjs', 'export const x = {a:1};\n');
+  const unformatted = commit(repo);
+  assert.notEqual(unformatted.status, 0);
+  assert.match(unformatted.stdout + unformatted.stderr, /\[warn\] bad-format\.mjs/);
+  write('bad-format.mjs', 'export const x = { a: 1 };\n');
+  assert.equal(commit(repo).status, 0);
+});

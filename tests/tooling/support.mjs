@@ -54,17 +54,17 @@ export function fixture(t) {
   };
   for (const [file, name] of Object.entries(stubs))
     fs.writeFileSync(path.join(root, file), STUB(name, file));
-  // Real commitlint: the commit-msg hook resolves it from the repository's dependencies.
-  fs.copyFileSync(
-    path.join(ROOT, 'commitlint.config.cjs'),
-    path.join(root, 'commitlint.config.cjs'),
-  );
+  // Real commitlint, ESLint and Prettier, resolved from the repository's dependencies.
+  for (const config of ['commitlint.config.cjs', 'eslint.config.js', '.prettierrc.json']) {
+    fs.copyFileSync(path.join(ROOT, config), path.join(root, config));
+  }
   fs.symlinkSync(path.join(ROOT, 'node_modules'), path.join(root, 'node_modules'));
   fs.writeFileSync(path.join(root, '.gitignore'), 'node_modules\n.hook-log\n');
   fs.writeFileSync(
     path.join(root, 'package.json'),
     JSON.stringify({
       private: true,
+      type: 'module',
       // Fails with 9 if Git-local variables leak into the gate.
       scripts: {
         'verify:push':
