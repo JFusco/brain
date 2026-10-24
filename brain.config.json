@@ -30,6 +30,7 @@
     "security",
     "semantics",
     "tooling",
+    "design-systems",
     "_unsorted"
   ],
   "capture": {
@@ -161,6 +162,12 @@
       "pnpm-workspace",
       "pnpm-lock",
       "turborepo"
+    ],
+    "design-systems": [
+      "design token",
+      "dtcg",
+      "figma",
+      "code connect"
     ]
   },
   "network": {

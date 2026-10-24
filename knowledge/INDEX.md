@@ -25,6 +25,7 @@ Open the relevant domain, then only the pages it routes to. Official sections ar
 - [Contentful](cms/contentful/INDEX.md)
 - [WordPress](cms/wordpress/INDEX.md)
 - [Tooling (build, test, lint, packages)](tooling/INDEX.md)
+- [Design systems (tokens, design-to-code)](design-systems/INDEX.md)
 - [Unsorted learnings and agent tooling](_unsorted/INDEX.md)
 
 ## How to apply sources
