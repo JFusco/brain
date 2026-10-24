@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "source": "vite-docs",
+  "revision": "3775d0f7cb461ad88a27fa13ae51dbc82d130d09febbe7e9796894b5ce1152ef",
+  "origin": "https://vite.dev/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "changes",
+      "url": "https://vite.dev/changes/",
+      "fetchUrl": "https://vite.dev/changes.md"
+    },
+    {
+      "title": "changes / hotupdate hook",
+      "url": "https://vite.dev/changes/hotupdate-hook",
+      "fetchUrl": "https://vite.dev/changes/hotupdate-hook.md"
+    },
+    {
+      "title": "changes / per environment apis",
+      "url": "https://vite.dev/changes/per-environment-apis",
+      "fetchUrl": "https://vite.dev/changes/per-environment-apis.md"
+    },
+    {
+      "title": "changes / shared plugins during build",
+      "url": "https://vite.dev/changes/shared-plugins-during-build",
+      "fetchUrl": "https://vite.dev/changes/shared-plugins-during-build.md"
+    },
+    {
+      "title": "changes / ssr using modulerunner",
+      "url": "https://vite.dev/changes/ssr-using-modulerunner",
+      "fetchUrl": "https://vite.dev/changes/ssr-using-modulerunner.md"
+    },
+    {
+      "title": "changes / this environment in hooks",
+      "url": "https://vite.dev/changes/this-environment-in-hooks",
+      "fetchUrl": "https://vite.dev/changes/this-environment-in-hooks.md"
+    },
+    {
+      "title": "config",
+      "url": "https://vite.dev/config/",
+      "fetchUrl": "https://vite.dev/config.md"
+    },
+    {
+      "title": "config / build options",
+      "url": "https://vite.dev/config/build-options",
+      "fetchUrl": "https://vite.dev/config/build-options.md"
+    },
+    {
+      "title": "config / dep optimization options",
+      "url": "https://vite.dev/config/dep-optimization-options",
+      "fetchUrl": "https://vite.dev/config/dep-optimization-options.md"
+    },
+    {
+      "title": "config / preview options",
+      "url": "https://vite.dev/config/preview-options",
+      "fetchUrl": "https://vite.dev/config/preview-options.md"
+    },
+    {
+      "title": "config / server options",
+      "url": "https://vite.dev/config/server-options",
+      "fetchUrl": "https://vite.dev/config/server-options.md"
+    },
+    {
+      "title": "config / shared options",
+      "url": "https://vite.dev/config/shared-options",
+      "fetchUrl": "https://vite.dev/config/shared-options.md"
+    },
+    {
+      "title": "config / ssr options",
+      "url": "https://vite.dev/config/ssr-options",
+      "fetchUrl": "https://vite.dev/config/ssr-options.md"
+    },
+    {
+      "title": "config / worker options",
+      "url": "https://vite.dev/config/worker-options",
+      "fetchUrl": "https://vite.dev/config/worker-options.md"
+    },
+    {
+      "title": "guide",
+      "url": "https://vite.dev/guide/",
+      "fetchUrl": "https://vite.dev/guide.md"
+    },
+    {
+      "title": "guide / api environment",
+      "url": "https://vite.dev/guide/api-environment",
+      "fetchUrl": "https://vite.dev/guide/api-environment.md"
+    },
+    {
+      "title": "guide / api environment frameworks",
+      "url": "https://vite.dev/guide/api-environment-frameworks",
+      "fetchUrl": "https://vite.dev/guide/api-environment-frameworks.md"
+    },
+    {
+      "title": "guide / api environment instances",
+      "url": "https://vite.dev/guide/api-environment-instances",
+      "fetchUrl": "https://vite.dev/guide/api-environment-instances.md"
+    },
+    {
+      "title": "guide / api environment plugins",
+      "url": "https://vite.dev/guide/api-environment-plugins",
+      "fetchUrl": "https://vite.dev/guide/api-environment-plugins.md"
+    },
+    {
+      "title": "guide / api environment runtimes",
+      "url": "https://vite.dev/guide/api-environment-runtimes",
+      "fetchUrl": "https://vite.dev/guide/api-environment-runtimes.md"
+    },
+    {
+      "title": "guide / api hmr",
+      "url": "https://vite.dev/guide/api-hmr",
+      "fetchUrl": "https://vite.dev/guide/api-hmr.md"
+    },
+    {
+      "title": "guide / api javascript",
+      "url": "https://vite.dev/guide/api-javascript",
+      "fetchUrl": "https://vite.dev/guide/api-javascript.md"
+    },
+    {
+      "title": "guide / api plugin",
+      "url": "https://vite.dev/guide/api-plugin",
+      "fetchUrl": "https://vite.dev/guide/api-plugin.md"
+    },
+    {
+      "title": "guide / assets",
+      "url": "https://vite.dev/guide/assets",
+      "fetchUrl": "https://vite.dev/guide/assets.md"
+    },
+    {
+      "title": "guide / backend integration",
+      "url": "https://vite.dev/guide/backend-integration",
+      "fetchUrl": "https://vite.dev/guide/backend-integration.md"
+    },
+    {
+      "title": "guide / build",
+      "url": "https://vite.dev/guide/build",
+      "fetchUrl": "https://vite.dev/guide/build.md"
+    },
+    {
+      "title": "guide / cli",
+      "url": "https://vite.dev/guide/cli",
+      "fetchUrl": "https://vite.dev/guide/cli.md"
+    },
+    {
+      "title": "guide / dep pre bundling",
+      "url": "https://vite.dev/guide/dep-pre-bundling",
+      "fetchUrl": "https://vite.dev/guide/dep-pre-bundling.md"
+    },
+    {
+      "title": "guide / env and mode",
+      "url": "https://vite.dev/guide/env-and-mode",
+      "fetchUrl": "https://vite.dev/guide/env-and-mode.md"
+    },
+    {
+      "title": "guide / features",
+      "url": "https://vite.dev/guide/features",
+      "fetchUrl": "https://vite.dev/guide/features.md"
+    },
+    {
+      "title": "guide / migration",
+      "url": "https://vite.dev/guide/migration",
+      "fetchUrl": "https://vite.dev/guide/migration.md"
+    },
+    {
+      "title": "guide / performance",
+      "url": "https://vite.dev/guide/performance",
+      "fetchUrl": "https://vite.dev/guide/performance.md"
+    },
+    {
+      "title": "guide / philosophy",
+      "url": "https://vite.dev/guide/philosophy",
+      "fetchUrl": "https://vite.dev/guide/philosophy.md"
+    },
+    {
+      "title": "guide / ssr",
+      "url": "https://vite.dev/guide/ssr",
+      "fetchUrl": "https://vite.dev/guide/ssr.md"
+    },
+    {
+      "title": "guide / static deploy",
+      "url": "https://vite.dev/guide/static-deploy",
+      "fetchUrl": "https://vite.dev/guide/static-deploy.md"
+    },
+    {
+      "title": "guide / troubleshooting",
+      "url": "https://vite.dev/guide/troubleshooting",
+      "fetchUrl": "https://vite.dev/guide/troubleshooting.md"
+    },
+    {
+      "title": "guide / using plugins",
+      "url": "https://vite.dev/guide/using-plugins",
+      "fetchUrl": "https://vite.dev/guide/using-plugins.md"
+    },
+    {
+      "title": "guide / why",
+      "url": "https://vite.dev/guide/why",
+      "fetchUrl": "https://vite.dev/guide/why.md"
+    }
+  ],
+  "referenceIssues": []
+}
