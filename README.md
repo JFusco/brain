@@ -474,6 +474,7 @@ code change; routine catalog-refresh PRs still exclude dependency upgrades.
 | WordPress | [Developer handbook sitemap](https://developer.wordpress.org/sitemap.xml): 1,013 links across blocks, themes, plugins, REST API, common APIs, advanced administration and coding standards at registration; [official agent skills](https://github.com/WordPress/agent-skills) are searchable references |
 | SitecoreAI | [Platform developer manual catalog](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml): 407 links at registration, plus [official Content SDK skills and references](https://github.com/Sitecore/content-sdk). Content Hub (DAM): [cloud developer catalog](https://doc.sitecore.com/ch/en/developers/cloud-dev/sitemap.xml) with 387 links and [user documentation catalog](https://doc.sitecore.com/ch/en/users/content-hub/sitemap.xml) with 731 links at registration, including pages whose sitemap paths lost their `/en` segment upstream; the separate API-reference class pages are excluded |
 | Sitecore XP 10.4 | [Experience Manager developer manual catalog](https://doc.sitecore.com/xp/en/developers/104/sitecore-experience-manager/sitemap.xml): 393 links at registration; separate Experience Platform, administration, developer-tools and managed-cloud manuals are outside this catalog |
+| Salesforce B2B Commerce | Website pointers only: the [B2B Commerce Developer Guide](https://developer.salesforce.com/docs/commerce/salesforce-commerce/overview), the [Aura to LWR Migration Guide](https://developer.salesforce.com/docs/commerce/lwr-migration/guide/get-started.html) and the [Commerce Cloud Markdown index](https://developer.salesforce.com/docs/llms-commerce-cloud.txt). The index answers ordinary clients but refuses Brain's fetcher with HTTP 403, so no catalog is registered |
 
 Coverage is reviewed weekly against the watch list below, and each addition is a separate registration PR. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. Routine refresh never adds sources.
 
@@ -512,7 +513,7 @@ The weekly coverage review checks these official places for new documentation in
 | WordPress | developer.wordpress.org (`sitemap.xml`), github.com/WordPress, make.wordpress.org/ai |
 | Tooling | Candidates, not yet registered: vite.dev, vitest.dev, storybook.js.org, testing-library.com, eslint.org, pnpm.io, turborepo.dev and their official GitHub repositories (Turborepo: github.com/vercel/turborepo) |
 | Design systems | Candidates, not yet registered: www.designtokens.org (Design Tokens Community Group format), developers.figma.com (REST API, plugins, Code Connect), github.com/design-tokens, github.com/figma |
-| Salesforce B2B Commerce | Candidates, not yet registered: developer.salesforce.com (Commerce developer documentation), help.salesforce.com, github.com/forcedotcom |
+| Salesforce B2B Commerce | developer.salesforce.com/docs (`llms.txt`, `llms-commerce-cloud.txt`; Brain's fetcher currently receives HTTP 403), help.salesforce.com, github.com/forcedotcom |
 
 ## Project skills
 

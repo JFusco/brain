@@ -1089,6 +1089,21 @@
       "domain": "semantics",
       "url": "https://docs.optimizely.com/graph/docs/semantic-search.md",
       "reason": "Optimizely Graph semantic search; experimental product feature. Confirm current availability and limitations for the target Graph deployment. Pointer only."
+    },
+    {
+      "domain": "commerce/salesforce-b2b",
+      "url": "https://developer.salesforce.com/docs/commerce/salesforce-commerce/overview",
+      "reason": "Official B2B Commerce Developer Guide (LWR storefronts, custom components, checkout and APIs). The Commerce Cloud index refuses Brain's fetcher with HTTP 403, so open it with agent browsing tools and confirm the org release and template."
+    },
+    {
+      "domain": "commerce/salesforce-b2b",
+      "url": "https://developer.salesforce.com/docs/commerce/lwr-migration/guide/get-started.html",
+      "reason": "Official B2B Commerce Aura to LWR Migration Guide. Confirm the store's current template before applying migration steps."
+    },
+    {
+      "domain": "commerce/salesforce-b2b",
+      "url": "https://developer.salesforce.com/docs/llms-commerce-cloud.txt",
+      "reason": "Official Commerce Cloud Markdown index listing the B2B Commerce guide and migration pages as .md links; it also covers B2C products, which do not apply here. Brain's fetcher receives HTTP 403."
     }
   ]
 }
