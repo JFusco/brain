@@ -27,4 +27,6 @@ No curated notes yet.
   - [Catalog source](https://vite.dev/sitemap.xml); search it with `lookup --domain tooling`.
 - **vitest-docs** — link catalog of 213 pages; rolling-url; revision `9fc16ed9694188c784244565756b0eb6ecb3f6bbd111f2cb97479f821cc88adb`; fetched 2026-10-24.
   - [Catalog source](https://vitest.dev/llms.txt); search it with `lookup --domain tooling`.
+- **storybook-docs** — link catalog of 160 pages; rolling-url; revision `1edcef5c976598a8ddfd5f008a2781b02ceaf2299922ccc1d6a9347db5e5644a`; fetched 2026-10-24.
+  - [Catalog source](https://storybook.js.org/docs/sitemap.xml); search it with `lookup --domain tooling`.
 <!-- brain:official:end -->

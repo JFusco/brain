@@ -198,6 +198,12 @@
       "fetchedAt": "2026-10-24T21:39:55.081Z",
       "track": "rolling-url",
       "catalogSha256": "5447bf62633a0fb6e47a5010a633c1f1622e2ced58d859127452ad4400461054"
+    },
+    "storybook-docs": {
+      "revision": "1edcef5c976598a8ddfd5f008a2781b02ceaf2299922ccc1d6a9347db5e5644a",
+      "fetchedAt": "2026-10-24T21:43:50.845Z",
+      "track": "rolling-url",
+      "catalogSha256": "13c81b98f5fbad4930bfb29bd50b8325121c426e42131a1fa9f336a71c7c6394"
     }
   },
   "toolchain": {

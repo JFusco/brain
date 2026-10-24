@@ -62,3 +62,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## Vitest
 
 [Issue 185](https://github.com/JFusco/brain/issues/185) adds Vitest to Tooling. `vitest.dev` has no sitemap, but its official `llms.txt` is a Markdown table of contents of relative `.md` links, so the source is a Markdown-index collection limited to `/config`, `/guide` and `/api/`, with a 400-page ceiling. Rolling documentation tracks the current Vitest major.
+
+## Storybook
+
+[Issue 187](https://github.com/JFusco/brain/issues/187) adds Storybook to Tooling from the docs sitemap linked by the official sitemap index, because `storybook.js.org/llms.txt` links only section roots. The source includes `/docs` and excludes `/docs/contribute`; both prefixes omit a trailing slash so the docs root is kept and the contributor root is dropped. Titles are path-derived, as in other sitemap catalogs. Rolling documentation covers the current Storybook major and does not establish compatibility with an installed version or framework package.
