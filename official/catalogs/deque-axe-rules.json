@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 1,
+  "source": "deque-axe-rules",
+  "revision": "0edc1bd6f9fca94158da6bbc22c5c90b882ba88581f0b5d841d5183c1629ffbf",
+  "origin": "https://dequeuniversity.com/rules/axe/4.14",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "accesskeys",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/accesskeys",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/accesskeys"
+    },
+    {
+      "title": "area-alt",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/area-alt",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/area-alt"
+    },
+    {
+      "title": "aria-allowed-attr",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr"
+    },
+    {
+      "title": "aria-allowed-role",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-role"
+    },
+    {
+      "title": "aria-braille-equivalent",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-braille-equivalent",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-braille-equivalent"
+    },
+    {
+      "title": "aria-command-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name"
+    },
+    {
+      "title": "aria-conditional-attr",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-conditional-attr",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-conditional-attr"
+    },
+    {
+      "title": "aria-deprecated-role",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-deprecated-role",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-deprecated-role"
+    },
+    {
+      "title": "aria-dialog-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-dialog-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-dialog-name"
+    },
+    {
+      "title": "aria-hidden-body",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-body",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-body"
+    },
+    {
+      "title": "aria-hidden-focus",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus"
+    },
+    {
+      "title": "aria-input-field-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-input-field-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-input-field-name"
+    },
+    {
+      "title": "aria-meter-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-meter-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-meter-name"
+    },
+    {
+      "title": "aria-progressbar-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-progressbar-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-progressbar-name"
+    },
+    {
+      "title": "aria-prohibited-attr",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr"
+    },
+    {
+      "title": "aria-required-attr",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-required-attr",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-attr"
+    },
+    {
+      "title": "aria-required-children",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children"
+    },
+    {
+      "title": "aria-required-parent",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-required-parent",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-parent"
+    },
+    {
+      "title": "aria-roledescription",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-roledescription",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-roledescription"
+    },
+    {
+      "title": "aria-roles",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-roles",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-roles"
+    },
+    {
+      "title": "aria-tab-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-tab-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-tab-name"
+    },
+    {
+      "title": "aria-text",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-text",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-text"
+    },
+    {
+      "title": "aria-toggle-field-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-toggle-field-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-toggle-field-name"
+    },
+    {
+      "title": "aria-tooltip-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-tooltip-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-tooltip-name"
+    },
+    {
+      "title": "aria-treeitem-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-treeitem-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-treeitem-name"
+    },
+    {
+      "title": "aria-valid-attr",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-valid-attr",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-valid-attr"
+    },
+    {
+      "title": "aria-valid-attr-value",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/aria-valid-attr-value",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-valid-attr-value"
+    },
+    {
+      "title": "audio-caption",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/audio-caption",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/audio-caption"
+    },
+    {
+      "title": "autocomplete-valid",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/autocomplete-valid",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/autocomplete-valid"
+    },
+    {
+      "title": "avoid-inline-spacing",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/avoid-inline-spacing",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/avoid-inline-spacing"
+    },
+    {
+      "title": "blink",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/blink",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/blink"
+    },
+    {
+      "title": "button-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/button-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name"
+    },
+    {
+      "title": "bypass",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/bypass",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/bypass"
+    },
+    {
+      "title": "color-contrast",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/color-contrast",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast"
+    },
+    {
+      "title": "color-contrast-enhanced",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/color-contrast-enhanced",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast-enhanced"
+    },
+    {
+      "title": "css-orientation-lock",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/css-orientation-lock",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/css-orientation-lock"
+    },
+    {
+      "title": "definition-list",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/definition-list",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/definition-list"
+    },
+    {
+      "title": "dlitem",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/dlitem",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/dlitem"
+    },
+    {
+      "title": "document-title",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/document-title",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/document-title"
+    },
+    {
+      "title": "duplicate-id",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/duplicate-id",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/duplicate-id"
+    },
+    {
+      "title": "duplicate-id-active",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/duplicate-id-active",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/duplicate-id-active"
+    },
+    {
+      "title": "duplicate-id-aria",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/duplicate-id-aria",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/duplicate-id-aria"
+    },
+    {
+      "title": "empty-heading",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/empty-heading",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-heading"
+    },
+    {
+      "title": "empty-table-header",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/empty-table-header",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/empty-table-header"
+    },
+    {
+      "title": "focus-order-semantics",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/focus-order-semantics",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/focus-order-semantics"
+    },
+    {
+      "title": "form-field-multiple-labels",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/form-field-multiple-labels",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/form-field-multiple-labels"
+    },
+    {
+      "title": "frame-focusable-content",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/frame-focusable-content",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-focusable-content"
+    },
+    {
+      "title": "frame-tested",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/frame-tested",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-tested"
+    },
+    {
+      "title": "frame-title",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/frame-title",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title"
+    },
+    {
+      "title": "frame-title-unique",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/frame-title-unique",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title-unique"
+    },
+    {
+      "title": "heading-order",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/heading-order",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order"
+    },
+    {
+      "title": "hidden-content",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/hidden-content",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/hidden-content"
+    },
+    {
+      "title": "html-has-lang",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang"
+    },
+    {
+      "title": "html-lang-valid",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/html-lang-valid",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/html-lang-valid"
+    },
+    {
+      "title": "html-xml-lang-mismatch",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/html-xml-lang-mismatch",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/html-xml-lang-mismatch"
+    },
+    {
+      "title": "identical-links-same-purpose",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/identical-links-same-purpose",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/identical-links-same-purpose"
+    },
+    {
+      "title": "image-alt",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/image-alt",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt"
+    },
+    {
+      "title": "image-redundant-alt",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/image-redundant-alt"
+    },
+    {
+      "title": "input-button-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/input-button-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/input-button-name"
+    },
+    {
+      "title": "input-image-alt",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/input-image-alt",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/input-image-alt"
+    },
+    {
+      "title": "label",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/label",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/label"
+    },
+    {
+      "title": "label-content-name-mismatch",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch"
+    },
+    {
+      "title": "label-title-only",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/label-title-only",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/label-title-only"
+    },
+    {
+      "title": "landmark-banner-is-top-level",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/landmark-banner-is-top-level",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-banner-is-top-level"
+    },
+    {
+      "title": "landmark-complementary-is-top-level",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/landmark-complementary-is-top-level",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-complementary-is-top-level"
+    },
+    {
+      "title": "landmark-contentinfo-is-top-level",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/landmark-contentinfo-is-top-level",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-contentinfo-is-top-level"
+    },
+    {
+      "title": "landmark-main-is-top-level",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/landmark-main-is-top-level",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-main-is-top-level"
+    },
+    {
+      "title": "landmark-no-duplicate-banner",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-banner",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-banner"
+    },
+    {
+      "title": "landmark-no-duplicate-contentinfo",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-contentinfo",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-contentinfo"
+    },
+    {
+      "title": "landmark-no-duplicate-main",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-main",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-no-duplicate-main"
+    },
+    {
+      "title": "landmark-one-main",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-one-main"
+    },
+    {
+      "title": "landmark-unique",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/landmark-unique"
+    },
+    {
+      "title": "link-in-text-block",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block"
+    },
+    {
+      "title": "link-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/link-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name"
+    },
+    {
+      "title": "list",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/list",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/list"
+    },
+    {
+      "title": "listitem",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/listitem",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem"
+    },
+    {
+      "title": "marquee",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/marquee",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/marquee"
+    },
+    {
+      "title": "meta-refresh",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/meta-refresh",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-refresh"
+    },
+    {
+      "title": "meta-refresh-no-exceptions",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/meta-refresh-no-exceptions",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-refresh-no-exceptions"
+    },
+    {
+      "title": "meta-viewport",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport"
+    },
+    {
+      "title": "meta-viewport-large",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport-large",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport-large"
+    },
+    {
+      "title": "nested-interactive",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive"
+    },
+    {
+      "title": "no-autoplay-audio",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/no-autoplay-audio",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/no-autoplay-audio"
+    },
+    {
+      "title": "object-alt",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/object-alt",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/object-alt"
+    },
+    {
+      "title": "p-as-heading",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/p-as-heading",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/p-as-heading"
+    },
+    {
+      "title": "page-has-heading-one",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one"
+    },
+    {
+      "title": "presentation-role-conflict",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/presentation-role-conflict",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/presentation-role-conflict"
+    },
+    {
+      "title": "region",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/region",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/region"
+    },
+    {
+      "title": "role-img-alt",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/role-img-alt",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/role-img-alt"
+    },
+    {
+      "title": "scope-attr-valid",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/scope-attr-valid",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/scope-attr-valid"
+    },
+    {
+      "title": "scrollable-region-focusable",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable"
+    },
+    {
+      "title": "select-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/select-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/select-name"
+    },
+    {
+      "title": "server-side-image-map",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/server-side-image-map",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/server-side-image-map"
+    },
+    {
+      "title": "skip-link",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/skip-link",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/skip-link"
+    },
+    {
+      "title": "summary-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/summary-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/summary-name"
+    },
+    {
+      "title": "svg-img-alt",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/svg-img-alt",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/svg-img-alt"
+    },
+    {
+      "title": "tabindex",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/tabindex",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/tabindex"
+    },
+    {
+      "title": "table-duplicate-name",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/table-duplicate-name",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/table-duplicate-name"
+    },
+    {
+      "title": "table-fake-caption",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/table-fake-caption",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/table-fake-caption"
+    },
+    {
+      "title": "target-size",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/target-size",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size"
+    },
+    {
+      "title": "td-has-header",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/td-has-header",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/td-has-header"
+    },
+    {
+      "title": "td-headers-attr",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/td-headers-attr",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/td-headers-attr"
+    },
+    {
+      "title": "th-has-data-cells",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/th-has-data-cells",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/th-has-data-cells"
+    },
+    {
+      "title": "valid-lang",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/valid-lang",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/valid-lang"
+    },
+    {
+      "title": "video-caption",
+      "url": "https://dequeuniversity.com/rules/axe/4.14/video-caption",
+      "fetchUrl": "https://dequeuniversity.com/rules/axe/4.14/video-caption"
+    }
+  ],
+  "referenceIssues": []
+}

@@ -204,6 +204,12 @@
       "fetchedAt": "2026-10-24T21:43:50.845Z",
       "track": "rolling-url",
       "catalogSha256": "13c81b98f5fbad4930bfb29bd50b8325121c426e42131a1fa9f336a71c7c6394"
+    },
+    "deque-axe-rules": {
+      "revision": "0edc1bd6f9fca94158da6bbc22c5c90b882ba88581f0b5d841d5183c1629ffbf",
+      "fetchedAt": "2026-10-24T21:50:06.361Z",
+      "track": "rolling-url",
+      "catalogSha256": "fc65474167a7bc6e02a6190002e9d81d88848a986573e33485ed12d7249e18e5"
     }
   },
   "toolchain": {

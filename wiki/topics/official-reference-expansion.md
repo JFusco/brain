@@ -66,3 +66,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## Storybook
 
 [Issue 187](https://github.com/JFusco/brain/issues/187) adds Storybook to Tooling from the docs sitemap linked by the official sitemap index, because `storybook.js.org/llms.txt` links only section roots. The source includes `/docs` and excludes `/docs/contribute`; both prefixes omit a trailing slash so the docs root is kept and the contributor root is dropped. Titles are path-derived, as in other sitemap catalogs. Rolling documentation covers the current Storybook major and does not establish compatibility with an installed version or framework package.
+
+## axe-core rule help
+
+[Issue 189](https://github.com/JFusco/brain/issues/189) adds rule-level references for automated accessibility results. The `dequelabs/axe-core` repository describes every rule in one Markdown file, which would be a single catalog entry, so the source instead reads Deque's static axe 4.14 rule index: one page per rule, the `helpUrl` targets in axe results. The version is fixed in the URL and matches the latest stable axe-core release at registration; a new release needs an explicit registration change. Deque's `robots.txt` blocks named AI crawlers from some sections and general agents from older rule versions, but not from `/rules/axe/4.14/`. Rule IDs become the catalog titles, so lookups by rule ID or its words match directly. Automated rules cover part of WCAG and never establish conformance.
