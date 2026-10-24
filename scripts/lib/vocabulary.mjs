@@ -10,13 +10,13 @@ const stable=/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/;
 
 function packageFile(relative,maxBytes=2*1024*1024){
   const file=at(`node_modules/${name}/${relative}`);noSymlinks(at('.'),file);
-  if(!fs.existsSync(file))throw new Error('CMS vocabulary is unavailable; run npm ci --ignore-scripts in Brain');
+  if(!fs.existsSync(file))throw new Error('CMS vocabulary is unavailable; run pnpm install --frozen-lockfile in Brain');
   if(!fs.statSync(file).isFile()||fs.statSync(file).size>maxBytes)throw new Error('CMS vocabulary file exceeds its bound');
   return fs.readFileSync(file);
 }
 function packageIdentity(){
   const expected=json(at('package.json')).dependencies[name],installed=JSON.parse(packageFile('package.json'));
-  if(!stable.test(expected)||installed.name!==name||installed.version!==expected)throw new Error('CMS vocabulary differs from the exact Brain dependency pin; run npm ci --ignore-scripts');
+  if(!stable.test(expected)||installed.name!==name||installed.version!==expected)throw new Error('CMS vocabulary differs from the exact Brain dependency pin; run pnpm install --frozen-lockfile');
   return {package:name,version:expected};
 }
 function vocabulary(){

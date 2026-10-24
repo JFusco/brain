@@ -14,7 +14,7 @@ function strict(value,keys){if(!value||Array.isArray(value)||typeof value!=='obj
 export async function serve({port=4174}={}){
   port=Number(port);if(!Number.isInteger(port)||port<1024||port>65535)throw new Error('Port must be between 1024 and 65535');
   const assets=at('web/brain/dist');noSymlinks(at('web/brain'),assets);
-  if(!fs.existsSync(path.join(assets,'index.html')))throw new Error('Build the viewer first: npm ci --prefix web/brain && npm run build --prefix web/brain');
+  if(!fs.existsSync(path.join(assets,'index.html')))throw new Error('Build the viewer first: pnpm --dir web/brain install --frozen-lockfile && pnpm --dir web/brain run build');
   const graph=snapshot();console.log(`Knowledge snapshot ${graph.revision.slice(0,12)}; ${graph.nodes.length} nodes`);
   const origin=`http://127.0.0.1:${port}`;const sockets=new Set();
   const server=http.createServer(async(req,res)=>{

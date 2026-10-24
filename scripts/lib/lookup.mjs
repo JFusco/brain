@@ -67,7 +67,7 @@ export async function lookup({query,domain,limit=5,fetch=false,project,workspace
   if(typeof query!=='string'||!query.trim()||!tokens(query).length)throw new Error('--query must contain searchable words');
   if(domain&&!config().domains.includes(domain))throw new Error('Unknown knowledge domain');
   limit=Number(limit);if(!Number.isInteger(limit)||limit<1||limit>10)throw new Error('--limit must be between 1 and 10');
-  const target=projectContext(project,{workspace,versions}),health=readJSON(at('.state/link-health.json'),{links:{}});let incompatible=0;
+  const target=projectContext(project,{workspace,versions}),health=readJSON(at('.state/link-health.json'),{links:{}});let incompatible;
   const vocabulary=cmsProfile?vocabularyEntries(cmsProfile,domain):null;
   if(vocabulary){
     vocabulary.metadata.compatibility=versionFit(vocabulary.metadata.versions,target);

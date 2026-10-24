@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {at,ROOT,readJSON,writeJSON,config,noSymlinks,sha,now} from './core.mjs';
+import {at,ROOT,readJSON,writeJSON,config,noSymlinks,sha} from './core.mjs';
 
 export function storeExcerpt(file,receipt) {
   const index=readJSON(at('.state/lookup-cache.json'),{schemaVersion:1,files:{}}),name=file.slice(at('.state/lookup/').length);

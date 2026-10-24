@@ -31,7 +31,7 @@ Local verification outcomes and cleanup counts are recorded in [the reconciliati
 
 Use `node scripts/brain.mjs maintenance status` for publication attempts and failures, catalog freshness, local link counts and stale notes; the weekly reference health issue reports hosted catalog changes and link warnings. A configured schedule alone is not proof of execution.
 
-Backup tooling, previously disabled, has been removed; existing private archives and keys were not touched. Tests, fixtures, CI, fresh-session checks, dedicated QA, and review-agent audits remain deferred for v1.
+Backup tooling, previously disabled, has been removed; existing private archives and keys were not touched. Focused tests, lint, formatting and an architecture check gate code through `pnpm run verify:ci` and the Quality PR check; fresh-session checks and dedicated QA remain out of scope.
 
 ## History
 

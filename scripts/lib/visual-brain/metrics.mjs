@@ -24,7 +24,7 @@ export async function database(){
 export async function startSession(snapshot){const db=await database(),id=randomUUID();db.prepare('INSERT INTO sessions(id,snapshot,started) VALUES(?,?,?)').run(id,snapshot,Date.now());return {session:id,snapshot};}
 export async function sessionInfo(id){if(typeof id!=='string'||!/^[-a-f0-9]{36}$/.test(id))throw new Error('Invalid activity session');const s=(await database()).prepare('SELECT * FROM sessions WHERE id=?').get(id);if(!s)throw new Error('Unknown activity session');return s;}
 export async function record({session,node='',type,eventId,origin='agent'}) {
-  const db=await database();const s=await sessionInfo(session);const now=Date.now();
+  const db=await database();await sessionInfo(session);const now=Date.now();
   if(!['search-started','search-failed','captured','search','no-results','returned','planned','read','cited','complete'].includes(type)||!['agent','viewer','cli'].includes(origin))throw new Error('Invalid activity event');
   if(typeof eventId!=='string'||!/^[-a-f0-9]{36}$/.test(eventId)||typeof node!=='string'||node.length>2048)throw new Error('Invalid activity identifiers');
   const dedupe=['read','cited','complete'].includes(type)?`${session}|${node}|${type}`:eventId;

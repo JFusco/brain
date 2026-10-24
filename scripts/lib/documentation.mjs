@@ -38,7 +38,7 @@ export async function fetchDocumentationCatalog(spec,revision,{onIndex=()=>{}}={
     if(spec.fetchSuffix&&target.pathname.endsWith(spec.fetchSuffix))target.pathname=target.pathname.slice(0,-spec.fetchSuffix.length);
     if(/\.(?:png|jpe?g|gif|svg|webp|pdf|zip|json|txt|xml|gz)$/i.test(target.pathname))return;
     const url=target.href,fetchUrl=spec.fetchSuffix&&!target.pathname.endsWith(spec.fetchSuffix)?url.replace(/\/$/,'')+spec.fetchSuffix:url;
-    if(replace||!pages.has(url))pages.set(url,{title:title.replace(/[\[\]\r\n]/g,'').replace(/\.md$/,''),url,fetchUrl});
+    if(replace||!pages.has(url))pages.set(url,{title:title.replace(/[[\]\r\n]/g,'').replace(/\.md$/,''),url,fetchUrl});
   };
   while(queue.length){
     const input=queue.shift();if(seen.has(input))continue;
