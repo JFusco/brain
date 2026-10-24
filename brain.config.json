@@ -158,7 +158,8 @@
       "testing-library",
       "testing library",
       "eslint",
-      "pnpm",
+      "pnpm-workspace",
+      "pnpm-lock",
       "turborepo"
     ]
   },

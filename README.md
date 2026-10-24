@@ -510,7 +510,7 @@ The weekly coverage review checks these official places for new documentation in
 | SitecoreAI and Sitecore XP | doc.sitecore.com, github.com/Sitecore |
 | Contentful | contentful.com/developers/docs (`llms.txt`), github.com/contentful |
 | WordPress | developer.wordpress.org (`sitemap.xml`), github.com/WordPress, make.wordpress.org/ai |
-| Tooling | Candidates, not yet registered: vite.dev, vitest.dev, storybook.js.org, testing-library.com, eslint.org, pnpm.io, turborepo.com and their official GitHub organizations |
+| Tooling | Candidates, not yet registered: vite.dev, vitest.dev, storybook.js.org, testing-library.com, eslint.org, pnpm.io, turborepo.dev and their official GitHub repositories (Turborepo: github.com/vercel/turborepo) |
 
 ## Project skills
 
