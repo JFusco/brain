@@ -7,7 +7,7 @@ import { at } from './leaf/paths.mjs';
 import { now } from './leaf/time.mjs';
 import { policyHash, scan, scanner, clientHits } from './privacy.mjs';
 import { refreshSummary } from './capture.mjs';
-import { mergedBrainPR } from './maintenance.mjs';
+import { mergedBrainPR } from './branch/publication/merged-pr.mjs';
 
 const index = () =>
   readJSON(at('.state/harvest.json'), { schemaVersion: 1, sources: {}, candidates: {} });
