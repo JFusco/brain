@@ -74,3 +74,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## Design Tokens Community Group
 
 [Issue 191](https://github.com/JFusco/brain/issues/191) adds the first Design systems catalog: the Design Tokens Community Group 2025.10 Final Community Group Report. The source reads the static 2025.10 index within `/tr/2025.10/`; its relative module links resolve, and the four verified pages are also listed as additional pages so they keep their published titles instead of anchor or path titles. `/sitemap.xml` returns 404, and the `robots.txt` sitemap lists uppercase `/TR/` URLs that redirect to the lowercase pages, alongside editor's drafts. The reports are published under the W3C Community Final Specification Agreement and are not W3C Standards. The version is fixed in the path; a later report needs an explicit registration change.
+
+## Figma developer documentation
+
+[Issue 193](https://github.com/JFusco/brain/issues/193) adds Figma to Design systems from `developers.figma.com/sitemap.xml`, limited to the REST API, Plugin API and Code Connect sections. The plugin changelog under `/docs/plugins/updates/` is excluded as release history rather than reference; Widget API, Embed Kit and MCP server sections stay out of scope. Existing Figma design-context lessons remain in Frontend, and the unscoped Code Connect lookup kept that note first after the sync.
