@@ -86,3 +86,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## Lighthouse audits
 
 [Issue 197](https://github.com/JFusco/brain/issues/197) adds Lighthouse audit documentation to Performance from the static Lighthouse overview, for the same sitemap reason as DevTools. The overview links its audits root-relatively; the catalog keeps them under `/docs/lighthouse/` and excludes the historical v3 migration guide. Audit pages that the overview does not link, such as `render-blocking-resources`, are outside the catalog. Audits are lab evidence that follows the current Lighthouse release; they do not establish field performance or WCAG conformance.
+
+## Testing Library
+
+[Issue 199](https://github.com/JFusco/brain/issues/199) adds Testing Library to Tooling from its single sitemap, limited to `/docs/` and excluding the contributor guide, consistent with Storybook. The catalog covers queries, user-event, DOM Testing Library, the framework adapters, examples and ecosystem pages. Pages have no Markdown variant, so focused excerpts read HTML.
