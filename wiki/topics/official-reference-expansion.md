@@ -98,3 +98,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## pnpm
 
 [Issue 203](https://github.com/JFusco/brain/issues/203) adds pnpm to Tooling from its single sitemap. Current-major docs sit at the site root (12.x at registration), so the source includes `/` and excludes the `/10.x` versioned docs, the `/11.x` sitemap entries (which redirect to the root), blog, `/r/` redirect shortcuts and donation and logo pages; the site homepage remains as an entry. Brain itself pins pnpm 10, a reminder that rolling current-major docs need version confirmation.
+
+## Turborepo
+
+[Issue 205](https://github.com/JFusco/brain/issues/205) completes the planned Tooling sources with Turborepo on its canonical `turborepo.dev` host. Its official `llms.txt` lists every docs page as a relative `.md` link with a page title, so the source is a Markdown-index collection limited to `/docs` rather than the sitemap, whose titles would be path-derived. Rolling documentation tracks the current turbo release.
