@@ -82,3 +82,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## Chrome DevTools
 
 [Issue 195](https://github.com/JFusco/brain/issues/195) adds Chrome DevTools to Performance. The `developer.chrome.com` sitemap index links three sub-sitemaps that returned HTTP 500 to every tested user agent, and the site has no `llms.txt`, so the source reads the static DevTools landing page, whose absolute and relative links both resolve, limited to `/docs/devtools/`. The catalog holds the landing page's panel and feature entries without release history, not every DevTools reference page. Article pages state CC BY 4.0 with Apache 2.0 code samples. Lookup comparisons kept the image-loading playbook first for every Performance query.
+
+## Lighthouse audits
+
+[Issue 197](https://github.com/JFusco/brain/issues/197) adds Lighthouse audit documentation to Performance from the static Lighthouse overview, for the same sitemap reason as DevTools. The overview links its audits root-relatively; the catalog keeps them under `/docs/lighthouse/` and excludes the historical v3 migration guide. Audit pages that the overview does not link, such as `render-blocking-resources`, are outside the catalog. Audits are lab evidence that follows the current Lighthouse release; they do not establish field performance or WCAG conformance.

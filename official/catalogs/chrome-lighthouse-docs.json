@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "source": "chrome-lighthouse-docs",
+  "revision": "b14e7b0eac880adf9dbeda7d5c70f2a67a1778cbc539f13f9d50924c03f41575",
+  "origin": "https://developer.chrome.com/docs/lighthouse/overview",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Custom controls have ARIA roles",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/custom-control-roles",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/custom-control-roles"
+    },
+    {
+      "title": "Custom controls have associated labels",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/custom-controls-labels",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/custom-controls-labels"
+    },
+    {
+      "title": "Trapped user focus",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/focus-traps",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/focus-traps"
+    },
+    {
+      "title": "Interactive controls are keyboard-focusable",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/focusable-controls",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/focusable-controls"
+    },
+    {
+      "title": "Interactive elements indicate their purpose and state",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/interactive-element-affordance",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/interactive-element-affordance"
+    },
+    {
+      "title": "The page has a logical tab order",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/logical-tab-order",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/logical-tab-order"
+    },
+    {
+      "title": "The user&#39;s focus is directed to new content added to the page",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/managed-focus",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/managed-focus"
+    },
+    {
+      "title": "Offscreen content is hidden from assistive technology",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/offscreen-content-hidden",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/offscreen-content-hidden"
+    },
+    {
+      "title": "Accessibility audits",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/scoring",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/scoring"
+    },
+    {
+      "title": "HTML5 landmark elements are used to improve navigation",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/use-landmarks",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/use-landmarks"
+    },
+    {
+      "title": "Visual order on the page follows DOM order",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/visual-order-follows-dom",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/visual-order-follows-dom"
+    },
+    {
+      "title": "Accessibility for agents",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/accessibility-for-agents",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/accessibility-for-agents"
+    },
+    {
+      "title": "Forms missing declarative WebMCP",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/forms-missing-declarative-webmcp",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/forms-missing-declarative-webmcp"
+    },
+    {
+      "title": "Layout stability",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/layout-stability",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/layout-stability"
+    },
+    {
+      "title": "llms.txt",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt"
+    },
+    {
+      "title": "Registered WebMCP tools",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/registered-webmcp-tools",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/registered-webmcp-tools"
+    },
+    {
+      "title": "Agentic browsing audits",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring"
+    },
+    {
+      "title": "WebMCP schema validity",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/webmcp-schema-validity",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/webmcp-schema-validity"
+    },
+    {
+      "title": "Uses Application Cache",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/appcache-manifest",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/appcache-manifest"
+    },
+    {
+      "title": "Baseline Features",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/baseline-features",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/baseline-features"
+    },
+    {
+      "title": "Charset declaration is missing or occurs too late in the HTML",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/charset",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/charset"
+    },
+    {
+      "title": "Mitigate clickjacking with XFO or CSP",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/clickjacking-mitigation",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/clickjacking-mitigation"
+    },
+    {
+      "title": "Ensure CSP is effective against XSS attacks",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/csp-xss",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/csp-xss"
+    },
+    {
+      "title": "Uses deprecated APIs",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/deprecations",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/deprecations"
+    },
+    {
+      "title": "Best Practices audits",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/doctype",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/doctype"
+    },
+    {
+      "title": "Browser errors were logged to the console",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/errors-in-console"
+    },
+    {
+      "title": "Links to cross-origin destinations are unsafe",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/external-anchors-use-rel-noopener",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/external-anchors-use-rel-noopener"
+    },
+    {
+      "title": "Requests the geolocation permission on page load",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/geolocation-on-start",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/geolocation-on-start"
+    },
+    {
+      "title": "Use a strong HSTS policy",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/has-hsts",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/has-hsts"
+    },
+    {
+      "title": "Displays images with incorrect aspect ratio",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/image-aspect-ratio"
+    },
+    {
+      "title": "Does not use HTTPS",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/is-on-https",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/is-on-https"
+    },
+    {
+      "title": "Detected JavaScript libraries",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/js-libraries",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/js-libraries"
+    },
+    {
+      "title": "Uses document.write()",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/no-document-write",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/no-document-write"
+    },
+    {
+      "title": "Includes front-end JavaScript libraries with known security vulnerabilities",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/no-vulnerable-libraries",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/no-vulnerable-libraries"
+    },
+    {
+      "title": "Requests the notification permission on page load",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/notification-on-start",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/notification-on-start"
+    },
+    {
+      "title": "Prevents users from pasting into input fields",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/paste-preventing-inputs",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/paste-preventing-inputs"
+    },
+    {
+      "title": "Does not redirect HTTP traffic to HTTPS",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/redirects-http",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/redirects-http"
+    },
+    {
+      "title": "Mitigate Dom-Based XSS with Trusted Types",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/trusted-types-xss",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/trusted-types-xss"
+    },
+    {
+      "title": "Use passive listeners to improve scrolling performance",
+      "url": "https://developer.chrome.com/docs/lighthouse/best-practices/uses-passive-event-listeners",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/uses-passive-event-listeners"
+    },
+    {
+      "title": "Skip to main content",
+      "url": "https://developer.chrome.com/docs/lighthouse/overview",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/overview"
+    },
+    {
+      "title": "Ensure the page can be restored from the back/forward cache",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/bf-cache",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/bf-cache"
+    },
+    {
+      "title": "Reduce JavaScript execution time",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/bootup-time",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/bootup-time"
+    },
+    {
+      "title": "First Contentful Paint",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint"
+    },
+    {
+      "title": "First CPU Idle",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/first-cpu-idle",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/first-cpu-idle"
+    },
+    {
+      "title": "First Meaningful Paint",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/first-meaningful-paint",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/first-meaningful-paint"
+    },
+    {
+      "title": "Time to Interactive",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/interactive",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/interactive"
+    },
+    {
+      "title": "Largest Contentful Paint",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint"
+    },
+    {
+      "title": "Max Potential First Input Delay",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid"
+    },
+    {
+      "title": "Total Blocking Time",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time"
+    },
+    {
+      "title": "Minimize main thread work",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown"
+    },
+    {
+      "title": "Avoid non-composited animations",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/non-composited-animations",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/non-composited-animations"
+    },
+    {
+      "title": "Defer offscreen images",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/offscreen-images",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/offscreen-images"
+    },
+    {
+      "title": "Performance audits",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/performance-scoring",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/performance-scoring"
+    },
+    {
+      "title": "Keep request counts low and transfer sizes small",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/resource-summary",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/resource-summary"
+    },
+    {
+      "title": "Speed Index",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/speed-index",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/speed-index"
+    },
+    {
+      "title": "Lazy load third-party resources with facades",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/third-party-facades",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/third-party-facades"
+    },
+    {
+      "title": "Avoid enormous network payloads",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight"
+    },
+    {
+      "title": "Minify CSS",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/unminified-css",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/unminified-css"
+    },
+    {
+      "title": "Minify JavaScript",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript"
+    },
+    {
+      "title": "Remove unused CSS",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules"
+    },
+    {
+      "title": "User Timing marks and measures",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/user-timings",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/user-timings"
+    },
+    {
+      "title": "Preload key requests",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preload",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preload"
+    },
+    {
+      "title": "Document does not have a valid rel=canonical",
+      "url": "https://developer.chrome.com/docs/lighthouse/seo/canonical",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/canonical"
+    },
+    {
+      "title": "Document doesn&#39;t use legible font sizes",
+      "url": "https://developer.chrome.com/docs/lighthouse/seo/font-size",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/font-size"
+    },
+    {
+      "title": "Document doesn&#39;t have a valid hreflang",
+      "url": "https://developer.chrome.com/docs/lighthouse/seo/hreflang",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/hreflang"
+    },
+    {
+      "title": "Page has unsuccessful HTTP status code",
+      "url": "https://developer.chrome.com/docs/lighthouse/seo/http-status-code",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/http-status-code"
+    },
+    {
+      "title": "robots.txt is not valid",
+      "url": "https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/invalid-robots-txt"
+    },
+    {
+      "title": "Links do not have descriptive text",
+      "url": "https://developer.chrome.com/docs/lighthouse/seo/link-text",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/link-text"
+    },
+    {
+      "title": "SEO audits",
+      "url": "https://developer.chrome.com/docs/lighthouse/seo/meta-description",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/meta-description"
+    },
+    {
+      "title": "Document uses plugins",
+      "url": "https://developer.chrome.com/docs/lighthouse/seo/plugins",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/plugins"
+    },
+    {
+      "title": "Structured data is valid",
+      "url": "https://developer.chrome.com/docs/lighthouse/seo/structured-data",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/structured-data"
+    },
+    {
+      "title": "Tap targets are not sized appropriately",
+      "url": "https://developer.chrome.com/docs/lighthouse/seo/tap-targets",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/tap-targets"
+    }
+  ],
+  "referenceIssues": []
+}
