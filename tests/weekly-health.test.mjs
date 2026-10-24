@@ -75,6 +75,8 @@ test('previous link state keeps only well-formed records on registered hosts', (
   assert.equal(keep(record({ url: 'https://evil.example.net/a' })), false);
   assert.equal(keep(record({ finalUrl: 'http://docs.example.com/b' })), false);
   assert.equal(keep(record({ url: 'not a url' })), false);
+  assert.equal(keepLink(sha('https://docs.example.com/a'), null, hosts), false);
+  assert.equal(keepLink(sha('https://docs.example.com/a'), { state: 'healthy' }, hosts), false);
 });
 
 test('release checksums are matched by exact asset name', () => {
