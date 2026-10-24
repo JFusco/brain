@@ -234,6 +234,12 @@
       "fetchedAt": "2026-10-24T22:19:30.056Z",
       "track": "rolling-url",
       "catalogSha256": "9c3018830afafdb33cf7edde606a4cc3aeadc535426e4c3207c46df546e99d3d"
+    },
+    "testing-library-docs": {
+      "revision": "c447b8fd1df3b40e4eba2467acdea19beffb53e9a3f9d00a1345e327f21887f4",
+      "fetchedAt": "2026-10-24T22:28:05.616Z",
+      "track": "rolling-url",
+      "catalogSha256": "3169ae2eb4cc46b27b8774124b4315a9ab1c978911fd263552528e3bc640819a"
     }
   },
   "toolchain": {

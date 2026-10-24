@@ -1236,6 +1236,31 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling Lighthouse overview and audit pages linked from the Lighthouse overview: performance, accessibility, best practices, SEO and agentic browsing audits. Excludes the historical v3 migration guide. Audit IDs and scoring follow the current Lighthouse release; a passing audit is lab evidence, not field performance or WCAG conformance."
+    },
+    {
+      "id": "testing-library-docs",
+      "vendor": "testing-library",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://testing-library.com/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "testing-library.com"
+      ],
+      "includePrefixes": [
+        "/docs/"
+      ],
+      "excludePrefixes": [
+        "/docs/contributing"
+      ],
+      "maxPages": 300,
+      "maxIndexes": 1,
+      "license": "Testing Library documentation from the MIT-licensed testing-library/testing-library-docs repository; links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling Testing Library documentation: guiding principles, queries, user-event, DOM Testing Library and the framework adapters (React, Vue, Angular, Svelte and others). Excludes the blog and contributor guide. Confirm the installed @testing-library package and its framework adapter version."
     }
   ],
   "pointers": [

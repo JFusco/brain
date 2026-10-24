@@ -29,4 +29,6 @@ No curated notes yet.
   - [Catalog source](https://vitest.dev/llms.txt); search it with `lookup --domain tooling`.
 - **storybook-docs** — link catalog of 160 pages; rolling-url; revision `1edcef5c976598a8ddfd5f008a2781b02ceaf2299922ccc1d6a9347db5e5644a`; fetched 2026-10-24.
   - [Catalog source](https://storybook.js.org/docs/sitemap.xml); search it with `lookup --domain tooling`.
+- **testing-library-docs** — link catalog of 113 pages; rolling-url; revision `c447b8fd1df3b40e4eba2467acdea19beffb53e9a3f9d00a1345e327f21887f4`; fetched 2026-10-24.
+  - [Catalog source](https://testing-library.com/sitemap.xml); search it with `lookup --domain tooling`.
 <!-- brain:official:end -->

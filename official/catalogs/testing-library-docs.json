@@ -1,0 +1,576 @@
+{
+  "schemaVersion": 1,
+  "source": "testing-library-docs",
+  "revision": "c447b8fd1df3b40e4eba2467acdea19beffb53e9a3f9d00a1345e327f21887f4",
+  "origin": "https://testing-library.com/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "docs",
+      "url": "https://testing-library.com/docs/",
+      "fetchUrl": "https://testing-library.com/docs/"
+    },
+    {
+      "title": "angular testing library / api",
+      "url": "https://testing-library.com/docs/angular-testing-library/api",
+      "fetchUrl": "https://testing-library.com/docs/angular-testing-library/api"
+    },
+    {
+      "title": "angular testing library / examples",
+      "url": "https://testing-library.com/docs/angular-testing-library/examples",
+      "fetchUrl": "https://testing-library.com/docs/angular-testing-library/examples"
+    },
+    {
+      "title": "angular testing library / faq",
+      "url": "https://testing-library.com/docs/angular-testing-library/faq",
+      "fetchUrl": "https://testing-library.com/docs/angular-testing-library/faq"
+    },
+    {
+      "title": "angular testing library / intro",
+      "url": "https://testing-library.com/docs/angular-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/angular-testing-library/intro"
+    },
+    {
+      "title": "angular testing library / version compatibility",
+      "url": "https://testing-library.com/docs/angular-testing-library/version-compatibility",
+      "fetchUrl": "https://testing-library.com/docs/angular-testing-library/version-compatibility"
+    },
+    {
+      "title": "bs react testing library / examples",
+      "url": "https://testing-library.com/docs/bs-react-testing-library/examples",
+      "fetchUrl": "https://testing-library.com/docs/bs-react-testing-library/examples"
+    },
+    {
+      "title": "bs react testing library / intro",
+      "url": "https://testing-library.com/docs/bs-react-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/bs-react-testing-library/intro"
+    },
+    {
+      "title": "cypress testing library / intro",
+      "url": "https://testing-library.com/docs/cypress-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/cypress-testing-library/intro"
+    },
+    {
+      "title": "dom testing library / api",
+      "url": "https://testing-library.com/docs/dom-testing-library/api",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/api"
+    },
+    {
+      "title": "dom testing library / api accessibility",
+      "url": "https://testing-library.com/docs/dom-testing-library/api-accessibility",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/api-accessibility"
+    },
+    {
+      "title": "dom testing library / api async",
+      "url": "https://testing-library.com/docs/dom-testing-library/api-async",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/api-async"
+    },
+    {
+      "title": "dom testing library / api configuration",
+      "url": "https://testing-library.com/docs/dom-testing-library/api-configuration",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/api-configuration"
+    },
+    {
+      "title": "dom testing library / api custom queries",
+      "url": "https://testing-library.com/docs/dom-testing-library/api-custom-queries",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/api-custom-queries"
+    },
+    {
+      "title": "dom testing library / api debugging",
+      "url": "https://testing-library.com/docs/dom-testing-library/api-debugging",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/api-debugging"
+    },
+    {
+      "title": "dom testing library / api events",
+      "url": "https://testing-library.com/docs/dom-testing-library/api-events",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/api-events"
+    },
+    {
+      "title": "dom testing library / api within",
+      "url": "https://testing-library.com/docs/dom-testing-library/api-within",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/api-within"
+    },
+    {
+      "title": "dom testing library / cheatsheet",
+      "url": "https://testing-library.com/docs/dom-testing-library/cheatsheet",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/cheatsheet"
+    },
+    {
+      "title": "dom testing library / example intro",
+      "url": "https://testing-library.com/docs/dom-testing-library/example-intro",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/example-intro"
+    },
+    {
+      "title": "dom testing library / faq",
+      "url": "https://testing-library.com/docs/dom-testing-library/faq",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/faq"
+    },
+    {
+      "title": "dom testing library / install",
+      "url": "https://testing-library.com/docs/dom-testing-library/install",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/install"
+    },
+    {
+      "title": "dom testing library / intro",
+      "url": "https://testing-library.com/docs/dom-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/intro"
+    },
+    {
+      "title": "dom testing library / setup",
+      "url": "https://testing-library.com/docs/dom-testing-library/setup",
+      "fetchUrl": "https://testing-library.com/docs/dom-testing-library/setup"
+    },
+    {
+      "title": "docs / ecosystem bs jest dom",
+      "url": "https://testing-library.com/docs/ecosystem-bs-jest-dom",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-bs-jest-dom"
+    },
+    {
+      "title": "docs / ecosystem cli testing library",
+      "url": "https://testing-library.com/docs/ecosystem-cli-testing-library",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-cli-testing-library"
+    },
+    {
+      "title": "docs / ecosystem eslint plugin jest dom",
+      "url": "https://testing-library.com/docs/ecosystem-eslint-plugin-jest-dom",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-eslint-plugin-jest-dom"
+    },
+    {
+      "title": "docs / ecosystem eslint plugin testing library",
+      "url": "https://testing-library.com/docs/ecosystem-eslint-plugin-testing-library",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-eslint-plugin-testing-library"
+    },
+    {
+      "title": "docs / ecosystem jasmine dom",
+      "url": "https://testing-library.com/docs/ecosystem-jasmine-dom",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-jasmine-dom"
+    },
+    {
+      "title": "docs / ecosystem jest dom",
+      "url": "https://testing-library.com/docs/ecosystem-jest-dom",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-jest-dom"
+    },
+    {
+      "title": "docs / ecosystem query extensions",
+      "url": "https://testing-library.com/docs/ecosystem-query-extensions",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-query-extensions"
+    },
+    {
+      "title": "docs / ecosystem react select event",
+      "url": "https://testing-library.com/docs/ecosystem-react-select-event",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-react-select-event"
+    },
+    {
+      "title": "docs / ecosystem riot testing library",
+      "url": "https://testing-library.com/docs/ecosystem-riot-testing-library",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-riot-testing-library"
+    },
+    {
+      "title": "docs / ecosystem rtl simple queries",
+      "url": "https://testing-library.com/docs/ecosystem-rtl-simple-queries",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-rtl-simple-queries"
+    },
+    {
+      "title": "docs / ecosystem testing library selector",
+      "url": "https://testing-library.com/docs/ecosystem-testing-library-selector",
+      "fetchUrl": "https://testing-library.com/docs/ecosystem-testing-library-selector"
+    },
+    {
+      "title": "docs / example codesandbox",
+      "url": "https://testing-library.com/docs/example-codesandbox",
+      "fetchUrl": "https://testing-library.com/docs/example-codesandbox"
+    },
+    {
+      "title": "docs / example drag",
+      "url": "https://testing-library.com/docs/example-drag",
+      "fetchUrl": "https://testing-library.com/docs/example-drag"
+    },
+    {
+      "title": "docs / example external",
+      "url": "https://testing-library.com/docs/example-external",
+      "fetchUrl": "https://testing-library.com/docs/example-external"
+    },
+    {
+      "title": "docs / example findByText",
+      "url": "https://testing-library.com/docs/example-findByText",
+      "fetchUrl": "https://testing-library.com/docs/example-findByText"
+    },
+    {
+      "title": "docs / example input event",
+      "url": "https://testing-library.com/docs/example-input-event",
+      "fetchUrl": "https://testing-library.com/docs/example-input-event"
+    },
+    {
+      "title": "docs / example reach router",
+      "url": "https://testing-library.com/docs/example-reach-router",
+      "fetchUrl": "https://testing-library.com/docs/example-reach-router"
+    },
+    {
+      "title": "docs / example react context",
+      "url": "https://testing-library.com/docs/example-react-context",
+      "fetchUrl": "https://testing-library.com/docs/example-react-context"
+    },
+    {
+      "title": "docs / example react formik",
+      "url": "https://testing-library.com/docs/example-react-formik",
+      "fetchUrl": "https://testing-library.com/docs/example-react-formik"
+    },
+    {
+      "title": "docs / example react hooks useReducer",
+      "url": "https://testing-library.com/docs/example-react-hooks-useReducer",
+      "fetchUrl": "https://testing-library.com/docs/example-react-hooks-useReducer"
+    },
+    {
+      "title": "docs / example react intl",
+      "url": "https://testing-library.com/docs/example-react-intl",
+      "fetchUrl": "https://testing-library.com/docs/example-react-intl"
+    },
+    {
+      "title": "docs / example react modal",
+      "url": "https://testing-library.com/docs/example-react-modal",
+      "fetchUrl": "https://testing-library.com/docs/example-react-modal"
+    },
+    {
+      "title": "docs / example react redux",
+      "url": "https://testing-library.com/docs/example-react-redux",
+      "fetchUrl": "https://testing-library.com/docs/example-react-redux"
+    },
+    {
+      "title": "docs / example react router",
+      "url": "https://testing-library.com/docs/example-react-router",
+      "fetchUrl": "https://testing-library.com/docs/example-react-router"
+    },
+    {
+      "title": "docs / example react transition group",
+      "url": "https://testing-library.com/docs/example-react-transition-group",
+      "fetchUrl": "https://testing-library.com/docs/example-react-transition-group"
+    },
+    {
+      "title": "docs / example update props",
+      "url": "https://testing-library.com/docs/example-update-props",
+      "fetchUrl": "https://testing-library.com/docs/example-update-props"
+    },
+    {
+      "title": "docs / guide disappearance",
+      "url": "https://testing-library.com/docs/guide-disappearance",
+      "fetchUrl": "https://testing-library.com/docs/guide-disappearance"
+    },
+    {
+      "title": "docs / guide events",
+      "url": "https://testing-library.com/docs/guide-events",
+      "fetchUrl": "https://testing-library.com/docs/guide-events"
+    },
+    {
+      "title": "docs / guiding principles",
+      "url": "https://testing-library.com/docs/guiding-principles",
+      "fetchUrl": "https://testing-library.com/docs/guiding-principles"
+    },
+    {
+      "title": "docs / learning",
+      "url": "https://testing-library.com/docs/learning",
+      "fetchUrl": "https://testing-library.com/docs/learning"
+    },
+    {
+      "title": "marko testing library / api",
+      "url": "https://testing-library.com/docs/marko-testing-library/api",
+      "fetchUrl": "https://testing-library.com/docs/marko-testing-library/api"
+    },
+    {
+      "title": "marko testing library / intro",
+      "url": "https://testing-library.com/docs/marko-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/marko-testing-library/intro"
+    },
+    {
+      "title": "marko testing library / setup",
+      "url": "https://testing-library.com/docs/marko-testing-library/setup",
+      "fetchUrl": "https://testing-library.com/docs/marko-testing-library/setup"
+    },
+    {
+      "title": "nightwatch testing library / intro",
+      "url": "https://testing-library.com/docs/nightwatch-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/nightwatch-testing-library/intro"
+    },
+    {
+      "title": "pptr testing library / intro",
+      "url": "https://testing-library.com/docs/pptr-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/pptr-testing-library/intro"
+    },
+    {
+      "title": "preact testing library / api",
+      "url": "https://testing-library.com/docs/preact-testing-library/api",
+      "fetchUrl": "https://testing-library.com/docs/preact-testing-library/api"
+    },
+    {
+      "title": "preact testing library / example",
+      "url": "https://testing-library.com/docs/preact-testing-library/example",
+      "fetchUrl": "https://testing-library.com/docs/preact-testing-library/example"
+    },
+    {
+      "title": "preact testing library / intro",
+      "url": "https://testing-library.com/docs/preact-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/preact-testing-library/intro"
+    },
+    {
+      "title": "preact testing library / learn",
+      "url": "https://testing-library.com/docs/preact-testing-library/learn",
+      "fetchUrl": "https://testing-library.com/docs/preact-testing-library/learn"
+    },
+    {
+      "title": "queries / about",
+      "url": "https://testing-library.com/docs/queries/about",
+      "fetchUrl": "https://testing-library.com/docs/queries/about"
+    },
+    {
+      "title": "queries / byalttext",
+      "url": "https://testing-library.com/docs/queries/byalttext",
+      "fetchUrl": "https://testing-library.com/docs/queries/byalttext"
+    },
+    {
+      "title": "queries / bydisplayvalue",
+      "url": "https://testing-library.com/docs/queries/bydisplayvalue",
+      "fetchUrl": "https://testing-library.com/docs/queries/bydisplayvalue"
+    },
+    {
+      "title": "queries / bylabeltext",
+      "url": "https://testing-library.com/docs/queries/bylabeltext",
+      "fetchUrl": "https://testing-library.com/docs/queries/bylabeltext"
+    },
+    {
+      "title": "queries / byplaceholdertext",
+      "url": "https://testing-library.com/docs/queries/byplaceholdertext",
+      "fetchUrl": "https://testing-library.com/docs/queries/byplaceholdertext"
+    },
+    {
+      "title": "queries / byrole",
+      "url": "https://testing-library.com/docs/queries/byrole",
+      "fetchUrl": "https://testing-library.com/docs/queries/byrole"
+    },
+    {
+      "title": "queries / bytestid",
+      "url": "https://testing-library.com/docs/queries/bytestid",
+      "fetchUrl": "https://testing-library.com/docs/queries/bytestid"
+    },
+    {
+      "title": "queries / bytext",
+      "url": "https://testing-library.com/docs/queries/bytext",
+      "fetchUrl": "https://testing-library.com/docs/queries/bytext"
+    },
+    {
+      "title": "queries / bytitle",
+      "url": "https://testing-library.com/docs/queries/bytitle",
+      "fetchUrl": "https://testing-library.com/docs/queries/bytitle"
+    },
+    {
+      "title": "qwik testing library / api",
+      "url": "https://testing-library.com/docs/qwik-testing-library/api",
+      "fetchUrl": "https://testing-library.com/docs/qwik-testing-library/api"
+    },
+    {
+      "title": "qwik testing library / example",
+      "url": "https://testing-library.com/docs/qwik-testing-library/example",
+      "fetchUrl": "https://testing-library.com/docs/qwik-testing-library/example"
+    },
+    {
+      "title": "qwik testing library / faq",
+      "url": "https://testing-library.com/docs/qwik-testing-library/faq",
+      "fetchUrl": "https://testing-library.com/docs/qwik-testing-library/faq"
+    },
+    {
+      "title": "qwik testing library / intro",
+      "url": "https://testing-library.com/docs/qwik-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/qwik-testing-library/intro"
+    },
+    {
+      "title": "qwik testing library / setup",
+      "url": "https://testing-library.com/docs/qwik-testing-library/setup",
+      "fetchUrl": "https://testing-library.com/docs/qwik-testing-library/setup"
+    },
+    {
+      "title": "react native testing library / example intro",
+      "url": "https://testing-library.com/docs/react-native-testing-library/example-intro",
+      "fetchUrl": "https://testing-library.com/docs/react-native-testing-library/example-intro"
+    },
+    {
+      "title": "react native testing library / intro",
+      "url": "https://testing-library.com/docs/react-native-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/react-native-testing-library/intro"
+    },
+    {
+      "title": "react native testing library / setup",
+      "url": "https://testing-library.com/docs/react-native-testing-library/setup",
+      "fetchUrl": "https://testing-library.com/docs/react-native-testing-library/setup"
+    },
+    {
+      "title": "react testing library / api",
+      "url": "https://testing-library.com/docs/react-testing-library/api",
+      "fetchUrl": "https://testing-library.com/docs/react-testing-library/api"
+    },
+    {
+      "title": "react testing library / cheatsheet",
+      "url": "https://testing-library.com/docs/react-testing-library/cheatsheet",
+      "fetchUrl": "https://testing-library.com/docs/react-testing-library/cheatsheet"
+    },
+    {
+      "title": "react testing library / example intro",
+      "url": "https://testing-library.com/docs/react-testing-library/example-intro",
+      "fetchUrl": "https://testing-library.com/docs/react-testing-library/example-intro"
+    },
+    {
+      "title": "react testing library / faq",
+      "url": "https://testing-library.com/docs/react-testing-library/faq",
+      "fetchUrl": "https://testing-library.com/docs/react-testing-library/faq"
+    },
+    {
+      "title": "react testing library / intro",
+      "url": "https://testing-library.com/docs/react-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/react-testing-library/intro"
+    },
+    {
+      "title": "react testing library / migrate from enzyme",
+      "url": "https://testing-library.com/docs/react-testing-library/migrate-from-enzyme",
+      "fetchUrl": "https://testing-library.com/docs/react-testing-library/migrate-from-enzyme"
+    },
+    {
+      "title": "react testing library / setup",
+      "url": "https://testing-library.com/docs/react-testing-library/setup",
+      "fetchUrl": "https://testing-library.com/docs/react-testing-library/setup"
+    },
+    {
+      "title": "docs / recipes",
+      "url": "https://testing-library.com/docs/recipes",
+      "fetchUrl": "https://testing-library.com/docs/recipes"
+    },
+    {
+      "title": "solid testing library / api",
+      "url": "https://testing-library.com/docs/solid-testing-library/api",
+      "fetchUrl": "https://testing-library.com/docs/solid-testing-library/api"
+    },
+    {
+      "title": "solid testing library / intro",
+      "url": "https://testing-library.com/docs/solid-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/solid-testing-library/intro"
+    },
+    {
+      "title": "svelte testing library / api",
+      "url": "https://testing-library.com/docs/svelte-testing-library/api",
+      "fetchUrl": "https://testing-library.com/docs/svelte-testing-library/api"
+    },
+    {
+      "title": "svelte testing library / example",
+      "url": "https://testing-library.com/docs/svelte-testing-library/example",
+      "fetchUrl": "https://testing-library.com/docs/svelte-testing-library/example"
+    },
+    {
+      "title": "svelte testing library / faq",
+      "url": "https://testing-library.com/docs/svelte-testing-library/faq",
+      "fetchUrl": "https://testing-library.com/docs/svelte-testing-library/faq"
+    },
+    {
+      "title": "svelte testing library / intro",
+      "url": "https://testing-library.com/docs/svelte-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/svelte-testing-library/intro"
+    },
+    {
+      "title": "svelte testing library / setup",
+      "url": "https://testing-library.com/docs/svelte-testing-library/setup",
+      "fetchUrl": "https://testing-library.com/docs/svelte-testing-library/setup"
+    },
+    {
+      "title": "testcafe testing library / intro",
+      "url": "https://testing-library.com/docs/testcafe-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/testcafe-testing-library/intro"
+    },
+    {
+      "title": "user event / clipboard",
+      "url": "https://testing-library.com/docs/user-event/clipboard",
+      "fetchUrl": "https://testing-library.com/docs/user-event/clipboard"
+    },
+    {
+      "title": "user event / convenience",
+      "url": "https://testing-library.com/docs/user-event/convenience",
+      "fetchUrl": "https://testing-library.com/docs/user-event/convenience"
+    },
+    {
+      "title": "user event / install",
+      "url": "https://testing-library.com/docs/user-event/install",
+      "fetchUrl": "https://testing-library.com/docs/user-event/install"
+    },
+    {
+      "title": "user event / intro",
+      "url": "https://testing-library.com/docs/user-event/intro",
+      "fetchUrl": "https://testing-library.com/docs/user-event/intro"
+    },
+    {
+      "title": "user event / keyboard",
+      "url": "https://testing-library.com/docs/user-event/keyboard",
+      "fetchUrl": "https://testing-library.com/docs/user-event/keyboard"
+    },
+    {
+      "title": "user event / options",
+      "url": "https://testing-library.com/docs/user-event/options",
+      "fetchUrl": "https://testing-library.com/docs/user-event/options"
+    },
+    {
+      "title": "user event / pointer",
+      "url": "https://testing-library.com/docs/user-event/pointer",
+      "fetchUrl": "https://testing-library.com/docs/user-event/pointer"
+    },
+    {
+      "title": "user event / setup",
+      "url": "https://testing-library.com/docs/user-event/setup",
+      "fetchUrl": "https://testing-library.com/docs/user-event/setup"
+    },
+    {
+      "title": "user event / utility",
+      "url": "https://testing-library.com/docs/user-event/utility",
+      "fetchUrl": "https://testing-library.com/docs/user-event/utility"
+    },
+    {
+      "title": "user event / v13",
+      "url": "https://testing-library.com/docs/user-event/v13",
+      "fetchUrl": "https://testing-library.com/docs/user-event/v13"
+    },
+    {
+      "title": "docs / using fake timers",
+      "url": "https://testing-library.com/docs/using-fake-timers",
+      "fetchUrl": "https://testing-library.com/docs/using-fake-timers"
+    },
+    {
+      "title": "vue testing library / api",
+      "url": "https://testing-library.com/docs/vue-testing-library/api",
+      "fetchUrl": "https://testing-library.com/docs/vue-testing-library/api"
+    },
+    {
+      "title": "vue testing library / cheatsheet",
+      "url": "https://testing-library.com/docs/vue-testing-library/cheatsheet",
+      "fetchUrl": "https://testing-library.com/docs/vue-testing-library/cheatsheet"
+    },
+    {
+      "title": "vue testing library / examples",
+      "url": "https://testing-library.com/docs/vue-testing-library/examples",
+      "fetchUrl": "https://testing-library.com/docs/vue-testing-library/examples"
+    },
+    {
+      "title": "vue testing library / faq",
+      "url": "https://testing-library.com/docs/vue-testing-library/faq",
+      "fetchUrl": "https://testing-library.com/docs/vue-testing-library/faq"
+    },
+    {
+      "title": "vue testing library / intro",
+      "url": "https://testing-library.com/docs/vue-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/vue-testing-library/intro"
+    },
+    {
+      "title": "vue testing library / setup",
+      "url": "https://testing-library.com/docs/vue-testing-library/setup",
+      "fetchUrl": "https://testing-library.com/docs/vue-testing-library/setup"
+    },
+    {
+      "title": "webdriverio testing library / intro",
+      "url": "https://testing-library.com/docs/webdriverio-testing-library/intro",
+      "fetchUrl": "https://testing-library.com/docs/webdriverio-testing-library/intro"
+    }
+  ],
+  "referenceIssues": []
+}
