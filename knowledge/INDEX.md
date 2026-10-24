@@ -26,6 +26,7 @@ Open the relevant domain, then only the pages it routes to. Official sections ar
 - [WordPress](cms/wordpress/INDEX.md)
 - [Tooling (build, test, lint, packages)](tooling/INDEX.md)
 - [Design systems (tokens, design-to-code)](design-systems/INDEX.md)
+- [Salesforce B2B Commerce (LWR)](commerce/salesforce-b2b/INDEX.md)
 - [Unsorted learnings and agent tooling](_unsorted/INDEX.md)
 
 ## How to apply sources
