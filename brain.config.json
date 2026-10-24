@@ -31,6 +31,7 @@
     "semantics",
     "tooling",
     "design-systems",
+    "commerce/salesforce-b2b",
     "_unsorted"
   ],
   "capture": {
@@ -168,6 +169,11 @@
       "dtcg",
       "figma",
       "code connect"
+    ],
+    "commerce/salesforce-b2b": [
+      "salesforce b2b",
+      "b2b commerce",
+      "lightning web runtime"
     ]
   },
   "network": {

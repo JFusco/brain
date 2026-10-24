@@ -46,3 +46,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## Dedicated design-systems domain
 
 [Issue 175](https://github.com/JFusco/brain/issues/175) adds an empty `design-systems` domain after `tooling`, for design tokens, design-to-code handoff and component libraries. Its keywords (`design token`, `dtcg`, `figma`, `code connect`) avoid a bare `token`. Because it is listed after the existing domains, a capture that ties with `frontend` or `accessibility` keeps the earlier domain. The Design Tokens Community Group format and Figma developer hosts stay candidates until their own verified syncs.
+
+## Dedicated Salesforce B2B Commerce domain
+
+[Issue 177](https://github.com/JFusco/brain/issues/177) adds an empty nested `commerce/salesforce-b2b` domain after `design-systems`, mirroring the `cms/*` layout so other commerce platforms can sit beside it. Keywords are product phrases (`salesforce b2b`, `b2b commerce`, `lightning web runtime`) rather than bare `salesforce` or `commerce`. Candidate deep documentation URLs returned 404 during planning, so the documentation entry point is established during the source registration, and pointer-only coverage remains possible.
