@@ -1,10 +1,10 @@
 import { readJSON } from '../../leaf/json.mjs';
 import { at } from '../../leaf/paths.mjs';
 import { now, overdue } from '../../leaf/time.mjs';
-import { staleGuidance } from '../../guidance.mjs';
+import { staleGuidance } from '../curation/stale.mjs';
 import { linkSummary } from '../../link-health.mjs';
-import { vocabularyStatus } from '../../vocabulary.mjs';
-import { uiPatternsStatus } from '../../ui-patterns.mjs';
+import { vocabularyStatus } from '../../branch/packages/vocabulary.mjs';
+import { uiPatternsStatus } from '../../branch/packages/ui-patterns.mjs';
 
 export function maintenanceStatus() {
   const runs = readJSON(at('.state/official-runs.json'), {}),

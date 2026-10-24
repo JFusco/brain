@@ -1,10 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { safePath, inside } from './leaf/fs-safe.mjs';
-import { json } from './leaf/json.mjs';
-import { ROOT } from './leaf/paths.mjs';
-import { lock, readCatalog } from './branch/official/registry.mjs';
-import { projectContext } from './project-context.mjs';
+import { safePath, inside } from '../../leaf/fs-safe.mjs';
+import { json } from '../../leaf/json.mjs';
+import { ROOT } from '../../leaf/paths.mjs';
+import { lock, readCatalog } from '../../branch/official/registry.mjs';
+import { projectContext } from '../../branch/project/context.mjs';
 
 // Read-only: Brain recommends vendor skills but never writes them into projects.
 function project(input, { workspace } = {}) {

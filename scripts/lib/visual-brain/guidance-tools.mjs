@@ -1,6 +1,7 @@
 import { snapshot as readSnapshot } from './snapshot.mjs';
 import { route } from './retrieval.mjs';
-import { projectContext, versionFit } from '../project-context.mjs';
+import { projectContext } from '../branch/project/context.mjs';
+import { versionFit } from '../branch/project/versions.mjs';
 
 function current(revision) {
   const graph = readSnapshot();

@@ -5,7 +5,8 @@ import path from 'node:path';
 import { sha } from '../leaf/hash.mjs';
 import { readJSON, parseJSON } from '../leaf/json.mjs';
 import { ROOT, at } from '../leaf/paths.mjs';
-import { validateKnowledge, guidanceState } from '../guidance.mjs';
+import { validateKnowledge } from '../branch/guidance/knowledge.mjs';
+import { guidanceState } from '../branch/guidance/freshness.mjs';
 const require = createRequire(import.meta.url);
 const { splitFrontmatter, scalar, list } = require('../../wiki/lib/frontmatter.cjs');
 const git = (...args) =>

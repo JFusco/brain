@@ -2,37 +2,15 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { config } from './branch/platform/config.mjs';
-import { mkdir, writeJSON } from './leaf/fs-safe.mjs';
-import { sha } from './leaf/hash.mjs';
-import { at } from './leaf/paths.mjs';
-import { parseJSON } from './leaf/json.mjs';
-import { now } from './leaf/time.mjs';
+import { config } from '../platform/config.mjs';
+import { mkdir, writeJSON } from '../../leaf/fs-safe.mjs';
+import { sha } from '../../leaf/hash.mjs';
+import { at } from '../../leaf/paths.mjs';
+import { parseJSON } from '../../leaf/json.mjs';
+import { now } from '../../leaf/time.mjs';
+import { clientHits } from './client-terms.mjs';
+import { builtinHits } from './secrets.mjs';
 
-const escape = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-export function terms() {
-  const c = config();
-  return [...new Set([...(c.clientTerms || []), ...(c.clientAliases || [])])]
-    .filter(t => typeof t === 'string' && t.trim().length >= 3)
-    .sort((a, b) => b.length - a.length);
-}
-export function clientHits(text) {
-  return terms().filter(term =>
-    new RegExp(`(?<![A-Za-z0-9])${escape(term)}(?![A-Za-z0-9])`, 'i').test(text),
-  );
-}
-export function scrub(text) {
-  for (const term of terms())
-    text = text.replace(
-      new RegExp(`(?<![A-Za-z0-9])${escape(term)}(?![A-Za-z0-9])`, 'gi'),
-      '<client>',
-    );
-  return text;
-}
-export function policyHash() {
-  const c = config();
-  return sha(JSON.stringify({ version: 2, terms: terms(), scanner: c.toolchain.gitleaksVersion }));
-}
 export function scanner() {
   const c = config(),
     binary = c.toolchain.gitleaks;
@@ -49,28 +27,6 @@ export function scanner() {
   if (result.status !== 0 || result.stdout.trim().replace(/^v/, '') !== c.toolchain.gitleaksVersion)
     throw new Error('Gitleaks version does not match the pinned toolchain');
   return binary;
-}
-export function builtinHits(text) {
-  const patterns = [
-    [
-      'private-key',
-      /-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----[\s\S]{0,32768}?-----END (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----/g,
-    ],
-    ['github-token', /\b(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{50,})\b/g],
-    ['aws-key', /\b(?:AKIA|ASIA)[A-Z0-9]{16}\b/g],
-  ];
-  const hits = [];
-  for (const [rule, pattern] of patterns)
-    for (const match of text.matchAll(pattern))
-      hits.push({ rule, index: match.index, length: match[0].length });
-  for (const match of text.matchAll(/-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----/g))
-    if (
-      !hits.some(
-        h => h.rule === 'private-key' && match.index >= h.index && match.index < h.index + h.length,
-      )
-    )
-      hits.push({ rule: 'private-key', index: match.index, length: match[0].length });
-  return hits;
 }
 // Scanner reports and input copies stay in a private temporary directory.
 export function scan(entries) {

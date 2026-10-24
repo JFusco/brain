@@ -1,11 +1,10 @@
-import { writeJSON } from './leaf/fs-safe.mjs';
-import { sha } from './leaf/hash.mjs';
-import { readJSON } from './leaf/json.mjs';
-import { at } from './leaf/paths.mjs';
-import { now } from './leaf/time.mjs';
-import { download } from './branch/platform/network/download.mjs';
-
-const stable = /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$/;
+import { writeJSON } from '../../leaf/fs-safe.mjs';
+import { sha } from '../../leaf/hash.mjs';
+import { readJSON } from '../../leaf/json.mjs';
+import { at } from '../../leaf/paths.mjs';
+import { now } from '../../leaf/time.mjs';
+import { STABLE_SEMVER } from '../../leaf/semver.mjs';
+import { download } from '../platform/network/download.mjs';
 
 export function packageReleaseStatus(spec) {
   const saved = readJSON(at(spec.stateFile), {});
@@ -62,7 +61,7 @@ export async function checkPackageRelease(spec) {
       },
     );
     const metadata = JSON.parse(response.bytes);
-    if (metadata.name !== spec.name || !stable.test(metadata.version))
+    if (metadata.name !== spec.name || !STABLE_SEMVER.test(metadata.version))
       throw new Error(`Unexpected ${spec.label} release metadata`);
     saved.lastGood = { version: metadata.version, metadataSha256: sha(response.bytes) };
     saved.lastSuccess = now();

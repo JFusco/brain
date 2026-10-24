@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { curatedBlock, guidanceState, validateKnowledge } from '../scripts/lib/guidance.mjs';
+import { curatedBlock, validateKnowledge } from '../scripts/lib/branch/guidance/knowledge.mjs';
+import { guidanceState } from '../scripts/lib/branch/guidance/freshness.mjs';
 
 const note = fields =>
   `---\n${Object.entries(fields)

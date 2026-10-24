@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { versionConstraint, versionFit } from '../scripts/lib/project-context.mjs';
+import { versionConstraint, versionFit } from '../scripts/lib/branch/project/versions.mjs';
 
 const context = versions => ({
   dependencies: Object.fromEntries(

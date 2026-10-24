@@ -11,9 +11,9 @@ import { at, ROOT } from '../lib/leaf/paths.mjs';
 import { registry } from '../lib/branch/official/registry.mjs';
 import { sync } from '../lib/tree/official/sync.mjs';
 import { checkLinks } from '../lib/link-health.mjs';
-import { staleGuidance } from '../lib/guidance.mjs';
+import { staleGuidance } from '../lib/tree/curation/stale.mjs';
 import { check } from '../lib/check.mjs';
-import { assertClean } from '../lib/privacy.mjs';
+import { assertClean } from '../lib/branch/privacy/scanner.mjs';
 
 const repository = 'JFusco/brain',
   maxBytes = 32 * 1024 * 1024,

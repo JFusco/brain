@@ -1,13 +1,14 @@
 import fs from 'node:fs';
-import { config } from './branch/platform/config.mjs';
-import { writeJSON } from './leaf/fs-safe.mjs';
-import { sha } from './leaf/hash.mjs';
-import { readJSON } from './leaf/json.mjs';
-import { at } from './leaf/paths.mjs';
-import { now } from './leaf/time.mjs';
-import { policyHash, scan, scanner, clientHits } from './privacy.mjs';
-import { refreshSummary } from './capture.mjs';
-import { mergedBrainPR } from './branch/publication/merged-pr.mjs';
+import { config } from '../../branch/platform/config.mjs';
+import { writeJSON } from '../../leaf/fs-safe.mjs';
+import { sha } from '../../leaf/hash.mjs';
+import { readJSON } from '../../leaf/json.mjs';
+import { at } from '../../leaf/paths.mjs';
+import { now } from '../../leaf/time.mjs';
+import { policyHash, clientHits } from '../../branch/privacy/client-terms.mjs';
+import { scan, scanner } from '../../branch/privacy/scanner.mjs';
+import { refreshSummary } from '../../branch/capture/summary.mjs';
+import { mergedBrainPR } from '../../branch/publication/merged-pr.mjs';
 
 const index = () =>
   readJSON(at('.state/harvest.json'), { schemaVersion: 1, sources: {}, candidates: {} });
