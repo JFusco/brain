@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "source": "chrome-devtools-docs",
+  "revision": "a582c730a22a3289c56b46f949f10fb612aaf0b2aeb2f8a76c3ddca7e0c9dcd2",
+  "origin": "https://developer.chrome.com/docs/devtools",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Accessibility",
+      "url": "https://developer.chrome.com/docs/devtools/accessibility/reference",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/accessibility/reference"
+    },
+    {
+      "title": "For agents",
+      "url": "https://developer.chrome.com/docs/devtools/agents/get-started",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/agents/get-started"
+    },
+    {
+      "title": "AI assistance",
+      "url": "https://developer.chrome.com/docs/devtools/ai-assistance",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/ai-assistance"
+    },
+    {
+      "title": "Chat with AI assistance",
+      "url": "https://developer.chrome.com/docs/devtools/ai-assistance/chat",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/ai-assistance/chat"
+    },
+    {
+      "title": "Generate code in Console and Sources",
+      "url": "https://developer.chrome.com/docs/devtools/ai-assistance/code-generation",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/ai-assistance/code-generation"
+    },
+    {
+      "title": "Data usage",
+      "url": "https://developer.chrome.com/docs/devtools/ai-assistance/data-usage-and-enterprise-controls",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/ai-assistance/data-usage-and-enterprise-controls"
+    },
+    {
+      "title": "Get started",
+      "url": "https://developer.chrome.com/docs/devtools/ai-assistance/get-started",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/ai-assistance/get-started"
+    },
+    {
+      "title": "Animations",
+      "url": "https://developer.chrome.com/docs/devtools/animations",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/animations"
+    },
+    {
+      "title": "Application",
+      "url": "https://developer.chrome.com/docs/devtools/application",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/application"
+    },
+    {
+      "title": "Autofill",
+      "url": "https://developer.chrome.com/docs/devtools/autofill",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/autofill"
+    },
+    {
+      "title": "Changes",
+      "url": "https://developer.chrome.com/docs/devtools/changes",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/changes"
+    },
+    {
+      "title": "Console",
+      "url": "https://developer.chrome.com/docs/devtools/console",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/console"
+    },
+    {
+      "title": "Coverage",
+      "url": "https://developer.chrome.com/docs/devtools/coverage",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/coverage"
+    },
+    {
+      "title": "Styles",
+      "url": "https://developer.chrome.com/docs/devtools/css",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/css"
+    },
+    {
+      "title": "CSS overview",
+      "url": "https://developer.chrome.com/docs/devtools/css-overview",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/css-overview"
+    },
+    {
+      "title": "Animations",
+      "url": "https://developer.chrome.com/docs/devtools/css/animations",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/css/animations"
+    },
+    {
+      "title": "Developer resources",
+      "url": "https://developer.chrome.com/docs/devtools/developer-resources",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/developer-resources"
+    },
+    {
+      "title": "Network conditions",
+      "url": "https://developer.chrome.com/docs/devtools/device-mode/override-user-agent",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/device-mode/override-user-agent"
+    },
+    {
+      "title": "Panels",
+      "url": "https://developer.chrome.com/docs/devtools/dom",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/dom"
+    },
+    {
+      "title": "Elements",
+      "url": "https://developer.chrome.com/docs/devtools/elements",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/elements"
+    },
+    {
+      "title": "Issues",
+      "url": "https://developer.chrome.com/docs/devtools/issues",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/issues"
+    },
+    {
+      "title": "Layers",
+      "url": "https://developer.chrome.com/docs/devtools/layers",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/layers"
+    },
+    {
+      "title": "Lighthouse",
+      "url": "https://developer.chrome.com/docs/devtools/lighthouse",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/lighthouse"
+    },
+    {
+      "title": "Media",
+      "url": "https://developer.chrome.com/docs/devtools/media-panel",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/media-panel"
+    },
+    {
+      "title": "Memory",
+      "url": "https://developer.chrome.com/docs/devtools/memory",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/memory"
+    },
+    {
+      "title": "Memory Inspector",
+      "url": "https://developer.chrome.com/docs/devtools/memory-inspector",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/memory-inspector"
+    },
+    {
+      "title": "Inspect network activity",
+      "url": "https://developer.chrome.com/docs/devtools/network",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/network"
+    },
+    {
+      "title": "Network",
+      "url": "https://developer.chrome.com/docs/devtools/network/overview",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/network/overview"
+    },
+    {
+      "title": "Get started",
+      "url": "https://developer.chrome.com/docs/devtools/overview",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/overview"
+    },
+    {
+      "title": "Performance monitor",
+      "url": "https://developer.chrome.com/docs/devtools/performance-monitor",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/performance-monitor"
+    },
+    {
+      "title": "Performance",
+      "url": "https://developer.chrome.com/docs/devtools/performance/overview",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/performance/overview"
+    },
+    {
+      "title": "Application",
+      "url": "https://developer.chrome.com/docs/devtools/progressive-web-apps",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/progressive-web-apps"
+    },
+    {
+      "title": "Protocol monitor",
+      "url": "https://developer.chrome.com/docs/devtools/protocol-monitor",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/protocol-monitor"
+    },
+    {
+      "title": "Quick source",
+      "url": "https://developer.chrome.com/docs/devtools/quick-source",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/quick-source"
+    },
+    {
+      "title": "Recorder",
+      "url": "https://developer.chrome.com/docs/devtools/recorder/overview",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/recorder/overview"
+    },
+    {
+      "title": "Rendering",
+      "url": "https://developer.chrome.com/docs/devtools/rendering",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/rendering"
+    },
+    {
+      "title": "Request conditions",
+      "url": "https://developer.chrome.com/docs/devtools/request-conditions",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/request-conditions"
+    },
+    {
+      "title": "Security",
+      "url": "https://developer.chrome.com/docs/devtools/security",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/security"
+    },
+    {
+      "title": "Sensors",
+      "url": "https://developer.chrome.com/docs/devtools/sensors",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/sensors"
+    },
+    {
+      "title": "Settings",
+      "url": "https://developer.chrome.com/docs/devtools/settings",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/settings"
+    },
+    {
+      "title": "AI innovations",
+      "url": "https://developer.chrome.com/docs/devtools/settings/ai-innovations",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/settings/ai-innovations"
+    },
+    {
+      "title": "Sources",
+      "url": "https://developer.chrome.com/docs/devtools/sources",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/sources"
+    },
+    {
+      "title": "WebAudio",
+      "url": "https://developer.chrome.com/docs/devtools/webaudio",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/webaudio"
+    },
+    {
+      "title": "WebAuthn",
+      "url": "https://developer.chrome.com/docs/devtools/webauthn",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/webauthn"
+    },
+    {
+      "title": "Set up a workspace",
+      "url": "https://developer.chrome.com/docs/devtools/workspaces",
+      "fetchUrl": "https://developer.chrome.com/docs/devtools/workspaces"
+    }
+  ],
+  "referenceIssues": []
+}

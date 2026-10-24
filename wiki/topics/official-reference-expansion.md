@@ -78,3 +78,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## Figma developer documentation
 
 [Issue 193](https://github.com/JFusco/brain/issues/193) adds Figma to Design systems from `developers.figma.com/sitemap.xml`, limited to the REST API, Plugin API and Code Connect sections. The plugin changelog under `/docs/plugins/updates/` is excluded as release history rather than reference; Widget API, Embed Kit and MCP server sections stay out of scope. Existing Figma design-context lessons remain in Frontend, and the unscoped Code Connect lookup kept that note first after the sync.
+
+## Chrome DevTools
+
+[Issue 195](https://github.com/JFusco/brain/issues/195) adds Chrome DevTools to Performance. The `developer.chrome.com` sitemap index links three sub-sitemaps that returned HTTP 500 to every tested user agent, and the site has no `llms.txt`, so the source reads the static DevTools landing page, whose absolute and relative links both resolve, limited to `/docs/devtools/`. The catalog holds the landing page's panel and feature entries without release history, not every DevTools reference page. Article pages state CC BY 4.0 with Apache 2.0 code samples. Lookup comparisons kept the image-loading playbook first for every Performance query.

@@ -1185,6 +1185,32 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling Figma developer documentation for the REST API, Plugin API (guides and API reference) and Code Connect. Excludes the plugin changelog, Widget API, Embed Kit and MCP server sections. Confirm the Figma plan, file permissions and installed @figma/code-connect version before applying guidance."
+    },
+    {
+      "id": "chrome-devtools-docs",
+      "vendor": "chrome",
+      "domains": [
+        "performance"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://developer.chrome.com/docs/devtools",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "developer.chrome.com"
+      ],
+      "includePrefixes": [
+        "/docs/devtools/"
+      ],
+      "excludePrefixes": [
+        "/docs/devtools/release-notes",
+        "/docs/devtools/whats-new"
+      ],
+      "maxPages": 100,
+      "maxIndexes": 1,
+      "license": "CC-BY-4.0 except as otherwise noted; code samples Apache-2.0 (Google Developers Site Policies); links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling Chrome DevTools panel and feature pages linked from the DevTools landing page: performance, network, memory, coverage, rendering, Lighthouse panel, console, sources and AI assistance. Deeper reference pages are reached from these entries. DevTools features follow the current Chrome release; confirm the browser version used for profiling."
     }
   ],
   "pointers": [
