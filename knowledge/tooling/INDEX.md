@@ -35,4 +35,6 @@ No curated notes yet.
   - [Catalog source](https://eslint.org/docs/latest/sitemap.xml); search it with `lookup --domain tooling`.
 - **pnpm-docs** — link catalog of 170 pages; rolling-url; revision `f4fc405ab67f5c31b395a2793bf6cb0dec2a0fb5e8a4191b8a15c41ad321e3a7`; fetched 2026-10-24.
   - [Catalog source](https://pnpm.io/sitemap.xml); search it with `lookup --domain tooling`.
+- **turborepo-docs** — link catalog of 110 pages; rolling-url; revision `7bf7094d300f5316f20b4933c65f3ee4bcab5c90cfd2e5e396456995d7d36930`; fetched 2026-10-24.
+  - [Catalog source](https://turborepo.dev/llms.txt); search it with `lookup --domain tooling`.
 <!-- brain:official:end -->

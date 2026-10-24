@@ -252,6 +252,12 @@
       "fetchedAt": "2026-10-24T22:38:46.932Z",
       "track": "rolling-url",
       "catalogSha256": "cff1d3fddfd908dd5d5135c2caa2817e06136d90d095135c49d5bd2a0786b586"
+    },
+    "turborepo-docs": {
+      "revision": "7bf7094d300f5316f20b4933c65f3ee4bcab5c90cfd2e5e396456995d7d36930",
+      "fetchedAt": "2026-10-24T22:46:48.564Z",
+      "track": "rolling-url",
+      "catalogSha256": "6adff29a30d9d6f5b52d5f26a7ff339e8276951c549ec1eaca2daa1f29956e9e"
     }
   },
   "toolchain": {

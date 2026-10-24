@@ -1,0 +1,561 @@
+{
+  "schemaVersion": 1,
+  "source": "turborepo-docs",
+  "revision": "7bf7094d300f5316f20b4933c65f3ee4bcab5c90cfd2e5e396456995d7d36930",
+  "origin": "https://turborepo.dev/llms.txt",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Acknowledgements",
+      "url": "https://turborepo.dev/docs/acknowledgments",
+      "fetchUrl": "https://turborepo.dev/docs/acknowledgments.md"
+    },
+    {
+      "title": "Community",
+      "url": "https://turborepo.dev/docs/community",
+      "fetchUrl": "https://turborepo.dev/docs/community.md"
+    },
+    {
+      "title": "Core concepts",
+      "url": "https://turborepo.dev/docs/core-concepts",
+      "fetchUrl": "https://turborepo.dev/docs/core-concepts.md"
+    },
+    {
+      "title": "Internal Packages",
+      "url": "https://turborepo.dev/docs/core-concepts/internal-packages",
+      "fetchUrl": "https://turborepo.dev/docs/core-concepts/internal-packages.md"
+    },
+    {
+      "title": "Package and Task Graphs",
+      "url": "https://turborepo.dev/docs/core-concepts/package-and-task-graph",
+      "fetchUrl": "https://turborepo.dev/docs/core-concepts/package-and-task-graph.md"
+    },
+    {
+      "title": "Package types",
+      "url": "https://turborepo.dev/docs/core-concepts/package-types",
+      "fetchUrl": "https://turborepo.dev/docs/core-concepts/package-types.md"
+    },
+    {
+      "title": "Remote Caching",
+      "url": "https://turborepo.dev/docs/core-concepts/remote-caching",
+      "fetchUrl": "https://turborepo.dev/docs/core-concepts/remote-caching.md"
+    },
+    {
+      "title": "Crafting your repository",
+      "url": "https://turborepo.dev/docs/crafting-your-repository",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository.md"
+    },
+    {
+      "title": "Caching",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/caching",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/caching.md"
+    },
+    {
+      "title": "Configuring tasks",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/configuring-tasks",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/configuring-tasks.md"
+    },
+    {
+      "title": "Constructing CI",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/constructing-ci",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/constructing-ci.md"
+    },
+    {
+      "title": "Creating an Internal Package",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/creating-an-internal-package",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/creating-an-internal-package.md"
+    },
+    {
+      "title": "Developing applications",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/developing-applications",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/developing-applications.md"
+    },
+    {
+      "title": "Managing dependencies",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/managing-dependencies",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/managing-dependencies.md"
+    },
+    {
+      "title": "Running tasks",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/running-tasks",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/running-tasks.md"
+    },
+    {
+      "title": "Structuring a repository",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/structuring-a-repository",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/structuring-a-repository.md"
+    },
+    {
+      "title": "Understanding your repository",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/understanding-your-repository",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/understanding-your-repository.md"
+    },
+    {
+      "title": "Upgrading",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/upgrading",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/upgrading.md"
+    },
+    {
+      "title": "Using environment variables",
+      "url": "https://turborepo.dev/docs/crafting-your-repository/using-environment-variables",
+      "fetchUrl": "https://turborepo.dev/docs/crafting-your-repository/using-environment-variables.md"
+    },
+    {
+      "title": "Getting started",
+      "url": "https://turborepo.dev/docs/getting-started",
+      "fetchUrl": "https://turborepo.dev/docs/getting-started.md"
+    },
+    {
+      "title": "Add to an existing repository",
+      "url": "https://turborepo.dev/docs/getting-started/add-to-existing-repository",
+      "fetchUrl": "https://turborepo.dev/docs/getting-started/add-to-existing-repository.md"
+    },
+    {
+      "title": "Editor integration",
+      "url": "https://turborepo.dev/docs/getting-started/editor-integration",
+      "fetchUrl": "https://turborepo.dev/docs/getting-started/editor-integration.md"
+    },
+    {
+      "title": "Start with an example",
+      "url": "https://turborepo.dev/docs/getting-started/examples",
+      "fetchUrl": "https://turborepo.dev/docs/getting-started/examples.md"
+    },
+    {
+      "title": "Installation",
+      "url": "https://turborepo.dev/docs/getting-started/installation",
+      "fetchUrl": "https://turborepo.dev/docs/getting-started/installation.md"
+    },
+    {
+      "title": "Guides",
+      "url": "https://turborepo.dev/docs/guides",
+      "fetchUrl": "https://turborepo.dev/docs/guides.md"
+    },
+    {
+      "title": "Using AI with Turborepo",
+      "url": "https://turborepo.dev/docs/guides/ai",
+      "fetchUrl": "https://turborepo.dev/docs/guides/ai.md"
+    },
+    {
+      "title": "Continuous Integration",
+      "url": "https://turborepo.dev/docs/guides/ci-vendors",
+      "fetchUrl": "https://turborepo.dev/docs/guides/ci-vendors.md"
+    },
+    {
+      "title": "Buildkite",
+      "url": "https://turborepo.dev/docs/guides/ci-vendors/buildkite",
+      "fetchUrl": "https://turborepo.dev/docs/guides/ci-vendors/buildkite.md"
+    },
+    {
+      "title": "CircleCI",
+      "url": "https://turborepo.dev/docs/guides/ci-vendors/circleci",
+      "fetchUrl": "https://turborepo.dev/docs/guides/ci-vendors/circleci.md"
+    },
+    {
+      "title": "GitHub Actions",
+      "url": "https://turborepo.dev/docs/guides/ci-vendors/github-actions",
+      "fetchUrl": "https://turborepo.dev/docs/guides/ci-vendors/github-actions.md"
+    },
+    {
+      "title": "GitLab CI",
+      "url": "https://turborepo.dev/docs/guides/ci-vendors/gitlab-ci",
+      "fetchUrl": "https://turborepo.dev/docs/guides/ci-vendors/gitlab-ci.md"
+    },
+    {
+      "title": "Travis CI",
+      "url": "https://turborepo.dev/docs/guides/ci-vendors/travis-ci",
+      "fetchUrl": "https://turborepo.dev/docs/guides/ci-vendors/travis-ci.md"
+    },
+    {
+      "title": "Vercel",
+      "url": "https://turborepo.dev/docs/guides/ci-vendors/vercel",
+      "fetchUrl": "https://turborepo.dev/docs/guides/ci-vendors/vercel.md"
+    },
+    {
+      "title": "Coordinating development runtime dependencies",
+      "url": "https://turborepo.dev/docs/guides/coordinating-runtime-dependencies",
+      "fetchUrl": "https://turborepo.dev/docs/guides/coordinating-runtime-dependencies.md"
+    },
+    {
+      "title": "Frameworks",
+      "url": "https://turborepo.dev/docs/guides/frameworks",
+      "fetchUrl": "https://turborepo.dev/docs/guides/frameworks.md"
+    },
+    {
+      "title": "Framework bindings in libraries",
+      "url": "https://turborepo.dev/docs/guides/frameworks/framework-bindings",
+      "fetchUrl": "https://turborepo.dev/docs/guides/frameworks/framework-bindings.md"
+    },
+    {
+      "title": "Next.js",
+      "url": "https://turborepo.dev/docs/guides/frameworks/nextjs",
+      "fetchUrl": "https://turborepo.dev/docs/guides/frameworks/nextjs.md"
+    },
+    {
+      "title": "Nuxt",
+      "url": "https://turborepo.dev/docs/guides/frameworks/nuxt",
+      "fetchUrl": "https://turborepo.dev/docs/guides/frameworks/nuxt.md"
+    },
+    {
+      "title": "Rsbuild",
+      "url": "https://turborepo.dev/docs/guides/frameworks/rsbuild",
+      "fetchUrl": "https://turborepo.dev/docs/guides/frameworks/rsbuild.md"
+    },
+    {
+      "title": "SvelteKit",
+      "url": "https://turborepo.dev/docs/guides/frameworks/sveltekit",
+      "fetchUrl": "https://turborepo.dev/docs/guides/frameworks/sveltekit.md"
+    },
+    {
+      "title": "Vite",
+      "url": "https://turborepo.dev/docs/guides/frameworks/vite",
+      "fetchUrl": "https://turborepo.dev/docs/guides/frameworks/vite.md"
+    },
+    {
+      "title": "Generating code",
+      "url": "https://turborepo.dev/docs/guides/generating-code",
+      "fetchUrl": "https://turborepo.dev/docs/guides/generating-code.md"
+    },
+    {
+      "title": "Handling platforms",
+      "url": "https://turborepo.dev/docs/guides/handling-platforms",
+      "fetchUrl": "https://turborepo.dev/docs/guides/handling-platforms.md"
+    },
+    {
+      "title": "Microfrontends",
+      "url": "https://turborepo.dev/docs/guides/microfrontends",
+      "fetchUrl": "https://turborepo.dev/docs/guides/microfrontends.md"
+    },
+    {
+      "title": "Migrating from Nx",
+      "url": "https://turborepo.dev/docs/guides/migrating-from-nx",
+      "fetchUrl": "https://turborepo.dev/docs/guides/migrating-from-nx.md"
+    },
+    {
+      "title": "Multi-language support",
+      "url": "https://turborepo.dev/docs/guides/multi-language",
+      "fetchUrl": "https://turborepo.dev/docs/guides/multi-language.md"
+    },
+    {
+      "title": "Publishing libraries",
+      "url": "https://turborepo.dev/docs/guides/publishing-libraries",
+      "fetchUrl": "https://turborepo.dev/docs/guides/publishing-libraries.md"
+    },
+    {
+      "title": "Single-package workspaces",
+      "url": "https://turborepo.dev/docs/guides/single-package-workspaces",
+      "fetchUrl": "https://turborepo.dev/docs/guides/single-package-workspaces.md"
+    },
+    {
+      "title": "Skipping tasks",
+      "url": "https://turborepo.dev/docs/guides/skipping-tasks",
+      "fetchUrl": "https://turborepo.dev/docs/guides/skipping-tasks.md"
+    },
+    {
+      "title": "Tools",
+      "url": "https://turborepo.dev/docs/guides/tools",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools.md"
+    },
+    {
+      "title": "Biome",
+      "url": "https://turborepo.dev/docs/guides/tools/biome",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/biome.md"
+    },
+    {
+      "title": "Docker",
+      "url": "https://turborepo.dev/docs/guides/tools/docker",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/docker.md"
+    },
+    {
+      "title": "ESLint",
+      "url": "https://turborepo.dev/docs/guides/tools/eslint",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/eslint.md"
+    },
+    {
+      "title": "Go (Experimental)",
+      "url": "https://turborepo.dev/docs/guides/tools/go",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/go.md"
+    },
+    {
+      "title": "Jest",
+      "url": "https://turborepo.dev/docs/guides/tools/jest",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/jest.md"
+    },
+    {
+      "title": "Oxc (oxlint and oxfmt)",
+      "url": "https://turborepo.dev/docs/guides/tools/oxc",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/oxc.md"
+    },
+    {
+      "title": "Playwright",
+      "url": "https://turborepo.dev/docs/guides/tools/playwright",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/playwright.md"
+    },
+    {
+      "title": "Prisma",
+      "url": "https://turborepo.dev/docs/guides/tools/prisma",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/prisma.md"
+    },
+    {
+      "title": "Python (Experimental)",
+      "url": "https://turborepo.dev/docs/guides/tools/python",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/python.md"
+    },
+    {
+      "title": "Rust (Experimental)",
+      "url": "https://turborepo.dev/docs/guides/tools/rust",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/rust.md"
+    },
+    {
+      "title": "shadcn/ui",
+      "url": "https://turborepo.dev/docs/guides/tools/shadcn-ui",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/shadcn-ui.md"
+    },
+    {
+      "title": "Storybook",
+      "url": "https://turborepo.dev/docs/guides/tools/storybook",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/storybook.md"
+    },
+    {
+      "title": "Tailwind CSS",
+      "url": "https://turborepo.dev/docs/guides/tools/tailwind",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/tailwind.md"
+    },
+    {
+      "title": "TypeScript",
+      "url": "https://turborepo.dev/docs/guides/tools/typescript",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/typescript.md"
+    },
+    {
+      "title": "Vitest",
+      "url": "https://turborepo.dev/docs/guides/tools/vitest",
+      "fetchUrl": "https://turborepo.dev/docs/guides/tools/vitest.md"
+    },
+    {
+      "title": "Introduction",
+      "url": "https://turborepo.dev/docs/index",
+      "fetchUrl": "https://turborepo.dev/docs/index.md"
+    },
+    {
+      "title": "Invalid environment variable prefix",
+      "url": "https://turborepo.dev/docs/messages/invalid-env-prefix",
+      "fetchUrl": "https://turborepo.dev/docs/messages/invalid-env-prefix.md"
+    },
+    {
+      "title": "Missing root task in turbo.json",
+      "url": "https://turborepo.dev/docs/messages/missing-root-task-in-turbo-json",
+      "fetchUrl": "https://turborepo.dev/docs/messages/missing-root-task-in-turbo-json.md"
+    },
+    {
+      "title": "Package task in single-package workspace error",
+      "url": "https://turborepo.dev/docs/messages/package-task-in-single-package-workspace",
+      "fetchUrl": "https://turborepo.dev/docs/messages/package-task-in-single-package-workspace.md"
+    },
+    {
+      "title": "Recursive `turbo` invocations",
+      "url": "https://turborepo.dev/docs/messages/recursive-turbo-invocations",
+      "fetchUrl": "https://turborepo.dev/docs/messages/recursive-turbo-invocations.md"
+    },
+    {
+      "title": "Unnecessary package task syntax error",
+      "url": "https://turborepo.dev/docs/messages/unnecessary-package-task-syntax",
+      "fetchUrl": "https://turborepo.dev/docs/messages/unnecessary-package-task-syntax.md"
+    },
+    {
+      "title": "Remote Cache API",
+      "url": "https://turborepo.dev/docs/openapi",
+      "fetchUrl": "https://turborepo.dev/docs/openapi.md"
+    },
+    {
+      "title": "Artifacts",
+      "url": "https://turborepo.dev/docs/openapi/artifacts",
+      "fetchUrl": "https://turborepo.dev/docs/openapi/artifacts.md"
+    },
+    {
+      "title": "Check if artifact exists",
+      "url": "https://turborepo.dev/docs/openapi/artifacts/artifact-exists",
+      "fetchUrl": "https://turborepo.dev/docs/openapi/artifacts/artifact-exists.md"
+    },
+    {
+      "title": "Query artifact information",
+      "url": "https://turborepo.dev/docs/openapi/artifacts/artifact-query",
+      "fetchUrl": "https://turborepo.dev/docs/openapi/artifacts/artifact-query.md"
+    },
+    {
+      "title": "Download a cache artifact",
+      "url": "https://turborepo.dev/docs/openapi/artifacts/download-artifact",
+      "fetchUrl": "https://turborepo.dev/docs/openapi/artifacts/download-artifact.md"
+    },
+    {
+      "title": "Record cache usage events",
+      "url": "https://turborepo.dev/docs/openapi/artifacts/record-events",
+      "fetchUrl": "https://turborepo.dev/docs/openapi/artifacts/record-events.md"
+    },
+    {
+      "title": "Get remote caching status",
+      "url": "https://turborepo.dev/docs/openapi/artifacts/status",
+      "fetchUrl": "https://turborepo.dev/docs/openapi/artifacts/status.md"
+    },
+    {
+      "title": "Upload a cache artifact",
+      "url": "https://turborepo.dev/docs/openapi/artifacts/upload-artifact",
+      "fetchUrl": "https://turborepo.dev/docs/openapi/artifacts/upload-artifact.md"
+    },
+    {
+      "title": "Turborepo API reference",
+      "url": "https://turborepo.dev/docs/reference",
+      "fetchUrl": "https://turborepo.dev/docs/reference.md"
+    },
+    {
+      "title": "bin",
+      "url": "https://turborepo.dev/docs/reference/bin",
+      "fetchUrl": "https://turborepo.dev/docs/reference/bin.md"
+    },
+    {
+      "title": "boundaries",
+      "url": "https://turborepo.dev/docs/reference/boundaries",
+      "fetchUrl": "https://turborepo.dev/docs/reference/boundaries.md"
+    },
+    {
+      "title": "Configuring turbo.json",
+      "url": "https://turborepo.dev/docs/reference/configuration",
+      "fetchUrl": "https://turborepo.dev/docs/reference/configuration.md"
+    },
+    {
+      "title": "create-turbo",
+      "url": "https://turborepo.dev/docs/reference/create-turbo",
+      "fetchUrl": "https://turborepo.dev/docs/reference/create-turbo.md"
+    },
+    {
+      "title": "devtools",
+      "url": "https://turborepo.dev/docs/reference/devtools",
+      "fetchUrl": "https://turborepo.dev/docs/reference/devtools.md"
+    },
+    {
+      "title": "docs",
+      "url": "https://turborepo.dev/docs/reference/docs",
+      "fetchUrl": "https://turborepo.dev/docs/reference/docs.md"
+    },
+    {
+      "title": "eslint-config-turbo",
+      "url": "https://turborepo.dev/docs/reference/eslint-config-turbo",
+      "fetchUrl": "https://turborepo.dev/docs/reference/eslint-config-turbo.md"
+    },
+    {
+      "title": "eslint-plugin-turbo",
+      "url": "https://turborepo.dev/docs/reference/eslint-plugin-turbo",
+      "fetchUrl": "https://turborepo.dev/docs/reference/eslint-plugin-turbo.md"
+    },
+    {
+      "title": "generate",
+      "url": "https://turborepo.dev/docs/reference/generate",
+      "fetchUrl": "https://turborepo.dev/docs/reference/generate.md"
+    },
+    {
+      "title": "File glob specification",
+      "url": "https://turborepo.dev/docs/reference/globs",
+      "fetchUrl": "https://turborepo.dev/docs/reference/globs.md"
+    },
+    {
+      "title": "info",
+      "url": "https://turborepo.dev/docs/reference/info",
+      "fetchUrl": "https://turborepo.dev/docs/reference/info.md"
+    },
+    {
+      "title": "link",
+      "url": "https://turborepo.dev/docs/reference/link",
+      "fetchUrl": "https://turborepo.dev/docs/reference/link.md"
+    },
+    {
+      "title": "login",
+      "url": "https://turborepo.dev/docs/reference/login",
+      "fetchUrl": "https://turborepo.dev/docs/reference/login.md"
+    },
+    {
+      "title": "logout",
+      "url": "https://turborepo.dev/docs/reference/logout",
+      "fetchUrl": "https://turborepo.dev/docs/reference/logout.md"
+    },
+    {
+      "title": "ls",
+      "url": "https://turborepo.dev/docs/reference/ls",
+      "fetchUrl": "https://turborepo.dev/docs/reference/ls.md"
+    },
+    {
+      "title": "Options overview",
+      "url": "https://turborepo.dev/docs/reference/options-overview",
+      "fetchUrl": "https://turborepo.dev/docs/reference/options-overview.md"
+    },
+    {
+      "title": "Package Configurations",
+      "url": "https://turborepo.dev/docs/reference/package-configurations",
+      "fetchUrl": "https://turborepo.dev/docs/reference/package-configurations.md"
+    },
+    {
+      "title": "prune",
+      "url": "https://turborepo.dev/docs/reference/prune",
+      "fetchUrl": "https://turborepo.dev/docs/reference/prune.md"
+    },
+    {
+      "title": "query",
+      "url": "https://turborepo.dev/docs/reference/query",
+      "fetchUrl": "https://turborepo.dev/docs/reference/query.md"
+    },
+    {
+      "title": "run",
+      "url": "https://turborepo.dev/docs/reference/run",
+      "fetchUrl": "https://turborepo.dev/docs/reference/run.md"
+    },
+    {
+      "title": "scan (Deprecated)",
+      "url": "https://turborepo.dev/docs/reference/scan",
+      "fetchUrl": "https://turborepo.dev/docs/reference/scan.md"
+    },
+    {
+      "title": "System environment variables",
+      "url": "https://turborepo.dev/docs/reference/system-environment-variables",
+      "fetchUrl": "https://turborepo.dev/docs/reference/system-environment-variables.md"
+    },
+    {
+      "title": "telemetry",
+      "url": "https://turborepo.dev/docs/reference/telemetry",
+      "fetchUrl": "https://turborepo.dev/docs/reference/telemetry.md"
+    },
+    {
+      "title": "@turbo/codemod",
+      "url": "https://turborepo.dev/docs/reference/turbo-codemod",
+      "fetchUrl": "https://turborepo.dev/docs/reference/turbo-codemod.md"
+    },
+    {
+      "title": "@turbo/gen",
+      "url": "https://turborepo.dev/docs/reference/turbo-gen",
+      "fetchUrl": "https://turborepo.dev/docs/reference/turbo-gen.md"
+    },
+    {
+      "title": "turbo-ignore",
+      "url": "https://turborepo.dev/docs/reference/turbo-ignore",
+      "fetchUrl": "https://turborepo.dev/docs/reference/turbo-ignore.md"
+    },
+    {
+      "title": "unlink",
+      "url": "https://turborepo.dev/docs/reference/unlink",
+      "fetchUrl": "https://turborepo.dev/docs/reference/unlink.md"
+    },
+    {
+      "title": "watch",
+      "url": "https://turborepo.dev/docs/reference/watch",
+      "fetchUrl": "https://turborepo.dev/docs/reference/watch.md"
+    },
+    {
+      "title": "Support policy",
+      "url": "https://turborepo.dev/docs/support-policy",
+      "fetchUrl": "https://turborepo.dev/docs/support-policy.md"
+    },
+    {
+      "title": "Telemetry",
+      "url": "https://turborepo.dev/docs/telemetry",
+      "fetchUrl": "https://turborepo.dev/docs/telemetry.md"
+    }
+  ],
+  "referenceIssues": []
+}
