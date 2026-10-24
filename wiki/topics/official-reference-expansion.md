@@ -94,3 +94,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## ESLint
 
 [Issue 201](https://github.com/JFusco/brain/issues/201) adds ESLint to Tooling from the latest-docs sitemap rather than the blog-heavy site sitemap, limited to the user guide, core rules, extend, integrate, flags and languages sections. Contributor, maintainer and website component-library pages are excluded. The `latest` path is rolling (v10.13.0 at registration) and rule pages include deprecated rules, so readers confirm the installed major and config format.
+
+## pnpm
+
+[Issue 203](https://github.com/JFusco/brain/issues/203) adds pnpm to Tooling from its single sitemap. Current-major docs sit at the site root (12.x at registration), so the source includes `/` and excludes the versioned `/10.x` and `/11.x` trees, blog, `/r/` redirect shortcuts and donation and logo pages; the site homepage remains as an entry. Brain itself pins pnpm 10, a reminder that rolling current-major docs need version confirmation.

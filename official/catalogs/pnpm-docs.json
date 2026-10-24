@@ -1,0 +1,861 @@
+{
+  "schemaVersion": 1,
+  "source": "pnpm-docs",
+  "revision": "f4fc405ab67f5c31b395a2793bf6cb0dec2a0fb5e8a4191b8a15c41ad321e3a7",
+  "origin": "https://pnpm.io/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "",
+      "url": "https://pnpm.io/",
+      "fetchUrl": "https://pnpm.io/"
+    },
+    {
+      "title": "agent skills",
+      "url": "https://pnpm.io/agent-skills",
+      "fetchUrl": "https://pnpm.io/agent-skills"
+    },
+    {
+      "title": "aliases",
+      "url": "https://pnpm.io/aliases",
+      "fetchUrl": "https://pnpm.io/aliases"
+    },
+    {
+      "title": "benchmarks",
+      "url": "https://pnpm.io/benchmarks",
+      "fetchUrl": "https://pnpm.io/benchmarks"
+    },
+    {
+      "title": "cargo",
+      "url": "https://pnpm.io/cargo",
+      "fetchUrl": "https://pnpm.io/cargo"
+    },
+    {
+      "title": "catalogs",
+      "url": "https://pnpm.io/catalogs",
+      "fetchUrl": "https://pnpm.io/catalogs"
+    },
+    {
+      "title": "cli / access",
+      "url": "https://pnpm.io/cli/access",
+      "fetchUrl": "https://pnpm.io/cli/access"
+    },
+    {
+      "title": "cli / add",
+      "url": "https://pnpm.io/cli/add",
+      "fetchUrl": "https://pnpm.io/cli/add"
+    },
+    {
+      "title": "cli / approve builds",
+      "url": "https://pnpm.io/cli/approve-builds",
+      "fetchUrl": "https://pnpm.io/cli/approve-builds"
+    },
+    {
+      "title": "cli / audit",
+      "url": "https://pnpm.io/cli/audit",
+      "fetchUrl": "https://pnpm.io/cli/audit"
+    },
+    {
+      "title": "cli / bin",
+      "url": "https://pnpm.io/cli/bin",
+      "fetchUrl": "https://pnpm.io/cli/bin"
+    },
+    {
+      "title": "cli / bugs",
+      "url": "https://pnpm.io/cli/bugs",
+      "fetchUrl": "https://pnpm.io/cli/bugs"
+    },
+    {
+      "title": "cli / cache",
+      "url": "https://pnpm.io/cli/cache",
+      "fetchUrl": "https://pnpm.io/cli/cache"
+    },
+    {
+      "title": "cli / cache delete",
+      "url": "https://pnpm.io/cli/cache-delete",
+      "fetchUrl": "https://pnpm.io/cli/cache-delete"
+    },
+    {
+      "title": "cli / cache list",
+      "url": "https://pnpm.io/cli/cache-list",
+      "fetchUrl": "https://pnpm.io/cli/cache-list"
+    },
+    {
+      "title": "cli / cache list registries",
+      "url": "https://pnpm.io/cli/cache-list-registries",
+      "fetchUrl": "https://pnpm.io/cli/cache-list-registries"
+    },
+    {
+      "title": "cli / cache path",
+      "url": "https://pnpm.io/cli/cache-path",
+      "fetchUrl": "https://pnpm.io/cli/cache-path"
+    },
+    {
+      "title": "cli / cache prune",
+      "url": "https://pnpm.io/cli/cache-prune",
+      "fetchUrl": "https://pnpm.io/cli/cache-prune"
+    },
+    {
+      "title": "cli / cache view",
+      "url": "https://pnpm.io/cli/cache-view",
+      "fetchUrl": "https://pnpm.io/cli/cache-view"
+    },
+    {
+      "title": "cli / cat file",
+      "url": "https://pnpm.io/cli/cat-file",
+      "fetchUrl": "https://pnpm.io/cli/cat-file"
+    },
+    {
+      "title": "cli / cat index",
+      "url": "https://pnpm.io/cli/cat-index",
+      "fetchUrl": "https://pnpm.io/cli/cat-index"
+    },
+    {
+      "title": "cli / change",
+      "url": "https://pnpm.io/cli/change",
+      "fetchUrl": "https://pnpm.io/cli/change"
+    },
+    {
+      "title": "cli / ci",
+      "url": "https://pnpm.io/cli/ci",
+      "fetchUrl": "https://pnpm.io/cli/ci"
+    },
+    {
+      "title": "cli / clean",
+      "url": "https://pnpm.io/cli/clean",
+      "fetchUrl": "https://pnpm.io/cli/clean"
+    },
+    {
+      "title": "cli / config",
+      "url": "https://pnpm.io/cli/config",
+      "fetchUrl": "https://pnpm.io/cli/config"
+    },
+    {
+      "title": "cli / create",
+      "url": "https://pnpm.io/cli/create",
+      "fetchUrl": "https://pnpm.io/cli/create"
+    },
+    {
+      "title": "cli / dedupe",
+      "url": "https://pnpm.io/cli/dedupe",
+      "fetchUrl": "https://pnpm.io/cli/dedupe"
+    },
+    {
+      "title": "cli / deploy",
+      "url": "https://pnpm.io/cli/deploy",
+      "fetchUrl": "https://pnpm.io/cli/deploy"
+    },
+    {
+      "title": "cli / deprecate",
+      "url": "https://pnpm.io/cli/deprecate",
+      "fetchUrl": "https://pnpm.io/cli/deprecate"
+    },
+    {
+      "title": "cli / dist tag",
+      "url": "https://pnpm.io/cli/dist-tag",
+      "fetchUrl": "https://pnpm.io/cli/dist-tag"
+    },
+    {
+      "title": "cli / docs",
+      "url": "https://pnpm.io/cli/docs",
+      "fetchUrl": "https://pnpm.io/cli/docs"
+    },
+    {
+      "title": "cli / doctor",
+      "url": "https://pnpm.io/cli/doctor",
+      "fetchUrl": "https://pnpm.io/cli/doctor"
+    },
+    {
+      "title": "cli / env",
+      "url": "https://pnpm.io/cli/env",
+      "fetchUrl": "https://pnpm.io/cli/env"
+    },
+    {
+      "title": "cli / exec",
+      "url": "https://pnpm.io/cli/exec",
+      "fetchUrl": "https://pnpm.io/cli/exec"
+    },
+    {
+      "title": "cli / fetch",
+      "url": "https://pnpm.io/cli/fetch",
+      "fetchUrl": "https://pnpm.io/cli/fetch"
+    },
+    {
+      "title": "cli / find hash",
+      "url": "https://pnpm.io/cli/find-hash",
+      "fetchUrl": "https://pnpm.io/cli/find-hash"
+    },
+    {
+      "title": "cli / help",
+      "url": "https://pnpm.io/cli/help",
+      "fetchUrl": "https://pnpm.io/cli/help"
+    },
+    {
+      "title": "cli / ignored builds",
+      "url": "https://pnpm.io/cli/ignored-builds",
+      "fetchUrl": "https://pnpm.io/cli/ignored-builds"
+    },
+    {
+      "title": "cli / import",
+      "url": "https://pnpm.io/cli/import",
+      "fetchUrl": "https://pnpm.io/cli/import"
+    },
+    {
+      "title": "cli / init",
+      "url": "https://pnpm.io/cli/init",
+      "fetchUrl": "https://pnpm.io/cli/init"
+    },
+    {
+      "title": "cli / install",
+      "url": "https://pnpm.io/cli/install",
+      "fetchUrl": "https://pnpm.io/cli/install"
+    },
+    {
+      "title": "cli / install test",
+      "url": "https://pnpm.io/cli/install-test",
+      "fetchUrl": "https://pnpm.io/cli/install-test"
+    },
+    {
+      "title": "cli / lane",
+      "url": "https://pnpm.io/cli/lane",
+      "fetchUrl": "https://pnpm.io/cli/lane"
+    },
+    {
+      "title": "cli / licenses",
+      "url": "https://pnpm.io/cli/licenses",
+      "fetchUrl": "https://pnpm.io/cli/licenses"
+    },
+    {
+      "title": "cli / link",
+      "url": "https://pnpm.io/cli/link",
+      "fetchUrl": "https://pnpm.io/cli/link"
+    },
+    {
+      "title": "cli / list",
+      "url": "https://pnpm.io/cli/list",
+      "fetchUrl": "https://pnpm.io/cli/list"
+    },
+    {
+      "title": "cli / login",
+      "url": "https://pnpm.io/cli/login",
+      "fetchUrl": "https://pnpm.io/cli/login"
+    },
+    {
+      "title": "cli / logout",
+      "url": "https://pnpm.io/cli/logout",
+      "fetchUrl": "https://pnpm.io/cli/logout"
+    },
+    {
+      "title": "cli / outdated",
+      "url": "https://pnpm.io/cli/outdated",
+      "fetchUrl": "https://pnpm.io/cli/outdated"
+    },
+    {
+      "title": "cli / owner",
+      "url": "https://pnpm.io/cli/owner",
+      "fetchUrl": "https://pnpm.io/cli/owner"
+    },
+    {
+      "title": "cli / pack",
+      "url": "https://pnpm.io/cli/pack",
+      "fetchUrl": "https://pnpm.io/cli/pack"
+    },
+    {
+      "title": "cli / pack app",
+      "url": "https://pnpm.io/cli/pack-app",
+      "fetchUrl": "https://pnpm.io/cli/pack-app"
+    },
+    {
+      "title": "cli / patch",
+      "url": "https://pnpm.io/cli/patch",
+      "fetchUrl": "https://pnpm.io/cli/patch"
+    },
+    {
+      "title": "cli / patch commit",
+      "url": "https://pnpm.io/cli/patch-commit",
+      "fetchUrl": "https://pnpm.io/cli/patch-commit"
+    },
+    {
+      "title": "cli / patch remove",
+      "url": "https://pnpm.io/cli/patch-remove",
+      "fetchUrl": "https://pnpm.io/cli/patch-remove"
+    },
+    {
+      "title": "cli / peers",
+      "url": "https://pnpm.io/cli/peers",
+      "fetchUrl": "https://pnpm.io/cli/peers"
+    },
+    {
+      "title": "cli / permissions",
+      "url": "https://pnpm.io/cli/permissions",
+      "fetchUrl": "https://pnpm.io/cli/permissions"
+    },
+    {
+      "title": "cli / ping",
+      "url": "https://pnpm.io/cli/ping",
+      "fetchUrl": "https://pnpm.io/cli/ping"
+    },
+    {
+      "title": "cli / pipeline",
+      "url": "https://pnpm.io/cli/pipeline",
+      "fetchUrl": "https://pnpm.io/cli/pipeline"
+    },
+    {
+      "title": "cli / pkg",
+      "url": "https://pnpm.io/cli/pkg",
+      "fetchUrl": "https://pnpm.io/cli/pkg"
+    },
+    {
+      "title": "cli / pm",
+      "url": "https://pnpm.io/cli/pm",
+      "fetchUrl": "https://pnpm.io/cli/pm"
+    },
+    {
+      "title": "cli / pnx",
+      "url": "https://pnpm.io/cli/pnx",
+      "fetchUrl": "https://pnpm.io/cli/pnx"
+    },
+    {
+      "title": "cli / prefix",
+      "url": "https://pnpm.io/cli/prefix",
+      "fetchUrl": "https://pnpm.io/cli/prefix"
+    },
+    {
+      "title": "cli / profile",
+      "url": "https://pnpm.io/cli/profile",
+      "fetchUrl": "https://pnpm.io/cli/profile"
+    },
+    {
+      "title": "cli / prune",
+      "url": "https://pnpm.io/cli/prune",
+      "fetchUrl": "https://pnpm.io/cli/prune"
+    },
+    {
+      "title": "cli / publish",
+      "url": "https://pnpm.io/cli/publish",
+      "fetchUrl": "https://pnpm.io/cli/publish"
+    },
+    {
+      "title": "cli / rebuild",
+      "url": "https://pnpm.io/cli/rebuild",
+      "fetchUrl": "https://pnpm.io/cli/rebuild"
+    },
+    {
+      "title": "cli / recursive",
+      "url": "https://pnpm.io/cli/recursive",
+      "fetchUrl": "https://pnpm.io/cli/recursive"
+    },
+    {
+      "title": "cli / remove",
+      "url": "https://pnpm.io/cli/remove",
+      "fetchUrl": "https://pnpm.io/cli/remove"
+    },
+    {
+      "title": "cli / repo",
+      "url": "https://pnpm.io/cli/repo",
+      "fetchUrl": "https://pnpm.io/cli/repo"
+    },
+    {
+      "title": "cli / root",
+      "url": "https://pnpm.io/cli/root",
+      "fetchUrl": "https://pnpm.io/cli/root"
+    },
+    {
+      "title": "cli / run",
+      "url": "https://pnpm.io/cli/run",
+      "fetchUrl": "https://pnpm.io/cli/run"
+    },
+    {
+      "title": "cli / runtime",
+      "url": "https://pnpm.io/cli/runtime",
+      "fetchUrl": "https://pnpm.io/cli/runtime"
+    },
+    {
+      "title": "cli / sbom",
+      "url": "https://pnpm.io/cli/sbom",
+      "fetchUrl": "https://pnpm.io/cli/sbom"
+    },
+    {
+      "title": "cli / search",
+      "url": "https://pnpm.io/cli/search",
+      "fetchUrl": "https://pnpm.io/cli/search"
+    },
+    {
+      "title": "cli / self update",
+      "url": "https://pnpm.io/cli/self-update",
+      "fetchUrl": "https://pnpm.io/cli/self-update"
+    },
+    {
+      "title": "cli / set script",
+      "url": "https://pnpm.io/cli/set-script",
+      "fetchUrl": "https://pnpm.io/cli/set-script"
+    },
+    {
+      "title": "cli / setup",
+      "url": "https://pnpm.io/cli/setup",
+      "fetchUrl": "https://pnpm.io/cli/setup"
+    },
+    {
+      "title": "cli / shim",
+      "url": "https://pnpm.io/cli/shim",
+      "fetchUrl": "https://pnpm.io/cli/shim"
+    },
+    {
+      "title": "cli / stage",
+      "url": "https://pnpm.io/cli/stage",
+      "fetchUrl": "https://pnpm.io/cli/stage"
+    },
+    {
+      "title": "cli / star",
+      "url": "https://pnpm.io/cli/star",
+      "fetchUrl": "https://pnpm.io/cli/star"
+    },
+    {
+      "title": "cli / start",
+      "url": "https://pnpm.io/cli/start",
+      "fetchUrl": "https://pnpm.io/cli/start"
+    },
+    {
+      "title": "cli / store",
+      "url": "https://pnpm.io/cli/store",
+      "fetchUrl": "https://pnpm.io/cli/store"
+    },
+    {
+      "title": "cli / tasks",
+      "url": "https://pnpm.io/cli/tasks",
+      "fetchUrl": "https://pnpm.io/cli/tasks"
+    },
+    {
+      "title": "cli / team",
+      "url": "https://pnpm.io/cli/team",
+      "fetchUrl": "https://pnpm.io/cli/team"
+    },
+    {
+      "title": "cli / test",
+      "url": "https://pnpm.io/cli/test",
+      "fetchUrl": "https://pnpm.io/cli/test"
+    },
+    {
+      "title": "cli / token",
+      "url": "https://pnpm.io/cli/token",
+      "fetchUrl": "https://pnpm.io/cli/token"
+    },
+    {
+      "title": "cli / unlink",
+      "url": "https://pnpm.io/cli/unlink",
+      "fetchUrl": "https://pnpm.io/cli/unlink"
+    },
+    {
+      "title": "cli / unpublish",
+      "url": "https://pnpm.io/cli/unpublish",
+      "fetchUrl": "https://pnpm.io/cli/unpublish"
+    },
+    {
+      "title": "cli / update",
+      "url": "https://pnpm.io/cli/update",
+      "fetchUrl": "https://pnpm.io/cli/update"
+    },
+    {
+      "title": "cli / version",
+      "url": "https://pnpm.io/cli/version",
+      "fetchUrl": "https://pnpm.io/cli/version"
+    },
+    {
+      "title": "cli / view",
+      "url": "https://pnpm.io/cli/view",
+      "fetchUrl": "https://pnpm.io/cli/view"
+    },
+    {
+      "title": "cli / whoami",
+      "url": "https://pnpm.io/cli/whoami",
+      "fetchUrl": "https://pnpm.io/cli/whoami"
+    },
+    {
+      "title": "cli / why",
+      "url": "https://pnpm.io/cli/why",
+      "fetchUrl": "https://pnpm.io/cli/why"
+    },
+    {
+      "title": "cli / with",
+      "url": "https://pnpm.io/cli/with",
+      "fetchUrl": "https://pnpm.io/cli/with"
+    },
+    {
+      "title": "completion",
+      "url": "https://pnpm.io/completion",
+      "fetchUrl": "https://pnpm.io/completion"
+    },
+    {
+      "title": "config dependencies",
+      "url": "https://pnpm.io/config-dependencies",
+      "fetchUrl": "https://pnpm.io/config-dependencies"
+    },
+    {
+      "title": "config includes",
+      "url": "https://pnpm.io/config-includes",
+      "fetchUrl": "https://pnpm.io/config-includes"
+    },
+    {
+      "title": "configuring",
+      "url": "https://pnpm.io/configuring",
+      "fetchUrl": "https://pnpm.io/configuring"
+    },
+    {
+      "title": "continuous integration",
+      "url": "https://pnpm.io/continuous-integration",
+      "fetchUrl": "https://pnpm.io/continuous-integration"
+    },
+    {
+      "title": "docker",
+      "url": "https://pnpm.io/docker",
+      "fetchUrl": "https://pnpm.io/docker"
+    },
+    {
+      "title": "errors",
+      "url": "https://pnpm.io/errors",
+      "fetchUrl": "https://pnpm.io/errors"
+    },
+    {
+      "title": "faq",
+      "url": "https://pnpm.io/faq",
+      "fetchUrl": "https://pnpm.io/faq"
+    },
+    {
+      "title": "feature comparison",
+      "url": "https://pnpm.io/feature-comparison",
+      "fetchUrl": "https://pnpm.io/feature-comparison"
+    },
+    {
+      "title": "filtering",
+      "url": "https://pnpm.io/filtering",
+      "fetchUrl": "https://pnpm.io/filtering"
+    },
+    {
+      "title": "finders",
+      "url": "https://pnpm.io/finders",
+      "fetchUrl": "https://pnpm.io/finders"
+    },
+    {
+      "title": "git",
+      "url": "https://pnpm.io/git",
+      "fetchUrl": "https://pnpm.io/git"
+    },
+    {
+      "title": "git_branch_lockfiles",
+      "url": "https://pnpm.io/git_branch_lockfiles",
+      "fetchUrl": "https://pnpm.io/git_branch_lockfiles"
+    },
+    {
+      "title": "git worktrees",
+      "url": "https://pnpm.io/git-worktrees",
+      "fetchUrl": "https://pnpm.io/git-worktrees"
+    },
+    {
+      "title": "global packages",
+      "url": "https://pnpm.io/global-packages",
+      "fetchUrl": "https://pnpm.io/global-packages"
+    },
+    {
+      "title": "global virtual store",
+      "url": "https://pnpm.io/global-virtual-store",
+      "fetchUrl": "https://pnpm.io/global-virtual-store"
+    },
+    {
+      "title": "how peers are resolved",
+      "url": "https://pnpm.io/how-peers-are-resolved",
+      "fetchUrl": "https://pnpm.io/how-peers-are-resolved"
+    },
+    {
+      "title": "installation",
+      "url": "https://pnpm.io/installation",
+      "fetchUrl": "https://pnpm.io/installation"
+    },
+    {
+      "title": "limitations",
+      "url": "https://pnpm.io/limitations",
+      "fetchUrl": "https://pnpm.io/limitations"
+    },
+    {
+      "title": "lockfile",
+      "url": "https://pnpm.io/lockfile",
+      "fetchUrl": "https://pnpm.io/lockfile"
+    },
+    {
+      "title": "migration",
+      "url": "https://pnpm.io/migration",
+      "fetchUrl": "https://pnpm.io/migration"
+    },
+    {
+      "title": "motivation",
+      "url": "https://pnpm.io/motivation",
+      "fetchUrl": "https://pnpm.io/motivation"
+    },
+    {
+      "title": "npmrc",
+      "url": "https://pnpm.io/npmrc",
+      "fetchUrl": "https://pnpm.io/npmrc"
+    },
+    {
+      "title": "only allow pnpm",
+      "url": "https://pnpm.io/only-allow-pnpm",
+      "fetchUrl": "https://pnpm.io/only-allow-pnpm"
+    },
+    {
+      "title": "package_json",
+      "url": "https://pnpm.io/package_json",
+      "fetchUrl": "https://pnpm.io/package_json"
+    },
+    {
+      "title": "package managers",
+      "url": "https://pnpm.io/package-managers",
+      "fetchUrl": "https://pnpm.io/package-managers"
+    },
+    {
+      "title": "package sources",
+      "url": "https://pnpm.io/package-sources",
+      "fetchUrl": "https://pnpm.io/package-sources"
+    },
+    {
+      "title": "pnpm cli",
+      "url": "https://pnpm.io/pnpm-cli",
+      "fetchUrl": "https://pnpm.io/pnpm-cli"
+    },
+    {
+      "title": "pnpm vs npm",
+      "url": "https://pnpm.io/pnpm-vs-npm",
+      "fetchUrl": "https://pnpm.io/pnpm-vs-npm"
+    },
+    {
+      "title": "pnpmfile",
+      "url": "https://pnpm.io/pnpmfile",
+      "fetchUrl": "https://pnpm.io/pnpmfile"
+    },
+    {
+      "title": "pnpr",
+      "url": "https://pnpm.io/pnpr",
+      "fetchUrl": "https://pnpm.io/pnpr"
+    },
+    {
+      "title": "pnpr / auth backends",
+      "url": "https://pnpm.io/pnpr/auth-backends",
+      "fetchUrl": "https://pnpm.io/pnpr/auth-backends"
+    },
+    {
+      "title": "pnpr / cli",
+      "url": "https://pnpm.io/pnpr/cli",
+      "fetchUrl": "https://pnpm.io/pnpr/cli"
+    },
+    {
+      "title": "pnpr / compiler cache",
+      "url": "https://pnpm.io/pnpr/compiler-cache",
+      "fetchUrl": "https://pnpm.io/pnpr/compiler-cache"
+    },
+    {
+      "title": "pnpr / configuration",
+      "url": "https://pnpm.io/pnpr/configuration",
+      "fetchUrl": "https://pnpm.io/pnpr/configuration"
+    },
+    {
+      "title": "pnpr / container images",
+      "url": "https://pnpm.io/pnpr/container-images",
+      "fetchUrl": "https://pnpm.io/pnpr/container-images"
+    },
+    {
+      "title": "pnpr / discovery",
+      "url": "https://pnpm.io/pnpr/discovery",
+      "fetchUrl": "https://pnpm.io/pnpr/discovery"
+    },
+    {
+      "title": "pnpr / ecosystems",
+      "url": "https://pnpm.io/pnpr/ecosystems",
+      "fetchUrl": "https://pnpm.io/pnpr/ecosystems"
+    },
+    {
+      "title": "pnpr / endpoints",
+      "url": "https://pnpm.io/pnpr/endpoints",
+      "fetchUrl": "https://pnpm.io/pnpr/endpoints"
+    },
+    {
+      "title": "pnpr / install acceleration",
+      "url": "https://pnpm.io/pnpr/install-acceleration",
+      "fetchUrl": "https://pnpm.io/pnpr/install-acceleration"
+    },
+    {
+      "title": "pnpr / installation",
+      "url": "https://pnpm.io/pnpr/installation",
+      "fetchUrl": "https://pnpm.io/pnpr/installation"
+    },
+    {
+      "title": "pnpr / license",
+      "url": "https://pnpm.io/pnpr/license",
+      "fetchUrl": "https://pnpm.io/pnpr/license"
+    },
+    {
+      "title": "pnpr / oidc",
+      "url": "https://pnpm.io/pnpr/oidc",
+      "fetchUrl": "https://pnpm.io/pnpr/oidc"
+    },
+    {
+      "title": "pnpr / pipeline runs",
+      "url": "https://pnpm.io/pnpr/pipeline-runs",
+      "fetchUrl": "https://pnpm.io/pnpr/pipeline-runs"
+    },
+    {
+      "title": "pnpr / quick start",
+      "url": "https://pnpm.io/pnpr/quick-start",
+      "fetchUrl": "https://pnpm.io/pnpr/quick-start"
+    },
+    {
+      "title": "pnpr / scim",
+      "url": "https://pnpm.io/pnpr/scim",
+      "fetchUrl": "https://pnpm.io/pnpr/scim"
+    },
+    {
+      "title": "pnpr / shared side effects cache",
+      "url": "https://pnpm.io/pnpr/shared-side-effects-cache",
+      "fetchUrl": "https://pnpm.io/pnpr/shared-side-effects-cache"
+    },
+    {
+      "title": "pnpr / storage",
+      "url": "https://pnpm.io/pnpr/storage",
+      "fetchUrl": "https://pnpm.io/pnpr/storage"
+    },
+    {
+      "title": "pnpr / web ui",
+      "url": "https://pnpm.io/pnpr/web-ui",
+      "fetchUrl": "https://pnpm.io/pnpr/web-ui"
+    },
+    {
+      "title": "podman",
+      "url": "https://pnpm.io/podman",
+      "fetchUrl": "https://pnpm.io/podman"
+    },
+    {
+      "title": "production",
+      "url": "https://pnpm.io/production",
+      "fetchUrl": "https://pnpm.io/production"
+    },
+    {
+      "title": "python",
+      "url": "https://pnpm.io/python",
+      "fetchUrl": "https://pnpm.io/python"
+    },
+    {
+      "title": "registries",
+      "url": "https://pnpm.io/registries",
+      "fetchUrl": "https://pnpm.io/registries"
+    },
+    {
+      "title": "registry revisions",
+      "url": "https://pnpm.io/registry-revisions",
+      "fetchUrl": "https://pnpm.io/registry-revisions"
+    },
+    {
+      "title": "scripts",
+      "url": "https://pnpm.io/scripts",
+      "fetchUrl": "https://pnpm.io/scripts"
+    },
+    {
+      "title": "settings",
+      "url": "https://pnpm.io/settings",
+      "fetchUrl": "https://pnpm.io/settings"
+    },
+    {
+      "title": "settings / build",
+      "url": "https://pnpm.io/settings/build",
+      "fetchUrl": "https://pnpm.io/settings/build"
+    },
+    {
+      "title": "settings / cli",
+      "url": "https://pnpm.io/settings/cli",
+      "fetchUrl": "https://pnpm.io/settings/cli"
+    },
+    {
+      "title": "settings / dependency resolution",
+      "url": "https://pnpm.io/settings/dependency-resolution",
+      "fetchUrl": "https://pnpm.io/settings/dependency-resolution"
+    },
+    {
+      "title": "settings / network",
+      "url": "https://pnpm.io/settings/network",
+      "fetchUrl": "https://pnpm.io/settings/network"
+    },
+    {
+      "title": "settings / node modules",
+      "url": "https://pnpm.io/settings/node-modules",
+      "fetchUrl": "https://pnpm.io/settings/node-modules"
+    },
+    {
+      "title": "settings / other",
+      "url": "https://pnpm.io/settings/other",
+      "fetchUrl": "https://pnpm.io/settings/other"
+    },
+    {
+      "title": "settings / peer dependencies",
+      "url": "https://pnpm.io/settings/peer-dependencies",
+      "fetchUrl": "https://pnpm.io/settings/peer-dependencies"
+    },
+    {
+      "title": "settings / store",
+      "url": "https://pnpm.io/settings/store",
+      "fetchUrl": "https://pnpm.io/settings/store"
+    },
+    {
+      "title": "settings / versioning",
+      "url": "https://pnpm.io/settings/versioning",
+      "fetchUrl": "https://pnpm.io/settings/versioning"
+    },
+    {
+      "title": "store loader",
+      "url": "https://pnpm.io/store-loader",
+      "fetchUrl": "https://pnpm.io/store-loader"
+    },
+    {
+      "title": "supply chain security",
+      "url": "https://pnpm.io/supply-chain-security",
+      "fetchUrl": "https://pnpm.io/supply-chain-security"
+    },
+    {
+      "title": "symlinked node modules structure",
+      "url": "https://pnpm.io/symlinked-node-modules-structure",
+      "fetchUrl": "https://pnpm.io/symlinked-node-modules-structure"
+    },
+    {
+      "title": "typescript",
+      "url": "https://pnpm.io/typescript",
+      "fetchUrl": "https://pnpm.io/typescript"
+    },
+    {
+      "title": "uninstall",
+      "url": "https://pnpm.io/uninstall",
+      "fetchUrl": "https://pnpm.io/uninstall"
+    },
+    {
+      "title": "using changesets",
+      "url": "https://pnpm.io/using-changesets",
+      "fetchUrl": "https://pnpm.io/using-changesets"
+    },
+    {
+      "title": "versioning",
+      "url": "https://pnpm.io/versioning",
+      "fetchUrl": "https://pnpm.io/versioning"
+    },
+    {
+      "title": "webcontainers",
+      "url": "https://pnpm.io/webcontainers",
+      "fetchUrl": "https://pnpm.io/webcontainers"
+    },
+    {
+      "title": "workspace task orchestration",
+      "url": "https://pnpm.io/workspace-task-orchestration",
+      "fetchUrl": "https://pnpm.io/workspace-task-orchestration"
+    },
+    {
+      "title": "workspaces",
+      "url": "https://pnpm.io/workspaces",
+      "fetchUrl": "https://pnpm.io/workspaces"
+    }
+  ],
+  "referenceIssues": []
+}
