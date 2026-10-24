@@ -1,5 +1,7 @@
 import { randomUUID } from 'node:crypto';
-import { rankEntries, installedEntries, tokens } from '../lookup.mjs';
+import { rankEntries } from '../branch/search/rank.mjs';
+import { installedEntries } from '../branch/lookup/sources.mjs';
+import { tokens } from '../branch/search/tokens.mjs';
 import { projectContext } from '../branch/project/context.mjs';
 import { versionFit } from '../branch/project/versions.mjs';
 import { readJSON } from '../leaf/json.mjs';

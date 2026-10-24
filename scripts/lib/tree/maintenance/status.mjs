@@ -2,7 +2,7 @@ import { readJSON } from '../../leaf/json.mjs';
 import { at } from '../../leaf/paths.mjs';
 import { now, overdue } from '../../leaf/time.mjs';
 import { staleGuidance } from '../curation/stale.mjs';
-import { linkSummary } from '../../link-health.mjs';
+import { linkSummary } from '../../branch/links/summary.mjs';
 import { vocabularyStatus } from '../../branch/packages/vocabulary.mjs';
 import { uiPatternsStatus } from '../../branch/packages/ui-patterns.mjs';
 
