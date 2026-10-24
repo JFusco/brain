@@ -1,5 +1,6 @@
 import { gunzipSync } from 'node:zlib';
-import { safePath, config } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { safePath } from './leaf/fs-safe.mjs';
 
 // Read selected regular files directly; never unpack untrusted archive paths.
 export function archive(bytes, { select = () => true, stripRoot = true } = {}) {

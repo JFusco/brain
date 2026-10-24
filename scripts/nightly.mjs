@@ -3,7 +3,13 @@
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import { spawnSync } from 'node:child_process';
-import { at, ROOT, args, readJSON, writeJSON, now, sha, safePath, withLock } from './lib/core.mjs';
+import { withLock } from './lib/branch/platform/lock.mjs';
+import { args } from './lib/leaf/cli-args.mjs';
+import { writeJSON, safePath } from './lib/leaf/fs-safe.mjs';
+import { sha } from './lib/leaf/hash.mjs';
+import { readJSON } from './lib/leaf/json.mjs';
+import { at, ROOT } from './lib/leaf/paths.mjs';
+import { now } from './lib/leaf/time.mjs';
 import { recordPublication, mergedBrainPR } from './lib/maintenance.mjs';
 import * as gates from './lib/nightly-publication.mjs';
 import { checkVocabularyRelease } from './lib/vocabulary.mjs';

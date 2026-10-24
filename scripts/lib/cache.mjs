@@ -1,5 +1,9 @@
 import fs from 'node:fs';
-import { at, ROOT, readJSON, writeJSON, config, noSymlinks, sha } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { writeJSON, noSymlinks } from './leaf/fs-safe.mjs';
+import { sha } from './leaf/hash.mjs';
+import { readJSON, parseJSON } from './leaf/json.mjs';
+import { at, ROOT } from './leaf/paths.mjs';
 
 export function storeExcerpt(file, receipt) {
   const index = readJSON(at('.state/lookup-cache.json'), { schemaVersion: 1, files: {} }),
@@ -24,7 +28,7 @@ export function readExcerpt(file) {
   const bytes = fs.readFileSync(file);
   if (!record || sha(bytes) !== record.sha256)
     throw new Error('Modified or unmanaged excerpt preserved; cache integrity is unconfirmed');
-  return JSON.parse(bytes);
+  return parseJSON(bytes);
 }
 
 export function cleanExcerptCache({ yes = false } = {}) {
@@ -74,7 +78,7 @@ export function cleanExcerptCache({ yes = false } = {}) {
     }
     let receipt;
     try {
-      receipt = JSON.parse(bytes);
+      receipt = parseJSON(bytes);
     } catch {
       preserved++;
       continue;

@@ -2,7 +2,12 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { at, config, mkdir, sha, writeJSON, now } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { mkdir, writeJSON } from './leaf/fs-safe.mjs';
+import { sha } from './leaf/hash.mjs';
+import { at } from './leaf/paths.mjs';
+import { parseJSON } from './leaf/json.mjs';
+import { now } from './leaf/time.mjs';
 
 const escape = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 export function terms() {
@@ -125,7 +130,7 @@ export function scan(entries) {
     );
     if (result.error || ![0, 42].includes(result.status))
       throw new Error('Gitleaks scan failed; refusing unscanned content');
-    const reports = fs.existsSync(report) ? JSON.parse(fs.readFileSync(report, 'utf8')) : [];
+    const reports = fs.existsSync(report) ? parseJSON(fs.readFileSync(report, 'utf8')) : [];
     for (const item of reports) {
       const id = names.get(path.basename(item.File));
       if (!id) throw new Error('Unexpected scanner report path');

@@ -1,7 +1,8 @@
 import { randomUUID } from 'node:crypto';
 import { rankEntries, installedEntries, tokens } from '../lookup.mjs';
 import { projectContext, versionFit } from '../project-context.mjs';
-import { readJSON, at } from '../core.mjs';
+import { readJSON } from '../leaf/json.mjs';
+import { at } from '../leaf/paths.mjs';
 import { snapshot, nodeID } from './snapshot.mjs';
 import { startSession, sessionInfo, record, captureLookup, metricsWarning } from './metrics.mjs';
 export function connectingPath(graph, from, to, target) {

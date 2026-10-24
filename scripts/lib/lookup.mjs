@@ -1,7 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
-import { at, config, readJSON, sha, noSymlinks, now, gitBlob } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { noSymlinks } from './leaf/fs-safe.mjs';
+import { sha, gitBlob } from './leaf/hash.mjs';
+import { readJSON } from './leaf/json.mjs';
+import { at } from './leaf/paths.mjs';
+import { now } from './leaf/time.mjs';
 import { registry, lock, readCatalog } from './official.mjs';
 import { download } from './network.mjs';
 import { assertClean } from './privacy.mjs';

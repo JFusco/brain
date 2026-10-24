@@ -2,7 +2,9 @@
 import { execFileSync } from 'node:child_process';
 import { createRequire } from 'node:module';
 import path from 'node:path';
-import { ROOT, sha, at, readJSON } from '../core.mjs';
+import { sha } from '../leaf/hash.mjs';
+import { readJSON, parseJSON } from '../leaf/json.mjs';
+import { ROOT, at } from '../leaf/paths.mjs';
 import { validateKnowledge, guidanceState } from '../guidance.mjs';
 const require = createRequire(import.meta.url);
 const { splitFrontmatter, scalar, list } = require('../../wiki/lib/frontmatter.cjs');
@@ -72,7 +74,7 @@ export function snapshot(revision = mainRevision()) {
     contents.set(file.id, batch.subarray(end + 1, end + 1 + size));
     offset = end + size + 2;
   }
-  const json = name => JSON.parse(contents.get(name)?.toString() || 'null');
+  const json = name => parseJSON(contents.get(name)?.toString() || 'null');
   const config = json('brain.config.json'),
     registry = json('official/sources.json'),
     lock = json('official/sources.lock.json');
@@ -143,7 +145,7 @@ export function snapshot(revision = mainRevision()) {
     if (!active || !bytes) continue;
     if (sha(bytes) !== active.catalogSha256)
       throw new Error('Committed catalog does not match its lock');
-    const doc = JSON.parse(bytes);
+    const doc = parseJSON(bytes);
     if (doc.source !== spec.id || doc.revision !== active.revision)
       throw new Error('Invalid committed catalog');
     const source = `source:${spec.id}`;

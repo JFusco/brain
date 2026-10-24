@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import test from 'node:test';
-import { inside, noSymlinks, safePath } from '../scripts/lib/core.mjs';
+import { inside, noSymlinks, safePath } from '../scripts/lib/leaf/fs-safe.mjs';
 import { temporary } from './helpers.mjs';
 
 test('safePath accepts plain relative paths', () => {

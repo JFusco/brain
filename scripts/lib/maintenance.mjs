@@ -1,6 +1,9 @@
 import crypto from 'node:crypto';
 import { spawnSync } from 'node:child_process';
-import { at, ROOT, readJSON, writeJSON, now } from './core.mjs';
+import { writeJSON } from './leaf/fs-safe.mjs';
+import { readJSON } from './leaf/json.mjs';
+import { at, ROOT } from './leaf/paths.mjs';
+import { now } from './leaf/time.mjs';
 import { staleGuidance } from './guidance.mjs';
 import { linkSummary } from './link-health.mjs';
 import { api } from './network.mjs';

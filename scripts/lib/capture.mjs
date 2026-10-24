@@ -1,4 +1,9 @@
-import { at, config, readJSON, writeJSON, atomic, sha, now } from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { writeJSON, atomic } from './leaf/fs-safe.mjs';
+import { sha } from './leaf/hash.mjs';
+import { readJSON } from './leaf/json.mjs';
+import { at } from './leaf/paths.mjs';
+import { now } from './leaf/time.mjs';
 import { scrub, policyHash, scan, scanner } from './privacy.mjs';
 
 // Lessons enter the private inbox only through explicit capture; nothing harvests project files.

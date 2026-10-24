@@ -1,5 +1,8 @@
 import fs from 'node:fs';
-import { at, json, noSymlinks, sha } from './core.mjs';
+import { noSymlinks } from './leaf/fs-safe.mjs';
+import { sha } from './leaf/hash.mjs';
+import { json, parseJSON } from './leaf/json.mjs';
+import { at } from './leaf/paths.mjs';
 import { packageReleaseStatus, checkPackageRelease } from './package-releases.mjs';
 import { assertClean } from './privacy.mjs';
 
@@ -32,7 +35,7 @@ function packageFile(relative, maxBytes = 2 * 1024 * 1024) {
 }
 function packageIdentity() {
   const expected = json(at('package.json')).dependencies[name],
-    installed = JSON.parse(packageFile('package.json'));
+    installed = parseJSON(packageFile('package.json'));
   if (!stable.test(expected) || installed.name !== name || installed.version !== expected)
     throw new Error(
       'CMS vocabulary differs from the exact Brain dependency pin; run pnpm install --frozen-lockfile',
@@ -42,7 +45,7 @@ function packageIdentity() {
 function vocabulary() {
   const identity = packageIdentity(),
     bytes = packageFile('catalog/catalog.json'),
-    catalog = JSON.parse(bytes);
+    catalog = parseJSON(bytes);
   if (catalog.schemaVersion !== 1 || !Array.isArray(catalog.profiles))
     throw new Error('Unsupported CMS vocabulary catalog');
   return {
@@ -87,7 +90,7 @@ export function vocabularyEntries(profileId, domain) {
   const info = profileInfo(profile);
   if (domain && domain !== info.domain)
     throw new Error('CMS vocabulary profile does not match --domain');
-  const sources = JSON.parse(packageFile('sources/official-sources.json'));
+  const sources = parseJSON(packageFile('sources/official-sources.json'));
   const sourceMap = new Map(sources.sources.map(s => [s.id, s]));
   const evidence = ref => {
     const source = sourceMap.get(ref.sourceId);

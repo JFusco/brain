@@ -1,5 +1,9 @@
 import fs from 'node:fs';
-import { at, json, noSymlinks, safePath, sha, now } from './core.mjs';
+import { noSymlinks, safePath } from './leaf/fs-safe.mjs';
+import { sha } from './leaf/hash.mjs';
+import { json, parseJSON } from './leaf/json.mjs';
+import { at } from './leaf/paths.mjs';
+import { now } from './leaf/time.mjs';
 import { assertClean } from './privacy.mjs';
 import { packageReleaseStatus, checkPackageRelease } from './package-releases.mjs';
 
@@ -27,7 +31,7 @@ function packageFile(relative, maxBytes = 256 * 1024) {
 }
 function packageIdentity() {
   const expected = json(at('package.json')).dependencies[name],
-    installed = JSON.parse(packageFile('package.json'));
+    installed = parseJSON(packageFile('package.json'));
   if (!stable.test(expected) || installed.name !== name || installed.version !== expected)
     throw new Error(
       'UI Design Brain differs from the exact Brain dependency pin; run pnpm install --frozen-lockfile',
@@ -37,7 +41,7 @@ function packageIdentity() {
 function catalog() {
   const identity = packageIdentity(),
     bytes = packageFile(root + 'catalog-manifest.json'),
-    manifest = JSON.parse(bytes);
+    manifest = parseJSON(bytes);
   if (
     manifest.schemaVersion !== 1 ||
     manifest.catalog !== 'ui-design-brain' ||
@@ -62,7 +66,7 @@ function catalog() {
   const patternsBytes = packageFile(root + 'patterns-manifest.json');
   if ('sha256:' + sha(patternsBytes) !== files.get('patterns-manifest.json'))
     throw new Error('UI Design Brain patterns differ from the catalog manifest');
-  const patterns = JSON.parse(patternsBytes);
+  const patterns = parseJSON(patternsBytes);
   if (
     !Array.isArray(patterns) ||
     !patterns.length ||

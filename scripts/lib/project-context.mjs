@@ -1,7 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
-import { inside, noSymlinks, json } from './core.mjs';
+import { inside, noSymlinks } from './leaf/fs-safe.mjs';
+import { json } from './leaf/json.mjs';
 
 const packageName = /^(?:@[a-z0-9][a-z0-9._-]*\/)?[a-z0-9][a-z0-9._-]*$/i;
 const literal = /^(\d+)(?:\.(\d+))?(?:\.(\d+))?$/;

@@ -2,7 +2,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { at, config, readJSON, writeJSON, sha, atomic, mkdir, withLock } from './lib/core.mjs';
+import { config } from './lib/branch/platform/config.mjs';
+import { withLock } from './lib/branch/platform/lock.mjs';
+import { writeJSON, atomic, mkdir } from './lib/leaf/fs-safe.mjs';
+import { sha } from './lib/leaf/hash.mjs';
+import { readJSON } from './lib/leaf/json.mjs';
+import { at } from './lib/leaf/paths.mjs';
 import { api, download } from './lib/network.mjs';
 import { archive } from './lib/archive.mjs';
 

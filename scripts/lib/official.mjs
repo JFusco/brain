@@ -1,21 +1,13 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
-import {
-  at,
-  ROOT,
-  config,
-  json,
-  readJSON,
-  writeJSON,
-  atomic,
-  sha,
-  now,
-  safePath,
-  noSymlinks,
-  walk,
-  log,
-} from './core.mjs';
+import { config } from './branch/platform/config.mjs';
+import { log } from './branch/platform/log.mjs';
+import { writeJSON, atomic, safePath, noSymlinks, walk } from './leaf/fs-safe.mjs';
+import { sha } from './leaf/hash.mjs';
+import { json, readJSON, parseJSON } from './leaf/json.mjs';
+import { at, ROOT } from './leaf/paths.mjs';
+import { now } from './leaf/time.mjs';
 import { api, download, markdownResponse } from './network.mjs';
 import { archive } from './archive.mjs';
 import { assertClean } from './privacy.mjs';
@@ -40,7 +32,7 @@ export function readCatalog(id, entry = lock().sources[id]) {
   const bytes = fs.readFileSync(file);
   if (!entry || sha(bytes) !== entry.catalogSha256)
     throw new Error(`Catalog differs from its lock entry: ${id}`);
-  const doc = JSON.parse(bytes);
+  const doc = parseJSON(bytes);
   if (doc.source !== id || doc.revision !== entry.revision)
     throw new Error(`Invalid official catalog: ${id}`);
   return doc;
@@ -671,7 +663,7 @@ export function officialProblems(read, names, { unexpected = 'warnings' } = {}) 
         return null;
       }
       try {
-        return JSON.parse(bytes);
+        return parseJSON(bytes);
       } catch {
         issues.push(`${name}: invalid JSON`);
         return null;
@@ -721,7 +713,7 @@ export function officialProblems(read, names, { unexpected = 'warnings' } = {}) 
       continue;
     }
     try {
-      catalogs[id] = JSON.parse(bytes);
+      catalogs[id] = parseJSON(bytes);
     } catch {
       issues.push(`${id}: catalog is invalid JSON`);
       continue;
