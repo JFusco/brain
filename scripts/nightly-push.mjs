@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
-import { validatePush } from './lib/nightly-publication.mjs';
+import { validatePush } from './lib/tree/nightly/push-guard.mjs';
 try {
   validatePush(fs.readFileSync(0, 'utf8'));
 } catch (error) {

@@ -1,17 +1,11 @@
-import crypto from 'node:crypto';
-import { spawnSync } from 'node:child_process';
-import { writeJSON } from './leaf/fs-safe.mjs';
-import { readJSON } from './leaf/json.mjs';
-import { at, ROOT } from './leaf/paths.mjs';
-import { now } from './leaf/time.mjs';
-import { staleGuidance } from './guidance.mjs';
-import { linkSummary } from './link-health.mjs';
-import { api } from './branch/platform/network/github.mjs';
-import { vocabularyStatus } from './vocabulary.mjs';
-import { uiPatternsStatus } from './ui-patterns.mjs';
+import { readJSON } from '../../leaf/json.mjs';
+import { at } from '../../leaf/paths.mjs';
+import { now, overdue } from '../../leaf/time.mjs';
+import { staleGuidance } from '../../guidance.mjs';
+import { linkSummary } from '../../link-health.mjs';
+import { vocabularyStatus } from '../../vocabulary.mjs';
+import { uiPatternsStatus } from '../../ui-patterns.mjs';
 
-const overdue = (value, hours) =>
-  !value || !Number.isFinite(Date.parse(value)) || Date.now() - Date.parse(value) > hours * 3600000;
 export function maintenanceStatus() {
   const runs = readJSON(at('.state/official-runs.json'), {}),
     registry = readJSON(at('official/sources.json'), { sources: [] }),
@@ -91,66 +85,4 @@ export function maintenanceStatus() {
     notice:
       'Local jobs require an awake Mac and running app. Agent-reported publication records distinguish manual from scheduled invocation; they are not independent scheduler attestations. Link counts are bounded local samples.',
   };
-}
-
-export async function mergedBrainPR(pr) {
-  if (!/^[1-9]\d*$/.test(String(pr || ''))) throw new Error('A merged PR number is required');
-  const origin = spawnSync('git', ['remote', 'get-url', 'origin'], {
-    cwd: ROOT,
-    encoding: 'utf8',
-    timeout: 10000,
-  });
-  const repository = origin.stdout
-    ?.trim()
-    .match(/^(?:https:\/\/github\.com\/|git@github\.com:)([\w.-]+\/[\w.-]+?)(?:\.git)?$/)?.[1];
-  if (!repository) throw new Error('Cannot establish Brain repository identity');
-  const saved = await api(`repos/${repository}/pulls/${pr}`);
-  if (
-    !saved.merged_at ||
-    saved.base?.ref !== 'main' ||
-    saved.base?.repo?.full_name?.toLowerCase() !== repository.toLowerCase()
-  )
-    throw new Error('PR is not merged to Brain main');
-  return saved;
-}
-
-export async function recordPublication({ phase, runId, outcome, pr, trigger = 'manual' } = {}) {
-  const file = at('.state/publication.json'),
-    state = readJSON(file, {});
-  if (!['manual', 'scheduled-agent'].includes(trigger))
-    throw new Error('Publication trigger must be manual or scheduled-agent');
-  if (phase === 'started') {
-    if (state.activeRun && !overdue(state.activeRun.startedAt, 2))
-      throw new Error('A publication run is already active; reconcile it before starting another');
-    if (state.activeRun) state.lastAbandonedRun = state.activeRun;
-    state.activeRun = { id: crypto.randomUUID(), startedAt: now(), trigger };
-    state.lastAttempt = now();
-    state.trigger = trigger;
-    writeJSON(file, state, 0o600);
-    return { runId: state.activeRun.id, started: true, trigger };
-  }
-  if (!['completed', 'failed'].includes(phase) || !runId || state.activeRun?.id !== runId)
-    throw new Error('Completion requires the active publication run ID');
-  if (phase === 'completed') {
-    if (!['published', 'unchanged'].includes(outcome))
-      throw new Error('Completion outcome must be published or unchanged');
-    if (outcome === 'published') {
-      if (!/^[1-9]\d*$/.test(String(pr || '')))
-        throw new Error('Published completion requires --pr');
-      const saved = await mergedBrainPR(pr);
-      state.lastPr = Number(pr);
-      state.lastMergeCommit = saved.merge_commit_sha;
-    } else if (pr) throw new Error('Unchanged publication cannot cite a new merged PR');
-    state.lastSuccess = now();
-    state.lastOutcome = outcome;
-  } else state.lastOutcome = 'failed';
-  state.lastCompletedAt = now();
-  state.lastRun = {
-    ...state.activeRun,
-    outcome: state.lastOutcome,
-    completedAt: state.lastCompletedAt,
-  };
-  delete state.activeRun;
-  writeJSON(file, state, 0o600);
-  return { runId, phase, outcome: state.lastOutcome, trigger: state.trigger };
 }
