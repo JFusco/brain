@@ -61,4 +61,4 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 
 ## Vitest
 
-[Issue 185](https://github.com/JFusco/brain/issues/185) adds Vitest to Tooling. `vitest.dev` has no sitemap, but its official `llms.txt` is a Markdown table of contents of relative `.md` links, so the source is a Markdown-index collection limited to `/config`, `/guide/` and `/api/`, with a 400-page ceiling. Rolling documentation tracks the current Vitest major.
+[Issue 185](https://github.com/JFusco/brain/issues/185) adds Vitest to Tooling. `vitest.dev` has no sitemap, but its official `llms.txt` is a Markdown table of contents of relative `.md` links, so the source is a Markdown-index collection limited to `/config`, `/guide` and `/api/`, with a 400-page ceiling. Rolling documentation tracks the current Vitest major.

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vitest-docs",
-  "revision": "eb03b87201f1f3b8b2fc86355b7d977184e75bee07e02467b7c1ca6544906c91",
+  "revision": "9fc16ed9694188c784244565756b0eb6ecb3f6bbd111f2cb97479f821cc88adb",
   "origin": "https://vitest.dev/llms.txt",
   "skills": [],
   "docs": [],
@@ -700,6 +700,11 @@
       "title": "watchTriggerPatterns | Config",
       "url": "https://vitest.dev/config/watchtriggerpatterns",
       "fetchUrl": "https://vitest.dev/config/watchtriggerpatterns.md"
+    },
+    {
+      "title": "Getting Started | Guide",
+      "url": "https://vitest.dev/guide",
+      "fetchUrl": "https://vitest.dev/guide.md"
     },
     {
       "title": "Advanced API",

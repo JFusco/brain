@@ -1061,7 +1061,7 @@
       ],
       "includePrefixes": [
         "/config",
-        "/guide/",
+        "/guide",
         "/api/"
       ],
       "fetchSuffix": ".md",
