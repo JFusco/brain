@@ -57,4 +57,4 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 
 ## Vite
 
-[Issue 183](https://github.com/JFusco/brain/issues/183) registers the first Tooling catalog. `vite.dev/llms.txt` is prose with a handful of links, so the source reads `vite.dev/sitemap.xml` instead, limited to `/guide/`, `/config/` and `/changes/` with one index and a 200-page ceiling. Blog, team and release pages stay out. Pages are fetched as Markdown by appending `.md`. Rolling documentation does not establish compatibility with a project's installed Vite major.
+[Issue 183](https://github.com/JFusco/brain/issues/183) registers the first Tooling catalog. `vite.dev/llms.txt` lists relative Markdown links; the source reads `vite.dev/sitemap.xml` instead so reader links stay on the canonical HTML pages, limited to `/guide/`, `/config/` and `/changes/` with one index and a 200-page ceiling. Blog, team and release pages stay out. Pages are fetched as Markdown by appending `.md`. Rolling documentation does not establish compatibility with a project's installed Vite major.
