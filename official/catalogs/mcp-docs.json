@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "source": "mcp-docs",
+  "revision": "3b9e6aa8deb144c9f3839ab03840c4171ca9a6683650713513e47db3a0e0182c",
+  "origin": "https://modelcontextprotocol.io/llms.txt",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Build an MCP client",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/develop/build-client",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/develop/build-client.md"
+    },
+    {
+      "title": "Build an MCP server",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/develop/build-server",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/develop/build-server.md"
+    },
+    {
+      "title": "Build with Agent Skills",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/develop/build-with-agent-skills",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/develop/build-with-agent-skills.md"
+    },
+    {
+      "title": "Client Best Practices",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/develop/clients/client-best-practices",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/develop/clients/client-best-practices.md"
+    },
+    {
+      "title": "Connect to local MCP servers",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/develop/connect-local-servers",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/develop/connect-local-servers.md"
+    },
+    {
+      "title": "Connect to remote MCP Servers",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/develop/connect-remote-servers",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/develop/connect-remote-servers.md"
+    },
+    {
+      "title": "What is the Model Context Protocol (MCP)?",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro.md"
+    },
+    {
+      "title": "Architecture overview",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture.md"
+    },
+    {
+      "title": "Understanding MCP clients",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/client-concepts",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/learn/client-concepts.md"
+    },
+    {
+      "title": "Understanding MCP servers",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/server-concepts",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/learn/server-concepts.md"
+    },
+    {
+      "title": "Versioning",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/versioning",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/learn/versioning.md"
+    },
+    {
+      "title": "SDKs",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/sdk",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/sdk.md"
+    },
+    {
+      "title": "Debugging",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/debugging",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/debugging.md"
+    },
+    {
+      "title": "MCP Inspector",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector.md"
+    },
+    {
+      "title": "Authorization",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/authorization",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/authorization.md"
+    },
+    {
+      "title": "CLI client",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/cli",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/cli.md"
+    },
+    {
+      "title": "Configuration and flags",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/configuration",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/configuration.md"
+    },
+    {
+      "title": "mcpdo connection client",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/mcpdo",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/mcpdo.md"
+    },
+    {
+      "title": "Protocol eras",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/protocol-eras",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/protocol-eras.md"
+    },
+    {
+      "title": "Recipes",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/recipes",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/recipes.md"
+    },
+    {
+      "title": "Security",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/security",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/security.md"
+    },
+    {
+      "title": "TUI client",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/tui",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/tui.md"
+    },
+    {
+      "title": "Web client",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/web",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/web.md"
+    },
+    {
+      "title": "Understanding Authorization in MCP",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/authorization",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/authorization.md"
+    },
+    {
+      "title": "Local Server Security",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/local-server-security",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/local-server-security.md"
+    },
+    {
+      "title": "Security Best Practices",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices.md"
+    },
+    {
+      "title": "Architecture",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/architecture/index",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/architecture/index.md"
+    },
+    {
+      "title": "Authorization Server Discovery",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/authorization-server-discovery",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/authorization-server-discovery.md"
+    },
+    {
+      "title": "Client Registration",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/client-registration",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/client-registration.md"
+    },
+    {
+      "title": "Authorization",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/index",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/index.md"
+    },
+    {
+      "title": "Authorization Security Considerations",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/security-considerations",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/security-considerations.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/index",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/index.md"
+    },
+    {
+      "title": "Cancellation",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/cancellation",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/cancellation.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/index",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/index.md"
+    },
+    {
+      "title": "Multi Round-Trip Requests",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/mrtr",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/mrtr.md"
+    },
+    {
+      "title": "Progress",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/progress",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/progress.md"
+    },
+    {
+      "title": "Subscriptions",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/subscriptions",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/subscriptions.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/index",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/index.md"
+    },
+    {
+      "title": "stdio",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/stdio",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/stdio.md"
+    },
+    {
+      "title": "Streamable HTTP",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/streamable-http",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/streamable-http.md"
+    },
+    {
+      "title": "Versioning and Compatibility",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning.md"
+    },
+    {
+      "title": "Key Changes",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/changelog.md"
+    },
+    {
+      "title": "Elicitation",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/client/elicitation",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/client/elicitation.md"
+    },
+    {
+      "title": "Roots",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/client/roots",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/client/roots.md"
+    },
+    {
+      "title": "Sampling",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/client/sampling",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/client/sampling.md"
+    },
+    {
+      "title": "Deprecated Features",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/deprecated",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/deprecated.md"
+    },
+    {
+      "title": "Specification",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/index",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/index.md"
+    },
+    {
+      "title": "Schema Reference",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/schema",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/schema.md"
+    },
+    {
+      "title": "Discovery",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/discover",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/server/discover.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/index",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/server/index.md"
+    },
+    {
+      "title": "Prompts",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/prompts",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/server/prompts.md"
+    },
+    {
+      "title": "Resources",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/resources",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/server/resources.md"
+    },
+    {
+      "title": "Tools",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools.md"
+    },
+    {
+      "title": "Caching",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/caching",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/caching.md"
+    },
+    {
+      "title": "Completion",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/completion",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/completion.md"
+    },
+    {
+      "title": "Logging",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/logging",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/logging.md"
+    },
+    {
+      "title": "Pagination",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/pagination",
+      "fetchUrl": "https://modelcontextprotocol.io/specification/2026-07-28/server/utilities/pagination.md"
+    }
+  ],
+  "referenceIssues": []
+}

@@ -1459,6 +1459,29 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling official Agent Skills format specification, authoring and evaluation guidance, and client implementation documentation. Client-specific support and validation may differ from the shared format; confirm the target agent's own documentation. Excludes the client showcase. No skill installation or execution."
+    },
+    {
+      "id": "mcp-docs",
+      "vendor": "modelcontextprotocol",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://modelcontextprotocol.io/llms.txt",
+      "allowedHosts": [
+        "modelcontextprotocol.io"
+      ],
+      "includePrefixes": [
+        "/docs/2026-07-28/",
+        "/specification/2026-07-28/"
+      ],
+      "fetchSuffix": ".md",
+      "maxPages": 100,
+      "maxIndexes": 1,
+      "license": "Documentation CC-BY-4.0; specifications are undergoing MIT to Apache-2.0 transition under upstream LICENSE; links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official MCP documentation and specification for protocol 2026-07-28 only. Excludes draft, older protocol versions, extensions, registry, community and proposals. Confirm the actual protocol negotiated by the client and server and the installed SDK; this reference does not establish compatibility with older protocols or authorize server installation or connection."
     }
   ],
   "pointers": [
