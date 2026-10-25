@@ -30,13 +30,13 @@ Use this when a tool or migration reads or changes SitecoreAI content types, com
 | Content item `PATCH` | Changes only the properties and fields present in the request body |
 | Component draft `PUT` | Replaces all user-editable fields; the entire Variants collection is replaced, removing variants not in the request |
 
-The content type `PATCH` operation is described only as "Update a content type"; its merge behavior is not stated.
+Only the content item `PATCH` is documented as partial. Content type, component and component-draft `PATCH` operations are described only as updates; their merge behavior is not stated, except that the draft `PUT` description says it, unlike `PATCH`, replaces the entire Variants collection.
 
-**Proposed:** never send a `PUT` built from a partial model, a filtered read or a planned subset of fields. An add-only or incremental tool should not use full-replacement routes at all. Where an update is required, use the documented partial operation and read the resource back. For content type `PATCH`, confirm its merge behavior in a non-production environment before relying on it.
+**Proposed:** never send a `PUT` built from a partial model, a filtered read or a planned subset of fields. An add-only or incremental tool should not use full-replacement routes at all. Where an update is required, prefer the content item `PATCH` for items and read the resource back. For content type, component and component-draft `PATCH`, confirm the merge behavior in a non-production environment before relying on it.
 
 ### Start with bounded read-only inspection
 
-**Documented:** the Content Types list operation accepts one or more `id` query parameters, and `environmentId` defaults to `main` (the `PUT` description states that only `main` is currently supported). The Components API exposes component details, metadata, drafts, activation and the sites where a component is allowed (`GET /api/v1/components/{componentId}/sites`). The Content Items API includes hierarchy, validation and translation operations.
+**Documented:** the Content Types list operation accepts one or more `id` query parameters; `search` and `id` are mutually exclusive, and when `id` is supplied only the first 50 IDs are processed and pagination is disabled. Most content type operations, including retrieve, `PUT` and `PATCH`, describe `environmentId` as defaulting to `main`, with only `main` currently supported; the list operation states no default. The Components API exposes component details, metadata, drafts, activation and the sites where a component is allowed (`GET /api/v1/components/{componentId}/sites`). The Content Items API includes hierarchy, validation and translation operations.
 
 **Proposed:** inspect the specific IDs a reviewed plan names rather than searching by name. Compare each response's identity with the requested ID. Report expected-versus-actual differences in fields, field sources, datasource bindings or allowed sites as findings for review. Treat request failures, identity mismatches, malformed responses and a 404 for an item expected to exist as failed checks. Report new targets that the plan creates later as not inspected; they are not passes.
 
@@ -54,6 +54,6 @@ The content type `PATCH` operation is described only as "Update a content type";
 
 ## Evidence and limits
 
-The OpenAPI bundles and API reference pages were retrieved on the evidence date; `api-docs.sitecore.com` is not a registered Brain source, so a change there will not flag this note automatically. Recheck the current contracts before acting. The workflow was not exercised against a connected SitecoreAI environment. Private tool outcomes, test counts and pull request states are deliberately not adopted as public results. No content type `PATCH` semantics, path-based lookup support or ordering requirement beyond the cited examples is asserted.
+The OpenAPI bundles and API reference pages were retrieved on the evidence date; `api-docs.sitecore.com` is not a registered Brain source, so a change there will not flag this note automatically. Recheck the current contracts before acting. The workflow was not exercised against a connected SitecoreAI environment. Private tool outcomes, test counts and pull request states are deliberately not adopted as public results. No `PATCH` merge semantics beyond content items, path-based lookup support or ordering requirement beyond the cited examples is asserted.
 
 The [migration evidence playbook](migration-evidence-and-dependencies.md) covers serialization versus Authoring API transport, deferred media and acceptance reporting. This note covers REST update semantics and read-only inspection only.
