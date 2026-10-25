@@ -1217,8 +1217,7 @@
       "id": "chrome-lighthouse-docs",
       "vendor": "chrome",
       "domains": [
-        "performance",
-        "accessibility"
+        "performance"
       ],
       "kind": "collection",
       "indexUrl": "https://developer.chrome.com/docs/lighthouse/overview",
@@ -1238,6 +1237,28 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling Lighthouse overview and audit pages linked from the Lighthouse overview: performance, accessibility, best practices, SEO and agentic browsing audits. Excludes the historical v3 migration guide. Audit IDs and scoring follow the current Lighthouse release; a passing audit is lab evidence, not field performance or WCAG conformance."
+    },
+    {
+      "id": "chrome-lighthouse-accessibility",
+      "vendor": "chrome",
+      "domains": [
+        "accessibility"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://developer.chrome.com/docs/lighthouse/overview",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "developer.chrome.com"
+      ],
+      "includePrefixes": [
+        "/docs/lighthouse/accessibility/"
+      ],
+      "maxPages": 40,
+      "maxIndexes": 1,
+      "license": "CC-BY-4.0 except as otherwise noted; code samples Apache-2.0 (Google Developers Site Policies); links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling Lighthouse accessibility scoring overview and accessibility audit pages linked from the Lighthouse overview, scoped to Accessibility; the same pages also appear in chrome-lighthouse-docs under Performance. Audit IDs follow the current Lighthouse release; a passing audit is lab evidence, not WCAG conformance."
     },
     {
       "id": "testing-library-docs",
