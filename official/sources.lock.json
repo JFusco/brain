@@ -230,10 +230,16 @@
       "catalogSha256": "6245e63470ccafc2672bb6f8383962db7f0db982f15c89b562f0f066009ed70b"
     },
     "chrome-lighthouse-docs": {
-      "revision": "2f7a5d86ab8cf298f49e718c2e0cc07536628c4351134da9e6b07321b2c9eb54",
-      "fetchedAt": "2026-10-25T01:05:30.088Z",
+      "revision": "0c255ddc6c86de7779caf2df844d94110148c19f267c270264952cc6b814d1fa",
+      "fetchedAt": "2026-10-25T01:53:18.501Z",
       "track": "rolling-url",
-      "catalogSha256": "793136e352a01db367eda5bff11e977b8c6d1695596f8c5adfe8f756162c1fdc"
+      "catalogSha256": "91205e3a400bf19ff5f256bb4408c921752062c382b491cdcabff4fbe8501a89"
+    },
+    "chrome-lighthouse-accessibility": {
+      "revision": "0fb1bb65e80b702f98b7a6b847df2f4797af7e69f5262cc612b361521d821726",
+      "fetchedAt": "2026-10-25T01:53:16.892Z",
+      "track": "rolling-url",
+      "catalogSha256": "d5d9b1d24cf98f582208a44c82634250363fdf8040b4874aa9b343090d18cb6b"
     },
     "testing-library-docs": {
       "revision": "c447b8fd1df3b40e4eba2467acdea19beffb53e9a3f9d00a1345e327f21887f4",

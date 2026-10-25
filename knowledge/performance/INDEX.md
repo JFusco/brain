@@ -35,7 +35,7 @@ Route browser loading, rendering, Core Web Vitals, profiling, budgets, caching a
   - [Catalog source](https://web.dev/learn/performance); search it with `lookup --domain performance`.
 - **chrome-devtools-docs** — link catalog of 45 pages; rolling-url; revision `a582c730a22a3289c56b46f949f10fb612aaf0b2aeb2f8a76c3ddca7e0c9dcd2`; fetched 2026-10-24.
   - [Catalog source](https://developer.chrome.com/docs/devtools); search it with `lookup --domain performance`.
-- **chrome-lighthouse-docs** — link catalog of 72 pages; rolling-url; revision `2f7a5d86ab8cf298f49e718c2e0cc07536628c4351134da9e6b07321b2c9eb54`; fetched 2026-10-25.
+- **chrome-lighthouse-docs** — link catalog of 72 pages; rolling-url; revision `0c255ddc6c86de7779caf2df844d94110148c19f267c270264952cc6b814d1fa`; fetched 2026-10-25.
   - [Catalog source](https://developer.chrome.com/docs/lighthouse/overview); search it with `lookup --domain performance`.
 - [Official website](https://web.dev/learn/performance) — pointer only: Web performance: browser loading, rendering and profiling. Rolling web.dev Learn Performance course; pointer only.
 - [Official website](https://web.dev/articles/vitals) — pointer only: Core Web Vitals performance metrics. Rolling web.dev overview; pointer only.

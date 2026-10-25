@@ -114,3 +114,7 @@ The [Lighthouse accessibility routing journal](../journal/2026-10-24-lighthouse-
 ## Figma MCP server documentation
 
 The [Figma MCP server journal](../journal/2026-10-24-figma-mcp-docs.md) records adding the 24 Figma MCP server pages to the existing Figma catalog in Design systems, with curated notes unchanged at the top of their comparisons.
+
+## Lighthouse accessibility scope
+
+The [Lighthouse accessibility scope journal](../journal/2026-10-24-lighthouse-accessibility-scope.md) replaces whole-catalog Accessibility routing with an accessibility-only Lighthouse source, so only the 11 accessibility pages match the Accessibility domain.

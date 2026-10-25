@@ -463,7 +463,7 @@ code change; routine catalog-refresh PRs still exclude dependency upgrades.
 | Vercel | [Platform documentation catalog](https://vercel.com/docs/sitemap.md), official plugin skills, and agent skills |
 | React | [Pinned documentation-tree catalog](https://github.com/reactjs/react.dev/tree/main/src/content), plus the official index |
 | TypeScript | [Handbook and TSConfig reference catalog](https://www.typescriptlang.org/docs/) from the site's sitemap |
-| Accessibility | [WCAG 2.2](https://www.w3.org/TR/WCAG22/) and [WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/), the WCAG 2.2 Understanding and Techniques indexes, and the [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/), plus Deque's [axe-core 4.14 rule help pages](https://dequeuniversity.com/rules/axe/4.14) (105 rules at registration) and the Lighthouse catalog shared with Performance (11 pages under `/docs/lighthouse/accessibility/` at routing); automated rules and audits do not establish conformance |
+| Accessibility | [WCAG 2.2](https://www.w3.org/TR/WCAG22/) and [WAI-ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/), the WCAG 2.2 Understanding and Techniques indexes, and the [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/), plus Deque's [axe-core 4.14 rule help pages](https://dequeuniversity.com/rules/axe/4.14) (105 rules at registration) and Lighthouse's accessibility pages (11 under `/docs/lighthouse/accessibility/` at registration: the scoring overview and 10 audits); automated rules and audits do not establish conformance |
 | Performance | Bounded [web.dev Learn Performance](https://web.dev/learn/performance) course catalog, plus the [Core Web Vitals](https://web.dev/articles/vitals) pointer; not the full web.dev library. [Chrome DevTools](https://developer.chrome.com/docs/devtools) panel and feature pages linked from the landing page (45 at registration, without release history), and the Lighthouse overview and audit pages it links (72 at registration); audits are lab evidence |
 | Security | Pinned OWASP ASVS 5.0.0 English requirements plus the [OWASP cheat-sheet sitemap](https://cheatsheetseries.owasp.org/sitemap.xml), application-security catalog; no compliance claim |
 | Semantics | [Schema.org /docs/ catalog](https://schema.org/sitemap.xml), excluding the full vocabulary; pointers for WHATWG HTML, web.dev semantic HTML, JSON-LD 1.1, Contentstack modeling and experimental Optimizely Graph semantic search |
@@ -502,11 +502,11 @@ The weekly coverage review checks these official places for new documentation in
 | Next.js | nextjs.org/docs (`llms.txt`), github.com/vercel, github.com/vercel-labs |
 | React | react.dev (`llms.txt`), github.com/reactjs |
 | TypeScript | typescriptlang.org/docs, github.com/microsoft/TypeScript-Website |
-| Performance | web.dev/learn/performance course index and web.dev/articles/vitals; course links only, with historical sitemap failures retained. developer.chrome.com/docs/devtools landing page (the site sitemaps returned HTTP 500 at registration) |
+| Performance | web.dev/learn/performance course index and web.dev/articles/vitals; course links only, with historical sitemap failures retained. developer.chrome.com/docs/devtools landing page and docs/lighthouse overview (the site sitemaps returned HTTP 500 at registration) |
 | Security | github.com/OWASP/ASVS stable releases (avoid the bleeding-edge latest tag); cheatsheetseries.owasp.org (`sitemap.xml`), github.com/OWASP/CheatSheetSeries |
 | Semantics | html.spec.whatwg.org, web.dev/learn/html, schema.org (`sitemap.xml`, /docs/ only), w3.org/TR/json-ld11, contentstack.com/docs, docs.optimizely.com/graph |
 | Tailwind | tailwindcss.com/docs, github.com/tailwindlabs |
-| Accessibility (WCAG, WAI-ARIA) | w3.org/WAI, github.com/w3c; dequeuniversity.com/rules/axe (per-version rule help) and github.com/dequelabs/axe-core releases |
+| Accessibility (WCAG, WAI-ARIA) | w3.org/WAI, github.com/w3c; dequeuniversity.com/rules/axe (per-version rule help) and github.com/dequelabs/axe-core releases; developer.chrome.com/docs/lighthouse/accessibility (registered) |
 | Vercel | vercel.com/docs (`llms.txt`, sitemap), github.com/vercel |
 | Optimizely SaaS and PaaS | docs.optimizely.com and docs.developers.optimizely.com (`llms.txt`), github.com/episerver |
 | Contentstack | contentstack.com (`llms.txt`, sitemap), github.com/contentstack |

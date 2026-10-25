@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "source": "chrome-lighthouse-accessibility",
+  "revision": "0fb1bb65e80b702f98b7a6b847df2f4797af7e69f5262cc612b361521d821726",
+  "origin": "https://developer.chrome.com/docs/lighthouse/overview",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Custom controls have ARIA roles",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/custom-control-roles",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/custom-control-roles"
+    },
+    {
+      "title": "Custom controls have associated labels",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/custom-controls-labels",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/custom-controls-labels"
+    },
+    {
+      "title": "Trapped user focus",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/focus-traps",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/focus-traps"
+    },
+    {
+      "title": "Interactive controls are keyboard-focusable",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/focusable-controls",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/focusable-controls"
+    },
+    {
+      "title": "Interactive elements indicate their purpose and state",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/interactive-element-affordance",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/interactive-element-affordance"
+    },
+    {
+      "title": "The page has a logical tab order",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/logical-tab-order",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/logical-tab-order"
+    },
+    {
+      "title": "The user's focus is directed to new content added to the page",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/managed-focus",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/managed-focus"
+    },
+    {
+      "title": "Offscreen content is hidden from assistive technology",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/offscreen-content-hidden",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/offscreen-content-hidden"
+    },
+    {
+      "title": "Accessibility audits",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/scoring",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/scoring"
+    },
+    {
+      "title": "HTML5 landmark elements are used to improve navigation",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/use-landmarks",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/use-landmarks"
+    },
+    {
+      "title": "Visual order on the page follows DOM order",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/visual-order-follows-dom",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/visual-order-follows-dom"
+    }
+  ],
+  "referenceIssues": []
+}
