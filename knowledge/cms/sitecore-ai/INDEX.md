@@ -10,6 +10,7 @@ aliases: ["sitecore-ai"]
 <!-- brain:curated:start -->
 - [Inspect SitecoreAI content models before REST updates](rest-api-inspection-and-updates.md)
 - [Plan SitecoreAI migration evidence and dependencies](migration-evidence-and-dependencies.md)
+- [Verify SitecoreAI imports against native state](import-readback-against-native-state.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
