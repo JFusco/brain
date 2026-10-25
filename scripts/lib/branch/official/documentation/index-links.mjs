@@ -6,8 +6,22 @@ const ENTITIES = {
   '&gt;': '>',
   '&nbsp;': ' ',
 };
-const decode = text => text.replace(/&(?:amp|quot|apos|lt|gt|nbsp);/g, value => ENTITIES[value]);
-const GENERIC_TITLE = /^(?:more|read more|read article|learn more|here|details)$/i;
+// Controls, surrogates and out-of-range references stay undecoded.
+const codePoint = value => {
+  const code = /x/i.test(value[2]) ? parseInt(value.slice(3), 16) : Number(value.slice(2, -1));
+  const unsafe =
+    (code < 0x20 && ![9, 10, 13].includes(code)) ||
+    (code >= 0x7f && code <= 0x9f) ||
+    (code >= 0xd800 && code <= 0xdfff) ||
+    !(code <= 0x10ffff);
+  return unsafe ? value : String.fromCodePoint(code);
+};
+const decode = text =>
+  text.replace(/&(?:amp|quot|apos|lt|gt|nbsp|#\d+|#[xX][\da-fA-F]+);/g, value =>
+    value[1] === '#' ? codePoint(value) : ENTITIES[value],
+  );
+const GENERIC_TITLE =
+  /^(?:more|read more|read article|learn more|here|details|skip to (?:main )?content)$/i;
 const pathTitle = pathname =>
   decodeURIComponent(pathname).split('/').filter(Boolean).slice(-2).join(' / ').replace(/-/g, ' ');
 

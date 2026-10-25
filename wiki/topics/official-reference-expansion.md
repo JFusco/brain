@@ -102,3 +102,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## Turborepo
 
 [Issue 205](https://github.com/JFusco/brain/issues/205) completes the planned Tooling sources with Turborepo on its canonical `turborepo.dev` host. Its official `llms.txt` lists every docs page as a relative `.md` link with a page title, so the source is a Markdown-index collection limited to `/docs` rather than the sitemap, whose titles would be path-derived. Rolling documentation tracks the current turbo release.
+
+## HTML catalog link titles
+
+The [HTML catalog titles journal](../journal/2026-10-24-html-catalog-titles.md) records numeric character-reference decoding and skip-link handling in the HTML index parser. Only four Lighthouse titles changed on resync.

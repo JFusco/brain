@@ -230,10 +230,10 @@
       "catalogSha256": "6245e63470ccafc2672bb6f8383962db7f0db982f15c89b562f0f066009ed70b"
     },
     "chrome-lighthouse-docs": {
-      "revision": "b14e7b0eac880adf9dbeda7d5c70f2a67a1778cbc539f13f9d50924c03f41575",
-      "fetchedAt": "2026-10-24T22:19:30.056Z",
+      "revision": "0c255ddc6c86de7779caf2df844d94110148c19f267c270264952cc6b814d1fa",
+      "fetchedAt": "2026-10-25T00:56:32.203Z",
       "track": "rolling-url",
-      "catalogSha256": "9c3018830afafdb33cf7edde606a4cc3aeadc535426e4c3207c46df546e99d3d"
+      "catalogSha256": "91205e3a400bf19ff5f256bb4408c921752062c382b491cdcabff4fbe8501a89"
     },
     "testing-library-docs": {
       "revision": "c447b8fd1df3b40e4eba2467acdea19beffb53e9a3f9d00a1345e327f21887f4",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "chrome-lighthouse-docs",
-  "revision": "b14e7b0eac880adf9dbeda7d5c70f2a67a1778cbc539f13f9d50924c03f41575",
+  "revision": "0c255ddc6c86de7779caf2df844d94110148c19f267c270264952cc6b814d1fa",
   "origin": "https://developer.chrome.com/docs/lighthouse/overview",
   "skills": [],
   "docs": [],
@@ -37,7 +37,7 @@
       "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/logical-tab-order"
     },
     {
-      "title": "The user&#39;s focus is directed to new content added to the page",
+      "title": "The user's focus is directed to new content added to the page",
       "url": "https://developer.chrome.com/docs/lighthouse/accessibility/managed-focus",
       "fetchUrl": "https://developer.chrome.com/docs/lighthouse/accessibility/managed-focus"
     },
@@ -202,7 +202,7 @@
       "fetchUrl": "https://developer.chrome.com/docs/lighthouse/best-practices/uses-passive-event-listeners"
     },
     {
-      "title": "Skip to main content",
+      "title": "lighthouse / overview",
       "url": "https://developer.chrome.com/docs/lighthouse/overview",
       "fetchUrl": "https://developer.chrome.com/docs/lighthouse/overview"
     },
@@ -322,12 +322,12 @@
       "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/canonical"
     },
     {
-      "title": "Document doesn&#39;t use legible font sizes",
+      "title": "Document doesn't use legible font sizes",
       "url": "https://developer.chrome.com/docs/lighthouse/seo/font-size",
       "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/font-size"
     },
     {
-      "title": "Document doesn&#39;t have a valid hreflang",
+      "title": "Document doesn't have a valid hreflang",
       "url": "https://developer.chrome.com/docs/lighthouse/seo/hreflang",
       "fetchUrl": "https://developer.chrome.com/docs/lighthouse/seo/hreflang"
     },
