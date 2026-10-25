@@ -109,4 +109,4 @@ The [HTML catalog titles journal](../journal/2026-10-24-html-catalog-titles.md) 
 
 ## Lighthouse docs in Accessibility
 
-The [Lighthouse accessibility routing journal](../journal/2026-10-24-lighthouse-accessibility.md) records adding Accessibility to the Lighthouse catalog's domains, so its accessibility audits appear in Accessibility lookups. The whole catalog now matches the Accessibility domain; curated notes kept their baseline positions.
+The [Lighthouse accessibility routing journal](../journal/2026-10-24-lighthouse-accessibility.md) records adding Accessibility to the Lighthouse catalog's domains, so its accessibility audits appear in Accessibility lookups. The whole catalog now matches the Accessibility domain; curated notes stayed in their baseline top five.
