@@ -247,3 +247,7 @@ The [native asset verification journal](../journal/2026-10-23-native-asset-verif
 ## October 24 Sitecore migration evidence
 
 The [Sitecore migration journal](../journal/2026-10-24-sitecore-migration-guidance.md) records one playbook for transport choice, planned media dependencies and mapping-evidence boundaries. Documented mechanisms support explicitly proposed workflows; unverified private experiment outcomes are not public success claims. Contentful Preview Sync guidance was rechecked against the new pin and live API contract. This was an explicitly requested manual pnpm verification run; it does not prove unattended execution or change the daily 5 p.m. schedule.
+
+## October 24 SitecoreAI backlog batch 1
+
+The [SitecoreAI batch 1 journal](../journal/2026-10-24-sitecore-ai-backlog-batch-1.md) records the first requested thin-domains-first backlog session: twelve SitecoreAI captures reviewed individually, one new playbook on REST update semantics and read-only inspection, and one browser-evidence capture left pending for a frontend batch. Proposed practices were not exercised against a connected environment.

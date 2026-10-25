@@ -8,6 +8,7 @@ aliases: ["sitecore-ai"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
+- [Inspect SitecoreAI content models before REST updates](rest-api-inspection-and-updates.md)
 - [Plan SitecoreAI migration evidence and dependencies](migration-evidence-and-dependencies.md)
 <!-- brain:curated:end -->
 
