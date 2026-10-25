@@ -14,6 +14,7 @@ aliases: ["react", "hooks"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
+- [Build Motion animations with the right API](motion-animation-playbook.md)
 - [Discard obsolete responses from React effects](effect-request-cleanup.md)
 - [Keep browser storage out of the hydration render](hydration-browser-storage.md)
 - [Use Motion for accessible App Router loading](motion-accessible-loading.md)
@@ -33,5 +34,7 @@ aliases: ["react", "hooks"]
   - [Catalog source](https://react.dev/llms.txt); search it with `lookup --domain react`.
 - **react-docs** — link catalog of 226 pages; default-branch; revision `ae5e48074d4f73f1e349eda2a66841f9a959023e`; fetched 2026-10-20.
   - [Catalog source](https://github.com/reactjs/react.dev/tree/ae5e48074d4f73f1e349eda2a66841f9a959023e/src/content/); search it with `lookup --domain react`.
+- **motion-docs** — link catalog of 150 pages; rolling-url; revision `379798ecbc4621eed5f3f96abd19bc774b1461acf1f334f93cda321e533d6e0a`; fetched 2026-10-25.
+  - [Catalog source](https://motion.dev/llms.txt); search it with `lookup --domain react`.
 - [Official website](https://react.dev/learn) — pointer only: Official React documentation (CC-BY-4.0); react-index and react-docs catalog its links.
 <!-- brain:official:end -->

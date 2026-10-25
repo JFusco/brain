@@ -35,4 +35,6 @@ aliases: ["frontend"]
   - [packages/compute-baseline/README.md](https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/packages/compute-baseline/README.md).
   - [packages/web-features/README.md](https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/packages/web-features/README.md).
   - [README.md](https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/README.md).
+- **motion-docs** — link catalog of 150 pages; rolling-url; revision `379798ecbc4621eed5f3f96abd19bc774b1461acf1f334f93cda321e533d6e0a`; fetched 2026-10-25.
+  - [Catalog source](https://motion.dev/llms.txt); search it with `lookup --domain frontend`.
 <!-- brain:official:end -->

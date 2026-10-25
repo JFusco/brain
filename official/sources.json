@@ -1362,6 +1362,29 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling Turborepo documentation from the official Markdown index: getting started, crafting a repository, core concepts, guides, reference, error messages and the Remote Cache API. Confirm the project's installed turbo version and turbo.json schema."
+    },
+    {
+      "id": "motion-docs",
+      "vendor": "motion",
+      "domains": [
+        "react",
+        "frontend"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://motion.dev/llms.txt",
+      "allowedHosts": [
+        "motion.dev"
+      ],
+      "includePrefixes": [
+        "/docs/"
+      ],
+      "fetchSuffix": ".md",
+      "maxPages": 400,
+      "maxIndexes": 1,
+      "license": "Official Motion documentation index; links and metadata only. Core Motion packages are MIT licensed; documentation and Motion+ retain their own terms. No vendor page bodies are redistributed.",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling Motion documentation for React, JavaScript and Vue, guides and integrations. Confirm the selected workspace package versions and framework. The index includes paid Motion+ features and tooling; listing does not establish free-package availability, compatibility or permission to install skills or configure servers."
     }
   ],
   "pointers": [
