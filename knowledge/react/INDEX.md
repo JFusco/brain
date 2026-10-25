@@ -16,6 +16,7 @@ aliases: ["react", "hooks"]
 <!-- brain:curated:start -->
 - [Discard obsolete responses from React effects](effect-request-cleanup.md)
 - [Keep browser storage out of the hydration render](hydration-browser-storage.md)
+- [Use Motion for accessible App Router loading](motion-accessible-loading.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

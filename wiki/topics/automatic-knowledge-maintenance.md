@@ -259,3 +259,7 @@ The [batch 2 journal](../journal/2026-10-24-backlog-batch-2.md) records twelve m
 ## Compressed documentation index validation
 
 The [October 25 repair journal](../journal/2026-10-25-compressed-documentation-indexes.md) records bounded gzip decoding independent of index URL extensions. A controlled response reproduced the binary-validator failure; live Schema.org verification succeeded with unchanged content but did not establish the original transient response encoding. Failure history and the daily schedule remain unchanged.
+
+## October 25 accessible Motion loading
+
+The [Motion loading journal](../journal/2026-10-25-motion-loading-guidance.md) records a recovered Schema.org refresh and one React lesson combining documented Motion/ARIA contracts with explicitly proposed loading practices. No package compatibility or browser acceptance is asserted.
