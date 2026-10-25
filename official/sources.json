@@ -1385,6 +1385,29 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Rolling Motion documentation for React, JavaScript and Vue, guides and integrations. Confirm the selected workspace package versions and framework. The index includes paid Motion+ features and tooling; listing does not establish free-package availability, compatibility or permission to install skills or configure servers."
+    },
+    {
+      "id": "chrome-devtools-skills",
+      "vendor": "chrome",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "repository",
+      "repository": "ChromeDevTools/chrome-devtools-mcp",
+      "track": "default-branch",
+      "paths": [
+        {
+          "prefix": "skills/"
+        },
+        {
+          "exact": "README.md"
+        }
+      ],
+      "license": "Apache-2.0",
+      "skillRoot": "skills/",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official Chrome DevTools MCP and CLI skills and supporting references. Match the installed chrome-devtools-mcp and Chrome versions; skills describe version-specific tools. Reference-only: cataloging does not install skills, connect a browser or establish accessibility conformance."
     }
   ],
   "pointers": [

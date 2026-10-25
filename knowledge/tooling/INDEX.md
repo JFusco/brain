@@ -37,4 +37,12 @@ No curated notes yet.
   - [Catalog source](https://pnpm.io/sitemap.xml); search it with `lookup --domain tooling`.
 - **turborepo-docs** — link catalog of 110 pages; rolling-url; revision `7bf7094d300f5316f20b4933c65f3ee4bcab5c90cfd2e5e396456995d7d36930`; fetched 2026-10-24.
   - [Catalog source](https://turborepo.dev/llms.txt); search it with `lookup --domain tooling`.
+- **chrome-devtools-skills** — 7 skills and 8 docs at a pinned commit; default-branch; revision `ada7963246c0c91eae185125a57aecd13cbe0376`; fetched 2026-10-25.
+  - [a11y-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/a11y-debugging/SKILL.md) — reference only.
+  - [chrome-devtools](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/chrome-devtools/SKILL.md) — reference only.
+  - [chrome-devtools-cli](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/chrome-devtools-cli/SKILL.md) — reference only.
+  - [cookie-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/cookie-debugging/SKILL.md) — reference only.
+  - [debug-optimize-lcp](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/SKILL.md) — reference only.
+  - [memory-leak-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/memory-leak-debugging/SKILL.md) — reference only.
+  - [troubleshooting](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/troubleshooting/SKILL.md) — reference only.
 <!-- brain:official:end -->
