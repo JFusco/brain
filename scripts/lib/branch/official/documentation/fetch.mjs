@@ -1,4 +1,4 @@
-import { gunzipSync } from 'node:zlib';
+import { documentationBytes } from '../../../leaf/documentation-bytes.mjs';
 import { config } from '../../platform/config.mjs';
 import { download, markdownResponse } from '../../platform/network/download.mjs';
 import { api } from '../../platform/network/github.mjs';
@@ -43,9 +43,7 @@ export async function fetchDocumentationCatalog(spec, revision, { onIndex = () =
       },
     });
     onIndex({ indexesFetched: ++indexesFetched, maxIndexes });
-    const bytes = /\.gz(?:$|\?)/.test(input)
-      ? gunzipSync(response.bytes, { maxOutputLength: config().network.maxExpandedBytes })
-      : response.bytes;
+    const bytes = documentationBytes(response, input, config().network.maxExpandedBytes);
     let links;
     if (spec.indexFormat === 'html') {
       const index = bytes.toString('utf8');
