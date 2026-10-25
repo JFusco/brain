@@ -118,3 +118,7 @@ The [Figma MCP server journal](../journal/2026-10-24-figma-mcp-docs.md) records 
 ## Lighthouse accessibility scope
 
 The [Lighthouse accessibility scope journal](../journal/2026-10-24-lighthouse-accessibility-scope.md) replaces whole-catalog Accessibility routing with an accessibility-only Lighthouse source, so only the 11 accessibility pages match the Accessibility domain.
+
+## Figma MCP applicability caveat
+
+The [Figma MCP applicability journal](../journal/2026-10-24-figma-mcp-applicability.md) records the registry caveat to confirm the MCP server mode and client; the catalog is unchanged.
