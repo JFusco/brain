@@ -60,4 +60,6 @@ No curated notes yet.
   - [Catalog source](https://agentskills.io/llms.txt); search it with `lookup --domain tooling`.
 - **mcp-docs** — link catalog of 57 pages; rolling-url; revision `3b9e6aa8deb144c9f3839ab03840c4171ca9a6683650713513e47db3a0e0182c`; fetched 2026-10-25.
   - [Catalog source](https://modelcontextprotocol.io/llms.txt); search it with `lookup --domain tooling`.
+- **nodejs-24-docs** — link catalog of 66 pages; rolling-url; revision `4d105354722024dbf791ed9d20a8957c3643ab0c8e90b3aaac9e9776c3cf4eb6`; fetched 2026-10-25.
+  - [Catalog source](https://nodejs.org/docs/latest-v24.x/api/index.html); search it with `lookup --domain tooling`.
 <!-- brain:official:end -->
