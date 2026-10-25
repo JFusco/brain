@@ -106,3 +106,7 @@ The repository archive exceeded the existing 64 MiB download cap and was refused
 ## HTML catalog link titles
 
 The [HTML catalog titles journal](../journal/2026-10-24-html-catalog-titles.md) records numeric character-reference decoding and skip-link handling in the HTML index parser. Only four Lighthouse titles changed on resync.
+
+## Lighthouse docs in Accessibility
+
+The [Lighthouse accessibility routing journal](../journal/2026-10-24-lighthouse-accessibility.md) records adding Accessibility to the Lighthouse catalog's domains, so its accessibility audits appear in Accessibility lookups. The whole catalog now matches the Accessibility domain; curated notes kept their baseline positions.
