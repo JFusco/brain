@@ -1216,7 +1216,8 @@
       "id": "chrome-lighthouse-docs",
       "vendor": "chrome",
       "domains": [
-        "performance"
+        "performance",
+        "accessibility"
       ],
       "kind": "collection",
       "indexUrl": "https://developer.chrome.com/docs/lighthouse/overview",

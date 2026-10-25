@@ -24,5 +24,7 @@ No curated notes yet.
   - [Catalog source](https://www.w3.org/WAI/sitemap.xml); search it with `lookup --domain accessibility`.
 - **deque-axe-rules** — link catalog of 105 pages; rolling-url; revision `0edc1bd6f9fca94158da6bbc22c5c90b882ba88581f0b5d841d5183c1629ffbf`; fetched 2026-10-24.
   - [Catalog source](https://dequeuniversity.com/rules/axe/4.14); search it with `lookup --domain accessibility`.
+- **chrome-lighthouse-docs** — link catalog of 72 pages; rolling-url; revision `2f7a5d86ab8cf298f49e718c2e0cc07536628c4351134da9e6b07321b2c9eb54`; fetched 2026-10-25.
+  - [Catalog source](https://developer.chrome.com/docs/lighthouse/overview); search it with `lookup --domain accessibility`.
 - [Official website](https://www.w3.org/WAI/standards-guidelines/wcag/) — pointer only: W3C WCAG overview; the w3c-accessibility catalog lists the WCAG 2.2 and WAI-ARIA 1.2 specifications, the WCAG 2.2 Understanding and Techniques indexes, and the ARIA Authoring Practices Guide.
 <!-- brain:official:end -->
