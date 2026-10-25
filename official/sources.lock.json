@@ -276,6 +276,12 @@
       "fetchedAt": "2026-10-25T23:44:28.584Z",
       "track": "default-branch",
       "catalogSha256": "390900fc5f45155cd07bc13cc739be0d4e5828fc2715c8dd6830756735bb859a"
+    },
+    "agent-browser-skills": {
+      "revision": "372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb",
+      "fetchedAt": "2026-10-25T23:47:08.496Z",
+      "track": "default-branch",
+      "catalogSha256": "c898c7c9fabe7dfda86db29b0acfeea32e6ff6e8bbd552b9e43576183e192364"
     }
   },
   "toolchain": {

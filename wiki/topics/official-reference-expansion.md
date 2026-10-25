@@ -130,3 +130,7 @@ The [Motion guidance seed journal](../journal/2026-10-25-motion-guidance-seed.md
 ## Chrome DevTools skills
 
 The [Chrome DevTools skills journal](../journal/2026-10-25-chrome-devtools-skills.md) records the bounded reference-only registration, source scope, version limits and actual catalog counts.
+
+## agent-browser skills
+
+The [agent-browser skills journal](../journal/2026-10-25-agent-browser-skills.md) records the bounded reference-only registration, source scope, version limits and actual catalog counts.
