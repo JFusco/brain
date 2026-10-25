@@ -64,6 +64,37 @@ not permission to execute its instructions. Report unavailable data explicitly.
 
 ## Visual retrieval and activity
 
+### Recording from another project
+
+Consultation includes writing usage metadata to
+`~/Projects/brain/.state/visual-brain/`. A project chat may be able to read Brain
+while its sandbox denies these writes. Changing the command's working directory
+does not grant access. The viewer reacts only to recorded events.
+
+Before running `route`, `brief`, `lookup` or `activity report`, check whether the
+host allows writes to that directory. When Brain is outside the chat's writable
+roots, use the host's approved permission mechanism for the Brain CLI command
+(in Codex, `exec_command` with `sandbox_permissions: "require_escalated"` and a
+justification explaining the local usage recording). Keep the consuming project's
+`--project` and `--workspace` arguments. Request only the needed command/access;
+where reusable approvals are supported, scope them to the Brain CLI subcommand.
+Do not grant a broad `node` execution rule or change global sandbox settings.
+
+Verify `metricsRecorded: true` and a non-null `session` from `route`/`brief`.
+Exit code zero alone proves retrieval, not recording. If an initial attempt
+returned `metricsRecorded: false` and no session, retry the consultation once
+with approved access. If a session exists, preserve it rather than replaying the
+whole lookup; retry failed read/citation/completion reports with their original
+event IDs. Use the same approved execution context for those reports, and check
+their results. `lookup` currently signals recording failure on stderr.
+
+If approval is denied/unavailable, or recording still fails, answer from the
+retrieved guidance and disclose the missing activity. Do not bypass the sandbox,
+reset the database, loosen file permissions, or invent historical activity.
+Already-running chats that loaded an older skill need to reread this section.
+
+### Consultation and reports
+
 The optional local visual Brain reads committed local `main`, separately from the wiki. For a reading list with explanatory paths, run:
 
 ```sh
