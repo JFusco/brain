@@ -291,6 +291,15 @@ New captures send violet stars into the pending ring and spread a bright nebula 
 
 The health overlay uses existing revalidation signals and local link-check records; unknown health stays unknown. Domain coverage shows eligible notes, registered references and recorded usage. Metrics failures leave retrieval available and report missing recording; damaged databases are never reset automatically. Include the entire `.state/visual-brain/` directory in normal backups while the viewer and CLI are stopped; no automatic backup service is added. Roll back code through Git without deleting the database.
 
+From another project chat, the Brain CLI also needs approved write access to
+`~/Projects/brain/.state/visual-brain/`. Read access to knowledge alone does not
+allow recording, and changing the working directory does not grant permission.
+The [Brain skill](skills/brain/SKILL.md#recording-from-another-project) requests
+the host's approved execution access when necessary and checks `metricsRecorded`
+and the returned session. Without recorded events, the viewer has no consultation
+activity to animate. Existing chats must reread the updated skill; no project
+configuration or global sandbox change is required.
+
 ## Capture lessons from working chats
 
 Posting advice in a chat doesn't save it in Brain. When a task teaches something reusable, invoke `/brain-capture` (or `$brain-capture` in Codex) in that project. The skill drafts up to three sanitized lessons in the [page template](knowledge/_templates/page.md) shape and pipes each one to Brain:
