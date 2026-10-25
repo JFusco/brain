@@ -263,3 +263,5 @@ The [October 25 repair journal](../journal/2026-10-25-compressed-documentation-i
 ## October 25 accessible Motion loading
 
 The [Motion loading journal](../journal/2026-10-25-motion-loading-guidance.md) records a recovered Schema.org refresh and one React lesson combining documented Motion/ARIA contracts with explicitly proposed loading practices. No package compatibility or browser acceptance is asserted.
+
+The [Motion follow-up journal](../journal/2026-10-25-motion-loading-follow-up.md) records a manual capture review extending that note with preference composition, visible-shell loading and a proposed browser verification recipe; historical success claims remain unverified.
