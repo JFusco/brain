@@ -28,11 +28,12 @@ Use this when a tool or migration reads or changes SitecoreAI content types, com
 | Content type `PUT` | Updates the whole content type; existing fields not provided in the request are removed |
 | Content item `PUT` | Fully replaces the item; fields omitted from the request are cleared |
 | Content item `PATCH` | Changes only the properties and fields present in the request body |
-| Component draft `PUT` | Replaces all user-editable fields; the entire Variants collection is replaced, removing variants not in the request |
+| Component draft `PUT` | Replaces all user-editable fields, with null values resetting optional fields to defaults; the entire Variants collection is replaced, removing variants not in the request, and rendering parameters and settings are each replaced entirely |
+| Component draft `PATCH` | Variants are added or replaced by name: omitting `variants` or sending `null` leaves them unchanged, a non-empty array preserves unlisted variants, and an empty array `[]` removes all variants |
 
-Only the content item `PATCH` is documented as partial. Content type, component and component-draft `PATCH` operations are described only as updates; their merge behavior is not stated, except that the draft `PUT` description says it, unlike `PATCH`, replaces the entire Variants collection.
+Content type and component `PATCH` operations are described only as updates, with no merge behavior stated. Component-draft `PATCH` states no merge behavior for properties other than variants.
 
-**Proposed:** never send a `PUT` built from a partial model, a filtered read or a planned subset of fields. An add-only or incremental tool should not use full-replacement routes at all. Where an update is required, prefer the content item `PATCH` for items and read the resource back. For content type, component and component-draft `PATCH`, confirm the merge behavior in a non-production environment before relying on it.
+**Proposed:** never send a `PUT` built from a partial model, a filtered read or a planned subset of fields. An add-only or incremental tool should not use full-replacement routes at all. Where an update is required, prefer the documented partial operations and read the resource back. Never send `variants: []` in a component-draft `PATCH` unless removing every variant is intended. For content type and component `PATCH`, and for draft properties other than variants, confirm the merge behavior in a non-production environment before relying on it.
 
 ### Start with bounded read-only inspection
 
@@ -54,6 +55,6 @@ Only the content item `PATCH` is documented as partial. Content type, component 
 
 ## Evidence and limits
 
-The OpenAPI bundles and API reference pages were retrieved on the evidence date; `api-docs.sitecore.com` is not a registered Brain source, so a change there will not flag this note automatically. Recheck the current contracts before acting. The workflow was not exercised against a connected SitecoreAI environment. Private tool outcomes, test counts and pull request states are deliberately not adopted as public results. No `PATCH` merge semantics beyond content items, path-based lookup support or ordering requirement beyond the cited examples is asserted.
+The OpenAPI bundles and API reference pages were retrieved on the evidence date; `api-docs.sitecore.com` is not a registered Brain source, so a change there will not flag this note automatically. Recheck the current contracts before acting. The workflow was not exercised against a connected SitecoreAI environment. Private tool outcomes, test counts and pull request states are deliberately not adopted as public results. No `PATCH` merge semantics beyond content items and the component-draft variants collection, path-based lookup support or ordering requirement beyond the cited examples is asserted.
 
 The [migration evidence playbook](migration-evidence-and-dependencies.md) covers serialization versus Authoring API transport, deferred media and acceptance reporting. This note covers REST update semantics and read-only inspection only.
