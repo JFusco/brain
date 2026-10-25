@@ -26,7 +26,12 @@ export function capture(text, { domain: requestedDomain } = {}) {
   // Preserve legacy IDs and suppress identical captures across explicit/inferred routes.
   for (const candidateId of [legacyId, domainId])
     if (index.candidates[candidateId]?.domain === domain)
-      return { id: candidateId, status: index.candidates[candidateId].status, duplicate: true };
+      return {
+        id: candidateId,
+        status: index.candidates[candidateId].status,
+        domain,
+        duplicate: true,
+      };
   const id = requestedDomain ? domainId : legacyId;
   if (index.candidates[id])
     throw new Error('Existing capture domain differs; use an explicit domain');
@@ -49,5 +54,5 @@ export function capture(text, { domain: requestedDomain } = {}) {
   };
   writeJSON(at('.state/harvest.json'), index, 0o600);
   refreshSummary(index);
-  return { id, status };
+  return { id, status, domain };
 }

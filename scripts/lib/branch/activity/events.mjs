@@ -48,10 +48,11 @@ export async function record({ session, node = '', type, eventId, origin = 'agen
     db.prepare(
       'INSERT INTO events(id,dedupe,session,node,type,at,origin) VALUES(?,?,?,?,?,?,?)',
     ).run(eventId, dedupe, session, node, type, now, origin);
+    // A capture's domain hub is a pulse target, not node usage, so it counts only in totals.
     if (!['planned', 'complete', 'search-started', 'search-failed'].includes(type))
       db.prepare(
         `INSERT INTO daily(day,node,type,count,last) VALUES(?,?,?,1,?) ON CONFLICT(day,node,type) DO UPDATE SET count=count+1,last=excluded.last`,
-      ).run(day(now), node, type, now);
+      ).run(day(now), type === 'captured' ? '' : node, type, now);
     if (type === 'complete')
       db.prepare('UPDATE sessions SET completed=? WHERE id=?').run(now, session);
     // Daily totals are updated in the same transaction as insertion, before pruning.

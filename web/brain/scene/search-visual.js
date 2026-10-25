@@ -1,5 +1,6 @@
 import { $ } from '../lib/dom.js';
 import { edgeKey } from '../lib/knowledge.js';
+import { nodeDomains, pulseActivity } from '../live/pulses.js';
 import { reduced, state } from '../model/state.js';
 import { energized } from './colors.js';
 
@@ -12,6 +13,19 @@ const LABELS = {
   error: () => 'Lookup unavailable',
 };
 
+// Pulses a lookup where it happened: its start at the searched domain, results at the found
+// domains, and empty or failed lookups at the core.
+function pulseStage(stage, result) {
+  if (stage === 'searching') pulseActivity('search', { domain: result?.domain });
+  if (stage === 'empty' || stage === 'error') pulseActivity(stage);
+  if (stage === 'external') pulseActivity('found', { beat: false });
+  if (stage === 'found') {
+    const domains = nodeDomains(result.results.map(item => item.id));
+    for (const domain of domains) pulseActivity('found', { domain, beat: false });
+    if (!domains.length) pulseActivity('found', { beat: false });
+  }
+}
+
 // Switches the search animation stage; a found result energizes its nodes and path edges.
 export function searchVisual(stage, result) {
   clearTimeout(state.externalSearchTimer);
@@ -21,6 +35,7 @@ export function searchVisual(stage, result) {
   state.searchUntil = stage === 'searching' ? Infinity : Date.now() + 4500;
   $('search-state').hidden = stage === 'idle';
   $('search-state').textContent = LABELS[stage]?.(result) ?? '';
+  pulseStage(stage, result);
   if (stage === 'found') {
     for (const item of result.results) if (item.id) state.searchFound.add(item.id);
     for (const connection of result.connections) {

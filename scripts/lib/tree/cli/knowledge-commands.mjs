@@ -21,7 +21,7 @@ const activity = () => import('../../branch/activity/reporting.mjs');
 
 async function recordedLookup(flags) {
   const reporting = await activity(),
-    session = await reporting.beginLookupActivity();
+    session = await reporting.beginLookupActivity(undefined, 'cli', flags.domain);
   let result;
   try {
     result = await lookup({

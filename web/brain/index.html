@@ -11,7 +11,11 @@
       <a class="brand" href="/">BRAIN</a>
       <div id="inventory" aria-label="Indexed knowledge"></div>
       <button id="pending-summary" aria-expanded="false">Pending teachings</button>
-      <div class="connection"><i id="signal"></i><span id="connection">Connecting</span></div>
+      <div class="connection">
+        <canvas id="heartbeat" aria-hidden="true"></canvas>
+        <span id="heartbeat-queue" hidden></span>
+        <i id="signal"></i><span id="connection">Connecting</span>
+      </div>
     </header>
     <main>
       <aside id="intake-panel" hidden aria-label="Pending teachings">

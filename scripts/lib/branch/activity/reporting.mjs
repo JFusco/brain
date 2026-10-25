@@ -1,4 +1,5 @@
 import { randomUUID } from 'node:crypto';
+import { config } from '../platform/config.mjs';
 import { snapshot } from '../visual/snapshot/snapshot.mjs';
 import { nodeID } from '../visual/snapshot/ids.mjs';
 import { startSession, sessionInfo } from './sessions.mjs';
@@ -16,6 +17,9 @@ export async function reportActivity({ session, node, type, eventId, origin = 'a
     throw new Error('Activity node is outside the committed knowledge snapshot');
   return record({ session, node, type, eventId, origin });
 }
+// Activity names a configured domain only by its public hub node, never query or capture text.
+export const domainHub = (domain, domains = config().domains) =>
+  domain && domains.includes(domain) ? `knowledge/${domain}/INDEX.md` : '';
 export async function recordOrdinaryLookup(result, { session } = {}) {
   try {
     const graph = snapshot();
@@ -31,10 +35,16 @@ export async function recordOrdinaryLookup(result, { session } = {}) {
   }
 }
 // Cross-project skills call this shared CLI; only lifecycle metadata enters activity storage.
-export async function beginLookupActivity(revision, origin = 'cli') {
+export async function beginLookupActivity(revision, origin = 'cli', domain = '') {
   try {
     const session = (await startSession(revision || snapshot().revision)).session;
-    await record({ session, type: 'search-started', eventId: randomUUID(), origin });
+    await record({
+      session,
+      type: 'search-started',
+      node: domainHub(domain),
+      eventId: randomUUID(),
+      origin,
+    });
     return session;
   } catch {
     metricsWarning();
@@ -53,7 +63,13 @@ export async function recordCaptureActivity(result) {
   if (result.status !== 'pending' || result.duplicate) return;
   try {
     const session = (await startSession(snapshot().revision)).session;
-    await record({ session, type: 'captured', eventId: randomUUID(), origin: 'cli' });
+    await record({
+      session,
+      type: 'captured',
+      node: domainHub(result.domain),
+      eventId: randomUUID(),
+      origin: 'cli',
+    });
   } catch {
     metricsWarning();
   }

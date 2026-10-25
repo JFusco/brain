@@ -4,6 +4,7 @@ import { metricDisplays, nodeObjects, reduced, starLabels, state } from '../mode
 import { color, connectionColor, connectionWidth, scanLevel } from './colors.js';
 import { orbitPosition } from './galaxy.js';
 import { placed } from './network.js';
+import { drawHeartbeat } from '../ui/heartbeat.js';
 import { searchVisual } from './search-visual.js';
 
 let lastFrame = 0;
@@ -69,6 +70,9 @@ export function animate(timestamp) {
     }
     if (state.searchStage !== 'idle' && Date.now() > state.searchUntil) searchVisual('idle');
     const capturing = state.captureNebula?.update(delta, reduced.matches, !!focusGraph) || false;
+    state.pulses?.update(delta, reduced.matches, !!focusGraph);
+    state.afterglow?.update(delta, !!focusGraph);
+    drawHeartbeat(state.captureNebula?.queued() || 0);
     $('capture-state').hidden = !capturing;
     document.body.classList.toggle('capture-active', capturing);
     for (const { node, sprite } of nodeObjects.values()) {

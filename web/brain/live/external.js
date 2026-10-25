@@ -1,7 +1,9 @@
+import { hubDomain } from '../lib/activity.js';
 import { externalSessions, state } from '../model/state.js';
 import { rebuild } from '../scene/network.js';
 import { searchVisual } from '../scene/search-visual.js';
 import { intake } from '../ui/intake.js';
+import { pulseActivity } from './pulses.js';
 
 const newSession = () => ({ results: [], nodes: new Set() });
 
@@ -9,7 +11,7 @@ function trackEvents(events) {
   for (const event of events) {
     if (event.type === 'search-started') {
       externalSessions.set(event.session, newSession());
-      searchVisual('searching');
+      searchVisual('searching', { domain: hubDomain(event.node) });
       clearTimeout(state.externalSearchTimer);
       state.externalSearchTimer = setTimeout(() => {
         if (state.searchStage === 'searching') searchVisual('idle');
@@ -31,11 +33,10 @@ function trackEvents(events) {
 // Replays searches made by agents or the CLI on this snapshot as search animations.
 export function externalActivity(rows) {
   const { graph } = state;
-  // Intake has no graph node and remains relevant when local main advances.
-  if (rows.some(event => event.origin !== 'viewer' && event.type === 'captured')) {
-    state.captureNebula?.trigger();
-    intake();
-  }
+  // Intake remains relevant when local main advances; each capture queues its own nebula.
+  const captures = rows.filter(event => event.origin !== 'viewer' && event.type === 'captured');
+  for (const event of captures) pulseActivity('capture', { domain: hubDomain(event.node) });
+  if (captures.length) intake();
   const events = rows.filter(
     event => event.origin !== 'viewer' && event.snapshot === graph.snapshot,
   );
