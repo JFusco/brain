@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "source": "agent-skills-docs",
+  "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
+  "origin": "https://agentskills.io/llms.txt",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "How to add skills support to your agent",
+      "url": "https://agentskills.io/client-implementation/adding-skills-support",
+      "fetchUrl": "https://agentskills.io/client-implementation/adding-skills-support.md"
+    },
+    {
+      "title": "Agent Skills Overview",
+      "url": "https://agentskills.io/home",
+      "fetchUrl": "https://agentskills.io/home.md"
+    },
+    {
+      "title": "Best practices for skill creators",
+      "url": "https://agentskills.io/skill-creation/best-practices",
+      "fetchUrl": "https://agentskills.io/skill-creation/best-practices.md"
+    },
+    {
+      "title": "Evaluating skill output quality",
+      "url": "https://agentskills.io/skill-creation/evaluating-skills",
+      "fetchUrl": "https://agentskills.io/skill-creation/evaluating-skills.md"
+    },
+    {
+      "title": "Optimizing skill descriptions",
+      "url": "https://agentskills.io/skill-creation/optimizing-descriptions",
+      "fetchUrl": "https://agentskills.io/skill-creation/optimizing-descriptions.md"
+    },
+    {
+      "title": "Quickstart",
+      "url": "https://agentskills.io/skill-creation/quickstart",
+      "fetchUrl": "https://agentskills.io/skill-creation/quickstart.md"
+    },
+    {
+      "title": "Using scripts in skills",
+      "url": "https://agentskills.io/skill-creation/using-scripts",
+      "fetchUrl": "https://agentskills.io/skill-creation/using-scripts.md"
+    },
+    {
+      "title": "Specification",
+      "url": "https://agentskills.io/specification",
+      "fetchUrl": "https://agentskills.io/specification.md"
+    }
+  ],
+  "referenceIssues": []
+}

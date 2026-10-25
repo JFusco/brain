@@ -56,4 +56,6 @@ No curated notes yet.
   - [slack](https://github.com/vercel-labs/agent-browser/blob/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/skill-data/slack/SKILL.md) — reference only.
   - [vercel-sandbox](https://github.com/vercel-labs/agent-browser/blob/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/skill-data/vercel-sandbox/SKILL.md) — reference only.
   - [webmcp-gen](https://github.com/vercel-labs/agent-browser/blob/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/skill-data/webmcp-gen/SKILL.md) — reference only.
+- **agent-skills-docs** — link catalog of 8 pages; rolling-url; revision `c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798`; fetched 2026-10-25.
+  - [Catalog source](https://agentskills.io/llms.txt); search it with `lookup --domain tooling`.
 <!-- brain:official:end -->
