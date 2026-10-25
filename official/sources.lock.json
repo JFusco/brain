@@ -264,6 +264,12 @@
       "fetchedAt": "2026-10-24T22:46:48.564Z",
       "track": "rolling-url",
       "catalogSha256": "6adff29a30d9d6f5b52d5f26a7ff339e8276951c549ec1eaca2daa1f29956e9e"
+    },
+    "motion-docs": {
+      "revision": "379798ecbc4621eed5f3f96abd19bc774b1461acf1f334f93cda321e533d6e0a",
+      "fetchedAt": "2026-10-25T23:23:33.359Z",
+      "track": "rolling-url",
+      "catalogSha256": "1579fa2a9c7f25e67ca273ae507d8f69c58a4bbdabf9811aadbcf0565d1ea960"
     }
   },
   "toolchain": {

@@ -122,3 +122,7 @@ The [Lighthouse accessibility scope journal](../journal/2026-10-24-lighthouse-ac
 ## Figma MCP applicability caveat
 
 The [Figma MCP applicability journal](../journal/2026-10-24-figma-mcp-applicability.md) records the registry caveat to confirm the MCP server mode and client; the catalog is unchanged.
+
+## Motion guidance seed
+
+The [Motion guidance seed journal](../journal/2026-10-25-motion-guidance-seed.md) records the issue 236 registration of the bounded `motion-docs` catalog in React and Frontend, plus an animation playbook extending existing accessible-loading guidance. Rolling versions and premium-feature limits remain explicit; no agent skill or server is installed.
