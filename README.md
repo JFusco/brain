@@ -525,6 +525,7 @@ The weekly coverage review checks these official places for new documentation in
 | Tooling | Registered: vite.dev (`sitemap.xml`), vitest.dev (`llms.txt`), storybook.js.org (`docs/sitemap.xml`), testing-library.com (`sitemap.xml`), eslint.org (`docs/latest/sitemap.xml`), pnpm.io (`sitemap.xml`), turborepo.dev (`llms.txt`). Watch: github.com/vercel/turborepo |
 | Design systems | Registered: www.designtokens.org (2025.10 report modules), developers.figma.com (`sitemap.xml`; REST API, plugins, Code Connect, MCP server). Watch: github.com/design-tokens, github.com/figma |
 | Salesforce B2B Commerce | developer.salesforce.com/docs (`llms.txt`, `llms-commerce-cloud.txt`; Brain's fetcher currently receives HTTP 403), help.salesforce.com, github.com/forcedotcom |
+| Chrome DevTools skills | Registered: https://github.com/ChromeDevTools/chrome-devtools-mcp; reference-only, with version and applicability limits in `official/sources.json` |
 
 ## Project skills
 

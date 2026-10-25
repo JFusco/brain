@@ -126,3 +126,7 @@ The [Figma MCP applicability journal](../journal/2026-10-24-figma-mcp-applicabil
 ## Motion guidance seed
 
 The [Motion guidance seed journal](../journal/2026-10-25-motion-guidance-seed.md) records the issue 236 registration of the bounded `motion-docs` catalog in React and Frontend, plus an animation playbook extending existing accessible-loading guidance. Rolling versions and premium-feature limits remain explicit; no agent skill or server is installed.
+
+## Chrome DevTools skills
+
+The [Chrome DevTools skills journal](../journal/2026-10-25-chrome-devtools-skills.md) records the bounded reference-only registration, source scope, version limits and actual catalog counts.
