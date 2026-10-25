@@ -12,8 +12,8 @@ topics: ["visual-brain"]
 
 In the viewer:
 - A lookup sends a cyan comet from the core to the searched domain, then blooms at each domain holding found notes. Empty and failed lookups pulse grey and red at the core.
-- Captures queue first-in, first-out, and each violet nebula condenses at its domain's rim sector. Beyond three waiting, later ones play a three-second version instead of eight.
-- Agent reads and citations get a small halo on the note.
+- Captures queue first-in, first-out, and each violet nebula condenses at its domain's rim sector. Beyond three waiting, later ones play a three-second version instead of eight, and beyond twelve a 1.5-second one.
+- Agent reads and citations get a small halo on the note, including in focused mode when the note is shown.
 - Each pulsed domain keeps a capped afterglow that fades over about a minute.
 - A heartbeat strip beside the live indicator shows five minutes of coloured blips and a queued-capture count.
 - Pending rim points now sit at their domain's sector angle, so a capture lands where its point appears. Reduced motion replaces travel and expansion with static flashes.

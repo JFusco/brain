@@ -103,4 +103,5 @@ test('queued captures play in full until a backlog forms', () => {
   assert.equal(captureDuration(0), 8000);
   assert.equal(captureDuration(3), 8000);
   assert.ok(captureDuration(4) < captureDuration(3));
+  assert.ok(captureDuration(13) < captureDuration(4));
 });

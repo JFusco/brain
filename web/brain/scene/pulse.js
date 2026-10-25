@@ -39,15 +39,26 @@ export function createPulses(texture, scene) {
     group.visible = false;
     group.frustumCulled = false;
     scene.add(group);
-    return { group, bloom, comet, ring, kind: null, age: 0, target: new THREE.Vector3() };
+    return {
+      group,
+      bloom,
+      comet,
+      ring,
+      kind: null,
+      age: 0,
+      exact: false,
+      target: new THREE.Vector3(),
+    };
   });
   return {
-    emit(kind, target) {
+    // An exact target is a star's displayed position; domain and core targets shrink with focus.
+    emit(kind, target, exact = false) {
       const config = PULSES[kind];
       if (!config) return;
       const slot = slots.find(s => !s.kind) || slots.reduce((a, b) => (a.age > b.age ? a : b));
       slot.kind = kind;
       slot.age = 0;
+      slot.exact = exact;
       slot.target.set(target?.x || 0, target?.y || 0, target?.z || 0);
       for (const part of [slot.bloom, slot.comet, slot.ring]) part.material.color.set(config.color);
       slot.group.visible = true;
@@ -67,9 +78,9 @@ export function createPulses(texture, scene) {
           travel = reduced || !config.travel ? 1 : Math.min(1, slot.age / TRAVEL_MS),
           local = reduced || !config.travel ? slot.age : Math.max(0, slot.age - TRAVEL_MS),
           life = Math.min(1, local / Math.max(1, config.ms - (config.travel ? TRAVEL_MS : 0)));
-        slot.group.position.copy(slot.target).multiplyScalar(scale);
+        slot.group.position.copy(slot.target).multiplyScalar(slot.exact ? 1 : scale);
         slot.comet.visible = !reduced && config.travel && travel < 1;
-        slot.comet.position.copy(slot.target).multiplyScalar(scale * (travel - 1));
+        slot.comet.position.copy(slot.group.position).multiplyScalar(travel - 1);
         slot.comet.scale.setScalar(6 * scale);
         slot.comet.material.opacity = 0.9;
         const arrived = travel >= 1;

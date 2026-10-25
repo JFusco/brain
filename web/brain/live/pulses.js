@@ -31,7 +31,10 @@ export function pulseActivity(kind, { domain = null, node = null, beat = true } 
     star = node ? state.graph?.nodes.find(n => n.id === node) : null;
   domain ??= star?.domain || star?.domains?.[0] || null;
   if (kind === 'capture') state.captureNebula?.trigger(domainAnchor(domain, domains, RIM, 0.85));
-  else state.pulses?.emit(kind, star ? placed(star) : domainAnchor(domain, domains, SECTOR));
+  // A star outside the focused neighborhood is not drawn, so it gets no halo.
+  else if (star && (!state.focusGraph || state.focusGraph.ids.has(star.id)))
+    state.pulses?.emit(kind, placed(star), true);
+  else if (!star) state.pulses?.emit(kind, domainAnchor(domain, domains, SECTOR));
   if (AFTERGLOW[kind] && domain)
     state.afterglow?.bump(domain, domainAnchor(domain, domains, SECTOR), AFTERGLOW[kind]);
   if (beat) heartbeat(kind);

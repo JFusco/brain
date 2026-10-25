@@ -5,7 +5,7 @@ import { searchVisual } from '../scene/search-visual.js';
 import { intake } from '../ui/intake.js';
 import { pulseActivity } from './pulses.js';
 
-const newSession = () => ({ results: [], nodes: new Set() });
+const newSession = () => ({ results: [], nodes: new Set(), pulsed: false });
 
 function trackEvents(events) {
   for (const event of events) {
@@ -72,10 +72,13 @@ export function externalActivity(rows) {
       }
       rebuild();
     }
+    // Later batches of the same lookup re-energize its paths without pulsing again.
     searchVisual('found', {
       results: session.results,
       connections: [{ path: { nodes: [...session.nodes], edges } }],
+      pulse: !session.pulsed,
     });
+    session.pulsed = true;
   }
   while (externalSessions.size > 30) externalSessions.delete(externalSessions.keys().next().value);
 }

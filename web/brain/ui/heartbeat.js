@@ -8,7 +8,8 @@ const WINDOW_MS = 5 * 60 * 1000,
     capture: '#c194ff',
   },
   beats = [];
-let drawn = 0;
+let drawn = 0,
+  shown = -1;
 
 // Records one blip; the strip keeps the last five minutes of activity.
 export function heartbeat(kind) {
@@ -22,15 +23,18 @@ export function heartbeat(kind) {
 export function drawHeartbeat(queued) {
   const now = Date.now(),
     canvas = $('heartbeat');
-  $('heartbeat-queue').hidden = !queued;
-  $('heartbeat-queue').textContent = queued ? `+${queued} queued` : '';
+  if (queued !== shown) {
+    shown = queued;
+    $('heartbeat-queue').hidden = !queued;
+    $('heartbeat-queue').textContent = queued ? `+${queued} queued` : '';
+  }
   if (!canvas || now - drawn < 200) return;
   drawn = now;
   const ratio = devicePixelRatio || 1,
     width = canvas.clientWidth,
     height = canvas.clientHeight;
-  if (canvas.width !== width * ratio) canvas.width = width * ratio;
-  if (canvas.height !== height * ratio) canvas.height = height * ratio;
+  if (canvas.width !== Math.round(width * ratio)) canvas.width = Math.round(width * ratio);
+  if (canvas.height !== Math.round(height * ratio)) canvas.height = Math.round(height * ratio);
   const context = canvas.getContext('2d'),
     middle = height / 2;
   context.setTransform(ratio, 0, 0, ratio, 0, 0);

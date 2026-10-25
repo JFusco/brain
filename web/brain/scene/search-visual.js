@@ -19,7 +19,7 @@ function pulseStage(stage, result) {
   if (stage === 'searching') pulseActivity('search', { domain: result?.domain });
   if (stage === 'empty' || stage === 'error') pulseActivity(stage);
   if (stage === 'external') pulseActivity('found', { beat: false });
-  if (stage === 'found') {
+  if (stage === 'found' && result.pulse !== false) {
     const domains = nodeDomains(result.results.map(item => item.id));
     for (const domain of domains) pulseActivity('found', { domain, beat: false });
     if (!domains.length) pulseActivity('found', { beat: false });
