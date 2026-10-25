@@ -288,6 +288,12 @@
       "fetchedAt": "2026-10-25T23:49:46.436Z",
       "track": "rolling-url",
       "catalogSha256": "5cd432ff914fc73096cf0b3a1df73b420f9c75b614773114d1cc5c0af35dd416"
+    },
+    "mcp-docs": {
+      "revision": "3b9e6aa8deb144c9f3839ab03840c4171ca9a6683650713513e47db3a0e0182c",
+      "fetchedAt": "2026-10-25T23:52:03.022Z",
+      "track": "rolling-url",
+      "catalogSha256": "39d2c5ebfe2789b7feacae08da93bc3be3e2e507cfd971153b0cf467f441bf32"
     }
   },
   "toolchain": {

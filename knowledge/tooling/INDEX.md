@@ -58,4 +58,6 @@ No curated notes yet.
   - [webmcp-gen](https://github.com/vercel-labs/agent-browser/blob/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/skill-data/webmcp-gen/SKILL.md) — reference only.
 - **agent-skills-docs** — link catalog of 8 pages; rolling-url; revision `c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798`; fetched 2026-10-25.
   - [Catalog source](https://agentskills.io/llms.txt); search it with `lookup --domain tooling`.
+- **mcp-docs** — link catalog of 57 pages; rolling-url; revision `3b9e6aa8deb144c9f3839ab03840c4171ca9a6683650713513e47db3a0e0182c`; fetched 2026-10-25.
+  - [Catalog source](https://modelcontextprotocol.io/llms.txt); search it with `lookup --domain tooling`.
 <!-- brain:official:end -->
