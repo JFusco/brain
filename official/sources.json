@@ -1434,6 +1434,31 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Official agent-browser entry skill and bundled skill-data, including core browser automation, exploratory QA and specialized integrations. Match the installed agent-browser CLI version; bundled instructions can change with the CLI. Reference-only: listing does not install skills, execute commands, authorize account access or send messages."
+    },
+    {
+      "id": "agent-skills-docs",
+      "vendor": "agentskills",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://agentskills.io/llms.txt",
+      "allowedHosts": [
+        "agentskills.io"
+      ],
+      "includePrefixes": [
+        "/home",
+        "/specification",
+        "/skill-creation/",
+        "/client-implementation/"
+      ],
+      "fetchSuffix": ".md",
+      "maxPages": 40,
+      "maxIndexes": 1,
+      "license": "Apache-2.0 (agentskills/agentskills); links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling official Agent Skills format specification, authoring and evaluation guidance, and client implementation documentation. Client-specific support and validation may differ from the shared format; confirm the target agent's own documentation. Excludes the client showcase. No skill installation or execution."
     }
   ],
   "pointers": [
