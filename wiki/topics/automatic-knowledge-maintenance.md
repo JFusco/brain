@@ -251,3 +251,7 @@ The [Sitecore migration journal](../journal/2026-10-24-sitecore-migration-guidan
 ## October 24 SitecoreAI backlog batch 1
 
 The [SitecoreAI batch 1 journal](../journal/2026-10-24-sitecore-ai-backlog-batch-1.md) records the first requested thin-domains-first backlog session: twelve SitecoreAI captures reviewed individually, one new playbook on REST update semantics and read-only inspection, and one browser-evidence capture left pending for a frontend batch. Proposed practices were not exercised against a connected environment.
+
+## October 24 backlog batch 2
+
+The [batch 2 journal](../journal/2026-10-24-backlog-batch-2.md) records twelve more individually reviewed captures: one new SitecoreAI playbook on verifying imports against native state, an upload-route extension to the migration playbook, and one agent-SDK capture left pending for an `_unsorted` batch.

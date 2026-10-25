@@ -8,7 +8,7 @@ reviewed_at: "2026-10-24"
 status: "current"
 versions: []
 applicability: "Proposed planning for authored content in existing SitecoreAI models; target server, CLI, plugin and rendering SDK versions must be confirmed"
-provenance: "sitecoreai-docs@70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6; relevant official pages read 2026-10-24; sanitized private capture recommendations, no connected acceptance"
+provenance: "sitecoreai-docs@70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6; relevant official pages read 2026-10-24, including unregistered api-docs.sitecore.com Content Transfer and Item Transfer pages; sanitized private capture recommendations, no connected acceptance"
 ---
 
 # Plan SitecoreAI migration evidence and dependencies
@@ -33,6 +33,12 @@ Use this when mapping authored content into an existing SitecoreAI model, decidi
 
 Deferred-reference syntax is application-specific, not a Sitecore wire format. Preserve native Image serialization, approvals, attempt reconciliation and readback guards. A field-only harness that accepts strings/null but stages no media operations cannot establish dependency acceptance. Different URLs can serve identical bytes; evaluate deduplication against captured byte hashes.
 
+### Choose the media upload route by its contract
+
+**Documented:** the [Content Transfer API](https://api-docs.sitecore.com/sai/content-transfer-api/section/migrating-content/wait-for-the-transfer-to-be-ready) moves content between SitecoreAI environments in chunks. Chunks can be retrieved in parallel and saved in parallel with retrieval, but every chunk must be saved before the chunk set completes. The [Item Transfer API](https://api-docs.sitecore.com/sai/item-transfer-api/section/migrating-content/monitor-the-transfer) consumes the generated `.raif` files, each representing one item or an item with its descendants.
+
+**Proposed:** treat the per-file `uploadMedia` sequence, editor uploads and environment transfer as separate contracts. Use environment transfer for supported environment-to-environment moves, not as a route for loose source files; do not invent `.raif` generation for them. Do not infer that the authoring upload accepts archives or several binaries per request from what an editor UI offers. The authoring pages reviewed for this note state no concurrent-upload limit, which is an absence of guidance, not permission. Before parallelizing uploads, seek endpoint-specific vendor guidance; start from one operation at a time, serialize shared folder creation, record pending attempts before dispatch and read every result back. Compare complete verified applies, not raw upload time. Parallel chunk transfer does not establish parallel Authoring API behavior.
+
 ### Diagnose the evidence boundary before changing CMS configuration
 
 **Proposed:** compare the complete retained destination snapshot with the projection actually supplied to the mapping model. Preserve the site/start-item, device, layout-field and native-reference contracts required by the selected mapping, while excluding authored sample business content. Read still-needed literal references only within explicit bounds. A referenced GUID without its retrieved item is an evidence gap, not proof the item is absent; a snapshot can also be stale.
@@ -47,6 +53,6 @@ Reconcile each reported issue against evidence and authorized scope using the ap
 
 ## Evidence and limits
 
-The cited official passages were read on the evidence date. Target server, CLI/plugin and rendering SDK versions remain unknown; no compatibility range is asserted. The proposed transport, projection and dependency procedures were not exercised against a connected CMS during curation. Private experiment outcomes and incidental application runtime versions are deliberately not adopted as public success claims. No throughput, exactly-once recovery or complete migration guarantee follows.
+The cited official passages were read on the evidence date. Target server, CLI/plugin and rendering SDK versions remain unknown; no compatibility range is asserted. The proposed transport, projection and dependency procedures were not exercised against a connected CMS during curation. Private experiment outcomes and incidental application runtime versions are deliberately not adopted as public success claims. No throughput, exactly-once recovery or complete migration guarantee follows. The upload-route guidance asserts no editor batch or archive upload behavior; the current Media Library upload pages do not describe one.
 
 The [Contentstack import-state guidance](../contentstack/asset-import-state.md) also separates retained mappings from safe recovery, and [Optimizely media destination guidance](../optimizely-saas/media-destination-and-placement.md) separates destination identities from renderer behavior. Their vendor-specific payloads and tools do not apply to SitecoreAI. This playbook keeps the distinct Sitecore evidence and transport decisions together.
