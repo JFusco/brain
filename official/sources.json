@@ -1174,7 +1174,8 @@
       "includePrefixes": [
         "/docs/rest-api/",
         "/docs/plugins/",
-        "/docs/code-connect/"
+        "/docs/code-connect/",
+        "/docs/figma-mcp-server/"
       ],
       "excludePrefixes": [
         "/docs/plugins/updates/"
@@ -1184,7 +1185,7 @@
       "license": "Figma developer documentation under upstream terms; links and metadata only, no open license asserted",
       "installPolicy": "reference-only",
       "preferred": false,
-      "applicability": "Rolling Figma developer documentation for the REST API, Plugin API (guides and API reference) and Code Connect. Excludes the plugin changelog, Widget API, Embed Kit and MCP server sections. Confirm the Figma plan, file permissions and installed @figma/code-connect version before applying guidance."
+      "applicability": "Rolling Figma developer documentation for the REST API, Plugin API (guides and API reference), Code Connect and the Figma MCP server. Excludes the plugin changelog, Widget API and Embed Kit sections. Confirm the Figma plan, file permissions and installed @figma/code-connect version before applying guidance."
     },
     {
       "id": "chrome-devtools-docs",

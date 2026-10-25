@@ -24,6 +24,6 @@ No curated notes yet.
 
 - **dtcg-format** — link catalog of 4 pages; rolling-url; revision `470a989d5fd17c828423122bcaa5f252d39c82ddbf2ddf9cdf4a9c995065cf4d`; fetched 2026-10-24.
   - [Catalog source](https://www.designtokens.org/tr/2025.10/); search it with `lookup --domain design-systems`.
-- **figma-developer-docs** — link catalog of 570 pages; rolling-url; revision `344b023c00aa344bd3c78b77a6a1e363157e995b51f4f71fea2229793c1cc941`; fetched 2026-10-24.
+- **figma-developer-docs** — link catalog of 594 pages; rolling-url; revision `db54940cd457ce9200610b615589b9d647328b2179be97037f92c51ee45bd3a3`; fetched 2026-10-25.
   - [Catalog source](https://developers.figma.com/sitemap.xml); search it with `lookup --domain design-systems`.
 <!-- brain:official:end -->
