@@ -255,3 +255,7 @@ The [SitecoreAI batch 1 journal](../journal/2026-10-24-sitecore-ai-backlog-batch
 ## October 24 backlog batch 2
 
 The [batch 2 journal](../journal/2026-10-24-backlog-batch-2.md) records twelve more individually reviewed captures: one new SitecoreAI playbook on verifying imports against native state, an upload-route extension to the migration playbook, and one agent-SDK capture left pending for an `_unsorted` batch.
+
+## Compressed documentation index validation
+
+The [October 25 repair journal](../journal/2026-10-25-compressed-documentation-indexes.md) records bounded gzip decoding independent of index URL extensions. A controlled response reproduced the binary-validator failure; live Schema.org verification succeeded with unchanged content but did not establish the original transient response encoding. Failure history and the daily schedule remain unchanged.
