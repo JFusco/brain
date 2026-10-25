@@ -56,12 +56,12 @@ test('HTML indexes yield static anchors only, with entity decoding and path titl
 <a href='/docs/two/deep-page'>Read more</a>
 <a href="/docs/empty"> </a>
 <a href="/docs/overview">Skip to main content</a>
-<a href="/docs/focus">Doesn&#39;t &#x2014; &#X41; &#0; &#xD800; &#27; trap</a>`;
+<a href="/docs/focus">Doesn&#39;t &#x2014; &#X41; &#0; &#xD800; &#27; &#x80; &#x110000; trap</a>`;
   assert.deepEqual(htmlLinks(html, 'https://docs.example.com/'), [
     { href: '/docs/one?a=1&b=2', title: 'One & more' },
     { href: '/docs/two/deep-page', title: 'two / deep page' },
     { href: '/docs/overview', title: 'docs / overview' },
-    { href: '/docs/focus', title: "Doesn't \u2014 A &#0; &#xD800; &#27; trap" },
+    { href: '/docs/focus', title: "Doesn't \u2014 A &#0; &#xD800; &#27; &#x80; &#x110000; trap" },
   ]);
 });
 
