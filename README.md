@@ -529,6 +529,7 @@ The weekly coverage review checks these official places for new documentation in
 | agent-browser skills | Registered: https://github.com/vercel-labs/agent-browser; reference-only, with version and applicability limits in `official/sources.json` |
 | Agent Skills documentation | Registered: https://agentskills.io/llms.txt; reference-only, with version and applicability limits in `official/sources.json` |
 | MCP documentation | Registered: https://modelcontextprotocol.io/llms.txt; reference-only, with version and applicability limits in `official/sources.json` |
+| Node.js 24 documentation | Registered: https://nodejs.org/docs/latest-v24.x/api/index.html; reference-only, with version and applicability limits in `official/sources.json` |
 
 ## Project skills
 

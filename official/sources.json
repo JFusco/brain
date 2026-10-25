@@ -1482,6 +1482,41 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Official MCP documentation and specification for protocol 2026-07-28 only. Excludes draft, older protocol versions, extensions, registry, community and proposals. Confirm the actual protocol negotiated by the client and server and the installed SDK; this reference does not establish compatibility with older protocols or authorize server installation or connection."
+    },
+    {
+      "id": "nodejs-24-docs",
+      "vendor": "nodejs",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://nodejs.org/docs/latest-v24.x/api/index.html",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "nodejs.org"
+      ],
+      "includePrefixes": [
+        "/docs/latest-v24.x/api/"
+      ],
+      "excludePrefixes": [
+        "/docs/latest-v24.x/api/all.html"
+      ],
+      "maxPages": 120,
+      "maxIndexes": 1,
+      "license": "Node.js API documentation under upstream LICENSE (MIT); links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official Node.js 24 API documentation, rolling within the fixed 24.x major. Confirm the consuming project's actual Node.js version and each API's Added in and stability notices; latest-v24.x may describe APIs unavailable in Brain's pinned 24.14.0. Deprecated and experimental APIs remain labeled by upstream. Excludes the single-page duplicate; other majors are not covered.",
+      "additionalPages": [
+        {
+          "title": "Node.js 24 file system (filesystem)",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/fs.html"
+        },
+        {
+          "title": "Node.js 24 test runner",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/test.html"
+        }
+      ]
     }
   ],
   "pointers": [

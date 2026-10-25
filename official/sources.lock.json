@@ -294,6 +294,12 @@
       "fetchedAt": "2026-10-25T23:52:03.022Z",
       "track": "rolling-url",
       "catalogSha256": "39d2c5ebfe2789b7feacae08da93bc3be3e2e507cfd971153b0cf467f441bf32"
+    },
+    "nodejs-24-docs": {
+      "revision": "4d105354722024dbf791ed9d20a8957c3643ab0c8e90b3aaac9e9776c3cf4eb6",
+      "fetchedAt": "2026-10-25T23:55:32.360Z",
+      "track": "rolling-url",
+      "catalogSha256": "c66b449bc5b7db20e320bd04c002c2b0ff9ae1eb1d4aa71e0caac4c234e80674"
     }
   },
   "toolchain": {

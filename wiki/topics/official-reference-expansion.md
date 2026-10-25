@@ -142,3 +142,7 @@ The [Agent Skills documentation journal](../journal/2026-10-25-agent-skills-docs
 ## MCP documentation
 
 The [MCP documentation journal](../journal/2026-10-25-mcp-docs.md) records the bounded reference-only registration, source scope, version limits and actual catalog counts.
+
+## Node.js 24 documentation
+
+The [Node.js 24 documentation journal](../journal/2026-10-25-nodejs-24-docs.md) records the bounded reference-only registration, source scope, version limits and actual catalog counts.
