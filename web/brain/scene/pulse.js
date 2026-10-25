@@ -51,7 +51,7 @@ export function createPulses(texture, scene) {
     };
   });
   return {
-    // An exact target is a star's displayed position; domain and core targets shrink with focus.
+    // An exact target is a star's displayed position; domain and core targets center in focus.
     emit(kind, target, exact = false) {
       const config = PULSES[kind];
       if (!config) return;
@@ -78,7 +78,8 @@ export function createPulses(texture, scene) {
           travel = reduced || !config.travel ? 1 : Math.min(1, slot.age / TRAVEL_MS),
           local = reduced || !config.travel ? slot.age : Math.max(0, slot.age - TRAVEL_MS),
           life = Math.min(1, local / Math.max(1, config.ms - (config.travel ? TRAVEL_MS : 0)));
-        slot.group.position.copy(slot.target).multiplyScalar(slot.exact ? 1 : scale);
+        // Domain sectors are hidden in focus, so domain and core pulses center there.
+        slot.group.position.copy(slot.target).multiplyScalar(slot.exact ? 1 : focused ? 0 : 1);
         slot.comet.visible = !reduced && config.travel && travel < 1;
         slot.comet.position.copy(slot.group.position).multiplyScalar(travel - 1);
         slot.comet.scale.setScalar(6 * scale);

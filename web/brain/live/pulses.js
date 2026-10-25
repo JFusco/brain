@@ -1,4 +1,4 @@
-import { domainAnchor } from '../lib/layout.js';
+import { domainAnchor, isVisible } from '../lib/layout.js';
 import { state } from '../model/state.js';
 import { placed } from '../scene/network.js';
 import { heartbeat } from '../ui/heartbeat.js';
@@ -31,8 +31,8 @@ export function pulseActivity(kind, { domain = null, node = null, beat = true } 
     star = node ? state.graph?.nodes.find(n => n.id === node) : null;
   domain ??= star?.domain || star?.domains?.[0] || null;
   if (kind === 'capture') state.captureNebula?.trigger(domainAnchor(domain, domains, RIM, 0.85));
-  // A star outside the focused neighborhood is not drawn, so it gets no halo.
-  else if (star && (!state.focusGraph || state.focusGraph.ids.has(star.id)))
+  // Only a drawn star gets a halo: inside the focused neighborhood, or visible in the overview.
+  else if (star && (state.focusGraph ? state.focusGraph.ids.has(star.id) : isVisible(star, state)))
     state.pulses?.emit(kind, placed(star), true);
   else if (!star) state.pulses?.emit(kind, domainAnchor(domain, domains, SECTOR));
   if (AFTERGLOW[kind] && domain)
