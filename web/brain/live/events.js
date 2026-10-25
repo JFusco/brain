@@ -4,6 +4,7 @@ import { reduced, state } from '../model/state.js';
 import { rebuild } from '../scene/network.js';
 import { metrics } from '../ui/metrics.js';
 import { externalActivity } from './external.js';
+import { pulseActivity } from './pulses.js';
 
 // Highlights nodes named by live activity: planned paths for 10 s, other events for 3.5 s.
 function markActivity(rows) {
@@ -16,6 +17,8 @@ function markActivity(rows) {
       } else {
         state.active.set(e.node, Date.now() + 3500);
         state.activeKinds.set(e.node, e.type);
+        if (e.origin !== 'viewer' && ['read', 'cited'].includes(e.type))
+          pulseActivity(e.type, { node: e.node });
       }
     }
     if (e.type !== 'planned') state.liveEvents.unshift(activityText(e, state.graph.nodes));

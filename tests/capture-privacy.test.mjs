@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import { domainHub } from '../scripts/lib/branch/activity/reporting.mjs';
 import { domainFor } from '../scripts/lib/branch/capture/domain.mjs';
 import { clientHits, scrub } from '../scripts/lib/branch/privacy/client-terms.mjs';
 
@@ -37,4 +38,11 @@ test('recognizable WordPress context wins a tied React or frontend match', () =>
   assert.equal(domainFor('A React component for a block', KEYWORDS), 'react');
   assert.equal(domainFor('A React component in a block.json theme', KEYWORDS), 'cms/wordpress');
   assert.equal(domainFor('react useEffect component in a block.json', KEYWORDS), 'react');
+});
+
+test('activity names only a configured domain, by its public hub node', () => {
+  const domains = ['react', 'cms/sitecore-ai'];
+  assert.equal(domainHub('cms/sitecore-ai', domains), 'knowledge/cms/sitecore-ai/INDEX.md');
+  for (const value of ['', undefined, 'vue', 'how do I cache Contoso pages'])
+    assert.equal(domainHub(value, domains), '', String(value));
 });

@@ -1,8 +1,10 @@
 import * as THREE from 'three';
 import { hash } from '../lib/hash.js';
+import { domainAnchor } from '../lib/layout.js';
 import { state } from '../model/state.js';
 
-// Violet points on the galaxy rim, up to 12 per domain, for captures awaiting curation.
+// Violet points on the galaxy rim, up to 12 per domain at its sector angle, for captures
+// awaiting curation.
 // Rebuilt only when the pending counts change.
 export function renderIntakeLayer(pending) {
   const { galaxy } = state,
@@ -18,7 +20,10 @@ export function renderIntakeLayer(pending) {
     domains = Object.entries(pending);
   for (let d = 0; d < domains.length; d++) {
     const count = Math.min(domains[d][1], 12),
-      angle = (d / Math.max(domains.length, 1)) * Math.PI * 2;
+      sector = domainAnchor(domains[d][0], state.graph?.domains || [], 1),
+      angle = sector
+        ? Math.atan2(sector.y, sector.x)
+        : (d / Math.max(domains.length, 1)) * Math.PI * 2;
     for (let i = 0; i < count; i++) {
       const jitter = hash(domains[d][0] + i),
         a = angle + ((jitter % 100) / 100 - 0.5) * 0.18,

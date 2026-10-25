@@ -10,6 +10,8 @@ export const state = {
   network: null,
   galaxy: null,
   captureNebula: null,
+  pulses: null,
+  afterglow: null,
   intakeLayer: null,
   intakeSignature: '',
   guidance: null,

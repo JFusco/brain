@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
+import { captureDuration, hubDomain } from '../web/brain/lib/activity.js';
 import { neighborhood, overviewReferences } from '../web/brain/lib/knowledge.js';
-import { displayPosition, isVisible, position } from '../web/brain/lib/layout.js';
+import { displayPosition, domainAnchor, isVisible, position } from '../web/brain/lib/layout.js';
 import { resolveLink } from '../web/brain/lib/links.js';
 
 const NOTE = 'knowledge/react/effects.md';
@@ -82,4 +83,25 @@ test('the overview shows six pages per source plus every cited reference', () =>
     ],
   };
   assert.deepEqual([...overviewReferences(graph)], ['p0', 'p1', 'p2', 'p3', 'p4', 'p5', 'cited']);
+});
+
+test('activity pulses land inside their domain sector, with a core fallback', () => {
+  const domains = ['react', 'vue', 'tailwind'],
+    angle = point => (Math.atan2(point.y, point.x) + Math.PI * 2) % (Math.PI * 2);
+  assert.equal(domainAnchor('svelte', domains), null);
+  const anchor = angle(domainAnchor('vue', domains));
+  for (const id of ['knowledge/vue/a.md', 'knowledge/vue/b.md', 'knowledge/vue/c.md']) {
+    const offset = angle(position({ id, domain: 'vue' }, domains)) - anchor;
+    assert.ok(Math.abs(offset) <= 0.325 + 1e-9, id);
+  }
+  assert.equal(hubDomain('knowledge/cms/sitecore-ai/INDEX.md'), 'cms/sitecore-ai');
+  for (const node of ['knowledge/INDEX.md', 'knowledge/react/effects.md', '', undefined])
+    assert.equal(hubDomain(node), null, String(node));
+});
+
+test('queued captures play in full until a backlog forms', () => {
+  assert.equal(captureDuration(0), 8000);
+  assert.equal(captureDuration(3), 8000);
+  assert.ok(captureDuration(4) < captureDuration(3));
+  assert.ok(captureDuration(13) < captureDuration(4));
 });

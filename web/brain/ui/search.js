@@ -35,7 +35,7 @@ function renderResults(result) {
 async function search(event) {
   event.preventDefault();
   if (state.focusGraph) overview();
-  searchVisual('searching');
+  searchVisual('searching', { domain: $('domain').value || null });
   $('submit').disabled = true;
   $('status').textContent = 'Finding relevant evidence…';
   try {

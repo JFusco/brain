@@ -16,6 +16,14 @@ export function position(n, domains) {
   };
 }
 
+// A domain's sector center, where its stars cluster; null for an unknown domain.
+export function domainAnchor(domain, domains, radius = 80, flatten = 1) {
+  const d = domains.indexOf(domain);
+  if (d < 0) return null;
+  const angle = (d / Math.max(1, domains.length)) * Math.PI * 2 + 0.325;
+  return { x: Math.cos(angle) * radius, y: Math.sin(angle) * radius * flatten, z: 0 };
+}
+
 // Focus position: the focused star sits at the center, its neighbors on one or two rings.
 export function displayPosition(n, focus, domains) {
   if (!focus) return position(n, domains);

@@ -17,3 +17,7 @@ Evidence: https://github.com/JFusco/brain/issues/98 and `scripts/lib/visual-brai
 Shared CLI activity from other projects drives the same local viewer: electrical lookup scan/results, mint reads, warm citations and violet pending intake. Pending-capture counts are grouped by domain in a separate layer; they are not published graph nodes or retrieval evidence. Capture contents and origins are not exposed. Labels are reserved for the focused view.
 
 Capture arrivals have an independent eight-second effect: violet stars converge on the pending ring, diffuse clouds bloom and a wave expands. It remains visible in focused mode without closing the note or replacing lookup feedback. Reduced motion uses static stars/clouds; visible-frame timing holds the effect while hidden. A fixed pool of decorative particles bounds repeated captures without adding graph nodes or exposing capture details.
+
+## Domain-aware activity pulses
+
+The [activity pulses journal](../journal/2026-10-24-activity-pulses.md) records lookups and captures naming their domain by hub node, pulses landing at that domain, queued capture nebulas that each complete, a fading per-domain afterglow and a header heartbeat strip.

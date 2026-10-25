@@ -27,7 +27,7 @@ export async function route({
   const graph = snapshot(existing?.snapshot);
   if (domain && !graph.domains.includes(domain)) throw new Error('Unknown knowledge domain');
   const target = projectContext(project, { workspace, versions });
-  const activitySession = session || (await beginLookupActivity(graph.revision, origin));
+  const activitySession = session || (await beginLookupActivity(graph.revision, origin, domain));
   const health = readJSON(at('.state/link-health.json'), { links: {} });
   const entries = [
     ...installedEntries(target, domain),

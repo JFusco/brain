@@ -99,6 +99,13 @@ header {
   border-radius: 50%;
   background: #e8b874;
 }
+#heartbeat {
+  width: 96px;
+  height: 16px;
+}
+#heartbeat-queue {
+  color: #c194ff;
+}
 .connection i.live {
   background: #83e3ff;
   box-shadow: 0 0 12px #62cfff;
@@ -565,6 +572,9 @@ footer {
   }
   .connection {
     font-size: 8px;
+  }
+  #heartbeat {
+    width: 56px;
   }
   .dock {
     left: 12px;
