@@ -1408,6 +1408,32 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Official Chrome DevTools MCP and CLI skills and supporting references. Match the installed chrome-devtools-mcp and Chrome versions; skills describe version-specific tools. Reference-only: cataloging does not install skills, connect a browser or establish accessibility conformance."
+    },
+    {
+      "id": "agent-browser-skills",
+      "vendor": "vercel-labs",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "repository",
+      "repository": "vercel-labs/agent-browser",
+      "track": "default-branch",
+      "paths": [
+        {
+          "prefix": "skills/"
+        },
+        {
+          "prefix": "skill-data/"
+        },
+        {
+          "exact": "README.md"
+        }
+      ],
+      "license": "Apache-2.0",
+      "skillRoot": null,
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official agent-browser entry skill and bundled skill-data, including core browser automation, exploratory QA and specialized integrations. Match the installed agent-browser CLI version; bundled instructions can change with the CLI. Reference-only: listing does not install skills, execute commands, authorize account access or send messages."
     }
   ],
   "pointers": [
