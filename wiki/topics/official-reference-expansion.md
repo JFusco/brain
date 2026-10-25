@@ -110,3 +110,7 @@ The [HTML catalog titles journal](../journal/2026-10-24-html-catalog-titles.md) 
 ## Lighthouse docs in Accessibility
 
 The [Lighthouse accessibility routing journal](../journal/2026-10-24-lighthouse-accessibility.md) records adding Accessibility to the Lighthouse catalog's domains, so its accessibility audits appear in Accessibility lookups. The whole catalog now matches the Accessibility domain; curated notes stayed in their baseline top five.
+
+## Figma MCP server documentation
+
+The [Figma MCP server journal](../journal/2026-10-24-figma-mcp-docs.md) records adding the 24 Figma MCP server pages to the existing Figma catalog in Design systems, with curated notes unchanged at the top of their comparisons.

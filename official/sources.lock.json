@@ -218,10 +218,10 @@
       "catalogSha256": "8671d960b55f73d3bcdec6bf8d57b3585e8189bbe19a47287af0b6f057088cb3"
     },
     "figma-developer-docs": {
-      "revision": "344b023c00aa344bd3c78b77a6a1e363157e995b51f4f71fea2229793c1cc941",
-      "fetchedAt": "2026-10-24T22:03:37.312Z",
+      "revision": "db54940cd457ce9200610b615589b9d647328b2179be97037f92c51ee45bd3a3",
+      "fetchedAt": "2026-10-25T01:14:11.654Z",
       "track": "rolling-url",
-      "catalogSha256": "1bda8173b43cc00dcc511ebe3feeb305f8ffdede487265929a2d9ea2c2579e18"
+      "catalogSha256": "c0b9e22d3e3650f99d7f17ba5c1ce8fb2edb8c1bbbaaeb4fa0c0cecf85c4d504"
     },
     "chrome-devtools-docs": {
       "revision": "a582c730a22a3289c56b46f949f10fb612aaf0b2aeb2f8a76c3ddca7e0c9dcd2",

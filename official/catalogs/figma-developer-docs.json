@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "figma-developer-docs",
-  "revision": "344b023c00aa344bd3c78b77a6a1e363157e995b51f4f71fea2229793c1cc941",
+  "revision": "db54940cd457ce9200610b615589b9d647328b2179be97037f92c51ee45bd3a3",
   "origin": "https://developers.figma.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -100,6 +100,126 @@
       "title": "code connect / templates migration guide",
       "url": "https://developers.figma.com/docs/code-connect/templates-migration-guide/",
       "fetchUrl": "https://developers.figma.com/docs/code-connect/templates-migration-guide/"
+    },
+    {
+      "title": "docs / figma mcp server",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/"
+    },
+    {
+      "title": "figma mcp server / add custom rules",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/add-custom-rules/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/add-custom-rules/"
+    },
+    {
+      "title": "figma mcp server / avoid large frames",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/avoid-large-frames/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/avoid-large-frames/"
+    },
+    {
+      "title": "figma mcp server / bringing make context to your agent",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/bringing-make-context-to-your-agent/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/bringing-make-context-to-your-agent/"
+    },
+    {
+      "title": "figma mcp server / code connect integration",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/code-connect-integration/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/code-connect-integration/"
+    },
+    {
+      "title": "figma mcp server / code to canvas",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/code-to-canvas/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/code-to-canvas/"
+    },
+    {
+      "title": "figma mcp server / create skills",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/create-skills/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/create-skills/"
+    },
+    {
+      "title": "figma mcp server / generative plugins and shaders",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/generative-plugins-and-shaders/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/generative-plugins-and-shaders/"
+    },
+    {
+      "title": "figma mcp server / getting 500 error",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/getting-500-error/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/getting-500-error/"
+    },
+    {
+      "title": "figma mcp server / images stopped loading",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/images-stopped-loading/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/images-stopped-loading/"
+    },
+    {
+      "title": "figma mcp server / local server installation",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/local-server-installation/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/local-server-installation/"
+    },
+    {
+      "title": "figma mcp server / mcp clients issues",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/mcp-clients-issues/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/mcp-clients-issues/"
+    },
+    {
+      "title": "figma mcp server / mcp vs agent",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/mcp-vs-agent/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/mcp-vs-agent/"
+    },
+    {
+      "title": "figma mcp server / rate limits access",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/rate-limits-access/"
+    },
+    {
+      "title": "figma mcp server / remote server installation",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/"
+    },
+    {
+      "title": "figma mcp server / server returning web code",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/server-returning-web-code/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/server-returning-web-code/"
+    },
+    {
+      "title": "figma mcp server / structure figma file",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/structure-figma-file/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/structure-figma-file/"
+    },
+    {
+      "title": "figma mcp server / stuck or slow",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/stuck-or-slow/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/stuck-or-slow/"
+    },
+    {
+      "title": "figma mcp server / tools and prompts",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/tools-and-prompts/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/tools-and-prompts/"
+    },
+    {
+      "title": "figma mcp server / tools not loading",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/tools-not-loading/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/tools-not-loading/"
+    },
+    {
+      "title": "figma mcp server / trigger specific tools",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/trigger-specific-tools/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/trigger-specific-tools/"
+    },
+    {
+      "title": "figma mcp server / variables vs code",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/variables-vs-code/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/variables-vs-code/"
+    },
+    {
+      "title": "figma mcp server / write effective prompts",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/write-effective-prompts/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/write-effective-prompts/"
+    },
+    {
+      "title": "figma mcp server / write to canvas",
+      "url": "https://developers.figma.com/docs/figma-mcp-server/write-to-canvas/",
+      "fetchUrl": "https://developers.figma.com/docs/figma-mcp-server/write-to-canvas/"
     },
     {
       "title": "docs / plugins",
