@@ -1,118 +1,118 @@
 {
   "schemaVersion": 1,
   "source": "nodejs-24-docs",
-  "revision": "4d105354722024dbf791ed9d20a8957c3643ab0c8e90b3aaac9e9776c3cf4eb6",
+  "revision": "ff36dfdb2741f2c837d57f053c8439266912fb7e2bf91afc9b4a36d23352ec42",
   "origin": "https://nodejs.org/docs/latest-v24.x/api/index.html",
   "skills": [],
   "docs": [],
   "pages": [
     {
-      "title": "C++ addons",
+      "title": "Node.js 24 C++ addons",
       "url": "https://nodejs.org/docs/latest-v24.x/api/addons.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/addons.html"
     },
     {
-      "title": "Assertion testing",
+      "title": "Node.js 24 Assertion testing",
       "url": "https://nodejs.org/docs/latest-v24.x/api/assert.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/assert.html"
     },
     {
-      "title": "Asynchronous context tracking",
+      "title": "Node.js 24 Asynchronous context tracking",
       "url": "https://nodejs.org/docs/latest-v24.x/api/async_context.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/async_context.html"
     },
     {
-      "title": "Async hooks",
+      "title": "Node.js 24 Async hooks",
       "url": "https://nodejs.org/docs/latest-v24.x/api/async_hooks.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/async_hooks.html"
     },
     {
-      "title": "Buffer",
+      "title": "Node.js 24 Buffer",
       "url": "https://nodejs.org/docs/latest-v24.x/api/buffer.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/buffer.html"
     },
     {
-      "title": "Child processes",
+      "title": "Node.js 24 Child processes",
       "url": "https://nodejs.org/docs/latest-v24.x/api/child_process.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/child_process.html"
     },
     {
-      "title": "Command-line options",
+      "title": "Node.js 24 Command-line options",
       "url": "https://nodejs.org/docs/latest-v24.x/api/cli.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/cli.html"
     },
     {
-      "title": "Cluster",
+      "title": "Node.js 24 Cluster",
       "url": "https://nodejs.org/docs/latest-v24.x/api/cluster.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/cluster.html"
     },
     {
-      "title": "Console",
+      "title": "Node.js 24 Console",
       "url": "https://nodejs.org/docs/latest-v24.x/api/console.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/console.html"
     },
     {
-      "title": "Crypto",
+      "title": "Node.js 24 Crypto",
       "url": "https://nodejs.org/docs/latest-v24.x/api/crypto.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/crypto.html"
     },
     {
-      "title": "Debugger",
+      "title": "Node.js 24 Debugger",
       "url": "https://nodejs.org/docs/latest-v24.x/api/debugger.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/debugger.html"
     },
     {
-      "title": "Deprecated APIs",
+      "title": "Node.js 24 Deprecated APIs",
       "url": "https://nodejs.org/docs/latest-v24.x/api/deprecations.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/deprecations.html"
     },
     {
-      "title": "UDP/datagram",
+      "title": "Node.js 24 UDP/datagram",
       "url": "https://nodejs.org/docs/latest-v24.x/api/dgram.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/dgram.html"
     },
     {
-      "title": "Diagnostics Channel",
+      "title": "Node.js 24 Diagnostics Channel",
       "url": "https://nodejs.org/docs/latest-v24.x/api/diagnostics_channel.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/diagnostics_channel.html"
     },
     {
-      "title": "DNS",
+      "title": "Node.js 24 DNS",
       "url": "https://nodejs.org/docs/latest-v24.x/api/dns.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/dns.html"
     },
     {
-      "title": "About this documentation",
+      "title": "Node.js 24 About this documentation",
       "url": "https://nodejs.org/docs/latest-v24.x/api/documentation.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/documentation.html"
     },
     {
-      "title": "Domain",
+      "title": "Node.js 24 Domain",
       "url": "https://nodejs.org/docs/latest-v24.x/api/domain.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/domain.html"
     },
     {
-      "title": "C++ embedder API",
+      "title": "Node.js 24 C++ embedder API",
       "url": "https://nodejs.org/docs/latest-v24.x/api/embedding.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/embedding.html"
     },
     {
-      "title": "Environment Variables",
+      "title": "Node.js 24 Environment Variables",
       "url": "https://nodejs.org/docs/latest-v24.x/api/environment_variables.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/environment_variables.html"
     },
     {
-      "title": "Errors",
+      "title": "Node.js 24 Errors",
       "url": "https://nodejs.org/docs/latest-v24.x/api/errors.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/errors.html"
     },
     {
-      "title": "Modules: ECMAScript modules",
+      "title": "Node.js 24 Modules: ECMAScript modules",
       "url": "https://nodejs.org/docs/latest-v24.x/api/esm.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/esm.html"
     },
     {
-      "title": "Events",
+      "title": "Node.js 24 Events",
       "url": "https://nodejs.org/docs/latest-v24.x/api/events.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/events.html"
     },
@@ -122,142 +122,142 @@
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/fs.html"
     },
     {
-      "title": "Globals",
+      "title": "Node.js 24 Globals",
       "url": "https://nodejs.org/docs/latest-v24.x/api/globals.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/globals.html"
     },
     {
-      "title": "HTTP",
+      "title": "Node.js 24 HTTP",
       "url": "https://nodejs.org/docs/latest-v24.x/api/http.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/http.html"
     },
     {
-      "title": "HTTP/2",
+      "title": "Node.js 24 HTTP/2",
       "url": "https://nodejs.org/docs/latest-v24.x/api/http2.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/http2.html"
     },
     {
-      "title": "HTTPS",
+      "title": "Node.js 24 HTTPS",
       "url": "https://nodejs.org/docs/latest-v24.x/api/https.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/https.html"
     },
     {
-      "title": "api / index.html",
+      "title": "Node.js 24 API documentation index",
       "url": "https://nodejs.org/docs/latest-v24.x/api/index.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/index.html"
     },
     {
-      "title": "Inspector",
+      "title": "Node.js 24 Inspector",
       "url": "https://nodejs.org/docs/latest-v24.x/api/inspector.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/inspector.html"
     },
     {
-      "title": "Internationalization",
+      "title": "Node.js 24 Internationalization",
       "url": "https://nodejs.org/docs/latest-v24.x/api/intl.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/intl.html"
     },
     {
-      "title": "Modules: node:module API",
+      "title": "Node.js 24 Modules: node:module API",
       "url": "https://nodejs.org/docs/latest-v24.x/api/module.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/module.html"
     },
     {
-      "title": "Modules: CommonJS modules",
+      "title": "Node.js 24 Modules: CommonJS modules",
       "url": "https://nodejs.org/docs/latest-v24.x/api/modules.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/modules.html"
     },
     {
-      "title": "C/C++ addons with Node-API",
+      "title": "Node.js 24 C/C++ addons with Node-API",
       "url": "https://nodejs.org/docs/latest-v24.x/api/n-api.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/n-api.html"
     },
     {
-      "title": "Net",
+      "title": "Node.js 24 Net",
       "url": "https://nodejs.org/docs/latest-v24.x/api/net.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/net.html"
     },
     {
-      "title": "OS",
+      "title": "Node.js 24 OS",
       "url": "https://nodejs.org/docs/latest-v24.x/api/os.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/os.html"
     },
     {
-      "title": "Modules: Packages",
+      "title": "Node.js 24 Modules: Packages",
       "url": "https://nodejs.org/docs/latest-v24.x/api/packages.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/packages.html"
     },
     {
-      "title": "Path",
+      "title": "Node.js 24 Path",
       "url": "https://nodejs.org/docs/latest-v24.x/api/path.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/path.html"
     },
     {
-      "title": "Performance hooks",
+      "title": "Node.js 24 Performance hooks",
       "url": "https://nodejs.org/docs/latest-v24.x/api/perf_hooks.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/perf_hooks.html"
     },
     {
-      "title": "Permissions",
+      "title": "Node.js 24 Permissions",
       "url": "https://nodejs.org/docs/latest-v24.x/api/permissions.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/permissions.html"
     },
     {
-      "title": "Process",
+      "title": "Node.js 24 Process",
       "url": "https://nodejs.org/docs/latest-v24.x/api/process.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/process.html"
     },
     {
-      "title": "Punycode",
+      "title": "Node.js 24 Punycode",
       "url": "https://nodejs.org/docs/latest-v24.x/api/punycode.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/punycode.html"
     },
     {
-      "title": "Query strings",
+      "title": "Node.js 24 Query strings",
       "url": "https://nodejs.org/docs/latest-v24.x/api/querystring.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/querystring.html"
     },
     {
-      "title": "Readline",
+      "title": "Node.js 24 Readline",
       "url": "https://nodejs.org/docs/latest-v24.x/api/readline.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/readline.html"
     },
     {
-      "title": "REPL",
+      "title": "Node.js 24 REPL",
       "url": "https://nodejs.org/docs/latest-v24.x/api/repl.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/repl.html"
     },
     {
-      "title": "Report",
+      "title": "Node.js 24 Report",
       "url": "https://nodejs.org/docs/latest-v24.x/api/report.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/report.html"
     },
     {
-      "title": "Single executable applications",
+      "title": "Node.js 24 Single executable applications",
       "url": "https://nodejs.org/docs/latest-v24.x/api/single-executable-applications.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/single-executable-applications.html"
     },
     {
-      "title": "SQLite",
+      "title": "Node.js 24 SQLite",
       "url": "https://nodejs.org/docs/latest-v24.x/api/sqlite.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/sqlite.html"
     },
     {
-      "title": "Iterable Streams API",
+      "title": "Node.js 24 Iterable Streams API",
       "url": "https://nodejs.org/docs/latest-v24.x/api/stream_iter.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/stream_iter.html"
     },
     {
-      "title": "Stream",
+      "title": "Node.js 24 Stream",
       "url": "https://nodejs.org/docs/latest-v24.x/api/stream.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/stream.html"
     },
     {
-      "title": "String decoder",
+      "title": "Node.js 24 String decoder",
       "url": "https://nodejs.org/docs/latest-v24.x/api/string_decoder.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/string_decoder.html"
     },
     {
-      "title": "Usage and example",
+      "title": "Node.js 24 Usage and example",
       "url": "https://nodejs.org/docs/latest-v24.x/api/synopsis.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/synopsis.html"
     },
@@ -267,72 +267,72 @@
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/test.html"
     },
     {
-      "title": "Timers",
+      "title": "Node.js 24 Timers",
       "url": "https://nodejs.org/docs/latest-v24.x/api/timers.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/timers.html"
     },
     {
-      "title": "TLS/SSL",
+      "title": "Node.js 24 TLS/SSL",
       "url": "https://nodejs.org/docs/latest-v24.x/api/tls.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/tls.html"
     },
     {
-      "title": "Trace events",
+      "title": "Node.js 24 Trace events",
       "url": "https://nodejs.org/docs/latest-v24.x/api/tracing.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/tracing.html"
     },
     {
-      "title": "TTY",
+      "title": "Node.js 24 TTY",
       "url": "https://nodejs.org/docs/latest-v24.x/api/tty.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/tty.html"
     },
     {
-      "title": "Modules: TypeScript",
+      "title": "Node.js 24 Modules: TypeScript",
       "url": "https://nodejs.org/docs/latest-v24.x/api/typescript.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/typescript.html"
     },
     {
-      "title": "URL",
+      "title": "Node.js 24 URL",
       "url": "https://nodejs.org/docs/latest-v24.x/api/url.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/url.html"
     },
     {
-      "title": "Utilities",
+      "title": "Node.js 24 Utilities",
       "url": "https://nodejs.org/docs/latest-v24.x/api/util.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/util.html"
     },
     {
-      "title": "V8",
+      "title": "Node.js 24 V8",
       "url": "https://nodejs.org/docs/latest-v24.x/api/v8.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/v8.html"
     },
     {
-      "title": "VM",
+      "title": "Node.js 24 VM",
       "url": "https://nodejs.org/docs/latest-v24.x/api/vm.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/vm.html"
     },
     {
-      "title": "WASI",
+      "title": "Node.js 24 WASI",
       "url": "https://nodejs.org/docs/latest-v24.x/api/wasi.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/wasi.html"
     },
     {
-      "title": "Web Crypto API",
+      "title": "Node.js 24 Web Crypto API",
       "url": "https://nodejs.org/docs/latest-v24.x/api/webcrypto.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/webcrypto.html"
     },
     {
-      "title": "Web Streams API",
+      "title": "Node.js 24 Web Streams API",
       "url": "https://nodejs.org/docs/latest-v24.x/api/webstreams.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/webstreams.html"
     },
     {
-      "title": "Worker threads",
+      "title": "Node.js 24 Worker threads",
       "url": "https://nodejs.org/docs/latest-v24.x/api/worker_threads.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/worker_threads.html"
     },
     {
-      "title": "Zlib",
+      "title": "Node.js 24 Zlib",
       "url": "https://nodejs.org/docs/latest-v24.x/api/zlib.html",
       "fetchUrl": "https://nodejs.org/docs/latest-v24.x/api/zlib.html"
     }

@@ -1481,7 +1481,33 @@
       "license": "Documentation CC-BY-4.0; specifications are undergoing MIT to Apache-2.0 transition under upstream LICENSE; links and metadata only",
       "installPolicy": "reference-only",
       "preferred": false,
-      "applicability": "Official MCP documentation and specification for protocol 2026-07-28 only. Excludes draft, older protocol versions, extensions, registry, community and proposals. Confirm the actual protocol negotiated by the client and server and the installed SDK; this reference does not establish compatibility with older protocols or authorize server installation or connection."
+      "applicability": "Official MCP documentation and specification for protocol 2026-07-28 only. Excludes draft, older protocol versions, extensions, registry, community and proposals. Confirm the actual protocol negotiated by the client and server and the installed SDK; this reference does not establish compatibility with older protocols or authorize server installation or connection.",
+      "additionalPages": [
+        {
+          "title": "MCP basic protocol overview",
+          "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/index"
+        },
+        {
+          "title": "MCP protocol patterns overview",
+          "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/patterns/index"
+        },
+        {
+          "title": "MCP transports overview",
+          "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/index"
+        },
+        {
+          "title": "MCP server features overview",
+          "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/index"
+        },
+        {
+          "title": "MCP Inspector authorization",
+          "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/authorization"
+        },
+        {
+          "title": "MCP authorization specification",
+          "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization/index"
+        }
+      ]
     },
     {
       "id": "nodejs-24-docs",
@@ -1509,12 +1535,268 @@
       "applicability": "Official Node.js 24 API documentation, rolling within the fixed 24.x major. Confirm the consuming project's actual Node.js version and each API's Added in and stability notices; latest-v24.x may describe APIs unavailable in Brain's pinned 24.14.0. Deprecated and experimental APIs remain labeled by upstream. Excludes the single-page duplicate; other majors are not covered.",
       "additionalPages": [
         {
+          "title": "Node.js 24 C++ addons",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/addons.html"
+        },
+        {
+          "title": "Node.js 24 Assertion testing",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/assert.html"
+        },
+        {
+          "title": "Node.js 24 Asynchronous context tracking",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/async_context.html"
+        },
+        {
+          "title": "Node.js 24 Async hooks",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/async_hooks.html"
+        },
+        {
+          "title": "Node.js 24 Buffer",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/buffer.html"
+        },
+        {
+          "title": "Node.js 24 Child processes",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/child_process.html"
+        },
+        {
+          "title": "Node.js 24 Command-line options",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/cli.html"
+        },
+        {
+          "title": "Node.js 24 Cluster",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/cluster.html"
+        },
+        {
+          "title": "Node.js 24 Console",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/console.html"
+        },
+        {
+          "title": "Node.js 24 Crypto",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/crypto.html"
+        },
+        {
+          "title": "Node.js 24 Debugger",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/debugger.html"
+        },
+        {
+          "title": "Node.js 24 Deprecated APIs",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/deprecations.html"
+        },
+        {
+          "title": "Node.js 24 UDP/datagram",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/dgram.html"
+        },
+        {
+          "title": "Node.js 24 Diagnostics Channel",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/diagnostics_channel.html"
+        },
+        {
+          "title": "Node.js 24 DNS",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/dns.html"
+        },
+        {
+          "title": "Node.js 24 About this documentation",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/documentation.html"
+        },
+        {
+          "title": "Node.js 24 Domain",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/domain.html"
+        },
+        {
+          "title": "Node.js 24 C++ embedder API",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/embedding.html"
+        },
+        {
+          "title": "Node.js 24 Environment Variables",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/environment_variables.html"
+        },
+        {
+          "title": "Node.js 24 Errors",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/errors.html"
+        },
+        {
+          "title": "Node.js 24 Modules: ECMAScript modules",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/esm.html"
+        },
+        {
+          "title": "Node.js 24 Events",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/events.html"
+        },
+        {
           "title": "Node.js 24 file system (filesystem)",
           "url": "https://nodejs.org/docs/latest-v24.x/api/fs.html"
         },
         {
+          "title": "Node.js 24 Globals",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/globals.html"
+        },
+        {
+          "title": "Node.js 24 HTTP",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/http.html"
+        },
+        {
+          "title": "Node.js 24 HTTP/2",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/http2.html"
+        },
+        {
+          "title": "Node.js 24 HTTPS",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/https.html"
+        },
+        {
+          "title": "Node.js 24 API documentation index",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/index.html"
+        },
+        {
+          "title": "Node.js 24 Inspector",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/inspector.html"
+        },
+        {
+          "title": "Node.js 24 Internationalization",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/intl.html"
+        },
+        {
+          "title": "Node.js 24 Modules: node:module API",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/module.html"
+        },
+        {
+          "title": "Node.js 24 Modules: CommonJS modules",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/modules.html"
+        },
+        {
+          "title": "Node.js 24 C/C++ addons with Node-API",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/n-api.html"
+        },
+        {
+          "title": "Node.js 24 Net",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/net.html"
+        },
+        {
+          "title": "Node.js 24 OS",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/os.html"
+        },
+        {
+          "title": "Node.js 24 Modules: Packages",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/packages.html"
+        },
+        {
+          "title": "Node.js 24 Path",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/path.html"
+        },
+        {
+          "title": "Node.js 24 Performance hooks",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/perf_hooks.html"
+        },
+        {
+          "title": "Node.js 24 Permissions",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/permissions.html"
+        },
+        {
+          "title": "Node.js 24 Process",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/process.html"
+        },
+        {
+          "title": "Node.js 24 Punycode",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/punycode.html"
+        },
+        {
+          "title": "Node.js 24 Query strings",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/querystring.html"
+        },
+        {
+          "title": "Node.js 24 Readline",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/readline.html"
+        },
+        {
+          "title": "Node.js 24 REPL",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/repl.html"
+        },
+        {
+          "title": "Node.js 24 Report",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/report.html"
+        },
+        {
+          "title": "Node.js 24 Single executable applications",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/single-executable-applications.html"
+        },
+        {
+          "title": "Node.js 24 SQLite",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/sqlite.html"
+        },
+        {
+          "title": "Node.js 24 Iterable Streams API",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/stream_iter.html"
+        },
+        {
+          "title": "Node.js 24 Stream",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/stream.html"
+        },
+        {
+          "title": "Node.js 24 String decoder",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/string_decoder.html"
+        },
+        {
+          "title": "Node.js 24 Usage and example",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/synopsis.html"
+        },
+        {
           "title": "Node.js 24 test runner",
           "url": "https://nodejs.org/docs/latest-v24.x/api/test.html"
+        },
+        {
+          "title": "Node.js 24 Timers",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/timers.html"
+        },
+        {
+          "title": "Node.js 24 TLS/SSL",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/tls.html"
+        },
+        {
+          "title": "Node.js 24 Trace events",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/tracing.html"
+        },
+        {
+          "title": "Node.js 24 TTY",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/tty.html"
+        },
+        {
+          "title": "Node.js 24 Modules: TypeScript",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/typescript.html"
+        },
+        {
+          "title": "Node.js 24 URL",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/url.html"
+        },
+        {
+          "title": "Node.js 24 Utilities",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/util.html"
+        },
+        {
+          "title": "Node.js 24 V8",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/v8.html"
+        },
+        {
+          "title": "Node.js 24 VM",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/vm.html"
+        },
+        {
+          "title": "Node.js 24 WASI",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/wasi.html"
+        },
+        {
+          "title": "Node.js 24 Web Crypto API",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/webcrypto.html"
+        },
+        {
+          "title": "Node.js 24 Web Streams API",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/webstreams.html"
+        },
+        {
+          "title": "Node.js 24 Worker threads",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/worker_threads.html"
+        },
+        {
+          "title": "Node.js 24 Zlib",
+          "url": "https://nodejs.org/docs/latest-v24.x/api/zlib.html"
         }
       ]
     }

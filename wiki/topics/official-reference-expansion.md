@@ -146,3 +146,7 @@ The [MCP documentation journal](../journal/2026-10-25-mcp-docs.md) records the b
 ## Node.js 24 documentation
 
 The [Node.js 24 documentation journal](../journal/2026-10-25-nodejs-24-docs.md) records the bounded reference-only registration, source scope, version limits and actual catalog counts.
+
+## Source expansion review
+
+The [source expansion review journal](../journal/2026-10-25-source-expansion-review.md) records six direct repairs after independent review: consistent Node.js 24 titles, distinct MCP titles, corrected Tooling discovery and complete coverage/audit records. The 36-probe audit finds the intended pages first and keeps curated notes in the two comparisons that had them; three other comparisons had none in the top five before or after. The 171-reference URL inventory and twelve known agent-browser warnings are preserved. Automated coordination failures and Joe's authorized direct-repair/Opus-recheck process are distinguished from successful verification.

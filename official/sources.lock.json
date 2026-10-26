@@ -290,16 +290,16 @@
       "catalogSha256": "5cd432ff914fc73096cf0b3a1df73b420f9c75b614773114d1cc5c0af35dd416"
     },
     "mcp-docs": {
-      "revision": "3b9e6aa8deb144c9f3839ab03840c4171ca9a6683650713513e47db3a0e0182c",
-      "fetchedAt": "2026-10-25T23:52:03.022Z",
+      "revision": "612e3521a849a0831241be1bf6c5dc11d115c20f31add88337b469a8205746cd",
+      "fetchedAt": "2026-10-26T00:19:50.430Z",
       "track": "rolling-url",
-      "catalogSha256": "39d2c5ebfe2789b7feacae08da93bc3be3e2e507cfd971153b0cf467f441bf32"
+      "catalogSha256": "fe35ebd59beee232b0a783e403883eebdfa52f286d19e9792b9bfe8cc8d8c8b1"
     },
     "nodejs-24-docs": {
-      "revision": "4d105354722024dbf791ed9d20a8957c3643ab0c8e90b3aaac9e9776c3cf4eb6",
-      "fetchedAt": "2026-10-25T23:55:32.360Z",
+      "revision": "ff36dfdb2741f2c837d57f053c8439266912fb7e2bf91afc9b4a36d23352ec42",
+      "fetchedAt": "2026-10-26T00:19:51.207Z",
       "track": "rolling-url",
-      "catalogSha256": "c66b449bc5b7db20e320bd04c002c2b0ff9ae1eb1d4aa71e0caac4c234e80674"
+      "catalogSha256": "246e0ad3e9ca0889f7d0ea12f11957277ce0bbf570c83eeb84f1e5f1f9769c38"
     }
   },
   "toolchain": {
