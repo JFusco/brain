@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d",
+  "revision": "4d7e54b65fe30d5c61704a2a22f9b19b91d49c345276593c93c1866ac9d12eb0",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -9630,6 +9630,11 @@
       "title": "lytics / lookalike models and audiences",
       "url": "https://www.contentstack.com/docs/lytics/lookalike-models-and-audiences",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/lookalike-models-and-audiences.md"
+    },
+    {
+      "title": "lytics / looker",
+      "url": "https://www.contentstack.com/docs/lytics/looker",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/looker.md"
     },
     {
       "title": "lytics / manage a lytics project",

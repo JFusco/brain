@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "chrome-devtools-skills",
-  "revision": "ada7963246c0c91eae185125a57aecd13cbe0376",
-  "origin": "https://github.com/ChromeDevTools/chrome-devtools-mcp/tree/ada7963246c0c91eae185125a57aecd13cbe0376/",
+  "revision": "172656ab38a4ff666f88dc9032fa841834a69495",
+  "origin": "https://github.com/ChromeDevTools/chrome-devtools-mcp/tree/172656ab38a4ff666f88dc9032fa841834a69495/",
   "skills": [
     {
       "id": "chrome-devtools-skills/a11y-debugging",
@@ -13,8 +13,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/a11y-debugging/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/a11y-debugging/SKILL.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/a11y-debugging/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/a11y-debugging/SKILL.md",
       "gitBlobSha": "d6b2413b7aa090c8a5c605982456811767a3c622"
     },
     {
@@ -26,8 +26,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/chrome-devtools/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/chrome-devtools/SKILL.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/chrome-devtools/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/chrome-devtools/SKILL.md",
       "gitBlobSha": "ab71579f7667050ef13d8c87c9fcdde522271482"
     },
     {
@@ -39,8 +39,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/chrome-devtools-cli/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/chrome-devtools-cli/SKILL.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/chrome-devtools-cli/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/chrome-devtools-cli/SKILL.md",
       "gitBlobSha": "b1e8ae12b3e685b181a729561ce001bc37a31908"
     },
     {
@@ -52,8 +52,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/cookie-debugging/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/cookie-debugging/SKILL.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/cookie-debugging/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/cookie-debugging/SKILL.md",
       "gitBlobSha": "2a0d5663dd94cba6c89a3c9d1a76d066b949f1d6"
     },
     {
@@ -65,8 +65,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/SKILL.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/debug-optimize-lcp/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/debug-optimize-lcp/SKILL.md",
       "gitBlobSha": "89b48b64b0352c850e64c8db7cdfbd3527361f54"
     },
     {
@@ -78,8 +78,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/memory-leak-debugging/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/memory-leak-debugging/SKILL.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/memory-leak-debugging/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/memory-leak-debugging/SKILL.md",
       "gitBlobSha": "5f2adc3abf021b118892ed87fdba803e702947e3"
     },
     {
@@ -91,8 +91,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/troubleshooting/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/troubleshooting/SKILL.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/troubleshooting/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/troubleshooting/SKILL.md",
       "gitBlobSha": "94a23d4cb7f4dfce11eacf6f0e418d445f12fb50"
     }
   ],
@@ -100,57 +100,57 @@
     {
       "path": "README.md",
       "title": "Chrome DevTools for agents",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/README.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/README.md",
       "gitBlobSha": "970f869de1a33bfb798e36d3a46976e94c025ae1"
     },
     {
       "path": "skills/a11y-debugging/references/a11y-snippets.md",
       "title": "Accessibility Debugging Snippets",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/a11y-debugging/references/a11y-snippets.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/a11y-debugging/references/a11y-snippets.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/a11y-debugging/references/a11y-snippets.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/a11y-debugging/references/a11y-snippets.md",
       "gitBlobSha": "e40d424df8d9944f01a5a5fb0909c5f6486a8040"
     },
     {
       "path": "skills/chrome-devtools-cli/references/installation.md",
       "title": "Installation",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/chrome-devtools-cli/references/installation.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/chrome-devtools-cli/references/installation.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/chrome-devtools-cli/references/installation.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/chrome-devtools-cli/references/installation.md",
       "gitBlobSha": "179ecb401c90e1cb94ecc19c7dd04392ad9448fa"
     },
     {
       "path": "skills/debug-optimize-lcp/references/elements-and-size.md",
       "title": "Elements and Size for LCP",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/references/elements-and-size.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/references/elements-and-size.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/debug-optimize-lcp/references/elements-and-size.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/debug-optimize-lcp/references/elements-and-size.md",
       "gitBlobSha": "a75fc729c1f4f131c5b6606c420c0ade95068c9e"
     },
     {
       "path": "skills/debug-optimize-lcp/references/lcp-breakdown.md",
       "title": "Largest Contentful Paint (LCP) Breakdown",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/references/lcp-breakdown.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/references/lcp-breakdown.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/debug-optimize-lcp/references/lcp-breakdown.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/debug-optimize-lcp/references/lcp-breakdown.md",
       "gitBlobSha": "6194cda51d2dfbe386cb70a40e97d2df910b8720"
     },
     {
       "path": "skills/debug-optimize-lcp/references/lcp-snippets.md",
       "title": "LCP Debugging Snippets",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/references/lcp-snippets.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/references/lcp-snippets.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/debug-optimize-lcp/references/lcp-snippets.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/debug-optimize-lcp/references/lcp-snippets.md",
       "gitBlobSha": "53275fde5584819ea80a3eb9470f66bdadb55d94"
     },
     {
       "path": "skills/debug-optimize-lcp/references/optimization-strategies.md",
       "title": "LCP Optimization Strategies",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/references/optimization-strategies.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/debug-optimize-lcp/references/optimization-strategies.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/debug-optimize-lcp/references/optimization-strategies.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/debug-optimize-lcp/references/optimization-strategies.md",
       "gitBlobSha": "e96e00bccd5f5cf0aabf5d747f10ffabcbd65887"
     },
     {
       "path": "skills/memory-leak-debugging/references/common-leaks.md",
       "title": "Common Memory Leaks",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/ada7963246c0c91eae185125a57aecd13cbe0376/skills/memory-leak-debugging/references/common-leaks.md",
-      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/ada7963246c0c91eae185125a57aecd13cbe0376/skills/memory-leak-debugging/references/common-leaks.md",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/172656ab38a4ff666f88dc9032fa841834a69495/skills/memory-leak-debugging/references/common-leaks.md",
+      "fetchUrl": "https://raw.githubusercontent.com/ChromeDevTools/chrome-devtools-mcp/172656ab38a4ff666f88dc9032fa841834a69495/skills/memory-leak-debugging/references/common-leaks.md",
       "gitBlobSha": "2155a8827eb8fd2d5ec7e5556842cfe07aab714f"
     }
   ],

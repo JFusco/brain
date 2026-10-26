@@ -1,36 +1,36 @@
 {
   "schemaVersion": 1,
   "source": "web-features-baseline",
-  "revision": "2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d",
-  "origin": "https://github.com/web-platform-dx/web-features/tree/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/",
+  "revision": "9ed65bb4ac4047a140ce80c922e425065d62c1c4",
+  "origin": "https://github.com/web-platform-dx/web-features/tree/9ed65bb4ac4047a140ce80c922e425065d62c1c4/",
   "skills": [],
   "docs": [
     {
       "path": "docs/baseline.md",
       "title": "Baseline",
-      "url": "https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/docs/baseline.md",
-      "fetchUrl": "https://raw.githubusercontent.com/web-platform-dx/web-features/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/docs/baseline.md",
+      "url": "https://github.com/web-platform-dx/web-features/blob/9ed65bb4ac4047a140ce80c922e425065d62c1c4/docs/baseline.md",
+      "fetchUrl": "https://raw.githubusercontent.com/web-platform-dx/web-features/9ed65bb4ac4047a140ce80c922e425065d62c1c4/docs/baseline.md",
       "gitBlobSha": "7399e12d7e385b9aad02a29e200444673de66b83"
     },
     {
       "path": "packages/compute-baseline/README.md",
       "title": "[`compute-baseline`](https://github.com/web-platform-dx/web-features/)",
-      "url": "https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/packages/compute-baseline/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/web-platform-dx/web-features/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/packages/compute-baseline/README.md",
+      "url": "https://github.com/web-platform-dx/web-features/blob/9ed65bb4ac4047a140ce80c922e425065d62c1c4/packages/compute-baseline/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/web-platform-dx/web-features/9ed65bb4ac4047a140ce80c922e425065d62c1c4/packages/compute-baseline/README.md",
       "gitBlobSha": "41d59e4d535195a85a17076699af17fa17699d0c"
     },
     {
       "path": "packages/web-features/README.md",
       "title": "Curated list of Web platform features",
-      "url": "https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/packages/web-features/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/web-platform-dx/web-features/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/packages/web-features/README.md",
+      "url": "https://github.com/web-platform-dx/web-features/blob/9ed65bb4ac4047a140ce80c922e425065d62c1c4/packages/web-features/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/web-platform-dx/web-features/9ed65bb4ac4047a140ce80c922e425065d62c1c4/packages/web-features/README.md",
       "gitBlobSha": "3a4631c7a1d3df58992d264782a2b4a1e6fe6b94"
     },
     {
       "path": "README.md",
       "title": "[`web-features`](https://github.com/web-platform-dx/web-features): exploring the set of interoperable features of the web platform",
-      "url": "https://github.com/web-platform-dx/web-features/blob/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/web-platform-dx/web-features/2c24bbfc45cfb8b7fea90bd1618b0ad5027bec5d/README.md",
+      "url": "https://github.com/web-platform-dx/web-features/blob/9ed65bb4ac4047a140ce80c922e425065d62c1c4/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/web-platform-dx/web-features/9ed65bb4ac4047a140ce80c922e425065d62c1c4/README.md",
       "gitBlobSha": "9a570dfc5f61830a1fd8129a9e9c94bcd28d92c0"
     }
   ],
