@@ -1,11 +1,11 @@
 ---
 title: "Tooling"
-aliases: ["tooling"]
+aliases: ["tooling", "agents", "agent tooling", "MCP", "Node.js"]
 ---
 
 # Tooling
 
-Route build configuration, test runners, component workshops, linting, package management and monorepo orchestration questions here. Official catalogs are listed below; each source was added after a verified sync and is rolling unless stated, so confirm the project's installed tool versions. Apply framework specifics through the related domains.
+Route build configuration, test runners, component workshops, linting, package management, monorepo orchestration, Node.js 24 runtime APIs, Agent Skills format and authoring, MCP protocol, and reference-only browser-agent and DevTools skills here. Official catalogs are listed below; repository references pin the commit observed at sync, while documentation follows each source's rolling or fixed major/protocol boundary. Confirm the project's installed tool versions and negotiated protocol before applying guidance. Apply framework specifics through the related domains.
 
 ## Related domains
 
@@ -58,8 +58,8 @@ No curated notes yet.
   - [webmcp-gen](https://github.com/vercel-labs/agent-browser/blob/372ac5ce20fab885dbf45ee0c9d510ec8c3b6fdb/skill-data/webmcp-gen/SKILL.md) — reference only.
 - **agent-skills-docs** — link catalog of 8 pages; rolling-url; revision `c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798`; fetched 2026-10-25.
   - [Catalog source](https://agentskills.io/llms.txt); search it with `lookup --domain tooling`.
-- **mcp-docs** — link catalog of 57 pages; rolling-url; revision `3b9e6aa8deb144c9f3839ab03840c4171ca9a6683650713513e47db3a0e0182c`; fetched 2026-10-25.
+- **mcp-docs** — link catalog of 57 pages; rolling-url; revision `612e3521a849a0831241be1bf6c5dc11d115c20f31add88337b469a8205746cd`; fetched 2026-10-26.
   - [Catalog source](https://modelcontextprotocol.io/llms.txt); search it with `lookup --domain tooling`.
-- **nodejs-24-docs** — link catalog of 66 pages; rolling-url; revision `4d105354722024dbf791ed9d20a8957c3643ab0c8e90b3aaac9e9776c3cf4eb6`; fetched 2026-10-25.
+- **nodejs-24-docs** — link catalog of 66 pages; rolling-url; revision `ff36dfdb2741f2c837d57f053c8439266912fb7e2bf91afc9b4a36d23352ec42`; fetched 2026-10-26.
   - [Catalog source](https://nodejs.org/docs/latest-v24.x/api/index.html); search it with `lookup --domain tooling`.
 <!-- brain:official:end -->

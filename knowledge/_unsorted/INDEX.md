@@ -1,6 +1,6 @@
 ---
 title: "_Unsorted"
-aliases: ["agents", "agent tooling"]
+aliases: ["unsorted learnings"]
 ---
 
 # _Unsorted
