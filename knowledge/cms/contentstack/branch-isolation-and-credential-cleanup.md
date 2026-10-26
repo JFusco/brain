@@ -3,11 +3,11 @@ title: "Verify branch isolation and credential cleanup separately"
 domain: "cms/contentstack"
 aliases: ["branch pilot", "credential rollback"]
 evidence_date: "2026-10-23"
-reviewed_at: "2026-10-23"
+reviewed_at: "2026-10-26"
 status: "current"
 versions: []
 applicability: "Contentstack CMA v3 unpublished pilot planning; account scope and installed SDK/CLI versions unverified"
-provenance: "contentstack-docs@27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d; official branch/token/asset pages read 2026-10-23; sanitized unverified report and proposed acceptance procedure"
+provenance: "contentstack-docs@4d7e54b65fe30d5c61704a2a22f9b19b91d49c345276593c93c1866ac9d12eb0; official branch/token/asset pages read 2026-10-23; sanitized unverified report and proposed acceptance procedure"
 ---
 
 # Verify branch isolation and credential cleanup separately
@@ -25,3 +25,5 @@ Use this when an authorized pilot uses a disposable Contentstack branch and temp
 ## Evidence and limits
 
 A private capture reports a small unpublished branch pilot, before/after metadata checks, authorized branch deletion and a separately reloaded token-settings UI. It also reports a past-expiry selection refusal requiring a human decision. These are explicitly unverified historical reports; no CMS write, deletion, token edit or rollback was executed here. The UI refusal is not generalized as a vendor guarantee. Branch isolation does not establish isolation for every account-wide resource, entitlement or user role. This is a proposed verification procedure, not authorization to mutate credentials or delete any branch. For upload uncertainty, see [import state](asset-import-state.md).
+
+**Revalidated October 26, 2026:** Branch inheritance/parent isolation, CMA branch scope and management-token branch/alias permissions plus midnight-UTC expiry were re-read. Branch removal still does not establish credential revocation; the reported UI refusal and historical pilot remain unverified observations. No token, branch or native content was mutated.

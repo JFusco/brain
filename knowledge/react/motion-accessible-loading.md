@@ -4,9 +4,9 @@ format: "note"
 domain: "react"
 aliases: ["Motion.js", "Motion for React", "Framer Motion", "loading transitions", "reduced motion"]
 evidence_date: "2026-10-25"
-reviewed_at: "2026-10-25"
+reviewed_at: "2026-10-26"
 applicability: "Motion selected for a Next.js App Router frontend; verify the consuming workspace's installed Motion, React and Next.js releases"
-provenance: "Official Motion installation, accessibility, AnimatePresence, bundle-size and overview pages read 2026-10-25 at rolling URLs, no immutable Motion revision established; w3c-accessibility@c2c7fa790e32156b38b445e98c5dbe7b96dccda9030b876ca7100d2c0874d6c8; WAI-ARIA 1.2 status/busy definitions read; Next.js loading convention and React Effect lifecycle references read 2026-10-25 at rolling URLs; sanitized proposed loading and verification practices, no reproduced browser acceptance"
+provenance: "Official Motion installation, accessibility, AnimatePresence, bundle-size and overview pages read 2026-10-25 at rolling URLs, no immutable Motion revision established; w3c-accessibility@c2c7fa790e32156b38b445e98c5dbe7b96dccda9030b876ca7100d2c0874d6c8; WAI-ARIA 1.2 status/busy definitions read; Next.js loading convention and React Effect lifecycle references read 2026-10-25 at rolling URLs; sanitized proposed loading and verification practices, no reproduced browser acceptance; Motion hook, React ref and Three.js renderer references checked 2026-10-26"
 status: "current"
 versions: []
 ---
@@ -38,6 +38,16 @@ Use this bounded procedure when implementing or changing the loading pattern; it
 1. Delay the relevant initial response, use a narrow viewport and emulate reduced motion. Check that the shell and understandable pending status remain visible, the busy region is scoped correctly and its decorative loading pulse does not repeat indefinitely. Release the response, then check the real content and cleared busy state. An animation count alone does not prove the status was announced by assistive technology.
 2. If display settings exist, verify that OS and application reduction each work independently, that an ordinary/cinematic setting cannot override OS reduction, and that the dialog closes with Escape. When opacity-loop behavior changes, also exercise ordinary motion; a reduced-motion result cannot establish every setting's behavior.
 3. Navigate repeatedly across the affected screens. Check event-stream subscriptions, animation-frame loops and any canvas rendering against their intended owners, including resources deliberately shared by a retained layout. [React Effect cleanup](https://react.dev/reference/react/useEffect#connecting-to-an-external-system) documents cleanup before changed-input setup and after unmount; **proposed:** verify that departed screen owners leave no orphan loops or subscriptions, without demanding that intentional shared resources be destroyed on every navigation. Observe the selected production build if production-build acceptance is the claim.
+
+## Verify live preferences without rebuilding the renderer
+
+**Documented:** the [Motion hook reference](https://motion.dev/docs/react-use-reduced-motion) promises updates when the device preference changes. [React refs](https://react.dev/reference/react/useRef) retain an object across renders but changing a ref does not trigger rendering; avoid reading/writing it during render except permitted initialization. [Three.js WebGLRenderer](https://threejs.org/docs/pages/WebGLRenderer.html) exposes disposal and context-loss methods; they are lifecycle operations, not ordinary preference setters.
+
+**Proposed:** where a separately managed scene survives preference changes, keep one renderer per mounted canvas lifecycle and feed current settings through a ref-backed getter updated outside render. Release owned graphics resources on teardown. Include Strict Mode setup/cleanup and real unmounts; this is not permission to retain resources after their owner disappears. Do not dispose/force context loss merely to toggle decorative motion while reusing the same canvas.
+
+**Proposed:** test the actual reactive path. Exercise application storage/custom events separately from browser media-preference emulation. Observe motion output, canvas identity, renderer ownership, context-loss/restoration events and page errors together. A custom-setting test does not prove OS-hook reactivity, and a mounted canvas alone proves neither. Reproduce a suspected installed-version gap before adding a workaround.
+
+**Unverified historical reports:** a private capture described an installed hook implementation that appeared not to subscribe for updates, and a renderer repair tested through an application setting. Neither the installed source nor that browser result was inspected here. The OS toggle was expressly untested in that report. Retain the distinction from the current documentation promise; do not generalize a reported version-specific discrepancy or imply reproduction. Incidental package versions and visual counts are not compatibility evidence.
 
 ## Evidence and limits
 

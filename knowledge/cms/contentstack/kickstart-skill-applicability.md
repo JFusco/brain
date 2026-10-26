@@ -3,11 +3,11 @@ title: "Check Contentstack kickstart assumptions before reuse"
 domain: "cms/contentstack"
 aliases: ["Contentstack kickstart skill", "Next.js SSR starter", "Live Preview skill scope"]
 evidence_date: "2026-10-20"
-reviewed_at: "2026-10-20"
+reviewed_at: "2026-10-26"
 status: "current"
 versions: []
 applicability: "Assessing the kickstart-next-ssr skill before use in a Contentstack project; no installed SDK or cross-project compatibility is established"
-provenance: "contentstack-kickstart@0c9aca728b7113a6a64a2ccea2b3b448c45529fa; contentstack-docs@27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d; official Live Preview guidance read 2026-10-20"
+provenance: "contentstack-kickstart@0c9aca728b7113a6a64a2ccea2b3b448c45529fa; contentstack-docs@4d7e54b65fe30d5c61704a2a22f9b19b91d49c345276593c93c1866ac9d12eb0; official Live Preview guidance read 2026-10-20"
 ---
 
 # Check Contentstack kickstart assumptions before reuse
@@ -37,3 +37,5 @@ Use this before applying the [`contentstack-kickstart` skill](https://github.com
 **Declared ranges only:** the starter manifest declares Next.js `^16.4.1`, React `^19.2.8`, Delivery SDK `^5.6.1`, Live Preview Utils `^4.5.0` and Contentstack Utils `^1.9.1`. No dependency installation or consuming application was inspected. These are not exact installed versions, a compatibility range validated by Brain or a reason to upgrade another project. The live documentation is rolling; the catalog revision records a source observation, not an immutable page revision.
 
 **Proposed practice:** extract a relevant principle, map it to the consuming application's framework/model/SDK, and verify it there before adoption. No connected preview, concurrency behavior or application rendering was exercised in this review. Brain keeps this vendor bundle as a reference and does not install it automatically. For product/source routing, see [Choose CMS guidance by product and integration](../../_unsorted/cms-guidance.md).
+
+**Revalidated October 26, 2026:** The pinned starter helper and manifest were read again alongside the current SDK directory and Live Preview/JavaScript guides. Request-local mutable preview configuration and per-route SSR/CSR/SSG selection remain supported; TypeScript stack.config and JavaScript Stack remain distinct. The older pinned dependency-list mismatch stays explicit. No installed dependency or connected preview was tested.
