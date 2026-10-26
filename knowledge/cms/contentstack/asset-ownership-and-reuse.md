@@ -3,11 +3,11 @@ title: "Organize Contentstack assets by ownership and reuse"
 domain: "cms/contentstack"
 aliases: ["asset folders", "asset metadata", "editorial asset library"]
 evidence_date: "2026-10-21"
-reviewed_at: "2026-10-22"
+reviewed_at: "2026-10-26"
 status: "current"
 versions: []
 applicability: "Editorial asset-library planning; distinguish stack assets from the separately enabled Assets service"
-provenance: "contentstack-docs@27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d; relevant rolling official pages read 2026-10-21; sanitized capture proposals, no bulk runtime validation"
+provenance: "contentstack-docs@4d7e54b65fe30d5c61704a2a22f9b19b91d49c345276593c93c1866ac9d12eb0; relevant rolling official pages read 2026-10-21; sanitized capture proposals, no bulk runtime validation"
 ---
 
 # Organize Contentstack assets by ownership and reuse
@@ -43,3 +43,5 @@ Official pages were read on October 21. No account entitlement, production taxon
 **Documented:** the [CMA asset reference](https://www.contentstack.com/docs/developers/apis/content-management-api/assets) supports nested folder `parent_uid`, multipart `asset[parent_uid]`, returned asset identity/filename/size/parent fields and folder retrieval with an optional UID/name path. **Proposed:** retain the intended parent UIDs, then independently retrieve each resulting parent-child relationship and asset metadata in the intended branch. Compare filename and size with the input record; size alone does not prove byte equality. A familiar folder label or screenshot cannot prove native parentage. Use editor inspection as complementary visibility evidence for the specific signed-in role.
 
 **Unverified historical report:** a private small-image pilot reported matching native folder/asset readback and editor placement. It was not reproduced here and does not establish production scale, throughput or all roles. The reusable procedure above is proposed practice. Incidental tooling versions and image counts are not compatibility evidence.
+
+**Revalidated October 26, 2026:** Stack asset reuse, JSON RTE library behavior, the separate Assets service, stack/service capacity limits and CMA parent/branch metadata were checked against the current official pages. The documented limits remain defaults rather than account entitlement proof; ownership, placement text and native-readback procedures remain proposed. No native write, pilot reproduction or editor acceptance ran.

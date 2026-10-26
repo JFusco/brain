@@ -17,7 +17,8 @@ Route build configuration, test runners, component workshops, linting, package m
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No curated notes yet.
+- [Adapt shared agent guidance to the receiving repository](share-agent-guidance.md)
+- [Keep a Graphify code map scoped and reproducible](graphify-code-map.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

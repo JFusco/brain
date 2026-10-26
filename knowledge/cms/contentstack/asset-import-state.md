@@ -3,11 +3,11 @@ title: "Keep Contentstack import state with native concurrency"
 domain: "cms/contentstack"
 aliases: ["asset migration", "CLI backup directory", "UID mappings"]
 evidence_date: "2026-10-22"
-reviewed_at: "2026-10-22"
+reviewed_at: "2026-10-26"
 status: "current"
 versions: []
 applicability: "Planning Contentstack CLI asset imports and dependent module imports; exact installed CLI release must be checked"
-provenance: "contentstack-docs@27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d; relevant rolling official pages read 2026-10-21; sanitized capture proposals, no bulk runtime validation"
+provenance: "contentstack-docs@4d7e54b65fe30d5c61704a2a22f9b19b91d49c345276593c93c1866ac9d12eb0; relevant rolling official pages read 2026-10-21; sanitized capture proposals, no bulk runtime validation"
 ---
 
 # Keep Contentstack import state with native concurrency
@@ -58,3 +58,5 @@ A [vendor migration adapter](https://github.com/contentstack/migration-v2/blob/3
 Keep the original uncertain request unchanged. Add a verified outcome that identifies which operation and native record settled it; require that evidence before treating the operation as complete. Do not clear every unsettled request, adopt an unrelated record or repeat a create solely because its acknowledgement is missing. A completed-plan resume should be evaluated for unnecessary writes separately from its required observation requests.
 
 **Unverified historical report:** a private small-image writer capture described interruption recovery, native identity reconciliation, a no-write resume and a repaired review decision that preserved original audit history. The curator did not inspect its implementation or reproduce the experiment. Those are reported application behaviors, not vendor requirements or a universal recovery guarantee. Exact request totals, incidental Node/TypeScript versions and incident completion claims are not adopted as general rules. See [branch and credential cleanup](branch-isolation-and-credential-cleanup.md).
+
+**Revalidated October 26, 2026:** The current versioned import, configuration, troubleshooting, duplication-limit, Bulk Operations and CMA asset references were checked. Native asset concurrency defaults, full working-directory/mapping retention, multipart parent targeting and unresolved duplicate/retry limits still support the bounded advice. This refresh does not turn backup retention into exactly-once uploads or reproduce the separately pinned classic-flow source observation. No import, interrupted retry or throughput benchmark ran.

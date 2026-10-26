@@ -3,11 +3,11 @@ title: "Choose Contentful delivery or Preview before copying examples"
 domain: "cms/contentful"
 aliases: ["Contentful Preview API", "draft content", "preview token", "Contentful Sync"]
 evidence_date: "2026-10-21"
-reviewed_at: "2026-10-24"
+reviewed_at: "2026-10-26"
 status: "current"
 versions: []
 applicability: "Contentful Content Delivery and Content Preview APIs; does not establish support in a particular JavaScript SDK version"
-provenance: "contentful-skills@68d8cb6d92d9b7b2a97478cb2e97e7ab4aac33c6; official Content Preview API reference checked 2026-10-24; moved from knowledge/_unsorted/cms-guidance.md"
+provenance: "contentful-skills@356a96d740b8663e380eb2d4d65c83d173eec0d3; official Content Preview API reference checked 2026-10-24; moved from knowledge/_unsorted/cms-guidance.md"
 ---
 
 # Choose Contentful delivery or Preview before copying examples
@@ -21,7 +21,7 @@ Use this before copying a Contentful data-loading example into a feature that sh
 1. Decide which API surface the feature reads. Use the Content Delivery API for published content, and the Content Preview API for draft and changed content.
 2. For Preview, use the appropriate regional preview host and a Preview access token. A production delivery token does not work with Preview, so keep the two tokens and hosts separate in configuration.
 3. Don't carry a Sync-only data-loading design into Preview. The [official Preview API reference](https://www.contentful.com/developers/docs/references/content-preview-api/overview/) explicitly excludes Sync, so a preview path built on Sync needs a query-based design instead.
-4. At the current pinned revision cited here, treat the Contentful skill's [preview overview](https://github.com/contentful/skills/blob/68d8cb6d92d9b7b2a97478cb2e97e7ab4aac33c6/skills/contentful-api/references/content-preview/overview.md), which shows a Sync request against the preview host, as conflicting reference material. Prefer the API reference for this decision.
+4. At the October 24 pin, treat the Contentful skill's [preview overview](https://github.com/contentful/skills/blob/68d8cb6d92d9b7b2a97478cb2e97e7ab4aac33c6/skills/contentful-api/references/content-preview/overview.md), which shows a Sync request against the preview host, as conflicting reference material. Prefer the API reference for this decision.
 
 Choosing the surface first avoids building a loader that works against delivery and then fails, or silently diverges, in preview.
 
@@ -36,3 +36,5 @@ The October 18 and October 21 comparisons remain historical evidence in Git hist
 These are API-surface checks, not proof that a particular JavaScript SDK version supports the application. Confirm the consuming application's installed SDK and the API it selects. This note doesn't cover GraphQL preview, Live Preview tooling, or token storage.
 
 **Contentful revalidation October 24, 2026:** The [exact pinned API guide](https://github.com/contentful/skills/blob/68d8cb6d92d9b7b2a97478cb2e97e7ab4aac33c6/skills/contentful-api/SKILL.md) and linked Preview overview were retrieved and read again. The guide separates management, published delivery and draft Preview. The Preview overview still gives a Sync request and overstates delivery-feature parity; the live official Preview API reference still excludes Sync and specifies separate Preview credentials and regional hosts. The conflict remains explicit. Other product evidence dates and application compatibility limits above are unchanged. No consuming SDK or connected application was exercised.
+
+**Revalidated October 26, 2026:** The refreshed pinned API guide and Preview overview were retrieved and read. The overview still asserts delivery-feature parity and gives a Sync request against Preview, while the live API reference explicitly excludes Sync and requires separate Preview credentials and regional hosts. Keep this conflict visible; no SDK or connected application was exercised.

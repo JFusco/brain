@@ -3,11 +3,11 @@ title: "Generate editor guidance from reviewed field definitions"
 domain: "cms/contentstack"
 aliases: ["field help text", "Instruction Value", "functional specification guidance"]
 evidence_date: "2026-10-21"
-reviewed_at: "2026-10-21"
+reviewed_at: "2026-10-26"
 status: "current"
 versions: []
 applicability: "Contentstack authoring guidance and proposed CMS-neutral specification generation; target product/version and adapter behavior require verification"
-provenance: "contentstack-docs@27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d; official Academy and field-property pages read 2026-10-21; sanitized generator proposal, no metadata deployment validated"
+provenance: "contentstack-docs@4d7e54b65fe30d5c61704a2a22f9b19b91d49c345276593c93c1866ac9d12eb0; official Academy and field-property pages read 2026-10-21; sanitized generator proposal, no metadata deployment validated"
 ---
 
 # Generate editor guidance from reviewed field definitions
@@ -32,3 +32,5 @@ The official pages establish the recommendation and native presentation mechanis
 **Proposed:** keep functional specifications for behavior, dependencies, accessibility, acceptance criteria, migration decisions and rationale; put concise field-authoring guidance at the point of use. Generating shared text from one reviewed definition aims to reduce duplication, not replace every external document.
 
 A private capture reports a targeted interface inspection, not a complete generator audit. That historical report and its incidental application version do not establish a missing feature in every output. No generator extension, CMS-neutral adapter, drift reconciliation, metadata write, editor visibility, accessibility result or support reduction was implemented or verified here. Confirm the target product/version and installed SDK independently before applying this proposal.
+
+**Revalidated October 26, 2026:** The Academy collaboration lesson, Instruction Value, Help Text and Single Line Textbox pages were re-read. Visible instructions remain distinct from tooltip help and from validation/default/placeholder properties. The generator, adapter and reconciliation workflow remain proposed, with no CMS write or editor-accessibility result.

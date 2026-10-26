@@ -3,11 +3,11 @@ title: "Plan migrated asset folders by editorial use"
 domain: "_unsorted"
 aliases: []
 evidence_date: "2026-10-22"
-reviewed_at: "2026-10-23"
+reviewed_at: "2026-10-26"
 status: "current"
 versions: []
 applicability: "Proposed CMS media and DAM organization policy; adapt to Optimizely CMS SaaS, CMP and Contentstack capabilities; no implementation acceptance"
-provenance: "optimizely-cms-saas-docs@ae548b9dfcc952b0ce044cc0331517c2155d9a8da61cacb1b11285231415ac9e; contentstack-docs@27fb06e5aabe557865140dfcf163b8576b091a0711ecf2d98737750645f1543d; official organization pages read 2026-10-22; authored policy proposal"
+provenance: "optimizely-cms-saas-docs@ae548b9dfcc952b0ce044cc0331517c2155d9a8da61cacb1b11285231415ac9e; contentstack-docs@4d7e54b65fe30d5c61704a2a22f9b19b91d49c345276593c93c1866ac9d12eb0; official organization pages read 2026-10-22; authored policy proposal"
 ---
 
 # Plan migrated asset folders by editorial use
@@ -30,3 +30,5 @@ Use this when a migration would otherwise copy legacy paths or leave a flat asse
 This policy has not run in a CMS. Its shared-folder rule, depth cap, URL routing, collision suffixes and review threshold are proposals, not vendor limits or measured optima. The AEM article's 500–1,000-assets guidance is product-specific context, not a cross-CMS ceiling. Existing governance may choose a different stable taxonomy. CMP depth and uniqueness rules, CMS SaaS subfolder writes, Contentstack folder-name characters and target access mappings require project validation. See [Contentstack ownership](../cms/contentstack/asset-ownership-and-reuse.md), [Contentstack import state](../cms/contentstack/asset-import-state.md) and [Optimizely media](../cms/optimizely-saas/media-destination-and-placement.md).
 
 **Revalidated October 23, 2026:** Current Optimizely organization and folder pages still prioritize existing standards, reuse/access scope, descriptive names and a shared media/block tree without language variants. The index title changes do not establish behavior. The illustrative folder routing/depth/threshold policy remains proposed and product-dependent.
+
+**Revalidated October 26, 2026:** The Contentstack folder page still states 10,000 folders and five nesting levels; Optimizely organization and folder guidance still distinguish governance, reuse and the shared block/media tree. The project-root policy and review thresholds remain proposals. The separate AEM context and unverified target-write/access limits are unchanged; no CMS operation ran.
