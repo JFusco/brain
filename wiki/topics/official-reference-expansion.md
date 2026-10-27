@@ -150,3 +150,9 @@ The [Node.js 24 documentation journal](../journal/2026-10-25-nodejs-24-docs.md) 
 ## Source expansion review
 
 The [source expansion review journal](../journal/2026-10-25-source-expansion-review.md) records six direct repairs after independent review: consistent Node.js 24 titles, distinct MCP titles, corrected Tooling discovery and complete coverage/audit records. The 36-probe audit finds the intended pages first and keeps curated notes in the two comparisons that had them; three other comparisons had none in the top five before or after. The 171-reference URL inventory and twelve known agent-browser warnings are preserved. Automated coordination failures and Joe's authorized direct-repair/Opus-recheck process are distinguished from successful verification.
+
+## Anthropic model and agent guidance
+
+[Issue 256](https://github.com/JFusco/brain/issues/256) registers `anthropic-agent-docs` in Tooling from Anthropic's platform index, filtered to models, prompting, context, skills, tools and evaluation. Six explicit Claude Code pages cover instructions/rules, skills, best practices, model configuration, hooks and settings. The catalog has a 300-page and one-index ceiling, contains links/metadata only, and never installs skills. The requested skill-building PDF remains a website pointer because the text catalog excludes PDFs.
+
+Two dated notes distinguish vendor model positioning and effort tradeoffs from proposed task evaluations, and explain skill/reference structure separately from instructions and enforced permissions. They preserve the efficiency-first versus capability-first selection paths and client/version limits. No model benchmark, loader exercise or skill execution is claimed.
