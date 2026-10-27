@@ -306,6 +306,12 @@
       "fetchedAt": "2026-10-27T21:31:42.744Z",
       "track": "rolling-url",
       "catalogSha256": "4a464a0413fb16f9e12453e597977a1f7cc9c6f21752f53793938bbe41bf7fa0"
+    },
+    "openai-agent-docs": {
+      "revision": "a14113e27fa3d77e98156b2f8ee8773d670212e5c8e02c7345fc00a8a3254635",
+      "fetchedAt": "2026-10-27T21:42:47.950Z",
+      "track": "rolling-url",
+      "catalogSha256": "26f6a2a4b31bd34aaaff7ca30fcc2a88a2813ffe8df11618232d0ce76a706ab8"
     }
   },
   "toolchain": {

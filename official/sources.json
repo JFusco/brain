@@ -1860,6 +1860,96 @@
           "url": "https://code.claude.com/docs/en/settings"
         }
       ]
+    },
+    {
+      "id": "openai-agent-docs",
+      "vendor": "openai",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://developers.openai.com/api/docs/llms.txt",
+      "allowedHosts": [
+        "developers.openai.com",
+        "learn.chatgpt.com"
+      ],
+      "includePrefixes": [
+        "/api/docs/guides/",
+        "/api/docs/models",
+        "/api/docs/pricing",
+        "/api/docs/changelog",
+        "/api/docs/deprecations",
+        "/docs/build-skills",
+        "/docs/agent-configuration/",
+        "/docs/config-file/",
+        "/docs/hooks",
+        "/docs/models"
+      ],
+      "fetchSuffix": ".md",
+      "maxPages": 400,
+      "maxIndexes": 1,
+      "license": "Vendor documentation; links and metadata only; no vendor page bodies redistributed",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling official OpenAI API model, prompting, reasoning, tool, agent and evaluation guides, plus selected ChatGPT/Codex skill, instruction and command-rule documentation. Match exact model/version, API endpoint and product surface. Cataloging does not install skills, edit rules, authorize tool execution or establish runtime compatibility.",
+      "additionalPages": [
+        {
+          "title": "OpenAI current model catalog",
+          "url": "https://developers.openai.com/api/docs/models"
+        },
+        {
+          "title": "OpenAI model selection and task tradeoffs",
+          "url": "https://developers.openai.com/api/docs/guides/model-selection"
+        },
+        {
+          "title": "GPT-6 Astra model capabilities and limits",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6-astra"
+        },
+        {
+          "title": "GPT-6.1 Sol model capabilities and limits",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+        },
+        {
+          "title": "GPT-6.1 Terra model capabilities and limits",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra"
+        },
+        {
+          "title": "GPT-6 Luna model capabilities and limits",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6-luna"
+        },
+        {
+          "title": "ChatGPT and Codex skill authoring and references",
+          "url": "https://learn.chatgpt.com/docs/build-skills"
+        },
+        {
+          "title": "Codex AGENTS.md instruction discovery and overrides",
+          "url": "https://learn.chatgpt.com/docs/agent-configuration/agents-md"
+        },
+        {
+          "title": "Codex command rules and execpolicy checks",
+          "url": "https://learn.chatgpt.com/docs/agent-configuration/rules"
+        },
+        {
+          "title": "Codex configuration basics",
+          "url": "https://learn.chatgpt.com/docs/config-file/config-basic"
+        },
+        {
+          "title": "Codex advanced configuration",
+          "url": "https://learn.chatgpt.com/docs/config-file/config-advanced"
+        },
+        {
+          "title": "Codex configuration reference",
+          "url": "https://learn.chatgpt.com/docs/config-file/config-reference"
+        },
+        {
+          "title": "Codex model selection",
+          "url": "https://learn.chatgpt.com/docs/models"
+        },
+        {
+          "title": "Codex hooks",
+          "url": "https://learn.chatgpt.com/docs/hooks"
+        }
+      ]
     }
   ],
   "pointers": [
