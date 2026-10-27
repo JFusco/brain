@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "source": "anthropic-agent-docs",
+  "revision": "6b03d984c6d9b39eea32a4854af96b6d26babd30d8940af6fd16901d2b8eafa1",
+  "origin": "https://platform.claude.com/llms.txt",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "Claude Code best practices",
+      "url": "https://code.claude.com/docs/en/best-practices",
+      "fetchUrl": "https://code.claude.com/docs/en/best-practices.md"
+    },
+    {
+      "title": "Claude Code hooks",
+      "url": "https://code.claude.com/docs/en/hooks",
+      "fetchUrl": "https://code.claude.com/docs/en/hooks.md"
+    },
+    {
+      "title": "Claude Code project instructions, CLAUDE.md, AGENTS.md and path-scoped rules",
+      "url": "https://code.claude.com/docs/en/memory",
+      "fetchUrl": "https://code.claude.com/docs/en/memory.md"
+    },
+    {
+      "title": "Claude Code model configuration",
+      "url": "https://code.claude.com/docs/en/model-config",
+      "fetchUrl": "https://code.claude.com/docs/en/model-config.md"
+    },
+    {
+      "title": "Claude Code settings and permissions",
+      "url": "https://code.claude.com/docs/en/settings",
+      "fetchUrl": "https://code.claude.com/docs/en/settings.md"
+    },
+    {
+      "title": "Claude Code skill authoring and supporting references",
+      "url": "https://code.claude.com/docs/en/skills",
+      "fetchUrl": "https://code.claude.com/docs/en/skills.md"
+    },
+    {
+      "title": "Choosing a model",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/choosing-a-model",
+      "fetchUrl": "https://platform.claude.com/docs/en/about-claude/models/choosing-a-model.md"
+    },
+    {
+      "title": "Upgrade between model versions",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/migration-guide",
+      "fetchUrl": "https://platform.claude.com/docs/en/about-claude/models/migration-guide.md"
+    },
+    {
+      "title": "Model IDs and versioning",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
+      "fetchUrl": "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions.md"
+    },
+    {
+      "title": "Optimizing for cost and intelligence",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence",
+      "fetchUrl": "https://platform.claude.com/docs/en/about-claude/models/optimizing-for-cost-and-intelligence.md"
+    },
+    {
+      "title": "Pricing",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "fetchUrl": "https://platform.claude.com/docs/en/about-claude/pricing.md"
+    },
+    {
+      "title": "Best practices",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/claude-api-skill.md"
+    },
+    {
+      "title": "Skills for enterprise",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/enterprise.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview.md"
+    },
+    {
+      "title": "Quickstart",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart.md"
+    },
+    {
+      "title": "Advisor tool",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool.md"
+    },
+    {
+      "title": "Bash tool",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool.md"
+    },
+    {
+      "title": "Browser and computer use (SDK)",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-sdk",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-sdk.md"
+    },
+    {
+      "title": "Browser use tool",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/browser-use-tool.md"
+    },
+    {
+      "title": "Tutorial: Build a tool-using agent",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/build-a-tool-using-agent.md"
+    },
+    {
+      "title": "Code execution tool",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool.md"
+    },
+    {
+      "title": "Computer use tool",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool.md"
+    },
+    {
+      "title": "Define tools",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools.md"
+    },
+    {
+      "title": "Fine-grained tool streaming",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming.md"
+    },
+    {
+      "title": "Handle tool calls",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls.md"
+    },
+    {
+      "title": "How tool use works",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/how-tool-use-works.md"
+    },
+    {
+      "title": "Manage tool context",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/manage-tool-context.md"
+    },
+    {
+      "title": "Memory tool",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview.md"
+    },
+    {
+      "title": "Parallel tool use",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/parallel-tool-use.md"
+    },
+    {
+      "title": "Programmatic tool calling",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling.md"
+    },
+    {
+      "title": "Server tools",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/server-tools.md"
+    },
+    {
+      "title": "Strict tool use",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/strict-tool-use.md"
+    },
+    {
+      "title": "Text editor tool",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool.md"
+    },
+    {
+      "title": "Tool combinations",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-combinations",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-combinations.md"
+    },
+    {
+      "title": "Tool reference",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-reference",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-reference.md"
+    },
+    {
+      "title": "Tool runner (SDK)",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner.md"
+    },
+    {
+      "title": "Tool search tool",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool.md"
+    },
+    {
+      "title": "Tool use with prompt caching",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-use-with-prompt-caching.md"
+    },
+    {
+      "title": "Troubleshooting",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/troubleshooting-tool-use",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/troubleshooting-tool-use.md"
+    },
+    {
+      "title": "Web fetch tool",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool.md"
+    },
+    {
+      "title": "Web search tool",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool",
+      "fetchUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool.md"
+    },
+    {
+      "title": "Batch processing",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/batch-processing.md"
+    },
+    {
+      "title": "Cache diagnostics",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/cache-diagnostics.md"
+    },
+    {
+      "title": "Citations",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/citations",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/citations.md"
+    },
+    {
+      "title": "Amazon Bedrock (Opus 4.7 and later)",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock.md"
+    },
+    {
+      "title": "Microsoft Foundry",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry.md"
+    },
+    {
+      "title": "Anthropic-managed",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/anthropic-managed.md"
+    },
+    {
+      "title": "Google-managed",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/google-managed.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/overview.md"
+    },
+    {
+      "title": "Amazon Bedrock (Opus 4.6 and earlier)",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy.md"
+    },
+    {
+      "title": "Claude Platform on AWS",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws.md"
+    },
+    {
+      "title": "Compaction",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/compaction",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/compaction.md"
+    },
+    {
+      "title": "Compact in the background",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/compaction-background",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/compaction-background.md"
+    },
+    {
+      "title": "Keep recent turns",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/compaction-keep-recent-turns",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/compaction-keep-recent-turns.md"
+    },
+    {
+      "title": "Compact on demand",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/compaction-on-demand.md"
+    },
+    {
+      "title": "Keep thinking blocks valid",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/compaction-thinking-blocks",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/compaction-thinking-blocks.md"
+    },
+    {
+      "title": "Threshold compaction",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/compaction-threshold",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/compaction-threshold.md"
+    },
+    {
+      "title": "Context editing",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-editing",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/context-editing.md"
+    },
+    {
+      "title": "Context windows",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/context-windows.md"
+    },
+    {
+      "title": "Effort",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/effort.md"
+    },
+    {
+      "title": "Embeddings",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/embeddings",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/embeddings.md"
+    },
+    {
+      "title": "Extended thinking (legacy)",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking.md"
+    },
+    {
+      "title": "Fallback credit",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/fallback-credit",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/fallback-credit.md"
+    },
+    {
+      "title": "Fast mode",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/fast-mode.md"
+    },
+    {
+      "title": "Files API",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/files",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/files.md"
+    },
+    {
+      "title": "Stop reasons and fallback",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md"
+    },
+    {
+      "title": "Build an orchestration mode",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example.md"
+    },
+    {
+      "title": "Mid-conversation system messages and tool changes",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages.md"
+    },
+    {
+      "title": "Multilingual support",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/multilingual-support",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/multilingual-support.md"
+    },
+    {
+      "title": "Features overview",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/overview.md"
+    },
+    {
+      "title": "PDF support",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/pdf-support",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/pdf-support.md"
+    },
+    {
+      "title": "Preserved thinking",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking.md"
+    },
+    {
+      "title": "Prompt caching",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching.md"
+    },
+    {
+      "title": "Prompting best practices",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview.md"
+    },
+    {
+      "title": "Prompting Claude Fable 5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5.md"
+    },
+    {
+      "title": "Prompting Claude Fable 5.1",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1.md"
+    },
+    {
+      "title": "Prompting Claude Haiku 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5.md"
+    },
+    {
+      "title": "Prompting Claude Opus 4.8",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8.md"
+    },
+    {
+      "title": "Prompting Claude Opus 5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5.md"
+    },
+    {
+      "title": "Prompting Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5.md"
+    },
+    {
+      "title": "Prompting Claude Sonnet 5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5.md"
+    },
+    {
+      "title": "Prompting Claude Sonnet 5.5",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5-5",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5-5.md"
+    },
+    {
+      "title": "Refusals and fallback",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback.md"
+    },
+    {
+      "title": "Search results",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/search-results",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/search-results.md"
+    },
+    {
+      "title": "Skills in the API",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/skills-guide",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/skills-guide.md"
+    },
+    {
+      "title": "Streaming Messages",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/streaming",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/streaming.md"
+    },
+    {
+      "title": "Structured outputs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs.md"
+    },
+    {
+      "title": "Task budgets (beta)",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/task-budgets",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/task-budgets.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/thinking.md"
+    },
+    {
+      "title": "Steering and cost control",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/thinking-steering-and-cost.md"
+    },
+    {
+      "title": "Tool and multi-turn workflows",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking-tool-workflows",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/thinking-tool-workflows.md"
+    },
+    {
+      "title": "Troubleshooting",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking-troubleshooting",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/thinking-troubleshooting.md"
+    },
+    {
+      "title": "Token counting",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/token-counting",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/token-counting.md"
+    },
+    {
+      "title": "Overview",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/vision",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/vision.md"
+    },
+    {
+      "title": "Coordinates and bounding boxes",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/vision-coordinates",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/vision-coordinates.md"
+    },
+    {
+      "title": "Using the Messages API",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/working-with-messages",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/working-with-messages.md"
+    },
+    {
+      "title": "Migration guide",
+      "url": "https://platform.claude.com/docs/en/models/fable-5-1/migration-guide",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/fable-5-1/migration-guide.md"
+    },
+    {
+      "title": "Claude Fable 5.1",
+      "url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/fable-5-1/overview.md"
+    },
+    {
+      "title": "What's new",
+      "url": "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1.md"
+    },
+    {
+      "title": "Claude Fable 5",
+      "url": "https://platform.claude.com/docs/en/models/fable-5/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/fable-5/overview.md"
+    },
+    {
+      "title": "Claude Haiku 4.5",
+      "url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/haiku-4-5/overview.md"
+    },
+    {
+      "title": "Migration guide",
+      "url": "https://platform.claude.com/docs/en/models/haiku-5-5/migration-guide",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/haiku-5-5/migration-guide.md"
+    },
+    {
+      "title": "Claude Haiku 5.5",
+      "url": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/haiku-5-5/overview.md"
+    },
+    {
+      "title": "What's new",
+      "url": "https://platform.claude.com/docs/en/models/haiku-5-5/whats-new-haiku-5-5",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/haiku-5-5/whats-new-haiku-5-5.md"
+    },
+    {
+      "title": "Claude Mythos 5.1",
+      "url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/mythos-5-1/overview.md"
+    },
+    {
+      "title": "Claude Mythos 5",
+      "url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/mythos-5/overview.md"
+    },
+    {
+      "title": "Claude Opus 4.5",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/opus-4-5/overview.md"
+    },
+    {
+      "title": "Claude Opus 4.6",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/opus-4-6/overview.md"
+    },
+    {
+      "title": "Claude Opus 4.7",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/opus-4-7/overview.md"
+    },
+    {
+      "title": "Claude Opus 4.8",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/opus-4-8/overview.md"
+    },
+    {
+      "title": "Migration guide",
+      "url": "https://platform.claude.com/docs/en/models/opus-5-5/migration-guide",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/opus-5-5/migration-guide.md"
+    },
+    {
+      "title": "Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/opus-5-5/overview.md"
+    },
+    {
+      "title": "What's new",
+      "url": "https://platform.claude.com/docs/en/models/opus-5-5/whats-new-opus-5-5",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/opus-5-5/whats-new-opus-5-5.md"
+    },
+    {
+      "title": "Claude Opus 5",
+      "url": "https://platform.claude.com/docs/en/models/opus-5/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/opus-5/overview.md"
+    },
+    {
+      "title": "Models overview",
+      "url": "https://platform.claude.com/docs/en/models/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/overview.md"
+    },
+    {
+      "title": "Claude Sonnet 4.5",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview.md"
+    },
+    {
+      "title": "Claude Sonnet 4.6",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview.md"
+    },
+    {
+      "title": "Migration guide",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5-5/migration-guide",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/sonnet-5-5/migration-guide.md"
+    },
+    {
+      "title": "Claude Sonnet 5.5",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview.md"
+    },
+    {
+      "title": "What's new",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5-5/whats-new-sonnet-5-5",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/sonnet-5-5/whats-new-sonnet-5-5.md"
+    },
+    {
+      "title": "Claude Sonnet 5",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/sonnet-5/overview.md"
+    },
+    {
+      "title": "Define success and build evaluations",
+      "url": "https://platform.claude.com/docs/en/test-and-evaluate/develop-tests",
+      "fetchUrl": "https://platform.claude.com/docs/en/test-and-evaluate/develop-tests.md"
+    },
+    {
+      "title": "Streaming refusals",
+      "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals",
+      "fetchUrl": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals.md"
+    },
+    {
+      "title": "Increase output consistency",
+      "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency",
+      "fetchUrl": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency.md"
+    },
+    {
+      "title": "Mitigate jailbreaks",
+      "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks",
+      "fetchUrl": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks.md"
+    },
+    {
+      "title": "Reduce hallucinations",
+      "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations",
+      "fetchUrl": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations.md"
+    },
+    {
+      "title": "Reducing latency",
+      "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency",
+      "fetchUrl": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency.md"
+    },
+    {
+      "title": "Reduce prompt leak",
+      "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak",
+      "fetchUrl": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-prompt-leak.md"
+    }
+  ],
+  "referenceIssues": []
+}

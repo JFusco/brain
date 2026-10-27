@@ -1799,6 +1799,67 @@
           "url": "https://nodejs.org/docs/latest-v24.x/api/zlib.html"
         }
       ]
+    },
+    {
+      "id": "anthropic-agent-docs",
+      "vendor": "anthropic",
+      "domains": [
+        "tooling"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://platform.claude.com/llms.txt",
+      "allowedHosts": [
+        "platform.claude.com",
+        "code.claude.com"
+      ],
+      "includePrefixes": [
+        "/docs/en/models/",
+        "/docs/en/about-claude/models/",
+        "/docs/en/about-claude/pricing",
+        "/docs/en/build-with-claude/",
+        "/docs/en/agents-and-tools/agent-skills/",
+        "/docs/en/agents-and-tools/tool-use/",
+        "/docs/en/test-and-evaluate/",
+        "/docs/en/memory",
+        "/docs/en/skills",
+        "/docs/en/best-practices",
+        "/docs/en/model-config",
+        "/docs/en/hooks",
+        "/docs/en/settings"
+      ],
+      "fetchSuffix": ".md",
+      "maxPages": 300,
+      "maxIndexes": 1,
+      "license": "Vendor documentation; links and metadata only; no vendor page bodies redistributed",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling official Claude model, prompting, context, tool-use, evaluation and skill-authoring documentation, with selected Claude Code instructions, rules and configuration pages. Confirm exact model, effort, runtime version and product surface; cataloging does not install skills, configure tools or grant execution permission.",
+      "additionalPages": [
+        {
+          "title": "Claude Code project instructions, CLAUDE.md, AGENTS.md and path-scoped rules",
+          "url": "https://code.claude.com/docs/en/memory"
+        },
+        {
+          "title": "Claude Code skill authoring and supporting references",
+          "url": "https://code.claude.com/docs/en/skills"
+        },
+        {
+          "title": "Claude Code best practices",
+          "url": "https://code.claude.com/docs/en/best-practices"
+        },
+        {
+          "title": "Claude Code model configuration",
+          "url": "https://code.claude.com/docs/en/model-config"
+        },
+        {
+          "title": "Claude Code hooks",
+          "url": "https://code.claude.com/docs/en/hooks"
+        },
+        {
+          "title": "Claude Code settings and permissions",
+          "url": "https://code.claude.com/docs/en/settings"
+        }
+      ]
     }
   ],
   "pointers": [
@@ -1916,6 +1977,11 @@
       "domain": "commerce/salesforce-b2b",
       "url": "https://developer.salesforce.com/docs/llms-commerce-cloud.txt",
       "reason": "Official Commerce Cloud Markdown index listing the B2B Commerce guide and migration pages as .md links; it also covers B2C products, which do not apply here. Brain's fetcher and agent web-fetch tools receive HTTP 403."
+    },
+    {
+      "domain": "tooling",
+      "url": "https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf",
+      "reason": "Anthropic skill-building guide: planning, progressive disclosure, references, testing and troubleshooting. PDF is a reference pointer, not a text-fetch catalog entry; current product documentation governs loader and permission details. No PDF body is stored."
     }
   ]
 }

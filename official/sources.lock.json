@@ -300,6 +300,12 @@
       "fetchedAt": "2026-10-26T00:19:51.207Z",
       "track": "rolling-url",
       "catalogSha256": "246e0ad3e9ca0889f7d0ea12f11957277ce0bbf570c83eeb84f1e5f1f9769c38"
+    },
+    "anthropic-agent-docs": {
+      "revision": "6b03d984c6d9b39eea32a4854af96b6d26babd30d8940af6fd16901d2b8eafa1",
+      "fetchedAt": "2026-10-27T21:31:42.744Z",
+      "track": "rolling-url",
+      "catalogSha256": "4a464a0413fb16f9e12453e597977a1f7cc9c6f21752f53793938bbe41bf7fa0"
     }
   },
   "toolchain": {
