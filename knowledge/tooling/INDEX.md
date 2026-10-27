@@ -5,7 +5,7 @@ aliases: ["tooling", "agents", "agent tooling", "MCP", "Node.js"]
 
 # Tooling
 
-Route build configuration, test runners, component workshops, linting, package management, monorepo orchestration, Node.js 24 runtime APIs, Anthropic Claude model selection, skills, references and project rules, Agent Skills format and authoring, MCP protocol, and reference-only browser-agent and DevTools skills here. Official catalogs are listed below; repository references pin the commit observed at sync, while documentation follows each source's rolling or fixed major/protocol boundary. Confirm the project's installed tool versions and negotiated protocol before applying guidance. Apply framework specifics through the related domains.
+Route build configuration, test runners, component workshops, linting, package management, monorepo orchestration, Node.js 24 runtime APIs, Anthropic Claude and OpenAI model selection, skills, references and project rules, Agent Skills format and authoring, MCP protocol, and reference-only browser-agent and DevTools skills here. Official catalogs are listed below; repository references pin the commit observed at sync, while documentation follows each source's rolling or fixed major/protocol boundary. Confirm the project's installed tool versions and negotiated protocol before applying guidance. Apply framework specifics through the related domains.
 
 ## Related domains
 
@@ -19,7 +19,9 @@ Route build configuration, test runners, component workshops, linting, package m
 <!-- brain:curated:start -->
 - [Adapt shared agent guidance to the receiving repository](share-agent-guidance.md)
 - [Author Claude skills, references and project rules](claude-skills-and-rules.md)
+- [Author OpenAI skills, references and Codex rules](openai-skills-and-rules.md)
 - [Choose Claude models and effort by task](claude-model-selection.md)
+- [Choose OpenAI models and reasoning by task](openai-model-selection.md)
 - [Keep a Graphify code map scoped and reproducible](graphify-code-map.md)
 <!-- brain:curated:end -->
 
@@ -67,5 +69,7 @@ Route build configuration, test runners, component workshops, linting, package m
   - [Catalog source](https://nodejs.org/docs/latest-v24.x/api/index.html); search it with `lookup --domain tooling`.
 - **anthropic-agent-docs** — link catalog of 131 pages; rolling-url; revision `6b03d984c6d9b39eea32a4854af96b6d26babd30d8940af6fd16901d2b8eafa1`; fetched 2026-10-27.
   - [Catalog source](https://platform.claude.com/llms.txt); search it with `lookup --domain tooling`.
+- **openai-agent-docs** — link catalog of 237 pages; rolling-url; revision `a14113e27fa3d77e98156b2f8ee8773d670212e5c8e02c7345fc00a8a3254635`; fetched 2026-10-27.
+  - [Catalog source](https://developers.openai.com/api/docs/llms.txt); search it with `lookup --domain tooling`.
 - [Official website](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) — pointer only: Anthropic skill-building guide: planning, progressive disclosure, references, testing and troubleshooting. PDF is a reference pointer, not a text-fetch catalog entry; current product documentation governs loader and permission details. No PDF body is stored.
 <!-- brain:official:end -->
