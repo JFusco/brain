@@ -2203,6 +2203,32 @@
           "url": "https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-database-for-postgresql-flexible-server-security-baseline"
         }
       ]
+    },
+    {
+      "id": "microsoft-postgres-skills",
+      "vendor": "microsoft",
+      "domains": [
+        "databases"
+      ],
+      "kind": "repository",
+      "repository": "microsoft/postgres-skills",
+      "track": "default-branch",
+      "paths": [
+        {
+          "prefix": "plugin/skills/postgresql-best-practices/"
+        },
+        {
+          "exact": "README.md"
+        },
+        {
+          "exact": "LICENSE"
+        }
+      ],
+      "skillRoot": "plugin/skills/",
+      "license": "MIT; see LICENSE at the catalogued upstream commit",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Microsoft PostgreSQL best-practices routing skill and supporting general PostgreSQL and Azure references at a pinned sync commit. Confirm target environment, Postgres version and required MCP/server capabilities; Azure and HorizonDB requirements do not apply automatically to Supabase or self-hosted Postgres. Reference-only; no tool installation, database access, resource provisioning or execution."
     }
   ],
   "pointers": [

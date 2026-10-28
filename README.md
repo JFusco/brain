@@ -491,6 +491,7 @@ code change; routine catalog-refresh PRs still exclude dependency upgrades.
 | Databases: Supabase native agent skills | [Official source](https://github.com/supabase/agent-skills); Supabase native product skill and Postgres best-practices skill, including their supporting references, from the official MIT repository. Pinned to the locally synced commit; reference-only. Provider-specific security and workload-dependent optimization examples are not universal engine contracts. |
 | Databases: SQLite documentation | [Official source](https://sqlite.org/doclist.html); SQLite alphabetical document index supplies architecture, engine selection, transactions/WAL, query planning, backup, corruption and defensive security. This bounded index is not a full C API catalog. No SQLite-maintained agent skill was found in the scoped official-source search; this does not prove none exists. Check the embedded engine version and compile options. |
 | Databases: Azure PostgreSQL documentation and architecture | [Official source](https://learn.microsoft.com/en-us/azure/postgresql/); Azure Database for PostgreSQL landing-page links plus selected Microsoft Well-Architected, security hardening, access management, security baseline and performance-planning pages. Flexible Server only; not a full Learn manual. Old landing-page links may redirect to reorganized sections; a redirect is not verification of technical content. Microsoft documentation repository discovery returned 404, so this registration uses the retrieved HTML index. |
+| Databases: Microsoft PostgreSQL agent skills | [Official source](https://github.com/microsoft/postgres-skills); Microsoft official PostgreSQL best-practices skill and its supporting general-engine and Azure references. Only that skill subtree is selected; the separate graph skill is excluded. References are pinned to the synced MIT repository commit. Check provider/version/capabilities; cataloging does not activate postgres-mcp, Azure CLI or resource operations. |
 
 Coverage is reviewed weekly against the watch list below, and each addition is a separate registration PR. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. Routine refresh never adds sources.
 
@@ -535,6 +536,7 @@ The weekly coverage review checks these official places for new documentation in
 | Databases: Supabase native agent skills | https://github.com/supabase/agent-skills; check upstream documentation, skill paths and product/version limits before expanding coverage |
 | Databases: SQLite documentation | https://sqlite.org/doclist.html; check upstream documentation, skill paths and product/version limits before expanding coverage |
 | Databases: Azure PostgreSQL documentation and architecture | https://learn.microsoft.com/en-us/azure/postgresql/; check upstream documentation, skill paths and product/version limits before expanding coverage |
+| Databases: Microsoft PostgreSQL agent skills | https://github.com/microsoft/postgres-skills; check upstream documentation, skill paths and product/version limits before expanding coverage |
 
 ## Project skills
 
