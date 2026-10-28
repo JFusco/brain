@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 1,
+  "source": "postgresql-18-docs",
+  "revision": "47a8f7958b6b19e6607b2b546a5f043d0afc84dbf0d1e4ccbad18362331c957d",
+  "origin": "https://www.postgresql.org/docs/18/index.html",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "L. Acronyms",
+      "url": "https://www.postgresql.org/docs/18/acronyms.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/acronyms.html"
+    },
+    {
+      "title": "III. Server Administration",
+      "url": "https://www.postgresql.org/docs/18/admin.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/admin.html"
+    },
+    {
+      "title": "O. Obsolete or Renamed Features",
+      "url": "https://www.postgresql.org/docs/18/appendix-obsolete.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/appendix-obsolete.html"
+    },
+    {
+      "title": "VIII. Appendixes",
+      "url": "https://www.postgresql.org/docs/18/appendixes.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/appendixes.html"
+    },
+    {
+      "title": "49. Archive Modules",
+      "url": "https://www.postgresql.org/docs/18/archive-modules.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/archive-modules.html"
+    },
+    {
+      "title": "PostgreSQL 18 SQL dump backups",
+      "url": "https://www.postgresql.org/docs/18/backup-dump.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/backup-dump.html"
+    },
+    {
+      "title": "70. Backup Manifest Format",
+      "url": "https://www.postgresql.org/docs/18/backup-manifest-format.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/backup-manifest-format.html"
+    },
+    {
+      "title": "25. Backup and Restore",
+      "url": "https://www.postgresql.org/docs/18/backup.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/backup.html"
+    },
+    {
+      "title": "46. Background Worker Processes",
+      "url": "https://www.postgresql.org/docs/18/bgworker.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/bgworker.html"
+    },
+    {
+      "title": "Bibliography",
+      "url": "https://www.postgresql.org/docs/18/biblio.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/biblio.html"
+    },
+    {
+      "title": "68. System Catalog Declarations and Initial Contents",
+      "url": "https://www.postgresql.org/docs/18/bki.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/bki.html"
+    },
+    {
+      "title": "Index",
+      "url": "https://www.postgresql.org/docs/18/bookindex.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/bookindex.html"
+    },
+    {
+      "title": "5. Bug Reporting Guidelines",
+      "url": "https://www.postgresql.org/docs/18/bug-reporting.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/bug-reporting.html"
+    },
+    {
+      "title": "52. System Catalogs",
+      "url": "https://www.postgresql.org/docs/18/catalogs.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/catalogs.html"
+    },
+    {
+      "title": "23. Localization",
+      "url": "https://www.postgresql.org/docs/18/charset.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/charset.html"
+    },
+    {
+      "title": "20. Client Authentication",
+      "url": "https://www.postgresql.org/docs/18/client-authentication.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/client-authentication.html"
+    },
+    {
+      "title": "IV. Client Interfaces",
+      "url": "https://www.postgresql.org/docs/18/client-interfaces.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/client-interfaces.html"
+    },
+    {
+      "title": "N. Color Support",
+      "url": "https://www.postgresql.org/docs/18/color.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/color.html"
+    },
+    {
+      "title": "PostgreSQL 18 continuous archiving and point in time recovery",
+      "url": "https://www.postgresql.org/docs/18/continuous-archiving.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/continuous-archiving.html"
+    },
+    {
+      "title": "G. Additional Supplied Programs",
+      "url": "https://www.postgresql.org/docs/18/contrib-prog.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/contrib-prog.html"
+    },
+    {
+      "title": "F. Additional Supplied Modules and Extensions",
+      "url": "https://www.postgresql.org/docs/18/contrib.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/contrib.html"
+    },
+    {
+      "title": "60. Writing a Custom Scan Provider",
+      "url": "https://www.postgresql.org/docs/18/custom-scan.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/custom-scan.html"
+    },
+    {
+      "title": "8. Data Types",
+      "url": "https://www.postgresql.org/docs/18/datatype.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/datatype.html"
+    },
+    {
+      "title": "B. Date/Time Support",
+      "url": "https://www.postgresql.org/docs/18/datetime-appendix.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/datetime-appendix.html"
+    },
+    {
+      "title": "PostgreSQL 18 privileges",
+      "url": "https://www.postgresql.org/docs/18/ddl-priv.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/ddl-priv.html"
+    },
+    {
+      "title": "PostgreSQL 18 row security policies",
+      "url": "https://www.postgresql.org/docs/18/ddl-rowsecurity.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/ddl-rowsecurity.html"
+    },
+    {
+      "title": "PostgreSQL 18 schema security and search path",
+      "url": "https://www.postgresql.org/docs/18/ddl-schemas.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/ddl-schemas.html"
+    },
+    {
+      "title": "PostgreSQL 18 schema design and privileges",
+      "url": "https://www.postgresql.org/docs/18/ddl.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/ddl.html"
+    },
+    {
+      "title": "6. Data Manipulation",
+      "url": "https://www.postgresql.org/docs/18/dml.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/dml.html"
+    },
+    {
+      "title": "J. Documentation",
+      "url": "https://www.postgresql.org/docs/18/docguide.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/docguide.html"
+    },
+    {
+      "title": "34. ECPG — Embedded SQL in C",
+      "url": "https://www.postgresql.org/docs/18/ecpg.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/ecpg.html"
+    },
+    {
+      "title": "A. PostgreSQL Error Codes",
+      "url": "https://www.postgresql.org/docs/18/errcodes-appendix.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/errcodes-appendix.html"
+    },
+    {
+      "title": "38. Event Triggers",
+      "url": "https://www.postgresql.org/docs/18/event-triggers.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/event-triggers.html"
+    },
+    {
+      "title": "PostgreSQL 18 explicit locking",
+      "url": "https://www.postgresql.org/docs/18/explicit-locking.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/explicit-locking.html"
+    },
+    {
+      "title": "36. Extending SQL",
+      "url": "https://www.postgresql.org/docs/18/extend.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/extend.html"
+    },
+    {
+      "title": "H. External Projects",
+      "url": "https://www.postgresql.org/docs/18/external-projects.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/external-projects.html"
+    },
+    {
+      "title": "58. Writing a Foreign Data Wrapper",
+      "url": "https://www.postgresql.org/docs/18/fdwhandler.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/fdwhandler.html"
+    },
+    {
+      "title": "D. SQL Conformance",
+      "url": "https://www.postgresql.org/docs/18/features.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/features.html"
+    },
+    {
+      "title": "9. Functions and Operators",
+      "url": "https://www.postgresql.org/docs/18/functions.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/functions.html"
+    },
+    {
+      "title": "61. Genetic Query Optimizer",
+      "url": "https://www.postgresql.org/docs/18/geqo.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/geqo.html"
+    },
+    {
+      "title": "M. Glossary",
+      "url": "https://www.postgresql.org/docs/18/glossary.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/glossary.html"
+    },
+    {
+      "title": "26. High Availability, Load Balancing, and Replication",
+      "url": "https://www.postgresql.org/docs/18/high-availability.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/high-availability.html"
+    },
+    {
+      "title": "2. A Brief History of PostgreSQL",
+      "url": "https://www.postgresql.org/docs/18/history.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/history.html"
+    },
+    {
+      "title": "PostgreSQL 18",
+      "url": "https://www.postgresql.org/docs/18/index.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/index.html"
+    },
+    {
+      "title": "63. Index Access Method Interface Definition",
+      "url": "https://www.postgresql.org/docs/18/indexam.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/indexam.html"
+    },
+    {
+      "title": "11. Indexes",
+      "url": "https://www.postgresql.org/docs/18/indexes.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/indexes.html"
+    },
+    {
+      "title": "65. Built-in Index Access Methods",
+      "url": "https://www.postgresql.org/docs/18/indextypes.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/indextypes.html"
+    },
+    {
+      "title": "35. The Information Schema",
+      "url": "https://www.postgresql.org/docs/18/information-schema.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/information-schema.html"
+    },
+    {
+      "title": "16. Installation from Binaries",
+      "url": "https://www.postgresql.org/docs/18/install-binaries.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/install-binaries.html"
+    },
+    {
+      "title": "17. Installation from Source Code",
+      "url": "https://www.postgresql.org/docs/18/installation.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/installation.html"
+    },
+    {
+      "title": "VII. Internals",
+      "url": "https://www.postgresql.org/docs/18/internals.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/internals.html"
+    },
+    {
+      "title": "1. What Is PostgreSQL ?",
+      "url": "https://www.postgresql.org/docs/18/intro-whatis.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/intro-whatis.html"
+    },
+    {
+      "title": "30. Just-in-Time Compilation ( JIT )",
+      "url": "https://www.postgresql.org/docs/18/jit.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/jit.html"
+    },
+    {
+      "title": "33. Large Objects",
+      "url": "https://www.postgresql.org/docs/18/largeobjects.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/largeobjects.html"
+    },
+    {
+      "title": "Legal Notice",
+      "url": "https://www.postgresql.org/docs/18/legalnotice.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/legalnotice.html"
+    },
+    {
+      "title": "PostgreSQL 18 client certificate verification",
+      "url": "https://www.postgresql.org/docs/18/libpq-ssl.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/libpq-ssl.html"
+    },
+    {
+      "title": "32. libpq — C Library",
+      "url": "https://www.postgresql.org/docs/18/libpq.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/libpq.html"
+    },
+    {
+      "title": "K. PostgreSQL Limits",
+      "url": "https://www.postgresql.org/docs/18/limits.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/limits.html"
+    },
+    {
+      "title": "29. Logical Replication",
+      "url": "https://www.postgresql.org/docs/18/logical-replication.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/logical-replication.html"
+    },
+    {
+      "title": "47. Logical Decoding",
+      "url": "https://www.postgresql.org/docs/18/logicaldecoding.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/logicaldecoding.html"
+    },
+    {
+      "title": "24. Routine Database Maintenance Tasks",
+      "url": "https://www.postgresql.org/docs/18/maintenance.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/maintenance.html"
+    },
+    {
+      "title": "22. Managing Databases",
+      "url": "https://www.postgresql.org/docs/18/managing-databases.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/managing-databases.html"
+    },
+    {
+      "title": "27. Monitoring Database Activity",
+      "url": "https://www.postgresql.org/docs/18/monitoring.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/monitoring.html"
+    },
+    {
+      "title": "13. Concurrency Control",
+      "url": "https://www.postgresql.org/docs/18/mvcc.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/mvcc.html"
+    },
+    {
+      "title": "56. Native Language Support",
+      "url": "https://www.postgresql.org/docs/18/nls.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/nls.html"
+    },
+    {
+      "title": "3. Conventions",
+      "url": "https://www.postgresql.org/docs/18/notation.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/notation.html"
+    },
+    {
+      "title": "50. OAuth Validator Modules",
+      "url": "https://www.postgresql.org/docs/18/oauth-validators.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/oauth-validators.html"
+    },
+    {
+      "title": "51. Overview of PostgreSQL Internals",
+      "url": "https://www.postgresql.org/docs/18/overview.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/overview.html"
+    },
+    {
+      "title": "15. Parallel Query",
+      "url": "https://www.postgresql.org/docs/18/parallel-query.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/parallel-query.html"
+    },
+    {
+      "title": "14. Performance Tips",
+      "url": "https://www.postgresql.org/docs/18/performance-tips.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/performance-tips.html"
+    },
+    {
+      "title": "69. How the Planner Uses Statistics",
+      "url": "https://www.postgresql.org/docs/18/planner-stats-details.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/planner-stats-details.html"
+    },
+    {
+      "title": "57. Writing a Procedural Language Handler",
+      "url": "https://www.postgresql.org/docs/18/plhandler.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/plhandler.html"
+    },
+    {
+      "title": "43. PL/Perl — Perl Procedural Language",
+      "url": "https://www.postgresql.org/docs/18/plperl.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/plperl.html"
+    },
+    {
+      "title": "41. PL/pgSQL — SQL Procedural Language",
+      "url": "https://www.postgresql.org/docs/18/plpgsql.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/plpgsql.html"
+    },
+    {
+      "title": "44. PL/Python — Python Procedural Language",
+      "url": "https://www.postgresql.org/docs/18/plpython.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/plpython.html"
+    },
+    {
+      "title": "42. PL/Tcl — Tcl Procedural Language",
+      "url": "https://www.postgresql.org/docs/18/pltcl.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/pltcl.html"
+    },
+    {
+      "title": "Next",
+      "url": "https://www.postgresql.org/docs/18/preface.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/preface.html"
+    },
+    {
+      "title": "54. Frontend/Backend Protocol",
+      "url": "https://www.postgresql.org/docs/18/protocol.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/protocol.html"
+    },
+    {
+      "title": "7. Queries",
+      "url": "https://www.postgresql.org/docs/18/queries.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/queries.html"
+    },
+    {
+      "title": "II. PostgreSQL Client Applications",
+      "url": "https://www.postgresql.org/docs/18/reference-client.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/reference-client.html"
+    },
+    {
+      "title": "III. PostgreSQL Server Applications",
+      "url": "https://www.postgresql.org/docs/18/reference-server.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/reference-server.html"
+    },
+    {
+      "title": "VI. Reference",
+      "url": "https://www.postgresql.org/docs/18/reference.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/reference.html"
+    },
+    {
+      "title": "31. Regression Tests",
+      "url": "https://www.postgresql.org/docs/18/regress.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/regress.html"
+    },
+    {
+      "title": "E. Release Notes",
+      "url": "https://www.postgresql.org/docs/18/release.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/release.html"
+    },
+    {
+      "title": "48. Replication Progress Tracking",
+      "url": "https://www.postgresql.org/docs/18/replication-origins.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/replication-origins.html"
+    },
+    {
+      "title": "4. Further Information",
+      "url": "https://www.postgresql.org/docs/18/resources.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/resources.html"
+    },
+    {
+      "title": "39. The Rule System",
+      "url": "https://www.postgresql.org/docs/18/rules.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/rules.html"
+    },
+    {
+      "title": "19. Server Configuration",
+      "url": "https://www.postgresql.org/docs/18/runtime-config.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/runtime-config.html"
+    },
+    {
+      "title": "18. Server Setup and Operation",
+      "url": "https://www.postgresql.org/docs/18/runtime.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/runtime.html"
+    },
+    {
+      "title": "V. Server Programming",
+      "url": "https://www.postgresql.org/docs/18/server-programming.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/server-programming.html"
+    },
+    {
+      "title": "55. PostgreSQL Coding Conventions",
+      "url": "https://www.postgresql.org/docs/18/source.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/source.html"
+    },
+    {
+      "title": "I. The Source Code Repository",
+      "url": "https://www.postgresql.org/docs/18/sourcerepo.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/sourcerepo.html"
+    },
+    {
+      "title": "45. Server Programming Interface",
+      "url": "https://www.postgresql.org/docs/18/spi.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/spi.html"
+    },
+    {
+      "title": "I. SQL Commands",
+      "url": "https://www.postgresql.org/docs/18/sql-commands.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/sql-commands.html"
+    },
+    {
+      "title": "C. SQL Key Words",
+      "url": "https://www.postgresql.org/docs/18/sql-keywords-appendix.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/sql-keywords-appendix.html"
+    },
+    {
+      "title": "4. SQL Syntax",
+      "url": "https://www.postgresql.org/docs/18/sql-syntax.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/sql-syntax.html"
+    },
+    {
+      "title": "II. The SQL Language",
+      "url": "https://www.postgresql.org/docs/18/sql.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/sql.html"
+    },
+    {
+      "title": "PostgreSQL 18 SSL support and TLS",
+      "url": "https://www.postgresql.org/docs/18/ssl-tcp.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/ssl-tcp.html"
+    },
+    {
+      "title": "66. Database Physical Storage",
+      "url": "https://www.postgresql.org/docs/18/storage.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/storage.html"
+    },
+    {
+      "title": "62. Table Access Method Interface Definition",
+      "url": "https://www.postgresql.org/docs/18/tableam.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/tableam.html"
+    },
+    {
+      "title": "59. Writing a Table Sampling Method",
+      "url": "https://www.postgresql.org/docs/18/tablesample-method.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/tablesample-method.html"
+    },
+    {
+      "title": "12. Full Text Search",
+      "url": "https://www.postgresql.org/docs/18/textsearch.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/textsearch.html"
+    },
+    {
+      "title": "PostgreSQL 18 transaction isolation",
+      "url": "https://www.postgresql.org/docs/18/transaction-iso.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/transaction-iso.html"
+    },
+    {
+      "title": "67. Transaction Processing",
+      "url": "https://www.postgresql.org/docs/18/transactions.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/transactions.html"
+    },
+    {
+      "title": "37. Triggers",
+      "url": "https://www.postgresql.org/docs/18/triggers.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/triggers.html"
+    },
+    {
+      "title": "3. Advanced Features",
+      "url": "https://www.postgresql.org/docs/18/tutorial-advanced.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/tutorial-advanced.html"
+    },
+    {
+      "title": "PostgreSQL 18 system architecture",
+      "url": "https://www.postgresql.org/docs/18/tutorial-arch.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/tutorial-arch.html"
+    },
+    {
+      "title": "2. The SQL Language",
+      "url": "https://www.postgresql.org/docs/18/tutorial-sql.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/tutorial-sql.html"
+    },
+    {
+      "title": "1. Getting Started",
+      "url": "https://www.postgresql.org/docs/18/tutorial-start.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/tutorial-start.html"
+    },
+    {
+      "title": "I. Tutorial",
+      "url": "https://www.postgresql.org/docs/18/tutorial.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/tutorial.html"
+    },
+    {
+      "title": "10. Type Conversion",
+      "url": "https://www.postgresql.org/docs/18/typeconv.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/typeconv.html"
+    },
+    {
+      "title": "21. Database Roles",
+      "url": "https://www.postgresql.org/docs/18/user-manag.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/user-manag.html"
+    },
+    {
+      "title": "PostgreSQL 18 using EXPLAIN",
+      "url": "https://www.postgresql.org/docs/18/using-explain.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/using-explain.html"
+    },
+    {
+      "title": "53. System Views",
+      "url": "https://www.postgresql.org/docs/18/views.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/views.html"
+    },
+    {
+      "title": "64. Write Ahead Logging for Extensions",
+      "url": "https://www.postgresql.org/docs/18/wal-for-extensions.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/wal-for-extensions.html"
+    },
+    {
+      "title": "28. Reliability and the Write-Ahead Log",
+      "url": "https://www.postgresql.org/docs/18/wal.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/wal.html"
+    },
+    {
+      "title": "40. Procedural Languages",
+      "url": "https://www.postgresql.org/docs/18/xplang.html",
+      "fetchUrl": "https://www.postgresql.org/docs/18/xplang.html"
+    }
+  ],
+  "referenceIssues": []
+}

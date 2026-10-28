@@ -11,6 +11,7 @@ Open the relevant domain, then only the pages it routes to. Official sections ar
 - [Accessibility (WCAG, WAI-ARIA)](accessibility/INDEX.md)
 - [Performance](performance/INDEX.md)
 - [Security](security/INDEX.md)
+- [Databases (PostgreSQL, Supabase, SQLite, Azure)](databases/INDEX.md)
 - [Semantics](semantics/INDEX.md)
 - [React](react/INDEX.md)
 - [TypeScript](typescript/INDEX.md)
