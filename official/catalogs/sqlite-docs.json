@@ -1,0 +1,1041 @@
+{
+  "schemaVersion": 1,
+  "source": "sqlite-docs",
+  "revision": "5e088b54752be53171f0b74a47b65d630245b14643436b96b97a1d7f840703cb",
+  "origin": "https://sqlite.org/doclist.html",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "SQLite Changes From Version 3.4.2 To 3.5.0",
+      "url": "https://sqlite.org/34to35.html",
+      "fetchUrl": "https://sqlite.org/34to35.html"
+    },
+    {
+      "title": "SQLite Changes From Version 3.5.9 To 3.6.0",
+      "url": "https://sqlite.org/35to36.html",
+      "fetchUrl": "https://sqlite.org/35to36.html"
+    },
+    {
+      "title": "About",
+      "url": "https://sqlite.org/about.html",
+      "fetchUrl": "https://sqlite.org/about.html"
+    },
+    {
+      "title": "Benefits of SQLite As A File Format",
+      "url": "https://sqlite.org/aff_short.html",
+      "fetchUrl": "https://sqlite.org/aff_short.html"
+    },
+    {
+      "title": "What If OpenDocument Used SQLite?",
+      "url": "https://sqlite.org/affcase1.html",
+      "fetchUrl": "https://sqlite.org/affcase1.html"
+    },
+    {
+      "title": "The Amalgamation Versus Canonical Sources",
+      "url": "https://sqlite.org/amalg-v-canon.html",
+      "fetchUrl": "https://sqlite.org/amalg-v-canon.html"
+    },
+    {
+      "title": "The SQLite Amalgamation",
+      "url": "https://sqlite.org/amalgamation.html",
+      "fetchUrl": "https://sqlite.org/amalgamation.html"
+    },
+    {
+      "title": "Android Bindings",
+      "url": "https://sqlite.org/android/",
+      "fetchUrl": "https://sqlite.org/android/"
+    },
+    {
+      "title": "SQLite As An Application File Format",
+      "url": "https://sqlite.org/appfileformat.html",
+      "fetchUrl": "https://sqlite.org/appfileformat.html"
+    },
+    {
+      "title": "Application-Defined SQL Functions",
+      "url": "https://sqlite.org/appfunc.html",
+      "fetchUrl": "https://sqlite.org/appfunc.html"
+    },
+    {
+      "title": "SQLite architecture",
+      "url": "https://sqlite.org/arch.html",
+      "fetchUrl": "https://sqlite.org/arch.html"
+    },
+    {
+      "title": "The Use Of assert() In SQLite",
+      "url": "https://sqlite.org/assert.html",
+      "fetchUrl": "https://sqlite.org/assert.html"
+    },
+    {
+      "title": "Atomic Commit In SQLite",
+      "url": "https://sqlite.org/atomiccommit.html",
+      "fetchUrl": "https://sqlite.org/atomiccommit.html"
+    },
+    {
+      "title": "SQLite Autoincrement",
+      "url": "https://sqlite.org/autoinc.html",
+      "fetchUrl": "https://sqlite.org/autoinc.html"
+    },
+    {
+      "title": "SQLite backup API",
+      "url": "https://sqlite.org/backup.html",
+      "fetchUrl": "https://sqlite.org/backup.html"
+    },
+    {
+      "title": "The Base64() SQL Function",
+      "url": "https://sqlite.org/base64.html",
+      "fetchUrl": "https://sqlite.org/base64.html"
+    },
+    {
+      "title": "The Base85() SQL Function",
+      "url": "https://sqlite.org/base85.html",
+      "fetchUrl": "https://sqlite.org/base85.html"
+    },
+    {
+      "title": "Pointer Passing Interfaces",
+      "url": "https://sqlite.org/bindptr.html",
+      "fetchUrl": "https://sqlite.org/bindptr.html"
+    },
+    {
+      "title": "Books About SQLite",
+      "url": "https://sqlite.org/books.html",
+      "fetchUrl": "https://sqlite.org/books.html"
+    },
+    {
+      "title": "The Bytecode() And Tables_Used() Table-Valued Functions",
+      "url": "https://sqlite.org/bytecodevtab.html",
+      "fetchUrl": "https://sqlite.org/bytecodevtab.html"
+    },
+    {
+      "title": "The C language interface to SQLite Version 2",
+      "url": "https://sqlite.org/c_interface.html",
+      "fetchUrl": "https://sqlite.org/c_interface.html"
+    },
+    {
+      "title": "C/C++ Interface For SQLite Version 3 (old)",
+      "url": "https://sqlite.org/capi3.html",
+      "fetchUrl": "https://sqlite.org/capi3.html"
+    },
+    {
+      "title": "C/C++ Interface For SQLite Version 3",
+      "url": "https://sqlite.org/capi3ref.html",
+      "fetchUrl": "https://sqlite.org/capi3ref.html"
+    },
+    {
+      "title": "The Carray() Table-Valued Function",
+      "url": "https://sqlite.org/carray.html",
+      "fetchUrl": "https://sqlite.org/carray.html"
+    },
+    {
+      "title": "An Introduction To The SQLite C/C++ Interface",
+      "url": "https://sqlite.org/cintro.html",
+      "fetchUrl": "https://sqlite.org/cintro.html"
+    },
+    {
+      "title": "The Checksum VFS Shim",
+      "url": "https://sqlite.org/cksumvfs.html",
+      "fetchUrl": "https://sqlite.org/cksumvfs.html"
+    },
+    {
+      "title": "Command Line Shell For SQLite",
+      "url": "https://sqlite.org/cli.html",
+      "fetchUrl": "https://sqlite.org/cli.html"
+    },
+    {
+      "title": "Query Result Formatting In The CLI",
+      "url": "https://sqlite.org/climode.html",
+      "fetchUrl": "https://sqlite.org/climode.html"
+    },
+    {
+      "title": "The CLI Prompt",
+      "url": "https://sqlite.org/cliprompt.html",
+      "fetchUrl": "https://sqlite.org/cliprompt.html"
+    },
+    {
+      "title": "Compile-time Options",
+      "url": "https://sqlite.org/compile.html",
+      "fetchUrl": "https://sqlite.org/compile.html"
+    },
+    {
+      "title": "The COMPLETION() Table-Valued Function",
+      "url": "https://sqlite.org/completion.html",
+      "fetchUrl": "https://sqlite.org/completion.html"
+    },
+    {
+      "title": "Constraint Conflict Resolution in SQLite",
+      "url": "https://sqlite.org/conflict.html",
+      "fetchUrl": "https://sqlite.org/conflict.html"
+    },
+    {
+      "title": "Measuring and Reducing CPU Usage in SQLite",
+      "url": "https://sqlite.org/cpu.html",
+      "fetchUrl": "https://sqlite.org/cpu.html"
+    },
+    {
+      "title": "SQLite Developers",
+      "url": "https://sqlite.org/crew.html",
+      "fetchUrl": "https://sqlite.org/crew.html"
+    },
+    {
+      "title": "The CSV Virtual Table",
+      "url": "https://sqlite.org/csv.html",
+      "fetchUrl": "https://sqlite.org/csv.html"
+    },
+    {
+      "title": "Custom Builds Of SQLite",
+      "url": "https://sqlite.org/custombuild.html",
+      "fetchUrl": "https://sqlite.org/custombuild.html"
+    },
+    {
+      "title": "Vulnerabilities",
+      "url": "https://sqlite.org/cves.html",
+      "fetchUrl": "https://sqlite.org/cves.html"
+    },
+    {
+      "title": "Datatypes In SQLite",
+      "url": "https://sqlite.org/datatype3.html",
+      "fetchUrl": "https://sqlite.org/datatype3.html"
+    },
+    {
+      "title": "Datatypes In SQLite version 2",
+      "url": "https://sqlite.org/datatypes.html",
+      "fetchUrl": "https://sqlite.org/datatypes.html"
+    },
+    {
+      "title": "The dbhash.exe Utility Program",
+      "url": "https://sqlite.org/dbhash.html",
+      "fetchUrl": "https://sqlite.org/dbhash.html"
+    },
+    {
+      "title": "The SQLITE_DBPAGE Virtual Table",
+      "url": "https://sqlite.org/dbpage.html",
+      "fetchUrl": "https://sqlite.org/dbpage.html"
+    },
+    {
+      "title": "The DBSTAT Virtual Table",
+      "url": "https://sqlite.org/dbstat.html",
+      "fetchUrl": "https://sqlite.org/dbstat.html"
+    },
+    {
+      "title": "Hints for Debugging SQLite",
+      "url": "https://sqlite.org/debugging.html",
+      "fetchUrl": "https://sqlite.org/debugging.html"
+    },
+    {
+      "title": "Deterministic SQL Functions",
+      "url": "https://sqlite.org/deterministic.html",
+      "fetchUrl": "https://sqlite.org/deterministic.html"
+    },
+    {
+      "title": "Distinctive Features Of SQLite",
+      "url": "https://sqlite.org/different.html",
+      "fetchUrl": "https://sqlite.org/different.html"
+    },
+    {
+      "title": "The DISKUSED() Extension",
+      "url": "https://sqlite.org/diskusedfunc.html",
+      "fetchUrl": "https://sqlite.org/diskusedfunc.html"
+    },
+    {
+      "title": "EXPLAIN QUERY PLAN",
+      "url": "https://sqlite.org/eqp.html",
+      "fetchUrl": "https://sqlite.org/eqp.html"
+    },
+    {
+      "title": "The Error And Warning Log",
+      "url": "https://sqlite.org/errlog.html",
+      "fetchUrl": "https://sqlite.org/errlog.html"
+    },
+    {
+      "title": "Indexes On Expressions",
+      "url": "https://sqlite.org/expridx.html",
+      "fetchUrl": "https://sqlite.org/expridx.html"
+    },
+    {
+      "title": "Well-Known Users Of SQLite",
+      "url": "https://sqlite.org/famous.html",
+      "fetchUrl": "https://sqlite.org/famous.html"
+    },
+    {
+      "title": "SQLite Frequently Asked Questions",
+      "url": "https://sqlite.org/faq.html",
+      "fetchUrl": "https://sqlite.org/faq.html"
+    },
+    {
+      "title": "35% Faster Than The Filesystem",
+      "url": "https://sqlite.org/fasterthanfs.html",
+      "fetchUrl": "https://sqlite.org/fasterthanfs.html"
+    },
+    {
+      "title": "Features Of SQLite",
+      "url": "https://sqlite.org/features.html",
+      "fetchUrl": "https://sqlite.org/features.html"
+    },
+    {
+      "title": "Database File Format",
+      "url": "https://sqlite.org/fileformat2.html",
+      "fetchUrl": "https://sqlite.org/fileformat2.html"
+    },
+    {
+      "title": "The Advantages Of Flexible Typing",
+      "url": "https://sqlite.org/flextypegood.html",
+      "fetchUrl": "https://sqlite.org/flextypegood.html"
+    },
+    {
+      "title": "Floating Point Numbers",
+      "url": "https://sqlite.org/floatingpoint.html",
+      "fetchUrl": "https://sqlite.org/floatingpoint.html"
+    },
+    {
+      "title": "SQLite Library Footprint",
+      "url": "https://sqlite.org/footprint.html",
+      "fetchUrl": "https://sqlite.org/footprint.html"
+    },
+    {
+      "title": "SQLite foreign key constraints",
+      "url": "https://sqlite.org/foreignkeys.html",
+      "fetchUrl": "https://sqlite.org/foreignkeys.html"
+    },
+    {
+      "title": "File Format Changes in SQLite",
+      "url": "https://sqlite.org/formatchng.html",
+      "fetchUrl": "https://sqlite.org/formatchng.html"
+    },
+    {
+      "title": "SQLite FTS3 and FTS4 Extensions",
+      "url": "https://sqlite.org/fts3.html",
+      "fetchUrl": "https://sqlite.org/fts3.html"
+    },
+    {
+      "title": "SQLite FTS5 Extension",
+      "url": "https://sqlite.org/fts5.html",
+      "fetchUrl": "https://sqlite.org/fts5.html"
+    },
+    {
+      "title": "Full-Featured SQL",
+      "url": "https://sqlite.org/fullsql.html",
+      "fetchUrl": "https://sqlite.org/fullsql.html"
+    },
+    {
+      "title": "Generated Columns",
+      "url": "https://sqlite.org/gencol.html",
+      "fetchUrl": "https://sqlite.org/gencol.html"
+    },
+    {
+      "title": "The Geopoly Interface To The SQLite R*Tree Module",
+      "url": "https://sqlite.org/geopoly.html",
+      "fetchUrl": "https://sqlite.org/geopoly.html"
+    },
+    {
+      "title": "How To Download Canonical SQLite Source Code",
+      "url": "https://sqlite.org/getthecode.html",
+      "fetchUrl": "https://sqlite.org/getthecode.html"
+    },
+    {
+      "title": "Terms of Art Glossary",
+      "url": "https://sqlite.org/glossary.html",
+      "fetchUrl": "https://sqlite.org/glossary.html"
+    },
+    {
+      "title": "How SQLite Works",
+      "url": "https://sqlite.org/howitworks.html",
+      "fetchUrl": "https://sqlite.org/howitworks.html"
+    },
+    {
+      "title": "How To Compile SQLite",
+      "url": "https://sqlite.org/howtocompile.html",
+      "fetchUrl": "https://sqlite.org/howtocompile.html"
+    },
+    {
+      "title": "How To Corrupt An SQLite Database File",
+      "url": "https://sqlite.org/howtocorrupt.html",
+      "fetchUrl": "https://sqlite.org/howtocorrupt.html"
+    },
+    {
+      "title": "Imposter Tables",
+      "url": "https://sqlite.org/imposter.html",
+      "fetchUrl": "https://sqlite.org/imposter.html"
+    },
+    {
+      "title": "In-Memory Databases",
+      "url": "https://sqlite.org/inmemorydb.html",
+      "fetchUrl": "https://sqlite.org/inmemorydb.html"
+    },
+    {
+      "title": "Internal Versus External BLOBs",
+      "url": "https://sqlite.org/intern-v-extern-blob.html",
+      "fetchUrl": "https://sqlite.org/intern-v-extern-blob.html"
+    },
+    {
+      "title": "Invalid UTF Policy",
+      "url": "https://sqlite.org/invalidutf.html",
+      "fetchUrl": "https://sqlite.org/invalidutf.html"
+    },
+    {
+      "title": "SQLite isolation and concurrency",
+      "url": "https://sqlite.org/isolation.html",
+      "fetchUrl": "https://sqlite.org/isolation.html"
+    },
+    {
+      "title": "JSON Functions And Operators",
+      "url": "https://sqlite.org/json1.html",
+      "fetchUrl": "https://sqlite.org/json1.html"
+    },
+    {
+      "title": "Built-in Aggregate Functions",
+      "url": "https://sqlite.org/lang_aggfunc.html",
+      "fetchUrl": "https://sqlite.org/lang_aggfunc.html"
+    },
+    {
+      "title": "ALTER TABLE",
+      "url": "https://sqlite.org/lang_altertable.html",
+      "fetchUrl": "https://sqlite.org/lang_altertable.html"
+    },
+    {
+      "title": "ANALYZE",
+      "url": "https://sqlite.org/lang_analyze.html",
+      "fetchUrl": "https://sqlite.org/lang_analyze.html"
+    },
+    {
+      "title": "ATTACH DATABASE",
+      "url": "https://sqlite.org/lang_attach.html",
+      "fetchUrl": "https://sqlite.org/lang_attach.html"
+    },
+    {
+      "title": "SQL Comment Syntax",
+      "url": "https://sqlite.org/lang_comment.html",
+      "fetchUrl": "https://sqlite.org/lang_comment.html"
+    },
+    {
+      "title": "The ON CONFLICT Clause",
+      "url": "https://sqlite.org/lang_conflict.html",
+      "fetchUrl": "https://sqlite.org/lang_conflict.html"
+    },
+    {
+      "title": "Built-In Scalar SQL Functions",
+      "url": "https://sqlite.org/lang_corefunc.html",
+      "fetchUrl": "https://sqlite.org/lang_corefunc.html"
+    },
+    {
+      "title": "CREATE INDEX",
+      "url": "https://sqlite.org/lang_createindex.html",
+      "fetchUrl": "https://sqlite.org/lang_createindex.html"
+    },
+    {
+      "title": "CREATE TABLE",
+      "url": "https://sqlite.org/lang_createtable.html",
+      "fetchUrl": "https://sqlite.org/lang_createtable.html"
+    },
+    {
+      "title": "CREATE TRIGGER",
+      "url": "https://sqlite.org/lang_createtrigger.html",
+      "fetchUrl": "https://sqlite.org/lang_createtrigger.html"
+    },
+    {
+      "title": "CREATE VIEW",
+      "url": "https://sqlite.org/lang_createview.html",
+      "fetchUrl": "https://sqlite.org/lang_createview.html"
+    },
+    {
+      "title": "CREATE VIRTUAL TABLE",
+      "url": "https://sqlite.org/lang_createvtab.html",
+      "fetchUrl": "https://sqlite.org/lang_createvtab.html"
+    },
+    {
+      "title": "Date And Time Functions",
+      "url": "https://sqlite.org/lang_datefunc.html",
+      "fetchUrl": "https://sqlite.org/lang_datefunc.html"
+    },
+    {
+      "title": "DELETE",
+      "url": "https://sqlite.org/lang_delete.html",
+      "fetchUrl": "https://sqlite.org/lang_delete.html"
+    },
+    {
+      "title": "DETACH",
+      "url": "https://sqlite.org/lang_detach.html",
+      "fetchUrl": "https://sqlite.org/lang_detach.html"
+    },
+    {
+      "title": "DROP INDEX",
+      "url": "https://sqlite.org/lang_dropindex.html",
+      "fetchUrl": "https://sqlite.org/lang_dropindex.html"
+    },
+    {
+      "title": "DROP TABLE",
+      "url": "https://sqlite.org/lang_droptable.html",
+      "fetchUrl": "https://sqlite.org/lang_droptable.html"
+    },
+    {
+      "title": "DROP TRIGGER",
+      "url": "https://sqlite.org/lang_droptrigger.html",
+      "fetchUrl": "https://sqlite.org/lang_droptrigger.html"
+    },
+    {
+      "title": "DROP VIEW",
+      "url": "https://sqlite.org/lang_dropview.html",
+      "fetchUrl": "https://sqlite.org/lang_dropview.html"
+    },
+    {
+      "title": "EXPLAIN",
+      "url": "https://sqlite.org/lang_explain.html",
+      "fetchUrl": "https://sqlite.org/lang_explain.html"
+    },
+    {
+      "title": "SQL Language Expressions",
+      "url": "https://sqlite.org/lang_expr.html",
+      "fetchUrl": "https://sqlite.org/lang_expr.html"
+    },
+    {
+      "title": "The INDEXED BY Clause",
+      "url": "https://sqlite.org/lang_indexedby.html",
+      "fetchUrl": "https://sqlite.org/lang_indexedby.html"
+    },
+    {
+      "title": "INSERT",
+      "url": "https://sqlite.org/lang_insert.html",
+      "fetchUrl": "https://sqlite.org/lang_insert.html"
+    },
+    {
+      "title": "SQLite Keywords",
+      "url": "https://sqlite.org/lang_keywords.html",
+      "fetchUrl": "https://sqlite.org/lang_keywords.html"
+    },
+    {
+      "title": "Built-In Mathematical SQL Functions",
+      "url": "https://sqlite.org/lang_mathfunc.html",
+      "fetchUrl": "https://sqlite.org/lang_mathfunc.html"
+    },
+    {
+      "title": "Database Object Name Resolution",
+      "url": "https://sqlite.org/lang_naming.html",
+      "fetchUrl": "https://sqlite.org/lang_naming.html"
+    },
+    {
+      "title": "REINDEX",
+      "url": "https://sqlite.org/lang_reindex.html",
+      "fetchUrl": "https://sqlite.org/lang_reindex.html"
+    },
+    {
+      "title": "REPLACE",
+      "url": "https://sqlite.org/lang_replace.html",
+      "fetchUrl": "https://sqlite.org/lang_replace.html"
+    },
+    {
+      "title": "RETURNING",
+      "url": "https://sqlite.org/lang_returning.html",
+      "fetchUrl": "https://sqlite.org/lang_returning.html"
+    },
+    {
+      "title": "Savepoints",
+      "url": "https://sqlite.org/lang_savepoint.html",
+      "fetchUrl": "https://sqlite.org/lang_savepoint.html"
+    },
+    {
+      "title": "SELECT",
+      "url": "https://sqlite.org/lang_select.html",
+      "fetchUrl": "https://sqlite.org/lang_select.html"
+    },
+    {
+      "title": "Transaction",
+      "url": "https://sqlite.org/lang_transaction.html",
+      "fetchUrl": "https://sqlite.org/lang_transaction.html"
+    },
+    {
+      "title": "UPDATE",
+      "url": "https://sqlite.org/lang_update.html",
+      "fetchUrl": "https://sqlite.org/lang_update.html"
+    },
+    {
+      "title": "UPSERT",
+      "url": "https://sqlite.org/lang_upsert.html",
+      "fetchUrl": "https://sqlite.org/lang_upsert.html"
+    },
+    {
+      "title": "VACUUM",
+      "url": "https://sqlite.org/lang_vacuum.html",
+      "fetchUrl": "https://sqlite.org/lang_vacuum.html"
+    },
+    {
+      "title": "The WITH Clause",
+      "url": "https://sqlite.org/lang_with.html",
+      "fetchUrl": "https://sqlite.org/lang_with.html"
+    },
+    {
+      "title": "Query Language Understood by SQLite",
+      "url": "https://sqlite.org/lang.html",
+      "fetchUrl": "https://sqlite.org/lang.html"
+    },
+    {
+      "title": "The Lemon LALR(1) Parser Generator",
+      "url": "https://sqlite.org/lemon.html",
+      "fetchUrl": "https://sqlite.org/lemon.html"
+    },
+    {
+      "title": "Implementation Limits For SQLite",
+      "url": "https://sqlite.org/limits.html",
+      "fetchUrl": "https://sqlite.org/limits.html"
+    },
+    {
+      "title": "Run-Time Loadable Extensions",
+      "url": "https://sqlite.org/loadext.html",
+      "fetchUrl": "https://sqlite.org/loadext.html"
+    },
+    {
+      "title": "File Locking And Concurrency In SQLite Version 3",
+      "url": "https://sqlite.org/lockingv3.html",
+      "fetchUrl": "https://sqlite.org/lockingv3.html"
+    },
+    {
+      "title": "LoC Recommended Storage Format",
+      "url": "https://sqlite.org/locrsf.html",
+      "fetchUrl": "https://sqlite.org/locrsf.html"
+    },
+    {
+      "title": "Long Term Support",
+      "url": "https://sqlite.org/lts.html",
+      "fetchUrl": "https://sqlite.org/lts.html"
+    },
+    {
+      "title": "Dynamic Memory Allocation In SQLite",
+      "url": "https://sqlite.org/malloc.html",
+      "fetchUrl": "https://sqlite.org/malloc.html"
+    },
+    {
+      "title": "The SQLITE_MEMSTAT Virtual Table",
+      "url": "https://sqlite.org/memstat.html",
+      "fetchUrl": "https://sqlite.org/memstat.html"
+    },
+    {
+      "title": "Memory-Mapped I/O",
+      "url": "https://sqlite.org/mmap.html",
+      "fetchUrl": "https://sqlite.org/mmap.html"
+    },
+    {
+      "title": "Most Widely Deployed SQL Database Engine",
+      "url": "https://sqlite.org/mostdeployed.html",
+      "fetchUrl": "https://sqlite.org/mostdeployed.html"
+    },
+    {
+      "title": "Recent SQLite News",
+      "url": "https://sqlite.org/news.html",
+      "fetchUrl": "https://sqlite.org/news.html"
+    },
+    {
+      "title": "Many Small Queries Are Efficient In SQLite",
+      "url": "https://sqlite.org/np1queryprob.html",
+      "fetchUrl": "https://sqlite.org/np1queryprob.html"
+    },
+    {
+      "title": "NUL Characters In Strings",
+      "url": "https://sqlite.org/nulinstr.html",
+      "fetchUrl": "https://sqlite.org/nulinstr.html"
+    },
+    {
+      "title": "NULL Handling in SQLite",
+      "url": "https://sqlite.org/nulls.html",
+      "fetchUrl": "https://sqlite.org/nulls.html"
+    },
+    {
+      "title": "SQLite Older News",
+      "url": "https://sqlite.org/oldnews.html",
+      "fetchUrl": "https://sqlite.org/oldnews.html"
+    },
+    {
+      "title": "SQL Features That SQLite Does Not Implement",
+      "url": "https://sqlite.org/omitted.html",
+      "fetchUrl": "https://sqlite.org/omitted.html"
+    },
+    {
+      "title": "SQLite: Single File Database",
+      "url": "https://sqlite.org/onefile.html",
+      "fetchUrl": "https://sqlite.org/onefile.html"
+    },
+    {
+      "title": "The SQLite Bytecode Engine",
+      "url": "https://sqlite.org/opcode.html",
+      "fetchUrl": "https://sqlite.org/opcode.html"
+    },
+    {
+      "title": "The SQLite Query Optimizer Overview",
+      "url": "https://sqlite.org/optoverview.html",
+      "fetchUrl": "https://sqlite.org/optoverview.html"
+    },
+    {
+      "title": "Partial Indexes",
+      "url": "https://sqlite.org/partialindex.html",
+      "fetchUrl": "https://sqlite.org/partialindex.html"
+    },
+    {
+      "title": "The Percentile Extension",
+      "url": "https://sqlite.org/percentile.html",
+      "fetchUrl": "https://sqlite.org/percentile.html"
+    },
+    {
+      "title": "Change in Default Page Size in SQLite Version 3.12.0",
+      "url": "https://sqlite.org/pgszchng2016.html",
+      "fetchUrl": "https://sqlite.org/pgszchng2016.html"
+    },
+    {
+      "title": "Pragma statements supported by SQLite",
+      "url": "https://sqlite.org/pragma.html",
+      "fetchUrl": "https://sqlite.org/pragma.html"
+    },
+    {
+      "title": "SQLite's Built-in printf()",
+      "url": "https://sqlite.org/printf.html",
+      "fetchUrl": "https://sqlite.org/printf.html"
+    },
+    {
+      "title": "Maintaining Private Branches Of SQLite",
+      "url": "https://sqlite.org/privatebranch.html",
+      "fetchUrl": "https://sqlite.org/privatebranch.html"
+    },
+    {
+      "title": "Profiling SQL Queries",
+      "url": "https://sqlite.org/profile.html",
+      "fetchUrl": "https://sqlite.org/profile.html"
+    },
+    {
+      "title": "Powersafe Overwrite",
+      "url": "https://sqlite.org/psow.html",
+      "fetchUrl": "https://sqlite.org/psow.html"
+    },
+    {
+      "title": "Quality Management",
+      "url": "https://sqlite.org/qmplan.html",
+      "fetchUrl": "https://sqlite.org/qmplan.html"
+    },
+    {
+      "title": "The Next-Generation Query Planner",
+      "url": "https://sqlite.org/queryplanner-ng.html",
+      "fetchUrl": "https://sqlite.org/queryplanner-ng.html"
+    },
+    {
+      "title": "SQLite query planner",
+      "url": "https://sqlite.org/queryplanner.html",
+      "fetchUrl": "https://sqlite.org/queryplanner.html"
+    },
+    {
+      "title": "SQLite In 5 Minutes Or Less",
+      "url": "https://sqlite.org/quickstart.html",
+      "fetchUrl": "https://sqlite.org/quickstart.html"
+    },
+    {
+      "title": "Quirks, Caveats, and Gotchas In SQLite",
+      "url": "https://sqlite.org/quirks.html",
+      "fetchUrl": "https://sqlite.org/quirks.html"
+    },
+    {
+      "title": "The RBU Extension",
+      "url": "https://sqlite.org/rbu.html",
+      "fetchUrl": "https://sqlite.org/rbu.html"
+    },
+    {
+      "title": "Recovering Data From A Corrupt SQLite Database",
+      "url": "https://sqlite.org/recovery.html",
+      "fetchUrl": "https://sqlite.org/recovery.html"
+    },
+    {
+      "title": "SQLite Requirements",
+      "url": "https://sqlite.org/requirements.html",
+      "fetchUrl": "https://sqlite.org/requirements.html"
+    },
+    {
+      "title": "Result and Error Codes",
+      "url": "https://sqlite.org/rescode.html",
+      "fetchUrl": "https://sqlite.org/rescode.html"
+    },
+    {
+      "title": "Rowid Tables",
+      "url": "https://sqlite.org/rowidtable.html",
+      "fetchUrl": "https://sqlite.org/rowidtable.html"
+    },
+    {
+      "title": "Row Values",
+      "url": "https://sqlite.org/rowvalue.html",
+      "fetchUrl": "https://sqlite.org/rowvalue.html"
+    },
+    {
+      "title": "Database Remote-Copy Tool For SQLite",
+      "url": "https://sqlite.org/rsync.html",
+      "fetchUrl": "https://sqlite.org/rsync.html"
+    },
+    {
+      "title": "The SQLite R*Tree Module",
+      "url": "https://sqlite.org/rtree.html",
+      "fetchUrl": "https://sqlite.org/rtree.html"
+    },
+    {
+      "title": "The Schema Table",
+      "url": "https://sqlite.org/schematab.html",
+      "fetchUrl": "https://sqlite.org/schematab.html"
+    },
+    {
+      "title": "SQLite defensive security and untrusted databases",
+      "url": "https://sqlite.org/security.html",
+      "fetchUrl": "https://sqlite.org/security.html"
+    },
+    {
+      "title": "SQLite is a Self Contained System",
+      "url": "https://sqlite.org/selfcontained.html",
+      "fetchUrl": "https://sqlite.org/selfcontained.html"
+    },
+    {
+      "title": "The generate_series Table-Valued Function",
+      "url": "https://sqlite.org/series.html",
+      "fetchUrl": "https://sqlite.org/series.html"
+    },
+    {
+      "title": "SQLite Is Serverless",
+      "url": "https://sqlite.org/serverless.html",
+      "fetchUrl": "https://sqlite.org/serverless.html"
+    },
+    {
+      "title": "SQLite Session Module C/C++ Interface",
+      "url": "https://sqlite.org/session.html",
+      "fetchUrl": "https://sqlite.org/session.html"
+    },
+    {
+      "title": "The Session Extension",
+      "url": "https://sqlite.org/sessionintro.html",
+      "fetchUrl": "https://sqlite.org/sessionintro.html"
+    },
+    {
+      "title": "SQLite Shared-Cache Mode",
+      "url": "https://sqlite.org/sharedcache.html",
+      "fetchUrl": "https://sqlite.org/sharedcache.html"
+    },
+    {
+      "title": "8+3 Filenames",
+      "url": "https://sqlite.org/shortnames.html",
+      "fetchUrl": "https://sqlite.org/shortnames.html"
+    },
+    {
+      "title": "SQLite Database Speed Comparison",
+      "url": "https://sqlite.org/speed.html",
+      "fetchUrl": "https://sqlite.org/speed.html"
+    },
+    {
+      "title": "The Spellfix1 Virtual Table",
+      "url": "https://sqlite.org/spellfix1.html",
+      "fetchUrl": "https://sqlite.org/spellfix1.html"
+    },
+    {
+      "title": "The sqlite3_analyzer.exe Utility Program",
+      "url": "https://sqlite.org/sqlanalyze.html",
+      "fetchUrl": "https://sqlite.org/sqlanalyze.html"
+    },
+    {
+      "title": "SQLite Archive Files",
+      "url": "https://sqlite.org/sqlar.html",
+      "fetchUrl": "https://sqlite.org/sqlar.html"
+    },
+    {
+      "title": "SQLite Archiver (sqlar.exe)",
+      "url": "https://sqlite.org/sqlar/",
+      "fetchUrl": "https://sqlite.org/sqlar/"
+    },
+    {
+      "title": "sqldiff.exe: Database Difference Utility",
+      "url": "https://sqlite.org/sqldiff.html",
+      "fetchUrl": "https://sqlite.org/sqldiff.html"
+    },
+    {
+      "title": "Stale Expression Indexes",
+      "url": "https://sqlite.org/staleexpridx.html",
+      "fetchUrl": "https://sqlite.org/staleexpridx.html"
+    },
+    {
+      "title": "The SQLITE_STMT Virtual Table",
+      "url": "https://sqlite.org/stmt.html",
+      "fetchUrl": "https://sqlite.org/stmt.html"
+    },
+    {
+      "title": "STRICT Tables",
+      "url": "https://sqlite.org/stricttables.html",
+      "fetchUrl": "https://sqlite.org/stricttables.html"
+    },
+    {
+      "title": "Swarmvtab Virtual Table",
+      "url": "https://sqlite.org/swarmvtab.html",
+      "fetchUrl": "https://sqlite.org/swarmvtab.html"
+    },
+    {
+      "title": "List of SQLite Syntax Diagrams",
+      "url": "https://sqlite.org/syntax.html",
+      "fetchUrl": "https://sqlite.org/syntax.html"
+    },
+    {
+      "title": "Syntax Diagrams For SQLite",
+      "url": "https://sqlite.org/syntaxdiagrams.html",
+      "fetchUrl": "https://sqlite.org/syntaxdiagrams.html"
+    },
+    {
+      "title": "Bridging Tcl and JSON with the SQLite Extension",
+      "url": "https://sqlite.org/tcljson.html",
+      "fetchUrl": "https://sqlite.org/tcljson.html"
+    },
+    {
+      "title": "The Tcl interface to the SQLite library",
+      "url": "https://sqlite.org/tclsqlite.html",
+      "fetchUrl": "https://sqlite.org/tclsqlite.html"
+    },
+    {
+      "title": "Temporary Files Used By SQLite",
+      "url": "https://sqlite.org/tempfiles.html",
+      "fetchUrl": "https://sqlite.org/tempfiles.html"
+    },
+    {
+      "title": "How SQLite Is Tested",
+      "url": "https://sqlite.org/testing.html",
+      "fetchUrl": "https://sqlite.org/testing.html"
+    },
+    {
+      "title": "TH3",
+      "url": "https://sqlite.org/th3.html",
+      "fetchUrl": "https://sqlite.org/th3.html"
+    },
+    {
+      "title": "Using SQLite In Multi-Threaded Applications",
+      "url": "https://sqlite.org/threadsafe.html",
+      "fetchUrl": "https://sqlite.org/threadsafe.html"
+    },
+    {
+      "title": "SQLite Is Transactional",
+      "url": "https://sqlite.org/transactional.html",
+      "fetchUrl": "https://sqlite.org/transactional.html"
+    },
+    {
+      "title": "The UINT Collating Sequence",
+      "url": "https://sqlite.org/uintcseq.html",
+      "fetchUrl": "https://sqlite.org/uintcseq.html"
+    },
+    {
+      "title": "Automatic Undo/Redo With SQLite",
+      "url": "https://sqlite.org/undoredo.html",
+      "fetchUrl": "https://sqlite.org/undoredo.html"
+    },
+    {
+      "title": "The UNION Virtual Table",
+      "url": "https://sqlite.org/unionvtab.html",
+      "fetchUrl": "https://sqlite.org/unionvtab.html"
+    },
+    {
+      "title": "SQLite Unlock-Notify API",
+      "url": "https://sqlite.org/unlock_notify.html",
+      "fetchUrl": "https://sqlite.org/unlock_notify.html"
+    },
+    {
+      "title": "Uniform Resource Identifiers",
+      "url": "https://sqlite.org/uri.html",
+      "fetchUrl": "https://sqlite.org/uri.html"
+    },
+    {
+      "title": "SQLite Over a Network, Caveats and Considerations",
+      "url": "https://sqlite.org/useovernet.html",
+      "fetchUrl": "https://sqlite.org/useovernet.html"
+    },
+    {
+      "title": "The Virtual Database Engine of SQLite",
+      "url": "https://sqlite.org/vdbe.html",
+      "fetchUrl": "https://sqlite.org/vdbe.html"
+    },
+    {
+      "title": "Vec1 Vector Extension",
+      "url": "https://sqlite.org/vec1.html",
+      "fetchUrl": "https://sqlite.org/vec1.html"
+    },
+    {
+      "title": "Vec1 Tests on Publicly Available Data",
+      "url": "https://sqlite.org/vec1bench.html",
+      "fetchUrl": "https://sqlite.org/vec1bench.html"
+    },
+    {
+      "title": "Vec1 User Manual",
+      "url": "https://sqlite.org/vec1doc.html",
+      "fetchUrl": "https://sqlite.org/vec1doc.html"
+    },
+    {
+      "title": "Vec1 Reference Guide",
+      "url": "https://sqlite.org/vec1ref.html",
+      "fetchUrl": "https://sqlite.org/vec1ref.html"
+    },
+    {
+      "title": "SQLite Version 3 Overview",
+      "url": "https://sqlite.org/version3.html",
+      "fetchUrl": "https://sqlite.org/version3.html"
+    },
+    {
+      "title": "Version Numbers in SQLite",
+      "url": "https://sqlite.org/versionnumbers.html",
+      "fetchUrl": "https://sqlite.org/versionnumbers.html"
+    },
+    {
+      "title": "The SQLite OS Interface or \"VFS\"",
+      "url": "https://sqlite.org/vfs.html",
+      "fetchUrl": "https://sqlite.org/vfs.html"
+    },
+    {
+      "title": "The Virtual Table Mechanism Of SQLite",
+      "url": "https://sqlite.org/vtab.html",
+      "fetchUrl": "https://sqlite.org/vtab.html"
+    },
+    {
+      "title": "List Of Virtual Tables",
+      "url": "https://sqlite.org/vtablist.html",
+      "fetchUrl": "https://sqlite.org/vtablist.html"
+    },
+    {
+      "title": "SQLite write ahead logging WAL",
+      "url": "https://sqlite.org/wal.html",
+      "fetchUrl": "https://sqlite.org/wal.html"
+    },
+    {
+      "title": "WAL-mode File Format",
+      "url": "https://sqlite.org/walformat.html",
+      "fetchUrl": "https://sqlite.org/walformat.html"
+    },
+    {
+      "title": "SQLite appropriate uses and database selection",
+      "url": "https://sqlite.org/whentouse.html",
+      "fetchUrl": "https://sqlite.org/whentouse.html"
+    },
+    {
+      "title": "Why SQLite Uses Bytecode",
+      "url": "https://sqlite.org/whybytecode.html",
+      "fetchUrl": "https://sqlite.org/whybytecode.html"
+    },
+    {
+      "title": "Why Is SQLite Coded In C",
+      "url": "https://sqlite.org/whyc.html",
+      "fetchUrl": "https://sqlite.org/whyc.html"
+    },
+    {
+      "title": "Why SQLite Does Not Use Git",
+      "url": "https://sqlite.org/whynotgit.html",
+      "fetchUrl": "https://sqlite.org/whynotgit.html"
+    },
+    {
+      "title": "Window Functions",
+      "url": "https://sqlite.org/windowfunctions.html",
+      "fetchUrl": "https://sqlite.org/windowfunctions.html"
+    },
+    {
+      "title": "Clustered Indexes and the WITHOUT ROWID Optimization",
+      "url": "https://sqlite.org/withoutrowid.html",
+      "fetchUrl": "https://sqlite.org/withoutrowid.html"
+    },
+    {
+      "title": "Zero-Configuration",
+      "url": "https://sqlite.org/zeroconf.html",
+      "fetchUrl": "https://sqlite.org/zeroconf.html"
+    },
+    {
+      "title": "The SQLite Zipfile Module",
+      "url": "https://sqlite.org/zipfile.html",
+      "fetchUrl": "https://sqlite.org/zipfile.html"
+    }
+  ],
+  "referenceIssues": []
+}

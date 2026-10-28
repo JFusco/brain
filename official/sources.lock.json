@@ -324,6 +324,24 @@
       "fetchedAt": "2026-10-28T12:54:50.261Z",
       "track": "rolling-url",
       "catalogSha256": "b117fb181524469ee8fcd5e1fb15b6c6f177a12542e4f1442607b83b13385c91"
+    },
+    "supabase-agent-skills": {
+      "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "fetchedAt": "2026-10-28T12:57:57.287Z",
+      "track": "default-branch",
+      "catalogSha256": "bd25617c4cf5be529417390a6aa0cc9fdfe91bff1c4668a3b85df72764dceb89"
+    },
+    "sqlite-docs": {
+      "revision": "5e088b54752be53171f0b74a47b65d630245b14643436b96b97a1d7f840703cb",
+      "fetchedAt": "2026-10-28T13:04:52.434Z",
+      "track": "rolling-url",
+      "catalogSha256": "7a4188638680a8a6e925c3babbe326ad2dec30b008eba499f97761b1a4e12b01"
+    },
+    "azure-postgresql-docs": {
+      "revision": "a7e7da83abc7f95680183119b235063dff75a184778eda28e35d173d5471b279",
+      "fetchedAt": "2026-10-28T13:06:07.965Z",
+      "track": "rolling-url",
+      "catalogSha256": "92d1d55a361cd5573abe4e941ca265dce9868b8de489189bb85db8a73d574084"
     }
   },
   "toolchain": {

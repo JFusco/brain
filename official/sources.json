@@ -2057,6 +2057,152 @@
       "preferred": false,
       "applicability": "Rolling official database, Auth/RLS, Data API, security, migrations/local development, deployment, platform/connection/backup, Storage, Realtime, Edge Functions and self-hosting guides. Architecture is product-specific. Confirm plan, deployment mode, Postgres major, CLI and client versions. Excludes SDK API reference, blog, pricing, and unrelated integrations. Catalog links do not establish implementation or security acceptance.",
       "fetchSuffix": ".md"
+    },
+    {
+      "id": "supabase-agent-skills",
+      "vendor": "supabase",
+      "domains": [
+        "databases"
+      ],
+      "kind": "repository",
+      "repository": "supabase/agent-skills",
+      "track": "default-branch",
+      "paths": [
+        {
+          "prefix": "skills/"
+        },
+        {
+          "exact": "README.md"
+        },
+        {
+          "exact": "LICENSE"
+        }
+      ],
+      "skillRoot": "skills/",
+      "license": "MIT; see LICENSE at the catalogued upstream commit",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official Supabase and Supabase Postgres best-practices skills with supporting references at a pinned sync commit. Covers product security, schema/query design, connections, concurrency and operations. Supabase-specific instructions are not generic PostgreSQL requirements; metrics and examples need workload verification. Reference-only: no installation, database connection, MCP activation or execution."
+    },
+    {
+      "id": "sqlite-docs",
+      "vendor": "sqlite",
+      "domains": [
+        "databases"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://sqlite.org/doclist.html",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "sqlite.org"
+      ],
+      "includePrefixes": [
+        "/"
+      ],
+      "maxPages": 350,
+      "maxIndexes": 1,
+      "license": "SQLite documentation dedicated to the public domain; see https://sqlite.org/copyright.html",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official alphabetical SQLite document index: architecture, appropriate use, SQL, query planning, transactions/WAL, locking, backup, corruption and defensive security. Rolling documentation; confirm the embedded SQLite library version and compile options, not merely the host language version. This bounded index is not the complete C API reference or evidence of a SQLite-maintained agent skill.",
+      "additionalPages": [
+        {
+          "title": "SQLite defensive security and untrusted databases",
+          "url": "https://sqlite.org/security.html"
+        },
+        {
+          "title": "SQLite architecture",
+          "url": "https://sqlite.org/arch.html"
+        },
+        {
+          "title": "SQLite appropriate uses and database selection",
+          "url": "https://sqlite.org/whentouse.html"
+        },
+        {
+          "title": "SQLite write ahead logging WAL",
+          "url": "https://sqlite.org/wal.html"
+        },
+        {
+          "title": "SQLite backup API",
+          "url": "https://sqlite.org/backup.html"
+        },
+        {
+          "title": "SQLite query planner",
+          "url": "https://sqlite.org/queryplanner.html"
+        },
+        {
+          "title": "SQLite foreign key constraints",
+          "url": "https://sqlite.org/foreignkeys.html"
+        },
+        {
+          "title": "SQLite isolation and concurrency",
+          "url": "https://sqlite.org/isolation.html"
+        }
+      ],
+      "excludePrefixes": [
+        "/changes",
+        "/releaselog/",
+        "/chronology",
+        "/support",
+        "/purchase",
+        "/consortium",
+        "/hirely",
+        "/prosupport",
+        "/copyright",
+        "/index.html",
+        "/doclist.html",
+        "/docs.html",
+        "/sitemap.html",
+        "/keyword_index.html",
+        "/download",
+        "/search"
+      ]
+    },
+    {
+      "id": "azure-postgresql-docs",
+      "vendor": "microsoft",
+      "domains": [
+        "databases"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://learn.microsoft.com/en-us/azure/postgresql/",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "learn.microsoft.com"
+      ],
+      "includePrefixes": [
+        "/en-us/azure/postgresql/",
+        "/en-us/azure/well-architected/service-guides/postgresql",
+        "/en-us/security/benchmark/azure/baselines/azure-database-for-postgresql-flexible-server-security-baseline"
+      ],
+      "maxPages": 180,
+      "maxIndexes": 1,
+      "license": "Microsoft Learn documentation under upstream terms; links and metadata only, no vendor bodies redistributed",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Bounded Azure Database for PostgreSQL landing-page links plus selected architecture, security and operational pages. Flexible Server only; not Azure SQL, Cosmos DB for PostgreSQL or HorizonDB. Rolling service guidance; confirm region, SKU, networking mode, supported Postgres major and extension allowlist. Landing-page coverage is not a full Microsoft Learn manual.",
+      "additionalPages": [
+        {
+          "title": "Azure PostgreSQL Well-Architected architecture best practices",
+          "url": "https://learn.microsoft.com/en-us/azure/well-architected/service-guides/postgresql"
+        },
+        {
+          "title": "Azure PostgreSQL security overview and hardening",
+          "url": "https://learn.microsoft.com/en-us/azure/postgresql/security/security-overview"
+        },
+        {
+          "title": "Azure PostgreSQL role based access management",
+          "url": "https://learn.microsoft.com/en-us/azure/postgresql/security/security-access-control"
+        },
+        {
+          "title": "Azure PostgreSQL performance and architecture planning",
+          "url": "https://learn.microsoft.com/en-us/azure/postgresql/compute-storage/concepts-optimal-performance"
+        },
+        {
+          "title": "Azure PostgreSQL Flexible Server security baseline",
+          "url": "https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-database-for-postgresql-flexible-server-security-baseline"
+        }
+      ]
     }
   ],
   "pointers": [

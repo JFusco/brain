@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "source": "supabase-agent-skills",
+  "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+  "origin": "https://github.com/supabase/agent-skills/tree/c9be0e931b7930f7d02126d04774d904c381e7d7/",
+  "skills": [
+    {
+      "id": "supabase-agent-skills/supabase",
+      "name": "supabase",
+      "declaredName": "supabase",
+      "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, declarative schemas, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector); debugging and troubleshooting errors or unexpected behavior on Supabase projects (HTTP errors, Postgres errors, RLS surprises, permission denied, schema cache issues, timeouts, Edge Function crashes, Realtime drops, Storage failures) and reading or querying logs (Logs Explorer, ClickHouse).",
+      "directory": "skills/supabase",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/SKILL.md",
+      "gitBlobSha": "66093e0a0f8d9268094c1a4b38c04419b787ca89"
+    },
+    {
+      "id": "supabase-agent-skills/supabase-postgres-best-practices",
+      "name": "supabase-postgres-best-practices",
+      "declaredName": "supabase-postgres-best-practices",
+      "description": "Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changing anything that lives in a Postgres database: creating or altering tables and columns (including choosing column types), schema design, migrations and declarative schema files, RLS policies and the tests that verify them, indexes, triggers, database functions, queues and scheduled jobs (pg_cron, pgmq), vector/semantic search (pgvector), and restoring dumps (pg_restore) or importing data. Also load it when diagnosing slow queries, high CPU, timeouts, EXPLAIN plans, connection exhaustion, locking, bloat, or rows visible to the wrong user or tenant. This is not just a performance guide — schema, migration, security, and SQL authoring tasks need these rules too, even for a one-column change or a single query.",
+      "directory": "skills/supabase-postgres-best-practices",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/SKILL.md",
+      "gitBlobSha": "6400792389dfcc82c81953054e546bd72ebcd259"
+    }
+  ],
+  "docs": [
+    {
+      "path": "README.md",
+      "title": "Supabase Agent Skills",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/README.md",
+      "gitBlobSha": "528beca0861b4a42368c87f8190d6fa96df44900"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/CHANGELOG.md",
+      "title": "Changelog",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/CHANGELOG.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/CHANGELOG.md",
+      "gitBlobSha": "6d7d0d2acd380d09be9a4431037858149ce3496f"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/_contributing.md",
+      "title": "Writing Guidelines for Postgres References",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/_contributing.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/_contributing.md",
+      "gitBlobSha": "1c055aff9ad2bf12cfe7edc0002f2f77fe6980d2"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/_sections.md",
+      "title": "Section Definitions",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/_sections.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/_sections.md",
+      "gitBlobSha": "8ba57c23e8119e411fcc8a230cda08e695792cac"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/_template.md",
+      "title": "skills/supabase-postgres-best-practices/references/_template.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/_template.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/_template.md",
+      "gitBlobSha": "91ace90e10a4d8ef354a82bb1994842e6979ebed"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/advanced-full-text-search.md",
+      "title": "skills/supabase-postgres-best-practices/references/advanced-full-text-search.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/advanced-full-text-search.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/advanced-full-text-search.md",
+      "gitBlobSha": "582cbeaada9378a280ad61f57e06c10d258e3c43"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/advanced-jsonb-indexing.md",
+      "title": "skills/supabase-postgres-best-practices/references/advanced-jsonb-indexing.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/advanced-jsonb-indexing.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/advanced-jsonb-indexing.md",
+      "gitBlobSha": "e3d261ea117fd7b1ad9c4f0d45308407b898ed5a"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/conn-idle-timeout.md",
+      "title": "pgbouncer.ini",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-idle-timeout.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-idle-timeout.md",
+      "gitBlobSha": "40b9cc50dd12cf347ed189fac965673b533f3f99"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/conn-limits.md",
+      "title": "skills/supabase-postgres-best-practices/references/conn-limits.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-limits.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-limits.md",
+      "gitBlobSha": "cb3e400c0234e7e9196c1650423faad66375b70b"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/conn-pooling.md",
+      "title": "skills/supabase-postgres-best-practices/references/conn-pooling.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-pooling.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-pooling.md",
+      "gitBlobSha": "e2ebd581d3c85bff0a077e8d9a2cb562d2513d03"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/conn-prepared-statements.md",
+      "title": "skills/supabase-postgres-best-practices/references/conn-prepared-statements.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-prepared-statements.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/conn-prepared-statements.md",
+      "gitBlobSha": "555547d834e35b5059152dfb2288eca5e9838ea0"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/data-batch-inserts.md",
+      "title": "skills/supabase-postgres-best-practices/references/data-batch-inserts.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/data-batch-inserts.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/data-batch-inserts.md",
+      "gitBlobSha": "997947cb17bfed67f29eaa8da2a58de2306cc2c1"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/data-n-plus-one.md",
+      "title": "skills/supabase-postgres-best-practices/references/data-n-plus-one.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/data-n-plus-one.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/data-n-plus-one.md",
+      "gitBlobSha": "2109186ff88b3ba1cc32789f81e2a00d345c6e3f"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/data-pagination.md",
+      "title": "skills/supabase-postgres-best-practices/references/data-pagination.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/data-pagination.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/data-pagination.md",
+      "gitBlobSha": "633d839323612e212a833dd96828cb31fdfb39f8"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/data-upsert.md",
+      "title": "skills/supabase-postgres-best-practices/references/data-upsert.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/data-upsert.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/data-upsert.md",
+      "gitBlobSha": "bc95e2305d955679446c70854cb2b56b183aa56d"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/lock-advisory.md",
+      "title": "skills/supabase-postgres-best-practices/references/lock-advisory.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/lock-advisory.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/lock-advisory.md",
+      "gitBlobSha": "572eaf0dcf518ac925c4cde41beb60b62852b79c"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/lock-deadlock-prevention.md",
+      "title": "skills/supabase-postgres-best-practices/references/lock-deadlock-prevention.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/lock-deadlock-prevention.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/lock-deadlock-prevention.md",
+      "gitBlobSha": "974da5edec32f79de0fcdc771d4ef759dc3e049d"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/lock-short-transactions.md",
+      "title": "skills/supabase-postgres-best-practices/references/lock-short-transactions.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/lock-short-transactions.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/lock-short-transactions.md",
+      "gitBlobSha": "e6b8ef2633248a4aa4394628e48d8cb693e7e6ab"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/lock-skip-locked.md",
+      "title": "skills/supabase-postgres-best-practices/references/lock-skip-locked.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/lock-skip-locked.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/lock-skip-locked.md",
+      "gitBlobSha": "77bdbb97045010ce2fdbd90733e8f764be82881a"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/monitor-explain-analyze.md",
+      "title": "skills/supabase-postgres-best-practices/references/monitor-explain-analyze.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/monitor-explain-analyze.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/monitor-explain-analyze.md",
+      "gitBlobSha": "542978c3bafc510fa8d7a8864cff994ad40be4d7"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/monitor-pg-stat-statements.md",
+      "title": "skills/supabase-postgres-best-practices/references/monitor-pg-stat-statements.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/monitor-pg-stat-statements.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/monitor-pg-stat-statements.md",
+      "gitBlobSha": "d7e82f1aacd105d53789eb6188d11e8ea39e7310"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/monitor-vacuum-analyze.md",
+      "title": "skills/supabase-postgres-best-practices/references/monitor-vacuum-analyze.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/monitor-vacuum-analyze.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/monitor-vacuum-analyze.md",
+      "gitBlobSha": "e0e8ea0b7db8c1513a0d1605be477192bc21d91d"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/query-composite-indexes.md",
+      "title": "skills/supabase-postgres-best-practices/references/query-composite-indexes.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/query-composite-indexes.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/query-composite-indexes.md",
+      "gitBlobSha": "fea64523fd5bb3696f943d486ccaf2aea75d27b8"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/query-covering-indexes.md",
+      "title": "skills/supabase-postgres-best-practices/references/query-covering-indexes.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/query-covering-indexes.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/query-covering-indexes.md",
+      "gitBlobSha": "9d2a4947b94516dd975e1044d132bb007280f478"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/query-index-types.md",
+      "title": "skills/supabase-postgres-best-practices/references/query-index-types.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/query-index-types.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/query-index-types.md",
+      "gitBlobSha": "93b32590f4bfe377869274f45414ae6e43d168fa"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/query-missing-indexes.md",
+      "title": "skills/supabase-postgres-best-practices/references/query-missing-indexes.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/query-missing-indexes.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/query-missing-indexes.md",
+      "gitBlobSha": "e6daace7dd368c75cdf87dc61be4afd6ff66cbbe"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/query-partial-indexes.md",
+      "title": "skills/supabase-postgres-best-practices/references/query-partial-indexes.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/query-partial-indexes.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/query-partial-indexes.md",
+      "gitBlobSha": "3e61a3417b9cce3c8cee99b39b78b7ebf495dd1f"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/schema-constraints.md",
+      "title": "skills/supabase-postgres-best-practices/references/schema-constraints.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-constraints.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-constraints.md",
+      "gitBlobSha": "1d2ef8f9a968cd6fa882c7299134c30ace06373c"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/schema-data-types.md",
+      "title": "skills/supabase-postgres-best-practices/references/schema-data-types.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-data-types.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-data-types.md",
+      "gitBlobSha": "f253a5819d05531371e04485ab84f552fbb32fbe"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/schema-foreign-key-indexes.md",
+      "title": "skills/supabase-postgres-best-practices/references/schema-foreign-key-indexes.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-foreign-key-indexes.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-foreign-key-indexes.md",
+      "gitBlobSha": "6c3d6ff622b8a9df358f6673f323292e682ce87c"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/schema-lowercase-identifiers.md",
+      "title": "skills/supabase-postgres-best-practices/references/schema-lowercase-identifiers.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-lowercase-identifiers.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-lowercase-identifiers.md",
+      "gitBlobSha": "f0072940b159ff64e0c2d4fbb499133cb8f49a66"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/schema-partitioning.md",
+      "title": "skills/supabase-postgres-best-practices/references/schema-partitioning.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-partitioning.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-partitioning.md",
+      "gitBlobSha": "13137a03275fa45001c870a40b0069204d44e005"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/schema-primary-keys.md",
+      "title": "skills/supabase-postgres-best-practices/references/schema-primary-keys.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-primary-keys.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/schema-primary-keys.md",
+      "gitBlobSha": "fb0fbb166fac9ea38c127d807a263282acc2dc93"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/security-privileges.md",
+      "title": "skills/supabase-postgres-best-practices/references/security-privileges.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-privileges.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-privileges.md",
+      "gitBlobSha": "448ec345fab6c5a0116c584d65638b86d758c558"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/security-rls-basics.md",
+      "title": "skills/supabase-postgres-best-practices/references/security-rls-basics.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-rls-basics.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-rls-basics.md",
+      "gitBlobSha": "c61e1a8503de113be0981759b82f5e37090f344c"
+    },
+    {
+      "path": "skills/supabase-postgres-best-practices/references/security-rls-performance.md",
+      "title": "skills/supabase-postgres-best-practices/references/security-rls-performance.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-rls-performance.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/references/security-rls-performance.md",
+      "gitBlobSha": "c3c7c416d57d9a46a9993f4e0c20f772fb64483d"
+    },
+    {
+      "path": "skills/supabase/assets/feedback-issue-template.md",
+      "title": "skills/supabase/assets/feedback-issue-template.md",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/assets/feedback-issue-template.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/assets/feedback-issue-template.md",
+      "gitBlobSha": "e81082532d36309e11f2721e8380636329221525"
+    },
+    {
+      "path": "skills/supabase/CHANGELOG.md",
+      "title": "Changelog",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/CHANGELOG.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/CHANGELOG.md",
+      "gitBlobSha": "16c4657c58336adeb579418cc0088c46cb83ee7b"
+    },
+    {
+      "path": "skills/supabase/references/skill-feedback.md",
+      "title": "Skill Feedback",
+      "url": "https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/references/skill-feedback.md",
+      "fetchUrl": "https://raw.githubusercontent.com/supabase/agent-skills/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/references/skill-feedback.md",
+      "gitBlobSha": "9c047d5a1775c0cf4b35d3687753d84b77b1cf0a"
+    }
+  ],
+  "pages": [],
+  "referenceIssues": [
+    {
+      "from": "README.md",
+      "target": "assets/og.png"
+    }
+  ]
+}
