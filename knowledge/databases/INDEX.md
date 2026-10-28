@@ -37,4 +37,6 @@ No curated notes yet.
 - **supabase-agent-skills** — 2 skills and 39 docs at a pinned commit; default-branch; revision `c9be0e931b7930f7d02126d04774d904c381e7d7`; fetched 2026-10-28.
   - [supabase](https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/SKILL.md) — reference only.
   - [supabase-postgres-best-practices](https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase-postgres-best-practices/SKILL.md) — reference only.
+- **sqlite-docs** — link catalog of 206 pages; rolling-url; revision `5e088b54752be53171f0b74a47b65d630245b14643436b96b97a1d7f840703cb`; fetched 2026-10-28.
+  - [Catalog source](https://sqlite.org/doclist.html); search it with `lookup --domain databases`.
 <!-- brain:official:end -->

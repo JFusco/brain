@@ -330,6 +330,12 @@
       "fetchedAt": "2026-10-28T12:57:57.287Z",
       "track": "default-branch",
       "catalogSha256": "bd25617c4cf5be529417390a6aa0cc9fdfe91bff1c4668a3b85df72764dceb89"
+    },
+    "sqlite-docs": {
+      "revision": "5e088b54752be53171f0b74a47b65d630245b14643436b96b97a1d7f840703cb",
+      "fetchedAt": "2026-10-28T13:04:52.434Z",
+      "track": "rolling-url",
+      "catalogSha256": "7a4188638680a8a6e925c3babbe326ad2dec30b008eba499f97761b1a4e12b01"
     }
   },
   "toolchain": {
