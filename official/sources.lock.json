@@ -104,10 +104,10 @@
       "catalogSha256": "0c5bbbe58b186d6cdb49271a23793d5ac3dbb68250cfeb2aad88c7ae50c5d76a"
     },
     "sitecoreai-docs": {
-      "revision": "70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6",
-      "fetchedAt": "2026-10-21T21:02:15.045Z",
+      "revision": "4a62a6a81c56ff1042354b6a785138e4579ab08d1dcc1d098f12e4113a15b481",
+      "fetchedAt": "2026-10-28T17:49:52.214Z",
       "track": "rolling-url",
-      "catalogSha256": "a0906139cf973b617ec155099933a12c122980b7d2370b5769e6dbd740976697"
+      "catalogSha256": "e2af73d24bb6959bea7d677c151b706020e38f7e9cbd5133d09a3c49d27c81a1"
     },
     "content-hub-docs": {
       "revision": "e377cdfbd5b19dfe15a4b6d56bda20cefb94b027f456805396ab461a607f77d4",
@@ -122,10 +122,10 @@
       "catalogSha256": "8dd138adde66c0fbf416d708830540e8a40b108c1ebe5630fd0da3bba4be4486"
     },
     "sitecore-xp-docs": {
-      "revision": "08b5fa1d9b1bdcd8dbfc634f4b626e214b12eb21a70f96dcec5c7b86c0f07ff1",
-      "fetchedAt": "2026-10-18T23:49:40.708Z",
+      "revision": "71fcf13f3e8fab82a54f56078ad88da7bdfe4e8d192d6dcd07306efb9df92753",
+      "fetchedAt": "2026-10-28T17:49:54.560Z",
       "track": "rolling-url",
-      "catalogSha256": "dc1f723a4191d275a1bbe1afd0ac3206d2f24494f11543789c88c3362039216d"
+      "catalogSha256": "25bf7a95d200c6a4e39d4166eb6a902a39bf6595bfc022dd9b41c1a9be30c0d9"
     },
     "wordpress-docs": {
       "revision": "efdbfa1b194e386e10bedb1974b4416e98c0b3c54b20a4e9cee5f1919a02e95d",
