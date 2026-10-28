@@ -20,3 +20,7 @@ Source registrations are separately reviewed, stacked issue-linked PRs. No sourc
 
 [Issue 263](https://github.com/JFusco/brain/issues/263): SQLite alphabetical document index supplies architecture, engine selection, transactions/WAL, query planning, backup, corruption and defensive security. This bounded index is not a full C API catalog. No SQLite-maintained agent skill was found in the scoped official-source search; this does not prove none exists. Check the embedded engine version and compile options.
 
+## Azure PostgreSQL documentation and architecture
+
+[Issue 264](https://github.com/JFusco/brain/issues/264): Azure Database for PostgreSQL landing-page links plus selected Microsoft Well-Architected, security hardening, access management, security baseline and performance-planning pages. Flexible Server only; not a full Learn manual. Old landing-page links may redirect to reorganized sections; a redirect is not verification of technical content. Microsoft documentation repository discovery returned 404, so this registration uses the retrieved HTML index.
+
