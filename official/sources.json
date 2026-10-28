@@ -2057,6 +2057,32 @@
       "preferred": false,
       "applicability": "Rolling official database, Auth/RLS, Data API, security, migrations/local development, deployment, platform/connection/backup, Storage, Realtime, Edge Functions and self-hosting guides. Architecture is product-specific. Confirm plan, deployment mode, Postgres major, CLI and client versions. Excludes SDK API reference, blog, pricing, and unrelated integrations. Catalog links do not establish implementation or security acceptance.",
       "fetchSuffix": ".md"
+    },
+    {
+      "id": "supabase-agent-skills",
+      "vendor": "supabase",
+      "domains": [
+        "databases"
+      ],
+      "kind": "repository",
+      "repository": "supabase/agent-skills",
+      "track": "default-branch",
+      "paths": [
+        {
+          "prefix": "skills/"
+        },
+        {
+          "exact": "README.md"
+        },
+        {
+          "exact": "LICENSE"
+        }
+      ],
+      "skillRoot": "skills/",
+      "license": "MIT; see LICENSE at the catalogued upstream commit",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official Supabase and Supabase Postgres best-practices skills with supporting references at a pinned sync commit. Covers product security, schema/query design, connections, concurrency and operations. Supabase-specific instructions are not generic PostgreSQL requirements; metrics and examples need workload verification. Reference-only: no installation, database connection, MCP activation or execution."
     }
   ],
   "pointers": [

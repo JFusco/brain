@@ -488,6 +488,7 @@ code change; routine catalog-refresh PRs still exclude dependency upgrades.
 | Salesforce B2B Commerce | Website pointers only: the [B2B Commerce Developer Guide](https://developer.salesforce.com/docs/commerce/salesforce-commerce/overview), the [Aura to LWR Migration Guide](https://developer.salesforce.com/docs/commerce/lwr-migration/guide/get-started.html) and the [Commerce Cloud Markdown index](https://developer.salesforce.com/docs/llms-commerce-cloud.txt). The index answered curl's default user agent but refuses Brain's fetcher, agent web-fetch tools and a browser user agent sent over curl with HTTP 403, so no catalog is registered; open the pointers in a desktop browser |
 | Databases: PostgreSQL 18 documentation | [Official source](https://www.postgresql.org/docs/18/index.html); PostgreSQL 18 chapter links and explicitly selected architecture, row security, privileges, schema security, transaction isolation, locking, TLS, query-plan and recovery sections. The major is fixed at 18; minor documentation rolls. Other majors and development docs are excluded. Confirm the target server major before use. |
 | Databases: Supabase documentation | [Official source](https://supabase.com/docs/sitemap.xml); Supabase guide sitemap filtered to database, Auth/RLS, API, security, migrations/local development, deployment, platform, storage, realtime, functions, observability and self-hosting. Excludes API reference, blogs and pricing. Rolling product guidance requires plan, hosting mode, server and client version checks. |
+| Databases: Supabase native agent skills | [Official source](https://github.com/supabase/agent-skills); Supabase native product skill and Postgres best-practices skill, including their supporting references, from the official MIT repository. Pinned to the locally synced commit; reference-only. Provider-specific security and workload-dependent optimization examples are not universal engine contracts. |
 
 Coverage is reviewed weekly against the watch list below, and each addition is a separate registration PR. Existing linked authority repositories supply organizational accessibility, CMS vocabulary, and UI guidance. Routine refresh never adds sources.
 
@@ -529,6 +530,7 @@ The weekly coverage review checks these official places for new documentation in
 | Salesforce B2B Commerce | developer.salesforce.com/docs (`llms.txt`, `llms-commerce-cloud.txt`; Brain's fetcher currently receives HTTP 403), help.salesforce.com, github.com/forcedotcom |
 | Databases: PostgreSQL 18 documentation | https://www.postgresql.org/docs/18/index.html; check upstream documentation, skill paths and product/version limits before expanding coverage |
 | Databases: Supabase documentation | https://supabase.com/docs/sitemap.xml; check upstream documentation, skill paths and product/version limits before expanding coverage |
+| Databases: Supabase native agent skills | https://github.com/supabase/agent-skills; check upstream documentation, skill paths and product/version limits before expanding coverage |
 
 ## Project skills
 
