@@ -1950,6 +1950,78 @@
           "url": "https://learn.chatgpt.com/docs/hooks"
         }
       ]
+    },
+    {
+      "id": "postgresql-18-docs",
+      "vendor": "postgresql",
+      "domains": [
+        "databases"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://www.postgresql.org/docs/18/index.html",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "www.postgresql.org"
+      ],
+      "includePrefixes": [
+        "/docs/18/"
+      ],
+      "maxPages": 160,
+      "maxIndexes": 1,
+      "license": "PostgreSQL License; official documentation links and metadata only",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "PostgreSQL 18 chapter-level documentation plus selected security, schema, concurrency, query, backup and architecture sections. Fixed 18 major, rolling minor documentation. Confirm the actual server major, extension versions and hosting restrictions; this is not compatibility evidence for older Supabase or Azure servers. Excludes other majors and development documentation.",
+      "additionalPages": [
+        {
+          "title": "PostgreSQL 18 system architecture",
+          "url": "https://www.postgresql.org/docs/18/tutorial-arch.html"
+        },
+        {
+          "title": "PostgreSQL 18 schema design and privileges",
+          "url": "https://www.postgresql.org/docs/18/ddl.html"
+        },
+        {
+          "title": "PostgreSQL 18 row security policies",
+          "url": "https://www.postgresql.org/docs/18/ddl-rowsecurity.html"
+        },
+        {
+          "title": "PostgreSQL 18 privileges",
+          "url": "https://www.postgresql.org/docs/18/ddl-priv.html"
+        },
+        {
+          "title": "PostgreSQL 18 schema security and search path",
+          "url": "https://www.postgresql.org/docs/18/ddl-schemas.html"
+        },
+        {
+          "title": "PostgreSQL 18 transaction isolation",
+          "url": "https://www.postgresql.org/docs/18/transaction-iso.html"
+        },
+        {
+          "title": "PostgreSQL 18 explicit locking",
+          "url": "https://www.postgresql.org/docs/18/explicit-locking.html"
+        },
+        {
+          "title": "PostgreSQL 18 using EXPLAIN",
+          "url": "https://www.postgresql.org/docs/18/using-explain.html"
+        },
+        {
+          "title": "PostgreSQL 18 SSL support and TLS",
+          "url": "https://www.postgresql.org/docs/18/ssl-tcp.html"
+        },
+        {
+          "title": "PostgreSQL 18 client certificate verification",
+          "url": "https://www.postgresql.org/docs/18/libpq-ssl.html"
+        },
+        {
+          "title": "PostgreSQL 18 continuous archiving and point in time recovery",
+          "url": "https://www.postgresql.org/docs/18/continuous-archiving.html"
+        },
+        {
+          "title": "PostgreSQL 18 SQL dump backups",
+          "url": "https://www.postgresql.org/docs/18/backup-dump.html"
+        }
+      ]
     }
   ],
   "pointers": [

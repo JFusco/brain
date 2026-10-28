@@ -312,6 +312,12 @@
       "fetchedAt": "2026-10-27T21:42:47.950Z",
       "track": "rolling-url",
       "catalogSha256": "26f6a2a4b31bd34aaaff7ca30fcc2a88a2813ffe8df11618232d0ce76a706ab8"
+    },
+    "postgresql-18-docs": {
+      "revision": "47a8f7958b6b19e6607b2b546a5f043d0afc84dbf0d1e4ccbad18362331c957d",
+      "fetchedAt": "2026-10-28T12:52:29.621Z",
+      "track": "rolling-url",
+      "catalogSha256": "a0408617bbe6bead6b8f9943f135c92980b118842db7db25d03358521ced3c70"
     }
   },
   "toolchain": {

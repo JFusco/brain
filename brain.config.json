@@ -32,6 +32,7 @@
     "tooling",
     "design-systems",
     "commerce/salesforce-b2b",
+    "databases",
     "_unsorted"
   ],
   "capture": {
@@ -174,6 +175,16 @@
       "salesforce b2b",
       "b2b commerce",
       "lightning web runtime"
+    ],
+    "databases": [
+      "supabase",
+      "sqlite",
+      "postgresql",
+      "postgres",
+      "pgbouncer",
+      "row level security",
+      "database migration",
+      "database architecture"
     ]
   },
   "network": {

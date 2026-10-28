@@ -8,6 +8,7 @@ This wiki is the durable project record for decisions, executed plans, and subst
 - [Plan ledger](./plans/INDEX.md) — executed-plan archives and historical audit results.
 - [Automatic knowledge maintenance](./topics/automatic-knowledge-maintenance.md) — curation, documentation coverage, privacy, automation, and audit findings.
 - [Incremental collection](./topics/incremental-collection.md) — skip unchanged source bodies and compare lessons before publication.
+- [Database coverage](./topics/database-coverage.md) — database architecture, operations, security and official skills.
 - [Official reference expansion](./topics/official-reference-expansion.md) — bounded browser, internationalization, testing, security and performance sources.
 - [WordPress coverage](./topics/wordpress-coverage.md) — official developer handbooks and reference-only agent skills.
 - [CMS field vocabulary](./topics/cms-field-vocabulary.md) — pinned field facts, explicit profiles and advisory release detection.
