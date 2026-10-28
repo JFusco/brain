@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "source": "azure-postgresql-docs",
+  "revision": "a7e7da83abc7f95680183119b235063dff75a184778eda28e35d173d5471b279",
+  "origin": "https://learn.microsoft.com/en-us/azure/postgresql/",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "azure / postgresql",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/"
+    },
+    {
+      "title": "Azure PostgreSQL performance and architecture planning",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/compute-storage/concepts-optimal-performance",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/compute-storage/concepts-optimal-performance"
+    },
+    {
+      "title": "Connect and query using Visual Studio Code",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/development/vs-code-extension/postgresql-extension-overview",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/development/vs-code-extension/postgresql-extension-overview"
+    },
+    {
+      "title": "Create an elastic cluster",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/elastic-clusters/create-elastic-cluster",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/elastic-clusters/create-elastic-cluster"
+    },
+    {
+      "title": "Back up and restore",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-backup-restore",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-backup-restore"
+    },
+    {
+      "title": "Business continuity overview",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-business-continuity",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-business-continuity"
+    },
+    {
+      "title": "Compute and storage",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-compute-storage",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-compute-storage"
+    },
+    {
+      "title": "Connection libraries for App development",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-connection-libraries",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-connection-libraries"
+    },
+    {
+      "title": "Data Encryption",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-data-encryption",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-data-encryption"
+    },
+    {
+      "title": "Horizontal scale out",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-elastic-clusters",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-elastic-clusters"
+    },
+    {
+      "title": "Extensions",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-extensions",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-extensions"
+    },
+    {
+      "title": "Identity and access management",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-identity",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-identity"
+    },
+    {
+      "title": "Scheduled maintenance",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-maintenance",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-maintenance"
+    },
+    {
+      "title": "Monitor",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-monitoring",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-monitoring"
+    },
+    {
+      "title": "Networking with Private Endpoint",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-networking-private-link",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-networking-private-link"
+    },
+    {
+      "title": "Read replicas",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-read-replicas",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-read-replicas"
+    },
+    {
+      "title": "Security concepts",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-security",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-security"
+    },
+    {
+      "title": "Storage concepts",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-storage",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-storage"
+    },
+    {
+      "title": "Connect with Azure CLI",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-azure-cli",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-azure-cli"
+    },
+    {
+      "title": "Build a Python CRUD app (Entra and Password-based authentication)",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-python",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/connect-python"
+    },
+    {
+      "title": "Graph database using Apache AGE",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-age-overview",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-age-overview"
+    },
+    {
+      "title": "Build an AI agent using Azure AI Agent Services",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-agents",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-agents"
+    },
+    {
+      "title": "Develop with LangChain",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-develop-with-langchain",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-develop-with-langchain"
+    },
+    {
+      "title": "GenAI Framework integrations (Semantic Kernel, LangChain, LlamaIndex and Microsoft GraphRAG)",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-frameworks",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-frameworks"
+    },
+    {
+      "title": "Generative AI overview",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-overview",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-overview"
+    },
+    {
+      "title": "Implement Semantic Search with pgvector and Azure OpenAI",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-semantic-search",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/generative-ai-semantic-search"
+    },
+    {
+      "title": "Manage high availability",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-configure-high-availability",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-configure-high-availability"
+    },
+    {
+      "title": "Entra-id authentication guide",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-configure-sign-in-azure-ad-authentication",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-configure-sign-in-azure-ad-authentication"
+    },
+    {
+      "title": "Try Azure Database for PostgreSQL for free",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-deploy-on-azure-free-account",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-deploy-on-azure-free-account"
+    },
+    {
+      "title": "Integrate Azure AI capabilities",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-integrate-azure-ai",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-integrate-azure-ai"
+    },
+    {
+      "title": "Manage your server",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-manage-server-portal",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-manage-server-portal"
+    },
+    {
+      "title": "Restore to paired region (geo-restore)",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-restore-paired-region",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-restore-paired-region"
+    },
+    {
+      "title": "Guide on scalable compute",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-scale-compute",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-scale-compute"
+    },
+    {
+      "title": "Scale out with elastic clusters",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-scale-out",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-scale-out"
+    },
+    {
+      "title": "Troubleshooting guides overview",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-troubleshooting-guides",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-troubleshooting-guides"
+    },
+    {
+      "title": "Efficient web-scale vector search with DiskANN",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-use-pgdiskann",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-use-pgdiskann"
+    },
+    {
+      "title": "Vector Search with pgvector",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-use-pgvector",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/how-to-use-pgvector"
+    },
+    {
+      "title": "Create an Azure Database for PostgreSQL",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/quickstart-create-server",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/quickstart-create-server"
+    },
+    {
+      "title": "Quickstart guide for Bicep",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/quickstart-create-server-bicep",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/quickstart-create-server-bicep"
+    },
+    {
+      "title": "Quickstart guide for Python",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/quickstart-create-server-python-sdk",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/quickstart-create-server-python-sdk"
+    },
+    {
+      "title": "Check out our release notes",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/release-notes",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/release-notes"
+    },
+    {
+      "title": "Deploy Django App with AKS",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/tutorial-django-aks-database",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/tutorial-django-aks-database"
+    },
+    {
+      "title": "Azure Database for PostgreSQL flexible server mirroring in Microsoft Fabric",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/integration/concepts-fabric-mirroring",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/integration/concepts-fabric-mirroring"
+    },
+    {
+      "title": "Pre-Migration Validation",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/concepts-premigration-migration-service",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/concepts-premigration-migration-service"
+    },
+    {
+      "title": "Migration Service overview",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/overview-migration-service-postgresql",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/overview-migration-service-postgresql"
+    },
+    {
+      "title": "Migrate (Offline) from Google AlloyDB for PostgreSQL",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-alloy-db-offline",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-alloy-db-offline"
+    },
+    {
+      "title": "Migrate (Online) from Google AlloyDB for PostgreSQL",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-alloy-db-online",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-alloy-db-online"
+    },
+    {
+      "title": "Migrate (Offline) from Amazon Aurora",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-aurora-offline",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-aurora-offline"
+    },
+    {
+      "title": "Migrate (Online) from Amazon Aurora",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-aurora-online",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-aurora-online"
+    },
+    {
+      "title": "Migrate (Offline) from Amazon RDS",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-aws-offline",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-aws-offline"
+    },
+    {
+      "title": "Migrate (Online) from Amazon RDS",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-aws-online",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-aws-online"
+    },
+    {
+      "title": "Migrate (Offline) from Google Cloud SQL for PostgreSQL",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-cloud-sql-offline",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-cloud-sql-offline"
+    },
+    {
+      "title": "Migrate (Online) from Google Cloud SQL for PostgreSQL",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-cloud-sql-online",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-cloud-sql-online"
+    },
+    {
+      "title": "Migrate (Offline) from EDB Extended server",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-enterprise-db-extended-server-offline",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-enterprise-db-extended-server-offline"
+    },
+    {
+      "title": "Migrate (Online) from EDB Extended server",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-enterprise-db-extended-server-online",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-enterprise-db-extended-server-online"
+    },
+    {
+      "title": "Migrate (Offline) from an Azure VM or on-premises PostgreSQL server",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-iaas-offline",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-iaas-offline"
+    },
+    {
+      "title": "Migrate (Online) from an Azure VM or on-premises PostgreSQL server",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-iaas-online",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/migrate/migration-service/tutorial-migration-service-iaas-online"
+    },
+    {
+      "title": "What is Azure Database for PostgreSQL flexible server?",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/overview",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/overview"
+    },
+    {
+      "title": "Parameters",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/parameters/concepts-parameters",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/parameters/concepts-parameters"
+    },
+    {
+      "title": "Azure PostgreSQL role based access management",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/security/security-access-control",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/security/security-access-control"
+    },
+    {
+      "title": "Azure PostgreSQL security overview and hardening",
+      "url": "https://learn.microsoft.com/en-us/azure/postgresql/security/security-overview",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/postgresql/security/security-overview"
+    },
+    {
+      "title": "Azure PostgreSQL Well-Architected architecture best practices",
+      "url": "https://learn.microsoft.com/en-us/azure/well-architected/service-guides/postgresql",
+      "fetchUrl": "https://learn.microsoft.com/en-us/azure/well-architected/service-guides/postgresql"
+    },
+    {
+      "title": "Azure PostgreSQL Flexible Server security baseline",
+      "url": "https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-database-for-postgresql-flexible-server-security-baseline",
+      "fetchUrl": "https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-database-for-postgresql-flexible-server-security-baseline"
+    }
+  ],
+  "referenceIssues": []
+}

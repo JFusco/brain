@@ -2157,6 +2157,52 @@
         "/download",
         "/search"
       ]
+    },
+    {
+      "id": "azure-postgresql-docs",
+      "vendor": "microsoft",
+      "domains": [
+        "databases"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://learn.microsoft.com/en-us/azure/postgresql/",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "learn.microsoft.com"
+      ],
+      "includePrefixes": [
+        "/en-us/azure/postgresql/",
+        "/en-us/azure/well-architected/service-guides/postgresql",
+        "/en-us/security/benchmark/azure/baselines/azure-database-for-postgresql-flexible-server-security-baseline"
+      ],
+      "maxPages": 180,
+      "maxIndexes": 1,
+      "license": "Microsoft Learn documentation under upstream terms; links and metadata only, no vendor bodies redistributed",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Bounded Azure Database for PostgreSQL landing-page links plus selected architecture, security and operational pages. Flexible Server only; not Azure SQL, Cosmos DB for PostgreSQL or HorizonDB. Rolling service guidance; confirm region, SKU, networking mode, supported Postgres major and extension allowlist. Landing-page coverage is not a full Microsoft Learn manual.",
+      "additionalPages": [
+        {
+          "title": "Azure PostgreSQL Well-Architected architecture best practices",
+          "url": "https://learn.microsoft.com/en-us/azure/well-architected/service-guides/postgresql"
+        },
+        {
+          "title": "Azure PostgreSQL security overview and hardening",
+          "url": "https://learn.microsoft.com/en-us/azure/postgresql/security/security-overview"
+        },
+        {
+          "title": "Azure PostgreSQL role based access management",
+          "url": "https://learn.microsoft.com/en-us/azure/postgresql/security/security-access-control"
+        },
+        {
+          "title": "Azure PostgreSQL performance and architecture planning",
+          "url": "https://learn.microsoft.com/en-us/azure/postgresql/compute-storage/concepts-optimal-performance"
+        },
+        {
+          "title": "Azure PostgreSQL Flexible Server security baseline",
+          "url": "https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-database-for-postgresql-flexible-server-security-baseline"
+        }
+      ]
     }
   ],
   "pointers": [

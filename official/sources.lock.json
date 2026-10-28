@@ -336,6 +336,12 @@
       "fetchedAt": "2026-10-28T13:04:52.434Z",
       "track": "rolling-url",
       "catalogSha256": "7a4188638680a8a6e925c3babbe326ad2dec30b008eba499f97761b1a4e12b01"
+    },
+    "azure-postgresql-docs": {
+      "revision": "a7e7da83abc7f95680183119b235063dff75a184778eda28e35d173d5471b279",
+      "fetchedAt": "2026-10-28T13:06:07.965Z",
+      "track": "rolling-url",
+      "catalogSha256": "92d1d55a361cd5573abe4e941ca265dce9868b8de489189bb85db8a73d574084"
     }
   },
   "toolchain": {
