@@ -324,6 +324,12 @@
       "fetchedAt": "2026-10-28T12:54:50.261Z",
       "track": "rolling-url",
       "catalogSha256": "b117fb181524469ee8fcd5e1fb15b6c6f177a12542e4f1442607b83b13385c91"
+    },
+    "supabase-agent-skills": {
+      "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "fetchedAt": "2026-10-28T12:57:57.287Z",
+      "track": "default-branch",
+      "catalogSha256": "bd25617c4cf5be529417390a6aa0cc9fdfe91bff1c4668a3b85df72764dceb89"
     }
   },
   "toolchain": {

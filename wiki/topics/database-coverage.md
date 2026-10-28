@@ -12,3 +12,7 @@ Source registrations are separately reviewed, stacked issue-linked PRs. No sourc
 
 [Issue 261](https://github.com/JFusco/brain/issues/261): Supabase guide sitemap filtered to database, Auth/RLS, API, security, migrations/local development, deployment, platform, storage, realtime, functions, observability and self-hosting. Excludes API reference, blogs and pricing. Rolling product guidance requires plan, hosting mode, server and client version checks.
 
+## Supabase native agent skills
+
+[Issue 262](https://github.com/JFusco/brain/issues/262): Supabase native product skill and Postgres best-practices skill, including their supporting references, from the official MIT repository. Pinned to the locally synced commit; reference-only. Provider-specific security and workload-dependent optimization examples are not universal engine contracts.
+
