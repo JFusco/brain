@@ -32,4 +32,6 @@ No curated notes yet.
 
 - **postgresql-18-docs** — link catalog of 117 pages; rolling-url; revision `47a8f7958b6b19e6607b2b546a5f043d0afc84dbf0d1e4ccbad18362331c957d`; fetched 2026-10-28.
   - [Catalog source](https://www.postgresql.org/docs/18/index.html); search it with `lookup --domain databases`.
+- **supabase-docs** — link catalog of 508 pages; rolling-url; revision `075f7d5b46dc03d87d1f60c06941326c0f59ccb8a683f0bf6362032ca030f837`; fetched 2026-10-28.
+  - [Catalog source](https://supabase.com/docs/sitemap.xml); search it with `lookup --domain databases`.
 <!-- brain:official:end -->

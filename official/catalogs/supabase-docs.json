@@ -1,0 +1,2551 @@
+{
+  "schemaVersion": 1,
+  "source": "supabase-docs",
+  "revision": "075f7d5b46dc03d87d1f60c06941326c0f59ccb8a683f0bf6362032ca030f837",
+  "origin": "https://supabase.com/docs/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "guides / api",
+      "url": "https://supabase.com/docs/guides/api",
+      "fetchUrl": "https://supabase.com/docs/guides/api.md"
+    },
+    {
+      "title": "api / automatic retries in supabase js",
+      "url": "https://supabase.com/docs/guides/api/automatic-retries-in-supabase-js",
+      "fetchUrl": "https://supabase.com/docs/guides/api/automatic-retries-in-supabase-js.md"
+    },
+    {
+      "title": "api / creating routes",
+      "url": "https://supabase.com/docs/guides/api/creating-routes",
+      "fetchUrl": "https://supabase.com/docs/guides/api/creating-routes.md"
+    },
+    {
+      "title": "api / custom claims and role based access control rbac",
+      "url": "https://supabase.com/docs/guides/api/custom-claims-and-role-based-access-control-rbac",
+      "fetchUrl": "https://supabase.com/docs/guides/api/custom-claims-and-role-based-access-control-rbac.md"
+    },
+    {
+      "title": "api / handling errors in supabase js",
+      "url": "https://supabase.com/docs/guides/api/handling-errors-in-supabase-js",
+      "fetchUrl": "https://supabase.com/docs/guides/api/handling-errors-in-supabase-js.md"
+    },
+    {
+      "title": "api / quickstart",
+      "url": "https://supabase.com/docs/guides/api/quickstart",
+      "fetchUrl": "https://supabase.com/docs/guides/api/quickstart.md"
+    },
+    {
+      "title": "rest / auto generated docs",
+      "url": "https://supabase.com/docs/guides/api/rest/auto-generated-docs",
+      "fetchUrl": "https://supabase.com/docs/guides/api/rest/auto-generated-docs.md"
+    },
+    {
+      "title": "rest / client libs",
+      "url": "https://supabase.com/docs/guides/api/rest/client-libs",
+      "fetchUrl": "https://supabase.com/docs/guides/api/rest/client-libs.md"
+    },
+    {
+      "title": "rest / generating python types",
+      "url": "https://supabase.com/docs/guides/api/rest/generating-python-types",
+      "fetchUrl": "https://supabase.com/docs/guides/api/rest/generating-python-types.md"
+    },
+    {
+      "title": "rest / generating types",
+      "url": "https://supabase.com/docs/guides/api/rest/generating-types",
+      "fetchUrl": "https://supabase.com/docs/guides/api/rest/generating-types.md"
+    },
+    {
+      "title": "rest / postgrest error codes",
+      "url": "https://supabase.com/docs/guides/api/rest/postgrest-error-codes",
+      "fetchUrl": "https://supabase.com/docs/guides/api/rest/postgrest-error-codes.md"
+    },
+    {
+      "title": "api / securing your api",
+      "url": "https://supabase.com/docs/guides/api/securing-your-api",
+      "fetchUrl": "https://supabase.com/docs/guides/api/securing-your-api.md"
+    },
+    {
+      "title": "api / sql to api",
+      "url": "https://supabase.com/docs/guides/api/sql-to-api",
+      "fetchUrl": "https://supabase.com/docs/guides/api/sql-to-api.md"
+    },
+    {
+      "title": "api / sql to rest",
+      "url": "https://supabase.com/docs/guides/api/sql-to-rest",
+      "fetchUrl": "https://supabase.com/docs/guides/api/sql-to-rest.md"
+    },
+    {
+      "title": "api / using custom schemas",
+      "url": "https://supabase.com/docs/guides/api/using-custom-schemas",
+      "fetchUrl": "https://supabase.com/docs/guides/api/using-custom-schemas.md"
+    },
+    {
+      "title": "guides / auth",
+      "url": "https://supabase.com/docs/guides/auth",
+      "fetchUrl": "https://supabase.com/docs/guides/auth.md"
+    },
+    {
+      "title": "auth / architecture",
+      "url": "https://supabase.com/docs/guides/auth/architecture",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/architecture.md"
+    },
+    {
+      "title": "auth / audit logs",
+      "url": "https://supabase.com/docs/guides/auth/audit-logs",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/audit-logs.md"
+    },
+    {
+      "title": "auth / auth anonymous",
+      "url": "https://supabase.com/docs/guides/auth/auth-anonymous",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-anonymous.md"
+    },
+    {
+      "title": "auth / auth captcha",
+      "url": "https://supabase.com/docs/guides/auth/auth-captcha",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-captcha.md"
+    },
+    {
+      "title": "auth / auth email passwordless",
+      "url": "https://supabase.com/docs/guides/auth/auth-email-passwordless",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-email-passwordless.md"
+    },
+    {
+      "title": "auth / auth email templates",
+      "url": "https://supabase.com/docs/guides/auth/auth-email-templates",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-email-templates.md"
+    },
+    {
+      "title": "auth / auth hooks",
+      "url": "https://supabase.com/docs/guides/auth/auth-hooks",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-hooks.md"
+    },
+    {
+      "title": "auth hooks / before user created hook",
+      "url": "https://supabase.com/docs/guides/auth/auth-hooks/before-user-created-hook",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-hooks/before-user-created-hook.md"
+    },
+    {
+      "title": "auth hooks / custom access token hook",
+      "url": "https://supabase.com/docs/guides/auth/auth-hooks/custom-access-token-hook",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-hooks/custom-access-token-hook.md"
+    },
+    {
+      "title": "auth hooks / mfa verification hook",
+      "url": "https://supabase.com/docs/guides/auth/auth-hooks/mfa-verification-hook",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-hooks/mfa-verification-hook.md"
+    },
+    {
+      "title": "auth hooks / password verification hook",
+      "url": "https://supabase.com/docs/guides/auth/auth-hooks/password-verification-hook",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-hooks/password-verification-hook.md"
+    },
+    {
+      "title": "auth hooks / send email hook",
+      "url": "https://supabase.com/docs/guides/auth/auth-hooks/send-email-hook",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-hooks/send-email-hook.md"
+    },
+    {
+      "title": "auth hooks / send sms hook",
+      "url": "https://supabase.com/docs/guides/auth/auth-hooks/send-sms-hook",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-hooks/send-sms-hook.md"
+    },
+    {
+      "title": "auth / auth identity linking",
+      "url": "https://supabase.com/docs/guides/auth/auth-identity-linking",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-identity-linking.md"
+    },
+    {
+      "title": "auth / auth mfa",
+      "url": "https://supabase.com/docs/guides/auth/auth-mfa",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-mfa.md"
+    },
+    {
+      "title": "auth mfa / phone",
+      "url": "https://supabase.com/docs/guides/auth/auth-mfa/phone",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-mfa/phone.md"
+    },
+    {
+      "title": "auth mfa / totp",
+      "url": "https://supabase.com/docs/guides/auth/auth-mfa/totp",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-mfa/totp.md"
+    },
+    {
+      "title": "auth / auth smtp",
+      "url": "https://supabase.com/docs/guides/auth/auth-smtp",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-smtp.md"
+    },
+    {
+      "title": "auth / auth web3",
+      "url": "https://supabase.com/docs/guides/auth/auth-web3",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/auth-web3.md"
+    },
+    {
+      "title": "auth / choosing a server package",
+      "url": "https://supabase.com/docs/guides/auth/choosing-a-server-package",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/choosing-a-server-package.md"
+    },
+    {
+      "title": "auth / custom oauth providers",
+      "url": "https://supabase.com/docs/guides/auth/custom-oauth-providers",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/custom-oauth-providers.md"
+    },
+    {
+      "title": "debugging / error codes",
+      "url": "https://supabase.com/docs/guides/auth/debugging/error-codes",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/debugging/error-codes.md"
+    },
+    {
+      "title": "auth / enterprise sso",
+      "url": "https://supabase.com/docs/guides/auth/enterprise-sso",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/enterprise-sso.md"
+    },
+    {
+      "title": "enterprise sso / auth sso saml",
+      "url": "https://supabase.com/docs/guides/auth/enterprise-sso/auth-sso-saml",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/enterprise-sso/auth-sso-saml.md"
+    },
+    {
+      "title": "auth / general configuration",
+      "url": "https://supabase.com/docs/guides/auth/general-configuration",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/general-configuration.md"
+    },
+    {
+      "title": "auth / identities",
+      "url": "https://supabase.com/docs/guides/auth/identities",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/identities.md"
+    },
+    {
+      "title": "auth / jwt fields",
+      "url": "https://supabase.com/docs/guides/auth/jwt-fields",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/jwt-fields.md"
+    },
+    {
+      "title": "auth / jwts",
+      "url": "https://supabase.com/docs/guides/auth/jwts",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/jwts.md"
+    },
+    {
+      "title": "auth / managing user data",
+      "url": "https://supabase.com/docs/guides/auth/managing-user-data",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/managing-user-data.md"
+    },
+    {
+      "title": "auth / native mobile deep linking",
+      "url": "https://supabase.com/docs/guides/auth/native-mobile-deep-linking",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/native-mobile-deep-linking.md"
+    },
+    {
+      "title": "auth / oauth server",
+      "url": "https://supabase.com/docs/guides/auth/oauth-server",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/oauth-server.md"
+    },
+    {
+      "title": "oauth server / getting started",
+      "url": "https://supabase.com/docs/guides/auth/oauth-server/getting-started",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/oauth-server/getting-started.md"
+    },
+    {
+      "title": "oauth server / mcp authentication",
+      "url": "https://supabase.com/docs/guides/auth/oauth-server/mcp-authentication",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/oauth-server/mcp-authentication.md"
+    },
+    {
+      "title": "oauth server / oauth flows",
+      "url": "https://supabase.com/docs/guides/auth/oauth-server/oauth-flows",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/oauth-server/oauth-flows.md"
+    },
+    {
+      "title": "oauth server / token security",
+      "url": "https://supabase.com/docs/guides/auth/oauth-server/token-security",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/oauth-server/token-security.md"
+    },
+    {
+      "title": "auth / passkeys",
+      "url": "https://supabase.com/docs/guides/auth/passkeys",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/passkeys.md"
+    },
+    {
+      "title": "auth / password security",
+      "url": "https://supabase.com/docs/guides/auth/password-security",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/password-security.md"
+    },
+    {
+      "title": "auth / passwords",
+      "url": "https://supabase.com/docs/guides/auth/passwords",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/passwords.md"
+    },
+    {
+      "title": "auth / phone login",
+      "url": "https://supabase.com/docs/guides/auth/phone-login",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/phone-login.md"
+    },
+    {
+      "title": "quickstarts / astrojs",
+      "url": "https://supabase.com/docs/guides/auth/quickstarts/astrojs",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/quickstarts/astrojs.md"
+    },
+    {
+      "title": "quickstarts / nextjs",
+      "url": "https://supabase.com/docs/guides/auth/quickstarts/nextjs",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/quickstarts/nextjs.md"
+    },
+    {
+      "title": "quickstarts / react",
+      "url": "https://supabase.com/docs/guides/auth/quickstarts/react",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/quickstarts/react.md"
+    },
+    {
+      "title": "quickstarts / react native",
+      "url": "https://supabase.com/docs/guides/auth/quickstarts/react-native",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/quickstarts/react-native.md"
+    },
+    {
+      "title": "auth / rate limits",
+      "url": "https://supabase.com/docs/guides/auth/rate-limits",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/rate-limits.md"
+    },
+    {
+      "title": "auth / redirect urls",
+      "url": "https://supabase.com/docs/guides/auth/redirect-urls",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/redirect-urls.md"
+    },
+    {
+      "title": "auth / server side",
+      "url": "https://supabase.com/docs/guides/auth/server-side",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/server-side.md"
+    },
+    {
+      "title": "server side / advanced guide",
+      "url": "https://supabase.com/docs/guides/auth/server-side/advanced-guide",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/server-side/advanced-guide.md"
+    },
+    {
+      "title": "server side / creating a client",
+      "url": "https://supabase.com/docs/guides/auth/server-side/creating-a-client",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/server-side/creating-a-client.md"
+    },
+    {
+      "title": "server side / migrating to ssr from auth helpers",
+      "url": "https://supabase.com/docs/guides/auth/server-side/migrating-to-ssr-from-auth-helpers",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/server-side/migrating-to-ssr-from-auth-helpers.md"
+    },
+    {
+      "title": "auth / sessions",
+      "url": "https://supabase.com/docs/guides/auth/sessions",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/sessions.md"
+    },
+    {
+      "title": "sessions / implicit flow",
+      "url": "https://supabase.com/docs/guides/auth/sessions/implicit-flow",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/sessions/implicit-flow.md"
+    },
+    {
+      "title": "sessions / pkce flow",
+      "url": "https://supabase.com/docs/guides/auth/sessions/pkce-flow",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/sessions/pkce-flow.md"
+    },
+    {
+      "title": "auth / signing keys",
+      "url": "https://supabase.com/docs/guides/auth/signing-keys",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/signing-keys.md"
+    },
+    {
+      "title": "auth / signout",
+      "url": "https://supabase.com/docs/guides/auth/signout",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/signout.md"
+    },
+    {
+      "title": "auth / social sign in",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in.md"
+    },
+    {
+      "title": "social sign in / auth apple",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-apple",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-apple.md"
+    },
+    {
+      "title": "social sign in / auth azure",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-azure",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-azure.md"
+    },
+    {
+      "title": "social sign in / auth bitbucket",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-bitbucket",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-bitbucket.md"
+    },
+    {
+      "title": "social sign in / auth discord",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-discord",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-discord.md"
+    },
+    {
+      "title": "social sign in / auth facebook",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-facebook",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-facebook.md"
+    },
+    {
+      "title": "social sign in / auth figma",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-figma",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-figma.md"
+    },
+    {
+      "title": "social sign in / auth github",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-github",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-github.md"
+    },
+    {
+      "title": "social sign in / auth gitlab",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-gitlab",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-gitlab.md"
+    },
+    {
+      "title": "social sign in / auth google",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-google",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-google.md"
+    },
+    {
+      "title": "social sign in / auth kakao",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-kakao",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-kakao.md"
+    },
+    {
+      "title": "social sign in / auth keycloak",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-keycloak",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-keycloak.md"
+    },
+    {
+      "title": "social sign in / auth linkedin",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-linkedin",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-linkedin.md"
+    },
+    {
+      "title": "social sign in / auth notion",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-notion",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-notion.md"
+    },
+    {
+      "title": "social sign in / auth slack",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-slack",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-slack.md"
+    },
+    {
+      "title": "social sign in / auth spotify",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-spotify",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-spotify.md"
+    },
+    {
+      "title": "social sign in / auth twitch",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-twitch",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-twitch.md"
+    },
+    {
+      "title": "social sign in / auth twitter",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-twitter",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-twitter.md"
+    },
+    {
+      "title": "social sign in / auth workos",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-workos",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-workos.md"
+    },
+    {
+      "title": "social sign in / auth zoom",
+      "url": "https://supabase.com/docs/guides/auth/social-sign-in/auth-zoom",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/social-sign-in/auth-zoom.md"
+    },
+    {
+      "title": "auth / testing auth flows",
+      "url": "https://supabase.com/docs/guides/auth/testing-auth-flows",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/testing-auth-flows.md"
+    },
+    {
+      "title": "third party / auth0",
+      "url": "https://supabase.com/docs/guides/auth/third-party/auth0",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/third-party/auth0.md"
+    },
+    {
+      "title": "third party / aws cognito",
+      "url": "https://supabase.com/docs/guides/auth/third-party/aws-cognito",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/third-party/aws-cognito.md"
+    },
+    {
+      "title": "third party / clerk",
+      "url": "https://supabase.com/docs/guides/auth/third-party/clerk",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/third-party/clerk.md"
+    },
+    {
+      "title": "third party / custom oidc",
+      "url": "https://supabase.com/docs/guides/auth/third-party/custom-oidc",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/third-party/custom-oidc.md"
+    },
+    {
+      "title": "third party / firebase auth",
+      "url": "https://supabase.com/docs/guides/auth/third-party/firebase-auth",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/third-party/firebase-auth.md"
+    },
+    {
+      "title": "third party / overview",
+      "url": "https://supabase.com/docs/guides/auth/third-party/overview",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/third-party/overview.md"
+    },
+    {
+      "title": "third party / workos",
+      "url": "https://supabase.com/docs/guides/auth/third-party/workos",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/third-party/workos.md"
+    },
+    {
+      "title": "auth / users",
+      "url": "https://supabase.com/docs/guides/auth/users",
+      "fetchUrl": "https://supabase.com/docs/guides/auth/users.md"
+    },
+    {
+      "title": "database / arrays",
+      "url": "https://supabase.com/docs/guides/database/arrays",
+      "fetchUrl": "https://supabase.com/docs/guides/database/arrays.md"
+    },
+    {
+      "title": "database / beekeeper studio",
+      "url": "https://supabase.com/docs/guides/database/beekeeper-studio",
+      "fetchUrl": "https://supabase.com/docs/guides/database/beekeeper-studio.md"
+    },
+    {
+      "title": "database / connecting to postgres",
+      "url": "https://supabase.com/docs/guides/database/connecting-to-postgres",
+      "fetchUrl": "https://supabase.com/docs/guides/database/connecting-to-postgres.md"
+    },
+    {
+      "title": "connecting to postgres / pooling and limits",
+      "url": "https://supabase.com/docs/guides/database/connecting-to-postgres/pooling-and-limits",
+      "fetchUrl": "https://supabase.com/docs/guides/database/connecting-to-postgres/pooling-and-limits.md"
+    },
+    {
+      "title": "connecting to postgres / serverless drivers",
+      "url": "https://supabase.com/docs/guides/database/connecting-to-postgres/serverless-drivers",
+      "fetchUrl": "https://supabase.com/docs/guides/database/connecting-to-postgres/serverless-drivers.md"
+    },
+    {
+      "title": "database / connection management",
+      "url": "https://supabase.com/docs/guides/database/connection-management",
+      "fetchUrl": "https://supabase.com/docs/guides/database/connection-management.md"
+    },
+    {
+      "title": "database / custom postgres config",
+      "url": "https://supabase.com/docs/guides/database/custom-postgres-config",
+      "fetchUrl": "https://supabase.com/docs/guides/database/custom-postgres-config.md"
+    },
+    {
+      "title": "database / dbeaver",
+      "url": "https://supabase.com/docs/guides/database/dbeaver",
+      "fetchUrl": "https://supabase.com/docs/guides/database/dbeaver.md"
+    },
+    {
+      "title": "database / debugging functions",
+      "url": "https://supabase.com/docs/guides/database/debugging-functions",
+      "fetchUrl": "https://supabase.com/docs/guides/database/debugging-functions.md"
+    },
+    {
+      "title": "database / debugging performance",
+      "url": "https://supabase.com/docs/guides/database/debugging-performance",
+      "fetchUrl": "https://supabase.com/docs/guides/database/debugging-performance.md"
+    },
+    {
+      "title": "database / drizzle",
+      "url": "https://supabase.com/docs/guides/database/drizzle",
+      "fetchUrl": "https://supabase.com/docs/guides/database/drizzle.md"
+    },
+    {
+      "title": "database / extensions",
+      "url": "https://supabase.com/docs/guides/database/extensions",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions.md"
+    },
+    {
+      "title": "extensions / http",
+      "url": "https://supabase.com/docs/guides/database/extensions/http",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/http.md"
+    },
+    {
+      "title": "extensions / hypopg",
+      "url": "https://supabase.com/docs/guides/database/extensions/hypopg",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/hypopg.md"
+    },
+    {
+      "title": "extensions / index_advisor",
+      "url": "https://supabase.com/docs/guides/database/extensions/index_advisor",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/index_advisor.md"
+    },
+    {
+      "title": "extensions / pg_cron",
+      "url": "https://supabase.com/docs/guides/database/extensions/pg_cron",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pg_cron.md"
+    },
+    {
+      "title": "extensions / pg_graphql",
+      "url": "https://supabase.com/docs/guides/database/extensions/pg_graphql",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pg_graphql.md"
+    },
+    {
+      "title": "extensions / pg_hashids",
+      "url": "https://supabase.com/docs/guides/database/extensions/pg_hashids",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pg_hashids.md"
+    },
+    {
+      "title": "extensions / pg_jsonschema",
+      "url": "https://supabase.com/docs/guides/database/extensions/pg_jsonschema",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pg_jsonschema.md"
+    },
+    {
+      "title": "extensions / pg_net",
+      "url": "https://supabase.com/docs/guides/database/extensions/pg_net",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pg_net.md"
+    },
+    {
+      "title": "extensions / pg_partman",
+      "url": "https://supabase.com/docs/guides/database/extensions/pg_partman",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pg_partman.md"
+    },
+    {
+      "title": "extensions / pg_plan_filter",
+      "url": "https://supabase.com/docs/guides/database/extensions/pg_plan_filter",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pg_plan_filter.md"
+    },
+    {
+      "title": "extensions / pg_repack",
+      "url": "https://supabase.com/docs/guides/database/extensions/pg_repack",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pg_repack.md"
+    },
+    {
+      "title": "extensions / pg_stat_statements",
+      "url": "https://supabase.com/docs/guides/database/extensions/pg_stat_statements",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pg_stat_statements.md"
+    },
+    {
+      "title": "extensions / pgaudit",
+      "url": "https://supabase.com/docs/guides/database/extensions/pgaudit",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pgaudit.md"
+    },
+    {
+      "title": "extensions / pgjwt",
+      "url": "https://supabase.com/docs/guides/database/extensions/pgjwt",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pgjwt.md"
+    },
+    {
+      "title": "extensions / pgmq",
+      "url": "https://supabase.com/docs/guides/database/extensions/pgmq",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pgmq.md"
+    },
+    {
+      "title": "extensions / pgroonga",
+      "url": "https://supabase.com/docs/guides/database/extensions/pgroonga",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pgroonga.md"
+    },
+    {
+      "title": "extensions / pgrouting",
+      "url": "https://supabase.com/docs/guides/database/extensions/pgrouting",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pgrouting.md"
+    },
+    {
+      "title": "extensions / pgsodium",
+      "url": "https://supabase.com/docs/guides/database/extensions/pgsodium",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pgsodium.md"
+    },
+    {
+      "title": "extensions / pgtap",
+      "url": "https://supabase.com/docs/guides/database/extensions/pgtap",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pgtap.md"
+    },
+    {
+      "title": "extensions / pgvector",
+      "url": "https://supabase.com/docs/guides/database/extensions/pgvector",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/pgvector.md"
+    },
+    {
+      "title": "extensions / plpgsql_check",
+      "url": "https://supabase.com/docs/guides/database/extensions/plpgsql_check",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/plpgsql_check.md"
+    },
+    {
+      "title": "extensions / plv8",
+      "url": "https://supabase.com/docs/guides/database/extensions/plv8",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/plv8.md"
+    },
+    {
+      "title": "extensions / postgis",
+      "url": "https://supabase.com/docs/guides/database/extensions/postgis",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/postgis.md"
+    },
+    {
+      "title": "extensions / postgres_fdw",
+      "url": "https://supabase.com/docs/guides/database/extensions/postgres_fdw",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/postgres_fdw.md"
+    },
+    {
+      "title": "extensions / rum",
+      "url": "https://supabase.com/docs/guides/database/extensions/rum",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/rum.md"
+    },
+    {
+      "title": "extensions / timescaledb",
+      "url": "https://supabase.com/docs/guides/database/extensions/timescaledb",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/timescaledb.md"
+    },
+    {
+      "title": "extensions / uuid ossp",
+      "url": "https://supabase.com/docs/guides/database/extensions/uuid-ossp",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/uuid-ossp.md"
+    },
+    {
+      "title": "wrappers / airtable",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/airtable",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/airtable.md"
+    },
+    {
+      "title": "wrappers / auth0",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/auth0",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/auth0.md"
+    },
+    {
+      "title": "wrappers / bigquery",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/bigquery",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/bigquery.md"
+    },
+    {
+      "title": "wrappers / cal",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/cal",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/cal.md"
+    },
+    {
+      "title": "wrappers / calendly",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/calendly",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/calendly.md"
+    },
+    {
+      "title": "wrappers / clerk",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/clerk",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/clerk.md"
+    },
+    {
+      "title": "wrappers / clickhouse",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/clickhouse",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/clickhouse.md"
+    },
+    {
+      "title": "wrappers / cloudflare d1",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/cloudflare-d1",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/cloudflare-d1.md"
+    },
+    {
+      "title": "wrappers / cognito",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/cognito",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/cognito.md"
+    },
+    {
+      "title": "wrappers / duckdb",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/duckdb",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/duckdb.md"
+    },
+    {
+      "title": "wrappers / dynamodb",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/dynamodb",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/dynamodb.md"
+    },
+    {
+      "title": "wrappers / firebase",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/firebase",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/firebase.md"
+    },
+    {
+      "title": "wrappers / gravatar",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/gravatar",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/gravatar.md"
+    },
+    {
+      "title": "wrappers / hubspot",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/hubspot",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/hubspot.md"
+    },
+    {
+      "title": "wrappers / iceberg",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/iceberg",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/iceberg.md"
+    },
+    {
+      "title": "wrappers / infura",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/infura",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/infura.md"
+    },
+    {
+      "title": "wrappers / logflare",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/logflare",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/logflare.md"
+    },
+    {
+      "title": "wrappers / mongodb",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/mongodb",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/mongodb.md"
+    },
+    {
+      "title": "wrappers / mssql",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/mssql",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/mssql.md"
+    },
+    {
+      "title": "wrappers / mysql",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/mysql",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/mysql.md"
+    },
+    {
+      "title": "wrappers / notion",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/notion",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/notion.md"
+    },
+    {
+      "title": "wrappers / openapi",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/openapi",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/openapi.md"
+    },
+    {
+      "title": "wrappers / orb",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/orb",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/orb.md"
+    },
+    {
+      "title": "wrappers / overview",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/overview",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/overview.md"
+    },
+    {
+      "title": "wrappers / paddle",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/paddle",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/paddle.md"
+    },
+    {
+      "title": "wrappers / redis",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/redis",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/redis.md"
+    },
+    {
+      "title": "wrappers / s3",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/s3",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/s3.md"
+    },
+    {
+      "title": "wrappers / s3_vectors",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/s3_vectors",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/s3_vectors.md"
+    },
+    {
+      "title": "wrappers / shopify",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/shopify",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/shopify.md"
+    },
+    {
+      "title": "wrappers / slack",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/slack",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/slack.md"
+    },
+    {
+      "title": "wrappers / snowflake",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/snowflake",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/snowflake.md"
+    },
+    {
+      "title": "wrappers / stripe",
+      "url": "https://supabase.com/docs/guides/database/extensions/wrappers/stripe",
+      "fetchUrl": "https://supabase.com/docs/guides/database/extensions/wrappers/stripe.md"
+    },
+    {
+      "title": "database / full text search",
+      "url": "https://supabase.com/docs/guides/database/full-text-search",
+      "fetchUrl": "https://supabase.com/docs/guides/database/full-text-search.md"
+    },
+    {
+      "title": "database / functions",
+      "url": "https://supabase.com/docs/guides/database/functions",
+      "fetchUrl": "https://supabase.com/docs/guides/database/functions.md"
+    },
+    {
+      "title": "database / import data",
+      "url": "https://supabase.com/docs/guides/database/import-data",
+      "fetchUrl": "https://supabase.com/docs/guides/database/import-data.md"
+    },
+    {
+      "title": "database / joins and nesting",
+      "url": "https://supabase.com/docs/guides/database/joins-and-nesting",
+      "fetchUrl": "https://supabase.com/docs/guides/database/joins-and-nesting.md"
+    },
+    {
+      "title": "database / json",
+      "url": "https://supabase.com/docs/guides/database/json",
+      "fetchUrl": "https://supabase.com/docs/guides/database/json.md"
+    },
+    {
+      "title": "database / metabase",
+      "url": "https://supabase.com/docs/guides/database/metabase",
+      "fetchUrl": "https://supabase.com/docs/guides/database/metabase.md"
+    },
+    {
+      "title": "database / migrating to pg partman",
+      "url": "https://supabase.com/docs/guides/database/migrating-to-pg-partman",
+      "fetchUrl": "https://supabase.com/docs/guides/database/migrating-to-pg-partman.md"
+    },
+    {
+      "title": "database / multigres",
+      "url": "https://supabase.com/docs/guides/database/multigres",
+      "fetchUrl": "https://supabase.com/docs/guides/database/multigres.md"
+    },
+    {
+      "title": "multigres / compatibility",
+      "url": "https://supabase.com/docs/guides/database/multigres/compatibility",
+      "fetchUrl": "https://supabase.com/docs/guides/database/multigres/compatibility.md"
+    },
+    {
+      "title": "database / orioledb",
+      "url": "https://supabase.com/docs/guides/database/orioledb",
+      "fetchUrl": "https://supabase.com/docs/guides/database/orioledb.md"
+    },
+    {
+      "title": "database / overview",
+      "url": "https://supabase.com/docs/guides/database/overview",
+      "fetchUrl": "https://supabase.com/docs/guides/database/overview.md"
+    },
+    {
+      "title": "database / partitions",
+      "url": "https://supabase.com/docs/guides/database/partitions",
+      "fetchUrl": "https://supabase.com/docs/guides/database/partitions.md"
+    },
+    {
+      "title": "database / pgadmin",
+      "url": "https://supabase.com/docs/guides/database/pgadmin",
+      "fetchUrl": "https://supabase.com/docs/guides/database/pgadmin.md"
+    },
+    {
+      "title": "database / postgres js",
+      "url": "https://supabase.com/docs/guides/database/postgres-js",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres-js.md"
+    },
+    {
+      "title": "postgres / cascade deletes",
+      "url": "https://supabase.com/docs/guides/database/postgres/cascade-deletes",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/cascade-deletes.md"
+    },
+    {
+      "title": "postgres / column level security",
+      "url": "https://supabase.com/docs/guides/database/postgres/column-level-security",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/column-level-security.md"
+    },
+    {
+      "title": "postgres / configuration",
+      "url": "https://supabase.com/docs/guides/database/postgres/configuration",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/configuration.md"
+    },
+    {
+      "title": "postgres / data deletion",
+      "url": "https://supabase.com/docs/guides/database/postgres/data-deletion",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/data-deletion.md"
+    },
+    {
+      "title": "postgres / dropping all tables in schema",
+      "url": "https://supabase.com/docs/guides/database/postgres/dropping-all-tables-in-schema",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/dropping-all-tables-in-schema.md"
+    },
+    {
+      "title": "postgres / enums",
+      "url": "https://supabase.com/docs/guides/database/postgres/enums",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/enums.md"
+    },
+    {
+      "title": "postgres / event triggers",
+      "url": "https://supabase.com/docs/guides/database/postgres/event-triggers",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/event-triggers.md"
+    },
+    {
+      "title": "postgres / first row in group",
+      "url": "https://supabase.com/docs/guides/database/postgres/first-row-in-group",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/first-row-in-group.md"
+    },
+    {
+      "title": "postgres / indexes",
+      "url": "https://supabase.com/docs/guides/database/postgres/indexes",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/indexes.md"
+    },
+    {
+      "title": "postgres / postgres log config",
+      "url": "https://supabase.com/docs/guides/database/postgres/postgres-log-config",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/postgres-log-config.md"
+    },
+    {
+      "title": "postgres / roles",
+      "url": "https://supabase.com/docs/guides/database/postgres/roles",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/roles.md"
+    },
+    {
+      "title": "postgres / roles superuser",
+      "url": "https://supabase.com/docs/guides/database/postgres/roles-superuser",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/roles-superuser.md"
+    },
+    {
+      "title": "postgres / row level security",
+      "url": "https://supabase.com/docs/guides/database/postgres/row-level-security",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/row-level-security.md"
+    },
+    {
+      "title": "postgres / row level security performance",
+      "url": "https://supabase.com/docs/guides/database/postgres/row-level-security-performance",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/row-level-security-performance.md"
+    },
+    {
+      "title": "postgres / setup replication external",
+      "url": "https://supabase.com/docs/guides/database/postgres/setup-replication-external",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/setup-replication-external.md"
+    },
+    {
+      "title": "postgres / timeouts",
+      "url": "https://supabase.com/docs/guides/database/postgres/timeouts",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/timeouts.md"
+    },
+    {
+      "title": "postgres / triggers",
+      "url": "https://supabase.com/docs/guides/database/postgres/triggers",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/triggers.md"
+    },
+    {
+      "title": "postgres / which version of postgres",
+      "url": "https://supabase.com/docs/guides/database/postgres/which-version-of-postgres",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/which-version-of-postgres.md"
+    },
+    {
+      "title": "database / prisma",
+      "url": "https://supabase.com/docs/guides/database/prisma",
+      "fetchUrl": "https://supabase.com/docs/guides/database/prisma.md"
+    },
+    {
+      "title": "prisma / prisma troubleshooting",
+      "url": "https://supabase.com/docs/guides/database/prisma/prisma-troubleshooting",
+      "fetchUrl": "https://supabase.com/docs/guides/database/prisma/prisma-troubleshooting.md"
+    },
+    {
+      "title": "database / psql",
+      "url": "https://supabase.com/docs/guides/database/psql",
+      "fetchUrl": "https://supabase.com/docs/guides/database/psql.md"
+    },
+    {
+      "title": "database / query optimization",
+      "url": "https://supabase.com/docs/guides/database/query-optimization",
+      "fetchUrl": "https://supabase.com/docs/guides/database/query-optimization.md"
+    },
+    {
+      "title": "database / replication",
+      "url": "https://supabase.com/docs/guides/database/replication",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication.md"
+    },
+    {
+      "title": "replication / manual replication faq",
+      "url": "https://supabase.com/docs/guides/database/replication/manual-replication-faq",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication/manual-replication-faq.md"
+    },
+    {
+      "title": "replication / manual replication monitoring",
+      "url": "https://supabase.com/docs/guides/database/replication/manual-replication-monitoring",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication/manual-replication-monitoring.md"
+    },
+    {
+      "title": "replication / manual replication setup",
+      "url": "https://supabase.com/docs/guides/database/replication/manual-replication-setup",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication/manual-replication-setup.md"
+    },
+    {
+      "title": "replication / pipelines",
+      "url": "https://supabase.com/docs/guides/database/replication/pipelines",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication/pipelines.md"
+    },
+    {
+      "title": "replication / pipelines faq",
+      "url": "https://supabase.com/docs/guides/database/replication/pipelines-faq",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication/pipelines-faq.md"
+    },
+    {
+      "title": "replication / pipelines monitoring",
+      "url": "https://supabase.com/docs/guides/database/replication/pipelines-monitoring",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication/pipelines-monitoring.md"
+    },
+    {
+      "title": "pipelines / bigquery",
+      "url": "https://supabase.com/docs/guides/database/replication/pipelines/bigquery",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication/pipelines/bigquery.md"
+    },
+    {
+      "title": "pipelines / clickhouse",
+      "url": "https://supabase.com/docs/guides/database/replication/pipelines/clickhouse",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication/pipelines/clickhouse.md"
+    },
+    {
+      "title": "pipelines / ducklake",
+      "url": "https://supabase.com/docs/guides/database/replication/pipelines/ducklake",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication/pipelines/ducklake.md"
+    },
+    {
+      "title": "pipelines / snowflake",
+      "url": "https://supabase.com/docs/guides/database/replication/pipelines/snowflake",
+      "fetchUrl": "https://supabase.com/docs/guides/database/replication/pipelines/snowflake.md"
+    },
+    {
+      "title": "database / secure data",
+      "url": "https://supabase.com/docs/guides/database/secure-data",
+      "fetchUrl": "https://supabase.com/docs/guides/database/secure-data.md"
+    },
+    {
+      "title": "database / supavisor",
+      "url": "https://supabase.com/docs/guides/database/supavisor",
+      "fetchUrl": "https://supabase.com/docs/guides/database/supavisor.md"
+    },
+    {
+      "title": "database / tables",
+      "url": "https://supabase.com/docs/guides/database/tables",
+      "fetchUrl": "https://supabase.com/docs/guides/database/tables.md"
+    },
+    {
+      "title": "database / testing",
+      "url": "https://supabase.com/docs/guides/database/testing",
+      "fetchUrl": "https://supabase.com/docs/guides/database/testing.md"
+    },
+    {
+      "title": "database / vault",
+      "url": "https://supabase.com/docs/guides/database/vault",
+      "fetchUrl": "https://supabase.com/docs/guides/database/vault.md"
+    },
+    {
+      "title": "database / views",
+      "url": "https://supabase.com/docs/guides/database/views",
+      "fetchUrl": "https://supabase.com/docs/guides/database/views.md"
+    },
+    {
+      "title": "database / webhooks",
+      "url": "https://supabase.com/docs/guides/database/webhooks",
+      "fetchUrl": "https://supabase.com/docs/guides/database/webhooks.md"
+    },
+    {
+      "title": "guides / deployment",
+      "url": "https://supabase.com/docs/guides/deployment",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment.md"
+    },
+    {
+      "title": "deployment / branching",
+      "url": "https://supabase.com/docs/guides/deployment/branching",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/branching.md"
+    },
+    {
+      "title": "branching / configuration",
+      "url": "https://supabase.com/docs/guides/deployment/branching/configuration",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/branching/configuration.md"
+    },
+    {
+      "title": "branching / dashboard",
+      "url": "https://supabase.com/docs/guides/deployment/branching/dashboard",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/branching/dashboard.md"
+    },
+    {
+      "title": "branching / github integration",
+      "url": "https://supabase.com/docs/guides/deployment/branching/github-integration",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/branching/github-integration.md"
+    },
+    {
+      "title": "branching / integrations",
+      "url": "https://supabase.com/docs/guides/deployment/branching/integrations",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/branching/integrations.md"
+    },
+    {
+      "title": "branching / troubleshooting",
+      "url": "https://supabase.com/docs/guides/deployment/branching/troubleshooting",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/branching/troubleshooting.md"
+    },
+    {
+      "title": "branching / working with branches",
+      "url": "https://supabase.com/docs/guides/deployment/branching/working-with-branches",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/branching/working-with-branches.md"
+    },
+    {
+      "title": "ci / backups",
+      "url": "https://supabase.com/docs/guides/deployment/ci/backups",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/ci/backups.md"
+    },
+    {
+      "title": "ci / generating types",
+      "url": "https://supabase.com/docs/guides/deployment/ci/generating-types",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/ci/generating-types.md"
+    },
+    {
+      "title": "ci / testing",
+      "url": "https://supabase.com/docs/guides/deployment/ci/testing",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/ci/testing.md"
+    },
+    {
+      "title": "deployment / database migrations",
+      "url": "https://supabase.com/docs/guides/deployment/database-migrations",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/database-migrations.md"
+    },
+    {
+      "title": "deployment / going into prod",
+      "url": "https://supabase.com/docs/guides/deployment/going-into-prod",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/going-into-prod.md"
+    },
+    {
+      "title": "deployment / managing environments",
+      "url": "https://supabase.com/docs/guides/deployment/managing-environments",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/managing-environments.md"
+    },
+    {
+      "title": "deployment / maturity model",
+      "url": "https://supabase.com/docs/guides/deployment/maturity-model",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/maturity-model.md"
+    },
+    {
+      "title": "deployment / shared responsibility model",
+      "url": "https://supabase.com/docs/guides/deployment/shared-responsibility-model",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/shared-responsibility-model.md"
+    },
+    {
+      "title": "deployment / terraform",
+      "url": "https://supabase.com/docs/guides/deployment/terraform",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/terraform.md"
+    },
+    {
+      "title": "terraform / reference",
+      "url": "https://supabase.com/docs/guides/deployment/terraform/reference",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/terraform/reference.md"
+    },
+    {
+      "title": "terraform / tutorial",
+      "url": "https://supabase.com/docs/guides/deployment/terraform/tutorial",
+      "fetchUrl": "https://supabase.com/docs/guides/deployment/terraform/tutorial.md"
+    },
+    {
+      "title": "guides / functions",
+      "url": "https://supabase.com/docs/guides/functions",
+      "fetchUrl": "https://supabase.com/docs/guides/functions.md"
+    },
+    {
+      "title": "functions / ai models",
+      "url": "https://supabase.com/docs/guides/functions/ai-models",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/ai-models.md"
+    },
+    {
+      "title": "functions / architecture",
+      "url": "https://supabase.com/docs/guides/functions/architecture",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/architecture.md"
+    },
+    {
+      "title": "functions / auth",
+      "url": "https://supabase.com/docs/guides/functions/auth",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/auth.md"
+    },
+    {
+      "title": "functions / auth headers",
+      "url": "https://supabase.com/docs/guides/functions/auth-headers",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/auth-headers.md"
+    },
+    {
+      "title": "functions / auth legacy jwt",
+      "url": "https://supabase.com/docs/guides/functions/auth-legacy-jwt",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/auth-legacy-jwt.md"
+    },
+    {
+      "title": "functions / background tasks",
+      "url": "https://supabase.com/docs/guides/functions/background-tasks",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/background-tasks.md"
+    },
+    {
+      "title": "functions / compression",
+      "url": "https://supabase.com/docs/guides/functions/compression",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/compression.md"
+    },
+    {
+      "title": "functions / connect to postgres",
+      "url": "https://supabase.com/docs/guides/functions/connect-to-postgres",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/connect-to-postgres.md"
+    },
+    {
+      "title": "functions / cors",
+      "url": "https://supabase.com/docs/guides/functions/cors",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/cors.md"
+    },
+    {
+      "title": "functions / dart edge",
+      "url": "https://supabase.com/docs/guides/functions/dart-edge",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/dart-edge.md"
+    },
+    {
+      "title": "functions / debugging tools",
+      "url": "https://supabase.com/docs/guides/functions/debugging-tools",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/debugging-tools.md"
+    },
+    {
+      "title": "functions / dependencies",
+      "url": "https://supabase.com/docs/guides/functions/dependencies",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/dependencies.md"
+    },
+    {
+      "title": "functions / deploy",
+      "url": "https://supabase.com/docs/guides/functions/deploy",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/deploy.md"
+    },
+    {
+      "title": "functions / development environment",
+      "url": "https://supabase.com/docs/guides/functions/development-environment",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/development-environment.md"
+    },
+    {
+      "title": "functions / development tips",
+      "url": "https://supabase.com/docs/guides/functions/development-tips",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/development-tips.md"
+    },
+    {
+      "title": "functions / ephemeral storage",
+      "url": "https://supabase.com/docs/guides/functions/ephemeral-storage",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/ephemeral-storage.md"
+    },
+    {
+      "title": "functions / error codes",
+      "url": "https://supabase.com/docs/guides/functions/error-codes",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/error-codes.md"
+    },
+    {
+      "title": "functions / error handling",
+      "url": "https://supabase.com/docs/guides/functions/error-handling",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/error-handling.md"
+    },
+    {
+      "title": "examples / amazon bedrock image generator",
+      "url": "https://supabase.com/docs/guides/functions/examples/amazon-bedrock-image-generator",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/amazon-bedrock-image-generator.md"
+    },
+    {
+      "title": "examples / cloudflare turnstile",
+      "url": "https://supabase.com/docs/guides/functions/examples/cloudflare-turnstile",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/cloudflare-turnstile.md"
+    },
+    {
+      "title": "examples / discord bot",
+      "url": "https://supabase.com/docs/guides/functions/examples/discord-bot",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/discord-bot.md"
+    },
+    {
+      "title": "examples / elevenlabs generate speech stream",
+      "url": "https://supabase.com/docs/guides/functions/examples/elevenlabs-generate-speech-stream",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/elevenlabs-generate-speech-stream.md"
+    },
+    {
+      "title": "examples / elevenlabs transcribe speech",
+      "url": "https://supabase.com/docs/guides/functions/examples/elevenlabs-transcribe-speech",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/elevenlabs-transcribe-speech.md"
+    },
+    {
+      "title": "examples / github actions",
+      "url": "https://supabase.com/docs/guides/functions/examples/github-actions",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/github-actions.md"
+    },
+    {
+      "title": "examples / image manipulation",
+      "url": "https://supabase.com/docs/guides/functions/examples/image-manipulation",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/image-manipulation.md"
+    },
+    {
+      "title": "examples / mcp server mcp lite",
+      "url": "https://supabase.com/docs/guides/functions/examples/mcp-server-mcp-lite",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/mcp-server-mcp-lite.md"
+    },
+    {
+      "title": "examples / og image",
+      "url": "https://supabase.com/docs/guides/functions/examples/og-image",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/og-image.md"
+    },
+    {
+      "title": "examples / push notifications",
+      "url": "https://supabase.com/docs/guides/functions/examples/push-notifications",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/push-notifications.md"
+    },
+    {
+      "title": "examples / rate limiting",
+      "url": "https://supabase.com/docs/guides/functions/examples/rate-limiting",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/rate-limiting.md"
+    },
+    {
+      "title": "examples / resumable websockets",
+      "url": "https://supabase.com/docs/guides/functions/examples/resumable-websockets",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/resumable-websockets.md"
+    },
+    {
+      "title": "examples / screenshots",
+      "url": "https://supabase.com/docs/guides/functions/examples/screenshots",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/screenshots.md"
+    },
+    {
+      "title": "examples / semantic search",
+      "url": "https://supabase.com/docs/guides/functions/examples/semantic-search",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/semantic-search.md"
+    },
+    {
+      "title": "examples / send emails",
+      "url": "https://supabase.com/docs/guides/functions/examples/send-emails",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/send-emails.md"
+    },
+    {
+      "title": "examples / sentry monitoring",
+      "url": "https://supabase.com/docs/guides/functions/examples/sentry-monitoring",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/sentry-monitoring.md"
+    },
+    {
+      "title": "examples / slack bot mention",
+      "url": "https://supabase.com/docs/guides/functions/examples/slack-bot-mention",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/slack-bot-mention.md"
+    },
+    {
+      "title": "examples / stripe webhooks",
+      "url": "https://supabase.com/docs/guides/functions/examples/stripe-webhooks",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/stripe-webhooks.md"
+    },
+    {
+      "title": "examples / telegram bot",
+      "url": "https://supabase.com/docs/guides/functions/examples/telegram-bot",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/telegram-bot.md"
+    },
+    {
+      "title": "examples / upstash redis",
+      "url": "https://supabase.com/docs/guides/functions/examples/upstash-redis",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/examples/upstash-redis.md"
+    },
+    {
+      "title": "functions / function configuration",
+      "url": "https://supabase.com/docs/guides/functions/function-configuration",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/function-configuration.md"
+    },
+    {
+      "title": "functions / http methods",
+      "url": "https://supabase.com/docs/guides/functions/http-methods",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/http-methods.md"
+    },
+    {
+      "title": "functions / kysely postgres",
+      "url": "https://supabase.com/docs/guides/functions/kysely-postgres",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/kysely-postgres.md"
+    },
+    {
+      "title": "functions / limits",
+      "url": "https://supabase.com/docs/guides/functions/limits",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/limits.md"
+    },
+    {
+      "title": "functions / logging",
+      "url": "https://supabase.com/docs/guides/functions/logging",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/logging.md"
+    },
+    {
+      "title": "functions / pricing",
+      "url": "https://supabase.com/docs/guides/functions/pricing",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/pricing.md"
+    },
+    {
+      "title": "functions / quickstart",
+      "url": "https://supabase.com/docs/guides/functions/quickstart",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/quickstart.md"
+    },
+    {
+      "title": "functions / quickstart dashboard",
+      "url": "https://supabase.com/docs/guides/functions/quickstart-dashboard",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/quickstart-dashboard.md"
+    },
+    {
+      "title": "functions / recursive functions",
+      "url": "https://supabase.com/docs/guides/functions/recursive-functions",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/recursive-functions.md"
+    },
+    {
+      "title": "functions / regional invocation",
+      "url": "https://supabase.com/docs/guides/functions/regional-invocation",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/regional-invocation.md"
+    },
+    {
+      "title": "functions / routing",
+      "url": "https://supabase.com/docs/guides/functions/routing",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/routing.md"
+    },
+    {
+      "title": "functions / schedule functions",
+      "url": "https://supabase.com/docs/guides/functions/schedule-functions",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/schedule-functions.md"
+    },
+    {
+      "title": "functions / secrets",
+      "url": "https://supabase.com/docs/guides/functions/secrets",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/secrets.md"
+    },
+    {
+      "title": "functions / status codes",
+      "url": "https://supabase.com/docs/guides/functions/status-codes",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/status-codes.md"
+    },
+    {
+      "title": "functions / storage caching",
+      "url": "https://supabase.com/docs/guides/functions/storage-caching",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/storage-caching.md"
+    },
+    {
+      "title": "functions / unit test",
+      "url": "https://supabase.com/docs/guides/functions/unit-test",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/unit-test.md"
+    },
+    {
+      "title": "functions / wasm",
+      "url": "https://supabase.com/docs/guides/functions/wasm",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/wasm.md"
+    },
+    {
+      "title": "functions / websockets",
+      "url": "https://supabase.com/docs/guides/functions/websockets",
+      "fetchUrl": "https://supabase.com/docs/guides/functions/websockets.md"
+    },
+    {
+      "title": "guides / local development",
+      "url": "https://supabase.com/docs/guides/local-development",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development.md"
+    },
+    {
+      "title": "local development / cli workflows",
+      "url": "https://supabase.com/docs/guides/local-development/cli-workflows",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/cli-workflows.md"
+    },
+    {
+      "title": "cli / getting started",
+      "url": "https://supabase.com/docs/guides/local-development/cli/getting-started",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/cli/getting-started.md"
+    },
+    {
+      "title": "cli / testing and linting",
+      "url": "https://supabase.com/docs/guides/local-development/cli/testing-and-linting",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/cli/testing-and-linting.md"
+    },
+    {
+      "title": "local development / customizing email templates",
+      "url": "https://supabase.com/docs/guides/local-development/customizing-email-templates",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/customizing-email-templates.md"
+    },
+    {
+      "title": "local development / database migrations",
+      "url": "https://supabase.com/docs/guides/local-development/database-migrations",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/database-migrations.md"
+    },
+    {
+      "title": "local development / declarative database schemas",
+      "url": "https://supabase.com/docs/guides/local-development/declarative-database-schemas",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/declarative-database-schemas.md"
+    },
+    {
+      "title": "local development / diff engines",
+      "url": "https://supabase.com/docs/guides/local-development/diff-engines",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/diff-engines.md"
+    },
+    {
+      "title": "local development / docker and native runtimes",
+      "url": "https://supabase.com/docs/guides/local-development/docker-and-native-runtimes",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/docker-and-native-runtimes.md"
+    },
+    {
+      "title": "local development / managing config",
+      "url": "https://supabase.com/docs/guides/local-development/managing-config",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/managing-config.md"
+    },
+    {
+      "title": "local development / restoring downloaded backup",
+      "url": "https://supabase.com/docs/guides/local-development/restoring-downloaded-backup",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/restoring-downloaded-backup.md"
+    },
+    {
+      "title": "local development / running multiple local projects",
+      "url": "https://supabase.com/docs/guides/local-development/running-multiple-local-projects",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/running-multiple-local-projects.md"
+    },
+    {
+      "title": "local development / seeding your database",
+      "url": "https://supabase.com/docs/guides/local-development/seeding-your-database",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/seeding-your-database.md"
+    },
+    {
+      "title": "testing / overview",
+      "url": "https://supabase.com/docs/guides/local-development/testing/overview",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/testing/overview.md"
+    },
+    {
+      "title": "testing / pgtap extended",
+      "url": "https://supabase.com/docs/guides/local-development/testing/pgtap-extended",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/testing/pgtap-extended.md"
+    },
+    {
+      "title": "guides / observability",
+      "url": "https://supabase.com/docs/guides/observability",
+      "fetchUrl": "https://supabase.com/docs/guides/observability.md"
+    },
+    {
+      "title": "observability / advanced log filtering",
+      "url": "https://supabase.com/docs/guides/observability/advanced-log-filtering",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/advanced-log-filtering.md"
+    },
+    {
+      "title": "observability / advisors",
+      "url": "https://supabase.com/docs/guides/observability/advisors",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/advisors.md"
+    },
+    {
+      "title": "observability / automate with agents",
+      "url": "https://supabase.com/docs/guides/observability/automate-with-agents",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/automate-with-agents.md"
+    },
+    {
+      "title": "automate with agents / health",
+      "url": "https://supabase.com/docs/guides/observability/automate-with-agents/health",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/automate-with-agents/health.md"
+    },
+    {
+      "title": "automate with agents / performance",
+      "url": "https://supabase.com/docs/guides/observability/automate-with-agents/performance",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/automate-with-agents/performance.md"
+    },
+    {
+      "title": "automate with agents / security",
+      "url": "https://supabase.com/docs/guides/observability/automate-with-agents/security",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/automate-with-agents/security.md"
+    },
+    {
+      "title": "automate with agents / usage",
+      "url": "https://supabase.com/docs/guides/observability/automate-with-agents/usage",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/automate-with-agents/usage.md"
+    },
+    {
+      "title": "observability / client side tracing",
+      "url": "https://supabase.com/docs/guides/observability/client-side-tracing",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/client-side-tracing.md"
+    },
+    {
+      "title": "observability / configure logging",
+      "url": "https://supabase.com/docs/guides/observability/configure-logging",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/configure-logging.md"
+    },
+    {
+      "title": "observability / detecting",
+      "url": "https://supabase.com/docs/guides/observability/detecting",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/detecting.md"
+    },
+    {
+      "title": "observability / inspect",
+      "url": "https://supabase.com/docs/guides/observability/inspect",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/inspect.md"
+    },
+    {
+      "title": "observability / log drains",
+      "url": "https://supabase.com/docs/guides/observability/log-drains",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/log-drains.md"
+    },
+    {
+      "title": "observability / log field reference",
+      "url": "https://supabase.com/docs/guides/observability/log-field-reference",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/log-field-reference.md"
+    },
+    {
+      "title": "observability / logs",
+      "url": "https://supabase.com/docs/guides/observability/logs",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/logs.md"
+    },
+    {
+      "title": "observability / metrics",
+      "url": "https://supabase.com/docs/guides/observability/metrics",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/metrics.md"
+    },
+    {
+      "title": "metrics / grafana cloud",
+      "url": "https://supabase.com/docs/guides/observability/metrics/grafana-cloud",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/metrics/grafana-cloud.md"
+    },
+    {
+      "title": "metrics / grafana self hosted",
+      "url": "https://supabase.com/docs/guides/observability/metrics/grafana-self-hosted",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/metrics/grafana-self-hosted.md"
+    },
+    {
+      "title": "metrics / vendor agnostic",
+      "url": "https://supabase.com/docs/guides/observability/metrics/vendor-agnostic",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/metrics/vendor-agnostic.md"
+    },
+    {
+      "title": "observability / reports",
+      "url": "https://supabase.com/docs/guides/observability/reports",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/reports.md"
+    },
+    {
+      "title": "observability / sentry monitoring",
+      "url": "https://supabase.com/docs/guides/observability/sentry-monitoring",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/sentry-monitoring.md"
+    },
+    {
+      "title": "guides / platform",
+      "url": "https://supabase.com/docs/guides/platform",
+      "fetchUrl": "https://supabase.com/docs/guides/platform.md"
+    },
+    {
+      "title": "platform / access control",
+      "url": "https://supabase.com/docs/guides/platform/access-control",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/access-control.md"
+    },
+    {
+      "title": "platform / aws marketplace",
+      "url": "https://supabase.com/docs/guides/platform/aws-marketplace",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/aws-marketplace.md"
+    },
+    {
+      "title": "aws marketplace / account setup",
+      "url": "https://supabase.com/docs/guides/platform/aws-marketplace/account-setup",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/aws-marketplace/account-setup.md"
+    },
+    {
+      "title": "aws marketplace / faq",
+      "url": "https://supabase.com/docs/guides/platform/aws-marketplace/faq",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/aws-marketplace/faq.md"
+    },
+    {
+      "title": "aws marketplace / getting started",
+      "url": "https://supabase.com/docs/guides/platform/aws-marketplace/getting-started",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/aws-marketplace/getting-started.md"
+    },
+    {
+      "title": "aws marketplace / invoices",
+      "url": "https://supabase.com/docs/guides/platform/aws-marketplace/invoices",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/aws-marketplace/invoices.md"
+    },
+    {
+      "title": "aws marketplace / manage your subscription",
+      "url": "https://supabase.com/docs/guides/platform/aws-marketplace/manage-your-subscription",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/aws-marketplace/manage-your-subscription.md"
+    },
+    {
+      "title": "platform / backups",
+      "url": "https://supabase.com/docs/guides/platform/backups",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/backups.md"
+    },
+    {
+      "title": "platform / billing faq",
+      "url": "https://supabase.com/docs/guides/platform/billing-faq",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/billing-faq.md"
+    },
+    {
+      "title": "platform / billing on supabase",
+      "url": "https://supabase.com/docs/guides/platform/billing-on-supabase",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/billing-on-supabase.md"
+    },
+    {
+      "title": "platform / clone project",
+      "url": "https://supabase.com/docs/guides/platform/clone-project",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/clone-project.md"
+    },
+    {
+      "title": "platform / compute and disk",
+      "url": "https://supabase.com/docs/guides/platform/compute-and-disk",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/compute-and-disk.md"
+    },
+    {
+      "title": "platform / cost control",
+      "url": "https://supabase.com/docs/guides/platform/cost-control",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/cost-control.md"
+    },
+    {
+      "title": "platform / credits",
+      "url": "https://supabase.com/docs/guides/platform/credits",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/credits.md"
+    },
+    {
+      "title": "platform / custom domains",
+      "url": "https://supabase.com/docs/guides/platform/custom-domains",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/custom-domains.md"
+    },
+    {
+      "title": "platform / database size",
+      "url": "https://supabase.com/docs/guides/platform/database-size",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/database-size.md"
+    },
+    {
+      "title": "platform / delete project",
+      "url": "https://supabase.com/docs/guides/platform/delete-project",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/delete-project.md"
+    },
+    {
+      "title": "platform / free project pausing",
+      "url": "https://supabase.com/docs/guides/platform/free-project-pausing",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/free-project-pausing.md"
+    },
+    {
+      "title": "platform / get set up for billing",
+      "url": "https://supabase.com/docs/guides/platform/get-set-up-for-billing",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/get-set-up-for-billing.md"
+    },
+    {
+      "title": "platform / hipaa projects",
+      "url": "https://supabase.com/docs/guides/platform/hipaa-projects",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/hipaa-projects.md"
+    },
+    {
+      "title": "platform / ipv4 address",
+      "url": "https://supabase.com/docs/guides/platform/ipv4-address",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/ipv4-address.md"
+    },
+    {
+      "title": "platform / manage your subscription",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-subscription",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-subscription.md"
+    },
+    {
+      "title": "platform / manage your usage",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage.md"
+    },
+    {
+      "title": "manage your usage / advanced mfa phone",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/advanced-mfa-phone",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/advanced-mfa-phone.md"
+    },
+    {
+      "title": "manage your usage / branching",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/branching",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/branching.md"
+    },
+    {
+      "title": "manage your usage / compute",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/compute",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/compute.md"
+    },
+    {
+      "title": "manage your usage / custom domains",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/custom-domains",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/custom-domains.md"
+    },
+    {
+      "title": "manage your usage / disk iops",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/disk-iops",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/disk-iops.md"
+    },
+    {
+      "title": "manage your usage / disk size",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/disk-size",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/disk-size.md"
+    },
+    {
+      "title": "manage your usage / disk throughput",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/disk-throughput",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/disk-throughput.md"
+    },
+    {
+      "title": "manage your usage / edge function invocations",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/edge-function-invocations",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/edge-function-invocations.md"
+    },
+    {
+      "title": "manage your usage / egress",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/egress",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/egress.md"
+    },
+    {
+      "title": "manage your usage / ipv4",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/ipv4",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/ipv4.md"
+    },
+    {
+      "title": "manage your usage / log drains",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/log-drains",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/log-drains.md"
+    },
+    {
+      "title": "manage your usage / logs",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/logs",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/logs.md"
+    },
+    {
+      "title": "manage your usage / logs ingest",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/logs-ingest",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/logs-ingest.md"
+    },
+    {
+      "title": "manage your usage / logs query",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/logs-query",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/logs-query.md"
+    },
+    {
+      "title": "manage your usage / monthly active users",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/monthly-active-users",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/monthly-active-users.md"
+    },
+    {
+      "title": "manage your usage / monthly active users sso",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/monthly-active-users-sso",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/monthly-active-users-sso.md"
+    },
+    {
+      "title": "manage your usage / pipelines",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/pipelines",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/pipelines.md"
+    },
+    {
+      "title": "manage your usage / point in time recovery",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/point-in-time-recovery",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/point-in-time-recovery.md"
+    },
+    {
+      "title": "manage your usage / read replicas",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/read-replicas",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/read-replicas.md"
+    },
+    {
+      "title": "manage your usage / realtime messages",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/realtime-messages",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/realtime-messages.md"
+    },
+    {
+      "title": "manage your usage / realtime peak connections",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/realtime-peak-connections",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/realtime-peak-connections.md"
+    },
+    {
+      "title": "manage your usage / storage size",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/storage-size",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/manage-your-usage/storage-size.md"
+    },
+    {
+      "title": "mfa / org mfa enforcement",
+      "url": "https://supabase.com/docs/guides/platform/mfa/org-mfa-enforcement",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/mfa/org-mfa-enforcement.md"
+    },
+    {
+      "title": "platform / migrating within supabase",
+      "url": "https://supabase.com/docs/guides/platform/migrating-within-supabase",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/migrating-within-supabase.md"
+    },
+    {
+      "title": "migrating within supabase / backup restore",
+      "url": "https://supabase.com/docs/guides/platform/migrating-within-supabase/backup-restore",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/migrating-within-supabase/backup-restore.md"
+    },
+    {
+      "title": "migrating within supabase / dashboard restore",
+      "url": "https://supabase.com/docs/guides/platform/migrating-within-supabase/dashboard-restore",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/migrating-within-supabase/dashboard-restore.md"
+    },
+    {
+      "title": "platform / multi factor authentication",
+      "url": "https://supabase.com/docs/guides/platform/multi-factor-authentication",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/multi-factor-authentication.md"
+    },
+    {
+      "title": "platform / network restrictions",
+      "url": "https://supabase.com/docs/guides/platform/network-restrictions",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/network-restrictions.md"
+    },
+    {
+      "title": "platform / performance",
+      "url": "https://supabase.com/docs/guides/platform/performance",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/performance.md"
+    },
+    {
+      "title": "platform / permissions",
+      "url": "https://supabase.com/docs/guides/platform/permissions",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/permissions.md"
+    },
+    {
+      "title": "platform / personal access tokens",
+      "url": "https://supabase.com/docs/guides/platform/personal-access-tokens",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/personal-access-tokens.md"
+    },
+    {
+      "title": "platform / postgres connection logging",
+      "url": "https://supabase.com/docs/guides/platform/postgres-connection-logging",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/postgres-connection-logging.md"
+    },
+    {
+      "title": "platform / privatelink",
+      "url": "https://supabase.com/docs/guides/platform/privatelink",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/privatelink.md"
+    },
+    {
+      "title": "platform / project transfer",
+      "url": "https://supabase.com/docs/guides/platform/project-transfer",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/project-transfer.md"
+    },
+    {
+      "title": "platform / read replicas",
+      "url": "https://supabase.com/docs/guides/platform/read-replicas",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/read-replicas.md"
+    },
+    {
+      "title": "read replicas / getting started",
+      "url": "https://supabase.com/docs/guides/platform/read-replicas/getting-started",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/read-replicas/getting-started.md"
+    },
+    {
+      "title": "platform / regions",
+      "url": "https://supabase.com/docs/guides/platform/regions",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/regions.md"
+    },
+    {
+      "title": "platform / ssl enforcement",
+      "url": "https://supabase.com/docs/guides/platform/ssl-enforcement",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/ssl-enforcement.md"
+    },
+    {
+      "title": "platform / sso",
+      "url": "https://supabase.com/docs/guides/platform/sso",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/sso.md"
+    },
+    {
+      "title": "sso / azure",
+      "url": "https://supabase.com/docs/guides/platform/sso/azure",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/sso/azure.md"
+    },
+    {
+      "title": "sso / choosing login flow",
+      "url": "https://supabase.com/docs/guides/platform/sso/choosing-login-flow",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/sso/choosing-login-flow.md"
+    },
+    {
+      "title": "sso / enterprise mcp authentication",
+      "url": "https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication.md"
+    },
+    {
+      "title": "sso / gsuite",
+      "url": "https://supabase.com/docs/guides/platform/sso/gsuite",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/sso/gsuite.md"
+    },
+    {
+      "title": "sso / login flows",
+      "url": "https://supabase.com/docs/guides/platform/sso/login-flows",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/sso/login-flows.md"
+    },
+    {
+      "title": "sso / multiple providers",
+      "url": "https://supabase.com/docs/guides/platform/sso/multiple-providers",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/sso/multiple-providers.md"
+    },
+    {
+      "title": "sso / okta",
+      "url": "https://supabase.com/docs/guides/platform/sso/okta",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/sso/okta.md"
+    },
+    {
+      "title": "sso / testing best practices",
+      "url": "https://supabase.com/docs/guides/platform/sso/testing-best-practices",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/sso/testing-best-practices.md"
+    },
+    {
+      "title": "platform / temporary access",
+      "url": "https://supabase.com/docs/guides/platform/temporary-access",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/temporary-access.md"
+    },
+    {
+      "title": "platform / upgrading",
+      "url": "https://supabase.com/docs/guides/platform/upgrading",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/upgrading.md"
+    },
+    {
+      "title": "platform / webhooks",
+      "url": "https://supabase.com/docs/guides/platform/webhooks",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/webhooks.md"
+    },
+    {
+      "title": "webhooks / events",
+      "url": "https://supabase.com/docs/guides/platform/webhooks/events",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/webhooks/events.md"
+    },
+    {
+      "title": "platform / your monthly invoice",
+      "url": "https://supabase.com/docs/guides/platform/your-monthly-invoice",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/your-monthly-invoice.md"
+    },
+    {
+      "title": "guides / realtime",
+      "url": "https://supabase.com/docs/guides/realtime",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime.md"
+    },
+    {
+      "title": "realtime / architecture",
+      "url": "https://supabase.com/docs/guides/realtime/architecture",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/architecture.md"
+    },
+    {
+      "title": "realtime / authorization",
+      "url": "https://supabase.com/docs/guides/realtime/authorization",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/authorization.md"
+    },
+    {
+      "title": "realtime / benchmarks",
+      "url": "https://supabase.com/docs/guides/realtime/benchmarks",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/benchmarks.md"
+    },
+    {
+      "title": "realtime / broadcast",
+      "url": "https://supabase.com/docs/guides/realtime/broadcast",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/broadcast.md"
+    },
+    {
+      "title": "realtime / concepts",
+      "url": "https://supabase.com/docs/guides/realtime/concepts",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/concepts.md"
+    },
+    {
+      "title": "realtime / error_codes",
+      "url": "https://supabase.com/docs/guides/realtime/error_codes",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/error_codes.md"
+    },
+    {
+      "title": "realtime / getting_started",
+      "url": "https://supabase.com/docs/guides/realtime/getting_started",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/getting_started.md"
+    },
+    {
+      "title": "realtime / limits",
+      "url": "https://supabase.com/docs/guides/realtime/limits",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/limits.md"
+    },
+    {
+      "title": "realtime / postgres changes",
+      "url": "https://supabase.com/docs/guides/realtime/postgres-changes",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/postgres-changes.md"
+    },
+    {
+      "title": "realtime / presence",
+      "url": "https://supabase.com/docs/guides/realtime/presence",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/presence.md"
+    },
+    {
+      "title": "realtime / pricing",
+      "url": "https://supabase.com/docs/guides/realtime/pricing",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/pricing.md"
+    },
+    {
+      "title": "realtime / protocol",
+      "url": "https://supabase.com/docs/guides/realtime/protocol",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/protocol.md"
+    },
+    {
+      "title": "realtime / realtime listening flutter",
+      "url": "https://supabase.com/docs/guides/realtime/realtime-listening-flutter",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/realtime-listening-flutter.md"
+    },
+    {
+      "title": "realtime / realtime user presence",
+      "url": "https://supabase.com/docs/guides/realtime/realtime-user-presence",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/realtime-user-presence.md"
+    },
+    {
+      "title": "realtime / realtime with nextjs",
+      "url": "https://supabase.com/docs/guides/realtime/realtime-with-nextjs",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/realtime-with-nextjs.md"
+    },
+    {
+      "title": "realtime / reports",
+      "url": "https://supabase.com/docs/guides/realtime/reports",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/reports.md"
+    },
+    {
+      "title": "realtime / settings",
+      "url": "https://supabase.com/docs/guides/realtime/settings",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/settings.md"
+    },
+    {
+      "title": "realtime / subscribing to database changes",
+      "url": "https://supabase.com/docs/guides/realtime/subscribing-to-database-changes",
+      "fetchUrl": "https://supabase.com/docs/guides/realtime/subscribing-to-database-changes.md"
+    },
+    {
+      "title": "guides / security",
+      "url": "https://supabase.com/docs/guides/security",
+      "fetchUrl": "https://supabase.com/docs/guides/security.md"
+    },
+    {
+      "title": "security / gdpr compliance",
+      "url": "https://supabase.com/docs/guides/security/gdpr-compliance",
+      "fetchUrl": "https://supabase.com/docs/guides/security/gdpr-compliance.md"
+    },
+    {
+      "title": "security / hipaa compliance",
+      "url": "https://supabase.com/docs/guides/security/hipaa-compliance",
+      "fetchUrl": "https://supabase.com/docs/guides/security/hipaa-compliance.md"
+    },
+    {
+      "title": "security / npm security",
+      "url": "https://supabase.com/docs/guides/security/npm-security",
+      "fetchUrl": "https://supabase.com/docs/guides/security/npm-security.md"
+    },
+    {
+      "title": "security / platform audit logs",
+      "url": "https://supabase.com/docs/guides/security/platform-audit-logs",
+      "fetchUrl": "https://supabase.com/docs/guides/security/platform-audit-logs.md"
+    },
+    {
+      "title": "security / platform security",
+      "url": "https://supabase.com/docs/guides/security/platform-security",
+      "fetchUrl": "https://supabase.com/docs/guides/security/platform-security.md"
+    },
+    {
+      "title": "security / product security",
+      "url": "https://supabase.com/docs/guides/security/product-security",
+      "fetchUrl": "https://supabase.com/docs/guides/security/product-security.md"
+    },
+    {
+      "title": "security / security testing",
+      "url": "https://supabase.com/docs/guides/security/security-testing",
+      "fetchUrl": "https://supabase.com/docs/guides/security/security-testing.md"
+    },
+    {
+      "title": "security / soc 2 compliance",
+      "url": "https://supabase.com/docs/guides/security/soc-2-compliance",
+      "fetchUrl": "https://supabase.com/docs/guides/security/soc-2-compliance.md"
+    },
+    {
+      "title": "security / tls",
+      "url": "https://supabase.com/docs/guides/security/tls",
+      "fetchUrl": "https://supabase.com/docs/guides/security/tls.md"
+    },
+    {
+      "title": "guides / self hosting",
+      "url": "https://supabase.com/docs/guides/self-hosting",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting.md"
+    },
+    {
+      "title": "self hosting / accessing postgres",
+      "url": "https://supabase.com/docs/guides/self-hosting/accessing-postgres",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/accessing-postgres.md"
+    },
+    {
+      "title": "self hosting / copy from platform s3",
+      "url": "https://supabase.com/docs/guides/self-hosting/copy-from-platform-s3",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/copy-from-platform-s3.md"
+    },
+    {
+      "title": "self hosting / custom email templates",
+      "url": "https://supabase.com/docs/guides/self-hosting/custom-email-templates",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/custom-email-templates.md"
+    },
+    {
+      "title": "self hosting / custom postgres extensions",
+      "url": "https://supabase.com/docs/guides/self-hosting/custom-postgres-extensions",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/custom-postgres-extensions.md"
+    },
+    {
+      "title": "self hosting / docker",
+      "url": "https://supabase.com/docs/guides/self-hosting/docker",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/docker.md"
+    },
+    {
+      "title": "self hosting / enable mcp",
+      "url": "https://supabase.com/docs/guides/self-hosting/enable-mcp",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/enable-mcp.md"
+    },
+    {
+      "title": "self hosting / postgres upgrade 17",
+      "url": "https://supabase.com/docs/guides/self-hosting/postgres-upgrade-17",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/postgres-upgrade-17.md"
+    },
+    {
+      "title": "self hosting / remove superuser access",
+      "url": "https://supabase.com/docs/guides/self-hosting/remove-superuser-access",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/remove-superuser-access.md"
+    },
+    {
+      "title": "self hosting / restore from platform",
+      "url": "https://supabase.com/docs/guides/self-hosting/restore-from-platform",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/restore-from-platform.md"
+    },
+    {
+      "title": "self hosting / self hosted auth hooks",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-auth-hooks",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-auth-hooks.md"
+    },
+    {
+      "title": "self hosting / self hosted auth keys",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-auth-keys",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-auth-keys.md"
+    },
+    {
+      "title": "self hosting / self hosted custom oauth providers",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-custom-oauth-providers",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-custom-oauth-providers.md"
+    },
+    {
+      "title": "self hosting / self hosted envoy",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-envoy",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-envoy.md"
+    },
+    {
+      "title": "self hosting / self hosted functions",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-functions",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-functions.md"
+    },
+    {
+      "title": "self hosting / self hosted oauth",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-oauth",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-oauth.md"
+    },
+    {
+      "title": "self hosting / self hosted passkeys",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-passkeys",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-passkeys.md"
+    },
+    {
+      "title": "self hosting / self hosted phone mfa",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-phone-mfa",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-phone-mfa.md"
+    },
+    {
+      "title": "self hosting / self hosted proxy https",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-proxy-https",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-proxy-https.md"
+    },
+    {
+      "title": "self hosting / self hosted s3",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-s3",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-s3.md"
+    },
+    {
+      "title": "self hosting / self hosted saml sso",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-saml-sso",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-saml-sso.md"
+    },
+    {
+      "title": "self hosting / updating",
+      "url": "https://supabase.com/docs/guides/self-hosting/updating",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/updating.md"
+    },
+    {
+      "title": "guides / storage",
+      "url": "https://supabase.com/docs/guides/storage",
+      "fetchUrl": "https://supabase.com/docs/guides/storage.md"
+    },
+    {
+      "title": "analytics / connecting to analytics bucket",
+      "url": "https://supabase.com/docs/guides/storage/analytics/connecting-to-analytics-bucket",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/analytics/connecting-to-analytics-bucket.md"
+    },
+    {
+      "title": "analytics / creating analytics buckets",
+      "url": "https://supabase.com/docs/guides/storage/analytics/creating-analytics-buckets",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/analytics/creating-analytics-buckets.md"
+    },
+    {
+      "title": "examples / apache spark",
+      "url": "https://supabase.com/docs/guides/storage/analytics/examples/apache-spark",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/analytics/examples/apache-spark.md"
+    },
+    {
+      "title": "examples / duckdb",
+      "url": "https://supabase.com/docs/guides/storage/analytics/examples/duckdb",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/analytics/examples/duckdb.md"
+    },
+    {
+      "title": "examples / pyiceberg",
+      "url": "https://supabase.com/docs/guides/storage/analytics/examples/pyiceberg",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/analytics/examples/pyiceberg.md"
+    },
+    {
+      "title": "analytics / introduction",
+      "url": "https://supabase.com/docs/guides/storage/analytics/introduction",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/analytics/introduction.md"
+    },
+    {
+      "title": "analytics / limits",
+      "url": "https://supabase.com/docs/guides/storage/analytics/limits",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/analytics/limits.md"
+    },
+    {
+      "title": "analytics / pricing",
+      "url": "https://supabase.com/docs/guides/storage/analytics/pricing",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/analytics/pricing.md"
+    },
+    {
+      "title": "analytics / query with postgres",
+      "url": "https://supabase.com/docs/guides/storage/analytics/query-with-postgres",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/analytics/query-with-postgres.md"
+    },
+    {
+      "title": "buckets / creating buckets",
+      "url": "https://supabase.com/docs/guides/storage/buckets/creating-buckets",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/buckets/creating-buckets.md"
+    },
+    {
+      "title": "buckets / fundamentals",
+      "url": "https://supabase.com/docs/guides/storage/buckets/fundamentals",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/buckets/fundamentals.md"
+    },
+    {
+      "title": "cdn / fundamentals",
+      "url": "https://supabase.com/docs/guides/storage/cdn/fundamentals",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/cdn/fundamentals.md"
+    },
+    {
+      "title": "cdn / metrics",
+      "url": "https://supabase.com/docs/guides/storage/cdn/metrics",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/cdn/metrics.md"
+    },
+    {
+      "title": "cdn / purge cdn cache",
+      "url": "https://supabase.com/docs/guides/storage/cdn/purge-cdn-cache",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/cdn/purge-cdn-cache.md"
+    },
+    {
+      "title": "cdn / smart cdn",
+      "url": "https://supabase.com/docs/guides/storage/cdn/smart-cdn",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/cdn/smart-cdn.md"
+    },
+    {
+      "title": "debugging / error codes",
+      "url": "https://supabase.com/docs/guides/storage/debugging/error-codes",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/debugging/error-codes.md"
+    },
+    {
+      "title": "debugging / logs",
+      "url": "https://supabase.com/docs/guides/storage/debugging/logs",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/debugging/logs.md"
+    },
+    {
+      "title": "management / copy move objects",
+      "url": "https://supabase.com/docs/guides/storage/management/copy-move-objects",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/management/copy-move-objects.md"
+    },
+    {
+      "title": "management / delete objects",
+      "url": "https://supabase.com/docs/guides/storage/management/delete-objects",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/management/delete-objects.md"
+    },
+    {
+      "title": "management / download objects",
+      "url": "https://supabase.com/docs/guides/storage/management/download-objects",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/management/download-objects.md"
+    },
+    {
+      "title": "storage / pricing",
+      "url": "https://supabase.com/docs/guides/storage/pricing",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/pricing.md"
+    },
+    {
+      "title": "production / scaling",
+      "url": "https://supabase.com/docs/guides/storage/production/scaling",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/production/scaling.md"
+    },
+    {
+      "title": "storage / quickstart",
+      "url": "https://supabase.com/docs/guides/storage/quickstart",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/quickstart.md"
+    },
+    {
+      "title": "s3 / authentication",
+      "url": "https://supabase.com/docs/guides/storage/s3/authentication",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/s3/authentication.md"
+    },
+    {
+      "title": "s3 / compatibility",
+      "url": "https://supabase.com/docs/guides/storage/s3/compatibility",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/s3/compatibility.md"
+    },
+    {
+      "title": "schema / custom roles",
+      "url": "https://supabase.com/docs/guides/storage/schema/custom-roles",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/schema/custom-roles.md"
+    },
+    {
+      "title": "schema / design",
+      "url": "https://supabase.com/docs/guides/storage/schema/design",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/schema/design.md"
+    },
+    {
+      "title": "schema / helper functions",
+      "url": "https://supabase.com/docs/guides/storage/schema/helper-functions",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/schema/helper-functions.md"
+    },
+    {
+      "title": "security / access control",
+      "url": "https://supabase.com/docs/guides/storage/security/access-control",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/security/access-control.md"
+    },
+    {
+      "title": "security / ownership",
+      "url": "https://supabase.com/docs/guides/storage/security/ownership",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/security/ownership.md"
+    },
+    {
+      "title": "serving / bandwidth",
+      "url": "https://supabase.com/docs/guides/storage/serving/bandwidth",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/serving/bandwidth.md"
+    },
+    {
+      "title": "serving / downloads",
+      "url": "https://supabase.com/docs/guides/storage/serving/downloads",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/serving/downloads.md"
+    },
+    {
+      "title": "serving / image transformations",
+      "url": "https://supabase.com/docs/guides/storage/serving/image-transformations",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/serving/image-transformations.md"
+    },
+    {
+      "title": "uploads / file limits",
+      "url": "https://supabase.com/docs/guides/storage/uploads/file-limits",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/uploads/file-limits.md"
+    },
+    {
+      "title": "uploads / resumable uploads",
+      "url": "https://supabase.com/docs/guides/storage/uploads/resumable-uploads",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/uploads/resumable-uploads.md"
+    },
+    {
+      "title": "uploads / s3 uploads",
+      "url": "https://supabase.com/docs/guides/storage/uploads/s3-uploads",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/uploads/s3-uploads.md"
+    },
+    {
+      "title": "uploads / standard uploads",
+      "url": "https://supabase.com/docs/guides/storage/uploads/standard-uploads",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/uploads/standard-uploads.md"
+    },
+    {
+      "title": "vector / creating vector buckets",
+      "url": "https://supabase.com/docs/guides/storage/vector/creating-vector-buckets",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/vector/creating-vector-buckets.md"
+    },
+    {
+      "title": "vector / introduction",
+      "url": "https://supabase.com/docs/guides/storage/vector/introduction",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/vector/introduction.md"
+    },
+    {
+      "title": "vector / limits",
+      "url": "https://supabase.com/docs/guides/storage/vector/limits",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/vector/limits.md"
+    },
+    {
+      "title": "vector / local development",
+      "url": "https://supabase.com/docs/guides/storage/vector/local-development",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/vector/local-development.md"
+    },
+    {
+      "title": "vector / querying vectors",
+      "url": "https://supabase.com/docs/guides/storage/vector/querying-vectors",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/vector/querying-vectors.md"
+    },
+    {
+      "title": "vector / storing vectors",
+      "url": "https://supabase.com/docs/guides/storage/vector/storing-vectors",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/vector/storing-vectors.md"
+    },
+    {
+      "title": "vector / working with indexes",
+      "url": "https://supabase.com/docs/guides/storage/vector/working-with-indexes",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/vector/working-with-indexes.md"
+    }
+  ],
+  "referenceIssues": []
+}

@@ -318,6 +318,12 @@
       "fetchedAt": "2026-10-28T12:52:29.621Z",
       "track": "rolling-url",
       "catalogSha256": "a0408617bbe6bead6b8f9943f135c92980b118842db7db25d03358521ced3c70"
+    },
+    "supabase-docs": {
+      "revision": "075f7d5b46dc03d87d1f60c06941326c0f59ccb8a683f0bf6362032ca030f837",
+      "fetchedAt": "2026-10-28T12:54:50.261Z",
+      "track": "rolling-url",
+      "catalogSha256": "b117fb181524469ee8fcd5e1fb15b6c6f177a12542e4f1442607b83b13385c91"
     }
   },
   "toolchain": {
