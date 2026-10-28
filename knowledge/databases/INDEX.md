@@ -41,4 +41,6 @@ No curated notes yet.
   - [Catalog source](https://sqlite.org/doclist.html); search it with `lookup --domain databases`.
 - **azure-postgresql-docs** — link catalog of 63 pages; rolling-url; revision `a7e7da83abc7f95680183119b235063dff75a184778eda28e35d173d5471b279`; fetched 2026-10-28.
   - [Catalog source](https://learn.microsoft.com/en-us/azure/postgresql/); search it with `lookup --domain databases`.
+- **microsoft-postgres-skills** — 1 skills and 24 docs at a pinned commit; default-branch; revision `9ba96abc800a574a0872f3d6b912ea8be1a6735e`; fetched 2026-10-28.
+  - [postgresql-best-practices](https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/SKILL.md) — reference only.
 <!-- brain:official:end -->

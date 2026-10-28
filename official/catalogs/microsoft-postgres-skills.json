@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "source": "microsoft-postgres-skills",
+  "revision": "9ba96abc800a574a0872f3d6b912ea8be1a6735e",
+  "origin": "https://github.com/microsoft/postgres-skills/tree/9ba96abc800a574a0872f3d6b912ea8be1a6735e/",
+  "skills": [
+    {
+      "id": "microsoft-postgres-skills/postgresql-best-practices",
+      "name": "postgresql-best-practices",
+      "declaredName": "postgresql-best-practices",
+      "description": "PostgreSQL & Azure Database for PostgreSQL: connect, query, tables, index, JSONB, partition, RLS, FTS, pooling, replication, restart, upgrade, scale, backup, Entra auth.",
+      "directory": "plugin/skills/postgresql-best-practices",
+      "installable": false,
+      "policy": "reference-only",
+      "preferred": false,
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/SKILL.md",
+      "gitBlobSha": "43b2ef7e90aeea5f842380b848241dfa2f3780ff"
+    }
+  ],
+  "docs": [
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-azure-ai.md",
+      "title": "plugin/skills/postgresql-best-practices/references/azure-postgresql-azure-ai.md",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-azure-ai.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-azure-ai.md",
+      "gitBlobSha": "532dca245806366c1cadb2bb4788a30229b4b576"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-connection-pooling.md",
+      "title": "Connection Pooling (Built-in PgBouncer)",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-connection-pooling.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-connection-pooling.md",
+      "gitBlobSha": "292db9ec62a9ea21b40a73df0d6356f4241dbd87"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-entra-id-auth.md",
+      "title": "Entra ID Authentication",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-entra-id-auth.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-entra-id-auth.md",
+      "gitBlobSha": "7d13345f3493e0f3b058c610d2fa2f241a56fdee"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-extension-lifecycle.md",
+      "title": "Extension Lifecycle",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-extension-lifecycle.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-extension-lifecycle.md",
+      "gitBlobSha": "a1325ce2ba65d631bf7702a00936af13b63ebe31"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-genai-patterns.md",
+      "title": "plugin/skills/postgresql-best-practices/references/azure-postgresql-genai-patterns.md",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-genai-patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-genai-patterns.md",
+      "gitBlobSha": "85198e2638543ef4950538022d5fecb44924b783"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-ha-disaster-recovery.md",
+      "title": "1. Create cross-region read replica",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-ha-disaster-recovery.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-ha-disaster-recovery.md",
+      "gitBlobSha": "f15714f523a652a8048912b1633c3a5871b20199"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-intelligent-tuning.md",
+      "title": "Intelligent Tuning",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-intelligent-tuning.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-intelligent-tuning.md",
+      "gitBlobSha": "5fa12b2249db1ac5d4b5a07c60d11826c11ad934"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-networking-ssl.md",
+      "title": "Networking and SSL",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-networking-ssl.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-networking-ssl.md",
+      "gitBlobSha": "877bf819b60bddc45eb508e804716300c668a09a"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-provisioning.md",
+      "title": "Provisioning Azure Database for PostgreSQL Flexible Server",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-provisioning.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-provisioning.md",
+      "gitBlobSha": "1c09f9b7212cf6736201f48102150303561f198d"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-restore-deleted-server.md",
+      "title": "plugin/skills/postgresql-best-practices/references/azure-postgresql-restore-deleted-server.md",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-restore-deleted-server.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-restore-deleted-server.md",
+      "gitBlobSha": "35ed384bc4923e572e2b5af6b049b7dc72b8f1ed"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-upgrades-maintenance.md",
+      "title": "Upgrades and Maintenance",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-upgrades-maintenance.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-upgrades-maintenance.md",
+      "gitBlobSha": "ac9b61bd194bf482c1dc0d9792698d52fc3984c5"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/azure-postgresql-vector-diskann.md",
+      "title": "plugin/skills/postgresql-best-practices/references/azure-postgresql-vector-diskann.md",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-vector-diskann.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/azure-postgresql-vector-diskann.md",
+      "gitBlobSha": "b5fb3e1b424f13d8d92dca588e415978c6149286"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-advanced-indexing.md",
+      "title": "Advanced Indexing — Gotchas & Corrections",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-advanced-indexing.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-advanced-indexing.md",
+      "gitBlobSha": "c467ceab8a81833a5dc93fa3d1545b088c390190"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-connection-management.md",
+      "title": "Connection Management",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-connection-management.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-connection-management.md",
+      "gitBlobSha": "d7978fb87e581cc53b2985352ae3b6fa0aa47ed2"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-extensions.md",
+      "title": "PostgreSQL Extensions",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-extensions.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-extensions.md",
+      "gitBlobSha": "8ee09ac1674f9eeee34ed5ce201321705cc8e3c4"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-full-text-search.md",
+      "title": "Full-Text Search",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-full-text-search.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-full-text-search.md",
+      "gitBlobSha": "b201a98f698502ee82c79d5a5640f73237033e4f"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-genai-rag.md",
+      "title": "GenAI / RAG Patterns with pgvector",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-genai-rag.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-genai-rag.md",
+      "gitBlobSha": "9b118aaf1f0cb0671776ec4cdd9ace683f69ce67"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-jsonb-patterns.md",
+      "title": "JSONB Patterns — Gotchas & Corrections",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-jsonb-patterns.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-jsonb-patterns.md",
+      "gitBlobSha": "1ff0cffdb23803d604621acae1ea5eb99a0aad8c"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-query-performance.md",
+      "title": "Query Performance — Gotchas & Corrections",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-query-performance.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-query-performance.md",
+      "gitBlobSha": "7e268172d8dca4dfe0927e374a3ad22eeaa1bc2a"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-replication.md",
+      "title": "Logical Replication",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-replication.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-replication.md",
+      "gitBlobSha": "95eb7a3e57b9eaf337cbf36171748c7253bcf734"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-row-level-security.md",
+      "title": "Row-Level Security — Gotchas & Corrections",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-row-level-security.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-row-level-security.md",
+      "gitBlobSha": "ff772026e5a32f11b995f580037c4c544baac8fb"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-table-partitioning.md",
+      "title": "Table Partitioning — Gotchas & Corrections",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-table-partitioning.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-table-partitioning.md",
+      "gitBlobSha": "0ff4e4f31a0515569ae96fd5d05349a98a1ca81a"
+    },
+    {
+      "path": "plugin/skills/postgresql-best-practices/references/postgresql-vector-search.md",
+      "title": "Vector Search with pgvector",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-vector-search.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/plugin/skills/postgresql-best-practices/references/postgresql-vector-search.md",
+      "gitBlobSha": "472dff7de0468e64cd8f26eaa1d1542bc92b33e1"
+    },
+    {
+      "path": "README.md",
+      "title": "Postgres Skills",
+      "url": "https://github.com/microsoft/postgres-skills/blob/9ba96abc800a574a0872f3d6b912ea8be1a6735e/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/microsoft/postgres-skills/9ba96abc800a574a0872f3d6b912ea8be1a6735e/README.md",
+      "gitBlobSha": "557b976697eb5671f0b5109e6f5ca2047f4f5b45"
+    }
+  ],
+  "pages": [],
+  "referenceIssues": [
+    {
+      "from": "README.md",
+      "target": "plugin/SETUP.md"
+    },
+    {
+      "from": "README.md",
+      "target": "plugin/SETUP.md"
+    },
+    {
+      "from": "README.md",
+      "target": "CONTRIBUTING.md"
+    }
+  ]
+}
