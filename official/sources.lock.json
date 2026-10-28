@@ -342,6 +342,12 @@
       "fetchedAt": "2026-10-28T13:06:07.965Z",
       "track": "rolling-url",
       "catalogSha256": "92d1d55a361cd5573abe4e941ca265dce9868b8de489189bb85db8a73d574084"
+    },
+    "microsoft-postgres-skills": {
+      "revision": "9ba96abc800a574a0872f3d6b912ea8be1a6735e",
+      "fetchedAt": "2026-10-28T13:08:33.822Z",
+      "track": "default-branch",
+      "catalogSha256": "a9ef733d82d3f036e2ee1d22be4b0dc1122be96d1329c62c5277422721124403"
     }
   },
   "toolchain": {

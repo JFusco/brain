@@ -24,3 +24,7 @@ Source registrations are separately reviewed, stacked issue-linked PRs. No sourc
 
 [Issue 264](https://github.com/JFusco/brain/issues/264): Azure Database for PostgreSQL landing-page links plus selected Microsoft Well-Architected, security hardening, access management, security baseline and performance-planning pages. Flexible Server only; not a full Learn manual. Old landing-page links may redirect to reorganized sections; a redirect is not verification of technical content. Microsoft documentation repository discovery returned 404, so this registration uses the retrieved HTML index.
 
+## Microsoft PostgreSQL agent skills
+
+[Issue 265](https://github.com/JFusco/brain/issues/265): Microsoft official PostgreSQL best-practices skill and its supporting general-engine and Azure references. Only that skill subtree is selected; the separate graph skill is excluded. References are pinned to the synced MIT repository commit. Check provider/version/capabilities; cataloging does not activate postgres-mcp, Azure CLI or resource operations.
+
