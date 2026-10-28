@@ -2022,6 +2022,41 @@
           "url": "https://www.postgresql.org/docs/18/backup-dump.html"
         }
       ]
+    },
+    {
+      "id": "supabase-docs",
+      "vendor": "supabase",
+      "domains": [
+        "databases"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://supabase.com/docs/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "supabase.com"
+      ],
+      "includePrefixes": [
+        "/docs/guides/database",
+        "/docs/guides/auth",
+        "/docs/guides/security",
+        "/docs/guides/api",
+        "/docs/guides/deployment",
+        "/docs/guides/local-development",
+        "/docs/guides/platform",
+        "/docs/guides/storage",
+        "/docs/guides/realtime",
+        "/docs/guides/functions",
+        "/docs/guides/self-hosting",
+        "/docs/guides/telemetry",
+        "/docs/guides/observability"
+      ],
+      "maxPages": 1200,
+      "maxIndexes": 1,
+      "license": "Supabase vendor documentation under upstream terms; links and metadata only, no open content license asserted",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling official database, Auth/RLS, Data API, security, migrations/local development, deployment, platform/connection/backup, Storage, Realtime, Edge Functions and self-hosting guides. Architecture is product-specific. Confirm plan, deployment mode, Postgres major, CLI and client versions. Excludes SDK API reference, blog, pricing, and unrelated integrations. Catalog links do not establish implementation or security acceptance.",
+      "fetchSuffix": ".md"
     }
   ],
   "pointers": [

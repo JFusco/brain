@@ -8,3 +8,7 @@ Source registrations are separately reviewed, stacked issue-linked PRs. No sourc
 
 [Issue 260](https://github.com/JFusco/brain/issues/260): PostgreSQL 18 chapter links and explicitly selected architecture, row security, privileges, schema security, transaction isolation, locking, TLS, query-plan and recovery sections. The major is fixed at 18; minor documentation rolls. Other majors and development docs are excluded. Confirm the target server major before use.
 
+## Supabase documentation
+
+[Issue 261](https://github.com/JFusco/brain/issues/261): Supabase guide sitemap filtered to database, Auth/RLS, API, security, migrations/local development, deployment, platform, storage, realtime, functions, observability and self-hosting. Excludes API reference, blogs and pricing. Rolling product guidance requires plan, hosting mode, server and client version checks.
+
