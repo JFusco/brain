@@ -16,3 +16,7 @@ Source registrations are separately reviewed, stacked issue-linked PRs. No sourc
 
 [Issue 262](https://github.com/JFusco/brain/issues/262): Supabase native product skill and Postgres best-practices skill, including their supporting references, from the official MIT repository. Pinned to the locally synced commit; reference-only. Provider-specific security and workload-dependent optimization examples are not universal engine contracts.
 
+## SQLite documentation
+
+[Issue 263](https://github.com/JFusco/brain/issues/263): SQLite alphabetical document index supplies architecture, engine selection, transactions/WAL, query planning, backup, corruption and defensive security. This bounded index is not a full C API catalog. No SQLite-maintained agent skill was found in the scoped official-source search; this does not prove none exists. Check the embedded engine version and compile options.
+

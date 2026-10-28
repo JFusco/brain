@@ -2083,6 +2083,80 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Official Supabase and Supabase Postgres best-practices skills with supporting references at a pinned sync commit. Covers product security, schema/query design, connections, concurrency and operations. Supabase-specific instructions are not generic PostgreSQL requirements; metrics and examples need workload verification. Reference-only: no installation, database connection, MCP activation or execution."
+    },
+    {
+      "id": "sqlite-docs",
+      "vendor": "sqlite",
+      "domains": [
+        "databases"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://sqlite.org/doclist.html",
+      "indexFormat": "html",
+      "allowedHosts": [
+        "sqlite.org"
+      ],
+      "includePrefixes": [
+        "/"
+      ],
+      "maxPages": 350,
+      "maxIndexes": 1,
+      "license": "SQLite documentation dedicated to the public domain; see https://sqlite.org/copyright.html",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official alphabetical SQLite document index: architecture, appropriate use, SQL, query planning, transactions/WAL, locking, backup, corruption and defensive security. Rolling documentation; confirm the embedded SQLite library version and compile options, not merely the host language version. This bounded index is not the complete C API reference or evidence of a SQLite-maintained agent skill.",
+      "additionalPages": [
+        {
+          "title": "SQLite defensive security and untrusted databases",
+          "url": "https://sqlite.org/security.html"
+        },
+        {
+          "title": "SQLite architecture",
+          "url": "https://sqlite.org/arch.html"
+        },
+        {
+          "title": "SQLite appropriate uses and database selection",
+          "url": "https://sqlite.org/whentouse.html"
+        },
+        {
+          "title": "SQLite write ahead logging WAL",
+          "url": "https://sqlite.org/wal.html"
+        },
+        {
+          "title": "SQLite backup API",
+          "url": "https://sqlite.org/backup.html"
+        },
+        {
+          "title": "SQLite query planner",
+          "url": "https://sqlite.org/queryplanner.html"
+        },
+        {
+          "title": "SQLite foreign key constraints",
+          "url": "https://sqlite.org/foreignkeys.html"
+        },
+        {
+          "title": "SQLite isolation and concurrency",
+          "url": "https://sqlite.org/isolation.html"
+        }
+      ],
+      "excludePrefixes": [
+        "/changes",
+        "/releaselog/",
+        "/chronology",
+        "/support",
+        "/purchase",
+        "/consortium",
+        "/hirely",
+        "/prosupport",
+        "/copyright",
+        "/index.html",
+        "/doclist.html",
+        "/docs.html",
+        "/sitemap.html",
+        "/keyword_index.html",
+        "/download",
+        "/search"
+      ]
     }
   ],
   "pointers": [
