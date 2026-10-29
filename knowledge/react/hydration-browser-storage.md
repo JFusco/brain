@@ -3,11 +3,11 @@ title: "Keep browser storage out of the hydration render"
 domain: "react"
 aliases: ["localStorage hydration", "server client mismatch", "browser storage"]
 evidence_date: "2026-10-20"
-reviewed_at: "2026-10-20"
+reviewed_at: "2026-10-29"
 status: "current"
 versions: ["react@19.3", "react-dom@19.3"]
 applicability: "React 19.3 server-rendered interfaces hydrated by React DOM; check the application's installed versions"
-provenance: "react-docs@ae5e48074d4f73f1e349eda2a66841f9a959023e; official useEffect/hydrateRoot guidance rechecked 2026-10-20; sanitized historical storage-initializer observation, not rerun"
+provenance: "react-docs@0821e7d9428a6c58c922765b891bbffba9ed6249; official useEffect/hydrateRoot/useState guidance rechecked 2026-10-29; sanitized historical storage-initializer observation, not rerun"
 ---
 
 # Keep browser storage out of the hydration render
@@ -31,3 +31,5 @@ Two-pass rendering adds work and can visibly change the page on slow connections
 **Application limit:** use a post-mount storage read for state that an already server-rendered component needs after hydration; it is not a blanket instruction to put all state or every browser-only component in Effects. A lazy initializer still executes as part of rendering and does not itself defer the read until after mount.
 
 **Historical observation:** sanitized authored evidence reports moving a storage-initializer read to a mount Effect. Its browser walkthrough was not repeated. Storage validation, cross-tab synchronization, authorization and compatibility with other installed React versions remain outside this note.
+
+**Revalidated October 29, 2026:** Current useEffect and hydrateRoot passages still require matching initial output, describe client-only Effects and the cost of an extra hydration render. The [useState reference](https://react.dev/reference/react/useState) confirms that a lazy initializer runs during initialization, including the development purity check; it does not defer a storage read until mount. The [version page](https://react.dev/versions) identifies React 19.3. For a component that should render only in the browser, hydrateRoot separately recommends `use(browser())`; this note remains limited to post-hydration state in an already server-rendered interface. No browser walkthrough was repeated.

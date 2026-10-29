@@ -5,10 +5,10 @@ format: "playbook"
 aliases: ["language declaration", "locale", "multilingual playbook"]
 evidence_date: "2026-10-21"
 applicability: "HTML pages backed by a CMS; confirm the selected locale, content language and product-specific routing separately"
-provenance: "w3c-internationalization@425522bbf10fc262bbd5382aa0cad63f55c5ad56aecf2c92034bc618b5329f65; mdn-web-docs@cceec17e41c46ac0d1593a34b8977148257c68f33517430b2267961b46bf2935; official pages read for this proposed workflow; no target application run"
+provenance: "w3c-internationalization@425522bbf10fc262bbd5382aa0cad63f55c5ad56aecf2c92034bc618b5329f65; mdn-web-docs@7fe88bb4d579b6c9d95b3e3fd270b355ffed1e3fde631f4d63f2050c334283b7; official pages read for this proposed workflow; no target application run"
 status: "current"
 versions: []
-reviewed_at: "2026-10-21"
+reviewed_at: "2026-10-29"
 ---
 
 # Prepare a multilingual CMS page
@@ -33,3 +33,5 @@ Use this when preparing a localized page or reviewing a shared layout for multip
 ## Evidence and limits
 
 The [W3C language-declaration guide](https://www.w3.org/International/questions/qa-html-language-declarations) and [MDN lang reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/lang) support the declaration rules. [W3C Quick Tips](https://www.w3.org/International/quicktips/index) distinguishes encoding, local forms, navigation and text direction. The sequence above is proposed practice, not a reproduced localization workflow. It does not establish CMS locale configuration, translation completeness, accessibility conformance or search-engine behavior.
+
+**Revalidated October 29, 2026:** The current MDN lang reference and W3C declaration/Quick Tips pages still support document and passage language, distinguish HTML/XML attributes and audience headers, and separate local formatting, navigation and text direction. The proposed CMS preparation sequence is retained. No translations, CMS locale configuration or consuming page were tested.

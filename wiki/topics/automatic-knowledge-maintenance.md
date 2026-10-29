@@ -269,3 +269,7 @@ The [Motion follow-up journal](../journal/2026-10-25-motion-loading-follow-up.md
 ## October 26 CMS and tooling curation
 
 The [CMS/tooling curation journal](../journal/2026-10-26-cms-and-tooling-curation.md) records an eight-source catalog refresh, nine CMS revalidations and five individually accounted-for captures. Graphify artifact/native-hook policy and agent-guidance portability remain version-scoped or proposed; live renderer-setting checks do not certify historical browser results.
+
+## October 29 agent judgment contracts
+
+The [agent judgment journal](../journal/2026-10-29-agent-judgment-guidance.md) separates explicit CLI invocation, effective screenshot resolution and Opus API output contracts. Live source checks support proposed harness practices without claiming executed integrations. Four React/frontend notes were revalidated while other stale signals remain visible. Original capture bodies and claim accounting remain private; independent content review and nightly completion still govern publication and acceptance.
