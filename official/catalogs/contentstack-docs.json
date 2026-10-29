@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "4d7e54b65fe30d5c61704a2a22f9b19b91d49c345276593c93c1866ac9d12eb0",
+  "revision": "b49f056665f678b0d0194e4c48c5568b0631b72871e0036ef313d65f8b0d7c23",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -67,6 +67,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/administration/account-lockout-policy.md"
     },
     {
+      "title": "administration / administration overview",
+      "url": "https://www.contentstack.com/docs/administration/administration-overview",
+      "fetchUrl": "https://www.contentstack.com/docs/administration/administration-overview.md"
+    },
+    {
       "title": "administration / ai credits",
       "url": "https://www.contentstack.com/docs/administration/ai-credits",
       "fetchUrl": "https://www.contentstack.com/docs/administration/ai-credits.md"
@@ -130,11 +135,6 @@
       "title": "administration / create custom roles",
       "url": "https://www.contentstack.com/docs/administration/create-custom-roles",
       "fetchUrl": "https://www.contentstack.com/docs/administration/create-custom-roles.md"
-    },
-    {
-      "title": "administration / customer entitlements",
-      "url": "https://www.contentstack.com/docs/administration/customer-entitlements",
-      "fetchUrl": "https://www.contentstack.com/docs/administration/customer-entitlements.md"
     },
     {
       "title": "administration / data storage",
@@ -237,11 +237,6 @@
       "fetchUrl": "https://www.contentstack.com/docs/administration/manage-sso-connections.md"
     },
     {
-      "title": "administration / mask asset domains",
-      "url": "https://www.contentstack.com/docs/administration/mask-asset-domains",
-      "fetchUrl": "https://www.contentstack.com/docs/administration/mask-asset-domains.md"
-    },
-    {
       "title": "administration / monitor organization activities in audit log",
       "url": "https://www.contentstack.com/docs/administration/monitor-organization-activities-in-audit-log",
       "fetchUrl": "https://www.contentstack.com/docs/administration/monitor-organization-activities-in-audit-log.md"
@@ -265,11 +260,6 @@
       "title": "administration / organization limitations",
       "url": "https://www.contentstack.com/docs/administration/organization-limitations",
       "fetchUrl": "https://www.contentstack.com/docs/administration/organization-limitations.md"
-    },
-    {
-      "title": "administration / organization settings overview",
-      "url": "https://www.contentstack.com/docs/administration/organization-settings-overview",
-      "fetchUrl": "https://www.contentstack.com/docs/administration/organization-settings-overview.md"
     },
     {
       "title": "administration / organization stacks",
@@ -300,11 +290,6 @@
       "title": "administration / rest api usage",
       "url": "https://www.contentstack.com/docs/administration/rest-api-usage",
       "fetchUrl": "https://www.contentstack.com/docs/administration/rest-api-usage.md"
-    },
-    {
-      "title": "administration / secure public urls of assets",
-      "url": "https://www.contentstack.com/docs/administration/secure-public-urls-of-assets",
-      "fetchUrl": "https://www.contentstack.com/docs/administration/secure-public-urls-of-assets.md"
     },
     {
       "title": "administration / security configuration",
@@ -415,11 +400,6 @@
       "title": "administration / throttling policy",
       "url": "https://www.contentstack.com/docs/administration/throttling-policy",
       "fetchUrl": "https://www.contentstack.com/docs/administration/throttling-policy.md"
-    },
-    {
-      "title": "administration / validations",
-      "url": "https://www.contentstack.com/docs/administration/validations",
-      "fetchUrl": "https://www.contentstack.com/docs/administration/validations.md"
     },
     {
       "title": "administration / webhook configuration",
@@ -1642,6 +1622,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/changelog.md"
     },
     {
+      "title": "contentstack mcp troubleshooting / faqs",
+      "url": "https://www.contentstack.com/docs/contentstack-mcp-troubleshooting/faqs",
+      "fetchUrl": "https://www.contentstack.com/docs/contentstack-mcp-troubleshooting/faqs.md"
+    },
+    {
       "title": "data and insights lytics / limitations",
       "url": "https://www.contentstack.com/docs/data-and-insights-lytics/limitations",
       "fetchUrl": "https://www.contentstack.com/docs/data-and-insights-lytics/limitations.md"
@@ -1942,6 +1927,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/analytics-api/device-usage.md"
     },
     {
+      "title": "analytics api / jobs",
+      "url": "https://www.contentstack.com/docs/developers/apis/analytics-api/jobs",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/analytics-api/jobs.md"
+    },
+    {
       "title": "analytics api / postman collection",
       "url": "https://www.contentstack.com/docs/developers/apis/analytics-api/postman-collection",
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/analytics-api/postman-collection.md"
@@ -1972,6 +1962,16 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/analytics-api/top-urls.md"
     },
     {
+      "title": "analytics api / traffic",
+      "url": "https://www.contentstack.com/docs/developers/apis/analytics-api/traffic",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/analytics-api/traffic.md"
+    },
+    {
+      "title": "analytics api / usage",
+      "url": "https://www.contentstack.com/docs/developers/apis/analytics-api/usage",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/analytics-api/usage.md"
+    },
+    {
       "title": "analytics api / usage analytics",
       "url": "https://www.contentstack.com/docs/developers/apis/analytics-api/usage-analytics",
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/analytics-api/usage-analytics.md"
@@ -1980,6 +1980,51 @@
       "title": "apis / assets api",
       "url": "https://www.contentstack.com/docs/developers/apis/assets-api",
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/assets-api.md"
+    },
+    {
+      "title": "assets api / asset types",
+      "url": "https://www.contentstack.com/docs/developers/apis/assets-api/asset-types",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/assets-api/asset-types.md"
+    },
+    {
+      "title": "assets api / asset versions",
+      "url": "https://www.contentstack.com/docs/developers/apis/assets-api/asset-versions",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/assets-api/asset-versions.md"
+    },
+    {
+      "title": "assets api / assets",
+      "url": "https://www.contentstack.com/docs/developers/apis/assets-api/assets",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/assets-api/assets.md"
+    },
+    {
+      "title": "assets api / fields",
+      "url": "https://www.contentstack.com/docs/developers/apis/assets-api/fields",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/assets-api/fields.md"
+    },
+    {
+      "title": "assets api / folders",
+      "url": "https://www.contentstack.com/docs/developers/apis/assets-api/folders",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/assets-api/folders.md"
+    },
+    {
+      "title": "assets api / search",
+      "url": "https://www.contentstack.com/docs/developers/apis/assets-api/search",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/assets-api/search.md"
+    },
+    {
+      "title": "assets api / spaces",
+      "url": "https://www.contentstack.com/docs/developers/apis/assets-api/spaces",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/assets-api/spaces.md"
+    },
+    {
+      "title": "assets api / users",
+      "url": "https://www.contentstack.com/docs/developers/apis/assets-api/users",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/assets-api/users.md"
+    },
+    {
+      "title": "assets api / workspaces",
+      "url": "https://www.contentstack.com/docs/developers/apis/assets-api/workspaces",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/assets-api/workspaces.md"
     },
     {
       "title": "apis / automations management api",
@@ -2462,9 +2507,2324 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/launch-api.md"
     },
     {
+      "title": "launch api / deployment logs",
+      "url": "https://www.contentstack.com/docs/developers/apis/launch-api/deployment-logs",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/launch-api/deployment-logs.md"
+    },
+    {
+      "title": "launch api / deployments",
+      "url": "https://www.contentstack.com/docs/developers/apis/launch-api/deployments",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/launch-api/deployments.md"
+    },
+    {
+      "title": "launch api / domains",
+      "url": "https://www.contentstack.com/docs/developers/apis/launch-api/domains",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/launch-api/domains.md"
+    },
+    {
+      "title": "launch api / environments",
+      "url": "https://www.contentstack.com/docs/developers/apis/launch-api/environments",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/launch-api/environments.md"
+    },
+    {
+      "title": "launch api / file upload",
+      "url": "https://www.contentstack.com/docs/developers/apis/launch-api/file-upload",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/launch-api/file-upload.md"
+    },
+    {
+      "title": "launch api / launch product analytics",
+      "url": "https://www.contentstack.com/docs/developers/apis/launch-api/launch-product-analytics",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/launch-api/launch-product-analytics.md"
+    },
+    {
+      "title": "launch api / live server logs",
+      "url": "https://www.contentstack.com/docs/developers/apis/launch-api/live-server-logs",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/launch-api/live-server-logs.md"
+    },
+    {
+      "title": "launch api / projects",
+      "url": "https://www.contentstack.com/docs/developers/apis/launch-api/projects",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/launch-api/projects.md"
+    },
+    {
+      "title": "launch api / server logs",
+      "url": "https://www.contentstack.com/docs/developers/apis/launch-api/server-logs",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/launch-api/server-logs.md"
+    },
+    {
+      "title": "apis / lytics api",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api.md"
+    },
+    {
+      "title": "lytics api / account",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/account",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/account.md"
+    },
+    {
+      "title": "lytics api / auths",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths.md"
+    },
+    {
+      "title": "auths / airship connect",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/airship-connect",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/airship-connect.md"
+    },
+    {
+      "title": "auths / airship master secret",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/airship-master-secret",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/airship-master-secret.md"
+    },
+    {
+      "title": "auths / algolia api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/algolia-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/algolia-api-key.md"
+    },
+    {
+      "title": "auths / amplitude api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/amplitude-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/amplitude-api-key.md"
+    },
+    {
+      "title": "auths / api",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/api",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/api.md"
+    },
+    {
+      "title": "auths / apikey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/apikey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/apikey.md"
+    },
+    {
+      "title": "auths / appsflyer devkey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/appsflyer-devkey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/appsflyer-devkey.md"
+    },
+    {
+      "title": "auths / attentive api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/attentive-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/attentive-api-key.md"
+    },
+    {
+      "title": "auths / aws aws keys",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-aws-keys",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-aws-keys.md"
+    },
+    {
+      "title": "auths / aws delegated",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-delegated",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-delegated.md"
+    },
+    {
+      "title": "auths / aws delegated pgp",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-delegated-pgp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-delegated-pgp.md"
+    },
+    {
+      "title": "auths / aws delegated public pgp",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-delegated-public-pgp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-delegated-public-pgp.md"
+    },
+    {
+      "title": "auths / aws keys",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-keys",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-keys.md"
+    },
+    {
+      "title": "auths / aws keys pgp",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-keys-pgp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-keys-pgp.md"
+    },
+    {
+      "title": "auths / aws keys public pgp",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-keys-public-pgp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-keys-public-pgp.md"
+    },
+    {
+      "title": "auths / aws s3 redshift",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-s3-redshift",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/aws-s3-redshift.md"
+    },
+    {
+      "title": "auths / azure event hub",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/azure-event-hub",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/azure-event-hub.md"
+    },
+    {
+      "title": "auths / azure storage connection",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/azure-storage-connection",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/azure-storage-connection.md"
+    },
+    {
+      "title": "auths / azuresql db",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/azuresql-db",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/azuresql-db.md"
+    },
+    {
+      "title": "auths / basic auth",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/basic-auth",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/basic-auth.md"
+    },
+    {
+      "title": "auths / bc access token",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bc-access-token",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bc-access-token.md"
+    },
+    {
+      "title": "auths / bluehornet api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bluehornet-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bluehornet-api-key.md"
+    },
+    {
+      "title": "auths / bluekai userkey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bluekai-userkey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bluekai-userkey.md"
+    },
+    {
+      "title": "auths / bluekai userpass",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bluekai-userpass",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bluekai-userpass.md"
+    },
+    {
+      "title": "auths / blueshift api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/blueshift-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/blueshift-api-key.md"
+    },
+    {
+      "title": "auths / bq jwt",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bq-jwt",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bq-jwt.md"
+    },
+    {
+      "title": "auths / bq jwt import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bq-jwt-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/bq-jwt-import.md"
+    },
+    {
+      "title": "auths / braze",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/braze",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/braze.md"
+    },
+    {
+      "title": "auths / brevo",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/brevo",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/brevo.md"
+    },
+    {
+      "title": "auths / cheetah",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/cheetah",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/cheetah.md"
+    },
+    {
+      "title": "auths / clearbit",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/clearbit",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/clearbit.md"
+    },
+    {
+      "title": "auths / clearbit lytics",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/clearbit-lytics",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/clearbit-lytics.md"
+    },
+    {
+      "title": "auths / connect apikey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/connect-apikey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/connect-apikey.md"
+    },
+    {
+      "title": "auths / content cookies",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/content-cookies",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/content-cookies.md"
+    },
+    {
+      "title": "auths / contentstack api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/contentstack-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/contentstack-api-key.md"
+    },
+    {
+      "title": "auths / contentstack authtoken",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/contentstack-authtoken",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/contentstack-authtoken.md"
+    },
+    {
+      "title": "auths / cordial",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/cordial",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/cordial.md"
+    },
+    {
+      "title": "auths / cordial userpass",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/cordial-userpass",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/cordial-userpass.md"
+    },
+    {
+      "title": "auths / criteo api credentials",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/criteo-api-credentials",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/criteo-api-credentials.md"
+    },
+    {
+      "title": "auths / customerio apikey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/customerio-apikey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/customerio-apikey.md"
+    },
+    {
+      "title": "auths / customerio webhooks",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/customerio-webhooks",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/customerio-webhooks.md"
+    },
+    {
+      "title": "auths / databricks db",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/databricks-db",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/databricks-db.md"
+    },
+    {
+      "title": "auths / datax",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/datax",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/datax.md"
+    },
+    {
+      "title": "auths / dotmailer api",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/dotmailer-api",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/dotmailer-api.md"
+    },
+    {
+      "title": "auths / drift app key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/drift-app-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/drift-app-key.md"
+    },
+    {
+      "title": "auths / dv360 oauth",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/dv360-oauth",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/dv360-oauth.md"
+    },
+    {
+      "title": "auths / email",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/email",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/email.md"
+    },
+    {
+      "title": "auths / episerver api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/episerver-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/episerver-api-key.md"
+    },
+    {
+      "title": "auths / fb system user",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/fb-system-user",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/fb-system-user.md"
+    },
+    {
+      "title": "auths / fullcontact",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/fullcontact",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/fullcontact.md"
+    },
+    {
+      "title": "auths / gcs jwt",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/gcs-jwt",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/gcs-jwt.md"
+    },
+    {
+      "title": "auths / gigya",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/gigya",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/gigya.md"
+    },
+    {
+      "title": "auths / googleanalytics no auth",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/googleanalytics-no-auth",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/googleanalytics-no-auth.md"
+    },
+    {
+      "title": "auths / header param auth",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/header-param-auth",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/header-param-auth.md"
+    },
+    {
+      "title": "auths / icontact api",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/icontact-api",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/icontact-api.md"
+    },
+    {
+      "title": "auths / infobip api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/infobip-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/infobip-api-key.md"
+    },
+    {
+      "title": "auths / insider api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/insider-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/insider-api-key.md"
+    },
+    {
+      "title": "auths / integration secret",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/integration-secret",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/integration-secret.md"
+    },
+    {
+      "title": "auths / iterable",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/iterable",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/iterable.md"
+    },
+    {
+      "title": "auths / klaviyo",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/klaviyo",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/klaviyo.md"
+    },
+    {
+      "title": "auths / leadsquared",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/leadsquared",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/leadsquared.md"
+    },
+    {
+      "title": "auths / lineads api secretkey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/lineads-api-secretkey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/lineads-api-secretkey.md"
+    },
+    {
+      "title": "auths / liveramp aws keys",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/liveramp-aws-keys",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/liveramp-aws-keys.md"
+    },
+    {
+      "title": "auths / liveramp userkey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/liveramp-userkey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/liveramp-userkey.md"
+    },
+    {
+      "title": "auths / liveramp userpass",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/liveramp-userpass",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/liveramp-userpass.md"
+    },
+    {
+      "title": "auths / localytics keys",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/localytics-keys",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/localytics-keys.md"
+    },
+    {
+      "title": "auths / lytics aws sftp auth",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/lytics-aws-sftp-auth",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/lytics-aws-sftp-auth.md"
+    },
+    {
+      "title": "auths / lytics lotame s3",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/lytics-lotame-s3",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/lytics-lotame-s3.md"
+    },
+    {
+      "title": "auths / mailgun api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mailgun-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mailgun-api-key.md"
+    },
+    {
+      "title": "auths / mandrill api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mandrill-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mandrill-api-key.md"
+    },
+    {
+      "title": "auths / mapp userpass",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mapp-userpass",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mapp-userpass.md"
+    },
+    {
+      "title": "auths / marketingcloud v2",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/marketingcloud-v2",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/marketingcloud-v2.md"
+    },
+    {
+      "title": "auths / marketo client",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/marketo-client",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/marketo-client.md"
+    },
+    {
+      "title": "auths / maropost",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/maropost",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/maropost.md"
+    },
+    {
+      "title": "auths / mediamath no auth",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mediamath-no-auth",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mediamath-no-auth.md"
+    },
+    {
+      "title": "auths / messagecentral",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/messagecentral",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/messagecentral.md"
+    },
+    {
+      "title": "auths / microsoft capi token",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/microsoft-capi-token",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/microsoft-capi-token.md"
+    },
+    {
+      "title": "auths / mixpanel api secret",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mixpanel-api-secret",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mixpanel-api-secret.md"
+    },
+    {
+      "title": "auths / mp api secret",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mp-api-secret",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/mp-api-secret.md"
+    },
+    {
+      "title": "auths / netsuite suitetalk",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/netsuite-suitetalk",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/netsuite-suitetalk.md"
+    },
+    {
+      "title": "auths / newrelic insights apikey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/newrelic-insights-apikey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/newrelic-insights-apikey.md"
+    },
+    {
+      "title": "auths / onesignal",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/onesignal",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/onesignal.md"
+    },
+    {
+      "title": "auths / openai ads api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/openai-ads-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/openai-ads-api-key.md"
+    },
+    {
+      "title": "auths / openai capi token",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/openai-capi-token",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/openai-capi-token.md"
+    },
+    {
+      "title": "auths / optimizely odp api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/optimizely-odp-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/optimizely-odp-api-key.md"
+    },
+    {
+      "title": "auths / pinterest capi token",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/pinterest-capi-token",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/pinterest-capi-token.md"
+    },
+    {
+      "title": "auths / postup",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/postup",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/postup.md"
+    },
+    {
+      "title": "auths / pubsub jwt",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/pubsub-jwt",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/pubsub-jwt.md"
+    },
+    {
+      "title": "auths / pushly",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/pushly",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/pushly.md"
+    },
+    {
+      "title": "auths / quantcast conversion api",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/quantcast-conversion-api",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/quantcast-conversion-api.md"
+    },
+    {
+      "title": "auths / reddit conversion",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/reddit-conversion",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/reddit-conversion.md"
+    },
+    {
+      "title": "auths / redshift postgresql",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/redshift-postgresql",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/redshift-postgresql.md"
+    },
+    {
+      "title": "auths / responsys interact",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/responsys-interact",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/responsys-interact.md"
+    },
+    {
+      "title": "auths / responsys sftp",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/responsys-sftp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/responsys-sftp.md"
+    },
+    {
+      "title": "auths / responsys sftp with pgp",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/responsys-sftp-with-pgp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/responsys-sftp-with-pgp.md"
+    },
+    {
+      "title": "auths / retentionscience key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/retentionscience-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/retentionscience-key.md"
+    },
+    {
+      "title": "auths / s3",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/s3",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/s3.md"
+    },
+    {
+      "title": "auths / sailthru api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/sailthru-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/sailthru-api-key.md"
+    },
+    {
+      "title": "auths / salesforce data cloud jwt",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/salesforce-data-cloud-jwt",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/salesforce-data-cloud-jwt.md"
+    },
+    {
+      "title": "auths / salesforce data cloud sandbox jwt",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/salesforce-data-cloud-sandbox-jwt",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/salesforce-data-cloud-sandbox-jwt.md"
+    },
+    {
+      "title": "auths / salesforce jwt",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/salesforce-jwt",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/salesforce-jwt.md"
+    },
+    {
+      "title": "auths / salesforce sandbox jwt",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/salesforce-sandbox-jwt",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/salesforce-sandbox-jwt.md"
+    },
+    {
+      "title": "auths / secretkey v2",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/secretkey-v2",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/secretkey-v2.md"
+    },
+    {
+      "title": "auths / selligent userpass",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/selligent-userpass",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/selligent-userpass.md"
+    },
+    {
+      "title": "auths / sendgrid",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/sendgrid",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/sendgrid.md"
+    },
+    {
+      "title": "auths / shopify api token",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/shopify-api-token",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/shopify-api-token.md"
+    },
+    {
+      "title": "auths / silverpop full auth",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/silverpop-full-auth",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/silverpop-full-auth.md"
+    },
+    {
+      "title": "auths / snapchat capi token",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/snapchat-capi-token",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/snapchat-capi-token.md"
+    },
+    {
+      "title": "auths / snowflake direct",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/snowflake-direct",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/snowflake-direct.md"
+    },
+    {
+      "title": "auths / snowflake direct gcs",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/snowflake-direct-gcs",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/snowflake-direct-gcs.md"
+    },
+    {
+      "title": "auths / sparkpost api key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/sparkpost-api-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/sparkpost-api-key.md"
+    },
+    {
+      "title": "auths / stackdriver jwt",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/stackdriver-jwt",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/stackdriver-jwt.md"
+    },
+    {
+      "title": "auths / surveymonkey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/surveymonkey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/surveymonkey.md"
+    },
+    {
+      "title": "auths / thetradedesk api token",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/thetradedesk-api-token",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/thetradedesk-api-token.md"
+    },
+    {
+      "title": "auths / thetradedesk userpass",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/thetradedesk-userpass",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/thetradedesk-userpass.md"
+    },
+    {
+      "title": "auths / tiktok events token",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/tiktok-events-token",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/tiktok-events-token.md"
+    },
+    {
+      "title": "auths / trigger userpass",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/trigger-userpass",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/trigger-userpass.md"
+    },
+    {
+      "title": "auths / twitter oauth1 0a",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/twitter-oauth1-0a",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/twitter-oauth1-0a.md"
+    },
+    {
+      "title": "auths / user pass key",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/user-pass-key",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/user-pass-key.md"
+    },
+    {
+      "title": "auths / userpass private pgp",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/userpass-private-pgp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/userpass-private-pgp.md"
+    },
+    {
+      "title": "auths / userpass public pgp",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/userpass-public-pgp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/userpass-public-pgp.md"
+    },
+    {
+      "title": "auths / userpass secret",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/userpass-secret",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/userpass-secret.md"
+    },
+    {
+      "title": "auths / versium apikey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/versium-apikey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/versium-apikey.md"
+    },
+    {
+      "title": "auths / webhook no auth",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/webhook-no-auth",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/webhook-no-auth.md"
+    },
+    {
+      "title": "auths / webhook oauth2 client credentials",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/webhook-oauth2-client-credentials",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/webhook-oauth2-client-credentials.md"
+    },
+    {
+      "title": "auths / westfield",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/westfield",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/westfield.md"
+    },
+    {
+      "title": "auths / wistia token",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/wistia-token",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/wistia-token.md"
+    },
+    {
+      "title": "auths / yesmail",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/yesmail",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/yesmail.md"
+    },
+    {
+      "title": "auths / zuora",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/zuora",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/zuora.md"
+    },
+    {
+      "title": "lytics api / connections",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/connections",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/connections.md"
+    },
+    {
+      "title": "lytics api / content",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/content",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/content.md"
+    },
+    {
+      "title": "lytics api / datamodels",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/datamodels",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/datamodels.md"
+    },
+    {
+      "title": "lytics api / flows",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/flows",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/flows.md"
+    },
+    {
+      "title": "lytics api / job blueprints",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/job-blueprints",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/job-blueprints.md"
+    },
+    {
+      "title": "lytics api / jobs",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs.md"
+    },
+    {
+      "title": "jobs / adroll sync",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/adroll-sync",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/adroll-sync.md"
+    },
+    {
+      "title": "jobs / adwords customer match",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/adwords-customer-match",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/adwords-customer-match.md"
+    },
+    {
+      "title": "jobs / adwords customer match mobile",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/adwords-customer-match-mobile",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/adwords-customer-match-mobile.md"
+    },
+    {
+      "title": "jobs / adwords customer match userid",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/adwords-customer-match-userid",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/adwords-customer-match-userid.md"
+    },
+    {
+      "title": "jobs / adwords export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/adwords-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/adwords-export.md"
+    },
+    {
+      "title": "jobs / airship compliance import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/airship-compliance-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/airship-compliance-import.md"
+    },
+    {
+      "title": "jobs / airship export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/airship-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/airship-export.md"
+    },
+    {
+      "title": "jobs / airship import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/airship-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/airship-import.md"
+    },
+    {
+      "title": "jobs / algolia export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/algolia-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/algolia-export.md"
+    },
+    {
+      "title": "jobs / algolia import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/algolia-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/algolia-import.md"
+    },
+    {
+      "title": "jobs / amazon ads audience export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-ads-audience-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-ads-audience-export.md"
+    },
+    {
+      "title": "jobs / amazon ads export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-ads-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-ads-export-audience.md"
+    },
+    {
+      "title": "jobs / amazon capi export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-capi-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-capi-export.md"
+    },
+    {
+      "title": "jobs / amazon dsp export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-dsp-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-dsp-export.md"
+    },
+    {
+      "title": "jobs / amazon dsp match",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-dsp-match",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-dsp-match.md"
+    },
+    {
+      "title": "jobs / amazon marketing cloud export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-marketing-cloud-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amazon-marketing-cloud-export.md"
+    },
+    {
+      "title": "jobs / amc export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amc-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amc-export.md"
+    },
+    {
+      "title": "jobs / amplitude cohort import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amplitude-cohort-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amplitude-cohort-import.md"
+    },
+    {
+      "title": "jobs / amplitude event import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amplitude-event-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/amplitude-event-import.md"
+    },
+    {
+      "title": "jobs / analytics setup",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/analytics-setup",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/analytics-setup.md"
+    },
+    {
+      "title": "jobs / appsflyer capi export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/appsflyer-capi-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/appsflyer-capi-export.md"
+    },
+    {
+      "title": "jobs / attentive export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/attentive-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/attentive-export.md"
+    },
+    {
+      "title": "jobs / aws cloudwatch monitoring",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-cloudwatch-monitoring",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-cloudwatch-monitoring.md"
+    },
+    {
+      "title": "jobs / aws kinesis import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-kinesis-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-kinesis-import.md"
+    },
+    {
+      "title": "jobs / aws kinesis triggers",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-kinesis-triggers",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-kinesis-triggers.md"
+    },
+    {
+      "title": "jobs / aws pinpoint export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-pinpoint-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-pinpoint-export.md"
+    },
+    {
+      "title": "jobs / aws pinpoint import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-pinpoint-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-pinpoint-import.md"
+    },
+    {
+      "title": "jobs / aws pinpoint push",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-pinpoint-push",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-pinpoint-push.md"
+    },
+    {
+      "title": "jobs / aws sqs triggers",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-sqs-triggers",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/aws-sqs-triggers.md"
+    },
+    {
+      "title": "jobs / azure csv export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-csv-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-csv-export.md"
+    },
+    {
+      "title": "jobs / azure csv import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-csv-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-csv-import.md"
+    },
+    {
+      "title": "jobs / azure event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-event-export.md"
+    },
+    {
+      "title": "jobs / azure event hub export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-event-hub-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-event-hub-export.md"
+    },
+    {
+      "title": "jobs / azure json export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-json-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-json-export.md"
+    },
+    {
+      "title": "jobs / azure sql conductor event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-sql-conductor-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-sql-conductor-event-export.md"
+    },
+    {
+      "title": "jobs / azure sql conductor export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-sql-conductor-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-sql-conductor-export.md"
+    },
+    {
+      "title": "jobs / azure sql event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-sql-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-sql-event-export.md"
+    },
+    {
+      "title": "jobs / azure sql export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-sql-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azure-sql-export.md"
+    },
+    {
+      "title": "jobs / azuresql import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azuresql-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/azuresql-import.md"
+    },
+    {
+      "title": "jobs / bigcommerce export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigcommerce-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigcommerce-export-audience.md"
+    },
+    {
+      "title": "jobs / bigcommerce import opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigcommerce-import-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigcommerce-import-opus.md"
+    },
+    {
+      "title": "jobs / bigquery entstore export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-entstore-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-entstore-export.md"
+    },
+    {
+      "title": "jobs / bigquery event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-event-export.md"
+    },
+    {
+      "title": "jobs / bigquery event export conductor",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-event-export-conductor",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-event-export-conductor.md"
+    },
+    {
+      "title": "jobs / bigquery import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-import.md"
+    },
+    {
+      "title": "jobs / bigquery ml create",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-ml-create",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-ml-create.md"
+    },
+    {
+      "title": "jobs / bigquery seg changes",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-seg-changes",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-seg-changes.md"
+    },
+    {
+      "title": "jobs / bigquery user export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-user-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bigquery-user-export.md"
+    },
+    {
+      "title": "jobs / bluehornet export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bluehornet-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bluehornet-export.md"
+    },
+    {
+      "title": "jobs / bluehornet import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bluehornet-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bluehornet-import.md"
+    },
+    {
+      "title": "jobs / bluehornet import opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bluehornet-import-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bluehornet-import-opus.md"
+    },
+    {
+      "title": "jobs / bluekai sftp export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bluekai-sftp-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bluekai-sftp-export.md"
+    },
+    {
+      "title": "jobs / blueshift export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/blueshift-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/blueshift-export.md"
+    },
+    {
+      "title": "jobs / bq audience def export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bq-audience-def-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bq-audience-def-export.md"
+    },
+    {
+      "title": "jobs / bq metric export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bq-metric-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bq-metric-export.md"
+    },
+    {
+      "title": "jobs / bq system event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bq-system-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/bq-system-event-export.md"
+    },
+    {
+      "title": "jobs / braze event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/braze-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/braze-event-export.md"
+    },
+    {
+      "title": "jobs / braze export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/braze-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/braze-export.md"
+    },
+    {
+      "title": "jobs / braze purchase export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/braze-purchase-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/braze-purchase-export.md"
+    },
+    {
+      "title": "jobs / brevo export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/brevo-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/brevo-export.md"
+    },
+    {
+      "title": "jobs / brevo import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/brevo-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/brevo-import.md"
+    },
+    {
+      "title": "jobs / campaignmonitor activate",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/campaignmonitor-activate",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/campaignmonitor-activate.md"
+    },
+    {
+      "title": "jobs / campaignmonitor import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/campaignmonitor-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/campaignmonitor-import.md"
+    },
+    {
+      "title": "jobs / cheetah export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/cheetah-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/cheetah-export-audience.md"
+    },
+    {
+      "title": "jobs / clearbit enrich",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/clearbit-enrich",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/clearbit-enrich.md"
+    },
+    {
+      "title": "jobs / contentstack audience export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/contentstack-audience-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/contentstack-audience-export.md"
+    },
+    {
+      "title": "jobs / contentstack generate visitors",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/contentstack-generate-visitors",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/contentstack-generate-visitors.md"
+    },
+    {
+      "title": "jobs / contentstack import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/contentstack-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/contentstack-import.md"
+    },
+    {
+      "title": "jobs / contentstack schema export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/contentstack-schema-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/contentstack-schema-export.md"
+    },
+    {
+      "title": "jobs / cordial bulk export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/cordial-bulk-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/cordial-bulk-export.md"
+    },
+    {
+      "title": "jobs / cordial export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/cordial-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/cordial-export.md"
+    },
+    {
+      "title": "jobs / cordial import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/cordial-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/cordial-import.md"
+    },
+    {
+      "title": "jobs / criteo export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/criteo-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/criteo-export.md"
+    },
+    {
+      "title": "jobs / customerio events",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/customerio-events",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/customerio-events.md"
+    },
+    {
+      "title": "jobs / customerio segments",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/customerio-segments",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/customerio-segments.md"
+    },
+    {
+      "title": "jobs / databricks audience changes export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-audience-changes-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-audience-changes-export.md"
+    },
+    {
+      "title": "jobs / databricks event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-event-export.md"
+    },
+    {
+      "title": "jobs / databricks export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-export.md"
+    },
+    {
+      "title": "jobs / databricks export conductor",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-export-conductor",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-export-conductor.md"
+    },
+    {
+      "title": "jobs / databricks import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-import.md"
+    },
+    {
+      "title": "jobs / databricks metric export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-metric-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-metric-export.md"
+    },
+    {
+      "title": "jobs / databricks system event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-system-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/databricks-system-event-export.md"
+    },
+    {
+      "title": "jobs / dotmailer export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/dotmailer-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/dotmailer-export.md"
+    },
+    {
+      "title": "jobs / dotmailer import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/dotmailer-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/dotmailer-import.md"
+    },
+    {
+      "title": "jobs / dotmailer multi seg export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/dotmailer-multi-seg-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/dotmailer-multi-seg-export.md"
+    },
+    {
+      "title": "jobs / drift import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/drift-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/drift-import.md"
+    },
+    {
+      "title": "jobs / eloqua cdo export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/eloqua-cdo-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/eloqua-cdo-export.md"
+    },
+    {
+      "title": "jobs / eloqua export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/eloqua-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/eloqua-export.md"
+    },
+    {
+      "title": "jobs / eloqua import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/eloqua-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/eloqua-import.md"
+    },
+    {
+      "title": "jobs / email alerts",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/email-alerts",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/email-alerts.md"
+    },
+    {
+      "title": "jobs / email event quota alerts",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/email-event-quota-alerts",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/email-event-quota-alerts.md"
+    },
+    {
+      "title": "jobs / episerver export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/episerver-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/episerver-export-audience.md"
+    },
+    {
+      "title": "jobs / episerver import activity",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/episerver-import-activity",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/episerver-import-activity.md"
+    },
+    {
+      "title": "jobs / episerver import recipients opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/episerver-import-recipients-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/episerver-import-recipients-opus.md"
+    },
+    {
+      "title": "jobs / facebook audience populate",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/facebook-audience-populate",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/facebook-audience-populate.md"
+    },
+    {
+      "title": "jobs / facebook conversion api",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/facebook-conversion-api",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/facebook-conversion-api.md"
+    },
+    {
+      "title": "jobs / facebook web audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/facebook-web-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/facebook-web-audience.md"
+    },
+    {
+      "title": "jobs / fullcontact email",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/fullcontact-email",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/fullcontact-email.md"
+    },
+    {
+      "title": "jobs / fullcontact phone",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/fullcontact-phone",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/fullcontact-phone.md"
+    },
+    {
+      "title": "jobs / fullcontact twitter",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/fullcontact-twitter",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/fullcontact-twitter.md"
+    },
+    {
+      "title": "jobs / ga4 measurement protocol audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/ga4-measurement-protocol-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/ga4-measurement-protocol-audience.md"
+    },
+    {
+      "title": "jobs / ga4 measurement protocol event",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/ga4-measurement-protocol-event",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/ga4-measurement-protocol-event.md"
+    },
+    {
+      "title": "jobs / gcs csv export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/gcs-csv-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/gcs-csv-export.md"
+    },
+    {
+      "title": "jobs / gcs event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/gcs-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/gcs-event-export.md"
+    },
+    {
+      "title": "jobs / gcs import opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/gcs-import-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/gcs-import-opus.md"
+    },
+    {
+      "title": "jobs / gigya export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/gigya-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/gigya-export.md"
+    },
+    {
+      "title": "jobs / gigya import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/gigya-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/gigya-import.md"
+    },
+    {
+      "title": "jobs / google cm360 conversion export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-cm360-conversion-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-cm360-conversion-export.md"
+    },
+    {
+      "title": "jobs / google dv360 customer match",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-dv360-customer-match",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-dv360-customer-match.md"
+    },
+    {
+      "title": "jobs / google dv360 export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-dv360-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-dv360-export.md"
+    },
+    {
+      "title": "jobs / google enhanced conversions",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-enhanced-conversions",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-enhanced-conversions.md"
+    },
+    {
+      "title": "jobs / google pubsub egress",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-pubsub-egress",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-pubsub-egress.md"
+    },
+    {
+      "title": "jobs / google pubsub stream export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-pubsub-stream-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-pubsub-stream-export.md"
+    },
+    {
+      "title": "jobs / google sheets export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-sheets-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-sheets-export-audience.md"
+    },
+    {
+      "title": "jobs / google tag manager setup",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-tag-manager-setup",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/google-tag-manager-setup.md"
+    },
+    {
+      "title": "jobs / googlesheets import opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/googlesheets-import-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/googlesheets-import-opus.md"
+    },
+    {
+      "title": "jobs / hubspot export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/hubspot-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/hubspot-export.md"
+    },
+    {
+      "title": "jobs / hubspot import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/hubspot-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/hubspot-import.md"
+    },
+    {
+      "title": "jobs / icontact export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/icontact-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/icontact-export.md"
+    },
+    {
+      "title": "jobs / icontact import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/icontact-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/icontact-import.md"
+    },
+    {
+      "title": "jobs / infobip export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/infobip-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/infobip-export.md"
+    },
+    {
+      "title": "jobs / infobip import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/infobip-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/infobip-import.md"
+    },
+    {
+      "title": "jobs / infobip sms send",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/infobip-sms-send",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/infobip-sms-send.md"
+    },
+    {
+      "title": "jobs / insider export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/insider-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/insider-export-audience.md"
+    },
+    {
+      "title": "jobs / iterable export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/iterable-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/iterable-export.md"
+    },
+    {
+      "title": "jobs / iterable import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/iterable-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/iterable-import.md"
+    },
+    {
+      "title": "jobs / klaviyo export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/klaviyo-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/klaviyo-export.md"
+    },
+    {
+      "title": "jobs / klaviyo import opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/klaviyo-import-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/klaviyo-import-opus.md"
+    },
+    {
+      "title": "jobs / leadsquared export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/leadsquared-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/leadsquared-export.md"
+    },
+    {
+      "title": "jobs / leadsquared import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/leadsquared-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/leadsquared-import.md"
+    },
+    {
+      "title": "jobs / lineads audience export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lineads-audience-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lineads-audience-export.md"
+    },
+    {
+      "title": "jobs / linkedin conversion api",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/linkedin-conversion-api",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/linkedin-conversion-api.md"
+    },
+    {
+      "title": "jobs / linkedin existing conversion rule",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/linkedin-existing-conversion-rule",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/linkedin-existing-conversion-rule.md"
+    },
+    {
+      "title": "jobs / linkedin export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/linkedin-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/linkedin-export-audience.md"
+    },
+    {
+      "title": "jobs / liveramp csv export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/liveramp-csv-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/liveramp-csv-export.md"
+    },
+    {
+      "title": "jobs / liveramp identifier export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/liveramp-identifier-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/liveramp-identifier-export.md"
+    },
+    {
+      "title": "jobs / liveramp ramp id enrichment",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/liveramp-ramp-id-enrichment",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/liveramp-ramp-id-enrichment.md"
+    },
+    {
+      "title": "jobs / liveramp s3 export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/liveramp-s3-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/liveramp-s3-export.md"
+    },
+    {
+      "title": "jobs / liveramp sftp export eu",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/liveramp-sftp-export-eu",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/liveramp-sftp-export-eu.md"
+    },
+    {
+      "title": "jobs / localytics activity import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/localytics-activity-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/localytics-activity-import.md"
+    },
+    {
+      "title": "jobs / localytics export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/localytics-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/localytics-export-audience.md"
+    },
+    {
+      "title": "jobs / localytics profile import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/localytics-profile-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/localytics-profile-import.md"
+    },
+    {
+      "title": "jobs / localytics push",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/localytics-push",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/localytics-push.md"
+    },
+    {
+      "title": "jobs / lotame export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lotame-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lotame-export.md"
+    },
+    {
+      "title": "jobs / lytics conductor export cc",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-conductor-export-cc",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-conductor-export-cc.md"
+    },
+    {
+      "title": "jobs / lytics content enrich",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-content-enrich",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-content-enrich.md"
+    },
+    {
+      "title": "jobs / lytics field model",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-field-model",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-field-model.md"
+    },
+    {
+      "title": "jobs / lytics seg model",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-seg-model",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-seg-model.md"
+    },
+    {
+      "title": "jobs / lytics sftp event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-sftp-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-sftp-event-export.md"
+    },
+    {
+      "title": "jobs / lytics sftp export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-sftp-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-sftp-export.md"
+    },
+    {
+      "title": "jobs / lytics sftp json export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-sftp-json-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-sftp-json-export.md"
+    },
+    {
+      "title": "jobs / lytics simple export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-simple-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/lytics-simple-export.md"
+    },
+    {
+      "title": "jobs / mailchimp list",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mailchimp-list",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mailchimp-list.md"
+    },
+    {
+      "title": "jobs / mailchimp subscribers import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mailchimp-subscribers-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mailchimp-subscribers-import.md"
+    },
+    {
+      "title": "jobs / mailchimp webhooks",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mailchimp-webhooks",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mailchimp-webhooks.md"
+    },
+    {
+      "title": "jobs / mailgun setup",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mailgun-setup",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mailgun-setup.md"
+    },
+    {
+      "title": "jobs / mandrill setup",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mandrill-setup",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mandrill-setup.md"
+    },
+    {
+      "title": "jobs / mapp sftp export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mapp-sftp-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mapp-sftp-export.md"
+    },
+    {
+      "title": "jobs / mapp trigger export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mapp-trigger-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mapp-trigger-export.md"
+    },
+    {
+      "title": "jobs / marketingcloud data ext export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-data-ext-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-data-ext-export.md"
+    },
+    {
+      "title": "jobs / marketingcloud data ext import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-data-ext-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-data-ext-import.md"
+    },
+    {
+      "title": "jobs / marketingcloud export lists",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-export-lists",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-export-lists.md"
+    },
+    {
+      "title": "jobs / marketingcloud import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-import.md"
+    },
+    {
+      "title": "jobs / marketingcloud journey",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-journey",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-journey.md"
+    },
+    {
+      "title": "jobs / marketingcloud new data ext export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-new-data-ext-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketingcloud-new-data-ext-export.md"
+    },
+    {
+      "title": "jobs / marketo export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketo-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketo-export.md"
+    },
+    {
+      "title": "jobs / marketo import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketo-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/marketo-import.md"
+    },
+    {
+      "title": "jobs / maropost export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/maropost-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/maropost-export.md"
+    },
+    {
+      "title": "jobs / maropost import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/maropost-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/maropost-import.md"
+    },
+    {
+      "title": "jobs / mediamath export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mediamath-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mediamath-export.md"
+    },
+    {
+      "title": "jobs / messagecentral email",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/messagecentral-email",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/messagecentral-email.md"
+    },
+    {
+      "title": "jobs / messagecentral export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/messagecentral-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/messagecentral-export.md"
+    },
+    {
+      "title": "jobs / microsoft capi export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/microsoft-capi-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/microsoft-capi-export.md"
+    },
+    {
+      "title": "jobs / microsoft export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/microsoft-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/microsoft-export-audience.md"
+    },
+    {
+      "title": "jobs / mixpanel import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mixpanel-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/mixpanel-import.md"
+    },
+    {
+      "title": "jobs / ms teams alerts",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/ms-teams-alerts",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/ms-teams-alerts.md"
+    },
+    {
+      "title": "jobs / ms teams event quota alerts",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/ms-teams-event-quota-alerts",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/ms-teams-event-quota-alerts.md"
+    },
+    {
+      "title": "jobs / netsuite import opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/netsuite-import-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/netsuite-import-opus.md"
+    },
+    {
+      "title": "jobs / newrelic insights monitoring",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/newrelic-insights-monitoring",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/newrelic-insights-monitoring.md"
+    },
+    {
+      "title": "jobs / omeda sftp export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/omeda-sftp-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/omeda-sftp-export.md"
+    },
+    {
+      "title": "jobs / onesignal export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/onesignal-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/onesignal-export.md"
+    },
+    {
+      "title": "jobs / onesignal import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/onesignal-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/onesignal-import.md"
+    },
+    {
+      "title": "jobs / openai capi export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/openai-capi-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/openai-capi-export.md"
+    },
+    {
+      "title": "jobs / openai custom audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/openai-custom-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/openai-custom-audience.md"
+    },
+    {
+      "title": "jobs / optimizely export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/optimizely-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/optimizely-export.md"
+    },
+    {
+      "title": "jobs / optimizely odp export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/optimizely-odp-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/optimizely-odp-export.md"
+    },
+    {
+      "title": "jobs / pardot export prospects",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pardot-export-prospects",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pardot-export-prospects.md"
+    },
+    {
+      "title": "jobs / pardot import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pardot-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pardot-import.md"
+    },
+    {
+      "title": "jobs / pinterest capi export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pinterest-capi-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pinterest-capi-export.md"
+    },
+    {
+      "title": "jobs / pinterest export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pinterest-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pinterest-export-audience.md"
+    },
+    {
+      "title": "jobs / postup export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/postup-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/postup-export.md"
+    },
+    {
+      "title": "jobs / postup import opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/postup-import-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/postup-import-opus.md"
+    },
+    {
+      "title": "jobs / pubsub ingress",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pubsub-ingress",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pubsub-ingress.md"
+    },
+    {
+      "title": "jobs / pushly export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pushly-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/pushly-export-audience.md"
+    },
+    {
+      "title": "jobs / quantcast capi export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/quantcast-capi-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/quantcast-capi-export.md"
+    },
+    {
+      "title": "jobs / rampid enrichment",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/rampid-enrichment",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/rampid-enrichment.md"
+    },
+    {
+      "title": "jobs / reddit capi export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/reddit-capi-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/reddit-capi-export.md"
+    },
+    {
+      "title": "jobs / reddit custom audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/reddit-custom-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/reddit-custom-audience.md"
+    },
+    {
+      "title": "jobs / redshift conductor export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/redshift-conductor-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/redshift-conductor-export.md"
+    },
+    {
+      "title": "jobs / redshift event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/redshift-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/redshift-event-export.md"
+    },
+    {
+      "title": "jobs / redshift export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/redshift-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/redshift-export.md"
+    },
+    {
+      "title": "jobs / redshift import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/redshift-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/redshift-import.md"
+    },
+    {
+      "title": "jobs / responsys export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/responsys-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/responsys-export.md"
+    },
+    {
+      "title": "jobs / responsys import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/responsys-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/responsys-import.md"
+    },
+    {
+      "title": "jobs / responsys trigger export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/responsys-trigger-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/responsys-trigger-export.md"
+    },
+    {
+      "title": "jobs / retentionscience export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/retentionscience-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/retentionscience-export.md"
+    },
+    {
+      "title": "jobs / s3 event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/s3-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/s3-event-export.md"
+    },
+    {
+      "title": "jobs / s3 import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/s3-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/s3-import.md"
+    },
+    {
+      "title": "jobs / s3 json import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/s3-json-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/s3-json-import.md"
+    },
+    {
+      "title": "jobs / s3 user csv export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/s3-user-csv-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/s3-user-csv-export.md"
+    },
+    {
+      "title": "jobs / sailthru export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sailthru-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sailthru-export.md"
+    },
+    {
+      "title": "jobs / sailthru import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sailthru-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sailthru-import.md"
+    },
+    {
+      "title": "jobs / sailthru user export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sailthru-user-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sailthru-user-export.md"
+    },
+    {
+      "title": "jobs / salesforce custom import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-custom-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-custom-import.md"
+    },
+    {
+      "title": "jobs / salesforce data cloud audience export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-audience-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-audience-export.md"
+    },
+    {
+      "title": "jobs / salesforce data cloud bulk export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-bulk-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-bulk-export.md"
+    },
+    {
+      "title": "jobs / salesforce data cloud cdc import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-cdc-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-cdc-import.md"
+    },
+    {
+      "title": "jobs / salesforce data cloud export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-export.md"
+    },
+    {
+      "title": "jobs / salesforce data cloud insights import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-insights-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-insights-import.md"
+    },
+    {
+      "title": "jobs / salesforce data cloud segment import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-segment-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-data-cloud-segment-import.md"
+    },
+    {
+      "title": "jobs / salesforce export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-export.md"
+    },
+    {
+      "title": "jobs / salesforce import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/salesforce-import.md"
+    },
+    {
+      "title": "jobs / segmentio install",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/segmentio-install",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/segmentio-install.md"
+    },
+    {
+      "title": "jobs / segmentio webhook",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/segmentio-webhook",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/segmentio-webhook.md"
+    },
+    {
+      "title": "jobs / selligent sftp export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/selligent-sftp-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/selligent-sftp-export.md"
+    },
+    {
+      "title": "jobs / sendgrid export new",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sendgrid-export-new",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sendgrid-export-new.md"
+    },
+    {
+      "title": "jobs / sendgrid new user import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sendgrid-new-user-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sendgrid-new-user-import.md"
+    },
+    {
+      "title": "jobs / sendgrid send email",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sendgrid-send-email",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sendgrid-send-email.md"
+    },
+    {
+      "title": "jobs / sftp import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sftp-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sftp-import.md"
+    },
+    {
+      "title": "jobs / sftp json import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sftp-json-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sftp-json-import.md"
+    },
+    {
+      "title": "jobs / shopify import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/shopify-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/shopify-import.md"
+    },
+    {
+      "title": "jobs / shopify product import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/shopify-product-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/shopify-product-import.md"
+    },
+    {
+      "title": "jobs / silverpop export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/silverpop-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/silverpop-export.md"
+    },
+    {
+      "title": "jobs / silverpop export table",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/silverpop-export-table",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/silverpop-export-table.md"
+    },
+    {
+      "title": "jobs / silverpop import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/silverpop-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/silverpop-import.md"
+    },
+    {
+      "title": "jobs / silverpop recipientid export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/silverpop-recipientid-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/silverpop-recipientid-export.md"
+    },
+    {
+      "title": "jobs / silverpop relational table export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/silverpop-relational-table-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/silverpop-relational-table-export.md"
+    },
+    {
+      "title": "jobs / slack alerts",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/slack-alerts",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/slack-alerts.md"
+    },
+    {
+      "title": "jobs / slack event quota alerts",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/slack-event-quota-alerts",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/slack-event-quota-alerts.md"
+    },
+    {
+      "title": "jobs / snapchat capi export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snapchat-capi-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snapchat-capi-export.md"
+    },
+    {
+      "title": "jobs / snapchat export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snapchat-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snapchat-export.md"
+    },
+    {
+      "title": "jobs / snowflake audience changes export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-audience-changes-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-audience-changes-export.md"
+    },
+    {
+      "title": "jobs / snowflake event export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-event-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-event-export.md"
+    },
+    {
+      "title": "jobs / snowflake export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-export.md"
+    },
+    {
+      "title": "jobs / snowflake export conductor",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-export-conductor",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-export-conductor.md"
+    },
+    {
+      "title": "jobs / snowflake import opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-import-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-import-opus.md"
+    },
+    {
+      "title": "jobs / snowflake metric export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-metric-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/snowflake-metric-export.md"
+    },
+    {
+      "title": "jobs / sparkpost send email",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sparkpost-send-email",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sparkpost-send-email.md"
+    },
+    {
+      "title": "jobs / sparkpost setup",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sparkpost-setup",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/sparkpost-setup.md"
+    },
+    {
+      "title": "jobs / spotify export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/spotify-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/spotify-export-audience.md"
+    },
+    {
+      "title": "jobs / stackdriver monitoring",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/stackdriver-monitoring",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/stackdriver-monitoring.md"
+    },
+    {
+      "title": "jobs / surveymonkey import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/surveymonkey-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/surveymonkey-import.md"
+    },
+    {
+      "title": "jobs / swrve activity import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/swrve-activity-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/swrve-activity-import.md"
+    },
+    {
+      "title": "jobs / swrve import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/swrve-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/swrve-import.md"
+    },
+    {
+      "title": "jobs / taboola s3 export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/taboola-s3-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/taboola-s3-export.md"
+    },
+    {
+      "title": "jobs / thetradedesk capi export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/thetradedesk-capi-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/thetradedesk-capi-export.md"
+    },
+    {
+      "title": "jobs / thetradedesk export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/thetradedesk-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/thetradedesk-export.md"
+    },
+    {
+      "title": "jobs / tiktok app events",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/tiktok-app-events",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/tiktok-app-events.md"
+    },
+    {
+      "title": "jobs / tiktok export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/tiktok-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/tiktok-export-audience.md"
+    },
+    {
+      "title": "jobs / tiktok offline events",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/tiktok-offline-events",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/tiktok-offline-events.md"
+    },
+    {
+      "title": "jobs / tiktok web events",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/tiktok-web-events",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/tiktok-web-events.md"
+    },
+    {
+      "title": "jobs / twitter export audience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/twitter-export-audience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/twitter-export-audience.md"
+    },
+    {
+      "title": "jobs / uid enrichment",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/uid-enrichment",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/uid-enrichment.md"
+    },
+    {
+      "title": "jobs / versium contact append",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/versium-contact-append",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/versium-contact-append.md"
+    },
+    {
+      "title": "jobs / versium demographic enrich",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/versium-demographic-enrich",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/versium-demographic-enrich.md"
+    },
+    {
+      "title": "jobs / versium enrich",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/versium-enrich",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/versium-enrich.md"
+    },
+    {
+      "title": "jobs / webhook enrichment",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/webhook-enrichment",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/webhook-enrichment.md"
+    },
+    {
+      "title": "jobs / webhook stream events",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/webhook-stream-events",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/webhook-stream-events.md"
+    },
+    {
+      "title": "jobs / webhook triggers",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/webhook-triggers",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/webhook-triggers.md"
+    },
+    {
+      "title": "jobs / webhook triggers free",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/webhook-triggers-free",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/webhook-triggers-free.md"
+    },
+    {
+      "title": "jobs / wistia activity import opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/wistia-activity-import-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/wistia-activity-import-opus.md"
+    },
+    {
+      "title": "jobs / yahoo datax export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/yahoo-datax-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/yahoo-datax-export.md"
+    },
+    {
+      "title": "jobs / yahoo export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/yahoo-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/yahoo-export.md"
+    },
+    {
+      "title": "jobs / yahoo partner match",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/yahoo-partner-match",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/yahoo-partner-match.md"
+    },
+    {
+      "title": "jobs / zendesk connect export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/zendesk-connect-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/zendesk-connect-export.md"
+    },
+    {
+      "title": "jobs / zendesk import opus",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/zendesk-import-opus",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/zendesk-import-opus.md"
+    },
+    {
+      "title": "jobs / zendesk user export",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/zendesk-user-export",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/zendesk-user-export.md"
+    },
+    {
+      "title": "jobs / zuora import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/zuora-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/jobs/zuora-import.md"
+    },
+    {
+      "title": "lytics api / metrics",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/metrics",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/metrics.md"
+    },
+    {
+      "title": "lytics api / ml models",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/ml-models",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/ml-models.md"
+    },
+    {
+      "title": "lytics api / profiles",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/profiles",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/profiles.md"
+    },
+    {
+      "title": "lytics api / reports",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/reports",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/reports.md"
+    },
+    {
+      "title": "lytics api / schema",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/schema",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/schema.md"
+    },
+    {
+      "title": "lytics api / schema patches",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/schema-patches",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/schema-patches.md"
+    },
+    {
+      "title": "lytics api / segments",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/segments",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/segments.md"
+    },
+    {
+      "title": "lytics api / streams",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/streams",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/streams.md"
+    },
+    {
+      "title": "lytics api / system",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/system",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/system.md"
+    },
+    {
+      "title": "lytics api / templates",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/templates",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/templates.md"
+    },
+    {
+      "title": "lytics api / user",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/user",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/user.md"
+    },
+    {
+      "title": "lytics api / v1",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1.md"
+    },
+    {
+      "title": "v1 / account",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/account",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/account.md"
+    },
+    {
+      "title": "v1 / account settings",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/account-settings",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/account-settings.md"
+    },
+    {
+      "title": "v1 / auth",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/auth",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/auth.md"
+    },
+    {
+      "title": "v1 / catalog",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/catalog",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/catalog.md"
+    },
+    {
+      "title": "v1 / content",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/content",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/content.md"
+    },
+    {
+      "title": "v1 / dataupload",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/dataupload",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/dataupload.md"
+    },
+    {
+      "title": "v1 / experience",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/experience",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/experience.md"
+    },
+    {
+      "title": "v1 / metric",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/metric",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/metric.md"
+    },
+    {
+      "title": "v1 / personalization",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/personalization",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/personalization.md"
+    },
+    {
+      "title": "v1 / provider",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/provider",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/provider.md"
+    },
+    {
+      "title": "v1 / query",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/query",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/query.md"
+    },
+    {
+      "title": "v1 / segment",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/segment",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/segment.md"
+    },
+    {
+      "title": "v1 / segmentcollection",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/segmentcollection",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/segmentcollection.md"
+    },
+    {
+      "title": "v1 / segmentml",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/segmentml",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/segmentml.md"
+    },
+    {
+      "title": "v1 / stream",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/stream",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/stream.md"
+    },
+    {
+      "title": "v1 / subscription",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/subscription",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/subscription.md"
+    },
+    {
+      "title": "v1 / system events",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/system-events",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/system-events.md"
+    },
+    {
+      "title": "v1 / user",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/user",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/user.md"
+    },
+    {
+      "title": "v1 / work",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/work",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/work.md"
+    },
+    {
+      "title": "v1 / workflow",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/workflow",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/v1/workflow.md"
+    },
+    {
+      "title": "lytics api / widgets",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/widgets",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/widgets.md"
+    },
+    {
       "title": "apis / lytics management api",
       "url": "https://www.contentstack.com/docs/developers/apis/lytics-management-api",
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-management-api.md"
+    },
+    {
+      "title": "lytics management api / collaborators",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-management-api/collaborators",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-management-api/collaborators.md"
+    },
+    {
+      "title": "lytics management api / content import",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-management-api/content-import",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-management-api/content-import.md"
+    },
+    {
+      "title": "lytics management api / projects",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-management-api/projects",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-management-api/projects.md"
+    },
+    {
+      "title": "lytics management api / roles",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-management-api/roles",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-management-api/roles.md"
+    },
+    {
+      "title": "lytics management api / simulator",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-management-api/simulator",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-management-api/simulator.md"
     },
     {
       "title": "apis / personalize edge api",
@@ -2472,9 +4832,59 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-edge-api.md"
     },
     {
+      "title": "personalize edge api / events",
+      "url": "https://www.contentstack.com/docs/developers/apis/personalize-edge-api/events",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-edge-api/events.md"
+    },
+    {
+      "title": "personalize edge api / manifest",
+      "url": "https://www.contentstack.com/docs/developers/apis/personalize-edge-api/manifest",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-edge-api/manifest.md"
+    },
+    {
+      "title": "personalize edge api / user attributes",
+      "url": "https://www.contentstack.com/docs/developers/apis/personalize-edge-api/user-attributes",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-edge-api/user-attributes.md"
+    },
+    {
       "title": "apis / personalize management api",
       "url": "https://www.contentstack.com/docs/developers/apis/personalize-management-api",
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-management-api.md"
+    },
+    {
+      "title": "personalize management api / attributes",
+      "url": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/attributes",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/attributes.md"
+    },
+    {
+      "title": "personalize management api / audiences",
+      "url": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/audiences",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/audiences.md"
+    },
+    {
+      "title": "personalize management api / events",
+      "url": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/events",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/events.md"
+    },
+    {
+      "title": "personalize management api / experience analytics",
+      "url": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/experience-analytics",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/experience-analytics.md"
+    },
+    {
+      "title": "personalize management api / experiences",
+      "url": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/experiences",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/experiences.md"
+    },
+    {
+      "title": "personalize management api / experiences priority",
+      "url": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/experiences-priority",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/experiences-priority.md"
+    },
+    {
+      "title": "personalize management api / geolocation",
+      "url": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/geolocation",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/personalize-management-api/geolocation.md"
     },
     {
       "title": "apis / scim api",
@@ -2627,9 +5037,44 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/how-to-guides/ways-to-back-up-your-stack-content.md"
     },
     {
-      "title": "developers / mcp profile hub",
-      "url": "https://www.contentstack.com/docs/developers/mcp-profile-hub",
-      "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-profile-hub.md"
+      "title": "developers / mcp profile hub automations and agents",
+      "url": "https://www.contentstack.com/docs/developers/mcp-profile-hub-automations-and-agents",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-profile-hub-automations-and-agents.md"
+    },
+    {
+      "title": "developers / mcp profile hub connect a client to profile hub",
+      "url": "https://www.contentstack.com/docs/developers/mcp-profile-hub-connect-a-client-to-profile-hub",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-profile-hub-connect-a-client-to-profile-hub.md"
+    },
+    {
+      "title": "developers / mcp profile hub create a profile",
+      "url": "https://www.contentstack.com/docs/developers/mcp-profile-hub-create-a-profile",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-profile-hub-create-a-profile.md"
+    },
+    {
+      "title": "developers / mcp profile hub manage profiles",
+      "url": "https://www.contentstack.com/docs/developers/mcp-profile-hub-manage-profiles",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-profile-hub-manage-profiles.md"
+    },
+    {
+      "title": "developers / mcp profile hub monitor tool calls",
+      "url": "https://www.contentstack.com/docs/developers/mcp-profile-hub-monitor-tool-calls",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-profile-hub-monitor-tool-calls.md"
+    },
+    {
+      "title": "developers / mcp profile hub profiles and catalogs",
+      "url": "https://www.contentstack.com/docs/developers/mcp-profile-hub-profiles-and-catalogs",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-profile-hub-profiles-and-catalogs.md"
+    },
+    {
+      "title": "developers / mcp profile hub url parameters",
+      "url": "https://www.contentstack.com/docs/developers/mcp-profile-hub-url-parameters",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-profile-hub-url-parameters.md"
+    },
+    {
+      "title": "developers / mcp profile hub what is profile hub",
+      "url": "https://www.contentstack.com/docs/developers/mcp-profile-hub-what-is-profile-hub",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-profile-hub-what-is-profile-hub.md"
     },
     {
       "title": "python / use the sync api with python sdk",
@@ -7647,6 +10092,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/markdown-content.md"
     },
     {
+      "title": "headless cms / mask asset domains",
+      "url": "https://www.contentstack.com/docs/headless-cms/mask-asset-domains",
+      "fetchUrl": "https://www.contentstack.com/docs/headless-cms/mask-asset-domains.md"
+    },
+    {
       "title": "headless cms / maximum number of terms",
       "url": "https://www.contentstack.com/docs/headless-cms/maximum-number-of-terms",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/maximum-number-of-terms.md"
@@ -8242,6 +10692,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/schema-of-json-rich-text-editor.md"
     },
     {
+      "title": "headless cms / secure public urls of assets",
+      "url": "https://www.contentstack.com/docs/headless-cms/secure-public-urls-of-assets",
+      "fetchUrl": "https://www.contentstack.com/docs/headless-cms/secure-public-urls-of-assets.md"
+    },
+    {
       "title": "headless cms / secure your webhooks",
       "url": "https://www.contentstack.com/docs/headless-cms/secure-your-webhooks",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/secure-your-webhooks.md"
@@ -8735,6 +11190,11 @@
       "title": "headless cms / validation regex",
       "url": "https://www.contentstack.com/docs/headless-cms/validation-regex",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/validation-regex.md"
+    },
+    {
+      "title": "headless cms / validations",
+      "url": "https://www.contentstack.com/docs/headless-cms/validations",
+      "fetchUrl": "https://www.contentstack.com/docs/headless-cms/validations.md"
     },
     {
       "title": "headless cms / veda",
@@ -9347,39 +11807,14 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/audience-insights-app-installation-guide.md"
     },
     {
-      "title": "lytics / behavioral scores",
-      "url": "https://www.contentstack.com/docs/lytics/behavioral-scores",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/behavioral-scores.md"
-    },
-    {
-      "title": "lytics / chrome extension",
-      "url": "https://www.contentstack.com/docs/lytics/chrome-extension",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/chrome-extension.md"
-    },
-    {
-      "title": "lytics / complying with the digital markets act dma",
-      "url": "https://www.contentstack.com/docs/lytics/complying-with-the-digital-markets-act-dma",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/complying-with-the-digital-markets-act-dma.md"
-    },
-    {
       "title": "lytics / configure your dal",
       "url": "https://www.contentstack.com/docs/lytics/configure-your-dal",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/configure-your-dal.md"
     },
     {
-      "title": "lytics / consent",
-      "url": "https://www.contentstack.com/docs/lytics/consent",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/consent.md"
-    },
-    {
       "title": "lytics / consent and privacy",
       "url": "https://www.contentstack.com/docs/lytics/consent-and-privacy",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/consent-and-privacy.md"
-    },
-    {
-      "title": "lytics / contentstack quickstart",
-      "url": "https://www.contentstack.com/docs/lytics/contentstack-quickstart",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/contentstack-quickstart.md"
     },
     {
       "title": "lytics / create a lytics project",
@@ -9397,11 +11832,6 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/create-job-and-authorization-for-lytics.md"
     },
     {
-      "title": "lytics / developer quickstart 1 account setup",
-      "url": "https://www.contentstack.com/docs/lytics/developer-quickstart-1-account-setup",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/developer-quickstart-1-account-setup.md"
-    },
-    {
       "title": "lytics / event tracking in contentstack launch",
       "url": "https://www.contentstack.com/docs/lytics/event-tracking-in-contentstack-launch",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/event-tracking-in-contentstack-launch.md"
@@ -9415,11 +11845,6 @@
       "title": "lytics / gdpr compliance with cdp",
       "url": "https://www.contentstack.com/docs/lytics/gdpr-compliance-with-cdp",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/gdpr-compliance-with-cdp.md"
-    },
-    {
-      "title": "lytics / glossary of terms",
-      "url": "https://www.contentstack.com/docs/lytics/glossary-of-terms",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/glossary-of-terms.md"
     },
     {
       "title": "lytics / install lytics jstag sdk",
@@ -9437,186 +11862,6 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/integrating-lytics.md"
     },
     {
-      "title": "lytics / jstag configuration",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-configuration",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-configuration.md"
-    },
-    {
-      "title": "lytics / jstag events",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-events",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-events.md"
-    },
-    {
-      "title": "lytics / jstag namespaces",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-namespaces",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-namespaces.md"
-    },
-    {
-      "title": "lytics / jstag plugin addthis",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-addthis",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-addthis.md"
-    },
-    {
-      "title": "lytics / jstag plugin adroll",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-adroll",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-adroll.md"
-    },
-    {
-      "title": "lytics / jstag plugin amazon dsp",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-amazon-dsp",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-amazon-dsp.md"
-    },
-    {
-      "title": "lytics / jstag plugin audit",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit.md"
-    },
-    {
-      "title": "lytics / jstag plugin audit carp",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit-carp",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit-carp.md"
-    },
-    {
-      "title": "lytics / jstag plugin audit mustenable",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit-mustenable",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit-mustenable.md"
-    },
-    {
-      "title": "lytics / jstag plugin backing instance",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-backing-instance",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-backing-instance.md"
-    },
-    {
-      "title": "lytics / jstag plugin call",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-call",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-call.md"
-    },
-    {
-      "title": "lytics / jstag plugin collect",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-collect",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-collect.md"
-    },
-    {
-      "title": "lytics / jstag plugin config",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-config",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-config.md"
-    },
-    {
-      "title": "lytics / jstag plugin config moarconfig",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-config-moarconfig",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-config-moarconfig.md"
-    },
-    {
-      "title": "lytics / jstag plugin cookies",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-cookies",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-cookies.md"
-    },
-    {
-      "title": "lytics / jstag plugin custom global variables",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-custom-global-variables",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-custom-global-variables.md"
-    },
-    {
-      "title": "lytics / jstag plugin emitter",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-emitter",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-emitter.md"
-    },
-    {
-      "title": "lytics / jstag plugin entity",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-entity",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-entity.md"
-    },
-    {
-      "title": "lytics / jstag plugin facebook ads",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-facebook-ads",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-facebook-ads.md"
-    },
-    {
-      "title": "lytics / jstag plugin getid",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-getid",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-getid.md"
-    },
-    {
-      "title": "lytics / jstag plugin google analytics",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-analytics",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-analytics.md"
-    },
-    {
-      "title": "lytics / jstag plugin google dfp",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-dfp",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-dfp.md"
-    },
-    {
-      "title": "lytics / jstag plugin google tag manager",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-tag-manager",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-tag-manager.md"
-    },
-    {
-      "title": "lytics / jstag plugin iframe transport",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-iframe-transport",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-iframe-transport.md"
-    },
-    {
-      "title": "lytics / jstag plugin jsonp transport",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-jsonp-transport",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-jsonp-transport.md"
-    },
-    {
-      "title": "lytics / jstag plugin legacy liosetup callback",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-legacy-liosetup-callback",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-legacy-liosetup-callback.md"
-    },
-    {
-      "title": "lytics / jstag plugin lifecycle",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-lifecycle",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-lifecycle.md"
-    },
-    {
-      "title": "lytics / jstag plugin lio",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-lio",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-lio.md"
-    },
-    {
-      "title": "lytics / jstag plugin page analysis",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-page-analysis",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-page-analysis.md"
-    },
-    {
-      "title": "lytics / jstag plugin pathfora install",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-install",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-install.md"
-    },
-    {
-      "title": "lytics / jstag plugin pathfora preview",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-preview",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-preview.md"
-    },
-    {
-      "title": "lytics / jstag plugin pathfora publish",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-publish",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-publish.md"
-    },
-    {
-      "title": "lytics / jstag plugin pixel",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-pixel",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-pixel.md"
-    },
-    {
-      "title": "lytics / jstag plugin poll",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-poll",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-poll.md"
-    },
-    {
-      "title": "lytics / jstag plugin segments",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-segments",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-segments.md"
-    },
-    {
-      "title": "lytics / jstag plugin send",
-      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-send",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-send.md"
-    },
-    {
       "title": "lytics / key concepts",
       "url": "https://www.contentstack.com/docs/lytics/key-concepts",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/key-concepts.md"
@@ -9632,49 +11877,14 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/lookalike-models-and-audiences.md"
     },
     {
-      "title": "lytics / looker",
-      "url": "https://www.contentstack.com/docs/lytics/looker",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/looker.md"
-    },
-    {
       "title": "lytics / manage a lytics project",
       "url": "https://www.contentstack.com/docs/lytics/manage-a-lytics-project",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/manage-a-lytics-project.md"
     },
     {
-      "title": "lytics / personalization pathfora",
-      "url": "https://www.contentstack.com/docs/lytics/personalization-pathfora",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/personalization-pathfora.md"
-    },
-    {
-      "title": "lytics / privacy and data protection",
-      "url": "https://www.contentstack.com/docs/lytics/privacy-and-data-protection",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/privacy-and-data-protection.md"
-    },
-    {
-      "title": "lytics / react native sdk",
-      "url": "https://www.contentstack.com/docs/lytics/react-native-sdk",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/react-native-sdk.md"
-    },
-    {
       "title": "lytics / schema patches",
       "url": "https://www.contentstack.com/docs/lytics/schema-patches",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/schema-patches.md"
-    },
-    {
-      "title": "lytics / sdk for android",
-      "url": "https://www.contentstack.com/docs/lytics/sdk-for-android",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/sdk-for-android.md"
-    },
-    {
-      "title": "lytics / sdk for ios",
-      "url": "https://www.contentstack.com/docs/lytics/sdk-for-ios",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/sdk-for-ios.md"
-    },
-    {
-      "title": "lytics / subresource integrity sri",
-      "url": "https://www.contentstack.com/docs/lytics/subresource-integrity-sri",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/subresource-integrity-sri.md"
     },
     {
       "title": "lytics / understanding your lytics project setup",

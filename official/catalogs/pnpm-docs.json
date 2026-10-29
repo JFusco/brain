@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "pnpm-docs",
-  "revision": "f4fc405ab67f5c31b395a2793bf6cb0dec2a0fb5e8a4191b8a15c41ad321e3a7",
+  "revision": "3484eed61aebc07d7b1328aec8dc1f112499f2ad2d7fc8fd63188785e01a12c3",
   "origin": "https://pnpm.io/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -585,6 +585,11 @@
       "title": "migration",
       "url": "https://pnpm.io/migration",
       "fetchUrl": "https://pnpm.io/migration"
+    },
+    {
+      "title": "migration v11",
+      "url": "https://pnpm.io/migration-v11",
+      "fetchUrl": "https://pnpm.io/migration-v11"
     },
     {
       "title": "motivation",

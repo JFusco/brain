@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "0886f03afca336e865e871d5e29944611a4c48c7d9362015f2cb8f5a1c36e33a",
+  "revision": "2b0832a61f9f3b105e6d057a697795e85f4429b02d40e72b84042394897afd99",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -2822,6 +2822,11 @@
       "fetchUrl": "https://vercel.com/docs/cli/agent.md"
     },
     {
+      "title": "vercel agent-runs",
+      "url": "https://vercel.com/docs/cli/agent-runs",
+      "fetchUrl": "https://vercel.com/docs/cli/agent-runs.md"
+    },
+    {
       "title": "vercel ai-gateway",
       "url": "https://vercel.com/docs/cli/ai-gateway",
       "fetchUrl": "https://vercel.com/docs/cli/ai-gateway.md"
@@ -3280,11 +3285,6 @@
       "title": "TanStack AI with Vercel Connect",
       "url": "https://vercel.com/docs/connect/frameworks/tanstack-ai",
       "fetchUrl": "https://vercel.com/docs/connect/frameworks/tanstack-ai.md"
-    },
-    {
-      "title": "Vercel Connect product terms",
-      "url": "https://vercel.com/docs/connect/legal",
-      "fetchUrl": "https://vercel.com/docs/connect/legal.md"
     },
     {
       "title": "Vercel Connect Limits",
@@ -5657,6 +5657,11 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/archive-ai-gateway-budget-default.md"
     },
     {
+      "title": "Create a BYOK credential",
+      "url": "https://vercel.com/docs/rest-api/ai-gateway/create-a-byok-credential",
+      "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/create-a-byok-credential.md"
+    },
+    {
       "title": "Create rule",
       "url": "https://vercel.com/docs/rest-api/ai-gateway/create-rule",
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/create-rule.md"
@@ -5667,6 +5672,11 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/create-virtual-model-config.md"
     },
     {
+      "title": "Delete a BYOK credential",
+      "url": "https://vercel.com/docs/rest-api/ai-gateway/delete-a-byok-credential",
+      "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/delete-a-byok-credential.md"
+    },
+    {
       "title": "Delete rule",
       "url": "https://vercel.com/docs/rest-api/ai-gateway/delete-rule",
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/delete-rule.md"
@@ -5675,6 +5685,11 @@
       "title": "Delete virtual model config",
       "url": "https://vercel.com/docs/rest-api/ai-gateway/delete-virtual-model-config",
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/delete-virtual-model-config.md"
+    },
+    {
+      "title": "Get a BYOK credential",
+      "url": "https://vercel.com/docs/rest-api/ai-gateway/get-a-byok-credential",
+      "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/get-a-byok-credential.md"
     },
     {
       "title": "Get virtual model config",
@@ -5697,6 +5712,11 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/list-ai-gateway-routers.md"
     },
     {
+      "title": "List BYOK credentials",
+      "url": "https://vercel.com/docs/rest-api/ai-gateway/list-byok-credentials",
+      "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/list-byok-credentials.md"
+    },
+    {
       "title": "List rules",
       "url": "https://vercel.com/docs/rest-api/ai-gateway/list-rules",
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/list-rules.md"
@@ -5705,6 +5725,11 @@
       "title": "List virtual model configs",
       "url": "https://vercel.com/docs/rest-api/ai-gateway/list-virtual-model-configs",
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/list-virtual-model-configs.md"
+    },
+    {
+      "title": "Update a BYOK credential",
+      "url": "https://vercel.com/docs/rest-api/ai-gateway/update-a-byok-credential",
+      "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/update-a-byok-credential.md"
     },
     {
       "title": "Update an AI Gateway API key budget",

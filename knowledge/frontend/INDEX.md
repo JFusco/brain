@@ -24,17 +24,17 @@ aliases: ["frontend"]
 <!-- brain:official:start -->
 ## Official sources
 
-- **mdn-web-docs** — link catalog of 884 pages; rolling-url; revision `cceec17e41c46ac0d1593a34b8977148257c68f33517430b2267961b46bf2935`; fetched 2026-10-22.
+- **mdn-web-docs** — link catalog of 887 pages; rolling-url; revision `7fe88bb4d579b6c9d95b3e3fd270b355ffed1e3fde631f4d63f2050c334283b7`; fetched 2026-10-29.
   - [Catalog source](https://developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz); search it with `lookup --domain frontend`.
 - **w3c-internationalization** — link catalog of 71 pages; rolling-url; revision `425522bbf10fc262bbd5382aa0cad63f55c5ad56aecf2c92034bc618b5329f65`; fetched 2026-10-22.
   - [Catalog source](https://www.w3.org/International/techniques/authoring-html); search it with `lookup --domain frontend`.
 - **playwright-docs** — link catalog of 148 pages; rolling-url; revision `2b872424e6169ff0fd683c0180343963f96230188d530e2b5be4706daaa9829c`; fetched 2026-10-22.
   - [Catalog source](https://playwright.dev/sitemap.xml); search it with `lookup --domain frontend`.
-- **web-features-baseline** — 0 skills and 4 docs at a pinned commit; default-branch; revision `9ed65bb4ac4047a140ce80c922e425065d62c1c4`; fetched 2026-10-26.
-  - [docs/baseline.md](https://github.com/web-platform-dx/web-features/blob/9ed65bb4ac4047a140ce80c922e425065d62c1c4/docs/baseline.md).
-  - [packages/compute-baseline/README.md](https://github.com/web-platform-dx/web-features/blob/9ed65bb4ac4047a140ce80c922e425065d62c1c4/packages/compute-baseline/README.md).
-  - [packages/web-features/README.md](https://github.com/web-platform-dx/web-features/blob/9ed65bb4ac4047a140ce80c922e425065d62c1c4/packages/web-features/README.md).
-  - [README.md](https://github.com/web-platform-dx/web-features/blob/9ed65bb4ac4047a140ce80c922e425065d62c1c4/README.md).
-- **motion-docs** — link catalog of 150 pages; rolling-url; revision `379798ecbc4621eed5f3f96abd19bc774b1461acf1f334f93cda321e533d6e0a`; fetched 2026-10-25.
+- **web-features-baseline** — 0 skills and 4 docs at a pinned commit; default-branch; revision `f44d2602ff6b1bfe09a5446bf283f0600f88a818`; fetched 2026-10-29.
+  - [docs/baseline.md](https://github.com/web-platform-dx/web-features/blob/f44d2602ff6b1bfe09a5446bf283f0600f88a818/docs/baseline.md).
+  - [packages/compute-baseline/README.md](https://github.com/web-platform-dx/web-features/blob/f44d2602ff6b1bfe09a5446bf283f0600f88a818/packages/compute-baseline/README.md).
+  - [packages/web-features/README.md](https://github.com/web-platform-dx/web-features/blob/f44d2602ff6b1bfe09a5446bf283f0600f88a818/packages/web-features/README.md).
+  - [README.md](https://github.com/web-platform-dx/web-features/blob/f44d2602ff6b1bfe09a5446bf283f0600f88a818/README.md).
+- **motion-docs** — link catalog of 151 pages; rolling-url; revision `d9129a13584a31aa74104b35401d587708cf2b3d167d2e1d82b560aa660fdc57`; fetched 2026-10-29.
   - [Catalog source](https://motion.dev/llms.txt); search it with `lookup --domain frontend`.
 <!-- brain:official:end -->
