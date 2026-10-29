@@ -5,10 +5,10 @@ format: "playbook"
 aliases: ["Playwright", "locators", "browser verification playbook"]
 evidence_date: "2026-10-21"
 applicability: "Consuming projects that authorize browser verification; confirm installed Playwright/browser versions and project-specific acceptance requirements"
-provenance: "playwright-docs@2b872424e6169ff0fd683c0180343963f96230188d530e2b5be4706daaa9829c; mdn-web-docs@cceec17e41c46ac0d1593a34b8977148257c68f33517430b2267961b46bf2935; official pages read for this proposed workflow; no target application run"
+provenance: "playwright-docs@2b872424e6169ff0fd683c0180343963f96230188d530e2b5be4706daaa9829c; mdn-web-docs@7fe88bb4d579b6c9d95b3e3fd270b355ffed1e3fde631f4d63f2050c334283b7; official pages read for this proposed workflow; no target application run"
 status: "current"
 versions: []
-reviewed_at: "2026-10-21"
+reviewed_at: "2026-10-29"
 ---
 
 # Prepare a focused browser verification
@@ -33,3 +33,5 @@ Use this when an application task calls for a focused browser check. Follow the 
 ## Evidence and limits
 
 The official [Playwright best practices](https://playwright.dev/docs/best-practices) and [locator documentation](https://playwright.dev/docs/locators) support the locator, isolation and assertion guidance. MDN supports the browser-availability boundary. This is a proposed preparation sequence, without a new browser test suite or target-application run. Rolling documentation does not prove compatibility with installed runner versions.
+
+**Revalidated October 29, 2026:** MDN still limits Baseline to browser support. The current Playwright pages still distinguish role/text locators from explicit test-ID contracts, isolate independent tests and use waiting/retrying assertions to establish the expected outcome. The proposed preparation sequence is retained; no target browser workflow or installed-runner compatibility was exercised.

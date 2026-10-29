@@ -20,9 +20,12 @@ Route build configuration, test runners, component workshops, linting, package m
 - [Adapt shared agent guidance to the receiving repository](share-agent-guidance.md)
 - [Author Claude skills, references and project rules](claude-skills-and-rules.md)
 - [Author OpenAI skills, references and Codex rules](openai-skills-and-rules.md)
+- [Check screenshot resolution before a vision judgment](vision-input-contract.md)
 - [Choose Claude models and effort by task](claude-model-selection.md)
 - [Choose OpenAI models and reasoning by task](openai-model-selection.md)
+- [Define a structured Opus 5.5 judgment contract](opus-structured-judgment.md)
 - [Keep a Graphify code map scoped and reproducible](graphify-code-map.md)
+- [Pin an agent CLI judgment call's settings](agent-cli-invocation-contract.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
