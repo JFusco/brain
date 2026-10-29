@@ -37,7 +37,7 @@ aliases: ["sitecore-ai"]
   - [docs/AGENTS-router-specifics.md](https://github.com/Sitecore/content-sdk/blob/53e4011b6413416a0502e68a36510f94b3f51a05/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-router-specifics.md).
   - [docs/AGENTS-workflows-and-boundaries.md](https://github.com/Sitecore/content-sdk/blob/53e4011b6413416a0502e68a36510f94b3f51a05/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/AGENTS-workflows-and-boundaries.md).
   - [docs/README.md](https://github.com/Sitecore/content-sdk/blob/53e4011b6413416a0502e68a36510f94b3f51a05/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/README.md).
-- **sitecoreai-docs** — link catalog of 408 pages; rolling-url; revision `70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6`; fetched 2026-10-21.
+- **sitecoreai-docs** — link catalog of 423 pages; rolling-url; revision `4a62a6a81c56ff1042354b6a785138e4579ab08d1dcc1d098f12e4113a15b481`; fetched 2026-10-28.
   - [Catalog source](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml); search it with `lookup --domain cms/sitecore-ai`.
 - **content-hub-docs** — link catalog of 387 pages; rolling-url; revision `e377cdfbd5b19dfe15a4b6d56bda20cefb94b027f456805396ab461a607f77d4`; fetched 2026-10-24.
   - [Catalog source](https://doc.sitecore.com/ch/en/developers/cloud-dev/sitemap.xml); search it with `lookup --domain cms/sitecore-ai`.

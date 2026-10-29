@@ -468,7 +468,7 @@
         "doc.sitecore.com"
       ],
       "includePrefixes": [
-        "/sai/developers/sitecoreai/"
+        "/sai/en/developers/sitecoreai/"
       ],
       "maxPages": 5000,
       "license": "Official documentation under upstream terms; no open license asserted",
@@ -751,7 +751,7 @@
         "doc.sitecore.com"
       ],
       "includePrefixes": [
-        "/xp/developers/104/sitecore-experience-manager/"
+        "/xp/en/developers/104/sitecore-experience-manager/"
       ],
       "maxPages": 5000,
       "license": "Official documentation under upstream terms; no open license asserted",
