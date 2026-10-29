@@ -80,6 +80,22 @@ test('corrupt gzip and unsupported encodings fail instead of becoming catalogs',
   );
 });
 
+test('additional pages cannot replace an index with no matching links', async t => {
+  const supplemented = {
+    ...spec,
+    additionalPages: [{ title: 'extra', url: 'https://docs.example.com/docs/extra' }],
+  };
+  respond(t, Buffer.from('<urlset><loc>https://docs.example.com/en/docs/guide</loc></urlset>'));
+  await assert.rejects(fetchDocumentationCatalog(supplemented), /no matching documentation links/);
+  t.mock.restoreAll();
+  respond(t, Buffer.from(xml));
+  const { pages } = await fetchDocumentationCatalog(supplemented);
+  assert.deepEqual(
+    pages.map(page => page.url),
+    ['https://docs.example.com/docs/extra', 'https://docs.example.com/docs/guide'],
+  );
+});
+
 test('decoded HTML challenges and binary data still fail document validation', async t => {
   for (const [body, expected] of [
     ['<html>Sign in to continue</html>', /Expected text documentation/],

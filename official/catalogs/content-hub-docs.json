@@ -1,1945 +1,1945 @@
 {
   "schemaVersion": 1,
   "source": "content-hub-docs",
-  "revision": "e377cdfbd5b19dfe15a4b6d56bda20cefb94b027f456805396ab461a607f77d4",
+  "revision": "634fb050ff6ec848371b3c6ecb22b0f32e1dc4d647ef3eb2f1d2de0ed9ee5bd7",
   "origin": "https://doc.sitecore.com/ch/en/developers/cloud-dev/sitemap.xml",
   "skills": [],
   "docs": [],
   "pages": [
     {
       "title": "cloud dev /  net tools installation.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/-net-tools-installation.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/-net-tools-installation.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/-net-tools-installation.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/-net-tools-installation.html"
     },
     {
       "title": "cloud dev / action script to set a master asset on a product.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/action-script-to-set-a-master-asset-on-a-product.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/action-script-to-set-a-master-asset-on-a-product.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-script-to-set-a-master-asset-on-a-product.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-script-to-set-a-master-asset-on-a-product.html"
     },
     {
       "title": "cloud dev / action script with a pre commit trigger.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/action-script-with-a-pre-commit-trigger.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/action-script-with-a-pre-commit-trigger.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-script-with-a-pre-commit-trigger.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-script-with-a-pre-commit-trigger.html"
     },
     {
       "title": "cloud dev / action script with a security trigger.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/action-script-with-a-security-trigger.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/action-script-with-a-security-trigger.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-script-with-a-security-trigger.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-script-with-a-security-trigger.html"
     },
     {
       "title": "cloud dev / action script with a validation trigger.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/action-script-with-a-validation-trigger.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/action-script-with-a-validation-trigger.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-script-with-a-validation-trigger.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-script-with-a-validation-trigger.html"
     },
     {
       "title": "cloud dev / action types.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/action-types.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/action-types.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-types.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-types.html"
     },
     {
       "title": "cloud dev / action worker behavior.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/action-worker-behavior.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/action-worker-behavior.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-worker-behavior.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-worker-behavior.html"
     },
     {
       "title": "cloud dev / actions.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/actions.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/actions.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/actions.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/actions.html"
     },
     {
       "title": "cloud dev / admin cache api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/admin-cache-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/admin-cache-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/admin-cache-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/admin-cache-api.html"
     },
     {
       "title": "cloud dev / admin content api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/admin-content-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/admin-content-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/admin-content-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/admin-content-api.html"
     },
     {
       "title": "cloud dev / admin settings api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/admin-settings-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/admin-settings-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/admin-settings-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/admin-settings-api.html"
     },
     {
       "title": "cloud dev / admin webhooks api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/admin-webhooks-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/admin-webhooks-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/admin-webhooks-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/admin-webhooks-api.html"
     },
     {
       "title": "cloud dev / advanced http control.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/advanced-http-control.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/advanced-http-control.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/advanced-http-control.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/advanced-http-control.html"
     },
     {
       "title": "cloud dev / aggregates client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/aggregates-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/aggregates-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/aggregates-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/aggregates-client.html"
     },
     {
       "title": "cloud dev / api client 1523469.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/api-client-1523469.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/api-client-1523469.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/api-client-1523469.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/api-client-1523469.html"
     },
     {
       "title": "cloud dev / api client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/api-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/api-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/api-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/api-client.html"
     },
     {
       "title": "cloud dev / architecture.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/architecture.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/architecture.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/architecture.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/architecture.html"
     },
     {
       "title": "cloud dev / assets client 1523406.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/assets-client-1523406.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/assets-client-1523406.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/assets-client-1523406.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/assets-client-1523406.html"
     },
     {
       "title": "cloud dev / assets client 1523442.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/assets-client-1523442.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/assets-client-1523442.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/assets-client-1523442.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/assets-client-1523442.html"
     },
     {
       "title": "cloud dev / assets client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/assets-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/assets-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/assets-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/assets-client.html"
     },
     {
       "title": "cloud dev / audit logs client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/audit-logs-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/audit-logs-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/audit-logs-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/audit-logs-client.html"
     },
     {
       "title": "cloud dev / auditing.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/auditing.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/auditing.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/auditing.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/auditing.html"
     },
     {
       "title": "cloud dev / authentication 1523380.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/authentication-1523380.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/authentication-1523380.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/authentication-1523380.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/authentication-1523380.html"
     },
     {
       "title": "cloud dev / authentication 1523437.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/authentication-1523437.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/authentication-1523437.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/authentication-1523437.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/authentication-1523437.html"
     },
     {
       "title": "cloud dev / authentication 1523482.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/authentication-1523482.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/authentication-1523482.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/authentication-1523482.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/authentication-1523482.html"
     },
     {
       "title": "cloud dev / authentication.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/authentication.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/authentication.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/authentication.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/authentication.html"
     },
     {
       "title": "cloud dev / automate user management.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/automate-user-management.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/automate-user-management.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/automate-user-management.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/automate-user-management.html"
     },
     {
       "title": "cloud dev / avoiding the async void return type in scripts.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/avoiding-the-async-void-return-type-in-scripts.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/avoiding-the-async-void-return-type-in-scripts.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/avoiding-the-async-void-return-type-in-scripts.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/avoiding-the-async-void-return-type-in-scripts.html"
     },
     {
       "title": "cloud dev / before you start.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/before-you-start.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/before-you-start.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/before-you-start.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/before-you-start.html"
     },
     {
       "title": "cloud dev / best practices for developers.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/best-practices-for-developers.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/best-practices-for-developers.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/best-practices-for-developers.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/best-practices-for-developers.html"
     },
     {
       "title": "cloud dev / business continuity.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/business-continuity.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/business-continuity.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/business-continuity.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/business-continuity.html"
     },
     {
       "title": "cloud dev / cache.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/cache.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/cache.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cache.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cache.html"
     },
     {
       "title": "cloud dev / caching.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/caching.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/caching.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/caching.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/caching.html"
     },
     {
       "title": "cloud dev / ch cli troubleshooting.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/ch-cli-troubleshooting.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/ch-cli-troubleshooting.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/ch-cli-troubleshooting.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/ch-cli-troubleshooting.html"
     },
     {
       "title": "cloud dev / choosing the type of integration.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/choosing-the-type-of-integration.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/choosing-the-type-of-integration.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/choosing-the-type-of-integration.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/choosing-the-type-of-integration.html"
     },
     {
       "title": "cloud dev / chunking.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/chunking.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/chunking.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/chunking.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/chunking.html"
     },
     {
       "title": "cloud dev / ci cd azure pipeline example.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/ci-cd-azure-pipeline-example.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/ci-cd-azure-pipeline-example.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/ci-cd-azure-pipeline-example.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/ci-cd-azure-pipeline-example.html"
     },
     {
       "title": "cloud dev / claims mapping script.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/claims-mapping-script.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/claims-mapping-script.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/claims-mapping-script.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/claims-mapping-script.html"
     },
     {
       "title": "cloud dev / clear a cache.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/clear-a-cache.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/clear-a-cache.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/clear-a-cache.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/clear-a-cache.html"
     },
     {
       "title": "cloud dev / cloud development faq.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/cloud-development-faq.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/cloud-development-faq.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cloud-development-faq.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cloud-development-faq.html"
     },
     {
       "title": "cloud dev / cloud development in content hub.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/cloud-development-in-content-hub.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/cloud-development-in-content-hub.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cloud-development-in-content-hub.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cloud-development-in-content-hub.html"
     },
     {
       "title": "cloud dev / cloud edge network.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/cloud-edge-network.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/cloud-edge-network.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cloud-edge-network.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cloud-edge-network.html"
     },
     {
       "title": "cloud dev / cloud security.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/cloud-security.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/cloud-security.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cloud-security.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cloud-security.html"
     },
     {
       "title": "cloud dev / collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/collection.html"
     },
     {
       "title": "cloud dev / commands client 1523395.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/commands-client-1523395.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/commands-client-1523395.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/commands-client-1523395.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/commands-client-1523395.html"
     },
     {
       "title": "cloud dev / commands client 1523443.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/commands-client-1523443.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/commands-client-1523443.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/commands-client-1523443.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/commands-client-1523443.html"
     },
     {
       "title": "cloud dev / commands client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/commands-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/commands-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/commands-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/commands-client.html"
     },
     {
       "title": "cloud dev / compatibility 1523386.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/compatibility-1523386.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/compatibility-1523386.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/compatibility-1523386.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/compatibility-1523386.html"
     },
     {
       "title": "cloud dev / compatibility.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/compatibility.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/compatibility.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/compatibility.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/compatibility.html"
     },
     {
       "title": "cloud dev / condition.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/condition.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/condition.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/condition.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/condition.html"
     },
     {
       "title": "cloud dev / configuration.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/configuration.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/configuration.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/configuration.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/configuration.html"
     },
     {
       "title": "cloud dev / configure cors for your external app.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/configure-cors-for-your-external-app.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/configure-cors-for-your-external-app.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/configure-cors-for-your-external-app.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/configure-cors-for-your-external-app.html"
     },
     {
       "title": "cloud dev / constants 1523426.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/constants-1523426.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/constants-1523426.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/constants-1523426.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/constants-1523426.html"
     },
     {
       "title": "cloud dev / constants.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/constants.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/constants.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/constants.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/constants.html"
     },
     {
       "title": "cloud dev / content hub admin api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/content-hub-admin-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/content-hub-admin-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/content-hub-admin-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/content-hub-admin-api.html"
     },
     {
       "title": "cloud dev / content hub cli changelog.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/content-hub-cli-changelog.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/content-hub-cli-changelog.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/content-hub-cli-changelog.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/content-hub-cli-changelog.html"
     },
     {
       "title": "cloud dev / content hub cli.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/content-hub-cli.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/content-hub-cli.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/content-hub-cli.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/content-hub-cli.html"
     },
     {
       "title": "cloud dev / content impact calculation script.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/content-impact-calculation-script.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/content-impact-calculation-script.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/content-impact-calculation-script.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/content-impact-calculation-script.html"
     },
     {
       "title": "cloud dev / create a fetch job 1523319.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-fetch-job-1523319.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-fetch-job-1523319.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-fetch-job-1523319.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-fetch-job-1523319.html"
     },
     {
       "title": "cloud dev / create a fetch job.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-fetch-job.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-fetch-job.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-fetch-job.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-fetch-job.html"
     },
     {
       "title": "cloud dev / create a plugin to register a command.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-plugin-to-register-a-command.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-plugin-to-register-a-command.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-plugin-to-register-a-command.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-plugin-to-register-a-command.html"
     },
     {
       "title": "cloud dev / create a query 1523453.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-query-1523453.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-query-1523453.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-query-1523453.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-query-1523453.html"
     },
     {
       "title": "cloud dev / create a query.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-query.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-query.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-query.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-query.html"
     },
     {
       "title": "cloud dev / create a searchafterquery query 1523393.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-searchafterquery-query-1523393.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-searchafterquery-query-1523393.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-searchafterquery-query-1523393.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-searchafterquery-query-1523393.html"
     },
     {
       "title": "cloud dev / create a searchafterquery query 1523454.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-searchafterquery-query-1523454.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-searchafterquery-query-1523454.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-searchafterquery-query-1523454.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-searchafterquery-query-1523454.html"
     },
     {
       "title": "cloud dev / create a searchafterquery query.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-searchafterquery-query.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-searchafterquery-query.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-searchafterquery-query.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-searchafterquery-query.html"
     },
     {
       "title": "cloud dev / create a shared script using visual studio code.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-shared-script-using-visual-studio-code.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-shared-script-using-visual-studio-code.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-shared-script-using-visual-studio-code.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-shared-script-using-visual-studio-code.html"
     },
     {
       "title": "cloud dev / create a state flow for blog content.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-state-flow-for-blog-content.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-state-flow-for-blog-content.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-state-flow-for-blog-content.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-state-flow-for-blog-content.html"
     },
     {
       "title": "cloud dev / create a token.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-token.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-token.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-token.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-token.html"
     },
     {
       "title": "cloud dev / create a trigger.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-trigger.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-a-trigger.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-trigger.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-a-trigger.html"
     },
     {
       "title": "cloud dev / create an action.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-action.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-action.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-action.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-action.html"
     },
     {
       "title": "cloud dev / create an api key for a content collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-api-key-for-a-content-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-api-key-for-a-content-collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-api-key-for-a-content-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-api-key-for-a-content-collection.html"
     },
     {
       "title": "cloud dev / create an api key from the manage page.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-api-key-from-the-manage-page.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-api-key-from-the-manage-page.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-api-key-from-the-manage-page.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-api-key-from-the-manage-page.html"
     },
     {
       "title": "cloud dev / create an asset picker page.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-asset-picker-page.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-asset-picker-page.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-asset-picker-page.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-asset-picker-page.html"
     },
     {
       "title": "cloud dev / create an entity print template.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-entity-print-template.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-entity-print-template.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-entity-print-template.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-entity-print-template.html"
     },
     {
       "title": "cloud dev / create an option list.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-option-list.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-an-option-list.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-option-list.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-an-option-list.html"
     },
     {
       "title": "cloud dev / create and install a package.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-and-install-a-package.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-and-install-a-package.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-and-install-a-package.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-and-install-a-package.html"
     },
     {
       "title": "cloud dev / create mass edit job request.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-mass-edit-job-request.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-mass-edit-job-request.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-mass-edit-job-request.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-mass-edit-job-request.html"
     },
     {
       "title": "cloud dev / create public links for approved assets automatically.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-public-links-for-approved-assets-automatically.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-public-links-for-approved-assets-automatically.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-public-links-for-approved-assets-automatically.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-public-links-for-approved-assets-automatically.html"
     },
     {
       "title": "cloud dev / create resources.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create-resources.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create-resources.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-resources.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create-resources.html"
     },
     {
       "title": "cloud dev / create.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/create.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/create.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/create.html"
     },
     {
       "title": "cloud dev / css classes and attributes.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/css-classes-and-attributes.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/css-classes-and-attributes.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/css-classes-and-attributes.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/css-classes-and-attributes.html"
     },
     {
       "title": "cloud dev / culture client 1523400.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/culture-client-1523400.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/culture-client-1523400.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/culture-client-1523400.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/culture-client-1523400.html"
     },
     {
       "title": "cloud dev / culture client 1523444.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/culture-client-1523444.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/culture-client-1523444.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/culture-client-1523444.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/culture-client-1523444.html"
     },
     {
       "title": "cloud dev / culture client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/culture-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/culture-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/culture-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/culture-client.html"
     },
     {
       "title": "cloud dev / cultures.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/cultures.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/cultures.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cultures.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/cultures.html"
     },
     {
       "title": "cloud dev / data backup.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/data-backup.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/data-backup.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/data-backup.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/data-backup.html"
     },
     {
       "title": "cloud dev / data collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/data-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/data-collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/data-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/data-collection.html"
     },
     {
       "title": "cloud dev / data privacy.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/data-privacy.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/data-privacy.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/data-privacy.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/data-privacy.html"
     },
     {
       "title": "cloud dev / data security.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/data-security.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/data-security.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/data-security.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/data-security.html"
     },
     {
       "title": "cloud dev / data source client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/data-source-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/data-source-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/data-source-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/data-source-client.html"
     },
     {
       "title": "cloud dev / datasource  option list .html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/datasource--option-list-.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/datasource--option-list-.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasource--option-list-.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasource--option-list-.html"
     },
     {
       "title": "cloud dev / datasource client 1523445.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/datasource-client-1523445.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/datasource-client-1523445.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasource-client-1523445.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasource-client-1523445.html"
     },
     {
       "title": "cloud dev / datasource client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/datasource-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/datasource-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasource-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasource-client.html"
     },
     {
       "title": "cloud dev / datasource factory 1523464.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/datasource-factory-1523464.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/datasource-factory-1523464.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasource-factory-1523464.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasource-factory-1523464.html"
     },
     {
       "title": "cloud dev / datasource factory.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/datasource-factory.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/datasource-factory.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasource-factory.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasource-factory.html"
     },
     {
       "title": "cloud dev / datasourcevalue  option list value .html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/datasourcevalue--option-list-value-.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/datasourcevalue--option-list-value-.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasourcevalue--option-list-value-.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/datasourcevalue--option-list-value-.html"
     },
     {
       "title": "cloud dev / debug a script using visual studio code.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/debug-a-script-using-visual-studio-code.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/debug-a-script-using-visual-studio-code.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/debug-a-script-using-visual-studio-code.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/debug-a-script-using-visual-studio-code.html"
     },
     {
       "title": "cloud dev / delete an option list.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/delete-an-option-list.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/delete-an-option-list.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/delete-an-option-list.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/delete-an-option-list.html"
     },
     {
       "title": "cloud dev / delete webhook.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/delete-webhook.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/delete-webhook.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/delete-webhook.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/delete-webhook.html"
     },
     {
       "title": "cloud dev / delivery api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/delivery-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/delivery-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/delivery-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/delivery-api.html"
     },
     {
       "title": "cloud dev / delivery links.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/delivery-links.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/delivery-links.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/delivery-links.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/delivery-links.html"
     },
     {
       "title": "cloud dev / diagnostics.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/diagnostics.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/diagnostics.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/diagnostics.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/diagnostics.html"
     },
     {
       "title": "cloud dev / disaster recovery.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/disaster-recovery.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/disaster-recovery.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/disaster-recovery.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/disaster-recovery.html"
     },
     {
       "title": "cloud dev / docker installation.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/docker-installation.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/docker-installation.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/docker-installation.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/docker-installation.html"
     },
     {
       "title": "cloud dev / embedding sdk.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/embedding-sdk.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/embedding-sdk.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/embedding-sdk.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/embedding-sdk.html"
     },
     {
-      "title": "encryption and cryptography",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/encryption-and-cryptography.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/encryption-and-cryptography.html"
+      "title": "cloud dev / encryption and cryptography.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/encryption-and-cryptography.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/encryption-and-cryptography.html"
     },
     {
-      "title": "entities client 1523389",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entities-client-1523389.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entities-client-1523389.html"
+      "title": "cloud dev / entities client 1523389.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entities-client-1523389.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entities-client-1523389.html"
     },
     {
-      "title": "entities client 1523446",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entities-client-1523446.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entities-client-1523446.html"
+      "title": "cloud dev / entities client 1523446.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entities-client-1523446.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entities-client-1523446.html"
     },
     {
-      "title": "entities client",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entities-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entities-client.html"
+      "title": "cloud dev / entities client.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entities-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entities-client.html"
     },
     {
-      "title": "entity 1523348",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-1523348.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-1523348.html"
+      "title": "cloud dev / entity 1523348.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-1523348.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-1523348.html"
     },
     {
-      "title": "entity collection",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-collection.html"
+      "title": "cloud dev / entity collection.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-collection.html"
     },
     {
-      "title": "entity definition basic collection",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition-basic-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition-basic-collection.html"
+      "title": "cloud dev / entity definition basic collection.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definition-basic-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definition-basic-collection.html"
     },
     {
-      "title": "entity definition basic",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition-basic.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition-basic.html"
+      "title": "cloud dev / entity definition basic.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definition-basic.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definition-basic.html"
     },
     {
-      "title": "entity definition collection",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition-collection.html"
+      "title": "cloud dev / entity definition collection.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definition-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definition-collection.html"
     },
     {
-      "title": "entity definition",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definition.html"
+      "title": "cloud dev / entity definition.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definition.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definition.html"
     },
     {
-      "title": "entity definitions client 1523390",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definitions-client-1523390.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definitions-client-1523390.html"
+      "title": "cloud dev / entity definitions client 1523390.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definitions-client-1523390.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definitions-client-1523390.html"
     },
     {
-      "title": "entity definitions client 1523447",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definitions-client-1523447.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definitions-client-1523447.html"
+      "title": "cloud dev / entity definitions client 1523447.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definitions-client-1523447.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definitions-client-1523447.html"
     },
     {
-      "title": "entity definitions client",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definitions-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-definitions-client.html"
+      "title": "cloud dev / entity definitions client.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definitions-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-definitions-client.html"
     },
     {
-      "title": "entity factory 1523465",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-factory-1523465.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-factory-1523465.html"
+      "title": "cloud dev / entity factory 1523465.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-factory-1523465.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-factory-1523465.html"
     },
     {
-      "title": "entity factory",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-factory.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-factory.html"
+      "title": "cloud dev / entity factory.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-factory.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-factory.html"
     },
     {
-      "title": "entity ids",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-ids.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-ids.html"
+      "title": "cloud dev / entity ids.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-ids.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-ids.html"
     },
     {
-      "title": "entity relation 1523352",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-relation-1523352.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-relation-1523352.html"
+      "title": "cloud dev / entity relation 1523352.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-relation-1523352.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-relation-1523352.html"
     },
     {
-      "title": "entity relation",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-relation.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity-relation.html"
+      "title": "cloud dev / entity relation.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-relation.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity-relation.html"
     },
     {
-      "title": "entity",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/entity.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/entity.html"
+      "title": "cloud dev / entity.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/entity.html"
     },
     {
       "title": "cloud dev / error.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/error.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/error.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/error.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/error.html"
     },
     {
       "title": "cloud dev / event listening.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/event-listening.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/event-listening.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/event-listening.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/event-listening.html"
     },
     {
       "title": "cloud dev / examples 1523398.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/examples-1523398.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/examples-1523398.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/examples-1523398.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/examples-1523398.html"
     },
     {
       "title": "cloud dev / examples.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/examples.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/examples.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/examples.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/examples.html"
     },
     {
       "title": "cloud dev / exceptions 1523425.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/exceptions-1523425.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/exceptions-1523425.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/exceptions-1523425.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/exceptions-1523425.html"
     },
     {
       "title": "cloud dev / exceptions 1523472.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/exceptions-1523472.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/exceptions-1523472.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/exceptions-1523472.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/exceptions-1523472.html"
     },
     {
       "title": "cloud dev / exceptions.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/exceptions.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/exceptions.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/exceptions.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/exceptions.html"
     },
     {
       "title": "cloud dev / experience edge admin api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/experience-edge-admin-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/experience-edge-admin-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/experience-edge-admin-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/experience-edge-admin-api.html"
     },
     {
       "title": "cloud dev / experience edge for content hub apis.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/experience-edge-for-content-hub-apis.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/experience-edge-for-content-hub-apis.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/experience-edge-for-content-hub-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/experience-edge-for-content-hub-apis.html"
     },
     {
       "title": "cloud dev / expiry of oauth refresh tokens.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/expiry-of-oauth-refresh-tokens.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/expiry-of-oauth-refresh-tokens.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/expiry-of-oauth-refresh-tokens.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/expiry-of-oauth-refresh-tokens.html"
     },
     {
       "title": "cloud dev / extensions.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/extensions.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/extensions.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/extensions.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/extensions.html"
     },
     {
       "title": "cloud dev / external data feed.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/external-data-feed.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/external-data-feed.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/external-data-feed.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/external-data-feed.html"
     },
     {
       "title": "cloud dev / facet value.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/facet-value.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/facet-value.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/facet-value.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/facet-value.html"
     },
     {
       "title": "cloud dev / facet.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/facet.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/facet.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/facet.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/facet.html"
     },
     {
       "title": "cloud dev / factories.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/factories.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/factories.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/factories.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/factories.html"
     },
     {
       "title": "cloud dev / factors.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/factors.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/factors.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/factors.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/factors.html"
     },
     {
       "title": "cloud dev / fetch job collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/fetch-job-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/fetch-job-collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fetch-job-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fetch-job-collection.html"
     },
     {
       "title": "cloud dev / fetch job file collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/fetch-job-file-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/fetch-job-file-collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fetch-job-file-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fetch-job-file-collection.html"
     },
     {
       "title": "cloud dev / fetch job file.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/fetch-job-file.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/fetch-job-file.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fetch-job-file.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fetch-job-file.html"
     },
     {
       "title": "cloud dev / fetch job.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/fetch-job.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/fetch-job.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fetch-job.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fetch-job.html"
     },
     {
       "title": "cloud dev / fetch jobs.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/fetch-jobs.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/fetch-jobs.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fetch-jobs.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fetch-jobs.html"
     },
     {
       "title": "cloud dev / file.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/file.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/file.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/file.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/file.html"
     },
     {
       "title": "cloud dev / filter collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/filter-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/filter-collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/filter-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/filter-collection.html"
     },
     {
       "title": "cloud dev / filter.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/filter.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/filter.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/filter.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/filter.html"
     },
     {
       "title": "cloud dev / flow 1523374.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/flow-1523374.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/flow-1523374.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/flow-1523374.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/flow-1523374.html"
     },
     {
       "title": "cloud dev / flow.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/flow.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/flow.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/flow.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/flow.html"
     },
     {
       "title": "cloud dev / flows.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/flows.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/flows.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/flows.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/flows.html"
     },
     {
       "title": "cloud dev / fluent sdk.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/fluent-sdk.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/fluent-sdk.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fluent-sdk.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/fluent-sdk.html"
     },
     {
       "title": "cloud dev / full text search.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/full-text-search.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/full-text-search.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/full-text-search.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/full-text-search.html"
     },
     {
       "title": "cloud dev / generate a json web token  jwt .html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/generate-a-json-web-token--jwt-.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/generate-a-json-web-token--jwt-.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/generate-a-json-web-token--jwt-.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/generate-a-json-web-token--jwt-.html"
     },
     {
       "title": "cloud dev / generate public links containing the asset filename.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/generate-public-links-containing-the-asset-filename.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/generate-public-links-containing-the-asset-filename.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/generate-public-links-containing-the-asset-filename.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/generate-public-links-containing-the-asset-filename.html"
     },
     {
       "title": "cloud dev / generic properties.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/generic-properties.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/generic-properties.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/generic-properties.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/generic-properties.html"
     },
     {
       "title": "cloud dev / get a fetch job.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/get-a-fetch-job.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/get-a-fetch-job.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-a-fetch-job.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-a-fetch-job.html"
     },
     {
       "title": "cloud dev / get a file from a fetch job.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/get-a-file-from-a-fetch-job.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/get-a-file-from-a-fetch-job.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-a-file-from-a-fetch-job.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-a-file-from-a-fetch-job.html"
     },
     {
       "title": "cloud dev / get all webhooks.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/get-all-webhooks.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/get-all-webhooks.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-all-webhooks.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-all-webhooks.html"
     },
     {
       "title": "cloud dev / get an option list.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/get-an-option-list.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/get-an-option-list.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-an-option-list.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-an-option-list.html"
     },
     {
       "title": "cloud dev / get settings.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/get-settings.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/get-settings.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-settings.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-settings.html"
     },
     {
       "title": "cloud dev / get started 1523379.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/get-started-1523379.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/get-started-1523379.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-started-1523379.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-started-1523379.html"
     },
     {
       "title": "cloud dev / get started 1523436.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/get-started-1523436.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/get-started-1523436.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-started-1523436.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-started-1523436.html"
     },
     {
       "title": "cloud dev / get started.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/get-started.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/get-started.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-started.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-started.html"
     },
     {
       "title": "cloud dev / get token.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/get-token.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/get-token.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-token.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-token.html"
     },
     {
       "title": "cloud dev / get webhook.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/get-webhook.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/get-webhook.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-webhook.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/get-webhook.html"
     },
     {
       "title": "cloud dev / getapikeybyhash.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/getapikeybyhash.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/getapikeybyhash.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/getapikeybyhash.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/getapikeybyhash.html"
     },
     {
       "title": "cloud dev / getapikeybytoken.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/getapikeybytoken.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/getapikeybytoken.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/getapikeybytoken.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/getapikeybytoken.html"
     },
     {
       "title": "cloud dev / getflowrequest.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/getflowrequest.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/getflowrequest.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/getflowrequest.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/getflowrequest.html"
     },
     {
       "title": "cloud dev / graphql apis.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/graphql-apis.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/graphql-apis.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/graphql-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/graphql-apis.html"
     },
     {
       "title": "cloud dev / graphql examples.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/graphql-examples.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/graphql-examples.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/graphql-examples.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/graphql-examples.html"
     },
     {
       "title": "cloud dev / graphql ide.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/graphql-ide.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/graphql-ide.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/graphql-ide.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/graphql-ide.html"
     },
     {
       "title": "cloud dev / graphql queries.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/graphql-queries.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/graphql-queries.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/graphql-queries.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/graphql-queries.html"
     },
     {
       "title": "cloud dev / graphql schema.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/graphql-schema.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/graphql-schema.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/graphql-schema.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/graphql-schema.html"
     },
     {
       "title": "cloud dev / headers.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/headers.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/headers.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/headers.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/headers.html"
     },
     {
       "title": "cloud dev / http verbs.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/http-verbs.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/http-verbs.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/http-verbs.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/http-verbs.html"
     },
     {
       "title": "cloud dev / impersonation 1523427.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/impersonation-1523427.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/impersonation-1523427.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/impersonation-1523427.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/impersonation-1523427.html"
     },
     {
       "title": "cloud dev / impersonation.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/impersonation.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/impersonation.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/impersonation.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/impersonation.html"
     },
     {
       "title": "cloud dev / implementation.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/implementation.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/implementation.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/implementation.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/implementation.html"
     },
     {
       "title": "cloud dev / importing packages.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/importing-packages.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/importing-packages.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/importing-packages.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/importing-packages.html"
     },
     {
       "title": "cloud dev / incident response.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/incident-response.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/incident-response.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/incident-response.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/incident-response.html"
     },
     {
       "title": "cloud dev / initialize your working folder.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/initialize-your-working-folder.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/initialize-your-working-folder.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/initialize-your-working-folder.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/initialize-your-working-folder.html"
     },
     {
       "title": "cloud dev / install the content hub cli.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/install-the-content-hub-cli.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/install-the-content-hub-cli.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/install-the-content-hub-cli.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/install-the-content-hub-cli.html"
     },
     {
       "title": "cloud dev / javascript sdk changelog.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/javascript-sdk-changelog.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/javascript-sdk-changelog.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/javascript-sdk-changelog.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/javascript-sdk-changelog.html"
     },
     {
       "title": "cloud dev / javascript sdk.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/javascript-sdk.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/javascript-sdk.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/javascript-sdk.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/javascript-sdk.html"
     },
     {
       "title": "cloud dev / jobs api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/jobs-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/jobs-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/jobs-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/jobs-api.html"
     },
     {
       "title": "cloud dev / jobs client  legacy .html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/jobs-client--legacy-.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/jobs-client--legacy-.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/jobs-client--legacy-.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/jobs-client--legacy-.html"
     },
     {
       "title": "cloud dev / jobs client 1523396.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/jobs-client-1523396.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/jobs-client-1523396.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/jobs-client-1523396.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/jobs-client-1523396.html"
     },
     {
       "title": "cloud dev / jobs client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/jobs-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/jobs-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/jobs-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/jobs-client.html"
     },
     {
       "title": "cloud dev / labels.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/labels.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/labels.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/labels.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/labels.html"
     },
     {
       "title": "cloud dev / lazy loading 1523423.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/lazy-loading-1523423.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/lazy-loading-1523423.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/lazy-loading-1523423.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/lazy-loading-1523423.html"
     },
     {
       "title": "cloud dev / lazy loading 1523460.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/lazy-loading-1523460.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/lazy-loading-1523460.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/lazy-loading-1523460.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/lazy-loading-1523460.html"
     },
     {
       "title": "cloud dev / lazy loading.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/lazy-loading.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/lazy-loading.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/lazy-loading.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/lazy-loading.html"
     },
     {
       "title": "cloud dev / legacy jobs client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/legacy-jobs-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/legacy-jobs-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/legacy-jobs-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/legacy-jobs-client.html"
     },
     {
       "title": "cloud dev / link an asset to a product.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/link-an-asset-to-a-product.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/link-an-asset-to-a-product.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/link-an-asset-to-a-product.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/link-an-asset-to-a-product.html"
     },
     {
       "title": "cloud dev / link helper 1523470.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/link-helper-1523470.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/link-helper-1523470.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/link-helper-1523470.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/link-helper-1523470.html"
     },
     {
       "title": "cloud dev / link helper.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/link-helper.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/link-helper.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/link-helper.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/link-helper.html"
     },
     {
       "title": "cloud dev / link.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/link.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/link.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/link.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/link.html"
     },
     {
       "title": "cloud dev / links.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/links.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/links.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/links.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/links.html"
     },
     {
       "title": "cloud dev / linq queries 1523418.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/linq-queries-1523418.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/linq-queries-1523418.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/linq-queries-1523418.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/linq-queries-1523418.html"
     },
     {
       "title": "cloud dev / linq queries.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/linq-queries.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/linq-queries.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/linq-queries.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/linq-queries.html"
     },
     {
       "title": "cloud dev / list all fetch jobs.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/list-all-fetch-jobs.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/list-all-fetch-jobs.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/list-all-fetch-jobs.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/list-all-fetch-jobs.html"
     },
     {
       "title": "cloud dev / list all files in a fetch job.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/list-all-files-in-a-fetch-job.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/list-all-files-in-a-fetch-job.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/list-all-files-in-a-fetch-job.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/list-all-files-in-a-fetch-job.html"
     },
     {
       "title": "cloud dev / list option lists.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/list-option-lists.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/list-option-lists.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/list-option-lists.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/list-option-lists.html"
     },
     {
       "title": "cloud dev / listall.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/listall.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/listall.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/listall.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/listall.html"
     },
     {
       "title": "cloud dev / load configurations 1523416.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/load-configurations-1523416.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/load-configurations-1523416.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/load-configurations-1523416.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/load-configurations-1523416.html"
     },
     {
       "title": "cloud dev / load configurations 1523473.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/load-configurations-1523473.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/load-configurations-1523473.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/load-configurations-1523473.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/load-configurations-1523473.html"
     },
     {
       "title": "cloud dev / load configurations.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/load-configurations.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/load-configurations.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/load-configurations.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/load-configurations.html"
     },
     {
       "title": "cloud dev / local installation.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/local-installation.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/local-installation.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/local-installation.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/local-installation.html"
     },
     {
       "title": "cloud dev / log in with the content hub cli.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/log-in-with-the-content-hub-cli.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/log-in-with-the-content-hub-cli.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/log-in-with-the-content-hub-cli.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/log-in-with-the-content-hub-cli.html"
     },
     {
       "title": "cloud dev / logging 1523428.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/logging-1523428.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/logging-1523428.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/logging-1523428.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/logging-1523428.html"
     },
     {
       "title": "cloud dev / logging.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/logging.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/logging.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/logging.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/logging.html"
     },
     {
       "title": "cloud dev / manage jobs.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/manage-jobs.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/manage-jobs.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/manage-jobs.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/manage-jobs.html"
     },
     {
       "title": "cloud dev / mass edit job 1523354.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-job-1523354.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-job-1523354.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-job-1523354.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-job-1523354.html"
     },
     {
       "title": "cloud dev / mass edit job collection 1523355.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-job-collection-1523355.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-job-collection-1523355.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-job-collection-1523355.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-job-collection-1523355.html"
     },
     {
       "title": "cloud dev / mass edit job collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-job-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-job-collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-job-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-job-collection.html"
     },
     {
       "title": "cloud dev / mass edit job.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-job.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-job.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-job.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-job.html"
     },
     {
       "title": "cloud dev / mass edit operations.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-operations.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-operations.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-operations.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-operations.html"
     },
     {
       "title": "cloud dev / mass edit target 1523357.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-target-1523357.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-target-1523357.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-target-1523357.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-target-1523357.html"
     },
     {
       "title": "cloud dev / mass edit target collection 1523356.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-target-collection-1523356.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-target-collection-1523356.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-target-collection-1523356.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-target-collection-1523356.html"
     },
     {
       "title": "cloud dev / mass edit target collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-target-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-target-collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-target-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-target-collection.html"
     },
     {
       "title": "cloud dev / mass edit target.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-target.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit-target.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-target.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit-target.html"
     },
     {
       "title": "cloud dev / mass edit.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/mass-edit.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/mass-edit.html"
     },
     {
       "title": "cloud dev / media delivery apis.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/media-delivery-apis.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/media-delivery-apis.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/media-delivery-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/media-delivery-apis.html"
     },
     {
       "title": "cloud dev / media delivery service.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/media-delivery-service.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/media-delivery-service.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/media-delivery-service.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/media-delivery-service.html"
     },
     {
       "title": "cloud dev / media formats.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/media-formats.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/media-formats.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/media-formats.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/media-formats.html"
     },
     {
       "title": "cloud dev / media processing script.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/media-processing-script.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/media-processing-script.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/media-processing-script.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/media-processing-script.html"
     },
     {
       "title": "cloud dev / media transformations.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/media-transformations.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/media-transformations.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/media-transformations.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/media-transformations.html"
     },
     {
       "title": "cloud dev / member definition.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/member-definition.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/member-definition.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/member-definition.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/member-definition.html"
     },
     {
       "title": "cloud dev / member group.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/member-group.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/member-group.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/member-group.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/member-group.html"
     },
     {
       "title": "cloud dev / members.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/members.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/members.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/members.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/members.html"
     },
     {
       "title": "cloud dev / migrate changes between instances.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/migrate-changes-between-instances.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/migrate-changes-between-instances.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/migrate-changes-between-instances.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/migrate-changes-between-instances.html"
     },
     {
       "title": "cloud dev / migrated components.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/migrated-components.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/migrated-components.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/migrated-components.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/migrated-components.html"
     },
     {
       "title": "cloud dev / migrating to react.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/migrating-to-react.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/migrating-to-react.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/migrating-to-react.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/migrating-to-react.html"
     },
     {
       "title": "cloud dev / migration faq.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/migration-faq.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/migration-faq.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/migration-faq.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/migration-faq.html"
     },
     {
       "title": "cloud dev / negating.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/negating.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/negating.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/negating.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/negating.html"
     },
     {
       "title": "cloud dev / notification 1523373.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/notification-1523373.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/notification-1523373.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/notification-1523373.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/notification-1523373.html"
     },
     {
       "title": "cloud dev / notification.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/notification.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/notification.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/notification.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/notification.html"
     },
     {
       "title": "cloud dev / notifications client 1523405.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/notifications-client-1523405.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/notifications-client-1523405.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/notifications-client-1523405.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/notifications-client-1523405.html"
     },
     {
       "title": "cloud dev / notifications client 1523448.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/notifications-client-1523448.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/notifications-client-1523448.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/notifications-client-1523448.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/notifications-client-1523448.html"
     },
     {
       "title": "cloud dev / notifications client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/notifications-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/notifications-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/notifications-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/notifications-client.html"
     },
     {
       "title": "cloud dev / oauth tokens.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/oauth-tokens.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/oauth-tokens.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/oauth-tokens.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/oauth-tokens.html"
     },
     {
       "title": "cloud dev / observability.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/observability.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/observability.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/observability.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/observability.html"
     },
     {
       "title": "cloud dev / operators.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/operators.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/operators.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/operators.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/operators.html"
     },
     {
       "title": "cloud dev / option lists.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/option-lists.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/option-lists.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/option-lists.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/option-lists.html"
     },
     {
       "title": "cloud dev / overview.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/overview.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/overview.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/overview.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/overview.html"
     },
     {
       "title": "cloud dev / pages client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/pages-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/pages-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/pages-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/pages-client.html"
     },
     {
       "title": "cloud dev / pagination.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/pagination.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/pagination.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/pagination.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/pagination.html"
     },
     {
       "title": "cloud dev / paging.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/paging.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/paging.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/paging.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/paging.html"
     },
     {
       "title": "cloud dev / parameters.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/parameters.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/parameters.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/parameters.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/parameters.html"
     },
     {
       "title": "cloud dev / partial entities.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/partial-entities.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/partial-entities.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/partial-entities.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/partial-entities.html"
     },
     {
       "title": "cloud dev / partial entity 1523358.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/partial-entity-1523358.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/partial-entity-1523358.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/partial-entity-1523358.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/partial-entity-1523358.html"
     },
     {
       "title": "cloud dev / partial entity.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/partial-entity.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/partial-entity.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/partial-entity.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/partial-entity.html"
     },
     {
       "title": "cloud dev / patch settings.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/patch-settings.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/patch-settings.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/patch-settings.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/patch-settings.html"
     },
     {
       "title": "cloud dev / permissions client 1523451.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/permissions-client-1523451.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/permissions-client-1523451.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/permissions-client-1523451.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/permissions-client-1523451.html"
     },
     {
       "title": "cloud dev / permissions client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/permissions-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/permissions-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/permissions-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/permissions-client.html"
     },
     {
       "title": "cloud dev / plugins.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/plugins.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/plugins.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/plugins.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/plugins.html"
     },
     {
       "title": "cloud dev / policies client 1523402.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/policies-client-1523402.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/policies-client-1523402.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/policies-client-1523402.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/policies-client-1523402.html"
     },
     {
       "title": "cloud dev / policies client 1523450.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/policies-client-1523450.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/policies-client-1523450.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/policies-client-1523450.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/policies-client-1523450.html"
     },
     {
       "title": "cloud dev / policies client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/policies-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/policies-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/policies-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/policies-client.html"
     },
     {
       "title": "cloud dev / policy 1523359.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/policy-1523359.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/policy-1523359.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/policy-1523359.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/policy-1523359.html"
     },
     {
       "title": "cloud dev / policy.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/policy.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/policy.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/policy.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/policy.html"
     },
     {
       "title": "cloud dev / post webhook.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/post-webhook.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/post-webhook.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/post-webhook.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/post-webhook.html"
     },
     {
       "title": "cloud dev / preview api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/preview-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/preview-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/preview-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/preview-api.html"
     },
     {
       "title": "cloud dev / properties 1523421.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/properties-1523421.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/properties-1523421.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/properties-1523421.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/properties-1523421.html"
     },
     {
       "title": "cloud dev / properties 1523461.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/properties-1523461.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/properties-1523461.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/properties-1523461.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/properties-1523461.html"
     },
     {
       "title": "cloud dev / properties.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/properties.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/properties.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/properties.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/properties.html"
     },
     {
       "title": "cloud dev / public collection links.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/public-collection-links.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/public-collection-links.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/public-collection-links.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/public-collection-links.html"
     },
     {
       "title": "cloud dev / public links.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/public-links.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/public-links.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/public-links.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/public-links.html"
     },
     {
       "title": "cloud dev / publish entities that have changed within a specific time period.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/publish-entities-that-have-changed-within-a-specific-time-period.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/publish-entities-that-have-changed-within-a-specific-time-period.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/publish-entities-that-have-changed-within-a-specific-time-period.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/publish-entities-that-have-changed-within-a-specific-time-period.html"
     },
     {
       "title": "cloud dev / publish entities using their id or identifier.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/publish-entities-using-their-id-or-identifier.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/publish-entities-using-their-id-or-identifier.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/publish-entities-using-their-id-or-identifier.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/publish-entities-using-their-id-or-identifier.html"
     },
     {
       "title": "cloud dev / publishing audit log api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/publishing-audit-log-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/publishing-audit-log-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/publishing-audit-log-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/publishing-audit-log-api.html"
     },
     {
       "title": "cloud dev / pull push compare and validate resources.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/pull-push-compare-and-validate-resources.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/pull-push-compare-and-validate-resources.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/pull-push-compare-and-validate-resources.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/pull-push-compare-and-validate-resources.html"
     },
     {
       "title": "cloud dev / put settings.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/put-settings.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/put-settings.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/put-settings.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/put-settings.html"
     },
     {
       "title": "cloud dev / put webhook.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/put-webhook.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/put-webhook.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/put-webhook.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/put-webhook.html"
     },
     {
       "title": "cloud dev / query content collections.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/query-content-collections.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/query-content-collections.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/query-content-collections.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/query-content-collections.html"
     },
     {
       "title": "cloud dev / query filters 1523419.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/query-filters-1523419.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/query-filters-1523419.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/query-filters-1523419.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/query-filters-1523419.html"
     },
     {
       "title": "cloud dev / query filters 1523467.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/query-filters-1523467.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/query-filters-1523467.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/query-filters-1523467.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/query-filters-1523467.html"
     },
     {
       "title": "cloud dev / query filters.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/query-filters.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/query-filters.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/query-filters.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/query-filters.html"
     },
     {
       "title": "cloud dev / querying  v1 0 .html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/querying--v1-0-.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/querying--v1-0-.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/querying--v1-0-.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/querying--v1-0-.html"
     },
     {
       "title": "cloud dev / querying client 1523391.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/querying-client-1523391.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/querying-client-1523391.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/querying-client-1523391.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/querying-client-1523391.html"
     },
     {
       "title": "cloud dev / querying client 1523452.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/querying-client-1523452.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/querying-client-1523452.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/querying-client-1523452.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/querying-client-1523452.html"
     },
     {
       "title": "cloud dev / querying client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/querying-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/querying-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/querying-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/querying-client.html"
     },
     {
       "title": "cloud dev / ranging.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/ranging.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/ranging.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/ranging.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/ranging.html"
     },
     {
       "title": "cloud dev / raw client 1523471.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/raw-client-1523471.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/raw-client-1523471.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/raw-client-1523471.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/raw-client-1523471.html"
     },
     {
       "title": "cloud dev / raw client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/raw-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/raw-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/raw-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/raw-client.html"
     },
     {
       "title": "cloud dev / read asset metadata.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/read-asset-metadata.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/read-asset-metadata.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/read-asset-metadata.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/read-asset-metadata.html"
     },
     {
       "title": "cloud dev / related paths properties.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/related-paths-properties.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/related-paths-properties.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/related-paths-properties.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/related-paths-properties.html"
     },
     {
       "title": "cloud dev / relations.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/relations.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/relations.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/relations.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/relations.html"
     },
     {
       "title": "cloud dev / renamebyhash.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/renamebyhash.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/renamebyhash.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/renamebyhash.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/renamebyhash.html"
     },
     {
       "title": "cloud dev / renamebytoken.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/renamebytoken.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/renamebytoken.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/renamebytoken.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/renamebytoken.html"
     },
     {
       "title": "cloud dev / renditions.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/renditions.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/renditions.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/renditions.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/renditions.html"
     },
     {
       "title": "cloud dev / reporting.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/reporting.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/reporting.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/reporting.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/reporting.html"
     },
     {
       "title": "cloud dev / request examples.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/request-examples.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/request-examples.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/request-examples.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/request-examples.html"
     },
     {
       "title": "cloud dev / response codes.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/response-codes.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/response-codes.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/response-codes.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/response-codes.html"
     },
     {
       "title": "cloud dev / rest apis.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/rest-apis.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/rest-apis.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/rest-apis.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/rest-apis.html"
     },
     {
       "title": "cloud dev / revokebyhash.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/revokebyhash.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/revokebyhash.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/revokebyhash.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/revokebyhash.html"
     },
     {
       "title": "cloud dev / revokebytoken.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/revokebytoken.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/revokebytoken.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/revokebytoken.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/revokebytoken.html"
     },
     {
       "title": "cloud dev / rule.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/rule.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/rule.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/rule.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/rule.html"
     },
     {
       "title": "cloud dev / script enforcing mandatory values in all cultures.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/script-enforcing-mandatory-values-in-all-cultures.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/script-enforcing-mandatory-values-in-all-cultures.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-enforcing-mandatory-values-in-all-cultures.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-enforcing-mandatory-values-in-all-cultures.html"
     },
     {
       "title": "cloud dev / script examples 1523432.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/script-examples-1523432.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/script-examples-1523432.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-examples-1523432.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-examples-1523432.html"
     },
     {
       "title": "cloud dev / script execution types.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/script-execution-types.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/script-execution-types.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-execution-types.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-execution-types.html"
     },
     {
       "title": "cloud dev / script properties.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/script-properties.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/script-properties.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-properties.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-properties.html"
     },
     {
       "title": "cloud dev / script restriction.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/script-restriction.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/script-restriction.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-restriction.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-restriction.html"
     },
     {
       "title": "cloud dev / script telemetry.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/script-telemetry.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/script-telemetry.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-telemetry.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-telemetry.html"
     },
     {
       "title": "cloud dev / script types.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/script-types.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/script-types.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-types.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/script-types.html"
     },
     {
       "title": "cloud dev / scripting sdk.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/scripting-sdk.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/scripting-sdk.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/scripting-sdk.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/scripting-sdk.html"
     },
     {
       "title": "cloud dev / scripts client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/scripts-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/scripts-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/scripts-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/scripts-client.html"
     },
     {
       "title": "cloud dev / scripts.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/scripts.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/scripts.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/scripts.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/scripts.html"
     },
     {
       "title": "cloud dev / scroll api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/scroll-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/scroll-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/scroll-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/scroll-api.html"
     },
     {
       "title": "cloud dev / sdks.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/sdks.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/sdks.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/sdks.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/sdks.html"
     },
     {
       "title": "cloud dev / search client 1523455.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/search-client-1523455.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/search-client-1523455.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/search-client-1523455.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/search-client-1523455.html"
     },
     {
       "title": "cloud dev / search client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/search-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/search-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/search-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/search-client.html"
     },
     {
       "title": "cloud dev / search link.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/search-link.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/search-link.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/search-link.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/search-link.html"
     },
     {
       "title": "cloud dev / search.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/search.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/search.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/search.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/search.html"
     },
     {
       "title": "cloud dev / searchafter api  v1 .html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/searchafter-api--v1-.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/searchafter-api--v1-.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/searchafter-api--v1-.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/searchafter-api--v1-.html"
     },
     {
       "title": "cloud dev / searchafter api  v2  examples.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/searchafter-api--v2--examples.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/searchafter-api--v2--examples.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/searchafter-api--v2--examples.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/searchafter-api--v2--examples.html"
     },
     {
       "title": "cloud dev / searchafter api  v2 .html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/searchafter-api--v2-.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/searchafter-api--v2-.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/searchafter-api--v2-.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/searchafter-api--v2-.html"
     },
     {
       "title": "cloud dev / searchafter api  v3  examples.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/searchafter-api--v3--examples.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/searchafter-api--v3--examples.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/searchafter-api--v3--examples.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/searchafter-api--v3--examples.html"
     },
     {
       "title": "cloud dev / searchafter api  v3 .html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/searchafter-api--v3-.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/searchafter-api--v3-.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/searchafter-api--v3-.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/searchafter-api--v3-.html"
     },
     {
       "title": "cloud dev / secure data imports.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/secure-data-imports.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/secure-data-imports.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/secure-data-imports.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/secure-data-imports.html"
     },
     {
       "title": "cloud dev / security hardening.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/security-hardening.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/security-hardening.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/security-hardening.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/security-hardening.html"
     },
     {
       "title": "cloud dev / security overview.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/security-overview.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/security-overview.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/security-overview.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/security-overview.html"
     },
     {
       "title": "cloud dev / security tasks.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/security-tasks.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/security-tasks.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/security-tasks.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/security-tasks.html"
     },
     {
       "title": "cloud dev / security testing.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/security-testing.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/security-testing.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/security-testing.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/security-testing.html"
     },
     {
       "title": "cloud dev / security threats and mitigation.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/security-threats-and-mitigation.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/security-threats-and-mitigation.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/security-threats-and-mitigation.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/security-threats-and-mitigation.html"
     },
     {
       "title": "cloud dev / selection patch.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/selection-patch.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/selection-patch.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/selection-patch.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/selection-patch.html"
     },
     {
       "title": "cloud dev / service endpoint 1523368.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/service-endpoint-1523368.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/service-endpoint-1523368.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/service-endpoint-1523368.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/service-endpoint-1523368.html"
     },
     {
       "title": "cloud dev / service endpoint.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/service-endpoint.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/service-endpoint.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/service-endpoint.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/service-endpoint.html"
     },
     {
       "title": "cloud dev / settings client 1523403.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/settings-client-1523403.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/settings-client-1523403.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/settings-client-1523403.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/settings-client-1523403.html"
     },
     {
       "title": "cloud dev / settings client 1523456.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/settings-client-1523456.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/settings-client-1523456.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/settings-client-1523456.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/settings-client-1523456.html"
     },
     {
       "title": "cloud dev / settings client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/settings-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/settings-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/settings-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/settings-client.html"
     },
     {
       "title": "cloud dev / shared script referencing another script.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/shared-script-referencing-another-script.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/shared-script-referencing-another-script.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/shared-script-referencing-another-script.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/shared-script-referencing-another-script.html"
     },
     {
       "title": "cloud dev / sorting resource.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/sorting-resource.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/sorting-resource.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/sorting-resource.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/sorting-resource.html"
     },
     {
       "title": "cloud dev / specific properties.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/specific-properties.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/specific-properties.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/specific-properties.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/specific-properties.html"
     },
     {
       "title": "cloud dev / strongly typed entities.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/strongly-typed-entities.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/strongly-typed-entities.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/strongly-typed-entities.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/strongly-typed-entities.html"
     },
     {
       "title": "cloud dev / supported linq query operators.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/supported-linq-query-operators.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/supported-linq-query-operators.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/supported-linq-query-operators.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/supported-linq-query-operators.html"
     },
     {
       "title": "cloud dev / supported searchafter query operators 1547564.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/supported-searchafter-query-operators-1547564.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/supported-searchafter-query-operators-1547564.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/supported-searchafter-query-operators-1547564.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/supported-searchafter-query-operators-1547564.html"
     },
     {
       "title": "cloud dev / supported searchafter query operators.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/supported-searchafter-query-operators.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/supported-searchafter-query-operators.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/supported-searchafter-query-operators.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/supported-searchafter-query-operators.html"
     },
     {
       "title": "cloud dev / switch from the entities client to the jobs client 1523397.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/switch-from-the-entities-client-to-the-jobs-client-1523397.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/switch-from-the-entities-client-to-the-jobs-client-1523397.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/switch-from-the-entities-client-to-the-jobs-client-1523397.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/switch-from-the-entities-client-to-the-jobs-client-1523397.html"
     },
     {
       "title": "cloud dev / switch from the entities client to the jobs client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/switch-from-the-entities-client-to-the-jobs-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/switch-from-the-entities-client-to-the-jobs-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/switch-from-the-entities-client-to-the-jobs-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/switch-from-the-entities-client-to-the-jobs-client.html"
     },
     {
       "title": "cloud dev / switch to the jobs api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/switch-to-the-jobs-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/switch-to-the-jobs-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/switch-to-the-jobs-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/switch-to-the-jobs-api.html"
     },
     {
       "title": "cloud dev / testing.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/testing.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/testing.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/testing.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/testing.html"
     },
     {
       "title": "cloud dev / throttling.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/throttling.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/throttling.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/throttling.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/throttling.html"
     },
     {
       "title": "cloud dev / token api.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/token-api.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/token-api.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/token-api.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/token-api.html"
     },
     {
       "title": "cloud dev / track products created.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/track-products-created.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/track-products-created.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/track-products-created.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/track-products-created.html"
     },
     {
       "title": "cloud dev / translations client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/translations-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/translations-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/translations-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/translations-client.html"
     },
     {
       "title": "cloud dev / triggers.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/triggers.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/triggers.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/triggers.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/triggers.html"
     },
     {
       "title": "cloud dev / typed entities.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/typed-entities.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/typed-entities.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/typed-entities.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/typed-entities.html"
     },
     {
       "title": "cloud dev / unsupported features.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/unsupported-features.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/unsupported-features.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/unsupported-features.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/unsupported-features.html"
     },
     {
       "title": "cloud dev / update a fetch job.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/update-a-fetch-job.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/update-a-fetch-job.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/update-a-fetch-job.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/update-a-fetch-job.html"
     },
     {
       "title": "cloud dev / update an entity print template.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/update-an-entity-print-template.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/update-an-entity-print-template.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/update-an-entity-print-template.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/update-an-entity-print-template.html"
     },
     {
       "title": "cloud dev / update option list items.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/update-option-list-items.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/update-option-list-items.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/update-option-list-items.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/update-option-list-items.html"
     },
     {
       "title": "cloud dev / update the configuration settings.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/update-the-configuration-settings.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/update-the-configuration-settings.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/update-the-configuration-settings.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/update-the-configuration-settings.html"
     },
     {
       "title": "cloud dev / upload client 1523457.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/upload-client-1523457.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/upload-client-1523457.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/upload-client-1523457.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/upload-client-1523457.html"
     },
     {
       "title": "cloud dev / upload client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/upload-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/upload-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/upload-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/upload-client.html"
     },
     {
       "title": "cloud dev / upload large files.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/upload-large-files.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/upload-large-files.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/upload-large-files.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/upload-large-files.html"
     },
     {
       "title": "cloud dev / upload.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/upload.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/upload.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/upload.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/upload.html"
     },
     {
       "title": "cloud dev / usage tracking endpoint.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/usage-tracking-endpoint.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/usage-tracking-endpoint.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/usage-tracking-endpoint.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/usage-tracking-endpoint.html"
     },
     {
       "title": "cloud dev / use a cdn with content hub.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/use-a-cdn-with-content-hub.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/use-a-cdn-with-content-hub.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/use-a-cdn-with-content-hub.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/use-a-cdn-with-content-hub.html"
     },
     {
       "title": "cloud dev / use ch cli for deployments.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/use-ch-cli-for-deployments.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/use-ch-cli-for-deployments.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/use-ch-cli-for-deployments.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/use-ch-cli-for-deployments.html"
     },
     {
       "title": "cloud dev / use of triggers.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/use-of-triggers.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/use-of-triggers.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/use-of-triggers.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/use-of-triggers.html"
     },
     {
       "title": "cloud dev / user 1523369.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user-1523369.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user-1523369.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-1523369.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-1523369.html"
     },
     {
       "title": "cloud dev / user account management.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user-account-management.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user-account-management.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-account-management.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-account-management.html"
     },
     {
       "title": "cloud dev / user collection 1523370.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user-collection-1523370.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user-collection-1523370.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-collection-1523370.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-collection-1523370.html"
     },
     {
       "title": "cloud dev / user collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user-collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-collection.html"
     },
     {
       "title": "cloud dev / user group collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user-group-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user-group-collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-group-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-group-collection.html"
     },
     {
       "title": "cloud dev / user group.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user-group.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user-group.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-group.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-group.html"
     },
     {
       "title": "cloud dev / user post registration script.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user-post-registration-script.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user-post-registration-script.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-post-registration-script.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-post-registration-script.html"
     },
     {
       "title": "cloud dev / user pre registration script.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user-pre-registration-script.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user-pre-registration-script.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-pre-registration-script.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-pre-registration-script.html"
     },
     {
       "title": "cloud dev / user security.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user-security.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user-security.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-security.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-security.html"
     },
     {
       "title": "cloud dev / user sign in script.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user-sign-in-script.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user-sign-in-script.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-sign-in-script.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user-sign-in-script.html"
     },
     {
       "title": "cloud dev / user.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/user.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/user.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/user.html"
     },
     {
       "title": "cloud dev / usergroup collection.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/usergroup-collection.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/usergroup-collection.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/usergroup-collection.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/usergroup-collection.html"
     },
     {
       "title": "cloud dev / usergroup.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/usergroup.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/usergroup.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/usergroup.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/usergroup.html"
     },
     {
       "title": "cloud dev / users client 1523404.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/users-client-1523404.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/users-client-1523404.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/users-client-1523404.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/users-client-1523404.html"
     },
     {
       "title": "cloud dev / users client 1523458.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/users-client-1523458.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/users-client-1523458.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/users-client-1523458.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/users-client-1523458.html"
     },
     {
       "title": "cloud dev / users client.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/users-client.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/users-client.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/users-client.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/users-client.html"
     },
     {
       "title": "cloud dev / version checker.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/version-checker.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/version-checker.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/version-checker.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/version-checker.html"
     },
     {
       "title": "cloud dev / visualsearchrequestresource.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/visualsearchrequestresource.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/visualsearchrequestresource.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/visualsearchrequestresource.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/visualsearchrequestresource.html"
     },
     {
       "title": "cloud dev / walkthrough  using stylelabs m sdk fluent through the web client sdk.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/walkthrough--using-stylelabs-m-sdk-fluent-through-the-web-client-sdk.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/walkthrough--using-stylelabs-m-sdk-fluent-through-the-web-client-sdk.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/walkthrough--using-stylelabs-m-sdk-fluent-through-the-web-client-sdk.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/walkthrough--using-stylelabs-m-sdk-fluent-through-the-web-client-sdk.html"
     },
     {
       "title": "cloud dev / web client sdk.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/web-client-sdk.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/web-client-sdk.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/web-client-sdk.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/web-client-sdk.html"
     },
     {
       "title": "cloud dev / web sdk changelog.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/web-sdk-changelog.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/web-sdk-changelog.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/web-sdk-changelog.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/web-sdk-changelog.html"
     },
     {
       "title": "cloud dev / web server security.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/web-server-security.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/web-server-security.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/web-server-security.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/web-server-security.html"
     },
     {
       "title": "cloud dev / work with scripts.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/work-with-scripts.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/work-with-scripts.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/work-with-scripts.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/work-with-scripts.html"
     },
     {
       "title": "cloud dev / write unit tests for scripts.html",
-      "url": "https://doc.sitecore.com/ch/developers/cloud-dev/write-unit-tests-for-scripts.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/developers/cloud-dev/write-unit-tests-for-scripts.html"
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/write-unit-tests-for-scripts.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/write-unit-tests-for-scripts.html"
     }
   ],
   "referenceIssues": []

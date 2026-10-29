@@ -61,6 +61,11 @@ export async function fetchDocumentationCatalog(spec, revision, { onIndex = () =
     } else links = markdownLinks(markdownResponse({ ...response, bytes }));
     for (const link of links) add(link.href, link.title, response.url);
   }
+  // Additional pages restore what an index omits; they never stand in for an index with no matches.
+  if (!pages.size)
+    throw new Error(
+      'Official index contains no matching documentation links before additional pages',
+    );
   for (const page of spec.additionalPages || []) add(page.url, page.title, spec.indexUrl, true);
   const sorted = bounded(spec, [...pages.values()]);
   return {
