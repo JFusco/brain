@@ -39,9 +39,9 @@ aliases: ["sitecore-ai"]
   - [docs/README.md](https://github.com/Sitecore/content-sdk/blob/53e4011b6413416a0502e68a36510f94b3f51a05/packages/create-content-sdk-app/src/templates/nextjs-app-router-cache-components/.agents/docs/README.md).
 - **sitecoreai-docs** — link catalog of 423 pages; rolling-url; revision `4a62a6a81c56ff1042354b6a785138e4579ab08d1dcc1d098f12e4113a15b481`; fetched 2026-10-28.
   - [Catalog source](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml); search it with `lookup --domain cms/sitecore-ai`.
-- **content-hub-docs** — link catalog of 387 pages; rolling-url; revision `e377cdfbd5b19dfe15a4b6d56bda20cefb94b027f456805396ab461a607f77d4`; fetched 2026-10-24.
+- **content-hub-docs** — link catalog of 387 pages; rolling-url; revision `634fb050ff6ec848371b3c6ecb22b0f32e1dc4d647ef3eb2f1d2de0ed9ee5bd7`; fetched 2026-10-29.
   - [Catalog source](https://doc.sitecore.com/ch/en/developers/cloud-dev/sitemap.xml); search it with `lookup --domain cms/sitecore-ai`.
-- **content-hub-user-docs** — link catalog of 731 pages; rolling-url; revision `63a673c07485d1a93f631cd691a9e8d32e467204023bd3316b98975c7ca46d5b`; fetched 2026-10-24.
+- **content-hub-user-docs** — link catalog of 731 pages; rolling-url; revision `fa732bd17896ec52690271827dd1b698ec89c3ff6ceb99b4639b507bbb569545`; fetched 2026-10-29.
   - [Catalog source](https://doc.sitecore.com/ch/en/users/content-hub/sitemap.xml); search it with `lookup --domain cms/sitecore-ai`.
 - [Official website](https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecoreai.html) — pointer only: Official SitecoreAI developer documentation; focused lookup supports HTML pages.
 <!-- brain:official:end -->

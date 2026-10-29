@@ -110,16 +110,16 @@
       "catalogSha256": "e2af73d24bb6959bea7d677c151b706020e38f7e9cbd5133d09a3c49d27c81a1"
     },
     "content-hub-docs": {
-      "revision": "e377cdfbd5b19dfe15a4b6d56bda20cefb94b027f456805396ab461a607f77d4",
-      "fetchedAt": "2026-10-24T00:41:08.313Z",
+      "revision": "634fb050ff6ec848371b3c6ecb22b0f32e1dc4d647ef3eb2f1d2de0ed9ee5bd7",
+      "fetchedAt": "2026-10-29T12:01:09.548Z",
       "track": "rolling-url",
-      "catalogSha256": "f3de245acae24c8297504e34ddff451a4e6a0a570bcbc29e719cd6cffa634304"
+      "catalogSha256": "db121e6c9ee0a224dd1efe4e843e82458752994a3ca45a91afa4c9a6618df979"
     },
     "content-hub-user-docs": {
-      "revision": "63a673c07485d1a93f631cd691a9e8d32e467204023bd3316b98975c7ca46d5b",
-      "fetchedAt": "2026-10-24T00:41:09.262Z",
+      "revision": "fa732bd17896ec52690271827dd1b698ec89c3ff6ceb99b4639b507bbb569545",
+      "fetchedAt": "2026-10-29T12:01:10.205Z",
       "track": "rolling-url",
-      "catalogSha256": "8dd138adde66c0fbf416d708830540e8a40b108c1ebe5630fd0da3bba4be4486"
+      "catalogSha256": "b5064bc6e6a165fa36fca2b01717a2f78ae890a31bb87d61596c4466940de7f6"
     },
     "sitecore-xp-docs": {
       "revision": "71fcf13f3e8fab82a54f56078ad88da7bdfe4e8d192d6dcd07306efb9df92753",
