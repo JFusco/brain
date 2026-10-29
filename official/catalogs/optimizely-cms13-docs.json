@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms13-docs",
-  "revision": "958df0d25a421aec7dbe500be013283d972b2e8b2f8b2bae2c43ad7ff1cb15d2",
+  "revision": "8f059885b6498fc72c64a4eb1628215572f2b1daac38b6e404051e70b5937536",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -2392,6 +2392,11 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/ui-wrapper-types.md"
     },
     {
+      "title": "Upgrade Content Delivery API from version 3 to version 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/upgrade-content-delivery-api-to-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/upgrade-content-delivery-api-to-13.md"
+    },
+    {
       "title": "Upgrade global navigation menu",
       "url": "https://docs.optimizely.com/cms-13/docs/upgrade-global-navigation-menu.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/upgrade-global-navigation-menu.md"
@@ -2420,6 +2425,11 @@
       "title": "Use menu providers",
       "url": "https://docs.optimizely.com/cms-13/docs/use-menu-providers.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/use-menu-providers.md"
+    },
+    {
+      "title": "Use Opti ID with a separate site-visitor authentication scheme",
+      "url": "https://docs.optimizely.com/cms-13/docs/use-opti-id-with-separate-visitor-authentication.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/use-opti-id-with-separate-visitor-authentication.md"
     },
     {
       "title": "User notification examples",

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-kickstart",
-  "revision": "0c9aca728b7113a6a64a2ccea2b3b448c45529fa",
-  "origin": "https://github.com/contentstack/kickstart-next-ssr/tree/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/",
+  "revision": "da9a7b83fc903b3c410b00ec348cedc3219703b0",
+  "origin": "https://github.com/contentstack/kickstart-next-ssr/tree/da9a7b83fc903b3c410b00ec348cedc3219703b0/",
   "skills": [
     {
       "id": "contentstack-kickstart/code-review",
@@ -18,8 +18,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/code-review/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/code-review/SKILL.md",
+      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/code-review/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/code-review/SKILL.md",
       "gitBlobSha": "eff5cccd524d69b067dd1a7843b4fb2444734f86"
     },
     {
@@ -36,8 +36,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/contentstack-kickstart/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/contentstack-kickstart/SKILL.md",
+      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/contentstack-kickstart/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/contentstack-kickstart/SKILL.md",
       "gitBlobSha": "ad206aabe551aceaead9b52d56e85175f6f93012"
     },
     {
@@ -55,8 +55,8 @@
       },
       "preferred": false,
       "blockedReason": "3 unresolved entry-point references",
-      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/dev-workflow/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/dev-workflow/SKILL.md",
+      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/dev-workflow/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/dev-workflow/SKILL.md",
       "gitBlobSha": "3b700c943b5d67f68e16410601af0a72da650ed6"
     },
     {
@@ -73,8 +73,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/framework/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/framework/SKILL.md",
+      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/framework/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/framework/SKILL.md",
       "gitBlobSha": "973dda3ad4a64cd80b12c5570a0458b8b545adbb"
     },
     {
@@ -91,8 +91,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/testing/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/testing/SKILL.md",
+      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/testing/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/testing/SKILL.md",
       "gitBlobSha": "cb66fbf165b1f62a894fce78c7f85f4fe07a8e37"
     },
     {
@@ -109,8 +109,8 @@
         ]
       },
       "preferred": false,
-      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/typescript-style/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/typescript-style/SKILL.md",
+      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/typescript-style/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/typescript-style/SKILL.md",
       "gitBlobSha": "952b86aa7c49aedb4978b86ca1aa027c8ca57569"
     }
   ],
@@ -118,22 +118,22 @@
     {
       "path": "README.md",
       "title": "Contentstack Kickstart: Next.js SSR",
-      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/README.md",
+      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/da9a7b83fc903b3c410b00ec348cedc3219703b0/README.md",
       "gitBlobSha": "ebf8aee56c56709362d44ca97e0ad2aa3cda9b46"
     },
     {
       "path": "SECURITY.md",
       "title": "SECURITY.md",
-      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/SECURITY.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/SECURITY.md",
+      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/SECURITY.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/da9a7b83fc903b3c410b00ec348cedc3219703b0/SECURITY.md",
       "gitBlobSha": "b33a46b7ba293c7b61732c47897f6cc0a53099dd"
     },
     {
       "path": "skills/README.md",
       "title": "Skills – kickstart-next-ssr",
-      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/0c9aca728b7113a6a64a2ccea2b3b448c45529fa/skills/README.md",
+      "url": "https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/contentstack/kickstart-next-ssr/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/README.md",
       "gitBlobSha": "c921f1e43e2194e66c6875c27ccd46ad38cac174"
     }
   ],

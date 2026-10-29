@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "agent-browser-skills",
-  "revision": "edb40f1878864f90e14f6c11e26fdafd3fecc8dc",
-  "origin": "https://github.com/vercel-labs/agent-browser/tree/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/",
+  "revision": "1453dd37a40c730fe00f592bc32198a896ff8747",
+  "origin": "https://github.com/vercel-labs/agent-browser/tree/1453dd37a40c730fe00f592bc32198a896ff8747/",
   "skills": [
     {
       "id": "agent-browser-skills/agent-browser",
@@ -13,8 +13,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skills/agent-browser/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skills/agent-browser/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skills/agent-browser/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skills/agent-browser/SKILL.md",
       "gitBlobSha": "dc9bb54a22e9cd7ad9c982a0fe5ae2e204751b12"
     },
     {
@@ -26,8 +26,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/agentcore/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/agentcore/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/agentcore/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/agentcore/SKILL.md",
       "gitBlobSha": "421f695257f9a4084ec801ad6384250b80638e59"
     },
     {
@@ -39,9 +39,9 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/SKILL.md",
-      "gitBlobSha": "20c755b8650b8d796d6154fb2d7e046a7abd0c41"
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/SKILL.md",
+      "gitBlobSha": "ee719dd5231313a5ee629dab5217aae5ecfef7f7"
     },
     {
       "id": "agent-browser-skills/derive-client",
@@ -52,8 +52,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/derive-client/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/derive-client/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/derive-client/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/derive-client/SKILL.md",
       "gitBlobSha": "229b2b3cd78ae9b5b45172610e85f020780c8b8f"
     },
     {
@@ -66,8 +66,8 @@
       "policy": "reference-only",
       "preferred": false,
       "referenceWarnings": 4,
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/dogfood/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/dogfood/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/dogfood/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/dogfood/SKILL.md",
       "gitBlobSha": "ac81a14017d8cd387cbdfacbd569b99ae25c2fff"
     },
     {
@@ -79,8 +79,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/electron/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/electron/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/electron/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/electron/SKILL.md",
       "gitBlobSha": "e4bf00e8e669e43d717e00050df320455352fa86"
     },
     {
@@ -92,8 +92,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/protected-vercel-deployments/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/protected-vercel-deployments/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/protected-vercel-deployments/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/protected-vercel-deployments/SKILL.md",
       "gitBlobSha": "ecd8c1cbe5f5a74a62fab90c7ad5fb9e79236ad9"
     },
     {
@@ -105,8 +105,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/slack/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/slack/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/slack/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/slack/SKILL.md",
       "gitBlobSha": "91e2bca8d0b184200846d6d8b2a6555a714dd715"
     },
     {
@@ -118,8 +118,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/vercel-sandbox/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/vercel-sandbox/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/vercel-sandbox/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/vercel-sandbox/SKILL.md",
       "gitBlobSha": "37774ad104f2ac39c18ebfa8e6f9858908a018fa"
     },
     {
@@ -131,8 +131,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/webmcp-gen/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/webmcp-gen/SKILL.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/webmcp-gen/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/webmcp-gen/SKILL.md",
       "gitBlobSha": "463559e4da5b576e475dcd6b927a63b798a9c83a"
     }
   ],
@@ -140,106 +140,106 @@
     {
       "path": "README.md",
       "title": "agent-browser",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/README.md",
-      "gitBlobSha": "c1ed066e4167a421f5a9ccc4fc2a33121312ce2b"
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/README.md",
+      "gitBlobSha": "dc103702f638491e276a8595ddcae5cc97ec52a5"
     },
     {
       "path": "skill-data/core/references/authentication.md",
       "title": "Authentication Patterns",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/authentication.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/authentication.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/authentication.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/authentication.md",
       "gitBlobSha": "554e5004fec05a42dd51a2c5dda0930f271a4563"
     },
     {
       "path": "skill-data/core/references/commands.md",
       "title": "Command Reference",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/commands.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/commands.md",
-      "gitBlobSha": "e8cbc74ca567204b88f06a0d903b68ce4f40b3c0"
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/commands.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/commands.md",
+      "gitBlobSha": "fedbe6fb3e75933b182ea114d6a798dda4c15cfe"
     },
     {
       "path": "skill-data/core/references/profiling.md",
       "title": "Profiling",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/profiling.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/profiling.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/profiling.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/profiling.md",
       "gitBlobSha": "e0c3a4ee582b9aed717a852d933bc9e855a52ed2"
     },
     {
       "path": "skill-data/core/references/proxy-support.md",
       "title": "Proxy Support",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/proxy-support.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/proxy-support.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/proxy-support.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/proxy-support.md",
       "gitBlobSha": "2f09fa7b43e2ca1a15eb577da602e4d69e2cd6db"
     },
     {
       "path": "skill-data/core/references/session-management.md",
       "title": "Session Management",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/session-management.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/session-management.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/session-management.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/session-management.md",
       "gitBlobSha": "eb95f44c5d10ef3564bf296943e29801c12056c9"
     },
     {
       "path": "skill-data/core/references/snapshot-refs.md",
       "title": "Snapshot and Refs",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/snapshot-refs.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/snapshot-refs.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/snapshot-refs.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/snapshot-refs.md",
       "gitBlobSha": "bc8822a53e8c897d486f155af694c8739fb906c5"
     },
     {
       "path": "skill-data/core/references/streaming.md",
       "title": "Live Streaming",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/streaming.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/streaming.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/streaming.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/streaming.md",
       "gitBlobSha": "ab4c5f0436bf0baff3714e5949f41e7f66022d5a"
     },
     {
       "path": "skill-data/core/references/trust-boundaries.md",
       "title": "Trust boundaries",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/trust-boundaries.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/trust-boundaries.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/trust-boundaries.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/trust-boundaries.md",
       "gitBlobSha": "15338ceb19c14500fb45c11c65d8b38cd2877545"
     },
     {
       "path": "skill-data/core/references/video-recording.md",
       "title": "Video Recording",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/video-recording.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/video-recording.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/video-recording.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/video-recording.md",
       "gitBlobSha": "6c73d867c1994206b26a6cdc42413753e238c987"
     },
     {
       "path": "skill-data/core/references/webgpu.md",
       "title": "WebGPU",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/webgpu.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/core/references/webgpu.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/webgpu.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/core/references/webgpu.md",
       "gitBlobSha": "2c50d3ae3dd97525c4df1271f29f18ef4e74107d"
     },
     {
       "path": "skill-data/dogfood/references/issue-taxonomy.md",
       "title": "Issue Taxonomy",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/dogfood/references/issue-taxonomy.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/dogfood/references/issue-taxonomy.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/dogfood/references/issue-taxonomy.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/dogfood/references/issue-taxonomy.md",
       "gitBlobSha": "c3edbe5733bf6d530e545dd5f597f84c72855f2b"
     },
     {
       "path": "skill-data/dogfood/templates/dogfood-report-template.md",
       "title": "Dogfood Report: {APP_NAME}",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/dogfood/templates/dogfood-report-template.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/dogfood/templates/dogfood-report-template.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/dogfood/templates/dogfood-report-template.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/dogfood/templates/dogfood-report-template.md",
       "gitBlobSha": "a7732a409f13d3cc27d6abbf9d280793d1b88b35"
     },
     {
       "path": "skill-data/slack/references/slack-tasks.md",
       "title": "Common Slack Tasks & Patterns",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/slack/references/slack-tasks.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/slack/references/slack-tasks.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/slack/references/slack-tasks.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/slack/references/slack-tasks.md",
       "gitBlobSha": "a520aff730bf6b713762514bc49a9a0cccc85b22"
     },
     {
       "path": "skill-data/slack/templates/slack-report-template.md",
       "title": "Slack Analysis Report",
-      "url": "https://github.com/vercel-labs/agent-browser/blob/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/slack/templates/slack-report-template.md",
-      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/edb40f1878864f90e14f6c11e26fdafd3fecc8dc/skill-data/slack/templates/slack-report-template.md",
+      "url": "https://github.com/vercel-labs/agent-browser/blob/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/slack/templates/slack-report-template.md",
+      "fetchUrl": "https://raw.githubusercontent.com/vercel-labs/agent-browser/1453dd37a40c730fe00f592bc32198a896ff8747/skill-data/slack/templates/slack-report-template.md",
       "gitBlobSha": "221ae0b8ddf642912a6ff63a9f712b1c5d931521"
     }
   ],

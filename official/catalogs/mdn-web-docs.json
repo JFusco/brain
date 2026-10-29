@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "mdn-web-docs",
-  "revision": "cceec17e41c46ac0d1593a34b8977148257c68f33517430b2267961b46bf2935",
+  "revision": "7fe88bb4d579b6c9d95b3e3fd270b355ffed1e3fde631f4d63f2050c334283b7",
   "origin": "https://developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz",
   "skills": [],
   "docs": [],
@@ -2242,6 +2242,16 @@
       "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/class"
     },
     {
+      "title": "Global_attributes / containertiming",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/containertiming",
+      "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/containertiming"
+    },
+    {
+      "title": "Global_attributes / containertimingignore",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/containertimingignore",
+      "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/containertimingignore"
+    },
+    {
       "title": "Global_attributes / contenteditable",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable",
       "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable"
@@ -4265,6 +4275,11 @@
       "title": "Status / 511",
       "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/511",
       "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/511"
+    },
+    {
+      "title": "Guide / Agent_communication_and_coordination",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Agent_communication_and_coordination",
+      "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Agent_communication_and_coordination"
     },
     {
       "title": "Guide / Closures",

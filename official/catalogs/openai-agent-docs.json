@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "openai-agent-docs",
-  "revision": "a14113e27fa3d77e98156b2f8ee8773d670212e5c8e02c7345fc00a8a3254635",
+  "revision": "cee2f0d46de2ef567418e2145606d882f1f321e0396afedf8471b7e7200e319d",
   "origin": "https://developers.openai.com/api/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -315,6 +315,11 @@
       "title": "Batch API",
       "url": "https://developers.openai.com/api/docs/guides/batch",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/batch.md"
+    },
+    {
+      "title": "API credits for ChatGPT subscribers",
+      "url": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits.md"
     },
     {
       "title": "ChatKit",
