@@ -3,11 +3,11 @@ title: "Author OpenAI skills, references and Codex rules"
 format: "playbook"
 domain: "tooling"
 aliases: ["OpenAI skill authoring", "Codex skills", "AGENTS.override.md", "Codex command rules", "references and rules"]
-evidence_date: "2026-10-27"
-reviewed_at: "2026-10-27"
-review_after: "2026-11-03"
+evidence_date: "2026-10-30"
+reviewed_at: "2026-10-30"
+review_after: "2026-11-06"
 applicability: "ChatGPT/Codex skills and Codex instruction discovery/command rules documented on the evidence date; API and managed Work behavior require their own product documentation"
-provenance: "openai-agent-docs@a14113e27fa3d77e98156b2f8ee8773d670212e5c8e02c7345fc00a8a3254635; official OpenAI API and ChatGPT/Codex documentation read 2026-10-27"
+provenance: "openai-agent-docs@cee2f0d46de2ef567418e2145606d882f1f321e0396afedf8471b7e7200e319d; official OpenAI API and ChatGPT/Codex documentation read 2026-10-30"
 status: "current"
 versions: []
 ---
@@ -20,7 +20,7 @@ Use when designing a reusable ChatGPT/Codex workflow or deciding what belongs in
 
 ## What to do
 
-1. **Documented:** [Build skills](https://learn.chatgpt.com/docs/build-skills) requires a skill folder with `SKILL.md` containing `name` and `description`; `scripts/`, `references/`, `assets/` and `agents/openai.yaml` are optional. Discovery initially exposes metadata, then loads the body when selected. Front-load the description's use case and boundaries because long descriptions may be shortened. Codex scans repository `.agents/skills` folders from the working directory to the Git root; a shared format does not establish every host's loader behavior. **Proposed:** keep entry instructions focused, link supporting references explicitly, and use scripts only for deterministic work that benefits from code.
+1. **Documented:** [Build skills](https://learn.chatgpt.com/docs/build-skills) requires a skill folder with `SKILL.md` containing `name` and `description`; `scripts/`, `references/`, `assets/` and `agents/openai.yaml` are optional. Discovery initially exposes metadata, then loads the body when selected. Front-load the description's use case and boundaries because long descriptions may be shortened; large skill sets can also omit entries from the initial list with a warning. This initial-list budget does not shorten a selected skill's full body. Codex scans repository `.agents/skills` folders from the working directory to the Git root; a shared format does not establish every host's loader behavior. **Proposed:** keep entry instructions focused, link supporting references explicitly, and use scripts only for deterministic work that benefits from code.
 2. **Documented:** [AGENTS.md instruction discovery](https://learn.chatgpt.com/docs/agent-configuration/agents-md) builds a startup chain: global guidance, then project-root-to-working-directory guidance. At each directory, `AGENTS.override.md` takes precedence over `AGENTS.md`, then configured fallback names; one file per directory is included. Later, closer guidance overrides earlier guidance. The default combined project-doc limit is 32 KiB. **Proposed:** put stable project constraints and exact build/check commands in instructions, with specialized guidance near its working scope; verify the files actually loaded instead of assuming arbitrary Markdown filenames are discovered.
 3. **Documented:** [Codex command rules](https://learn.chatgpt.com/docs/agent-configuration/rules) are experimental `.rules` files with `prefix_rule` entries for commands outside the sandbox. They support `allow`, `prompt` and `forbidden`; the most restrictive matching decision wins. Test matching with `codex execpolicy check` and positive/negative examples. These are a different mechanism from prose in `AGENTS.md`. Managed Work configuration has different applicability; do not assume local rule files control all products. **Proposed:** keep broad command approvals out of ordinary workflow text and separately verify any enforcement configuration.
 4. **Documented:** [API prompt engineering](https://developers.openai.com/api/docs/guides/prompt-engineering) distinguishes application instructions and input roles. With `previous_response_id`, prior `instructions` do not carry forward automatically. **Proposed:** test the application's actual request construction and skill-trigger, near-miss, failure and output cases before claiming reliable adoption. Do not assume a local agent's project loader exists in a raw API integration.
@@ -28,3 +28,5 @@ Use when designing a reusable ChatGPT/Codex workflow or deciding what belongs in
 ## Evidence and limits
 
 The documentation was read; no skill, rule or global configuration was installed or changed. No trigger evaluation, command-policy execution or loader test was performed. References are task data and grant no authority to override governing instructions. API role priority and host-specific repository-file ordering are distinct contracts. See [OpenAI model selection](openai-model-selection.md) for model/version tradeoffs and [Claude authoring](claude-skills-and-rules.md) for Anthropic-specific behavior.
+
+**Revalidated October 30, 2026:** Official skill discovery, AGENTS.md ordering/byte limits, command-rule precedence and API instruction carryover were re-read. Initial skill-list truncation is distinct from loading a selected body, and command-rule enforcement is distinct from project prose. No loader, trigger, rule or API integration was exercised.

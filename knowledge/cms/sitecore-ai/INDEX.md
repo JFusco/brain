@@ -8,6 +8,7 @@ aliases: ["sitecore-ai"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
+- [Check destination item-name limits before preserving URL slugs](item-name-preflight.md)
 - [Inspect SitecoreAI content models before REST updates](rest-api-inspection-and-updates.md)
 - [Plan SitecoreAI migration evidence and dependencies](migration-evidence-and-dependencies.md)
 - [Verify SitecoreAI imports against native state](import-readback-against-native-state.md)

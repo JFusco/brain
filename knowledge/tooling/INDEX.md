@@ -26,6 +26,7 @@ Route build configuration, test runners, component workshops, linting, package m
 - [Define a structured Opus 5.5 judgment contract](opus-structured-judgment.md)
 - [Keep a Graphify code map scoped and reproducible](graphify-code-map.md)
 - [Pin an agent CLI judgment call's settings](agent-cli-invocation-contract.md)
+- [Separate review transport and context capacity failures](review-capacity-recovery.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

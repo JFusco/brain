@@ -273,3 +273,8 @@ The [CMS/tooling curation journal](../journal/2026-10-26-cms-and-tooling-curatio
 ## October 29 agent judgment contracts
 
 The [agent judgment journal](../journal/2026-10-29-agent-judgment-guidance.md) separates explicit CLI invocation, effective screenshot resolution and Opus API output contracts. Live source checks support proposed harness practices without claiming executed integrations. Four React/frontend notes were revalidated while other stale signals remain visible. Original capture bodies and claim accounting remain private; independent content review and nightly completion still govern publication and acceptance.
+
+
+## October 30 capacity and naming preflights
+
+The [capacity and naming journal](../journal/2026-10-30-capacity-and-naming-preflights.md) distinguishes CLI transport limits, model context/output capacity and authorized read-only recovery. A separate Sitecore preflight keeps archived naming defaults, current target configuration and URL acceptance distinct. Two OpenAI notes are source-revalidated while other stale signals remain visible. Historical reports and proposed procedures do not become runtime acceptance claims; private whole-capture accounting and the existing independent-review/completion gates remain required.
