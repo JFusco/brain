@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "b49f056665f678b0d0194e4c48c5568b0631b72871e0036ef313d65f8b0d7c23",
+  "revision": "0558dd65b815d71cf97780373268df2174fdf38f4431fd64dc63bebf4285f257",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -6390,6 +6390,21 @@
       "title": "reference / boolparametervalue",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/boolparametervalue",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/boolparametervalue.md"
+    },
+    {
+      "title": "reference / branch",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/branch",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/branch.md"
+    },
+    {
+      "title": "reference / branchaliasmodel",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/branchaliasmodel",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/branchaliasmodel.md"
+    },
+    {
+      "title": "reference / branchmodel",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/branchmodel",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/branchmodel.md"
     },
     {
       "title": "reference / bulk operations",

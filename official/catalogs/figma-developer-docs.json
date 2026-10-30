@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "figma-developer-docs",
-  "revision": "db54940cd457ce9200610b615589b9d647328b2179be97037f92c51ee45bd3a3",
+  "revision": "004b40c2362aa43e3417f9e558b1862c176a72ce3aae3f68362c61e83912b912",
   "origin": "https://developers.figma.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -2000,6 +2000,11 @@
       "title": "properties / TextNode fontname",
       "url": "https://developers.figma.com/docs/plugins/api/properties/TextNode-fontname/",
       "fetchUrl": "https://developers.figma.com/docs/plugins/api/properties/TextNode-fontname/"
+    },
+    {
+      "title": "properties / TextNode getrangeallfontnames",
+      "url": "https://developers.figma.com/docs/plugins/api/properties/TextNode-getrangeallfontnames/",
+      "fetchUrl": "https://developers.figma.com/docs/plugins/api/properties/TextNode-getrangeallfontnames/"
     },
     {
       "title": "properties / TextNode getstyledtextsegments",

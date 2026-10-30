@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "storybook-docs",
-  "revision": "1edcef5c976598a8ddfd5f008a2781b02ceaf2299922ccc1d6a9347db5e5644a",
+  "revision": "c735625fe57a09cd61ddc13f2b80d4d8f548b9e8bacd52ca415aed3e1fd2ee42",
   "origin": "https://storybook.js.org/docs/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -290,6 +290,11 @@
       "title": "main config / main config refs",
       "url": "https://storybook.js.org/docs/api/main-config/main-config-refs",
       "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-refs.md"
+    },
+    {
+      "title": "main config / main config security",
+      "url": "https://storybook.js.org/docs/api/main-config/main-config-security",
+      "fetchUrl": "https://storybook.js.org/docs/api/main-config/main-config-security.md"
     },
     {
       "title": "main config / main config static dirs",

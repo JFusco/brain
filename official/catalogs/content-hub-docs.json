@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "content-hub-docs",
-  "revision": "634fb050ff6ec848371b3c6ecb22b0f32e1dc4d647ef3eb2f1d2de0ed9ee5bd7",
+  "revision": "11a777e6377d0309b093095185c18df00c2e70f3e61ddac52ddd1aac74fbf5fd",
   "origin": "https://doc.sitecore.com/ch/en/developers/cloud-dev/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -10,6 +10,11 @@
       "title": "cloud dev /  net tools installation.html",
       "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/-net-tools-installation.html",
       "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/-net-tools-installation.html"
+    },
+    {
+      "title": "cloud dev / action script to create a project from a template.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-script-to-create-a-project-from-a-template.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/action-script-to-create-a-project-from-a-template.html"
     },
     {
       "title": "cloud dev / action script to set a master asset on a product.html",

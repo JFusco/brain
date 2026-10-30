@@ -21,7 +21,7 @@ aliases: ["nextjs", "next.js", "app router", "app router caching"]
 <!-- brain:official:start -->
 ## Official sources
 
-- **vercel-plugin** — 37 skills and 241 docs at a pinned commit; default-branch; revision `f28db1a279ee746a22cc8c916a396dd7796d6468`; fetched 2026-10-29.
+- **vercel-plugin** — 37 skills and 241 docs at a pinned commit; default-branch; revision `67977fdf723174f4927dd5b9292a9d04c2a821ec`; fetched 2026-10-30.
   - [Complete Vercel plugin catalog](../vercel/INDEX.md).
 - **nextjs-index** — link catalog of 305 pages; rolling-url; revision `2b9f685c5a276c7da0397a8a972ea1facd4342abb390a0167b40ec23a910f463`; fetched 2026-10-23.
   - [Catalog source](https://nextjs.org/docs/llms.txt); search it with `lookup --domain nextjs`.
