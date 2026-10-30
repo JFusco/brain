@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "2b0832a61f9f3b105e6d057a697795e85f4429b02d40e72b84042394897afd99",
+  "revision": "557fb384f6ab2db45a9745c4d3f94d2f40526f6224110055d9947fc9a66f669b",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -1572,6 +1572,11 @@
       "fetchUrl": "https://vercel.com/docs/agent-resources/workflows.md"
     },
     {
+      "title": "Agent Runs",
+      "url": "https://vercel.com/docs/agent-runs",
+      "fetchUrl": "https://vercel.com/docs/agent-runs.md"
+    },
+    {
       "title": "Installation",
       "url": "https://vercel.com/docs/agent/installation",
       "fetchUrl": "https://vercel.com/docs/agent/installation.md"
@@ -1835,6 +1840,11 @@
       "title": "AI Gateway Framework Integrations",
       "url": "https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations",
       "fetchUrl": "https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations.md"
+    },
+    {
+      "title": "Flue with AI Gateway",
+      "url": "https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations/flue",
+      "fetchUrl": "https://vercel.com/docs/ai-gateway/ecosystem/framework-integrations/flue.md"
     },
     {
       "title": "LangChain with AI Gateway",
@@ -2772,6 +2782,11 @@
       "fetchUrl": "https://vercel.com/docs/chat-sdk/integrations/connect.md"
     },
     {
+      "title": "Chat SDK with Vercel Passport",
+      "url": "https://vercel.com/docs/chat-sdk/integrations/passport",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/integrations/passport.md"
+    },
+    {
       "title": "Chat SDK with Vercel Sandbox",
       "url": "https://vercel.com/docs/chat-sdk/integrations/sandbox",
       "fetchUrl": "https://vercel.com/docs/chat-sdk/integrations/sandbox.md"
@@ -2932,6 +2947,11 @@
       "fetchUrl": "https://vercel.com/docs/cli/dns.md"
     },
     {
+      "title": "vercel doctor",
+      "url": "https://vercel.com/docs/cli/doctor",
+      "fetchUrl": "https://vercel.com/docs/cli/doctor.md"
+    },
+    {
       "title": "vercel domains",
       "url": "https://vercel.com/docs/cli/domains",
       "fetchUrl": "https://vercel.com/docs/cli/domains.md"
@@ -3050,6 +3070,11 @@
       "title": "vercel open",
       "url": "https://vercel.com/docs/cli/open",
       "fetchUrl": "https://vercel.com/docs/cli/open.md"
+    },
+    {
+      "title": "vercel organizations",
+      "url": "https://vercel.com/docs/cli/organizations",
+      "fetchUrl": "https://vercel.com/docs/cli/organizations.md"
     },
     {
       "title": "vercel pricing",
@@ -3825,11 +3850,6 @@
       "title": "eve",
       "url": "https://vercel.com/docs/eve",
       "fetchUrl": "https://vercel.com/docs/eve.md"
-    },
-    {
-      "title": "Agent Runs",
-      "url": "https://vercel.com/docs/eve/agent-runs",
-      "fetchUrl": "https://vercel.com/docs/eve/agent-runs.md"
     },
     {
       "title": "Authenticating eve requests",
@@ -5997,6 +6017,11 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/connect/disconnect-a-connector-from-a-project.md"
     },
     {
+      "title": "Disconnect a connector from a project environment",
+      "url": "https://vercel.com/docs/rest-api/connect/disconnect-a-connector-from-a-project-environment",
+      "fetchUrl": "https://vercel.com/docs/rest-api/connect/disconnect-a-connector-from-a-project-environment.md"
+    },
+    {
       "title": "Eject a managed connector",
       "url": "https://vercel.com/docs/rest-api/connect/eject-a-managed-connector",
       "fetchUrl": "https://vercel.com/docs/rest-api/connect/eject-a-managed-connector.md"
@@ -7447,6 +7472,11 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/security/update-attack-challenge-mode.md"
     },
     {
+      "title": "Update conditional firewall bypass",
+      "url": "https://vercel.com/docs/rest-api/security/update-conditional-firewall-bypass",
+      "fetchUrl": "https://vercel.com/docs/rest-api/security/update-conditional-firewall-bypass.md"
+    },
+    {
       "title": "Update Firewall Configuration",
       "url": "https://vercel.com/docs/rest-api/security/update-firewall-configuration",
       "fetchUrl": "https://vercel.com/docs/rest-api/security/update-firewall-configuration.md"
@@ -8072,6 +8102,11 @@
       "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem/devin.md"
     },
     {
+      "title": "Flue with Vercel Sandbox",
+      "url": "https://vercel.com/docs/sandbox/ecosystem/flue",
+      "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem/flue.md"
+    },
+    {
       "title": "Harbor and Terminal-Bench",
       "url": "https://vercel.com/docs/sandbox/ecosystem/harbor",
       "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem/harbor.md"
@@ -8090,6 +8125,11 @@
       "title": "LangChain",
       "url": "https://vercel.com/docs/sandbox/ecosystem/langchain",
       "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem/langchain.md"
+    },
+    {
+      "title": "Mastra with Vercel Sandbox",
+      "url": "https://vercel.com/docs/sandbox/ecosystem/mastra",
+      "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem/mastra.md"
     },
     {
       "title": "OpenAI Agents API",

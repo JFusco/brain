@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "supabase-docs",
-  "revision": "075f7d5b46dc03d87d1f60c06941326c0f59ccb8a683f0bf6362032ca030f837",
+  "revision": "406794201a6186ce6cd1515f1fff93dd87069b5c144de0bd327ecd3729687460",
   "origin": "https://supabase.com/docs/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -1002,6 +1002,11 @@
       "fetchUrl": "https://supabase.com/docs/guides/database/postgres/setup-replication-external.md"
     },
     {
+      "title": "postgres / testing row level security",
+      "url": "https://supabase.com/docs/guides/database/postgres/testing-row-level-security",
+      "fetchUrl": "https://supabase.com/docs/guides/database/postgres/testing-row-level-security.md"
+    },
+    {
       "title": "postgres / timeouts",
       "url": "https://supabase.com/docs/guides/database/postgres/timeouts",
       "fetchUrl": "https://supabase.com/docs/guides/database/postgres/timeouts.md"
@@ -1652,6 +1657,11 @@
       "fetchUrl": "https://supabase.com/docs/guides/observability/log-field-reference.md"
     },
     {
+      "title": "observability / log slow queries",
+      "url": "https://supabase.com/docs/guides/observability/log-slow-queries",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/log-slow-queries.md"
+    },
+    {
       "title": "observability / logs",
       "url": "https://supabase.com/docs/guides/observability/logs",
       "fetchUrl": "https://supabase.com/docs/guides/observability/logs.md"
@@ -2195,6 +2205,11 @@
       "title": "security / product security",
       "url": "https://supabase.com/docs/guides/security/product-security",
       "fetchUrl": "https://supabase.com/docs/guides/security/product-security.md"
+    },
+    {
+      "title": "security / rotate leaked api keys",
+      "url": "https://supabase.com/docs/guides/security/rotate-leaked-api-keys",
+      "fetchUrl": "https://supabase.com/docs/guides/security/rotate-leaked-api-keys.md"
     },
     {
       "title": "security / security testing",

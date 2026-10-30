@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "motion-docs",
-  "revision": "d9129a13584a31aa74104b35401d587708cf2b3d167d2e1d82b560aa660fdc57",
+  "revision": "379798ecbc4621eed5f3f96abd19bc774b1461acf1f334f93cda321e533d6e0a",
   "origin": "https://motion.dev/llms.txt",
   "skills": [],
   "docs": [],
@@ -240,11 +240,6 @@
       "title": "AnimatePresence",
       "url": "https://motion.dev/docs/react-animate-presence",
       "fetchUrl": "https://motion.dev/docs/react-animate-presence.md"
-    },
-    {
-      "title": "AnimateSuspense",
-      "url": "https://motion.dev/docs/react-animate-suspense",
-      "fetchUrl": "https://motion.dev/docs/react-animate-suspense.md"
     },
     {
       "title": "AnimateView",

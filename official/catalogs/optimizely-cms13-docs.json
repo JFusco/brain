@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms13-docs",
-  "revision": "8f059885b6498fc72c64a4eb1628215572f2b1daac38b6e404051e70b5937536",
+  "revision": "18f6519ccc7795c8a7c8b0c44e2f72ef3f58b33b3feb4b66cefc108262a92a50",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -1865,6 +1865,11 @@
       "title": "Manage content",
       "url": "https://docs.optimizely.com/cms-13/docs/manage-content.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-content.md"
+    },
+    {
+      "title": "Manage display templates",
+      "url": "https://docs.optimizely.com/cms-13/docs/manage-display-templates.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/manage-display-templates.md"
     },
     {
       "title": "Manage identity, date, and time",

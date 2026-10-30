@@ -20,22 +20,22 @@
       "catalogSha256": "72bc6620c2d55475ef17675d0ca6c67a04cd461e503d98a83d60557a2f98d303"
     },
     "vercel-plugin": {
-      "revision": "f28db1a279ee746a22cc8c916a396dd7796d6468",
-      "fetchedAt": "2026-10-29T13:23:36.253Z",
+      "revision": "67977fdf723174f4927dd5b9292a9d04c2a821ec",
+      "fetchedAt": "2026-10-30T23:31:43.866Z",
       "track": "default-branch",
-      "catalogSha256": "7d1b3a88e9627a27847e1266eb8035705f15b300d6bf751d75da4e992248f800"
+      "catalogSha256": "6655a2dd7781116d9f8ec0adf8bb4369531f3c86d3bbc6736eb8498223a6e534"
     },
     "contentful-skills": {
-      "revision": "1ed726728b32f3218f0da89c74cc0c0b00b35c0f",
-      "fetchedAt": "2026-10-29T13:23:38.413Z",
+      "revision": "bedd47cf902af65ccf89d76e2508a81c5dbd4142",
+      "fetchedAt": "2026-10-30T23:31:45.787Z",
       "track": "default-branch",
-      "catalogSha256": "a90fd6b4f4383b101a199d0704c2ac8283cb38fdadb50b61aa5006c344b5beb9"
+      "catalogSha256": "ce249b5a89808401ed3942dd29534137bfbba6bc5abe36ba32e56d206cdb9747"
     },
     "optimizely-sdk": {
-      "revision": "cebd5c058a146ea6f09bd49bf8fcf7fe8d9104c9",
-      "fetchedAt": "2026-10-29T13:23:41.585Z",
+      "revision": "2fc3f855f1653c9d528d42daee6f93f6793a38b4",
+      "fetchedAt": "2026-10-30T23:31:50.553Z",
       "track": "default-branch",
-      "catalogSha256": "6ea494a6fac12d071a0c85af0cc158e27c31c19cf3f937366fbc188edabae872"
+      "catalogSha256": "3079a8e860ac0af5b09afba4af220d7d2e8d66bd6bb6ea26ab2119ae1cb3cb4a"
     },
     "nextjs-index": {
       "revision": "2b9f685c5a276c7da0397a8a972ea1facd4342abb390a0167b40ec23a910f463",
@@ -50,16 +50,16 @@
       "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "2b0832a61f9f3b105e6d057a697795e85f4429b02d40e72b84042394897afd99",
-      "fetchedAt": "2026-10-29T13:23:44.832Z",
+      "revision": "557fb384f6ab2db45a9745c4d3f94d2f40526f6224110055d9947fc9a66f669b",
+      "fetchedAt": "2026-10-30T23:31:53.968Z",
       "track": "rolling-url",
-      "catalogSha256": "88f3a46ca49c715f24fca17439549e0a4d0e0599571426d1787b501b8a33e2e8"
+      "catalogSha256": "e9dd792f96761d98efbbf5e6e1282802c1d903d95b7d6d011ef892784884803c"
     },
     "contentstack-docs": {
-      "revision": "b49f056665f678b0d0194e4c48c5568b0631b72871e0036ef313d65f8b0d7c23",
-      "fetchedAt": "2026-10-29T13:23:46.753Z",
+      "revision": "0558dd65b815d71cf97780373268df2174fdf38f4431fd64dc63bebf4285f257",
+      "fetchedAt": "2026-10-30T23:31:56.435Z",
       "track": "rolling-url",
-      "catalogSha256": "6d191ac5aeeced14a3e4d36b445719f70ca19ff1999173b5f229acb22d9af463"
+      "catalogSha256": "4e3203acfd012470520993b76eee5b72c5f2244e17e420b9b2b70ff99ef71d19"
     },
     "react-docs": {
       "revision": "0821e7d9428a6c58c922765b891bbffba9ed6249",
@@ -98,10 +98,10 @@
       "catalogSha256": "7c6810d11428134b36c1c2061d45e9e5cf7f1c5951c39889d28bd6470de0c2cf"
     },
     "optimizely-cms13-docs": {
-      "revision": "8f059885b6498fc72c64a4eb1628215572f2b1daac38b6e404051e70b5937536",
-      "fetchedAt": "2026-10-29T13:23:55.569Z",
+      "revision": "18f6519ccc7795c8a7c8b0c44e2f72ef3f58b33b3feb4b66cefc108262a92a50",
+      "fetchedAt": "2026-10-30T23:32:10.261Z",
       "track": "rolling-url",
-      "catalogSha256": "a96c4463a0a484c4525b00c7427488a56ebd77f3526594ba810f8052cac3fc63"
+      "catalogSha256": "d7d508a56ba0fc0cb5c5f4a352e9531f76f641e3ecf3bfd927ea69a093e9a5f4"
     },
     "sitecoreai-docs": {
       "revision": "4a62a6a81c56ff1042354b6a785138e4579ab08d1dcc1d098f12e4113a15b481",
@@ -110,10 +110,10 @@
       "catalogSha256": "e2af73d24bb6959bea7d677c151b706020e38f7e9cbd5133d09a3c49d27c81a1"
     },
     "content-hub-docs": {
-      "revision": "634fb050ff6ec848371b3c6ecb22b0f32e1dc4d647ef3eb2f1d2de0ed9ee5bd7",
-      "fetchedAt": "2026-10-29T12:01:09.548Z",
+      "revision": "11a777e6377d0309b093095185c18df00c2e70f3e61ddac52ddd1aac74fbf5fd",
+      "fetchedAt": "2026-10-30T23:32:13.335Z",
       "track": "rolling-url",
-      "catalogSha256": "db121e6c9ee0a224dd1efe4e843e82458752994a3ca45a91afa4c9a6618df979"
+      "catalogSha256": "7a784e479a1c31df6a94502d14dec663fae7b43c2d8b7c8280c1f1334e125eb0"
     },
     "content-hub-user-docs": {
       "revision": "fa732bd17896ec52690271827dd1b698ec89c3ff6ceb99b4639b507bbb569545",
@@ -182,10 +182,10 @@
       "catalogSha256": "454897787813334dee8773f0620386bbfa1f13ba1a698f2b2301af8697d81a32"
     },
     "web-features-baseline": {
-      "revision": "f44d2602ff6b1bfe09a5446bf283f0600f88a818",
-      "fetchedAt": "2026-10-29T13:24:14.202Z",
+      "revision": "f8963c8ebf20d47143bf30fe545fa99ae1a8b884",
+      "fetchedAt": "2026-10-30T23:32:31.845Z",
       "track": "default-branch",
-      "catalogSha256": "d33dfa459b759e75ead8db47c80f42f127ed94430aeac40fdeb7fe10d3433145"
+      "catalogSha256": "481223904ba1d34ecd16ba0b5c8486decfdb1a4883ea60f77bd2e87467f0c7f5"
     },
     "vite-docs": {
       "revision": "3775d0f7cb461ad88a27fa13ae51dbc82d130d09febbe7e9796894b5ce1152ef",
@@ -200,10 +200,10 @@
       "catalogSha256": "5447bf62633a0fb6e47a5010a633c1f1622e2ced58d859127452ad4400461054"
     },
     "storybook-docs": {
-      "revision": "1edcef5c976598a8ddfd5f008a2781b02ceaf2299922ccc1d6a9347db5e5644a",
-      "fetchedAt": "2026-10-24T21:43:50.845Z",
+      "revision": "c735625fe57a09cd61ddc13f2b80d4d8f548b9e8bacd52ca415aed3e1fd2ee42",
+      "fetchedAt": "2026-10-30T23:32:34.820Z",
       "track": "rolling-url",
-      "catalogSha256": "13c81b98f5fbad4930bfb29bd50b8325121c426e42131a1fa9f336a71c7c6394"
+      "catalogSha256": "4fed964bb2228d3a9d1eaa51e972324c97a8e4990723a55b76916da355acbc89"
     },
     "deque-axe-rules": {
       "revision": "0edc1bd6f9fca94158da6bbc22c5c90b882ba88581f0b5d841d5183c1629ffbf",
@@ -218,10 +218,10 @@
       "catalogSha256": "8671d960b55f73d3bcdec6bf8d57b3585e8189bbe19a47287af0b6f057088cb3"
     },
     "figma-developer-docs": {
-      "revision": "db54940cd457ce9200610b615589b9d647328b2179be97037f92c51ee45bd3a3",
-      "fetchedAt": "2026-10-25T01:14:11.654Z",
+      "revision": "004b40c2362aa43e3417f9e558b1862c176a72ce3aae3f68362c61e83912b912",
+      "fetchedAt": "2026-10-30T23:32:41.758Z",
       "track": "rolling-url",
-      "catalogSha256": "c0b9e22d3e3650f99d7f17ba5c1ce8fb2edb8c1bbbaaeb4fa0c0cecf85c4d504"
+      "catalogSha256": "d0eb6573a1d77950099fed7befb5ee54e7f02a0146b88ef537c9a4a1eb380f81"
     },
     "chrome-devtools-docs": {
       "revision": "a582c730a22a3289c56b46f949f10fb612aaf0b2aeb2f8a76c3ddca7e0c9dcd2",
@@ -266,22 +266,22 @@
       "catalogSha256": "6adff29a30d9d6f5b52d5f26a7ff339e8276951c549ec1eaca2daa1f29956e9e"
     },
     "motion-docs": {
-      "revision": "d9129a13584a31aa74104b35401d587708cf2b3d167d2e1d82b560aa660fdc57",
-      "fetchedAt": "2026-10-29T13:24:28.213Z",
+      "revision": "379798ecbc4621eed5f3f96abd19bc774b1461acf1f334f93cda321e533d6e0a",
+      "fetchedAt": "2026-10-30T23:32:52.047Z",
       "track": "rolling-url",
-      "catalogSha256": "5314cbcd811b1c71cacff9ba9b53d613ed7f4b64c926e471b2f2f74732a532b8"
+      "catalogSha256": "1579fa2a9c7f25e67ca273ae507d8f69c58a4bbdabf9811aadbcf0565d1ea960"
     },
     "chrome-devtools-skills": {
-      "revision": "3c609da38a39067f4a0b885ce81968eb958b76a8",
-      "fetchedAt": "2026-10-29T13:24:30.702Z",
+      "revision": "8d009e854f8aa55b1ec31628e836d4d4731b8ec8",
+      "fetchedAt": "2026-10-30T23:32:54.283Z",
       "track": "default-branch",
-      "catalogSha256": "4e0008942791ac50cc52876e50f17c444698e595b6759143b84fbdbcfab64e9b"
+      "catalogSha256": "452c821571d6053dea2aa8c2b7e0368ca0fa846385dd33b6ee6a2461422e92f4"
     },
     "agent-browser-skills": {
-      "revision": "1453dd37a40c730fe00f592bc32198a896ff8747",
-      "fetchedAt": "2026-10-29T13:24:32.892Z",
+      "revision": "28898e4cc2d3ee47c7080ab653b4ad29340cef57",
+      "fetchedAt": "2026-10-30T23:32:57.201Z",
       "track": "default-branch",
-      "catalogSha256": "43366d563ddde0a15c05fbac9570542cc3be3ab11a9b2712b533309c9a382d64"
+      "catalogSha256": "c481f76b8528451777f1b7360bdbd11f85d094854b751ed84b7709ff5b934646"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
@@ -320,10 +320,10 @@
       "catalogSha256": "a0408617bbe6bead6b8f9943f135c92980b118842db7db25d03358521ced3c70"
     },
     "supabase-docs": {
-      "revision": "075f7d5b46dc03d87d1f60c06941326c0f59ccb8a683f0bf6362032ca030f837",
-      "fetchedAt": "2026-10-28T12:54:50.261Z",
+      "revision": "406794201a6186ce6cd1515f1fff93dd87069b5c144de0bd327ecd3729687460",
+      "fetchedAt": "2026-10-30T23:33:05.985Z",
       "track": "rolling-url",
-      "catalogSha256": "b117fb181524469ee8fcd5e1fb15b6c6f177a12542e4f1442607b83b13385c91"
+      "catalogSha256": "e0ab0fb76b306e9ecfc51323440fc54d92f65490ef8312bf3db609168108c10a"
     },
     "supabase-agent-skills": {
       "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
@@ -344,10 +344,10 @@
       "catalogSha256": "92d1d55a361cd5573abe4e941ca265dce9868b8de489189bb85db8a73d574084"
     },
     "microsoft-postgres-skills": {
-      "revision": "9ba96abc800a574a0872f3d6b912ea8be1a6735e",
-      "fetchedAt": "2026-10-28T13:08:33.822Z",
+      "revision": "80660832262ad5002dc647ba56272d91b4f56955",
+      "fetchedAt": "2026-10-30T23:33:15.465Z",
       "track": "default-branch",
-      "catalogSha256": "a9ef733d82d3f036e2ee1d22be4b0dc1122be96d1329c62c5277422721124403"
+      "catalogSha256": "7d772c1ddf4427482b6ab83a7c231ee9dcd57f926770b9760d0d3b272ebad88f"
     }
   },
   "toolchain": {
