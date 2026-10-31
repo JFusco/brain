@@ -80,12 +80,13 @@ For repository changes that include delivery:
    behavior, verification outcomes and risk/rollback, with
    `Closes #<issue-number>`. Use the PR template and PR lint command if they
    exist, and read the saved PR back.
-7. Routine Brain knowledge PRs, catalog-refresh PRs (only
-   `official/catalogs/`, `official/sources.lock.json` and regenerated hubs)
-   and wiki maintenance PRs merge automatically once applicable checks pass
-   and the saved PR and head are verified. Never merge failed content or
-   bypass branch protections. Registry, workflow, code and other delivery
-   stops at the verified PR unless the user authorizes merging.
+7. The Office harness merges every board-delivered PR once its applicable
+   checks pass and the saved PR and head are verified (Joe, 2026-10-31).
+   Outside the Office, routine Brain knowledge PRs, catalog-refresh PRs
+   (only `official/catalogs/`, `official/sources.lock.json` and regenerated
+   hubs) and wiki maintenance PRs merge automatically under the same checks;
+   other delivery stops at the verified PR unless the user authorizes
+   merging. Never merge failed content or bypass branch protections.
 8. Once a PR merges, by an agent or by Joe, delete its branch: the remote
    branch if GitHub kept it, the local branch and any worktree used for it.
    Delete only when the PR merged and the branch tip is the merged head;
