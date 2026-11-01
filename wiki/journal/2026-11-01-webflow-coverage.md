@@ -2,10 +2,12 @@
 topics: [webflow-coverage]
 ---
 
-# Register Webflow documentation, MCP guidance and native skills
+# Register the Webflow domain and developer documentation
 
-[Issue 290](https://github.com/JFusco/brain/issues/290) adds the `cms/webflow` domain, its knowledge hub and navigation link, and four reference-only sources: `webflow-docs` (721 links), `webflow-skills` (33 skills, 27 documents, including the native agent), `webflow-mcp-server` (README) and `webflow-university-resources` (10 checklists and guides).
+[Issue 290](https://github.com/JFusco/brain/issues/290) adds the `cms/webflow` domain, its knowledge hub and navigation link, and the reference-only `webflow-docs` source (721 links, including the MCP section).
 
-Local evidence on 2026-11-01: `official sync` succeeded separately for each source with one index fetched for each collection. A first documentation sync also caught the changelog index page, so the exclusion was tightened and the source re-synced. Focused lookups returned the MCP Claude Code and documentation-server installation pages, Data API CMS item creation pages, the `safe-publish` skill and the University build-and-launch checklist. `check`, `official check`, `pnpm run verify:ci` and wiki integrity ran before delivery; the PR records their actual outcomes. No skill, agent, plugin or MCP server was installed or executed.
+The first candidate also registered `webflow-skills`, `webflow-mcp-server` and `webflow-university-resources`. Review found that bundling conflicts with the AGENTS.md rule that new sources need their own registration change, so a follow-up commit removed those three registrations, catalogs and lock entries. They remain recoverable from that first commit for their separate registration PRs.
+
+Local evidence on 2026-11-01: `official sync webflow-docs` succeeded with one index fetched. A first documentation sync also caught the changelog index page, so the exclusion was tightened and the source re-synced. Focused lookups returned the MCP Claude Code and documentation-server installation pages and the Data API CMS item creation pages. `check`, `official check`, `pnpm run verify:ci` and wiki integrity ran before delivery; the PR records their actual outcomes. No MCP server was installed or executed.
 
 See [Webflow coverage](../topics/webflow-coverage.md).

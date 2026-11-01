@@ -18,7 +18,7 @@
       "type": "index",
       "aliases": [],
       "githubRefs": [],
-      "bytes": 2526,
+      "bytes": 2532,
       "degree": 12,
       "x": 1,
       "y": 0,
@@ -2641,7 +2641,7 @@
     },
     {
       "id": "wiki/journal/2026-11-01-webflow-coverage.md",
-      "label": "Register Webflow documentation, MCP guidance and native skills",
+      "label": "Register the Webflow domain and developer documentation",
       "type": "journal",
       "aliases": [],
       "githubRefs": [
@@ -2652,7 +2652,7 @@
           "url": "https://github.com/jfusco/brain/issues/290"
         }
       ],
-      "bytes": 1147,
+      "bytes": 1270,
       "degree": 3,
       "x": -0.888446,
       "y": -0.458982,
@@ -4753,7 +4753,7 @@
           "url": "https://github.com/jfusco/brain/issues/290"
         }
       ],
-      "bytes": 2696,
+      "bytes": 2990,
       "degree": 4,
       "x": 0.996461,
       "y": -0.084051,
