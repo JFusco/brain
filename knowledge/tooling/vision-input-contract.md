@@ -6,7 +6,7 @@ aliases: ["full-page screenshot limits", "vision image detail", "screenshot tile
 evidence_date: "2026-10-29"
 reviewed_at: "2026-10-29"
 applicability: "Direct image inputs to documented OpenAI model/detail combinations and Claude API models; agent CLI preprocessing and unlisted models require separate verification"
-provenance: "openai-agent-docs@cee2f0d46de2ef567418e2145606d882f1f321e0396afedf8471b7e7200e319d; anthropic-agent-docs@6b03d984c6d9b39eea32a4854af96b6d26babd30d8940af6fd16901d2b8eafa1; official vision pages read 2026-10-29; proposed capture preparation, no model comparison"
+provenance: "openai-agent-docs@cee2f0d46de2ef567418e2145606d882f1f321e0396afedf8471b7e7200e319d; anthropic-agent-docs@6b03d984c6d9b39eea32a4854af96b6d26babd30d8940af6fd16901d2b8eafa1; official vision pages read 2026-10-29; Claude request and image limits rechecked 2026-11-01; proposed capture preparation, no model comparison"
 status: "current"
 versions: []
 ---
@@ -30,3 +30,12 @@ Use before sending tall full-page screenshots for text, layout or component-boun
 These are dated API documentation facts supporting an unexercised preparation workflow. The current Astra `high` dimension rule differs from older blanket 2,048-pixel advice. Claude's published downscaling/rejection distinction replaces uncertainty about ordinary image processing, but does not establish a CLI's behavior.
 
 No screenshots, model calls, tiling benchmark or accuracy comparison ran here. Historical private capture dimensions and illustrative scaling calculations are not application acceptance. Check current limits, formats, byte budgets and the selected provider before use.
+
+
+## Budget image requests separately from resolution
+
+**Documented, November 1, 2026:** the [Claude API error reference](https://platform.claude.com/docs/en/api/errors) gives first-party Messages requests a 128 MB maximum. The [vision guide](https://platform.claude.com/docs/en/build-with-claude/vision) limits base64 images to 10 MB each on the Claude API and Google-managed Claude Models on Google Cloud, and 5 MB on Amazon Bedrock. It permits 600 images per API request, or 100 on 200k-context models, with an 8000-by-8000 pixel maximum. Above 20 images, its cross-platform recommendation is no dimension above 3,000 pixels, or at most 20 blocks; resent and nested tool-result images count. Other platforms' total request limits need separate confirmation. The guide's later availability summary still groups Google-managed images under 5 MB; that internal conflict prevents treating 10 MB as unqualified cross-platform permission.
+
+**Proposed:** measure serialized request bytes including base64, prompt, schema and history. Reserve explicit overhead below the verified endpoint cap; an image allowance such as 118 MB with a 120 MB local refusal is a caller policy, not a vendor guarantee. Avoid both obsolete blanket caps and inferred CLI/provider limits. Keep token/context budgeting separate; cumulative multi-turn usage is not one request's occupancy. See [capacity diagnosis](review-capacity-recovery.md).
+
+No near-limit CLI request, partner-platform limit or image-heavy pilot was reproduced. Historical reports of an accepted larger batch and cumulative usage totals are deliberately not generalized as measured capacity or compatibility.

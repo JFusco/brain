@@ -14,7 +14,7 @@ aliases: ["accessibility", "a11y", "wcag", "wai-aria"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No curated notes yet.
+- [Connect disclosure controls to their panels](disclosure-control-targets.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
