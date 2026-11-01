@@ -635,6 +635,28 @@
       "fetchSuffix": ".md"
     },
     {
+      "id": "webflow-mcp-server",
+      "vendor": "webflow",
+      "domains": [
+        "cms/webflow"
+      ],
+      "kind": "repository",
+      "repository": "webflow/mcp-server",
+      "track": "default-branch",
+      "paths": [
+        {
+          "exact": "README.md"
+        },
+        {
+          "exact": "LICENCE"
+        }
+      ],
+      "license": "MIT; see LICENCE at the catalogued webflow/mcp-server commit",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official Webflow MCP server README at a pinned sync commit: remote (OAuth with the companion Designer app) and local (npx webflow-mcp-server with WEBFLOW_TOKEN and a self-published MCP Bridge App) setup, OAuth reset, troubleshooting and known limitations. Its remote client examples still show the older https://mcp.webflow.com/sse URL; the repository server.json and current developer documentation use the streamable HTTP endpoint https://mcp.webflow.com/mcp. Tool definitions exist only as TypeScript under src/tools/ and are not catalogued; use the webflow-docs MCP tools pages for the tool reference. Confirm the MCP client, server mode and Webflow token scopes. Reference-only: Brain does not install, configure or run the server or the bridge app."
+    },
+    {
       "id": "owasp-cheat-sheets",
       "vendor": "owasp",
       "domains": [
