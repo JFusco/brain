@@ -27,6 +27,8 @@ The `webflow-docs` catalog follows the [official sitemap](https://developers.web
 
 The developer changelog, the deprecated Data API v1 reference and the v2.0.0-beta reference are excluded. Lookup fetches the Markdown version that Webflow publishes for each page (the URL plus `.md`). These links are what the sitemap lists; they do not show that every page is discoverable or verified.
 
+The `webflow-university-resources` catalog follows the [Webflow University sitemap](https://university.webflow.com/sitemap.xml) but keeps only its `/resources/` pages: 10 links at registration (2026-11-01). Six are best-practice checklists (build and launch, design system, Optimize, Optimize for non-Webflow sites, reverse proxy and Localize) and four are role quick guides (content editor, designer, marketer and reviewer). Courses, course lessons, videos, the glossary, learning paths, assessments and certifications are product training, so they are excluded. The sitemap is served with an RSS content type, but the body is a standard sitemap. These checklists describe Designer and site-launch workflows rather than the developer API, so confirm the site plan and feature availability before you follow one.
+
 ### Official skills and native agent
 
 The `webflow-skills` source catalogs [`webflow/webflow-skills`](https://github.com/webflow/webflow-skills) (MIT) at a pinned commit, `fd07213dfaac2ff33465ff367685711783261287` at registration (2026-11-01). Selected paths:
@@ -48,13 +50,14 @@ Plugin manifests are recorded here as metadata only. They are JSON, so the catal
 
 The repository publishes no hook definitions: no hook files exist at the catalogued commit and no manifest declares hooks. The Antigravity manifest, MCP configuration files, contributor instructions (`AGENTS.md`, `CLAUDE.md`, `CONTRIBUTING.md`), CI workflow and logos are not selected. Third-party Webflow skill repositories are not registered.
 
-The official MCP server README (`webflow/mcp-server`, [#292](https://github.com/JFusco/brain/issues/292)) and the Webflow University best-practice checklists ([#293](https://github.com/JFusco/brain/issues/293)) each need their own registration change, so they are not searchable here yet.
+The official MCP server README (`webflow/mcp-server`, [#292](https://github.com/JFusco/brain/issues/292)) needs its own registration change, so it is not searchable here yet.
 
-These sources are reference only. Brain does not connect to a Webflow site, install or run the MCP server, or install or execute skills, plugins or the agent. Refresh them with `official sync webflow-docs` and `official sync webflow-skills`. Webflow's developer documentation asserts no open content license, so Brain stores only links and metadata, and focused retrieval keeps just a bounded excerpt.
+These sources are reference only. Brain does not connect to a Webflow site, install or run the MCP server, or install or execute skills, plugins or the agent. Refresh them with `official sync webflow-docs`, `official sync webflow-university-resources` and `official sync webflow-skills`. Neither the developer documentation nor Webflow University asserts an open content license, so Brain stores only links and metadata, and focused retrieval keeps just a bounded excerpt.
 
 ```sh
 node scripts/brain.mjs lookup --domain cms/webflow --query "mcp server claude code installing" --limit 3
 node scripts/brain.mjs lookup --domain cms/webflow --query "cms collection items create" --limit 3 --fetch
+node scripts/brain.mjs lookup --domain cms/webflow --query "build and launch checklist" --limit 3
 node scripts/brain.mjs lookup --domain cms/webflow --query "cms best practices" --limit 3
 node scripts/brain.mjs lookup --domain cms/webflow --query "safe publish" --limit 3
 node scripts/brain.mjs lookup --domain cms/webflow --query "webflow agent" --limit 3
@@ -71,6 +74,8 @@ No curated notes yet.
 
 - **webflow-docs** — link catalog of 721 pages; rolling-url; revision `8993bd8e62fa5454d16c31a939b86dd9d4117dc8fc5c535fee3b35f63836329c`; fetched 2026-11-01.
   - [Catalog source](https://developers.webflow.com/sitemap.xml); search it with `lookup --domain cms/webflow`.
+- **webflow-university-resources** — link catalog of 10 pages; rolling-url; revision `4a1a739c088dd682318c1747a830c2f84102a2e44e43c40c0a825748d5a5f992`; fetched 2026-11-01.
+  - [Catalog source](https://university.webflow.com/sitemap.xml); search it with `lookup --domain cms/webflow`.
 - **webflow-skills** — 33 skills and 27 docs at a pinned commit; default-branch; revision `fd07213dfaac2ff33465ff367685711783261287`; fetched 2026-11-01.
   - [accessibility-audit](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/accessibility-audit/SKILL.md) — reference only.
   - [asset-audit](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/asset-audit/SKILL.md) — reference only.

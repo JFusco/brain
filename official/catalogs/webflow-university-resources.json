@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "source": "webflow-university-resources",
+  "revision": "4a1a739c088dd682318c1747a830c2f84102a2e44e43c40c0a825748d5a5f992",
+  "origin": "https://university.webflow.com/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "checklists / build and launch checklist",
+      "url": "https://university.webflow.com/resources/checklists/build-and-launch-checklist",
+      "fetchUrl": "https://university.webflow.com/resources/checklists/build-and-launch-checklist"
+    },
+    {
+      "title": "checklists / design system checklist",
+      "url": "https://university.webflow.com/resources/checklists/design-system-checklist",
+      "fetchUrl": "https://university.webflow.com/resources/checklists/design-system-checklist"
+    },
+    {
+      "title": "checklists / optimize checklist",
+      "url": "https://university.webflow.com/resources/checklists/optimize-checklist",
+      "fetchUrl": "https://university.webflow.com/resources/checklists/optimize-checklist"
+    },
+    {
+      "title": "checklists / optimize checklist for non webflow sites",
+      "url": "https://university.webflow.com/resources/checklists/optimize-checklist-for-non-webflow-sites",
+      "fetchUrl": "https://university.webflow.com/resources/checklists/optimize-checklist-for-non-webflow-sites"
+    },
+    {
+      "title": "checklists / reverse proxy checklist",
+      "url": "https://university.webflow.com/resources/checklists/reverse-proxy-checklist",
+      "fetchUrl": "https://university.webflow.com/resources/checklists/reverse-proxy-checklist"
+    },
+    {
+      "title": "checklists / webflow localize checklist",
+      "url": "https://university.webflow.com/resources/checklists/webflow-localize-checklist",
+      "fetchUrl": "https://university.webflow.com/resources/checklists/webflow-localize-checklist"
+    },
+    {
+      "title": "guides / quick guide content editor role",
+      "url": "https://university.webflow.com/resources/guides/quick-guide-content-editor-role",
+      "fetchUrl": "https://university.webflow.com/resources/guides/quick-guide-content-editor-role"
+    },
+    {
+      "title": "guides / quick guide designer role",
+      "url": "https://university.webflow.com/resources/guides/quick-guide-designer-role",
+      "fetchUrl": "https://university.webflow.com/resources/guides/quick-guide-designer-role"
+    },
+    {
+      "title": "guides / quick guide marketer role",
+      "url": "https://university.webflow.com/resources/guides/quick-guide-marketer-role",
+      "fetchUrl": "https://university.webflow.com/resources/guides/quick-guide-marketer-role"
+    },
+    {
+      "title": "guides / quick guide reviewer role",
+      "url": "https://university.webflow.com/resources/guides/quick-guide-reviewer-role",
+      "fetchUrl": "https://university.webflow.com/resources/guides/quick-guide-reviewer-role"
+    }
+  ],
+  "referenceIssues": []
+}
