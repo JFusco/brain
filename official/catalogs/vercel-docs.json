@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "557fb384f6ab2db45a9745c4d3f94d2f40526f6224110055d9947fc9a66f669b",
+  "revision": "828b3889816a222bb0457d647a414f0f23043d0a3549034620e65c906dac60e4",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -4035,6 +4035,26 @@
       "title": "Frameworks on Vercel",
       "url": "https://vercel.com/docs/frameworks",
       "fetchUrl": "https://vercel.com/docs/frameworks.md"
+    },
+    {
+      "title": "Agent Frameworks on Vercel",
+      "url": "https://vercel.com/docs/frameworks/agents",
+      "fetchUrl": "https://vercel.com/docs/frameworks/agents.md"
+    },
+    {
+      "title": "eve on Vercel",
+      "url": "https://vercel.com/docs/frameworks/agents/eve",
+      "fetchUrl": "https://vercel.com/docs/frameworks/agents/eve.md"
+    },
+    {
+      "title": "Flue with Vercel",
+      "url": "https://vercel.com/docs/frameworks/agents/flue",
+      "fetchUrl": "https://vercel.com/docs/frameworks/agents/flue.md"
+    },
+    {
+      "title": "Mastra on Vercel",
+      "url": "https://vercel.com/docs/frameworks/agents/mastra",
+      "fetchUrl": "https://vercel.com/docs/frameworks/agents/mastra.md"
     },
     {
       "title": "Backends on Vercel",

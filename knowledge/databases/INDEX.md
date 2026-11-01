@@ -32,7 +32,7 @@ No curated notes yet.
 
 - **postgresql-18-docs** — link catalog of 117 pages; rolling-url; revision `47a8f7958b6b19e6607b2b546a5f043d0afc84dbf0d1e4ccbad18362331c957d`; fetched 2026-10-28.
   - [Catalog source](https://www.postgresql.org/docs/18/index.html); search it with `lookup --domain databases`.
-- **supabase-docs** — link catalog of 511 pages; rolling-url; revision `406794201a6186ce6cd1515f1fff93dd87069b5c144de0bd327ecd3729687460`; fetched 2026-10-30.
+- **supabase-docs** — link catalog of 512 pages; rolling-url; revision `cc2d3c658ce214bc98d3139b510068c03f8e7076d6b43b4521a90f677cc2c77e`; fetched 2026-11-01.
   - [Catalog source](https://supabase.com/docs/sitemap.xml); search it with `lookup --domain databases`.
 - **supabase-agent-skills** — 2 skills and 39 docs at a pinned commit; default-branch; revision `c9be0e931b7930f7d02126d04774d904c381e7d7`; fetched 2026-10-28.
   - [supabase](https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/SKILL.md) — reference only.
