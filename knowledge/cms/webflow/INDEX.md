@@ -27,7 +27,7 @@ The `webflow-docs` catalog follows the [official sitemap](https://developers.web
 
 The developer changelog, the deprecated Data API v1 reference and the v2.0.0-beta reference are excluded. Lookup fetches the Markdown version that Webflow publishes for each page (the URL plus `.md`). These links are what the sitemap lists; they do not show that every page is discoverable or verified.
 
-The official skills and native agent (`webflow/webflow-skills`), the official MCP server README (`webflow/mcp-server`) and the Webflow University best-practice checklists each need their own registration change, so they are not searchable here yet. No official Webflow hook definitions were found in `webflow/webflow-skills` or `webflow/mcp-server`.
+The official skills and native agent (`webflow/webflow-skills`, [#291](https://github.com/JFusco/brain/issues/291)), the official MCP server README (`webflow/mcp-server`, [#292](https://github.com/JFusco/brain/issues/292)) and the Webflow University best-practice checklists ([#293](https://github.com/JFusco/brain/issues/293)) each need their own registration change, so they are not searchable here yet. No official Webflow hook definitions were found in `webflow/webflow-skills` or `webflow/mcp-server`.
 
 This source is reference only. Brain does not connect to a Webflow site or install or run the MCP server. Refresh it with `official sync webflow-docs`. Webflow's developer documentation asserts no open content license, so Brain stores only links and metadata, and focused retrieval keeps just a bounded excerpt.
 
