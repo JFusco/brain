@@ -635,6 +635,28 @@
       "fetchSuffix": ".md"
     },
     {
+      "id": "webflow-university-resources",
+      "vendor": "webflow",
+      "domains": [
+        "cms/webflow"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://university.webflow.com/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "university.webflow.com"
+      ],
+      "includePrefixes": [
+        "/resources/"
+      ],
+      "maxPages": 100,
+      "maxIndexes": 1,
+      "license": "Webflow University content under upstream terms; links and metadata only, no open license asserted",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official Webflow University best-practice checklists (build and launch, design system, Optimize, reverse proxy, Localize) and role quick guides. Excludes courses, lessons, videos, glossary, assessments and certifications. Product-workflow guidance; confirm plan and feature availability. Not developer API reference."
+    },
+    {
       "id": "webflow-mcp-server",
       "vendor": "webflow",
       "domains": [

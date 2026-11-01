@@ -145,6 +145,12 @@
       "track": "rolling-url",
       "catalogSha256": "18b675246d547ea69faa3c910e26350c7db6af4fbe8715aa634b1b69d342a33b"
     },
+    "webflow-university-resources": {
+      "revision": "4a1a739c088dd682318c1747a830c2f84102a2e44e43c40c0a825748d5a5f992",
+      "fetchedAt": "2026-11-01T15:40:30.924Z",
+      "track": "rolling-url",
+      "catalogSha256": "481740899805e60697dfcd22a5a2926e96d2b2aba3948fa6bf84fbd867ff8b8c"
+    },
     "webflow-mcp-server": {
       "revision": "124b5caa38baf46ab51edea9220076c9785ceaf7",
       "fetchedAt": "2026-11-01T15:48:26.287Z",

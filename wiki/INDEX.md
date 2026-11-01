@@ -11,7 +11,7 @@ This wiki is the durable project record for decisions, executed plans, and subst
 - [Database coverage](./topics/database-coverage.md) — database architecture, operations, security and official skills.
 - [Official reference expansion](./topics/official-reference-expansion.md) — bounded browser, internationalization, testing, security and performance sources.
 - [WordPress coverage](./topics/wordpress-coverage.md) — official developer handbooks and reference-only agent skills.
-- [Webflow coverage](./topics/webflow-coverage.md) — official developer documentation, MCP guidance and the MCP server README; skills and University register separately.
+- [Webflow coverage](./topics/webflow-coverage.md) — official developer documentation, MCP guidance, Webflow University checklists and the MCP server README; skills register separately.
 - [CMS field vocabulary](./topics/cms-field-vocabulary.md) — pinned field facts, explicit profiles and advisory release detection.
 - [UI pattern vocabulary](./topics/ui-pattern-vocabulary.md) — optional component naming and guidance, with shared package release detection.
 - [Opt-in Brain skill](./topics/brain-skill.md) — use Brain from Claude Code, Codex and Cursor without loading it into every session.
