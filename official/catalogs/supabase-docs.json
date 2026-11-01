@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "supabase-docs",
-  "revision": "406794201a6186ce6cd1515f1fff93dd87069b5c144de0bd327ecd3729687460",
+  "revision": "cc2d3c658ce214bc98d3139b510068c03f8e7076d6b43b4521a90f677cc2c77e",
   "origin": "https://supabase.com/docs/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -2050,6 +2050,11 @@
       "title": "sso / testing best practices",
       "url": "https://supabase.com/docs/guides/platform/sso/testing-best-practices",
       "fetchUrl": "https://supabase.com/docs/guides/platform/sso/testing-best-practices.md"
+    },
+    {
+      "title": "platform / team database access",
+      "url": "https://supabase.com/docs/guides/platform/team-database-access",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/team-database-access.md"
     },
     {
       "title": "platform / temporary access",

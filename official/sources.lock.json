@@ -26,10 +26,10 @@
       "catalogSha256": "6655a2dd7781116d9f8ec0adf8bb4369531f3c86d3bbc6736eb8498223a6e534"
     },
     "contentful-skills": {
-      "revision": "bedd47cf902af65ccf89d76e2508a81c5dbd4142",
-      "fetchedAt": "2026-10-30T23:31:45.787Z",
+      "revision": "8fc4acbc5fb9c180930ec4ea78be387acfacfe75",
+      "fetchedAt": "2026-11-01T00:18:16.940Z",
       "track": "default-branch",
-      "catalogSha256": "ce249b5a89808401ed3942dd29534137bfbba6bc5abe36ba32e56d206cdb9747"
+      "catalogSha256": "9ec036ef65e8061afe1f6c0098e80220f81bc01a34d840787212d2a1a1157b6f"
     },
     "optimizely-sdk": {
       "revision": "2fc3f855f1653c9d528d42daee6f93f6793a38b4",
@@ -50,10 +50,10 @@
       "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "557fb384f6ab2db45a9745c4d3f94d2f40526f6224110055d9947fc9a66f669b",
-      "fetchedAt": "2026-10-30T23:31:53.968Z",
+      "revision": "828b3889816a222bb0457d647a414f0f23043d0a3549034620e65c906dac60e4",
+      "fetchedAt": "2026-11-01T00:18:24.321Z",
       "track": "rolling-url",
-      "catalogSha256": "e9dd792f96761d98efbbf5e6e1282802c1d903d95b7d6d011ef892784884803c"
+      "catalogSha256": "8d2bfa7a96b3fbd2b19f96786529cba8f1a1ba0262a664549e50c8e60343cf61"
     },
     "contentstack-docs": {
       "revision": "0558dd65b815d71cf97780373268df2174fdf38f4431fd64dc63bebf4285f257",
@@ -278,10 +278,10 @@
       "catalogSha256": "452c821571d6053dea2aa8c2b7e0368ca0fa846385dd33b6ee6a2461422e92f4"
     },
     "agent-browser-skills": {
-      "revision": "28898e4cc2d3ee47c7080ab653b4ad29340cef57",
-      "fetchedAt": "2026-10-30T23:32:57.201Z",
+      "revision": "5868f7c05020e047c00e68e4abf9253cce864f41",
+      "fetchedAt": "2026-11-01T00:19:38.740Z",
       "track": "default-branch",
-      "catalogSha256": "c481f76b8528451777f1b7360bdbd11f85d094854b751ed84b7709ff5b934646"
+      "catalogSha256": "737089d63a0a5ce0acc0027a37db20bf6128f2636fc4357fa938d1325e59f489"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
@@ -320,10 +320,10 @@
       "catalogSha256": "a0408617bbe6bead6b8f9943f135c92980b118842db7db25d03358521ced3c70"
     },
     "supabase-docs": {
-      "revision": "406794201a6186ce6cd1515f1fff93dd87069b5c144de0bd327ecd3729687460",
-      "fetchedAt": "2026-10-30T23:33:05.985Z",
+      "revision": "cc2d3c658ce214bc98d3139b510068c03f8e7076d6b43b4521a90f677cc2c77e",
+      "fetchedAt": "2026-11-01T00:19:46.865Z",
       "track": "rolling-url",
-      "catalogSha256": "e0ab0fb76b306e9ecfc51323440fc54d92f65490ef8312bf3db609168108c10a"
+      "catalogSha256": "9d73b3cdeba3a2e24700464d0b8ba0ed4613c51abc3605b2ead845a47aee2fe6"
     },
     "supabase-agent-skills": {
       "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",
