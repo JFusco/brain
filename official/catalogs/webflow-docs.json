@@ -1,0 +1,3616 @@
+{
+  "schemaVersion": 1,
+  "source": "webflow-docs",
+  "revision": "8993bd8e62fa5454d16c31a939b86dd9d4117dc8fc5c535fee3b35f63836329c",
+  "origin": "https://developers.webflow.com/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "browser / custom goals",
+      "url": "https://developers.webflow.com/browser/custom-goals",
+      "fetchUrl": "https://developers.webflow.com/browser/custom-goals.md"
+    },
+    {
+      "title": "custom goals / off site conversions",
+      "url": "https://developers.webflow.com/browser/custom-goals/off-site-conversions",
+      "fetchUrl": "https://developers.webflow.com/browser/custom-goals/off-site-conversions.md"
+    },
+    {
+      "title": "off site conversions / server api",
+      "url": "https://developers.webflow.com/browser/custom-goals/off-site-conversions/server-api",
+      "fetchUrl": "https://developers.webflow.com/browser/custom-goals/off-site-conversions/server-api.md"
+    },
+    {
+      "title": "off site conversions / setUserId",
+      "url": "https://developers.webflow.com/browser/custom-goals/off-site-conversions/setUserId",
+      "fetchUrl": "https://developers.webflow.com/browser/custom-goals/off-site-conversions/setUserId.md"
+    },
+    {
+      "title": "custom goals / on site conversions",
+      "url": "https://developers.webflow.com/browser/custom-goals/on-site-conversions",
+      "fetchUrl": "https://developers.webflow.com/browser/custom-goals/on-site-conversions.md"
+    },
+    {
+      "title": "on site conversions / sendEvent",
+      "url": "https://developers.webflow.com/browser/custom-goals/on-site-conversions/sendEvent",
+      "fetchUrl": "https://developers.webflow.com/browser/custom-goals/on-site-conversions/sendEvent.md"
+    },
+    {
+      "title": "browser / data exports",
+      "url": "https://developers.webflow.com/browser/data-exports",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports.md"
+    },
+    {
+      "title": "data exports / data schema",
+      "url": "https://developers.webflow.com/browser/data-exports/data-schema",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/data-schema.md"
+    },
+    {
+      "title": "data exports / destinations",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations.md"
+    },
+    {
+      "title": "destinations / athena",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/athena",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/athena.md"
+    },
+    {
+      "title": "destinations / aurora mysql",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/aurora-mysql",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/aurora-mysql.md"
+    },
+    {
+      "title": "destinations / aurora postgres",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/aurora-postgres",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/aurora-postgres.md"
+    },
+    {
+      "title": "destinations / azure blob storage",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/azure-blob-storage",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/azure-blob-storage.md"
+    },
+    {
+      "title": "destinations / bigquery",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/bigquery",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/bigquery.md"
+    },
+    {
+      "title": "destinations / clickhouse",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/clickhouse",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/clickhouse.md"
+    },
+    {
+      "title": "destinations / databricks",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/databricks",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/databricks.md"
+    },
+    {
+      "title": "destinations / delta lake",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/delta-lake",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/delta-lake.md"
+    },
+    {
+      "title": "destinations / google cloud storage",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/google-cloud-storage",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/google-cloud-storage.md"
+    },
+    {
+      "title": "destinations / google sheets",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/google-sheets",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/google-sheets.md"
+    },
+    {
+      "title": "destinations / mongodb",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/mongodb",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/mongodb.md"
+    },
+    {
+      "title": "destinations / mysql",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/mysql",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/mysql.md"
+    },
+    {
+      "title": "destinations / postgres",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/postgres",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/postgres.md"
+    },
+    {
+      "title": "destinations / redshift",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/redshift",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/redshift.md"
+    },
+    {
+      "title": "destinations / redshift serverless",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/redshift-serverless",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/redshift-serverless.md"
+    },
+    {
+      "title": "destinations / s3",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/s3",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/s3.md"
+    },
+    {
+      "title": "destinations / s3 compatible",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/s3-compatible",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/s3-compatible.md"
+    },
+    {
+      "title": "destinations / sftp",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/sftp",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/sftp.md"
+    },
+    {
+      "title": "destinations / snowflake",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/snowflake",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/snowflake.md"
+    },
+    {
+      "title": "destinations / sql server",
+      "url": "https://developers.webflow.com/browser/data-exports/destinations/sql-server",
+      "fetchUrl": "https://developers.webflow.com/browser/data-exports/destinations/sql-server.md"
+    },
+    {
+      "title": "browser / introduction",
+      "url": "https://developers.webflow.com/browser/introduction",
+      "fetchUrl": "https://developers.webflow.com/browser/introduction.md"
+    },
+    {
+      "title": "optimize / attributes",
+      "url": "https://developers.webflow.com/browser/optimize/attributes",
+      "fetchUrl": "https://developers.webflow.com/browser/optimize/attributes.md"
+    },
+    {
+      "title": "optimize / deleteAllAttributes",
+      "url": "https://developers.webflow.com/browser/optimize/deleteAllAttributes",
+      "fetchUrl": "https://developers.webflow.com/browser/optimize/deleteAllAttributes.md"
+    },
+    {
+      "title": "optimize / deleteAttributes",
+      "url": "https://developers.webflow.com/browser/optimize/deleteAttributes",
+      "fetchUrl": "https://developers.webflow.com/browser/optimize/deleteAttributes.md"
+    },
+    {
+      "title": "optimize / getAllAttributes",
+      "url": "https://developers.webflow.com/browser/optimize/getAllAttributes",
+      "fetchUrl": "https://developers.webflow.com/browser/optimize/getAllAttributes.md"
+    },
+    {
+      "title": "optimize / getAttributes",
+      "url": "https://developers.webflow.com/browser/optimize/getAttributes",
+      "fetchUrl": "https://developers.webflow.com/browser/optimize/getAttributes.md"
+    },
+    {
+      "title": "optimize / introduction",
+      "url": "https://developers.webflow.com/browser/optimize/introduction",
+      "fetchUrl": "https://developers.webflow.com/browser/optimize/introduction.md"
+    },
+    {
+      "title": "optimize / onVariationRecorded",
+      "url": "https://developers.webflow.com/browser/optimize/onVariationRecorded",
+      "fetchUrl": "https://developers.webflow.com/browser/optimize/onVariationRecorded.md"
+    },
+    {
+      "title": "optimize / quickstart",
+      "url": "https://developers.webflow.com/browser/optimize/quickstart",
+      "fetchUrl": "https://developers.webflow.com/browser/optimize/quickstart.md"
+    },
+    {
+      "title": "optimize / setAttributes",
+      "url": "https://developers.webflow.com/browser/optimize/setAttributes",
+      "fetchUrl": "https://developers.webflow.com/browser/optimize/setAttributes.md"
+    },
+    {
+      "title": "optimize / variations",
+      "url": "https://developers.webflow.com/browser/optimize/variations",
+      "fetchUrl": "https://developers.webflow.com/browser/optimize/variations.md"
+    },
+    {
+      "title": "reference / allow user tracking",
+      "url": "https://developers.webflow.com/browser/reference/allow-user-tracking",
+      "fetchUrl": "https://developers.webflow.com/browser/reference/allow-user-tracking.md"
+    },
+    {
+      "title": "reference / consent management",
+      "url": "https://developers.webflow.com/browser/reference/consent-management",
+      "fetchUrl": "https://developers.webflow.com/browser/reference/consent-management.md"
+    },
+    {
+      "title": "reference / deny user tracking",
+      "url": "https://developers.webflow.com/browser/reference/deny-user-tracking",
+      "fetchUrl": "https://developers.webflow.com/browser/reference/deny-user-tracking.md"
+    },
+    {
+      "title": "reference / get user tracking choice",
+      "url": "https://developers.webflow.com/browser/reference/get-user-tracking-choice",
+      "fetchUrl": "https://developers.webflow.com/browser/reference/get-user-tracking-choice.md"
+    },
+    {
+      "title": "reference / wf ready",
+      "url": "https://developers.webflow.com/browser/reference/wf-ready",
+      "fetchUrl": "https://developers.webflow.com/browser/reference/wf-ready.md"
+    },
+    {
+      "title": "cli / agent workflows",
+      "url": "https://developers.webflow.com/cli/agent-workflows",
+      "fetchUrl": "https://developers.webflow.com/cli/agent-workflows.md"
+    },
+    {
+      "title": "cli / authentication",
+      "url": "https://developers.webflow.com/cli/authentication",
+      "fetchUrl": "https://developers.webflow.com/cli/authentication.md"
+    },
+    {
+      "title": "cli / command reference",
+      "url": "https://developers.webflow.com/cli/command-reference",
+      "fetchUrl": "https://developers.webflow.com/cli/command-reference.md"
+    },
+    {
+      "title": "cli / configuration",
+      "url": "https://developers.webflow.com/cli/configuration",
+      "fetchUrl": "https://developers.webflow.com/cli/configuration.md"
+    },
+    {
+      "title": "cli / migration",
+      "url": "https://developers.webflow.com/cli/migration",
+      "fetchUrl": "https://developers.webflow.com/cli/migration.md"
+    },
+    {
+      "title": "reference / webflow cli",
+      "url": "https://developers.webflow.com/cli/reference/webflow-cli",
+      "fetchUrl": "https://developers.webflow.com/cli/reference/webflow-cli.md"
+    },
+    {
+      "title": "code components / bundling and import",
+      "url": "https://developers.webflow.com/code-components/bundling-and-import",
+      "fetchUrl": "https://developers.webflow.com/code-components/bundling-and-import.md"
+    },
+    {
+      "title": "code components / component architecture",
+      "url": "https://developers.webflow.com/code-components/component-architecture",
+      "fetchUrl": "https://developers.webflow.com/code-components/component-architecture.md"
+    },
+    {
+      "title": "code components / define code component",
+      "url": "https://developers.webflow.com/code-components/define-code-component",
+      "fetchUrl": "https://developers.webflow.com/code-components/define-code-component.md"
+    },
+    {
+      "title": "code components / faqs",
+      "url": "https://developers.webflow.com/code-components/faqs",
+      "fetchUrl": "https://developers.webflow.com/code-components/faqs.md"
+    },
+    {
+      "title": "code components / frameworks and libraries",
+      "url": "https://developers.webflow.com/code-components/frameworks-and-libraries",
+      "fetchUrl": "https://developers.webflow.com/code-components/frameworks-and-libraries.md"
+    },
+    {
+      "title": "generating / quick start",
+      "url": "https://developers.webflow.com/code-components/generating/quick-start",
+      "fetchUrl": "https://developers.webflow.com/code-components/generating/quick-start.md"
+    },
+    {
+      "title": "importing / quick start",
+      "url": "https://developers.webflow.com/code-components/importing/quick-start",
+      "fetchUrl": "https://developers.webflow.com/code-components/importing/quick-start.md"
+    },
+    {
+      "title": "code components / installation",
+      "url": "https://developers.webflow.com/code-components/installation",
+      "fetchUrl": "https://developers.webflow.com/code-components/installation.md"
+    },
+    {
+      "title": "code components / introduction",
+      "url": "https://developers.webflow.com/code-components/introduction",
+      "fetchUrl": "https://developers.webflow.com/code-components/introduction.md"
+    },
+    {
+      "title": "reference / cli",
+      "url": "https://developers.webflow.com/code-components/reference/cli",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/cli.md"
+    },
+    {
+      "title": "hooks / declareComponent",
+      "url": "https://developers.webflow.com/code-components/reference/hooks/declareComponent",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/hooks/declareComponent.md"
+    },
+    {
+      "title": "hooks / isEmptySlot",
+      "url": "https://developers.webflow.com/code-components/reference/hooks/isEmptySlot",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/hooks/isEmptySlot.md"
+    },
+    {
+      "title": "hooks / useWebflowContext",
+      "url": "https://developers.webflow.com/code-components/reference/hooks/useWebflowContext",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/hooks/useWebflowContext.md"
+    },
+    {
+      "title": "reference / prop types",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types.md"
+    },
+    {
+      "title": "prop types / boolean",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/boolean",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/boolean.md"
+    },
+    {
+      "title": "prop types / id",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/id",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/id.md"
+    },
+    {
+      "title": "prop types / image",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/image",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/image.md"
+    },
+    {
+      "title": "prop types / link",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/link",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/link.md"
+    },
+    {
+      "title": "prop types / number",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/number",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/number.md"
+    },
+    {
+      "title": "prop types / rich text",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/rich-text",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/rich-text.md"
+    },
+    {
+      "title": "prop types / slot",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/slot",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/slot.md"
+    },
+    {
+      "title": "prop types / text",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/text",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/text.md"
+    },
+    {
+      "title": "prop types / text node",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/text-node",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/text-node.md"
+    },
+    {
+      "title": "prop types / variant",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/variant",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/variant.md"
+    },
+    {
+      "title": "prop types / visibility",
+      "url": "https://developers.webflow.com/code-components/reference/prop-types/visibility",
+      "fetchUrl": "https://developers.webflow.com/code-components/reference/prop-types/visibility.md"
+    },
+    {
+      "title": "code components / styling components",
+      "url": "https://developers.webflow.com/code-components/styling-components",
+      "fetchUrl": "https://developers.webflow.com/code-components/styling-components.md"
+    },
+    {
+      "title": "code components / webpack configuration overrides",
+      "url": "https://developers.webflow.com/code-components/webpack-configuration-overrides",
+      "fetchUrl": "https://developers.webflow.com/code-components/webpack-configuration-overrides.md"
+    },
+    {
+      "title": "data / developer terms of service",
+      "url": "https://developers.webflow.com/data/developer-terms-of-service",
+      "fetchUrl": "https://developers.webflow.com/data/developer-terms-of-service.md"
+    },
+    {
+      "title": "docs / ai tools",
+      "url": "https://developers.webflow.com/data/docs/ai-tools",
+      "fetchUrl": "https://developers.webflow.com/data/docs/ai-tools.md"
+    },
+    {
+      "title": "docs / custom code preview mode",
+      "url": "https://developers.webflow.com/data/docs/custom-code-preview-mode",
+      "fetchUrl": "https://developers.webflow.com/data/docs/custom-code-preview-mode.md"
+    },
+    {
+      "title": "docs / data clients",
+      "url": "https://developers.webflow.com/data/docs/data-clients",
+      "fetchUrl": "https://developers.webflow.com/data/docs/data-clients.md"
+    },
+    {
+      "title": "docs / developer workspace",
+      "url": "https://developers.webflow.com/data/docs/developer-workspace",
+      "fetchUrl": "https://developers.webflow.com/data/docs/developer-workspace.md"
+    },
+    {
+      "title": "docs / migrating to v2",
+      "url": "https://developers.webflow.com/data/docs/migrating-to-v2",
+      "fetchUrl": "https://developers.webflow.com/data/docs/migrating-to-v2.md"
+    },
+    {
+      "title": "docs / register an app",
+      "url": "https://developers.webflow.com/data/docs/register-an-app",
+      "fetchUrl": "https://developers.webflow.com/data/docs/register-an-app.md"
+    },
+    {
+      "title": "docs / webflow v1 api deprecation notice",
+      "url": "https://developers.webflow.com/data/docs/webflow-v1-api-deprecation-notice",
+      "fetchUrl": "https://developers.webflow.com/data/docs/webflow-v1-api-deprecation-notice.md"
+    },
+    {
+      "title": "docs / working with aeo analytics",
+      "url": "https://developers.webflow.com/data/docs/working-with-aeo-analytics",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-aeo-analytics.md"
+    },
+    {
+      "title": "docs / working with analyze",
+      "url": "https://developers.webflow.com/data/docs/working-with-analyze",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-analyze.md"
+    },
+    {
+      "title": "docs / working with assets",
+      "url": "https://developers.webflow.com/data/docs/working-with-assets",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-assets.md"
+    },
+    {
+      "title": "docs / working with custom code",
+      "url": "https://developers.webflow.com/data/docs/working-with-custom-code",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-custom-code.md"
+    },
+    {
+      "title": "docs / working with localization",
+      "url": "https://developers.webflow.com/data/docs/working-with-localization",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-localization.md"
+    },
+    {
+      "title": "working with localization / localize components",
+      "url": "https://developers.webflow.com/data/docs/working-with-localization/localize-components",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-localization/localize-components.md"
+    },
+    {
+      "title": "working with localization / localize pages",
+      "url": "https://developers.webflow.com/data/docs/working-with-localization/localize-pages",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-localization/localize-pages.md"
+    },
+    {
+      "title": "docs / working with optimize",
+      "url": "https://developers.webflow.com/data/docs/working-with-optimize",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-optimize.md"
+    },
+    {
+      "title": "working with the cms / components in rich text",
+      "url": "https://developers.webflow.com/data/docs/working-with-the-cms/components-in-rich-text",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-the-cms/components-in-rich-text.md"
+    },
+    {
+      "title": "working with the cms / content delivery",
+      "url": "https://developers.webflow.com/data/docs/working-with-the-cms/content-delivery",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-the-cms/content-delivery.md"
+    },
+    {
+      "title": "working with the cms / create items",
+      "url": "https://developers.webflow.com/data/docs/working-with-the-cms/create-items",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-the-cms/create-items.md"
+    },
+    {
+      "title": "working with the cms / localization",
+      "url": "https://developers.webflow.com/data/docs/working-with-the-cms/localization",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-the-cms/localization.md"
+    },
+    {
+      "title": "working with the cms / manage collections and items",
+      "url": "https://developers.webflow.com/data/docs/working-with-the-cms/manage-collections-and-items",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-the-cms/manage-collections-and-items.md"
+    },
+    {
+      "title": "working with the cms / publishing",
+      "url": "https://developers.webflow.com/data/docs/working-with-the-cms/publishing",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-the-cms/publishing.md"
+    },
+    {
+      "title": "docs / working with webhooks",
+      "url": "https://developers.webflow.com/data/docs/working-with-webhooks",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-webhooks.md"
+    },
+    {
+      "title": "data / examples",
+      "url": "https://developers.webflow.com/data/examples",
+      "fetchUrl": "https://developers.webflow.com/data/examples.md"
+    },
+    {
+      "title": "data / reference",
+      "url": "https://developers.webflow.com/data/reference",
+      "fetchUrl": "https://developers.webflow.com/data/reference.md"
+    },
+    {
+      "title": "aeo analytics / get bot traffic",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/get-bot-traffic",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/get-bot-traffic.md"
+    },
+    {
+      "title": "aeo analytics / get bot traffic by page",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/get-bot-traffic-by-page",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/get-bot-traffic-by-page.md"
+    },
+    {
+      "title": "aeo analytics / get citation rate",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/get-citation-rate",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/get-citation-rate.md"
+    },
+    {
+      "title": "aeo analytics / get cited paths for a domain",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/get-cited-paths-for-a-domain",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/get-cited-paths-for-a-domain.md"
+    },
+    {
+      "title": "aeo analytics / get page citation share",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/get-page-citation-share",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/get-page-citation-share.md"
+    },
+    {
+      "title": "aeo analytics / get prompt execution",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/get-prompt-execution",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/get-prompt-execution.md"
+    },
+    {
+      "title": "aeo analytics / get top cited domains",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/get-top-cited-domains",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/get-top-cited-domains.md"
+    },
+    {
+      "title": "aeo analytics / get visibility score",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/get-visibility-score",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/get-visibility-score.md"
+    },
+    {
+      "title": "aeo analytics / get visibility score breakdown",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/get-visibility-score-breakdown",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/get-visibility-score-breakdown.md"
+    },
+    {
+      "title": "aeo analytics / list citations",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/list-citations",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/list-citations.md"
+    },
+    {
+      "title": "aeo analytics / list competitor citations",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/list-competitor-citations",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/list-competitor-citations.md"
+    },
+    {
+      "title": "aeo analytics / list prompt executions",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/list-prompt-executions",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/list-prompt-executions.md"
+    },
+    {
+      "title": "aeo analytics / list prompts",
+      "url": "https://developers.webflow.com/data/reference/aeo-analytics/list-prompts",
+      "fetchUrl": "https://developers.webflow.com/data/reference/aeo-analytics/list-prompts.md"
+    },
+    {
+      "title": "reference / all events",
+      "url": "https://developers.webflow.com/data/reference/all-events",
+      "fetchUrl": "https://developers.webflow.com/data/reference/all-events.md"
+    },
+    {
+      "title": "analyze / browser window height",
+      "url": "https://developers.webflow.com/data/reference/analyze/browser-window-height",
+      "fetchUrl": "https://developers.webflow.com/data/reference/analyze/browser-window-height.md"
+    },
+    {
+      "title": "analyze / goal performance",
+      "url": "https://developers.webflow.com/data/reference/analyze/goal-performance",
+      "fetchUrl": "https://developers.webflow.com/data/reference/analyze/goal-performance.md"
+    },
+    {
+      "title": "analyze / list goals",
+      "url": "https://developers.webflow.com/data/reference/analyze/list-goals",
+      "fetchUrl": "https://developers.webflow.com/data/reference/analyze/list-goals.md"
+    },
+    {
+      "title": "analyze / page flow",
+      "url": "https://developers.webflow.com/data/reference/analyze/page-flow",
+      "fetchUrl": "https://developers.webflow.com/data/reference/analyze/page-flow.md"
+    },
+    {
+      "title": "analyze / scroll depth",
+      "url": "https://developers.webflow.com/data/reference/analyze/scroll-depth",
+      "fetchUrl": "https://developers.webflow.com/data/reference/analyze/scroll-depth.md"
+    },
+    {
+      "title": "analyze / time on page",
+      "url": "https://developers.webflow.com/data/reference/analyze/time-on-page",
+      "fetchUrl": "https://developers.webflow.com/data/reference/analyze/time-on-page.md"
+    },
+    {
+      "title": "analyze / top dimensions",
+      "url": "https://developers.webflow.com/data/reference/analyze/top-dimensions",
+      "fetchUrl": "https://developers.webflow.com/data/reference/analyze/top-dimensions.md"
+    },
+    {
+      "title": "analyze / top events",
+      "url": "https://developers.webflow.com/data/reference/analyze/top-events",
+      "fetchUrl": "https://developers.webflow.com/data/reference/analyze/top-events.md"
+    },
+    {
+      "title": "analyze / top pages",
+      "url": "https://developers.webflow.com/data/reference/analyze/top-pages",
+      "fetchUrl": "https://developers.webflow.com/data/reference/analyze/top-pages.md"
+    },
+    {
+      "title": "analyze / traffic",
+      "url": "https://developers.webflow.com/data/reference/analyze/traffic",
+      "fetchUrl": "https://developers.webflow.com/data/reference/analyze/traffic.md"
+    },
+    {
+      "title": "asset folders / create folder",
+      "url": "https://developers.webflow.com/data/reference/assets/asset-folders/create-folder",
+      "fetchUrl": "https://developers.webflow.com/data/reference/assets/asset-folders/create-folder.md"
+    },
+    {
+      "title": "asset folders / get folder",
+      "url": "https://developers.webflow.com/data/reference/assets/asset-folders/get-folder",
+      "fetchUrl": "https://developers.webflow.com/data/reference/assets/asset-folders/get-folder.md"
+    },
+    {
+      "title": "asset folders / list folders",
+      "url": "https://developers.webflow.com/data/reference/assets/asset-folders/list-folders",
+      "fetchUrl": "https://developers.webflow.com/data/reference/assets/asset-folders/list-folders.md"
+    },
+    {
+      "title": "assets / create",
+      "url": "https://developers.webflow.com/data/reference/assets/assets/create",
+      "fetchUrl": "https://developers.webflow.com/data/reference/assets/assets/create.md"
+    },
+    {
+      "title": "assets / delete",
+      "url": "https://developers.webflow.com/data/reference/assets/assets/delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/assets/assets/delete.md"
+    },
+    {
+      "title": "assets / get",
+      "url": "https://developers.webflow.com/data/reference/assets/assets/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/assets/assets/get.md"
+    },
+    {
+      "title": "assets / list",
+      "url": "https://developers.webflow.com/data/reference/assets/assets/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/assets/assets/list.md"
+    },
+    {
+      "title": "assets / update",
+      "url": "https://developers.webflow.com/data/reference/assets/assets/update",
+      "fetchUrl": "https://developers.webflow.com/data/reference/assets/assets/update.md"
+    },
+    {
+      "title": "reference / authentication",
+      "url": "https://developers.webflow.com/data/reference/authentication",
+      "fetchUrl": "https://developers.webflow.com/data/reference/authentication.md"
+    },
+    {
+      "title": "authentication / site token",
+      "url": "https://developers.webflow.com/data/reference/authentication/site-token",
+      "fetchUrl": "https://developers.webflow.com/data/reference/authentication/site-token.md"
+    },
+    {
+      "title": "authentication / workspace token",
+      "url": "https://developers.webflow.com/data/reference/authentication/workspace-token",
+      "fetchUrl": "https://developers.webflow.com/data/reference/authentication/workspace-token.md"
+    },
+    {
+      "title": "branches / branch created",
+      "url": "https://developers.webflow.com/data/reference/branches/branch-created",
+      "fetchUrl": "https://developers.webflow.com/data/reference/branches/branch-created.md"
+    },
+    {
+      "title": "branches / branch deleted",
+      "url": "https://developers.webflow.com/data/reference/branches/branch-deleted",
+      "fetchUrl": "https://developers.webflow.com/data/reference/branches/branch-deleted.md"
+    },
+    {
+      "title": "branches / branch merged",
+      "url": "https://developers.webflow.com/data/reference/branches/branch-merged",
+      "fetchUrl": "https://developers.webflow.com/data/reference/branches/branch-merged.md"
+    },
+    {
+      "title": "collection fields / create",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-fields/create",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-fields/create.md"
+    },
+    {
+      "title": "collection fields / delete",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-fields/delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-fields/delete.md"
+    },
+    {
+      "title": "collection fields / update",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-fields/update",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-fields/update.md"
+    },
+    {
+      "title": "live items / create item live",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/live-items/create-item-live",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/live-items/create-item-live.md"
+    },
+    {
+      "title": "live items / delete items live",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/live-items/delete-items-live",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/live-items/delete-items-live.md"
+    },
+    {
+      "title": "live items / get item live",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/live-items/get-item-live",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/live-items/get-item-live.md"
+    },
+    {
+      "title": "live items / list items live",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/live-items/list-items-live",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/live-items/list-items-live.md"
+    },
+    {
+      "title": "live items / update items live",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/live-items/update-items-live",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/live-items/update-items-live.md"
+    },
+    {
+      "title": "staged items / create items",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/create-items",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/create-items.md"
+    },
+    {
+      "title": "staged items / delete items",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/delete-items",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/delete-items.md"
+    },
+    {
+      "title": "staged items / get item",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/get-item",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/get-item.md"
+    },
+    {
+      "title": "staged items / list items",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/list-items",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/list-items.md"
+    },
+    {
+      "title": "staged items / publish item",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/publish-item",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/publish-item.md"
+    },
+    {
+      "title": "staged items / update items",
+      "url": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/update-items",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collection-items/staged-items/update-items.md"
+    },
+    {
+      "title": "collections / create",
+      "url": "https://developers.webflow.com/data/reference/cms/collections/create",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collections/create.md"
+    },
+    {
+      "title": "collections / delete",
+      "url": "https://developers.webflow.com/data/reference/cms/collections/delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collections/delete.md"
+    },
+    {
+      "title": "collections / get",
+      "url": "https://developers.webflow.com/data/reference/cms/collections/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collections/get.md"
+    },
+    {
+      "title": "collections / list",
+      "url": "https://developers.webflow.com/data/reference/cms/collections/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collections/list.md"
+    },
+    {
+      "title": "collections / patch",
+      "url": "https://developers.webflow.com/data/reference/cms/collections/patch",
+      "fetchUrl": "https://developers.webflow.com/data/reference/cms/collections/patch.md"
+    },
+    {
+      "title": "comments / create comment reply",
+      "url": "https://developers.webflow.com/data/reference/comments/create-comment-reply",
+      "fetchUrl": "https://developers.webflow.com/data/reference/comments/create-comment-reply.md"
+    },
+    {
+      "title": "comments / get comment thread",
+      "url": "https://developers.webflow.com/data/reference/comments/get-comment-thread",
+      "fetchUrl": "https://developers.webflow.com/data/reference/comments/get-comment-thread.md"
+    },
+    {
+      "title": "comments / list comment replies",
+      "url": "https://developers.webflow.com/data/reference/comments/list-comment-replies",
+      "fetchUrl": "https://developers.webflow.com/data/reference/comments/list-comment-replies.md"
+    },
+    {
+      "title": "comments / list comment threads",
+      "url": "https://developers.webflow.com/data/reference/comments/list-comment-threads",
+      "fetchUrl": "https://developers.webflow.com/data/reference/comments/list-comment-threads.md"
+    },
+    {
+      "title": "comments / resolve comment thread",
+      "url": "https://developers.webflow.com/data/reference/comments/resolve-comment-thread",
+      "fetchUrl": "https://developers.webflow.com/data/reference/comments/resolve-comment-thread.md"
+    },
+    {
+      "title": "custom code pages / delete custom code",
+      "url": "https://developers.webflow.com/data/reference/custom-code/custom-code-pages/delete-custom-code",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-code/custom-code-pages/delete-custom-code.md"
+    },
+    {
+      "title": "custom code pages / get custom code",
+      "url": "https://developers.webflow.com/data/reference/custom-code/custom-code-pages/get-custom-code",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-code/custom-code-pages/get-custom-code.md"
+    },
+    {
+      "title": "custom code pages / upsert custom code",
+      "url": "https://developers.webflow.com/data/reference/custom-code/custom-code-pages/upsert-custom-code",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-code/custom-code-pages/upsert-custom-code.md"
+    },
+    {
+      "title": "custom code sites / delete custom code",
+      "url": "https://developers.webflow.com/data/reference/custom-code/custom-code-sites/delete-custom-code",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-code/custom-code-sites/delete-custom-code.md"
+    },
+    {
+      "title": "custom code sites / get custom code",
+      "url": "https://developers.webflow.com/data/reference/custom-code/custom-code-sites/get-custom-code",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-code/custom-code-sites/get-custom-code.md"
+    },
+    {
+      "title": "custom code sites / upsert custom code",
+      "url": "https://developers.webflow.com/data/reference/custom-code/custom-code-sites/upsert-custom-code",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-code/custom-code-sites/upsert-custom-code.md"
+    },
+    {
+      "title": "custom code / list",
+      "url": "https://developers.webflow.com/data/reference/custom-code/custom-code/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-code/custom-code/list.md"
+    },
+    {
+      "title": "custom code / list custom code blocks",
+      "url": "https://developers.webflow.com/data/reference/custom-code/custom-code/list-custom-code-blocks",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-code/custom-code/list-custom-code-blocks.md"
+    },
+    {
+      "title": "custom code / register hosted",
+      "url": "https://developers.webflow.com/data/reference/custom-code/custom-code/register-hosted",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-code/custom-code/register-hosted.md"
+    },
+    {
+      "title": "custom code / register inline",
+      "url": "https://developers.webflow.com/data/reference/custom-code/custom-code/register-inline",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-code/custom-code/register-inline.md"
+    },
+    {
+      "title": "reference / custom fonts",
+      "url": "https://developers.webflow.com/data/reference/custom-fonts",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-fonts.md"
+    },
+    {
+      "title": "custom fonts / batch create",
+      "url": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/batch-create",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/batch-create.md"
+    },
+    {
+      "title": "custom fonts / batch delete",
+      "url": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/batch-delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/batch-delete.md"
+    },
+    {
+      "title": "custom fonts / create",
+      "url": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/create",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/create.md"
+    },
+    {
+      "title": "custom fonts / delete",
+      "url": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/delete.md"
+    },
+    {
+      "title": "custom fonts / get",
+      "url": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/get.md"
+    },
+    {
+      "title": "custom fonts / list",
+      "url": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/list.md"
+    },
+    {
+      "title": "custom fonts / replace file",
+      "url": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/replace-file",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/replace-file.md"
+    },
+    {
+      "title": "custom fonts / update",
+      "url": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/update",
+      "fetchUrl": "https://developers.webflow.com/data/reference/custom-fonts/custom-fonts/update.md"
+    },
+    {
+      "title": "inventory / list",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/inventory/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/inventory/list.md"
+    },
+    {
+      "title": "inventory / update",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/inventory/update",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/inventory/update.md"
+    },
+    {
+      "title": "orders / get",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/orders/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/orders/get.md"
+    },
+    {
+      "title": "orders / list",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/orders/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/orders/list.md"
+    },
+    {
+      "title": "orders / refund",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/orders/refund",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/orders/refund.md"
+    },
+    {
+      "title": "orders / update",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/orders/update",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/orders/update.md"
+    },
+    {
+      "title": "orders / update fulfill",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/orders/update-fulfill",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/orders/update-fulfill.md"
+    },
+    {
+      "title": "orders / update unfulfill",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/orders/update-unfulfill",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/orders/update-unfulfill.md"
+    },
+    {
+      "title": "products / create",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/products/create",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/products/create.md"
+    },
+    {
+      "title": "products / create sku",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/products/create-sku",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/products/create-sku.md"
+    },
+    {
+      "title": "products / get",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/products/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/products/get.md"
+    },
+    {
+      "title": "products / list",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/products/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/products/list.md"
+    },
+    {
+      "title": "products / update",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/products/update",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/products/update.md"
+    },
+    {
+      "title": "products / update sku",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/products/update-sku",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/products/update-sku.md"
+    },
+    {
+      "title": "settings / get settings",
+      "url": "https://developers.webflow.com/data/reference/ecommerce/settings/get-settings",
+      "fetchUrl": "https://developers.webflow.com/data/reference/ecommerce/settings/get-settings.md"
+    },
+    {
+      "title": "site access / add member",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-access/add-member",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-access/add-member.md"
+    },
+    {
+      "title": "site access / list members",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-access/list-members",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-access/list-members.md"
+    },
+    {
+      "title": "site access / remove member",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-access/remove-member",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-access/remove-member.md"
+    },
+    {
+      "title": "site access / remove member by email",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-access/remove-member-by-email",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-access/remove-member-by-email.md"
+    },
+    {
+      "title": "site access / update member role",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-access/update-member-role",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-access/update-member-role.md"
+    },
+    {
+      "title": "site access / update member role by email",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-access/update-member-role-by-email",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-access/update-member-role-by-email.md"
+    },
+    {
+      "title": "site activity logs / list",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-activity-logs/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-activity-logs/list.md"
+    },
+    {
+      "title": "301 redirects / create",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-configuration/301-redirects/create",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-configuration/301-redirects/create.md"
+    },
+    {
+      "title": "301 redirects / delete",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-configuration/301-redirects/delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-configuration/301-redirects/delete.md"
+    },
+    {
+      "title": "301 redirects / get",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-configuration/301-redirects/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-configuration/301-redirects/get.md"
+    },
+    {
+      "title": "301 redirects / patch",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-configuration/301-redirects/patch",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-configuration/301-redirects/patch.md"
+    },
+    {
+      "title": "robots txt / delete",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-configuration/robots-txt/delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-configuration/robots-txt/delete.md"
+    },
+    {
+      "title": "robots txt / get",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-configuration/robots-txt/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-configuration/robots-txt/get.md"
+    },
+    {
+      "title": "robots txt / patch",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-configuration/robots-txt/patch",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-configuration/robots-txt/patch.md"
+    },
+    {
+      "title": "robots txt / put",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-configuration/robots-txt/put",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-configuration/robots-txt/put.md"
+    },
+    {
+      "title": "well known files / delete",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-configuration/well-known-files/delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-configuration/well-known-files/delete.md"
+    },
+    {
+      "title": "well known files / put",
+      "url": "https://developers.webflow.com/data/reference/enterprise/site-configuration/well-known-files/put",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/site-configuration/well-known-files/put.md"
+    },
+    {
+      "title": "workspace audit logs / event types",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-audit-logs/event-types",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-audit-logs/event-types.md"
+    },
+    {
+      "title": "workspace audit logs / get",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-audit-logs/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-audit-logs/get.md"
+    },
+    {
+      "title": "workspace management / create",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-management/create",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-management/create.md"
+    },
+    {
+      "title": "workspace management / delete",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-management/delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-management/delete.md"
+    },
+    {
+      "title": "workspace management / get site plan",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-management/get-site-plan",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-management/get-site-plan.md"
+    },
+    {
+      "title": "workspace management / list",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-management/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-management/list.md"
+    },
+    {
+      "title": "workspace management / update",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-management/update",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-management/update.md"
+    },
+    {
+      "title": "workspace members / bulk remove members",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-members/bulk-remove-members",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-members/bulk-remove-members.md"
+    },
+    {
+      "title": "workspace members / bulk update member roles",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-members/bulk-update-member-roles",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-members/bulk-update-member-roles.md"
+    },
+    {
+      "title": "workspace members / invite member",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-members/invite-member",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-members/invite-member.md"
+    },
+    {
+      "title": "workspace members / list members",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-members/list-members",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-members/list-members.md"
+    },
+    {
+      "title": "workspace members / remove member",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-members/remove-member",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-members/remove-member.md"
+    },
+    {
+      "title": "workspace members / update member role",
+      "url": "https://developers.webflow.com/data/reference/enterprise/workspace-members/update-member-role",
+      "fetchUrl": "https://developers.webflow.com/data/reference/enterprise/workspace-members/update-member-role.md"
+    },
+    {
+      "title": "reference / error handling",
+      "url": "https://developers.webflow.com/data/reference/error-handling",
+      "fetchUrl": "https://developers.webflow.com/data/reference/error-handling.md"
+    },
+    {
+      "title": "reference / field types item values",
+      "url": "https://developers.webflow.com/data/reference/field-types-item-values",
+      "fetchUrl": "https://developers.webflow.com/data/reference/field-types-item-values.md"
+    },
+    {
+      "title": "form submissions / delete submission",
+      "url": "https://developers.webflow.com/data/reference/forms/form-submissions/delete-submission",
+      "fetchUrl": "https://developers.webflow.com/data/reference/forms/form-submissions/delete-submission.md"
+    },
+    {
+      "title": "form submissions / get submission",
+      "url": "https://developers.webflow.com/data/reference/forms/form-submissions/get-submission",
+      "fetchUrl": "https://developers.webflow.com/data/reference/forms/form-submissions/get-submission.md"
+    },
+    {
+      "title": "form submissions / list submissions",
+      "url": "https://developers.webflow.com/data/reference/forms/form-submissions/list-submissions",
+      "fetchUrl": "https://developers.webflow.com/data/reference/forms/form-submissions/list-submissions.md"
+    },
+    {
+      "title": "form submissions / list submissions by site",
+      "url": "https://developers.webflow.com/data/reference/forms/form-submissions/list-submissions-by-site",
+      "fetchUrl": "https://developers.webflow.com/data/reference/forms/form-submissions/list-submissions-by-site.md"
+    },
+    {
+      "title": "form submissions / update submission",
+      "url": "https://developers.webflow.com/data/reference/forms/form-submissions/update-submission",
+      "fetchUrl": "https://developers.webflow.com/data/reference/forms/form-submissions/update-submission.md"
+    },
+    {
+      "title": "forms / get",
+      "url": "https://developers.webflow.com/data/reference/forms/forms/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/forms/forms/get.md"
+    },
+    {
+      "title": "forms / list",
+      "url": "https://developers.webflow.com/data/reference/forms/forms/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/forms/forms/list.md"
+    },
+    {
+      "title": "reference / oauth app",
+      "url": "https://developers.webflow.com/data/reference/oauth-app",
+      "fetchUrl": "https://developers.webflow.com/data/reference/oauth-app.md"
+    },
+    {
+      "title": "optimize / get audience insights",
+      "url": "https://developers.webflow.com/data/reference/optimize/get-audience-insights",
+      "fetchUrl": "https://developers.webflow.com/data/reference/optimize/get-audience-insights.md"
+    },
+    {
+      "title": "optimize / get optimization results",
+      "url": "https://developers.webflow.com/data/reference/optimize/get-optimization-results",
+      "fetchUrl": "https://developers.webflow.com/data/reference/optimize/get-optimization-results.md"
+    },
+    {
+      "title": "optimize / get performance over time",
+      "url": "https://developers.webflow.com/data/reference/optimize/get-performance-over-time",
+      "fetchUrl": "https://developers.webflow.com/data/reference/optimize/get-performance-over-time.md"
+    },
+    {
+      "title": "optimize / list dimension values",
+      "url": "https://developers.webflow.com/data/reference/optimize/list-dimension-values",
+      "fetchUrl": "https://developers.webflow.com/data/reference/optimize/list-dimension-values.md"
+    },
+    {
+      "title": "optimize / list dimensions",
+      "url": "https://developers.webflow.com/data/reference/optimize/list-dimensions",
+      "fetchUrl": "https://developers.webflow.com/data/reference/optimize/list-dimensions.md"
+    },
+    {
+      "title": "optimize / list optimization goals",
+      "url": "https://developers.webflow.com/data/reference/optimize/list-optimization-goals",
+      "fetchUrl": "https://developers.webflow.com/data/reference/optimize/list-optimization-goals.md"
+    },
+    {
+      "title": "optimize / list optimizations",
+      "url": "https://developers.webflow.com/data/reference/optimize/list-optimizations",
+      "fetchUrl": "https://developers.webflow.com/data/reference/optimize/list-optimizations.md"
+    },
+    {
+      "title": "optimize / list optimize ids",
+      "url": "https://developers.webflow.com/data/reference/optimize/list-optimize-ids",
+      "fetchUrl": "https://developers.webflow.com/data/reference/optimize/list-optimize-ids.md"
+    },
+    {
+      "title": "components / get content",
+      "url": "https://developers.webflow.com/data/reference/pages-and-components/components/get-content",
+      "fetchUrl": "https://developers.webflow.com/data/reference/pages-and-components/components/get-content.md"
+    },
+    {
+      "title": "components / get properties",
+      "url": "https://developers.webflow.com/data/reference/pages-and-components/components/get-properties",
+      "fetchUrl": "https://developers.webflow.com/data/reference/pages-and-components/components/get-properties.md"
+    },
+    {
+      "title": "components / list",
+      "url": "https://developers.webflow.com/data/reference/pages-and-components/components/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/pages-and-components/components/list.md"
+    },
+    {
+      "title": "components / update content",
+      "url": "https://developers.webflow.com/data/reference/pages-and-components/components/update-content",
+      "fetchUrl": "https://developers.webflow.com/data/reference/pages-and-components/components/update-content.md"
+    },
+    {
+      "title": "components / update properties",
+      "url": "https://developers.webflow.com/data/reference/pages-and-components/components/update-properties",
+      "fetchUrl": "https://developers.webflow.com/data/reference/pages-and-components/components/update-properties.md"
+    },
+    {
+      "title": "pages / get content",
+      "url": "https://developers.webflow.com/data/reference/pages-and-components/pages/get-content",
+      "fetchUrl": "https://developers.webflow.com/data/reference/pages-and-components/pages/get-content.md"
+    },
+    {
+      "title": "pages / get metadata",
+      "url": "https://developers.webflow.com/data/reference/pages-and-components/pages/get-metadata",
+      "fetchUrl": "https://developers.webflow.com/data/reference/pages-and-components/pages/get-metadata.md"
+    },
+    {
+      "title": "pages / list",
+      "url": "https://developers.webflow.com/data/reference/pages-and-components/pages/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/pages-and-components/pages/list.md"
+    },
+    {
+      "title": "pages / update page settings",
+      "url": "https://developers.webflow.com/data/reference/pages-and-components/pages/update-page-settings",
+      "fetchUrl": "https://developers.webflow.com/data/reference/pages-and-components/pages/update-page-settings.md"
+    },
+    {
+      "title": "pages / update static content",
+      "url": "https://developers.webflow.com/data/reference/pages-and-components/pages/update-static-content",
+      "fetchUrl": "https://developers.webflow.com/data/reference/pages-and-components/pages/update-static-content.md"
+    },
+    {
+      "title": "reference / rate limits",
+      "url": "https://developers.webflow.com/data/reference/rate-limits",
+      "fetchUrl": "https://developers.webflow.com/data/reference/rate-limits.md"
+    },
+    {
+      "title": "reference / rest introduction",
+      "url": "https://developers.webflow.com/data/reference/rest-introduction",
+      "fetchUrl": "https://developers.webflow.com/data/reference/rest-introduction.md"
+    },
+    {
+      "title": "rest introduction / quick start",
+      "url": "https://developers.webflow.com/data/reference/rest-introduction/quick-start",
+      "fetchUrl": "https://developers.webflow.com/data/reference/rest-introduction/quick-start.md"
+    },
+    {
+      "title": "reference / scopes",
+      "url": "https://developers.webflow.com/data/reference/scopes",
+      "fetchUrl": "https://developers.webflow.com/data/reference/scopes.md"
+    },
+    {
+      "title": "reference / sdks",
+      "url": "https://developers.webflow.com/data/reference/sdks",
+      "fetchUrl": "https://developers.webflow.com/data/reference/sdks.md"
+    },
+    {
+      "title": "google tag manager / delete",
+      "url": "https://developers.webflow.com/data/reference/site-configuration/google-tag-manager/delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/site-configuration/google-tag-manager/delete.md"
+    },
+    {
+      "title": "google tag manager / delete all",
+      "url": "https://developers.webflow.com/data/reference/site-configuration/google-tag-manager/delete-all",
+      "fetchUrl": "https://developers.webflow.com/data/reference/site-configuration/google-tag-manager/delete-all.md"
+    },
+    {
+      "title": "google tag manager / list",
+      "url": "https://developers.webflow.com/data/reference/site-configuration/google-tag-manager/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/site-configuration/google-tag-manager/list.md"
+    },
+    {
+      "title": "google tag manager / upsert",
+      "url": "https://developers.webflow.com/data/reference/site-configuration/google-tag-manager/upsert",
+      "fetchUrl": "https://developers.webflow.com/data/reference/site-configuration/google-tag-manager/upsert.md"
+    },
+    {
+      "title": "sites / get",
+      "url": "https://developers.webflow.com/data/reference/sites/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/sites/get.md"
+    },
+    {
+      "title": "sites / get custom domain",
+      "url": "https://developers.webflow.com/data/reference/sites/get-custom-domain",
+      "fetchUrl": "https://developers.webflow.com/data/reference/sites/get-custom-domain.md"
+    },
+    {
+      "title": "sites / list",
+      "url": "https://developers.webflow.com/data/reference/sites/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/sites/list.md"
+    },
+    {
+      "title": "sites / publish",
+      "url": "https://developers.webflow.com/data/reference/sites/publish",
+      "fetchUrl": "https://developers.webflow.com/data/reference/sites/publish.md"
+    },
+    {
+      "title": "reference / structure 1",
+      "url": "https://developers.webflow.com/data/reference/structure-1",
+      "fetchUrl": "https://developers.webflow.com/data/reference/structure-1.md"
+    },
+    {
+      "title": "token / authorized by",
+      "url": "https://developers.webflow.com/data/reference/token/authorized-by",
+      "fetchUrl": "https://developers.webflow.com/data/reference/token/authorized-by.md"
+    },
+    {
+      "title": "token / introspect",
+      "url": "https://developers.webflow.com/data/reference/token/introspect",
+      "fetchUrl": "https://developers.webflow.com/data/reference/token/introspect.md"
+    },
+    {
+      "title": "reference / versioning",
+      "url": "https://developers.webflow.com/data/reference/versioning",
+      "fetchUrl": "https://developers.webflow.com/data/reference/versioning.md"
+    },
+    {
+      "title": "webhooks / create",
+      "url": "https://developers.webflow.com/data/reference/webhooks/create",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/create.md"
+    },
+    {
+      "title": "webhooks / delete",
+      "url": "https://developers.webflow.com/data/reference/webhooks/delete",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/delete.md"
+    },
+    {
+      "title": "events / collection item changed",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/collection-item-changed",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/collection-item-changed.md"
+    },
+    {
+      "title": "events / collection item created",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/collection-item-created",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/collection-item-created.md"
+    },
+    {
+      "title": "events / collection item deleted",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/collection-item-deleted",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/collection-item-deleted.md"
+    },
+    {
+      "title": "events / collection item published",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/collection-item-published",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/collection-item-published.md"
+    },
+    {
+      "title": "events / collection item unpublished",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/collection-item-unpublished",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/collection-item-unpublished.md"
+    },
+    {
+      "title": "events / comment created",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/comment-created",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/comment-created.md"
+    },
+    {
+      "title": "events / ecomm inventory changed",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/ecomm-inventory-changed",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/ecomm-inventory-changed.md"
+    },
+    {
+      "title": "events / ecomm new order",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/ecomm-new-order",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/ecomm-new-order.md"
+    },
+    {
+      "title": "events / ecomm order changed",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/ecomm-order-changed",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/ecomm-order-changed.md"
+    },
+    {
+      "title": "events / form submission",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/form-submission",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/form-submission.md"
+    },
+    {
+      "title": "events / page created",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/page-created",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/page-created.md"
+    },
+    {
+      "title": "events / page deleted",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/page-deleted",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/page-deleted.md"
+    },
+    {
+      "title": "events / page metadata updated",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/page-metadata-updated",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/page-metadata-updated.md"
+    },
+    {
+      "title": "events / site publish",
+      "url": "https://developers.webflow.com/data/reference/webhooks/events/site-publish",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/events/site-publish.md"
+    },
+    {
+      "title": "webhooks / get",
+      "url": "https://developers.webflow.com/data/reference/webhooks/get",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/get.md"
+    },
+    {
+      "title": "webhooks / list",
+      "url": "https://developers.webflow.com/data/reference/webhooks/list",
+      "fetchUrl": "https://developers.webflow.com/data/reference/webhooks/list.md"
+    },
+    {
+      "title": "designer / get parent style",
+      "url": "https://developers.webflow.com/designer/get-parent-style",
+      "fetchUrl": "https://developers.webflow.com/designer/get-parent-style.md"
+    },
+    {
+      "title": "guides / configuring your app",
+      "url": "https://developers.webflow.com/designer/guides/configuring-your-app",
+      "fetchUrl": "https://developers.webflow.com/designer/guides/configuring-your-app.md"
+    },
+    {
+      "title": "reference / app intents and connections",
+      "url": "https://developers.webflow.com/designer/reference/app-intents-and-connections",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/app-intents-and-connections.md"
+    },
+    {
+      "title": "reference / app modes",
+      "url": "https://developers.webflow.com/designer/reference/app-modes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/app-modes.md"
+    },
+    {
+      "title": "reference / append",
+      "url": "https://developers.webflow.com/designer/reference/append",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/append.md"
+    },
+    {
+      "title": "reference / asset overview",
+      "url": "https://developers.webflow.com/designer/reference/asset-overview",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/asset-overview.md"
+    },
+    {
+      "title": "attributes / getAttributes",
+      "url": "https://developers.webflow.com/designer/reference/attributes/getAttributes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/attributes/getAttributes.md"
+    },
+    {
+      "title": "attributes / getAttributeValue",
+      "url": "https://developers.webflow.com/designer/reference/attributes/getAttributeValue",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/attributes/getAttributeValue.md"
+    },
+    {
+      "title": "attributes / getResolvedAttributes",
+      "url": "https://developers.webflow.com/designer/reference/attributes/getResolvedAttributes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/attributes/getResolvedAttributes.md"
+    },
+    {
+      "title": "attributes / getResolvedAttributeValue",
+      "url": "https://developers.webflow.com/designer/reference/attributes/getResolvedAttributeValue",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/attributes/getResolvedAttributeValue.md"
+    },
+    {
+      "title": "attributes / removeAttribute",
+      "url": "https://developers.webflow.com/designer/reference/attributes/removeAttribute",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/attributes/removeAttribute.md"
+    },
+    {
+      "title": "attributes / setAttribute",
+      "url": "https://developers.webflow.com/designer/reference/attributes/setAttribute",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/attributes/setAttribute.md"
+    },
+    {
+      "title": "attributes / setAttributes",
+      "url": "https://developers.webflow.com/designer/reference/attributes/setAttributes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/attributes/setAttributes.md"
+    },
+    {
+      "title": "reference / bulk add elements",
+      "url": "https://developers.webflow.com/designer/reference/bulk-add-elements",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/bulk-add-elements.md"
+    },
+    {
+      "title": "reference / check description is used as search description",
+      "url": "https://developers.webflow.com/designer/reference/check-description-is-used-as-search-description",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/check-description-is-used-as-search-description.md"
+    },
+    {
+      "title": "reference / check if page is draft",
+      "url": "https://developers.webflow.com/designer/reference/check-if-page-is-draft",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/check-if-page-is-draft.md"
+    },
+    {
+      "title": "reference / check if page is excluded from search",
+      "url": "https://developers.webflow.com/designer/reference/check-if-page-is-excluded-from-search",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/check-if-page-is-excluded-from-search.md"
+    },
+    {
+      "title": "reference / check if page is homepage",
+      "url": "https://developers.webflow.com/designer/reference/check-if-page-is-homepage",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/check-if-page-is-homepage.md"
+    },
+    {
+      "title": "reference / check if page is password protected",
+      "url": "https://developers.webflow.com/designer/reference/check-if-page-is-password-protected",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/check-if-page-is-password-protected.md"
+    },
+    {
+      "title": "reference / check if page uses title as search title",
+      "url": "https://developers.webflow.com/designer/reference/check-if-page-uses-title-as-search-title",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/check-if-page-uses-title-as-search-title.md"
+    },
+    {
+      "title": "reference / clear all style properties",
+      "url": "https://developers.webflow.com/designer/reference/clear-all-style-properties",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/clear-all-style-properties.md"
+    },
+    {
+      "title": "reference / close extension",
+      "url": "https://developers.webflow.com/designer/reference/close-extension",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/close-extension.md"
+    },
+    {
+      "title": "reference / component element",
+      "url": "https://developers.webflow.com/designer/reference/component-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element.md"
+    },
+    {
+      "title": "component element / getComponent",
+      "url": "https://developers.webflow.com/designer/reference/component-element/getComponent",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element/getComponent.md"
+    },
+    {
+      "title": "component element / getProps",
+      "url": "https://developers.webflow.com/designer/reference/component-element/getProps",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element/getProps.md"
+    },
+    {
+      "title": "component element / getResolvedProps",
+      "url": "https://developers.webflow.com/designer/reference/component-element/getResolvedProps",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element/getResolvedProps.md"
+    },
+    {
+      "title": "component element / getSelectedSlot",
+      "url": "https://developers.webflow.com/designer/reference/component-element/getSelectedSlot",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element/getSelectedSlot.md"
+    },
+    {
+      "title": "component element / getSlots",
+      "url": "https://developers.webflow.com/designer/reference/component-element/getSlots",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element/getSlots.md"
+    },
+    {
+      "title": "component element / getTextPropElement",
+      "url": "https://developers.webflow.com/designer/reference/component-element/getTextPropElement",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element/getTextPropElement.md"
+    },
+    {
+      "title": "component element / resetAllProps",
+      "url": "https://developers.webflow.com/designer/reference/component-element/resetAllProps",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element/resetAllProps.md"
+    },
+    {
+      "title": "component element / searchProps",
+      "url": "https://developers.webflow.com/designer/reference/component-element/searchProps",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element/searchProps.md"
+    },
+    {
+      "title": "component element / setProps",
+      "url": "https://developers.webflow.com/designer/reference/component-element/setProps",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element/setProps.md"
+    },
+    {
+      "title": "component element / unlinkComponent",
+      "url": "https://developers.webflow.com/designer/reference/component-element/unlinkComponent",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/component-element/unlinkComponent.md"
+    },
+    {
+      "title": "reference / components overview",
+      "url": "https://developers.webflow.com/designer/reference/components-overview",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/components-overview.md"
+    },
+    {
+      "title": "reference / create an asset",
+      "url": "https://developers.webflow.com/designer/reference/create-an-asset",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-an-asset.md"
+    },
+    {
+      "title": "reference / create asset folder",
+      "url": "https://developers.webflow.com/designer/reference/create-asset-folder",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-asset-folder.md"
+    },
+    {
+      "title": "reference / create color variable",
+      "url": "https://developers.webflow.com/designer/reference/create-color-variable",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-color-variable.md"
+    },
+    {
+      "title": "reference / create component definition",
+      "url": "https://developers.webflow.com/designer/reference/create-component-definition",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-component-definition.md"
+    },
+    {
+      "title": "reference / create component instance",
+      "url": "https://developers.webflow.com/designer/reference/create-component-instance",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-component-instance.md"
+    },
+    {
+      "title": "reference / create folder",
+      "url": "https://developers.webflow.com/designer/reference/create-folder",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-folder.md"
+    },
+    {
+      "title": "reference / create font family variable",
+      "url": "https://developers.webflow.com/designer/reference/create-font-family-variable",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-font-family-variable.md"
+    },
+    {
+      "title": "reference / create interaction",
+      "url": "https://developers.webflow.com/designer/reference/create-interaction",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-interaction.md"
+    },
+    {
+      "title": "reference / create number variable",
+      "url": "https://developers.webflow.com/designer/reference/create-number-variable",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-number-variable.md"
+    },
+    {
+      "title": "reference / create page",
+      "url": "https://developers.webflow.com/designer/reference/create-page",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-page.md"
+    },
+    {
+      "title": "reference / create percentage variable",
+      "url": "https://developers.webflow.com/designer/reference/create-percentage-variable",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-percentage-variable.md"
+    },
+    {
+      "title": "reference / create size variable",
+      "url": "https://developers.webflow.com/designer/reference/create-size-variable",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-size-variable.md"
+    },
+    {
+      "title": "reference / create style",
+      "url": "https://developers.webflow.com/designer/reference/create-style",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-style.md"
+    },
+    {
+      "title": "reference / create variable collection",
+      "url": "https://developers.webflow.com/designer/reference/create-variable-collection",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-variable-collection.md"
+    },
+    {
+      "title": "reference / create variable mode",
+      "url": "https://developers.webflow.com/designer/reference/create-variable-mode",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-variable-mode.md"
+    },
+    {
+      "title": "reference / create variant",
+      "url": "https://developers.webflow.com/designer/reference/create-variant",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/create-variant.md"
+    },
+    {
+      "title": "reference / creating retrieving elements",
+      "url": "https://developers.webflow.com/designer/reference/creating-retrieving-elements",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/creating-retrieving-elements.md"
+    },
+    {
+      "title": "custom attributes / getAllCustomAttributes",
+      "url": "https://developers.webflow.com/designer/reference/custom-attributes/getAllCustomAttributes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/custom-attributes/getAllCustomAttributes.md"
+    },
+    {
+      "title": "custom attributes / getCustomAttribute",
+      "url": "https://developers.webflow.com/designer/reference/custom-attributes/getCustomAttribute",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/custom-attributes/getCustomAttribute.md"
+    },
+    {
+      "title": "custom attributes / removeCustomAttribute",
+      "url": "https://developers.webflow.com/designer/reference/custom-attributes/removeCustomAttribute",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/custom-attributes/removeCustomAttribute.md"
+    },
+    {
+      "title": "custom attributes / setCustomAttribute",
+      "url": "https://developers.webflow.com/designer/reference/custom-attributes/setCustomAttribute",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/custom-attributes/setCustomAttribute.md"
+    },
+    {
+      "title": "reference / delete component definition",
+      "url": "https://developers.webflow.com/designer/reference/delete-component-definition",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/delete-component-definition.md"
+    },
+    {
+      "title": "reference / delete variant",
+      "url": "https://developers.webflow.com/designer/reference/delete-variant",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/delete-variant.md"
+    },
+    {
+      "title": "reference / dom element",
+      "url": "https://developers.webflow.com/designer/reference/dom-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/dom-element.md"
+    },
+    {
+      "title": "dom element / getAllAttributes",
+      "url": "https://developers.webflow.com/designer/reference/dom-element/getAllAttributes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/dom-element/getAllAttributes.md"
+    },
+    {
+      "title": "dom element / getAttribute",
+      "url": "https://developers.webflow.com/designer/reference/dom-element/getAttribute",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/dom-element/getAttribute.md"
+    },
+    {
+      "title": "dom element / getTag",
+      "url": "https://developers.webflow.com/designer/reference/dom-element/getTag",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/dom-element/getTag.md"
+    },
+    {
+      "title": "dom element / removeAttribute",
+      "url": "https://developers.webflow.com/designer/reference/dom-element/removeAttribute",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/dom-element/removeAttribute.md"
+    },
+    {
+      "title": "dom element / setAttribute",
+      "url": "https://developers.webflow.com/designer/reference/dom-element/setAttribute",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/dom-element/setAttribute.md"
+    },
+    {
+      "title": "dom element / setTag",
+      "url": "https://developers.webflow.com/designer/reference/dom-element/setTag",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/dom-element/setTag.md"
+    },
+    {
+      "title": "element bindings / searchBindableSources",
+      "url": "https://developers.webflow.com/designer/reference/element-bindings/searchBindableSources",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-bindings/searchBindableSources.md"
+    },
+    {
+      "title": "reference / element presets",
+      "url": "https://developers.webflow.com/designer/reference/element-presets",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-presets.md"
+    },
+    {
+      "title": "reference / element properties methods",
+      "url": "https://developers.webflow.com/designer/reference/element-properties-methods",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-properties-methods.md"
+    },
+    {
+      "title": "element settings / collection list settings",
+      "url": "https://developers.webflow.com/designer/reference/element-settings/collection-list-settings",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-settings/collection-list-settings.md"
+    },
+    {
+      "title": "element settings / get dom id",
+      "url": "https://developers.webflow.com/designer/reference/element-settings/get-dom-id",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-settings/get-dom-id.md"
+    },
+    {
+      "title": "element settings / get visibility",
+      "url": "https://developers.webflow.com/designer/reference/element-settings/get-visibility",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-settings/get-visibility.md"
+    },
+    {
+      "title": "element settings / getResolvedSettings",
+      "url": "https://developers.webflow.com/designer/reference/element-settings/getResolvedSettings",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-settings/getResolvedSettings.md"
+    },
+    {
+      "title": "element settings / getSettings",
+      "url": "https://developers.webflow.com/designer/reference/element-settings/getSettings",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-settings/getSettings.md"
+    },
+    {
+      "title": "element settings / searchSettings",
+      "url": "https://developers.webflow.com/designer/reference/element-settings/searchSettings",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-settings/searchSettings.md"
+    },
+    {
+      "title": "element settings / set dom id",
+      "url": "https://developers.webflow.com/designer/reference/element-settings/set-dom-id",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-settings/set-dom-id.md"
+    },
+    {
+      "title": "element settings / set visibility",
+      "url": "https://developers.webflow.com/designer/reference/element-settings/set-visibility",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-settings/set-visibility.md"
+    },
+    {
+      "title": "element settings / setSettings",
+      "url": "https://developers.webflow.com/designer/reference/element-settings/setSettings",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-settings/setSettings.md"
+    },
+    {
+      "title": "element styles / getStyles",
+      "url": "https://developers.webflow.com/designer/reference/element-styles/getStyles",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-styles/getStyles.md"
+    },
+    {
+      "title": "element styles / setStyles",
+      "url": "https://developers.webflow.com/designer/reference/element-styles/setStyles",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-styles/setStyles.md"
+    },
+    {
+      "title": "reference / element types methods",
+      "url": "https://developers.webflow.com/designer/reference/element-types-methods",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/element-types-methods.md"
+    },
+    {
+      "title": "reference / elements overview",
+      "url": "https://developers.webflow.com/designer/reference/elements-overview",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/elements-overview.md"
+    },
+    {
+      "title": "elements / attributes",
+      "url": "https://developers.webflow.com/designer/reference/elements/attributes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/elements/attributes.md"
+    },
+    {
+      "title": "elements / custom attributes",
+      "url": "https://developers.webflow.com/designer/reference/elements/custom-attributes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/elements/custom-attributes.md"
+    },
+    {
+      "title": "elements / display name",
+      "url": "https://developers.webflow.com/designer/reference/elements/display-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/elements/display-name.md"
+    },
+    {
+      "title": "elements / getChildren",
+      "url": "https://developers.webflow.com/designer/reference/elements/getChildren",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/elements/getChildren.md"
+    },
+    {
+      "title": "elements / styles",
+      "url": "https://developers.webflow.com/designer/reference/elements/styles",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/elements/styles.md"
+    },
+    {
+      "title": "elements / text content",
+      "url": "https://developers.webflow.com/designer/reference/elements/text-content",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/elements/text-content.md"
+    },
+    {
+      "title": "reference / enter component",
+      "url": "https://developers.webflow.com/designer/reference/enter-component",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/enter-component.md"
+    },
+    {
+      "title": "reference / error handling",
+      "url": "https://developers.webflow.com/designer/reference/error-handling",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/error-handling.md"
+    },
+    {
+      "title": "reference / events",
+      "url": "https://developers.webflow.com/designer/reference/events",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/events.md"
+    },
+    {
+      "title": "reference / exclude page from search",
+      "url": "https://developers.webflow.com/designer/reference/exclude-page-from-search",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/exclude-page-from-search.md"
+    },
+    {
+      "title": "reference / exit component",
+      "url": "https://developers.webflow.com/designer/reference/exit-component",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/exit-component.md"
+    },
+    {
+      "title": "reference / extension utilities",
+      "url": "https://developers.webflow.com/designer/reference/extension-utilities",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/extension-utilities.md"
+    },
+    {
+      "title": "form element / get form name",
+      "url": "https://developers.webflow.com/designer/reference/form-element/get-form-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-element/get-form-name.md"
+    },
+    {
+      "title": "form element / get form settings",
+      "url": "https://developers.webflow.com/designer/reference/form-element/get-form-settings",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-element/get-form-settings.md"
+    },
+    {
+      "title": "form element / get name input field",
+      "url": "https://developers.webflow.com/designer/reference/form-element/get-name-input-field",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-element/get-name-input-field.md"
+    },
+    {
+      "title": "form element / get required status",
+      "url": "https://developers.webflow.com/designer/reference/form-element/get-required-status",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-element/get-required-status.md"
+    },
+    {
+      "title": "form element / get type input field",
+      "url": "https://developers.webflow.com/designer/reference/form-element/get-type-input-field",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-element/get-type-input-field.md"
+    },
+    {
+      "title": "form element / set form name",
+      "url": "https://developers.webflow.com/designer/reference/form-element/set-form-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-element/set-form-name.md"
+    },
+    {
+      "title": "form element / set form settings",
+      "url": "https://developers.webflow.com/designer/reference/form-element/set-form-settings",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-element/set-form-settings.md"
+    },
+    {
+      "title": "form element / set name input field",
+      "url": "https://developers.webflow.com/designer/reference/form-element/set-name-input-field",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-element/set-name-input-field.md"
+    },
+    {
+      "title": "form element / set required status",
+      "url": "https://developers.webflow.com/designer/reference/form-element/set-required-status",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-element/set-required-status.md"
+    },
+    {
+      "title": "form element / set type input field",
+      "url": "https://developers.webflow.com/designer/reference/form-element/set-type-input-field",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-element/set-type-input-field.md"
+    },
+    {
+      "title": "reference / form inputs",
+      "url": "https://developers.webflow.com/designer/reference/form-inputs",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/form-inputs.md"
+    },
+    {
+      "title": "reference / forms",
+      "url": "https://developers.webflow.com/designer/reference/forms",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/forms.md"
+    },
+    {
+      "title": "reference / get all asset folders",
+      "url": "https://developers.webflow.com/designer/reference/get-all-asset-folders",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-all-asset-folders.md"
+    },
+    {
+      "title": "reference / get all assets",
+      "url": "https://developers.webflow.com/designer/reference/get-all-assets",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-all-assets.md"
+    },
+    {
+      "title": "reference / get all elements",
+      "url": "https://developers.webflow.com/designer/reference/get-all-elements",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-all-elements.md"
+    },
+    {
+      "title": "reference / get all interactions",
+      "url": "https://developers.webflow.com/designer/reference/get-all-interactions",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-all-interactions.md"
+    },
+    {
+      "title": "reference / get all media queries",
+      "url": "https://developers.webflow.com/designer/reference/get-all-media-queries",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-all-media-queries.md"
+    },
+    {
+      "title": "reference / get all pages and folders",
+      "url": "https://developers.webflow.com/designer/reference/get-all-pages-and-folders",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-all-pages-and-folders.md"
+    },
+    {
+      "title": "reference / get all styles",
+      "url": "https://developers.webflow.com/designer/reference/get-all-styles",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-all-styles.md"
+    },
+    {
+      "title": "reference / get all variable collections",
+      "url": "https://developers.webflow.com/designer/reference/get-all-variable-collections",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-all-variable-collections.md"
+    },
+    {
+      "title": "reference / get all variable modes",
+      "url": "https://developers.webflow.com/designer/reference/get-all-variable-modes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-all-variable-modes.md"
+    },
+    {
+      "title": "reference / get all variables",
+      "url": "https://developers.webflow.com/designer/reference/get-all-variables",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-all-variables.md"
+    },
+    {
+      "title": "reference / get alt text",
+      "url": "https://developers.webflow.com/designer/reference/get-alt-text",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-alt-text.md"
+    },
+    {
+      "title": "reference / get app connections",
+      "url": "https://developers.webflow.com/designer/reference/get-app-connections",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-app-connections.md"
+    },
+    {
+      "title": "reference / get app subscriptions",
+      "url": "https://developers.webflow.com/designer/reference/get-app-subscriptions",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-app-subscriptions.md"
+    },
+    {
+      "title": "reference / get asset by id",
+      "url": "https://developers.webflow.com/designer/reference/get-asset-by-id",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-asset-by-id.md"
+    },
+    {
+      "title": "reference / get asset folder name",
+      "url": "https://developers.webflow.com/designer/reference/get-asset-folder-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-asset-folder-name.md"
+    },
+    {
+      "title": "reference / get asset folder parent",
+      "url": "https://developers.webflow.com/designer/reference/get-asset-folder-parent",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-asset-folder-parent.md"
+    },
+    {
+      "title": "reference / get asset mime type",
+      "url": "https://developers.webflow.com/designer/reference/get-asset-mime-type",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-asset-mime-type.md"
+    },
+    {
+      "title": "reference / get asset name",
+      "url": "https://developers.webflow.com/designer/reference/get-asset-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-asset-name.md"
+    },
+    {
+      "title": "reference / get asset url",
+      "url": "https://developers.webflow.com/designer/reference/get-asset-url",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-asset-url.md"
+    },
+    {
+      "title": "reference / get branch id",
+      "url": "https://developers.webflow.com/designer/reference/get-branch-id",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-branch-id.md"
+    },
+    {
+      "title": "reference / get breakpoint",
+      "url": "https://developers.webflow.com/designer/reference/get-breakpoint",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-breakpoint.md"
+    },
+    {
+      "title": "reference / get collection id from cms page",
+      "url": "https://developers.webflow.com/designer/reference/get-collection-id-from-cms-page",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-collection-id-from-cms-page.md"
+    },
+    {
+      "title": "reference / get collection name",
+      "url": "https://developers.webflow.com/designer/reference/get-collection-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-collection-name.md"
+    },
+    {
+      "title": "reference / get collection name from cms page",
+      "url": "https://developers.webflow.com/designer/reference/get-collection-name-from-cms-page",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-collection-name-from-cms-page.md"
+    },
+    {
+      "title": "reference / get component",
+      "url": "https://developers.webflow.com/designer/reference/get-component",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-component.md"
+    },
+    {
+      "title": "reference / get component by id",
+      "url": "https://developers.webflow.com/designer/reference/get-component-by-id",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-component-by-id.md"
+    },
+    {
+      "title": "reference / get component by name",
+      "url": "https://developers.webflow.com/designer/reference/get-component-by-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-component-by-name.md"
+    },
+    {
+      "title": "reference / get component instance count",
+      "url": "https://developers.webflow.com/designer/reference/get-component-instance-count",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-component-instance-count.md"
+    },
+    {
+      "title": "reference / get component name",
+      "url": "https://developers.webflow.com/designer/reference/get-component-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-component-name.md"
+    },
+    {
+      "title": "reference / get component settings",
+      "url": "https://developers.webflow.com/designer/reference/get-component-settings",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-component-settings.md"
+    },
+    {
+      "title": "reference / get components",
+      "url": "https://developers.webflow.com/designer/reference/get-components",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-components.md"
+    },
+    {
+      "title": "reference / get current app connection",
+      "url": "https://developers.webflow.com/designer/reference/get-current-app-connection",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-current-app-connection.md"
+    },
+    {
+      "title": "reference / get current app connection resource",
+      "url": "https://developers.webflow.com/designer/reference/get-current-app-connection-resource",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-current-app-connection-resource.md"
+    },
+    {
+      "title": "reference / get current component",
+      "url": "https://developers.webflow.com/designer/reference/get-current-component",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-current-component.md"
+    },
+    {
+      "title": "reference / get current mode",
+      "url": "https://developers.webflow.com/designer/reference/get-current-mode",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-current-mode.md"
+    },
+    {
+      "title": "reference / get current page",
+      "url": "https://developers.webflow.com/designer/reference/get-current-page",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-current-page.md"
+    },
+    {
+      "title": "reference / get default variable collection",
+      "url": "https://developers.webflow.com/designer/reference/get-default-variable-collection",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-default-variable-collection.md"
+    },
+    {
+      "title": "reference / get display name",
+      "url": "https://developers.webflow.com/designer/reference/get-display-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-display-name.md"
+    },
+    {
+      "title": "reference / get element snapshot",
+      "url": "https://developers.webflow.com/designer/reference/get-element-snapshot",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-element-snapshot.md"
+    },
+    {
+      "title": "reference / get folder name",
+      "url": "https://developers.webflow.com/designer/reference/get-folder-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-folder-name.md"
+    },
+    {
+      "title": "reference / get folder slug",
+      "url": "https://developers.webflow.com/designer/reference/get-folder-slug",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-folder-slug.md"
+    },
+    {
+      "title": "reference / get interaction",
+      "url": "https://developers.webflow.com/designer/reference/get-interaction",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-interaction.md"
+    },
+    {
+      "title": "reference / get launch context",
+      "url": "https://developers.webflow.com/designer/reference/get-launch-context",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-launch-context.md"
+    },
+    {
+      "title": "reference / get open graph description",
+      "url": "https://developers.webflow.com/designer/reference/get-open-graph-description",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-open-graph-description.md"
+    },
+    {
+      "title": "reference / get open graph image",
+      "url": "https://developers.webflow.com/designer/reference/get-open-graph-image",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-open-graph-image.md"
+    },
+    {
+      "title": "reference / get open graph title",
+      "url": "https://developers.webflow.com/designer/reference/get-open-graph-title",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-open-graph-title.md"
+    },
+    {
+      "title": "reference / get page category",
+      "url": "https://developers.webflow.com/designer/reference/get-page-category",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-page-category.md"
+    },
+    {
+      "title": "reference / get page description",
+      "url": "https://developers.webflow.com/designer/reference/get-page-description",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-page-description.md"
+    },
+    {
+      "title": "reference / get page name",
+      "url": "https://developers.webflow.com/designer/reference/get-page-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-page-name.md"
+    },
+    {
+      "title": "reference / get page publish path",
+      "url": "https://developers.webflow.com/designer/reference/get-page-publish-path",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-page-publish-path.md"
+    },
+    {
+      "title": "reference / get page slug",
+      "url": "https://developers.webflow.com/designer/reference/get-page-slug",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-page-slug.md"
+    },
+    {
+      "title": "reference / get page title",
+      "url": "https://developers.webflow.com/designer/reference/get-page-title",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-page-title.md"
+    },
+    {
+      "title": "reference / get parent component",
+      "url": "https://developers.webflow.com/designer/reference/get-parent-component",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-parent-component.md"
+    },
+    {
+      "title": "reference / get parent folder",
+      "url": "https://developers.webflow.com/designer/reference/get-parent-folder",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-parent-folder.md"
+    },
+    {
+      "title": "reference / get parent page id",
+      "url": "https://developers.webflow.com/designer/reference/get-parent-page-id",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-parent-page-id.md"
+    },
+    {
+      "title": "reference / get pseudo mode",
+      "url": "https://developers.webflow.com/designer/reference/get-pseudo-mode",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-pseudo-mode.md"
+    },
+    {
+      "title": "reference / get root element",
+      "url": "https://developers.webflow.com/designer/reference/get-root-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-root-element.md"
+    },
+    {
+      "title": "reference / get search description",
+      "url": "https://developers.webflow.com/designer/reference/get-search-description",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-search-description.md"
+    },
+    {
+      "title": "reference / get search image",
+      "url": "https://developers.webflow.com/designer/reference/get-search-image",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-search-image.md"
+    },
+    {
+      "title": "reference / get search title",
+      "url": "https://developers.webflow.com/designer/reference/get-search-title",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-search-title.md"
+    },
+    {
+      "title": "reference / get selected element",
+      "url": "https://developers.webflow.com/designer/reference/get-selected-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-selected-element.md"
+    },
+    {
+      "title": "reference / get selected variant",
+      "url": "https://developers.webflow.com/designer/reference/get-selected-variant",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-selected-variant.md"
+    },
+    {
+      "title": "reference / get site info",
+      "url": "https://developers.webflow.com/designer/reference/get-site-info",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-site-info.md"
+    },
+    {
+      "title": "reference / get style by name",
+      "url": "https://developers.webflow.com/designer/reference/get-style-by-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-style-by-name.md"
+    },
+    {
+      "title": "reference / get style properties",
+      "url": "https://developers.webflow.com/designer/reference/get-style-properties",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-style-properties.md"
+    },
+    {
+      "title": "reference / get style property",
+      "url": "https://developers.webflow.com/designer/reference/get-style-property",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-style-property.md"
+    },
+    {
+      "title": "reference / get tag",
+      "url": "https://developers.webflow.com/designer/reference/get-tag",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-tag.md"
+    },
+    {
+      "title": "reference / get text content",
+      "url": "https://developers.webflow.com/designer/reference/get-text-content",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-text-content.md"
+    },
+    {
+      "title": "reference / get theme",
+      "url": "https://developers.webflow.com/designer/reference/get-theme",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-theme.md"
+    },
+    {
+      "title": "reference / get theme styles",
+      "url": "https://developers.webflow.com/designer/reference/get-theme-styles",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-theme-styles.md"
+    },
+    {
+      "title": "reference / get user id token",
+      "url": "https://developers.webflow.com/designer/reference/get-user-id-token",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-user-id-token.md"
+    },
+    {
+      "title": "reference / get users designer capabilities",
+      "url": "https://developers.webflow.com/designer/reference/get-users-designer-capabilities",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-users-designer-capabilities.md"
+    },
+    {
+      "title": "reference / get utility page key",
+      "url": "https://developers.webflow.com/designer/reference/get-utility-page-key",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-utility-page-key.md"
+    },
+    {
+      "title": "reference / get variable",
+      "url": "https://developers.webflow.com/designer/reference/get-variable",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable.md"
+    },
+    {
+      "title": "reference / get variable binding",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-binding",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-binding.md"
+    },
+    {
+      "title": "reference / get variable by name",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-by-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-by-name.md"
+    },
+    {
+      "title": "reference / get variable collection by id",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-collection-by-id",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-collection-by-id.md"
+    },
+    {
+      "title": "reference / get variable css name",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-css-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-css-name.md"
+    },
+    {
+      "title": "reference / get variable mode breakpoint",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-mode-breakpoint",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-mode-breakpoint.md"
+    },
+    {
+      "title": "reference / get variable mode by id",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-mode-by-id",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-mode-by-id.md"
+    },
+    {
+      "title": "reference / get variable mode by name",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-mode-by-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-mode-by-name.md"
+    },
+    {
+      "title": "reference / get variable mode name",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-mode-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-mode-name.md"
+    },
+    {
+      "title": "reference / get variable mode style",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-mode-style",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-mode-style.md"
+    },
+    {
+      "title": "reference / get variable modes style",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-modes-style",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-modes-style.md"
+    },
+    {
+      "title": "reference / get variable name",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-name.md"
+    },
+    {
+      "title": "reference / get variable value",
+      "url": "https://developers.webflow.com/designer/reference/get-variable-value",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variable-value.md"
+    },
+    {
+      "title": "reference / get variant",
+      "url": "https://developers.webflow.com/designer/reference/get-variant",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variant.md"
+    },
+    {
+      "title": "reference / get variants",
+      "url": "https://developers.webflow.com/designer/reference/get-variants",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/get-variants.md"
+    },
+    {
+      "title": "reference / heading element",
+      "url": "https://developers.webflow.com/designer/reference/heading-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/heading-element.md"
+    },
+    {
+      "title": "heading element / getHeadingLevel",
+      "url": "https://developers.webflow.com/designer/reference/heading-element/getHeadingLevel",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/heading-element/getHeadingLevel.md"
+    },
+    {
+      "title": "heading element / setHeadingLevel",
+      "url": "https://developers.webflow.com/designer/reference/heading-element/setHeadingLevel",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/heading-element/setHeadingLevel.md"
+    },
+    {
+      "title": "reference / image element",
+      "url": "https://developers.webflow.com/designer/reference/image-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/image-element.md"
+    },
+    {
+      "title": "image element / getAltText",
+      "url": "https://developers.webflow.com/designer/reference/image-element/getAltText",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/image-element/getAltText.md"
+    },
+    {
+      "title": "image element / getAsset",
+      "url": "https://developers.webflow.com/designer/reference/image-element/getAsset",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/image-element/getAsset.md"
+    },
+    {
+      "title": "image element / setAltText",
+      "url": "https://developers.webflow.com/designer/reference/image-element/setAltText",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/image-element/setAltText.md"
+    },
+    {
+      "title": "image element / setAsset",
+      "url": "https://developers.webflow.com/designer/reference/image-element/setAsset",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/image-element/setAsset.md"
+    },
+    {
+      "title": "reference / insert element after",
+      "url": "https://developers.webflow.com/designer/reference/insert-element-after",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/insert-element-after.md"
+    },
+    {
+      "title": "reference / insert element before",
+      "url": "https://developers.webflow.com/designer/reference/insert-element-before",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/insert-element-before.md"
+    },
+    {
+      "title": "reference / interaction examples",
+      "url": "https://developers.webflow.com/designer/reference/interaction-examples",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/interaction-examples.md"
+    },
+    {
+      "title": "reference / interaction schema",
+      "url": "https://developers.webflow.com/designer/reference/interaction-schema",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/interaction-schema.md"
+    },
+    {
+      "title": "reference / interactions overview",
+      "url": "https://developers.webflow.com/designer/reference/interactions-overview",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/interactions-overview.md"
+    },
+    {
+      "title": "reference / introduction",
+      "url": "https://developers.webflow.com/designer/reference/introduction",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/introduction.md"
+    },
+    {
+      "title": "reference / is mode",
+      "url": "https://developers.webflow.com/designer/reference/is-mode",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/is-mode.md"
+    },
+    {
+      "title": "reference / link element",
+      "url": "https://developers.webflow.com/designer/reference/link-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/link-element.md"
+    },
+    {
+      "title": "link element / getTarget",
+      "url": "https://developers.webflow.com/designer/reference/link-element/getTarget",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/link-element/getTarget.md"
+    },
+    {
+      "title": "link element / setSettings",
+      "url": "https://developers.webflow.com/designer/reference/link-element/setSettings",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/link-element/setSettings.md"
+    },
+    {
+      "title": "reference / list branches",
+      "url": "https://developers.webflow.com/designer/reference/list-branches",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/list-branches.md"
+    },
+    {
+      "title": "managing components / create prop",
+      "url": "https://developers.webflow.com/designer/reference/managing-components/create-prop",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/managing-components/create-prop.md"
+    },
+    {
+      "title": "managing components / create props",
+      "url": "https://developers.webflow.com/designer/reference/managing-components/create-props",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/managing-components/create-props.md"
+    },
+    {
+      "title": "managing components / get prop",
+      "url": "https://developers.webflow.com/designer/reference/managing-components/get-prop",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/managing-components/get-prop.md"
+    },
+    {
+      "title": "managing components / get prop by name",
+      "url": "https://developers.webflow.com/designer/reference/managing-components/get-prop-by-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/managing-components/get-prop-by-name.md"
+    },
+    {
+      "title": "managing components / get props",
+      "url": "https://developers.webflow.com/designer/reference/managing-components/get-props",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/managing-components/get-props.md"
+    },
+    {
+      "title": "managing components / remove prop",
+      "url": "https://developers.webflow.com/designer/reference/managing-components/remove-prop",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/managing-components/remove-prop.md"
+    },
+    {
+      "title": "managing components / set prop",
+      "url": "https://developers.webflow.com/designer/reference/managing-components/set-prop",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/managing-components/set-prop.md"
+    },
+    {
+      "title": "reference / managing variable modes style",
+      "url": "https://developers.webflow.com/designer/reference/managing-variable-modes-style",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/managing-variable-modes-style.md"
+    },
+    {
+      "title": "reference / migrating to v2",
+      "url": "https://developers.webflow.com/designer/reference/migrating-to-v2",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/migrating-to-v2.md"
+    },
+    {
+      "title": "reference / move collection after",
+      "url": "https://developers.webflow.com/designer/reference/move-collection-after",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/move-collection-after.md"
+    },
+    {
+      "title": "reference / move collection before",
+      "url": "https://developers.webflow.com/designer/reference/move-collection-before",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/move-collection-before.md"
+    },
+    {
+      "title": "reference / notify user",
+      "url": "https://developers.webflow.com/designer/reference/notify-user",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/notify-user.md"
+    },
+    {
+      "title": "reference / open canvas",
+      "url": "https://developers.webflow.com/designer/reference/open-canvas",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/open-canvas.md"
+    },
+    {
+      "title": "reference / pages overview",
+      "url": "https://developers.webflow.com/designer/reference/pages-overview",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/pages-overview.md"
+    },
+    {
+      "title": "reference / prepend",
+      "url": "https://developers.webflow.com/designer/reference/prepend",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/prepend.md"
+    },
+    {
+      "title": "reference / remove a style property",
+      "url": "https://developers.webflow.com/designer/reference/remove-a-style-property",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-a-style-property.md"
+    },
+    {
+      "title": "reference / remove all variable modes",
+      "url": "https://developers.webflow.com/designer/reference/remove-all-variable-modes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-all-variable-modes.md"
+    },
+    {
+      "title": "reference / remove app connection",
+      "url": "https://developers.webflow.com/designer/reference/remove-app-connection",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-app-connection.md"
+    },
+    {
+      "title": "reference / remove element",
+      "url": "https://developers.webflow.com/designer/reference/remove-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-element.md"
+    },
+    {
+      "title": "reference / remove interaction",
+      "url": "https://developers.webflow.com/designer/reference/remove-interaction",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-interaction.md"
+    },
+    {
+      "title": "reference / remove style",
+      "url": "https://developers.webflow.com/designer/reference/remove-style",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-style.md"
+    },
+    {
+      "title": "reference / remove style properties",
+      "url": "https://developers.webflow.com/designer/reference/remove-style-properties",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-style-properties.md"
+    },
+    {
+      "title": "reference / remove variable",
+      "url": "https://developers.webflow.com/designer/reference/remove-variable",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-variable.md"
+    },
+    {
+      "title": "reference / remove variable collection",
+      "url": "https://developers.webflow.com/designer/reference/remove-variable-collection",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-variable-collection.md"
+    },
+    {
+      "title": "reference / remove variable mode",
+      "url": "https://developers.webflow.com/designer/reference/remove-variable-mode",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-variable-mode.md"
+    },
+    {
+      "title": "reference / remove variable mode style",
+      "url": "https://developers.webflow.com/designer/reference/remove-variable-mode-style",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-variable-mode-style.md"
+    },
+    {
+      "title": "reference / remove variable modes style",
+      "url": "https://developers.webflow.com/designer/reference/remove-variable-modes-style",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/remove-variable-modes-style.md"
+    },
+    {
+      "title": "reference / reorder variants",
+      "url": "https://developers.webflow.com/designer/reference/reorder-variants",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/reorder-variants.md"
+    },
+    {
+      "title": "reference / resize extension",
+      "url": "https://developers.webflow.com/designer/reference/resize-extension",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/resize-extension.md"
+    },
+    {
+      "title": "reference / search components",
+      "url": "https://developers.webflow.com/designer/reference/search-components",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/search-components.md"
+    },
+    {
+      "title": "reference / set alt text",
+      "url": "https://developers.webflow.com/designer/reference/set-alt-text",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-alt-text.md"
+    },
+    {
+      "title": "reference / set app connection",
+      "url": "https://developers.webflow.com/designer/reference/set-app-connection",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-app-connection.md"
+    },
+    {
+      "title": "reference / set asset file",
+      "url": "https://developers.webflow.com/designer/reference/set-asset-file",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-asset-file.md"
+    },
+    {
+      "title": "reference / set asset folder parent",
+      "url": "https://developers.webflow.com/designer/reference/set-asset-folder-parent",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-asset-folder-parent.md"
+    },
+    {
+      "title": "reference / set asset name",
+      "url": "https://developers.webflow.com/designer/reference/set-asset-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-asset-name.md"
+    },
+    {
+      "title": "reference / set component name",
+      "url": "https://developers.webflow.com/designer/reference/set-component-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-component-name.md"
+    },
+    {
+      "title": "reference / set component settings",
+      "url": "https://developers.webflow.com/designer/reference/set-component-settings",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-component-settings.md"
+    },
+    {
+      "title": "reference / set display name",
+      "url": "https://developers.webflow.com/designer/reference/set-display-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-display-name.md"
+    },
+    {
+      "title": "reference / set draft",
+      "url": "https://developers.webflow.com/designer/reference/set-draft",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-draft.md"
+    },
+    {
+      "title": "reference / set folder name",
+      "url": "https://developers.webflow.com/designer/reference/set-folder-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-folder-name.md"
+    },
+    {
+      "title": "reference / set folder slug",
+      "url": "https://developers.webflow.com/designer/reference/set-folder-slug",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-folder-slug.md"
+    },
+    {
+      "title": "reference / set interaction",
+      "url": "https://developers.webflow.com/designer/reference/set-interaction",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-interaction.md"
+    },
+    {
+      "title": "reference / set open graph description",
+      "url": "https://developers.webflow.com/designer/reference/set-open-graph-description",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-open-graph-description.md"
+    },
+    {
+      "title": "reference / set open graph image url",
+      "url": "https://developers.webflow.com/designer/reference/set-open-graph-image-url",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-open-graph-image-url.md"
+    },
+    {
+      "title": "reference / set open graph title",
+      "url": "https://developers.webflow.com/designer/reference/set-open-graph-title",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-open-graph-title.md"
+    },
+    {
+      "title": "reference / set page description",
+      "url": "https://developers.webflow.com/designer/reference/set-page-description",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-page-description.md"
+    },
+    {
+      "title": "reference / set page name",
+      "url": "https://developers.webflow.com/designer/reference/set-page-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-page-name.md"
+    },
+    {
+      "title": "reference / set page slug",
+      "url": "https://developers.webflow.com/designer/reference/set-page-slug",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-page-slug.md"
+    },
+    {
+      "title": "reference / set page title",
+      "url": "https://developers.webflow.com/designer/reference/set-page-title",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-page-title.md"
+    },
+    {
+      "title": "reference / set page to use title as open graph title",
+      "url": "https://developers.webflow.com/designer/reference/set-page-to-use-title-as-open-graph-title",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-page-to-use-title-as-open-graph-title.md"
+    },
+    {
+      "title": "reference / set parent folder",
+      "url": "https://developers.webflow.com/designer/reference/set-parent-folder",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-parent-folder.md"
+    },
+    {
+      "title": "reference / set search description",
+      "url": "https://developers.webflow.com/designer/reference/set-search-description",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-search-description.md"
+    },
+    {
+      "title": "reference / set search image",
+      "url": "https://developers.webflow.com/designer/reference/set-search-image",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-search-image.md"
+    },
+    {
+      "title": "reference / set search title",
+      "url": "https://developers.webflow.com/designer/reference/set-search-title",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-search-title.md"
+    },
+    {
+      "title": "reference / set selected element",
+      "url": "https://developers.webflow.com/designer/reference/set-selected-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-selected-element.md"
+    },
+    {
+      "title": "reference / set selected variant",
+      "url": "https://developers.webflow.com/designer/reference/set-selected-variant",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-selected-variant.md"
+    },
+    {
+      "title": "reference / set style name",
+      "url": "https://developers.webflow.com/designer/reference/set-style-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-style-name.md"
+    },
+    {
+      "title": "reference / set style properties",
+      "url": "https://developers.webflow.com/designer/reference/set-style-properties",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-style-properties.md"
+    },
+    {
+      "title": "reference / set style property",
+      "url": "https://developers.webflow.com/designer/reference/set-style-property",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-style-property.md"
+    },
+    {
+      "title": "reference / set tag",
+      "url": "https://developers.webflow.com/designer/reference/set-tag",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-tag.md"
+    },
+    {
+      "title": "reference / set text content",
+      "url": "https://developers.webflow.com/designer/reference/set-text-content",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-text-content.md"
+    },
+    {
+      "title": "reference / set variable collection name",
+      "url": "https://developers.webflow.com/designer/reference/set-variable-collection-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-variable-collection-name.md"
+    },
+    {
+      "title": "reference / set variable mode breakpoint",
+      "url": "https://developers.webflow.com/designer/reference/set-variable-mode-breakpoint",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-variable-mode-breakpoint.md"
+    },
+    {
+      "title": "reference / set variable mode name",
+      "url": "https://developers.webflow.com/designer/reference/set-variable-mode-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-variable-mode-name.md"
+    },
+    {
+      "title": "reference / set variable mode style",
+      "url": "https://developers.webflow.com/designer/reference/set-variable-mode-style",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-variable-mode-style.md"
+    },
+    {
+      "title": "reference / set variable modes style",
+      "url": "https://developers.webflow.com/designer/reference/set-variable-modes-style",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-variable-modes-style.md"
+    },
+    {
+      "title": "reference / set variable name",
+      "url": "https://developers.webflow.com/designer/reference/set-variable-name",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-variable-name.md"
+    },
+    {
+      "title": "reference / set variable value",
+      "url": "https://developers.webflow.com/designer/reference/set-variable-value",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-variable-value.md"
+    },
+    {
+      "title": "reference / set variant",
+      "url": "https://developers.webflow.com/designer/reference/set-variant",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/set-variant.md"
+    },
+    {
+      "title": "reference / slot instance element",
+      "url": "https://developers.webflow.com/designer/reference/slot-instance-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/slot-instance-element.md"
+    },
+    {
+      "title": "slot instance element / append",
+      "url": "https://developers.webflow.com/designer/reference/slot-instance-element/append",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/slot-instance-element/append.md"
+    },
+    {
+      "title": "slot instance element / getChildren",
+      "url": "https://developers.webflow.com/designer/reference/slot-instance-element/getChildren",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/slot-instance-element/getChildren.md"
+    },
+    {
+      "title": "slot instance element / getDisplayName",
+      "url": "https://developers.webflow.com/designer/reference/slot-instance-element/getDisplayName",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/slot-instance-element/getDisplayName.md"
+    },
+    {
+      "title": "slot instance element / prepend",
+      "url": "https://developers.webflow.com/designer/reference/slot-instance-element/prepend",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/slot-instance-element/prepend.md"
+    },
+    {
+      "title": "reference / string element",
+      "url": "https://developers.webflow.com/designer/reference/string-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/string-element.md"
+    },
+    {
+      "title": "string element / getText",
+      "url": "https://developers.webflow.com/designer/reference/string-element/getText",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/string-element/getText.md"
+    },
+    {
+      "title": "string element / setText",
+      "url": "https://developers.webflow.com/designer/reference/string-element/setText",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/string-element/setText.md"
+    },
+    {
+      "title": "reference / style properties",
+      "url": "https://developers.webflow.com/designer/reference/style-properties",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/style-properties.md"
+    },
+    {
+      "title": "style / get selector",
+      "url": "https://developers.webflow.com/designer/reference/style/get-selector",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/style/get-selector.md"
+    },
+    {
+      "title": "style / get type",
+      "url": "https://developers.webflow.com/designer/reference/style/get-type",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/style/get-type.md"
+    },
+    {
+      "title": "style / is combo class",
+      "url": "https://developers.webflow.com/designer/reference/style/is-combo-class",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/style/is-combo-class.md"
+    },
+    {
+      "title": "style / is from library",
+      "url": "https://developers.webflow.com/designer/reference/style/is-from-library",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/style/is-from-library.md"
+    },
+    {
+      "title": "reference / styles overview",
+      "url": "https://developers.webflow.com/designer/reference/styles-overview",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/styles-overview.md"
+    },
+    {
+      "title": "reference / switch page",
+      "url": "https://developers.webflow.com/designer/reference/switch-page",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/switch-page.md"
+    },
+    {
+      "title": "reference / use description as open graph description",
+      "url": "https://developers.webflow.com/designer/reference/use-description-as-open-graph-description",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/use-description-as-open-graph-description.md"
+    },
+    {
+      "title": "reference / use open graph image as search image",
+      "url": "https://developers.webflow.com/designer/reference/use-open-graph-image-as-search-image",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/use-open-graph-image-as-search-image.md"
+    },
+    {
+      "title": "reference / use page description as search description",
+      "url": "https://developers.webflow.com/designer/reference/use-page-description-as-search-description",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/use-page-description-as-search-description.md"
+    },
+    {
+      "title": "reference / use page title as search title",
+      "url": "https://developers.webflow.com/designer/reference/use-page-title-as-search-title",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/use-page-title-as-search-title.md"
+    },
+    {
+      "title": "reference / user changes breakpoint",
+      "url": "https://developers.webflow.com/designer/reference/user-changes-breakpoint",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/user-changes-breakpoint.md"
+    },
+    {
+      "title": "reference / user changes cms page",
+      "url": "https://developers.webflow.com/designer/reference/user-changes-cms-page",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/user-changes-cms-page.md"
+    },
+    {
+      "title": "reference / user changes current page",
+      "url": "https://developers.webflow.com/designer/reference/user-changes-current-page",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/user-changes-current-page.md"
+    },
+    {
+      "title": "reference / user changes mode",
+      "url": "https://developers.webflow.com/designer/reference/user-changes-mode",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/user-changes-mode.md"
+    },
+    {
+      "title": "reference / user changes pseudo mode",
+      "url": "https://developers.webflow.com/designer/reference/user-changes-pseudo-mode",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/user-changes-pseudo-mode.md"
+    },
+    {
+      "title": "reference / user changes variant",
+      "url": "https://developers.webflow.com/designer/reference/user-changes-variant",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/user-changes-variant.md"
+    },
+    {
+      "title": "reference / user selects element",
+      "url": "https://developers.webflow.com/designer/reference/user-selects-element",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/user-selects-element.md"
+    },
+    {
+      "title": "reference / uses description as open graph description",
+      "url": "https://developers.webflow.com/designer/reference/uses-description-as-open-graph-description",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/uses-description-as-open-graph-description.md"
+    },
+    {
+      "title": "reference / uses title as open graph title",
+      "url": "https://developers.webflow.com/designer/reference/uses-title-as-open-graph-title",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/uses-title-as-open-graph-title.md"
+    },
+    {
+      "title": "reference / variable collections overview",
+      "url": "https://developers.webflow.com/designer/reference/variable-collections-overview",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/variable-collections-overview.md"
+    },
+    {
+      "title": "reference / variable modes",
+      "url": "https://developers.webflow.com/designer/reference/variable-modes",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/variable-modes.md"
+    },
+    {
+      "title": "reference / variables detail overview",
+      "url": "https://developers.webflow.com/designer/reference/variables-detail-overview",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/variables-detail-overview.md"
+    },
+    {
+      "title": "reference / variables overview",
+      "url": "https://developers.webflow.com/designer/reference/variables-overview",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/variables-overview.md"
+    },
+    {
+      "title": "reference / webflow cli",
+      "url": "https://developers.webflow.com/designer/reference/webflow-cli",
+      "fetchUrl": "https://developers.webflow.com/designer/reference/webflow-cli.md"
+    },
+    {
+      "title": "designer / set page metadata",
+      "url": "https://developers.webflow.com/designer/set-page-metadata",
+      "fetchUrl": "https://developers.webflow.com/designer/set-page-metadata.md"
+    },
+    {
+      "title": "devlink / design guidelines",
+      "url": "https://developers.webflow.com/devlink/design-guidelines",
+      "fetchUrl": "https://developers.webflow.com/devlink/design-guidelines.md"
+    },
+    {
+      "title": "docs / component export",
+      "url": "https://developers.webflow.com/devlink/docs/component-export",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export.md"
+    },
+    {
+      "title": "design guidelines / component architecture",
+      "url": "https://developers.webflow.com/devlink/docs/component-export/design-guidelines/component-architecture",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export/design-guidelines/component-architecture.md"
+    },
+    {
+      "title": "design guidelines / element settings",
+      "url": "https://developers.webflow.com/devlink/docs/component-export/design-guidelines/element-settings",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export/design-guidelines/element-settings.md"
+    },
+    {
+      "title": "design guidelines / interactions",
+      "url": "https://developers.webflow.com/devlink/docs/component-export/design-guidelines/interactions",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export/design-guidelines/interactions.md"
+    },
+    {
+      "title": "design guidelines / props slots",
+      "url": "https://developers.webflow.com/devlink/docs/component-export/design-guidelines/props-slots",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export/design-guidelines/props-slots.md"
+    },
+    {
+      "title": "component export / fonts",
+      "url": "https://developers.webflow.com/devlink/docs/component-export/fonts",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export/fonts.md"
+    },
+    {
+      "title": "component export / installation",
+      "url": "https://developers.webflow.com/devlink/docs/component-export/installation",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export/installation.md"
+    },
+    {
+      "title": "component export / resources",
+      "url": "https://developers.webflow.com/devlink/docs/component-export/resources",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export/resources.md"
+    },
+    {
+      "title": "component export / troubleshooting",
+      "url": "https://developers.webflow.com/devlink/docs/component-export/troubleshooting",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export/troubleshooting.md"
+    },
+    {
+      "title": "component export / usage",
+      "url": "https://developers.webflow.com/devlink/docs/component-export/usage",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export/usage.md"
+    },
+    {
+      "title": "component export / whats exported",
+      "url": "https://developers.webflow.com/devlink/docs/component-export/whats-exported",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/component-export/whats-exported.md"
+    },
+    {
+      "title": "quick start / quick start component export",
+      "url": "https://developers.webflow.com/devlink/docs/quick-start/quick-start-component-export",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/quick-start/quick-start-component-export.md"
+    },
+    {
+      "title": "reference / migrate from sync",
+      "url": "https://developers.webflow.com/devlink/docs/reference/migrate-from-sync",
+      "fetchUrl": "https://developers.webflow.com/devlink/docs/reference/migrate-from-sync.md"
+    },
+    {
+      "title": "introduction / getting started",
+      "url": "https://developers.webflow.com/devlink/introduction/getting-started",
+      "fetchUrl": "https://developers.webflow.com/devlink/introduction/getting-started.md"
+    },
+    {
+      "title": "reference / cli",
+      "url": "https://developers.webflow.com/devlink/reference/cli",
+      "fetchUrl": "https://developers.webflow.com/devlink/reference/cli.md"
+    },
+    {
+      "title": "reference / overview",
+      "url": "https://developers.webflow.com/devlink/reference/overview",
+      "fetchUrl": "https://developers.webflow.com/devlink/reference/overview.md"
+    },
+    {
+      "title": "usage / framework guides",
+      "url": "https://developers.webflow.com/devlink/usage/framework-guides",
+      "fetchUrl": "https://developers.webflow.com/devlink/usage/framework-guides.md"
+    },
+    {
+      "title": "usage / styling and theming overrides",
+      "url": "https://developers.webflow.com/devlink/usage/styling-and-theming-overrides",
+      "fetchUrl": "https://developers.webflow.com/devlink/usage/styling-and-theming-overrides.md"
+    },
+    {
+      "title": "flowkit / components",
+      "url": "https://developers.webflow.com/flowkit/components",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components.md"
+    },
+    {
+      "title": "components / accordion",
+      "url": "https://developers.webflow.com/flowkit/components/accordion",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/accordion.md"
+    },
+    {
+      "title": "components / buttons",
+      "url": "https://developers.webflow.com/flowkit/components/buttons",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/buttons.md"
+    },
+    {
+      "title": "components / cards",
+      "url": "https://developers.webflow.com/flowkit/components/cards",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/cards.md"
+    },
+    {
+      "title": "components / divider",
+      "url": "https://developers.webflow.com/flowkit/components/divider",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/divider.md"
+    },
+    {
+      "title": "components / dropdown",
+      "url": "https://developers.webflow.com/flowkit/components/dropdown",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/dropdown.md"
+    },
+    {
+      "title": "components / forms",
+      "url": "https://developers.webflow.com/flowkit/components/forms",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/forms.md"
+    },
+    {
+      "title": "components / images",
+      "url": "https://developers.webflow.com/flowkit/components/images",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/images.md"
+    },
+    {
+      "title": "components / richtext",
+      "url": "https://developers.webflow.com/flowkit/components/richtext",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/richtext.md"
+    },
+    {
+      "title": "components / slider",
+      "url": "https://developers.webflow.com/flowkit/components/slider",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/slider.md"
+    },
+    {
+      "title": "components / tabs",
+      "url": "https://developers.webflow.com/flowkit/components/tabs",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/tabs.md"
+    },
+    {
+      "title": "components / tag",
+      "url": "https://developers.webflow.com/flowkit/components/tag",
+      "fetchUrl": "https://developers.webflow.com/flowkit/components/tag.md"
+    },
+    {
+      "title": "foundation / spacing",
+      "url": "https://developers.webflow.com/flowkit/foundation/spacing",
+      "fetchUrl": "https://developers.webflow.com/flowkit/foundation/spacing.md"
+    },
+    {
+      "title": "getting started / intro",
+      "url": "https://developers.webflow.com/flowkit/getting-started/intro",
+      "fetchUrl": "https://developers.webflow.com/flowkit/getting-started/intro.md"
+    },
+    {
+      "title": "getting started / units",
+      "url": "https://developers.webflow.com/flowkit/getting-started/units",
+      "fetchUrl": "https://developers.webflow.com/flowkit/getting-started/units.md"
+    },
+    {
+      "title": "reference / utilities",
+      "url": "https://developers.webflow.com/flowkit/reference/utilities",
+      "fetchUrl": "https://developers.webflow.com/flowkit/reference/utilities.md"
+    },
+    {
+      "title": "structure / flex",
+      "url": "https://developers.webflow.com/flowkit/structure/flex",
+      "fetchUrl": "https://developers.webflow.com/flowkit/structure/flex.md"
+    },
+    {
+      "title": "structure / grid",
+      "url": "https://developers.webflow.com/flowkit/structure/grid",
+      "fetchUrl": "https://developers.webflow.com/flowkit/structure/grid.md"
+    },
+    {
+      "title": "structure / page structure",
+      "url": "https://developers.webflow.com/flowkit/structure/page-structure",
+      "fetchUrl": "https://developers.webflow.com/flowkit/structure/page-structure.md"
+    },
+    {
+      "title": "components / accordion",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/components/accordion",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/components/accordion.md"
+    },
+    {
+      "title": "components / buttons",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/components/buttons",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/components/buttons.md"
+    },
+    {
+      "title": "components / cards",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/components/cards",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/components/cards.md"
+    },
+    {
+      "title": "components / divider",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/components/divider",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/components/divider.md"
+    },
+    {
+      "title": "components / dropdown",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/components/dropdown",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/components/dropdown.md"
+    },
+    {
+      "title": "components / forms",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/components/forms",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/components/forms.md"
+    },
+    {
+      "title": "components / images",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/components/images",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/components/images.md"
+    },
+    {
+      "title": "components / richtext",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/components/richtext",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/components/richtext.md"
+    },
+    {
+      "title": "components / slider",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/components/slider",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/components/slider.md"
+    },
+    {
+      "title": "components / tabs",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/components/tabs",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/components/tabs.md"
+    },
+    {
+      "title": "foundation / spacing",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/foundation/spacing",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/foundation/spacing.md"
+    },
+    {
+      "title": "getting started / intro",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/getting-started/intro",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/getting-started/intro.md"
+    },
+    {
+      "title": "getting started / units",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/getting-started/units",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/getting-started/units.md"
+    },
+    {
+      "title": "components / tag",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/reference/flowkit-beta/components/tag",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/reference/flowkit-beta/components/tag.md"
+    },
+    {
+      "title": "reference / utilities",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/reference/utilities",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/reference/utilities.md"
+    },
+    {
+      "title": "structure / flex",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/structure/flex",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/structure/flex.md"
+    },
+    {
+      "title": "structure / grid",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/structure/grid",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/structure/grid.md"
+    },
+    {
+      "title": "structure / page structure",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/structure/page-structure",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/structure/page-structure.md"
+    },
+    {
+      "title": "variables / border",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/variables/border",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/variables/border.md"
+    },
+    {
+      "title": "variables / color",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/variables/color",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/variables/color.md"
+    },
+    {
+      "title": "variables / overview",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/variables/overview",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/variables/overview.md"
+    },
+    {
+      "title": "variables / typography",
+      "url": "https://developers.webflow.com/flowkit/v1.0.0/variables/typography",
+      "fetchUrl": "https://developers.webflow.com/flowkit/v1.0.0/variables/typography.md"
+    },
+    {
+      "title": "variables / border",
+      "url": "https://developers.webflow.com/flowkit/variables/border",
+      "fetchUrl": "https://developers.webflow.com/flowkit/variables/border.md"
+    },
+    {
+      "title": "variables / color",
+      "url": "https://developers.webflow.com/flowkit/variables/color",
+      "fetchUrl": "https://developers.webflow.com/flowkit/variables/color.md"
+    },
+    {
+      "title": "variables / overview",
+      "url": "https://developers.webflow.com/flowkit/variables/overview",
+      "fetchUrl": "https://developers.webflow.com/flowkit/variables/overview.md"
+    },
+    {
+      "title": "variables / typography",
+      "url": "https://developers.webflow.com/flowkit/variables/typography",
+      "fetchUrl": "https://developers.webflow.com/flowkit/variables/typography.md"
+    },
+    {
+      "title": "home",
+      "url": "https://developers.webflow.com/home",
+      "fetchUrl": "https://developers.webflow.com/home.md"
+    },
+    {
+      "title": "examples / prompts",
+      "url": "https://developers.webflow.com/mcp/examples/prompts",
+      "fetchUrl": "https://developers.webflow.com/mcp/examples/prompts.md"
+    },
+    {
+      "title": "mcp / faqs",
+      "url": "https://developers.webflow.com/mcp/faqs",
+      "fetchUrl": "https://developers.webflow.com/mcp/faqs.md"
+    },
+    {
+      "title": "installing / beta",
+      "url": "https://developers.webflow.com/mcp/installing/beta",
+      "fetchUrl": "https://developers.webflow.com/mcp/installing/beta.md"
+    },
+    {
+      "title": "installing / chatgpt",
+      "url": "https://developers.webflow.com/mcp/installing/chatgpt",
+      "fetchUrl": "https://developers.webflow.com/mcp/installing/chatgpt.md"
+    },
+    {
+      "title": "installing / claude code",
+      "url": "https://developers.webflow.com/mcp/installing/claude-code",
+      "fetchUrl": "https://developers.webflow.com/mcp/installing/claude-code.md"
+    },
+    {
+      "title": "installing / claude desktop",
+      "url": "https://developers.webflow.com/mcp/installing/claude-desktop",
+      "fetchUrl": "https://developers.webflow.com/mcp/installing/claude-desktop.md"
+    },
+    {
+      "title": "installing / documentation server",
+      "url": "https://developers.webflow.com/mcp/installing/documentation-server",
+      "fetchUrl": "https://developers.webflow.com/mcp/installing/documentation-server.md"
+    },
+    {
+      "title": "installing / grok build",
+      "url": "https://developers.webflow.com/mcp/installing/grok-build",
+      "fetchUrl": "https://developers.webflow.com/mcp/installing/grok-build.md"
+    },
+    {
+      "title": "installing / postman",
+      "url": "https://developers.webflow.com/mcp/installing/postman",
+      "fetchUrl": "https://developers.webflow.com/mcp/installing/postman.md"
+    },
+    {
+      "title": "installing / slack",
+      "url": "https://developers.webflow.com/mcp/installing/slack",
+      "fetchUrl": "https://developers.webflow.com/mcp/installing/slack.md"
+    },
+    {
+      "title": "prompts / breakpoint style migrator",
+      "url": "https://developers.webflow.com/mcp/prompts/breakpoint-style-migrator",
+      "fetchUrl": "https://developers.webflow.com/mcp/prompts/breakpoint-style-migrator.md"
+    },
+    {
+      "title": "prompts / breakpoint styles updater",
+      "url": "https://developers.webflow.com/mcp/prompts/breakpoint-styles-updater",
+      "fetchUrl": "https://developers.webflow.com/mcp/prompts/breakpoint-styles-updater.md"
+    },
+    {
+      "title": "prompts / image optimizer",
+      "url": "https://developers.webflow.com/mcp/prompts/image-optimizer",
+      "fetchUrl": "https://developers.webflow.com/mcp/prompts/image-optimizer.md"
+    },
+    {
+      "title": "prompts / keyword optimizer",
+      "url": "https://developers.webflow.com/mcp/prompts/keyword-optimizer",
+      "fetchUrl": "https://developers.webflow.com/mcp/prompts/keyword-optimizer.md"
+    },
+    {
+      "title": "prompts / link auditor and fixer",
+      "url": "https://developers.webflow.com/mcp/prompts/link-auditor-and-fixer",
+      "fetchUrl": "https://developers.webflow.com/mcp/prompts/link-auditor-and-fixer.md"
+    },
+    {
+      "title": "prompts / SEO metadata auditor",
+      "url": "https://developers.webflow.com/mcp/prompts/SEO-metadata-auditor",
+      "fetchUrl": "https://developers.webflow.com/mcp/prompts/SEO-metadata-auditor.md"
+    },
+    {
+      "title": "prompts / slider builder",
+      "url": "https://developers.webflow.com/mcp/prompts/slider-builder",
+      "fetchUrl": "https://developers.webflow.com/mcp/prompts/slider-builder.md"
+    },
+    {
+      "title": "prompts / variables refactor",
+      "url": "https://developers.webflow.com/mcp/prompts/variables-refactor",
+      "fetchUrl": "https://developers.webflow.com/mcp/prompts/variables-refactor.md"
+    },
+    {
+      "title": "reference / getting started",
+      "url": "https://developers.webflow.com/mcp/reference/getting-started",
+      "fetchUrl": "https://developers.webflow.com/mcp/reference/getting-started.md"
+    },
+    {
+      "title": "reference / how it works",
+      "url": "https://developers.webflow.com/mcp/reference/how-it-works",
+      "fetchUrl": "https://developers.webflow.com/mcp/reference/how-it-works.md"
+    },
+    {
+      "title": "reference / overview",
+      "url": "https://developers.webflow.com/mcp/reference/overview",
+      "fetchUrl": "https://developers.webflow.com/mcp/reference/overview.md"
+    },
+    {
+      "title": "reference / skills",
+      "url": "https://developers.webflow.com/mcp/reference/skills",
+      "fetchUrl": "https://developers.webflow.com/mcp/reference/skills.md"
+    },
+    {
+      "title": "skills / skill migration",
+      "url": "https://developers.webflow.com/mcp/skills/skill-migration",
+      "fetchUrl": "https://developers.webflow.com/mcp/skills/skill-migration.md"
+    },
+    {
+      "title": "tools / data tools",
+      "url": "https://developers.webflow.com/mcp/tools/data-tools",
+      "fetchUrl": "https://developers.webflow.com/mcp/tools/data-tools.md"
+    },
+    {
+      "title": "tools / designer tools",
+      "url": "https://developers.webflow.com/mcp/tools/designer-tools",
+      "fetchUrl": "https://developers.webflow.com/mcp/tools/designer-tools.md"
+    },
+    {
+      "title": "tools / utility tools",
+      "url": "https://developers.webflow.com/mcp/tools/utility-tools",
+      "fetchUrl": "https://developers.webflow.com/mcp/tools/utility-tools.md"
+    },
+    {
+      "title": "webflow cloud / add key value store",
+      "url": "https://developers.webflow.com/webflow-cloud/add-key-value-store",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/add-key-value-store.md"
+    },
+    {
+      "title": "webflow cloud / add object storage",
+      "url": "https://developers.webflow.com/webflow-cloud/add-object-storage",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/add-object-storage.md"
+    },
+    {
+      "title": "webflow cloud / add sqlite",
+      "url": "https://developers.webflow.com/webflow-cloud/add-sqlite",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/add-sqlite.md"
+    },
+    {
+      "title": "webflow cloud / bring your own app",
+      "url": "https://developers.webflow.com/webflow-cloud/bring-your-own-app",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/bring-your-own-app.md"
+    },
+    {
+      "title": "webflow cloud / deploy button",
+      "url": "https://developers.webflow.com/webflow-cloud/deploy-button",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/deploy-button.md"
+    },
+    {
+      "title": "webflow cloud / deployments",
+      "url": "https://developers.webflow.com/webflow-cloud/deployments",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/deployments.md"
+    },
+    {
+      "title": "webflow cloud / environment",
+      "url": "https://developers.webflow.com/webflow-cloud/environment",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/environment.md"
+    },
+    {
+      "title": "environment / configuration",
+      "url": "https://developers.webflow.com/webflow-cloud/environment/configuration",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/environment/configuration.md"
+    },
+    {
+      "title": "environment / framework customization",
+      "url": "https://developers.webflow.com/webflow-cloud/environment/framework-customization",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/environment/framework-customization.md"
+    },
+    {
+      "title": "environment / nodejs compatibility",
+      "url": "https://developers.webflow.com/webflow-cloud/environment/nodejs-compatibility",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/environment/nodejs-compatibility.md"
+    },
+    {
+      "title": "webflow cloud / environments",
+      "url": "https://developers.webflow.com/webflow-cloud/environments",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/environments.md"
+    },
+    {
+      "title": "webflow cloud / getting started",
+      "url": "https://developers.webflow.com/webflow-cloud/getting-started",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/getting-started.md"
+    },
+    {
+      "title": "webflow cloud / getting started with devlink",
+      "url": "https://developers.webflow.com/webflow-cloud/getting-started-with-devlink",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/getting-started-with-devlink.md"
+    },
+    {
+      "title": "webflow cloud / github app permissions",
+      "url": "https://developers.webflow.com/webflow-cloud/github-app-permissions",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/github-app-permissions.md"
+    },
+    {
+      "title": "webflow cloud / intro",
+      "url": "https://developers.webflow.com/webflow-cloud/intro",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/intro.md"
+    },
+    {
+      "title": "webflow cloud / limits",
+      "url": "https://developers.webflow.com/webflow-cloud/limits",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/limits.md"
+    },
+    {
+      "title": "webflow cloud / observability",
+      "url": "https://developers.webflow.com/webflow-cloud/observability",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/observability.md"
+    },
+    {
+      "title": "webflow cloud / sentry",
+      "url": "https://developers.webflow.com/webflow-cloud/sentry",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/sentry.md"
+    },
+    {
+      "title": "webflow cloud / static apps",
+      "url": "https://developers.webflow.com/webflow-cloud/static-apps",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/static-apps.md"
+    },
+    {
+      "title": "storing data / key value store",
+      "url": "https://developers.webflow.com/webflow-cloud/storing-data/key-value-store",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/storing-data/key-value-store.md"
+    },
+    {
+      "title": "storing data / object storage",
+      "url": "https://developers.webflow.com/webflow-cloud/storing-data/object-storage",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/storing-data/object-storage.md"
+    },
+    {
+      "title": "storing data / overview",
+      "url": "https://developers.webflow.com/webflow-cloud/storing-data/overview",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/storing-data/overview.md"
+    },
+    {
+      "title": "storing data / sqlite",
+      "url": "https://developers.webflow.com/webflow-cloud/storing-data/sqlite",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/storing-data/sqlite.md"
+    },
+    {
+      "title": "webflow cloud / usage",
+      "url": "https://developers.webflow.com/webflow-cloud/usage",
+      "fetchUrl": "https://developers.webflow.com/webflow-cloud/usage.md"
+    }
+  ],
+  "referenceIssues": []
+}

@@ -598,6 +598,119 @@
       "applicability": "Official WordPress agent skills and selected supporting references at a pinned upstream commit. Reference only; no installation or execution. Scope and version requirements must be checked against the consuming WordPress project."
     },
     {
+      "id": "webflow-docs",
+      "vendor": "webflow",
+      "domains": [
+        "cms/webflow"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://developers.webflow.com/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "developers.webflow.com"
+      ],
+      "includePrefixes": [
+        "/home",
+        "/mcp/",
+        "/data/",
+        "/designer/",
+        "/webflow-cloud/",
+        "/devlink/",
+        "/code-components/",
+        "/cli/",
+        "/browser/",
+        "/flowkit/"
+      ],
+      "excludePrefixes": [
+        "/home/changelog",
+        "/data/v1.0.0/",
+        "/data/v2.0.0-beta/"
+      ],
+      "maxPages": 1200,
+      "maxIndexes": 1,
+      "license": "Webflow developer documentation under upstream terms; links and metadata only, no open license asserted",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Rolling official Webflow developer documentation: MCP server setup, tools and prompts; Data API v2 guides and reference; Designer API; Webflow Cloud; DevLink; code components; Webflow CLI; Browser API; and FlowKit. Excludes the developer changelog, the deprecated Data API v1 reference and the v2.0.0-beta reference. Confirm the site plan, token scopes, API version, CLI and package versions, and for MCP guidance the client and server mode before applying guidance. Catalog links do not establish runtime verification.",
+      "fetchSuffix": ".md"
+    },
+    {
+      "id": "webflow-skills",
+      "vendor": "webflow",
+      "domains": [
+        "cms/webflow"
+      ],
+      "kind": "repository",
+      "repository": "webflow/webflow-skills",
+      "track": "default-branch",
+      "paths": [
+        {
+          "prefix": "plugins/webflow-skills/skills/"
+        },
+        {
+          "exact": "agents/webflow-agent.md"
+        },
+        {
+          "exact": "plugins/webflow-skills/README.md"
+        },
+        {
+          "exact": "README.md"
+        },
+        {
+          "exact": "LICENSE"
+        }
+      ],
+      "skillRoot": "plugins/webflow-skills/skills/",
+      "license": "MIT; see LICENSE at the catalogued webflow/webflow-skills commit",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official Webflow agent skills, their supporting references and the native webflow-agent definition at a pinned sync commit. Skills expect the Webflow MCP server and specific site permissions; check the consuming site, plan and tool availability. Reference-only: no plugin, skill, agent or MCP installation or execution. The repository publishes no hook definitions."
+    },
+    {
+      "id": "webflow-mcp-server",
+      "vendor": "webflow",
+      "domains": [
+        "cms/webflow"
+      ],
+      "kind": "repository",
+      "repository": "webflow/mcp-server",
+      "track": "default-branch",
+      "paths": [
+        {
+          "exact": "README.md"
+        },
+        {
+          "exact": "LICENCE"
+        }
+      ],
+      "license": "MIT; see LICENCE at the catalogued webflow/mcp-server commit",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official Webflow MCP server README at a pinned sync commit: remote and local setup, authentication and tool overview. Confirm the MCP client, server mode and Webflow token scopes. Reference-only: Brain does not install, configure or run the server, and source code is not catalogued."
+    },
+    {
+      "id": "webflow-university-resources",
+      "vendor": "webflow",
+      "domains": [
+        "cms/webflow"
+      ],
+      "kind": "collection",
+      "indexUrl": "https://university.webflow.com/sitemap.xml",
+      "indexFormat": "sitemap",
+      "allowedHosts": [
+        "university.webflow.com"
+      ],
+      "includePrefixes": [
+        "/resources/"
+      ],
+      "maxPages": 100,
+      "maxIndexes": 1,
+      "license": "Webflow University content under upstream terms; links and metadata only, no open license asserted",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official Webflow University best-practice checklists (build and launch, design system, Optimize, reverse proxy, Localize) and role quick guides. Excludes courses, lessons, videos, glossary, assessments and certifications. Product-workflow guidance; confirm plan and feature availability. Not developer API reference."
+    },
+    {
       "id": "owasp-cheat-sheets",
       "vendor": "owasp",
       "domains": [

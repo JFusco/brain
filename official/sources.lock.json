@@ -139,6 +139,30 @@
       "track": "default-branch",
       "catalogSha256": "134b141d3fc37763aa786fd4253946d09fdaa9607d43f4c1e92dac9b58928a4d"
     },
+    "webflow-docs": {
+      "revision": "8993bd8e62fa5454d16c31a939b86dd9d4117dc8fc5c535fee3b35f63836329c",
+      "fetchedAt": "2026-11-01T01:56:09.673Z",
+      "track": "rolling-url",
+      "catalogSha256": "18b675246d547ea69faa3c910e26350c7db6af4fbe8715aa634b1b69d342a33b"
+    },
+    "webflow-skills": {
+      "revision": "fd07213dfaac2ff33465ff367685711783261287",
+      "fetchedAt": "2026-11-01T01:55:25.829Z",
+      "track": "default-branch",
+      "catalogSha256": "545709d9cb45c4d7d49a8e0ddd009651511771bce31ed82a1e07aabbd07108b0"
+    },
+    "webflow-mcp-server": {
+      "revision": "124b5caa38baf46ab51edea9220076c9785ceaf7",
+      "fetchedAt": "2026-11-01T01:55:41.530Z",
+      "track": "default-branch",
+      "catalogSha256": "050f9eb46802e6c492801bc8d24c51dcd76306c643d32a62a8b1a1b560994d90"
+    },
+    "webflow-university-resources": {
+      "revision": "4a1a739c088dd682318c1747a830c2f84102a2e44e43c40c0a825748d5a5f992",
+      "fetchedAt": "2026-11-01T01:55:42.556Z",
+      "track": "rolling-url",
+      "catalogSha256": "481740899805e60697dfcd22a5a2926e96d2b2aba3948fa6bf84fbd867ff8b8c"
+    },
     "owasp-cheat-sheets": {
       "revision": "6d07d8e422d2f2e96d3b1304a9d16b7f54e1b4ccd472bc6745fee122153d3775",
       "fetchedAt": "2026-10-21T14:43:48.091Z",

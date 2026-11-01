@@ -26,6 +26,7 @@
     "cms/sitecore-xp",
     "cms/contentful",
     "cms/wordpress",
+    "cms/webflow",
     "performance",
     "security",
     "semantics",
@@ -124,6 +125,13 @@
       "add_filter",
       "wp_",
       "functions.php"
+    ],
+    "cms/webflow": [
+      "webflow",
+      "designer api",
+      "devlink",
+      "webflow cloud",
+      "flowkit"
     ],
     "performance": [
       "web performance",
