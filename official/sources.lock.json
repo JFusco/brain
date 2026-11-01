@@ -145,6 +145,12 @@
       "track": "rolling-url",
       "catalogSha256": "18b675246d547ea69faa3c910e26350c7db6af4fbe8715aa634b1b69d342a33b"
     },
+    "webflow-skills": {
+      "revision": "fd07213dfaac2ff33465ff367685711783261287",
+      "fetchedAt": "2026-11-01T15:54:38.262Z",
+      "track": "default-branch",
+      "catalogSha256": "545709d9cb45c4d7d49a8e0ddd009651511771bce31ed82a1e07aabbd07108b0"
+    },
     "owasp-cheat-sheets": {
       "revision": "6d07d8e422d2f2e96d3b1304a9d16b7f54e1b4ccd472bc6745fee122153d3775",
       "fetchedAt": "2026-10-21T14:43:48.091Z",
