@@ -50,10 +50,10 @@
       "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "828b3889816a222bb0457d647a414f0f23043d0a3549034620e65c906dac60e4",
-      "fetchedAt": "2026-11-01T00:18:24.321Z",
+      "revision": "391f0d84b603e9608b9889fec1d0305c68ef36346e24e6095029b754693d2822",
+      "fetchedAt": "2026-11-01T22:02:34.328Z",
       "track": "rolling-url",
-      "catalogSha256": "8d2bfa7a96b3fbd2b19f96786529cba8f1a1ba0262a664549e50c8e60343cf61"
+      "catalogSha256": "f167f519188f063fd7f462fd371a2bcda55b608e26c3baa18e9d1f32fab82754"
     },
     "contentstack-docs": {
       "revision": "0558dd65b815d71cf97780373268df2174fdf38f4431fd64dc63bebf4285f257",
