@@ -283,3 +283,8 @@ The [capacity and naming journal](../journal/2026-10-30-capacity-and-naming-pref
 ## October 31 Contentful Preview revalidation
 
 The [Preview revalidation journal](../journal/2026-10-31-contentful-preview-revalidation.md) records a current claim comparison after catalog refresh. The live Preview API contract still excludes Sync while the pinned skill retains a conflicting example. One existing note now separates documented API behavior from proposed application verification; earlier reviews remain in Git history.
+
+
+## November 1 UI capture and request budgets
+
+The [UI capture journal](../journal/2026-11-01-ui-capture-and-request-budgets.md) records source-checked control relationships, CSS hover methods, request/schema budgeting and proposed guarded browser capture. Conflicting vendor limits stay explicit, historical pilot counts remain unverified and one SitecoreAI note is revalidated without clearing other stale signals. Related captures share existing or focused notes; capture acceptance still requires independent review, guarded publication and successful nightly completion.

@@ -24,6 +24,7 @@ Route build configuration, test runners, component workshops, linting, package m
 - [Choose Claude models and effort by task](claude-model-selection.md)
 - [Choose OpenAI models and reasoning by task](openai-model-selection.md)
 - [Define a structured Opus 5.5 judgment contract](opus-structured-judgment.md)
+- [Discover and capture hidden UI states with guards](guarded-ui-state-capture.md)
 - [Keep a Graphify code map scoped and reproducible](graphify-code-map.md)
 - [Pin an agent CLI judgment call's settings](agent-cli-invocation-contract.md)
 - [Separate review transport and context capacity failures](review-capacity-recovery.md)

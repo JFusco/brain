@@ -6,7 +6,7 @@ aliases: ["Opus 5.5 structured outputs", "adaptive thinking", "schema-bound visi
 evidence_date: "2026-10-29"
 reviewed_at: "2026-10-29"
 applicability: "Direct Claude API Messages calls using claude-opus-5-5; confirm the selected provider and SDK support, which was not exercised here"
-provenance: "anthropic-agent-docs@6b03d984c6d9b39eea32a4854af96b6d26babd30d8940af6fd16901d2b8eafa1; official Opus, effort, structured-output, vision and streaming pages read 2026-10-29; proposed harness procedure, no API execution"
+provenance: "anthropic-agent-docs@6b03d984c6d9b39eea32a4854af96b6d26babd30d8940af6fd16901d2b8eafa1; official Opus, effort, structured-output, vision and streaming pages read 2026-10-29; structured-schema limits rechecked 2026-11-01; proposed harness procedure, no API execution"
 status: "current"
 versions: []
 ---
@@ -30,3 +30,12 @@ Use when one direct Messages API judgment must consume JSON evidence or screensh
 The [model page](https://platform.claude.com/docs/en/models/opus-5-5/overview) lists 1M context and 128K maximum output; those maxima are not recommended per-call budgets. The [pricing page](https://platform.claude.com/docs/en/about-claude/pricing) lists standard input/output at $4/$20 and cache hits at $0.20 per million tokens on the evidence date. Cache writes, provider/geography modifiers, thinking, tools and retries can affect total cost; this note does not estimate workload cost.
 
 No SDK was installed and no API request, vision judgment, refusal or fallback was exercised. CLI settings and alternate providers are separate contracts. Current live pages replace reliance on an older bundled reference; they do not validate an application's implementation.
+
+
+## Reuse large enums without promising unlimited schemas
+
+**Documented, November 1, 2026:** the [structured-output reference](https://platform.claude.com/docs/en/build-with-claude/structured-outputs) supports local `$ref` and `definitions`; it rejects external references, recursion and complex enum values. It lists `$def`, but this note does not infer equivalent behavior for `$defs`. The documented limits are 20 strict tools, 24 optional parameters across strict tool and output schemas, and 16 union-type parameters. Internal grammar complexity can still produce a 400 compilation error within those counts. The page also warns that enum/const string capitalization may vary.
+
+**Proposed:** define a repeated ID enum once in `definitions` and reference it from each field. This avoids duplicating serialized values, but does not establish reduced compiler complexity or a guaranteed enum length. Validate exact application IDs locally; where case matters, reject a mismatch rather than silently adopting the documentation's case-insensitive suggestion. Budget schema bytes separately when a CLI transports JSON in one argument; operating-system and invocation limits vary and are not the API grammar limit.
+
+No Ajv or live CLI experiment was repeated. Reported enum counts, byte reductions, package versions and accepted calls remain private historical outcomes, not general supported bounds. This extends the output contract; the [CLI invocation note](agent-cli-invocation-contract.md) still governs flags and response handling.

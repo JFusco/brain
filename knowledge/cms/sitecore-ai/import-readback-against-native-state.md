@@ -4,11 +4,11 @@ format: "playbook"
 domain: "cms/sitecore-ai"
 aliases: ["standard values", "Reset Blank", "_PublishingGroupingTemplate", "readback hash", "GUID format"]
 evidence_date: "2026-10-24"
-reviewed_at: "2026-10-24"
+reviewed_at: "2026-11-01"
 status: "current"
 versions: []
 applicability: "Content imports into existing SitecoreAI templates through the Authoring and Management GraphQL API; SitecoreAI service build unknown; connected observations come from one migration tool and are not general compatibility claims"
-provenance: "sitecoreai-docs@70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6; relevant official pages read 2026-10-24; sanitized private connected-import observations, not reproduced during curation"
+provenance: "sitecoreai-docs@4a62a6a81c56ff1042354b6a785138e4579ab08d1dcc1d098f12e4113a15b481; relevant official pages re-read 2026-11-01; sanitized private connected-import observations, not reproduced during curation"
 ---
 
 # Verify SitecoreAI imports against native state
@@ -46,3 +46,6 @@ Use this when an import writes content into existing SitecoreAI templates and it
 ## Evidence and limits
 
 The documented passages were read on the evidence date. The observations come from sanitized private notes from one connected migration tool; they were not reproduced during curation, and its service build and versions are not adopted as applicability. The proposals describe evidence checks, not a verified recovery procedure, exactly-once guarantee or production-readiness claim.
+
+
+**Revalidated November 1, 2026:** the linked standard-values, grouping-template and Authoring API pages were read again. They still support inherited defaults, blank/NULL and Reset Blank distinctions, creation-time name expansion, child-driven parent revisions and the illustrated GUID representations. The update example uses `reset: false` without defining the true case. Historical tool observations remain unverified; expanded readback and consistent hash projections remain proposed checks. No CMS operation was performed.
