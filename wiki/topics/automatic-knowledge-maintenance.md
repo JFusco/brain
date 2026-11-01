@@ -278,3 +278,8 @@ The [agent judgment journal](../journal/2026-10-29-agent-judgment-guidance.md) s
 ## October 30 capacity and naming preflights
 
 The [capacity and naming journal](../journal/2026-10-30-capacity-and-naming-preflights.md) distinguishes CLI transport limits, model context/output capacity and authorized read-only recovery. A separate Sitecore preflight keeps archived naming defaults, current target configuration and URL acceptance distinct. Two OpenAI notes are source-revalidated while other stale signals remain visible. Historical reports and proposed procedures do not become runtime acceptance claims; private whole-capture accounting and the existing independent-review/completion gates remain required.
+
+
+## October 31 Contentful Preview revalidation
+
+The [Preview revalidation journal](../journal/2026-10-31-contentful-preview-revalidation.md) records a current claim comparison after catalog refresh. The live Preview API contract still excludes Sync while the pinned skill retains a conflicting example. One existing note now separates documented API behavior from proposed application verification; earlier reviews remain in Git history.
