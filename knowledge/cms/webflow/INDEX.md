@@ -1,6 +1,6 @@
 ---
 title: "Webflow"
-aliases: ["webflow", "webflow mcp", "Webflow Data API", "Webflow Designer API"]
+aliases: ["webflow", "webflow mcp", "Webflow Data API", "Webflow Designer API", "webflow skills", "webflow-agent"]
 ---
 
 # Webflow
@@ -42,15 +42,37 @@ When you use the README, keep these limits in mind:
 - **Tool reference.** The README's tool section points to a `./tools` directory that does not exist. Tool definitions are TypeScript under `src/tools/`, which Brain does not catalog. Use the `webflow-docs` pages for data, Designer and utility tools instead.
 - **Third-party bridge app.** The local bridge app is linked from a personal repository (`virat21/webflow-mcp-bridge-app`), which is not registered.
 
-The official skills and native agent (`webflow/webflow-skills`, [#291](https://github.com/JFusco/brain/issues/291)) need their own registration change, so they are not searchable here yet. No official Webflow hook definitions were found in `webflow/webflow-skills` or `webflow/mcp-server`.
+### Official skills and native agent
 
-These sources are reference only. Brain does not connect to a Webflow site or install, configure or run the MCP server or bridge app. Refresh them with `official sync webflow-docs`, `official sync webflow-university-resources` and `official sync webflow-mcp-server`. Neither the developer documentation nor Webflow University asserts an open content license, so Brain stores only links and metadata for them, and focused retrieval keeps just a bounded excerpt.
+The `webflow-skills` source catalogs [`webflow/webflow-skills`](https://github.com/webflow/webflow-skills) (MIT) at a pinned commit, `fd07213dfaac2ff33465ff367685711783261287` at registration (2026-11-01). Selected paths:
+
+| Path | At registration |
+| --- | --- |
+| `plugins/webflow-skills/skills/` | 33 skills and 24 supporting documents |
+| `agents/webflow-agent.md` | The native `webflow-agent` definition |
+| `README.md`, `plugins/webflow-skills/README.md` | Repository and plugin overviews |
+| `LICENSE` | MIT license text (retrieved, not catalogued) |
+
+The skills call Webflow MCP tools and need the Webflow MCP server (`https://mcp.webflow.com/mcp`, as the repository's `.mcp.json` declares) with access to the target site. Without that server they serve only as reading material. Check the site plan, token permissions and MCP client before applying a workflow. The `deploy-guide` skill links to `plugins/webflow-skills/references/CODE_COMPONENTS_REFERENCE.md`, which does not exist at the catalogued commit; the catalog records this as a reference issue.
+
+Plugin manifests are recorded here as metadata only. They are JSON, so the catalog does not index them, and Brain does not install them. At the catalogued commit the Claude, Codex and Cursor plugin manifests declare version 1.0.10, and the Codex and Cursor manifests also declare the MIT license:
+
+- Claude: `.claude-plugin/marketplace.json` and `plugins/webflow-skills/.claude-plugin/plugin.json`.
+- Codex: `.agents/plugins/marketplace.json` and `plugins/webflow-skills/.codex-plugin/plugin.json`, which points at the plugin's `.mcp.json`.
+- Cursor: `.cursor-plugin/marketplace.json` and `.cursor-plugin/plugin.json`, which list the skills directory and `agents/`.
+
+The repository publishes no hook definitions: no hook files exist at the catalogued commit and no manifest declares hooks. The Antigravity manifest, MCP configuration files, contributor instructions (`AGENTS.md`, `CLAUDE.md`, `CONTRIBUTING.md`), CI workflow and logos are not selected. Third-party Webflow skill repositories are not registered.
+
+These sources are reference only. Brain does not connect to a Webflow site, install, configure or run the MCP server or bridge app, or install or execute skills, plugins or the agent. Refresh them with `official sync webflow-docs`, `official sync webflow-university-resources`, `official sync webflow-mcp-server` and `official sync webflow-skills`. Neither the developer documentation nor Webflow University asserts an open content license, so Brain stores only links and metadata for them, and focused retrieval keeps just a bounded excerpt.
 
 ```sh
 node scripts/brain.mjs lookup --domain cms/webflow --query "mcp server claude code installing" --limit 3
 node scripts/brain.mjs lookup --domain cms/webflow --query "webflow mcp server local installation token" --limit 3 --fetch
 node scripts/brain.mjs lookup --domain cms/webflow --query "cms collection items create" --limit 3 --fetch
 node scripts/brain.mjs lookup --domain cms/webflow --query "build and launch checklist" --limit 3
+node scripts/brain.mjs lookup --domain cms/webflow --query "cms best practices" --limit 3
+node scripts/brain.mjs lookup --domain cms/webflow --query "safe publish" --limit 3
+node scripts/brain.mjs lookup --domain cms/webflow --query "webflow agent" --limit 3
 ```
 
 ## Curated learnings
@@ -68,4 +90,38 @@ No curated notes yet.
   - [Catalog source](https://university.webflow.com/sitemap.xml); search it with `lookup --domain cms/webflow`.
 - **webflow-mcp-server** — 0 skills and 1 docs at a pinned commit; default-branch; revision `124b5caa38baf46ab51edea9220076c9785ceaf7`; fetched 2026-11-01.
   - [README.md](https://github.com/webflow/mcp-server/blob/124b5caa38baf46ab51edea9220076c9785ceaf7/README.md).
+- **webflow-skills** — 33 skills and 27 docs at a pinned commit; default-branch; revision `fd07213dfaac2ff33465ff367685711783261287`; fetched 2026-11-01.
+  - [accessibility-audit](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/accessibility-audit/SKILL.md) — reference only.
+  - [asset-audit](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/asset-audit/SKILL.md) — reference only.
+  - [bulk-cms-update](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/bulk-cms-update/SKILL.md) — reference only.
+  - [cloud-apps](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/cloud-apps/SKILL.md) — reference only.
+  - [cms-best-practices](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/cms-best-practices/SKILL.md) — reference only.
+  - [cms-collection-setup](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/cms-collection-setup/SKILL.md) — reference only.
+  - [code-component-command](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/code-component-command/SKILL.md) — reference only.
+  - [component-audit](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/component-audit/SKILL.md) — reference only.
+  - [component-scaffold](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/component-scaffold/SKILL.md) — reference only.
+  - [convert-component](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/convert-component/SKILL.md) — reference only.
+  - [custom-code-management](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/custom-code-management/SKILL.md) — reference only.
+  - [deploy-guide](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/deploy-guide/SKILL.md) — reference only.
+  - [designer-extension-command](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/designer-extension-command/SKILL.md) — reference only.
+  - [designer-tools](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/designer-tools/SKILL.md) — reference only.
+  - [devlink-command](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/devlink-command/SKILL.md) — reference only.
+  - [figma-to-webflow](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/figma-to-webflow/SKILL.md) — reference only.
+  - [flowkit-naming](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/flowkit-naming/SKILL.md) — reference only.
+  - [interactions](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/interactions/SKILL.md) — reference only.
+  - [link-checker](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/link-checker/SKILL.md) — reference only.
+  - [local-dev-setup](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/local-dev-setup/SKILL.md) — reference only.
+  - [pre-deploy-check](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/pre-deploy-check/SKILL.md) — reference only.
+  - [review-comments](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/review-comments/SKILL.md) — reference only.
+  - [safe-publish](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/safe-publish/SKILL.md) — reference only.
+  - [site-activity](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/site-activity/SKILL.md) — reference only.
+  - [site-audit](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/site-audit/SKILL.md) — reference only.
+  - [troubleshoot-deploy](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md) — reference only.
+  - [waf-rules](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/waf-rules/SKILL.md) — reference only.
+  - [webflow-cli-troubleshooter](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/webflow-cli-troubleshooter/SKILL.md) — reference only.
+  - [webflow-cloud-command](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/webflow-cloud-command/SKILL.md) — reference only.
+  - [webflow-compress-cms-image](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/webflow-compress-cms-image/SKILL.md) — reference only.
+  - [wfu-mcp-getting-started](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/wfu-mcp-getting-started/SKILL.md) — reference only.
+  - [wfu-migrate-cms](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/wfu-migrate-cms/SKILL.md) — reference only.
+  - [wfu-new-cms-plan](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/wfu-new-cms-plan/SKILL.md) — reference only.
 <!-- brain:official:end -->

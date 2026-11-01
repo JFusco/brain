@@ -366,6 +366,12 @@
       "fetchedAt": "2026-10-30T23:33:15.465Z",
       "track": "default-branch",
       "catalogSha256": "7d772c1ddf4427482b6ab83a7c231ee9dcd57f926770b9760d0d3b272ebad88f"
+    },
+    "webflow-skills": {
+      "revision": "fd07213dfaac2ff33465ff367685711783261287",
+      "fetchedAt": "2026-11-01T15:54:38.262Z",
+      "track": "default-branch",
+      "catalogSha256": "545709d9cb45c4d7d49a8e0ddd009651511771bce31ed82a1e07aabbd07108b0"
     }
   },
   "toolchain": {

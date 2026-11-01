@@ -2090,6 +2090,38 @@
       "installPolicy": "reference-only",
       "preferred": false,
       "applicability": "Microsoft PostgreSQL best-practices routing skill and supporting general PostgreSQL and Azure references at a pinned sync commit. Confirm target environment, Postgres version and required MCP/server capabilities; Azure and HorizonDB requirements do not apply automatically to Supabase or self-hosted Postgres. Reference-only; no tool installation, database access, resource provisioning or execution."
+    },
+    {
+      "id": "webflow-skills",
+      "vendor": "webflow",
+      "domains": [
+        "cms/webflow"
+      ],
+      "kind": "repository",
+      "repository": "webflow/webflow-skills",
+      "track": "default-branch",
+      "paths": [
+        {
+          "prefix": "plugins/webflow-skills/skills/"
+        },
+        {
+          "exact": "agents/webflow-agent.md"
+        },
+        {
+          "exact": "plugins/webflow-skills/README.md"
+        },
+        {
+          "exact": "README.md"
+        },
+        {
+          "exact": "LICENSE"
+        }
+      ],
+      "skillRoot": "plugins/webflow-skills/skills/",
+      "license": "MIT; see LICENSE at the catalogued webflow/webflow-skills commit",
+      "installPolicy": "reference-only",
+      "preferred": false,
+      "applicability": "Official Webflow agent skills, their supporting references and the native webflow-agent definition at a pinned sync commit. Skills require the Webflow MCP server (https://mcp.webflow.com/mcp) and suitable site permissions; check the consuming site, plan, MCP client and tool availability. Claude, Codex and Cursor plugin manifests are recorded as metadata in the Webflow hub, not catalogued. Reference-only: no plugin, skill, agent or MCP installation or execution. The repository publishes no hook definitions."
     }
   ],
   "pointers": [
