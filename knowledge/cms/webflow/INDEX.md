@@ -29,6 +29,19 @@ The developer changelog, the deprecated Data API v1 reference and the v2.0.0-bet
 
 The `webflow-university-resources` catalog follows the [Webflow University sitemap](https://university.webflow.com/sitemap.xml) but keeps only its `/resources/` pages: 10 links at registration (2026-11-01). Six are best-practice checklists (build and launch, design system, Optimize, Optimize for non-Webflow sites, reverse proxy and Localize) and four are role quick guides (content editor, designer, marketer and reviewer). Courses, course lessons, videos, the glossary, learning paths, assessments and certifications are product training, so they are excluded. The sitemap is served with an RSS content type, but the body is a standard sitemap. These checklists describe Designer and site-launch workflows rather than the developer API, so confirm the site plan and feature availability before you follow one.
 
+The `webflow-mcp-server` catalog pins one document, `README.md`, from the official [`webflow/mcp-server`](https://github.com/webflow/mcp-server) repository (MIT; `LICENCE` is selected for provenance but is not a catalog document). Commit `124b5caa38baf46ab51edea9220076c9785ceaf7` (2026-10-27) was catalogued at registration. The README covers:
+
+- Remote setup for Cursor and Claude desktop, which authenticates with OAuth and uses a companion app in the Webflow Designer, and how to reset the OAuth token (`~/.mcp-auth`).
+- Local setup: `npx webflow-mcp-server@latest` with a `WEBFLOW_TOKEN` API token, plus an MCP Bridge App that you register and publish in your own workspace.
+- Troubleshooting, the Node.js 22.3.0 minimum and a known limitation of `pages_update_static_content`.
+
+When you use the README, keep these limits in mind:
+
+- **Outdated remote URL.** The remote client examples still use `https://mcp.webflow.com/sse`. The repository's `server.json` (version 2.0.0) and the current developer documentation use the streamable HTTP endpoint `https://mcp.webflow.com/mcp`, so follow the documentation pages for client configuration.
+- **Redirected links.** The README's `data/v2.0.0/docs/ai-tools` and `register-an-app` links now redirect to `/mcp/reference/overview` and `/apps/data/docs/register-an-app`.
+- **Tool reference.** The README's tool section points to a `./tools` directory that does not exist. Tool definitions are TypeScript under `src/tools/`, which Brain does not catalog. Use the `webflow-docs` pages for data, Designer and utility tools instead.
+- **Third-party bridge app.** The local bridge app is linked from a personal repository (`virat21/webflow-mcp-bridge-app`), which is not registered.
+
 ### Official skills and native agent
 
 The `webflow-skills` source catalogs [`webflow/webflow-skills`](https://github.com/webflow/webflow-skills) (MIT) at a pinned commit, `fd07213dfaac2ff33465ff367685711783261287` at registration (2026-11-01). Selected paths:
@@ -50,12 +63,11 @@ Plugin manifests are recorded here as metadata only. They are JSON, so the catal
 
 The repository publishes no hook definitions: no hook files exist at the catalogued commit and no manifest declares hooks. The Antigravity manifest, MCP configuration files, contributor instructions (`AGENTS.md`, `CLAUDE.md`, `CONTRIBUTING.md`), CI workflow and logos are not selected. Third-party Webflow skill repositories are not registered.
 
-The official MCP server README (`webflow/mcp-server`, [#292](https://github.com/JFusco/brain/issues/292)) needs its own registration change, so it is not searchable here yet.
-
-These sources are reference only. Brain does not connect to a Webflow site, install or run the MCP server, or install or execute skills, plugins or the agent. Refresh them with `official sync webflow-docs`, `official sync webflow-university-resources` and `official sync webflow-skills`. Neither the developer documentation nor Webflow University asserts an open content license, so Brain stores only links and metadata, and focused retrieval keeps just a bounded excerpt.
+These sources are reference only. Brain does not connect to a Webflow site, install, configure or run the MCP server or bridge app, or install or execute skills, plugins or the agent. Refresh them with `official sync webflow-docs`, `official sync webflow-university-resources`, `official sync webflow-mcp-server` and `official sync webflow-skills`. Neither the developer documentation nor Webflow University asserts an open content license, so Brain stores only links and metadata for them, and focused retrieval keeps just a bounded excerpt.
 
 ```sh
 node scripts/brain.mjs lookup --domain cms/webflow --query "mcp server claude code installing" --limit 3
+node scripts/brain.mjs lookup --domain cms/webflow --query "webflow mcp server local installation token" --limit 3 --fetch
 node scripts/brain.mjs lookup --domain cms/webflow --query "cms collection items create" --limit 3 --fetch
 node scripts/brain.mjs lookup --domain cms/webflow --query "build and launch checklist" --limit 3
 node scripts/brain.mjs lookup --domain cms/webflow --query "cms best practices" --limit 3
@@ -76,6 +88,8 @@ No curated notes yet.
   - [Catalog source](https://developers.webflow.com/sitemap.xml); search it with `lookup --domain cms/webflow`.
 - **webflow-university-resources** — link catalog of 10 pages; rolling-url; revision `4a1a739c088dd682318c1747a830c2f84102a2e44e43c40c0a825748d5a5f992`; fetched 2026-11-01.
   - [Catalog source](https://university.webflow.com/sitemap.xml); search it with `lookup --domain cms/webflow`.
+- **webflow-mcp-server** — 0 skills and 1 docs at a pinned commit; default-branch; revision `124b5caa38baf46ab51edea9220076c9785ceaf7`; fetched 2026-11-01.
+  - [README.md](https://github.com/webflow/mcp-server/blob/124b5caa38baf46ab51edea9220076c9785ceaf7/README.md).
 - **webflow-skills** — 33 skills and 27 docs at a pinned commit; default-branch; revision `fd07213dfaac2ff33465ff367685711783261287`; fetched 2026-11-01.
   - [accessibility-audit](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/accessibility-audit/SKILL.md) — reference only.
   - [asset-audit](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/asset-audit/SKILL.md) — reference only.
