@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "828b3889816a222bb0457d647a414f0f23043d0a3549034620e65c906dac60e4",
+  "revision": "391f0d84b603e9608b9889fec1d0305c68ef36346e24e6095029b754693d2822",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -175,6 +175,31 @@
       "title": "Agent Skills",
       "url": "https://vercel.com/docs/agent-resources/skills",
       "fetchUrl": "https://vercel.com/docs/agent-resources/skills.md"
+    },
+    {
+      "title": "Software Factories on Vercel",
+      "url": "https://vercel.com/docs/agent-resources/software-factory",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/software-factory.md"
+    },
+    {
+      "title": "Build a Software Factory with the AI SDK",
+      "url": "https://vercel.com/docs/agent-resources/software-factory/ai-sdk",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/software-factory/ai-sdk.md"
+    },
+    {
+      "title": "Build a Software Factory with eve",
+      "url": "https://vercel.com/docs/agent-resources/software-factory/eve",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/software-factory/eve.md"
+    },
+    {
+      "title": "Build a Software Factory with Flue",
+      "url": "https://vercel.com/docs/agent-resources/software-factory/flue",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/software-factory/flue.md"
+    },
+    {
+      "title": "Build a Software Factory with Mastra",
+      "url": "https://vercel.com/docs/agent-resources/software-factory/mastra",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/software-factory/mastra.md"
     },
     {
       "title": "Use Vercel",
@@ -3845,46 +3870,6 @@
       "title": "System environment variables",
       "url": "https://vercel.com/docs/environment-variables/system-environment-variables",
       "fetchUrl": "https://vercel.com/docs/environment-variables/system-environment-variables.md"
-    },
-    {
-      "title": "eve",
-      "url": "https://vercel.com/docs/eve",
-      "fetchUrl": "https://vercel.com/docs/eve.md"
-    },
-    {
-      "title": "Authenticating eve requests",
-      "url": "https://vercel.com/docs/eve/authentication",
-      "fetchUrl": "https://vercel.com/docs/eve/authentication.md"
-    },
-    {
-      "title": "Concepts",
-      "url": "https://vercel.com/docs/eve/concepts",
-      "fetchUrl": "https://vercel.com/docs/eve/concepts.md"
-    },
-    {
-      "title": "Deploying eve to Vercel",
-      "url": "https://vercel.com/docs/eve/deploying",
-      "fetchUrl": "https://vercel.com/docs/eve/deploying.md"
-    },
-    {
-      "title": "Getting started with eve",
-      "url": "https://vercel.com/docs/eve/getting-started",
-      "fetchUrl": "https://vercel.com/docs/eve/getting-started.md"
-    },
-    {
-      "title": "Observability",
-      "url": "https://vercel.com/docs/eve/observability",
-      "fetchUrl": "https://vercel.com/docs/eve/observability.md"
-    },
-    {
-      "title": "Pricing and Limits",
-      "url": "https://vercel.com/docs/eve/pricing",
-      "fetchUrl": "https://vercel.com/docs/eve/pricing.md"
-    },
-    {
-      "title": "How Software Factories Work",
-      "url": "https://vercel.com/docs/eve/software-factory",
-      "fetchUrl": "https://vercel.com/docs/eve/software-factory.md"
     },
     {
       "title": "Flags",
