@@ -288,3 +288,8 @@ The [Preview revalidation journal](../journal/2026-10-31-contentful-preview-reva
 ## November 1 UI capture and request budgets
 
 The [UI capture journal](../journal/2026-11-01-ui-capture-and-request-budgets.md) records source-checked control relationships, CSS hover methods, request/schema budgeting and proposed guarded browser capture. Conflicting vendor limits stay explicit, historical pilot counts remain unverified and one SitecoreAI note is revalidated without clearing other stale signals. Related captures share existing or focused notes; capture acceptance still requires independent review, guarded publication and successful nightly completion.
+
+
+## November 2 checkpoints, profiling and refactors
+
+The [checkpoint and refactor journal](../journal/2026-11-02-checkpoint-and-refactor-guidance.md) records nine individually reviewed captures, six focused new playbooks, an extension distinguishing Authoring and Delivery limits, and two source-revalidated model-selection notes. SQLite storage/rollback, isolated replay, batch attribution, feature layout, test pruning and file moves remain bounded proposed workflows with documented supporting mechanisms. Historical benchmark and completion claims are deliberately omitted; full private claim accounting and final nightly completion still govern capture acceptance. Other stale-note signals remain visible.

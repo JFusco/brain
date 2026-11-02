@@ -27,6 +27,8 @@ Route build configuration, test runners, component workshops, linting, package m
 - [Discover and capture hidden UI states with guards](guarded-ui-state-capture.md)
 - [Keep a Graphify code map scoped and reproducible](graphify-code-map.md)
 - [Pin an agent CLI judgment call's settings](agent-cli-invocation-contract.md)
+- [Prune tests by the behavior they protect](behavior-focused-test-pruning.md)
+- [Separate file moves from refactors and check merges](rename-preserving-file-moves.md)
 - [Separate review transport and context capacity failures](review-capacity-recovery.md)
 <!-- brain:curated:end -->
 

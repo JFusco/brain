@@ -8,7 +8,7 @@ reviewed_at: "2026-10-24"
 status: "current"
 versions: []
 applicability: "Proposed planning for authored content in existing SitecoreAI models; target server, CLI, plugin and rendering SDK versions must be confirmed"
-provenance: "sitecoreai-docs@70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6; relevant official pages read 2026-10-24, including unregistered api-docs.sitecore.com Content Transfer and Item Transfer pages; sanitized private capture recommendations, no connected acceptance"
+provenance: "sitecoreai-docs@9fd006f795cca43a5e859d3a227d03693b965bc1df04046bf18d0654e36695d4; endpoint-limit section checked 2026-11-02; sitecoreai-docs@70bb71bac4acc8a15e85e2f8ec2e11ed186d309fd527df48fdf956c43ce473f6; relevant official pages read 2026-10-24, including unregistered api-docs.sitecore.com Content Transfer and Item Transfer pages; sanitized private capture recommendations, no connected acceptance"
 ---
 
 # Plan SitecoreAI migration evidence and dependencies
@@ -38,6 +38,12 @@ Deferred-reference syntax is application-specific, not a Sitecore wire format. P
 **Documented:** the [Content Transfer API](https://api-docs.sitecore.com/sai/content-transfer-api/section/migrating-content/wait-for-the-transfer-to-be-ready) moves content between SitecoreAI environments in chunks. Chunks can be retrieved in parallel and saved in parallel with retrieval, but every chunk must be saved before the chunk set completes. The [Item Transfer API](https://api-docs.sitecore.com/sai/item-transfer-api/section/migrating-content/monitor-the-transfer) consumes the generated `.raif` files, each representing one item or an item with its descendants.
 
 **Proposed:** treat the per-file `uploadMedia` sequence, editor uploads and environment transfer as separate contracts. Use environment transfer for supported environment-to-environment moves, not as a route for loose source files; do not invent `.raif` generation for them. Do not infer that the authoring upload accepts archives or several binaries per request from what an editor UI offers. The authoring pages reviewed for this note state no concurrent-upload limit, which is an absence of guidance, not permission. Before parallelizing uploads, seek endpoint-specific vendor guidance; start from one operation at a time, serialize shared folder creation, record pending attempts before dispatch and read every result back. Compare complete verified applies, not raw upload time. Parallel chunk transfer does not establish parallel Authoring API behavior.
+
+### Keep Authoring and Delivery rate limits separate
+
+**Documented November 2, 2026:** the [Authoring/Management limitations page](https://doc.sitecore.com/sai/en/developers/sitecoreai/content-modeling-and-presentation/sitecore-authoring-and-management-graphql-api/limitations-of-the-graphql-authoring-and-management-api.html) lists unsupported subscriptions, Security API user creation/deletion and GET requests; that page publishes no request-rate limit. The [Experience Edge limitations](https://doc.sitecore.com/sai/en/developers/sitecoreai/experience-edge/limitations-and-restrictions-of-experience-edge.html) separately document Delivery GraphQL's 80 requests/second, 429 responses and rate-limit headers. This Delivery figure does not establish an Authoring API allowance.
+
+**Proposed:** retain serial authoring as a conservative starting policy while endpoint-specific limits are uncertain. Seek applicable vendor guidance or support confirmation before tuning parallel writes, and use bounded authorized measurements rather than treating a documented ceiling alone as a safe concurrency setting. Measure local versus HTTP cost first using [batch attribution](../../performance/batch-time-and-history-indexes.md). An unpublished limit may exist; serial success does not establish parallel behavior. Private batch counts and timings were not reproduced and are deliberately excluded. This section adds current endpoint evidence; earlier sections retain their own evidence dates and stale signals.
 
 ### Diagnose the evidence boundary before changing CMS configuration
 
