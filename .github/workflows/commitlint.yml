@@ -35,15 +35,20 @@ jobs:
         run: corepack enable && corepack install
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      # Dependabot writes its own title, body and commits; its PRs skip
+      # these three lint steps and pass on the job's success (issue 302).
       - name: Lint PR title
+        if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') }}
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: printf '%s\n' "$PR_TITLE" | pnpm run --silent lint:commit --verbose
       - name: Validate PR body
+        if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') }}
         env:
           PR_BODY: ${{ github.event.pull_request.body }}
         run: pnpm run --silent lint:pr
       - name: Lint PR commit range
+        if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') }}
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
