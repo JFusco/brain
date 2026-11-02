@@ -5,7 +5,7 @@ aliases: ["quality gate", "tests", "architecture layers", "verify:ci"]
 
 # Code quality gate and architecture
 
-Brain's runtime code is gated by `pnpm run verify:ci`. That runs ESLint, a Prettier check, `scripts/quality/check-architecture.mjs`, focused `node:test` tests, the hook and workflow tooling tests, `check`, `official check`, wiki integrity and the viewer build. The **Quality** GitHub check runs the same gate on pull requests and on `main`. **Commit message lint** checks the PR title, the PR body against the template, and every commit.
+Brain's runtime code is gated by `pnpm run verify:ci`. That runs ESLint, a Prettier check, `scripts/quality/check-architecture.mjs`, focused `node:test` tests, the hook and workflow tooling tests, `check`, `official check`, wiki integrity and the viewer build. The **Quality** GitHub check runs the same gate on pull requests and on `main`. **Commit message lint** checks the PR title, the PR body against the template, and every commit; Dependabot branches skip those three steps ([exemption](../journal/2026-11-02-dependabot-commitlint-exemption.md)).
 
 The tooling mirrors Joe's sibling repositories (cms-field-vocabulary, agent-review-workflows), on pnpm. Brain keeps its native `.githooks` (set with `core.hooksPath`) instead of Husky; dependency lifecycle scripts stay disabled. Because pnpm does not search parent directories for binaries, `.githooks/tool-path.sh` adds the primary checkout's `node_modules/.bin` for nightly worktrees.
 
