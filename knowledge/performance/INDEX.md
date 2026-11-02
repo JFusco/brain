@@ -25,6 +25,7 @@ Route browser loading, rendering, Core Web Vitals, profiling, budgets, caching a
 ## Curated learnings
 
 <!-- brain:curated:start -->
+- [Attribute batch time before optimizing local history scans](batch-time-and-history-indexes.md)
 - [Choose image loading by visibility](image-loading-playbook.md)
 <!-- brain:curated:end -->
 

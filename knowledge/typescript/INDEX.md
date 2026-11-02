@@ -8,7 +8,7 @@ aliases: ["typescript", "ts"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
-No curated notes yet.
+- [Make TypeScript feature ownership visible in paths](feature-layout-and-import-ownership.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

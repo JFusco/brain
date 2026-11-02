@@ -3,11 +3,11 @@ title: "Choose Claude models and effort by task"
 format: "playbook"
 domain: "tooling"
 aliases: ["Anthropic models", "Claude strengths and weaknesses", "Opus Sonnet Haiku Fable", "Claude effort"]
-evidence_date: "2026-10-27"
-reviewed_at: "2026-10-27"
-review_after: "2026-11-03"
+evidence_date: "2026-11-02"
+reviewed_at: "2026-11-02"
+review_after: "2026-11-09"
 applicability: "Claude API current general-purpose lineup as documented on the evidence date; product availability and provider IDs require separate checks"
-provenance: "anthropic-agent-docs@6b03d984c6d9b39eea32a4854af96b6d26babd30d8940af6fd16901d2b8eafa1; official model and product documentation read 2026-10-27; PDF linked without mirroring"
+provenance: "anthropic-agent-docs@ea0b54518fddd30a50a053740d59d5bedb91323822965fff7c16d6645f9dbd96; official model overview, selection and Opus prompting pages re-read 2026-11-02"
 status: "current"
 versions: []
 ---
@@ -38,3 +38,5 @@ The [model overview](https://platform.claude.com/docs/en/models/overview) gives 
 ## Evidence and limits
 
 The overview establishes vendor positioning and comparative latency/token pricing; the Opus guide establishes its prompting and effort behavior. No models were executed, compared or benchmarked here. Total cost includes retries, tool work and reasoning, so token prices alone do not determine the cheapest successful workflow. Availability, aliases and model retirement change; reopen official pages before adopting this dated selection table. See [Claude skill and rule authoring](claude-skills-and-rules.md) for workflow design.
+
+**Revalidated November 2, 2026:** The overview, selection alternatives and Opus prompting guide still support this dated table. Effort defaults differ: the selection guide lists `high` for Fable 5.1 and Sonnet 5.5, and `medium` for Opus 5.5 and Haiku 5.5. Set the intended model and effort explicitly; do not carry one model's default across the lineup. No model execution or benchmark was performed.

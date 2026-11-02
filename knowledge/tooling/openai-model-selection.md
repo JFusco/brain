@@ -3,11 +3,11 @@ title: "Choose OpenAI models and reasoning by task"
 format: "playbook"
 domain: "tooling"
 aliases: ["OpenAI model strengths and weaknesses", "GPT-6 Astra Sol Terra Luna", "reasoning effort", "OpenAI model best practices"]
-evidence_date: "2026-10-30"
-reviewed_at: "2026-10-30"
-review_after: "2026-11-06"
+evidence_date: "2026-11-02"
+reviewed_at: "2026-11-02"
+review_after: "2026-11-09"
 applicability: "OpenAI GPT-6 and GPT-6.1 general-purpose API models documented on the evidence date; ChatGPT and Codex availability and settings can differ"
-provenance: "openai-agent-docs@cee2f0d46de2ef567418e2145606d882f1f321e0396afedf8471b7e7200e319d; official OpenAI API and ChatGPT/Codex documentation read 2026-10-30"
+provenance: "openai-agent-docs@99c72a9985c217bd5762848e50e13ceffff71666213839f70e109229869bba59; official model catalog, selection, GPT-6 compatibility and prompt-engineering pages re-read 2026-11-02"
 status: "current"
 versions: []
 ---
@@ -37,4 +37,4 @@ The [model catalog](https://developers.openai.com/api/docs/models) and [selectio
 
 No model executions, performance benchmarks or cross-provider tests were run. Prices, availability and defaults can change; reopen the exact model page before adopting this dated table. Specialized audio, image, embedding, open-weight and legacy models are separate choices through the [complete catalog](https://developers.openai.com/api/docs/models/all). See [OpenAI skills and rules](openai-skills-and-rules.md) and [Claude model selection](claude-model-selection.md) for the corresponding workflow and provider boundaries.
 
-**Revalidated October 30, 2026:** The model catalog, selection guide, GPT-6 reasoning/tool compatibility and prompt-engineering guidance were re-read. The table now uses workload and vendor-positioning tradeoffs rather than a fixed token-price ranking. Astra/Sol omit `none`, Terra/Luna support it, and Responses remains the documented route for reasoning with tools. Product-specific availability and proposed evaluation practices remain separate from measured performance.
+**Revalidated November 2, 2026:** Current catalog and selection pages support the workload distinctions in the table. The GPT-6 guide requires Responses for tool calling with Astra, GPT-6.1 Sol and GPT-6.1 Terra; GPT-6 Sol and Luna permit Chat Completions function calling only with `none`. Use Responses for reasoning with tools and verify the exact model/endpoint combination. The prompt-engineering page still recommends snapshots and evaluations. Product availability, proposed comparisons and measured performance remain separate.
