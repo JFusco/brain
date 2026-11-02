@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "supabase-docs",
-  "revision": "cc2d3c658ce214bc98d3139b510068c03f8e7076d6b43b4521a90f677cc2c77e",
+  "revision": "3e86f06fef76cf812cd8d83f5a9b451148971204ea01a047f7cfc40b87ad229d",
   "origin": "https://supabase.com/docs/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -30,6 +30,11 @@
       "title": "api / handling errors in supabase js",
       "url": "https://supabase.com/docs/guides/api/handling-errors-in-supabase-js",
       "fetchUrl": "https://supabase.com/docs/guides/api/handling-errors-in-supabase-js.md"
+    },
+    {
+      "title": "api / query plans",
+      "url": "https://supabase.com/docs/guides/api/query-plans",
+      "fetchUrl": "https://supabase.com/docs/guides/api/query-plans.md"
     },
     {
       "title": "api / quickstart",
@@ -545,11 +550,6 @@
       "title": "database / debugging functions",
       "url": "https://supabase.com/docs/guides/database/debugging-functions",
       "fetchUrl": "https://supabase.com/docs/guides/database/debugging-functions.md"
-    },
-    {
-      "title": "database / debugging performance",
-      "url": "https://supabase.com/docs/guides/database/debugging-performance",
-      "fetchUrl": "https://supabase.com/docs/guides/database/debugging-performance.md"
     },
     {
       "title": "database / drizzle",
@@ -1527,6 +1527,11 @@
       "fetchUrl": "https://supabase.com/docs/guides/local-development/cli/getting-started.md"
     },
     {
+      "title": "cli / migrating to v3",
+      "url": "https://supabase.com/docs/guides/local-development/cli/migrating-to-v3",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/cli/migrating-to-v3.md"
+    },
+    {
       "title": "cli / testing and linting",
       "url": "https://supabase.com/docs/guides/local-development/cli/testing-and-linting",
       "fetchUrl": "https://supabase.com/docs/guides/local-development/cli/testing-and-linting.md"
@@ -1555,6 +1560,11 @@
       "title": "local development / docker and native runtimes",
       "url": "https://supabase.com/docs/guides/local-development/docker-and-native-runtimes",
       "fetchUrl": "https://supabase.com/docs/guides/local-development/docker-and-native-runtimes.md"
+    },
+    {
+      "title": "local development / local and hosted projects",
+      "url": "https://supabase.com/docs/guides/local-development/local-and-hosted-projects",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/local-and-hosted-projects.md"
     },
     {
       "title": "local development / managing config",
@@ -2210,6 +2220,11 @@
       "title": "security / product security",
       "url": "https://supabase.com/docs/guides/security/product-security",
       "fetchUrl": "https://supabase.com/docs/guides/security/product-security.md"
+    },
+    {
+      "title": "security / production checklist",
+      "url": "https://supabase.com/docs/guides/security/production-checklist",
+      "fetchUrl": "https://supabase.com/docs/guides/security/production-checklist.md"
     },
     {
       "title": "security / rotate leaked api keys",

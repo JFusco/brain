@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "motion-docs",
-  "revision": "379798ecbc4621eed5f3f96abd19bc774b1461acf1f334f93cda321e533d6e0a",
+  "revision": "4d9174a4656d8e40b29ace0f4f66d731d3a1844848030092932277a350337c6a",
   "origin": "https://motion.dev/llms.txt",
   "skills": [],
   "docs": [],
@@ -240,6 +240,11 @@
       "title": "AnimatePresence",
       "url": "https://motion.dev/docs/react-animate-presence",
       "fetchUrl": "https://motion.dev/docs/react-animate-presence.md"
+    },
+    {
+      "title": "AnimateSuspense",
+      "url": "https://motion.dev/docs/react-animate-suspense",
+      "fetchUrl": "https://motion.dev/docs/react-animate-suspense.md"
     },
     {
       "title": "AnimateView",
@@ -545,6 +550,11 @@
       "title": "Three.js",
       "url": "https://motion.dev/docs/three",
       "fetchUrl": "https://motion.dev/docs/three.md"
+    },
+    {
+      "title": "Timeline sequences",
+      "url": "https://motion.dev/docs/timeline-sequences",
+      "fetchUrl": "https://motion.dev/docs/timeline-sequences.md"
     },
     {
       "title": "transform",

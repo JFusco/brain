@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "391f0d84b603e9608b9889fec1d0305c68ef36346e24e6095029b754693d2822",
+  "revision": "e055ad05cc4ddce989e5dcc9f4ef3f8392a21cbcb11e736eb06c745892810da3",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -2805,6 +2805,11 @@
       "title": "Chat SDK with Vercel Connect",
       "url": "https://vercel.com/docs/chat-sdk/integrations/connect",
       "fetchUrl": "https://vercel.com/docs/chat-sdk/integrations/connect.md"
+    },
+    {
+      "title": "Chat SDK with Vercel Daemons",
+      "url": "https://vercel.com/docs/chat-sdk/integrations/daemons",
+      "fetchUrl": "https://vercel.com/docs/chat-sdk/integrations/daemons.md"
     },
     {
       "title": "Chat SDK with Vercel Passport",
@@ -6402,6 +6407,11 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/environment/updates-one-or-more-shared-environment-variables.md"
     },
     {
+      "title": "Connect a project to the flags of this project",
+      "url": "https://vercel.com/docs/rest-api/feature-flags/connect-a-project-to-the-flags-of-this-project",
+      "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/connect-a-project-to-the-flags-of-this-project.md"
+    },
+    {
       "title": "Create a flag",
       "url": "https://vercel.com/docs/rest-api/feature-flags/create-a-flag",
       "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/create-a-flag.md"
@@ -6430,6 +6440,11 @@
       "title": "Delete an SDK key",
       "url": "https://vercel.com/docs/rest-api/feature-flags/delete-an-sdk-key",
       "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/delete-an-sdk-key.md"
+    },
+    {
+      "title": "Disconnect a project from the flags of this project",
+      "url": "https://vercel.com/docs/rest-api/feature-flags/disconnect-a-project-from-the-flags-of-this-project",
+      "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/disconnect-a-project-from-the-flags-of-this-project.md"
     },
     {
       "title": "Get a flag",
@@ -6475,6 +6490,11 @@
       "title": "List flags",
       "url": "https://vercel.com/docs/rest-api/feature-flags/list-flags",
       "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-flags.md"
+    },
+    {
+      "title": "List flags project connections",
+      "url": "https://vercel.com/docs/rest-api/feature-flags/list-flags-project-connections",
+      "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-flags-project-connections.md"
     },
     {
       "title": "List segments",

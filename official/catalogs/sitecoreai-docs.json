@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "sitecoreai-docs",
-  "revision": "4a62a6a81c56ff1042354b6a785138e4579ab08d1dcc1d098f12e4113a15b481",
+  "revision": "9fd006f795cca43a5e859d3a227d03693b965bc1df04046bf18d0654e36695d4",
   "origin": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -720,11 +720,6 @@
       "title": "pages configuration / walkthrough  setting up a custom grid.html",
       "url": "https://doc.sitecore.com/sai/en/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/walkthrough--setting-up-a-custom-grid.html",
       "fetchUrl": "https://doc.sitecore.com/sai/en/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/pages-configuration/walkthrough--setting-up-a-custom-grid.html"
-    },
-    {
-      "title": "sitecoreai for developers / sitecore experience accelerator  sxa  faqs.html",
-      "url": "https://doc.sitecore.com/sai/en/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/sitecore-experience-accelerator--sxa--faqs.html",
-      "fetchUrl": "https://doc.sitecore.com/sai/en/developers/sitecoreai/content-modeling-and-presentation/sitecoreai-for-developers/sitecore-experience-accelerator--sxa--faqs.html"
     },
     {
       "title": "content modeling and presentation / the sitecore powershell extensions script library.html",

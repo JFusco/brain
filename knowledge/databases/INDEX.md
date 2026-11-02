@@ -32,7 +32,7 @@ No curated notes yet.
 
 - **postgresql-18-docs** — link catalog of 117 pages; rolling-url; revision `47a8f7958b6b19e6607b2b546a5f043d0afc84dbf0d1e4ccbad18362331c957d`; fetched 2026-10-28.
   - [Catalog source](https://www.postgresql.org/docs/18/index.html); search it with `lookup --domain databases`.
-- **supabase-docs** — link catalog of 512 pages; rolling-url; revision `cc2d3c658ce214bc98d3139b510068c03f8e7076d6b43b4521a90f677cc2c77e`; fetched 2026-11-01.
+- **supabase-docs** — link catalog of 515 pages; rolling-url; revision `3e86f06fef76cf812cd8d83f5a9b451148971204ea01a047f7cfc40b87ad229d`; fetched 2026-11-02.
   - [Catalog source](https://supabase.com/docs/sitemap.xml); search it with `lookup --domain databases`.
 - **supabase-agent-skills** — 2 skills and 39 docs at a pinned commit; default-branch; revision `c9be0e931b7930f7d02126d04774d904c381e7d7`; fetched 2026-10-28.
   - [supabase](https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/SKILL.md) — reference only.
@@ -41,6 +41,6 @@ No curated notes yet.
   - [Catalog source](https://sqlite.org/doclist.html); search it with `lookup --domain databases`.
 - **azure-postgresql-docs** — link catalog of 63 pages; rolling-url; revision `a7e7da83abc7f95680183119b235063dff75a184778eda28e35d173d5471b279`; fetched 2026-10-28.
   - [Catalog source](https://learn.microsoft.com/en-us/azure/postgresql/); search it with `lookup --domain databases`.
-- **microsoft-postgres-skills** — 1 skills and 24 docs at a pinned commit; default-branch; revision `80660832262ad5002dc647ba56272d91b4f56955`; fetched 2026-10-30.
-  - [postgresql-best-practices](https://github.com/microsoft/postgres-skills/blob/80660832262ad5002dc647ba56272d91b4f56955/plugin/skills/postgresql-best-practices/SKILL.md) — reference only.
+- **microsoft-postgres-skills** — 1 skills and 24 docs at a pinned commit; default-branch; revision `8e14d4021e9fa7d6025a6e0a3e1be384c43d9aeb`; fetched 2026-11-02.
+  - [postgresql-best-practices](https://github.com/microsoft/postgres-skills/blob/8e14d4021e9fa7d6025a6e0a3e1be384c43d9aeb/plugin/skills/postgresql-best-practices/SKILL.md) — reference only.
 <!-- brain:official:end -->

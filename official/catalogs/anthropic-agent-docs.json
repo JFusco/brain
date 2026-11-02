@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "anthropic-agent-docs",
-  "revision": "6b03d984c6d9b39eea32a4854af96b6d26babd30d8940af6fd16901d2b8eafa1",
+  "revision": "ea0b54518fddd30a50a053740d59d5bedb91323822965fff7c16d6645f9dbd96",
   "origin": "https://platform.claude.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -345,6 +345,11 @@
       "title": "Stop reasons and fallback",
       "url": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons",
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons.md"
+    },
+    {
+      "title": "Message threads",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/message-threads",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/message-threads.md"
     },
     {
       "title": "Build an orchestration mode",
