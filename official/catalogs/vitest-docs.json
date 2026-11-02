@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vitest-docs",
-  "revision": "9fc16ed9694188c784244565756b0eb6ecb3f6bbd111f2cb97479f821cc88adb",
+  "revision": "f5554913ca300523eac30b71ecb8f99bcdf27a6508abf8ca212be9026711ae90",
   "origin": "https://vitest.dev/llms.txt",
   "skills": [],
   "docs": [],
@@ -225,6 +225,11 @@
       "title": "browser.headless | Config",
       "url": "https://vitest.dev/config/browser/headless",
       "fetchUrl": "https://vitest.dev/config/browser/headless.md"
+    },
+    {
+      "title": "browser.importMapMocks | Config",
+      "url": "https://vitest.dev/config/browser/importmapmocks",
+      "fetchUrl": "https://vitest.dev/config/browser/importmapmocks.md"
     },
     {
       "title": "browser.instances | Config",
@@ -762,7 +767,7 @@
       "fetchUrl": "https://vitest.dev/guide/browser/playwright-traces.md"
     },
     {
-      "title": "Trace View  5.0.0",
+      "title": "Trace View 5.0.0",
       "url": "https://vitest.dev/guide/browser/trace-view",
       "fetchUrl": "https://vitest.dev/guide/browser/trace-view.md"
     },
@@ -965,6 +970,11 @@
       "title": "Test Projects | Guide",
       "url": "https://vitest.dev/guide/projects",
       "fetchUrl": "https://vitest.dev/guide/projects.md"
+    },
+    {
+      "title": "Running Only Affected Tests | Recipes",
+      "url": "https://vitest.dev/guide/recipes/affected-tests",
+      "fetchUrl": "https://vitest.dev/guide/recipes/affected-tests.md"
     },
     {
       "title": "Extending Browser Locators | Recipes",

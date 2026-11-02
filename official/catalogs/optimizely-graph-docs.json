@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-graph-docs",
-  "revision": "e4f105f278f80c9a69c61074a05b2716cb82a0c0c0f5eef7a101c150cc25a553",
+  "revision": "4d8211c9fa10f17bc58a2870feeeb86ba42f750c3c38848fd8ff7469ee39af9f",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -487,6 +487,11 @@
       "fetchUrl": "https://docs.optimizely.com/graph/docs/get-started-with-the-graphql-api.md"
     },
     {
+      "title": "Get started",
+      "url": "https://docs.optimizely.com/graph/docs/get-started.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/get-started.md"
+    },
+    {
       "title": "GraphQL API technical overview",
       "url": "https://docs.optimizely.com/graph/docs/graphql-api-technical-overview.md",
       "fetchUrl": "https://docs.optimizely.com/graph/docs/graphql-api-technical-overview.md"
@@ -740,11 +745,6 @@
       "title": "Provision an Optimizely Graph instance for CMS 13",
       "url": "https://docs.optimizely.com/graph/docs/provision-an-optimizely-graph-instance-for-cms-13.md",
       "fetchUrl": "https://docs.optimizely.com/graph/docs/provision-an-optimizely-graph-instance-for-cms-13.md"
-    },
-    {
-      "title": "Get started",
-      "url": "https://docs.optimizely.com/graph/docs/Qn1G-get-started.md",
-      "fetchUrl": "https://docs.optimizely.com/graph/docs/Qn1G-get-started.md"
     },
     {
       "title": "Query a specific locale",

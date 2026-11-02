@@ -18,13 +18,13 @@ aliases: ["contentstack"]
 <!-- brain:official:start -->
 ## Official sources
 
-- **contentstack-kickstart** — 6 skills and 3 docs at a pinned commit; default-branch; revision `da9a7b83fc903b3c410b00ec348cedc3219703b0`; fetched 2026-10-29.
-  - [code-review](https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/code-review/SKILL.md) — reference only.
-  - [contentstack-kickstart](https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/contentstack-kickstart/SKILL.md) — reference only.
-  - [dev-workflow](https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/dev-workflow/SKILL.md) — reference only.
-  - [framework](https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/framework/SKILL.md) — reference only.
-  - [testing](https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/testing/SKILL.md) — reference only.
-  - [typescript-style](https://github.com/contentstack/kickstart-next-ssr/blob/da9a7b83fc903b3c410b00ec348cedc3219703b0/skills/typescript-style/SKILL.md) — reference only.
+- **contentstack-kickstart** — 6 skills and 3 docs at a pinned commit; default-branch; revision `4b232397c5d17986f7a3fb303d8243f6341d6bbb`; fetched 2026-11-02.
+  - [code-review](https://github.com/contentstack/kickstart-next-ssr/blob/4b232397c5d17986f7a3fb303d8243f6341d6bbb/skills/code-review/SKILL.md) — reference only.
+  - [contentstack-kickstart](https://github.com/contentstack/kickstart-next-ssr/blob/4b232397c5d17986f7a3fb303d8243f6341d6bbb/skills/contentstack-kickstart/SKILL.md) — reference only.
+  - [dev-workflow](https://github.com/contentstack/kickstart-next-ssr/blob/4b232397c5d17986f7a3fb303d8243f6341d6bbb/skills/dev-workflow/SKILL.md) — reference only.
+  - [framework](https://github.com/contentstack/kickstart-next-ssr/blob/4b232397c5d17986f7a3fb303d8243f6341d6bbb/skills/framework/SKILL.md) — reference only.
+  - [testing](https://github.com/contentstack/kickstart-next-ssr/blob/4b232397c5d17986f7a3fb303d8243f6341d6bbb/skills/testing/SKILL.md) — reference only.
+  - [typescript-style](https://github.com/contentstack/kickstart-next-ssr/blob/4b232397c5d17986f7a3fb303d8243f6341d6bbb/skills/typescript-style/SKILL.md) — reference only.
 - **contentstack-docs** — link catalog of 2688 pages; rolling-url; revision `0558dd65b815d71cf97780373268df2174fdf38f4431fd64dc63bebf4285f257`; fetched 2026-10-30.
   - [Catalog source](https://www.contentstack.com/sitemap.xml); search it with `lookup --domain cms/contentstack`.
 - [Official website](https://www.contentstack.com/llms.txt) — pointer only: Machine-readable index retrieved; mirroring terms remain unverified.

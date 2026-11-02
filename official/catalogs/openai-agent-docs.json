@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "openai-agent-docs",
-  "revision": "cee2f0d46de2ef567418e2145606d882f1f321e0396afedf8471b7e7200e319d",
+  "revision": "99c72a9985c217bd5762848e50e13ceffff71666213839f70e109229869bba59",
   "origin": "https://developers.openai.com/api/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -175,6 +175,11 @@
       "title": "Run and continue sessions",
       "url": "https://developers.openai.com/api/docs/guides/agents-api/sessions",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/agents-api/sessions.md"
+    },
+    {
+      "title": "Automatic review",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/sessions/approvals",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/agents-api/sessions/approvals.md"
     },
     {
       "title": "Scheduled automations",
