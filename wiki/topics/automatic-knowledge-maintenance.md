@@ -293,3 +293,8 @@ The [UI capture journal](../journal/2026-11-01-ui-capture-and-request-budgets.md
 ## November 2 checkpoints, profiling and refactors
 
 The [checkpoint and refactor journal](../journal/2026-11-02-checkpoint-and-refactor-guidance.md) records nine individually reviewed captures, six focused new playbooks, an extension distinguishing Authoring and Delivery limits, and two source-revalidated model-selection notes. SQLite storage/rollback, isolated replay, batch attribution, feature layout, test pruning and file moves remain bounded proposed workflows with documented supporting mechanisms. Historical benchmark and completion claims are deliberately omitted; full private claim accounting and final nightly completion still govern capture acceptance. Other stale-note signals remain visible.
+
+
+## November 3 dependency update and bot contracts
+
+The [dependency automation journal](../journal/2026-11-03-dependency-update-guidance.md) records two linked tooling playbooks for first-party package updates and dependency-bot PR compatibility, plus claim-level revalidation of Claude model selection and explicit per-model effort defaults. Documented mechanisms support proposed adoption decisions; no bot installation, dispatch, workflow exception, package upgrade or model evaluation is implied. Private whole-capture accounting, independent content review and successful final completion remain the acceptance boundary; other stale guidance remains flagged.
