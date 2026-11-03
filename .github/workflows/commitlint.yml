@@ -43,7 +43,7 @@ jobs:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: printf '%s\n' "$PR_TITLE" | pnpm run --silent lint:commit --verbose
       - name: Validate PR body
-        if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') }}
+        if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') && !startsWith(github.event.pull_request.head.ref, 'renovate/') }}
         env:
           PR_BODY: ${{ github.event.pull_request.body }}
         run: pnpm run --silent lint:pr
