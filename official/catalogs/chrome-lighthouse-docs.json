@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "chrome-lighthouse-docs",
-  "revision": "0c255ddc6c86de7779caf2df844d94110148c19f267c270264952cc6b814d1fa",
+  "revision": "0d68012ccfd77aabcd0baad72522e33a2c42fc86a52841e0b5df552de8d0943e",
   "origin": "https://developer.chrome.com/docs/lighthouse/overview",
   "skills": [],
   "docs": [],
@@ -65,6 +65,11 @@
       "title": "Accessibility for agents",
       "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/accessibility-for-agents",
       "fetchUrl": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/accessibility-for-agents"
+    },
+    {
+      "title": "ard.json",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/ard",
+      "fetchUrl": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/ard"
     },
     {
       "title": "Forms missing declarative WebMCP",

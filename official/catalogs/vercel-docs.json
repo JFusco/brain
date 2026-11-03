@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "e055ad05cc4ddce989e5dcc9f4ef3f8392a21cbcb11e736eb06c745892810da3",
+  "revision": "8cc829d661a59541597ea32ee09e2cb47bfba7c3d5c1888c0aeeb8d9107fe7ad",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -5080,6 +5080,11 @@
       "title": "Forward Passport identity to another backend",
       "url": "https://vercel.com/docs/passport/forward-identity",
       "fetchUrl": "https://vercel.com/docs/passport/forward-identity.md"
+    },
+    {
+      "title": "Python SDK Reference",
+      "url": "https://vercel.com/docs/passport/python-sdk-reference",
+      "fetchUrl": "https://vercel.com/docs/passport/python-sdk-reference.md"
     },
     {
       "title": "Read Passport identity in your application",
