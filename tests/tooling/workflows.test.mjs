@@ -23,12 +23,19 @@ test('the new gates never run hosted reference maintenance', () => {
   }
 });
 
-test('commitlint skips only its three lint steps for Dependabot branches', () => {
+test('commitlint skips its lint steps only for Dependabot and the PR body for Renovate', () => {
   const steps = workflow('commitlint.yml')
     .split(/\n\s+- name: /)
     .slice(1);
-  const skip = "if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') }}";
-  const skipped = steps.filter(step => step.includes(skip)).map(step => step.split('\n')[0]);
-  assert.deepEqual(skipped, ['Lint PR title', 'Validate PR body', 'Lint PR commit range']);
+  const skippedFor = prefix =>
+    steps
+      .filter(step => step.includes(`!startsWith(github.event.pull_request.head.ref, '${prefix}')`))
+      .map(step => step.split('\n')[0]);
+  assert.deepEqual(skippedFor('dependabot/'), [
+    'Lint PR title',
+    'Validate PR body',
+    'Lint PR commit range',
+  ]);
+  assert.deepEqual(skippedFor('renovate/'), ['Validate PR body']);
   assert.doesNotMatch(workflow('commitlint.yml'), /^\s{4}if:/m);
 });
