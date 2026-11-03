@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "0558dd65b815d71cf97780373268df2174fdf38f4431fd64dc63bebf4285f257",
+  "revision": "25a521de36abef73ff42683b440078e98d0b24bff2579681752e0d721f4f9f82",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -1620,6 +1620,11 @@
       "title": "docs / changelog",
       "url": "https://www.contentstack.com/docs/changelog",
       "fetchUrl": "https://www.contentstack.com/docs/changelog.md"
+    },
+    {
+      "title": "contentstack canoe / overview",
+      "url": "https://www.contentstack.com/docs/contentstack-canoe/overview",
+      "fetchUrl": "https://www.contentstack.com/docs/contentstack-canoe/overview.md"
     },
     {
       "title": "contentstack mcp troubleshooting / faqs",

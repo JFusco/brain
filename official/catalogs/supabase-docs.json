@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "supabase-docs",
-  "revision": "3e86f06fef76cf812cd8d83f5a9b451148971204ea01a047f7cfc40b87ad229d",
+  "revision": "53002034204a44e76d66c47ed44b8a19740219fcce109baf6be5c2e86ca71d2d",
   "origin": "https://supabase.com/docs/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -2032,9 +2032,9 @@
       "fetchUrl": "https://supabase.com/docs/guides/platform/sso/choosing-login-flow.md"
     },
     {
-      "title": "sso / enterprise mcp authentication",
-      "url": "https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication",
-      "fetchUrl": "https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authentication.md"
+      "title": "sso / enterprise mcp authorization",
+      "url": "https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authorization",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/sso/enterprise-mcp-authorization.md"
     },
     {
       "title": "sso / gsuite",

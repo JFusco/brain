@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "anthropic-agent-docs",
-  "revision": "ea0b54518fddd30a50a053740d59d5bedb91323822965fff7c16d6645f9dbd96",
+  "revision": "39ec0cf8d968618c95a43b14d8554a3cf3888573f500c5e965b5206ff990281d",
   "origin": "https://platform.claude.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -465,6 +465,11 @@
       "title": "Task budgets (beta)",
       "url": "https://platform.claude.com/docs/en/build-with-claude/task-budgets",
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/task-budgets.md"
+    },
+    {
+      "title": "Text watermark",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/text-watermark",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/text-watermark.md"
     },
     {
       "title": "Overview",
