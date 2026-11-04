@@ -4,7 +4,7 @@ title: "UI pattern vocabulary"
 
 # UI pattern vocabulary
 
-Brain reads an exact pinned `@verndale/ui-design-brain` package as an optional
+Brain reads an exact pinned `ui-design-brain` package as an optional
 reference source. The package supplies canonical component names, aliases,
 contextual distinctions and bounded product guidance. It stays in ignored
 `node_modules/`; vendor bodies and its bundled skill are not copied into Brain

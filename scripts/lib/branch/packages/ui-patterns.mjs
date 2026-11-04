@@ -7,7 +7,7 @@ import { STABLE_SEMVER } from '../../leaf/semver.mjs';
 import { pinnedPackage } from './pinned.mjs';
 import { packageReleaseStatus, checkPackageRelease } from './releases.mjs';
 
-const name = '@verndale/ui-design-brain',
+const name = 'ui-design-brain',
   root = 'skills/ui-design-brain/';
 const { file: packageFile, identity: packageIdentity } = pinnedPackage(name, 'UI Design Brain', {
   maxBytes: 256 * 1024,

@@ -217,7 +217,7 @@
     {
       "id": "ui-design-brain",
       "domain": "frontend",
-      "path": "../@verndale/ui-design-brain"
+      "path": "../ui-design-brain"
     }
   ]
 }
