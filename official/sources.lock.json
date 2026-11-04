@@ -217,6 +217,12 @@
       "track": "rolling-url",
       "catalogSha256": "c3f0e3a94741a6a4c78fc8fdffc8a3409a1a130d3ec87caf53700c143fd68d0f"
     },
+    "jest-docs": {
+      "revision": "f7e2a3b22bb68bbb916fb92536740cebe82d9f18759acbe9bfc7a36196ed76cc",
+      "fetchedAt": "2026-11-04T21:21:53.893Z",
+      "track": "rolling-url",
+      "catalogSha256": "925bde968f045272b6534eda379443c51d1432988d5adec2d3d1722eeca2ce7d"
+    },
     "storybook-docs": {
       "revision": "c735625fe57a09cd61ddc13f2b80d4d8f548b9e8bacd52ca415aed3e1fd2ee42",
       "fetchedAt": "2026-10-30T23:32:34.820Z",
