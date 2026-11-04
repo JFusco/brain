@@ -17,6 +17,8 @@ Route design token, design-to-code handoff and component library questions here.
 
 <!-- brain:curated:start -->
 - [Choose a capture method for CSS hover states](hover-capture-method.md)
+- [Compose Storybook templates from complete placements](storybook-template-content.md)
+- [Retrieve Figma image fills for implementation](figma-image-fill-assets.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

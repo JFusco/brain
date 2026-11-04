@@ -298,3 +298,7 @@ The [checkpoint and refactor journal](../journal/2026-11-02-checkpoint-and-refac
 ## November 3 dependency update and bot contracts
 
 The [dependency automation journal](../journal/2026-11-03-dependency-update-guidance.md) records two linked tooling playbooks for first-party package updates and dependency-bot PR compatibility, plus claim-level revalidation of Claude model selection and explicit per-model effort defaults. Documented mechanisms support proposed adoption decisions; no bot installation, dispatch, workflow exception, package upgrade or model evaluation is implied. Private whole-capture accounting, independent content review and successful final completion remain the acceptance boundary; other stale guidance remains flagged.
+
+## November 4 design handoff and browser gates
+
+The [design handoff journal](../journal/2026-11-04-design-handoff-and-browser-gates.md) records image-fill retrieval, complete page-placement composition and consolidated Storybook/Vitest/Playwright verification guidance. Source bitmaps, rendered screenshots, executed tests and accessibility results have distinct evidence boundaries. Generator identity, download budgets and capture procedures remain proposed practices; incident counts and success reports are not generalized. The overdue Claude authoring note is revalidated with explicit loader version/session limits. Whole-capture accounting, fresh independent content review and successful final completion continue to govern acceptance.
