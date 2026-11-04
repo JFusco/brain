@@ -42,6 +42,6 @@ Vendor skills are reference material. Cataloging does not install them, enable a
   - [Catalog source](https://sqlite.org/doclist.html); search it with `lookup --domain databases`.
 - **azure-postgresql-docs** — link catalog of 63 pages; rolling-url; revision `a7e7da83abc7f95680183119b235063dff75a184778eda28e35d173d5471b279`; fetched 2026-10-28.
   - [Catalog source](https://learn.microsoft.com/en-us/azure/postgresql/); search it with `lookup --domain databases`.
-- **microsoft-postgres-skills** — 1 skills and 24 docs at a pinned commit; default-branch; revision `8e14d4021e9fa7d6025a6e0a3e1be384c43d9aeb`; fetched 2026-11-02.
-  - [postgresql-best-practices](https://github.com/microsoft/postgres-skills/blob/8e14d4021e9fa7d6025a6e0a3e1be384c43d9aeb/plugin/skills/postgresql-best-practices/SKILL.md) — reference only.
+- **microsoft-postgres-skills** — 1 skills and 24 docs at a pinned commit; default-branch; revision `45f53d74029c8ddfb2b7a675ab206a83d2e583c7`; fetched 2026-11-04.
+  - [postgresql-best-practices](https://github.com/microsoft/postgres-skills/blob/45f53d74029c8ddfb2b7a675ab206a83d2e583c7/plugin/skills/postgresql-best-practices/SKILL.md) — reference only.
 <!-- brain:official:end -->

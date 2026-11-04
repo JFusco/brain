@@ -53,7 +53,7 @@ No curated notes yet.
   - [vercel-tracing](https://github.com/vercel/vercel-plugin/blob/3ca3e549d48578bcb3b315ec6e9a972fce1c24ed/skills/vercel-tracing/SKILL.md) — reference only.
   - [verification](https://github.com/vercel/vercel-plugin/blob/3ca3e549d48578bcb3b315ec6e9a972fce1c24ed/skills/verification/SKILL.md) — reference only.
   - [workflow](https://github.com/vercel/vercel-plugin/blob/3ca3e549d48578bcb3b315ec6e9a972fce1c24ed/skills/workflow/SKILL.md) — reference only.
-- **vercel-docs** — link catalog of 1731 pages; rolling-url; revision `8cc829d661a59541597ea32ee09e2cb47bfba7c3d5c1888c0aeeb8d9107fe7ad`; fetched 2026-11-03.
+- **vercel-docs** — link catalog of 1733 pages; rolling-url; revision `5a54340ee96451e7c7e43ece81140fc0e6084ab4ef499440f2164df13130f4fb`; fetched 2026-11-04.
   - [Catalog source](https://vercel.com/docs/sitemap.md); search it with `lookup --domain vercel`.
 - [Official website](https://vercel.com/llms.txt) — pointer only: Machine-readable index retrieved; mirroring terms remain unverified.
 <!-- brain:official:end -->

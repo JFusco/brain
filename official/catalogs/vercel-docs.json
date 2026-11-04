@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "8cc829d661a59541597ea32ee09e2cb47bfba7c3d5c1888c0aeeb8d9107fe7ad",
+  "revision": "5a54340ee96451e7c7e43ece81140fc0e6084ab4ef499440f2164df13130f4fb",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -2587,6 +2587,11 @@
       "fetchUrl": "https://vercel.com/docs/audit-log/migrating-to-drains.md"
     },
     {
+      "title": "Background Workers on Vercel",
+      "url": "https://vercel.com/docs/background-workers",
+      "fetchUrl": "https://vercel.com/docs/background-workers.md"
+    },
+    {
       "title": "Bot Management",
       "url": "https://vercel.com/docs/bot-management",
       "fetchUrl": "https://vercel.com/docs/bot-management.md"
@@ -2892,6 +2897,11 @@
       "fetchUrl": "https://vercel.com/docs/cli/api.md"
     },
     {
+      "title": "vercel billing",
+      "url": "https://vercel.com/docs/cli/billing",
+      "fetchUrl": "https://vercel.com/docs/cli/billing.md"
+    },
+    {
       "title": "vercel bisect",
       "url": "https://vercel.com/docs/cli/bisect",
       "fetchUrl": "https://vercel.com/docs/cli/bisect.md"
@@ -2902,7 +2912,7 @@
       "fetchUrl": "https://vercel.com/docs/cli/blob.md"
     },
     {
-      "title": "vercel budgets",
+      "title": "vercel billing budgets",
       "url": "https://vercel.com/docs/cli/budgets",
       "fetchUrl": "https://vercel.com/docs/cli/budgets.md"
     },
@@ -2937,7 +2947,7 @@
       "fetchUrl": "https://vercel.com/docs/cli/connect.md"
     },
     {
-      "title": "vercel contract",
+      "title": "vercel billing contract",
       "url": "https://vercel.com/docs/cli/contract",
       "fetchUrl": "https://vercel.com/docs/cli/contract.md"
     },
@@ -3222,7 +3232,7 @@
       "fetchUrl": "https://vercel.com/docs/cli/upgrade.md"
     },
     {
-      "title": "vercel usage",
+      "title": "vercel billing usage",
       "url": "https://vercel.com/docs/cli/usage",
       "fetchUrl": "https://vercel.com/docs/cli/usage.md"
     },

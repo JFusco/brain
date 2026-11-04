@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "25a521de36abef73ff42683b440078e98d0b24bff2579681752e0d721f4f9f82",
+  "revision": "d7e0f9feab8e2be14b167793d03572d8cdf220c991ebcb76e79608ebf3056daa",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -11765,6 +11765,11 @@
       "title": "launch / supported package managers",
       "url": "https://www.contentstack.com/docs/launch/supported-package-managers",
       "fetchUrl": "https://www.contentstack.com/docs/launch/supported-package-managers.md"
+    },
+    {
+      "title": "launch / traffic analytics",
+      "url": "https://www.contentstack.com/docs/launch/traffic-analytics",
+      "fetchUrl": "https://www.contentstack.com/docs/launch/traffic-analytics.md"
     },
     {
       "title": "launch / traffic encryption",
