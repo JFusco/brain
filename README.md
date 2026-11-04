@@ -421,7 +421,7 @@ release or successful metadata request is not verification of vendor claims.
 
 ### UI pattern vocabulary
 
-Brain also pins `@verndale/ui-design-brain` in the dependency manifest and lock.
+Brain also pins `ui-design-brain` in the dependency manifest and lock.
 Its MIT-licensed catalog stays in ignored `node_modules/`; Brain reads package
 data without executing its CLI or installing its skill into another project.
 

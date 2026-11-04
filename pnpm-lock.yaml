@@ -8,12 +8,12 @@ importers:
 
   .:
     dependencies:
-      '@verndale/ui-design-brain':
-        specifier: 1.18.2
-        version: 1.18.2
       cms-field-vocabulary:
         specifier: 1.3.10
         version: 1.3.10
+      ui-design-brain:
+        specifier: 1.18.5
+        version: 1.18.5
     devDependencies:
       '@commitlint/cli':
         specifier: 21.2.3
@@ -219,11 +219,6 @@ packages:
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
-
-  '@verndale/ui-design-brain@1.18.2':
-    resolution: {integrity: sha512-Za13sATOR8rjfk09exa9e4Sm3fdbgK8ZRZtmFJNvaFrTvaJEkYs5NFOXtTQjtpVCPCGsTWqw+gBXppPZbPihQg==}
-    engines: {node: '>=24.14.0'}
-    hasBin: true
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -610,6 +605,11 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
+  ui-design-brain@1.18.5:
+    resolution: {integrity: sha512-emwhn0X1gHE8o8/2sJeSSRItiNP+6Ra0zHBzinejQxPZqUgkn6tnH7UGHmwLccVJ0RAcmZKqhsF8YVZ4ACyL0A==}
+    engines: {node: '>=24.14.0'}
+    hasBin: true
+
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
@@ -854,8 +854,6 @@ snapshots:
   '@types/estree@1.0.9': {}
 
   '@types/json-schema@7.0.15': {}
-
-  '@verndale/ui-design-brain@1.18.2': {}
 
   acorn-jsx@5.3.2(acorn@8.19.0):
     dependencies:
@@ -1208,6 +1206,8 @@ snapshots:
   type-check@0.4.0:
     dependencies:
       prelude-ls: 1.2.1
+
+  ui-design-brain@1.18.5: {}
 
   uri-js@4.4.1:
     dependencies:
