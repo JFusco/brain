@@ -32,6 +32,7 @@ Route build configuration, test runners, component workshops, linting, package m
 - [Prune tests by the behavior they protect](behavior-focused-test-pruning.md)
 - [Separate file moves from refactors and check merges](rename-preserving-file-moves.md)
 - [Separate review transport and context capacity failures](review-capacity-recovery.md)
+- [Verify Storybook browser gates and capture evidence](storybook-browser-gates.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
