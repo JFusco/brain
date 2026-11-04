@@ -12,8 +12,8 @@ importers:
         specifier: 1.3.11
         version: 1.3.11
       ui-design-brain:
-        specifier: 1.18.6
-        version: 1.18.6
+        specifier: 1.18.7
+        version: 1.18.7
     devDependencies:
       '@commitlint/cli':
         specifier: 21.2.3
@@ -605,8 +605,8 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  ui-design-brain@1.18.6:
-    resolution: {integrity: sha512-gyMxYok7LfUTU8G1oFmKStzZo9YX9uWRZ7ntl19qB2pvtY/DAtzwmnAH/Uh2pzKtqCtta7Hbc/qdfKjcGeEelg==}
+  ui-design-brain@1.18.7:
+    resolution: {integrity: sha512-dKfKL59eg8tHl+uFlpdKuob99mxb6P+FzuakTneW69xaAUsLrCU+9xyBfsBgmpRA253s83lg/L6gJtEuHZAoUA==}
     engines: {node: '>=24.14.0'}
     hasBin: true
 
@@ -1207,7 +1207,7 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  ui-design-brain@1.18.6: {}
+  ui-design-brain@1.18.7: {}
 
   uri-js@4.4.1:
     dependencies:
