@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "openai-agent-docs",
-  "revision": "99c72a9985c217bd5762848e50e13ceffff71666213839f70e109229869bba59",
+  "revision": "850050f2ccd4c7300a6e1cd902f51da95babf55d2c4f37f160e9c26a186cc301",
   "origin": "https://developers.openai.com/api/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -292,6 +292,11 @@
       "fetchUrl": "https://developers.openai.com/api/docs/guides/amazon-bedrock.md"
     },
     {
+      "title": "API keys and service accounts",
+      "url": "https://developers.openai.com/api/docs/guides/api-keys",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/api-keys.md"
+    },
+    {
       "title": "Set up asymmetric keys",
       "url": "https://developers.openai.com/api/docs/guides/asymmetric-keys",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/asymmetric-keys.md"
@@ -415,11 +420,6 @@
       "title": "Connect voice to Decisions",
       "url": "https://developers.openai.com/api/docs/guides/decisions-voice",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/decisions-voice.md"
-    },
-    {
-      "title": "Deep research",
-      "url": "https://developers.openai.com/api/docs/guides/deep-research",
-      "fetchUrl": "https://developers.openai.com/api/docs/guides/deep-research.md"
     },
     {
       "title": "API deployment checklist",
@@ -950,11 +950,6 @@
       "title": "Image generation",
       "url": "https://developers.openai.com/api/docs/guides/tools-image-generation",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/tools-image-generation.md"
-    },
-    {
-      "title": "Local shell",
-      "url": "https://developers.openai.com/api/docs/guides/tools-local-shell",
-      "fetchUrl": "https://developers.openai.com/api/docs/guides/tools-local-shell.md"
     },
     {
       "title": "Programmatic Tool Calling",

@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "sources": {
     "sitecore-content-sdk": {
-      "revision": "545f612a69a3b39ce13d4db5014afe7c9c41f8f1",
-      "fetchedAt": "2026-11-02T22:03:28.484Z",
+      "revision": "b3c03649e48b9ac722ce15c001c963e2fd21c036",
+      "fetchedAt": "2026-11-04T22:04:52.718Z",
       "track": "default-branch",
-      "catalogSha256": "28426f3fa3dbdc609f3853718c7ac3cd08b8016916a43a55ec0341f1e1e632f8"
+      "catalogSha256": "13fa8f1911290c7284ea0084a4437bd42c7348f2080978487fc8289e45d2e0e2"
     },
     "contentstack-kickstart": {
       "revision": "4b232397c5d17986f7a3fb303d8243f6341d6bbb",
@@ -26,16 +26,16 @@
       "catalogSha256": "9944181f2a7080d99cb102d413390a90b7603cc21ff188c224d38a23fe74d5b7"
     },
     "contentful-skills": {
-      "revision": "8e9d9feac7901f9c45a2ea150b91368ab508855b",
-      "fetchedAt": "2026-11-03T22:04:32.528Z",
+      "revision": "c9c219d9517a3a64071687e1ec10878a1a66f1a7",
+      "fetchedAt": "2026-11-04T22:05:00.238Z",
       "track": "default-branch",
-      "catalogSha256": "521641c269807b64bafe61cc44ce90af7bd93fdbc9d3eb9f6664c4c287d67f74"
+      "catalogSha256": "7b7f02837c8aae05e50864edec0b951856a9f9332295b8ee8eea372933de1383"
     },
     "optimizely-sdk": {
-      "revision": "bf3ad005aa4e6942c2fcc48348d439f31a7e8076",
-      "fetchedAt": "2026-11-03T22:04:37.426Z",
+      "revision": "8df53b9af159f2a44d9c88f5157fd769362bc666",
+      "fetchedAt": "2026-11-04T22:05:03.646Z",
       "track": "default-branch",
-      "catalogSha256": "6d869c0b4b04d407c58f23464bc2ce607202d080ed8eafb9f3379d5b2b4ca848"
+      "catalogSha256": "38b7e028f2704eb0a9f2f9a7bb55e2cb154e67e15f37aba1919c2624561b3a2e"
     },
     "nextjs-index": {
       "revision": "c3eb69126a4ec98ddcfa9162ccac3da42b223964ad0725af810ca5e3622d8b73",
@@ -50,22 +50,22 @@
       "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "8cc829d661a59541597ea32ee09e2cb47bfba7c3d5c1888c0aeeb8d9107fe7ad",
-      "fetchedAt": "2026-11-03T22:04:41.896Z",
+      "revision": "5a54340ee96451e7c7e43ece81140fc0e6084ab4ef499440f2164df13130f4fb",
+      "fetchedAt": "2026-11-04T22:05:07.942Z",
       "track": "rolling-url",
-      "catalogSha256": "9a3d4bf332311077557304d07a241cfaca97f95aa55ef5b9abea100c7e6cc3b7"
+      "catalogSha256": "be6e5947733be964df0e4ad8564562b8d0f71f8a129a83f851f66d567402c3f8"
     },
     "contentstack-docs": {
-      "revision": "25a521de36abef73ff42683b440078e98d0b24bff2579681752e0d721f4f9f82",
-      "fetchedAt": "2026-11-03T22:04:51.237Z",
+      "revision": "d7e0f9feab8e2be14b167793d03572d8cdf220c991ebcb76e79608ebf3056daa",
+      "fetchedAt": "2026-11-04T22:05:21.214Z",
       "track": "rolling-url",
-      "catalogSha256": "d832fb37152b956d3203813f37f3ce64595c7f766b20a3e66a2b188c748f8662"
+      "catalogSha256": "96a94256b074621753021a94c35d055c3b8eca6d7db474a1010bdcc44c9fe14a"
     },
     "react-docs": {
-      "revision": "ae5c052513bff992aef8f9e4454126e5c6c524ed",
-      "fetchedAt": "2026-11-03T22:04:52.795Z",
+      "revision": "2177e28d3c3c16a8183346b9140f11ce0ee6af25",
+      "fetchedAt": "2026-11-04T22:05:23.984Z",
       "track": "default-branch",
-      "catalogSha256": "a0dca7035c7cfb36d4af053414b77d04dd0f83a97d554242f56b4f4af9acd397"
+      "catalogSha256": "2772b7762f74a3e38815da3a1b1b97510119e1554a080340ff6095d245776020"
     },
     "tailwind-docs": {
       "revision": "7f92c2213315c195dae583d68752da4042da3ade",
@@ -200,10 +200,10 @@
       "catalogSha256": "454897787813334dee8773f0620386bbfa1f13ba1a698f2b2301af8697d81a32"
     },
     "web-features-baseline": {
-      "revision": "64427e2b37afb6ae4be18f4af0e50678ab8c19fe",
-      "fetchedAt": "2026-11-03T22:05:25.456Z",
+      "revision": "6656ac3ceaf677ee99df633133c6156d08068198",
+      "fetchedAt": "2026-11-04T22:06:16.551Z",
       "track": "default-branch",
-      "catalogSha256": "aeb31b7c76bdc161924ca9739a2a5a2d5678068c3c91ac641b24eb5c00768b1b"
+      "catalogSha256": "42b8f631aca3019bedf78b46e69d8aeae4ecf0ee41afdea0853e9b91259aec2c"
     },
     "vite-docs": {
       "revision": "3775d0f7cb461ad88a27fa13ae51dbc82d130d09febbe7e9796894b5ce1152ef",
@@ -290,16 +290,16 @@
       "catalogSha256": "0248250fea7fe3d5b8ad66896827d3ce8f2fc2bf401a7e52dd3662a4c7e99558"
     },
     "chrome-devtools-skills": {
-      "revision": "81a037939b19a3588ac6a35e06d576af706a3b57",
-      "fetchedAt": "2026-11-03T22:05:43.868Z",
+      "revision": "0877ee00d2e43c1c04bba275e7d08cc1033e36e9",
+      "fetchedAt": "2026-11-04T22:06:35.683Z",
       "track": "default-branch",
-      "catalogSha256": "0d21b9371bf231e5ab9c2750ad0eea3b0b7d4aec1610fbf4c8c1a8510aab51d6"
+      "catalogSha256": "0805db51ade7207b77b520088ff59846dbae0f376e4fa968e4160f2ca5bac59a"
     },
     "agent-browser-skills": {
-      "revision": "66dd1d00d95da00d0439d576825c58840bc53bff",
-      "fetchedAt": "2026-11-03T22:05:46.317Z",
+      "revision": "6682da310c75bed8af340b39cc10b7f71bded155",
+      "fetchedAt": "2026-11-04T22:06:38.221Z",
       "track": "default-branch",
-      "catalogSha256": "44c677b0a8630578a87f10144629e2b83fef3d6f280fba5f1b4c5b3022b2a3a6"
+      "catalogSha256": "afda2adc3db1916108fe4bcde338fc7023e11c670aefe2e1de5965044e356a57"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
@@ -326,10 +326,10 @@
       "catalogSha256": "9a6e57421adf69c04c65a81ae866cc0a7d9ed6d00ec333db7000dc39e428aac3"
     },
     "openai-agent-docs": {
-      "revision": "99c72a9985c217bd5762848e50e13ceffff71666213839f70e109229869bba59",
-      "fetchedAt": "2026-11-02T22:05:47.234Z",
+      "revision": "850050f2ccd4c7300a6e1cd902f51da95babf55d2c4f37f160e9c26a186cc301",
+      "fetchedAt": "2026-11-04T22:06:43.194Z",
       "track": "rolling-url",
-      "catalogSha256": "332e91b36e09ee1c558341251980be98eecd4a7d54815be99e693227ae8c998c"
+      "catalogSha256": "bdfdee4fc8b7809430dde76ec42e07597017a995bfcb2a46b221c64e7883f40f"
     },
     "postgresql-18-docs": {
       "revision": "47a8f7958b6b19e6607b2b546a5f043d0afc84dbf0d1e4ccbad18362331c957d",
@@ -362,10 +362,10 @@
       "catalogSha256": "92d1d55a361cd5573abe4e941ca265dce9868b8de489189bb85db8a73d574084"
     },
     "microsoft-postgres-skills": {
-      "revision": "8e14d4021e9fa7d6025a6e0a3e1be384c43d9aeb",
-      "fetchedAt": "2026-11-02T22:05:54.927Z",
+      "revision": "45f53d74029c8ddfb2b7a675ab206a83d2e583c7",
+      "fetchedAt": "2026-11-04T22:06:53.907Z",
       "track": "default-branch",
-      "catalogSha256": "7b753f515381c8c2b9ad1d4b25e0332e42e2a6345c635e6d027a5754a61f91cc"
+      "catalogSha256": "ebbb24146332c742a9c18c43b60a38717e077011a7d558622e2555c1d33acb3a"
     },
     "webflow-skills": {
       "revision": "fd07213dfaac2ff33465ff367685711783261287",

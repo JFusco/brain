@@ -32,8 +32,8 @@ aliases: ["react", "hooks"]
   - [react-best-practices](https://github.com/vercel/vercel-plugin/blob/3ca3e549d48578bcb3b315ec6e9a972fce1c24ed/skills/react-best-practices/SKILL.md).
 - **react-index** — link catalog of 180 pages; rolling-url; revision `8164398bcb11d2ed3377e96aac8473f508d2ddd687d51b7968be3a991056fd65`; fetched 2026-10-20.
   - [Catalog source](https://react.dev/llms.txt); search it with `lookup --domain react`.
-- **react-docs** — link catalog of 226 pages; default-branch; revision `ae5c052513bff992aef8f9e4454126e5c6c524ed`; fetched 2026-11-03.
-  - [Catalog source](https://github.com/reactjs/react.dev/tree/ae5c052513bff992aef8f9e4454126e5c6c524ed/src/content/); search it with `lookup --domain react`.
+- **react-docs** — link catalog of 226 pages; default-branch; revision `2177e28d3c3c16a8183346b9140f11ce0ee6af25`; fetched 2026-11-04.
+  - [Catalog source](https://github.com/reactjs/react.dev/tree/2177e28d3c3c16a8183346b9140f11ce0ee6af25/src/content/); search it with `lookup --domain react`.
 - **motion-docs** — link catalog of 152 pages; rolling-url; revision `4d9174a4656d8e40b29ace0f4f66d731d3a1844848030092932277a350337c6a`; fetched 2026-11-02.
   - [Catalog source](https://motion.dev/llms.txt); search it with `lookup --domain react`.
 - [Official website](https://react.dev/learn) — pointer only: Official React documentation (CC-BY-4.0); react-index and react-docs catalog its links.
