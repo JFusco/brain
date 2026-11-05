@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "d7e0f9feab8e2be14b167793d03572d8cdf220c991ebcb76e79608ebf3056daa",
+  "revision": "d5794d4b3f482ddf99c2aaa04a2ae5a06d97442092075254b43729247cef5ec3",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -4652,6 +4652,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/profiles.md"
     },
     {
+      "title": "lytics api / reference tables",
+      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/reference-tables",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/reference-tables.md"
+    },
+    {
       "title": "lytics api / reports",
       "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/reports",
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/reports.md"
@@ -7472,6 +7477,276 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/datasync-sdk-mongodb/typescript/reference/stack.md"
     },
     {
+      "title": "lytics / android",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/android",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/android.md"
+    },
+    {
+      "title": "android / get started",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/android/get-started",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/android/get-started.md"
+    },
+    {
+      "title": "android / technical documentation",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/android/technical-documentation",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/android/technical-documentation.md"
+    },
+    {
+      "title": "android / troubleshooting",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/android/troubleshooting",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/android/troubleshooting.md"
+    },
+    {
+      "title": "lytics / chrome extension",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/chrome-extension",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/chrome-extension.md"
+    },
+    {
+      "title": "lytics / ios",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/ios",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/ios.md"
+    },
+    {
+      "title": "ios / get started",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/ios/get-started",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/ios/get-started.md"
+    },
+    {
+      "title": "ios / technical documentation",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/ios/technical-documentation",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/ios/technical-documentation.md"
+    },
+    {
+      "title": "ios / troubleshooting",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/ios/troubleshooting",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/ios/troubleshooting.md"
+    },
+    {
+      "title": "lytics / react native",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/react-native",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/react-native.md"
+    },
+    {
+      "title": "react native / get started",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/react-native/get-started",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/react-native/get-started.md"
+    },
+    {
+      "title": "react native / technical documentation",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/react-native/technical-documentation",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/react-native/technical-documentation.md"
+    },
+    {
+      "title": "react native / troubleshooting",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/react-native/troubleshooting",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/react-native/troubleshooting.md"
+    },
+    {
+      "title": "lytics / web",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web.md"
+    },
+    {
+      "title": "web / jstag configuration",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-configuration",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-configuration.md"
+    },
+    {
+      "title": "web / jstag events",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-events",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-events.md"
+    },
+    {
+      "title": "web / jstag namespaces",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-namespaces",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-namespaces.md"
+    },
+    {
+      "title": "web / jstag plugin addthis",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-addthis",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-addthis.md"
+    },
+    {
+      "title": "web / jstag plugin adroll",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-adroll",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-adroll.md"
+    },
+    {
+      "title": "web / jstag plugin amazon dsp",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-amazon-dsp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-amazon-dsp.md"
+    },
+    {
+      "title": "web / jstag plugin audit",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-audit",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-audit.md"
+    },
+    {
+      "title": "web / jstag plugin audit carp",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-audit-carp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-audit-carp.md"
+    },
+    {
+      "title": "web / jstag plugin audit mustenable",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-audit-mustenable",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-audit-mustenable.md"
+    },
+    {
+      "title": "web / jstag plugin backing instance",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-backing-instance",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-backing-instance.md"
+    },
+    {
+      "title": "web / jstag plugin call",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-call",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-call.md"
+    },
+    {
+      "title": "web / jstag plugin collect",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-collect",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-collect.md"
+    },
+    {
+      "title": "web / jstag plugin config",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-config",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-config.md"
+    },
+    {
+      "title": "web / jstag plugin config moarconfig",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-config-moarconfig",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-config-moarconfig.md"
+    },
+    {
+      "title": "web / jstag plugin cookies",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-cookies",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-cookies.md"
+    },
+    {
+      "title": "web / jstag plugin custom global variables",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-custom-global-variables",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-custom-global-variables.md"
+    },
+    {
+      "title": "web / jstag plugin emitter",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-emitter",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-emitter.md"
+    },
+    {
+      "title": "web / jstag plugin entity",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-entity",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-entity.md"
+    },
+    {
+      "title": "web / jstag plugin facebook ads",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-facebook-ads",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-facebook-ads.md"
+    },
+    {
+      "title": "web / jstag plugin getid",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-getid",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-getid.md"
+    },
+    {
+      "title": "web / jstag plugin google analytics",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-google-analytics",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-google-analytics.md"
+    },
+    {
+      "title": "web / jstag plugin google dfp",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-google-dfp",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-google-dfp.md"
+    },
+    {
+      "title": "web / jstag plugin google tag manager",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-google-tag-manager",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-google-tag-manager.md"
+    },
+    {
+      "title": "web / jstag plugin iframe transport",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-iframe-transport",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-iframe-transport.md"
+    },
+    {
+      "title": "web / jstag plugin jsonp transport",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-jsonp-transport",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-jsonp-transport.md"
+    },
+    {
+      "title": "web / jstag plugin legacy liosetup callback",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-legacy-liosetup-callback",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-legacy-liosetup-callback.md"
+    },
+    {
+      "title": "web / jstag plugin lifecycle",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-lifecycle",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-lifecycle.md"
+    },
+    {
+      "title": "web / jstag plugin lio",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-lio",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-lio.md"
+    },
+    {
+      "title": "web / jstag plugin page analysis",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-page-analysis",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-page-analysis.md"
+    },
+    {
+      "title": "web / jstag plugin pathfora install",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-pathfora-install",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-pathfora-install.md"
+    },
+    {
+      "title": "web / jstag plugin pathfora preview",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-pathfora-preview",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-pathfora-preview.md"
+    },
+    {
+      "title": "web / jstag plugin pathfora publish",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-pathfora-publish",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-pathfora-publish.md"
+    },
+    {
+      "title": "web / jstag plugin pixel",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-pixel",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-pixel.md"
+    },
+    {
+      "title": "web / jstag plugin poll",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-poll",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-poll.md"
+    },
+    {
+      "title": "web / jstag plugin reference",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-reference",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-reference.md"
+    },
+    {
+      "title": "web / jstag plugin segments",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-segments",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-segments.md"
+    },
+    {
+      "title": "web / jstag plugin send",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-send",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/jstag-plugin-send.md"
+    },
+    {
+      "title": "web / lytics javascript tag",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/lytics-javascript-tag",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/lytics-javascript-tag.md"
+    },
+    {
+      "title": "web / personalization pathfora",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/personalization-pathfora",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/personalization-pathfora.md"
+    },
+    {
+      "title": "web / subresource integrity sri",
+      "url": "https://www.contentstack.com/docs/developers/sdks/lytics/web/subresource-integrity-sri",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/lytics/web/subresource-integrity-sri.md"
+    },
+    {
       "title": "fieldmodifierlocation / fieldmodifierlocation",
       "url": "https://www.contentstack.com/docs/developers/sdks/marketplace-sdk/app-sdk/fieldmodifierlocation/fieldmodifierlocation",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/marketplace-sdk/app-sdk/fieldmodifierlocation/fieldmodifierlocation.md"
@@ -10197,6 +10472,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/model-governance-for-content-types.md"
     },
     {
+      "title": "headless cms / modular block previews and categories",
+      "url": "https://www.contentstack.com/docs/headless-cms/modular-block-previews-and-categories",
+      "fetchUrl": "https://www.contentstack.com/docs/headless-cms/modular-block-previews-and-categories.md"
+    },
+    {
       "title": "headless cms / modular blocks",
       "url": "https://www.contentstack.com/docs/headless-cms/modular-blocks",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/modular-blocks.md"
@@ -11827,14 +12107,219 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/about-lytics.md"
     },
     {
+      "title": "lytics / account details 1",
+      "url": "https://www.contentstack.com/docs/lytics/account-details-1",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/account-details-1.md"
+    },
+    {
+      "title": "lytics / account settings",
+      "url": "https://www.contentstack.com/docs/lytics/account-settings",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/account-settings.md"
+    },
+    {
+      "title": "lytics / account users",
+      "url": "https://www.contentstack.com/docs/lytics/account-users",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/account-users.md"
+    },
+    {
+      "title": "lytics / acoustic",
+      "url": "https://www.contentstack.com/docs/lytics/acoustic",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/acoustic.md"
+    },
+    {
+      "title": "lytics / adobe",
+      "url": "https://www.contentstack.com/docs/lytics/adobe",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/adobe.md"
+    },
+    {
+      "title": "lytics / advanced mapping",
+      "url": "https://www.contentstack.com/docs/lytics/advanced-mapping",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/advanced-mapping.md"
+    },
+    {
+      "title": "lytics / ai ml",
+      "url": "https://www.contentstack.com/docs/lytics/ai-ml",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/ai-ml.md"
+    },
+    {
+      "title": "lytics / ai prompt rendering",
+      "url": "https://www.contentstack.com/docs/lytics/ai-prompt-rendering",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/ai-prompt-rendering.md"
+    },
+    {
+      "title": "lytics / ai schema suggestions",
+      "url": "https://www.contentstack.com/docs/lytics/ai-schema-suggestions",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/ai-schema-suggestions.md"
+    },
+    {
+      "title": "lytics / ai segment translation",
+      "url": "https://www.contentstack.com/docs/lytics/ai-segment-translation",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/ai-segment-translation.md"
+    },
+    {
+      "title": "lytics / ai sql generation",
+      "url": "https://www.contentstack.com/docs/lytics/ai-sql-generation",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/ai-sql-generation.md"
+    },
+    {
+      "title": "lytics / ai template generation",
+      "url": "https://www.contentstack.com/docs/lytics/ai-template-generation",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/ai-template-generation.md"
+    },
+    {
+      "title": "lytics / airship",
+      "url": "https://www.contentstack.com/docs/lytics/airship",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/airship.md"
+    },
+    {
+      "title": "lytics / algolia",
+      "url": "https://www.contentstack.com/docs/lytics/algolia",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/algolia.md"
+    },
+    {
+      "title": "lytics / amazon ads",
+      "url": "https://www.contentstack.com/docs/lytics/amazon-ads",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/amazon-ads.md"
+    },
+    {
+      "title": "lytics / amazon pinpoint overview",
+      "url": "https://www.contentstack.com/docs/lytics/amazon-pinpoint-overview",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/amazon-pinpoint-overview.md"
+    },
+    {
+      "title": "lytics / amplitude",
+      "url": "https://www.contentstack.com/docs/lytics/amplitude",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/amplitude.md"
+    },
+    {
+      "title": "lytics / api created templates",
+      "url": "https://www.contentstack.com/docs/lytics/api-created-templates",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/api-created-templates.md"
+    },
+    {
       "title": "lytics / audience insights app installation guide",
       "url": "https://www.contentstack.com/docs/lytics/audience-insights-app-installation-guide",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/audience-insights-app-installation-guide.md"
     },
     {
-      "title": "lytics / configure your dal",
-      "url": "https://www.contentstack.com/docs/lytics/configure-your-dal",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/configure-your-dal.md"
+      "title": "lytics / audience naming conventions",
+      "url": "https://www.contentstack.com/docs/lytics/audience-naming-conventions",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/audience-naming-conventions.md"
+    },
+    {
+      "title": "lytics / audiences",
+      "url": "https://www.contentstack.com/docs/lytics/audiences",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/audiences.md"
+    },
+    {
+      "title": "lytics / auth0",
+      "url": "https://www.contentstack.com/docs/lytics/auth0",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/auth0.md"
+    },
+    {
+      "title": "lytics / aws kinesis overview",
+      "url": "https://www.contentstack.com/docs/lytics/aws-kinesis-overview",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/aws-kinesis-overview.md"
+    },
+    {
+      "title": "lytics / aws s3 overview",
+      "url": "https://www.contentstack.com/docs/lytics/aws-s3-overview",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/aws-s3-overview.md"
+    },
+    {
+      "title": "lytics / backfilling data",
+      "url": "https://www.contentstack.com/docs/lytics/backfilling-data",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/backfilling-data.md"
+    },
+    {
+      "title": "lytics / background processing",
+      "url": "https://www.contentstack.com/docs/lytics/background-processing",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/background-processing.md"
+    },
+    {
+      "title": "lytics / best practices for personalizing your ad or search landing page",
+      "url": "https://www.contentstack.com/docs/lytics/best-practices-for-personalizing-your-ad-or-search-landing-page",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/best-practices-for-personalizing-your-ad-or-search-landing-page.md"
+    },
+    {
+      "title": "lytics / bigcommerce",
+      "url": "https://www.contentstack.com/docs/lytics/bigcommerce",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/bigcommerce.md"
+    },
+    {
+      "title": "lytics / braze",
+      "url": "https://www.contentstack.com/docs/lytics/braze",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/braze.md"
+    },
+    {
+      "title": "lytics / brevo",
+      "url": "https://www.contentstack.com/docs/lytics/brevo",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/brevo.md"
+    },
+    {
+      "title": "lytics / building lookalike models",
+      "url": "https://www.contentstack.com/docs/lytics/building-lookalike-models",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/building-lookalike-models.md"
+    },
+    {
+      "title": "lytics / bulk user deletion",
+      "url": "https://www.contentstack.com/docs/lytics/bulk-user-deletion",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/bulk-user-deletion.md"
+    },
+    {
+      "title": "lytics / campaign monitor",
+      "url": "https://www.contentstack.com/docs/lytics/campaign-monitor",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/campaign-monitor.md"
+    },
+    {
+      "title": "lytics / capture more information from qualified leads",
+      "url": "https://www.contentstack.com/docs/lytics/capture-more-information-from-qualified-leads",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/capture-more-information-from-qualified-leads.md"
+    },
+    {
+      "title": "lytics / chrome extension",
+      "url": "https://www.contentstack.com/docs/lytics/chrome-extension",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/chrome-extension.md"
+    },
+    {
+      "title": "lytics / clearbit",
+      "url": "https://www.contentstack.com/docs/lytics/clearbit",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/clearbit.md"
+    },
+    {
+      "title": "lytics / client server side cookie deep dive",
+      "url": "https://www.contentstack.com/docs/lytics/client-server-side-cookie-deep-dive",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/client-server-side-cookie-deep-dive.md"
+    },
+    {
+      "title": "lytics / cloud connect troubleshooting and faqs",
+      "url": "https://www.contentstack.com/docs/lytics/cloud-connect-troubleshooting-and-faqs",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/cloud-connect-troubleshooting-and-faqs.md"
+    },
+    {
+      "title": "lytics / collaborative filters",
+      "url": "https://www.contentstack.com/docs/lytics/collaborative-filters",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/collaborative-filters.md"
+    },
+    {
+      "title": "lytics / compliance",
+      "url": "https://www.contentstack.com/docs/lytics/compliance",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/compliance.md"
+    },
+    {
+      "title": "lytics / complying with the digital markets act dma",
+      "url": "https://www.contentstack.com/docs/lytics/complying-with-the-digital-markets-act-dma",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/complying-with-the-digital-markets-act-dma.md"
+    },
+    {
+      "title": "lytics / connections api",
+      "url": "https://www.contentstack.com/docs/lytics/connections-api",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/connections-api.md"
+    },
+    {
+      "title": "lytics / consent",
+      "url": "https://www.contentstack.com/docs/lytics/consent",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/consent.md"
     },
     {
       "title": "lytics / consent and privacy",
@@ -11842,19 +12327,224 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/consent-and-privacy.md"
     },
     {
+      "title": "lytics / content affinity engine",
+      "url": "https://www.contentstack.com/docs/lytics/content-affinity-engine",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/content-affinity-engine.md"
+    },
+    {
+      "title": "lytics / content collections",
+      "url": "https://www.contentstack.com/docs/lytics/content-collections",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/content-collections.md"
+    },
+    {
+      "title": "lytics / content curation",
+      "url": "https://www.contentstack.com/docs/lytics/content-curation",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/content-curation.md"
+    },
+    {
+      "title": "lytics / content enrichment api",
+      "url": "https://www.contentstack.com/docs/lytics/content-enrichment-api",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/content-enrichment-api.md"
+    },
+    {
+      "title": "lytics / content index",
+      "url": "https://www.contentstack.com/docs/lytics/content-index",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/content-index.md"
+    },
+    {
+      "title": "lytics / content services",
+      "url": "https://www.contentstack.com/docs/lytics/content-services",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/content-services.md"
+    },
+    {
+      "title": "lytics / contentstack",
+      "url": "https://www.contentstack.com/docs/lytics/contentstack",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/contentstack.md"
+    },
+    {
+      "title": "lytics / contentstack quickstart",
+      "url": "https://www.contentstack.com/docs/lytics/contentstack-quickstart",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/contentstack-quickstart.md"
+    },
+    {
+      "title": "lytics / cordial",
+      "url": "https://www.contentstack.com/docs/lytics/cordial",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/cordial.md"
+    },
+    {
       "title": "lytics / create a lytics project",
       "url": "https://www.contentstack.com/docs/lytics/create-a-lytics-project",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/create-a-lytics-project.md"
     },
     {
-      "title": "lytics / create data activation layer",
-      "url": "https://www.contentstack.com/docs/lytics/create-data-activation-layer",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/create-data-activation-layer.md"
-    },
-    {
       "title": "lytics / create job and authorization for lytics",
       "url": "https://www.contentstack.com/docs/lytics/create-job-and-authorization-for-lytics",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/create-job-and-authorization-for-lytics.md"
+    },
+    {
+      "title": "lytics / creating a job",
+      "url": "https://www.contentstack.com/docs/lytics/creating-a-job",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/creating-a-job.md"
+    },
+    {
+      "title": "lytics / creating cloud connect audiences",
+      "url": "https://www.contentstack.com/docs/lytics/creating-cloud-connect-audiences",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/creating-cloud-connect-audiences.md"
+    },
+    {
+      "title": "lytics / creating content collections",
+      "url": "https://www.contentstack.com/docs/lytics/creating-content-collections",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/creating-content-collections.md"
+    },
+    {
+      "title": "lytics / creating javascript templates",
+      "url": "https://www.contentstack.com/docs/lytics/creating-javascript-templates",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/creating-javascript-templates.md"
+    },
+    {
+      "title": "lytics / creating predictive audiences",
+      "url": "https://www.contentstack.com/docs/lytics/creating-predictive-audiences",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/creating-predictive-audiences.md"
+    },
+    {
+      "title": "lytics / criteo",
+      "url": "https://www.contentstack.com/docs/lytics/criteo",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/criteo.md"
+    },
+    {
+      "title": "lytics / custom interest engines",
+      "url": "https://www.contentstack.com/docs/lytics/custom-interest-engines",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/custom-interest-engines.md"
+    },
+    {
+      "title": "lytics / custom roles",
+      "url": "https://www.contentstack.com/docs/lytics/custom-roles",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/custom-roles.md"
+    },
+    {
+      "title": "lytics / custom topics api",
+      "url": "https://www.contentstack.com/docs/lytics/custom-topics-api",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/custom-topics-api.md"
+    },
+    {
+      "title": "lytics / customerio",
+      "url": "https://www.contentstack.com/docs/lytics/customerio",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/customerio.md"
+    },
+    {
+      "title": "lytics / data",
+      "url": "https://www.contentstack.com/docs/lytics/data",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/data.md"
+    },
+    {
+      "title": "lytics / data models api",
+      "url": "https://www.contentstack.com/docs/lytics/data-models-api",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/data-models-api.md"
+    },
+    {
+      "title": "lytics / data science modeling",
+      "url": "https://www.contentstack.com/docs/lytics/data-science-modeling",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/data-science-modeling.md"
+    },
+    {
+      "title": "lytics / data sources",
+      "url": "https://www.contentstack.com/docs/lytics/data-sources",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/data-sources.md"
+    },
+    {
+      "title": "lytics / data streams 1",
+      "url": "https://www.contentstack.com/docs/lytics/data-streams-1",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/data-streams-1.md"
+    },
+    {
+      "title": "lytics / databricks",
+      "url": "https://www.contentstack.com/docs/lytics/databricks",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/databricks.md"
+    },
+    {
+      "title": "lytics / decision engine",
+      "url": "https://www.contentstack.com/docs/lytics/decision-engine",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/decision-engine.md"
+    },
+    {
+      "title": "lytics / default interest engine",
+      "url": "https://www.contentstack.com/docs/lytics/default-interest-engine",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/default-interest-engine.md"
+    },
+    {
+      "title": "lytics / destination filters",
+      "url": "https://www.contentstack.com/docs/lytics/destination-filters",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/destination-filters.md"
+    },
+    {
+      "title": "lytics / developer attributes",
+      "url": "https://www.contentstack.com/docs/lytics/developer-attributes",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/developer-attributes.md"
+    },
+    {
+      "title": "lytics / developer quickstart",
+      "url": "https://www.contentstack.com/docs/lytics/developer-quickstart",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/developer-quickstart.md"
+    },
+    {
+      "title": "lytics / developer quickstart 2 content setup",
+      "url": "https://www.contentstack.com/docs/lytics/developer-quickstart-2-content-setup",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/developer-quickstart-2-content-setup.md"
+    },
+    {
+      "title": "lytics / developer quickstart 3 install lytics",
+      "url": "https://www.contentstack.com/docs/lytics/developer-quickstart-3-install-lytics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/developer-quickstart-3-install-lytics.md"
+    },
+    {
+      "title": "lytics / developer quickstart 4 personalized message",
+      "url": "https://www.contentstack.com/docs/lytics/developer-quickstart-4-personalized-message",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/developer-quickstart-4-personalized-message.md"
+    },
+    {
+      "title": "lytics / developer segments",
+      "url": "https://www.contentstack.com/docs/lytics/developer-segments",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/developer-segments.md"
+    },
+    {
+      "title": "lytics / documents",
+      "url": "https://www.contentstack.com/docs/lytics/documents",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/documents.md"
+    },
+    {
+      "title": "lytics / dotdigital",
+      "url": "https://www.contentstack.com/docs/lytics/dotdigital",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/dotdigital.md"
+    },
+    {
+      "title": "lytics / drift",
+      "url": "https://www.contentstack.com/docs/lytics/drift",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/drift.md"
+    },
+    {
+      "title": "lytics / drive email capture engagement with content",
+      "url": "https://www.contentstack.com/docs/lytics/drive-email-capture-engagement-with-content",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/drive-email-capture-engagement-with-content.md"
+    },
+    {
+      "title": "lytics / engines",
+      "url": "https://www.contentstack.com/docs/lytics/engines",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/engines.md"
+    },
+    {
+      "title": "lytics / enrichment",
+      "url": "https://www.contentstack.com/docs/lytics/enrichment",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/enrichment.md"
+    },
+    {
+      "title": "lytics / episerver",
+      "url": "https://www.contentstack.com/docs/lytics/episerver",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/episerver.md"
+    },
+    {
+      "title": "lytics / evaluating lookalike models",
+      "url": "https://www.contentstack.com/docs/lytics/evaluating-lookalike-models",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/evaluating-lookalike-models.md"
     },
     {
       "title": "lytics / event tracking in contentstack launch",
@@ -11867,9 +12557,149 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/faqs.md"
     },
     {
+      "title": "lytics / fields mappings",
+      "url": "https://www.contentstack.com/docs/lytics/fields-mappings",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/fields-mappings.md"
+    },
+    {
+      "title": "lytics / flows",
+      "url": "https://www.contentstack.com/docs/lytics/flows",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/flows.md"
+    },
+    {
+      "title": "lytics / flows creation",
+      "url": "https://www.contentstack.com/docs/lytics/flows-creation",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/flows-creation.md"
+    },
+    {
+      "title": "lytics / flows getting started",
+      "url": "https://www.contentstack.com/docs/lytics/flows-getting-started",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/flows-getting-started.md"
+    },
+    {
+      "title": "lytics / flows managing steps",
+      "url": "https://www.contentstack.com/docs/lytics/flows-managing-steps",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/flows-managing-steps.md"
+    },
+    {
+      "title": "lytics / flows metrics",
+      "url": "https://www.contentstack.com/docs/lytics/flows-metrics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/flows-metrics.md"
+    },
+    {
+      "title": "lytics / flows publishing",
+      "url": "https://www.contentstack.com/docs/lytics/flows-publishing",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/flows-publishing.md"
+    },
+    {
+      "title": "lytics / flows stage reference",
+      "url": "https://www.contentstack.com/docs/lytics/flows-stage-reference",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/flows-stage-reference.md"
+    },
+    {
+      "title": "lytics / flows templates",
+      "url": "https://www.contentstack.com/docs/lytics/flows-templates",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/flows-templates.md"
+    },
+    {
+      "title": "lytics / fullcontact",
+      "url": "https://www.contentstack.com/docs/lytics/fullcontact",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/fullcontact.md"
+    },
+    {
       "title": "lytics / gdpr compliance with cdp",
       "url": "https://www.contentstack.com/docs/lytics/gdpr-compliance-with-cdp",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/gdpr-compliance-with-cdp.md"
+    },
+    {
+      "title": "lytics / get started with lytics segments",
+      "url": "https://www.contentstack.com/docs/lytics/get-started-with-lytics-segments",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/get-started-with-lytics-segments.md"
+    },
+    {
+      "title": "lytics / getting started 1",
+      "url": "https://www.contentstack.com/docs/lytics/getting-started-1",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/getting-started-1.md"
+    },
+    {
+      "title": "lytics / gigya",
+      "url": "https://www.contentstack.com/docs/lytics/gigya",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/gigya.md"
+    },
+    {
+      "title": "lytics / glossary of terms",
+      "url": "https://www.contentstack.com/docs/lytics/glossary-of-terms",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/glossary-of-terms.md"
+    },
+    {
+      "title": "lytics / goals api",
+      "url": "https://www.contentstack.com/docs/lytics/goals-api",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/goals-api.md"
+    },
+    {
+      "title": "lytics / google ad manager dfp",
+      "url": "https://www.contentstack.com/docs/lytics/google-ad-manager-dfp",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/google-ad-manager-dfp.md"
+    },
+    {
+      "title": "lytics / google ads overview",
+      "url": "https://www.contentstack.com/docs/lytics/google-ads-overview",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/google-ads-overview.md"
+    },
+    {
+      "title": "lytics / google bigquery overview",
+      "url": "https://www.contentstack.com/docs/lytics/google-bigquery-overview",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/google-bigquery-overview.md"
+    },
+    {
+      "title": "lytics / google cloud storage overview",
+      "url": "https://www.contentstack.com/docs/lytics/google-cloud-storage-overview",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/google-cloud-storage-overview.md"
+    },
+    {
+      "title": "lytics / google marketing overview",
+      "url": "https://www.contentstack.com/docs/lytics/google-marketing-overview",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/google-marketing-overview.md"
+    },
+    {
+      "title": "lytics / granular permissions",
+      "url": "https://www.contentstack.com/docs/lytics/granular-permissions",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/granular-permissions.md"
+    },
+    {
+      "title": "lytics / guide content recommendations",
+      "url": "https://www.contentstack.com/docs/lytics/guide-content-recommendations",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/guide-content-recommendations.md"
+    },
+    {
+      "title": "lytics / hubspot",
+      "url": "https://www.contentstack.com/docs/lytics/hubspot",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/hubspot.md"
+    },
+    {
+      "title": "lytics / icontact",
+      "url": "https://www.contentstack.com/docs/lytics/icontact",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/icontact.md"
+    },
+    {
+      "title": "lytics / identity deletion",
+      "url": "https://www.contentstack.com/docs/lytics/identity-deletion",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/identity-deletion.md"
+    },
+    {
+      "title": "lytics / improving lookalike models",
+      "url": "https://www.contentstack.com/docs/lytics/improving-lookalike-models",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/improving-lookalike-models.md"
+    },
+    {
+      "title": "lytics / insider",
+      "url": "https://www.contentstack.com/docs/lytics/insider",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/insider.md"
+    },
+    {
+      "title": "lytics / insider webhook templates",
+      "url": "https://www.contentstack.com/docs/lytics/insider-webhook-templates",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/insider-webhook-templates.md"
     },
     {
       "title": "lytics / install lytics jstag sdk",
@@ -11887,9 +12717,244 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/integrating-lytics.md"
     },
     {
+      "title": "lytics / iterable",
+      "url": "https://www.contentstack.com/docs/lytics/iterable",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/iterable.md"
+    },
+    {
+      "title": "lytics / javascript tag config",
+      "url": "https://www.contentstack.com/docs/lytics/javascript-tag-config",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/javascript-tag-config.md"
+    },
+    {
+      "title": "lytics / job alerts",
+      "url": "https://www.contentstack.com/docs/lytics/job-alerts",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/job-alerts.md"
+    },
+    {
+      "title": "lytics / job blueprints",
+      "url": "https://www.contentstack.com/docs/lytics/job-blueprints",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/job-blueprints.md"
+    },
+    {
+      "title": "lytics / jstag configuration",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-configuration",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-configuration.md"
+    },
+    {
+      "title": "lytics / jstag events",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-events",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-events.md"
+    },
+    {
+      "title": "lytics / jstag namespaces",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-namespaces",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-namespaces.md"
+    },
+    {
+      "title": "lytics / jstag plugin addthis",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-addthis",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-addthis.md"
+    },
+    {
+      "title": "lytics / jstag plugin adroll",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-adroll",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-adroll.md"
+    },
+    {
+      "title": "lytics / jstag plugin amazon dsp",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-amazon-dsp",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-amazon-dsp.md"
+    },
+    {
+      "title": "lytics / jstag plugin audit",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit.md"
+    },
+    {
+      "title": "lytics / jstag plugin audit carp",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit-carp",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit-carp.md"
+    },
+    {
+      "title": "lytics / jstag plugin audit mustenable",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit-mustenable",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-audit-mustenable.md"
+    },
+    {
+      "title": "lytics / jstag plugin backing instance",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-backing-instance",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-backing-instance.md"
+    },
+    {
+      "title": "lytics / jstag plugin call",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-call",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-call.md"
+    },
+    {
+      "title": "lytics / jstag plugin collect",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-collect",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-collect.md"
+    },
+    {
+      "title": "lytics / jstag plugin config",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-config",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-config.md"
+    },
+    {
+      "title": "lytics / jstag plugin config moarconfig",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-config-moarconfig",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-config-moarconfig.md"
+    },
+    {
+      "title": "lytics / jstag plugin cookies",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-cookies",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-cookies.md"
+    },
+    {
+      "title": "lytics / jstag plugin custom global variables",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-custom-global-variables",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-custom-global-variables.md"
+    },
+    {
+      "title": "lytics / jstag plugin emitter",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-emitter",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-emitter.md"
+    },
+    {
+      "title": "lytics / jstag plugin entity",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-entity",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-entity.md"
+    },
+    {
+      "title": "lytics / jstag plugin facebook ads",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-facebook-ads",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-facebook-ads.md"
+    },
+    {
+      "title": "lytics / jstag plugin getid",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-getid",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-getid.md"
+    },
+    {
+      "title": "lytics / jstag plugin google analytics",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-analytics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-analytics.md"
+    },
+    {
+      "title": "lytics / jstag plugin google dfp",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-dfp",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-dfp.md"
+    },
+    {
+      "title": "lytics / jstag plugin google tag manager",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-tag-manager",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-google-tag-manager.md"
+    },
+    {
+      "title": "lytics / jstag plugin iframe transport",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-iframe-transport",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-iframe-transport.md"
+    },
+    {
+      "title": "lytics / jstag plugin jsonp transport",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-jsonp-transport",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-jsonp-transport.md"
+    },
+    {
+      "title": "lytics / jstag plugin legacy liosetup callback",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-legacy-liosetup-callback",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-legacy-liosetup-callback.md"
+    },
+    {
+      "title": "lytics / jstag plugin lifecycle",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-lifecycle",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-lifecycle.md"
+    },
+    {
+      "title": "lytics / jstag plugin lio",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-lio",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-lio.md"
+    },
+    {
+      "title": "lytics / jstag plugin page analysis",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-page-analysis",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-page-analysis.md"
+    },
+    {
+      "title": "lytics / jstag plugin pathfora install",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-install",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-install.md"
+    },
+    {
+      "title": "lytics / jstag plugin pathfora preview",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-preview",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-preview.md"
+    },
+    {
+      "title": "lytics / jstag plugin pathfora publish",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-publish",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-pathfora-publish.md"
+    },
+    {
+      "title": "lytics / jstag plugin pixel",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-pixel",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-pixel.md"
+    },
+    {
+      "title": "lytics / jstag plugin poll",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-poll",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-poll.md"
+    },
+    {
+      "title": "lytics / jstag plugin reference",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-reference",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-reference.md"
+    },
+    {
+      "title": "lytics / jstag plugin segments",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-segments",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-segments.md"
+    },
+    {
+      "title": "lytics / jstag plugin send",
+      "url": "https://www.contentstack.com/docs/lytics/jstag-plugin-send",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/jstag-plugin-send.md"
+    },
+    {
       "title": "lytics / key concepts",
       "url": "https://www.contentstack.com/docs/lytics/key-concepts",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/key-concepts.md"
+    },
+    {
+      "title": "lytics / keys authorizations",
+      "url": "https://www.contentstack.com/docs/lytics/keys-authorizations",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/keys-authorizations.md"
+    },
+    {
+      "title": "lytics / klaviyo",
+      "url": "https://www.contentstack.com/docs/lytics/klaviyo",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/klaviyo.md"
+    },
+    {
+      "title": "lytics / lead capture",
+      "url": "https://www.contentstack.com/docs/lytics/lead-capture",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lead-capture.md"
+    },
+    {
+      "title": "lytics / leadsquared",
+      "url": "https://www.contentstack.com/docs/lytics/leadsquared",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/leadsquared.md"
+    },
+    {
+      "title": "lytics / leverage lookalike models and predictive audiences",
+      "url": "https://www.contentstack.com/docs/lytics/leverage-lookalike-models-and-predictive-audiences",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/leverage-lookalike-models-and-predictive-audiences.md"
+    },
+    {
+      "title": "lytics / leveraging cloud connect audiences",
+      "url": "https://www.contentstack.com/docs/lytics/leveraging-cloud-connect-audiences",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/leveraging-cloud-connect-audiences.md"
     },
     {
       "title": "lytics / limitations",
@@ -11897,9 +12962,89 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/limitations.md"
     },
     {
+      "title": "lytics / linkedin",
+      "url": "https://www.contentstack.com/docs/lytics/linkedin",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/linkedin.md"
+    },
+    {
+      "title": "lytics / liveramp",
+      "url": "https://www.contentstack.com/docs/lytics/liveramp",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/liveramp.md"
+    },
+    {
+      "title": "lytics / localytics",
+      "url": "https://www.contentstack.com/docs/lytics/localytics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/localytics.md"
+    },
+    {
       "title": "lytics / lookalike models and audiences",
       "url": "https://www.contentstack.com/docs/lytics/lookalike-models-and-audiences",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/lookalike-models-and-audiences.md"
+    },
+    {
+      "title": "lytics / lookalike models conserve marketing spend on engaged users",
+      "url": "https://www.contentstack.com/docs/lytics/lookalike-models-conserve-marketing-spend-on-engaged-users",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lookalike-models-conserve-marketing-spend-on-engaged-users.md"
+    },
+    {
+      "title": "lytics / lookalike models convert anonymous users to known users",
+      "url": "https://www.contentstack.com/docs/lytics/lookalike-models-convert-anonymous-users-to-known-users",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lookalike-models-convert-anonymous-users-to-known-users.md"
+    },
+    {
+      "title": "lytics / lookalike models convert single purchasers to multi purchasers",
+      "url": "https://www.contentstack.com/docs/lytics/lookalike-models-convert-single-purchasers-to-multi-purchasers",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lookalike-models-convert-single-purchasers-to-multi-purchasers.md"
+    },
+    {
+      "title": "lytics / lookalike models determine which subscribers are likely to churn",
+      "url": "https://www.contentstack.com/docs/lytics/lookalike-models-determine-which-subscribers-are-likely-to-churn",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lookalike-models-determine-which-subscribers-are-likely-to-churn.md"
+    },
+    {
+      "title": "lytics / lql data import basics",
+      "url": "https://www.contentstack.com/docs/lytics/lql-data-import-basics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lql-data-import-basics.md"
+    },
+    {
+      "title": "lytics / lytics communication",
+      "url": "https://www.contentstack.com/docs/lytics/lytics-communication",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lytics-communication.md"
+    },
+    {
+      "title": "lytics / lytics file service",
+      "url": "https://www.contentstack.com/docs/lytics/lytics-file-service",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lytics-file-service.md"
+    },
+    {
+      "title": "lytics / lytics integration options",
+      "url": "https://www.contentstack.com/docs/lytics/lytics-integration-options",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lytics-integration-options.md"
+    },
+    {
+      "title": "lytics / lytics javascript tag",
+      "url": "https://www.contentstack.com/docs/lytics/lytics-javascript-tag",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lytics-javascript-tag.md"
+    },
+    {
+      "title": "lytics / lytics monitoring",
+      "url": "https://www.contentstack.com/docs/lytics/lytics-monitoring",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lytics-monitoring.md"
+    },
+    {
+      "title": "lytics / lytics zero copy with cloud connect",
+      "url": "https://www.contentstack.com/docs/lytics/lytics-zero-copy-with-cloud-connect",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/lytics-zero-copy-with-cloud-connect.md"
+    },
+    {
+      "title": "lytics / mailchimp",
+      "url": "https://www.contentstack.com/docs/lytics/mailchimp",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/mailchimp.md"
+    },
+    {
+      "title": "lytics / mailgun",
+      "url": "https://www.contentstack.com/docs/lytics/mailgun",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/mailgun.md"
     },
     {
       "title": "lytics / manage a lytics project",
@@ -11907,9 +13052,319 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/manage-a-lytics-project.md"
     },
     {
-      "title": "lytics / schema patches",
-      "url": "https://www.contentstack.com/docs/lytics/schema-patches",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/schema-patches.md"
+      "title": "lytics / managing cloud connections",
+      "url": "https://www.contentstack.com/docs/lytics/managing-cloud-connections",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/managing-cloud-connections.md"
+    },
+    {
+      "title": "lytics / managing consumer data subject requests with onetrust",
+      "url": "https://www.contentstack.com/docs/lytics/managing-consumer-data-subject-requests-with-onetrust",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/managing-consumer-data-subject-requests-with-onetrust.md"
+    },
+    {
+      "title": "lytics / meta",
+      "url": "https://www.contentstack.com/docs/lytics/meta",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/meta.md"
+    },
+    {
+      "title": "lytics / metric thresholds",
+      "url": "https://www.contentstack.com/docs/lytics/metric-thresholds",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/metric-thresholds.md"
+    },
+    {
+      "title": "lytics / microsoft",
+      "url": "https://www.contentstack.com/docs/lytics/microsoft",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/microsoft.md"
+    },
+    {
+      "title": "lytics / microsoft azure",
+      "url": "https://www.contentstack.com/docs/lytics/microsoft-azure",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/microsoft-azure.md"
+    },
+    {
+      "title": "lytics / migrating from lql to conductor",
+      "url": "https://www.contentstack.com/docs/lytics/migrating-from-lql-to-conductor",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/migrating-from-lql-to-conductor.md"
+    },
+    {
+      "title": "lytics / ml modeling",
+      "url": "https://www.contentstack.com/docs/lytics/ml-modeling",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/ml-modeling.md"
+    },
+    {
+      "title": "lytics / monitoring a job",
+      "url": "https://www.contentstack.com/docs/lytics/monitoring-a-job",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/monitoring-a-job.md"
+    },
+    {
+      "title": "lytics / monitoring and alerts",
+      "url": "https://www.contentstack.com/docs/lytics/monitoring-and-alerts",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/monitoring-and-alerts.md"
+    },
+    {
+      "title": "lytics / monitoring job status",
+      "url": "https://www.contentstack.com/docs/lytics/monitoring-job-status",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/monitoring-job-status.md"
+    },
+    {
+      "title": "lytics / monitoring lytics",
+      "url": "https://www.contentstack.com/docs/lytics/monitoring-lytics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/monitoring-lytics.md"
+    },
+    {
+      "title": "lytics / monitoring metrics copy",
+      "url": "https://www.contentstack.com/docs/lytics/monitoring-metrics-copy",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/monitoring-metrics-copy.md"
+    },
+    {
+      "title": "lytics / onboarding web data",
+      "url": "https://www.contentstack.com/docs/lytics/onboarding-web-data",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/onboarding-web-data.md"
+    },
+    {
+      "title": "lytics / openai",
+      "url": "https://www.contentstack.com/docs/lytics/openai",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/openai.md"
+    },
+    {
+      "title": "lytics / optimizely",
+      "url": "https://www.contentstack.com/docs/lytics/optimizely",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/optimizely.md"
+    },
+    {
+      "title": "lytics / oracle marketing cloud eloqua",
+      "url": "https://www.contentstack.com/docs/lytics/oracle-marketing-cloud-eloqua",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/oracle-marketing-cloud-eloqua.md"
+    },
+    {
+      "title": "lytics / orchestration",
+      "url": "https://www.contentstack.com/docs/lytics/orchestration",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/orchestration.md"
+    },
+    {
+      "title": "lytics / partner types",
+      "url": "https://www.contentstack.com/docs/lytics/partner-types",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/partner-types.md"
+    },
+    {
+      "title": "lytics / pathfora",
+      "url": "https://www.contentstack.com/docs/lytics/pathfora",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/pathfora.md"
+    },
+    {
+      "title": "lytics / personalization api",
+      "url": "https://www.contentstack.com/docs/lytics/personalization-api",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/personalization-api.md"
+    },
+    {
+      "title": "lytics / personalization pathfora",
+      "url": "https://www.contentstack.com/docs/lytics/personalization-pathfora",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/personalization-pathfora.md"
+    },
+    {
+      "title": "lytics / pinterest",
+      "url": "https://www.contentstack.com/docs/lytics/pinterest",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/pinterest.md"
+    },
+    {
+      "title": "lytics / platform limits",
+      "url": "https://www.contentstack.com/docs/lytics/platform-limits",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/platform-limits.md"
+    },
+    {
+      "title": "lytics / postup",
+      "url": "https://www.contentstack.com/docs/lytics/postup",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/postup.md"
+    },
+    {
+      "title": "lytics / profile common schema",
+      "url": "https://www.contentstack.com/docs/lytics/profile-common-schema",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/profile-common-schema.md"
+    },
+    {
+      "title": "lytics / profile schema",
+      "url": "https://www.contentstack.com/docs/lytics/profile-schema",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/profile-schema.md"
+    },
+    {
+      "title": "lytics / provider configuration endpoints",
+      "url": "https://www.contentstack.com/docs/lytics/provider-configuration-endpoints",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/provider-configuration-endpoints.md"
+    },
+    {
+      "title": "lytics / react native sdk",
+      "url": "https://www.contentstack.com/docs/lytics/react-native-sdk",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/react-native-sdk.md"
+    },
+    {
+      "title": "lytics / recommendations",
+      "url": "https://www.contentstack.com/docs/lytics/recommendations",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/recommendations.md"
+    },
+    {
+      "title": "lytics / reddit",
+      "url": "https://www.contentstack.com/docs/lytics/reddit",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/reddit.md"
+    },
+    {
+      "title": "lytics / reports components",
+      "url": "https://www.contentstack.com/docs/lytics/reports-components",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/reports-components.md"
+    },
+    {
+      "title": "lytics / responsys",
+      "url": "https://www.contentstack.com/docs/lytics/responsys",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/responsys.md"
+    },
+    {
+      "title": "lytics / retention science",
+      "url": "https://www.contentstack.com/docs/lytics/retention-science",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/retention-science.md"
+    },
+    {
+      "title": "lytics / salesforce",
+      "url": "https://www.contentstack.com/docs/lytics/salesforce",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/salesforce.md"
+    },
+    {
+      "title": "lytics / salesforce data cloud",
+      "url": "https://www.contentstack.com/docs/lytics/salesforce-data-cloud",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/salesforce-data-cloud.md"
+    },
+    {
+      "title": "lytics / salesforce marketing cloud overview",
+      "url": "https://www.contentstack.com/docs/lytics/salesforce-marketing-cloud-overview",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/salesforce-marketing-cloud-overview.md"
+    },
+    {
+      "title": "lytics / schema advanced",
+      "url": "https://www.contentstack.com/docs/lytics/schema-advanced",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/schema-advanced.md"
+    },
+    {
+      "title": "lytics / schema copilot",
+      "url": "https://www.contentstack.com/docs/lytics/schema-copilot",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/schema-copilot.md"
+    },
+    {
+      "title": "lytics / schema drafts",
+      "url": "https://www.contentstack.com/docs/lytics/schema-drafts",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/schema-drafts.md"
+    },
+    {
+      "title": "lytics / schema retention",
+      "url": "https://www.contentstack.com/docs/lytics/schema-retention",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/schema-retention.md"
+    },
+    {
+      "title": "lytics / schema simulation",
+      "url": "https://www.contentstack.com/docs/lytics/schema-simulation",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/schema-simulation.md"
+    },
+    {
+      "title": "lytics / sdk for android",
+      "url": "https://www.contentstack.com/docs/lytics/sdk-for-android",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/sdk-for-android.md"
+    },
+    {
+      "title": "lytics / sdk for ios",
+      "url": "https://www.contentstack.com/docs/lytics/sdk-for-ios",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/sdk-for-ios.md"
+    },
+    {
+      "title": "lytics / security",
+      "url": "https://www.contentstack.com/docs/lytics/security",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/security.md"
+    },
+    {
+      "title": "lytics / segment api",
+      "url": "https://www.contentstack.com/docs/lytics/segment-api",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/segment-api.md"
+    },
+    {
+      "title": "lytics / server side login event tracking",
+      "url": "https://www.contentstack.com/docs/lytics/server-side-login-event-tracking",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/server-side-login-event-tracking.md"
+    },
+    {
+      "title": "lytics / shopify",
+      "url": "https://www.contentstack.com/docs/lytics/shopify",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/shopify.md"
+    },
+    {
+      "title": "lytics / single sign on overview",
+      "url": "https://www.contentstack.com/docs/lytics/single-sign-on-overview",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/single-sign-on-overview.md"
+    },
+    {
+      "title": "lytics / snapchat",
+      "url": "https://www.contentstack.com/docs/lytics/snapchat",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/snapchat.md"
+    },
+    {
+      "title": "lytics / snowflake",
+      "url": "https://www.contentstack.com/docs/lytics/snowflake",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/snowflake.md"
+    },
+    {
+      "title": "lytics / spotify",
+      "url": "https://www.contentstack.com/docs/lytics/spotify",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/spotify.md"
+    },
+    {
+      "title": "lytics / stitching user profiles",
+      "url": "https://www.contentstack.com/docs/lytics/stitching-user-profiles",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/stitching-user-profiles.md"
+    },
+    {
+      "title": "lytics / strategy for implementing a cdi and a cdp",
+      "url": "https://www.contentstack.com/docs/lytics/strategy-for-implementing-a-cdi-and-a-cdp",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/strategy-for-implementing-a-cdi-and-a-cdp.md"
+    },
+    {
+      "title": "lytics / stream routing api",
+      "url": "https://www.contentstack.com/docs/lytics/stream-routing-api",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/stream-routing-api.md"
+    },
+    {
+      "title": "lytics / streams api",
+      "url": "https://www.contentstack.com/docs/lytics/streams-api",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/streams-api.md"
+    },
+    {
+      "title": "lytics / supertopics",
+      "url": "https://www.contentstack.com/docs/lytics/supertopics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/supertopics.md"
+    },
+    {
+      "title": "lytics / template examples",
+      "url": "https://www.contentstack.com/docs/lytics/template-examples",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/template-examples.md"
+    },
+    {
+      "title": "lytics / templates 1",
+      "url": "https://www.contentstack.com/docs/lytics/templates-1",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/templates-1.md"
+    },
+    {
+      "title": "lytics / tiktok",
+      "url": "https://www.contentstack.com/docs/lytics/tiktok",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/tiktok.md"
+    },
+    {
+      "title": "lytics / topics",
+      "url": "https://www.contentstack.com/docs/lytics/topics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/topics.md"
+    },
+    {
+      "title": "lytics / topics and supertopics",
+      "url": "https://www.contentstack.com/docs/lytics/topics-and-supertopics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/topics-and-supertopics.md"
+    },
+    {
+      "title": "lytics / ui templates",
+      "url": "https://www.contentstack.com/docs/lytics/ui-templates",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/ui-templates.md"
     },
     {
       "title": "lytics / understanding your lytics project setup",
@@ -11917,14 +13372,64 @@
       "fetchUrl": "https://www.contentstack.com/docs/lytics/understanding-your-lytics-project-setup.md"
     },
     {
+      "title": "lytics / unified id 20",
+      "url": "https://www.contentstack.com/docs/lytics/unified-id-20",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/unified-id-20.md"
+    },
+    {
+      "title": "lytics / usage metrics",
+      "url": "https://www.contentstack.com/docs/lytics/usage-metrics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/usage-metrics.md"
+    },
+    {
       "title": "lytics / user permissions",
       "url": "https://www.contentstack.com/docs/lytics/user-permissions",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/user-permissions.md"
     },
     {
-      "title": "lytics / using your dal",
-      "url": "https://www.contentstack.com/docs/lytics/using-your-dal",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/using-your-dal.md"
+      "title": "lytics / user profile health",
+      "url": "https://www.contentstack.com/docs/lytics/user-profile-health",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/user-profile-health.md"
+    },
+    {
+      "title": "lytics / using the javascript library",
+      "url": "https://www.contentstack.com/docs/lytics/using-the-javascript-library",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/using-the-javascript-library.md"
+    },
+    {
+      "title": "lytics / using the jsonnet library",
+      "url": "https://www.contentstack.com/docs/lytics/using-the-jsonnet-library",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/using-the-jsonnet-library.md"
+    },
+    {
+      "title": "lytics / using topics supertopics",
+      "url": "https://www.contentstack.com/docs/lytics/using-topics-supertopics",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/using-topics-supertopics.md"
+    },
+    {
+      "title": "lytics / versium",
+      "url": "https://www.contentstack.com/docs/lytics/versium",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/versium.md"
+    },
+    {
+      "title": "lytics / viewing content collections",
+      "url": "https://www.contentstack.com/docs/lytics/viewing-content-collections",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/viewing-content-collections.md"
+    },
+    {
+      "title": "lytics / webhooks",
+      "url": "https://www.contentstack.com/docs/lytics/webhooks",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/webhooks.md"
+    },
+    {
+      "title": "lytics / x ads",
+      "url": "https://www.contentstack.com/docs/lytics/x-ads",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/x-ads.md"
+    },
+    {
+      "title": "lytics / zuora",
+      "url": "https://www.contentstack.com/docs/lytics/zuora",
+      "fetchUrl": "https://www.contentstack.com/docs/lytics/zuora.md"
     },
     {
       "title": "docs / marketplace",

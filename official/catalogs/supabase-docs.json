@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "supabase-docs",
-  "revision": "53002034204a44e76d66c47ed44b8a19740219fcce109baf6be5c2e86ca71d2d",
+  "revision": "bd65219c899b8af492f16d14a82585c514c76bf0093f3e5bc63245b2e9994600",
   "origin": "https://supabase.com/docs/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -2510,6 +2510,11 @@
       "title": "security / ownership",
       "url": "https://supabase.com/docs/guides/storage/security/ownership",
       "fetchUrl": "https://supabase.com/docs/guides/storage/security/ownership.md"
+    },
+    {
+      "title": "security / signing keys",
+      "url": "https://supabase.com/docs/guides/storage/security/signing-keys",
+      "fetchUrl": "https://supabase.com/docs/guides/storage/security/signing-keys.md"
     },
     {
       "title": "serving / bandwidth",

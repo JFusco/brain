@@ -20,16 +20,16 @@
       "catalogSha256": "72bc6620c2d55475ef17675d0ca6c67a04cd461e503d98a83d60557a2f98d303"
     },
     "vercel-plugin": {
-      "revision": "3ca3e549d48578bcb3b315ec6e9a972fce1c24ed",
-      "fetchedAt": "2026-11-03T22:04:29.975Z",
+      "revision": "2a163af1e4b9ba5f8a02de3737eb0c884e21d765",
+      "fetchedAt": "2026-11-05T22:03:03.909Z",
       "track": "default-branch",
-      "catalogSha256": "9944181f2a7080d99cb102d413390a90b7603cc21ff188c224d38a23fe74d5b7"
+      "catalogSha256": "6cdda45596788feb5948f8b915daaef08716b7004c2d7eb94024d80b24c30339"
     },
     "contentful-skills": {
-      "revision": "c9c219d9517a3a64071687e1ec10878a1a66f1a7",
-      "fetchedAt": "2026-11-04T22:05:00.238Z",
+      "revision": "00463139109297a43139bcb0efe9a2f4b6857eab",
+      "fetchedAt": "2026-11-05T22:03:05.763Z",
       "track": "default-branch",
-      "catalogSha256": "7b7f02837c8aae05e50864edec0b951856a9f9332295b8ee8eea372933de1383"
+      "catalogSha256": "0bc96a524c5b34bfd69eac3fbb365971f5fdc8576785b9a12f2bd7642cf23df4"
     },
     "optimizely-sdk": {
       "revision": "8df53b9af159f2a44d9c88f5157fd769362bc666",
@@ -50,22 +50,22 @@
       "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "5a54340ee96451e7c7e43ece81140fc0e6084ab4ef499440f2164df13130f4fb",
-      "fetchedAt": "2026-11-04T22:05:07.942Z",
+      "revision": "2827def812336caae329ff34f2d288185d9e2d99f65564f32d154aaea4cbe4e5",
+      "fetchedAt": "2026-11-05T22:03:12.068Z",
       "track": "rolling-url",
-      "catalogSha256": "be6e5947733be964df0e4ad8564562b8d0f71f8a129a83f851f66d567402c3f8"
+      "catalogSha256": "f0d12930bac8839af30567889220d826db594f608e244483695defe85001f5b8"
     },
     "contentstack-docs": {
-      "revision": "d7e0f9feab8e2be14b167793d03572d8cdf220c991ebcb76e79608ebf3056daa",
-      "fetchedAt": "2026-11-04T22:05:21.214Z",
+      "revision": "d5794d4b3f482ddf99c2aaa04a2ae5a06d97442092075254b43729247cef5ec3",
+      "fetchedAt": "2026-11-05T22:03:14.878Z",
       "track": "rolling-url",
-      "catalogSha256": "96a94256b074621753021a94c35d055c3b8eca6d7db474a1010bdcc44c9fe14a"
+      "catalogSha256": "6620964972ecb84a519aa8e8e29562719e4c4025f0c4870e32e87b2c9e65ab8e"
     },
     "react-docs": {
-      "revision": "2177e28d3c3c16a8183346b9140f11ce0ee6af25",
-      "fetchedAt": "2026-11-04T22:05:23.984Z",
+      "revision": "2e6dca162985d438d7a834b339d89177cf0a92b9",
+      "fetchedAt": "2026-11-05T22:03:16.458Z",
       "track": "default-branch",
-      "catalogSha256": "2772b7762f74a3e38815da3a1b1b97510119e1554a080340ff6095d245776020"
+      "catalogSha256": "cb3b9f2f816bddd40ccd883f1d104d64960ffe412529a69549fec248cbcdd50b"
     },
     "tailwind-docs": {
       "revision": "7f92c2213315c195dae583d68752da4042da3ade",
@@ -98,10 +98,10 @@
       "catalogSha256": "7c6810d11428134b36c1c2061d45e9e5cf7f1c5951c39889d28bd6470de0c2cf"
     },
     "optimizely-cms13-docs": {
-      "revision": "18f6519ccc7795c8a7c8b0c44e2f72ef3f58b33b3feb4b66cefc108262a92a50",
-      "fetchedAt": "2026-10-30T23:32:10.261Z",
+      "revision": "aaa81aa5b45a88ff66a275713032a0bbb293ac7034e78d910c29be262bad78ca",
+      "fetchedAt": "2026-11-05T22:03:22.824Z",
       "track": "rolling-url",
-      "catalogSha256": "d7d508a56ba0fc0cb5c5f4a352e9531f76f641e3ecf3bfd927ea69a093e9a5f4"
+      "catalogSha256": "d224c6378d643621931604868017a935ad49154db9a40559e862260259345ff3"
     },
     "sitecoreai-docs": {
       "revision": "9fd006f795cca43a5e859d3a227d03693b965bc1df04046bf18d0654e36695d4",
@@ -128,16 +128,16 @@
       "catalogSha256": "25bf7a95d200c6a4e39d4166eb6a902a39bf6595bfc022dd9b41c1a9be30c0d9"
     },
     "wordpress-docs": {
-      "revision": "efdbfa1b194e386e10bedb1974b4416e98c0b3c54b20a4e9cee5f1919a02e95d",
-      "fetchedAt": "2026-10-22T23:24:53.141Z",
+      "revision": "d06cd1974763cdc0844b53e912913c7ece95087aad16e263e26f2211a3424524",
+      "fetchedAt": "2026-11-05T22:03:30.949Z",
       "track": "rolling-url",
-      "catalogSha256": "8d434af7268d461d2c0db40eb40c7205110bf1a2ce824a49eb1b182f6e64c0a4"
+      "catalogSha256": "d99ca777d2c8de8e3bad693138b9d50c4c72f6ab6afa2219f0ffc3e324bbbcc8"
     },
     "wordpress-agent-skills": {
-      "revision": "eff3785fc28c4380d172094518c66a6a997c95d4",
-      "fetchedAt": "2026-10-22T23:24:55.015Z",
+      "revision": "7374e6f1c913b3b02b25465d266d9c0e0a04fc96",
+      "fetchedAt": "2026-11-05T22:03:32.721Z",
       "track": "default-branch",
-      "catalogSha256": "134b141d3fc37763aa786fd4253946d09fdaa9607d43f4c1e92dac9b58928a4d"
+      "catalogSha256": "852773c040cca854b2bb0a677ad9cf6a7bad4513d95d383f5df04c4209d737da"
     },
     "webflow-docs": {
       "revision": "8993bd8e62fa5454d16c31a939b86dd9d4117dc8fc5c535fee3b35f63836329c",
@@ -278,10 +278,10 @@
       "catalogSha256": "389c2462debca63050accc65f401a0d2cb2e9b7ef2644a91b5dae4c2f05d1854"
     },
     "pnpm-docs": {
-      "revision": "3484eed61aebc07d7b1328aec8dc1f112499f2ad2d7fc8fd63188785e01a12c3",
-      "fetchedAt": "2026-10-29T13:24:26.613Z",
+      "revision": "bdd0d01f5c33a13d315525927fb29cf22e3d50654e21151c059cf942068e38e1",
+      "fetchedAt": "2026-11-05T22:04:00.329Z",
       "track": "rolling-url",
-      "catalogSha256": "ba694ecbe081c5af99cdd5084e7d2efe368123498bbad068cc35b8c290ba5db1"
+      "catalogSha256": "b65fd043fbee0079cec136b33f3dc58fb8b731be74704a439c6db651f0374ad1"
     },
     "turborepo-docs": {
       "revision": "7bf7094d300f5316f20b4933c65f3ee4bcab5c90cfd2e5e396456995d7d36930",
@@ -296,16 +296,16 @@
       "catalogSha256": "0248250fea7fe3d5b8ad66896827d3ce8f2fc2bf401a7e52dd3662a4c7e99558"
     },
     "chrome-devtools-skills": {
-      "revision": "0877ee00d2e43c1c04bba275e7d08cc1033e36e9",
-      "fetchedAt": "2026-11-04T22:06:35.683Z",
+      "revision": "e3eb901fcc1de3a3cbf1be39d22e0d306a0ae23d",
+      "fetchedAt": "2026-11-05T22:04:04.433Z",
       "track": "default-branch",
-      "catalogSha256": "0805db51ade7207b77b520088ff59846dbae0f376e4fa968e4160f2ca5bac59a"
+      "catalogSha256": "7afedbd1a6d48b69ffa84baf1eb0258dfacb23f77446f01bf296b91daf2ac443"
     },
     "agent-browser-skills": {
-      "revision": "6682da310c75bed8af340b39cc10b7f71bded155",
-      "fetchedAt": "2026-11-04T22:06:38.221Z",
+      "revision": "71850a021c5cb694513d720d61c156dd317d63cf",
+      "fetchedAt": "2026-11-05T22:04:06.885Z",
       "track": "default-branch",
-      "catalogSha256": "afda2adc3db1916108fe4bcde338fc7023e11c670aefe2e1de5965044e356a57"
+      "catalogSha256": "0a0cad0fcb0daa0104b88f6c27e7e079aa375c82c3f3e166b2e0f190b2a6d630"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
@@ -344,10 +344,10 @@
       "catalogSha256": "a0408617bbe6bead6b8f9943f135c92980b118842db7db25d03358521ced3c70"
     },
     "supabase-docs": {
-      "revision": "53002034204a44e76d66c47ed44b8a19740219fcce109baf6be5c2e86ca71d2d",
-      "fetchedAt": "2026-11-03T22:05:54.931Z",
+      "revision": "bd65219c899b8af492f16d14a82585c514c76bf0093f3e5bc63245b2e9994600",
+      "fetchedAt": "2026-11-05T22:04:12.147Z",
       "track": "rolling-url",
-      "catalogSha256": "5942488cfbcb8216cbd02ae0c5d75d6f2d90d79b0c06c65c96bd60ca40add899"
+      "catalogSha256": "9981148689e4b3ecfa1a73c8d10f97c431080075d3c7bc738fc346d5d6b97a5a"
     },
     "supabase-agent-skills": {
       "revision": "c9be0e931b7930f7d02126d04774d904c381e7d7",

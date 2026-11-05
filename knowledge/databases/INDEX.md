@@ -33,7 +33,7 @@ Vendor skills are reference material. Cataloging does not install them, enable a
 
 - **postgresql-18-docs** — link catalog of 117 pages; rolling-url; revision `47a8f7958b6b19e6607b2b546a5f043d0afc84dbf0d1e4ccbad18362331c957d`; fetched 2026-10-28.
   - [Catalog source](https://www.postgresql.org/docs/18/index.html); search it with `lookup --domain databases`.
-- **supabase-docs** — link catalog of 515 pages; rolling-url; revision `53002034204a44e76d66c47ed44b8a19740219fcce109baf6be5c2e86ca71d2d`; fetched 2026-11-03.
+- **supabase-docs** — link catalog of 516 pages; rolling-url; revision `bd65219c899b8af492f16d14a82585c514c76bf0093f3e5bc63245b2e9994600`; fetched 2026-11-05.
   - [Catalog source](https://supabase.com/docs/sitemap.xml); search it with `lookup --domain databases`.
 - **supabase-agent-skills** — 2 skills and 39 docs at a pinned commit; default-branch; revision `c9be0e931b7930f7d02126d04774d904c381e7d7`; fetched 2026-10-28.
   - [supabase](https://github.com/supabase/agent-skills/blob/c9be0e931b7930f7d02126d04774d904c381e7d7/skills/supabase/SKILL.md) — reference only.
