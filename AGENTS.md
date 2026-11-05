@@ -85,8 +85,9 @@ For repository changes that include delivery:
    Outside the Office, routine Brain knowledge PRs, catalog-refresh PRs
    (only `official/catalogs/`, `official/sources.lock.json` and regenerated
    hubs) and wiki maintenance PRs merge automatically under the same checks;
-   other delivery stops at the verified PR unless the user authorizes
-   merging. Never merge failed content or bypass branch protections.
+   Pin Courier dependency PRs merge through Renovate automerge once their
+   checks pass; other delivery stops at the verified PR unless the user
+   authorizes merging. Never merge failed content or bypass branch protections.
 8. Once a PR merges, by an agent or by Joe, delete its branch: the remote
    branch if GitHub kept it, the local branch and any worktree used for it.
    Delete only when the PR merged and the branch tip is the merged head;
