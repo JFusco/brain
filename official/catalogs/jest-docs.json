@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "source": "jest-docs",
+  "revision": "f7e2a3b22bb68bbb916fb92536740cebe82d9f18759acbe9bfc7a36196ed76cc",
+  "origin": "https://jestjs.io/sitemap.xml",
+  "skills": [],
+  "docs": [],
+  "pages": [
+    {
+      "title": "docs / api",
+      "url": "https://jestjs.io/docs/api",
+      "fetchUrl": "https://jestjs.io/docs/api"
+    },
+    {
+      "title": "docs / architecture",
+      "url": "https://jestjs.io/docs/architecture",
+      "fetchUrl": "https://jestjs.io/docs/architecture"
+    },
+    {
+      "title": "docs / asynchronous",
+      "url": "https://jestjs.io/docs/asynchronous",
+      "fetchUrl": "https://jestjs.io/docs/asynchronous"
+    },
+    {
+      "title": "docs / bypassing module mocks",
+      "url": "https://jestjs.io/docs/bypassing-module-mocks",
+      "fetchUrl": "https://jestjs.io/docs/bypassing-module-mocks"
+    },
+    {
+      "title": "docs / cli",
+      "url": "https://jestjs.io/docs/cli",
+      "fetchUrl": "https://jestjs.io/docs/cli"
+    },
+    {
+      "title": "docs / code transformation",
+      "url": "https://jestjs.io/docs/code-transformation",
+      "fetchUrl": "https://jestjs.io/docs/code-transformation"
+    },
+    {
+      "title": "docs / configuration",
+      "url": "https://jestjs.io/docs/configuration",
+      "fetchUrl": "https://jestjs.io/docs/configuration"
+    },
+    {
+      "title": "docs / dynamodb",
+      "url": "https://jestjs.io/docs/dynamodb",
+      "fetchUrl": "https://jestjs.io/docs/dynamodb"
+    },
+    {
+      "title": "docs / ecmascript modules",
+      "url": "https://jestjs.io/docs/ecmascript-modules",
+      "fetchUrl": "https://jestjs.io/docs/ecmascript-modules"
+    },
+    {
+      "title": "docs / environment variables",
+      "url": "https://jestjs.io/docs/environment-variables",
+      "fetchUrl": "https://jestjs.io/docs/environment-variables"
+    },
+    {
+      "title": "docs / es6 class mocks",
+      "url": "https://jestjs.io/docs/es6-class-mocks",
+      "fetchUrl": "https://jestjs.io/docs/es6-class-mocks"
+    },
+    {
+      "title": "docs / expect",
+      "url": "https://jestjs.io/docs/expect",
+      "fetchUrl": "https://jestjs.io/docs/expect"
+    },
+    {
+      "title": "docs / getting started",
+      "url": "https://jestjs.io/docs/getting-started",
+      "fetchUrl": "https://jestjs.io/docs/getting-started"
+    },
+    {
+      "title": "docs / jest community",
+      "url": "https://jestjs.io/docs/jest-community",
+      "fetchUrl": "https://jestjs.io/docs/jest-community"
+    },
+    {
+      "title": "docs / jest object",
+      "url": "https://jestjs.io/docs/jest-object",
+      "fetchUrl": "https://jestjs.io/docs/jest-object"
+    },
+    {
+      "title": "docs / jest platform",
+      "url": "https://jestjs.io/docs/jest-platform",
+      "fetchUrl": "https://jestjs.io/docs/jest-platform"
+    },
+    {
+      "title": "docs / manual mocks",
+      "url": "https://jestjs.io/docs/manual-mocks",
+      "fetchUrl": "https://jestjs.io/docs/manual-mocks"
+    },
+    {
+      "title": "docs / migration guide",
+      "url": "https://jestjs.io/docs/migration-guide",
+      "fetchUrl": "https://jestjs.io/docs/migration-guide"
+    },
+    {
+      "title": "docs / mock function api",
+      "url": "https://jestjs.io/docs/mock-function-api",
+      "fetchUrl": "https://jestjs.io/docs/mock-function-api"
+    },
+    {
+      "title": "docs / mock functions",
+      "url": "https://jestjs.io/docs/mock-functions",
+      "fetchUrl": "https://jestjs.io/docs/mock-functions"
+    },
+    {
+      "title": "docs / mongodb",
+      "url": "https://jestjs.io/docs/mongodb",
+      "fetchUrl": "https://jestjs.io/docs/mongodb"
+    },
+    {
+      "title": "docs / more resources",
+      "url": "https://jestjs.io/docs/more-resources",
+      "fetchUrl": "https://jestjs.io/docs/more-resources"
+    },
+    {
+      "title": "docs / puppeteer",
+      "url": "https://jestjs.io/docs/puppeteer",
+      "fetchUrl": "https://jestjs.io/docs/puppeteer"
+    },
+    {
+      "title": "docs / setup teardown",
+      "url": "https://jestjs.io/docs/setup-teardown",
+      "fetchUrl": "https://jestjs.io/docs/setup-teardown"
+    },
+    {
+      "title": "docs / snapshot testing",
+      "url": "https://jestjs.io/docs/snapshot-testing",
+      "fetchUrl": "https://jestjs.io/docs/snapshot-testing"
+    },
+    {
+      "title": "docs / test environment",
+      "url": "https://jestjs.io/docs/test-environment",
+      "fetchUrl": "https://jestjs.io/docs/test-environment"
+    },
+    {
+      "title": "docs / testing frameworks",
+      "url": "https://jestjs.io/docs/testing-frameworks",
+      "fetchUrl": "https://jestjs.io/docs/testing-frameworks"
+    },
+    {
+      "title": "docs / timer mocks",
+      "url": "https://jestjs.io/docs/timer-mocks",
+      "fetchUrl": "https://jestjs.io/docs/timer-mocks"
+    },
+    {
+      "title": "docs / troubleshooting",
+      "url": "https://jestjs.io/docs/troubleshooting",
+      "fetchUrl": "https://jestjs.io/docs/troubleshooting"
+    },
+    {
+      "title": "docs / tutorial async",
+      "url": "https://jestjs.io/docs/tutorial-async",
+      "fetchUrl": "https://jestjs.io/docs/tutorial-async"
+    },
+    {
+      "title": "docs / tutorial jquery",
+      "url": "https://jestjs.io/docs/tutorial-jquery",
+      "fetchUrl": "https://jestjs.io/docs/tutorial-jquery"
+    },
+    {
+      "title": "docs / tutorial react native",
+      "url": "https://jestjs.io/docs/tutorial-react-native",
+      "fetchUrl": "https://jestjs.io/docs/tutorial-react-native"
+    },
+    {
+      "title": "docs / upgrading to jest29",
+      "url": "https://jestjs.io/docs/upgrading-to-jest29",
+      "fetchUrl": "https://jestjs.io/docs/upgrading-to-jest29"
+    },
+    {
+      "title": "docs / upgrading to jest30",
+      "url": "https://jestjs.io/docs/upgrading-to-jest30",
+      "fetchUrl": "https://jestjs.io/docs/upgrading-to-jest30"
+    },
+    {
+      "title": "docs / using matchers",
+      "url": "https://jestjs.io/docs/using-matchers",
+      "fetchUrl": "https://jestjs.io/docs/using-matchers"
+    },
+    {
+      "title": "docs / watch plugins",
+      "url": "https://jestjs.io/docs/watch-plugins",
+      "fetchUrl": "https://jestjs.io/docs/watch-plugins"
+    },
+    {
+      "title": "docs / webpack",
+      "url": "https://jestjs.io/docs/webpack",
+      "fetchUrl": "https://jestjs.io/docs/webpack"
+    }
+  ],
+  "referenceIssues": []
+}

@@ -42,6 +42,8 @@ Route build configuration, test runners, component workshops, linting, package m
   - [Catalog source](https://vite.dev/sitemap.xml); search it with `lookup --domain tooling`.
 - **vitest-docs** — link catalog of 215 pages; rolling-url; revision `f5554913ca300523eac30b71ecb8f99bcdf27a6508abf8ca212be9026711ae90`; fetched 2026-11-02.
   - [Catalog source](https://vitest.dev/llms.txt); search it with `lookup --domain tooling`.
+- **jest-docs** — link catalog of 37 pages; rolling-url; revision `f7e2a3b22bb68bbb916fb92536740cebe82d9f18759acbe9bfc7a36196ed76cc`; fetched 2026-11-04.
+  - [Catalog source](https://jestjs.io/sitemap.xml); search it with `lookup --domain tooling`.
 - **storybook-docs** — link catalog of 161 pages; rolling-url; revision `c735625fe57a09cd61ddc13f2b80d4d8f548b9e8bacd52ca415aed3e1fd2ee42`; fetched 2026-10-30.
   - [Catalog source](https://storybook.js.org/docs/sitemap.xml); search it with `lookup --domain tooling`.
 - **testing-library-docs** — link catalog of 113 pages; rolling-url; revision `c447b8fd1df3b40e4eba2467acdea19beffb53e9a3f9d00a1345e327f21887f4`; fetched 2026-10-24.
