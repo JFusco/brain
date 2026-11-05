@@ -8,6 +8,7 @@ aliases: ["tailwind"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
+- [Avoid Tailwind spacing and container token collisions](sizing-token-collisions.md)
 - [Organize Tailwind 4 tokens by responsibility](responsibility-based-tokens.md)
 - [Review Tailwind 4 application and Storybook parity](application-storybook-review.md)
 <!-- brain:curated:end -->

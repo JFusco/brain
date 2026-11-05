@@ -302,3 +302,7 @@ The [dependency automation journal](../journal/2026-11-03-dependency-update-guid
 ## November 4 design handoff and browser gates
 
 The [design handoff journal](../journal/2026-11-04-design-handoff-and-browser-gates.md) records image-fill retrieval, complete page-placement composition and consolidated Storybook/Vitest/Playwright verification guidance. Source bitmaps, rendered screenshots, executed tests and accessibility results have distinct evidence boundaries. Generator identity, download budgets and capture procedures remain proposed practices; incident counts and success reports are not generalized. The overdue Claude authoring note is revalidated with explicit loader version/session limits. Whole-capture accounting, fresh independent content review and successful final completion continue to govern acceptance.
+
+## November 5 token and story names
+
+The [naming journal](../journal/2026-11-05-token-and-story-naming.md) separates Tailwind spacing/container collisions from token ownership, and Storybook display names from template identity. Versioned source supports the limited lookup-order observation; naming and generator checks remain proposed practices. OpenAI authoring guidance is revalidated with host, invocation and trusted-rule boundaries. Private original evidence, separate content review and successful nightly completion remain the capture acceptance contract.
