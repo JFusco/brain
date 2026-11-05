@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "5a54340ee96451e7c7e43ece81140fc0e6084ab4ef499440f2164df13130f4fb",
+  "revision": "2827def812336caae329ff34f2d288185d9e2d99f65564f32d154aaea4cbe4e5",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -3177,6 +3177,11 @@
       "fetchUrl": "https://vercel.com/docs/cli/sandbox.md"
     },
     {
+      "title": "vercel schedules",
+      "url": "https://vercel.com/docs/cli/schedules",
+      "fetchUrl": "https://vercel.com/docs/cli/schedules.md"
+    },
+    {
       "title": "vercel security",
       "url": "https://vercel.com/docs/cli/security",
       "fetchUrl": "https://vercel.com/docs/cli/security.md"
@@ -3425,26 +3430,6 @@
       "title": "Public and Shared Repositories",
       "url": "https://vercel.com/docs/container-registry/public-and-shared-repositories",
       "fetchUrl": "https://vercel.com/docs/container-registry/public-and-shared-repositories.md"
-    },
-    {
-      "title": "Cron Jobs",
-      "url": "https://vercel.com/docs/cron-jobs",
-      "fetchUrl": "https://vercel.com/docs/cron-jobs.md"
-    },
-    {
-      "title": "Managing Cron Jobs",
-      "url": "https://vercel.com/docs/cron-jobs/manage-cron-jobs",
-      "fetchUrl": "https://vercel.com/docs/cron-jobs/manage-cron-jobs.md"
-    },
-    {
-      "title": "Getting started with cron jobs",
-      "url": "https://vercel.com/docs/cron-jobs/quickstart",
-      "fetchUrl": "https://vercel.com/docs/cron-jobs/quickstart.md"
-    },
-    {
-      "title": "Usage & Pricing for Cron Jobs",
-      "url": "https://vercel.com/docs/cron-jobs/usage-and-pricing",
-      "fetchUrl": "https://vercel.com/docs/cron-jobs/usage-and-pricing.md"
     },
     {
       "title": "Custom error pages",
@@ -8232,6 +8217,111 @@
       "fetchUrl": "https://vercel.com/docs/sandbox/working-with-sandbox.md"
     },
     {
+      "title": "Schedules",
+      "url": "https://vercel.com/docs/schedules",
+      "fetchUrl": "https://vercel.com/docs/schedules.md"
+    },
+    {
+      "title": "Scheduling Work for Agents",
+      "url": "https://vercel.com/docs/schedules/agents",
+      "fetchUrl": "https://vercel.com/docs/schedules/agents.md"
+    },
+    {
+      "title": "Scheduling Work with the AI SDK",
+      "url": "https://vercel.com/docs/schedules/agents/ai-sdk",
+      "fetchUrl": "https://vercel.com/docs/schedules/agents/ai-sdk.md"
+    },
+    {
+      "title": "Scheduling Work with eve",
+      "url": "https://vercel.com/docs/schedules/agents/eve",
+      "fetchUrl": "https://vercel.com/docs/schedules/agents/eve.md"
+    },
+    {
+      "title": "Scheduling Work with libfx",
+      "url": "https://vercel.com/docs/schedules/agents/libfx",
+      "fetchUrl": "https://vercel.com/docs/schedules/agents/libfx.md"
+    },
+    {
+      "title": "Scheduling Work with Pi",
+      "url": "https://vercel.com/docs/schedules/agents/pi",
+      "fetchUrl": "https://vercel.com/docs/schedules/agents/pi.md"
+    },
+    {
+      "title": "Schedules Concepts",
+      "url": "https://vercel.com/docs/schedules/concepts",
+      "fetchUrl": "https://vercel.com/docs/schedules/concepts.md"
+    },
+    {
+      "title": "Schedules Configuration Reference",
+      "url": "https://vercel.com/docs/schedules/configuration",
+      "fetchUrl": "https://vercel.com/docs/schedules/configuration.md"
+    },
+    {
+      "title": "Cron Jobs",
+      "url": "https://vercel.com/docs/schedules/cron-jobs",
+      "fetchUrl": "https://vercel.com/docs/schedules/cron-jobs.md"
+    },
+    {
+      "title": "Managing Cron Jobs",
+      "url": "https://vercel.com/docs/schedules/cron-jobs/manage-cron-jobs",
+      "fetchUrl": "https://vercel.com/docs/schedules/cron-jobs/manage-cron-jobs.md"
+    },
+    {
+      "title": "Getting started with cron jobs",
+      "url": "https://vercel.com/docs/schedules/cron-jobs/quickstart",
+      "fetchUrl": "https://vercel.com/docs/schedules/cron-jobs/quickstart.md"
+    },
+    {
+      "title": "Usage & Pricing for Cron Jobs",
+      "url": "https://vercel.com/docs/schedules/cron-jobs/usage-and-pricing",
+      "fetchUrl": "https://vercel.com/docs/schedules/cron-jobs/usage-and-pricing.md"
+    },
+    {
+      "title": "Handling Scheduled Runs",
+      "url": "https://vercel.com/docs/schedules/handle-runs",
+      "fetchUrl": "https://vercel.com/docs/schedules/handle-runs.md"
+    },
+    {
+      "title": "Vercel Schedules: API Reference",
+      "url": "https://vercel.com/docs/schedules/http-api",
+      "fetchUrl": "https://vercel.com/docs/schedules/http-api.md"
+    },
+    {
+      "title": "Schedules Limits",
+      "url": "https://vercel.com/docs/schedules/limits",
+      "fetchUrl": "https://vercel.com/docs/schedules/limits.md"
+    },
+    {
+      "title": "Testing Schedules Locally",
+      "url": "https://vercel.com/docs/schedules/local-development",
+      "fetchUrl": "https://vercel.com/docs/schedules/local-development.md"
+    },
+    {
+      "title": "Managing Schedules",
+      "url": "https://vercel.com/docs/schedules/manage",
+      "fetchUrl": "https://vercel.com/docs/schedules/manage.md"
+    },
+    {
+      "title": "Migrating from Cron Jobs to Schedules",
+      "url": "https://vercel.com/docs/schedules/migrate-from-cron-jobs",
+      "fetchUrl": "https://vercel.com/docs/schedules/migrate-from-cron-jobs.md"
+    },
+    {
+      "title": "Creating Schedules for Each Customer",
+      "url": "https://vercel.com/docs/schedules/multi-tenant",
+      "fetchUrl": "https://vercel.com/docs/schedules/multi-tenant.md"
+    },
+    {
+      "title": "Getting Started with Schedules",
+      "url": "https://vercel.com/docs/schedules/quickstart",
+      "fetchUrl": "https://vercel.com/docs/schedules/quickstart.md"
+    },
+    {
+      "title": "Vercel Schedules: JS SDK Reference",
+      "url": "https://vercel.com/docs/schedules/sdk",
+      "fetchUrl": "https://vercel.com/docs/schedules/sdk.md"
+    },
+    {
       "title": "Vercel security overview",
       "url": "https://vercel.com/docs/security",
       "fetchUrl": "https://vercel.com/docs/security.md"
@@ -8432,9 +8522,9 @@
       "fetchUrl": "https://vercel.com/docs/tracing.md"
     },
     {
-      "title": "Always-on Tracing",
-      "url": "https://vercel.com/docs/tracing/always-on-tracing",
-      "fetchUrl": "https://vercel.com/docs/tracing/always-on-tracing.md"
+      "title": "Configuring Tracing",
+      "url": "https://vercel.com/docs/tracing/configure-tracing",
+      "fetchUrl": "https://vercel.com/docs/tracing/configure-tracing.md"
     },
     {
       "title": "Instrumentation",
@@ -8442,7 +8532,7 @@
       "fetchUrl": "https://vercel.com/docs/tracing/instrumentation.md"
     },
     {
-      "title": "Session tracing",
+      "title": "Session Tracing",
       "url": "https://vercel.com/docs/tracing/session-tracing",
       "fetchUrl": "https://vercel.com/docs/tracing/session-tracing.md"
     },
@@ -8452,7 +8542,7 @@
       "fetchUrl": "https://vercel.com/docs/two-factor-authentication.md"
     },
     {
-      "title": "Two-factor enforcement",
+      "title": "Two-factor Enforcement",
       "url": "https://vercel.com/docs/two-factor-enforcement",
       "fetchUrl": "https://vercel.com/docs/two-factor-enforcement.md"
     },

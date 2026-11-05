@@ -27,13 +27,13 @@ aliases: ["react", "hooks"]
   - [composition-patterns](https://github.com/vercel-labs/agent-skills/blob/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62/skills/composition-patterns/SKILL.md).
   - [react-best-practices](https://github.com/vercel-labs/agent-skills/blob/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62/skills/react-best-practices/SKILL.md).
   - [web-design-guidelines](https://github.com/vercel-labs/agent-skills/blob/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62/skills/web-design-guidelines/SKILL.md).
-- **vercel-plugin** — 38 skills and 241 docs at a pinned commit; default-branch; revision `3ca3e549d48578bcb3b315ec6e9a972fce1c24ed`; fetched 2026-11-03.
+- **vercel-plugin** — 38 skills and 241 docs at a pinned commit; default-branch; revision `2a163af1e4b9ba5f8a02de3737eb0c884e21d765`; fetched 2026-11-05.
   - [Complete Vercel plugin catalog](../vercel/INDEX.md).
-  - [react-best-practices](https://github.com/vercel/vercel-plugin/blob/3ca3e549d48578bcb3b315ec6e9a972fce1c24ed/skills/react-best-practices/SKILL.md).
+  - [react-best-practices](https://github.com/vercel/vercel-plugin/blob/2a163af1e4b9ba5f8a02de3737eb0c884e21d765/skills/react-best-practices/SKILL.md).
 - **react-index** — link catalog of 180 pages; rolling-url; revision `8164398bcb11d2ed3377e96aac8473f508d2ddd687d51b7968be3a991056fd65`; fetched 2026-10-20.
   - [Catalog source](https://react.dev/llms.txt); search it with `lookup --domain react`.
-- **react-docs** — link catalog of 226 pages; default-branch; revision `2177e28d3c3c16a8183346b9140f11ce0ee6af25`; fetched 2026-11-04.
-  - [Catalog source](https://github.com/reactjs/react.dev/tree/2177e28d3c3c16a8183346b9140f11ce0ee6af25/src/content/); search it with `lookup --domain react`.
+- **react-docs** — link catalog of 226 pages; default-branch; revision `2e6dca162985d438d7a834b339d89177cf0a92b9`; fetched 2026-11-05.
+  - [Catalog source](https://github.com/reactjs/react.dev/tree/2e6dca162985d438d7a834b339d89177cf0a92b9/src/content/); search it with `lookup --domain react`.
 - **motion-docs** — link catalog of 152 pages; rolling-url; revision `4d9174a4656d8e40b29ace0f4f66d731d3a1844848030092932277a350337c6a`; fetched 2026-11-02.
   - [Catalog source](https://motion.dev/llms.txt); search it with `lookup --domain react`.
 - [Official website](https://react.dev/learn) — pointer only: Official React documentation (CC-BY-4.0); react-index and react-docs catalog its links.

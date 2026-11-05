@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "pnpm-docs",
-  "revision": "3484eed61aebc07d7b1328aec8dc1f112499f2ad2d7fc8fd63188785e01a12c3",
+  "revision": "bdd0d01f5c33a13d315525927fb29cf22e3d50654e21151c059cf942068e38e1",
   "origin": "https://pnpm.io/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -647,9 +647,19 @@
       "fetchUrl": "https://pnpm.io/pnpr/auth-backends"
     },
     {
+      "title": "pnpr / backup and restore",
+      "url": "https://pnpm.io/pnpr/backup-and-restore",
+      "fetchUrl": "https://pnpm.io/pnpr/backup-and-restore"
+    },
+    {
       "title": "pnpr / cli",
       "url": "https://pnpm.io/pnpr/cli",
       "fetchUrl": "https://pnpm.io/pnpr/cli"
+    },
+    {
+      "title": "pnpr / cloudflare",
+      "url": "https://pnpm.io/pnpr/cloudflare",
+      "fetchUrl": "https://pnpm.io/pnpr/cloudflare"
     },
     {
       "title": "pnpr / compiler cache",
@@ -727,9 +737,19 @@
       "fetchUrl": "https://pnpm.io/pnpr/storage"
     },
     {
+      "title": "pnpr / tls and reverse proxy",
+      "url": "https://pnpm.io/pnpr/tls-and-reverse-proxy",
+      "fetchUrl": "https://pnpm.io/pnpr/tls-and-reverse-proxy"
+    },
+    {
       "title": "pnpr / web ui",
       "url": "https://pnpm.io/pnpr/web-ui",
       "fetchUrl": "https://pnpm.io/pnpr/web-ui"
+    },
+    {
+      "title": "pnpr / webhooks",
+      "url": "https://pnpm.io/pnpr/webhooks",
+      "fetchUrl": "https://pnpm.io/pnpr/webhooks"
     },
     {
       "title": "podman",

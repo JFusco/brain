@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms13-docs",
-  "revision": "18f6519ccc7795c8a7c8b0c44e2f72ef3f58b33b3feb4b66cefc108262a92a50",
+  "revision": "aaa81aa5b45a88ff66a275713032a0bbb293ac7034e78d910c29be262bad78ca",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -1665,6 +1665,11 @@
       "title": "Glossary of terms",
       "url": "https://docs.optimizely.com/cms-13/docs/glossary-of-terms.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/glossary-of-terms.md"
+    },
+    {
+      "title": "Google Analytics for Optimizely",
+      "url": "https://docs.optimizely.com/cms-13/docs/google-analytics-for-optimizely.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/google-analytics-for-optimizely.md"
     },
     {
       "title": "Graph C# (.NET) SDK",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "wordpress-docs",
-  "revision": "efdbfa1b194e386e10bedb1974b4416e98c0b3c54b20a4e9cee5f1919a02e95d",
+  "revision": "d06cd1974763cdc0844b53e912913c7ece95087aad16e263e26f2211a3424524",
   "origin": "https://developer.wordpress.org/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -3080,6 +3080,21 @@
       "title": "packages / packages image cropper",
       "url": "https://developer.wordpress.org/block-editor/reference-guides/packages/packages-image-cropper/",
       "fetchUrl": "https://developer.wordpress.org/block-editor/reference-guides/packages/packages-image-cropper/"
+    },
+    {
+      "title": "packages / packages image editor",
+      "url": "https://developer.wordpress.org/block-editor/reference-guides/packages/packages-image-editor/",
+      "fetchUrl": "https://developer.wordpress.org/block-editor/reference-guides/packages/packages-image-editor/"
+    },
+    {
+      "title": "packages image editor / packages image editor architecture",
+      "url": "https://developer.wordpress.org/block-editor/reference-guides/packages/packages-image-editor/packages-image-editor-architecture/",
+      "fetchUrl": "https://developer.wordpress.org/block-editor/reference-guides/packages/packages-image-editor/packages-image-editor-architecture/"
+    },
+    {
+      "title": "packages image editor / packages image editor recipes",
+      "url": "https://developer.wordpress.org/block-editor/reference-guides/packages/packages-image-editor/packages-image-editor-recipes/",
+      "fetchUrl": "https://developer.wordpress.org/block-editor/reference-guides/packages/packages-image-editor/packages-image-editor-recipes/"
     },
     {
       "title": "packages / packages interactivity router",
