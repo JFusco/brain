@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "anthropic-agent-docs",
-  "revision": "39ec0cf8d968618c95a43b14d8554a3cf3888573f500c5e965b5206ff990281d",
+  "revision": "d5a6f4f8ba427b778bfb000c15d3f2fc17c46c2aef3ec33f455c36cffac532cd",
   "origin": "https://platform.claude.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -357,7 +357,7 @@
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-effort-example.md"
     },
     {
-      "title": "Mid-conversation system messages and tool changes",
+      "title": "Mid-conversation messages",
       "url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages",
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages.md"
     },

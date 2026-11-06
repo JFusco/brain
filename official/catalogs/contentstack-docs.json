@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "d5794d4b3f482ddf99c2aaa04a2ae5a06d97442092075254b43729247cef5ec3",
+  "revision": "1bbcba6a610fa0f5d9e5da1016725d7462d0a92c09ef754a2747f506db6abcb9",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -555,6 +555,11 @@
       "title": "agent os / build an agent in polaris",
       "url": "https://www.contentstack.com/docs/agent-os/build-an-agent-in-polaris",
       "fetchUrl": "https://www.contentstack.com/docs/agent-os/build-an-agent-in-polaris.md"
+    },
+    {
+      "title": "agent os / canvas editor",
+      "url": "https://www.contentstack.com/docs/agent-os/canvas-editor",
+      "fetchUrl": "https://www.contentstack.com/docs/agent-os/canvas-editor.md"
     },
     {
       "title": "agent os / chatgpt",
@@ -5047,6 +5052,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/how-to-guides/ways-to-back-up-your-stack-content.md"
     },
     {
+      "title": "developers / mcp at contentstack",
+      "url": "https://www.contentstack.com/docs/developers/mcp-at-contentstack",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-at-contentstack.md"
+    },
+    {
       "title": "developers / mcp profile hub automations and agents",
       "url": "https://www.contentstack.com/docs/developers/mcp-profile-hub-automations-and-agents",
       "fetchUrl": "https://www.contentstack.com/docs/developers/mcp-profile-hub-automations-and-agents.md"
@@ -6262,6 +6272,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/typescript/reference.md"
     },
     {
+      "title": "reference / asset",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/typescript/reference/asset",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/typescript/reference/asset.md"
+    },
+    {
       "title": "reference / asset collection",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/typescript/reference/asset-collection",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/typescript/reference/asset-collection.md"
@@ -6270,11 +6285,6 @@
       "title": "reference / contentstack",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/typescript/reference/contentstack",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/typescript/reference/contentstack.md"
-    },
-    {
-      "title": "contentstack / asset",
-      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/typescript/reference/contentstack/asset",
-      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/typescript/reference/contentstack/asset.md"
     },
     {
       "title": "reference / contenttype",

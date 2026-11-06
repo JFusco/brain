@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "mdn-web-docs",
-  "revision": "7fe88bb4d579b6c9d95b3e3fd270b355ffed1e3fde631f4d63f2050c334283b7",
+  "revision": "0956d9474c9fabf81238aec6668a0b12c3928c0d686dfab6586d9066ceae9014",
   "origin": "https://developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz",
   "skills": [],
   "docs": [],
@@ -4375,6 +4375,21 @@
       "title": "Guide / Modules",
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
       "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+    },
+    {
+      "title": "Modules / Module_graph",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules/Module_graph",
+      "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules/Module_graph"
+    },
+    {
+      "title": "Modules / Modules_across_platforms",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules/Modules_across_platforms",
+      "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules/Modules_across_platforms"
+    },
+    {
+      "title": "Modules / Modules_on_the_web",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules/Modules_on_the_web",
+      "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules/Modules_on_the_web"
     },
     {
       "title": "Guide / Numbers_and_strings",
