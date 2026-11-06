@@ -306,3 +306,7 @@ The [design handoff journal](../journal/2026-11-04-design-handoff-and-browser-ga
 ## November 5 token and story names
 
 The [naming journal](../journal/2026-11-05-token-and-story-naming.md) separates Tailwind spacing/container collisions from token ownership, and Storybook display names from template identity. Versioned source supports the limited lookup-order observation; naming and generator checks remain proposed practices. OpenAI authoring guidance is revalidated with host, invocation and trusted-rule boundaries. Private original evidence, separate content review and successful nightly completion remain the capture acceptance contract.
+
+## November 6 durability and workflow contracts
+
+The [durability and workflow journal](../journal/2026-11-06-durability-and-workflow-guidance.md) records SQLite connection/durable-intent choices, Husky/Graphify activation order, behavioral refusal assertions, Node test timing/isolation, CI cache scope, durable agent ownership and measured prompt-cache reuse. Versioned and rolling evidence remain distinct; private performance outcomes and incidental versions do not become guarantees. Next.js route-parameter guidance is revalidated against actual official pages. Proposed optimizations remain eligible for publication with explicit limits, while independent content review and final successful completion continue to precede capture acceptance.

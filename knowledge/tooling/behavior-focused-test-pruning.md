@@ -28,6 +28,12 @@ Use when tests fail on harmless refactors or repeat coverage without a clear reg
 3. Review literal echoes, internal call-order assertions, unstable exact counts and wording/source regex checks for independent value. Derive counts from the tested artifact where appropriate. Preserve source-shape tests when that shape is an intentional integration, privacy or workflow contract; do not delete them by category.
 4. Share lifecycle setup and cleanup while keeping behavior-specific inputs and expectations readable. Remove orphaned helpers/fixtures only after confirming no remaining consumer. Retain required quality gates and record what still catches each removed regression.
 
+## Prove the intended refusal
+
+**Documented, checked November 6, 2026:** [Node 24.14.0 assertions](https://github.com/nodejs/node/blob/v24.14.0/doc/api/assert.md#assertthrowsfn-error-message) accept error validators for `assert.throws` and `assert.rejects`; omitting one accepts an unrelated failure. Match a meaningful code, name, message pattern or validation predicate. A bare `Error` class usually does not identify the guard. A RegExp used directly as the validator tests the stringified error, including its name; a validation object's message pattern matches the message property. Choose anchors for the actual target rather than banning anchors universally.
+
+**Proposed audit:** temporarily capture the actual errors behind ambiguous assertions, using a local validator or reversible codemod, then replace the diagnostic code with deliberate matchers. For invalid-case tables, keep a case per meaningful guard clause even when messages coincide. Ensure fixtures pass earlier path, schema, seal and ownership checks so they reach the refusal being claimed. In an isolated authorized change, briefly remove the target clause and confirm the test fails, then restore the source exactly. This is focused mutation evidence, not permission to alter live guards. Retain critical slow tests; use [profiling and controlled clocks](node-test-performance.md) for avoidable cost.
+
 ## Evidence and limits
 
 The audit and cheapest-equivalent-test rules have not been measured for defect escape. No tests were deleted or altered here, and the note authorizes no change to a consuming project's test policy. Coverage percentages or a passing suite alone do not prove redundancy; mutation testing and coverage-tool configuration remain separate scope.
