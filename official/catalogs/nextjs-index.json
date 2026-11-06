@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "nextjs-index",
-  "revision": "c3eb69126a4ec98ddcfa9162ccac3da42b223964ad0725af810ca5e3622d8b73",
+  "revision": "41ead42cac3a04c79525ecdf1b47217d208f1f75f99d2caad02f331a3b7ca45f",
   "origin": "https://nextjs.org/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -960,6 +960,11 @@
       "title": "useSelectedLayoutSegments",
       "url": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segments",
       "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-selected-layout-segments"
+    },
+    {
+      "title": "useServerInsertedHTML",
+      "url": "https://nextjs.org/docs/app/api-reference/functions/use-server-inserted-html",
+      "fetchUrl": "https://nextjs.org/docs/app/api-reference/functions/use-server-inserted-html"
     },
     {
       "title": "userAgent",

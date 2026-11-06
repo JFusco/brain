@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "openai-agent-docs",
-  "revision": "850050f2ccd4c7300a6e1cd902f51da95babf55d2c4f37f160e9c26a186cc301",
+  "revision": "23653344c7825f36c34883e9c2d81eba57fb64b16095584334e1ba1ab99ad3d0",
   "origin": "https://developers.openai.com/api/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -777,11 +777,6 @@
       "fetchUrl": "https://developers.openai.com/api/docs/guides/red-teaming.md"
     },
     {
-      "title": "Reinforcement fine-tuning",
-      "url": "https://developers.openai.com/api/docs/guides/reinforcement-fine-tuning",
-      "fetchUrl": "https://developers.openai.com/api/docs/guides/reinforcement-fine-tuning.md"
-    },
-    {
       "title": "Multi-agent",
       "url": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/responses-multi-agent.md"
@@ -790,11 +785,6 @@
       "title": "Retrieval",
       "url": "https://developers.openai.com/api/docs/guides/retrieval",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/retrieval.md"
-    },
-    {
-      "title": "Reinforcement fine-tuning use cases",
-      "url": "https://developers.openai.com/api/docs/guides/rft-use-cases",
-      "fetchUrl": "https://developers.openai.com/api/docs/guides/rft-use-cases.md"
     },
     {
       "title": "Safety best practices",
