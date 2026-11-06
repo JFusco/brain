@@ -17,6 +17,7 @@ Route build configuration, test runners, component workshops, linting, package m
 ## Curated learnings
 
 <!-- brain:curated:start -->
+- [Activate Husky before composing native Git hooks](husky-hook-setup.md)
 - [Adapt shared agent guidance to the receiving repository](share-agent-guidance.md)
 - [Author Claude skills, references and project rules](claude-skills-and-rules.md)
 - [Author OpenAI skills, references and Codex rules](openai-skills-and-rules.md)
@@ -25,13 +26,17 @@ Route build configuration, test runners, component workshops, linting, package m
 - [Choose Claude models and effort by task](claude-model-selection.md)
 - [Choose OpenAI models and reasoning by task](openai-model-selection.md)
 - [Choose first-party dependency update automation](first-party-dependency-updates.md)
+- [Coordinate agent concurrency with durable ownership](agent-workflow-concurrency.md)
 - [Define a structured Opus 5.5 judgment contract](opus-structured-judgment.md)
 - [Discover and capture hidden UI states with guards](guarded-ui-state-capture.md)
 - [Keep a Graphify code map scoped and reproducible](graphify-code-map.md)
+- [Measure prompt-cache reuse across headless stages](claude-prompt-cache-lineage.md)
 - [Pin an agent CLI judgment call's settings](agent-cli-invocation-contract.md)
+- [Profile Node test files and replace avoidable waits](node-test-performance.md)
 - [Prune tests by the behavior they protect](behavior-focused-test-pruning.md)
 - [Separate file moves from refactors and check merges](rename-preserving-file-moves.md)
 - [Separate review transport and context capacity failures](review-capacity-recovery.md)
+- [Tune CI caches without weakening required gates](ci-cache-and-gate-contracts.md)
 - [Verify Storybook browser gates and capture evidence](storybook-browser-gates.md)
 <!-- brain:curated:end -->
 

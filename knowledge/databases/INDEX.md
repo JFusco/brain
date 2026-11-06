@@ -25,6 +25,7 @@ Vendor skills are reference material. Cataloging does not install them, enable a
 
 <!-- brain:curated:start -->
 - [Checkpoint mutable SQLite state without rewriting history](sqlite-immutable-checkpoints.md)
+- [Choose SQLite connection durability explicitly](sqlite-connection-contracts.md)
 - [Snapshot SQLite safely before an isolated replay](sqlite-backup-for-replay.md)
 <!-- brain:curated:end -->
 
