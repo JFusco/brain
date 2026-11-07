@@ -31,3 +31,16 @@ Use when an import or validation pass looks slow and an adapter timer is labeled
 ## Evidence and limits
 
 The profiler flag is documented; the attribution, caching and index procedures are proposed practices. Captures report wrapper-time misattribution and later successful optimizations, but their operation counts, speedups and replay results were not reproduced and are deliberately not published as measured outcomes. No universal API-concurrency recommendation or latency gain follows from them.
+
+## Define completed units before reporting efficiency
+
+**Documented, checked November 7, 2026:** [Node 24 `performance.now()`](https://nodejs.org/docs/latest-v24.x/api/perf_hooks.html#performancenow) uses the current process start as zero. [FinOps unit economics](https://www.finops.org/framework/capabilities/unit-economics/) recommends meaningful usage/output units and collecting the denominator during development; [allocation guidance](https://framework.finops.org/framework/capabilities/allocation/) describes fixed, proportional and proxy-based sharing. These support the following proposed workflow model, not a mandatory FinOps definition of completion.
+
+**Proposed:**
+
+- Report end-to-end elapsed time, union of observed active intervals, accumulated operation duration and explicitly observed waiting separately. Use process-relative monotonic durations within a process and UTC correlation timestamps across processes; retain restart/clock uncertainty. Overlapping parent/child durations must not be summed into wall time.
+- Name the denominator beside each average. Count unique verified delivered outputs once; report attempts, failures, reuse and rework separately. Repeated verification does not create another output. Keep phase processing averages distinct from delivery efficiency and individual-unit latency distributions.
+- Keep phase (mapping, upload, verification) separate from purpose (initial work, setup, review, remediation). Show the chosen productive cohort alongside all recorded expenditure, and retain normal retry costs even when an attempt fails.
+- Count a shared asset once in the total. If assigning its cost to pages, record the allocation policy, conserve the total and leave unattributed work visible. An allocation is not a direct per-page measurement.
+
+Pair this with [accounting evidence](../tooling/workflow-accounting-evidence.md) and [observation granularity](../tooling/vendor-operation-observability.md). No timing model, allocation implementation or throughput improvement was exercised. Historical source-review observations and incidental package versions are not benchmark or compatibility evidence.

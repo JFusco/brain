@@ -310,3 +310,7 @@ The [naming journal](../journal/2026-11-05-token-and-story-naming.md) separates 
 ## November 6 durability and workflow contracts
 
 The [durability and workflow journal](../journal/2026-11-06-durability-and-workflow-guidance.md) records SQLite connection/durable-intent choices, Husky/Graphify activation order, behavioral refusal assertions, Node test timing/isolation, CI cache scope, durable agent ownership and measured prompt-cache reuse. Versioned and rolling evidence remain distinct; private performance outcomes and incidental versions do not become guarantees. Next.js route-parameter guidance is revalidated against actual official pages. Proposed optimizations remain eligible for publication with explicit limits, while independent content review and final successful completion continue to precede capture acceptance.
+
+## November 7 asset naming and accounting
+
+The [asset naming and accounting journal](../journal/2026-11-07-asset-naming-and-accounting.md) records product-specific filename preflight, identity-supported CMP reconciliation, Sitecore media-name pilots, explicit timing denominators, accounting cost bases and honest vendor-operation telemetry. Documented mechanisms support bounded proposals; no upload, benchmark, billing reconciliation or implementation success is inferred. One Next.js note is source-revalidated while other stale signals remain. Private claim accounting, fresh separate content review and successful nightly completion continue to govern capture acceptance.
