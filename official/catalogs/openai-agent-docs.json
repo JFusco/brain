@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "openai-agent-docs",
-  "revision": "23653344c7825f36c34883e9c2d81eba57fb64b16095584334e1ba1ab99ad3d0",
+  "revision": "6d99c65124d7390e288d593c53e4348256f5692a2dbb076a8cb6dce7070a8256",
   "origin": "https://developers.openai.com/api/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -492,6 +492,11 @@
       "fetchUrl": "https://developers.openai.com/api/docs/guides/function-calling.md"
     },
     {
+      "title": "OpenAI on Google Cloud",
+      "url": "https://developers.openai.com/api/docs/guides/google-cloud",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/google-cloud.md"
+    },
+    {
       "title": "Graders",
       "url": "https://developers.openai.com/api/docs/guides/graders",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/graders.md"
@@ -650,6 +655,11 @@
       "title": "Predicted Outputs",
       "url": "https://developers.openai.com/api/docs/guides/predicted-outputs",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/predicted-outputs.md"
+    },
+    {
+      "title": "Preserved reasoning",
+      "url": "https://developers.openai.com/api/docs/guides/preserved-reasoning",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/preserved-reasoning.md"
     },
     {
       "title": "Private Link",
