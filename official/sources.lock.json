@@ -26,10 +26,10 @@
       "catalogSha256": "6cdda45596788feb5948f8b915daaef08716b7004c2d7eb94024d80b24c30339"
     },
     "contentful-skills": {
-      "revision": "b39e7575ba4e6b86c772b9d95548268619946e93",
-      "fetchedAt": "2026-11-06T22:04:16.016Z",
+      "revision": "059b248dc36870d1bab989a40c0defa0d1ff453d",
+      "fetchedAt": "2026-11-07T22:02:46.052Z",
       "track": "default-branch",
-      "catalogSha256": "ec321657a67108ea220ececcb6cd17b06ac2f14c75d7dc9bf63b5a3548d457ce"
+      "catalogSha256": "0ed3c9a2bb85377f559774950caee67f61f4f1aa791b0b83e50569b6c2b44885"
     },
     "optimizely-sdk": {
       "revision": "8df53b9af159f2a44d9c88f5157fd769362bc666",
@@ -62,10 +62,10 @@
       "catalogSha256": "a23d1f31523754289f283a176ec0b904e64b1efb7ae5f7707776dca02cd749eb"
     },
     "react-docs": {
-      "revision": "2e6dca162985d438d7a834b339d89177cf0a92b9",
-      "fetchedAt": "2026-11-05T22:03:16.458Z",
+      "revision": "6fba260c020e4d99e4cf81b64911faf99cb84f1e",
+      "fetchedAt": "2026-11-07T22:03:03.390Z",
       "track": "default-branch",
-      "catalogSha256": "cb3b9f2f816bddd40ccd883f1d104d64960ffe412529a69549fec248cbcdd50b"
+      "catalogSha256": "85e91107447f4da81a9db543bfc7a738888cf744e74fbd98c30ee74cba96a7e7"
     },
     "tailwind-docs": {
       "revision": "7f92c2213315c195dae583d68752da4042da3ade",
@@ -302,10 +302,10 @@
       "catalogSha256": "fff679bea76b4b18acac5d93a0126779436ec8b92aa4db225d2a6d921aca11f7"
     },
     "agent-browser-skills": {
-      "revision": "f01a743a66c3616ee248cee6c71cef1dad3774f2",
-      "fetchedAt": "2026-11-06T22:05:40.138Z",
+      "revision": "370d41db67a198944bcee2c96cc454594e7d56c6",
+      "fetchedAt": "2026-11-07T22:03:46.486Z",
       "track": "default-branch",
-      "catalogSha256": "430552744d424e36c746b52323ce22e046dec94f5b9a277d95a7331657f64b06"
+      "catalogSha256": "00e8739d596656f0057be2c90b9f9129954c8b81099107c74f7726eddfccc2a3"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
@@ -332,10 +332,10 @@
       "catalogSha256": "dba8d08edee11a18842fa16a5ce9f503a0f00a294948e32475a84d55454b64b6"
     },
     "openai-agent-docs": {
-      "revision": "23653344c7825f36c34883e9c2d81eba57fb64b16095584334e1ba1ab99ad3d0",
-      "fetchedAt": "2026-11-06T22:05:44.916Z",
+      "revision": "6d99c65124d7390e288d593c53e4348256f5692a2dbb076a8cb6dce7070a8256",
+      "fetchedAt": "2026-11-07T22:03:49.958Z",
       "track": "rolling-url",
-      "catalogSha256": "7696c506d3c7da6ec68fa47dbbba2ab5f08e3e8c28c36f1cea7b33d844393404"
+      "catalogSha256": "5681e13e090755af3b80780cdfbc6f22efc94cc27b9d25642ad5f59970f383df"
     },
     "postgresql-18-docs": {
       "revision": "47a8f7958b6b19e6607b2b546a5f043d0afc84dbf0d1e4ccbad18362331c957d",
