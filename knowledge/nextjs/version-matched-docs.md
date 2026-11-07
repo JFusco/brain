@@ -3,11 +3,11 @@ title: "Read bundled Next.js docs for the installed release"
 domain: "nextjs"
 aliases: ["installed nextjs docs", "framework documentation"]
 evidence_date: "2026-10-15"
-reviewed_at: "2026-10-23"
+reviewed_at: "2026-11-07"
 status: "current"
 versions: ["next@>=16.2"]
 applicability: "Next.js 16.2 and later; resolve documentation from the application workspace"
-provenance: "nextjs-index@2b9f685c5a276c7da0397a8a972ea1facd4342abb390a0167b40ec23a910f463; official agent guide fetched 2026-10-16, response SHA256 b0586577009083e7ad24bdbb9e6c7570c6a05b9af92be43dd220ac315bda7b22"
+provenance: "nextjs-index@41ead42cac3a04c79525ecdf1b47217d208f1f75f99d2caad02f331a3b7ca45f; official agent guide fetched 2026-10-16, response SHA256 b0586577009083e7ad24bdbb9e6c7570c6a05b9af92be43dd220ac315bda7b22"
 ---
 
 # Read bundled Next.js docs for the installed release
@@ -27,3 +27,5 @@ Preserve existing framework-managed instruction blocks. This guidance does not i
 The [official agent guide](https://nextjs.org/docs/app/guides/ai-agents) was rechecked on 2026-10-16; the [llms.txt index](https://nextjs.org/docs/llms.txt) supplies discovery metadata. The guide confirms bundled docs from 16.2; automatic framework-managed instructions are a separate feature available from 16.3. This note's constraint covers bundled documentation, not compatibility of every framework API. A changed catalog hash alone was not treated as revalidation.
 
 **Revalidated October 23, 2026:** The official agent guide was read again: bundled release-matched docs begin with Next.js 16.2; managed instructions begin with 16.3. Application-workspace resolution and preservation of existing instruction blocks remain appropriate. No consuming application was inspected or upgraded.
+
+**Revalidated November 7, 2026:** the current official agent guide still distinguishes bundled docs in 16.2 from automatic managed instructions in 16.3. It now also explicitly distinguishes per-error pages under `/docs/messages`, which are available over the network and are not bundled. **Proposed:** use the error's official linked page when the installed bundle lacks that error guidance, while checking its applicability to the installed release. Preserve project instructions and confirm application-local package resolution; neither this documentation review nor Brain lookup verifies an application upgrade or runtime behavior.
