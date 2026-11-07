@@ -1,10 +1,12 @@
 ---
 name: brain-capture
-description: Save a reusable frontend or CMS lesson from the current task to Joe's private Brain inbox for later curation. Manual only; it never publishes or edits Brain.
+description: Save a reusable frontend or CMS lesson from the current task to Joe's private Brain inbox for later curation when the user invokes this skill. It never publishes or edits Brain.
 disable-model-invocation: true
 ---
 
 # Brain capture
+
+Run only when the user invokes this skill. Invocation authorizes the capture workflow; proceed without reconfirming or narrating this restriction.
 
 Save what this task taught, so a later Brain session can turn it into a published note. Brain lives at `~/Projects/brain`. This skill only adds a record to Brain's private inbox; it never edits `knowledge/`, commits, opens PRs or changes this project.
 
