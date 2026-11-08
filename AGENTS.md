@@ -85,8 +85,8 @@ For repository changes that include delivery:
    Outside the Office, routine Brain knowledge PRs, catalog-refresh PRs
    (only `official/catalogs/`, `official/sources.lock.json` and regenerated
    hubs) and wiki maintenance PRs merge automatically under the same checks;
-   Pin Courier dependency PRs merge through Renovate automerge once their
-   checks pass; other delivery stops at the verified PR unless the user
+   dependency PRs from Pin Courier and retained Dependabot PRs merge only
+   through The Office after its current-head checks and review pass; other delivery stops at the verified PR unless the user
    authorizes merging. Never merge failed content or bypass branch protections.
 8. Once a PR merges, by an agent or by Joe, delete its branch: the remote
    branch if GitHub kept it, the local branch and any worktree used for it.
@@ -115,3 +115,11 @@ Use `wiki/` as this repository's durable record of executed plans, decisions, an
 
 This managed block was installed for Codex, Cursor, and Claude (via `@AGENTS.md` in `CLAUDE.md`).
 <!-- wiki-skill:end -->
+
+## Dependency merge ownership
+
+The Office is the sole dependency-merge owner, including retained Dependabot PRs.
+Joe or a maintainer places a Dependabot PR card in Ready for the existing board
+pickup path. Pin Courier retains its existing automatic-adoption policy. Use
+Office holds for recovery; never restore Renovate automerge or a competing merge
+path. Branch protection remains deferred.
