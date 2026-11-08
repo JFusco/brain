@@ -69,17 +69,17 @@ Route build configuration, test runners, component workshops, linting, package m
   - [debug-optimize-lcp](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/0b37364dc0a88a804c6d73d3335e776adc7f33c4/skills/debug-optimize-lcp/SKILL.md) — reference only.
   - [memory-leak-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/0b37364dc0a88a804c6d73d3335e776adc7f33c4/skills/memory-leak-debugging/SKILL.md) — reference only.
   - [troubleshooting](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/0b37364dc0a88a804c6d73d3335e776adc7f33c4/skills/troubleshooting/SKILL.md) — reference only.
-- **agent-browser-skills** — 10 skills and 15 docs at a pinned commit; default-branch; revision `370d41db67a198944bcee2c96cc454594e7d56c6`; fetched 2026-11-07.
-  - [agent-browser](https://github.com/vercel-labs/agent-browser/blob/370d41db67a198944bcee2c96cc454594e7d56c6/skills/agent-browser/SKILL.md) — reference only.
-  - [agentcore](https://github.com/vercel-labs/agent-browser/blob/370d41db67a198944bcee2c96cc454594e7d56c6/skill-data/agentcore/SKILL.md) — reference only.
-  - [core](https://github.com/vercel-labs/agent-browser/blob/370d41db67a198944bcee2c96cc454594e7d56c6/skill-data/core/SKILL.md) — reference only.
-  - [derive-client](https://github.com/vercel-labs/agent-browser/blob/370d41db67a198944bcee2c96cc454594e7d56c6/skill-data/derive-client/SKILL.md) — reference only.
-  - [dogfood](https://github.com/vercel-labs/agent-browser/blob/370d41db67a198944bcee2c96cc454594e7d56c6/skill-data/dogfood/SKILL.md) — reference only.
-  - [electron](https://github.com/vercel-labs/agent-browser/blob/370d41db67a198944bcee2c96cc454594e7d56c6/skill-data/electron/SKILL.md) — reference only.
-  - [protected-vercel-deployments](https://github.com/vercel-labs/agent-browser/blob/370d41db67a198944bcee2c96cc454594e7d56c6/skill-data/protected-vercel-deployments/SKILL.md) — reference only.
-  - [slack](https://github.com/vercel-labs/agent-browser/blob/370d41db67a198944bcee2c96cc454594e7d56c6/skill-data/slack/SKILL.md) — reference only.
-  - [vercel-sandbox](https://github.com/vercel-labs/agent-browser/blob/370d41db67a198944bcee2c96cc454594e7d56c6/skill-data/vercel-sandbox/SKILL.md) — reference only.
-  - [webmcp-gen](https://github.com/vercel-labs/agent-browser/blob/370d41db67a198944bcee2c96cc454594e7d56c6/skill-data/webmcp-gen/SKILL.md) — reference only.
+- **agent-browser-skills** — 10 skills and 15 docs at a pinned commit; default-branch; revision `4b0e9f01fa8d214d39bbfe5391257640634fb9a0`; fetched 2026-11-08.
+  - [agent-browser](https://github.com/vercel-labs/agent-browser/blob/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skills/agent-browser/SKILL.md) — reference only.
+  - [agentcore](https://github.com/vercel-labs/agent-browser/blob/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skill-data/agentcore/SKILL.md) — reference only.
+  - [core](https://github.com/vercel-labs/agent-browser/blob/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skill-data/core/SKILL.md) — reference only.
+  - [derive-client](https://github.com/vercel-labs/agent-browser/blob/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skill-data/derive-client/SKILL.md) — reference only.
+  - [dogfood](https://github.com/vercel-labs/agent-browser/blob/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skill-data/dogfood/SKILL.md) — reference only.
+  - [electron](https://github.com/vercel-labs/agent-browser/blob/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skill-data/electron/SKILL.md) — reference only.
+  - [protected-vercel-deployments](https://github.com/vercel-labs/agent-browser/blob/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skill-data/protected-vercel-deployments/SKILL.md) — reference only.
+  - [slack](https://github.com/vercel-labs/agent-browser/blob/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skill-data/slack/SKILL.md) — reference only.
+  - [vercel-sandbox](https://github.com/vercel-labs/agent-browser/blob/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skill-data/vercel-sandbox/SKILL.md) — reference only.
+  - [webmcp-gen](https://github.com/vercel-labs/agent-browser/blob/4b0e9f01fa8d214d39bbfe5391257640634fb9a0/skill-data/webmcp-gen/SKILL.md) — reference only.
 - **agent-skills-docs** — link catalog of 8 pages; rolling-url; revision `c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798`; fetched 2026-10-25.
   - [Catalog source](https://agentskills.io/llms.txt); search it with `lookup --domain tooling`.
 - **mcp-docs** — link catalog of 57 pages; rolling-url; revision `612e3521a849a0831241be1bf6c5dc11d115c20f31add88337b469a8205746cd`; fetched 2026-10-26.

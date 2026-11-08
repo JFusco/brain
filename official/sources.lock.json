@@ -50,10 +50,10 @@
       "catalogSha256": "58bcad40c590ee217f16ca1c88fe94ae12c78cd5097150c295b57b388bcbf2f2"
     },
     "vercel-docs": {
-      "revision": "2827def812336caae329ff34f2d288185d9e2d99f65564f32d154aaea4cbe4e5",
-      "fetchedAt": "2026-11-05T22:03:12.068Z",
+      "revision": "cc8995cda9b46dfd44b2cec8261e32d904abf386658e2c973f501023844033ec",
+      "fetchedAt": "2026-11-08T22:04:55.992Z",
       "track": "rolling-url",
-      "catalogSha256": "f0d12930bac8839af30567889220d826db594f608e244483695defe85001f5b8"
+      "catalogSha256": "63753c537cf4483299c939fc90e09b939834bcd99f11a72f011a4984cced9c46"
     },
     "contentstack-docs": {
       "revision": "1bbcba6a610fa0f5d9e5da1016725d7462d0a92c09ef754a2747f506db6abcb9",
@@ -62,10 +62,10 @@
       "catalogSha256": "a23d1f31523754289f283a176ec0b904e64b1efb7ae5f7707776dca02cd749eb"
     },
     "react-docs": {
-      "revision": "6fba260c020e4d99e4cf81b64911faf99cb84f1e",
-      "fetchedAt": "2026-11-07T22:03:03.390Z",
+      "revision": "f5fa1e82edacdf8c6bfc4dfd9cf52029a96d5fd3",
+      "fetchedAt": "2026-11-08T22:05:08.092Z",
       "track": "default-branch",
-      "catalogSha256": "85e91107447f4da81a9db543bfc7a738888cf744e74fbd98c30ee74cba96a7e7"
+      "catalogSha256": "2b76ec0bc257fc9930be2eb1bae8e625f20daa1a62904bce9dcc7cabebc1cb39"
     },
     "tailwind-docs": {
       "revision": "7f92c2213315c195dae583d68752da4042da3ade",
@@ -302,10 +302,10 @@
       "catalogSha256": "fff679bea76b4b18acac5d93a0126779436ec8b92aa4db225d2a6d921aca11f7"
     },
     "agent-browser-skills": {
-      "revision": "370d41db67a198944bcee2c96cc454594e7d56c6",
-      "fetchedAt": "2026-11-07T22:03:46.486Z",
+      "revision": "4b0e9f01fa8d214d39bbfe5391257640634fb9a0",
+      "fetchedAt": "2026-11-08T22:06:48.347Z",
       "track": "default-branch",
-      "catalogSha256": "00e8739d596656f0057be2c90b9f9129954c8b81099107c74f7726eddfccc2a3"
+      "catalogSha256": "610ecee09b7f405399c67e483bd478ec45a646e94cbd40f400052e538661cf7f"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
