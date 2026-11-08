@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "2827def812336caae329ff34f2d288185d9e2d99f65564f32d154aaea4cbe4e5",
+  "revision": "cc8995cda9b46dfd44b2cec8261e32d904abf386658e2c973f501023844033ec",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -3207,7 +3207,7 @@
       "fetchUrl": "https://vercel.com/docs/cli/switch.md"
     },
     {
-      "title": "vercel target",
+      "title": "vercel environments",
       "url": "https://vercel.com/docs/cli/target",
       "fetchUrl": "https://vercel.com/docs/cli/target.md"
     },
