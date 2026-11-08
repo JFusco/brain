@@ -23,7 +23,7 @@ test('the new gates never run hosted reference maintenance', () => {
   }
 });
 
-test('commitlint skips its lint steps only for Dependabot and the PR body for Renovate', () => {
+test('commitlint retains Dependabot policy and authenticates the Pin Courier body exception', () => {
   const steps = workflow('commitlint.yml')
     .split(/\n\s+- name: /)
     .slice(1);
@@ -36,6 +36,18 @@ test('commitlint skips its lint steps only for Dependabot and the PR body for Re
     'Validate PR body',
     'Lint PR commit range',
   ]);
-  assert.deepEqual(skippedFor('renovate/'), ['Validate PR body']);
+  assert.deepEqual(skippedFor('renovate/'), []);
+  const guarded = steps.filter(step =>
+    step.includes("steps.pin_courier.outputs.trusted != 'true'"),
+  );
+  assert.deepEqual(
+    guarded.map(step => step.split('\n')[0]),
+    ['Validate PR body'],
+  );
+  assert.ok(
+    steps.findIndex(step => step.startsWith('Identify trusted Pin Courier PR')) <
+      steps.findIndex(step => step.startsWith('Validate PR body')),
+  );
+  assert.match(workflow('commitlint.yml'), /ready_for_review/);
   assert.doesNotMatch(workflow('commitlint.yml'), /^\s{4}if:/m);
 });

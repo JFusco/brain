@@ -1,8 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>JFusco/renovate-config"],
-  "automerge": true,
-  "automergeType": "pr",
-  "automergeStrategy": "merge-commit",
-  "platformAutomerge": false
+  "automerge": false
 }

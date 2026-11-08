@@ -32,3 +32,7 @@ pin or expands routine catalog PR scope. Upgrading is an ordinary code change.
 
 Implementation and local evidence are recorded in the
 [integration journal](../journal/2026-10-21-cms-field-vocabulary.md).
+
+## Dependency maintenance decision, 2026-11-08
+
+Disable the competing Renovate merge path; The Office alone merges dependency updates, including retained Dependabot PRs. Authenticate numeric Pin Courier metadata exceptions and retain conventional message checks. See the [implementation journal](../journal/2026-11-08-dependency-maintenance-policy.md) for the verification boundary.

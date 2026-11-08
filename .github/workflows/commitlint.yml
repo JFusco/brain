@@ -3,7 +3,7 @@ name: Commit message lint
 on:
   pull_request:
     branches: [main]
-    types: [opened, synchronize, reopened, edited]
+    types: [opened, synchronize, reopened, edited, ready_for_review]
 
 permissions:
   contents: read
@@ -35,21 +35,27 @@ jobs:
         run: corepack enable && corepack install
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Identify trusted Pin Courier PR
+        id: pin_courier
+        run: node scripts/is-pin-courier-pr.cjs
+
       # Dependabot writes its own title, body and commits; its PRs skip
       # these three lint steps and pass on the job's success (issue 302).
       - name: Lint PR title
         if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') }}
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
+          PIN_COURIER_TRUSTED: ${{ steps.pin_courier.outputs.trusted }}
         run: printf '%s\n' "$PR_TITLE" | pnpm run --silent lint:commit --verbose
       - name: Validate PR body
-        if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') && !startsWith(github.event.pull_request.head.ref, 'renovate/') }}
+        if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') && steps.pin_courier.outputs.trusted != 'true' }}
         env:
           PR_BODY: ${{ github.event.pull_request.body }}
         run: pnpm run --silent lint:pr
       - name: Lint PR commit range
         if: ${{ !startsWith(github.event.pull_request.head.ref, 'dependabot/') }}
         env:
+          PIN_COURIER_TRUSTED: ${{ steps.pin_courier.outputs.trusted }}
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: pnpm run --silent lint:commit --from "$BASE_SHA" --to "$HEAD_SHA" --verbose
