@@ -1,5 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>JFusco/renovate-config"],
-  "automerge": false
+  "extends": ["github>JFusco/renovate-config:standard"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["* * * * 1"]
+  }
 }
