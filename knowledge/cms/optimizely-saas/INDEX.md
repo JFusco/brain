@@ -11,6 +11,7 @@ aliases: ["optimizely-saas"]
 - [Choose Optimizely media destination and placement text](media-destination-and-placement.md)
 - [Separate CMP upload transfer from asset creation](cmp-upload-and-reconciliation.md)
 - [Share repeated CMS content by editorial ownership](shared-content-editorial-ownership.md)
+- [Use Optimizely SDK component and validation contracts](sdk-component-contracts.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

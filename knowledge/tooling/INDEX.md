@@ -29,6 +29,7 @@ Route build configuration, test runners, component workshops, linting, package m
 - [Coordinate agent concurrency with durable ownership](agent-workflow-concurrency.md)
 - [Define a structured Opus 5.5 judgment contract](opus-structured-judgment.md)
 - [Discover and capture hidden UI states with guards](guarded-ui-state-capture.md)
+- [Keep CMS rendering contracts and generator choices distinct](cms-rendering-contract-provenance.md)
 - [Keep a Graphify code map scoped and reproducible](graphify-code-map.md)
 - [Keep workflow accounting separate from sampled traces](workflow-accounting-evidence.md)
 - [Measure prompt-cache reuse across headless stages](claude-prompt-cache-lineage.md)

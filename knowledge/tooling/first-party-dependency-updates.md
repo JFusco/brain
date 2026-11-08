@@ -30,3 +30,11 @@ Use when separately published team packages leave consuming repositories with ol
 ## Evidence and limits
 
 Supporting mechanisms were checked in official documentation. The selection, dispatch topology, allowlist composition and version-copy workflow remain proposed practices. No bot was installed, package published, dispatch sent or consuming repository changed. Historical drift counts and reported integration success are not reproduced evidence. An old community report about pnpm support cannot override the current official support table; actual lockfile handling still needs the adopting repository's verification.
+
+## Opt a repository into an additional package
+
+**Documented, checked November 8, 2026:** Renovate evaluates every matching [package rule](https://docs.renovatebot.com/configuration-options/#packagerules); later values can override earlier values for the same option. [`matchFileNames`](https://docs.renovatebot.com/configuration-options/#packagerulesmatchfilenames) checks package and lockfile paths. A root `package.json` match differs from `**/package.json`.
+
+**Proposed for a deny-by-default shared preset:** when repository policy permits an exception, add a local rule with the exact package name, intended manifest path and `enabled: true`. Keep the shared first-party allowlist unchanged. Confirm the final merged configuration and use a read-only lookup dry run before relying on the override; a later rule or disabled manager can still prevent the intended result. Preserve exact pins where required and test generated artifacts affected by that dependency.
+
+Updates still depend on runner execution and configured scheduling. A first-party publisher's dispatch does not establish a third-party notification path or immediate detection. The captured preset behavior and proposed opt-in were not reproduced. This guidance authorizes no bot activation, dispatch, security-update suppression or alternate merge path; the consuming repository's merge owner and gates remain authoritative.
