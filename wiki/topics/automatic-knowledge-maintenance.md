@@ -314,3 +314,7 @@ The [durability and workflow journal](../journal/2026-11-06-durability-and-workf
 ## November 7 asset naming and accounting
 
 The [asset naming and accounting journal](../journal/2026-11-07-asset-naming-and-accounting.md) records product-specific filename preflight, identity-supported CMP reconciliation, Sitecore media-name pilots, explicit timing denominators, accounting cost bases and honest vendor-operation telemetry. Documented mechanisms support bounded proposals; no upload, benchmark, billing reconciliation or implementation success is inferred. One Next.js note is source-revalidated while other stale signals remain. Private claim accounting, fresh separate content review and successful nightly completion continue to govern capture acceptance.
+
+## November 8 CMS contracts and bot coordination
+
+The [content journal](../journal/2026-11-08-cms-contracts-and-bot-coordination.md) records schema-to-component guidance, preview and browser-story boundaries, vocabulary provenance and dependency-bot coordination. Official evidence narrows blanket cache and validation claims. Proposed integrations and historical reports retain their limits; repository merge ownership remains authoritative. Private individual capture accounting and fresh exact-head content review precede final completion and acceptance.
