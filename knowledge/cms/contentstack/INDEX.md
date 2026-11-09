@@ -9,6 +9,7 @@ aliases: ["contentstack"]
 
 <!-- brain:curated:start -->
 - [Check Contentstack kickstart assumptions before reuse](kickstart-skill-applicability.md)
+- [Confirm Launch allowance scope before consolidating sites](launch-capacity-scope.md)
 - [Derive Contentstack delivery types from the actual schema](schema-derived-delivery-types.md)
 - [Generate editor guidance from reviewed field definitions](editor-guidance-from-field-definitions.md)
 - [Keep Contentstack import state with native concurrency](asset-import-state.md)

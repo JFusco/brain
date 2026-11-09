@@ -8,6 +8,7 @@ aliases: ["optimizely-saas"]
 ## Curated learnings
 
 <!-- brain:curated:start -->
+- [Check Graph client compatibility and shared contracts](graph-contract-compatibility.md)
 - [Choose Optimizely media destination and placement text](media-destination-and-placement.md)
 - [Separate CMP upload transfer from asset creation](cmp-upload-and-reconciliation.md)
 - [Share repeated CMS content by editorial ownership](shared-content-editorial-ownership.md)
