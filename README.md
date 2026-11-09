@@ -320,6 +320,25 @@ LESSON
 
 Each lesson must fit `capture.candidateBytes` (16 KiB). An explicit `--domain` must be one of the configured domains; without it, keywords pick one. Identical captures are suppressed. Every capture is secret-scanned and client terms are redacted: `pending` means saved to the private inbox, not published, and `quarantined` means the scanner found restricted material, which stays private and unread. Turning captures into notes happens later in a Brain session, through an ordinary knowledge PR.
 
+Automation can supply a stable UUID and an explicit domain:
+
+```sh
+node scripts/brain.mjs capture --stdin --domain tooling --request-id UUID
+node scripts/brain.mjs capture receipt --request-id UUID
+```
+
+A request binds the exact UTF-8 input bytes and domain. Reusing it with different
+bytes or a different domain fails. Replaying the same request returns its original
+capture receipt even after a policy or disposition change. The read-only receipt
+lookup returns `found: false` when absent; it never scans stdin or reads a candidate
+body. Existing disposition metadata is returned separately from the original receipt.
+
+A receipt and its candidate index entry are committed together in private storage.
+An interrupted caller should reconcile that receipt before considering another
+submission. An absent receipt after an uncertain external dispatch does not prove
+that dispatch never ran. Request IDs and source details stay private. This contract
+does not publish a note or change the nightly curation process.
+
 The skill never reads chat histories, auth files or transcripts, and never edits Brain's knowledge, commits or changes the project. Nothing is installed into other repositories.
 
 ## Curation and publication
