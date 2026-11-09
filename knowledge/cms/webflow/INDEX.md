@@ -88,8 +88,8 @@ No curated notes yet.
   - [Catalog source](https://developers.webflow.com/sitemap.xml); search it with `lookup --domain cms/webflow`.
 - **webflow-university-resources** — link catalog of 10 pages; rolling-url; revision `4a1a739c088dd682318c1747a830c2f84102a2e44e43c40c0a825748d5a5f992`; fetched 2026-11-01.
   - [Catalog source](https://university.webflow.com/sitemap.xml); search it with `lookup --domain cms/webflow`.
-- **webflow-mcp-server** — 0 skills and 1 docs at a pinned commit; default-branch; revision `124b5caa38baf46ab51edea9220076c9785ceaf7`; fetched 2026-11-01.
-  - [README.md](https://github.com/webflow/mcp-server/blob/124b5caa38baf46ab51edea9220076c9785ceaf7/README.md).
+- **webflow-mcp-server** — 0 skills and 1 docs at a pinned commit; default-branch; revision `a03e2a205d0d0aa63f965262dabe7e4014cc57ec`; fetched 2026-11-09.
+  - [README.md](https://github.com/webflow/mcp-server/blob/a03e2a205d0d0aa63f965262dabe7e4014cc57ec/README.md).
 - **webflow-skills** — 33 skills and 27 docs at a pinned commit; default-branch; revision `fd07213dfaac2ff33465ff367685711783261287`; fetched 2026-11-01.
   - [accessibility-audit](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/accessibility-audit/SKILL.md) — reference only.
   - [asset-audit](https://github.com/webflow/webflow-skills/blob/fd07213dfaac2ff33465ff367685711783261287/plugins/webflow-skills/skills/asset-audit/SKILL.md) — reference only.

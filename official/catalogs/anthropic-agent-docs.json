@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "anthropic-agent-docs",
-  "revision": "d5a6f4f8ba427b778bfb000c15d3f2fc17c46c2aef3ec33f455c36cffac532cd",
+  "revision": "f61cca131a4e1b60bb114818a4dd6f38d8492e1f09a552d55c3eea5fc70087ad",
   "origin": "https://platform.claude.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -407,6 +407,11 @@
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1.md"
     },
     {
+      "title": "Prompting Claude Fable 5.2",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2.md"
+    },
+    {
       "title": "Prompting Claude Haiku 5.5",
       "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5",
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-haiku-5-5.md"
@@ -512,19 +517,24 @@
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/working-with-messages.md"
     },
     {
-      "title": "Migration guide",
-      "url": "https://platform.claude.com/docs/en/models/fable-5-1/migration-guide",
-      "fetchUrl": "https://platform.claude.com/docs/en/models/fable-5-1/migration-guide.md"
-    },
-    {
       "title": "Claude Fable 5.1",
       "url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
       "fetchUrl": "https://platform.claude.com/docs/en/models/fable-5-1/overview.md"
     },
     {
+      "title": "Migration guide",
+      "url": "https://platform.claude.com/docs/en/models/fable-5-2/migration-guide",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/fable-5-2/migration-guide.md"
+    },
+    {
+      "title": "Claude Fable 5.2",
+      "url": "https://platform.claude.com/docs/en/models/fable-5-2/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/fable-5-2/overview.md"
+    },
+    {
       "title": "What's new",
-      "url": "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1",
-      "fetchUrl": "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1.md"
+      "url": "https://platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/fable-5-2/whats-new-fable-5-2.md"
     },
     {
       "title": "Claude Fable 5",
@@ -555,6 +565,11 @@
       "title": "Claude Mythos 5.1",
       "url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
       "fetchUrl": "https://platform.claude.com/docs/en/models/mythos-5-1/overview.md"
+    },
+    {
+      "title": "Claude Mythos 5.2",
+      "url": "https://platform.claude.com/docs/en/models/mythos-5-2/overview",
+      "fetchUrl": "https://platform.claude.com/docs/en/models/mythos-5-2/overview.md"
     },
     {
       "title": "Claude Mythos 5",
