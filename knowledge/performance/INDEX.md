@@ -27,6 +27,7 @@ Route browser loading, rendering, Core Web Vitals, profiling, budgets, caching a
 <!-- brain:curated:start -->
 - [Attribute batch time before optimizing local history scans](batch-time-and-history-indexes.md)
 - [Choose image loading by visibility](image-loading-playbook.md)
+- [Measure CMS rendering cost before changing delivery](cms-rendering-cost.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

@@ -37,6 +37,7 @@ Route build configuration, test runners, component workshops, linting, package m
 - [Preserve granularity when observing vendor operations](vendor-operation-observability.md)
 - [Profile Node test files and replace avoidable waits](node-test-performance.md)
 - [Prune tests by the behavior they protect](behavior-focused-test-pruning.md)
+- [Separate connector identity from navigation changes](connector-and-navigation-troubleshooting.md)
 - [Separate file moves from refactors and check merges](rename-preserving-file-moves.md)
 - [Separate review transport and context capacity failures](review-capacity-recovery.md)
 - [Tune CI caches without weakening required gates](ci-cache-and-gate-contracts.md)
