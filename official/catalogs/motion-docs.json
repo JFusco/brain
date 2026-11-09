@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "motion-docs",
-  "revision": "4d9174a4656d8e40b29ace0f4f66d731d3a1844848030092932277a350337c6a",
+  "revision": "1dcdcca6006fddbdda0de75659365078bc5e64257cabebb033ed3140c826577a",
   "origin": "https://motion.dev/llms.txt",
   "skills": [],
   "docs": [],
@@ -185,6 +185,11 @@
       "title": "Performance Doctor",
       "url": "https://motion.dev/docs/performance-doctor",
       "fetchUrl": "https://motion.dev/docs/performance-doctor.md"
+    },
+    {
+      "title": "pinch",
+      "url": "https://motion.dev/docs/pinch",
+      "fetchUrl": "https://motion.dev/docs/pinch.md"
     },
     {
       "title": "pipe",

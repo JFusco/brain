@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "openai-agent-docs",
-  "revision": "6d99c65124d7390e288d593c53e4348256f5692a2dbb076a8cb6dce7070a8256",
+  "revision": "2f65a1c528d6dccb8a7c7d04fe209add45b4bb40488d697f1288ce0fab62f1ed",
   "origin": "https://developers.openai.com/api/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -657,7 +657,7 @@
       "fetchUrl": "https://developers.openai.com/api/docs/guides/predicted-outputs.md"
     },
     {
-      "title": "Preserved reasoning",
+      "title": "Keep the prefix unchanged",
       "url": "https://developers.openai.com/api/docs/guides/preserved-reasoning",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/preserved-reasoning.md"
     },
