@@ -5,6 +5,18 @@ aliases: ["file stamps", "paraphrase review", "inbox compare"]
 
 # Incremental collection and duplicate lesson review
 
+## Current capture reconciliation
+
+Automated callers may bind a UUID to exact UTF-8 capture bytes and an explicit
+domain. Capture receipts and candidate entries share one atomic private index
+write. `capture receipt --request-id UUID` reads metadata only, including a current
+disposition alongside the original receipt. A replay survives policy changes;
+conflicting bytes or domains fail. A missing receipt is not proof that an uncertain
+caller never dispatched. This adds no source harvester or publication scheduler to
+Brain. See the [implementation record](../journal/2026-11-09-capture-receipts.md).
+
+## Historical collection mechanics
+
 Historical: [simplification phase 2](../journal/2026-10-18-simplification-phase-2.md) removed project harvesting with its incremental stamps, and `inbox compare` with its duplicate-review records. Lessons now arrive through explicit capture. Overlap review is a curator reading the relevant hubs and notes before editing one in an ordinary knowledge PR. This page records how the removed mechanism worked.
 
 Collection enumerates eligible project files but opens a source body only when its saved device/inode, size, nanosecond modification/change times, mode, privacy policy, or collection version differs. Reads verify identity before and after. A metadata-only change with unchanged bytes refreshes the private stamp without rescanning or recreating candidates. Changed content still passes the existing scanner, source classification, scrubbing, chunk hashing and provenance tracking. Accepted/rejected dispositions and original evidence remain intact. This is a trusted local optimization, not protection from privileged filesystem or private-state tampering. `harvest --rehash` provides an explicit content audit.

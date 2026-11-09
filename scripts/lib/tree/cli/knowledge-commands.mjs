@@ -9,7 +9,7 @@ import {
   vocabularyProfiles,
   vocabularyStatus,
 } from '../../branch/packages/vocabulary.mjs';
-import { capture } from '../capture/capture.mjs';
+import { capture, captureReceipt } from '../capture/capture.mjs';
 import { staleGuidance } from '../curation/stale.mjs';
 import * as inbox from '../inbox/commands.mjs';
 import { lookup } from '../lookup/lookup.mjs';
@@ -85,13 +85,26 @@ export const knowledgeCommands = {
     },
   },
   capture: {
-    flags: ['stdin', 'domain'],
-    usage: [`${B} capture --stdin [--domain tailwind]`],
-    mutating: () => true,
-    run: async flags => {
+    flags: ['stdin', 'domain', 'request-id'],
+    usage: [
+      `${B} capture --stdin [--domain tailwind]`,
+      `${B} capture --stdin --request-id <uuid> --domain <domain>`,
+      `${B} capture receipt --request-id <uuid>`,
+    ],
+    mutating: subcommand => subcommand !== 'receipt',
+    run: async (flags, rest, subcommand) => {
+      if (subcommand === 'receipt') {
+        if (flags.stdin || flags.domain || rest.length)
+          throw new Error('Use capture receipt --request-id <uuid>');
+        return captureReceipt(flags['request-id']);
+      }
+      if (subcommand || rest.length) throw new Error('Unknown capture subcommand');
       if (!flags.stdin) throw new Error('Use capture --stdin');
-      const result = capture(fs.readFileSync(0, 'utf8'), { domain: flags.domain });
-      await (await activity()).recordCaptureActivity(result);
+      const result = capture(fs.readFileSync(0), {
+        domain: flags.domain,
+        requestId: flags['request-id'],
+      });
+      if (!result.replayed) await (await activity()).recordCaptureActivity(result);
       return result;
     },
   },
