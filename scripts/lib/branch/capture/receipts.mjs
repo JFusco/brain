@@ -13,13 +13,25 @@ export function requestBinding(bytes, requestId, domain) {
   return { requestId: requestId.toLowerCase(), inputSha256: sha(bytes), domain };
 }
 
-export function receiptFrom(index, requestId) {
+export function receiptFrom(index, requestId, cursor = 0) {
+  const offset = Number(cursor);
+  if (!Number.isSafeInteger(offset) || offset < 0) throw new Error('Invalid receipt cursor');
   const receipt = index.requests?.[requestId];
-  if (!receipt) return { requestId, found: false };
+  if (!receipt) return { version: 1, requestId, found: false };
   const candidate = index.candidates[receipt.id];
   if (!candidate) throw new Error('Capture receipt candidate is missing');
+  const requests = Object.values(index.requests || {})
+    .filter(r => r.id === receipt.id)
+    .map(r => r.requestId)
+    .sort();
+  if (offset > requests.length) throw new Error('Receipt cursor exceeds candidate requests');
   return {
     ...receipt,
+    version: 1,
+    publications: candidate.disposition?.publications || [],
+    lineage: candidate.disposition?.publications ? 'mapped' : 'unknown',
+    requestIds: requests.slice(offset, offset + 100),
+    nextCursor: offset + 100 < requests.length ? String(offset + 100) : null,
     found: true,
     currentStatus: candidate.status,
     disposition: candidate.disposition || null,

@@ -81,7 +81,7 @@ test('receipt lookup is non-mutating, unknown is explicit, invalid bytes and IDs
     requestId = randomUUID();
   assert.equal(plan(['capture', 'receipt'], { 'request-id': requestId }).mutating, false);
   assert.equal(plan(['capture'], { stdin: true, 'request-id': requestId }).mutating, true);
-  assert.deepEqual(f.captureReceipt(requestId), { requestId, found: false });
+  assert.deepEqual(f.captureReceipt(requestId), { version: 1, requestId, found: false });
   assert.equal(fs.existsSync(path.join(f.root, '.state')), false);
   const malformed = Buffer.from([0x55, 0xff, 0x0a]);
   assert.throws(() => f.capture(malformed, { requestId, domain: 'tooling' }));

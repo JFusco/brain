@@ -85,19 +85,20 @@ export const knowledgeCommands = {
     },
   },
   capture: {
-    flags: ['stdin', 'domain', 'request-id'],
+    flags: ['stdin', 'domain', 'request-id', 'cursor'],
     usage: [
       `${B} capture --stdin [--domain tailwind]`,
       `${B} capture --stdin --request-id <uuid> --domain <domain>`,
-      `${B} capture receipt --request-id <uuid>`,
+      `${B} capture receipt --request-id <uuid> [--cursor <next-cursor>]`,
     ],
     mutating: subcommand => subcommand !== 'receipt',
     run: async (flags, rest, subcommand) => {
       if (subcommand === 'receipt') {
         if (flags.stdin || flags.domain || rest.length)
           throw new Error('Use capture receipt --request-id <uuid>');
-        return captureReceipt(flags['request-id']);
+        return captureReceipt(flags['request-id'], flags.cursor);
       }
+      if (flags.cursor) throw new Error('Cursor is only supported for capture receipt');
       if (subcommand || rest.length) throw new Error('Unknown capture subcommand');
       if (!flags.stdin) throw new Error('Use capture --stdin');
       const result = capture(fs.readFileSync(0), {
@@ -109,13 +110,13 @@ export const knowledgeCommands = {
     },
   },
   inbox: {
-    flags: ['domain', 'all', 'backlog', 'as', 'pr'],
+    flags: ['domain', 'all', 'backlog', 'as', 'pr', 'publications'],
     usage: [
       `${B} inbox list [--domain nextjs] [--all] [--backlog]`,
       `${B} inbox show <candidate-id>`,
       `${B} inbox rescan [<candidate-id...>]`,
       `${B} inbox resolve <candidate-id...> --as rejected|superseded`,
-      `${B} inbox resolve <candidate-id...> --as accepted --pr <merged-number>`,
+      `${B} inbox resolve <candidate-id...> --as accepted --pr <merged-number> --publications <candidate-to-notes-json>`,
     ],
     mutating: subcommand => ['resolve', 'rescan'].includes(subcommand),
     subcommands: {
@@ -125,7 +126,7 @@ export const knowledgeCommands = {
       rescan: (flags, rest) => inbox.rescan(rest),
       resolve: (flags, rest) => {
         if (!rest.length) throw new Error('Candidate IDs are required');
-        return inbox.resolve(rest, flags.as, { pr: flags.pr });
+        return inbox.resolve(rest, flags.as, { pr: flags.pr, publications: flags.publications });
       },
     },
   },

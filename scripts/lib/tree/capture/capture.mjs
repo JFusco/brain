@@ -18,10 +18,10 @@ import {
 const readIndex = () =>
   readJSON(at('.state/harvest.json'), { schemaVersion: 1, sources: {}, candidates: {} });
 
-export function captureReceipt(requestId) {
+export function captureReceipt(requestId, cursor) {
   if (requestId === undefined) throw new Error('Capture receipt requires --request-id');
   const binding = requestBinding(Buffer.alloc(0), requestId, 'receipt');
-  return receiptFrom(readIndex(), binding.requestId);
+  return receiptFrom(readIndex(), binding.requestId, cursor);
 }
 
 export function capture(input, { domain: requestedDomain, requestId } = {}) {
