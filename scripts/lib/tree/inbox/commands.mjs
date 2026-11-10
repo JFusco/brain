@@ -1,3 +1,4 @@
+import { publicationMappings } from '../../branch/capture/publications.mjs';
 import fs from 'node:fs';
 import { config } from '../../branch/platform/config.mjs';
 import { writeJSON } from '../../leaf/fs-safe.mjs';
@@ -94,10 +95,11 @@ export function rescan(ids = []) {
   }
   return result;
 }
-export async function resolve(ids, as, { pr } = {}) {
+export async function resolve(ids, as, { pr, publications } = {}) {
   if (!['accepted', 'rejected', 'superseded'].includes(as))
     throw new Error('Resolve requires --as accepted|rejected|superseded');
   if (as === 'accepted' && !pr) throw new Error('Acceptance requires --pr <merged-number>');
+  if (as !== 'accepted' && publications) throw new Error('Only acceptance maps published notes');
   if (as !== 'accepted' && pr) throw new Error('Only acceptance cites a PR');
   const state = index();
   for (const id of ids) {
@@ -108,11 +110,12 @@ export async function resolve(ids, as, { pr } = {}) {
   }
   // Acceptance records the merged knowledge PR that used the candidate.
   const merged = as === 'accepted' ? await mergedBrainPR(pr) : null;
+  const mapped = merged ? publicationMappings(ids, publications, merged.merge_commit_sha, (await import('../../branch/office/published-read.mjs')).publishedRead) : {};
   for (const id of ids)
     state.candidates[id].disposition = {
       as,
       at: now(),
-      ...(merged ? { pr: Number(pr), mergeCommit: merged.merge_commit_sha } : {}),
+      ...(merged ? { pr: Number(pr), mergeCommit: merged.merge_commit_sha, publications: mapped[id] } : {}),
     };
   writeJSON(at('.state/harvest.json'), state, 0o600);
   refreshSummary(state);

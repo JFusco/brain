@@ -1,10 +1,16 @@
+import { officeCommands } from './office-commands.mjs';
 import { knowledgeCommands } from './knowledge-commands.mjs';
 import { maintenanceCommands } from './maintenance-commands.mjs';
 import { visualCommands } from './visual-commands.mjs';
 
 // The whole CLI surface, in help order. Each command declares its options, usage lines,
 // whether it mutates private state (and so takes the lock), and its handlers.
-export const COMMANDS = { ...visualCommands, ...knowledgeCommands, ...maintenanceCommands };
+export const COMMANDS = {
+  ...visualCommands,
+  ...knowledgeCommands,
+  ...maintenanceCommands,
+  ...officeCommands,
+};
 
 export const HELP = `Personal brain — explicit, local knowledge and official link catalogs
 

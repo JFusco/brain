@@ -34,6 +34,10 @@ const PUBLIC = [
   'official',
   'skills',
   'check',
+  'scan',
+  'snapshot',
+  'search',
+  'read',
 ];
 
 test('the command table is exactly the public CLI surface', () => {
@@ -58,6 +62,8 @@ test('the README documents every command', () => {
 
 test('commands that mutate private state take the lock; read-only ones do not', () => {
   const locks = (argv, flags = {}) => plan(argv, flags).mutating;
+  for (const command of ['scan', 'snapshot', 'search', 'read'])
+    assert.equal(locks([command]), false);
   assert.equal(locks(['lookup'], { query: 'x' }), false);
   assert.equal(locks(['lookup'], { query: 'x', fetch: true }), true);
   assert.equal(locks(['curation', 'stale']), true);

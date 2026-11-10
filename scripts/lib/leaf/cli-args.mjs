@@ -2,6 +2,7 @@ const BOOLEAN_FLAGS = new Set([
   'yes',
   'staged',
   'stdin',
+  'secrets-only',
   'help',
   'all',
   'backlog',
