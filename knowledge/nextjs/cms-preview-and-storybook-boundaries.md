@@ -6,7 +6,7 @@ aliases: ["CMS component props", "preview caching", "Storybook RSC"]
 evidence_date: "2026-11-08"
 reviewed_at: "2026-11-08"
 applicability: "Next.js App Router 16 documentation observed at 16.4.5 and Storybook 10.6 Next.js Vite documentation; check installed releases and template caching mode"
-provenance: "nextjs-index@41ead42cac3a04c79525ecdf1b47217d208f1f75f99d2caad02f331a3b7ca45f; storybook-docs@c735625fe57a09cd61ddc13f2b80d4d8f548b9e8bacd52ca415aed3e1fd2ee42; official pages read 2026-11-08; proposed integration procedure"
+provenance: "nextjs-index@41ead42cac3a04c79525ecdf1b47217d208f1f75f99d2caad02f331a3b7ca45f; storybook-docs@c735625fe57a09cd61ddc13f2b80d4d8f548b9e8bacd52ca415aed3e1fd2ee42; official pages read 2026-11-08; browser API section checked 2026-11-09 against nextjs-index@6e7e5716b1934edeea31315970a35c88860f39523906f480eecc0ec4f0709976; proposed integration procedure"
 status: "current"
 versions: []
 ---
@@ -24,6 +24,14 @@ Use when the same CMS presentation components must render in App Router pages an
 3. **Proposed:** select authorized preview reads per request and prevent draft results from entering shared published-content caches. Preview query parameters alone are neither authorization nor proof of a framework cache bypass. **Documented nuance:** current [`draftMode()`](https://nextjs.org/docs/app/api-reference/functions/draft-mode) is asynchronous; when enabled, caching-directive scopes execute again without saving results. Thus “a draft read can never appear inside a caching directive” is too broad. Check actual Draft Mode, vendor preview and custom-cache behavior separately.
 4. **Documented:** [Storybook's Next.js Vite integration](https://storybook.js.org/docs/get-started/frameworks/nextjs-vite) marks `experimentalRSC` experimental. It adds Suspense for asynchronous stories but does not make Node-only dependencies browser-compatible. **Proposed:** use an explicit browser mock or Vite alias at the server dependency boundary.
 5. **Documented:** [module automocking](https://storybook.js.org/docs/writing-stories/mocking-data-and-modules/mocking-modules) still evaluates the original module and its dependencies. A mock file prevents that evaluation. **Proposed:** provide only the exports a story needs and verify the mock contract; an empty stub that hides required behavior is not rendering evidence.
+
+## Make browser API boundaries explicit
+
+**Documented November 9, 2026:** the [environment-variable guide](https://nextjs.org/docs/app/guides/environment-variables) explains that public-prefixed values can be inlined into browser JavaScript at build time. An environment variable is not by itself a confidentiality boundary; server values can also be exposed by application responses or props.
+
+**Proposed:** inventory which calls originate in the browser, what credentials they use, their request budget, and how authentication expiry, refresh failures, timeouts and errors reach the UI. Keep confidential credentials server-side and verify the actual browser bundle/responses. Select proxy and token-refresh behavior from the real API/authentication contract; do not add a universal middle layer or infer an identity-provider configuration from generic concerns.
+
+Where the API and interaction allow it, debounce predictive search or batch compatible requests, then measure request counts and verify cancellation, stale responses and visible failure behavior. This is an unexercised integration recommendation; it establishes no rate limit or working refresh implementation. Earlier preview and Storybook sections retain their separate evidence dates and version context.
 
 ## Evidence and limits
 

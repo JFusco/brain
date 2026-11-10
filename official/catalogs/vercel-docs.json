@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "cc8995cda9b46dfd44b2cec8261e32d904abf386658e2c973f501023844033ec",
+  "revision": "f32d0e625db4128964971a505813f6725bd0e65aac971f22c5a1c44e10171b70",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -2937,6 +2937,11 @@
       "fetchUrl": "https://vercel.com/docs/cli/certs.md"
     },
     {
+      "title": "vercel changelog",
+      "url": "https://vercel.com/docs/cli/changelog",
+      "fetchUrl": "https://vercel.com/docs/cli/changelog.md"
+    },
+    {
       "title": "vercel comments",
       "url": "https://vercel.com/docs/cli/comments",
       "fetchUrl": "https://vercel.com/docs/cli/comments.md"
@@ -2960,6 +2965,11 @@
       "title": "vercel curl",
       "url": "https://vercel.com/docs/cli/curl",
       "fetchUrl": "https://vercel.com/docs/cli/curl.md"
+    },
+    {
+      "title": "vercel daemons",
+      "url": "https://vercel.com/docs/cli/daemons",
+      "fetchUrl": "https://vercel.com/docs/cli/daemons.md"
     },
     {
       "title": "vercel deploy",
@@ -2995,6 +3005,11 @@
       "title": "vercel domains",
       "url": "https://vercel.com/docs/cli/domains",
       "fetchUrl": "https://vercel.com/docs/cli/domains.md"
+    },
+    {
+      "title": "vercel drains",
+      "url": "https://vercel.com/docs/cli/drains",
+      "fetchUrl": "https://vercel.com/docs/cli/drains.md"
     },
     {
       "title": "vercel env",
@@ -3037,6 +3052,11 @@
       "fetchUrl": "https://vercel.com/docs/cli/guidance.md"
     },
     {
+      "title": "vercel health",
+      "url": "https://vercel.com/docs/cli/health",
+      "fetchUrl": "https://vercel.com/docs/cli/health.md"
+    },
+    {
       "title": "vercel help",
       "url": "https://vercel.com/docs/cli/help",
       "fetchUrl": "https://vercel.com/docs/cli/help.md"
@@ -3065,6 +3085,11 @@
       "title": "vercel integration",
       "url": "https://vercel.com/docs/cli/integration",
       "fetchUrl": "https://vercel.com/docs/cli/integration.md"
+    },
+    {
+      "title": "vercel kms",
+      "url": "https://vercel.com/docs/cli/kms",
+      "fetchUrl": "https://vercel.com/docs/cli/kms.md"
     },
     {
       "title": "vercel link",
@@ -3202,6 +3227,11 @@
       "fetchUrl": "https://vercel.com/docs/cli/skills.md"
     },
     {
+      "title": "vercel storage",
+      "url": "https://vercel.com/docs/cli/storage",
+      "fetchUrl": "https://vercel.com/docs/cli/storage.md"
+    },
+    {
       "title": "vercel switch",
       "url": "https://vercel.com/docs/cli/switch",
       "fetchUrl": "https://vercel.com/docs/cli/switch.md"
@@ -3220,6 +3250,11 @@
       "title": "vercel telemetry",
       "url": "https://vercel.com/docs/cli/telemetry",
       "fetchUrl": "https://vercel.com/docs/cli/telemetry.md"
+    },
+    {
+      "title": "vercel token-pass",
+      "url": "https://vercel.com/docs/cli/token-pass",
+      "fetchUrl": "https://vercel.com/docs/cli/token-pass.md"
     },
     {
       "title": "vercel tokens",
@@ -8320,6 +8355,11 @@
       "title": "Vercel Schedules: JS SDK Reference",
       "url": "https://vercel.com/docs/schedules/sdk",
       "fetchUrl": "https://vercel.com/docs/schedules/sdk.md"
+    },
+    {
+      "title": "Starting Workflows from Schedules",
+      "url": "https://vercel.com/docs/schedules/workflows",
+      "fetchUrl": "https://vercel.com/docs/schedules/workflows.md"
     },
     {
       "title": "Vercel security overview",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "supabase-docs",
-  "revision": "bd65219c899b8af492f16d14a82585c514c76bf0093f3e5bc63245b2e9994600",
+  "revision": "9b6faf3d76986cc1d9db5b136c9a76b0f3e13d85700f3b5899c10ebda557fe0c",
   "origin": "https://supabase.com/docs/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -1635,6 +1635,11 @@
       "title": "automate with agents / usage",
       "url": "https://supabase.com/docs/guides/observability/automate-with-agents/usage",
       "fetchUrl": "https://supabase.com/docs/guides/observability/automate-with-agents/usage.md"
+    },
+    {
+      "title": "observability / cli logs",
+      "url": "https://supabase.com/docs/guides/observability/cli-logs",
+      "fetchUrl": "https://supabase.com/docs/guides/observability/cli-logs.md"
     },
     {
       "title": "observability / client side tracing",

@@ -318,3 +318,7 @@ The [asset naming and accounting journal](../journal/2026-11-07-asset-naming-and
 ## November 8 CMS contracts and bot coordination
 
 The [content journal](../journal/2026-11-08-cms-contracts-and-bot-coordination.md) records schema-to-component guidance, preview and browser-story boundaries, vocabulary provenance and dependency-bot coordination. Official evidence narrows blanket cache and validation claims. Proposed integrations and historical reports retain their limits; repository merge ownership remains authoritative. Private individual capture accounting and fresh exact-head content review precede final completion and acceptance.
+
+## November 9 CMS delivery and operational evidence
+
+The [delivery evidence journal](../journal/2026-11-09-cms-delivery-and-operational-evidence.md) records rendering-cost measurements, webhook selection, search freshness, Graph compatibility and Contracts, CSP reporting, browser API boundaries, connector identity and Launch allowance scope. Documented mechanisms support bounded proposals; historical incident claims and private commercial figures do not become current guarantees. Partial source checks retain older stale signals, and independent review plus successful final completion remain the capture-acceptance boundary.

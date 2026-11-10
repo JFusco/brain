@@ -12,6 +12,7 @@ aliases: ["sitecore-ai"]
 - [Inspect SitecoreAI content models before REST updates](rest-api-inspection-and-updates.md)
 - [Plan SitecoreAI migration evidence and dependencies](migration-evidence-and-dependencies.md)
 - [Verify SitecoreAI imports against native state](import-readback-against-native-state.md)
+- [Verify webhook selection and search freshness separately](event-and-search-evidence.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
