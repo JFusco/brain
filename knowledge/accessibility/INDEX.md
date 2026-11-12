@@ -15,6 +15,7 @@ aliases: ["accessibility", "a11y", "wcag", "wai-aria"]
 
 <!-- brain:curated:start -->
 - [Connect disclosure controls to their panels](disclosure-control-targets.md)
+- [Keep image purpose distinct from missing alternative text](image-purpose-and-missing-alt.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

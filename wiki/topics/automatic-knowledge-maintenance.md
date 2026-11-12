@@ -322,3 +322,7 @@ The [content journal](../journal/2026-11-08-cms-contracts-and-bot-coordination.m
 ## November 9 CMS delivery and operational evidence
 
 The [delivery evidence journal](../journal/2026-11-09-cms-delivery-and-operational-evidence.md) records rendering-cost measurements, webhook selection, search freshness, Graph compatibility and Contracts, CSP reporting, browser API boundaries, connector identity and Launch allowance scope. Documented mechanisms support bounded proposals; historical incident claims and private commercial figures do not become current guarantees. Partial source checks retain older stale signals, and independent review plus successful final completion remain the capture-acceptance boundary.
+
+## November 12 image contracts and model selection
+
+The [image/model journal](../journal/2026-11-12-image-contracts-and-model-selection.md) distinguishes constrained CMS Image expansion, purpose-based alternatives and missing-data policy. Current model guidance corrects the Claude lineup and separates reasoning settings from endpoint tool support. Historical fixture outcomes are unverified reports, and production fallback remains a project decision. Partial stale checks retain their signals; independent content review and successful final completion continue to gate capture acceptance.
