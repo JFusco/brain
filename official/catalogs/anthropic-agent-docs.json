@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "anthropic-agent-docs",
-  "revision": "f61cca131a4e1b60bb114818a4dd6f38d8492e1f09a552d55c3eea5fc70087ad",
+  "revision": "978de9c3dfd88c5c07cc711c1e5fdd68287133c70e61fdc42c1be085e2158dee",
   "origin": "https://platform.claude.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -237,7 +237,7 @@
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/citations.md"
     },
     {
-      "title": "Amazon Bedrock (Opus 4.7 and later)",
+      "title": "Amazon Bedrock (mantle)",
       "url": "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock",
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-in-amazon-bedrock.md"
     },
@@ -262,7 +262,7 @@
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-models-on-google-cloud/overview.md"
     },
     {
-      "title": "Amazon Bedrock (Opus 4.6 and earlier)",
+      "title": "Amazon Bedrock (runtime)",
       "url": "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy",
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock-legacy.md"
     },
@@ -312,9 +312,14 @@
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/context-windows.md"
     },
     {
-      "title": "Effort",
+      "title": "Overview",
       "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/effort.md"
+    },
+    {
+      "title": "Per-message effort (beta)",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/effort-per-message",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/effort-per-message.md"
     },
     {
       "title": "Embeddings",
@@ -377,9 +382,24 @@
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/pdf-support.md"
     },
     {
-      "title": "Preserved thinking",
+      "title": "Overview",
       "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking",
       "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking.md"
+    },
+    {
+      "title": "Change tools or instructions",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/change-tools-or-instructions",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/change-tools-or-instructions.md"
+    },
+    {
+      "title": "Fix the 400 error",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/fix-bound-to-a-different-conversation",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/fix-bound-to-a-different-conversation.md"
+    },
+    {
+      "title": "Prefix checks",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/prefix-checks",
+      "fetchUrl": "https://platform.claude.com/docs/en/build-with-claude/preserved-thinking/prefix-checks.md"
     },
     {
       "title": "Prompt caching",

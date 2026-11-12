@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "pnpm-docs",
-  "revision": "bdd0d01f5c33a13d315525927fb29cf22e3d50654e21151c059cf942068e38e1",
+  "revision": "769f90b2849139170c1f22786867162bca3790cc8b8997f4e11b9e00306f56fe",
   "origin": "https://pnpm.io/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -185,6 +185,11 @@
       "title": "cli / find hash",
       "url": "https://pnpm.io/cli/find-hash",
       "fetchUrl": "https://pnpm.io/cli/find-hash"
+    },
+    {
+      "title": "cli / fund",
+      "url": "https://pnpm.io/cli/fund",
+      "fetchUrl": "https://pnpm.io/cli/fund"
     },
     {
       "title": "cli / help",
@@ -690,6 +695,11 @@
       "title": "pnpr / endpoints",
       "url": "https://pnpm.io/pnpr/endpoints",
       "fetchUrl": "https://pnpm.io/pnpr/endpoints"
+    },
+    {
+      "title": "pnpr / identity",
+      "url": "https://pnpm.io/pnpr/identity",
+      "fetchUrl": "https://pnpm.io/pnpr/identity"
     },
     {
       "title": "pnpr / install acceleration",

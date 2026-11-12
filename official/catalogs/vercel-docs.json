@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "f32d0e625db4128964971a505813f6725bd0e65aac971f22c5a1c44e10171b70",
+  "revision": "8e389b52282402300793e2aee3729a0feb2e803bd8754b644781bef4eabdc0e4",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -25,6 +25,11 @@
       "title": "Vercel Agent",
       "url": "https://vercel.com/docs/agent",
       "fetchUrl": "https://vercel.com/docs/agent.md"
+    },
+    {
+      "title": "Agent Checklist for Launch",
+      "url": "https://vercel.com/docs/agent-checklist",
+      "fetchUrl": "https://vercel.com/docs/agent-checklist.md"
     },
     {
       "title": "Running Agent Harnesses Durably on Vercel",
@@ -2102,7 +2107,7 @@
       "fetchUrl": "https://vercel.com/docs/ai-gateway/models-and-providers.md"
     },
     {
-      "title": "AI Gateway Automatic Prompt Caching",
+      "title": "AI Gateway Caching: Prompt Caching and Response Caching",
       "url": "https://vercel.com/docs/ai-gateway/models-and-providers/automatic-caching",
       "fetchUrl": "https://vercel.com/docs/ai-gateway/models-and-providers/automatic-caching.md"
     },
@@ -2307,6 +2312,11 @@
       "fetchUrl": "https://vercel.com/docs/ai-gateway/sdks-and-apis/cohere-rerank.md"
     },
     {
+      "title": "Go with AI Gateway: OpenAI and Anthropic SDKs",
+      "url": "https://vercel.com/docs/ai-gateway/sdks-and-apis/go",
+      "fetchUrl": "https://vercel.com/docs/ai-gateway/sdks-and-apis/go.md"
+    },
+    {
       "title": "OpenAI Chat Completions API with AI Gateway",
       "url": "https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions",
       "fetchUrl": "https://vercel.com/docs/ai-gateway/sdks-and-apis/openai-chat-completions.md"
@@ -2485,6 +2495,16 @@
       "title": "AI Gateway Provider Allowlist",
       "url": "https://vercel.com/docs/ai-gateway/security-and-compliance/provider-allowlist",
       "fetchUrl": "https://vercel.com/docs/ai-gateway/security-and-compliance/provider-allowlist.md"
+    },
+    {
+      "title": "AI Gateway Provider Headquarters",
+      "url": "https://vercel.com/docs/ai-gateway/security-and-compliance/provider-headquarters",
+      "fetchUrl": "https://vercel.com/docs/ai-gateway/security-and-compliance/provider-headquarters.md"
+    },
+    {
+      "title": "AI Gateway Regional Hosting",
+      "url": "https://vercel.com/docs/ai-gateway/security-and-compliance/regional-hosting",
+      "fetchUrl": "https://vercel.com/docs/ai-gateway/security-and-compliance/regional-hosting.md"
     },
     {
       "title": "AI Gateway Regional Inference",
@@ -2722,16 +2742,6 @@
       "fetchUrl": "https://vercel.com/docs/caching/cdn-cache/purge.md"
     },
     {
-      "title": "Runtime Cache",
-      "url": "https://vercel.com/docs/caching/runtime-cache",
-      "fetchUrl": "https://vercel.com/docs/caching/runtime-cache.md"
-    },
-    {
-      "title": "Data Cache for Next.js",
-      "url": "https://vercel.com/docs/caching/runtime-cache/data-cache",
-      "fetchUrl": "https://vercel.com/docs/caching/runtime-cache/data-cache.md"
-    },
-    {
       "title": "Vercel CDN overview",
       "url": "https://vercel.com/docs/cdn",
       "fetchUrl": "https://vercel.com/docs/cdn.md"
@@ -2852,6 +2862,51 @@
       "fetchUrl": "https://vercel.com/docs/checks/creating-checks.md"
     },
     {
+      "title": "Vercel CI",
+      "url": "https://vercel.com/docs/ci",
+      "fetchUrl": "https://vercel.com/docs/ci.md"
+    },
+    {
+      "title": "Vercel CI Configuration Reference",
+      "url": "https://vercel.com/docs/ci/configuration",
+      "fetchUrl": "https://vercel.com/docs/ci/configuration.md"
+    },
+    {
+      "title": "Vercel CI Environment Variables",
+      "url": "https://vercel.com/docs/ci/environment-variables",
+      "fetchUrl": "https://vercel.com/docs/ci/environment-variables.md"
+    },
+    {
+      "title": "Vercel CI Guides",
+      "url": "https://vercel.com/docs/ci/guides",
+      "fetchUrl": "https://vercel.com/docs/ci/guides.md"
+    },
+    {
+      "title": "Running End-to-End Tests in Vercel CI",
+      "url": "https://vercel.com/docs/ci/guides/end-to-end-tests",
+      "fetchUrl": "https://vercel.com/docs/ci/guides/end-to-end-tests.md"
+    },
+    {
+      "title": "Commenting on Pull Requests from Vercel CI",
+      "url": "https://vercel.com/docs/ci/guides/github-comments",
+      "fetchUrl": "https://vercel.com/docs/ci/guides/github-comments.md"
+    },
+    {
+      "title": "Running Integration Tests with a Database in Vercel CI",
+      "url": "https://vercel.com/docs/ci/guides/integration-tests",
+      "fetchUrl": "https://vercel.com/docs/ci/guides/integration-tests.md"
+    },
+    {
+      "title": "Images",
+      "url": "https://vercel.com/docs/ci/image",
+      "fetchUrl": "https://vercel.com/docs/ci/image.md"
+    },
+    {
+      "title": "Vercel CI Pricing",
+      "url": "https://vercel.com/docs/ci/pricing",
+      "fetchUrl": "https://vercel.com/docs/ci/pricing.md"
+    },
+    {
       "title": "Vercel CLI Overview",
       "url": "https://vercel.com/docs/cli",
       "fetchUrl": "https://vercel.com/docs/cli.md"
@@ -2940,6 +2995,11 @@
       "title": "vercel changelog",
       "url": "https://vercel.com/docs/cli/changelog",
       "fetchUrl": "https://vercel.com/docs/cli/changelog.md"
+    },
+    {
+      "title": "vercel ci",
+      "url": "https://vercel.com/docs/cli/ci",
+      "fetchUrl": "https://vercel.com/docs/cli/ci.md"
     },
     {
       "title": "vercel comments",
@@ -3250,6 +3310,11 @@
       "title": "vercel telemetry",
       "url": "https://vercel.com/docs/cli/telemetry",
       "fetchUrl": "https://vercel.com/docs/cli/telemetry.md"
+    },
+    {
+      "title": "vercel templates",
+      "url": "https://vercel.com/docs/cli/templates",
+      "fetchUrl": "https://vercel.com/docs/cli/templates.md"
     },
     {
       "title": "vercel token-pass",
@@ -4750,6 +4815,11 @@
       "title": "Deploy a Lovable app on Vercel",
       "url": "https://vercel.com/docs/integrations/lovable",
       "fetchUrl": "https://vercel.com/docs/integrations/lovable.md"
+    },
+    {
+      "title": "Build Agents with Sanity Context",
+      "url": "https://vercel.com/docs/integrations/sanity-context",
+      "fetchUrl": "https://vercel.com/docs/integrations/sanity-context.md"
     },
     {
       "title": "Key Management Service \\(KMS\\)",
@@ -6367,6 +6437,31 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/drains/validate-drain-delivery-configuration.md"
     },
     {
+      "title": "Delete a drive",
+      "url": "https://vercel.com/docs/rest-api/drives/delete-a-drive",
+      "fetchUrl": "https://vercel.com/docs/rest-api/drives/delete-a-drive.md"
+    },
+    {
+      "title": "Fork a drive",
+      "url": "https://vercel.com/docs/rest-api/drives/fork-a-drive",
+      "fetchUrl": "https://vercel.com/docs/rest-api/drives/fork-a-drive.md"
+    },
+    {
+      "title": "Get a drive",
+      "url": "https://vercel.com/docs/rest-api/drives/get-a-drive",
+      "fetchUrl": "https://vercel.com/docs/rest-api/drives/get-a-drive.md"
+    },
+    {
+      "title": "Get or create a drive",
+      "url": "https://vercel.com/docs/rest-api/drives/get-or-create-a-drive",
+      "fetchUrl": "https://vercel.com/docs/rest-api/drives/get-or-create-a-drive.md"
+    },
+    {
+      "title": "List drives",
+      "url": "https://vercel.com/docs/rest-api/drives/list-drives",
+      "fetchUrl": "https://vercel.com/docs/rest-api/drives/list-drives.md"
+    },
+    {
       "title": "Dangerously delete by source image",
       "url": "https://vercel.com/docs/rest-api/edge-cache/dangerously-delete-by-source-image",
       "fetchUrl": "https://vercel.com/docs/rest-api/edge-cache/dangerously-delete-by-source-image.md"
@@ -7327,11 +7422,6 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/create-a-snapshot.md"
     },
     {
-      "title": "Delete a drive",
-      "url": "https://vercel.com/docs/rest-api/sandboxes/delete-a-drive",
-      "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/delete-a-drive.md"
-    },
-    {
       "title": "Delete a sandbox",
       "url": "https://vercel.com/docs/rest-api/sandboxes/delete-a-sandbox",
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/delete-a-sandbox.md"
@@ -7352,11 +7442,6 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/extend-session-timeout.md"
     },
     {
-      "title": "Fork a drive",
-      "url": "https://vercel.com/docs/rest-api/sandboxes/fork-a-drive",
-      "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/fork-a-drive.md"
-    },
-    {
       "title": "Fork a named sandbox",
       "url": "https://vercel.com/docs/rest-api/sandboxes/fork-a-named-sandbox",
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/fork-a-named-sandbox.md"
@@ -7365,11 +7450,6 @@
       "title": "Get a command",
       "url": "https://vercel.com/docs/rest-api/sandboxes/get-a-command",
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/get-a-command.md"
-    },
-    {
-      "title": "Get a drive",
-      "url": "https://vercel.com/docs/rest-api/sandboxes/get-a-drive",
-      "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/get-a-drive.md"
     },
     {
       "title": "Get a named sandbox",
@@ -7387,11 +7467,6 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/get-a-snapshot.md"
     },
     {
-      "title": "Get or create a drive",
-      "url": "https://vercel.com/docs/rest-api/sandboxes/get-or-create-a-drive",
-      "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/get-or-create-a-drive.md"
-    },
-    {
       "title": "Kill a command",
       "url": "https://vercel.com/docs/rest-api/sandboxes/kill-a-command",
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/kill-a-command.md"
@@ -7400,11 +7475,6 @@
       "title": "List commands",
       "url": "https://vercel.com/docs/rest-api/sandboxes/list-commands",
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/list-commands.md"
-    },
-    {
-      "title": "List drives",
-      "url": "https://vercel.com/docs/rest-api/sandboxes/list-drives",
-      "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/list-drives.md"
     },
     {
       "title": "List sandboxes",
@@ -8057,6 +8127,16 @@
       "fetchUrl": "https://vercel.com/docs/routing/rewrites.md"
     },
     {
+      "title": "Runtime Cache",
+      "url": "https://vercel.com/docs/runtime-cache",
+      "fetchUrl": "https://vercel.com/docs/runtime-cache.md"
+    },
+    {
+      "title": "Data Cache for Next.js",
+      "url": "https://vercel.com/docs/runtime-cache/data-cache",
+      "fetchUrl": "https://vercel.com/docs/runtime-cache/data-cache.md"
+    },
+    {
       "title": "SAML Single Sign-On",
       "url": "https://vercel.com/docs/saml",
       "fetchUrl": "https://vercel.com/docs/saml.md"
@@ -8120,6 +8200,11 @@
       "title": "Using Secure Compute with Sandbox",
       "url": "https://vercel.com/docs/sandbox/concepts/secure-compute",
       "fetchUrl": "https://vercel.com/docs/sandbox/concepts/secure-compute.md"
+    },
+    {
+      "title": "Sandbox security model",
+      "url": "https://vercel.com/docs/sandbox/concepts/security",
+      "fetchUrl": "https://vercel.com/docs/sandbox/concepts/security.md"
     },
     {
       "title": "Snapshots",

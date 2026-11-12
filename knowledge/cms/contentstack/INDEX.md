@@ -27,7 +27,7 @@ aliases: ["contentstack"]
   - [framework](https://github.com/contentstack/kickstart-next-ssr/blob/4b232397c5d17986f7a3fb303d8243f6341d6bbb/skills/framework/SKILL.md) — reference only.
   - [testing](https://github.com/contentstack/kickstart-next-ssr/blob/4b232397c5d17986f7a3fb303d8243f6341d6bbb/skills/testing/SKILL.md) — reference only.
   - [typescript-style](https://github.com/contentstack/kickstart-next-ssr/blob/4b232397c5d17986f7a3fb303d8243f6341d6bbb/skills/typescript-style/SKILL.md) — reference only.
-- **contentstack-docs** — link catalog of 2993 pages; rolling-url; revision `1bbcba6a610fa0f5d9e5da1016725d7462d0a92c09ef754a2747f506db6abcb9`; fetched 2026-11-06.
+- **contentstack-docs** — link catalog of 3013 pages; rolling-url; revision `33d82296ba4c4bd2f23d5fc7c2289cf751ecbdb35309839ed9c9e2df3fd84865`; fetched 2026-11-12.
   - [Catalog source](https://www.contentstack.com/sitemap.xml); search it with `lookup --domain cms/contentstack`.
 - [Official website](https://www.contentstack.com/llms.txt) — pointer only: Machine-readable index retrieved; mirroring terms remain unverified.
 <!-- brain:official:end -->

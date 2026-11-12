@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "1bbcba6a610fa0f5d9e5da1016725d7462d0a92c09ef754a2747f506db6abcb9",
+  "revision": "33d82296ba4c4bd2f23d5fc7c2289cf751ecbdb35309839ed9c9e2df3fd84865",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -2737,11 +2737,6 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/clearbit-lytics.md"
     },
     {
-      "title": "auths / connect apikey",
-      "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/connect-apikey",
-      "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/connect-apikey.md"
-    },
-    {
       "title": "auths / content cookies",
       "url": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/content-cookies",
       "fetchUrl": "https://www.contentstack.com/docs/developers/apis/lytics-api/auths/content-cookies.md"
@@ -5147,9 +5142,24 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/contenttype.md"
     },
     {
+      "title": "reference / defaultoption",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/defaultoption",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/defaultoption.md"
+    },
+    {
+      "title": "reference / endpoint",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/endpoint",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/endpoint.md"
+    },
+    {
       "title": "reference / entry",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/entry",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/entry.md"
+    },
+    {
+      "title": "reference / error",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/error",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/error.md"
     },
     {
       "title": "reference / global fields",
@@ -5157,9 +5167,44 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/global-fields.md"
     },
     {
+      "title": "reference / group",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/group",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/group.md"
+    },
+    {
+      "title": "reference / metadata",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/metadata",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/metadata.md"
+    },
+    {
+      "title": "reference / nodetohtml",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/nodetohtml",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/nodetohtml.md"
+    },
+    {
+      "title": "reference / option",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/option",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/option.md"
+    },
+    {
       "title": "reference / query",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/query",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/query.md"
+    },
+    {
+      "title": "reference / queryresult",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/queryresult",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/queryresult.md"
+    },
+    {
+      "title": "reference / stack",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/stack",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/stack.md"
+    },
+    {
+      "title": "reference / syncstack",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/syncstack",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/android/reference/syncstack.md"
     },
     {
       "title": "reference / taxonomy",
@@ -5317,6 +5362,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dot-net/reference/contenttype.md"
     },
     {
+      "title": "reference / endpoint",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dot-net/reference/endpoint",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dot-net/reference/endpoint.md"
+    },
+    {
       "title": "reference / entry",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dot-net/reference/entry",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dot-net/reference/entry.md"
@@ -5442,6 +5492,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ios/reference/global-fields.md"
     },
     {
+      "title": "reference / group",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ios/reference/group",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ios/reference/group.md"
+    },
+    {
       "title": "reference / orderby",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ios/reference/orderby",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ios/reference/orderby.md"
@@ -5455,6 +5510,11 @@
       "title": "reference / query",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ios/reference/query",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ios/reference/query.md"
+    },
+    {
+      "title": "reference / queryresult",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ios/reference/queryresult",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ios/reference/queryresult.md"
     },
     {
       "title": "reference / responsetype",
@@ -5547,6 +5607,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/assetlibrary.md"
     },
     {
+      "title": "reference / callbacks",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/callbacks",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/callbacks.md"
+    },
+    {
       "title": "reference / config",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/config",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/config.md"
@@ -5567,14 +5632,44 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/entry.md"
     },
     {
+      "title": "reference / error",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/error",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/error.md"
+    },
+    {
       "title": "reference / global fields",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/global-fields",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/global-fields.md"
     },
     {
+      "title": "reference / group",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/group",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/group.md"
+    },
+    {
       "title": "reference / query",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/query",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/query.md"
+    },
+    {
+      "title": "reference / queryresult",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/queryresult",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/queryresult.md"
+    },
+    {
+      "title": "reference / retryoptions",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/retryoptions",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/retryoptions.md"
+    },
+    {
+      "title": "reference / stack",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/stack",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/stack.md"
+    },
+    {
+      "title": "reference / syncstack",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/syncstack",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/java/reference/syncstack.md"
     },
     {
       "title": "reference / taxonomy",
@@ -10090,6 +10185,11 @@
       "title": "headless cms / json schema for creating a content type",
       "url": "https://www.contentstack.com/docs/headless-cms/json-schema-for-creating-a-content-type",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/json-schema-for-creating-a-content-type.md"
+    },
+    {
+      "title": "headless cms / keep a permanent publish history",
+      "url": "https://www.contentstack.com/docs/headless-cms/keep-a-permanent-publish-history",
+      "fetchUrl": "https://www.contentstack.com/docs/headless-cms/keep-a-permanent-publish-history.md"
     },
     {
       "title": "headless cms / key concepts and hierarchy of contentstack elements",
