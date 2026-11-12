@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms-saas-docs",
-  "revision": "ae548b9dfcc952b0ce044cc0331517c2155d9a8da61cacb1b11285231415ac9e",
+  "revision": "147c6817abc7d00f867d3a5640ef8ebabc83b49ccaefe4707a94f3a2aacb1628",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -160,11 +160,6 @@
       "title": "Export manifest",
       "url": "https://docs.optimizely.com/cms-saas/api/export-manifest.md",
       "fetchUrl": "https://docs.optimizely.com/cms-saas/api/export-manifest.md"
-    },
-    {
-      "title": "Delete locale",
-      "url": "https://docs.optimizely.com/cms-saas/api/F91O-delete-locale.md",
-      "fetchUrl": "https://docs.optimizely.com/cms-saas/api/F91O-delete-locale.md"
     },
     {
       "title": "Get application",
@@ -772,6 +767,11 @@
       "fetchUrl": "https://docs.optimizely.com/cms-saas/api/restore-content.md"
     },
     {
+      "title": "Delete locale",
+      "url": "https://docs.optimizely.com/cms-saas/api/UuCQ-delete-locale.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-saas/api/UuCQ-delete-locale.md"
+    },
+    {
       "title": "Overview of CMS (SaaS)",
       "url": "https://docs.optimizely.com/cms-saas/docs.md",
       "fetchUrl": "https://docs.optimizely.com/cms-saas/docs.md"
@@ -865,6 +865,11 @@
       "title": "Choice property",
       "url": "https://docs.optimizely.com/cms-saas/docs/choice-property.md",
       "fetchUrl": "https://docs.optimizely.com/cms-saas/docs/choice-property.md"
+    },
+    {
+      "title": "UI extensions in CMS (SaaS)",
+      "url": "https://docs.optimizely.com/cms-saas/docs/cms-saas-ui-extensions.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-saas/docs/cms-saas-ui-extensions.md"
     },
     {
       "title": "Collaborate with comments",

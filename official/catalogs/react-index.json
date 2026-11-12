@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "react-index",
-  "revision": "8164398bcb11d2ed3377e96aac8473f508d2ddd687d51b7968be3a991056fd65",
+  "revision": "f11f98b97a8058eb49961acbe5ea184220de3e923819806e755d37f87d922175",
   "origin": "https://react.dev/llms.txt",
   "skills": [],
   "docs": [],
@@ -560,6 +560,11 @@
       "title": "flushSync",
       "url": "https://react.dev/reference/react-dom/flushSync.md",
       "fetchUrl": "https://react.dev/reference/react-dom/flushSync.md"
+    },
+    {
+      "title": "requestFormReset",
+      "url": "https://react.dev/reference/react-dom/requestFormReset.md",
+      "fetchUrl": "https://react.dev/reference/react-dom/requestFormReset.md"
     },
     {
       "title": "preconnect",
