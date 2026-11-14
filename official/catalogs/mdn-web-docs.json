@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "mdn-web-docs",
-  "revision": "0956d9474c9fabf81238aec6668a0b12c3928c0d686dfab6586d9066ceae9014",
+  "revision": "d961169aa00b5aaf0b620b99e814eac6b1c707bb2956919c4d17cec2094a3be3",
   "origin": "https://developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz",
   "skills": [],
   "docs": [],
@@ -4430,6 +4430,11 @@
       "title": "Guide / Representing_dates_times",
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Representing_dates_times",
       "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Representing_dates_times"
+    },
+    {
+      "title": "Representing_dates_times / Cookbook",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Representing_dates_times/Cookbook",
+      "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Representing_dates_times/Cookbook"
     },
     {
       "title": "Guide / Resource_management",

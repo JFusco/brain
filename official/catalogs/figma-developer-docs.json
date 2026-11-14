@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "figma-developer-docs",
-  "revision": "004b40c2362aa43e3417f9e558b1862c176a72ce3aae3f68362c61e83912b912",
+  "revision": "2d5605cca69aee5fdb695e090f7b47c18efc4d9c8100044dd38f9cb7d75751f8",
   "origin": "https://developers.figma.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -1767,6 +1767,11 @@
       "fetchUrl": "https://developers.figma.com/docs/plugins/api/properties/nodes-rotation/"
     },
     {
+      "title": "properties / nodes scene3d",
+      "url": "https://developers.figma.com/docs/plugins/api/properties/nodes-scene3d/",
+      "fetchUrl": "https://developers.figma.com/docs/plugins/api/properties/nodes-scene3d/"
+    },
+    {
       "title": "properties / nodes setboundvariable",
       "url": "https://developers.figma.com/docs/plugins/api/properties/nodes-setboundvariable/",
       "fetchUrl": "https://developers.figma.com/docs/plugins/api/properties/nodes-setboundvariable/"
@@ -1845,6 +1850,16 @@
       "title": "properties / nodes tostring",
       "url": "https://developers.figma.com/docs/plugins/api/properties/nodes-tostring/",
       "fetchUrl": "https://developers.figma.com/docs/plugins/api/properties/nodes-tostring/"
+    },
+    {
+      "title": "properties / nodes transform3d",
+      "url": "https://developers.figma.com/docs/plugins/api/properties/nodes-transform3d/",
+      "fetchUrl": "https://developers.figma.com/docs/plugins/api/properties/nodes-transform3d/"
+    },
+    {
+      "title": "properties / nodes transformorigin",
+      "url": "https://developers.figma.com/docs/plugins/api/properties/nodes-transformorigin/",
+      "fetchUrl": "https://developers.figma.com/docs/plugins/api/properties/nodes-transformorigin/"
     },
     {
       "title": "properties / nodes variablewidthstrokeproperties",
@@ -2137,6 +2152,11 @@
       "fetchUrl": "https://developers.figma.com/docs/plugins/api/RunEvent/"
     },
     {
+      "title": "api / Scene3d",
+      "url": "https://developers.figma.com/docs/plugins/api/Scene3d/",
+      "fetchUrl": "https://developers.figma.com/docs/plugins/api/Scene3d/"
+    },
+    {
       "title": "api / SectionNode",
       "url": "https://developers.figma.com/docs/plugins/api/SectionNode/",
       "fetchUrl": "https://developers.figma.com/docs/plugins/api/SectionNode/"
@@ -2337,6 +2357,11 @@
       "fetchUrl": "https://developers.figma.com/docs/plugins/api/Transform/"
     },
     {
+      "title": "api / Transform3d",
+      "url": "https://developers.figma.com/docs/plugins/api/Transform3d/",
+      "fetchUrl": "https://developers.figma.com/docs/plugins/api/Transform3d/"
+    },
+    {
       "title": "api / TransformGroupNode",
       "url": "https://developers.figma.com/docs/plugins/api/TransformGroupNode/",
       "fetchUrl": "https://developers.figma.com/docs/plugins/api/TransformGroupNode/"
@@ -2345,6 +2370,11 @@
       "title": "api / TransformModifier",
       "url": "https://developers.figma.com/docs/plugins/api/TransformModifier/",
       "fetchUrl": "https://developers.figma.com/docs/plugins/api/TransformModifier/"
+    },
+    {
+      "title": "api / TransformOrigin",
+      "url": "https://developers.figma.com/docs/plugins/api/TransformOrigin/",
+      "fetchUrl": "https://developers.figma.com/docs/plugins/api/TransformOrigin/"
     },
     {
       "title": "api / Transition",

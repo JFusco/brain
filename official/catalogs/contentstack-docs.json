@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "33d82296ba4c4bd2f23d5fc7c2289cf751ecbdb35309839ed9c9e2df3fd84865",
+  "revision": "f75ddb246759645293da6fbf38c899296b964a352464988b8a371a28e240842c",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -11065,6 +11065,11 @@
       "title": "headless cms / roll back a release",
       "url": "https://www.contentstack.com/docs/headless-cms/roll-back-a-release",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/roll-back-a-release.md"
+    },
+    {
+      "title": "headless cms / rotate api tokens",
+      "url": "https://www.contentstack.com/docs/headless-cms/rotate-api-tokens",
+      "fetchUrl": "https://www.contentstack.com/docs/headless-cms/rotate-api-tokens.md"
     },
     {
       "title": "headless cms / save in progress entry",

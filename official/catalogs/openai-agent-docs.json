@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "openai-agent-docs",
-  "revision": "2f65a1c528d6dccb8a7c7d04fe209add45b4bb40488d697f1288ce0fab62f1ed",
+  "revision": "527e5d19e77afec9cec3e9a185cd9182b24b5b4eeac7f22e600f1d15f455e7af",
   "origin": "https://developers.openai.com/api/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -405,6 +405,11 @@
       "title": "Custom voices",
       "url": "https://developers.openai.com/api/docs/guides/custom-voices",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/custom-voices.md"
+    },
+    {
+      "title": "Data residency",
+      "url": "https://developers.openai.com/api/docs/guides/data-residency",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/data-residency.md"
     },
     {
       "title": "Use Daybreak in the Responses API",
