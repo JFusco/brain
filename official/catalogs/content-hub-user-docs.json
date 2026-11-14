@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "content-hub-user-docs",
-  "revision": "fa732bd17896ec52690271827dd1b698ec89c3ff6ceb99b4639b507bbb569545",
+  "revision": "ad303d557cd177a76cafa25da43474f147ffd50042d29745ecbcb57463d4a1c1",
   "origin": "https://doc.sitecore.com/ch/en/users/content-hub/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -412,6 +412,11 @@
       "fetchUrl": "https://doc.sitecore.com/ch/en/users/content-hub/apply-advanced-filters.html"
     },
     {
+      "title": "content hub / apply c2pa settings to existing assets.html",
+      "url": "https://doc.sitecore.com/ch/en/users/content-hub/apply-c2pa-settings-to-existing-assets.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/users/content-hub/apply-c2pa-settings-to-existing-assets.html"
+    },
+    {
       "title": "content hub / apply preset filters.html",
       "url": "https://doc.sitecore.com/ch/en/users/content-hub/apply-preset-filters.html",
       "fetchUrl": "https://doc.sitecore.com/ch/en/users/content-hub/apply-preset-filters.html"
@@ -722,6 +727,11 @@
       "fetchUrl": "https://doc.sitecore.com/ch/en/users/content-hub/configure-a-watermark.html"
     },
     {
+      "title": "content hub / configure c2pa support.html",
+      "url": "https://doc.sitecore.com/ch/en/users/content-hub/configure-c2pa-support.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/users/content-hub/configure-c2pa-support.html"
+    },
+    {
       "title": "content hub / configure chart view settings.html",
       "url": "https://doc.sitecore.com/ch/en/users/content-hub/configure-chart-view-settings.html",
       "fetchUrl": "https://doc.sitecore.com/ch/en/users/content-hub/configure-chart-view-settings.html"
@@ -880,6 +890,11 @@
       "title": "content hub / configure visual search manually.html",
       "url": "https://doc.sitecore.com/ch/en/users/content-hub/configure-visual-search-manually.html",
       "fetchUrl": "https://doc.sitecore.com/ch/en/users/content-hub/configure-visual-search-manually.html"
+    },
+    {
+      "title": "content hub / confirm content provenance and authenticity.html",
+      "url": "https://doc.sitecore.com/ch/en/users/content-hub/confirm-content-provenance-and-authenticity.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/users/content-hub/confirm-content-provenance-and-authenticity.html"
     },
     {
       "title": "content hub / connect to microsoft onedrive.html",

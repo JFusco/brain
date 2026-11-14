@@ -27,6 +27,6 @@ Route design token, design-to-code handoff and component library questions here.
 
 - **dtcg-format** — link catalog of 4 pages; rolling-url; revision `470a989d5fd17c828423122bcaa5f252d39c82ddbf2ddf9cdf4a9c995065cf4d`; fetched 2026-10-24.
   - [Catalog source](https://www.designtokens.org/tr/2025.10/); search it with `lookup --domain design-systems`.
-- **figma-developer-docs** — link catalog of 595 pages; rolling-url; revision `004b40c2362aa43e3417f9e558b1862c176a72ce3aae3f68362c61e83912b912`; fetched 2026-10-30.
+- **figma-developer-docs** — link catalog of 601 pages; rolling-url; revision `2d5605cca69aee5fdb695e090f7b47c18efc4d9c8100044dd38f9cb7d75751f8`; fetched 2026-11-14.
   - [Catalog source](https://developers.figma.com/sitemap.xml); search it with `lookup --domain design-systems`.
 <!-- brain:official:end -->

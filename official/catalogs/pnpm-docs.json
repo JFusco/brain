@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "pnpm-docs",
-  "revision": "769f90b2849139170c1f22786867162bca3790cc8b8997f4e11b9e00306f56fe",
+  "revision": "30f1f16baf9dffe37ae51adc9e90ec3082d8729576ac718d078e4e0916a8b68e",
   "origin": "https://pnpm.io/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -645,6 +645,11 @@
       "title": "pnpr",
       "url": "https://pnpm.io/pnpr",
       "fetchUrl": "https://pnpm.io/pnpr"
+    },
+    {
+      "title": "pnpr / access",
+      "url": "https://pnpm.io/pnpr/access",
+      "fetchUrl": "https://pnpm.io/pnpr/access"
     },
     {
       "title": "pnpr / auth backends",

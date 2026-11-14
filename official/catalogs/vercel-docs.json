@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "8e389b52282402300793e2aee3729a0feb2e803bd8754b644781bef4eabdc0e4",
+  "revision": "ee98906f5e33e41d053c1cf43ca78ebe9eb4677b883fc163cfd61d14fa8d497e",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -1792,6 +1792,11 @@
       "fetchUrl": "https://vercel.com/docs/ai-gateway/coding-agents/kimi.md"
     },
     {
+      "title": "Linear Cloud Coding Agent with AI Gateway",
+      "url": "https://vercel.com/docs/ai-gateway/coding-agents/linear",
+      "fetchUrl": "https://vercel.com/docs/ai-gateway/coding-agents/linear.md"
+    },
+    {
       "title": "omp with AI Gateway",
       "url": "https://vercel.com/docs/ai-gateway/coding-agents/omp",
       "fetchUrl": "https://vercel.com/docs/ai-gateway/coding-agents/omp.md"
@@ -3057,6 +3062,11 @@
       "fetchUrl": "https://vercel.com/docs/cli/dns.md"
     },
     {
+      "title": "vercel docs",
+      "url": "https://vercel.com/docs/cli/docs",
+      "fetchUrl": "https://vercel.com/docs/cli/docs.md"
+    },
+    {
       "title": "vercel doctor",
       "url": "https://vercel.com/docs/cli/doctor",
       "fetchUrl": "https://vercel.com/docs/cli/doctor.md"
@@ -3145,6 +3155,11 @@
       "title": "vercel integration",
       "url": "https://vercel.com/docs/cli/integration",
       "fetchUrl": "https://vercel.com/docs/cli/integration.md"
+    },
+    {
+      "title": "vercel kb",
+      "url": "https://vercel.com/docs/cli/kb",
+      "fetchUrl": "https://vercel.com/docs/cli/kb.md"
     },
     {
       "title": "vercel kms",
@@ -3555,6 +3570,11 @@
       "title": "Managing Daemons",
       "url": "https://vercel.com/docs/daemons/managing-daemons",
       "fetchUrl": "https://vercel.com/docs/daemons/managing-daemons.md"
+    },
+    {
+      "title": "Tracing in Daemons",
+      "url": "https://vercel.com/docs/daemons/tracing",
+      "fetchUrl": "https://vercel.com/docs/daemons/tracing.md"
     },
     {
       "title": "Creating & Triggering Deploy Hooks",
@@ -8217,6 +8237,16 @@
       "fetchUrl": "https://vercel.com/docs/sandbox/concepts/tags.md"
     },
     {
+      "title": "Sandbox Credentials",
+      "url": "https://vercel.com/docs/sandbox/credentials",
+      "fetchUrl": "https://vercel.com/docs/sandbox/credentials.md"
+    },
+    {
+      "title": "npm Credentials",
+      "url": "https://vercel.com/docs/sandbox/credentials/npm",
+      "fetchUrl": "https://vercel.com/docs/sandbox/credentials/npm.md"
+    },
+    {
       "title": "Ecosystem",
       "url": "https://vercel.com/docs/sandbox/ecosystem",
       "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem.md"
@@ -8250,6 +8280,11 @@
       "title": "Flue with Vercel Sandbox",
       "url": "https://vercel.com/docs/sandbox/ecosystem/flue",
       "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem/flue.md"
+    },
+    {
+      "title": "Gemini API Managed Agents",
+      "url": "https://vercel.com/docs/sandbox/ecosystem/gemini-api",
+      "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem/gemini-api.md"
     },
     {
       "title": "Harbor and Terminal-Bench",

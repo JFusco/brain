@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "sources": {
     "sitecore-content-sdk": {
-      "revision": "b9dd5fde5df49e1271d5ec160a0fe65907b4d5db",
-      "fetchedAt": "2026-11-12T22:04:08.816Z",
+      "revision": "3f63295999ff7aa60b6f25fd4fc9a23e68d3c233",
+      "fetchedAt": "2026-11-14T22:04:35.136Z",
       "track": "default-branch",
-      "catalogSha256": "9fa334207259836738ae22f87e62569b58d37c19899687c2de28a8a000fe4a81"
+      "catalogSha256": "e3b5337c225d0f9e75190ec721e0724a359df8f09cc6c6769edab2244a34338c"
     },
     "contentstack-kickstart": {
       "revision": "4b232397c5d17986f7a3fb303d8243f6341d6bbb",
@@ -26,10 +26,10 @@
       "catalogSha256": "38a9a1ed2a82cae5a492e00930a4ab8a2971e71bd04cf5a1e33684fcf897a3ba"
     },
     "contentful-skills": {
-      "revision": "5a21da3fec0308d41c3f439bb5f6ce60698770d0",
-      "fetchedAt": "2026-11-12T22:04:16.370Z",
+      "revision": "8f1b79a14e2ec40b42bbdd557c4e4b3f9d3aaef3",
+      "fetchedAt": "2026-11-14T22:04:45.940Z",
       "track": "default-branch",
-      "catalogSha256": "28808fa1fddcf12288909545398a5d23ceaed3b6dffb21201effd2ff220f3b88"
+      "catalogSha256": "7e4ef66f7b938ee9d4603894b0409f1079681de2c1c1beae41d4932e85751a62"
     },
     "optimizely-sdk": {
       "revision": "4f006d52ef4c3ec89ad07654fc42eed84736e786",
@@ -50,16 +50,16 @@
       "catalogSha256": "a03215f816e8ed573114594350555ac0c8c41d8e8aabe4282e355d5cf44a7c74"
     },
     "vercel-docs": {
-      "revision": "8e389b52282402300793e2aee3729a0feb2e803bd8754b644781bef4eabdc0e4",
-      "fetchedAt": "2026-11-12T22:04:22.846Z",
+      "revision": "ee98906f5e33e41d053c1cf43ca78ebe9eb4677b883fc163cfd61d14fa8d497e",
+      "fetchedAt": "2026-11-14T22:04:55.907Z",
       "track": "rolling-url",
-      "catalogSha256": "d560d132975b9b1e09262ac828c581b834bfb42b725a8eb0189ce7dfbba8fd7b"
+      "catalogSha256": "f94bc3afdfc4e823bce79975a2d2449936c0b371a40660447ed4c753832d5c2b"
     },
     "contentstack-docs": {
-      "revision": "33d82296ba4c4bd2f23d5fc7c2289cf751ecbdb35309839ed9c9e2df3fd84865",
-      "fetchedAt": "2026-11-12T22:04:31.241Z",
+      "revision": "f75ddb246759645293da6fbf38c899296b964a352464988b8a371a28e240842c",
+      "fetchedAt": "2026-11-14T22:04:59.118Z",
       "track": "rolling-url",
-      "catalogSha256": "025a12a87d158b76261f1d9597be88187f825cbfa9b1c7bafde499b266290199"
+      "catalogSha256": "107010b8bcbbc774590dfeb498ae14aad770f80c88f21690e39e6052697616b6"
     },
     "react-docs": {
       "revision": "46a54e0592729712b7640308b53268e84fdc7c9f",
@@ -74,10 +74,10 @@
       "catalogSha256": "68c47dbe1f452c975689f8b6f6cfdffb8db5178fc836f7ab14200d4f842ed39f"
     },
     "optimizely-cms-saas-docs": {
-      "revision": "147c6817abc7d00f867d3a5640ef8ebabc83b49ccaefe4707a94f3a2aacb1628",
-      "fetchedAt": "2026-11-12T22:04:36.801Z",
+      "revision": "11e355af7c3c98fb9b5e59cf61c0253d9d2fb1ac71b0dc4e80b051f3fe79243f",
+      "fetchedAt": "2026-11-14T22:05:06.422Z",
       "track": "rolling-url",
-      "catalogSha256": "a8a2da2f1a305ad9a020d22133e227e25181d311109a8cd97c63ccac22154c4c"
+      "catalogSha256": "8f9775894e12d2ab0defee1da5f290dd9fc9d9f64aa05f2be65da82bb8b04d80"
     },
     "optimizely-graph-docs": {
       "revision": "4d8211c9fa10f17bc58a2870feeeb86ba42f750c3c38848fd8ff7469ee39af9f",
@@ -104,10 +104,10 @@
       "catalogSha256": "d7d508a56ba0fc0cb5c5f4a352e9531f76f641e3ecf3bfd927ea69a093e9a5f4"
     },
     "sitecoreai-docs": {
-      "revision": "9fd006f795cca43a5e859d3a227d03693b965bc1df04046bf18d0654e36695d4",
-      "fetchedAt": "2026-11-02T22:04:53.585Z",
+      "revision": "a8f7324324b6fe528dba425e735432f2b5b5d1de1c620b7ef48c752441d9d375",
+      "fetchedAt": "2026-11-14T22:05:15.721Z",
       "track": "rolling-url",
-      "catalogSha256": "9c3cad749819113622bf477a019e9b5693aa79d3f6fe1c08a611dd34c7bd2cb3"
+      "catalogSha256": "8492c80bd3d7779f76fa46b8f2acc4f33898ab3b7e16c5ba550cdd24d4cb2a8e"
     },
     "content-hub-docs": {
       "revision": "11a777e6377d0309b093095185c18df00c2e70f3e61ddac52ddd1aac74fbf5fd",
@@ -116,10 +116,10 @@
       "catalogSha256": "7a784e479a1c31df6a94502d14dec663fae7b43c2d8b7c8280c1f1334e125eb0"
     },
     "content-hub-user-docs": {
-      "revision": "fa732bd17896ec52690271827dd1b698ec89c3ff6ceb99b4639b507bbb569545",
-      "fetchedAt": "2026-10-29T12:01:10.205Z",
+      "revision": "ad303d557cd177a76cafa25da43474f147ffd50042d29745ecbcb57463d4a1c1",
+      "fetchedAt": "2026-11-14T22:05:19.486Z",
       "track": "rolling-url",
-      "catalogSha256": "b5064bc6e6a165fa36fca2b01717a2f78ae890a31bb87d61596c4466940de7f6"
+      "catalogSha256": "b7af27d99b7a0fd2d8c14d778e327fc80f54217f6242868fb4314994b886bd1f"
     },
     "sitecore-xp-docs": {
       "revision": "71fcf13f3e8fab82a54f56078ad88da7bdfe4e8d192d6dcd07306efb9df92753",
@@ -170,10 +170,10 @@
       "catalogSha256": "665e891b1788f2f24ba86bbfb0dcd417c90a8b45f844e8dbec97ef022176a47d"
     },
     "mdn-web-docs": {
-      "revision": "0956d9474c9fabf81238aec6668a0b12c3928c0d686dfab6586d9066ceae9014",
-      "fetchedAt": "2026-11-06T22:05:02.792Z",
+      "revision": "d961169aa00b5aaf0b620b99e814eac6b1c707bb2956919c4d17cec2094a3be3",
+      "fetchedAt": "2026-11-14T22:05:40.924Z",
       "track": "rolling-url",
-      "catalogSha256": "b94b046c9a6b6af9dc8774eb9dee18b85fc9a90ba062fe950d8bd3157a5ad4f4"
+      "catalogSha256": "43dcecff0862212d7d883fa088789d75309fd45de7c27acf1b577bd8a30f818c"
     },
     "w3c-internationalization": {
       "revision": "425522bbf10fc262bbd5382aa0cad63f55c5ad56aecf2c92034bc618b5329f65",
@@ -200,10 +200,10 @@
       "catalogSha256": "454897787813334dee8773f0620386bbfa1f13ba1a698f2b2301af8697d81a32"
     },
     "web-features-baseline": {
-      "revision": "8af8ff8d71f0b81bb8d637060ada22cf3c903112",
-      "fetchedAt": "2026-11-12T22:05:03.934Z",
+      "revision": "6248b5d7613eaba47649700083a04f1815104129",
+      "fetchedAt": "2026-11-14T22:05:51.278Z",
       "track": "default-branch",
-      "catalogSha256": "25d8997160bb1e1205bb9025b5b6d761a5d42657c16fd174b3cf02234f0b440a"
+      "catalogSha256": "65c635bc0918be0a252f800dacdc694557ca269a135ef67dada57418950d3633"
     },
     "vite-docs": {
       "revision": "3775d0f7cb461ad88a27fa13ae51dbc82d130d09febbe7e9796894b5ce1152ef",
@@ -242,10 +242,10 @@
       "catalogSha256": "8671d960b55f73d3bcdec6bf8d57b3585e8189bbe19a47287af0b6f057088cb3"
     },
     "figma-developer-docs": {
-      "revision": "004b40c2362aa43e3417f9e558b1862c176a72ce3aae3f68362c61e83912b912",
-      "fetchedAt": "2026-10-30T23:32:41.758Z",
+      "revision": "2d5605cca69aee5fdb695e090f7b47c18efc4d9c8100044dd38f9cb7d75751f8",
+      "fetchedAt": "2026-11-14T22:06:06.594Z",
       "track": "rolling-url",
-      "catalogSha256": "d0eb6573a1d77950099fed7befb5ee54e7f02a0146b88ef537c9a4a1eb380f81"
+      "catalogSha256": "5bc20f394a98e97f0cdbe1f42f9240ff180ec805a5c36a71d2afe543c2d4ab78"
     },
     "chrome-devtools-docs": {
       "revision": "a582c730a22a3289c56b46f949f10fb612aaf0b2aeb2f8a76c3ddca7e0c9dcd2",
@@ -278,10 +278,10 @@
       "catalogSha256": "389c2462debca63050accc65f401a0d2cb2e9b7ef2644a91b5dae4c2f05d1854"
     },
     "pnpm-docs": {
-      "revision": "769f90b2849139170c1f22786867162bca3790cc8b8997f4e11b9e00306f56fe",
-      "fetchedAt": "2026-11-12T22:05:20.071Z",
+      "revision": "30f1f16baf9dffe37ae51adc9e90ec3082d8729576ac718d078e4e0916a8b68e",
+      "fetchedAt": "2026-11-14T22:06:23.282Z",
       "track": "rolling-url",
-      "catalogSha256": "61c30371347a38a1c9c21077a44e9b5fdca9f4f1ac6afd7d6ad051f89fd35268"
+      "catalogSha256": "33c0f63d862fb0dd0c566d8fcb9f5d9dfe0132e5ea06f12a4394d6da31a657b4"
     },
     "turborepo-docs": {
       "revision": "7bf7094d300f5316f20b4933c65f3ee4bcab5c90cfd2e5e396456995d7d36930",
@@ -296,16 +296,16 @@
       "catalogSha256": "93d4351759f067f739207453e5eab0e17607f21b2cb808f3b7131802a8ff3421"
     },
     "chrome-devtools-skills": {
-      "revision": "1417f93ee3f83b87270c910b0c0337de475f6f17",
-      "fetchedAt": "2026-11-12T22:05:24.834Z",
+      "revision": "8ba2ac945ebaf1adb92208c29f3a30e73a920956",
+      "fetchedAt": "2026-11-14T22:06:31.018Z",
       "track": "default-branch",
-      "catalogSha256": "2dc281d34939fd3b95ad027ca2e12ebc38807a57253b3ae4cedd90774c180e0d"
+      "catalogSha256": "5aad7638e716dd8a3177396a08e96ed616bba86cb87b7e02879863d1381552cf"
     },
     "agent-browser-skills": {
-      "revision": "1cc19526f3641c8543d55aa6700e7c55b37ac356",
-      "fetchedAt": "2026-11-12T22:05:26.852Z",
+      "revision": "e0c121a96d3a5412e2078e0c8eba3f4d2db2b616",
+      "fetchedAt": "2026-11-14T22:06:34.549Z",
       "track": "default-branch",
-      "catalogSha256": "0b5ae9fb309d6fe9dd9a751f4d42477907d5041fea1470fca54a9b9cf1054b4d"
+      "catalogSha256": "2cd5c3e0d3e4634a34060080b5f6bf40c3f9207e9f926013f3ca5729fc32f29b"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
@@ -332,10 +332,10 @@
       "catalogSha256": "2e1836b1981dec96353c202ec89bfc535ddcd118dca12269b99dbe65b5f28079"
     },
     "openai-agent-docs": {
-      "revision": "2f65a1c528d6dccb8a7c7d04fe209add45b4bb40488d697f1288ce0fab62f1ed",
-      "fetchedAt": "2026-11-09T22:30:37.403Z",
+      "revision": "527e5d19e77afec9cec3e9a185cd9182b24b5b4eeac7f22e600f1d15f455e7af",
+      "fetchedAt": "2026-11-14T22:06:43.261Z",
       "track": "rolling-url",
-      "catalogSha256": "2acb0b9fd0e9688838fadf155f3bd007d04ac39be71b2bda4e60f6f0d739e3d5"
+      "catalogSha256": "7d5f0844f2d4b87bafcdb265fb25f3fe141ddb4521b4322c9a37dd44a8da3fec"
     },
     "postgresql-18-docs": {
       "revision": "47a8f7958b6b19e6607b2b546a5f043d0afc84dbf0d1e4ccbad18362331c957d",
@@ -368,10 +368,10 @@
       "catalogSha256": "92d1d55a361cd5573abe4e941ca265dce9868b8de489189bb85db8a73d574084"
     },
     "microsoft-postgres-skills": {
-      "revision": "bafd6eea25538f00f64c27369900de777ef0a254",
-      "fetchedAt": "2026-11-12T22:05:40.302Z",
+      "revision": "b7908c0b53b2a292fb8286d4d4bdba7ea4690291",
+      "fetchedAt": "2026-11-14T22:06:57.253Z",
       "track": "default-branch",
-      "catalogSha256": "0f265cb6cdf9fa1516c6c4c5a259a5e1c6cf1ffa3703e61471abf14119f77218"
+      "catalogSha256": "c03a8ba49e345a5808790fd46e9f42316e5a741f6acdddd3a44c726b7d8cd95f"
     },
     "webflow-skills": {
       "revision": "fd07213dfaac2ff33465ff367685711783261287",

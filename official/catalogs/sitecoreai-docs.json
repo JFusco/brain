@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "sitecoreai-docs",
-  "revision": "9fd006f795cca43a5e859d3a227d03693b965bc1df04046bf18d0654e36695d4",
+  "revision": "a8f7324324b6fe528dba425e735432f2b5b5d1de1c620b7ef48c752441d9d375",
   "origin": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -1955,6 +1955,11 @@
       "title": "sitecore content serialization / set up content serialization.html",
       "url": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecore-content-serialization/set-up-content-serialization.html",
       "fetchUrl": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecore-content-serialization/set-up-content-serialization.html"
+    },
+    {
+      "title": "sitecoreai / sitecore developer mcp server.html",
+      "url": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecore-developer-mcp-server.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitecore-developer-mcp-server.html"
     },
     {
       "title": "sitecoreai / sitecoreai glossary.html",

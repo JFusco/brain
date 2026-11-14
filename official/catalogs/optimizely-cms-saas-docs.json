@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms-saas-docs",
-  "revision": "147c6817abc7d00f867d3a5640ef8ebabc83b49ccaefe4707a94f3a2aacb1628",
+  "revision": "11e355af7c3c98fb9b5e59cf61c0253d9d2fb1ac71b0dc4e80b051f3fe79243f",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -890,6 +890,11 @@
       "title": "Compare versions of content",
       "url": "https://docs.optimizely.com/cms-saas/docs/compare-versions-of-content.md",
       "fetchUrl": "https://docs.optimizely.com/cms-saas/docs/compare-versions-of-content.md"
+    },
+    {
+      "title": "Composition properties",
+      "url": "https://docs.optimizely.com/cms-saas/docs/composition-properties.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-saas/docs/composition-properties.md"
     },
     {
       "title": "Configure environments",
