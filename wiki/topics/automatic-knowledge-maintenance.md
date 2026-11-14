@@ -326,3 +326,8 @@ The [delivery evidence journal](../journal/2026-11-09-cms-delivery-and-operation
 ## November 12 image contracts and model selection
 
 The [image/model journal](../journal/2026-11-12-image-contracts-and-model-selection.md) distinguishes constrained CMS Image expansion, purpose-based alternatives and missing-data policy. Current model guidance corrects the Claude lineup and separates reasoning settings from endpoint tool support. Historical fixture outcomes are unverified reports, and production fallback remains a project decision. Partial stale checks retain their signals; independent content review and successful final completion continue to gate capture acceptance.
+
+
+## November 14 OpenAI authoring revalidation
+
+The [authoring revalidation journal](../journal/2026-11-14-openai-authoring-revalidation.md) records claim-level comparison against four official pages. The existing note separates duplicate skill selection from instruction merging and trusted command-rule configuration from prose discovery. No runtime loader, rule or API test is implied; other stale signals remain visible. The pending capture list was empty, so this run adds no capture disposition.
