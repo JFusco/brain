@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "f75ddb246759645293da6fbf38c899296b964a352464988b8a371a28e240842c",
+  "revision": "ccc10547adc93517daf56e02c4703744e278e18ebf9147d31471aab08b5f61e1",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -13090,11 +13090,6 @@
       "title": "lytics / localytics",
       "url": "https://www.contentstack.com/docs/lytics/localytics",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/localytics.md"
-    },
-    {
-      "title": "lytics / lookalike models and audiences",
-      "url": "https://www.contentstack.com/docs/lytics/lookalike-models-and-audiences",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/lookalike-models-and-audiences.md"
     },
     {
       "title": "lytics / lookalike models conserve marketing spend on engaged users",

@@ -26,10 +26,10 @@
       "catalogSha256": "38a9a1ed2a82cae5a492e00930a4ab8a2971e71bd04cf5a1e33684fcf897a3ba"
     },
     "contentful-skills": {
-      "revision": "8f1b79a14e2ec40b42bbdd557c4e4b3f9d3aaef3",
-      "fetchedAt": "2026-11-14T22:04:45.940Z",
+      "revision": "4f1580532305962b4d8270e41239b67fe01dad0a",
+      "fetchedAt": "2026-11-15T22:03:56.227Z",
       "track": "default-branch",
-      "catalogSha256": "7e4ef66f7b938ee9d4603894b0409f1079681de2c1c1beae41d4932e85751a62"
+      "catalogSha256": "a1fab12c57a1279d931ee0de89e8d34888ef792afa7ab5f26da9ae9d725a48c6"
     },
     "optimizely-sdk": {
       "revision": "4f006d52ef4c3ec89ad07654fc42eed84736e786",
@@ -56,10 +56,10 @@
       "catalogSha256": "f94bc3afdfc4e823bce79975a2d2449936c0b371a40660447ed4c753832d5c2b"
     },
     "contentstack-docs": {
-      "revision": "f75ddb246759645293da6fbf38c899296b964a352464988b8a371a28e240842c",
-      "fetchedAt": "2026-11-14T22:04:59.118Z",
+      "revision": "ccc10547adc93517daf56e02c4703744e278e18ebf9147d31471aab08b5f61e1",
+      "fetchedAt": "2026-11-15T22:04:12.531Z",
       "track": "rolling-url",
-      "catalogSha256": "107010b8bcbbc774590dfeb498ae14aad770f80c88f21690e39e6052697616b6"
+      "catalogSha256": "10a2633a264730e205dd850589fc5f2ceb0c39277bbdd5e425100067b9f23fd3"
     },
     "react-docs": {
       "revision": "46a54e0592729712b7640308b53268e84fdc7c9f",
@@ -302,10 +302,10 @@
       "catalogSha256": "5aad7638e716dd8a3177396a08e96ed616bba86cb87b7e02879863d1381552cf"
     },
     "agent-browser-skills": {
-      "revision": "e0c121a96d3a5412e2078e0c8eba3f4d2db2b616",
-      "fetchedAt": "2026-11-14T22:06:34.549Z",
+      "revision": "53384771fbafc261ba67608ac806dd5aa70b84f0",
+      "fetchedAt": "2026-11-15T22:05:04.593Z",
       "track": "default-branch",
-      "catalogSha256": "2cd5c3e0d3e4634a34060080b5f6bf40c3f9207e9f926013f3ca5729fc32f29b"
+      "catalogSha256": "2000ab9691ea12541efd2d73077763f5c878dd82c325caa9ded7ee9d02333375"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
