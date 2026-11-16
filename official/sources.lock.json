@@ -8,10 +8,10 @@
       "catalogSha256": "e3b5337c225d0f9e75190ec721e0724a359df8f09cc6c6769edab2244a34338c"
     },
     "contentstack-kickstart": {
-      "revision": "4b232397c5d17986f7a3fb303d8243f6341d6bbb",
-      "fetchedAt": "2026-11-02T22:03:35.338Z",
+      "revision": "76d860a33edc9921ac16071fd7fc0d43ca3da317",
+      "fetchedAt": "2026-11-16T22:20:18.478Z",
       "track": "default-branch",
-      "catalogSha256": "945e778f0f3152b9007126fefda643e5277cb418b73518a74a91154b318cad10"
+      "catalogSha256": "0c528be6b8c4f57190f52e3935984902866d8ad5667301b7a338957b9d118ba5"
     },
     "vercel-agent-skills": {
       "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
@@ -20,16 +20,16 @@
       "catalogSha256": "72bc6620c2d55475ef17675d0ca6c67a04cd461e503d98a83d60557a2f98d303"
     },
     "vercel-plugin": {
-      "revision": "b004b4098274bb1b3a0290623260e23432437b4b",
-      "fetchedAt": "2026-11-12T22:04:14.348Z",
+      "revision": "90cc6817f3d5ead335d4f0f50f210557f55e43f5",
+      "fetchedAt": "2026-11-16T22:20:23.717Z",
       "track": "default-branch",
-      "catalogSha256": "38a9a1ed2a82cae5a492e00930a4ab8a2971e71bd04cf5a1e33684fcf897a3ba"
+      "catalogSha256": "e1a006dacf6761a5ab2091aafbff3f19afd6231b15b002121f46c0b3a3c82054"
     },
     "contentful-skills": {
-      "revision": "4f1580532305962b4d8270e41239b67fe01dad0a",
-      "fetchedAt": "2026-11-15T22:03:56.227Z",
+      "revision": "51eb8746023661be9750fe5a51af0d633d1a3061",
+      "fetchedAt": "2026-11-16T22:20:26.409Z",
       "track": "default-branch",
-      "catalogSha256": "a1fab12c57a1279d931ee0de89e8d34888ef792afa7ab5f26da9ae9d725a48c6"
+      "catalogSha256": "9f507f01a66b1d05a8cb4660f10d0bc085be8b466242425e53ffa76b3fd111e3"
     },
     "optimizely-sdk": {
       "revision": "4f006d52ef4c3ec89ad07654fc42eed84736e786",
@@ -50,16 +50,16 @@
       "catalogSha256": "a03215f816e8ed573114594350555ac0c8c41d8e8aabe4282e355d5cf44a7c74"
     },
     "vercel-docs": {
-      "revision": "ee98906f5e33e41d053c1cf43ca78ebe9eb4677b883fc163cfd61d14fa8d497e",
-      "fetchedAt": "2026-11-14T22:04:55.907Z",
+      "revision": "ab1a17a16f4a47a2470c6964c81576b99c3163c245f2063249ae46aa139fd577",
+      "fetchedAt": "2026-11-16T22:20:36.410Z",
       "track": "rolling-url",
-      "catalogSha256": "f94bc3afdfc4e823bce79975a2d2449936c0b371a40660447ed4c753832d5c2b"
+      "catalogSha256": "50bd2855dfbeab4a2b1c6d1a9535494b9fdf8229f3a2fe48cc2207ee2a7bae2d"
     },
     "contentstack-docs": {
-      "revision": "ccc10547adc93517daf56e02c4703744e278e18ebf9147d31471aab08b5f61e1",
-      "fetchedAt": "2026-11-15T22:04:12.531Z",
+      "revision": "d2d8805883af7702974341e4d85aade526570527985329205a40cd7af8ce7356",
+      "fetchedAt": "2026-11-16T22:20:44.271Z",
       "track": "rolling-url",
-      "catalogSha256": "10a2633a264730e205dd850589fc5f2ceb0c39277bbdd5e425100067b9f23fd3"
+      "catalogSha256": "517cba9c08babacf73ce505f0b4c47ee09e655ace48ee0e97d1909912b8c5a65"
     },
     "react-docs": {
       "revision": "46a54e0592729712b7640308b53268e84fdc7c9f",
@@ -158,10 +158,10 @@
       "catalogSha256": "b7d27953b0cd1727c78d236608944ce57a98775a839dc668ac22f3dcb374af52"
     },
     "owasp-cheat-sheets": {
-      "revision": "6d07d8e422d2f2e96d3b1304a9d16b7f54e1b4ccd472bc6745fee122153d3775",
-      "fetchedAt": "2026-10-21T14:43:48.091Z",
+      "revision": "5f832320b0be0931ad349aab92409cf32011bcab33d52edbf323341b05e9c9cf",
+      "fetchedAt": "2026-11-16T22:21:22.252Z",
       "track": "rolling-url",
-      "catalogSha256": "4ad611ae601034742aa0efb2ba4be224ffceee8e0a112de64dda3fd5748650e4"
+      "catalogSha256": "1d9e8219bd86771b46133bf58f1500005df2668fcef2ba2a13b947de2d2baaa7"
     },
     "schemaorg-docs": {
       "revision": "fd5f6e3f496d0f569a651cc9f87b867dc9659da7d6ad010607c5bf1501822dee",
@@ -200,10 +200,10 @@
       "catalogSha256": "454897787813334dee8773f0620386bbfa1f13ba1a698f2b2301af8697d81a32"
     },
     "web-features-baseline": {
-      "revision": "6248b5d7613eaba47649700083a04f1815104129",
-      "fetchedAt": "2026-11-14T22:05:51.278Z",
+      "revision": "5480f19e0c0b41af73d03310d4a34693e2f34d73",
+      "fetchedAt": "2026-11-16T22:21:31.803Z",
       "track": "default-branch",
-      "catalogSha256": "65c635bc0918be0a252f800dacdc694557ca269a135ef67dada57418950d3633"
+      "catalogSha256": "37a2f041dd73c4565025d0335e70059360b2e92c5f7f7355c2dcf9b5d6a496ca"
     },
     "vite-docs": {
       "revision": "3775d0f7cb461ad88a27fa13ae51dbc82d130d09febbe7e9796894b5ce1152ef",
@@ -290,22 +290,22 @@
       "catalogSha256": "6adff29a30d9d6f5b52d5f26a7ff339e8276951c549ec1eaca2daa1f29956e9e"
     },
     "motion-docs": {
-      "revision": "1dcdcca6006fddbdda0de75659365078bc5e64257cabebb033ed3140c826577a",
-      "fetchedAt": "2026-11-09T22:30:28.068Z",
+      "revision": "cd0014c951aa1e65e6fbc83c8e3918f2882ed6d96863e74d5b1c3e01eb4bc906",
+      "fetchedAt": "2026-11-16T22:21:56.837Z",
       "track": "rolling-url",
-      "catalogSha256": "93d4351759f067f739207453e5eab0e17607f21b2cb808f3b7131802a8ff3421"
+      "catalogSha256": "b808a7c0ab9088076e6ed6b012f7df799978ed2156cc507d66fdcf4bdc481b63"
     },
     "chrome-devtools-skills": {
-      "revision": "8ba2ac945ebaf1adb92208c29f3a30e73a920956",
-      "fetchedAt": "2026-11-14T22:06:31.018Z",
+      "revision": "dc0055828a9fcdcf8c3e65f7ecd1847c53fd972a",
+      "fetchedAt": "2026-11-16T22:22:22.022Z",
       "track": "default-branch",
-      "catalogSha256": "5aad7638e716dd8a3177396a08e96ed616bba86cb87b7e02879863d1381552cf"
+      "catalogSha256": "e76ac11041a09dff84e08b8d7bacc93bbfd1f6e12bf572ea505353d81846911b"
     },
     "agent-browser-skills": {
-      "revision": "53384771fbafc261ba67608ac806dd5aa70b84f0",
-      "fetchedAt": "2026-11-15T22:05:04.593Z",
+      "revision": "b06e2533ba9b3823b8a96c859d455cb55f4d7893",
+      "fetchedAt": "2026-11-16T22:22:53.622Z",
       "track": "default-branch",
-      "catalogSha256": "2000ab9691ea12541efd2d73077763f5c878dd82c325caa9ded7ee9d02333375"
+      "catalogSha256": "b040e7d0d102fac5c3f414adad797860830022b55df5470acd3a33d0b4cabefb"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
@@ -374,10 +374,10 @@
       "catalogSha256": "c03a8ba49e345a5808790fd46e9f42316e5a741f6acdddd3a44c726b7d8cd95f"
     },
     "webflow-skills": {
-      "revision": "fd07213dfaac2ff33465ff367685711783261287",
-      "fetchedAt": "2026-11-01T15:54:38.262Z",
+      "revision": "219921cd4c288eed24ef3e93abe60fb35f65bc8a",
+      "fetchedAt": "2026-11-16T22:23:12.837Z",
       "track": "default-branch",
-      "catalogSha256": "545709d9cb45c4d7d49a8e0ddd009651511771bce31ed82a1e07aabbd07108b0"
+      "catalogSha256": "c443bb37eefbe0a68dc77cb28494ca8c6b94a21540fa24363fe783f15e7e0b1a"
     }
   },
   "toolchain": {
