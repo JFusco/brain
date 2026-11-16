@@ -336,3 +336,8 @@ The [authoring revalidation journal](../journal/2026-11-14-openai-authoring-reva
 ## November 15 publication acceptance and agent handoffs
 
 The [publication and handoff journal](../journal/2026-11-15-publication-acceptance-and-handoffs.md) records SitecoreAI lifecycle-specific acceptance, identity-control diagnosis and workflow-effect scope, plus extensions to the existing agent-concurrency playbook. Shared role evidence, bounded recovery and lesson-exposure distinctions remain proposed practices. Documented API/protocol mechanisms do not establish connected CMS acceptance, live recovery or improved outcomes. Private capture accounting, independent exact-head content review and successful nightly completion still precede capture acceptance. Existing stale signals remain visible.
+
+
+## November 16 Claude authoring revalidation
+
+The [Claude authoring journal](../journal/2026-11-16-claude-authoring-revalidation.md) records source verification of the overdue skills/rules note. Invocation controls, temporary tool grants and instruction-loading hook evidence are distinct decisions. Existing portability guidance is linked rather than duplicated. No loader, permission or skill execution result is implied; other stale signals remain visible. There were no eligible pending captures at the review cutoff.
