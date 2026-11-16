@@ -14,15 +14,15 @@ aliases: ["contentful"]
 <!-- brain:official:start -->
 ## Official sources
 
-- **contentful-skills** — 8 skills and 64 docs at a pinned commit; default-branch; revision `4f1580532305962b4d8270e41239b67fe01dad0a`; fetched 2026-11-15.
-  - [channels-destinations](https://github.com/contentful/skills/blob/4f1580532305962b4d8270e41239b67fe01dad0a/skills/channels-destinations/SKILL.md) — reference only.
-  - [contentful-api](https://github.com/contentful/skills/blob/4f1580532305962b4d8270e41239b67fe01dad0a/skills/contentful-api/SKILL.md) — reference only.
-  - [contentful-env-analysis](https://github.com/contentful/skills/blob/4f1580532305962b4d8270e41239b67fe01dad0a/skills/contentful-env-analysis/SKILL.md) — reference only.
-  - [contentful-guide](https://github.com/contentful/skills/blob/4f1580532305962b4d8270e41239b67fe01dad0a/skills/contentful-guide/SKILL.md) — reference only.
-  - [contentful-migration](https://github.com/contentful/skills/blob/4f1580532305962b4d8270e41239b67fe01dad0a/skills/contentful-migration/SKILL.md) — reference only.
-  - [contentful-nextjs](https://github.com/contentful/skills/blob/4f1580532305962b4d8270e41239b67fe01dad0a/skills/contentful-nextjs/SKILL.md) — reference only.
-  - [contentful-personalization](https://github.com/contentful/skills/blob/4f1580532305962b4d8270e41239b67fe01dad0a/skills/contentful-personalization/SKILL.md) — reference only.
-  - [exo-content-bindings](https://github.com/contentful/skills/blob/4f1580532305962b4d8270e41239b67fe01dad0a/skills/exo-content-bindings/SKILL.md) — reference only.
+- **contentful-skills** — 8 skills and 64 docs at a pinned commit; default-branch; revision `51eb8746023661be9750fe5a51af0d633d1a3061`; fetched 2026-11-16.
+  - [channels-destinations](https://github.com/contentful/skills/blob/51eb8746023661be9750fe5a51af0d633d1a3061/skills/channels-destinations/SKILL.md) — reference only.
+  - [contentful-api](https://github.com/contentful/skills/blob/51eb8746023661be9750fe5a51af0d633d1a3061/skills/contentful-api/SKILL.md) — reference only.
+  - [contentful-env-analysis](https://github.com/contentful/skills/blob/51eb8746023661be9750fe5a51af0d633d1a3061/skills/contentful-env-analysis/SKILL.md) — reference only.
+  - [contentful-guide](https://github.com/contentful/skills/blob/51eb8746023661be9750fe5a51af0d633d1a3061/skills/contentful-guide/SKILL.md) — reference only.
+  - [contentful-migration](https://github.com/contentful/skills/blob/51eb8746023661be9750fe5a51af0d633d1a3061/skills/contentful-migration/SKILL.md) — reference only.
+  - [contentful-nextjs](https://github.com/contentful/skills/blob/51eb8746023661be9750fe5a51af0d633d1a3061/skills/contentful-nextjs/SKILL.md) — reference only.
+  - [contentful-personalization](https://github.com/contentful/skills/blob/51eb8746023661be9750fe5a51af0d633d1a3061/skills/contentful-personalization/SKILL.md) — reference only.
+  - [exo-content-bindings](https://github.com/contentful/skills/blob/51eb8746023661be9750fe5a51af0d633d1a3061/skills/exo-content-bindings/SKILL.md) — reference only.
 - [Official website](https://www.contentful.com/developers/docs/references/api-basics.md) — pointer only: Official API overview in supported Markdown: delivery, management, preview, images and GraphQL. Follow the relevant API reference for the task.
 - [Official website](https://www.contentful.com/developers/docs/sdks/javascript/sdks.md) — pointer only: Official JavaScript client-library guide in supported Markdown. Confirm the consuming application's installed SDK and selected API; this is not a full documentation catalog.
 <!-- brain:official:end -->

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "owasp-cheat-sheets",
-  "revision": "6d07d8e422d2f2e96d3b1304a9d16b7f54e1b4ccd472bc6745fee122153d3775",
+  "revision": "5f832320b0be0931ad349aab92409cf32011bcab33d52edbf323341b05e9c9cf",
   "origin": "https://cheatsheetseries.owasp.org/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -130,6 +130,11 @@
       "title": "cheatsheets / Cookie_Theft_Mitigation_Cheat_Sheet.html",
       "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cookie_Theft_Mitigation_Cheat_Sheet.html",
       "fetchUrl": "https://cheatsheetseries.owasp.org/cheatsheets/Cookie_Theft_Mitigation_Cheat_Sheet.html"
+    },
+    {
+      "title": "cheatsheets / CORS_Security_Cheat_Sheet.html",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/CORS_Security_Cheat_Sheet.html",
+      "fetchUrl": "https://cheatsheetseries.owasp.org/cheatsheets/CORS_Security_Cheat_Sheet.html"
     },
     {
       "title": "cheatsheets / Credential_Stuffing_Prevention_Cheat_Sheet.html",
@@ -440,6 +445,11 @@
       "title": "cheatsheets / Password_Storage_Cheat_Sheet.html",
       "url": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html",
       "fetchUrl": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html"
+    },
+    {
+      "title": "cheatsheets / Path_Traversal_Prevention_Cheat_Sheet.html",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Path_Traversal_Prevention_Cheat_Sheet.html",
+      "fetchUrl": "https://cheatsheetseries.owasp.org/cheatsheets/Path_Traversal_Prevention_Cheat_Sheet.html"
     },
     {
       "title": "cheatsheets / PHP_Configuration_Cheat_Sheet.html",

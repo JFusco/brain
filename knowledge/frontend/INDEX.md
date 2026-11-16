@@ -30,11 +30,11 @@ aliases: ["frontend"]
   - [Catalog source](https://www.w3.org/International/techniques/authoring-html); search it with `lookup --domain frontend`.
 - **playwright-docs** — link catalog of 148 pages; rolling-url; revision `2b872424e6169ff0fd683c0180343963f96230188d530e2b5be4706daaa9829c`; fetched 2026-10-22.
   - [Catalog source](https://playwright.dev/sitemap.xml); search it with `lookup --domain frontend`.
-- **web-features-baseline** — 0 skills and 4 docs at a pinned commit; default-branch; revision `6248b5d7613eaba47649700083a04f1815104129`; fetched 2026-11-14.
-  - [docs/baseline.md](https://github.com/web-platform-dx/web-features/blob/6248b5d7613eaba47649700083a04f1815104129/docs/baseline.md).
-  - [packages/compute-baseline/README.md](https://github.com/web-platform-dx/web-features/blob/6248b5d7613eaba47649700083a04f1815104129/packages/compute-baseline/README.md).
-  - [packages/web-features/README.md](https://github.com/web-platform-dx/web-features/blob/6248b5d7613eaba47649700083a04f1815104129/packages/web-features/README.md).
-  - [README.md](https://github.com/web-platform-dx/web-features/blob/6248b5d7613eaba47649700083a04f1815104129/README.md).
-- **motion-docs** — link catalog of 153 pages; rolling-url; revision `1dcdcca6006fddbdda0de75659365078bc5e64257cabebb033ed3140c826577a`; fetched 2026-11-09.
+- **web-features-baseline** — 0 skills and 4 docs at a pinned commit; default-branch; revision `5480f19e0c0b41af73d03310d4a34693e2f34d73`; fetched 2026-11-16.
+  - [docs/baseline.md](https://github.com/web-platform-dx/web-features/blob/5480f19e0c0b41af73d03310d4a34693e2f34d73/docs/baseline.md).
+  - [packages/compute-baseline/README.md](https://github.com/web-platform-dx/web-features/blob/5480f19e0c0b41af73d03310d4a34693e2f34d73/packages/compute-baseline/README.md).
+  - [packages/web-features/README.md](https://github.com/web-platform-dx/web-features/blob/5480f19e0c0b41af73d03310d4a34693e2f34d73/packages/web-features/README.md).
+  - [README.md](https://github.com/web-platform-dx/web-features/blob/5480f19e0c0b41af73d03310d4a34693e2f34d73/README.md).
+- **motion-docs** — link catalog of 154 pages; rolling-url; revision `cd0014c951aa1e65e6fbc83c8e3918f2882ed6d96863e74d5b1c3e01eb4bc906`; fetched 2026-11-16.
   - [Catalog source](https://motion.dev/llms.txt); search it with `lookup --domain frontend`.
 <!-- brain:official:end -->

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "ee98906f5e33e41d053c1cf43ca78ebe9eb4677b883fc163cfd61d14fa8d497e",
+  "revision": "ab1a17a16f4a47a2470c6964c81576b99c3163c245f2063249ae46aa139fd577",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -682,6 +682,11 @@
       "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/create_flag.md"
     },
     {
+      "title": "create_flags_project_connection",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/create_flags_project_connection",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/create_flags_project_connection.md"
+    },
+    {
       "title": "create_sdk_key",
       "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/create_sdk_key",
       "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/create_sdk_key.md"
@@ -702,6 +707,11 @@
       "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/get_flag_settings.md"
     },
     {
+      "title": "get_flags_project_disconnection_link",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/get_flags_project_disconnection_link",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/get_flags_project_disconnection_link.md"
+    },
+    {
       "title": "list_feature_flag_sdk_keys",
       "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/list_feature_flag_sdk_keys",
       "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/list_feature_flag_sdk_keys.md"
@@ -720,6 +730,11 @@
       "title": "list_flags",
       "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/list_flags",
       "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/list_flags.md"
+    },
+    {
+      "title": "list_flags_project_connections",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/list_flags_project_connections",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/feature-flags/list_flags_project_connections.md"
     },
     {
       "title": "list_flags_v2",
@@ -4105,6 +4120,11 @@
       "title": "Limits and Pricing for Vercel Flags",
       "url": "https://vercel.com/docs/flags/vercel-flags/limits-and-pricing",
       "fetchUrl": "https://vercel.com/docs/flags/vercel-flags/limits-and-pricing.md"
+    },
+    {
+      "title": "Connecting Projects to Share Flags",
+      "url": "https://vercel.com/docs/flags/vercel-flags/project-connections",
+      "fetchUrl": "https://vercel.com/docs/flags/vercel-flags/project-connections.md"
     },
     {
       "title": "Getting Started with Vercel Flags",

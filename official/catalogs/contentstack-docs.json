@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "ccc10547adc93517daf56e02c4703744e278e18ebf9147d31471aab08b5f61e1",
+  "revision": "d2d8805883af7702974341e4d85aade526570527985329205a40cd7af8ce7356",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -6022,9 +6022,19 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/client.md"
     },
     {
+      "title": "reference / contentstack",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/contentstack",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/contentstack.md"
+    },
+    {
       "title": "reference / contenttype",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/contenttype",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/contenttype.md"
+    },
+    {
+      "title": "reference / endpoint",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/endpoint",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/endpoint.md"
     },
     {
       "title": "reference / entry",
@@ -6040,6 +6050,11 @@
       "title": "reference / query",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/query",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/query.md"
+    },
+    {
+      "title": "reference / region",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/region",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/ruby/reference/region.md"
     },
     {
       "title": "reference / syncresult",
@@ -7362,6 +7377,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/entry.md"
     },
     {
+      "title": "reference / entry variants",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/entry-variants",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/entry-variants.md"
+    },
+    {
       "title": "reference / environment",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/environment",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/environment.md"
@@ -7397,9 +7417,19 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/metadata.md"
     },
     {
+      "title": "reference / oauth",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/oauth",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/oauth.md"
+    },
+    {
       "title": "reference / organization",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/organization",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/organization.md"
+    },
+    {
+      "title": "reference / parameter",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/parameter",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/parameter.md"
     },
     {
       "title": "reference / publish queue",
@@ -7445,6 +7475,16 @@
       "title": "reference / user session",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/user-session",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/user-session.md"
+    },
+    {
+      "title": "reference / variant group",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/variant-group",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/variant-group.md"
+    },
+    {
+      "title": "reference / variants",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/variants",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/python/reference/variants.md"
     },
     {
       "title": "reference / webhooks",
@@ -12435,11 +12475,6 @@
       "title": "lytics / consent",
       "url": "https://www.contentstack.com/docs/lytics/consent",
       "fetchUrl": "https://www.contentstack.com/docs/lytics/consent.md"
-    },
-    {
-      "title": "lytics / consent and privacy",
-      "url": "https://www.contentstack.com/docs/lytics/consent-and-privacy",
-      "fetchUrl": "https://www.contentstack.com/docs/lytics/consent-and-privacy.md"
     },
     {
       "title": "lytics / content affinity engine",
