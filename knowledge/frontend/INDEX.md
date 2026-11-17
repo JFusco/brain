@@ -19,6 +19,7 @@ aliases: ["frontend"]
 - [Prepare a focused browser verification](browser-verification-playbook.md)
 - [Prepare a multilingual CMS page](multilingual-page-playbook.md)
 - [Preserve component meaning when preparing design context](design-component-context.md)
+- [Verify artwork meaning across responsive frames](meaning-bearing-artwork.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->

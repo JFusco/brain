@@ -13,6 +13,7 @@ aliases: ["sitecore-ai"]
 - [Match SitecoreAI acceptance to publication stage](publication-stage-and-route-acceptance.md)
 - [Plan SitecoreAI migration evidence and dependencies](migration-evidence-and-dependencies.md)
 - [Verify SitecoreAI imports against native state](import-readback-against-native-state.md)
+- [Verify component fit and structured authoring](component-fit-and-authoring.md)
 - [Verify webhook selection and search freshness separately](event-and-search-evidence.md)
 <!-- brain:curated:end -->
 
