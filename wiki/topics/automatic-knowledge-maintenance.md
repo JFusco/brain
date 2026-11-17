@@ -341,3 +341,8 @@ The [publication and handoff journal](../journal/2026-11-15-publication-acceptan
 ## November 16 Claude authoring revalidation
 
 The [Claude authoring journal](../journal/2026-11-16-claude-authoring-revalidation.md) records source verification of the overdue skills/rules note. Invocation controls, temporary tool grants and instruction-loading hook evidence are distinct decisions. Existing portability guidance is linked rather than duplicated. No loader, permission or skill execution result is implied; other stale signals remain visible. There were no eligible pending captures at the review cutoff.
+
+
+## November 17 component fit and model selection
+
+The [component-fit journal](../journal/2026-11-17-component-fit-and-model-selection.md) distinguishes legal component placement, deployed behavior, author controls and active-feature measurement. Responsive artwork review separately checks meaning after delivery. Verified vendor mechanisms support proposed procedures without promoting historical pilots or incidental versions into general guarantees. Current OpenAI model/endpoint guidance replaces the older selection table while retaining dated history. Private whole-capture accounting, fresh separate review and successful nightly completion remain the acceptance boundary; unrelated stale signals remain flagged.

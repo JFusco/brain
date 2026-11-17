@@ -3,11 +3,11 @@ title: "Choose OpenAI models and reasoning by task"
 format: "playbook"
 domain: "tooling"
 aliases: ["OpenAI model strengths and weaknesses", "GPT-6 Astra Sol Terra Luna", "reasoning effort", "OpenAI model best practices"]
-evidence_date: "2026-11-12"
-reviewed_at: "2026-11-12"
-review_after: "2026-11-19"
-applicability: "OpenAI GPT-6 and GPT-6.1 general-purpose API models documented on the evidence date; ChatGPT and Codex availability and settings can differ"
-provenance: "openai-agent-docs@2f65a1c528d6dccb8a7c7d04fe209add45b4bb40488d697f1288ce0fab62f1ed; official model catalog, selection, GPT-6 compatibility and prompt-engineering pages re-read 2026-11-12"
+evidence_date: "2026-11-17"
+reviewed_at: "2026-11-17"
+review_after: "2026-11-24"
+applicability: "OpenAI GPT-6.2 Astra/Sol, GPT-6.1 Terra and GPT-6 Luna API models documented on the evidence date; ChatGPT and Codex availability and settings can differ"
+provenance: "openai-agent-docs@05a126e0845f565030e232fcef708ce3cc740384fd692887526fedbd0c74657b; official model catalog, selection, GPT-6.2 compatibility and prompt-engineering pages re-read 2026-11-17"
 status: "current"
 versions: []
 ---
@@ -24,19 +24,21 @@ The [model catalog](https://developers.openai.com/api/docs/models) and [selectio
 
 | Model / API ID | Documented strength | Selection tradeoff |
 | --- | --- | --- |
-| GPT-6 Astra / `gpt-6-astra` | Demanding reasoning, coding and professional work; ambiguous problems and deep analysis | Assess completed-task cost and quality; vendor capability positioning is not a task-specific benchmark. |
-| GPT-6.1 Sol / `gpt-6.1-sol` | Complex work with a balance of intelligence, time and cost | Consider for cost-conscious complex work; near-Astra is vendor positioning, not equal performance on every task. |
-| GPT-6.1 Terra / `gpt-6.1-terra` | Visual reasoning, computer use, clear writing and scoped code fixes | Evaluate accuracy of screen actions and saved results; focused strengths do not establish suitability for all deep reasoning. |
-| GPT-6 Luna / `gpt-6-luna` | Focused, high-volume tasks, triage and frequent automations | Prioritize efficiency for scoped work; validate quality before routing ambiguous or complex tasks to it. |
+| GPT-6.2 Astra / `gpt-6.2-astra` | Complex professional work, demanding reasoning and coding | Evaluate completed-task quality and cost; vendor positioning is not a workload benchmark. |
+| GPT-6.2 Sol / `gpt-6.2-sol` | Coding, documents and multistep everyday work with lower cost than Astra | Compare representative work before deciding the efficiency/quality tradeoff. |
+| GPT-6.1 Terra / `gpt-6.1-terra` | Visual workflows, computer use, concise writing and focused fixes | Verify saved results and screen actions; a useful specialization is not a universal ranking. |
+| GPT-6 Luna / `gpt-6-luna` | Frequent, bounded tasks and extraction | Validate the quality bar before routing ambiguous work to an efficient model. |
 
-1. **Documented:** [Using GPT-6](https://developers.openai.com/api/docs/guides/latest-model/gpt-6-astra) distinguishes reasoning support: Astra and GPT-6.1 Sol do not support `none`; Terra and Luna do. Set effort explicitly for the selected product and model; test quality before spending more time/tokens on higher effort. For these GPT-6 models, use Responses for reasoning with tools; do not assume Chat Completions accepts the same tool/parameter combinations.
-2. **Documented:** the [selection guide](https://developers.openai.com/api/docs/guides/model-selection) recommends comparing Terra and Sol on the same inputs and effort, checking writing quality beyond length and computer-use results beyond completion reports. **Proposed:** extend that controlled comparison across your candidate models, recording exact IDs, product, prompt, effort, required tools, verified output, latency and completed-task cost, including retries.
-3. **Documented:** [prompt engineering](https://developers.openai.com/api/docs/guides/prompt-engineering) recommends model snapshots where available and evaluation suites when prompts or models change. **Proposed:** define acceptance criteria before choosing the cheapest candidate that meets them. Treat concrete failed cases as weaknesses; do not invent general personality labels or transfer older o-series advice to all GPT-6 models.
+1. **Documented:** the [GPT-6.2 guide](https://developers.openai.com/api/docs/guides/latest-model/gpt-6.2-astra) recommends `medium` for new Astra/Sol integrations and `low` when replacing `none` or `minimal`. Tool calling requires Responses; Chat Completions availability does not imply tool support. Set effort and endpoint explicitly for the exact model/product. The catalog lists `none` for Terra and Luna; do not transfer that setting to Astra/Sol.
+2. **Documented:** the [selection guide](https://developers.openai.com/api/docs/guides/model-selection) recommends acceptance criteria, representative inputs and completed-task cost including retries. Check writing facts/voice, reopen saved computer-use results, and test code plus rendered interfaces. **Proposed:** record exact model ID, product, prompt, effort, tools, verified output, latency and review/repair cost. Compare models with consistent inputs and supported effort, then vary effort with model and inputs fixed.
+3. **Documented:** [prompt engineering](https://developers.openai.com/api/docs/guides/prompt-engineering) recommends snapshots where available and evaluation suites when prompts or models change. **Proposed:** keep the lightest candidate that meets the actual acceptance criteria; describe weaknesses using failed cases, not general personality labels.
 
 ## Evidence and limits
 
 No model executions, performance benchmarks or cross-provider tests were run. Prices, availability and defaults can change; reopen the exact model page before adopting this dated table. Specialized audio, image, embedding, open-weight and legacy models are separate choices through the [complete catalog](https://developers.openai.com/api/docs/models/all). See [OpenAI skills and rules](openai-skills-and-rules.md) and [Claude model selection](claude-model-selection.md) for the corresponding workflow and provider boundaries.
 
-**Revalidated November 2, 2026:** Current catalog and selection pages support the workload distinctions in the table. The GPT-6 guide requires Responses for tool calling with Astra, GPT-6.1 Sol and GPT-6.1 Terra; GPT-6 Sol and Luna permit Chat Completions function calling only with `none`. Use Responses for reasoning with tools and verify the exact model/endpoint combination. The prompt-engineering page still recommends snapshots and evaluations. Product availability, proposed comparisons and measured performance remain separate.
+**Historical revalidation, November 2, 2026 (GPT-6/GPT-6.1 scope):** Current catalog and selection pages support the workload distinctions in the table. The GPT-6 guide requires Responses for tool calling with Astra, GPT-6.1 Sol and GPT-6.1 Terra; GPT-6 Sol and Luna permit Chat Completions function calling only with `none`. Use Responses for reasoning with tools and verify the exact model/endpoint combination. The prompt-engineering page still recommends snapshots and evaluations. Product availability, proposed comparisons and measured performance remain separate.
 
-**Revalidated November 12, 2026:** The live catalog and selection guide still support the four workload distinctions. The current compatibility guide distinguishes support for `none` from support for tool calling: Terra supports `none`, but its Chat Completions endpoint still cannot call tools. Use Responses for tool workflows and preserve supported effective effort during migration; do not infer defaults from a model tier. Snapshot/evaluation recommendations remain documented. No model execution or benchmark was performed.
+**Historical revalidation, November 12, 2026 (GPT-6/GPT-6.1 scope):** The live catalog and selection guide still support the four workload distinctions. The current compatibility guide distinguishes support for `none` from support for tool calling: Terra supports `none`, but its Chat Completions endpoint still cannot call tools. Use Responses for tool workflows and preserve supported effective effort during migration; do not infer defaults from a model tier. Snapshot/evaluation recommendations remain documented. No model execution or benchmark was performed.
+
+**Revalidated November 17, 2026:** The current official catalog and selection page now identify GPT-6.2 Astra and Sol. The table and endpoint/effort guidance above use those exact versions; earlier revalidation paragraphs describe their own historical scope, not current defaults. Source text was checked, not just the catalog revision. No model execution or benchmark was performed.
