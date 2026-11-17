@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "ab1a17a16f4a47a2470c6964c81576b99c3163c245f2063249ae46aa139fd577",
+  "revision": "87390fa8be8d2af235e29073d9fc1eb52b27c17280e9243d5eb0e3c57425c008",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -4317,11 +4317,6 @@
       "fetchUrl": "https://vercel.com/docs/functions.md"
     },
     {
-      "title": "Concurrency scaling",
-      "url": "https://vercel.com/docs/functions/concurrency-scaling",
-      "fetchUrl": "https://vercel.com/docs/functions/concurrency-scaling.md"
-    },
-    {
       "title": "Configuring Functions",
       "url": "https://vercel.com/docs/functions/configuring-functions",
       "fetchUrl": "https://vercel.com/docs/functions/configuring-functions.md"
@@ -4455,6 +4450,11 @@
       "title": "Streaming",
       "url": "https://vercel.com/docs/functions/streaming-functions",
       "fetchUrl": "https://vercel.com/docs/functions/streaming-functions.md"
+    },
+    {
+      "title": "Troubleshooting Vercel Functions",
+      "url": "https://vercel.com/docs/functions/troubleshooting",
+      "fetchUrl": "https://vercel.com/docs/functions/troubleshooting.md"
     },
     {
       "title": "Fluid compute pricing",

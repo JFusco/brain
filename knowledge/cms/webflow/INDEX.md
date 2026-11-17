@@ -84,44 +84,44 @@ No curated notes yet.
 <!-- brain:official:start -->
 ## Official sources
 
-- **webflow-docs** — link catalog of 721 pages; rolling-url; revision `8993bd8e62fa5454d16c31a939b86dd9d4117dc8fc5c535fee3b35f63836329c`; fetched 2026-11-01.
+- **webflow-docs** — link catalog of 723 pages; rolling-url; revision `20554e7490aa5947e3a4c5296ab9354348826ee1f5654da531e7e5215573a714`; fetched 2026-11-17.
   - [Catalog source](https://developers.webflow.com/sitemap.xml); search it with `lookup --domain cms/webflow`.
 - **webflow-university-resources** — link catalog of 10 pages; rolling-url; revision `4a1a739c088dd682318c1747a830c2f84102a2e44e43c40c0a825748d5a5f992`; fetched 2026-11-01.
   - [Catalog source](https://university.webflow.com/sitemap.xml); search it with `lookup --domain cms/webflow`.
-- **webflow-mcp-server** — 0 skills and 1 docs at a pinned commit; default-branch; revision `a03e2a205d0d0aa63f965262dabe7e4014cc57ec`; fetched 2026-11-09.
-  - [README.md](https://github.com/webflow/mcp-server/blob/a03e2a205d0d0aa63f965262dabe7e4014cc57ec/README.md).
-- **webflow-skills** — 33 skills and 27 docs at a pinned commit; default-branch; revision `219921cd4c288eed24ef3e93abe60fb35f65bc8a`; fetched 2026-11-16.
-  - [accessibility-audit](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/accessibility-audit/SKILL.md) — reference only.
-  - [asset-audit](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/asset-audit/SKILL.md) — reference only.
-  - [bulk-cms-update](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/bulk-cms-update/SKILL.md) — reference only.
-  - [cloud-apps](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/cloud-apps/SKILL.md) — reference only.
-  - [cms-best-practices](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/cms-best-practices/SKILL.md) — reference only.
-  - [cms-collection-setup](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/cms-collection-setup/SKILL.md) — reference only.
-  - [code-component-command](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/code-component-command/SKILL.md) — reference only.
-  - [component-audit](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/component-audit/SKILL.md) — reference only.
-  - [component-scaffold](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/component-scaffold/SKILL.md) — reference only.
-  - [convert-component](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/convert-component/SKILL.md) — reference only.
-  - [custom-code-management](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/custom-code-management/SKILL.md) — reference only.
-  - [deploy-guide](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/deploy-guide/SKILL.md) — reference only.
-  - [designer-extension-command](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/designer-extension-command/SKILL.md) — reference only.
-  - [designer-tools](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/designer-tools/SKILL.md) — reference only.
-  - [devlink-command](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/devlink-command/SKILL.md) — reference only.
-  - [figma-to-webflow](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/SKILL.md) — reference only.
-  - [flowkit-naming](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/flowkit-naming/SKILL.md) — reference only.
-  - [interactions](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/SKILL.md) — reference only.
-  - [link-checker](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/link-checker/SKILL.md) — reference only.
-  - [local-dev-setup](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/local-dev-setup/SKILL.md) — reference only.
-  - [pre-deploy-check](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/pre-deploy-check/SKILL.md) — reference only.
-  - [review-comments](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/review-comments/SKILL.md) — reference only.
-  - [safe-publish](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/safe-publish/SKILL.md) — reference only.
-  - [site-activity](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/site-activity/SKILL.md) — reference only.
-  - [site-audit](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/site-audit/SKILL.md) — reference only.
-  - [troubleshoot-deploy](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md) — reference only.
-  - [waf-rules](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/waf-rules/SKILL.md) — reference only.
-  - [webflow-cli-troubleshooter](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/webflow-cli-troubleshooter/SKILL.md) — reference only.
-  - [webflow-cloud-command](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/webflow-cloud-command/SKILL.md) — reference only.
-  - [webflow-compress-cms-image](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/webflow-compress-cms-image/SKILL.md) — reference only.
-  - [wfu-mcp-getting-started](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/wfu-mcp-getting-started/SKILL.md) — reference only.
-  - [wfu-migrate-cms](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/wfu-migrate-cms/SKILL.md) — reference only.
-  - [wfu-new-cms-plan](https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/wfu-new-cms-plan/SKILL.md) — reference only.
+- **webflow-mcp-server** — 0 skills and 1 docs at a pinned commit; default-branch; revision `d6089174bd4628e1dede6d376c9c0d907f82d31d`; fetched 2026-11-17.
+  - [README.md](https://github.com/webflow/mcp-server/blob/d6089174bd4628e1dede6d376c9c0d907f82d31d/README.md).
+- **webflow-skills** — 33 skills and 27 docs at a pinned commit; default-branch; revision `eaaecc6adeb27b450698519bd3ae4612848440b9`; fetched 2026-11-17.
+  - [accessibility-audit](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/accessibility-audit/SKILL.md) — reference only.
+  - [asset-audit](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/asset-audit/SKILL.md) — reference only.
+  - [bulk-cms-update](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/bulk-cms-update/SKILL.md) — reference only.
+  - [cloud-apps](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/cloud-apps/SKILL.md) — reference only.
+  - [cms-best-practices](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/cms-best-practices/SKILL.md) — reference only.
+  - [cms-collection-setup](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/cms-collection-setup/SKILL.md) — reference only.
+  - [code-component-command](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/code-component-command/SKILL.md) — reference only.
+  - [component-audit](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/component-audit/SKILL.md) — reference only.
+  - [component-scaffold](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/component-scaffold/SKILL.md) — reference only.
+  - [convert-component](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/convert-component/SKILL.md) — reference only.
+  - [custom-code-management](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/custom-code-management/SKILL.md) — reference only.
+  - [deploy-guide](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/deploy-guide/SKILL.md) — reference only.
+  - [designer-extension-command](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/designer-extension-command/SKILL.md) — reference only.
+  - [designer-tools](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/designer-tools/SKILL.md) — reference only.
+  - [devlink-command](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/devlink-command/SKILL.md) — reference only.
+  - [figma-to-webflow](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/SKILL.md) — reference only.
+  - [flowkit-naming](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/flowkit-naming/SKILL.md) — reference only.
+  - [interactions](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/SKILL.md) — reference only.
+  - [link-checker](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/link-checker/SKILL.md) — reference only.
+  - [local-dev-setup](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/local-dev-setup/SKILL.md) — reference only.
+  - [pre-deploy-check](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/pre-deploy-check/SKILL.md) — reference only.
+  - [review-comments](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/review-comments/SKILL.md) — reference only.
+  - [safe-publish](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/safe-publish/SKILL.md) — reference only.
+  - [site-activity](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/site-activity/SKILL.md) — reference only.
+  - [site-audit](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/site-audit/SKILL.md) — reference only.
+  - [troubleshoot-deploy](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md) — reference only.
+  - [waf-rules](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/waf-rules/SKILL.md) — reference only.
+  - [webflow-cli-troubleshooter](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/webflow-cli-troubleshooter/SKILL.md) — reference only.
+  - [webflow-cloud-command](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/webflow-cloud-command/SKILL.md) — reference only.
+  - [webflow-compress-cms-image](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/webflow-compress-cms-image/SKILL.md) — reference only.
+  - [wfu-mcp-getting-started](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/wfu-mcp-getting-started/SKILL.md) — reference only.
+  - [wfu-migrate-cms](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/wfu-migrate-cms/SKILL.md) — reference only.
+  - [wfu-new-cms-plan](https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/wfu-new-cms-plan/SKILL.md) — reference only.
 <!-- brain:official:end -->

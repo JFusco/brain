@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms13-docs",
-  "revision": "18f6519ccc7795c8a7c8b0c44e2f72ef3f58b33b3feb4b66cefc108262a92a50",
+  "revision": "117c615bf4cd9fadc859e45261b9808e75b5f119cef5c7b1c67954cce5a6aded",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -137,6 +137,11 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/api/export-manifest.md"
     },
     {
+      "title": "Delete locale",
+      "url": "https://docs.optimizely.com/cms-13/api/g2PO-delete-locale.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/api/g2PO-delete-locale.md"
+    },
+    {
       "title": "Get application",
       "url": "https://docs.optimizely.com/cms-13/api/get-application.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/api/get-application.md"
@@ -210,11 +215,6 @@
       "title": "Introduction",
       "url": "https://docs.optimizely.com/cms-13/api/introduction.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/api/introduction.md"
-    },
-    {
-      "title": "Delete locale",
-      "url": "https://docs.optimizely.com/cms-13/api/k5Jj-delete-locale.md",
-      "fetchUrl": "https://docs.optimizely.com/cms-13/api/k5Jj-delete-locale.md"
     },
     {
       "title": "List applications",

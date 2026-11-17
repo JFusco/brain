@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "sitecoreai-docs",
-  "revision": "a8f7324324b6fe528dba425e735432f2b5b5d1de1c620b7ef48c752441d9d375",
+  "revision": "990c292d5263b8072170408901f746c55a1e01403696b69cbf36e52f92467d77",
   "origin": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -1290,6 +1290,11 @@
       "title": "sitecoreai / front end hosting applications.html",
       "url": "https://doc.sitecore.com/sai/en/developers/sitecoreai/front-end-hosting-applications.html",
       "fetchUrl": "https://doc.sitecore.com/sai/en/developers/sitecoreai/front-end-hosting-applications.html"
+    },
+    {
+      "title": "front end hosting applications / deploy your front end application to dataweavers arc.html",
+      "url": "https://doc.sitecore.com/sai/en/developers/sitecoreai/front-end-hosting-applications/deploy-your-front-end-application-to-dataweavers-arc.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/en/developers/sitecoreai/front-end-hosting-applications/deploy-your-front-end-application-to-dataweavers-arc.html"
     },
     {
       "title": "front end hosting applications / deploy your front end application to netlify.html",

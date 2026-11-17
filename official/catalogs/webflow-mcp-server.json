@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "source": "webflow-mcp-server",
-  "revision": "a03e2a205d0d0aa63f965262dabe7e4014cc57ec",
-  "origin": "https://github.com/webflow/mcp-server/tree/a03e2a205d0d0aa63f965262dabe7e4014cc57ec/",
+  "revision": "d6089174bd4628e1dede6d376c9c0d907f82d31d",
+  "origin": "https://github.com/webflow/mcp-server/tree/d6089174bd4628e1dede6d376c9c0d907f82d31d/",
   "skills": [],
   "docs": [
     {
       "path": "README.md",
       "title": "Webflow's MCP server",
-      "url": "https://github.com/webflow/mcp-server/blob/a03e2a205d0d0aa63f965262dabe7e4014cc57ec/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/mcp-server/a03e2a205d0d0aa63f965262dabe7e4014cc57ec/README.md",
+      "url": "https://github.com/webflow/mcp-server/blob/d6089174bd4628e1dede6d376c9c0d907f82d31d/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/mcp-server/d6089174bd4628e1dede6d376c9c0d907f82d31d/README.md",
       "gitBlobSha": "2cdce7f30e52f35d9973a0f0095976c46c9a6260"
     }
   ],

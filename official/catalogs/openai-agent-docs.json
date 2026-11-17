@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "openai-agent-docs",
-  "revision": "527e5d19e77afec9cec3e9a185cd9182b24b5b4eeac7f22e600f1d15f455e7af",
+  "revision": "05a126e0845f565030e232fcef708ce3cc740384fd692887526fedbd0c74657b",
   "origin": "https://developers.openai.com/api/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -387,6 +387,11 @@
       "fetchUrl": "https://developers.openai.com/api/docs/guides/cost-optimization.md"
     },
     {
+      "title": "CSAM classifier",
+      "url": "https://developers.openai.com/api/docs/guides/csam-classifier",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/csam-classifier.md"
+    },
+    {
       "title": "CSAM guidance",
       "url": "https://developers.openai.com/api/docs/guides/csam-guidance",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/csam-guidance.md"
@@ -537,6 +542,11 @@
       "fetchUrl": "https://developers.openai.com/api/docs/guides/ip-allowlist.md"
     },
     {
+      "title": "Keep the prefix unchanged",
+      "url": "https://developers.openai.com/api/docs/guides/keep-prefix-unchanged",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/keep-prefix-unchanged.md"
+    },
+    {
       "title": "Latency optimization",
       "url": "https://developers.openai.com/api/docs/guides/latency-optimization",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/latency-optimization.md"
@@ -585,6 +595,11 @@
       "title": "Using GPT-6",
       "url": "https://developers.openai.com/api/docs/guides/latest-model/gpt-6-astra",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/latest-model/gpt-6-astra.md"
+    },
+    {
+      "title": "Using GPT-6.2",
+      "url": "https://developers.openai.com/api/docs/guides/latest-model/gpt-6.2-astra",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/latest-model/gpt-6.2-astra.md"
     },
     {
       "title": "Getting started with GPT-Live",
@@ -660,11 +675,6 @@
       "title": "Predicted Outputs",
       "url": "https://developers.openai.com/api/docs/guides/predicted-outputs",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/predicted-outputs.md"
-    },
-    {
-      "title": "Keep the prefix unchanged",
-      "url": "https://developers.openai.com/api/docs/guides/preserved-reasoning",
-      "fetchUrl": "https://developers.openai.com/api/docs/guides/preserved-reasoning.md"
     },
     {
       "title": "Private Link",

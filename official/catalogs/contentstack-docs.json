@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "d2d8805883af7702974341e4d85aade526570527985329205a40cd7af8ce7356",
+  "revision": "8b9a34f431bb19a89bd3e2077bde6326add4ec02bbf31621e13b9e8e974f9e4e",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -6987,9 +6987,19 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/bulkoperation.md"
     },
     {
+      "title": "reference / compare",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/compare",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/compare.md"
+    },
+    {
       "title": "reference / contentstack",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/contentstack",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/contentstack.md"
+    },
+    {
+      "title": "reference / contentstackbuilder",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/contentstackbuilder",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/contentstackbuilder.md"
     },
     {
       "title": "reference / contenttype",
@@ -7047,6 +7057,26 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/managementtoken.md"
     },
     {
+      "title": "reference / merge",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/merge",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/merge.md"
+    },
+    {
+      "title": "reference / oauthconfig",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/oauthconfig",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/oauthconfig.md"
+    },
+    {
+      "title": "reference / oauthhandler",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/oauthhandler",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/oauthhandler.md"
+    },
+    {
+      "title": "reference / oauthtokens",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/oauthtokens",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/oauthtokens.md"
+    },
+    {
       "title": "reference / organization",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/organization",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/organization.md"
@@ -7065,6 +7095,16 @@
       "title": "reference / releases",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/releases",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/releases.md"
+    },
+    {
+      "title": "reference / retryconfig",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/retryconfig",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/retryconfig.md"
+    },
+    {
+      "title": "reference / retrydelayoptions",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/retrydelayoptions",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/java/reference/retrydelayoptions.md"
     },
     {
       "title": "reference / role",
@@ -9150,6 +9190,11 @@
       "title": "cli import content using the seed command / v1",
       "url": "https://www.contentstack.com/docs/headless-cms/cli-import-content-using-the-seed-command/v1",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/cli-import-content-using-the-seed-command/v1.md"
+    },
+    {
+      "title": "headless cms / cli import setup command",
+      "url": "https://www.contentstack.com/docs/headless-cms/cli-import-setup-command",
+      "fetchUrl": "https://www.contentstack.com/docs/headless-cms/cli-import-setup-command.md"
     },
     {
       "title": "headless cms / cli limitations",

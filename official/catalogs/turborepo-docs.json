@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "turborepo-docs",
-  "revision": "7bf7094d300f5316f20b4933c65f3ee4bcab5c90cfd2e5e396456995d7d36930",
+  "revision": "55a7c2078c10f17e10d2f8adedd776f11f2de07ed6068dfe6e2f0d197b8eb71f",
   "origin": "https://turborepo.dev/llms.txt",
   "skills": [],
   "docs": [],
@@ -520,6 +520,11 @@
       "title": "telemetry",
       "url": "https://turborepo.dev/docs/reference/telemetry",
       "fetchUrl": "https://turborepo.dev/docs/reference/telemetry.md"
+    },
+    {
+      "title": "trace",
+      "url": "https://turborepo.dev/docs/reference/trace",
+      "fetchUrl": "https://turborepo.dev/docs/reference/trace.md"
     },
     {
       "title": "@turbo/codemod",
