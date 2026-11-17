@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "webflow-docs",
-  "revision": "8993bd8e62fa5454d16c31a939b86dd9d4117dc8fc5c535fee3b35f63836329c",
+  "revision": "20554e7490aa5947e3a4c5296ab9354348826ee1f5654da531e7e5215573a714",
   "origin": "https://developers.webflow.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -455,6 +455,11 @@
       "title": "docs / working with custom code",
       "url": "https://developers.webflow.com/data/docs/working-with-custom-code",
       "fetchUrl": "https://developers.webflow.com/data/docs/working-with-custom-code.md"
+    },
+    {
+      "title": "docs / working with eu hosting",
+      "url": "https://developers.webflow.com/data/docs/working-with-eu-hosting",
+      "fetchUrl": "https://developers.webflow.com/data/docs/working-with-eu-hosting.md"
     },
     {
       "title": "docs / working with localization",
@@ -1155,6 +1160,11 @@
       "title": "reference / error handling",
       "url": "https://developers.webflow.com/data/reference/error-handling",
       "fetchUrl": "https://developers.webflow.com/data/reference/error-handling.md"
+    },
+    {
+      "title": "reference / eu hosting",
+      "url": "https://developers.webflow.com/data/reference/eu-hosting",
+      "fetchUrl": "https://developers.webflow.com/data/reference/eu-hosting.md"
     },
     {
       "title": "reference / field types item values",

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "webflow-skills",
-  "revision": "219921cd4c288eed24ef3e93abe60fb35f65bc8a",
-  "origin": "https://github.com/webflow/webflow-skills/tree/219921cd4c288eed24ef3e93abe60fb35f65bc8a/",
+  "revision": "eaaecc6adeb27b450698519bd3ae4612848440b9",
+  "origin": "https://github.com/webflow/webflow-skills/tree/eaaecc6adeb27b450698519bd3ae4612848440b9/",
   "skills": [
     {
       "id": "webflow-skills/accessibility-audit",
@@ -13,8 +13,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/accessibility-audit/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/accessibility-audit/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/accessibility-audit/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/accessibility-audit/SKILL.md",
       "gitBlobSha": "2f490e2d54f0ce00ec676a52c8c1f22a4e75a4ab"
     },
     {
@@ -26,8 +26,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/asset-audit/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/asset-audit/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/asset-audit/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/asset-audit/SKILL.md",
       "gitBlobSha": "910b516f7ed485b974f4498ffbbd843e8e8dd8d5"
     },
     {
@@ -39,8 +39,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/bulk-cms-update/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/bulk-cms-update/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/bulk-cms-update/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/bulk-cms-update/SKILL.md",
       "gitBlobSha": "bf98535c655c870086c164afc297ada29e503924"
     },
     {
@@ -52,8 +52,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/cloud-apps/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/cloud-apps/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/cloud-apps/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/cloud-apps/SKILL.md",
       "gitBlobSha": "34a8762410769b0a634b300ad0d1c25fedc75d19"
     },
     {
@@ -65,8 +65,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/cms-best-practices/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/cms-best-practices/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/cms-best-practices/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/cms-best-practices/SKILL.md",
       "gitBlobSha": "4dc14675ab8834c5dbb884b8430ec18e01a54dc2"
     },
     {
@@ -78,8 +78,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/cms-collection-setup/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/cms-collection-setup/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/cms-collection-setup/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/cms-collection-setup/SKILL.md",
       "gitBlobSha": "e859c22647e30483d8e92db2435f26f6016d12eb"
     },
     {
@@ -91,8 +91,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/code-component-command/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/code-component-command/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/code-component-command/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/code-component-command/SKILL.md",
       "gitBlobSha": "3c5adf1ca33375967f890fcbcd890854422395c7"
     },
     {
@@ -104,8 +104,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/component-audit/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/component-audit/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/component-audit/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/component-audit/SKILL.md",
       "gitBlobSha": "30042716e98496cf91e55945052dba23deb03a6e"
     },
     {
@@ -117,8 +117,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/component-scaffold/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/component-scaffold/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/component-scaffold/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/component-scaffold/SKILL.md",
       "gitBlobSha": "b6d752bd2c4f22026e251721d37fbb7c9dc77a0c"
     },
     {
@@ -130,8 +130,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/convert-component/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/convert-component/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/convert-component/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/convert-component/SKILL.md",
       "gitBlobSha": "31fc3e2f25b230aef4dc81bf6b5bc4cc9ac29649"
     },
     {
@@ -143,8 +143,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/custom-code-management/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/custom-code-management/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/custom-code-management/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/custom-code-management/SKILL.md",
       "gitBlobSha": "6d61ab83e2db1898521fea935b4b12dedac881fe"
     },
     {
@@ -157,8 +157,8 @@
       "policy": "reference-only",
       "preferred": false,
       "blockedReason": "1 unresolved entry-point references",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/deploy-guide/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/deploy-guide/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/deploy-guide/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/deploy-guide/SKILL.md",
       "gitBlobSha": "16d4aecfc5579b8fcc9e56d317da29073b4c0f38"
     },
     {
@@ -170,8 +170,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/designer-extension-command/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/designer-extension-command/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/designer-extension-command/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/designer-extension-command/SKILL.md",
       "gitBlobSha": "6446425444d622e566ee9bd76e8a33a316f9087f"
     },
     {
@@ -183,8 +183,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/designer-tools/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/designer-tools/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/designer-tools/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/designer-tools/SKILL.md",
       "gitBlobSha": "a39a35eebdd147cb2c545f59bc03a8f43f3e7143"
     },
     {
@@ -196,8 +196,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/devlink-command/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/devlink-command/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/devlink-command/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/devlink-command/SKILL.md",
       "gitBlobSha": "6361047080757a8477c4e8085f6601b105ae31db"
     },
     {
@@ -209,8 +209,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/SKILL.md",
       "gitBlobSha": "3d3a4ef2a04b4d33d2013eb31888f15633aa3e8c"
     },
     {
@@ -222,8 +222,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/flowkit-naming/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/flowkit-naming/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/flowkit-naming/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/flowkit-naming/SKILL.md",
       "gitBlobSha": "d5616bbb954bdf435a19b31878c67e0d22b506ab"
     },
     {
@@ -235,8 +235,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/SKILL.md",
       "gitBlobSha": "615610843ec028ba934ac3714b3e37ef30c4c38f"
     },
     {
@@ -248,8 +248,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/link-checker/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/link-checker/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/link-checker/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/link-checker/SKILL.md",
       "gitBlobSha": "20a5fb38ac41e2113d871527e15c81dacb42f1f8"
     },
     {
@@ -261,8 +261,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/local-dev-setup/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/local-dev-setup/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/local-dev-setup/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/local-dev-setup/SKILL.md",
       "gitBlobSha": "64ac7f245938b7aeb7b4dd206d7c27f7345f7cad"
     },
     {
@@ -274,8 +274,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/pre-deploy-check/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/pre-deploy-check/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/pre-deploy-check/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/pre-deploy-check/SKILL.md",
       "gitBlobSha": "bf2582f9f6ae1b5a8b6856f03899afde35154f43"
     },
     {
@@ -287,8 +287,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/review-comments/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/review-comments/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/review-comments/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/review-comments/SKILL.md",
       "gitBlobSha": "f2ca32b3b07397e7ac516c22f967edd62796be48"
     },
     {
@@ -300,8 +300,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/safe-publish/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/safe-publish/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/safe-publish/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/safe-publish/SKILL.md",
       "gitBlobSha": "63cc3fb5f2deb7c03882e6f70d605ef0bee4fba0"
     },
     {
@@ -313,8 +313,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/site-activity/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/site-activity/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/site-activity/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/site-activity/SKILL.md",
       "gitBlobSha": "a3919b2400231a4facdd7fc418be0cfe69c459a9"
     },
     {
@@ -326,8 +326,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/site-audit/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/site-audit/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/site-audit/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/site-audit/SKILL.md",
       "gitBlobSha": "f0314810c17b3f57c166b5c3cae2d0de12a1dc87"
     },
     {
@@ -339,22 +339,22 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/troubleshoot-deploy/SKILL.md",
       "gitBlobSha": "2ef49c03a26c5f6df553211937f6eb774d7c7328"
     },
     {
       "id": "webflow-skills/waf-rules",
       "name": "waf-rules",
       "declaredName": "webflow-mcp:waf-rules",
-      "description": "Review and change a Webflow site's Web Application Firewall (WAF) rules and Bot bypass settings through Webflow MCP. Use when the user wants to block or allow countries, IP addresses or CIDR ranges, networks (ASNs), bots, AI crawlers, scrapers, or User-Agents, optionally only on some paths; add, edit, or remove firewall or WAF rules; enable or disable Bot bypass; review or explain the current rules; or draft rules from findings about unwanted traffic. Changes are previewed and confirmed by the user before they reach live traffic. Needs an Enterprise plan that includes WAF, and WAF MCP must be enabled for the workspace.",
+      "description": "Review and change a Webflow site's Web Application Firewall (WAF) rules and Bot bypass settings through Webflow MCP. Use when the user wants to block or allow countries, IP addresses or CIDR ranges, networks (ASNs), bots, AI crawlers, scrapers, or User-Agents, optionally only on some paths; add, edit, or remove firewall or WAF rules; enable or disable Bot bypass; review or explain the current rules; or draft rules from findings about unwanted traffic. Changes are previewed and confirmed by the user before they reach live traffic. Needs an Enterprise plan that includes WAF.",
       "directory": "plugins/webflow-skills/skills/waf-rules",
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/waf-rules/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/waf-rules/SKILL.md",
-      "gitBlobSha": "d959dec0e441d271e953005de69fe2d5d9769076"
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/waf-rules/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/waf-rules/SKILL.md",
+      "gitBlobSha": "690140c2e2d50c0c2b9edc65632793e6e541bd43"
     },
     {
       "id": "webflow-skills/webflow-cli-troubleshooter",
@@ -365,8 +365,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/webflow-cli-troubleshooter/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/webflow-cli-troubleshooter/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/webflow-cli-troubleshooter/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/webflow-cli-troubleshooter/SKILL.md",
       "gitBlobSha": "1639b1eabd7271eaf515189172d35a18a235f6fd"
     },
     {
@@ -378,8 +378,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/webflow-cloud-command/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/webflow-cloud-command/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/webflow-cloud-command/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/webflow-cloud-command/SKILL.md",
       "gitBlobSha": "5edabf683929a185f22f72eb56e7057d673c7288"
     },
     {
@@ -391,8 +391,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/webflow-compress-cms-image/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/webflow-compress-cms-image/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/webflow-compress-cms-image/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/webflow-compress-cms-image/SKILL.md",
       "gitBlobSha": "ed968317686e55252571699c214159b2682c4b65"
     },
     {
@@ -404,8 +404,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/wfu-mcp-getting-started/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/wfu-mcp-getting-started/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/wfu-mcp-getting-started/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/wfu-mcp-getting-started/SKILL.md",
       "gitBlobSha": "46e033fef412ed878204937de9614c51bc449c47"
     },
     {
@@ -417,8 +417,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/wfu-migrate-cms/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/wfu-migrate-cms/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/wfu-migrate-cms/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/wfu-migrate-cms/SKILL.md",
       "gitBlobSha": "820832ea5e217260e4ef1090bd1069ec15dfd53b"
     },
     {
@@ -430,8 +430,8 @@
       "installable": false,
       "policy": "reference-only",
       "preferred": false,
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/wfu-new-cms-plan/SKILL.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/wfu-new-cms-plan/SKILL.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/wfu-new-cms-plan/SKILL.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/wfu-new-cms-plan/SKILL.md",
       "gitBlobSha": "2b7a1d01ee02b0c94ff182a7e2a14853359d9697"
     }
   ],
@@ -439,190 +439,190 @@
     {
       "path": "agents/webflow-agent.md",
       "title": "Webflow Skills",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/agents/webflow-agent.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/agents/webflow-agent.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/agents/webflow-agent.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/agents/webflow-agent.md",
       "gitBlobSha": "e91675305a93887de51655b8c7c9fe7b78ea71ae"
     },
     {
       "path": "plugins/webflow-skills/README.md",
       "title": "Webflow",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/README.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/README.md",
       "gitBlobSha": "3021ac281d25cf115d8de9ce9006d90862f1a58a"
     },
     {
       "path": "plugins/webflow-skills/skills/convert-component/references/prop-types.md",
       "title": "Webflow Prop Types Quick Reference",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/convert-component/references/prop-types.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/convert-component/references/prop-types.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/convert-component/references/prop-types.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/convert-component/references/prop-types.md",
       "gitBlobSha": "fabc61635465f2811cb37bd69fa1b86d444887cb"
     },
     {
       "path": "plugins/webflow-skills/skills/figma-to-webflow/references/assets-and-svg.md",
       "title": "Assets, SVG, And Fonts",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/references/assets-and-svg.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/references/assets-and-svg.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/references/assets-and-svg.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/references/assets-and-svg.md",
       "gitBlobSha": "36d86d478245f603ea211f94a53a1d617c8dd4e1"
     },
     {
       "path": "plugins/webflow-skills/skills/figma-to-webflow/references/css-rules.md",
       "title": "CSS And Build Rules",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/references/css-rules.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/references/css-rules.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/references/css-rules.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/references/css-rules.md",
       "gitBlobSha": "bdab2d0769298afdb8b2cea5605ce319834527db"
     },
     {
       "path": "plugins/webflow-skills/skills/figma-to-webflow/references/navbar.md",
       "title": "Navbar",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/references/navbar.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/references/navbar.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/references/navbar.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/references/navbar.md",
       "gitBlobSha": "f8cc3f6084eb1c48423fa9f8973c79855911d9bb"
     },
     {
       "path": "plugins/webflow-skills/skills/figma-to-webflow/references/verification.md",
       "title": "Verification And Responsive QA",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/references/verification.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/figma-to-webflow/references/verification.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/references/verification.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/figma-to-webflow/references/verification.md",
       "gitBlobSha": "8aea92f5d4ef6a2793f249f2c233f567ed840095"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/actions-and-properties.md",
       "title": "Actions, properties, and values",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/actions-and-properties.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/actions-and-properties.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/actions-and-properties.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/actions-and-properties.md",
       "gitBlobSha": "c2ed8a99214f2562f938afeb59ddc654fff64aa3"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/capabilities.generated.md",
       "title": "IX3 capability reference",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/capabilities.generated.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/capabilities.generated.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/capabilities.generated.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/capabilities.generated.md",
       "gitBlobSha": "a8c2d56c9fdd2b5615270e499480f0652cbb6d73"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/conditional-playback.md",
       "title": "`conditionalPlayback`",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/conditional-playback.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/conditional-playback.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/conditional-playback.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/conditional-playback.md",
       "gitBlobSha": "d5489b16042e3de1d50094f5c820a58958342357"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/envelope-and-targets.md",
       "title": "Envelope, IDs, and targets",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/envelope-and-targets.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/envelope-and-targets.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/envelope-and-targets.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/envelope-and-targets.md",
       "gitBlobSha": "d982e9860930239ac42c6969c4ccd3d7a1262763"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/gated-capabilities.md",
       "title": "Gated and unsupported capabilities",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/gated-capabilities.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/gated-capabilities.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/gated-capabilities.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/gated-capabilities.md",
       "gitBlobSha": "8fe47167250ca0739c7de902a08d32116a9a5e3b"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/index.md",
       "title": "IX3 agent pack — reference index",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/index.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/index.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/index.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/index.md",
       "gitBlobSha": "4bd421ea83354092355a24ee450c0cdf9bd6b684"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/limits-and-budgets.md",
       "title": "Limits and budgets",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/limits-and-budgets.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/limits-and-budgets.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/limits-and-budgets.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/limits-and-budgets.md",
       "gitBlobSha": "23e6be5441f6b1205e6e0dd6745c2d70c54cb4d3"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/panel-traps.md",
       "title": "Panel traps",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/panel-traps.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/panel-traps.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/panel-traps.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/panel-traps.md",
       "gitBlobSha": "08f9d7db59aae37fa2bc83ca217aa7c64e366539"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/rejects-index.md",
       "title": "Decoding a rejection",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/rejects-index.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/rejects-index.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/rejects-index.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/rejects-index.md",
       "gitBlobSha": "20515e6b619a4f6fabbef280a4987550f16fba16"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/timelines-and-groups.md",
       "title": "Timelines, roles, and groups",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/timelines-and-groups.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/timelines-and-groups.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/timelines-and-groups.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/timelines-and-groups.md",
       "gitBlobSha": "710c05d790d0fee07b8d2c886a6da87a78cca5c3"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/trigger-click.md",
       "title": "`wf:click`",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-click.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-click.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-click.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-click.md",
       "gitBlobSha": "63261f358003db73f7154c47f53ceab8ed0ca072"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/trigger-custom.md",
       "title": "`wf:custom`",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-custom.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-custom.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-custom.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-custom.md",
       "gitBlobSha": "5d89745f9bbca40d7f5ba259d34fad885ed35e8e"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/trigger-hover.md",
       "title": "`wf:hover`",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-hover.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-hover.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-hover.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-hover.md",
       "gitBlobSha": "346b84dba778dc3ba04fc5ca3366b5e40f0afb51"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/trigger-load.md",
       "title": "`wf:load`",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-load.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-load.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-load.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-load.md",
       "gitBlobSha": "1a802492c7c9670a14a4a370a80ee86876962c9b"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/trigger-mouse-move.md",
       "title": "`wf:mouse-move`",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-mouse-move.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-mouse-move.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-mouse-move.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-mouse-move.md",
       "gitBlobSha": "1111aae5f9836e85a3fc7bb6a8ed2afa1994b08a"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/trigger-scroll.md",
       "title": "`wf:scroll`",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-scroll.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/trigger-scroll.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-scroll.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/trigger-scroll.md",
       "gitBlobSha": "173f3570e185de563f041706b7c274d5b10bfe6f"
     },
     {
       "path": "plugins/webflow-skills/skills/interactions/references/updating-interactions.md",
       "title": "Updating an existing interaction",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/updating-interactions.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/interactions/references/updating-interactions.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/updating-interactions.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/interactions/references/updating-interactions.md",
       "gitBlobSha": "6427923940edecc1872f67c30fcce5e84a609924"
     },
     {
       "path": "plugins/webflow-skills/skills/local-dev-setup/references/EXAMPLES.md",
       "title": "Local Dev Setup Examples",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/local-dev-setup/references/EXAMPLES.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/local-dev-setup/references/EXAMPLES.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/local-dev-setup/references/EXAMPLES.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/local-dev-setup/references/EXAMPLES.md",
       "gitBlobSha": "58480627c87c21fd3d641977bd26acae82a29fbb"
     },
     {
       "path": "plugins/webflow-skills/skills/troubleshoot-deploy/references/ERROR_CATALOG.md",
       "title": "Error Catalog",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/troubleshoot-deploy/references/ERROR_CATALOG.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/plugins/webflow-skills/skills/troubleshoot-deploy/references/ERROR_CATALOG.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/troubleshoot-deploy/references/ERROR_CATALOG.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/plugins/webflow-skills/skills/troubleshoot-deploy/references/ERROR_CATALOG.md",
       "gitBlobSha": "79bf3842716209802fba2822da922235541c159e"
     },
     {
       "path": "README.md",
       "title": "Webflow Skills",
-      "url": "https://github.com/webflow/webflow-skills/blob/219921cd4c288eed24ef3e93abe60fb35f65bc8a/README.md",
-      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/219921cd4c288eed24ef3e93abe60fb35f65bc8a/README.md",
+      "url": "https://github.com/webflow/webflow-skills/blob/eaaecc6adeb27b450698519bd3ae4612848440b9/README.md",
+      "fetchUrl": "https://raw.githubusercontent.com/webflow/webflow-skills/eaaecc6adeb27b450698519bd3ae4612848440b9/README.md",
       "gitBlobSha": "e0f5dbeb9061c7b8de3fefd567b45f16abbbc198"
     }
   ],

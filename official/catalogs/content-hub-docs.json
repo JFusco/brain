@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "content-hub-docs",
-  "revision": "11a777e6377d0309b093095185c18df00c2e70f3e61ddac52ddd1aac74fbf5fd",
+  "revision": "28867461c096a8e17ccaf244fce983ce0722db6be5f67fea9a7b3f4189168d8d",
   "origin": "https://doc.sitecore.com/ch/en/developers/cloud-dev/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -782,9 +782,9 @@
       "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/full-text-search.html"
     },
     {
-      "title": "cloud dev / generate a json web token  jwt .html",
-      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/generate-a-json-web-token--jwt-.html",
-      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/generate-a-json-web-token--jwt-.html"
+      "title": "cloud dev / generate a json web token jwt.html",
+      "url": "https://doc.sitecore.com/ch/en/developers/cloud-dev/generate-a-json-web-token-jwt.html",
+      "fetchUrl": "https://doc.sitecore.com/ch/en/developers/cloud-dev/generate-a-json-web-token-jwt.html"
     },
     {
       "title": "cloud dev / generate public links containing the asset filename.html",

@@ -18,15 +18,15 @@ aliases: ["optimizely-saas"]
 <!-- brain:official:start -->
 ## Official sources
 
-- **optimizely-sdk** — 0 skills and 37 docs at a pinned commit; default-branch; revision `4f006d52ef4c3ec89ad07654fc42eed84736e786`; fetched 2026-11-12.
-  - [docs/guides/agent-skills.md](https://github.com/episerver/content-js-sdk/blob/4f006d52ef4c3ec89ad07654fc42eed84736e786/docs/guides/agent-skills.md).
-  - [docs/guides/authentication.md](https://github.com/episerver/content-js-sdk/blob/4f006d52ef4c3ec89ad07654fc42eed84736e786/docs/guides/authentication.md).
-  - [docs/guides/cms-paas.md](https://github.com/episerver/content-js-sdk/blob/4f006d52ef4c3ec89ad07654fc42eed84736e786/docs/guides/cms-paas.md).
-  - [docs/guides/content-types.md](https://github.com/episerver/content-js-sdk/blob/4f006d52ef4c3ec89ad07654fc42eed84736e786/docs/guides/content-types.md).
-  - [docs/guides/contracts.md](https://github.com/episerver/content-js-sdk/blob/4f006d52ef4c3ec89ad07654fc42eed84736e786/docs/guides/contracts.md).
-  - [docs/guides/dam-assets.md](https://github.com/episerver/content-js-sdk/blob/4f006d52ef4c3ec89ad07654fc42eed84736e786/docs/guides/dam-assets.md).
-  - [docs/guides/deploy-to-frontend-hosting.md](https://github.com/episerver/content-js-sdk/blob/4f006d52ef4c3ec89ad07654fc42eed84736e786/docs/guides/deploy-to-frontend-hosting.md).
-  - [docs/guides/display-templates.md](https://github.com/episerver/content-js-sdk/blob/4f006d52ef4c3ec89ad07654fc42eed84736e786/docs/guides/display-templates.md).
+- **optimizely-sdk** — 0 skills and 38 docs at a pinned commit; default-branch; revision `686c0251bc01591d7ff9727ad4cd0d158e4de766`; fetched 2026-11-17.
+  - [docs/guides/agent-skills.md](https://github.com/episerver/content-js-sdk/blob/686c0251bc01591d7ff9727ad4cd0d158e4de766/docs/guides/agent-skills.md).
+  - [docs/guides/authentication.md](https://github.com/episerver/content-js-sdk/blob/686c0251bc01591d7ff9727ad4cd0d158e4de766/docs/guides/authentication.md).
+  - [docs/guides/cms-paas.md](https://github.com/episerver/content-js-sdk/blob/686c0251bc01591d7ff9727ad4cd0d158e4de766/docs/guides/cms-paas.md).
+  - [docs/guides/content-types.md](https://github.com/episerver/content-js-sdk/blob/686c0251bc01591d7ff9727ad4cd0d158e4de766/docs/guides/content-types.md).
+  - [docs/guides/contracts.md](https://github.com/episerver/content-js-sdk/blob/686c0251bc01591d7ff9727ad4cd0d158e4de766/docs/guides/contracts.md).
+  - [docs/guides/dam-assets.md](https://github.com/episerver/content-js-sdk/blob/686c0251bc01591d7ff9727ad4cd0d158e4de766/docs/guides/dam-assets.md).
+  - [docs/guides/deploy-to-frontend-hosting.md](https://github.com/episerver/content-js-sdk/blob/686c0251bc01591d7ff9727ad4cd0d158e4de766/docs/guides/deploy-to-frontend-hosting.md).
+  - [docs/guides/display-templates.md](https://github.com/episerver/content-js-sdk/blob/686c0251bc01591d7ff9727ad4cd0d158e4de766/docs/guides/display-templates.md).
 - **optimizely-cms-saas-docs** — link catalog of 280 pages; rolling-url; revision `11e355af7c3c98fb9b5e59cf61c0253d9d2fb1ac71b0dc4e80b051f3fe79243f`; fetched 2026-11-14.
   - [Catalog source](https://docs.optimizely.com/llms.txt); search it with `lookup --domain cms/optimizely-saas`.
 - **optimizely-graph-docs** — link catalog of 193 pages; rolling-url; revision `4d8211c9fa10f17bc58a2870feeeb86ba42f750c3c38848fd8ff7469ee39af9f`; fetched 2026-11-02.
