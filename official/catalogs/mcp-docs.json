@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "mcp-docs",
-  "revision": "612e3521a849a0831241be1bf6c5dc11d115c20f31add88337b469a8205746cd",
+  "revision": "e1d50996433b694beb8ce4294952e83c42a66953976c69f024e0e6b4816ac1f0",
   "origin": "https://modelcontextprotocol.io/llms.txt",
   "skills": [],
   "docs": [],
@@ -90,6 +90,11 @@
       "title": "Configuration and flags",
       "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/configuration",
       "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/configuration.md"
+    },
+    {
+      "title": "Load testing",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/load-testing",
+      "fetchUrl": "https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector/load-testing.md"
     },
     {
       "title": "mcpdo connection client",

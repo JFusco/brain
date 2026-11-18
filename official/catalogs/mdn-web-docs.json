@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "mdn-web-docs",
-  "revision": "d961169aa00b5aaf0b620b99e814eac6b1c707bb2956919c4d17cec2094a3be3",
+  "revision": "c31269996a5ae2344b9ddd781bb21fc1e43874fdf7003324b6d95c99b96cfa25",
   "origin": "https://developer.mozilla.org/sitemaps/en-us/sitemap.xml.gz",
   "skills": [],
   "docs": [],
@@ -510,6 +510,11 @@
       "title": "Gaps / Defining_rules",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Gaps/Defining_rules",
       "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Gaps/Defining_rules"
+    },
+    {
+      "title": "Gaps / Overview",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Gaps/Overview",
+      "fetchUrl": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Gaps/Overview"
     },
     {
       "title": "Guides / Generated_content",

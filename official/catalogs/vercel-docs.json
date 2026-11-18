@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "87390fa8be8d2af235e29073d9fc1eb52b27c17280e9243d5eb0e3c57425c008",
+  "revision": "87cfb7ce6c795b6ef29a5dacbd2dba2f628f01c0604d3464f7759c041e397d77",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -2772,6 +2772,11 @@
       "fetchUrl": "https://vercel.com/docs/cdn-security.md"
     },
     {
+      "title": "Enabling Cross-Origin Isolation",
+      "url": "https://vercel.com/docs/cdn-security/cross-origin-isolation",
+      "fetchUrl": "https://vercel.com/docs/cdn-security/cross-origin-isolation.md"
+    },
+    {
       "title": "Encryption and TLS",
       "url": "https://vercel.com/docs/cdn-security/encryption",
       "fetchUrl": "https://vercel.com/docs/cdn-security/encryption.md"
@@ -3637,6 +3642,11 @@
       "fetchUrl": "https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/sharable-links.md"
     },
     {
+      "title": "Trusted Sources",
+      "url": "https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/trusted-sources",
+      "fetchUrl": "https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/trusted-sources.md"
+    },
+    {
       "title": "Methods to Protect Deployments",
       "url": "https://vercel.com/docs/deployment-protection/methods-to-protect-deployments",
       "fetchUrl": "https://vercel.com/docs/deployment-protection/methods-to-protect-deployments.md"
@@ -4500,6 +4510,11 @@
       "title": "Deploying Git Repositories with Vercel",
       "url": "https://vercel.com/docs/git",
       "fetchUrl": "https://vercel.com/docs/git.md"
+    },
+    {
+      "title": "Deploying from an External CI/CD Pipeline",
+      "url": "https://vercel.com/docs/git/external-pipelines",
+      "fetchUrl": "https://vercel.com/docs/git/external-pipelines.md"
     },
     {
       "title": "Deploying from Azure DevOps with Vercel",
@@ -5642,11 +5657,6 @@
       "fetchUrl": "https://vercel.com/docs/projects/transferring-projects.md"
     },
     {
-      "title": "Restricting Git Connections to a single Vercel team",
-      "url": "https://vercel.com/docs/protected-git-scopes",
-      "fetchUrl": "https://vercel.com/docs/protected-git-scopes.md"
-    },
-    {
       "title": "Query",
       "url": "https://vercel.com/docs/query",
       "fetchUrl": "https://vercel.com/docs/query.md"
@@ -5862,6 +5872,11 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/delete-virtual-model-config.md"
     },
     {
+      "title": "Delete virtual model config",
+      "url": "https://vercel.com/docs/rest-api/ai-gateway/delete-virtual-model-config-1",
+      "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/delete-virtual-model-config-1.md"
+    },
+    {
       "title": "Get a BYOK credential",
       "url": "https://vercel.com/docs/rest-api/ai-gateway/get-a-byok-credential",
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/get-a-byok-credential.md"
@@ -5870,6 +5885,11 @@
       "title": "Get virtual model config",
       "url": "https://vercel.com/docs/rest-api/ai-gateway/get-virtual-model-config",
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/get-virtual-model-config.md"
+    },
+    {
+      "title": "Get virtual model config",
+      "url": "https://vercel.com/docs/rest-api/ai-gateway/get-virtual-model-config-1",
+      "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/get-virtual-model-config-1.md"
     },
     {
       "title": "List AI Gateway budget defaults",
@@ -5920,6 +5940,11 @@
       "title": "Update virtual model config",
       "url": "https://vercel.com/docs/rest-api/ai-gateway/update-virtual-model-config",
       "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/update-virtual-model-config.md"
+    },
+    {
+      "title": "Update virtual model config",
+      "url": "https://vercel.com/docs/rest-api/ai-gateway/update-virtual-model-config-1",
+      "fetchUrl": "https://vercel.com/docs/rest-api/ai-gateway/update-virtual-model-config-1.md"
     },
     {
       "title": "Upsert AI Gateway budget",
@@ -6363,8 +6388,8 @@
     },
     {
       "title": "Get supported TLDs",
-      "url": "https://vercel.com/docs/rest-api/domains-registrar/get-supported-tld-s",
-      "fetchUrl": "https://vercel.com/docs/rest-api/domains-registrar/get-supported-tld-s.md"
+      "url": "https://vercel.com/docs/rest-api/domains-registrar/get-supported-tlds",
+      "fetchUrl": "https://vercel.com/docs/rest-api/domains-registrar/get-supported-tlds.md"
     },
     {
       "title": "Get the auth code for a domain",
@@ -6642,6 +6667,11 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-all-flags-for-a-team.md"
     },
     {
+      "title": "List all flags for a team",
+      "url": "https://vercel.com/docs/rest-api/feature-flags/list-all-flags-for-a-team-1",
+      "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-all-flags-for-a-team-1.md"
+    },
+    {
       "title": "List attribute label counts",
       "url": "https://vercel.com/docs/rest-api/feature-flags/list-attribute-label-counts",
       "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-attribute-label-counts.md"
@@ -6660,6 +6690,11 @@
       "title": "List flags",
       "url": "https://vercel.com/docs/rest-api/feature-flags/list-flags",
       "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-flags.md"
+    },
+    {
+      "title": "List flags",
+      "url": "https://vercel.com/docs/rest-api/feature-flags/list-flags-1",
+      "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/list-flags-1.md"
     },
     {
       "title": "List flags project connections",
@@ -6907,41 +6942,6 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/kms/update-an-issuer-policy.md"
     },
     {
-      "title": "Creates a Configurable Log Drain \\(deprecated\\)",
-      "url": "https://vercel.com/docs/rest-api/logdrains/creates-a-configurable-log-drain-deprecated",
-      "fetchUrl": "https://vercel.com/docs/rest-api/logdrains/creates-a-configurable-log-drain-deprecated.md"
-    },
-    {
-      "title": "Creates a new Integration Log Drain \\(deprecated\\)",
-      "url": "https://vercel.com/docs/rest-api/logdrains/creates-a-new-integration-log-drain-deprecated",
-      "fetchUrl": "https://vercel.com/docs/rest-api/logdrains/creates-a-new-integration-log-drain-deprecated.md"
-    },
-    {
-      "title": "Deletes a Configurable Log Drain \\(deprecated\\)",
-      "url": "https://vercel.com/docs/rest-api/logdrains/deletes-a-configurable-log-drain-deprecated",
-      "fetchUrl": "https://vercel.com/docs/rest-api/logdrains/deletes-a-configurable-log-drain-deprecated.md"
-    },
-    {
-      "title": "Deletes the Integration log drain with the provided \\`id\\` \\(deprecated\\)",
-      "url": "https://vercel.com/docs/rest-api/logdrains/deletes-the-integration-log-drain-with-the-provided-id-deprecated",
-      "fetchUrl": "https://vercel.com/docs/rest-api/logdrains/deletes-the-integration-log-drain-with-the-provided-id-deprecated.md"
-    },
-    {
-      "title": "Retrieves a Configurable Log Drain \\(deprecated\\)",
-      "url": "https://vercel.com/docs/rest-api/logdrains/retrieves-a-configurable-log-drain-deprecated",
-      "fetchUrl": "https://vercel.com/docs/rest-api/logdrains/retrieves-a-configurable-log-drain-deprecated.md"
-    },
-    {
-      "title": "Retrieves a list of all the Log Drains \\(deprecated\\)",
-      "url": "https://vercel.com/docs/rest-api/logdrains/retrieves-a-list-of-all-the-log-drains-deprecated",
-      "fetchUrl": "https://vercel.com/docs/rest-api/logdrains/retrieves-a-list-of-all-the-log-drains-deprecated.md"
-    },
-    {
-      "title": "Retrieves a list of Integration log drains \\(deprecated\\)",
-      "url": "https://vercel.com/docs/rest-api/logdrains/retrieves-a-list-of-integration-log-drains-deprecated",
-      "fetchUrl": "https://vercel.com/docs/rest-api/logdrains/retrieves-a-list-of-integration-log-drains-deprecated.md"
-    },
-    {
       "title": "Get logs for a deployment",
       "url": "https://vercel.com/docs/rest-api/logs/get-logs-for-a-deployment",
       "fetchUrl": "https://vercel.com/docs/rest-api/logs/get-logs-for-a-deployment.md"
@@ -7000,6 +7000,11 @@
       "title": "Get the data of a user-provided Global Config",
       "url": "https://vercel.com/docs/rest-api/marketplace/get-the-data-of-a-user-provided-global-config",
       "fetchUrl": "https://vercel.com/docs/rest-api/marketplace/get-the-data-of-a-user-provided-global-config.md"
+    },
+    {
+      "title": "Get the data of a user-provided Global Config",
+      "url": "https://vercel.com/docs/rest-api/marketplace/get-the-data-of-a-user-provided-global-config-1",
+      "fetchUrl": "https://vercel.com/docs/rest-api/marketplace/get-the-data-of-a-user-provided-global-config-1.md"
     },
     {
       "title": "Import Resource",
@@ -7088,13 +7093,13 @@
     },
     {
       "title": "Configures Static IPs for a project",
-      "url": "https://vercel.com/docs/rest-api/networking/configures-static-ip-s-for-a-project",
-      "fetchUrl": "https://vercel.com/docs/rest-api/networking/configures-static-ip-s-for-a-project.md"
+      "url": "https://vercel.com/docs/rest-api/networking/configures-static-ips-for-a-project",
+      "fetchUrl": "https://vercel.com/docs/rest-api/networking/configures-static-ips-for-a-project.md"
     },
     {
       "title": "Create a PrivateLink endpoint",
-      "url": "https://vercel.com/docs/rest-api/networking/create-a-private-link-endpoint",
-      "fetchUrl": "https://vercel.com/docs/rest-api/networking/create-a-private-link-endpoint.md"
+      "url": "https://vercel.com/docs/rest-api/networking/create-a-privatelink-endpoint",
+      "fetchUrl": "https://vercel.com/docs/rest-api/networking/create-a-privatelink-endpoint.md"
     },
     {
       "title": "Create a Secure Compute network",
@@ -7103,8 +7108,8 @@
     },
     {
       "title": "Delete a PrivateLink endpoint",
-      "url": "https://vercel.com/docs/rest-api/networking/delete-a-private-link-endpoint",
-      "fetchUrl": "https://vercel.com/docs/rest-api/networking/delete-a-private-link-endpoint.md"
+      "url": "https://vercel.com/docs/rest-api/networking/delete-a-privatelink-endpoint",
+      "fetchUrl": "https://vercel.com/docs/rest-api/networking/delete-a-privatelink-endpoint.md"
     },
     {
       "title": "Delete a Secure Compute network",
@@ -7113,8 +7118,8 @@
     },
     {
       "title": "List PrivateLink endpoints",
-      "url": "https://vercel.com/docs/rest-api/networking/list-private-link-endpoints",
-      "fetchUrl": "https://vercel.com/docs/rest-api/networking/list-private-link-endpoints.md"
+      "url": "https://vercel.com/docs/rest-api/networking/list-privatelink-endpoints",
+      "fetchUrl": "https://vercel.com/docs/rest-api/networking/list-privatelink-endpoints.md"
     },
     {
       "title": "List Secure Compute networks",
@@ -7123,8 +7128,8 @@
     },
     {
       "title": "Read a PrivateLink endpoint",
-      "url": "https://vercel.com/docs/rest-api/networking/read-a-private-link-endpoint",
-      "fetchUrl": "https://vercel.com/docs/rest-api/networking/read-a-private-link-endpoint.md"
+      "url": "https://vercel.com/docs/rest-api/networking/read-a-privatelink-endpoint",
+      "fetchUrl": "https://vercel.com/docs/rest-api/networking/read-a-privatelink-endpoint.md"
     },
     {
       "title": "Read a Secure Compute network",
@@ -7133,8 +7138,8 @@
     },
     {
       "title": "Update a PrivateLink endpoint",
-      "url": "https://vercel.com/docs/rest-api/networking/update-a-private-link-endpoint",
-      "fetchUrl": "https://vercel.com/docs/rest-api/networking/update-a-private-link-endpoint.md"
+      "url": "https://vercel.com/docs/rest-api/networking/update-a-privatelink-endpoint",
+      "fetchUrl": "https://vercel.com/docs/rest-api/networking/update-a-privatelink-endpoint.md"
     },
     {
       "title": "Update a Secure Compute network",
@@ -7162,6 +7167,16 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/organizations/create-or-add-team-to-organization.md"
     },
     {
+      "title": "Create or Replace Organization Directory Sync Group Configuration",
+      "url": "https://vercel.com/docs/rest-api/organizations/create-or-replace-organization-directory-sync-group-configuration",
+      "fetchUrl": "https://vercel.com/docs/rest-api/organizations/create-or-replace-organization-directory-sync-group-configuration.md"
+    },
+    {
+      "title": "Delete Organization Directory Sync Group Configuration",
+      "url": "https://vercel.com/docs/rest-api/organizations/delete-organization-directory-sync-group-configuration",
+      "fetchUrl": "https://vercel.com/docs/rest-api/organizations/delete-organization-directory-sync-group-configuration.md"
+    },
+    {
       "title": "Delete Team from Organization",
       "url": "https://vercel.com/docs/rest-api/organizations/delete-team-from-organization",
       "fetchUrl": "https://vercel.com/docs/rest-api/organizations/delete-team-from-organization.md"
@@ -7170,6 +7185,16 @@
       "title": "Get an Organization",
       "url": "https://vercel.com/docs/rest-api/organizations/get-an-organization",
       "fetchUrl": "https://vercel.com/docs/rest-api/organizations/get-an-organization.md"
+    },
+    {
+      "title": "Get Organization Directory Sync Group",
+      "url": "https://vercel.com/docs/rest-api/organizations/get-organization-directory-sync-group",
+      "fetchUrl": "https://vercel.com/docs/rest-api/organizations/get-organization-directory-sync-group.md"
+    },
+    {
+      "title": "List Organization Directory Sync Groups",
+      "url": "https://vercel.com/docs/rest-api/organizations/list-organization-directory-sync-groups",
+      "fetchUrl": "https://vercel.com/docs/rest-api/organizations/list-organization-directory-sync-groups.md"
     },
     {
       "title": "List Organization Teams",
@@ -7185,6 +7210,11 @@
       "title": "Update an Organization",
       "url": "https://vercel.com/docs/rest-api/organizations/update-an-organization",
       "fetchUrl": "https://vercel.com/docs/rest-api/organizations/update-an-organization.md"
+    },
+    {
+      "title": "Update Organization Team Directory Sync Mode",
+      "url": "https://vercel.com/docs/rest-api/organizations/update-organization-team-directory-sync-mode",
+      "fetchUrl": "https://vercel.com/docs/rest-api/organizations/update-organization-team-directory-sync-mode.md"
     },
     {
       "title": "Add a routing rule",
@@ -7457,9 +7487,24 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/create-a-named-sandbox.md"
     },
     {
+      "title": "Create a named sandbox",
+      "url": "https://vercel.com/docs/rest-api/sandboxes/create-a-named-sandbox-1",
+      "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/create-a-named-sandbox-1.md"
+    },
+    {
+      "title": "Create a named sandbox",
+      "url": "https://vercel.com/docs/rest-api/sandboxes/create-a-named-sandbox-2",
+      "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/create-a-named-sandbox-2.md"
+    },
+    {
       "title": "Create a snapshot",
       "url": "https://vercel.com/docs/rest-api/sandboxes/create-a-snapshot",
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/create-a-snapshot.md"
+    },
+    {
+      "title": "Create a snapshot",
+      "url": "https://vercel.com/docs/rest-api/sandboxes/create-a-snapshot-1",
+      "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/create-a-snapshot-1.md"
     },
     {
       "title": "Delete a sandbox",
@@ -7485,6 +7530,11 @@
       "title": "Fork a named sandbox",
       "url": "https://vercel.com/docs/rest-api/sandboxes/fork-a-named-sandbox",
       "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/fork-a-named-sandbox.md"
+    },
+    {
+      "title": "Fork a named sandbox",
+      "url": "https://vercel.com/docs/rest-api/sandboxes/fork-a-named-sandbox-1",
+      "fetchUrl": "https://vercel.com/docs/rest-api/sandboxes/fork-a-named-sandbox-1.md"
     },
     {
       "title": "Get a command",
@@ -7637,6 +7687,16 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/security/returns-activated-waf-config.md"
     },
     {
+      "title": "Returns activated WAF config",
+      "url": "https://vercel.com/docs/rest-api/security/returns-activated-waf-config-1",
+      "fetchUrl": "https://vercel.com/docs/rest-api/security/returns-activated-waf-config-1.md"
+    },
+    {
+      "title": "Returns activated WAF config",
+      "url": "https://vercel.com/docs/rest-api/security/returns-activated-waf-config-2",
+      "fetchUrl": "https://vercel.com/docs/rest-api/security/returns-activated-waf-config-2.md"
+    },
+    {
       "title": "Update Attack Challenge mode",
       "url": "https://vercel.com/docs/rest-api/security/update-attack-challenge-mode",
       "fetchUrl": "https://vercel.com/docs/rest-api/security/update-attack-challenge-mode.md"
@@ -7747,44 +7807,44 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/teams/update-team-directory-sync-role-mappings.md"
     },
     {
-      "title": "GET /domains/records/{recordId}",
-      "url": "https://vercel.com/docs/rest-api/untagged/get-domains-records-record-id",
-      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/get-domains-records-record-id.md"
-    },
-    {
-      "title": "GET /v2/observability/schema",
-      "url": "https://vercel.com/docs/rest-api/untagged/get-v2-observability-schema",
-      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/get-v2-observability-schema.md"
-    },
-    {
-      "title": "GET /v2/observability/schema/{metricId}",
-      "url": "https://vercel.com/docs/rest-api/untagged/get-v2-observability-schema-metric-id",
-      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/get-v2-observability-schema-metric-id.md"
-    },
-    {
       "title": "POST /api-keys",
-      "url": "https://vercel.com/docs/rest-api/untagged/post-api-keys",
-      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/post-api-keys.md"
-    },
-    {
-      "title": "POST /speed-insights/toggle",
-      "url": "https://vercel.com/docs/rest-api/untagged/post-speed-insights-toggle",
-      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/post-speed-insights-toggle.md"
+      "url": "https://vercel.com/docs/rest-api/untagged/createapikeys",
+      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/createapikeys.md"
     },
     {
       "title": "POST /v2/observability/query",
-      "url": "https://vercel.com/docs/rest-api/untagged/post-v2-observability-query",
-      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/post-v2-observability-query.md"
+      "url": "https://vercel.com/docs/rest-api/untagged/createobservabilityquery",
+      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/createobservabilityquery.md"
+    },
+    {
+      "title": "POST /speed-insights/toggle",
+      "url": "https://vercel.com/docs/rest-api/untagged/createspeedinsightstoggle",
+      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/createspeedinsightstoggle.md"
     },
     {
       "title": "POST /web/insights/toggle",
-      "url": "https://vercel.com/docs/rest-api/untagged/post-web-insights-toggle",
-      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/post-web-insights-toggle.md"
+      "url": "https://vercel.com/docs/rest-api/untagged/createwebinsightstoggle",
+      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/createwebinsightstoggle.md"
+    },
+    {
+      "title": "GET /domains/records/{recordId}",
+      "url": "https://vercel.com/docs/rest-api/untagged/getdomainsrecordsbyrecordid",
+      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/getdomainsrecordsbyrecordid.md"
+    },
+    {
+      "title": "GET /v2/observability/schema",
+      "url": "https://vercel.com/docs/rest-api/untagged/getobservabilityschema",
+      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/getobservabilityschema.md"
+    },
+    {
+      "title": "GET /v2/observability/schema/{metricId}",
+      "url": "https://vercel.com/docs/rest-api/untagged/getobservabilityschemabymetricid",
+      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/getobservabilityschemabymetricid.md"
     },
     {
       "title": "PUT /domains/{domain}/records",
-      "url": "https://vercel.com/docs/rest-api/untagged/put-domains-domain-records",
-      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/put-domains-domain-records.md"
+      "url": "https://vercel.com/docs/rest-api/untagged/replacedomainsbydomainrecords",
+      "fetchUrl": "https://vercel.com/docs/rest-api/untagged/replacedomainsbydomainrecords.md"
     },
     {
       "title": "Delete User Account",
@@ -7943,8 +8003,8 @@
     },
     {
       "title": "Create a GitHub pull request that adds Vercel CI tags for the completed analysis",
-      "url": "https://vercel.com/docs/rest-api/vercel-ci/create-a-git-hub-pull-request-that-adds-vercel-ci-tags-for-the-completed-analysis",
-      "fetchUrl": "https://vercel.com/docs/rest-api/vercel-ci/create-a-git-hub-pull-request-that-adds-vercel-ci-tags-for-the-completed-analysis.md"
+      "url": "https://vercel.com/docs/rest-api/vercel-ci/create-a-github-pull-request-that-adds-vercel-ci-tags-for-the-completed-analysis",
+      "fetchUrl": "https://vercel.com/docs/rest-api/vercel-ci/create-a-github-pull-request-that-adds-vercel-ci-tags-for-the-completed-analysis.md"
     },
     {
       "title": "Enable or disable Vercel CI for a connected repository",
@@ -8047,9 +8107,9 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/vercel-ci/retry-a-terminal-vercel-ci-invocation-attempt.md"
     },
     {
-      "title": "Search the task logs of several invocation attempts",
-      "url": "https://vercel.com/docs/rest-api/vercel-ci/search-the-task-logs-of-several-invocation-attempts",
-      "fetchUrl": "https://vercel.com/docs/rest-api/vercel-ci/search-the-task-logs-of-several-invocation-attempts.md"
+      "title": "Search the setup and task logs of several invocation attempts",
+      "url": "https://vercel.com/docs/rest-api/vercel-ci/search-the-setup-and-task-logs-of-several-invocation-attempts",
+      "fetchUrl": "https://vercel.com/docs/rest-api/vercel-ci/search-the-setup-and-task-logs-of-several-invocation-attempts.md"
     },
     {
       "title": "Start an asynchronous Vercel CI task analysis",
@@ -8132,6 +8192,11 @@
       "fetchUrl": "https://vercel.com/docs/routing-middleware/python-reference.md"
     },
     {
+      "title": "Custom 404 Pages",
+      "url": "https://vercel.com/docs/routing/custom-404-pages",
+      "fetchUrl": "https://vercel.com/docs/routing/custom-404-pages.md"
+    },
+    {
       "title": "Project-Level Routing Rules",
       "url": "https://vercel.com/docs/routing/project-routing-rules",
       "fetchUrl": "https://vercel.com/docs/routing/project-routing-rules.md"
@@ -8202,6 +8267,11 @@
       "fetchUrl": "https://vercel.com/docs/sandbox/concepts/authentication.md"
     },
     {
+      "title": "Sandbox Credentials",
+      "url": "https://vercel.com/docs/sandbox/concepts/credentials",
+      "fetchUrl": "https://vercel.com/docs/sandbox/concepts/credentials.md"
+    },
+    {
       "title": "Drives",
       "url": "https://vercel.com/docs/sandbox/concepts/drives",
       "fetchUrl": "https://vercel.com/docs/sandbox/concepts/drives.md"
@@ -8255,16 +8325,6 @@
       "title": "Tags",
       "url": "https://vercel.com/docs/sandbox/concepts/tags",
       "fetchUrl": "https://vercel.com/docs/sandbox/concepts/tags.md"
-    },
-    {
-      "title": "Sandbox Credentials",
-      "url": "https://vercel.com/docs/sandbox/credentials",
-      "fetchUrl": "https://vercel.com/docs/sandbox/credentials.md"
-    },
-    {
-      "title": "npm Credentials",
-      "url": "https://vercel.com/docs/sandbox/credentials/npm",
-      "fetchUrl": "https://vercel.com/docs/sandbox/credentials/npm.md"
     },
     {
       "title": "Ecosystem",

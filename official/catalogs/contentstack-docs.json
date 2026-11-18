@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "8b9a34f431bb19a89bd3e2077bde6326add4ec02bbf31621e13b9e8e974f9e4e",
+  "revision": "a4082bc492ab46eadbb3980339531abf046b328f5276e5fa8f92ae6c576bd3ae",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -1540,6 +1540,11 @@
       "title": "brand kit / add item in knowledge vault",
       "url": "https://www.contentstack.com/docs/brand-kit/add-item-in-knowledge-vault",
       "fetchUrl": "https://www.contentstack.com/docs/brand-kit/add-item-in-knowledge-vault.md"
+    },
+    {
+      "title": "brand kit / brand profiles",
+      "url": "https://www.contentstack.com/docs/brand-kit/brand-profiles",
+      "fetchUrl": "https://www.contentstack.com/docs/brand-kit/brand-profiles.md"
     },
     {
       "title": "brand kit / create a brand kit",
@@ -5262,9 +5267,19 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dart/reference/contenttype.md"
     },
     {
+      "title": "reference / contenttypequery",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dart/reference/contenttypequery",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dart/reference/contenttypequery.md"
+    },
+    {
       "title": "reference / entry",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dart/reference/entry",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dart/reference/entry.md"
+    },
+    {
+      "title": "reference / error",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dart/reference/error",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-delivery-sdk/dart/reference/error.md"
     },
     {
       "title": "reference / imagetransformation",
@@ -6497,6 +6512,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/asset.md"
     },
     {
+      "title": "reference / assetmodel",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/assetmodel",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/assetmodel.md"
+    },
+    {
       "title": "reference / assignrole",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/assignrole",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/assignrole.md"
@@ -6537,9 +6557,99 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/branchmodel.md"
     },
     {
+      "title": "reference / branchpublishconfigmodel",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/branchpublishconfigmodel",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/branchpublishconfigmodel.md"
+    },
+    {
       "title": "reference / bulk operations",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulk-operations",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulk-operations.md"
+    },
+    {
+      "title": "reference / bulkadditem",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkadditem",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkadditem.md"
+    },
+    {
+      "title": "reference / bulkadditemsdata",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkadditemsdata",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkadditemsdata.md"
+    },
+    {
+      "title": "reference / bulkdeleteasset",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkdeleteasset",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkdeleteasset.md"
+    },
+    {
+      "title": "reference / bulkdeletedetails",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkdeletedetails",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkdeletedetails.md"
+    },
+    {
+      "title": "reference / bulkdeleteentry",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkdeleteentry",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkdeleteentry.md"
+    },
+    {
+      "title": "reference / bulkpublishasset",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkpublishasset",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkpublishasset.md"
+    },
+    {
+      "title": "reference / bulkpublishdetails",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkpublishdetails",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkpublishdetails.md"
+    },
+    {
+      "title": "reference / bulkpublishentry",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkpublishentry",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkpublishentry.md"
+    },
+    {
+      "title": "reference / bulkpublishrules",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkpublishrules",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkpublishrules.md"
+    },
+    {
+      "title": "reference / bulkreleaseitem",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkreleaseitem",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkreleaseitem.md"
+    },
+    {
+      "title": "reference / bulkreleaseitemsdata",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkreleaseitemsdata",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkreleaseitemsdata.md"
+    },
+    {
+      "title": "reference / bulkworkflowentry",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkworkflowentry",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkworkflowentry.md"
+    },
+    {
+      "title": "reference / bulkworkflowrole",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkworkflowrole",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkworkflowrole.md"
+    },
+    {
+      "title": "reference / bulkworkflowstage",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkworkflowstage",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkworkflowstage.md"
+    },
+    {
+      "title": "reference / bulkworkflowupdatebody",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkworkflowupdatebody",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkworkflowupdatebody.md"
+    },
+    {
+      "title": "reference / bulkworkflowuser",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkworkflowuser",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/bulkworkflowuser.md"
+    },
+    {
+      "title": "reference / condition",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/condition",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/condition.md"
     },
     {
       "title": "reference / contentmodelling",
@@ -6627,6 +6737,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/doubleparametervalue.md"
     },
     {
+      "title": "reference / endpoint",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/endpoint",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/endpoint.md"
+    },
+    {
       "title": "reference / entry",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/entry",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/entry.md"
@@ -6635,6 +6750,11 @@
       "title": "reference / entrypublishaction",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/entrypublishaction",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/entrypublishaction.md"
+    },
+    {
+      "title": "reference / entryvariant",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/entryvariant",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/entryvariant.md"
     },
     {
       "title": "reference / entryworkflowstage",
@@ -6682,6 +6802,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/fieldmetadata.md"
     },
     {
+      "title": "reference / fieldrules",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/fieldrules",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/fieldrules.md"
+    },
+    {
       "title": "reference / filefield",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/filefield",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/filefield.md"
@@ -6697,9 +6822,34 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/globalfield.md"
     },
     {
+      "title": "reference / globalfieldreference",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/globalfieldreference",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/globalfieldreference.md"
+    },
+    {
+      "title": "reference / globalfieldrefs",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/globalfieldrefs",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/globalfieldrefs.md"
+    },
+    {
       "title": "reference / groupfield",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/groupfield",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/groupfield.md"
+    },
+    {
+      "title": "reference / imagefield",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/imagefield",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/imagefield.md"
+    },
+    {
+      "title": "reference / jobjectparametervalue",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/jobjectparametervalue",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/jobjectparametervalue.md"
+    },
+    {
+      "title": "reference / jsonfield",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/jsonfield",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/jsonfield.md"
     },
     {
       "title": "reference / label",
@@ -6742,6 +6892,31 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/modularblockfield.md"
     },
     {
+      "title": "reference / numberfield",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/numberfield",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/numberfield.md"
+    },
+    {
+      "title": "reference / oauthexception",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/oauthexception",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/oauthexception.md"
+    },
+    {
+      "title": "reference / oauthhandler",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/oauthhandler",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/oauthhandler.md"
+    },
+    {
+      "title": "reference / oauthoptions",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/oauthoptions",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/oauthoptions.md"
+    },
+    {
+      "title": "reference / oauthtokens",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/oauthtokens",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/oauthtokens.md"
+    },
+    {
       "title": "reference / option",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/option",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/option.md"
@@ -6762,6 +6937,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/previewtoken.md"
     },
     {
+      "title": "reference / previewtokenmodel",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/previewtokenmodel",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/previewtokenmodel.md"
+    },
+    {
       "title": "reference / publishqueue",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/publishqueue",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/publishqueue.md"
@@ -6780,6 +6960,11 @@
       "title": "reference / publishunpublishdetails",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/publishunpublishdetails",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/publishunpublishdetails.md"
+    },
+    {
+      "title": "reference / publishvariant",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/publishvariant",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/publishvariant.md"
     },
     {
       "title": "reference / query",
@@ -6862,9 +7047,39 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/taxonomy.md"
     },
     {
+      "title": "reference / taxonomyfield",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/taxonomyfield",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/taxonomyfield.md"
+    },
+    {
+      "title": "reference / taxonomyimportmodel",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/taxonomyimportmodel",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/taxonomyimportmodel.md"
+    },
+    {
+      "title": "reference / taxonomymodel",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/taxonomymodel",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/taxonomymodel.md"
+    },
+    {
       "title": "reference / term",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/term",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/term.md"
+    },
+    {
+      "title": "reference / termancestordescendant",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/termancestordescendant",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/termancestordescendant.md"
+    },
+    {
+      "title": "reference / termmodel",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/termmodel",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/termmodel.md"
+    },
+    {
+      "title": "reference / termmovemodel",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/termmovemodel",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/dot-net/reference/termmovemodel.md"
     },
     {
       "title": "reference / textboxfield",
@@ -7197,6 +7412,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/bulkoperation.md"
     },
     {
+      "title": "reference / compare",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/compare",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/compare.md"
+    },
+    {
       "title": "reference / contentstack",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/contentstack",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/contentstack.md"
@@ -7262,14 +7482,34 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/managementtoken.md"
     },
     {
+      "title": "reference / mergequeue",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/mergequeue",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/mergequeue.md"
+    },
+    {
+      "title": "reference / oauthhandler",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/oauthhandler",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/oauthhandler.md"
+    },
+    {
       "title": "reference / organization",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/organization",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/organization.md"
     },
     {
+      "title": "reference / previewtoken",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/previewtoken",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/previewtoken.md"
+    },
+    {
       "title": "reference / publishrules",
       "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/publishrules",
       "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/publishrules.md"
+    },
+    {
+      "title": "reference / query",
+      "url": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/query",
+      "fetchUrl": "https://www.contentstack.com/docs/developers/sdks/content-management-sdk/javascript/reference/query.md"
     },
     {
       "title": "reference / release",
