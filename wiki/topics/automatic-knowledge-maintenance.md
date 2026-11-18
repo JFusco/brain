@@ -346,3 +346,8 @@ The [Claude authoring journal](../journal/2026-11-16-claude-authoring-revalidati
 ## November 17 component fit and model selection
 
 The [component-fit journal](../journal/2026-11-17-component-fit-and-model-selection.md) distinguishes legal component placement, deployed behavior, author controls and active-feature measurement. Responsive artwork review separately checks meaning after delivery. Verified vendor mechanisms support proposed procedures without promoting historical pilots or incidental versions into general guarantees. Current OpenAI model/endpoint guidance replaces the older selection table while retaining dated history. Private whole-capture accounting, fresh separate review and successful nightly completion remain the acceptance boundary; unrelated stale signals remain flagged.
+
+
+## November 18 security review revalidation
+
+The [security review journal](../journal/2026-11-18-security-review-revalidation.md) records full source revalidation of the existing playbook. Version-qualified ASVS identifiers and CSP delivery mechanisms clarify evidence collection without implying application security acceptance. No captures were pending at the review cutoff; unrelated stale signals remain. Independent content review and successful nightly completion retain their separate publication roles.
