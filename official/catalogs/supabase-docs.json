@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "supabase-docs",
-  "revision": "9b6faf3d76986cc1d9db5b136c9a76b0f3e13d85700f3b5899c10ebda557fe0c",
+  "revision": "04caf8a61cfdc435e55872c34d9603ad34a759ec17b32e51b75758df103b12e1",
   "origin": "https://supabase.com/docs/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -2330,6 +2330,11 @@
       "title": "self hosting / self hosted oauth",
       "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-oauth",
       "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-oauth.md"
+    },
+    {
+      "title": "self hosting / self hosted oauth server",
+      "url": "https://supabase.com/docs/guides/self-hosting/self-hosted-oauth-server",
+      "fetchUrl": "https://supabase.com/docs/guides/self-hosting/self-hosted-oauth-server.md"
     },
     {
       "title": "self hosting / self hosted passkeys",
