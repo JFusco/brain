@@ -77,10 +77,12 @@ For repository changes that include delivery:
 5. Commit only the intended files with a conventional message and push the
    issue branch. Keep the pre-commit privacy guard enabled; never bypass a
    failed guard or push directly to `main`.
-6. Open a PR with a conventional title describing the problem, resulting
-   behavior, verification outcomes and risk/rollback, with
-   `Closes #<issue-number>`. Use the PR template and PR lint command if they
-   exist, and read the saved PR back.
+6. Open a pull request with a conventional title and the canonical
+   `.github/pull_request_template.md` body. Keep its level-two headings exactly
+   once and in order; replace every placeholder with meaningful content,
+   include `Closes #<issue-number>`, record verification and risk/rollback,
+   and complete every required checkbox. Run `pnpm run lint:pr` before opening
+   the PR and read the saved PR back afterward.
 7. The Office harness merges every board-delivered PR once its applicable
    checks pass and the saved PR and head are verified (Joe, 2026-10-31).
    Outside the Office, routine Brain knowledge PRs, catalog-refresh PRs
@@ -89,11 +91,12 @@ For repository changes that include delivery:
    dependency PRs from Pin Courier and retained Dependabot PRs merge only
    through The Office after its current-head checks and review pass; other delivery stops at the verified PR unless the user
    authorizes merging. Never merge failed content or bypass branch protections.
-8. Once a PR merges, by an agent or by Joe, delete its branch: the remote
-   branch if GitHub kept it, the local branch and any worktree used for it.
-   Delete only when the PR merged and the branch tip is the merged head;
-   ask before removing a worktree with uncommitted changes. Never delete
-   an unmerged branch.
+8. Once a PR merges, by the Office, an agent or Joe, clean up what the
+   delivery created: delete the remote branch if GitHub kept it, the local
+   branch and any worktree used for it, and remove scratch or temporary files
+   the delivery left outside the repository. Delete only when the PR merged
+   and the branch tip is the merged head; ask before removing a worktree with
+   uncommitted changes. Never delete an unmerged branch.
 
 <!-- wiki-skill:start -->
 ## Context wiki
