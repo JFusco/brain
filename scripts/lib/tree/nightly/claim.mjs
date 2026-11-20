@@ -6,6 +6,7 @@ import { claimRefusal, REASON_CODE, saveLedger } from '../../branch/nightly/ledg
 import { recordPublication } from '../../branch/publication/ledger.mjs';
 import { checkVocabularyRelease } from '../../branch/packages/vocabulary.mjs';
 import { checkUiPatternsRelease } from '../../branch/packages/ui-patterns.mjs';
+import { configured } from '../slack/intake.mjs';
 
 export async function claim(state, slotDate, flags) {
   if (!['manual', 'scheduled-agent'].includes(flags.trigger))
@@ -55,6 +56,8 @@ export async function claim(state, slotDate, flags) {
   } catch (error) {
     attempt.uiPatterns = { ok: false, error: error.message };
   }
+  if (configured() && !rerun && flags.trigger === 'scheduled-agent')
+    attempt.slackIntake = 'Follow docs/slack-intake.md before capture review';
   saveLedger(state, attempt);
   return { claimed: true, ...attempt };
 }

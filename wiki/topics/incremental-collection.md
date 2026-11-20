@@ -34,3 +34,13 @@ See [automatic knowledge maintenance](./automatic-knowledge-maintenance.md) for 
 ## Daily curator adoption
 
 The saved daily curator prompt explicitly loads this merged procedure from fetched main and runs `inbox compare` for useful candidates and proposed replacement texts before publication. It requires concrete catalog-bound decisions within the existing twelve-candidate total, preserves uncertainty and candidate history, and stops with an actionable dependency if the merged CLI is unavailable. The active schedule and target chat are preserved. Exact prompt readback establishes configuration, not future unattended execution. Local body-read efficiency was demonstrated separately from semantic detection quality.
+
+## Scheduled technical research
+
+Brain's scheduled worker can use opt-in Slack channels to identify research
+questions. It must first verify its own message and thread access. Historical
+seed and daily coverage advance independently. An inbox capture requires a
+current primary-source retrieval from the same run, a scoped decision and
+limits; independent review rechecks the claim before publication. Private
+source links stay outside knowledge pages. See the
+[implementation record](../journal/2026-11-20-slack-intake.md).

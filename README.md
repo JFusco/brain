@@ -694,3 +694,17 @@ node scripts/brain.mjs snapshot
 node scripts/brain.mjs search --snapshot SHA --query QUERY --kind note --limit 5
 node scripts/brain.mjs read --snapshot SHA --path knowledge/DOMAIN/NOTE.md
 ```
+
+### Daily Slack intake
+
+The existing nightly claim discovers a private eight-channel configuration in
+`.state/slack/channels.json` (rows contain `name`, `id` and Brain `domain`).
+Before curation, the scheduled worker follows the [Slack intake procedure](docs/slack-intake.md).
+Its first pass reads Slack and records a private coverage preview. Intake opens
+only when that worker verifies message and thread access for every configured
+channel and finds a recent reply by its own timestamp on an older thread.
+`node scripts/slack-intake.mjs status` shows the local rollout state and coverage.
+After the gate opens, daily activity takes priority over the rotating historical
+seed. A historical discussion qualifies only when a current primary reference
+supports a practical decision. The usual independent content review, stale-note
+revalidation, retention of retired history and total review limit still apply.

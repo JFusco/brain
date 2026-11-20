@@ -65,3 +65,10 @@ catalog review uses `role: author`, matching author/reviewer IDs and `notes: []`
 Generated hub sections need no separate note row. Include every changed public
 path in the overall diff review. Commit changes, dirty files or a different main
 baseline require fresh review and `prepare`; approval lasts at most one hour.
+
+For researched platform guidance, open the current primary reference and check
+the recommended action against its present supported versions and deprecations.
+An old discussion can identify the question. Require a direct public citation
+and a practical answer with limits. Keep internal Slack links and identifiers
+in private intake evidence. If current documentation withdraws the advice,
+review its retirement or documented replacement.

@@ -13,6 +13,15 @@ export function knowledgeProblems(entries) {
       ),
     ),
   );
+  for (const entry of entries)
+    if (
+      entry.id.startsWith('knowledge/') &&
+      entry.id.endsWith('.md') &&
+      /https?:\/\/(?:[\w-]+\.)*slack\.com\/(?:archives|client|docs|files|bookmarks)\//i.test(
+        entry.bytes.toString(),
+      )
+    )
+      issues.push(entry.id + ': private Slack provenance belongs in local intake state');
   const notes = entries
     .filter(e => isNote(e.id))
     .map(e => ({
