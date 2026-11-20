@@ -2,12 +2,13 @@
 title: "Generate editor guidance from reviewed field definitions"
 domain: "cms/contentstack"
 aliases: ["field help text", "Instruction Value", "functional specification guidance"]
-evidence_date: "2026-10-21"
-reviewed_at: "2026-10-26"
+evidence_date: "2026-11-20"
+reviewed_at: "2026-11-20"
 status: "current"
 versions: []
 applicability: "Contentstack authoring guidance and proposed CMS-neutral specification generation; target product/version and adapter behavior require verification"
-provenance: "contentstack-docs@4d7e54b65fe30d5c61704a2a22f9b19b91d49c345276593c93c1866ac9d12eb0; official Academy and field-property pages read 2026-10-21; sanitized generator proposal, no metadata deployment validated"
+review_after: "2026-11-27"
+provenance: "contentstack-docs@04d99e648a9c0c9cb6b94146945a2a6743a551a41d2a617bc8a758eb9e3d6291; official Academy and field-property pages read 2026-11-20; sanitized generator proposal, no metadata deployment validated"
 ---
 
 # Generate editor guidance from reviewed field definitions
@@ -20,7 +21,7 @@ Use this when a functional specification defines CMS fields and editors repeated
 
 1. **Documented recommendation:** Contentstack Academy’s [collaboration lesson](https://www.contentstack.com/academy/courses/cms-developer-foundations/collaboration-patterns-that-work-and-fail) recommends content-type descriptions and contextual field guidance, updated when editors ask recurring questions. This is curriculum advice, not an API requirement for nonempty prose on every field.
 2. **Proposed:** write concise guidance for editor-facing fields: purpose, expected value, where it appears, applicable format/constraints, empty behavior and a useful example. Avoid filler for obvious fields and instructions that pretend internal fields require editor input. Have editors review the wording with realistic content.
-3. **Documented:** [Instruction Value](https://www.contentstack.com/docs/headless-cms/instruction-value) appears beneath the field in the entry form. [Help Text](https://www.contentstack.com/docs/headless-cms/help-text) appears through a question-mark tooltip beside the field name. **Proposed:** put essential directions in visible instructions and supplementary explanations in help text; do not conflate the two target properties.
+3. **Documented:** [Instruction Value](https://www.contentstack.com/docs/headless-cms/instruction-value) appears beneath the field in the entry form. [Help Text](https://www.contentstack.com/docs/headless-cms/help-text) appears through a question-mark tooltip beside the field name. **Proposed:** put essential directions in visible instructions and supplementary explanations in help text; do not conflate the two target properties. Academy uses “instruction (help text)” as general teaching language; map the reviewed definition to the separately documented native properties, not that shorthand.
 4. **Documented:** the [Single Line Textbox reference](https://www.contentstack.com/docs/headless-cms/single-line-textbox) separately lists instructions, help, validation, validation messages, defaults and placeholders. **Proposed:** keep these concepts, requiredness and examples distinct in the reviewed source definition. Prose does not enforce a rule; suggested copy lengths do not automatically become validation limits. Do not invent unknown requirements.
 5. **Proposed:** add first-class editor guidance and an author-facing content-type purpose to the existing field-definition contract. Render approved text into the functional spec, authoring reference and supported CMS model properties. Keep that contract CMS-neutral and map each concept with a target-specific adapter; report unsupported properties instead of silently discarding them or claiming deployment succeeded.
 6. **Proposed:** review guidance with field behavior changes. Reconcile editor answers into the approved definition before regeneration. Compare generated and configured text and preserve newer editor changes for reconciliation rather than overwriting them. Start with the existing generator/model-review workflow; a separate synchronization service needs a demonstrated requirement.
@@ -34,3 +35,5 @@ The official pages establish the recommendation and native presentation mechanis
 A private capture reports a targeted interface inspection, not a complete generator audit. That historical report and its incidental application version do not establish a missing feature in every output. No generator extension, CMS-neutral adapter, drift reconciliation, metadata write, editor visibility, accessibility result or support reduction was implemented or verified here. Confirm the target product/version and installed SDK independently before applying this proposal.
 
 **Revalidated October 26, 2026:** The Academy collaboration lesson, Instruction Value, Help Text and Single Line Textbox pages were re-read. Visible instructions remain distinct from tooltip help and from validation/default/placeholder properties. The generator, adapter and reconciliation workflow remain proposed, with no CMS write or editor-accessibility result.
+
+**Revalidated November 20, 2026:** The Academy lesson and the three linked field-property references still support contextual guidance, visible Instruction Value, tooltip Help Text and separate validation controls. Keep the curriculum recommendation distinct from the property mapping when generating metadata. This source comparison does not establish accessibility, automatic synchronization or a deployed generator.

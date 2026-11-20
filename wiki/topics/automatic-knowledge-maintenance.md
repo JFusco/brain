@@ -355,3 +355,8 @@ The [component-fit journal](../journal/2026-11-17-component-fit-and-model-select
 ## November 18 security review revalidation
 
 The [security review journal](../journal/2026-11-18-security-review-revalidation.md) records full source revalidation of the existing playbook. Version-qualified ASVS identifiers and CSP delivery mechanisms clarify evidence collection without implying application security acceptance. No captures were pending at the review cutoff; unrelated stale signals remain. Independent content review and successful nightly completion retain their separate publication roles.
+
+
+## November 20 model and editor guidance
+
+The [model and editor journal](../journal/2026-11-20-model-editor-revalidation.md) records source revalidation of three existing notes. Reusable API guidance, request-specific instructions and conversation continuity remain distinct contracts. Evaluation checklists and generator mappings stay explicitly proposed where the vendor sources do not establish them. Contentstack property references resolve the curriculum's instruction/help shorthand. Documentation checks do not establish runtime, CMS or accessibility acceptance; other stale signals remain visible.
