@@ -127,3 +127,13 @@ Joe or a maintainer places a Dependabot PR card in Ready for the existing board
 pickup path. Pin Courier retains its existing automatic-adoption policy. Use
 Office holds for recovery; never restore Renovate automerge or a competing merge
 path. Branch protection remains deferred.
+
+## Brain-owned Slack intake
+
+When the scheduled nightly claim returns `slackIntake`, follow
+[the Slack intake procedure](docs/slack-intake.md) in the primary checkout
+before reviewing inbox captures. Use the actual worker's read-only Slack access.
+The preview gate, private progress and official-reference research belong to Brain.
+The existing dispatcher supplies the worker. Count all captures toward the same
+nightly curation limit. Publish only decisions supported by current primary
+evidence with concrete applicability. Preserve source gaps and zero-result runs.
