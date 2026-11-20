@@ -35,5 +35,10 @@
     "eslint": "10.14.0",
     "globals": "17.14.0",
     "prettier": "3.9.10"
+  },
+  "pnpm": {
+    "overrides": {
+      "minimatch": ">=11.0.1"
+    }
   }
 }
