@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms-saas-docs",
-  "revision": "11e355af7c3c98fb9b5e59cf61c0253d9d2fb1ac71b0dc4e80b051f3fe79243f",
+  "revision": "6a05595c6fc6ffb7d0543ca469f350ba3435ad6a19fab194a5b2584c40cd20e3",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -1155,6 +1155,11 @@
       "title": "Import data into CMS (SaaS)",
       "url": "https://docs.optimizely.com/cms-saas/docs/import-data-into-cms-saas.md",
       "fetchUrl": "https://docs.optimizely.com/cms-saas/docs/import-data-into-cms-saas.md"
+    },
+    {
+      "title": "Integrate Optimizely Content Marketing Platform with CMS (SaaS)",
+      "url": "https://docs.optimizely.com/cms-saas/docs/integrate-cmp-with-cms-saas.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-saas/docs/integrate-cmp-with-cms-saas.md"
     },
     {
       "title": "Integrate external content sources with CMS (SaaS)",

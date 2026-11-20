@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "87cfb7ce6c795b6ef29a5dacbd2dba2f628f01c0604d3464f7759c041e397d77",
+  "revision": "8da2fbbfbf7a898b4a8e471eb6bdd6efdb27f5973aa60104f9358d058bb30b7c",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -295,11 +295,6 @@
       "title": "list_billing_charges",
       "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/billing/list_billing_charges",
       "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/billing/list_billing_charges.md"
-    },
-    {
-      "title": "list_contract_commitments",
-      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/billing/list_contract_commitments",
-      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/billing/list_contract_commitments.md"
     },
     {
       "title": "Caching",
@@ -630,6 +625,36 @@
       "title": "update_drain",
       "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drains/update_drain",
       "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drains/update_drain.md"
+    },
+    {
+      "title": "Drives",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives.md"
+    },
+    {
+      "title": "delete_drive",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives/delete_drive",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives/delete_drive.md"
+    },
+    {
+      "title": "fork_drive",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives/fork_drive",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives/fork_drive.md"
+    },
+    {
+      "title": "get_drive",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives/get_drive",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives/get_drive.md"
+    },
+    {
+      "title": "get_or_create_drive",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives/get_or_create_drive",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives/get_or_create_drive.md"
+    },
+    {
+      "title": "list_drives",
+      "url": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives/list_drives",
+      "fetchUrl": "https://vercel.com/docs/agent-resources/vercel-mcp/tools/drives/list_drives.md"
     },
     {
       "title": "Environment Variables",
@@ -1962,6 +1987,11 @@
       "fetchUrl": "https://vercel.com/docs/ai-gateway/getting-started/decision.md"
     },
     {
+      "title": "AI Gateway Extraction Quickstart",
+      "url": "https://vercel.com/docs/ai-gateway/getting-started/extraction",
+      "fetchUrl": "https://vercel.com/docs/ai-gateway/getting-started/extraction.md"
+    },
+    {
       "title": "AI Gateway Image Generation Quickstart",
       "url": "https://vercel.com/docs/ai-gateway/getting-started/image",
       "fetchUrl": "https://vercel.com/docs/ai-gateway/getting-started/image.md"
@@ -2040,6 +2070,11 @@
       "title": "AI Gateway Embeddings",
       "url": "https://vercel.com/docs/ai-gateway/modalities/embeddings",
       "fetchUrl": "https://vercel.com/docs/ai-gateway/modalities/embeddings.md"
+    },
+    {
+      "title": "Extraction",
+      "url": "https://vercel.com/docs/ai-gateway/modalities/extraction",
+      "fetchUrl": "https://vercel.com/docs/ai-gateway/modalities/extraction.md"
     },
     {
       "title": "AI Gateway Image Generation",
@@ -3037,11 +3072,6 @@
       "fetchUrl": "https://vercel.com/docs/cli/connect.md"
     },
     {
-      "title": "vercel billing contract",
-      "url": "https://vercel.com/docs/cli/contract",
-      "fetchUrl": "https://vercel.com/docs/cli/contract.md"
-    },
-    {
       "title": "vercel crons",
       "url": "https://vercel.com/docs/cli/crons",
       "fetchUrl": "https://vercel.com/docs/cli/crons.md"
@@ -3235,6 +3265,11 @@
       "title": "vercel organizations",
       "url": "https://vercel.com/docs/cli/organizations",
       "fetchUrl": "https://vercel.com/docs/cli/organizations.md"
+    },
+    {
+      "title": "vercel page-integrity",
+      "url": "https://vercel.com/docs/cli/page-integrity",
+      "fetchUrl": "https://vercel.com/docs/cli/page-integrity.md"
     },
     {
       "title": "vercel pricing",
@@ -3960,6 +3995,36 @@
       "title": "Using Drains",
       "url": "https://vercel.com/docs/drains/using-drains",
       "fetchUrl": "https://vercel.com/docs/drains/using-drains.md"
+    },
+    {
+      "title": "Vercel Drives",
+      "url": "https://vercel.com/docs/drives",
+      "fetchUrl": "https://vercel.com/docs/drives.md"
+    },
+    {
+      "title": "Drives CLI Reference",
+      "url": "https://vercel.com/docs/drives/cli-reference",
+      "fetchUrl": "https://vercel.com/docs/drives/cli-reference.md"
+    },
+    {
+      "title": "Pricing and Limits",
+      "url": "https://vercel.com/docs/drives/pricing",
+      "fetchUrl": "https://vercel.com/docs/drives/pricing.md"
+    },
+    {
+      "title": "Python SDK Reference",
+      "url": "https://vercel.com/docs/drives/python-sdk-reference",
+      "fetchUrl": "https://vercel.com/docs/drives/python-sdk-reference.md"
+    },
+    {
+      "title": "Quickstart",
+      "url": "https://vercel.com/docs/drives/quickstart",
+      "fetchUrl": "https://vercel.com/docs/drives/quickstart.md"
+    },
+    {
+      "title": "JS SDK Reference",
+      "url": "https://vercel.com/docs/drives/sdk-reference",
+      "fetchUrl": "https://vercel.com/docs/drives/sdk-reference.md"
     },
     {
       "title": "Deploying with Vercel Drop",
@@ -5177,6 +5242,11 @@
       "fetchUrl": "https://vercel.com/docs/oidc.md"
     },
     {
+      "title": "Access Other Clouds and APIs",
+      "url": "https://vercel.com/docs/oidc/access-other-services",
+      "fetchUrl": "https://vercel.com/docs/oidc/access-other-services.md"
+    },
+    {
       "title": "Connect to your own API",
       "url": "https://vercel.com/docs/oidc/api",
       "fetchUrl": "https://vercel.com/docs/oidc/api.md"
@@ -5195,6 +5265,11 @@
       "title": "Connect to Google Cloud Platform \\(GCP\\)",
       "url": "https://vercel.com/docs/oidc/gcp",
       "fetchUrl": "https://vercel.com/docs/oidc/gcp.md"
+    },
+    {
+      "title": "OIDC Policies",
+      "url": "https://vercel.com/docs/oidc/policies",
+      "fetchUrl": "https://vercel.com/docs/oidc/policies.md"
     },
     {
       "title": "OIDC Federation Reference",
@@ -6052,11 +6127,6 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/billing/list-focus-billing-charges.md"
     },
     {
-      "title": "List FOCUS contract commitments",
-      "url": "https://vercel.com/docs/rest-api/billing/list-focus-contract-commitments",
-      "fetchUrl": "https://vercel.com/docs/rest-api/billing/list-focus-contract-commitments.md"
-    },
-    {
       "title": "Purchase credits",
       "url": "https://vercel.com/docs/rest-api/billing/purchase-credits",
       "fetchUrl": "https://vercel.com/docs/rest-api/billing/purchase-credits.md"
@@ -6720,6 +6790,11 @@
       "title": "Retrieve the feature flags of a deployment",
       "url": "https://vercel.com/docs/rest-api/feature-flags/retrieve-the-feature-flags-of-a-deployment",
       "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/retrieve-the-feature-flags-of-a-deployment.md"
+    },
+    {
+      "title": "Sign flag overrides",
+      "url": "https://vercel.com/docs/rest-api/feature-flags/sign-flag-overrides",
+      "fetchUrl": "https://vercel.com/docs/rest-api/feature-flags/sign-flag-overrides.md"
     },
     {
       "title": "Update a flag",
@@ -8252,11 +8327,6 @@
       "fetchUrl": "https://vercel.com/docs/sandbox.md"
     },
     {
-      "title": "Sandbox CLI Reference",
-      "url": "https://vercel.com/docs/sandbox/cli-reference",
-      "fetchUrl": "https://vercel.com/docs/sandbox/cli-reference.md"
-    },
-    {
       "title": "Understanding Sandboxes",
       "url": "https://vercel.com/docs/sandbox/concepts",
       "fetchUrl": "https://vercel.com/docs/sandbox/concepts.md"
@@ -8417,9 +8487,89 @@
       "fetchUrl": "https://vercel.com/docs/sandbox/ecosystem/tanstack-ai.md"
     },
     {
+      "title": "Sandbox Examples",
+      "url": "https://vercel.com/docs/sandbox/examples",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples.md"
+    },
+    {
+      "title": "Clone a private Git repository",
+      "url": "https://vercel.com/docs/sandbox/examples/clone-a-private-git-repository",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/clone-a-private-git-repository.md"
+    },
+    {
+      "title": "Create a sandbox and run code",
+      "url": "https://vercel.com/docs/sandbox/examples/create-a-sandbox-and-run-code",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/create-a-sandbox-and-run-code.md"
+    },
+    {
+      "title": "Debug with an interactive shell",
+      "url": "https://vercel.com/docs/sandbox/examples/debug-with-an-interactive-shell",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/debug-with-an-interactive-shell.md"
+    },
+    {
+      "title": "Delete a sandbox",
+      "url": "https://vercel.com/docs/sandbox/examples/delete-a-sandbox",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/delete-a-sandbox.md"
+    },
+    {
+      "title": "Stream a Vercel Sandbox Desktop to Your Browser",
+      "url": "https://vercel.com/docs/sandbox/examples/desktop-streaming",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/desktop-streaming.md"
+    },
+    {
+      "title": "Execute long-running tasks",
+      "url": "https://vercel.com/docs/sandbox/examples/execute-long-running-tasks",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/execute-long-running-tasks.md"
+    },
+    {
+      "title": "Expose a port",
+      "url": "https://vercel.com/docs/sandbox/examples/expose-a-port",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/expose-a-port.md"
+    },
+    {
+      "title": "Install system packages",
+      "url": "https://vercel.com/docs/sandbox/examples/install-system-packages",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/install-system-packages.md"
+    },
+    {
+      "title": "Monitor your sandbox",
+      "url": "https://vercel.com/docs/sandbox/examples/monitor-your-sandbox",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/monitor-your-sandbox.md"
+    },
+    {
       "title": "Mount remote storage",
-      "url": "https://vercel.com/docs/sandbox/mount-remote-storage",
-      "fetchUrl": "https://vercel.com/docs/sandbox/mount-remote-storage.md"
+      "url": "https://vercel.com/docs/sandbox/examples/mount-remote-storage",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/mount-remote-storage.md"
+    },
+    {
+      "title": "Prepare files and download artifacts",
+      "url": "https://vercel.com/docs/sandbox/examples/prepare-files-and-download-artifacts",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/prepare-files-and-download-artifacts.md"
+    },
+    {
+      "title": "Resume a long-lived sandbox",
+      "url": "https://vercel.com/docs/sandbox/examples/resume-a-long-lived-sandbox",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/resume-a-long-lived-sandbox.md"
+    },
+    {
+      "title": "Running commands in a Vercel Sandbox",
+      "url": "https://vercel.com/docs/sandbox/examples/run-commands-in-sandbox",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/run-commands-in-sandbox.md"
+    },
+    {
+      "title": "Snapshot and restore a prepared environment",
+      "url": "https://vercel.com/docs/sandbox/examples/snapshot-and-restore",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/snapshot-and-restore.md"
+    },
+    {
+      "title": "Start a coding agent from the CLI",
+      "url": "https://vercel.com/docs/sandbox/examples/start-a-coding-agent",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/start-a-coding-agent.md"
+    },
+    {
+      "title": "Stop a sandbox",
+      "url": "https://vercel.com/docs/sandbox/examples/stop-a-sandbox",
+      "fetchUrl": "https://vercel.com/docs/sandbox/examples/stop-a-sandbox.md"
     },
     {
       "title": "Vercel Sandbox pricing and quotas",
@@ -8427,29 +8577,29 @@
       "fetchUrl": "https://vercel.com/docs/sandbox/pricing.md"
     },
     {
-      "title": "Python SDK Reference",
-      "url": "https://vercel.com/docs/sandbox/python-sdk-reference",
-      "fetchUrl": "https://vercel.com/docs/sandbox/python-sdk-reference.md"
-    },
-    {
       "title": "Quickstart",
       "url": "https://vercel.com/docs/sandbox/quickstart",
       "fetchUrl": "https://vercel.com/docs/sandbox/quickstart.md"
     },
     {
-      "title": "Running commands in a Vercel Sandbox",
-      "url": "https://vercel.com/docs/sandbox/run-commands-in-sandbox",
-      "fetchUrl": "https://vercel.com/docs/sandbox/run-commands-in-sandbox.md"
+      "title": "Vercel Sandbox SDK",
+      "url": "https://vercel.com/docs/sandbox/sdk",
+      "fetchUrl": "https://vercel.com/docs/sandbox/sdk.md"
+    },
+    {
+      "title": "Sandbox CLI Reference",
+      "url": "https://vercel.com/docs/sandbox/sdk/cli",
+      "fetchUrl": "https://vercel.com/docs/sandbox/sdk/cli.md"
     },
     {
       "title": "JS SDK Reference",
-      "url": "https://vercel.com/docs/sandbox/sdk-reference",
-      "fetchUrl": "https://vercel.com/docs/sandbox/sdk-reference.md"
+      "url": "https://vercel.com/docs/sandbox/sdk/javascript",
+      "fetchUrl": "https://vercel.com/docs/sandbox/sdk/javascript.md"
     },
     {
-      "title": "Working with Sandbox",
-      "url": "https://vercel.com/docs/sandbox/working-with-sandbox",
-      "fetchUrl": "https://vercel.com/docs/sandbox/working-with-sandbox.md"
+      "title": "Python SDK Reference",
+      "url": "https://vercel.com/docs/sandbox/sdk/python",
+      "fetchUrl": "https://vercel.com/docs/sandbox/sdk/python.md"
     },
     {
       "title": "Schedules",
@@ -8875,6 +9025,16 @@
       "title": "Firewall Observability",
       "url": "https://vercel.com/docs/vercel-firewall/firewall-observability",
       "fetchUrl": "https://vercel.com/docs/vercel-firewall/firewall-observability.md"
+    },
+    {
+      "title": "Page Integrity",
+      "url": "https://vercel.com/docs/vercel-firewall/page-integrity",
+      "fetchUrl": "https://vercel.com/docs/vercel-firewall/page-integrity.md"
+    },
+    {
+      "title": "Priority Projects",
+      "url": "https://vercel.com/docs/vercel-firewall/priority-projects",
+      "fetchUrl": "https://vercel.com/docs/vercel-firewall/priority-projects.md"
     },
     {
       "title": "Vercel WAF",

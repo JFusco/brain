@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "openai-agent-docs",
-  "revision": "05a126e0845f565030e232fcef708ce3cc740384fd692887526fedbd0c74657b",
+  "revision": "cafbbada27015a8802a48cdb0b46b807a44b6646029f9e43d1c5237ad95b15ad",
   "origin": "https://developers.openai.com/api/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -800,6 +800,11 @@
       "title": "Red teaming",
       "url": "https://developers.openai.com/api/docs/guides/red-teaming",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/red-teaming.md"
+    },
+    {
+      "title": "Reserved Tier",
+      "url": "https://developers.openai.com/api/docs/guides/reserved-tier",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/reserved-tier.md"
     },
     {
       "title": "Multi-agent",

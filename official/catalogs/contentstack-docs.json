@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "a4082bc492ab46eadbb3980339531abf046b328f5276e5fa8f92ae6c576bd3ae",
+  "revision": "04d99e648a9c0c9cb6b94146945a2a6743a551a41d2a617bc8a758eb9e3d6291",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -290,6 +290,11 @@
       "title": "administration / rest api usage",
       "url": "https://www.contentstack.com/docs/administration/rest-api-usage",
       "fetchUrl": "https://www.contentstack.com/docs/administration/rest-api-usage.md"
+    },
+    {
+      "title": "administration / secure public urls of assets",
+      "url": "https://www.contentstack.com/docs/administration/secure-public-urls-of-assets",
+      "fetchUrl": "https://www.contentstack.com/docs/administration/secure-public-urls-of-assets.md"
     },
     {
       "title": "administration / security configuration",
@@ -1642,11 +1647,6 @@
       "fetchUrl": "https://www.contentstack.com/docs/contentstack-mcp-troubleshooting/faqs.md"
     },
     {
-      "title": "data and insights lytics / limitations",
-      "url": "https://www.contentstack.com/docs/data-and-insights-lytics/limitations",
-      "fetchUrl": "https://www.contentstack.com/docs/data-and-insights-lytics/limitations.md"
-    },
-    {
       "title": "data and insights / access manage data and insights accounts through contentstack",
       "url": "https://www.contentstack.com/docs/data-and-insights/access-manage-data-and-insights-accounts-through-contentstack",
       "fetchUrl": "https://www.contentstack.com/docs/data-and-insights/access-manage-data-and-insights-accounts-through-contentstack.md"
@@ -1675,11 +1675,6 @@
       "title": "data and insights / integrating data and insights lytics",
       "url": "https://www.contentstack.com/docs/data-and-insights/integrating-data-and-insights-lytics",
       "fetchUrl": "https://www.contentstack.com/docs/data-and-insights/integrating-data-and-insights-lytics.md"
-    },
-    {
-      "title": "data insights lytics / faqs",
-      "url": "https://www.contentstack.com/docs/data-insights-lytics/faqs",
-      "fetchUrl": "https://www.contentstack.com/docs/data-insights-lytics/faqs.md"
     },
     {
       "title": "docs / developer hub",
@@ -5040,11 +5035,6 @@
       "title": "how to guides / setting up translation system with contentstack webhooks phrase and aws lambda",
       "url": "https://www.contentstack.com/docs/developers/how-to-guides/setting-up-translation-system-with-contentstack-webhooks-phrase-and-aws-lambda",
       "fetchUrl": "https://www.contentstack.com/docs/developers/how-to-guides/setting-up-translation-system-with-contentstack-webhooks-phrase-and-aws-lambda.md"
-    },
-    {
-      "title": "how to guides / use the sync false architecture",
-      "url": "https://www.contentstack.com/docs/developers/how-to-guides/use-the-sync-false-architecture",
-      "fetchUrl": "https://www.contentstack.com/docs/developers/how-to-guides/use-the-sync-false-architecture.md"
     },
     {
       "title": "how to guides / ways to back up your stack content",
@@ -8537,11 +8527,6 @@
       "fetchUrl": "https://www.contentstack.com/docs/developers/use-mobile-sync-helpers/using-realm-persistence-library-with-ios-sdk.md"
     },
     {
-      "title": "web framework / theming and templating",
-      "url": "https://www.contentstack.com/docs/developers/web-framework/theming-and-templating",
-      "fetchUrl": "https://www.contentstack.com/docs/developers/web-framework/theming-and-templating.md"
-    },
-    {
       "title": "docs / headless cms",
       "url": "https://www.contentstack.com/docs/headless-cms",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms.md"
@@ -10842,6 +10827,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/merging-branches.md"
     },
     {
+      "title": "headless cms / migrate a contentful space using the cli",
+      "url": "https://www.contentstack.com/docs/headless-cms/migrate-a-contentful-space-using-the-cli",
+      "fetchUrl": "https://www.contentstack.com/docs/headless-cms/migrate-a-contentful-space-using-the-cli.md"
+    },
+    {
       "title": "headless cms / migrate content between stacks using the cli",
       "url": "https://www.contentstack.com/docs/headless-cms/migrate-content-between-stacks-using-the-cli",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/migrate-content-between-stacks-using-the-cli.md"
@@ -11430,11 +11420,6 @@
       "title": "headless cms / schema of json rich text editor",
       "url": "https://www.contentstack.com/docs/headless-cms/schema-of-json-rich-text-editor",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/schema-of-json-rich-text-editor.md"
-    },
-    {
-      "title": "headless cms / secure public urls of assets",
-      "url": "https://www.contentstack.com/docs/headless-cms/secure-public-urls-of-assets",
-      "fetchUrl": "https://www.contentstack.com/docs/headless-cms/secure-public-urls-of-assets.md"
     },
     {
       "title": "headless cms / secure your webhooks",
@@ -12345,6 +12330,11 @@
       "title": "launch / log targets",
       "url": "https://www.contentstack.com/docs/launch/log-targets",
       "fetchUrl": "https://www.contentstack.com/docs/launch/log-targets.md"
+    },
+    {
+      "title": "launch / move a project to another region or cloud",
+      "url": "https://www.contentstack.com/docs/launch/move-a-project-to-another-region-or-cloud",
+      "fetchUrl": "https://www.contentstack.com/docs/launch/move-a-project-to-another-region-or-cloud.md"
     },
     {
       "title": "launch / nextjs on launch",
