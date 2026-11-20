@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms13-docs",
-  "revision": "117c615bf4cd9fadc859e45261b9808e75b5f119cef5c7b1c67954cce5a6aded",
+  "revision": "9ba10c2525db77d8e7675105864da4496ae77f68a9c6a4f56cc17b5e6ef9b36f",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -1747,6 +1747,11 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-optimizely-apps.md"
     },
     {
+      "title": "Integrate Optimizely Content Marketing Platform with CMS 13",
+      "url": "https://docs.optimizely.com/cms-13/docs/integrate-cmp-with-cms-13.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/integrate-cmp-with-cms-13.md"
+    },
+    {
       "title": "Integrate external content sources with CMS",
       "url": "https://docs.optimizely.com/cms-13/docs/integrate-external-content-sources-with-cms.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/integrate-external-content-sources-with-cms.md"
@@ -2190,6 +2195,11 @@
       "title": "Route to BLOB properties",
       "url": "https://docs.optimizely.com/cms-13/docs/route-to-blob-properties.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/route-to-blob-properties.md"
+    },
+    {
+      "title": "Scheduled jobs through code",
+      "url": "https://docs.optimizely.com/cms-13/docs/scheduled-jobs-through-code.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/scheduled-jobs-through-code.md"
     },
     {
       "title": "Scheduled jobs through the UI",

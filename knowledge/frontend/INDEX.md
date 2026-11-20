@@ -31,11 +31,11 @@ aliases: ["frontend"]
   - [Catalog source](https://www.w3.org/International/techniques/authoring-html); search it with `lookup --domain frontend`.
 - **playwright-docs** — link catalog of 148 pages; rolling-url; revision `2b872424e6169ff0fd683c0180343963f96230188d530e2b5be4706daaa9829c`; fetched 2026-10-22.
   - [Catalog source](https://playwright.dev/sitemap.xml); search it with `lookup --domain frontend`.
-- **web-features-baseline** — 0 skills and 4 docs at a pinned commit; default-branch; revision `7abb2f8c8e9812377d967035ea702fcb937aca63`; fetched 2026-11-18.
-  - [docs/baseline.md](https://github.com/web-platform-dx/web-features/blob/7abb2f8c8e9812377d967035ea702fcb937aca63/docs/baseline.md).
-  - [packages/compute-baseline/README.md](https://github.com/web-platform-dx/web-features/blob/7abb2f8c8e9812377d967035ea702fcb937aca63/packages/compute-baseline/README.md).
-  - [packages/web-features/README.md](https://github.com/web-platform-dx/web-features/blob/7abb2f8c8e9812377d967035ea702fcb937aca63/packages/web-features/README.md).
-  - [README.md](https://github.com/web-platform-dx/web-features/blob/7abb2f8c8e9812377d967035ea702fcb937aca63/README.md).
+- **web-features-baseline** — 0 skills and 4 docs at a pinned commit; default-branch; revision `2ddefb114fbe9b09ee86c7baff6c0d7b334a3f4e`; fetched 2026-11-20.
+  - [docs/baseline.md](https://github.com/web-platform-dx/web-features/blob/2ddefb114fbe9b09ee86c7baff6c0d7b334a3f4e/docs/baseline.md).
+  - [packages/compute-baseline/README.md](https://github.com/web-platform-dx/web-features/blob/2ddefb114fbe9b09ee86c7baff6c0d7b334a3f4e/packages/compute-baseline/README.md).
+  - [packages/web-features/README.md](https://github.com/web-platform-dx/web-features/blob/2ddefb114fbe9b09ee86c7baff6c0d7b334a3f4e/packages/web-features/README.md).
+  - [README.md](https://github.com/web-platform-dx/web-features/blob/2ddefb114fbe9b09ee86c7baff6c0d7b334a3f4e/README.md).
 - **motion-docs** — link catalog of 154 pages; rolling-url; revision `cd0014c951aa1e65e6fbc83c8e3918f2882ed6d96863e74d5b1c3e01eb4bc906`; fetched 2026-11-16.
   - [Catalog source](https://motion.dev/llms.txt); search it with `lookup --domain frontend`.
 <!-- brain:official:end -->

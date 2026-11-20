@@ -63,27 +63,27 @@ Route build configuration, test runners, component workshops, linting, package m
   - [Catalog source](https://pnpm.io/sitemap.xml); search it with `lookup --domain tooling`.
 - **turborepo-docs** — link catalog of 111 pages; rolling-url; revision `55a7c2078c10f17e10d2f8adedd776f11f2de07ed6068dfe6e2f0d197b8eb71f`; fetched 2026-11-17.
   - [Catalog source](https://turborepo.dev/llms.txt); search it with `lookup --domain tooling`.
-- **chrome-devtools-skills** — 8 skills and 8 docs at a pinned commit; default-branch; revision `cf98d8b88d74bfaa684412625fc89b58626919a5`; fetched 2026-11-18.
-  - [a11y-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/cf98d8b88d74bfaa684412625fc89b58626919a5/skills/a11y-debugging/SKILL.md) — reference only.
-  - [chrome-devtools](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/cf98d8b88d74bfaa684412625fc89b58626919a5/skills/chrome-devtools/SKILL.md) — reference only.
-  - [chrome-devtools-cli](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/cf98d8b88d74bfaa684412625fc89b58626919a5/skills/chrome-devtools-cli/SKILL.md) — reference only.
-  - [cookie-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/cf98d8b88d74bfaa684412625fc89b58626919a5/skills/cookie-debugging/SKILL.md) — reference only.
-  - [debug-optimize-lcp](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/cf98d8b88d74bfaa684412625fc89b58626919a5/skills/debug-optimize-lcp/SKILL.md) — reference only.
-  - [inspect-in-devtools](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/cf98d8b88d74bfaa684412625fc89b58626919a5/skills/inspect-in-devtools/SKILL.md) — reference only.
-  - [memory-leak-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/cf98d8b88d74bfaa684412625fc89b58626919a5/skills/memory-leak-debugging/SKILL.md) — reference only.
-  - [troubleshooting](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/cf98d8b88d74bfaa684412625fc89b58626919a5/skills/troubleshooting/SKILL.md) — reference only.
-- **agent-browser-skills** — 11 skills and 15 docs at a pinned commit; default-branch; revision `9648798b28a15940a005e02a2fe39b3e65f8f59f`; fetched 2026-11-18.
-  - [agent-browser](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skills/agent-browser/SKILL.md) — reference only.
-  - [agentcore](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skill-data/agentcore/SKILL.md) — reference only.
-  - [core](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skill-data/core/SKILL.md) — reference only.
-  - [derive-client](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skill-data/derive-client/SKILL.md) — reference only.
-  - [dogfood](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skill-data/dogfood/SKILL.md) — reference only.
-  - [electron](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skill-data/electron/SKILL.md) — reference only.
-  - [modern-web-guidance](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skill-data/modern-web-guidance/SKILL.md) — reference only.
-  - [slack](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skill-data/slack/SKILL.md) — reference only.
-  - [vercel](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skill-data/vercel/SKILL.md) — reference only.
-  - [vercel-sandbox](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skill-data/vercel-sandbox/SKILL.md) — reference only.
-  - [webmcp-gen](https://github.com/vercel-labs/agent-browser/blob/9648798b28a15940a005e02a2fe39b3e65f8f59f/skill-data/webmcp-gen/SKILL.md) — reference only.
+- **chrome-devtools-skills** — 8 skills and 8 docs at a pinned commit; default-branch; revision `eb9b030280e028df0b33a1d8721349002b3cf18f`; fetched 2026-11-20.
+  - [a11y-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/eb9b030280e028df0b33a1d8721349002b3cf18f/skills/a11y-debugging/SKILL.md) — reference only.
+  - [chrome-devtools](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/eb9b030280e028df0b33a1d8721349002b3cf18f/skills/chrome-devtools/SKILL.md) — reference only.
+  - [chrome-devtools-cli](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/eb9b030280e028df0b33a1d8721349002b3cf18f/skills/chrome-devtools-cli/SKILL.md) — reference only.
+  - [cookie-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/eb9b030280e028df0b33a1d8721349002b3cf18f/skills/cookie-debugging/SKILL.md) — reference only.
+  - [debug-optimize-lcp](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/eb9b030280e028df0b33a1d8721349002b3cf18f/skills/debug-optimize-lcp/SKILL.md) — reference only.
+  - [inspect-in-devtools](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/eb9b030280e028df0b33a1d8721349002b3cf18f/skills/inspect-in-devtools/SKILL.md) — reference only.
+  - [memory-leak-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/eb9b030280e028df0b33a1d8721349002b3cf18f/skills/memory-leak-debugging/SKILL.md) — reference only.
+  - [troubleshooting](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/eb9b030280e028df0b33a1d8721349002b3cf18f/skills/troubleshooting/SKILL.md) — reference only.
+- **agent-browser-skills** — 11 skills and 15 docs at a pinned commit; default-branch; revision `343602553a26a44a9eb9393f99f1dd009d39ae8f`; fetched 2026-11-20.
+  - [agent-browser](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skills/agent-browser/SKILL.md) — reference only.
+  - [agentcore](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skill-data/agentcore/SKILL.md) — reference only.
+  - [core](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skill-data/core/SKILL.md) — reference only.
+  - [derive-client](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skill-data/derive-client/SKILL.md) — reference only.
+  - [dogfood](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skill-data/dogfood/SKILL.md) — reference only.
+  - [electron](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skill-data/electron/SKILL.md) — reference only.
+  - [modern-web-guidance](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skill-data/modern-web-guidance/SKILL.md) — reference only.
+  - [slack](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skill-data/slack/SKILL.md) — reference only.
+  - [vercel](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skill-data/vercel/SKILL.md) — reference only.
+  - [vercel-sandbox](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skill-data/vercel-sandbox/SKILL.md) — reference only.
+  - [webmcp-gen](https://github.com/vercel-labs/agent-browser/blob/343602553a26a44a9eb9393f99f1dd009d39ae8f/skill-data/webmcp-gen/SKILL.md) — reference only.
 - **agent-skills-docs** — link catalog of 8 pages; rolling-url; revision `c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798`; fetched 2026-10-25.
   - [Catalog source](https://agentskills.io/llms.txt); search it with `lookup --domain tooling`.
 - **mcp-docs** — link catalog of 58 pages; rolling-url; revision `e1d50996433b694beb8ce4294952e83c42a66953976c69f024e0e6b4816ac1f0`; fetched 2026-11-18.
@@ -92,7 +92,7 @@ Route build configuration, test runners, component workshops, linting, package m
   - [Catalog source](https://nodejs.org/docs/latest-v24.x/api/index.html); search it with `lookup --domain tooling`.
 - **anthropic-agent-docs** — link catalog of 140 pages; rolling-url; revision `978de9c3dfd88c5c07cc711c1e5fdd68287133c70e61fdc42c1be085e2158dee`; fetched 2026-11-12.
   - [Catalog source](https://platform.claude.com/llms.txt); search it with `lookup --domain tooling`.
-- **openai-agent-docs** — link catalog of 241 pages; rolling-url; revision `05a126e0845f565030e232fcef708ce3cc740384fd692887526fedbd0c74657b`; fetched 2026-11-17.
+- **openai-agent-docs** — link catalog of 242 pages; rolling-url; revision `cafbbada27015a8802a48cdb0b46b807a44b6646029f9e43d1c5237ad95b15ad`; fetched 2026-11-20.
   - [Catalog source](https://developers.openai.com/api/docs/llms.txt); search it with `lookup --domain tooling`.
 - [Official website](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) — pointer only: Anthropic skill-building guide: planning, progressive disclosure, references, testing and troubleshooting. PDF is a reference pointer, not a text-fetch catalog entry; current product documentation governs loader and permission details. No PDF body is stored.
 <!-- brain:official:end -->

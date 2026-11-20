@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "supabase-docs",
-  "revision": "04caf8a61cfdc435e55872c34d9603ad34a759ec17b32e51b75758df103b12e1",
+  "revision": "46d9eaca6dc59cb34ff536347ef0b5b0452917e9bb874b4fda91465eee606ab5",
   "origin": "https://supabase.com/docs/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -1522,6 +1522,11 @@
       "fetchUrl": "https://supabase.com/docs/guides/local-development/cli-workflows.md"
     },
     {
+      "title": "cli / config formats",
+      "url": "https://supabase.com/docs/guides/local-development/cli/config-formats",
+      "fetchUrl": "https://supabase.com/docs/guides/local-development/cli/config-formats.md"
+    },
+    {
       "title": "cli / getting started",
       "url": "https://supabase.com/docs/guides/local-development/cli/getting-started",
       "fetchUrl": "https://supabase.com/docs/guides/local-development/cli/getting-started.md"
@@ -2000,6 +2005,36 @@
       "title": "platform / project transfer",
       "url": "https://supabase.com/docs/guides/platform/project-transfer",
       "fetchUrl": "https://supabase.com/docs/guides/platform/project-transfer.md"
+    },
+    {
+      "title": "project transfer / pause project",
+      "url": "https://supabase.com/docs/guides/platform/project-transfer/pause-project",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/project-transfer/pause-project.md"
+    },
+    {
+      "title": "project transfer / requirements",
+      "url": "https://supabase.com/docs/guides/platform/project-transfer/requirements",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/project-transfer/requirements.md"
+    },
+    {
+      "title": "project transfer / transfer ownership",
+      "url": "https://supabase.com/docs/guides/platform/project-transfer/transfer-ownership",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/project-transfer/transfer-ownership.md"
+    },
+    {
+      "title": "project transfer / troubleshooting",
+      "url": "https://supabase.com/docs/guides/platform/project-transfer/troubleshooting",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/project-transfer/troubleshooting.md"
+    },
+    {
+      "title": "project transfer / vercel marketplace",
+      "url": "https://supabase.com/docs/guides/platform/project-transfer/vercel-marketplace",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/project-transfer/vercel-marketplace.md"
+    },
+    {
+      "title": "project transfer / what changes",
+      "url": "https://supabase.com/docs/guides/platform/project-transfer/what-changes",
+      "fetchUrl": "https://supabase.com/docs/guides/platform/project-transfer/what-changes.md"
     },
     {
       "title": "platform / read replicas",

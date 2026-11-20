@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "sitecoreai-docs",
-  "revision": "990c292d5263b8072170408901f746c55a1e01403696b69cbf36e52f92467d77",
+  "revision": "408329b85fa28d29fe0a9a775672e37d315b731ca5faea4d62599f04594f90ba",
   "origin": "https://doc.sitecore.com/sai/en/developers/sitecoreai/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -1485,6 +1485,11 @@
       "title": "migrate a site to sitecoreai / select cms.html",
       "url": "https://doc.sitecore.com/sai/en/developers/sitecoreai/migrate-a-site-to-sitecoreai/select-cms.html",
       "fetchUrl": "https://doc.sitecore.com/sai/en/developers/sitecoreai/migrate-a-site-to-sitecoreai/select-cms.html"
+    },
+    {
+      "title": "migrate a site to sitecoreai / site migration readiness check.html",
+      "url": "https://doc.sitecore.com/sai/en/developers/sitecoreai/migrate-a-site-to-sitecoreai/site-migration-readiness-check.html",
+      "fetchUrl": "https://doc.sitecore.com/sai/en/developers/sitecoreai/migrate-a-site-to-sitecoreai/site-migration-readiness-check.html"
     },
     {
       "title": "sitecoreai / profile import.html",
