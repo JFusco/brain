@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "openai-agent-docs",
-  "revision": "cafbbada27015a8802a48cdb0b46b807a44b6646029f9e43d1c5237ad95b15ad",
+  "revision": "cf214591e0a0dc9b6280f6817a239ee152137a4ea737deeda084e5e6dd7e2cba",
   "origin": "https://developers.openai.com/api/docs/llms.txt",
   "skills": [],
   "docs": [],
@@ -815,6 +815,11 @@
       "title": "Retrieval",
       "url": "https://developers.openai.com/api/docs/guides/retrieval",
       "fetchUrl": "https://developers.openai.com/api/docs/guides/retrieval.md"
+    },
+    {
+      "title": "Upgrade to the Ruby SDK 1.0",
+      "url": "https://developers.openai.com/api/docs/guides/ruby-sdk-migration",
+      "fetchUrl": "https://developers.openai.com/api/docs/guides/ruby-sdk-migration.md"
     },
     {
       "title": "Safety best practices",
