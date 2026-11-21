@@ -360,3 +360,7 @@ The [security review journal](../journal/2026-11-18-security-review-revalidation
 ## November 20 model and editor guidance
 
 The [model and editor journal](../journal/2026-11-20-model-editor-revalidation.md) records source revalidation of three existing notes. Reusable API guidance, request-specific instructions and conversation continuity remain distinct contracts. Evaluation checklists and generator mappings stay explicitly proposed where the vendor sources do not establish them. Contentstack property references resolve the curriculum's instruction/help shorthand. Documentation checks do not establish runtime, CMS or accessibility acceptance; other stale signals remain visible.
+
+## November 21 CMS branch and publishing decisions
+
+The [CMS branch and publishing journal](../journal/2026-11-21-cms-branch-and-publishing-guidance.md) separates Contentstack schema merges from entry migration, publication environments and token cleanup. Revalidated Optimizely guidance distinguishes shared-block publication visibility from folder availability and editor access. Existing notes are extended rather than duplicated; historical reports and proposed verification procedures retain their limits. Fresh independent review and successful native completion still precede capture acceptance.

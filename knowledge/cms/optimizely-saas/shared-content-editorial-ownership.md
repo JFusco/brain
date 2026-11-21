@@ -3,11 +3,11 @@ title: "Share repeated CMS content by editorial ownership"
 domain: "cms/optimizely-saas"
 aliases: ["shared blocks", "inline blocks", "content reuse", "editorial ownership"]
 evidence_date: "2026-10-19"
-reviewed_at: "2026-10-23"
+reviewed_at: "2026-11-21"
 status: "current"
 versions: []
 applicability: "Optimizely CMS SaaS block reuse and migration planning; hosted version unknown; no SDK compatibility range established"
-provenance: "optimizely-cms-saas-docs@ae548b9dfcc952b0ce044cc0331517c2155d9a8da61cacb1b11285231415ac9e; official blocks page checked 2026-10-19; sanitized authored migration observation"
+provenance: "optimizely-cms-saas-docs@6a05595c6fc6ffb7d0543ca469f350ba3435ad6a19fab194a5b2584c40cd20e3; official blocks page re-read 2026-11-21; sanitized authored migration observation"
 ---
 
 # Share repeated CMS content by editorial ownership
@@ -35,3 +35,5 @@ Use this when repeated content in an Optimizely CMS SaaS migration could either 
 **Revalidated October 22, 2026:** the current official blocks and folders pages were read. Shared and inline publishing lifecycles, shared edit propagation and folder availability still support the documented decisions above. The refreshed index changed unrelated API locators; that alone was not the revalidation evidence. No migration behavior or CMS write was rerun.
 
 **Revalidated October 23, 2026:** The current blocks/folders pages still distinguish shared versus inline publishing, propagation of shared edits and global/application/local availability. Grouping and destination-identity proposals remain unexercised here.
+
+**Revalidated November 21, 2026:** The current official blocks page confirms the separate shared lifecycle, page-bound inline publishing, shared-edit propagation and folder availability. It also says unpublished shared blocks are not visible to visitors. **Proposed:** verify the shared item's publication state alongside its containing page before accepting migrated content. Create/view rights and supported block types are separate constraints; selecting a shared destination does not establish editor access. No conversion, permissions test or connected rendering ran. The complete-value grouping and stable-mapping recommendations remain proposed practices.
