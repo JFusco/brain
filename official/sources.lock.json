@@ -26,10 +26,10 @@
       "catalogSha256": "8a505544cc9e5c6f53a8c2f1fa326ed49eb236c06632ae25342a532bda13f6b8"
     },
     "contentful-skills": {
-      "revision": "1cda5b039b3862a4f55b2a22a8dc5ce59722003d",
-      "fetchedAt": "2026-11-20T22:44:55.372Z",
+      "revision": "9a46a78dd0adc62a9c0f2137f80f9cacfd24fcac",
+      "fetchedAt": "2026-11-21T22:03:44.218Z",
       "track": "default-branch",
-      "catalogSha256": "6845ea63d28b9a1d8ad22c7335a1128f48cc6686d04145f52159938d6fb9cb0d"
+      "catalogSha256": "35894865bcfea08a8b2b91c5b7a7b2c4f6538b91c7eeed87439917d0a4a21980"
     },
     "optimizely-sdk": {
       "revision": "5cb0b7a2de20b7be6e25715b21863f472594fed2",
@@ -296,16 +296,16 @@
       "catalogSha256": "b808a7c0ab9088076e6ed6b012f7df799978ed2156cc507d66fdcf4bdc481b63"
     },
     "chrome-devtools-skills": {
-      "revision": "eb9b030280e028df0b33a1d8721349002b3cf18f",
-      "fetchedAt": "2026-11-20T22:46:37.302Z",
+      "revision": "ab911a6dd71ed4960c1c679f831c7b5607bc5505",
+      "fetchedAt": "2026-11-21T22:05:17.247Z",
       "track": "default-branch",
-      "catalogSha256": "0e16c890a73820167fe4fd45dd529d6caa79d6e1a47b85c86b6bf362f6b1988f"
+      "catalogSha256": "dc3e05c300725333690936544fe7ea6dd8a446fe64f03d051c4fb39cc6b167ea"
     },
     "agent-browser-skills": {
-      "revision": "343602553a26a44a9eb9393f99f1dd009d39ae8f",
-      "fetchedAt": "2026-11-20T22:46:40.095Z",
+      "revision": "d2dfc782ccdd79d25a9b4f0acced9321789cecb8",
+      "fetchedAt": "2026-11-21T22:05:20.207Z",
       "track": "default-branch",
-      "catalogSha256": "369bef089be92c2df969610ecf9f6cbd648b2968d2032edd98c9d3cafde90bee"
+      "catalogSha256": "e1dd406cefcb58896cb6e93d9a504f46d815b38c2911e28c4e68e83e46735cee"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",
@@ -332,10 +332,10 @@
       "catalogSha256": "2e1836b1981dec96353c202ec89bfc535ddcd118dca12269b99dbe65b5f28079"
     },
     "openai-agent-docs": {
-      "revision": "cafbbada27015a8802a48cdb0b46b807a44b6646029f9e43d1c5237ad95b15ad",
-      "fetchedAt": "2026-11-20T22:46:48.847Z",
+      "revision": "cf214591e0a0dc9b6280f6817a239ee152137a4ea737deeda084e5e6dd7e2cba",
+      "fetchedAt": "2026-11-21T22:05:28.314Z",
       "track": "rolling-url",
-      "catalogSha256": "78029a6a3ee1cc5f948e5bb34c0c03695afb9ff8d3b5bb6789d76efcdc4effa7"
+      "catalogSha256": "e0d0ffdd917ee5e924ab346b3767fec809e312fbf63195fb0f34685de3b3a525"
     },
     "postgresql-18-docs": {
       "revision": "47a8f7958b6b19e6607b2b546a5f043d0afc84dbf0d1e4ccbad18362331c957d",
