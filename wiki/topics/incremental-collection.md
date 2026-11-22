@@ -44,3 +44,8 @@ current primary-source retrieval from the same run, a scoped decision and
 limits; independent review rechecks the claim before publication. Private
 source links stay outside knowledge pages. See the
 [implementation record](../journal/2026-11-20-slack-intake.md).
+
+The historical rotation bounds each nightly pass to four channels and up to 28
+days per stream window. Resume pending pages at their original bounds and
+preserve incomplete intervals for retry. See the
+[rotation change](../journal/2026-11-22-accelerate-slack-seed.md).
