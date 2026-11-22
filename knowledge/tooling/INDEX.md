@@ -59,7 +59,7 @@ Route build configuration, test runners, component workshops, linting, package m
   - [Catalog source](https://testing-library.com/sitemap.xml); search it with `lookup --domain tooling`.
 - **eslint-docs** — link catalog of 370 pages; rolling-url; revision `ed4ed0f3ae1741336db5ac60879be2a97407a7a907e2e2d14d4b2f7e2fffbcec`; fetched 2026-10-24.
   - [Catalog source](https://eslint.org/docs/latest/sitemap.xml); search it with `lookup --domain tooling`.
-- **pnpm-docs** — link catalog of 178 pages; rolling-url; revision `30f1f16baf9dffe37ae51adc9e90ec3082d8729576ac718d078e4e0916a8b68e`; fetched 2026-11-14.
+- **pnpm-docs** — link catalog of 181 pages; rolling-url; revision `2946ebbc9d55af5b1e1ac68b806447d5611b648d4af0053a94c1a85f07743e3b`; fetched 2026-11-22.
   - [Catalog source](https://pnpm.io/sitemap.xml); search it with `lookup --domain tooling`.
 - **turborepo-docs** — link catalog of 111 pages; rolling-url; revision `55a7c2078c10f17e10d2f8adedd776f11f2de07ed6068dfe6e2f0d197b8eb71f`; fetched 2026-11-17.
   - [Catalog source](https://turborepo.dev/llms.txt); search it with `lookup --domain tooling`.

@@ -27,9 +27,9 @@ aliases: ["react", "hooks"]
   - [composition-patterns](https://github.com/vercel-labs/agent-skills/blob/5a37a6329fbad3666c3207392a6a7c0110e92efb/skills/composition-patterns/SKILL.md).
   - [react-best-practices](https://github.com/vercel-labs/agent-skills/blob/5a37a6329fbad3666c3207392a6a7c0110e92efb/skills/react-best-practices/SKILL.md).
   - [web-design-guidelines](https://github.com/vercel-labs/agent-skills/blob/5a37a6329fbad3666c3207392a6a7c0110e92efb/skills/web-design-guidelines/SKILL.md).
-- **vercel-plugin** — 40 skills and 245 docs at a pinned commit; default-branch; revision `8bb46159108f0cd6a749959b20c1411257411090`; fetched 2026-11-20.
+- **vercel-plugin** — 40 skills and 245 docs at a pinned commit; default-branch; revision `8f381b1b267ef2e6ddbf5aa8c609015a6e8efb50`; fetched 2026-11-22.
   - [Complete Vercel plugin catalog](../vercel/INDEX.md).
-  - [react-best-practices](https://github.com/vercel/vercel-plugin/blob/8bb46159108f0cd6a749959b20c1411257411090/skills/react-best-practices/SKILL.md).
+  - [react-best-practices](https://github.com/vercel/vercel-plugin/blob/8f381b1b267ef2e6ddbf5aa8c609015a6e8efb50/skills/react-best-practices/SKILL.md).
 - **react-index** — link catalog of 181 pages; rolling-url; revision `f11f98b97a8058eb49961acbe5ea184220de3e923819806e755d37f87d922175`; fetched 2026-11-12.
   - [Catalog source](https://react.dev/llms.txt); search it with `lookup --domain react`.
 - **react-docs** — link catalog of 227 pages; default-branch; revision `46a54e0592729712b7640308b53268e84fdc7c9f`; fetched 2026-11-12.
