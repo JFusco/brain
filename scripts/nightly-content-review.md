@@ -16,6 +16,12 @@ The reviewer reads the committed diff and relevant knowledge hubs/notes. It chec
   versions, applicability, evidence date and limits. Hashes/redirects alone are
   not source verification. Label observations and proposed practices clearly;
   omit unsupported claims. Save source URLs and what each actually establishes.
+- For a correction, compare the affected passage and its dated `## Corrections`
+  entry at the exact base and head. Check why the advice changed, the evidence
+  and scope, and whether a replacement is eligible and applicable. For an
+  established conflict with no verified answer, check the specific evidence gap
+  and the due `review_after`. When the conflict is resolved, check whether any
+  remaining grounds require keeping that date override.
 - Existing lessons expressed in different words, and overlap among the proposed
   additions. Prefer extending the existing lesson; preserve distinct versions.
 - Practical decisions, reasons and limits, using the existing page template.

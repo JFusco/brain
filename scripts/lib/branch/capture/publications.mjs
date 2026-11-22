@@ -1,5 +1,5 @@
 /** Operator-supplied incorporation mappings, verified at the exact merged commit. */
-export function publicationMappings(ids, value, commit, read) {
+export function publicationMappings(ids, value, commit, read, verifyWithdrawal) {
   if (typeof value !== 'string' || value.length > 65536)
     throw new Error('Acceptance requires a bounded explicit publication map');
   let mapping;
@@ -23,15 +23,21 @@ export function publicationMappings(ids, value, commit, read) {
       throw new Error('Each accepted candidate needs 1 through 20 explicit notes');
     const seen = new Set();
     verified[id] = entries.map(entry => {
+      const withdrawal = entry?.kind === 'withdrawal';
+      const keys = withdrawal ? 'contentSha256,kind,path' : 'contentSha256,path';
       if (
         !entry ||
-        Object.keys(entry).sort().join(',') !== 'contentSha256,path' ||
+        Object.keys(entry).sort().join(',') !== keys ||
         typeof entry.path !== 'string' ||
         !/^[a-f0-9]{64}$/.test(entry.contentSha256) ||
         seen.has(entry.path)
       )
         throw new Error('Invalid publication mapping');
       seen.add(entry.path);
+      if (withdrawal) {
+        verifyWithdrawal(commit, entry.path, entry.contentSha256);
+        return { kind: 'withdrawal', path: entry.path, commit, contentSha256: entry.contentSha256 };
+      }
       const note = read(commit, entry.path);
       if (note.snapshot !== commit || note.contentSha256 !== entry.contentSha256)
         throw new Error('Publication mapping does not match the merged note');

@@ -17,6 +17,9 @@ Save what this task taught, so a later Brain session can turn it into a publishe
    - **Documented**: an official page says so; cite its URL.
    - **Observed**: you ran or saw it in this task; say what was run and the result.
    - **Proposed**: a recommended practice that hasn't been verified.
+   For a correction, include the public Brain-relative note path and section,
+   the commit if known, the disputed claim, and the sanitized evidence that
+   challenges it. Keep it in the same lesson and within the existing size limit.
 5. Remove client and product names, project names, private paths, URLs of private systems, credentials and tokens, personal data, proprietary code and transcript excerpts. Describe the situation in general terms instead of pasting it.
 6. Choose the domain from `domains` in `~/Projects/brain/brain.config.json` (for example `react`, `nextjs`, `tailwind`, `cms/contentful`), or `_unsorted` if none fits.
 7. Submit each lesson on stdin with a quoted heredoc, so its text never becomes shell syntax or a process argument:

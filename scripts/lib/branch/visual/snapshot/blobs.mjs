@@ -1,6 +1,14 @@
 // Read only allowlisted committed blobs. Never export Git internals or working edits.
 import { execFileSync } from 'node:child_process';
 import { ROOT } from '../../../leaf/paths.mjs';
+import { safePath } from '../../../leaf/fs-safe.mjs';
+import { splitFrontmatter, scalar } from '../../../leaf/frontmatter.mjs';
+import { sha } from '../../../leaf/hash.mjs';
+import { isNote, validateKnowledge } from '../../guidance/knowledge.mjs';
+
+export const NOTE_BYTE_LIMIT = 256 * 1024;
+export const decodeNote = bytes =>
+  new TextDecoder('utf-8', { fatal: true, ignoreBOM: true }).decode(bytes);
 
 export const git = (...args) =>
   execFileSync('git', args, {
@@ -56,4 +64,44 @@ export function committedBlobs(revision) {
     offset = end + size + 2;
   }
   return contents;
+}
+
+// The optional batch is an allowlisted committedBlobs result for this revision.
+export function readCommittedNote(revision, path, { run = git, blobs } = {}) {
+  if (!/^[a-f0-9]{40}$/.test(revision)) throw new Error('Invalid committed snapshot');
+  try {
+    if (safePath(path).length > 500 || !isNote(path)) return { state: 'invalid' };
+  } catch {
+    return { state: 'invalid' };
+  }
+  if (!blobs) run('merge-base', '--is-ancestor', revision, 'refs/heads/main');
+  let bytes = blobs?.get(path);
+  if (!bytes) {
+    const row = run('--literal-pathspecs', 'ls-tree', '-z', revision, '--', path)
+      .toString()
+      .split('\0')
+      .find(entry => entry.slice(entry.indexOf('\t') + 1) === path);
+    if (!row) return { state: 'missing' };
+    const entry = /^100644 blob ([a-f0-9]{40})\t/.exec(row);
+    if (!entry) return { state: 'invalid' };
+    if (Number(run('cat-file', '-s', entry[1])) > NOTE_BYTE_LIMIT) return { state: 'invalid' };
+    bytes = run('cat-file', 'blob', entry[1]);
+  }
+  if (bytes.length > NOTE_BYTE_LIMIT) return { state: 'invalid' };
+  let text;
+  try {
+    text = decodeNote(bytes);
+  } catch {
+    return { state: 'invalid' };
+  }
+  if (validateKnowledge([{ id: path, bytes }]).length) return { state: 'invalid' };
+  const { raw } = splitFrontmatter(text);
+  return {
+    state: 'valid',
+    path,
+    raw,
+    text,
+    contentSha256: sha(bytes),
+    status: scalar(raw, 'status') || 'current',
+  };
 }

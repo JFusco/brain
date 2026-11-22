@@ -34,3 +34,10 @@ workflow as proposed practice, separately from its documented supporting facts.
 Distinguish observed outcomes, verified documentation, and suggestions. State what has not been checked and when the advice does not apply. Keep client identifiers, private source paths, raw transcripts, and secrets out of the page. Cite official sources as `source-id@revision` in `provenance` so a source change flags the note for review.
 
 When advice becomes obsolete, retain its exact history with `status: "superseded"` and `superseded_by: "knowledge/domain/replacement.md"`, or `status: "retired"` when there is no replacement. Publish the status change through an ordinary knowledge PR. Changing a source hash alone never revalidates a claim.
+
+## Corrections
+
+Omit this section until there is a substantive correction. Date each entry and
+identify the affected claim, what changed, why, the primary source or sanitized
+observation, and the versions and conditions it applies to. Correct the guidance
+itself as well. Routine edits and successful rechecks need no entry.

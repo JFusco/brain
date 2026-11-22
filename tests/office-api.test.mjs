@@ -1,12 +1,20 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { createHash } from 'node:crypto';
+import { chmodSync, symlinkSync } from 'node:fs';
+import { join } from 'node:path';
 import { publishedRead } from '../scripts/lib/branch/office/published-read.mjs';
+import { compareCurrentNote } from '../scripts/lib/branch/office/current-status.mjs';
+import { readCommittedNote } from '../scripts/lib/branch/visual/snapshot/blobs.mjs';
+import { addKnowledge } from '../scripts/lib/branch/visual/snapshot/knowledge-nodes.mjs';
+import { createGraph } from '../scripts/lib/branch/visual/snapshot/graph.mjs';
+import { projectContext } from '../scripts/lib/branch/project/context.mjs';
 import { publishedMap } from '../scripts/lib/branch/office/published-map.mjs';
 import { publishedSearch } from '../scripts/lib/branch/office/published-search.mjs';
 import { readOnlyScan } from '../scripts/lib/branch/privacy/scan-receipt.mjs';
 import { plan } from '../scripts/lib/tree/cli/commands.mjs';
 import { args } from '../scripts/lib/leaf/cli-args.mjs';
+import { gitNotes, knowledgeNote } from './helpers.mjs';
 const sha = x => createHash('sha256').update(x).digest('hex');
 const revision = 'a'.repeat(40),
   old = Buffer.from('Committed old bytes\n');
@@ -197,14 +205,216 @@ test('read-only secret scan emits rule and line metadata without values, IDs or 
     /unavailable/,
   );
 });
-test('Office interfaces are read-only CLI commands with explicit flags', () => {
+test('Office interfaces are read-only CLI commands with explicit flags', async () => {
   for (const argv of [
     ['scan', '--stdin', '--secrets-only'],
     ['snapshot'],
     ['search', '--snapshot', revision, '--query', 'q', '--kind', 'note', '--versions', 'x@1'],
     ['read', '--snapshot', revision, '--path', note.path],
+    ['read', '--snapshot', revision, '--path', note.path, '--current-status'],
+    ['read', '--snapshot', revision, '--path', note.path, '--include-withdrawn'],
+    [
+      'read',
+      '--snapshot',
+      revision,
+      '--path',
+      note.path,
+      '--include-withdrawn',
+      '--current-status',
+      '--versions',
+      'node@24',
+    ],
   ]) {
     const parsed = args(argv);
     assert.equal(plan(parsed.positional, parsed.flags).mutating, false);
   }
+  for (const flag of ['include-withdrawn', 'current-status'])
+    assert.throws(() => args([`--${flag}=false`]), /does not take a value/);
+  const read = (...options) => {
+    const parsed = args(['read', '--snapshot', revision, '--path', note.path, ...options]);
+    return plan(parsed.positional, parsed.flags).execute();
+  };
+  await assert.rejects(read('--versions', 'node@24'), /requires --current-status/);
+  await assert.rejects(read('--current-status', '--versions', 'node@>=24'), /must be literal/);
+  await assert.rejects(read('--current-status', '--versions', 'x'.repeat(2001)), /2,000/);
+});
+
+test('withdrawn audit reads require a valid committed note and preserve original bytes', t => {
+  const { run, write, commit, root } = gitNotes(t);
+  const withdrawn = Buffer.concat([
+    Buffer.from([0xef, 0xbb, 0xbf]),
+    knowledgeNote({ status: 'retired' }),
+  ]);
+  write(note.path, withdrawn);
+  write('knowledge/tooling/INDEX.md', withdrawn);
+  write('knowledge/_templates/example.md', withdrawn);
+  write('inbox/example.md', withdrawn);
+  write('knowledge/tooling/invalid.md', 'invalid');
+  write('knowledge/tooling/invalid-utf8.md', Buffer.concat([withdrawn, Buffer.from([0xff])]));
+  write('knowledge/tooling/large.md', Buffer.alloc(256 * 1024 + 1));
+  write('knowledge/tooling/executable.md', withdrawn);
+  chmodSync(join(root, 'knowledge/tooling/executable.md'), 0o755);
+  symlinkSync('example.md', join(root, 'knowledge/tooling/linked.md'));
+  const head = commit();
+  const load = () => ({ revision: head, entries: [] });
+  const read = (sha, path) => readCommittedNote(sha, path, { run });
+  const opts = { load, read, includeWithdrawn: true };
+  assert.throws(() => publishedRead(head, note.path, { load, read }), /unavailable/);
+  assert.deepEqual(publishedRead(head, note.path, opts), {
+    version: 1,
+    snapshot: head,
+    path: note.path,
+    text: withdrawn.toString(),
+    contentSha256: sha(withdrawn),
+    statusAtSnapshot: 'retired',
+    eligible: false,
+  });
+  for (const path of [
+    'knowledge/tooling/INDEX.md',
+    'knowledge/_templates/example.md',
+    'inbox/example.md',
+    'knowledge/tooling/invalid.md',
+    'knowledge/tooling/invalid-utf8.md',
+    'knowledge/tooling/large.md',
+    'knowledge/tooling/executable.md',
+    'knowledge/tooling/linked.md',
+    'knowledge/tooling/missing.md',
+  ])
+    assert.throws(() => publishedRead(head, path, opts), /unavailable/, path);
+  run('switch', '-c', 'unmerged');
+  assert.throws(() => read(commit(), note.path), /merge-base/);
+  assert.throws(
+    () => publishedRead(head, note.path, { ...opts, load: () => graph, blobs: () => new Map() }),
+    /hash mismatch/,
+  );
+});
+
+test('current comparison distinguishes revision, freshness, replacement, and failure', () => {
+  const original = knowledgeNote();
+  const historical = { path: note.path, text: original.toString(), contentSha256: sha(original) };
+  const replacement = 'knowledge/tooling/replacement.md';
+  const superseded = target => knowledgeNote({ status: 'superseded', replacement: target });
+  const lock = { sources: { docs: { revision: 'abcdef0123456789' } } };
+  const compare = (entries, context, sources = lock) =>
+    compareCurrentNote(historical, context, {
+      main: () => revision,
+      load: () =>
+        new Map([['official/sources.lock.json', Buffer.from(JSON.stringify(sources))], ...entries]),
+      read: (rev, path, { blobs }) =>
+        readCommittedNote(rev, path, {
+          blobs,
+          run: () => Buffer.alloc(0),
+        }),
+    });
+  const chain = length =>
+    Array.from({ length: length + 1 }, (_, i) => [
+      i === 0 ? note.path : `knowledge/tooling/hop-${i}.md`,
+      i === length ? original : superseded(`knowledge/tooling/hop-${i + 1}.md`),
+    ]);
+  for (const [outcome, entries] of [
+    ['unchanged', [[note.path, original]]],
+    [
+      'updated',
+      [[note.path, Buffer.from(original.toString().replace('2999-01-01', '2999-01-02'))]],
+    ],
+    ['deleted', []],
+    ['invalid', [[note.path, Buffer.from('invalid')]]],
+    ['retired', [[note.path, knowledgeNote({ status: 'retired' })]]],
+    ['superseded', chain(8)],
+    ['depth-exceeded', chain(9)],
+    ['missing-replacement', [[note.path, superseded(replacement)]]],
+    [
+      'cycle',
+      [
+        [note.path, superseded(replacement)],
+        [replacement, superseded(note.path)],
+      ],
+    ],
+    ['unavailable', [[note.path, original]]],
+  ]) {
+    const result = compare(entries, undefined, outcome === 'unavailable' ? {} : lock);
+    assert.equal(result.outcome, outcome);
+    if (outcome === 'updated') {
+      assert.equal(result.bytesChanged, true);
+      assert.equal(result.correctionsChanged, false);
+    }
+  }
+  const entries = [
+    [note.path, superseded(replacement)],
+    [replacement, original],
+  ];
+  const result = compare(entries, projectContext(undefined, { versions: 'node@22' }));
+  assert.equal(result.target.path, replacement);
+  assert.equal(result.target.versionFit.status, 'incompatible');
+  assert.equal(compare(entries).target.versionFit, undefined);
+  assert.equal(
+    compare(entries, projectContext(undefined, { versions: 'next@16' })).target.versionFit.status,
+    'unconfirmed',
+  );
+  assert.equal(
+    compare([[note.path, original]], undefined, { sources: {} }).target.freshness.status,
+    'needs-revalidation',
+  );
+  const current = createGraph();
+  addKnowledge(current, new Map(entries), lock);
+  const response = publishedSearch({ snapshot: revision, query: 'Example', kind: 'note' }, () => ({
+    ...current,
+    nodes: [...current.nodes.values()],
+    revision,
+  }));
+  assert.deepEqual(
+    response.results.map(entry => entry.path),
+    [replacement],
+  );
+
+  const opts = { load: () => graph, blobs: () => new Map([[note.path, old]]) };
+  const failed = publishedRead(revision, note.path, {
+    ...opts,
+    currentStatus: true,
+    compare: read =>
+      compareCurrentNote(read, undefined, {
+        main: () => revision,
+        load: () => {
+          throw new Error('Unavailable');
+        },
+      }),
+  });
+  const { currentStatus, ...pinned } = failed;
+  assert.equal(currentStatus.outcome, 'unavailable');
+  assert.equal(currentStatus.target, null);
+  assert.deepEqual(pinned, {
+    version: 1,
+    snapshot: revision,
+    path: note.path,
+    contentSha256: sha(old),
+    text: old.toString(),
+  });
+  assert.deepEqual(pinned, publishedRead(revision, note.path, opts));
+});
+
+test('correction comparison finds late and fenced changes and reports deletion without an excerpt', () => {
+  const prefix = '## Corrections\n\n' + 'Earlier correction.\n'.repeat(300);
+  const body =
+    prefix + '\n```text\n## Example heading\nOld example\n```\n\n2026-11-22 Removed entry.';
+  const original = knowledgeNote({ body });
+  const historical = { path: note.path, text: original.toString(), contentSha256: sha(original) };
+  const compare = body =>
+    compareCurrentNote(historical, undefined, {
+      main: () => revision,
+      load: () =>
+        new Map([
+          [note.path, knowledgeNote({ body })],
+          ['official/sources.lock.json', Buffer.from('{"sources":{}}')],
+        ]),
+    });
+  const updated = body.replace('Old example', 'New example');
+  const { correctionsChanged, corrections } = compare(updated);
+  assert.equal(correctionsChanged, true);
+  assert.match(corrections.excerpt, /^New example/);
+  assert.ok(corrections.excerpt.length <= 4000);
+  const lines = knowledgeNote({ body: updated }).toString().split('\n');
+  assert.equal(lines[corrections.startLine - 1], 'New example');
+  const removed = compare(body.replace('2026-11-22 Removed entry.', ''));
+  assert.equal(removed.correctionsChanged, true);
+  assert.equal(removed.corrections, null);
 });

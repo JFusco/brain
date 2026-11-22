@@ -110,7 +110,15 @@ export async function resolve(ids, as, { pr, publications } = {}) {
   }
   // Acceptance records the merged knowledge PR that used the candidate.
   const merged = as === 'accepted' ? await mergedBrainPR(pr) : null;
-  const mapped = merged ? publicationMappings(ids, publications, merged.merge_commit_sha, (await import('../../branch/office/published-read.mjs')).publishedRead) : {};
+  const mapped = merged
+    ? publicationMappings(
+        ids,
+        publications,
+        merged.merge_commit_sha,
+        (await import('../../branch/office/published-read.mjs')).publishedRead,
+        (await import('../../branch/capture/withdrawal.mjs')).verifyWithdrawal,
+      )
+    : {};
   for (const id of ids)
     state.candidates[id].disposition = {
       as,

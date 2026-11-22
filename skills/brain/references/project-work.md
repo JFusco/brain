@@ -16,13 +16,17 @@ calls the existing ranked route and supplies note procedures, decision branches,
 evidence limits and gaps. It does not compose an answer or run project code.
 `playbooks` lists published workflows from committed main; listing is not reading.
 Use a focused `brief` or `route` consultation for the selected lesson, then read
-only applicable returned notes and official references. Report actual note reads,
-citations and completion using that consultation's session.
+only applicable returned notes and official references. Follow the revision and
+freshness checks in the [Brain skill](../SKILL.md) before using pinned or older
+guidance. Withhold flagged claims if primary evidence cannot confirm the intended
+use. Report actual reads, citations and completion using the session for the
+revision actually read.
 
 Turn the evidence into a short task-specific briefing:
 
 - **Context:** intended behavior, application workspace and confirmed versions.
-- **Relevant guidance:** applicable lessons or playbooks with citations.
+- **Relevant guidance** with the note section, full commit and supporting
+  primary source or sanitized observation for each consequential recommendation.
 - **Pitfalls and differences:** concrete failure modes, conditions that change
   the advice, stale evidence and unresolved decisions.
 - **Recommended steps:** the smallest implementation and verification sequence
