@@ -377,3 +377,8 @@ The [model and editor journal](../journal/2026-11-20-model-editor-revalidation.m
 ## November 21 CMS branch and publishing decisions
 
 The [CMS branch and publishing journal](../journal/2026-11-21-cms-branch-and-publishing-guidance.md) separates Contentstack schema merges from entry migration, publication environments and token cleanup. Revalidated Optimizely guidance distinguishes shared-block publication visibility from folder availability and editor access. Existing notes are extended rather than duplicated; historical reports and proposed verification procedures retain their limits. Fresh independent review and successful native completion still precede capture acceptance.
+
+
+## November 22 CMP upload revalidation
+
+The [CMP revalidation journal](../journal/2026-11-22-cmp-upload-revalidation.md) records current multipart transport/completion requirements and role-specific access boundaries. Full official HTML can contain a parameter table omitted by condensed excerpts; absence from an excerpt does not establish removal. Existing proposals and historical reports retain their limits, and direct CMP references remain outside catalog tracking. No technical contradiction or withdrawal was established by this bounded review.
