@@ -2,12 +2,12 @@
 title: "Separate CMP upload transfer from asset creation"
 domain: "cms/optimizely-saas"
 aliases: []
-evidence_date: "2026-10-22"
-reviewed_at: "2026-10-23"
+evidence_date: "2026-11-22"
+reviewed_at: "2026-11-22"
 status: "current"
 versions: []
 applicability: "Optimizely CMP v3 image migration planning; official API documentation only; no connected execution"
-provenance: "optimizely-cms-saas-docs@ae548b9dfcc952b0ce044cc0331517c2155d9a8da61cacb1b11285231415ac9e; directly read official CMP pages 2026-10-22; CMP is not registered as a source; proposed recovery procedure"
+provenance: "Official CMP v3 upload, multipart, folder, image PATCH, asset listing and sharing pages directly reviewed 2026-11-22; CMP pages are outside registered catalog coverage; proposed procedures and explicitly unverified historical reports"
 ---
 
 # Separate CMP upload transfer from asset creation
@@ -26,7 +26,7 @@ Use this when importing files into CMP DAM or moving existing assets. Transfer c
 
 ## Evidence and limits
 
-Official documentation was reviewed, not executed. Direct retrieval of the image PATCH page timed out/returned 403; the browser search service returned its official indexed body, including the parameter list. That is documentation evidence, not a connected API check. The folder-management page alone did not establish sharing defaults. The separately checked [sharing guide](https://docs.optimizely.com/content-marketing-platform/docs/share-folders-and-assets) documents private-by-default created folders and inherited folder permissions for assets. Check the actual intended role; do not infer access from the uploader's session, or name uniqueness and depth limits from these pages.
+Official documentation was reviewed, not executed. Earlier direct retrieval of the image PATCH page timed out/returned 403, and that review used its official indexed body. On November 22, 2026, direct HTML retrieval with documentation-compatible request headers exposed the parameter table, including folder, alt text, attribution, tags and expiration fields. A condensed browser excerpt omitted that table; it was not evidence that those fields had been removed. This is documentation evidence, not a connected API check. The folder-management page alone did not establish sharing defaults. The separately checked [sharing guide](https://docs.optimizely.com/content-marketing-platform/docs/share-folders-and-assets) documents private-by-default created folders and inherited folder permissions for assets. Check the actual intended role; do not infer access from the uploader's session, or name uniqueness and depth limits from these pages.
 
 No CMP rate ceiling, field-deprecation rule, create-time metadata beyond key/title, or official bulk CLI absence is established here. Discover current constraints before implementation. Multipart completion is not asset creation. Registration of a CMP catalog is a separate reviewed source change, not part of this delivery. For CMS delivery/alt text and Content Area restrictions, see [media destination and placement](media-destination-and-placement.md).
 
@@ -49,3 +49,12 @@ No CMP rate ceiling, field-deprecation rule, create-time metadata beyond key/tit
 The [upload guide](https://docs.optimizely.com/content-marketing-platform/docs/upload-assets-to-library-or-task) separates the supplied title from the upload key and warns that repeated final creation creates additional assets. The [listing reference](https://docs.optimizely.com/content-marketing-platform/api/get-assets) supports folder-scoped discovery. Neither establishes titles as unique file identities. Collision rejection removes one known ambiguity; it does not make a single title match proof of ownership or byte equality. Keep the independent identity/original-byte reconciliation above, and block when it cannot be established.
 
 A private adapter report describes missing checksum/size evidence and duplicate refusal in its observed responses/tests; it was not reproduced and is not a universal CMP response-schema claim. Exact title retention, trimming and Unicode normalization remain unverified in a live organization. No official filename/title restriction contract was established in this review; an incidental CMS SDK version does not establish the CMP REST contract.
+
+
+## Multipart requests and access checks
+
+**Documented, revalidated November 22, 2026:** the [multipart guide](https://docs.optimizely.com/content-marketing-platform/docs/multipart-upload) requires each part to use its returned pre-signed URL with PUT, without adding a `Content-Type` header. Its API responses use gzip, so the client must support decompression. A successful `/complete` response only starts completion. Poll `/status` with a delay; register the returned key after `UPLOAD_COMPLETION_SUCCEEDED`, and inspect `status_message` on failure. **Proposed:** record transfer, completion and asset registration separately so retries cannot confuse those phases. These request details have not been exercised here.
+
+**Documented:** the [sharing guide](https://docs.optimizely.com/content-marketing-platform/docs/share-folders-and-assets) describes downward permission inheritance, not a requirement to grant parent access before a subfolder can be opened through its direct link. Direct asset access may also survive removal of folder access. **Proposed:** check the intended role's folder navigation and direct asset access separately; neither a missing parent in search nor an uploader's successful view establishes the other user's access.
+
+The six official pages linked above were re-read for upload/create separation, part bounds, folder nesting, PATCH metadata, listing/pagination and sharing. Existing recovery and collision safeguards remain proposals; historical reports were not rerun. The CMP pages are not indexed by the cited CMS SaaS catalog, so their rolling URLs require direct revalidation rather than a catalog-hash update.
