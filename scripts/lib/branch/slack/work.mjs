@@ -3,6 +3,9 @@ import { DAY } from '../../leaf/time.mjs';
 export const HISTORY = ['messages', 'replies', 'files'];
 export const INVENTORY = ['pins', 'bookmarks', 'canvases'];
 export const STREAMS = [...HISTORY, ...INVENTORY];
+export const SEED_CHANNELS_PER_NIGHT = 4;
+const SEED_DAYS = 28;
+const LEGACY_SEED_DAYS = 7;
 const iso = time => new Date(time).toISOString();
 
 export function previewState(channels, report, cutoff, authorId) {
@@ -74,13 +77,24 @@ export function work(state, roster, run) {
         const key = phase + '-' + stream;
         const prior = progress.pages[key];
         const position = progress[phase][stream];
-        if (phase === 'live' ? position >= through : position <= progress.start || i >= 2) continue;
+        if (
+          phase === 'live'
+            ? position >= through
+            : position <= progress.start || i >= SEED_CHANNELS_PER_NIGHT
+        )
+          continue;
         const end = prior?.end ?? (phase === 'live' ? through : position);
         const start =
           phase === 'live'
             ? position
-            : iso(Math.max(Date.parse(progress.start), Date.parse(end) - 7 * DAY));
-        // At most one seven-day seed slice per selected channel and stream per date.
+            : (prior?.start ??
+              iso(
+                Math.max(
+                  Date.parse(progress.start),
+                  Date.parse(end) - (prior ? LEGACY_SEED_DAYS : SEED_DAYS) * DAY,
+                ),
+              ));
+        // At most one historical window per selected channel and stream per date.
         if (phase === 'seed' && progress.finished?.[key] === run.slotDate) continue;
         const task = { channel, phase, stream, start, end, cursor: prior?.cursor ?? null };
         task.token = sha(JSON.stringify([run.id, task]));
@@ -108,7 +122,7 @@ export function advance(state, task, page, run) {
     else p.pages[key] = { seen: current };
   }
   if (page.next) {
-    p.pages[key] = { ...p.pages[key], cursor: page.next, end: task.end };
+    p.pages[key] = { ...p.pages[key], cursor: page.next, start: task.start, end: task.end };
     return;
   }
   delete p.pages[key];

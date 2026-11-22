@@ -92,9 +92,9 @@ test('daily streams resume missed dates independently, preserve partial inventor
     advance(state, t, { next: null, revisions: { two: 'v2' } }, after);
   assert.deepEqual(state.channels[channel].resources.pins, { one: 'v1', two: 'v2' });
   const seed = work(state, roster, after);
-  assert.equal(seed.length, 6);
-  assert.equal(new Set(seed.map(t => t.channel)).size, 2);
-  assert.equal(Date.parse(seed[0].end) - Date.parse(seed[0].start), 7 * DAY);
+  assert.equal(seed.length, 12);
+  assert.equal(new Set(seed.map(t => t.channel)).size, 4);
+  assert.equal(Date.parse(seed[0].end) - Date.parse(seed[0].start), 28 * DAY);
   for (const task of seed) advance(state, task, { next: null }, after);
   assert.deepEqual(work(state, roster, after), []);
   const tomorrow = {
@@ -107,6 +107,37 @@ test('daily streams resume missed dates independently, preserve partial inventor
     t => t.channel === channel && t.stream === 'replies',
   );
   assert.equal(retried.start, run.startedAt);
+});
+
+test('seed windows retain their exact bounds when resuming both legacy and current cursors', () => {
+  const state = initial();
+  const legacy = state.channels[channel];
+  const end = legacy.seed.messages;
+  const legacyStart = new Date(Date.parse(end) - 7 * DAY).toISOString();
+  legacy.pages['seed-messages'] = { end, cursor: 'legacy-cursor' };
+  const next = {
+    ...run,
+    id: 'after-upgrade',
+    slotDate: '2026-03-13',
+    startedAt: '2026-03-13T21:00:00.000Z',
+  };
+  state.batch = { date: next.slotDate, through: run.startedAt, offset: 0 };
+  for (const task of work(state, roster, next))
+    advance(state, task, { next: null, revisions: {} }, next);
+  const seed = work(state, roster, next);
+  const old = seed.find(task => task.channel === channel && task.stream === 'messages');
+  assert.equal(old.start, legacyStart);
+  assert.equal(old.end, end);
+  assert.equal(old.cursor, 'legacy-cursor');
+
+  const fresh = seed.find(task => task.channel === channel && task.stream === 'replies');
+  advance(state, fresh, { next: 'fresh-cursor' }, next);
+  const resumed = work(state, roster, next).find(
+    task => task.channel === channel && task.stream === 'replies',
+  );
+  assert.equal(resumed.start, fresh.start);
+  assert.equal(resumed.end, fresh.end);
+  assert.equal(resumed.cursor, 'fresh-cursor');
 });
 
 const sourceId = '1773000000.000001';

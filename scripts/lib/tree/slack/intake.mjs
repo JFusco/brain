@@ -2,7 +2,13 @@ import { existsSync } from 'node:fs';
 import { referenceReceipt } from './reference.mjs';
 import { config } from '../../branch/platform/config.mjs';
 import { DAY } from '../../leaf/time.mjs';
-import { previewState, work, advance, INVENTORY } from '../../branch/slack/work.mjs';
+import {
+  previewState,
+  work,
+  advance,
+  INVENTORY,
+  SEED_CHANNELS_PER_NIGHT,
+} from '../../branch/slack/work.mjs';
 import { validResourceMap, evidence } from '../../branch/slack/evidence.mjs';
 import { capture, captureReceipt } from '../capture/capture.mjs';
 import { at, ROOT } from '../../leaf/paths.mjs';
@@ -63,8 +69,7 @@ export function slackWork(run, action, input) {
   if (!['work', 'page'].includes(action)) throw new Error('Unknown Slack operation');
   if (state.batch?.date !== run.slotDate) {
     state.batch = { date: run.slotDate, offset: state.rotation, through: run.startedAt };
-    // Move one pair each day, including when a selected seed stream is inaccessible.
-    state.rotation = (state.rotation + 2) % channels.length;
+    state.rotation = (state.rotation + SEED_CHANNELS_PER_NIGHT) % channels.length;
     writeJSON(stateFile, state, 0o600);
   }
   const tasks = work(state, channels, run);

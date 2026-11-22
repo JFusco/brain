@@ -51,9 +51,12 @@ or Slack permalinks into issues, PRs, wiki pages or published notes.
 Run `work RUN_ID` again. The returned tasks are independently checkpointed. Take
 one page per task in the returned order before fetching another page of the
 same busy channel. Repeat until work is empty, recording actual gaps as needed.
-Finish each live interval before starting seed work. Each date selects two
-channels for at most seven older days apiece per stream. Fewer than ten recent
+Finish each live interval before starting seed work. Each date selects up to four
+channels for at most 28 older days apiece per stream. Fewer than ten recent
 posts extends that channel's seed to 365 days or creation, whichever is later.
+Split a dense window into smaller requests when needed. Finish every subwindow
+before acknowledging the original interval, or record the coverage gap and
+leave that interval open for a later date.
 
 - **Messages.** Read channel history. For substantive posts with replies,
   paginate the thread for context. Inspect relevant file shares on the files task.
