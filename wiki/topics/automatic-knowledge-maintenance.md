@@ -29,6 +29,19 @@ Joe then authorized a separate content reviewer for knowledge additions and chan
 
 The [local setup journal](../journal/2026-10-19-local-nightly-maintenance.md) distinguishes configuration and manual checks from future unattended execution. The Mac/app must be available; catch-up runs at a later scheduled or explicitly requested invocation. The initial setup was local; Joe subsequently authorized Git delivery through [issue 75](https://github.com/JFusco/brain/issues/75). Owned branches and worktrees are removed after their changes and evidence are safely accounted for; unrelated work and historical failures remain preserved.
 
+## Traceable corrections and withdrawals
+
+Substantive corrections identify the affected claim, reason, evidence and scope
+in a dated note section. Consulting a pinned note can compare it with committed
+local main while preserving the exact historical text and digest. A replacement
+must fit the task. Claims with unresolved revalidation are withheld from current
+advice.
+
+A merged withdrawal can account for a capture even without replacement guidance.
+The resolver verifies the transition at the same path and the exact merged bytes.
+The curator checks private claim coverage and required publication and completion
+evidence. See [the correction loop journal](../journal/2026-11-22-brain-correction-loop.md).
+
 ## October 21 capture curation
 
 The [daily curation journal](../journal/2026-10-21-daily-capture-curation.md) records stale-first CMS revalidation and six reviewed captures. Related import proposals share one Contentstack procedure; asset ownership, design acceptance, component context and shared-document coordination retain separate applicability. Official mechanisms ground proposed practices without turning private pilot claims into general compatibility or throughput guarantees. Partially covered captures stay pending, and final run completion remains the acceptance boundary.

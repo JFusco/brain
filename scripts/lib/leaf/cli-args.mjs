@@ -1,4 +1,6 @@
+const BARE_FLAGS = new Set(['current-status', 'include-withdrawn']);
 const BOOLEAN_FLAGS = new Set([
+  ...BARE_FLAGS,
   'yes',
   'staged',
   'stdin',
@@ -22,6 +24,8 @@ export function args(argv) {
     }
     const [key, inline] = argv[i].slice(2).split(/=(.*)/s);
     if (Object.hasOwn(flags, key)) throw new Error(`Duplicate option --${key}`);
+    if (inline !== undefined && BARE_FLAGS.has(key))
+      throw new Error(`--${key} does not take a value`);
     if (BOOLEAN_FLAGS.has(key)) flags[key] = true;
     else {
       const value = inline ?? argv[++i];

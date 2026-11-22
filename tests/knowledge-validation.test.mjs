@@ -76,5 +76,13 @@ test('freshness flags changed or missing cited sources and elapsed review dates'
     gone.reasons.map(r => r.kind),
     ['source-unavailable', 'review-due'],
   );
+  const resolved = guidanceState(
+    'status: current\nprovenance: gone@abcdef012345\nreviewed_at: 2999-01-01',
+    active,
+  );
+  assert.deepEqual(
+    resolved.reasons.map(r => r.kind),
+    ['source-unavailable'],
+  );
   assert.equal(guidanceState('status: retired', active).status, 'retired');
 });

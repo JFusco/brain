@@ -37,11 +37,17 @@ export const officeCommands = {
     },
   },
   read: {
-    flags: ['snapshot', 'path'],
-    usage: [`${B} read --snapshot SHA --path knowledge/DOMAIN/NOTE.md`],
+    flags: ['snapshot', 'path', 'include-withdrawn', 'current-status', 'versions'],
+    usage: [
+      `${B} read --snapshot SHA --path knowledge/DOMAIN/NOTE.md [--include-withdrawn] [--current-status [--versions LITERALS]]`,
+    ],
     run: (flags, rest, subcommand) => {
       noPositionals(rest, subcommand);
-      return publishedRead(flags.snapshot, flags.path);
+      return publishedRead(flags.snapshot, flags.path, {
+        includeWithdrawn: flags['include-withdrawn'],
+        currentStatus: flags['current-status'],
+        versions: flags.versions,
+      });
     },
   },
 };

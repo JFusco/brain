@@ -3,6 +3,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { gzipSync } from 'node:zlib';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -10,6 +11,54 @@ export function temporary(t) {
   const directory = fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'brain-test-')));
   t.after(() => fs.rmSync(directory, { recursive: true, force: true }));
   return directory;
+}
+
+export function gitNotes(t) {
+  const root = temporary(t);
+  const run = (...args) =>
+    execFileSync('git', ['-c', 'core.hooksPath=/dev/null', '-c', 'commit.gpgsign=false', ...args], {
+      cwd: root,
+      stdio: ['ignore', 'pipe', 'pipe'],
+    });
+  run('init', '--initial-branch=main');
+  run('config', 'user.name', 'Brain Test');
+  run('config', 'user.email', 'test@example.com');
+  const write = (relative, content) => {
+    const file = path.join(root, relative);
+    fs.mkdirSync(path.dirname(file), { recursive: true });
+    fs.writeFileSync(file, content);
+  };
+  const commit = () => {
+    run('add', '-A');
+    run('commit', '--allow-empty', '-m', 'Fixture');
+    return run('rev-parse', 'HEAD').toString().trim();
+  };
+  return { root, run, write, commit };
+}
+
+export function knowledgeNote({
+  status = 'current',
+  replacement,
+  body = 'Verified guidance.',
+} = {}) {
+  return Buffer.from(
+    [
+      '---',
+      'title: Example',
+      'domain: tooling',
+      'evidence_date: 2026-01-01',
+      'review_after: 2999-01-01',
+      'applicability: Example tooling',
+      'versions: ["node@24"]',
+      'provenance: docs@abcdef012345',
+      `status: ${status}`,
+      ...(replacement ? [`superseded_by: ${replacement}`] : []),
+      '---',
+      '',
+      body,
+      '',
+    ].join('\n'),
+  );
 }
 
 // Minimal ustar writer: entries are {name, body?, type?} with type '0' (file) by default.
