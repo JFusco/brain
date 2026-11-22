@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "pnpm-docs",
-  "revision": "30f1f16baf9dffe37ae51adc9e90ec3082d8729576ac718d078e4e0916a8b68e",
+  "revision": "2946ebbc9d55af5b1e1ac68b806447d5611b648d4af0053a94c1a85f07743e3b",
   "origin": "https://pnpm.io/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -112,6 +112,11 @@
       "fetchUrl": "https://pnpm.io/cli/cat-index"
     },
     {
+      "title": "cli / catalog",
+      "url": "https://pnpm.io/cli/catalog",
+      "fetchUrl": "https://pnpm.io/cli/catalog"
+    },
+    {
       "title": "cli / change",
       "url": "https://pnpm.io/cli/change",
       "fetchUrl": "https://pnpm.io/cli/change"
@@ -165,6 +170,11 @@
       "title": "cli / doctor",
       "url": "https://pnpm.io/cli/doctor",
       "fetchUrl": "https://pnpm.io/cli/doctor"
+    },
+    {
+      "title": "cli / edit",
+      "url": "https://pnpm.io/cli/edit",
+      "fetchUrl": "https://pnpm.io/cli/edit"
     },
     {
       "title": "cli / env",
@@ -585,6 +595,11 @@
       "title": "lockfile",
       "url": "https://pnpm.io/lockfile",
       "fetchUrl": "https://pnpm.io/lockfile"
+    },
+    {
+      "title": "lockfile format",
+      "url": "https://pnpm.io/lockfile-format",
+      "fetchUrl": "https://pnpm.io/lockfile-format"
     },
     {
       "title": "migration",

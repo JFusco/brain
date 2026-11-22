@@ -20,10 +20,10 @@
       "catalogSha256": "033f8e362c8b0a8058f69a3a7f2f3533a9adc502a8c39dba0608f05f7630fe26"
     },
     "vercel-plugin": {
-      "revision": "8bb46159108f0cd6a749959b20c1411257411090",
-      "fetchedAt": "2026-11-20T22:44:52.851Z",
+      "revision": "8f381b1b267ef2e6ddbf5aa8c609015a6e8efb50",
+      "fetchedAt": "2026-11-22T22:06:11.206Z",
       "track": "default-branch",
-      "catalogSha256": "8a505544cc9e5c6f53a8c2f1fa326ed49eb236c06632ae25342a532bda13f6b8"
+      "catalogSha256": "f87a7b3e886a703d2476291062780b66346e6198b8e33d2c0c8d8ddc48da2b48"
     },
     "contentful-skills": {
       "revision": "9a46a78dd0adc62a9c0f2137f80f9cacfd24fcac",
@@ -278,10 +278,10 @@
       "catalogSha256": "389c2462debca63050accc65f401a0d2cb2e9b7ef2644a91b5dae4c2f05d1854"
     },
     "pnpm-docs": {
-      "revision": "30f1f16baf9dffe37ae51adc9e90ec3082d8729576ac718d078e4e0916a8b68e",
-      "fetchedAt": "2026-11-14T22:06:23.282Z",
+      "revision": "2946ebbc9d55af5b1e1ac68b806447d5611b648d4af0053a94c1a85f07743e3b",
+      "fetchedAt": "2026-11-22T22:08:26.069Z",
       "track": "rolling-url",
-      "catalogSha256": "33c0f63d862fb0dd0c566d8fcb9f5d9dfe0132e5ea06f12a4394d6da31a657b4"
+      "catalogSha256": "4d5b26d9b02684773242df4906d47ff0bbcd745d8d6ff4ea332cc3fecdadeb0a"
     },
     "turborepo-docs": {
       "revision": "55a7c2078c10f17e10d2f8adedd776f11f2de07ed6068dfe6e2f0d197b8eb71f",
