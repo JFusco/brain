@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-cms13-docs",
-  "revision": "9ba10c2525db77d8e7675105864da4496ae77f68a9c6a4f56cc17b5e6ef9b36f",
+  "revision": "e602fddb7c6472057326034a3175964750baab70dcc6d00745fd5364cd1f1ac1",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -1682,6 +1682,11 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/guid-property.md"
     },
     {
+      "title": "Headless Optimizely Forms",
+      "url": "https://docs.optimizely.com/cms-13/docs/headless-optimizely-forms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/headless-optimizely-forms.md"
+    },
+    {
       "title": "Hide or control access to customized components",
       "url": "https://docs.optimizely.com/cms-13/docs/hide-or-control-access-to-a-component.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/hide-or-control-access-to-a-component.md"
@@ -1737,6 +1742,11 @@
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-database-schema.md"
     },
     {
+      "title": "Render headless Optimizely Forms in a React app",
+      "url": "https://docs.optimizely.com/cms-13/docs/install-headless-optimizely-forms-javascript-sdk-for-the-client-app.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-headless-optimizely-forms-javascript-sdk-for-the-client-app.md"
+    },
+    {
       "title": "Install Optimizely Mark chat in CMS 13",
       "url": "https://docs.optimizely.com/cms-13/docs/install-mark-chat-cms-13.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/install-mark-chat-cms-13.md"
@@ -1755,6 +1765,11 @@
       "title": "Integrate external content sources with CMS",
       "url": "https://docs.optimizely.com/cms-13/docs/integrate-external-content-sources-with-cms.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/integrate-external-content-sources-with-cms.md"
+    },
+    {
+      "title": "JavaScript SDK reference for headless Optimizely Forms",
+      "url": "https://docs.optimizely.com/cms-13/docs/javascript-sdk-for-headless-optimizely-forms.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/javascript-sdk-for-headless-optimizely-forms.md"
     },
     {
       "title": "JavaScript SDK documentation",
@@ -2285,6 +2300,11 @@
       "title": "Set access rights without Opti ID",
       "url": "https://docs.optimizely.com/cms-13/docs/set-access-rights-without-opti-id.md",
       "fetchUrl": "https://docs.optimizely.com/cms-13/docs/set-access-rights-without-opti-id.md"
+    },
+    {
+      "title": "Set up the headless Optimizely Forms API",
+      "url": "https://docs.optimizely.com/cms-13/docs/set-up-headless-optimizely-forms-api.md",
+      "fetchUrl": "https://docs.optimizely.com/cms-13/docs/set-up-headless-optimizely-forms-api.md"
     },
     {
       "title": "Settings",
