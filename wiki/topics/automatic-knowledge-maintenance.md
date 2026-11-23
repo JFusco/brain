@@ -5,6 +5,10 @@ aliases: ["curation", "reference refresh", "Brain audit"]
 
 # Automatic knowledge maintenance
 
+## November 23 focus and CMS field decisions
+
+The [focus and CMS field journal](../journal/2026-11-23-focus-and-cms-field-decisions.md) records forced-colors keyboard-focus verification, Contentstack visibility-rule limits and the distinction between CMS defaults and application rendering fallbacks. Primary documentation grounds the mechanisms; browser checks and implementation choices remain proposed. Existing stale signals are preserved, and independent review plus final native completion remain prerequisites for capture acceptance.
+
 Brain captures private lesson evidence, catalogs official entry points, and publishes useful guidance through documented, issue-linked PRs. Joe authorized automatic merges for routine knowledge, catalog-refresh and wiki maintenance PRs without a separate digest approval. The nightly local curator is restricted to knowledge and reference artifacts; code, policies, registry edits, new source/host registrations, other repositories, installed project skills, and memories are outside that recurring scope.
 
 ## Performance, Security and Semantics coverage

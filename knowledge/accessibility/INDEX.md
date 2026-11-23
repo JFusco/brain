@@ -16,6 +16,7 @@ aliases: ["accessibility", "a11y", "wcag", "wai-aria"]
 <!-- brain:curated:start -->
 - [Connect disclosure controls to their panels](disclosure-control-targets.md)
 - [Keep image purpose distinct from missing alternative text](image-purpose-and-missing-alt.md)
+- [Verify keyboard focus in forced-color palettes](forced-colors-keyboard-focus.md)
 <!-- brain:curated:end -->
 
 <!-- brain:official:start -->
