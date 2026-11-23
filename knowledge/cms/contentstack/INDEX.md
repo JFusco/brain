@@ -9,11 +9,13 @@ aliases: ["contentstack"]
 
 <!-- brain:curated:start -->
 - [Check Contentstack kickstart assumptions before reuse](kickstart-skill-applicability.md)
+- [Check field visibility limits before dependent selectors](field-visibility-and-dependent-selectors.md)
 - [Confirm Launch allowance scope before consolidating sites](launch-capacity-scope.md)
 - [Derive Contentstack delivery types from the actual schema](schema-derived-delivery-types.md)
 - [Generate editor guidance from reviewed field definitions](editor-guidance-from-field-definitions.md)
 - [Keep Contentstack import state with native concurrency](asset-import-state.md)
 - [Organize Contentstack assets by ownership and reuse](asset-ownership-and-reuse.md)
+- [Separate CMS defaults from site rendering fallbacks](defaults-and-site-fallbacks.md)
 - [Verify branch isolation and credential cleanup separately](branch-isolation-and-credential-cleanup.md)
 <!-- brain:curated:end -->
 
