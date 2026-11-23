@@ -129,6 +129,9 @@ test('knowledge changes need a fresh, separate content review of the exact head'
   assert.throws(check(review({ reviewerId: 'author' })), /separate content reviewer/);
   assert.throws(check(review({ role: 'author' })), /separate content reviewer/);
   assert.throws(check(review({ notes: [] })), /every changed knowledge note/);
+  // Wiki paths are reviewed in the summary; a row for one rejects the exact path set.
+  const wiki = note({ path: 'wiki/plans/a.md' });
+  assert.throws(check(review({ notes: [note(), wiki] })), /every changed knowledge note/);
   assert.throws(check(review({ notes: [note({ sources: [] })] })), /checked official sources/);
   assert.throws(
     check(review({ notes: [note({ sources: ['http://x.test/'] })] })),

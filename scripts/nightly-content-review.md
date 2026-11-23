@@ -68,8 +68,11 @@ Use this shape (the CLI never invokes a model):
 Use `evidenceKind: observation` for explicitly limited observations; `sources` can
 be empty only then, and `evidence` must explain the basis and limits. An author
 catalog review uses `role: author`, matching author/reviewer IDs and `notes: []`.
-Generated hub sections need no separate note row. Include every changed public
-path in the overall diff review. Commit changes, dirty files or a different main
+`notes` must list exactly the paths `prepare` requires, no more and no fewer:
+every changed `knowledge/` file except a domain hub whose only edits are inside
+its generated official/curated sections. Wiki (`wiki/`, wiki graph data) and
+catalog paths never get a row; an extra row rejects the review. Still review
+every changed public path, and record wiki findings in `summary`. Commit changes, dirty files or a different main
 baseline require fresh review and `prepare`; approval lasts at most one hour.
 
 For researched platform guidance, open the current primary reference and check
