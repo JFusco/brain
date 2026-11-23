@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "contentstack-docs",
-  "revision": "04d99e648a9c0c9cb6b94146945a2a6743a551a41d2a617bc8a758eb9e3d6291",
+  "revision": "48c0691b708c6f774789d98cae134a11fad04b1ae5947b74bcf0de03714c58ea",
   "origin": "https://www.contentstack.com/sitemap.xml",
   "skills": [],
   "docs": [],
@@ -290,11 +290,6 @@
       "title": "administration / rest api usage",
       "url": "https://www.contentstack.com/docs/administration/rest-api-usage",
       "fetchUrl": "https://www.contentstack.com/docs/administration/rest-api-usage.md"
-    },
-    {
-      "title": "administration / secure public urls of assets",
-      "url": "https://www.contentstack.com/docs/administration/secure-public-urls-of-assets",
-      "fetchUrl": "https://www.contentstack.com/docs/administration/secure-public-urls-of-assets.md"
     },
     {
       "title": "administration / security configuration",
@@ -11422,6 +11417,11 @@
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/schema-of-json-rich-text-editor.md"
     },
     {
+      "title": "headless cms / secure public urls of assets",
+      "url": "https://www.contentstack.com/docs/headless-cms/secure-public-urls-of-assets",
+      "fetchUrl": "https://www.contentstack.com/docs/headless-cms/secure-public-urls-of-assets.md"
+    },
+    {
       "title": "headless cms / secure your webhooks",
       "url": "https://www.contentstack.com/docs/headless-cms/secure-your-webhooks",
       "fetchUrl": "https://www.contentstack.com/docs/headless-cms/secure-your-webhooks.md"
@@ -14525,6 +14525,11 @@
       "title": "personalize / twilio segment destination integration with personalize",
       "url": "https://www.contentstack.com/docs/personalize/twilio-segment-destination-integration-with-personalize",
       "fetchUrl": "https://www.contentstack.com/docs/personalize/twilio-segment-destination-integration-with-personalize.md"
+    },
+    {
+      "title": "personalize / use lytics audiences on any channel",
+      "url": "https://www.contentstack.com/docs/personalize/use-lytics-audiences-on-any-channel",
+      "fetchUrl": "https://www.contentstack.com/docs/personalize/use-lytics-audiences-on-any-channel.md"
     },
     {
       "title": "personalize / user permissions",

@@ -14,6 +14,6 @@ No curated notes yet.
 <!-- brain:official:start -->
 ## Official sources
 
-- **optimizely-cms13-docs** — link catalog of 503 pages; rolling-url; revision `9ba10c2525db77d8e7675105864da4496ae77f68a9c6a4f56cc17b5e6ef9b36f`; fetched 2026-11-20.
+- **optimizely-cms13-docs** — link catalog of 507 pages; rolling-url; revision `e602fddb7c6472057326034a3175964750baab70dcc6d00745fd5364cd1f1ac1`; fetched 2026-11-23.
   - [Catalog source](https://docs.optimizely.com/llms.txt); search it with `lookup --domain cms/optimizely-paas`.
 <!-- brain:official:end -->
