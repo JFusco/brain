@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "vercel-docs",
-  "revision": "8da2fbbfbf7a898b4a8e471eb6bdd6efdb27f5973aa60104f9358d058bb30b7c",
+  "revision": "2aa8bc07d2fc367a957040a98aab4d2e6d4a46d957ebe8aaced5e5cab5b6ba2a",
   "origin": "https://vercel.com/docs/sitemap.md",
   "skills": [],
   "docs": [],
@@ -3255,6 +3255,11 @@
       "title": "vercel microfrontends",
       "url": "https://vercel.com/docs/cli/microfrontends",
       "fetchUrl": "https://vercel.com/docs/cli/microfrontends.md"
+    },
+    {
+      "title": "vercel monitors",
+      "url": "https://vercel.com/docs/cli/monitors",
+      "fetchUrl": "https://vercel.com/docs/cli/monitors.md"
     },
     {
       "title": "vercel open",
@@ -6887,6 +6892,11 @@
       "fetchUrl": "https://vercel.com/docs/rest-api/global-config/get-global-configs.md"
     },
     {
+      "title": "Look up a Global Config token",
+      "url": "https://vercel.com/docs/rest-api/global-config/look-up-a-global-config-token",
+      "fetchUrl": "https://vercel.com/docs/rest-api/global-config/look-up-a-global-config-token.md"
+    },
+    {
       "title": "Restore Global Config backup",
       "url": "https://vercel.com/docs/rest-api/global-config/restore-global-config-backup",
       "fetchUrl": "https://vercel.com/docs/rest-api/global-config/restore-global-config-backup.md"
@@ -8570,6 +8580,11 @@
       "title": "Stop a sandbox",
       "url": "https://vercel.com/docs/sandbox/examples/stop-a-sandbox",
       "fetchUrl": "https://vercel.com/docs/sandbox/examples/stop-a-sandbox.md"
+    },
+    {
+      "title": "Sandbox Lifecycle Webhooks",
+      "url": "https://vercel.com/docs/sandbox/lifecycle-webhooks",
+      "fetchUrl": "https://vercel.com/docs/sandbox/lifecycle-webhooks.md"
     },
     {
       "title": "Vercel Sandbox pricing and quotas",

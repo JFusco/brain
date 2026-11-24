@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "motion-docs",
-  "revision": "cd0014c951aa1e65e6fbc83c8e3918f2882ed6d96863e74d5b1c3e01eb4bc906",
+  "revision": "17857116e9dfea8148668d71fe18a7ea36439336c046f04a64412130a24641e3",
   "origin": "https://motion.dev/llms.txt",
   "skills": [],
   "docs": [],
@@ -120,6 +120,11 @@
       "title": "Motion x Framer integration guide",
       "url": "https://motion.dev/docs/framer",
       "fetchUrl": "https://motion.dev/docs/framer.md"
+    },
+    {
+      "title": "FX",
+      "url": "https://motion.dev/docs/fx",
+      "fetchUrl": "https://motion.dev/docs/fx.md"
     },
     {
       "title": "GSAP vs Motion: Which should you use?",
@@ -280,6 +285,11 @@
       "title": "Drag animation",
       "url": "https://motion.dev/docs/react-drag",
       "fetchUrl": "https://motion.dev/docs/react-drag.md"
+    },
+    {
+      "title": "FX",
+      "url": "https://motion.dev/docs/react-fx",
+      "fetchUrl": "https://motion.dev/docs/react-fx.md"
     },
     {
       "title": "Gallery",
