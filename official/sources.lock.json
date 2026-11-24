@@ -20,16 +20,16 @@
       "catalogSha256": "033f8e362c8b0a8058f69a3a7f2f3533a9adc502a8c39dba0608f05f7630fe26"
     },
     "vercel-plugin": {
-      "revision": "50af4780eed8b2f69bc2290d20c670744f1e739c",
-      "fetchedAt": "2026-11-23T22:17:33.213Z",
+      "revision": "5e43a50cf5d4d10a02f1c20aaf634a202d3d0753",
+      "fetchedAt": "2026-11-24T22:12:28.994Z",
       "track": "default-branch",
-      "catalogSha256": "2ad214fd3486ffa4cd9207b13c3351d5a607b586ad195083140d2a2f429c4214"
+      "catalogSha256": "e1459b1607e9132f3e599651ca0371b85824d504ce362879799dd9120cd54b3d"
     },
     "contentful-skills": {
-      "revision": "9a46a78dd0adc62a9c0f2137f80f9cacfd24fcac",
-      "fetchedAt": "2026-11-21T22:03:44.218Z",
+      "revision": "a6e2cb9e81b1c90daa89727c66ec07f894646be5",
+      "fetchedAt": "2026-11-24T22:12:31.131Z",
       "track": "default-branch",
-      "catalogSha256": "35894865bcfea08a8b2b91c5b7a7b2c4f6538b91c7eeed87439917d0a4a21980"
+      "catalogSha256": "5d690995eae911e39c949bbc2db5a5ebd8634faec2846741e14f1e44564b72f2"
     },
     "optimizely-sdk": {
       "revision": "5cb0b7a2de20b7be6e25715b21863f472594fed2",
@@ -50,10 +50,10 @@
       "catalogSha256": "a03215f816e8ed573114594350555ac0c8c41d8e8aabe4282e355d5cf44a7c74"
     },
     "vercel-docs": {
-      "revision": "8da2fbbfbf7a898b4a8e471eb6bdd6efdb27f5973aa60104f9358d058bb30b7c",
-      "fetchedAt": "2026-11-20T22:45:02.988Z",
+      "revision": "2aa8bc07d2fc367a957040a98aab4d2e6d4a46d957ebe8aaced5e5cab5b6ba2a",
+      "fetchedAt": "2026-11-24T22:12:49.195Z",
       "track": "rolling-url",
-      "catalogSha256": "f53448a444d32deb18ff9f02d49f760ae0ea7aa109e9cb8441b98eba199a1830"
+      "catalogSha256": "cfcf8c342fab006a0d60e371ec469a1435b093cf56bda566e380061b3585449f"
     },
     "contentstack-docs": {
       "revision": "48c0691b708c6f774789d98cae134a11fad04b1ae5947b74bcf0de03714c58ea",
@@ -62,10 +62,10 @@
       "catalogSha256": "885f6b4d37494b413e5837391258b68a493aa8deed03417bb70c13942acf2533"
     },
     "react-docs": {
-      "revision": "46a54e0592729712b7640308b53268e84fdc7c9f",
-      "fetchedAt": "2026-11-12T22:04:32.987Z",
+      "revision": "15653c0f9b95d6c4845e614e5bcc94c7ee2128f6",
+      "fetchedAt": "2026-11-24T22:13:03.665Z",
       "track": "default-branch",
-      "catalogSha256": "b59d9ea1a191397fd72f27884bec7c0539c114daa7dc662e1c95720e43b48f7a"
+      "catalogSha256": "46d361574b89ae814a4f782df826f9ea22464e9b2d1aa66a768b4fd37b59bd64"
     },
     "tailwind-docs": {
       "revision": "7f92c2213315c195dae583d68752da4042da3ade",
@@ -74,16 +74,16 @@
       "catalogSha256": "68c47dbe1f452c975689f8b6f6cfdffb8db5178fc836f7ab14200d4f842ed39f"
     },
     "optimizely-cms-saas-docs": {
-      "revision": "6a05595c6fc6ffb7d0543ca469f350ba3435ad6a19fab194a5b2584c40cd20e3",
-      "fetchedAt": "2026-11-20T22:45:17.426Z",
+      "revision": "24fc8174018d1700d3187dbba2c8c85b7ec07619290da2ffc9e98f96c9a8285f",
+      "fetchedAt": "2026-11-24T22:13:09.599Z",
       "track": "rolling-url",
-      "catalogSha256": "847885da3618c439ed636957a5619962e64a0ac3191de6117e319a585ca17ab0"
+      "catalogSha256": "2bf7ecc68ca08200e628d714268feef7e76029afb52b8cccfb80646f9fc3bf06"
     },
     "optimizely-graph-docs": {
-      "revision": "4d8211c9fa10f17bc58a2870feeeb86ba42f750c3c38848fd8ff7469ee39af9f",
-      "fetchedAt": "2026-11-02T22:04:48.633Z",
+      "revision": "dd143c290b60521818e01bc2af007bc91f39b8217bd37ed01a928418f1f2967d",
+      "fetchedAt": "2026-11-24T22:13:11.923Z",
       "track": "rolling-url",
-      "catalogSha256": "1b98ec13222414f55fda5ef3af5557777339d4d4a51a3f1715898241e136eda2"
+      "catalogSha256": "558ad4a228886e61e0e172d5064a450167cda4bfa11ddf5540ed159aebf31131"
     },
     "typescript-docs": {
       "revision": "976aad95ddf048018db9ea74183652480b19af8c5fa898f41a0620db83f5b30b",
@@ -158,10 +158,10 @@
       "catalogSha256": "db7b2f08ebe8e5ad01d6c81c782f4ccf7a69ccbd6349510f363c181c49a394ca"
     },
     "owasp-cheat-sheets": {
-      "revision": "5f832320b0be0931ad349aab92409cf32011bcab33d52edbf323341b05e9c9cf",
-      "fetchedAt": "2026-11-16T22:21:22.252Z",
+      "revision": "13e0d9c6040997772ed793a19f61e9c61facd8fc207e7fc331da098cd4d2d04d",
+      "fetchedAt": "2026-11-24T22:13:49.964Z",
       "track": "rolling-url",
-      "catalogSha256": "1d9e8219bd86771b46133bf58f1500005df2668fcef2ba2a13b947de2d2baaa7"
+      "catalogSha256": "c7559b5cf154586cfd31c4dd6b7b32966056017e0f3fbecbdccfe3d223e5bd98"
     },
     "schemaorg-docs": {
       "revision": "fd5f6e3f496d0f569a651cc9f87b867dc9659da7d6ad010607c5bf1501822dee",
@@ -290,22 +290,22 @@
       "catalogSha256": "439215a2ef3edc84c8c69deb3601b7325b86c468bab68a8cbdf2ee78e16223b9"
     },
     "motion-docs": {
-      "revision": "cd0014c951aa1e65e6fbc83c8e3918f2882ed6d96863e74d5b1c3e01eb4bc906",
-      "fetchedAt": "2026-11-16T22:21:56.837Z",
+      "revision": "17857116e9dfea8148668d71fe18a7ea36439336c046f04a64412130a24641e3",
+      "fetchedAt": "2026-11-24T22:14:34.343Z",
       "track": "rolling-url",
-      "catalogSha256": "b808a7c0ab9088076e6ed6b012f7df799978ed2156cc507d66fdcf4bdc481b63"
+      "catalogSha256": "628a1a762a6f9ddfcc3f964219ce280f88ca7c4398dde82080f560c77a3e9b8f"
     },
     "chrome-devtools-skills": {
-      "revision": "02b146bb562e6d2c454af12e70a2ef7ae2422db1",
-      "fetchedAt": "2026-11-23T22:19:23.636Z",
+      "revision": "7fcebb2b0392bb623ee50383a8e1ef680975b4aa",
+      "fetchedAt": "2026-11-24T22:14:37.853Z",
       "track": "default-branch",
-      "catalogSha256": "44e25cc4d6ce51c1b394e1cd9fd1c537401445208f0ddc9be5fe240428e36a98"
+      "catalogSha256": "d4e808c5a7ae1b69d4a0f982ba838fd1f1d572a5df3aec2f0d2a1793765a9c24"
     },
     "agent-browser-skills": {
-      "revision": "0a923358ea989d7602f0d06507ad3447c62ffe9b",
-      "fetchedAt": "2026-11-23T22:19:26.401Z",
+      "revision": "da1268d6a259159fe0ae602e87a5fe6b8a4410bf",
+      "fetchedAt": "2026-11-24T22:14:41.900Z",
       "track": "default-branch",
-      "catalogSha256": "4355dcad32ea9291cb319121dcd20bfdb188e4b03d972c595760407f34a57ad4"
+      "catalogSha256": "0a4dd8537abc761692e8d1ab8d9fc6d83b2112fdce25921c9b4374c568ad07ca"
     },
     "agent-skills-docs": {
       "revision": "c559c83aa7aab907d45f60db66e0656c40ad908ea412d9bb9647b2bda197e798",

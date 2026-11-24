@@ -33,7 +33,7 @@ Route application authentication, authorization, sessions, data handling, inject
 <!-- brain:official:start -->
 ## Official sources
 
-- **owasp-cheat-sheets** — link catalog of 139 pages; rolling-url; revision `5f832320b0be0931ad349aab92409cf32011bcab33d52edbf323341b05e9c9cf`; fetched 2026-11-16.
+- **owasp-cheat-sheets** — link catalog of 140 pages; rolling-url; revision `13e0d9c6040997772ed793a19f61e9c61facd8fc207e7fc331da098cd4d2d04d`; fetched 2026-11-24.
   - [Catalog source](https://cheatsheetseries.owasp.org/sitemap.xml); search it with `lookup --domain security`.
 - **owasp-asvs** — link catalog of 27 pages; pinned; revision `5cf9b032440be53ce345ab3c130fda46ba1ce7a2`; fetched 2026-10-22.
   - [Catalog source](https://github.com/OWASP/ASVS/tree/5cf9b032440be53ce345ab3c130fda46ba1ce7a2/5.0/en/); search it with `lookup --domain security`.
