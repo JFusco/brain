@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       cms-field-vocabulary:
-        specifier: 1.7.0
-        version: 1.7.0
+        specifier: 1.8.0
+        version: 1.8.0
       ui-design-brain:
         specifier: 1.18.9
         version: 1.18.9
@@ -276,8 +276,8 @@ packages:
     resolution: {integrity: sha512-k7ndgKhwoQveBL+/1tqGJYNz097I7WOvwbmmU2AR5+magtbjPWQTS1C5vzGkBC8Ym8UWRzfKUzUUqFLypY4Q+w==}
     engines: {node: '>=20'}
 
-  cms-field-vocabulary@1.7.0:
-    resolution: {integrity: sha512-ct3lM5PovoDM8E/Of3/7E502fRB1Q8nWb/tKe431SIvy3MCjDsDOoo5pgAGHEtfRBg2dpAxyuhrYnzlNjklsBQ==}
+  cms-field-vocabulary@1.8.0:
+    resolution: {integrity: sha512-imV23uLHPRbwUcZsgZaFxwvaVfiz6hW6ZdiQM0c+b+fccIgL2JYNJfiuGSTRR1N+FYUjAmKsYBQf/JCb/wLYPg==}
     engines: {node: '>=24.14.0'}
     hasBin: true
 
@@ -913,7 +913,7 @@ snapshots:
       strip-ansi: 7.2.0
       wrap-ansi: 9.0.2
 
-  cms-field-vocabulary@1.7.0: {}
+  cms-field-vocabulary@1.8.0: {}
 
   conventional-changelog-angular@9.4.0:
     dependencies:
