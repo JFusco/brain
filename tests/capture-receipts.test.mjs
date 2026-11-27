@@ -107,6 +107,30 @@ test('quarantine receipts never read bodies and remain resolvable after disposit
   assert.equal(JSON.stringify(f.captureReceipt(requestId)).includes('BEGIN'), false);
 });
 
+test('separate disposition, not the preserved body status, decides whether resolution remains', async t => {
+  const f = await fixture(t),
+    requestId = randomUUID();
+  const text = 'Useful tooling guidance.\nstatus: pending\n';
+  const { id } = f.capture(text, { requestId, domain: 'tooling' });
+  const state = f.index(),
+    file = path.join(f.root, state.candidates[id].file),
+    disposition = { as: 'accepted', at: 'fixture', pr: 1, mergeCommit: 'a'.repeat(40) };
+  state.candidates[id].disposition = disposition;
+  f.save(state);
+  const receipt = f.captureReceipt(requestId);
+  assert.equal(receipt.currentStatus, 'pending');
+  assert.deepEqual(receipt.disposition, disposition);
+  assert.equal(f.inbox.show(id).includes('status: pending'), true);
+  assert.deepEqual(f.inbox.list({ all: true, backlog: true }), []);
+  for (const [as, options] of [
+    ['accepted', { pr: 1, publications: '{}' }],
+    ['rejected', {}],
+  ])
+    await assert.rejects(f.inbox.resolve([id], as, options), /already resolved/);
+  assert.deepEqual(f.index().candidates[id].disposition, disposition);
+  assert.equal(fs.readFileSync(file, 'utf8').endsWith(text), true);
+});
+
 test('pre-index interruption leaves no candidate; post-index failure still has its receipt', async t => {
   const f = await fixture(t),
     requestId = randomUUID();

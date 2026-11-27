@@ -48,6 +48,12 @@ with current guidance. A failed comparison preserves the requested audit read.
 
 Capture receipts retain existing request fields and add protocol version, incorporation mappings and lineage status. Request aliases are paginated in pages of 100; pass a returned `nextCursor` as `capture receipt --request-id UUID --cursor CURSOR` to read the next page. Historical dispositions without a map return unknown lineage.
 
+Decide whether a capture still needs resolution from the receipt's separate
+`disposition` (with its `pr`, `mergeCommit` and `publications`), not from the
+preserved body. `currentStatus` is the privacy-scan status and can remain
+`pending` after acceptance. `inbox list` omits resolved captures, and
+`inbox resolve` refuses a capture that already has a disposition.
+
 Inbox acceptance requires `--publications` mapping each accepted candidate ID
 to 1–20 unique note paths. An active entry is `{path, contentSha256}` and must
 match an eligible note at the verified merged commit. A withdrawal entry is
