@@ -27,9 +27,9 @@ aliases: ["optimizely-saas"]
   - [docs/guides/dam-assets.md](https://github.com/episerver/content-js-sdk/blob/5cb0b7a2de20b7be6e25715b21863f472594fed2/docs/guides/dam-assets.md).
   - [docs/guides/deploy-to-frontend-hosting.md](https://github.com/episerver/content-js-sdk/blob/5cb0b7a2de20b7be6e25715b21863f472594fed2/docs/guides/deploy-to-frontend-hosting.md).
   - [docs/guides/display-templates.md](https://github.com/episerver/content-js-sdk/blob/5cb0b7a2de20b7be6e25715b21863f472594fed2/docs/guides/display-templates.md).
-- **optimizely-cms-saas-docs** — link catalog of 281 pages; rolling-url; revision `6a05595c6fc6ffb7d0543ca469f350ba3435ad6a19fab194a5b2584c40cd20e3`; fetched 2026-11-20.
+- **optimizely-cms-saas-docs** — link catalog of 282 pages; rolling-url; revision `24fc8174018d1700d3187dbba2c8c85b7ec07619290da2ffc9e98f96c9a8285f`; fetched 2026-11-24.
   - [Catalog source](https://docs.optimizely.com/llms.txt); search it with `lookup --domain cms/optimizely-saas`.
-- **optimizely-graph-docs** — link catalog of 193 pages; rolling-url; revision `4d8211c9fa10f17bc58a2870feeeb86ba42f750c3c38848fd8ff7469ee39af9f`; fetched 2026-11-02.
+- **optimizely-graph-docs** — link catalog of 194 pages; rolling-url; revision `dd143c290b60521818e01bc2af007bc91f39b8217bd37ed01a928418f1f2967d`; fetched 2026-11-24.
   - [Catalog source](https://docs.optimizely.com/llms.txt); search it with `lookup --domain cms/optimizely-saas`.
 - [Official website](https://docs.optimizely.com/llms.txt) — pointer only: Machine-readable index retrieved; mirroring terms remain unverified.
 <!-- brain:official:end -->

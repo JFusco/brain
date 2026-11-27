@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "optimizely-graph-docs",
-  "revision": "4d8211c9fa10f17bc58a2870feeeb86ba42f750c3c38848fd8ff7469ee39af9f",
+  "revision": "dd143c290b60521818e01bc2af007bc91f39b8217bd37ed01a928418f1f2967d",
   "origin": "https://docs.optimizely.com/llms.txt",
   "skills": [],
   "docs": [],
@@ -910,6 +910,11 @@
       "title": "Text extraction from media",
       "url": "https://docs.optimizely.com/graph/docs/text-extraction-from-media.md",
       "fetchUrl": "https://docs.optimizely.com/graph/docs/text-extraction-from-media.md"
+    },
+    {
+      "title": "Track sync results with the Journal API",
+      "url": "https://docs.optimizely.com/graph/docs/track-sync-results-with-the-journal-api.md",
+      "fetchUrl": "https://docs.optimizely.com/graph/docs/track-sync-results-with-the-journal-api.md"
     },
     {
       "title": "Troubleshoot common errors",
